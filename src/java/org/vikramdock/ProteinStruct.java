@@ -1,0 +1,431 @@
+package org.vikramdock;
+
+import java.io.*;
+import java.util.*;
+import java.util.zip.*;
+import java.lang.*;
+import java.lang.reflect.*;
+
+public class ProteinStruct {
+	ArrayList<Atom> structure;
+	ArrayList<Atom> surface;
+	String pdbID;
+	String[] parsedsequence = new String[50];
+	HashMap chaintranslator;
+	HashMap reversechaintrans;
+	HashMap translator1;
+	HashMap translator2;
+	HashMap translator3;
+	HashMap translator4;
+	String filepath;
+	int chaincount;
+	double xcoordcent;
+	double ycoordcent;
+	double zcoordcent;
+	boolean rotated;
+	double size;
+	public ProteinStruct(String pdbID) {
+		try {
+			this.pdbID = pdbID;
+			chaintranslator = new HashMap();
+			structure = new ArrayList<Atom>();
+			surface = new ArrayList<Atom>();
+			translator1 = new HashMap();
+			translator2 = new HashMap();
+			translator3 = new HashMap();
+			translator4 = new HashMap();
+			reversechaintrans = new HashMap();
+			translator1.put("ALA",0);
+			translator1.put("CYS",1);
+			translator1.put("ASP",2);
+			translator1.put("GLU",3);
+			translator1.put("PHE",4);
+			translator1.put("GLY",5);
+			translator1.put("HIS",6);
+			translator1.put("ILE",7);
+			translator1.put("LYS",8);
+			translator1.put("LEU",9);
+			translator1.put("MET",10);
+			translator1.put("ASN",11);
+			translator1.put("PRO",12);
+			translator1.put("GLN",13);
+			translator1.put("ARG",14);
+			translator1.put("SER",15);
+			translator1.put("THR",16);
+			translator1.put("VAL",17);
+			translator1.put("TRP",18);
+			translator1.put("TYR",19);
+			translator2.put("ALA","A");
+			translator2.put("CYS","C");
+			translator2.put("ASP","D");
+			translator2.put("GLU","E");
+			translator2.put("PHE","F");
+			translator2.put("GLY","G");
+			translator2.put("HIS","H");
+			translator2.put("ILE","I");
+			translator2.put("LYS","K");
+			translator2.put("LEU","L");
+			translator2.put("MET","M");
+			translator2.put("ASN","N");
+			translator2.put("PRO","P");
+			translator2.put("GLN","Q");
+			translator2.put("ARG","R");
+			translator2.put("SER","S");
+			translator2.put("THR","T");
+			translator2.put("VAL","V");
+			translator2.put("TRP","W");
+			translator2.put("TYR","Y");
+			translator3.put("A",0);
+			translator3.put("C",1);
+			translator3.put("D",2);
+			translator3.put("E",3);
+			translator3.put("F",4);
+			translator3.put("G",5);
+			translator3.put("H",6);
+			translator3.put("I",7);
+			translator3.put("K",8);
+			translator3.put("L",9);
+			translator3.put("M",10);
+			translator3.put("N",11);
+			translator3.put("P",12);
+			translator3.put("Q",13);
+			translator3.put("R",14);
+			translator3.put("S",15);
+			translator3.put("T",16);
+			translator3.put("V",17);
+			translator3.put("W",18);
+			translator3.put("Y",19);
+			translator4.put("A","ALA");
+			translator4.put("C","CYS");
+			translator4.put("D","ASP");
+			translator4.put("E","GLU");
+			translator4.put("F","PHE");
+			translator4.put("G","GLY");
+			translator4.put("H","HIS");
+			translator4.put("I","ILE");
+			translator4.put("K","LYS");
+			translator4.put("L","LEU");
+			translator4.put("M","MET");
+			translator4.put("N","ASN");
+			translator4.put("P","PRO");
+			translator4.put("Q","GLN");
+			translator4.put("R","ARG");
+			translator4.put("S","SER");
+			translator4.put("T","THR");
+			translator4.put("V","VAL");
+			translator4.put("W","TRP");
+			translator4.put("Y","TYR");
+			this.filepath = "E:\\Research\\pdb\\wwpdb\\pdb\\".concat(pdbID.substring(1,3)).concat("\\pdb").concat(pdbID).concat(".ent.gz");
+			rotated = false;
+			parseSequence(filepath);
+			parseStructure(filepath);
+			determineSurface();
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
+		this.parsedsequence = parsedsequence;
+		this.structure = surface;
+		this.surface = surface;
+		pdbID = "INVALID";
+		rotated = true;
+		translator1 = new HashMap();
+		translator2 = new HashMap();
+		translator3 = new HashMap();
+		translator4 = new HashMap();
+		translator1.put("ALA",0);
+		translator1.put("CYS",1);
+		translator1.put("ASP",2);
+		translator1.put("GLU",3);
+		translator1.put("PHE",4);
+		translator1.put("GLY",5);
+		translator1.put("HIS",6);
+		translator1.put("ILE",7);
+		translator1.put("LYS",8);
+		translator1.put("LEU",9);
+		translator1.put("MET",10);
+		translator1.put("ASN",11);
+		translator1.put("PRO",12);
+		translator1.put("GLN",13);
+		translator1.put("ARG",14);
+		translator1.put("SER",15);
+		translator1.put("THR",16);
+		translator1.put("VAL",17);
+		translator1.put("TRP",18);
+		translator1.put("TYR",19);
+		translator2.put("ALA","A");
+		translator2.put("CYS","C");
+		translator2.put("ASP","D");
+		translator2.put("GLU","E");
+		translator2.put("PHE","F");
+		translator2.put("GLY","G");
+		translator2.put("HIS","H");
+		translator2.put("ILE","I");
+		translator2.put("LYS","K");
+		translator2.put("LEU","L");
+		translator2.put("MET","M");
+		translator2.put("ASN","N");
+		translator2.put("PRO","P");
+		translator2.put("GLN","Q");
+		translator2.put("ARG","R");
+		translator2.put("SER","S");
+		translator2.put("THR","T");
+		translator2.put("VAL","V");
+		translator2.put("TRP","W");
+		translator2.put("TYR","Y");
+		translator3.put("A",0);
+		translator3.put("C",1);
+		translator3.put("D",2);
+		translator3.put("E",3);
+		translator3.put("F",4);
+		translator3.put("G",5);
+		translator3.put("H",6);
+		translator3.put("I",7);
+		translator3.put("K",8);
+		translator3.put("L",9);
+		translator3.put("M",10);
+		translator3.put("N",11);
+		translator3.put("P",12);
+		translator3.put("Q",13);
+		translator3.put("R",14);
+		translator3.put("S",15);
+		translator3.put("T",16);
+		translator3.put("V",17);
+		translator3.put("W",18);
+		translator3.put("Y",19);
+		translator4.put("A","ALA");
+		translator4.put("C","CYS");
+		translator4.put("D","ASP");
+		translator4.put("E","GLU");
+		translator4.put("F","PHE");
+		translator4.put("G","GLY");
+		translator4.put("H","HIS");
+		translator4.put("I","ILE");
+		translator4.put("K","LYS");
+		translator4.put("L","LEU");
+		translator4.put("M","MET");
+		translator4.put("N","ASN");
+		translator4.put("P","PRO");
+		translator4.put("Q","GLN");
+		translator4.put("R","ARG");
+		translator4.put("S","SER");
+		translator4.put("T","THR");
+		translator4.put("V","VAL");
+		translator4.put("W","TRP");
+		translator4.put("Y","TYR");
+		filepath = "INVALID";
+		this.chaincount = chaincount;
+		this.xcoordcent = xcoordcent;
+		this.ycoordcent = ycoordcent;
+		this.zcoordcent = zcoordcent;
+	}
+	public void parseSequence(String filepath) throws Exception {
+		try {
+			FileInputStream fis = new FileInputStream(filepath);
+			GZIPInputStream gzis = new GZIPInputStream(fis);
+			InputStreamReader isr = new InputStreamReader(gzis);
+			BufferedReader br = new BufferedReader(isr);
+			String[] seqraw = new String[10000];
+			int seqcount = 0;
+			while(true) {
+				String s = br.readLine();
+				if(s != null) {
+					String[] ssplit = new String[20];
+					ssplit = s.split(" ");
+					if (ssplit[0].equals("SEQRES")) {
+						seqraw[seqcount] = s;
+						seqcount++;
+					}
+				} else {
+					break;
+				}
+			}
+			chaincount = -1;
+			for (int i = 0; i < 10; i++) {
+				parsedsequence[i] = "";
+			}
+			char currentchain = ' ';
+			char newchain = ' ';
+			for (int i = 0; i < seqcount; i++) {
+				if(currentchain != seqraw[i].charAt(11)) {
+					chaincount = chaincount + 1;
+					newchain = seqraw[i].charAt(11);
+					chaintranslator.put(newchain,chaincount);
+					reversechaintrans.put(chaincount,newchain);
+					currentchain = newchain; 
+					for (int j = 19; j <= 67; j=j+4) {
+						if (translator2.get(seqraw[i].substring(j,j+3)) != null) {
+							parsedsequence[chaincount] = parsedsequence[chaincount] + translator2.get(seqraw[i].substring(j,j+3));
+						}
+					}
+				} else {
+					for (int j = 19; j <= 67; j=j+4) {
+						if (translator2.get(seqraw[i].substring(j,j+3)) != null) {
+							parsedsequence[chaincount] = parsedsequence[chaincount] + translator2.get(seqraw[i].substring(j,j+3));
+						}
+					}
+				}
+			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
+			throw ex;
+		}
+	}
+	public void parseStructure(String filepath) throws Exception {
+		try {
+			FileInputStream fis = new FileInputStream(filepath);
+			GZIPInputStream gzis = new GZIPInputStream(fis);
+			InputStreamReader isr = new InputStreamReader(gzis);
+			BufferedReader br = new BufferedReader(isr);
+			String[] structraw = new String[10000];
+			int structcount = 0;
+			while(true) {
+				String s = br.readLine();
+				if(s != null) {
+					String[] ssplit = new String[20];
+					ssplit = s.split(" ");
+					if (ssplit[0].equals("ATOM")) {
+						structraw[structcount] = s;
+						structcount++;
+					}
+				} else {
+					break;
+				}
+			}
+			double xcoordsum = 0;
+			double ycoordsum = 0;
+			double zcoordsum = 0;
+			for (int i = 0; i < structcount; i++) {
+				String catom = structraw[i];
+				double xcoord = Double.parseDouble(removeSpace(catom.substring(30,38)));
+				double ycoord = Double.parseDouble(removeSpace(catom.substring(38,46)));
+				double zcoord = Double.parseDouble(removeSpace(catom.substring(46,54)));
+				char element = catom.charAt(77);
+				int resnum = Integer.parseInt(removeSpace(catom.substring(22,26)));
+				int atomnum = Integer.parseInt(removeSpace(catom.substring(6,11)));
+				int chainnum = Integer.parseInt(chaintranslator.get(catom.charAt(21)).toString());
+				String eType = removeSpace(catom.substring(12,16));
+				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chainnum, eType);
+				structure.add(next);
+				xcoordsum += xcoord;
+				ycoordsum += ycoord;
+				zcoordsum += zcoord;
+			}
+			xcoordcent = xcoordsum/structcount;
+			ycoordcent = ycoordsum/structcount;
+			zcoordcent = zcoordsum/structcount;
+		} catch (Exception ex) {
+			ex.printStackTrace();
+			throw ex;
+		}
+	}
+	public void determineSurface() {
+		ArrayList newstructure = new ArrayList<Atom>();
+		for (int i = 0; i < structure.size(); i++) {
+			Atom current = (Atom)structure.get(i);
+			Atom trcurrent = current.transAtom(-xcoordcent, -ycoordcent, -zcoordcent);
+			newstructure.add(trcurrent);
+		}
+		ArrayList structurenew = new ArrayList<Atom>();
+		for (int i = 0; i < newstructure.size(); i++) {
+			Atom current = (Atom)newstructure.get(i);
+			current.setSpherical();
+			structurenew.add(current);
+		}
+		int space = Constants.SPACE;
+		double maxnumoverall = 0;
+		for (double i = 0; i < 2*Math.PI; i += space*Math.PI/180) {
+			for (double j = space*Math.PI/360; j < Math.PI; j += space*Math.PI/180) {
+				double maxnum = 0;
+				for (int k = 0; k < structurenew.size(); k++) {
+					Atom current = (Atom)structurenew.get(k);
+					if (Math.abs(current.getYcoord() - i) <= space*Math.PI/360 && Math.abs(current.getZcoord() - j) <= space*Math.PI/360 && current.getXcoord() >= maxnum) {
+						maxnum = current.getXcoord();
+					}
+					if (current.getXcoord() >= maxnumoverall) {
+						maxnumoverall = current.getXcoord();
+					}
+				}
+				for (int k = 0; k < structurenew.size(); k++) {
+					Atom current = (Atom)structurenew.get(k);
+					if (Math.abs(current.getYcoord() - i) <= space*Math.PI/360 && Math.abs(current.getZcoord() - j) <= space*Math.PI/360 && maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE) {
+						surface.add(this.structure.get(k));
+					}
+				}
+			}
+		}
+		size = maxnumoverall;
+	}
+	public String removeSpace(String test) {
+		String answer = "";
+		for (int i = 0; i < test.length(); i++) {
+			if (test.charAt(i) != ' ') {
+				answer = answer + test.charAt(i);
+			}
+		}
+		return answer;
+	}
+	public String getFilepath() {
+		return filepath;
+	}
+	public String[] getSequence() {
+		return parsedsequence;
+	}
+	public ArrayList getStructure() {
+		return structure;
+	}
+	public ArrayList getSurface() {
+		return surface;
+	}
+	public double getXCoordCent() {
+		return xcoordcent;
+	}
+	public double getYCoordCent() {
+		return ycoordcent;
+	}
+	public double getZCoordCent() {
+		return zcoordcent;
+	}
+	public double getSize() {
+		return size;
+	}
+	public double[] getCent() {
+		double[] centcoords = new double[3];
+		centcoords[0] = xcoordcent;
+		centcoords[1] = ycoordcent;
+		centcoords[2] = zcoordcent;
+		return centcoords;
+	}
+	public ProteinStruct transrot(double xmov, double ymov, double zmov, double theta, double phi) {
+		ArrayList<Atom> newstruct = new ArrayList<Atom>();
+		for (int i = 0; i < surface.size(); i++) {
+			Atom current = (Atom)surface.get(i);
+			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
+			newstruct.add(trcurrent);
+		}
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		return answer;
+	} 
+	public void printSequence() {
+		System.out.println("BEGIN SEQUENCE OF " + pdbID);
+		for (int i = 0; i < chaincount; i++) {
+			System.out.println("SEQUENCE CHAIN NO " + i + " " + parsedsequence[i]);
+		}
+		System.out.println("END SEQUENCE OF " + pdbID);
+	}
+	public void printStructure() {
+		System.out.println("BEGIN STRUCTURE OF " + pdbID);
+		for (int i = 0; i < structure.size(); i++) {
+			Atom current = (Atom)structure.get(i);
+			current.printAtom();
+		}
+		System.out.println("END STRUCTURE OF " + pdbID);
+	}
+	public void printSurface() {
+		for (int i = 0; i < surface.size(); i++) {
+			Atom current = (Atom)surface.get(i);
+			current.printAtomPDB();
+		}
+	}
+}
