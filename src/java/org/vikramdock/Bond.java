@@ -16,6 +16,13 @@ public class Bond {
 		this.second = second;
 		equildist = first.distance(second);
 		this.k = k;
+		first.addBond(this);
+		second.addBond(this);
+		if (equildist > Constants.BONDDISTHRES) {
+			System.err.println("BOND TOO LARGE");
+			first.printAtom();
+			second.printAtom();
+		}
 	}
 	public Atom getFirst() {
 		return first;

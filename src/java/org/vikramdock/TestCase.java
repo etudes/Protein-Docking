@@ -230,31 +230,30 @@ public class TestCase {
 				}
 			}
 		}
-		for (int i = 0; i < ps1struct.size(); i++) {
-			Atom current = (Atom)ps1struct.get(i);
-			char currente = current.getElement();
-			double mindist = Constants.BONDDISTHRES;
-			ArrayList<Atom> bondedto = new ArrayList<Atom>();
-			for (int j = 0; j < ps1struct.size(); j++) {
-				Atom test = (Atom) ps1struct.get(j);
-				char teste = current.getElement();
-				if (true /*works*/) {
-					double curdistance = current.distance(test);
-					if (mindist >= curdistance) {
-						bondedto.add(test);
-					}
-				}
-			}
-			//bond stretching
-			
-			//angle bending
-			//torsion
+		//bond stretching
+		ArrayList ps1bonds = ps1.getSurfaceBonds();
+		for (int i = 0; i < ps1bonds.size(); i++) {
+			double bStretchE = 0;
+			Bond current = (Bond)ps1bonds.get(i);
+			Atom first = ps1.getAtomByNum(current.getFirst().getAtomnum());
+			Atom second = ps1.getAtomByNum(current.getSecond().getAtomnum());
+			double distance = first.distance(second);
+			bStretchE = current.bondE(distance);
+			bStretchEtot += bStretchE;
 		}
-		for (int i = 0; i < ps2struct.size(); i++) {
-			Atom current = (Atom)ps2struct.get(i);
-			//bond stretching
-			//angle bending
-			//torsion
+		ArrayList ps2bonds = newps.getSurfaceBonds();
+		for (int i = 0; i < ps2bonds.size(); i++) {
+			double bStretchE = 0;
+			Bond current = (Bond)ps2bonds.get(i);
+			Atom first = newps.getAtomByNum(current.getFirst().getAtomnum());
+			Atom second = newps.getAtomByNum(current.getSecond().getAtomnum());
+			double distance = first.distance(second);
+			bStretchE = current.bondE(distance);
+			bStretchEtot += bStretchE;
+		}
+		ArrayList ps1backbone = ps1.getBackbone();
+		for (int i = 0; i < ps1backbone.size(); i++) {
+			double aBendE = 0;
 		}
 		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.HBONDSCALE * hBondEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;

@@ -13,7 +13,8 @@ public class Constants {
 	public static final double VDWDISTTHRESHOLD = 5;
 	public static final double HBONDTHRESHOLD = 10000;
 	public static final double HBDISTTHRESHOLD = 5;
-	public static final double BONDDISTHRES = 3;
+	public static final double BONDDISTHRES = 5;
+	public static final double BONDCONST = 1;
 	public static final double SCORETHRES = 100;
 	public static final double VDWSCALE = 1;
 	public static final double HBONDSCALE = 1;
