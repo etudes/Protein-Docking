@@ -30,9 +30,9 @@ public class ProteinStruct {
 	double zcoordcent;
 	boolean rotated;
 	double size;
-	public ProteinStruct(String pdbID) {
+	public ProteinStruct(String filepath) {
 		try {
-			this.pdbID = pdbID;
+			this.pdbID = "INVALID";
 			chaintranslator = new HashMap();
 			structure = new ArrayList<Atom>();
 			surface = new ArrayList<Atom>();
@@ -127,7 +127,7 @@ public class ProteinStruct {
 			translator4.put("V","VAL");
 			translator4.put("W","TRP");
 			translator4.put("Y","TYR");
-			this.filepath = "E:\\Research\\pdb\\wwpdb\\pdb\\".concat(pdbID.substring(1,3)).concat("\\pdb").concat(pdbID).concat(".ent.gz");
+			this.filepath = filepath;
 			rotated = false;
 			parseSequence(filepath);
 			parseStructure(filepath);
@@ -242,8 +242,7 @@ public class ProteinStruct {
 	public void parseSequence(String filepath) throws Exception {
 		try {
 			FileInputStream fis = new FileInputStream(filepath);
-			GZIPInputStream gzis = new GZIPInputStream(fis);
-			InputStreamReader isr = new InputStreamReader(gzis);
+			InputStreamReader isr = new InputStreamReader(fis);
 			BufferedReader br = new BufferedReader(isr);
 			String[] seqraw = new String[10000];
 			int seqcount = 0;
@@ -294,8 +293,7 @@ public class ProteinStruct {
 	public void parseStructure(String filepath) throws Exception {
 		try {
 			FileInputStream fis = new FileInputStream(filepath);
-			GZIPInputStream gzis = new GZIPInputStream(fis);
-			InputStreamReader isr = new InputStreamReader(gzis);
+			InputStreamReader isr = new InputStreamReader(fis);
 			BufferedReader br = new BufferedReader(isr);
 			String[] structraw = new String[10000];
 			int structcount = 0;
@@ -320,11 +318,17 @@ public class ProteinStruct {
 				double xcoord = Double.parseDouble(removeSpace(catom.substring(30,38)));
 				double ycoord = Double.parseDouble(removeSpace(catom.substring(38,46)));
 				double zcoord = Double.parseDouble(removeSpace(catom.substring(46,54)));
-				char element = catom.charAt(77);
+				char element = ' ';
+				if (catom.length() > 77) {
+					element = catom.charAt(77);
+				}				
 				int resnum = Integer.parseInt(removeSpace(catom.substring(22,26)));
 				int atomnum = Integer.parseInt(removeSpace(catom.substring(6,11)));
 				int chainnum = Integer.parseInt(chaintranslator.get(catom.charAt(21)).toString());
 				String eType = removeSpace(catom.substring(12,16));
+				if (element == ' ') {
+					element = eType.charAt(0);
+				}
 				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chainnum, eType);
 				structure.add(next);
 				xcoordsum += xcoord;
@@ -394,6 +398,11 @@ public class ProteinStruct {
 		Atom CAatom = null;
 		Atom Natom = null;
 		Atom Oatom = null;
+		Atom CatomLast = null;
+		Bond newb1 = null;
+		Bond newb2 = null;
+		Bond newb3 = null;
+		char restype = ' ';
 		for (int i = 0; i < AminoAcid.size(); i++) {
 			Atom current = (Atom)AminoAcid.get(i);
 			if (current.getEtype() == "C") {
@@ -406,602 +415,16 @@ public class ProteinStruct {
 				Oatom = current;
 			}
 		}
-		backbone.add(Catom);
-		backbone.add(CAatom);
-		backbone.add(Natom);
-		Bond newb1 = new Bond(Natom, CAatom, Constants.BONDCONST);
-		Bond newb2 = new Bond(CAatom, Catom, Constants.BONDCONST);
-		Bond newb3 = new Bond(Catom, Oatom, Constants.BONDCONST);
-		bonds.add(newb1);
-		bonds.add(newb2);
-		bonds.add(newb3);
-		backbonebonds.add(newb1);
-		backbonebonds.add(newb2);
-		Atom CatomLast = Catom;
-		char restype = parsedsequence[CAatom.getChainnum()].charAt(resnum - 1);
-		AminoAcid.remove(Catom);
-		AminoAcid.remove(CAatom);
-		AminoAcid.remove(Natom);
-		AminoAcid.remove(Oatom);
-		if (restype == 'A') {
-			Atom CBatom = AminoAcid.get(0);
-			Bond newb4 = new Bond(CBatom, CAatom, Constants.BONDCONST); 
-			bonds.add(newb4);
-		} else if (restype == 'C') {
-			Atom CBatom = null;
-			Atom SGatom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else {
-					SGatom = current;
-				}
-			}
-			Bond newb4 = new Bond(CBatom, CAatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, SGatom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-		} else if (restype == 'D') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom OD1atom = null;
-			Atom OD2atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "OD1") {
-					OD1atom = current;
-				} else {
-					OD2atom = current;
-				}
-			}
-			Bond newb7 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb4 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CGatom, OD1atom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, OD2atom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-		} else if (restype == 'E') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom CDatom = null;
-			Atom OE1atom = null;
-			Atom OE2atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "CD") {
-					CDatom = current;
-				} else if (current.getEtype() == "OE1") {
-					OE1atom = current;
-				} else {
-					OE2atom = current;
-				}
-			}
-			Bond newb4 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CDatom, OE1atom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CDatom, OE2atom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CGatom, CDatom, Constants.BONDCONST);
-			Bond newb8 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-			bonds.add(newb8);
-		} else if (restype == 'F') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom CD1atom = null;
-			Atom CD2atom = null;
-			Atom CE1atom = null;
-			Atom CE2atom = null;
-			Atom CZatom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "CD1") {
-					CD1atom = current;
-				} else if (current.getEtype() == "CD2") {
-					CD2atom = current;
-				} else if (current.getEtype() == "CE1") {
-					CE1atom = current;
-				} else if (current.getEtype() == "CE2") {
-					CE2atom = current;
-				} else {
-					CZatom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, CD1atom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CD1atom, CD2atom, Constants.BONDCONST);
-			Bond newb8 = new Bond(CD2atom, CZatom, Constants.BONDCONST);
-			Bond newb9 = new Bond(CZatom, CE1atom, Constants.BONDCONST);
-			Bond newb10 = new Bond(CE1atom, CE2atom, Constants.BONDCONST);
-			Bond newb11 = new Bond(CE2atom, CGatom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-			bonds.add(newb8);
-			bonds.add(newb9);
-			bonds.add(newb10);
-			bonds.add(newb11);	
-		} else if (restype == 'G') {
-			//This is intentionally left blank.
-		} else if (restype == 'H') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom ND1atom = null;
-			Atom CD2atom = null;
-			Atom CE1atom = null;
-			Atom NE2atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "ND1") {
-					ND1atom = current;
-				} else if (current.getEtype() == "CD2") {
-					CD2atom = current;
-				} else if (current.getEtype() == "CE1") {
-					CE1atom = current;
-				} else {
-					NE2atom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, ND1atom, Constants.BONDCONST);
-			Bond newb7 = new Bond(ND1atom, CD2atom, Constants.BONDCONST);
-			Bond newb10 = new Bond(CE1atom, NE2atom, Constants.BONDCONST);
-			Bond newb11 = new Bond(NE2atom, CGatom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-			bonds.add(newb10);
-			bonds.add(newb11);	
-		} else if (restype == 'I') {
-			Atom CBatom = null;
-			Atom CG1atom = null;
-			Atom CG2atom = null;
-			Atom CD1atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG1") {
-					CG1atom = current;
-				} else if (current.getEtype() == "CG2") {
-					CG2atom = current;
-				} else {
-					CD1atom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CG1atom, CG2atom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CBatom, CD1atom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-		} else if (restype == 'K') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom CDatom = null;
-			Atom CEatom = null;
-			Atom NZatom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "CD") {
-					CDatom = current;
-				} else if (current.getEtype() == "CE") {
-					CEatom = current;
-				} else {
-					NZatom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, CDatom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CDatom, CEatom, Constants.BONDCONST);
-			Bond newb8 = new Bond(CEatom, NZatom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-			bonds.add(newb8);
-		} else if (restype == 'L') {
-			Atom CBatom = null;
-			Atom CG1atom = null;
-			Atom CD2atom = null;
-			Atom CD1atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG1") {
-					CG1atom = current;
-				} else if (current.getEtype() == "CD2") {
-					CD2atom = current;
-				} else {
-					CD1atom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CG1atom, CD2atom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CG1atom, CD1atom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-		} else if (restype == 'M') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom SDatom = null;
-			Atom CEatom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "SD") {
-					SDatom = current;
-				} else {
-					CEatom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, SDatom, Constants.BONDCONST);
-			Bond newb7 = new Bond(SDatom, CEatom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-		} else if (restype == 'N') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom OD1atom = null;
-			Atom ND2atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "OD1") {
-					OD1atom = current;
-				} else {
-					ND2atom = current;
-				}
-			}
-			Bond newb7 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb4 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CGatom, OD1atom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, ND2atom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-		} else if (restype == 'P') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom CDatom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else {
-					CDatom = current;
-				} 
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, CDatom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CDatom, Natom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-		} else if (restype == 'Q') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom CDatom = null;
-			Atom OE1atom = null;
-			Atom NE2atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "CD") {
-					CDatom = current;
-				} else if (current.getEtype() == "OE1") {
-					OE1atom = current;
-				} else {
-					NE2atom = current;
-				}
-			}
-			Bond newb4 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CDatom, OE1atom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CDatom, NE2atom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CGatom, CDatom, Constants.BONDCONST);
-			Bond newb8 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-			bonds.add(newb8);
-		} else if (restype == 'R') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom CDatom = null;
-			Atom NEatom = null;
-			Atom CZatom = null;
-			Atom NH1atom = null;
-			Atom NH2atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "CD") {
-					CDatom = current;
-				} else if (current.getEtype() == "NE") {
-					NEatom = current;
-				} else if (current.getEtype() == "CZ") {
-					CZatom = current;
-				} else if (current.getEtype() == "NH1") {
-					NH1atom = current;
-				} else {
-					NH2atom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, CDatom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CDatom, NEatom, Constants.BONDCONST);
-			Bond newb8 = new Bond(NEatom, CZatom, Constants.BONDCONST);
-			Bond newb9 = new Bond(CZatom, NH1atom, Constants.BONDCONST);
-			Bond newb10 = new Bond(CZatom, NH2atom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-			bonds.add(newb8);
-			bonds.add(newb9);
-			bonds.add(newb10);
-		} else if (restype == 'S') {
-			Atom CBatom = null;
-			Atom OGatom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else {
-					OGatom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, OGatom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-		} else if (restype == 'T') {
-			Atom CBatom = null;
-			Atom CG1atom = null;
-			Atom OG2atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG1") {
-					CG1atom = current;
-				} else {
-					OG2atom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CBatom, OG2atom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-		} else if (restype == 'V') {
-			Atom CBatom = null;
-			Atom CG1atom = null;
-			Atom CG2atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG1") {
-					CG1atom = current;
-				} else {
-					CG2atom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CBatom, CG2atom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-		} else if (restype == 'W') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom CD1atom = null;
-			Atom CD2atom = null;
-			Atom NE1atom = null;
-			Atom CE2atom = null;
-			Atom CE3atom = null;
-			Atom CZ2atom = null;
-			Atom CZ3atom = null;
-			Atom CH2atom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "CD1") {
-					CD1atom = current;
-				} else if (current.getEtype() == "CD2") {
-					CD2atom = current;
-				} else if (current.getEtype() == "NE1") {
-					NE1atom = current;
-				} else if (current.getEtype() == "CE2") {
-					CE2atom = current;
-				} else if (current.getEtype() == "CZ2") {
-					CZ2atom = current;
-				} else if (current.getEtype() == "CZ3") {
-					CZ3atom = current;
-				} else {
-					CH2atom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, CD1atom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CGatom, CD2atom, Constants.BONDCONST);
-			Bond newb8 = new Bond(CD1atom, NE1atom, Constants.BONDCONST);
-			Bond newb9 = new Bond(CD2atom, CE2atom, Constants.BONDCONST);
-			Bond newb10 = new Bond(CD2atom, CE3atom, Constants.BONDCONST);
-			Bond newb11 = new Bond(CE2atom, CZ2atom, Constants.BONDCONST);
-			Bond newb12 = new Bond(CE3atom, CZ3atom, Constants.BONDCONST);
-			Bond newb13 = new Bond(CZ2atom, CH2atom, Constants.BONDCONST);
-			Bond newb14 = new Bond(CZ3atom, CH2atom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-			bonds.add(newb8);
-			bonds.add(newb9);
-			bonds.add(newb10);
-			bonds.add(newb11);	
-			bonds.add(newb12);
-			bonds.add(newb13);
-			bonds.add(newb14);
-		} else if (restype == 'Y') {
-			Atom CBatom = null;
-			Atom CGatom = null;
-			Atom CD1atom = null;
-			Atom CD2atom = null;
-			Atom CE1atom = null;
-			Atom CE2atom = null;
-			Atom CZatom = null;
-			Atom OHatom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "CB") {
-					CBatom = current;
-				} else if (current.getEtype() == "CG") {
-					CGatom = current;
-				} else if (current.getEtype() == "CD1") {
-					CD1atom = current;
-				} else if (current.getEtype() == "CD2") {
-					CD2atom = current;
-				} else if (current.getEtype() == "CE1") {
-					CE1atom = current;
-				} else if (current.getEtype() == "CE2") {
-					CE2atom = current;
-				} else if (current.getEtype() == "CZ") {
-					CZatom = current;
-				} else {
-					OHatom = current;
-				}
-			}
-			Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-			Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
-			Bond newb6 = new Bond(CGatom, CD1atom, Constants.BONDCONST);
-			Bond newb7 = new Bond(CD1atom, CD2atom, Constants.BONDCONST);
-			Bond newb8 = new Bond(CD2atom, CZatom, Constants.BONDCONST);
-			Bond newb9 = new Bond(CZatom, CE1atom, Constants.BONDCONST);
-			Bond newb10 = new Bond(CE1atom, CE2atom, Constants.BONDCONST);
-			Bond newb11 = new Bond(CE2atom, CGatom, Constants.BONDCONST);
-			Bond newb12 = new Bond(CZatom, OHatom, Constants.BONDCONST);
-			bonds.add(newb4);
-			bonds.add(newb5);
-			bonds.add(newb6);
-			bonds.add(newb7);
-			bonds.add(newb8);
-			bonds.add(newb9);
-			bonds.add(newb10);
-			bonds.add(newb11);	
-			bonds.add(newb12);
-		} else {
-			System.err.println("UNKNOWN RES TYPE " + restype);
-		}
-		while (true) {
-			first = (Atom)structure.get(counter);
-			resnum = first.getResnum();
-			if (counter >= structure.size()) {
-				break;
-			}
-			for (int i = counter; i < structure.size(); i++) {
-				Atom current = (Atom)structure.get(i);
-				if (current.getResnum() == first.getResnum()) {
-					AminoAcid.add(current);
-					counter = i;
-				} else {
-					counter = i;
-					break;
-				}
-			}
-			Catom = null;
-			CAatom = null;
-			Natom = null;
-			Oatom = null;
-			for (int i = 0; i < AminoAcid.size(); i++) {
-				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "C") {
-					Catom = current;
-				} else if (current.getEtype() == "CA") {
-					CAatom = current;
-				} else if (current.getEtype() == "N") {
-					Natom = current;
-				} else if (current.getEtype() == "O") {
-					Oatom = current;
-				}
-			}
+		if (Catom != null && CAatom != null && Natom != null && Oatom != null) {
 			backbone.add(Catom);
 			backbone.add(CAatom);
 			backbone.add(Natom);
-			Bond newb0 = new Bond(CatomLast, Natom, Constants.BONDCONST);
 			newb1 = new Bond(Natom, CAatom, Constants.BONDCONST);
 			newb2 = new Bond(CAatom, Catom, Constants.BONDCONST);
 			newb3 = new Bond(Catom, Oatom, Constants.BONDCONST);
-			bonds.add(newb0);
 			bonds.add(newb1);
 			bonds.add(newb2);
 			bonds.add(newb3);
-			backbonebonds.add(newb0);
 			backbonebonds.add(newb1);
 			backbonebonds.add(newb2);
 			CatomLast = Catom;
@@ -1544,6 +967,597 @@ public class ProteinStruct {
 				bonds.add(newb12);
 			} else {
 				System.err.println("UNKNOWN RES TYPE " + restype);
+			}
+		}
+		while (true) {
+			first = (Atom)structure.get(counter);
+			resnum = first.getResnum();
+			if (counter >= structure.size() - 1) {
+				break;
+			}
+			System.out.println(counter + " " + structure.size());
+			for (int i = counter; i < structure.size(); i++) {
+				Atom current = (Atom)structure.get(i);
+				if (current.getResnum() == first.getResnum()) {
+					AminoAcid.add(current);
+					counter = i;
+				} else {
+					counter = i;
+					break;
+				}
+			}
+			Catom = null;
+			CAatom = null;
+			Natom = null;
+			Oatom = null;
+			for (int i = 0; i < AminoAcid.size(); i++) {
+				Atom current = (Atom)AminoAcid.get(i);
+				if (current.getEtype() == "C") {
+					Catom = current;
+				} else if (current.getEtype() == "CA") {
+					CAatom = current;
+				} else if (current.getEtype() == "N") {
+					Natom = current;
+				} else if (current.getEtype() == "O") {
+					Oatom = current;
+				}
+			}
+			if (Catom != null && CAatom != null && Natom != null && Oatom != null && CatomLast != null) {
+				backbone.add(Catom);
+				backbone.add(CAatom);
+				backbone.add(Natom);
+				Bond newb0 = new Bond(CatomLast, Natom, Constants.BONDCONST);
+				newb1 = new Bond(Natom, CAatom, Constants.BONDCONST);
+				newb2 = new Bond(CAatom, Catom, Constants.BONDCONST);
+				newb3 = new Bond(Catom, Oatom, Constants.BONDCONST);
+				bonds.add(newb0);
+				bonds.add(newb1);
+				bonds.add(newb2);
+				bonds.add(newb3);
+				backbonebonds.add(newb0);
+				backbonebonds.add(newb1);
+				backbonebonds.add(newb2);
+				CatomLast = Catom;
+				restype = parsedsequence[CAatom.getChainnum()].charAt(resnum - 1);
+				AminoAcid.remove(Catom);
+				AminoAcid.remove(CAatom);
+				AminoAcid.remove(Natom);
+				AminoAcid.remove(Oatom);
+				if (restype == 'A') {
+					Atom CBatom = AminoAcid.get(0);
+					Bond newb4 = new Bond(CBatom, CAatom, Constants.BONDCONST); 
+					bonds.add(newb4);
+				} else if (restype == 'C') {
+					Atom CBatom = null;
+					Atom SGatom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else {
+							SGatom = current;
+						}
+					}
+					Bond newb4 = new Bond(CBatom, CAatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, SGatom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+				} else if (restype == 'D') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom OD1atom = null;
+					Atom OD2atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "OD1") {
+							OD1atom = current;
+						} else {
+							OD2atom = current;
+						}
+					}
+					Bond newb7 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb4 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CGatom, OD1atom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, OD2atom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+				} else if (restype == 'E') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom CDatom = null;
+					Atom OE1atom = null;
+					Atom OE2atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "CD") {
+							CDatom = current;
+						} else if (current.getEtype() == "OE1") {
+							OE1atom = current;
+						} else {
+							OE2atom = current;
+						}
+					}
+					Bond newb4 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CDatom, OE1atom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CDatom, OE2atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CGatom, CDatom, Constants.BONDCONST);
+					Bond newb8 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+					bonds.add(newb8);
+				} else if (restype == 'F') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom CD1atom = null;
+					Atom CD2atom = null;
+					Atom CE1atom = null;
+					Atom CE2atom = null;
+					Atom CZatom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "CD1") {
+							CD1atom = current;
+						} else if (current.getEtype() == "CD2") {
+							CD2atom = current;
+						} else if (current.getEtype() == "CE1") {
+							CE1atom = current;
+						} else if (current.getEtype() == "CE2") {
+							CE2atom = current;
+						} else {
+							CZatom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, CD1atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CD1atom, CD2atom, Constants.BONDCONST);
+					Bond newb8 = new Bond(CD2atom, CZatom, Constants.BONDCONST);
+					Bond newb9 = new Bond(CZatom, CE1atom, Constants.BONDCONST);
+					Bond newb10 = new Bond(CE1atom, CE2atom, Constants.BONDCONST);
+					Bond newb11 = new Bond(CE2atom, CGatom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+					bonds.add(newb8);
+					bonds.add(newb9);
+					bonds.add(newb10);
+					bonds.add(newb11);	
+				} else if (restype == 'G') {
+					//This is intentionally left blank.
+				} else if (restype == 'H') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom ND1atom = null;
+					Atom CD2atom = null;
+					Atom CE1atom = null;
+					Atom NE2atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "ND1") {
+							ND1atom = current;
+						} else if (current.getEtype() == "CD2") {
+							CD2atom = current;
+						} else if (current.getEtype() == "CE1") {
+							CE1atom = current;
+						} else {
+							NE2atom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, ND1atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(ND1atom, CD2atom, Constants.BONDCONST);
+					Bond newb10 = new Bond(CE1atom, NE2atom, Constants.BONDCONST);
+					Bond newb11 = new Bond(NE2atom, CGatom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+					bonds.add(newb10);
+					bonds.add(newb11);	
+				} else if (restype == 'I') {
+					Atom CBatom = null;
+					Atom CG1atom = null;
+					Atom CG2atom = null;
+					Atom CD1atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG1") {
+							CG1atom = current;
+						} else if (current.getEtype() == "CG2") {
+							CG2atom = current;
+						} else {
+							CD1atom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CG1atom, CG2atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CBatom, CD1atom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+				} else if (restype == 'K') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom CDatom = null;
+					Atom CEatom = null;
+					Atom NZatom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "CD") {
+							CDatom = current;
+						} else if (current.getEtype() == "CE") {
+							CEatom = current;
+						} else {
+							NZatom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, CDatom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CDatom, CEatom, Constants.BONDCONST);
+					Bond newb8 = new Bond(CEatom, NZatom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+					bonds.add(newb8);
+				} else if (restype == 'L') {
+					Atom CBatom = null;
+					Atom CG1atom = null;
+					Atom CD2atom = null;
+					Atom CD1atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG1") {
+							CG1atom = current;
+						} else if (current.getEtype() == "CD2") {
+							CD2atom = current;
+						} else {
+							CD1atom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CG1atom, CD2atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CG1atom, CD1atom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+				} else if (restype == 'M') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom SDatom = null;
+					Atom CEatom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "SD") {
+							SDatom = current;
+						} else {
+							CEatom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, SDatom, Constants.BONDCONST);
+					Bond newb7 = new Bond(SDatom, CEatom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+				} else if (restype == 'N') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom OD1atom = null;
+					Atom ND2atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "OD1") {
+							OD1atom = current;
+						} else {
+							ND2atom = current;
+						}
+					}
+					Bond newb7 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb4 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CGatom, OD1atom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, ND2atom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+				} else if (restype == 'P') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom CDatom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else {
+							CDatom = current;
+						} 
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, CDatom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CDatom, Natom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+				} else if (restype == 'Q') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom CDatom = null;
+					Atom OE1atom = null;
+					Atom NE2atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "CD") {
+							CDatom = current;
+						} else if (current.getEtype() == "OE1") {
+							OE1atom = current;
+						} else {
+							NE2atom = current;
+						}
+					}
+					Bond newb4 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CDatom, OE1atom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CDatom, NE2atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CGatom, CDatom, Constants.BONDCONST);
+					Bond newb8 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+					bonds.add(newb8);
+				} else if (restype == 'R') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom CDatom = null;
+					Atom NEatom = null;
+					Atom CZatom = null;
+					Atom NH1atom = null;
+					Atom NH2atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "CD") {
+							CDatom = current;
+						} else if (current.getEtype() == "NE") {
+							NEatom = current;
+						} else if (current.getEtype() == "CZ") {
+							CZatom = current;
+						} else if (current.getEtype() == "NH1") {
+							NH1atom = current;
+						} else {
+							NH2atom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, CDatom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CDatom, NEatom, Constants.BONDCONST);
+					Bond newb8 = new Bond(NEatom, CZatom, Constants.BONDCONST);
+					Bond newb9 = new Bond(CZatom, NH1atom, Constants.BONDCONST);
+					Bond newb10 = new Bond(CZatom, NH2atom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+					bonds.add(newb8);
+					bonds.add(newb9);
+					bonds.add(newb10);
+				} else if (restype == 'S') {
+					Atom CBatom = null;
+					Atom OGatom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else {
+							OGatom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, OGatom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+				} else if (restype == 'T') {
+					Atom CBatom = null;
+					Atom CG1atom = null;
+					Atom OG2atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG1") {
+							CG1atom = current;
+						} else {
+							OG2atom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CBatom, OG2atom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+				} else if (restype == 'V') {
+					Atom CBatom = null;
+					Atom CG1atom = null;
+					Atom CG2atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG1") {
+							CG1atom = current;
+						} else {
+							CG2atom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CBatom, CG2atom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+				} else if (restype == 'W') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom CD1atom = null;
+					Atom CD2atom = null;
+					Atom NE1atom = null;
+					Atom CE2atom = null;
+					Atom CE3atom = null;
+					Atom CZ2atom = null;
+					Atom CZ3atom = null;
+					Atom CH2atom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "CD1") {
+							CD1atom = current;
+						} else if (current.getEtype() == "CD2") {
+							CD2atom = current;
+						} else if (current.getEtype() == "NE1") {
+							NE1atom = current;
+						} else if (current.getEtype() == "CE2") {
+							CE2atom = current;
+						} else if (current.getEtype() == "CZ2") {
+							CZ2atom = current;
+						} else if (current.getEtype() == "CZ3") {
+							CZ3atom = current;
+						} else {
+							CH2atom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, CD1atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CGatom, CD2atom, Constants.BONDCONST);
+					Bond newb8 = new Bond(CD1atom, NE1atom, Constants.BONDCONST);
+					Bond newb9 = new Bond(CD2atom, CE2atom, Constants.BONDCONST);
+					Bond newb10 = new Bond(CD2atom, CE3atom, Constants.BONDCONST);
+					Bond newb11 = new Bond(CE2atom, CZ2atom, Constants.BONDCONST);
+					Bond newb12 = new Bond(CE3atom, CZ3atom, Constants.BONDCONST);
+					Bond newb13 = new Bond(CZ2atom, CH2atom, Constants.BONDCONST);
+					Bond newb14 = new Bond(CZ3atom, CH2atom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+					bonds.add(newb8);
+					bonds.add(newb9);
+					bonds.add(newb10);
+					bonds.add(newb11);	
+					bonds.add(newb12);
+					bonds.add(newb13);
+					bonds.add(newb14);
+				} else if (restype == 'Y') {
+					Atom CBatom = null;
+					Atom CGatom = null;
+					Atom CD1atom = null;
+					Atom CD2atom = null;
+					Atom CE1atom = null;
+					Atom CE2atom = null;
+					Atom CZatom = null;
+					Atom OHatom = null;
+					for (int i = 0; i < AminoAcid.size(); i++) {
+						Atom current = (Atom)AminoAcid.get(i);
+						if (current.getEtype() == "CB") {
+							CBatom = current;
+						} else if (current.getEtype() == "CG") {
+							CGatom = current;
+						} else if (current.getEtype() == "CD1") {
+							CD1atom = current;
+						} else if (current.getEtype() == "CD2") {
+							CD2atom = current;
+						} else if (current.getEtype() == "CE1") {
+							CE1atom = current;
+						} else if (current.getEtype() == "CE2") {
+							CE2atom = current;
+						} else if (current.getEtype() == "CZ") {
+							CZatom = current;
+						} else {
+							OHatom = current;
+						}
+					}
+					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, CD1atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CD1atom, CD2atom, Constants.BONDCONST);
+					Bond newb8 = new Bond(CD2atom, CZatom, Constants.BONDCONST);
+					Bond newb9 = new Bond(CZatom, CE1atom, Constants.BONDCONST);
+					Bond newb10 = new Bond(CE1atom, CE2atom, Constants.BONDCONST);
+					Bond newb11 = new Bond(CE2atom, CGatom, Constants.BONDCONST);
+					Bond newb12 = new Bond(CZatom, OHatom, Constants.BONDCONST);
+					bonds.add(newb4);
+					bonds.add(newb5);
+					bonds.add(newb6);
+					bonds.add(newb7);
+					bonds.add(newb8);
+					bonds.add(newb9);
+					bonds.add(newb10);
+					bonds.add(newb11);	
+					bonds.add(newb12);
+				} else {
+					System.err.println("UNKNOWN RES TYPE " + restype);
+				}
 			}
 		}
 		detSurfaceBonds();

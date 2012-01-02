@@ -1,1 +1,1 @@
-java org.vikramdock.ProteinDockPredict
+java -Xmx2048m org.vikramdock.ProteinDockPredict

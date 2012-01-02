@@ -155,7 +155,7 @@ public class TestCase {
 					if (firste == 'H' && seconde == 'H') {
 						vanDerWaalsE = Constants.C12_H_H/Math.pow(distance, 12) - Constants.C6_H_H/Math.pow(distance, 6);
 					}
-					if (vanDerWaalsE >= Constants.VANDERWAALSTHRESHOLD) {
+					if (vanDerWaalsE >= Constants.ETHRESHOLD) {
 						return Double.POSITIVE_INFINITY;
 					}
 					vanDerWaalsEtot += vanDerWaalsE; 
@@ -188,7 +188,7 @@ public class TestCase {
 							hBondE = Constants.H_C12_S_H/Math.pow(distance, 12) - Constants.H_C10_S_H/Math.pow(distance, 10);
 						}
 						hBondE *= -Math.cos(angle);
-						if (hBondE >= Constants.HBONDTHRESHOLD) {
+						if (hBondE >= Constants.ETHRESHOLD) {
 							return Double.POSITIVE_INFINITY;
 						}
 						hBondEtot += hBondE;
@@ -222,7 +222,7 @@ public class TestCase {
 						}
 						//extremely dangerous assumption follows here
 						hBondE *= -Math.cos(angle);
-						if (hBondE >= Constants.HBONDTHRESHOLD) {
+						if (hBondE >= Constants.ETHRESHOLD) {
 							return Double.POSITIVE_INFINITY;
 						}
 						hBondEtot += hBondE;
@@ -239,6 +239,9 @@ public class TestCase {
 			Atom second = ps1.getAtomByNum(current.getSecond().getAtomnum());
 			double distance = first.distance(second);
 			bStretchE = current.bondE(distance);
+			if (bStretchE > Constants.ETHRESHOLD) {
+				return Double.POSITIVE_INFINITY;
+			}
 			bStretchEtot += bStretchE;
 		}
 		ArrayList ps2bonds = newps.getSurfaceBonds();
@@ -249,11 +252,82 @@ public class TestCase {
 			Atom second = newps.getAtomByNum(current.getSecond().getAtomnum());
 			double distance = first.distance(second);
 			bStretchE = current.bondE(distance);
+			if (bStretchE > Constants.ETHRESHOLD) {
+				return Double.POSITIVE_INFINITY;
+			}
 			bStretchEtot += bStretchE;
 		}
-		ArrayList ps1backbone = ps1.getBackbone();
-		for (int i = 0; i < ps1backbone.size(); i++) {
+		//angle bending
+		ArrayList ps1backbone = ps1.getSurfaceBackbone();
+		for (int i = 1; i < ps1backbone.size() - 1; i++) {
 			double aBendE = 0;
+			Atom current = (Atom)ps1backbone.get(i);
+			Atom previous = (Atom)ps1backbone.get(i-1);
+			Atom next = (Atom)ps1backbone.get(i+1);
+			if (!current.getBonded().contains(previous) || !current.getBonded().contains(next)) {
+				break;
+			} else {
+				double origangle = ps1.getAtomByNum(current.getAtomnum()).angle(ps1.getAtomByNum(previous.getAtomnum()), ps1.getAtomByNum(next.getAtomnum()));
+				double newangle = current.angle(previous, next);
+				aBendE = 1/2 * Constants.ABENDCONST * Math.pow((newangle - origangle),2);
+				if (aBendE > Constants.ETHRESHOLD) {
+					return Double.POSITIVE_INFINITY;
+				}
+				aBendEtot += aBendE;
+			}
+		}
+		ArrayList ps2backbone = newps.getSurfaceBackbone();
+		for (int i = 1; i < ps2backbone.size() - 1; i++) {
+			double aBendE = 0;
+			Atom current = (Atom)ps2backbone.get(i);
+			Atom previous = (Atom)ps2backbone.get(i-1);
+			Atom next = (Atom)ps2backbone.get(i+1);
+			if (!current.getBonded().contains(previous) || !current.getBonded().contains(next)) {
+				break;
+			} else {
+				double origangle = ps2.getAtomByNum(current.getAtomnum()).angle(ps2.getAtomByNum(previous.getAtomnum()), ps2.getAtomByNum(next.getAtomnum()));
+				double newangle = current.angle(previous, next);
+				aBendE = 1/2 * Constants.ABENDCONST * Math.pow((newangle - origangle),2);
+				if (aBendE > Constants.ETHRESHOLD) {
+					return Double.POSITIVE_INFINITY;
+				}
+				aBendEtot += aBendE;
+			}
+		}
+		//torsion
+		ArrayList ps1backbonebonds = ps1.getSurfaceBackboneBonds();
+		for (int i = 1; i < ps1backbonebonds.size() - 1; i++) {
+			double torsE = 0;
+			Bond current = (Bond)ps1backbonebonds.get(i);
+			Bond previous = (Bond)ps1backbonebonds.get(i-1);
+			Bond next = (Bond)ps1backbonebonds.get(i+1);
+			if ((current.getFirst() != previous.getFirst() && current.getFirst() != previous.getSecond() && current.getSecond() != previous.getFirst() && current.getSecond() != previous.getSecond()) || (current.getFirst() != next.getFirst() && current.getFirst() != next.getSecond() && current.getSecond() != next.getFirst() && current.getSecond() != next.getSecond())) {
+				break;
+			} else {
+				double torsAngle = current.torsAng(previous, next);
+				torsE = 1/2*Constants.TORSCONST*(1 + Math.cos(3*torsAngle));
+				if (torsE > Constants.ETHRESHOLD) {
+					return Double.POSITIVE_INFINITY;
+				}
+				torsEtot += torsE;
+			}
+		}
+		ArrayList ps2backbonebonds = newps.getSurfaceBackboneBonds();
+		for (int i = 1; i < ps2backbonebonds.size() - 1; i++) {
+			double torsE = 0;
+			Bond current = (Bond)ps2backbonebonds.get(i);
+			Bond previous = (Bond)ps2backbonebonds.get(i-1);
+			Bond next = (Bond)ps2backbonebonds.get(i+1);
+			if ((current.getFirst() != previous.getFirst() && current.getFirst() != previous.getSecond() && current.getSecond() != previous.getFirst() && current.getSecond() != previous.getSecond()) || (current.getFirst() != next.getFirst() && current.getFirst() != next.getSecond() && current.getSecond() != next.getFirst() && current.getSecond() != next.getSecond())) {
+				break;
+			} else {
+				double torsAngle = current.torsAng(previous, next);
+				torsE = 1/2*Constants.TORSCONST*(1 + Math.cos(3*torsAngle));
+				if (torsE > Constants.ETHRESHOLD) {
+					return Double.POSITIVE_INFINITY;
+				}
+				torsEtot += torsE;
+			}
 		}
 		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.HBONDSCALE * hBondEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;

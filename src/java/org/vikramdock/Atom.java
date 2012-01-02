@@ -75,6 +75,13 @@ public class Atom {
 	public double getZcoord() {
 		return zcoord;
 	}
+	public double[] getCoords() {
+		double[] coords = new double[3];
+		coords[0] = xcoord;
+		coords[1] = ycoord;
+		coords[2] = zcoord;
+		return coords;
+	}
 	public char getElement() {
 		return element;
 	}
