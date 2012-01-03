@@ -10,6 +10,8 @@ public class ProteinDockPredict{
 	ProteinStruct ps1;
 	ProteinStruct ps2;
 	ArrayList<TestCase> cases;
+	int numthread;
+	Thread[] ths;
 	public ProteinDockPredict(String file1, String file2) {
 		ps1 = new ProteinStruct(file1);
 		ps2 = new ProteinStruct(file2);
@@ -25,20 +27,16 @@ public class ProteinDockPredict{
 		ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
 	}
 	public void genTestCases() {
-		for (double i = -100; i < 100; i += 5) {
-			for (double j = -100; j < 100; j += 5) {
-				for (double k = -100; k < 100; k += 5) {
-					for (double theta = 0; theta < 2*Math.PI; theta += Math.PI/5) {
-						for (double phi = 0; phi < Math.PI; phi += Math.PI/5) {
-							TestCase next = new TestCase(ps1, ps2, i, j, k, theta, phi);
-							System.out.println(i + " " + j + " " + k + " " + theta + " " + phi);
-							if (next.score() <= Constants.SCORETHRES) {
-								cases.add(next);
-							}
-						}
-					}
-				}
+		try {
+			ths = new Thread[numthread];
+			for (int i = 0; i < numthread; i++) {
+				TestCaseGenerator gen = new TestCaseGenerator(this, -100 + 200*i/numthread, -100 + 200*(i+1)/numthread, 5, i);
+				Thread th = new Thread(gen);
+				ths[i] = th;
+				th.start();
 			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
 		}
 	}
 	public static void main(String[] args) {
@@ -129,7 +127,12 @@ public class ProteinDockPredict{
 			ProteinStruct ps1 = new ProteinStruct("E:\\Docking\\Protein-Docking\\firstprot.txt");
 			ProteinStruct ps2 = new ProteinStruct("E:\\Docking\\Protein-Docking\\secondprot.txt");
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
+			pdp.numthread = Integer.parseInt(br.readLine());
+			System.out.println(pdp.numthread + " NUMTHREAD");
 			pdp.genTestCases();
+			for (int i = 0; i < pdp.numthread; i++) {
+				pdp.ths[i].join();
+			}
 			for (int i = 0; i < pdp.cases.size(); i++) {
 				TestCase current = (TestCase)pdp.cases.get(i);
 				current.printSurfacebya();
@@ -139,6 +142,9 @@ public class ProteinDockPredict{
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
+	}
+	public synchronized void add(TestCase worked) {
+		cases.add(worked);
 	}
 	public static String removeSpace(String test) {
 		String answer = "";
