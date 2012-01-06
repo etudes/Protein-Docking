@@ -40,7 +40,7 @@ public class ProteinDockPredict{
 		}
 	}
 	public static void main(String[] args) {
-		capriParse();
+		capriParse(args[0], args[1]);
 	}
 	public static void PDBParse() {
 		try {
@@ -64,11 +64,11 @@ public class ProteinDockPredict{
 			ex.printStackTrace();
 		}
 	}
-	public static void capriParse() {
+	public static void capriParse(String sourcepath, String capripath) {
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			String filename = br.readLine();
-			String filepath = "E:\\Docking\\CAPRI\\capri_".concat(filename).concat(".brk");
+			String filepath = capripath.concat("capri_").concat(filename).concat(".brk");
 			long start = System.currentTimeMillis();
 			PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
 			PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
@@ -124,8 +124,8 @@ public class ProteinDockPredict{
 			}
 			prot1.close();
 			prot2.close();
-			ProteinStruct ps1 = new ProteinStruct("E:\\Docking\\Protein-Docking\\firstprot.txt");
-			ProteinStruct ps2 = new ProteinStruct("E:\\Docking\\Protein-Docking\\secondprot.txt");
+			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
+			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
 			pdp.numthread = Integer.parseInt(br.readLine());
 			System.out.println(pdp.numthread + " NUMTHREAD");
