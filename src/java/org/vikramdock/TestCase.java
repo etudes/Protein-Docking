@@ -371,4 +371,7 @@ public class TestCase {
 			current.printAtomPDB();
 		}
 	}
+	public void printInfo() {
+		System.out.println(xmov + " " + ymov + " " + zmov + " " + theta + " " + phi);
+	}
 }

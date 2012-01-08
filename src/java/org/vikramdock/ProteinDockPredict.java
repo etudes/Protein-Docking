@@ -135,6 +135,7 @@ public class ProteinDockPredict{
 			}
 			for (int i = 0; i < pdp.cases.size(); i++) {
 				TestCase current = (TestCase)pdp.cases.get(i);
+				current.printInfo();
 				current.printSurfacebya();
 			}
 			long end = System.currentTimeMillis();

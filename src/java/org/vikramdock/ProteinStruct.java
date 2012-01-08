@@ -975,7 +975,6 @@ public class ProteinStruct {
 			if (counter >= structure.size() - 1) {
 				break;
 			}
-			System.out.println(counter + " " + structure.size());
 			for (int i = counter; i < structure.size(); i++) {
 				Atom current = (Atom)structure.get(i);
 				if (current.getResnum() == first.getResnum()) {

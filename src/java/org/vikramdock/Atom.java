@@ -147,8 +147,12 @@ public class Atom {
 		String xcoordraw = Double.toString(xcoord);
 		String[] xcoords = xcoordraw.split("\\.");
 		String xcoord = null;
-		if (xcoords[1].length() > 3) {
-			xcoord = xcoords[0].concat(".").concat(xcoords[1].substring(0,3));
+		if (xcoords.length > 1) {
+			if (xcoords[1].length() > 3) {
+				xcoord = xcoords[0].concat(".").concat(xcoords[1].substring(0,3));
+			} else {
+				xcoord = xcoordraw;
+			}
 		} else {
 			xcoord = xcoordraw;
 		}
@@ -172,8 +176,12 @@ public class Atom {
 		String ycoordraw = Double.toString(ycoord);
 		String[] ycoords = ycoordraw.split("\\.");
 		String ycoord = null;
-		if (ycoords[1].length() > 3) {
-			ycoord = ycoords[0].concat(".").concat(ycoords[1].substring(0,3));
+		if (ycoords.length > 1) {
+			if (ycoords[1].length() > 3) {
+				ycoord = ycoords[0].concat(".").concat(ycoords[1].substring(0,3));
+			} else {
+				ycoord = ycoordraw;
+			}
 		} else {
 			ycoord = ycoordraw;
 		}
@@ -197,8 +205,12 @@ public class Atom {
 		String zcoordraw = Double.toString(zcoord);
 		String[] zcoords = zcoordraw.split("\\.");
 		String zcoord = null;
-		if (zcoords[1].length() > 3) {
-			zcoord = zcoords[0].concat(".").concat(zcoords[1].substring(0,3));
+		if (zcoords.length > 1) {
+			if (zcoords[1].length() > 3) {
+				zcoord = zcoords[0].concat(".").concat(zcoords[1].substring(0,3));
+			} else {
+				zcoord = zcoordraw;
+			}
 		} else {
 			zcoord = zcoordraw;
 		}
