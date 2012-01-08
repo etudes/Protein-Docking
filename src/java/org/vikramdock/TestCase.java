@@ -19,6 +19,7 @@ public class TestCase {
 	ArrayList<Atom> ps2struct;
 	ArrayList<Atom> surfacebya;
 	ArrayList<ProteinStruct> surfacebyps;
+	double score;
 	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double xmov, double ymov, double zmov, double theta, double phi) {
 		surfacebya = new ArrayList<Atom>();
 		surfacebyps = new ArrayList<ProteinStruct>();
@@ -36,13 +37,22 @@ public class TestCase {
 		surfacebyps.add(newps);
 		surfacebya.addAll(ps1.getSurface());
 		surfacebya.addAll(newps.getSurface());
+		score = -1;
 	}
 	public double score() {
-		if (!surfaceScore()) {
-			return Double.POSITIVE_INFINITY;
-		} else {
-			return energyScore();
+		for (int i = 0; i < surfacebya.size(); i++) {
+			Atom test = (Atom)surfacebya.get(i);
+			test.setCartesian();
+			if (Double.isNaN(test.getXcoord()) || Double.isNaN(test.getYcoord()) || Double.isNaN(test.getZcoord())) {
+				score = Double.POSITIVE_INFINITY;
+			}
 		}
+		if (!surfaceScore()) {
+			score = Double.POSITIVE_INFINITY;
+		} else {
+			score = energyScore();
+		}
+		return score;
 	}
 	public boolean surfaceScore() {
 		boolean answer = false;
@@ -361,6 +371,12 @@ public class TestCase {
 	}
 	public ArrayList getSurfacebyps() {
 		return surfacebyps;
+	}
+	public double getScore() {
+		if (score == -1) {
+			score();
+		}
+		return score;
 	}
 	public double distance(double[] first, double[] second) {
 		return Math.sqrt(Math.pow(first[0] - second[0], 2) + Math.pow(first[1] - second[1], 2) + Math.pow(first[2] - second[2], 2));

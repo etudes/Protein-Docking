@@ -9,20 +9,22 @@ import java.lang.reflect.*;
 public class ProteinDockPredict{
 	ProteinStruct ps1;
 	ProteinStruct ps2;
-	ArrayList<TestCase> cases;
+	PriorityQueue<TestCase> cases;
 	int numthread;
 	Thread[] ths;
 	public ProteinDockPredict(String file1, String file2) {
 		ps1 = new ProteinStruct(file1);
 		ps2 = new ProteinStruct(file2);
-		cases = new ArrayList<TestCase>();
+		TestCaseComparator tcc = new TestCaseComparator();
+		cases = new PriorityQueue<TestCase>(1000, tcc);
 		ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
 		ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
 	}
 	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2) {
 		this.ps1 = ps1;
 		this.ps2 = ps2;
-		cases = new ArrayList<TestCase>();
+		TestCaseComparator tcc = new TestCaseComparator();
+		cases = new PriorityQueue<TestCase>(1000, tcc);
 		ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
 		ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
 	}
@@ -54,10 +56,10 @@ public class ProteinDockPredict{
 			//ProteinStruct newps = pdp.ps1;
 			//newps.printSurface();
 			pdp.genTestCases();
-			for (int i = 0; i < pdp.cases.size(); i++) {
-				TestCase current = (TestCase)pdp.cases.get(i);
-				current.printSurfacebya();
+			for (int i = 0; i < pdp.numthread; i++) {
+				pdp.ths[i].join();
 			}
+			pdp.printCases();
 			long end = System.currentTimeMillis();
 			System.out.println(end - start);
 		} catch (Exception ex) {
@@ -133,16 +135,24 @@ public class ProteinDockPredict{
 			for (int i = 0; i < pdp.numthread; i++) {
 				pdp.ths[i].join();
 			}
-			for (int i = 0; i < pdp.cases.size(); i++) {
-				TestCase current = (TestCase)pdp.cases.get(i);
-				current.printInfo();
-				current.printSurfacebya();
-			}
+			pdp.printCases();
 			long end = System.currentTimeMillis();
 			System.out.println(end - start);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
+	}
+	public void printCases() {
+		for (int i = 0; i < Math.min(cases.size(),10); i++) {
+			TestCase current = (TestCase)cases.poll();
+			System.out.println("MODEL");
+			current.printInfo();
+			ps1.printStructure();
+			ProteinStruct newps = ps2.transrotall(current.getXmov(), current.getYmov(), current.getZmov(), current.getTheta(), current.getPhi());
+			newps.printStructure();
+			System.out.println("ENDMDL");
+		}
+		System.out.println("MODELS PASSED " + cases.size());
 	}
 	public synchronized void add(TestCase worked) {
 		cases.add(worked);
