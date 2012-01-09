@@ -107,6 +107,10 @@ public class Atom {
 		setCartesian();
 		System.out.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " COORDS " + xcoord + " " + ycoord + " " + zcoord);
 	}
+	public void printAtomErr() {
+		setCartesian();
+		System.err.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " COORDS " + xcoord + " " + ycoord + " " + zcoord);
+	}
 	public void printAtomPDB() {
 		setCartesian();
 		String toBePrinted = "ATOM  ";
@@ -319,6 +323,10 @@ public class Atom {
 		double ycoordb = rcoorda * Math.sin(thetab) * Math.sin(phib);
 		double zcoordb = rcoorda * Math.cos(phib);
 		Atom answer = new Atom(xcoordb, ycoordb, zcoordb, element, resnum, atomnum, chainnum, eType, bonded);
+		if (Double.isNaN(xcoordb) || Double.isNaN(ycoordb) || Double.isNaN(zcoordb)) {
+			System.err.println("NaN created in transrot");
+			answer.printAtomErr();
+		}
 		return answer;
 	}
 	public double distance(Atom other) {

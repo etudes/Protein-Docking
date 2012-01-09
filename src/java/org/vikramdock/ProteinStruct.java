@@ -330,6 +330,10 @@ public class ProteinStruct {
 					element = eType.charAt(0);
 				}
 				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chainnum, eType);
+				if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
+					System.err.println("NaN found");
+					next.printAtomErr();
+				}
 				structure.add(next);
 				xcoordsum += xcoord;
 				ycoordsum += ycoord;
@@ -1699,6 +1703,12 @@ public class ProteinStruct {
 	public void printSurface() {
 		for (int i = 0; i < surface.size(); i++) {
 			Atom current = (Atom)surface.get(i);
+			current.printAtomPDB();
+		}
+	}
+	public void printStructurePDB() {
+		for (int i = 0; i < structure.size(); i++) {
+			Atom current = (Atom)structure.get(i);
 			current.printAtomPDB();
 		}
 	}

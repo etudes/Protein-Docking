@@ -147,9 +147,9 @@ public class ProteinDockPredict{
 			TestCase current = (TestCase)cases.poll();
 			System.out.println("MODEL");
 			current.printInfo();
-			ps1.printStructure();
+			ps1.printStructurePDB();
 			ProteinStruct newps = ps2.transrotall(current.getXmov(), current.getYmov(), current.getZmov(), current.getTheta(), current.getPhi());
-			newps.printStructure();
+			newps.printStructurePDB();
 			System.out.println("ENDMDL");
 		}
 		System.out.println("MODELS PASSED " + cases.size());
