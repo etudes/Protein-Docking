@@ -44,6 +44,8 @@ public class TestCase {
 			Atom test = (Atom)surfacebya.get(i);
 			test.setCartesian();
 			if (Double.isNaN(test.getXcoord()) || Double.isNaN(test.getYcoord()) || Double.isNaN(test.getZcoord())) {
+				System.err.println("NaN found during scoring");
+				test.printAtomErr();
 				score = Double.POSITIVE_INFINITY;
 			}
 		}

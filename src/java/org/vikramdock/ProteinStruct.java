@@ -329,7 +329,7 @@ public class ProteinStruct {
 				if (element == ' ') {
 					element = eType.charAt(0);
 				}
-				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chainnum, eType);
+				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chaintranslator.get(chainnum).toString().charAt(0), eType);
 				if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
 					System.err.println("NaN found");
 					next.printAtomErr();

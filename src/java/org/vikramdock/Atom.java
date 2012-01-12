@@ -13,11 +13,11 @@ public class Atom {
 	char element;
 	int resnum;
 	int atomnum;
-	int chainnum;
+	char chainnum;
 	boolean spherical;
 	ArrayList<Bond> bonded;
 	String eType;
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, String eType) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -28,7 +28,7 @@ public class Atom {
 		this.spherical = false;
 		this.eType = eType;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, String eType, ArrayList bonded) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList bonded) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -40,7 +40,7 @@ public class Atom {
 		this.bonded = bonded;
 		this.eType = eType;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, boolean spherical, String eType) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -51,7 +51,7 @@ public class Atom {
 		this.spherical = spherical;
 		this.eType = eType;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, boolean spherical, String eType, ArrayList bonded) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType, ArrayList bonded) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -281,6 +281,10 @@ public class Atom {
 		double ycoordnew = ymov + ycoord;
 		double zcoordnew = zmov + zcoord;
 		Atom answer = new Atom(xcoordnew, ycoordnew, zcoordnew, element, resnum, atomnum, chainnum, eType, bonded);
+		if (Double.isNaN(xcoordnew) || Double.isNaN(ycoordnew) || Double.isNaN(zcoordnew)) {
+			System.err.println("NaN created in trans");
+			answer.printAtomErr();
+		}
 		return answer;
 	}
 	public Atom rotateAtom(double xcent, double ycent, double zcent, double theta, double phi) {
@@ -319,12 +323,12 @@ public class Atom {
 		} if (phib > Math.PI) {
 			phib = Math.PI - phib;
 		}
-		double xcoordb = rcoorda * Math.cos(thetab) * Math.sin(phib);
-		double ycoordb = rcoorda * Math.sin(thetab) * Math.sin(phib);
-		double zcoordb = rcoorda * Math.cos(phib);
+		double xcoordb = rcoorda * Math.cos(thetab) * Math.sin(phib) + xcent;
+		double ycoordb = rcoorda * Math.sin(thetab) * Math.sin(phib) + ycent;
+		double zcoordb = rcoorda * Math.cos(phib) + zcent;
 		Atom answer = new Atom(xcoordb, ycoordb, zcoordb, element, resnum, atomnum, chainnum, eType, bonded);
 		if (Double.isNaN(xcoordb) || Double.isNaN(ycoordb) || Double.isNaN(zcoordb)) {
-			System.err.println("NaN created in transrot");
+			System.err.println("NaN created in rot");
 			answer.printAtomErr();
 		}
 		return answer;
