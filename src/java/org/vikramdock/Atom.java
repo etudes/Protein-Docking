@@ -13,11 +13,11 @@ public class Atom {
 	char element;
 	int resnum;
 	int atomnum;
-	char chainnum;
+	int chainnum;
 	boolean spherical;
 	ArrayList<Bond> bonded;
 	String eType;
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, String eType) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -28,7 +28,7 @@ public class Atom {
 		this.spherical = false;
 		this.eType = eType;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList bonded) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, String eType, ArrayList bonded) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -40,7 +40,7 @@ public class Atom {
 		this.bonded = bonded;
 		this.eType = eType;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, boolean spherical, String eType) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -51,7 +51,7 @@ public class Atom {
 		this.spherical = spherical;
 		this.eType = eType;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType, ArrayList bonded) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, boolean spherical, String eType, ArrayList bonded) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -246,17 +246,7 @@ public class Atom {
 			double ycoordold = ycoord;
 			double zcoordold = zcoord;
 			xcoord = Math.sqrt(Math.pow(xcoord,2)+Math.pow(ycoord,2)+Math.pow(zcoord,2));
-			if (xcoordold > 0) { 
-				ycoord = Math.atan(ycoordold/xcoordold); 
-			} else if (xcoordold < 0) {
-				ycoord = Math.PI + Math.atan(ycoordold/xcoordold);
-			} else if (xcoordold == 0 && ycoordold > 0) {
-				ycoord = Math.PI/2;
-			} else if (xcoordold == 0 && ycoordold < 0) {
-				ycoord = 3*Math.PI/2;
-			} else {
-				ycoord = 0;
-			}
+			ycoord = Math.atan2(ycoordold, xcoordold);
 			if (xcoord != 0) {
 				zcoord = Math.acos(zcoordold/xcoord);
 			} else {
@@ -293,18 +283,7 @@ public class Atom {
 		double ycoorda = ycoord - ycent;
 		double zcoorda = zcoord - zcent;
 		double rcoorda = Math.sqrt(Math.pow(xcoorda, 2) + Math.pow(ycoorda, 2) + Math.pow(zcoorda, 2));
-		double thetaa;
-		if (xcoorda > 0) { 
-			thetaa = Math.atan(ycoorda/xcoorda); 
-		} else if (xcoorda < 0) {
-			thetaa = Math.PI + Math.atan(ycoorda/xcoorda);
-		} else if (xcoorda == 0 && ycoorda > 0) {
-			thetaa = Math.PI/2;
-		} else if (xcoorda == 0 && ycoorda < 0) {
-			thetaa = 3*Math.PI/2;
-		} else {
-			thetaa = 0;
-		}
+		double thetaa = Math.atan2(ycoorda, xcoorda);
 		double phia;
 		if (rcoorda != 0) {
 			phia = Math.acos(zcoorda/rcoorda);
@@ -312,6 +291,9 @@ public class Atom {
 			phia = 0;
 		}
 		double thetab = thetaa + theta;
+		if (thetab >= 2*Math.PI) {
+			thetab -= 2*Math.PI;
+		}
 		double phib;
 		if (xcoorda >= 0) {
 			phib = phia + phi;

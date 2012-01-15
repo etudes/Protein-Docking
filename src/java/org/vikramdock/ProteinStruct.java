@@ -329,7 +329,7 @@ public class ProteinStruct {
 				if (element == ' ') {
 					element = eType.charAt(0);
 				}
-				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chaintranslator.get(chainnum).toString().charAt(0), eType);
+				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chainnum, eType);
 				if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
 					System.err.println("NaN found");
 					next.printAtomErr();
@@ -1658,12 +1658,20 @@ public class ProteinStruct {
 		for (int i = 0; i < surface.size(); i++) {
 			Atom current = (Atom)surface.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
+			if (Double.isNaN(trcurrent.xcoord) || Double.isNaN(trcurrent.ycoord) || Double.isNaN(trcurrent.zcoord)) {
+				System.err.println("NaN found during transrot of surface");
+				trcurrent.printAtomErr();
+			}
 			newstruct.add(trcurrent);
 		}
 		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
 		for (int i = 0; i < surfacebackbone.size(); i++) {
 			Atom current = (Atom)surfacebackbone.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
+			if (Double.isNaN(trcurrent.xcoord) || Double.isNaN(trcurrent.ycoord) || Double.isNaN(trcurrent.zcoord)) {
+				System.err.println("NaN found during transrot of surfacebackbone");
+				trcurrent.printAtomErr();
+			}
 			newbackbone.add(trcurrent);
 		}
 		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
@@ -1674,12 +1682,20 @@ public class ProteinStruct {
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
+			if (Double.isNaN(trcurrent.xcoord) || Double.isNaN(trcurrent.ycoord) || Double.isNaN(trcurrent.zcoord)) {
+				System.err.println("NaN found during transrot of structure");
+				trcurrent.printAtomErr();
+			}
 			newstruct.add(trcurrent);
 		}
 		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
 		for (int i = 0; i < backbone.size(); i++) {
 			Atom current = (Atom)backbone.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
+			if (Double.isNaN(trcurrent.xcoord) || Double.isNaN(trcurrent.ycoord) || Double.isNaN(trcurrent.zcoord)) {
+				System.err.println("NaN found during transrot of backbone");
+				trcurrent.printAtomErr();
+			}
 			newbackbone.add(trcurrent);
 		}
 		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
