@@ -15,7 +15,6 @@ public class ProteinStruct {
 	ArrayList<Atom> surfacebackbone;
 	ArrayList<Bond> backbonebonds;
 	ArrayList<Bond> surfacebackbonebonds;
-	String pdbID;
 	String[] parsedsequence = new String[50];
 	HashMap chaintranslator;
 	HashMap reversechaintrans;
@@ -32,7 +31,6 @@ public class ProteinStruct {
 	double size;
 	public ProteinStruct(String filepath) {
 		try {
-			this.pdbID = "INVALID";
 			chaintranslator = new HashMap();
 			structure = new ArrayList<Atom>();
 			surface = new ArrayList<Atom>();
@@ -147,7 +145,6 @@ public class ProteinStruct {
 		this.surfacebackbone = backbone;
 		this.backbonebonds = backbonebonds;
 		this.surfacebackbonebonds = backbonebonds;
-		pdbID = "INVALID";
 		rotated = true;
 		translator1 = new HashMap();
 		translator2 = new HashMap();
@@ -238,6 +235,149 @@ public class ProteinStruct {
 		this.xcoordcent = xcoordcent;
 		this.ycoordcent = ycoordcent;
 		this.zcoordcent = zcoordcent;
+	}
+	public ProteinStruct(ProteinStruct clone) {
+		this.filepath = clone.getFilepath();
+		structure = new ArrayList<Atom>();
+		surface = new ArrayList<Atom>();
+		bonds = new ArrayList<Bond>();
+		surfacebonds = new ArrayList<Bond>();
+		backbone = new ArrayList<Atom>();
+		surfacebackbone = new ArrayList<Atom>();
+		backbonebonds = new ArrayList<Bond>();
+		surfacebackbonebonds = new ArrayList<Bond>();
+		translator1 = new HashMap();
+		translator2 = new HashMap();
+		translator3 = new HashMap();
+		translator4 = new HashMap();
+		reversechaintrans = new HashMap();
+		ArrayList clonestruct = clone.getStructure();
+		for (int i = 0; i < clonestruct.size(); i++) {
+			Atom current = (Atom)clonestruct.get(i);
+			this.structure.add(new Atom(current));
+		}
+		clonestruct = clone.getSurface();
+		for (int i = 0; i < clonestruct.size(); i++) {
+			Atom current = (Atom)clonestruct.get(i);
+			this.surface.add(new Atom(current));
+		}
+		clonestruct = clone.getBackbone();
+		for (int i = 0; i < clonestruct.size(); i++) {
+			Atom current = (Atom)clonestruct.get(i);
+			this.backbone.add(new Atom(current));
+		}
+		clonestruct = clone.getSurfaceBackbone();
+		for (int i = 0; i < clonestruct.size(); i++) {
+			Atom current = (Atom)clonestruct.get(i);
+			this.surfacebackbone.add(new Atom(current));
+		}
+		ArrayList clonebonds = clone.getBonds();
+		for (int i = 0; i < clonebonds.size(); i++) {
+			Bond current = (Bond)clonebonds.get(i);
+			this.bonds.add(new Bond(current));
+		}
+		clonebonds = clone.getSurfaceBonds();
+		for (int i = 0; i < clonebonds.size(); i++) {
+			Bond current = (Bond)clonebonds.get(i);
+			this.surfacebonds.add(new Bond(current));
+		}
+		clonebonds = clone.getBackboneBonds();
+		for (int i = 0; i < clonebonds.size(); i++) {
+			Bond current = (Bond)clonebonds.get(i);
+			this.backbonebonds.add(new Bond(current));
+		}
+		clonebonds = clone.getSurfaceBackboneBonds();
+		for (int i = 0; i < clonebonds.size(); i++) {
+			Bond current = (Bond)clonebonds.get(i);
+			this.surfacebackbonebonds.add(new Bond(current));
+		}
+		translator1.put("ALA",0);
+		translator1.put("CYS",1);
+		translator1.put("ASP",2);
+		translator1.put("GLU",3);
+		translator1.put("PHE",4);
+		translator1.put("GLY",5);
+		translator1.put("HIS",6);
+		translator1.put("ILE",7);
+		translator1.put("LYS",8);
+		translator1.put("LEU",9);
+		translator1.put("MET",10);
+		translator1.put("ASN",11);
+		translator1.put("PRO",12);
+		translator1.put("GLN",13);
+		translator1.put("ARG",14);
+		translator1.put("SER",15);
+		translator1.put("THR",16);
+		translator1.put("VAL",17);
+		translator1.put("TRP",18);
+		translator1.put("TYR",19);
+		translator2.put("ALA","A");
+		translator2.put("CYS","C");
+		translator2.put("ASP","D");
+		translator2.put("GLU","E");
+		translator2.put("PHE","F");
+		translator2.put("GLY","G");
+		translator2.put("HIS","H");
+		translator2.put("ILE","I");
+		translator2.put("LYS","K");
+		translator2.put("LEU","L");
+		translator2.put("MET","M");
+		translator2.put("ASN","N");
+		translator2.put("PRO","P");
+		translator2.put("GLN","Q");
+		translator2.put("ARG","R");
+		translator2.put("SER","S");
+		translator2.put("THR","T");
+		translator2.put("VAL","V");
+		translator2.put("TRP","W");
+		translator2.put("TYR","Y");
+		translator3.put("A",0);
+		translator3.put("C",1);
+		translator3.put("D",2);
+		translator3.put("E",3);
+		translator3.put("F",4);
+		translator3.put("G",5);
+		translator3.put("H",6);
+		translator3.put("I",7);
+		translator3.put("K",8);
+		translator3.put("L",9);
+		translator3.put("M",10);
+		translator3.put("N",11);
+		translator3.put("P",12);
+		translator3.put("Q",13);
+		translator3.put("R",14);
+		translator3.put("S",15);
+		translator3.put("T",16);
+		translator3.put("V",17);
+		translator3.put("W",18);
+		translator3.put("Y",19);
+		translator4.put("A","ALA");
+		translator4.put("C","CYS");
+		translator4.put("D","ASP");
+		translator4.put("E","GLU");
+		translator4.put("F","PHE");
+		translator4.put("G","GLY");
+		translator4.put("H","HIS");
+		translator4.put("I","ILE");
+		translator4.put("K","LYS");
+		translator4.put("L","LEU");
+		translator4.put("M","MET");
+		translator4.put("N","ASN");
+		translator4.put("P","PRO");
+		translator4.put("Q","GLN");
+		translator4.put("R","ARG");
+		translator4.put("S","SER");
+		translator4.put("T","THR");
+		translator4.put("V","VAL");
+		translator4.put("W","TRP");
+		translator4.put("Y","TYR");
+		this.chaincount = clone.getChaincount();
+		this.xcoordcent = clone.getXCoordCent();
+		this.ycoordcent = clone.getYCoordCent();
+		this.zcoordcent = clone.getZCoordCent();
+		this.parsedsequence = clone.getParsedsequence();
+		this.rotated = clone.getRotated();
+		this.size = clone.getSize();
 	}
 	public void parseSequence(String filepath) throws Exception {
 		try {
@@ -339,9 +479,11 @@ public class ProteinStruct {
 				ycoordsum += ycoord;
 				zcoordsum += zcoord;
 			}
+			System.out.println(xcoordsum + " " + ycoordsum + " " + zcoordsum + " SUMS OF COORDS");
 			xcoordcent = xcoordsum/structcount;
 			ycoordcent = ycoordsum/structcount;
 			zcoordcent = zcoordsum/structcount;
+			System.out.println(xcoordcent + " " + ycoordcent + " " + zcoordcent + " CENTS OF COORDS");
 		} catch (Exception ex) {
 			ex.printStackTrace();
 			throw ex;
@@ -1607,7 +1749,7 @@ public class ProteinStruct {
 	public String getFilepath() {
 		return filepath;
 	}
-	public String[] getSequence() {
+	public String[] getParsedsequence() {
 		return parsedsequence;
 	}
 	public ArrayList getStructure() {
@@ -1643,6 +1785,12 @@ public class ProteinStruct {
 	public double getZCoordCent() {
 		return zcoordcent;
 	}
+	public int getChaincount() {
+		return chaincount;
+	}
+	public boolean getRotated() {
+		return rotated;
+	}
 	public double getSize() {
 		return size;
 	}
@@ -1658,7 +1806,7 @@ public class ProteinStruct {
 		for (int i = 0; i < surface.size(); i++) {
 			Atom current = (Atom)surface.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
-			if (Double.isNaN(trcurrent.xcoord) || Double.isNaN(trcurrent.ycoord) || Double.isNaN(trcurrent.zcoord)) {
+			if (Double.isNaN(trcurrent.getXcoord()) || Double.isNaN(trcurrent.getYcoord()) || Double.isNaN(trcurrent.getZcoord())) {
 				System.err.println("NaN found during transrot of surface");
 				trcurrent.printAtomErr();
 			}
@@ -1668,7 +1816,7 @@ public class ProteinStruct {
 		for (int i = 0; i < surfacebackbone.size(); i++) {
 			Atom current = (Atom)surfacebackbone.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
-			if (Double.isNaN(trcurrent.xcoord) || Double.isNaN(trcurrent.ycoord) || Double.isNaN(trcurrent.zcoord)) {
+			if (Double.isNaN(trcurrent.getXcoord()) || Double.isNaN(trcurrent.getYcoord()) || Double.isNaN(trcurrent.getZcoord())) {
 				System.err.println("NaN found during transrot of surfacebackbone");
 				trcurrent.printAtomErr();
 			}
@@ -1682,7 +1830,7 @@ public class ProteinStruct {
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
-			if (Double.isNaN(trcurrent.xcoord) || Double.isNaN(trcurrent.ycoord) || Double.isNaN(trcurrent.zcoord)) {
+			if (Double.isNaN(trcurrent.getXcoord()) || Double.isNaN(trcurrent.getYcoord()) || Double.isNaN(trcurrent.getZcoord())) {
 				System.err.println("NaN found during transrot of structure");
 				trcurrent.printAtomErr();
 			}
@@ -1692,7 +1840,7 @@ public class ProteinStruct {
 		for (int i = 0; i < backbone.size(); i++) {
 			Atom current = (Atom)backbone.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
-			if (Double.isNaN(trcurrent.xcoord) || Double.isNaN(trcurrent.ycoord) || Double.isNaN(trcurrent.zcoord)) {
+			if (Double.isNaN(trcurrent.getXcoord()) || Double.isNaN(trcurrent.getYcoord()) || Double.isNaN(trcurrent.getZcoord())) {
 				System.err.println("NaN found during transrot of backbone");
 				trcurrent.printAtomErr();
 			}
@@ -1702,19 +1850,19 @@ public class ProteinStruct {
 		return answer;
 	} 
 	public void printSequence() {
-		System.out.println("BEGIN SEQUENCE OF " + pdbID);
+		System.out.println("BEGIN SEQUENCE OF " + filepath);
 		for (int i = 0; i < chaincount; i++) {
 			System.out.println("SEQUENCE CHAIN NO " + i + " " + parsedsequence[i]);
 		}
-		System.out.println("END SEQUENCE OF " + pdbID);
+		System.out.println("END SEQUENCE OF " + filepath);
 	}
 	public void printStructure() {
-		System.out.println("BEGIN STRUCTURE OF " + pdbID);
+		System.out.println("BEGIN STRUCTURE OF " + filepath);
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
 			current.printAtom();
 		}
-		System.out.println("END STRUCTURE OF " + pdbID);
+		System.out.println("END STRUCTURE OF " + filepath);
 	}
 	public void printSurface() {
 		for (int i = 0; i < surface.size(); i++) {

@@ -34,6 +34,12 @@ public class Bond {
 			System.err.println("DOUBLE NULL ATOM IN BOND");
 		}
 	}
+	public Bond(Bond clone) {
+		this.first = new Atom(clone.getFirst());
+		this.second = new Atom(clone.getSecond());
+		this.equildist = clone.getEquilDist();
+		this.k = clone.getK();
+	}
 	public Atom getFirst() {
 		return first;
 	}

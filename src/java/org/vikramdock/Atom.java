@@ -63,6 +63,18 @@ public class Atom {
 		this.bonded = bonded;
 		this.eType = eType;
 	}
+	public Atom(Atom clone) {
+		this.xcoord = clone.getXcoord();
+		this.ycoord = clone.getYcoord();
+		this.zcoord = clone.getZcoord();
+		this.element = clone.getElement();
+		this.resnum = clone.getResnum();
+		this.atomnum = clone.getAtomnum();
+		this.chainnum = clone.getChainnum();
+		this.spherical = clone.getSpherical();
+		this.bonded = clone.getBonded();
+		this.eType = clone.getEtype();
+	}
 	public void addBond(Bond toBeBonded) {
 		bonded.add(toBeBonded);
 	}
@@ -108,8 +120,7 @@ public class Atom {
 		System.out.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " COORDS " + xcoord + " " + ycoord + " " + zcoord);
 	}
 	public void printAtomErr() {
-		setCartesian();
-		System.err.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " COORDS " + xcoord + " " + ycoord + " " + zcoord);
+		System.out.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " COORDS " + xcoord + " " + ycoord + " " + zcoord + " SPHERICAL " + spherical);
 	}
 	public void printAtomPDB() {
 		setCartesian();
@@ -150,32 +161,32 @@ public class Atom {
 		toBePrinted = toBePrinted.concat("    ");
 		String xcoordraw = Double.toString(xcoord);
 		String[] xcoords = xcoordraw.split("\\.");
-		String xcoord = null;
+		String xcoordstr = null;
 		if (xcoords.length > 1) {
 			if (xcoords[1].length() > 3) {
-				xcoord = xcoords[0].concat(".").concat(xcoords[1].substring(0,3));
+				xcoordstr = xcoords[0].concat(".").concat(xcoords[1].substring(0,3));
 			} else {
-				xcoord = xcoordraw;
+				xcoordstr = xcoordraw;
 			}
 		} else {
-			xcoord = xcoordraw;
+			xcoordstr = xcoordraw;
 		}
-		if (xcoord.length() == 8) {
-			toBePrinted = toBePrinted.concat(xcoord);
-		} else if (xcoord.length() == 7) {
-			toBePrinted = toBePrinted.concat(" ").concat(xcoord);
-		} else if (xcoord.length() == 6) {
-			toBePrinted = toBePrinted.concat("  ").concat(xcoord);
-		} else if (xcoord.length() == 5) {
-			toBePrinted = toBePrinted.concat("   ").concat(xcoord);
-		} else if (xcoord.length() == 4) {
-			toBePrinted = toBePrinted.concat("    ").concat(xcoord);
-		} else if (xcoord.length() == 3) {
-			toBePrinted = toBePrinted.concat("     ").concat(xcoord);
-		} else if (xcoord.length() == 2) {
-			toBePrinted = toBePrinted.concat("      ").concat(xcoord);
-		} else if (xcoord.length() == 1) {
-			toBePrinted = toBePrinted.concat("       ").concat(xcoord);
+		if (xcoordstr.length() == 8) {
+			toBePrinted = toBePrinted.concat(xcoordstr);
+		} else if (xcoordstr.length() == 7) {
+			toBePrinted = toBePrinted.concat(" ").concat(xcoordstr);
+		} else if (xcoordstr.length() == 6) {
+			toBePrinted = toBePrinted.concat("  ").concat(xcoordstr);
+		} else if (xcoordstr.length() == 5) {
+			toBePrinted = toBePrinted.concat("   ").concat(xcoordstr);
+		} else if (xcoordstr.length() == 4) {
+			toBePrinted = toBePrinted.concat("    ").concat(xcoordstr);
+		} else if (xcoordstr.length() == 3) {
+			toBePrinted = toBePrinted.concat("     ").concat(xcoordstr);
+		} else if (xcoordstr.length() == 2) {
+			toBePrinted = toBePrinted.concat("      ").concat(xcoordstr);
+		} else if (xcoordstr.length() == 1) {
+			toBePrinted = toBePrinted.concat("       ").concat(xcoordstr);
 		}
 		String ycoordraw = Double.toString(ycoord);
 		String[] ycoords = ycoordraw.split("\\.");
@@ -240,22 +251,39 @@ public class Atom {
 		System.out.println(toBePrinted);
 	}
 	public void setSpherical() {
-		if (spherical != true) {
+		if (spherical == false) {
 			spherical = true;
 			double xcoordold = xcoord;
 			double ycoordold = ycoord;
 			double zcoordold = zcoord;
-			xcoord = Math.sqrt(Math.pow(xcoord,2)+Math.pow(ycoord,2)+Math.pow(zcoord,2));
+			xcoord = Math.sqrt((xcoordold * xcoordold) + (ycoordold * ycoordold) + (zcoordold * zcoordold));
+			if (xcoord < 0.0d) {
+				System.out.println(xcoord + " NEGATIVE " + xcoordold + " " + ycoordold + " " + zcoordold);
+				System.out.println(Math.pow(xcoordold, 2) + " " + Math.pow(ycoordold, 2) + " " + Math.pow(zcoordold, 2));
+				System.out.flush();
+				System.exit(-1);
+			}
 			ycoord = Math.atan2(ycoordold, xcoordold);
-			if (xcoord != 0) {
+			if (xcoord != 0.0) {
 				zcoord = Math.acos(zcoordold/xcoord);
 			} else {
-				zcoord = 0;
+				zcoord = 0.0;
+			}    
+			System.out.flush();
+			if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
+				if (xcoord < 0.0d) {
+					System.out.println(xcoord + " NEGATIVE " + xcoordold + " " + ycoordold + " " + zcoordold);
+					System.out.println(Math.pow(xcoordold, 2) + " " + Math.pow(ycoordold, 2) + " " + Math.pow(zcoordold, 2));
+					System.out.flush();
+					System.exit(-1);
+				}
+				System.out.println("NaN created in spherical conversion " + xcoord + " " + ycoord + " " + zcoord + " " + " SPHERICAL " + xcoordold + " " + ycoordold + " " + zcoordold + " CARTESIAN");
+				System.out.flush();
 			}
 		}
 	}
 	public void setCartesian() {
-		if (spherical != false) {
+		if (spherical == true) {
 			spherical = false;
 			double xcoordold = xcoord;
 			double ycoordold = ycoord;
@@ -263,6 +291,11 @@ public class Atom {
 			xcoord = xcoordold * Math.cos(ycoordold) * Math.sin(zcoordold);
 			ycoord = xcoordold * Math.sin(ycoordold) * Math.sin(zcoordold);
 			zcoord = xcoordold * Math.cos(zcoordold);
+			System.out.flush();
+			if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
+				System.out.println("NaN created in Cartesian conversion " + xcoord + " " + ycoord + " " + zcoord + " " + " CARTESIAN " + xcoordold + " " + ycoordold + " " + zcoordold + " SPHERICAL");
+				System.out.flush();
+			}
 		}
 	}
 	public Atom transAtom(double xmov, double ymov, double zmov) {
@@ -285,7 +318,7 @@ public class Atom {
 		double rcoorda = Math.sqrt(Math.pow(xcoorda, 2) + Math.pow(ycoorda, 2) + Math.pow(zcoorda, 2));
 		double thetaa = Math.atan2(ycoorda, xcoorda);
 		double phia;
-		if (rcoorda != 0) {
+		if (rcoorda != 0.0) {
 			phia = Math.acos(zcoorda/rcoorda);
 		} else {
 			phia = 0;
@@ -295,12 +328,12 @@ public class Atom {
 			thetab -= 2*Math.PI;
 		}
 		double phib;
-		if (xcoorda >= 0) {
+		if (xcoorda >= 0.0) {
 			phib = phia + phi;
 		} else {
 			phib = phia - phi;
 		}
-		if (phib < 0) {
+		if (phib < 0.0) {
 			phib = -phib;
 		} if (phib > Math.PI) {
 			phib = Math.PI - phib;

@@ -16,8 +16,8 @@ public class TestCaseGenerator implements Runnable {
 	int num;
 	public TestCaseGenerator(ProteinDockPredict pdp, int xmin, int xmas, int xinc, int num) {
 		this.pdp = pdp;
-		this.ps1 = pdp.ps1;
-		this.ps2 = pdp.ps2;
+		this.ps1 = new ProteinStruct(pdp.ps1);
+		this.ps2 = new ProteinStruct(pdp.ps2);
 		this.xmin = xmin;
 		this.xmas = xmas;
 		this.xinc = xinc;
