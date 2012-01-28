@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2011-2012 Vikram Sundar.
+ * All Rights Reserved.
+ */
 package org.vikramdock;
 
 import java.io.*;
@@ -10,29 +14,35 @@ public class TestCase {
 	ProteinStruct ps1;
 	ProteinStruct ps2;
 	ProteinStruct newps;
-	double xmov;
-	double ymov;
-	double zmov;
+	double rmov;
+	double thetamov;
+	double phimov;
 	double theta;
+	double clash;
 	double phi;
 	ArrayList<Atom> ps1struct;
 	ArrayList<Atom> ps2struct;
 	ArrayList<Atom> surfacebya;
 	ArrayList<ProteinStruct> surfacebyps;
 	double score;
-	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double xmov, double ymov, double zmov, double theta, double phi) {
+	double[][] ps1sizes;
+	double[][] ps2sizes;
+	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double thetamov, double phimov, double clash, double theta, double phi) {
 		surfacebya = new ArrayList<Atom>();
 		surfacebyps = new ArrayList<ProteinStruct>();
 		this.ps1 = ps1;
 		this.ps2 = ps2;
-		this.xmov = xmov;
-		this.ymov = ymov;
-		this.zmov = zmov;
+		this.thetamov = thetamov;
+		this.phimov = phimov;
+		this.clash = clash;
 		this.theta = theta;
 		this.phi = phi;
 		ps1struct = ps1.getSurface();
 		surfacebyps.add(ps1);
-		newps = ps2.transrot(xmov, ymov, zmov, theta, phi);
+		ps1sizes = ps1.getSizes();
+		ps2sizes = ps2.getSizes();
+		rmov = Math.abs(ps1sizes[(int)(thetamov/Constants.THETAINC)][(int)(phimov/Constants.PHIINC)] + ps2sizes[(int)(theta/Constants.THETAINC)][(int)(phi/Constants.PHIINC)] - clash);
+		newps = ps2.transrotpolar(rmov, thetamov + Constants.THETAINC/2, phimov + Constants.PHIINC/2, theta, phi);
 		ps2struct = newps.getSurface();
 		surfacebyps.add(newps);
 		surfacebya.addAll(ps1.getSurface());
@@ -56,7 +66,6 @@ public class TestCase {
 	}
 	public boolean surfaceScore() {
 		boolean answer = false;
-		int space = Constants.SPACE;
 		double surfacesize = Constants.SURFACESIZE;
 		if (distance(ps1.getCent(), ps2.getCent()) > ps1.getSize() + ps2.getSize() + surfacesize) {
 			return false;
@@ -75,18 +84,18 @@ public class TestCase {
 		}
 		Atom first = null;
 		Atom second = null;
-		for (double i = 0; i < 2*Math.PI; i += space*Math.PI/180) {
-			for (double j = space*Math.PI/360; j < Math.PI; j += space*Math.PI/180) {
+		for (double i = Constants.THETAINC/2; i < 2*Math.PI; i += Constants.THETAINC) {
+			for (double j = Constants.PHIINC/2; j < Math.PI; j += Constants.PHIINC) {
 				for (int k = 0; k < structurenew1.size(); k++) {
 					Atom current = (Atom)structurenew1.get(k);
-					if (Math.abs(current.getYcoord() - i) <= space*Math.PI/360 && Math.abs(current.getZcoord() - j) <= space*Math.PI/360 ) {
+					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2) {
 						first = current;
 						break;
 					}
 				}
 				for (int k = 0; k < structurenew2.size(); k++) {
 					Atom current = (Atom)structurenew2.get(k);
-					if (Math.abs(current.getYcoord() - i) <= space*Math.PI/360 && Math.abs(current.getZcoord() - j) <= space*Math.PI/360 ) {
+					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2) {
 						second = current;
 						break;
 					}
@@ -342,14 +351,17 @@ public class TestCase {
 		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.HBONDSCALE * hBondEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;
 	}
-	public double getXmov() {
-		return xmov;
+	public double getRmov() {
+		return rmov;
 	}
-	public double getYmov() {
-		return ymov;
+	public double getThetamov() {
+		return thetamov;
 	}
-	public double getZmov() {
-		return zmov;
+	public double getPhimov() {
+		return phimov;
+	}
+	public double getClash() {
+		return clash;
 	}
 	public double getTheta() {
 		return theta;
@@ -388,6 +400,6 @@ public class TestCase {
 		}
 	}
 	public void printInfo() {
-		System.out.println(xmov + " " + ymov + " " + zmov + " " + theta + " " + phi);
+		System.out.println(rmov + " " + thetamov + " " + phimov + " " + clash + " " + theta + " " + phi);
 	}
 }

@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2011-2012 Vikram Sundar.
+ * All Rights Reserved.
+ */
 package org.vikramdock;
 
 import java.io.*;
@@ -257,12 +261,6 @@ public class Atom {
 			double ycoordold = ycoord;
 			double zcoordold = zcoord;
 			xcoord = Math.sqrt((xcoordold * xcoordold) + (ycoordold * ycoordold) + (zcoordold * zcoordold));
-			if (xcoord < 0.0d) {
-				System.out.println(xcoord + " NEGATIVE " + xcoordold + " " + ycoordold + " " + zcoordold);
-				System.out.println(Math.pow(xcoordold, 2) + " " + Math.pow(ycoordold, 2) + " " + Math.pow(zcoordold, 2));
-				System.out.flush();
-				System.exit(-1);
-			}
 			ycoord = Math.atan2(ycoordold, xcoordold);
 			if (xcoord != 0.0) {
 				zcoord = Math.acos(zcoordold/xcoord);
@@ -270,16 +268,6 @@ public class Atom {
 				zcoord = 0.0;
 			}    
 			System.out.flush();
-			if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
-				if (xcoord < 0.0d) {
-					System.out.println(xcoord + " NEGATIVE " + xcoordold + " " + ycoordold + " " + zcoordold);
-					System.out.println(Math.pow(xcoordold, 2) + " " + Math.pow(ycoordold, 2) + " " + Math.pow(zcoordold, 2));
-					System.out.flush();
-					System.exit(-1);
-				}
-				System.out.println("NaN created in spherical conversion " + xcoord + " " + ycoord + " " + zcoord + " " + " SPHERICAL " + xcoordold + " " + ycoordold + " " + zcoordold + " CARTESIAN");
-				System.out.flush();
-			}
 		}
 	}
 	public void setCartesian() {
@@ -292,10 +280,6 @@ public class Atom {
 			ycoord = xcoordold * Math.sin(ycoordold) * Math.sin(zcoordold);
 			zcoord = xcoordold * Math.cos(zcoordold);
 			System.out.flush();
-			if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
-				System.out.println("NaN created in Cartesian conversion " + xcoord + " " + ycoord + " " + zcoord + " " + " CARTESIAN " + xcoordold + " " + ycoordold + " " + zcoordold + " SPHERICAL");
-				System.out.flush();
-			}
 		}
 	}
 	public Atom transAtom(double xmov, double ymov, double zmov) {
@@ -304,10 +288,6 @@ public class Atom {
 		double ycoordnew = ymov + ycoord;
 		double zcoordnew = zmov + zcoord;
 		Atom answer = new Atom(xcoordnew, ycoordnew, zcoordnew, element, resnum, atomnum, chainnum, eType, bonded);
-		if (Double.isNaN(xcoordnew) || Double.isNaN(ycoordnew) || Double.isNaN(zcoordnew)) {
-			System.err.println("NaN created in trans");
-			answer.printAtomErr();
-		}
 		return answer;
 	}
 	public Atom rotateAtom(double xcent, double ycent, double zcent, double theta, double phi) {
@@ -342,10 +322,6 @@ public class Atom {
 		double ycoordb = rcoorda * Math.sin(thetab) * Math.sin(phib) + ycent;
 		double zcoordb = rcoorda * Math.cos(phib) + zcent;
 		Atom answer = new Atom(xcoordb, ycoordb, zcoordb, element, resnum, atomnum, chainnum, eType, bonded);
-		if (Double.isNaN(xcoordb) || Double.isNaN(ycoordb) || Double.isNaN(zcoordb)) {
-			System.err.println("NaN created in rot");
-			answer.printAtomErr();
-		}
 		return answer;
 	}
 	public double distance(Atom other) {

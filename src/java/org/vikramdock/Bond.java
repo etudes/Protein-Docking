@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2011-2012 Vikram Sundar.
+ * All Rights Reserved.
+ */
 package org.vikramdock;
 
 import java.io.*;

@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2011-2012 Vikram Sundar.
+ * All Rights Reserved.
+ */
 package org.vikramdock;
 
 import java.io.*;
@@ -9,14 +13,14 @@ import java.lang.reflect.*;
 public class ProteinDockPredict{
 	ProteinStruct ps1;
 	ProteinStruct ps2;
-	PriorityQueue<TestCase> cases;
+	TestCaseStore cases;
 	int numthread;
 	Thread[] ths;
 	public ProteinDockPredict(String file1, String file2) {
 		ps1 = new ProteinStruct(file1);
 		ps2 = new ProteinStruct(file2);
 		TestCaseComparator tcc = new TestCaseComparator();
-		cases = new PriorityQueue<TestCase>(1000, tcc);
+		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
 		ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
 		ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
 	}
@@ -24,7 +28,7 @@ public class ProteinDockPredict{
 		this.ps1 = ps1;
 		this.ps2 = ps2;
 		TestCaseComparator tcc = new TestCaseComparator();
-		cases = new PriorityQueue<TestCase>(1000, tcc);
+		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
 		ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
 		ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
 	}
@@ -32,7 +36,7 @@ public class ProteinDockPredict{
 		try {
 			ths = new Thread[numthread];
 			for (int i = 0; i < numthread; i++) {
-				TestCaseGenerator gen = new TestCaseGenerator(this, -100 + 200*i/numthread, -100 + 200*(i+1)/numthread, 5, i);
+				TestCaseGenerator gen = new TestCaseGenerator(this, 0 + 2*Math.PI*i/numthread, 0 + 2*Math.PI*(i+1)/numthread, i);
 				Thread th = new Thread(gen);
 				ths[i] = th;
 				th.start();
@@ -148,14 +152,14 @@ public class ProteinDockPredict{
 			System.out.println("MODEL");
 			current.printInfo();
 			ps1.printStructurePDB();
-			ProteinStruct newps = ps2.transrotall(current.getXmov(), current.getYmov(), current.getZmov(), current.getTheta(), current.getPhi());
+			ProteinStruct newps = ps2.transrotpolarall(current.getRmov(), current.getThetamov(), current.getPhimov(), current.getTheta(), current.getPhi());
 			newps.printStructurePDB();
 			System.out.println("ENDMDL");
 		}
 		System.out.println("MODELS PASSED " + cases.size());
 	}
 	public synchronized void add(TestCase worked) {
-		cases.add(worked);
+		cases.addCap(worked);
 	}
 	public static String removeSpace(String test) {
 		String answer = "";

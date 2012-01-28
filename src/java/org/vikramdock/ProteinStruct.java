@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2011-2012 Vikram Sundar.
+ * All Rights Reserved.
+ */
 package org.vikramdock;
 
 import java.io.*;
@@ -29,6 +33,7 @@ public class ProteinStruct {
 	double zcoordcent;
 	boolean rotated;
 	double size;
+	double[][] sizes = new double[(int)(2*Math.PI/Constants.THETAINC)][(int)(Math.PI/Constants.PHIINC)];
 	public ProteinStruct(String filepath) {
 		try {
 			chaintranslator = new HashMap();
@@ -502,23 +507,23 @@ public class ProteinStruct {
 			current.setSpherical();
 			structurenew.add(current);
 		}
-		int space = Constants.SPACE;
 		double maxnumoverall = 0;
-		for (double i = 0; i < 2*Math.PI; i += space*Math.PI/180) {
-			for (double j = space*Math.PI/360; j < Math.PI; j += space*Math.PI/180) {
+		for (double i = Constants.THETAINC/2; i < 2*Math.PI; i += Constants.THETAINC) {
+			for (double j = Constants.PHIINC/2; j < Math.PI; j += Constants.PHIINC) {
 				double maxnum = 0;
 				for (int k = 0; k < structurenew.size(); k++) {
 					Atom current = (Atom)structurenew.get(k);
-					if (Math.abs(current.getYcoord() - i) <= space*Math.PI/360 && Math.abs(current.getZcoord() - j) <= space*Math.PI/360 && current.getXcoord() >= maxnum) {
+					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2 && current.getXcoord() >= maxnum) {
 						maxnum = current.getXcoord();
 					}
 					if (current.getXcoord() >= maxnumoverall) {
 						maxnumoverall = current.getXcoord();
 					}
 				}
+				sizes[(int)((i-Constants.THETAINC/2)*(1/Constants.THETAINC))][(int)((j-Constants.PHIINC/2)*(1/Constants.PHIINC))] = maxnum;
 				for (int k = 0; k < structurenew.size(); k++) {
 					Atom current = (Atom)structurenew.get(k);
-					if (Math.abs(current.getYcoord() - i) <= space*Math.PI/360 && Math.abs(current.getZcoord() - j) <= space*Math.PI/360 && maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE) {
+					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2 && maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE) {
 						surface.add(this.structure.get(k));
 					}
 				}
@@ -1801,25 +1806,20 @@ public class ProteinStruct {
 		centcoords[2] = zcoordcent;
 		return centcoords;
 	}
+	public double[][] getSizes() {
+		return sizes;
+	}
 	public ProteinStruct transrot(double xmov, double ymov, double zmov, double theta, double phi) {
 		ArrayList<Atom> newstruct = new ArrayList<Atom>();
 		for (int i = 0; i < surface.size(); i++) {
 			Atom current = (Atom)surface.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
-			if (Double.isNaN(trcurrent.getXcoord()) || Double.isNaN(trcurrent.getYcoord()) || Double.isNaN(trcurrent.getZcoord())) {
-				System.err.println("NaN found during transrot of surface");
-				trcurrent.printAtomErr();
-			}
 			newstruct.add(trcurrent);
 		}
 		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
 		for (int i = 0; i < surfacebackbone.size(); i++) {
 			Atom current = (Atom)surfacebackbone.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
-			if (Double.isNaN(trcurrent.getXcoord()) || Double.isNaN(trcurrent.getYcoord()) || Double.isNaN(trcurrent.getZcoord())) {
-				System.err.println("NaN found during transrot of surfacebackbone");
-				trcurrent.printAtomErr();
-			}
 			newbackbone.add(trcurrent);
 		}
 		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
@@ -1830,25 +1830,55 @@ public class ProteinStruct {
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
-			if (Double.isNaN(trcurrent.getXcoord()) || Double.isNaN(trcurrent.getYcoord()) || Double.isNaN(trcurrent.getZcoord())) {
-				System.err.println("NaN found during transrot of structure");
-				trcurrent.printAtomErr();
-			}
 			newstruct.add(trcurrent);
 		}
 		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
 		for (int i = 0; i < backbone.size(); i++) {
 			Atom current = (Atom)backbone.get(i);
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
-			if (Double.isNaN(trcurrent.getXcoord()) || Double.isNaN(trcurrent.getYcoord()) || Double.isNaN(trcurrent.getZcoord())) {
-				System.err.println("NaN found during transrot of backbone");
-				trcurrent.printAtomErr();
-			}
 			newbackbone.add(trcurrent);
 		}
 		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
-	} 
+	}
+	public ProteinStruct transrotpolar(double rmov, double thetamov, double phimov, double theta, double phi) {
+		double xmov = rmov * Math.cos(thetamov) * Math.sin(phimov);
+		double ymov = rmov * Math.sin(thetamov) * Math.sin(phimov);
+		double zmov = rmov * Math.cos(phimov);
+		ArrayList<Atom> newstruct = new ArrayList<Atom>();
+		for (int i = 0; i < surface.size(); i++) {
+			Atom current = (Atom)surface.get(i);
+			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
+			newstruct.add(trcurrent);
+		}
+		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
+		for (int i = 0; i < surfacebackbone.size(); i++) {
+			Atom current = (Atom)surfacebackbone.get(i);
+			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
+			newbackbone.add(trcurrent);
+		}
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		return answer;
+	}
+	public ProteinStruct transrotpolarall(double rmov, double thetamov, double phimov, double theta, double phi) {
+		double xmov = rmov * Math.cos(thetamov) * Math.sin(phimov);
+		double ymov = rmov * Math.sin(thetamov) * Math.sin(phimov);
+		double zmov = rmov * Math.cos(phimov);
+		ArrayList<Atom> newstruct = new ArrayList<Atom>();
+		for (int i = 0; i < structure.size(); i++) {
+			Atom current = (Atom)surface.get(i);
+			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
+			newstruct.add(trcurrent);
+		}
+		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
+		for (int i = 0; i < backbone.size(); i++) {
+			Atom current = (Atom)surfacebackbone.get(i);
+			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
+			newbackbone.add(trcurrent);
+		}
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		return answer;
+	}
 	public void printSequence() {
 		System.out.println("BEGIN SEQUENCE OF " + filepath);
 		for (int i = 0; i < chaincount; i++) {

@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2011-2012 Vikram Sundar.
+ * All Rights Reserved.
+ */
 package org.vikramdock;
 
 import java.io.*;
@@ -7,7 +11,13 @@ import java.lang.*;
 import java.lang.reflect.*;
 
 public class Constants {
-	public static final int SPACE = 7;
+	public static final int NUMCASES = 10;
+	public static final double THETAINC = Math.PI/360;
+	public static final double PHIINC = Math.PI/180;
+	public static final double STHETAINC = Math.PI/5;
+	public static final double SPHIINC = Math.PI/5;
+	public static final double MAXCLASH = 1;
+	public static final double CLASHINC = 0.1;
 	public static final double SURFACESIZE = 2;
 	public static final double ETHRESHOLD = 10000;
 	public static final double VDWDISTTHRESHOLD = 5;
