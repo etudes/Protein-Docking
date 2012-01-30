@@ -34,6 +34,7 @@ public class ProteinStruct {
 	boolean rotated;
 	double size;
 	double[][] sizes = new double[(int)(2*Math.PI/Constants.THETAINC)][(int)(Math.PI/Constants.PHIINC)];
+	double[][][][] potentials;
 	public ProteinStruct(String filepath) {
 		try {
 			chaintranslator = new HashMap();
@@ -135,12 +136,14 @@ public class ProteinStruct {
 			parseSequence(filepath);
 			parseStructure(filepath);
 			determineSurface();
+			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
 			detBondsBackbone();
+			detPotentials();
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 	}
-	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
+	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double[][] sizes, double[][][][] potentials, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
 		this.parsedsequence = parsedsequence;
 		this.structure = surface;
 		this.surface = surface;
@@ -150,6 +153,8 @@ public class ProteinStruct {
 		this.surfacebackbone = backbone;
 		this.backbonebonds = backbonebonds;
 		this.surfacebackbonebonds = backbonebonds;
+		this.sizes = sizes;
+		this.potentials = potentials;
 		rotated = true;
 		translator1 = new HashMap();
 		translator2 = new HashMap();
@@ -383,6 +388,8 @@ public class ProteinStruct {
 		this.parsedsequence = clone.getParsedsequence();
 		this.rotated = clone.getRotated();
 		this.size = clone.getSize();
+		this.sizes = clone.getSizes();
+		this.potentials = clone.getPotentials();
 	}
 	public void parseSequence(String filepath) throws Exception {
 		try {
@@ -484,17 +491,20 @@ public class ProteinStruct {
 				ycoordsum += ycoord;
 				zcoordsum += zcoord;
 			}
-			System.out.println(xcoordsum + " " + ycoordsum + " " + zcoordsum + " SUMS OF COORDS");
 			xcoordcent = xcoordsum/structcount;
 			ycoordcent = ycoordsum/structcount;
 			zcoordcent = zcoordsum/structcount;
-			System.out.println(xcoordcent + " " + ycoordcent + " " + zcoordcent + " CENTS OF COORDS");
 		} catch (Exception ex) {
 			ex.printStackTrace();
 			throw ex;
 		}
 	}
 	public void determineSurface() {
+		for (int i = 0; i < (int)(2*Math.PI/Constants.THETAINC); i++) {
+			for (int j = 0; j < (int)(Math.PI/Constants.PHIINC); j++) {
+				sizes[i][j] = Double.POSITIVE_INFINITY;
+			}
+		}
 		ArrayList newstructure = new ArrayList<Atom>();
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
@@ -1742,6 +1752,65 @@ public class ProteinStruct {
 			}
 		}
 	}
+	public void detPotentials() {
+		for (int i = 0; i < surface.size(); i++) {
+			Atom current = (Atom)surface.get(i);
+			double cx = current.getXcoord();
+			double cy = current.getYcoord();
+			double cz = current.getZcoord();
+			char cel = current.getElement(); 
+			for (double j = -Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE - Constants.VDWDISTTHRESHOLD + xcoordcent; j < Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD + xcoordcent; j += Constants.GRIDGRAINSIZE) {
+				for (double k = -Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE - Constants.VDWDISTTHRESHOLD + ycoordcent; k < Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD + ycoordcent; k += Constants.GRIDGRAINSIZE) {
+					for (double l = -Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE - Constants.VDWDISTTHRESHOLD + zcoordcent; l < Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD + zcoordcent; l += Constants.GRIDGRAINSIZE) {
+						double distance = Math.sqrt(Math.pow(cx - j, 2) + Math.pow(cy - k, 2) + Math.pow(cz - l, 2));
+						if (distance < Constants.VDWDISTTHRESHOLD) {
+							double EC = 0;
+							double EN = 0;
+							double EO = 0;
+							double ES = 0;
+							double EH = 0;
+							if (cel == 'C') {
+								EC = Constants.C12_C_C/Math.pow(distance, 12) - Constants.C6_C_C/Math.pow(distance, 6);
+								EN = Constants.C12_C_N/Math.pow(distance, 12) - Constants.C6_C_N/Math.pow(distance, 6);
+								EO = Constants.C12_C_O/Math.pow(distance, 12) - Constants.C6_C_O/Math.pow(distance, 6);
+								ES = Constants.C12_C_S/Math.pow(distance, 12) - Constants.C6_C_S/Math.pow(distance, 6);
+								EH = Constants.C12_C_H/Math.pow(distance, 12) - Constants.C6_C_H/Math.pow(distance, 6);
+							} else if (cel == 'N') {
+								EC = Constants.C12_C_N/Math.pow(distance, 12) - Constants.C6_C_N/Math.pow(distance, 6);
+								EN = Constants.C12_N_N/Math.pow(distance, 12) - Constants.C6_N_N/Math.pow(distance, 6);
+								EO = Constants.C12_N_O/Math.pow(distance, 12) - Constants.C6_N_O/Math.pow(distance, 6);
+								ES = Constants.C12_N_S/Math.pow(distance, 12) - Constants.C6_N_S/Math.pow(distance, 6);
+								EH = Constants.C12_N_H/Math.pow(distance, 12) - Constants.C6_N_H/Math.pow(distance, 6);
+							} else if (cel == 'O') {
+								EC = Constants.C12_C_O/Math.pow(distance, 12) - Constants.C6_C_O/Math.pow(distance, 6);
+								EN = Constants.C12_N_O/Math.pow(distance, 12) - Constants.C6_N_O/Math.pow(distance, 6);
+								EO = Constants.C12_O_O/Math.pow(distance, 12) - Constants.C6_O_O/Math.pow(distance, 6);
+								ES = Constants.C12_O_S/Math.pow(distance, 12) - Constants.C6_O_S/Math.pow(distance, 6);
+								EH = Constants.C12_O_H/Math.pow(distance, 12) - Constants.C6_O_H/Math.pow(distance, 6);
+							} else if (cel == 'S') {
+								EC = Constants.C12_C_S/Math.pow(distance, 12) - Constants.C6_C_S/Math.pow(distance, 6);
+								EN = Constants.C12_N_S/Math.pow(distance, 12) - Constants.C6_N_S/Math.pow(distance, 6);
+								EO = Constants.C12_O_S/Math.pow(distance, 12) - Constants.C6_O_S/Math.pow(distance, 6);
+								ES = Constants.C12_S_S/Math.pow(distance, 12) - Constants.C6_S_S/Math.pow(distance, 6);
+								EH = Constants.C12_S_H/Math.pow(distance, 12) - Constants.C6_S_H/Math.pow(distance, 6);
+							} else if (cel == 'H') {
+								EC = Constants.C12_C_H/Math.pow(distance, 12) - Constants.C6_C_H/Math.pow(distance, 6);
+								EN = Constants.C12_N_H/Math.pow(distance, 12) - Constants.C6_N_H/Math.pow(distance, 6);
+								EO = Constants.C12_O_H/Math.pow(distance, 12) - Constants.C6_O_H/Math.pow(distance, 6);
+								ES = Constants.C12_S_H/Math.pow(distance, 12) - Constants.C6_S_H/Math.pow(distance, 6);
+								EH = Constants.C12_H_H/Math.pow(distance, 12) - Constants.C6_H_H/Math.pow(distance, 6);
+							}
+							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][0] += EC;
+							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][1] += EN;
+							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][2] += EO;
+							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][3] += ES;
+							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][4] += EH;
+						}
+					}
+				}
+			}
+		}
+	}
 	public String removeSpace(String test) {
 		String answer = "";
 		for (int i = 0; i < test.length(); i++) {
@@ -1809,6 +1878,9 @@ public class ProteinStruct {
 	public double[][] getSizes() {
 		return sizes;
 	}
+	public double[][][][] getPotentials() {
+		return potentials;
+	}
 	public ProteinStruct transrot(double xmov, double ymov, double zmov, double theta, double phi) {
 		ArrayList<Atom> newstruct = new ArrayList<Atom>();
 		for (int i = 0; i < surface.size(); i++) {
@@ -1822,7 +1894,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	} 
 	public ProteinStruct transrotall(double xmov, double ymov, double zmov, double theta, double phi) {
@@ -1838,7 +1910,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotpolar(double rmov, double thetamov, double phimov, double theta, double phi) {
@@ -1857,7 +1929,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotpolarall(double rmov, double thetamov, double phimov, double theta, double phi) {
@@ -1876,7 +1948,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public void printSequence() {

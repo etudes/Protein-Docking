@@ -12,23 +12,22 @@ import java.lang.reflect.*;
 
 public class Constants {
 	public static final int NUMCASES = 10;
-	public static final double THETAINC = Math.PI/360;
+	public static final double THETAINC = Math.PI/180;
 	public static final double PHIINC = Math.PI/180;
 	public static final double STHETAINC = Math.PI/5;
 	public static final double SPHIINC = Math.PI/5;
 	public static final double MAXCLASH = 1;
-	public static final double CLASHINC = 0.1;
+	public static final double CLASHINC = 1;
+	public static final double GRIDGRAINSIZE = 1;
 	public static final double SURFACESIZE = 2;
-	public static final double ETHRESHOLD = 10000;
+	public static final double ETHRESHOLD = 100;
 	public static final double VDWDISTTHRESHOLD = 5;
-	public static final double HBDISTTHRESHOLD = 5;
 	public static final double BONDDISTHRES = 5;
 	public static final double BONDCONST = 1;
 	public static final double ABENDCONST = 1;
 	public static final double TORSCONST = 1;
 	public static final double SCORETHRES = 100;
 	public static final double VDWSCALE = 1;
-	public static final double HBONDSCALE = 1;
 	public static final double BSTRETCHSCALE = 1;
 	public static final double ABENDSCALE = 1;
 	public static final double TORSSCALE = 1;

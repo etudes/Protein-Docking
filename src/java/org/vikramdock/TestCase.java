@@ -50,49 +50,26 @@ public class TestCase {
 		score = -1;
 	}
 	public double score() {
-		for (int i = 0; i < surfacebya.size(); i++) {
-			Atom test = (Atom)surfacebya.get(i);
-			test.setCartesian();
-			if (Double.isNaN(test.getXcoord()) || Double.isNaN(test.getYcoord()) || Double.isNaN(test.getZcoord())) {
-				score = Double.POSITIVE_INFINITY;
-			}
-		}
-		if (!surfaceScore()) {
-			score = Double.POSITIVE_INFINITY;
-		} else {
+		double score;
+		//if (!surfaceScore()) {
+		//	score = Double.POSITIVE_INFINITY;
+		//} else {
 			score = energyScore();
-		}
+		//}
 		return score;
 	}
 	public boolean surfaceScore() {
 		boolean answer = false;
 		double surfacesize = Constants.SURFACESIZE;
-		if (distance(ps1.getCent(), ps2.getCent()) > ps1.getSize() + ps2.getSize() + surfacesize) {
-			return false;
-		}
-		ArrayList structurenew1 = new ArrayList<Atom>();
-		for (int i = 0; i < ps1struct.size(); i++) {
-			Atom current = (Atom)ps1struct.get(i);
-			current.setSpherical();
-			structurenew1.add(current);
-		}
 		ArrayList structurenew2 = new ArrayList<Atom>();
 		for (int i = 0; i < ps2struct.size(); i++) {
 			Atom current = (Atom)ps2struct.get(i);
 			current.setSpherical();
 			structurenew2.add(current);
 		}
-		Atom first = null;
 		Atom second = null;
 		for (double i = Constants.THETAINC/2; i < 2*Math.PI; i += Constants.THETAINC) {
 			for (double j = Constants.PHIINC/2; j < Math.PI; j += Constants.PHIINC) {
-				for (int k = 0; k < structurenew1.size(); k++) {
-					Atom current = (Atom)structurenew1.get(k);
-					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2) {
-						first = current;
-						break;
-					}
-				}
 				for (int k = 0; k < structurenew2.size(); k++) {
 					Atom current = (Atom)structurenew2.get(k);
 					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2) {
@@ -100,8 +77,8 @@ public class TestCase {
 						break;
 					}
 				}
-				if (first != null && second != null) {
-					double firstrad = first.getXcoord();
+				double firstrad = ps1sizes[(int)((i-Constants.THETAINC/2)/Constants.THETAINC)][(int)((phimov-Constants.PHIINC/2)/Constants.PHIINC)];
+				if (firstrad != Double.POSITIVE_INFINITY && second != null) {
 					double secondrad = second.getXcoord();
 					if (Math.abs(firstrad - secondrad) <= surfacesize) {
 						answer = true;
@@ -116,138 +93,38 @@ public class TestCase {
 	public double energyScore() {
 		double Etot = 0;
 		double vanDerWaalsEtot = 0;
-		double hBondEtot = 0;
 		double bStretchEtot = 0;
 		double aBendEtot = 0;
 		double torsEtot = 0;
-		for (int i = 0; i < ps1struct.size(); i++) {
-			for (int j = 0; j < ps2struct.size(); j++) {
-				Atom first = ps1struct.get(i);
-				Atom second = ps2struct.get(j);
-				double distance = first.distance(second);
-				char firste = first.getElement();
-				char seconde = second.getElement();
-				if (distance <= Constants.VDWDISTTHRESHOLD) {
-					double vanDerWaalsE = 0; 
-					if (firste == 'C' && seconde == 'C') {
-						vanDerWaalsE = Constants.C12_C_C/Math.pow(distance, 12) - Constants.C6_C_C/Math.pow(distance, 6);
-					}
-					if ((firste == 'C' && seconde == 'N') || (firste == 'N' && seconde == 'C')) {
-						vanDerWaalsE = Constants.C12_C_N/Math.pow(distance, 12) - Constants.C6_C_N/Math.pow(distance, 6);
-					}
-					if ((firste == 'C' && seconde == 'O') || (firste == 'O' && seconde == 'C')) {
-						vanDerWaalsE = Constants.C12_C_O/Math.pow(distance, 12) - Constants.C6_C_O/Math.pow(distance, 6);
-					}
-					if ((firste == 'C' && seconde == 'S') || (firste == 'S' && seconde == 'C')) {
-						vanDerWaalsE = Constants.C12_C_S/Math.pow(distance, 12) - Constants.C6_C_S/Math.pow(distance, 6);
-					}
-					if ((firste == 'C' && seconde == 'H') || (firste == 'H' && seconde == 'C')) {
-						vanDerWaalsE = Constants.C12_C_H/Math.pow(distance, 12) - Constants.C6_C_H/Math.pow(distance, 6);
-					}
-					if (firste == 'N' && seconde == 'N') {
-						vanDerWaalsE = Constants.C12_N_N/Math.pow(distance, 12) - Constants.C6_N_N/Math.pow(distance, 6);
-					}
-					if ((firste == 'N' && seconde == 'O') || (firste == 'O' && seconde == 'N')) {
-						vanDerWaalsE = Constants.C12_N_O/Math.pow(distance, 12) - Constants.C6_N_O/Math.pow(distance, 6);
-					}
-					if ((firste == 'N' && seconde == 'S') || (firste == 'S' && seconde == 'N')) {
-						vanDerWaalsE = Constants.C12_N_S/Math.pow(distance, 12) - Constants.C6_N_S/Math.pow(distance, 6);
-					}
-					if ((firste == 'N' && seconde == 'H') || (firste == 'H' && seconde == 'N')) {
-						vanDerWaalsE = Constants.C12_N_H/Math.pow(distance, 12) - Constants.C6_N_H/Math.pow(distance, 6);
-					}
-					if (firste == 'O' && seconde == 'O') {
-						vanDerWaalsE = Constants.C12_O_O/Math.pow(distance, 12) - Constants.C6_O_O/Math.pow(distance, 6);
-					}
-					if ((firste == 'O' && seconde == 'S') || (firste == 'S' && seconde == 'O')) {
-						vanDerWaalsE = Constants.C12_O_S/Math.pow(distance, 12) - Constants.C6_O_S/Math.pow(distance, 6);
-					}
-					if ((firste == 'O' && seconde == 'H') || (firste == 'H' && seconde == 'O')) {
-						vanDerWaalsE = Constants.C12_O_H/Math.pow(distance, 12) - Constants.C6_O_H/Math.pow(distance, 6);
-					}
-					if (firste == 'S' && seconde == 'S') {
-						vanDerWaalsE = Constants.C12_S_S/Math.pow(distance, 12) - Constants.C6_S_S/Math.pow(distance, 6);
-					}
-					if ((firste == 'S' && seconde == 'H') || (firste == 'H' && seconde == 'S')) {
-						vanDerWaalsE = Constants.C12_S_H/Math.pow(distance, 12) - Constants.C6_S_H/Math.pow(distance, 6);
-					}
-					if (firste == 'H' && seconde == 'H') {
-						vanDerWaalsE = Constants.C12_H_H/Math.pow(distance, 12) - Constants.C6_H_H/Math.pow(distance, 6);
-					}
-					if (vanDerWaalsE >= Constants.ETHRESHOLD) {
-						return Double.POSITIVE_INFINITY;
-					}
-					vanDerWaalsEtot += vanDerWaalsE; 
-				}
-				if (firste == 'H' && distance <= Constants.HBDISTTHRESHOLD) {
-					double hBondE = 0;
-					double mindist = Constants.BONDDISTHRES;
-					int bondedto = -1;
-					for (int k = 0; k < ps1struct.size(); k++) {
-						Atom current = (Atom)ps1struct.get(k);
-						if (current.getElement() != 'H') {
-							double curdistance = first.distance(current);
-							if (mindist >= curdistance) {
-								bondedto = k;
-								mindist = curdistance;
-							}
-						}
-					}
-					Atom third = (Atom)ps1struct.get(bondedto);
-					char thirde = third.getElement();
-					double angle = first.angle(second, third);
-					if (angle >= Math.PI/2 && thirde != 'C') {
-						if (seconde == 'N') {
-							hBondE = Constants.H_C12_N_H/Math.pow(distance, 12) - Constants.H_C10_N_H/Math.pow(distance, 10);
-						} 
-						if (seconde == 'O') {
-							hBondE = Constants.H_C12_O_H/Math.pow(distance, 12) - Constants.H_C10_O_H/Math.pow(distance, 10);
-						}
-						if (seconde == 'S') {
-							hBondE = Constants.H_C12_S_H/Math.pow(distance, 12) - Constants.H_C10_S_H/Math.pow(distance, 10);
-						}
-						hBondE *= -Math.cos(angle);
-						if (hBondE >= Constants.ETHRESHOLD) {
-							return Double.POSITIVE_INFINITY;
-						}
-						hBondEtot += hBondE;
-					}
-				} else if (seconde == 'H' && distance <= Constants.HBDISTTHRESHOLD) {
-					double hBondE = 0;
-					double mindist = Constants.BONDDISTHRES;
-					int bondedto = -1;
-					for (int k = 0; k < ps2struct.size(); k++) {
-						Atom current = (Atom)ps2struct.get(k);
-						if (current.getElement() != 'H') {
-							double curdistance = first.distance(current);
-							if (mindist >= curdistance) {
-								bondedto = k;
-								mindist = curdistance;
-							}
-						}
-					}
-					Atom third = (Atom)ps2struct.get(bondedto);
-					char thirde = third.getElement();
-					double angle = second.angle(first, third);
-					if (angle >= Math.PI/2 && thirde != 'C') {
-						if (firste == 'N') {
-							hBondE = Constants.H_C12_N_H/Math.pow(distance, 12) - Constants.H_C10_N_H/Math.pow(distance, 10);
-						} 
-						if (firste == 'O') {
-							hBondE = Constants.H_C12_O_H/Math.pow(distance, 12) - Constants.H_C10_O_H/Math.pow(distance, 10);
-						}
-						if (firste == 'S') {
-							hBondE = Constants.H_C12_S_H/Math.pow(distance, 12) - Constants.H_C10_S_H/Math.pow(distance, 10);
-						}
-						//extremely dangerous assumption follows here
-						hBondE *= -Math.cos(angle);
-						if (hBondE >= Constants.ETHRESHOLD) {
-							return Double.POSITIVE_INFINITY;
-						}
-						hBondEtot += hBondE;
-					}
+		double[][][][] potentials = ps1.getPotentials();
+		for (int i = 0; i < ps2struct.size(); i++) {
+			Atom current = (Atom)ps2struct.get(i);
+			char cel = current.getElement();
+			double cx = current.getXcoord();
+			double cy = current.getYcoord();
+			double cz = current.getZcoord();
+			double vanDerWaalsE = 0;
+			double ps1size = ps1.getSize();
+			if (Math.abs(cx) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cy) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cz) < ps1size + Constants.VDWDISTTHRESHOLD) {
+				int tx = (int)((Math.round(cx/(Constants.GRIDGRAINSIZE)) * Constants.GRIDGRAINSIZE + Math.ceil(ps1size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
+				int ty = (int)((Math.round(cy/(Constants.GRIDGRAINSIZE)) * Constants.GRIDGRAINSIZE + Math.ceil(ps1size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);				
+				int tz = (int)((Math.round(cz/(Constants.GRIDGRAINSIZE)) * Constants.GRIDGRAINSIZE + Math.ceil(ps1size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
+				if (cel == 'C') {
+					vanDerWaalsE = potentials[tx][ty][tz][0];
+				} else if (cel == 'N') {
+					vanDerWaalsE = potentials[tx][ty][tz][1];
+				} else if (cel == 'O') {
+					vanDerWaalsE = potentials[tx][ty][tz][2];
+				} else if (cel == 'S') {
+					vanDerWaalsE = potentials[tx][ty][tz][3];
+				} else if (cel == 'H') {
+					vanDerWaalsE = potentials[tx][ty][tz][4];
 				}
 			}
+			if (vanDerWaalsE > Constants.ETHRESHOLD) {
+				return Double.POSITIVE_INFINITY;
+			}
+			vanDerWaalsEtot += vanDerWaalsE;
 		}
 		//bond stretching
 		ArrayList ps1bonds = ps1.getSurfaceBonds();
@@ -348,7 +225,7 @@ public class TestCase {
 				torsEtot += torsE;
 			}
 		}
-		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.HBONDSCALE * hBondEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
+		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;
 	}
 	public double getRmov() {

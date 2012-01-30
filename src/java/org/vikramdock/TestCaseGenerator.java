@@ -30,8 +30,8 @@ public class TestCaseGenerator implements Runnable {
 			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("thread" + num + ".txt")));
 			for (double i = thetamin; i < thetamax; i += Constants.THETAINC) {
 				for (double j = 0; j < Math.PI; j += Constants.PHIINC) {
-					for (int k = 0; k < Constants.MAXCLASH; k += Constants.CLASHINC) {
-						out.println(i + " " + j);
+					for (double k = 0; k < Constants.MAXCLASH; k += Constants.CLASHINC) {
+						out.println(i + " " + j + " " + k);
 						out.flush();
 						for (double theta = 0; theta < 2*Math.PI; theta += Constants.STHETAINC) {
 							for (double phi = 0; phi < Math.PI; phi += Constants.SPHIINC) {
@@ -44,6 +44,7 @@ public class TestCaseGenerator implements Runnable {
 							}
 						}
 					}
+					out.println("DONE");
 				}
 			}
 		} catch (Exception ex) {
