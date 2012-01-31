@@ -1938,13 +1938,13 @@ public class ProteinStruct {
 		double zmov = rmov * Math.cos(phimov);
 		ArrayList<Atom> newstruct = new ArrayList<Atom>();
 		for (int i = 0; i < structure.size(); i++) {
-			Atom current = (Atom)surface.get(i);
+			Atom current = (Atom)structure.get(i);
 			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
 			newstruct.add(trcurrent);
 		}
 		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
 		for (int i = 0; i < backbone.size(); i++) {
-			Atom current = (Atom)surfacebackbone.get(i);
+			Atom current = (Atom)backbone.get(i);
 			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
 			newbackbone.add(trcurrent);
 		}
