@@ -149,7 +149,12 @@ public class ProteinDockPredict{
 	public void printCases() {
 		for (int i = 0; i < Math.min(cases.size(),10); i++) {
 			TestCase current = (TestCase)cases.poll();
-			System.out.println("MODEL");
+			double score = current.getScore();
+			if (i < 9) {
+				System.out.println("MODEL        " + (i+1) + " " + score);
+			} else {
+				System.out.println("MODEL       10 " + score);
+			}
 			current.printInfo();
 			ps1.printStructurePDB();
 			ProteinStruct newps = ps2.transrotpolarall(current.getRmov(), current.getThetamov(), current.getPhimov(), current.getTheta(), current.getPhi());

@@ -36,7 +36,7 @@ public class TestCaseGenerator implements Runnable {
 						for (double theta = 0; theta < 2*Math.PI; theta += Constants.STHETAINC) {
 							for (double phi = 0; phi < Math.PI; phi += Constants.SPHIINC) {
 								TestCase next = new TestCase(ps1, ps2, i, j, k, theta, phi);
-								if (next.score() <= Constants.SCORETHRES) {
+								if (next.score() != Double.POSITIVE_INFINITY) {
 									pdp.add(next);
 								} else {
 									next = null;

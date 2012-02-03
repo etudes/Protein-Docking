@@ -481,7 +481,7 @@ public class ProteinStruct {
 				if (element == ' ') {
 					element = eType.charAt(0);
 				}
-				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chainnum, eType);
+				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, reversechaintrans.get(chainnum).toString().charAt(0), eType);
 				if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
 					System.err.println("NaN found");
 					next.printAtomErr();
@@ -1973,9 +1973,42 @@ public class ProteinStruct {
 		}
 	}
 	public void printStructurePDB() {
+		char currentchain = ' ';
+		Atom last = null;
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
+			if (currentchain != current.getChainnum() && i != 0) {
+				String toBePrinted = "TER   ";
+				int length = Integer.toString(last.getAtomnum()+1).length();
+				int atomnum = last.getAtomnum()+1;
+				if (length == 5) { 
+					toBePrinted = toBePrinted.concat(Integer.toString(atomnum));
+				} else if (length == 4) {
+					toBePrinted = toBePrinted.concat(" ").concat(Integer.toString(atomnum));
+				} else if (length == 3) {
+					toBePrinted = toBePrinted.concat("  ").concat(Integer.toString(atomnum));
+				} else if (length == 2) {
+					toBePrinted = toBePrinted.concat("   ").concat(Integer.toString(atomnum));
+				} else if (length == 1) {
+					toBePrinted = toBePrinted.concat("    ").concat(Integer.toString(atomnum));
+				}
+				toBePrinted = toBePrinted.concat("      ");
+				toBePrinted = toBePrinted.concat("  ");
+				toBePrinted = toBePrinted.concat(" ").concat(Character.toString(last.getChainnum()));
+				String resnum = Integer.toString(last.getResnum());
+				if (resnum.length() == 4) {
+					toBePrinted = toBePrinted.concat(resnum);
+				} else if (resnum.length() == 3) {
+					toBePrinted = toBePrinted.concat(" ").concat(resnum);
+				} else if (resnum.length() == 2) {
+					toBePrinted = toBePrinted.concat("  ").concat(resnum);
+				} else if (resnum.length() == 1) {
+					toBePrinted = toBePrinted.concat("   ").concat(resnum);
+				}
+				System.out.println(toBePrinted);
+			}
 			current.printAtomPDB();
+			last = current;
 		}
 	}
 	public Atom getAtomByNum(int atomnum) {

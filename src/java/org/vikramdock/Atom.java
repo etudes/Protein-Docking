@@ -17,11 +17,11 @@ public class Atom {
 	char element;
 	int resnum;
 	int atomnum;
-	int chainnum;
+	char chainnum;
 	boolean spherical;
 	ArrayList<Bond> bonded;
 	String eType;
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, String eType) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -32,7 +32,7 @@ public class Atom {
 		this.spherical = false;
 		this.eType = eType;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, String eType, ArrayList bonded) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList bonded) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -44,7 +44,7 @@ public class Atom {
 		this.bonded = bonded;
 		this.eType = eType;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, boolean spherical, String eType) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -55,7 +55,7 @@ public class Atom {
 		this.spherical = spherical;
 		this.eType = eType;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, int chainnum, boolean spherical, String eType, ArrayList bonded) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType, ArrayList bonded) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -107,7 +107,7 @@ public class Atom {
 	public int getAtomnum() {
 		return atomnum;
 	}
-	public int getChainnum() {
+	public char getChainnum() {
 		return chainnum;
 	}
 	public boolean getSpherical() {
@@ -142,7 +142,7 @@ public class Atom {
 			toBePrinted = toBePrinted.concat("    ").concat(Integer.toString(atomnum));
 		}
 		toBePrinted = toBePrinted.concat("  ");
-		String atom = Character.toString(element);
+		String atom = eType;
 		if (atom.length() ==  1) {
 			toBePrinted = toBePrinted.concat(atom).concat("   ");
 		} else if (atom.length() == 2) {
@@ -151,7 +151,7 @@ public class Atom {
 			toBePrinted = toBePrinted.concat(atom).concat(" ");
 		}
 		toBePrinted = toBePrinted.concat("  ");
-		toBePrinted = toBePrinted.concat(" ").concat(Integer.toString(chainnum));
+		toBePrinted = toBePrinted.concat(" ").concat(Character.toString(chainnum));
 		String resnum = Integer.toString(this.resnum);
 		if (resnum.length() == 4) {
 			toBePrinted = toBePrinted.concat(resnum);
