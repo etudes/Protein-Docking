@@ -57,8 +57,6 @@ public class ProteinDockPredict{
 			String file2 = "E:\\Research\\pdb\\wwpdb\\pdb\\".concat(id2.substring(1,3)).concat("\\pdb").concat(id2).concat(".ent.gz");
 			long start = System.currentTimeMillis();
 			ProteinDockPredict pdp = new ProteinDockPredict(file1, file2);
-			//ProteinStruct newps = pdp.ps1;
-			//newps.printSurface();
 			pdp.genTestCases();
 			for (int i = 0; i < pdp.numthread; i++) {
 				pdp.ths[i].join();
@@ -81,6 +79,7 @@ public class ProteinDockPredict{
 			FileInputStream fis = new FileInputStream(filepath);
 			InputStreamReader isr = new InputStreamReader(fis);
 			BufferedReader br2 = new BufferedReader(isr);
+			int curatom = Integer.MAX_VALUE;
 			int counter = 0;
 			char chain = ' ';
 			while(true) {
@@ -89,12 +88,13 @@ public class ProteinDockPredict{
 					String[] ssplit = new String[20];
 					ssplit = s.split(" ");
 					if (ssplit[0].equals("ATOM")) {
-						if (Integer.parseInt(removeSpace(s.substring(6,11))) == 1) {
+						if (Integer.parseInt(removeSpace(s.substring(6,11))) < curatom) {
 							counter++;
 							if (counter == 2) {
 								chain = s.charAt(21);
 							}
 						}
+						curatom = Integer.parseInt(removeSpace(s.substring(6,11)));
 						if (counter == 1) {
 							prot1.println(s);
 						} else if (counter == 2) {
@@ -130,18 +130,18 @@ public class ProteinDockPredict{
 			}
 			prot1.close();
 			prot2.close();
-			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
-			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
-			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
-			pdp.numthread = Integer.parseInt(br.readLine());
-			System.out.println(pdp.numthread + " NUMTHREAD");
-			pdp.genTestCases();
-			for (int i = 0; i < pdp.numthread; i++) {
-				pdp.ths[i].join();
-			}
-			pdp.printCases();
-			long end = System.currentTimeMillis();
-			System.out.println(end - start);
+			//ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
+			//ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
+			//ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
+			//pdp.numthread = Integer.parseInt(br.readLine());
+			//System.out.println(pdp.numthread + " NUMTHREAD");
+			//pdp.genTestCases();
+			//for (int i = 0; i < pdp.numthread; i++) {
+			//	pdp.ths[i].join();
+			//}
+			//pdp.printCases();
+			//long end = System.currentTimeMillis();
+			//System.out.println(end - start);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}

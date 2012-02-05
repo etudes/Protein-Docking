@@ -21,7 +21,8 @@ public class Atom {
 	boolean spherical;
 	ArrayList<Bond> bonded;
 	String eType;
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType) {
+	String AA;
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, String AA) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -31,8 +32,9 @@ public class Atom {
 		this.chainnum = chainnum;
 		this.spherical = false;
 		this.eType = eType;
+		this.AA = AA;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList bonded) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList bonded, String AA) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -43,8 +45,9 @@ public class Atom {
 		this.spherical = false;
 		this.bonded = bonded;
 		this.eType = eType;
+		this.AA = AA;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType, String AA) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -54,8 +57,9 @@ public class Atom {
 		this.chainnum = chainnum;
 		this.spherical = spherical;
 		this.eType = eType;
+		this.AA = AA;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType, ArrayList bonded) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType, ArrayList bonded, String AA) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -66,6 +70,7 @@ public class Atom {
 		this.spherical = spherical;
 		this.bonded = bonded;
 		this.eType = eType;
+		this.AA = AA;
 	}
 	public Atom(Atom clone) {
 		this.xcoord = clone.getXcoord();
@@ -78,6 +83,7 @@ public class Atom {
 		this.spherical = clone.getSpherical();
 		this.bonded = clone.getBonded();
 		this.eType = clone.getEtype();
+		this.AA = clone.getAA();
 	}
 	public void addBond(Bond toBeBonded) {
 		bonded.add(toBeBonded);
@@ -119,6 +125,9 @@ public class Atom {
 	public String getEtype() {
 		return eType;
 	}
+	public String getAA() {
+		return AA;
+	}
 	public void printAtom() {
 		setCartesian();
 		System.out.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " COORDS " + xcoord + " " + ycoord + " " + zcoord);
@@ -150,7 +159,7 @@ public class Atom {
 		} else if (atom.length() == 3) {
 			toBePrinted = toBePrinted.concat(atom).concat(" ");
 		}
-		toBePrinted = toBePrinted.concat("  ");
+		toBePrinted = toBePrinted.concat(AA);
 		toBePrinted = toBePrinted.concat(" ").concat(Character.toString(chainnum));
 		String resnum = Integer.toString(this.resnum);
 		if (resnum.length() == 4) {
@@ -169,8 +178,12 @@ public class Atom {
 		if (xcoords.length > 1) {
 			if (xcoords[1].length() > 3) {
 				xcoordstr = xcoords[0].concat(".").concat(xcoords[1].substring(0,3));
-			} else {
+			} else if (xcoords[1].length() == 3) {
 				xcoordstr = xcoordraw;
+			} else if (xcoords[1].length() == 2) {
+				xcoordstr = xcoordraw.concat("0");
+			} else {
+				xcoordstr = xcoordraw.concat("00");
 			}
 		} else {
 			xcoordstr = xcoordraw;
@@ -198,8 +211,12 @@ public class Atom {
 		if (ycoords.length > 1) {
 			if (ycoords[1].length() > 3) {
 				ycoord = ycoords[0].concat(".").concat(ycoords[1].substring(0,3));
-			} else {
+			} else if (ycoords[1].length() == 3) {
 				ycoord = ycoordraw;
+			} else if (ycoords[1].length() == 2) {
+				ycoord = ycoordraw.concat("0");
+			} else {
+				ycoord = ycoordraw.concat("00");
 			}
 		} else {
 			ycoord = ycoordraw;
@@ -227,8 +244,12 @@ public class Atom {
 		if (zcoords.length > 1) {
 			if (zcoords[1].length() > 3) {
 				zcoord = zcoords[0].concat(".").concat(zcoords[1].substring(0,3));
-			} else {
+			} else if (zcoords[1].length() == 3) {
 				zcoord = zcoordraw;
+			} else if (zcoords[1].length() == 2) {
+				zcoord = zcoordraw.concat("0");
+			} else {
+				zcoord = zcoordraw.concat("00");
 			}
 		} else {
 			zcoord = zcoordraw;
@@ -287,7 +308,7 @@ public class Atom {
 		double xcoordnew = xmov + xcoord;
 		double ycoordnew = ymov + ycoord;
 		double zcoordnew = zmov + zcoord;
-		Atom answer = new Atom(xcoordnew, ycoordnew, zcoordnew, element, resnum, atomnum, chainnum, eType, bonded);
+		Atom answer = new Atom(xcoordnew, ycoordnew, zcoordnew, element, resnum, atomnum, chainnum, eType, bonded, AA);
 		return answer;
 	}
 	public Atom rotateAtom(double xcent, double ycent, double zcent, double theta, double phi) {
@@ -321,7 +342,7 @@ public class Atom {
 		double xcoordb = rcoorda * Math.cos(thetab) * Math.sin(phib) + xcent;
 		double ycoordb = rcoorda * Math.sin(thetab) * Math.sin(phib) + ycent;
 		double zcoordb = rcoorda * Math.cos(phib) + zcent;
-		Atom answer = new Atom(xcoordb, ycoordb, zcoordb, element, resnum, atomnum, chainnum, eType, bonded);
+		Atom answer = new Atom(xcoordb, ycoordb, zcoordb, element, resnum, atomnum, chainnum, eType, bonded, AA);
 		return answer;
 	}
 	public double distance(Atom other) {

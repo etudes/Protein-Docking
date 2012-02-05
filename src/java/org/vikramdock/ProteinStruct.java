@@ -478,10 +478,11 @@ public class ProteinStruct {
 				int atomnum = Integer.parseInt(removeSpace(catom.substring(6,11)));
 				int chainnum = Integer.parseInt(chaintranslator.get(catom.charAt(21)).toString());
 				String eType = removeSpace(catom.substring(12,16));
+				String AA = removeSpace(catom.substring(17,20));
 				if (element == ' ') {
 					element = eType.charAt(0);
 				}
-				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, reversechaintrans.get(chainnum).toString().charAt(0), eType);
+				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, reversechaintrans.get(chainnum).toString().charAt(0), eType, AA);
 				if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
 					System.err.println("NaN found");
 					next.printAtomErr();
@@ -1993,7 +1994,7 @@ public class ProteinStruct {
 					toBePrinted = toBePrinted.concat("    ").concat(Integer.toString(atomnum));
 				}
 				toBePrinted = toBePrinted.concat("      ");
-				toBePrinted = toBePrinted.concat("  ");
+				toBePrinted = toBePrinted.concat(last.getAA());
 				toBePrinted = toBePrinted.concat(" ").concat(Character.toString(last.getChainnum()));
 				String resnum = Integer.toString(last.getResnum());
 				if (resnum.length() == 4) {
@@ -2007,9 +2008,38 @@ public class ProteinStruct {
 				}
 				System.out.println(toBePrinted);
 			}
+			currentchain = current.getChainnum();
 			current.printAtomPDB();
 			last = current;
 		}
+		String toBePrinted = "TER   ";
+		int length = Integer.toString(last.getAtomnum()+1).length();
+		int atomnum = last.getAtomnum()+1;
+		if (length == 5) { 
+			toBePrinted = toBePrinted.concat(Integer.toString(atomnum));
+		} else if (length == 4) {
+			toBePrinted = toBePrinted.concat(" ").concat(Integer.toString(atomnum));
+		} else if (length == 3) {
+			toBePrinted = toBePrinted.concat("  ").concat(Integer.toString(atomnum));
+		} else if (length == 2) {
+			toBePrinted = toBePrinted.concat("   ").concat(Integer.toString(atomnum));
+		} else if (length == 1) {
+			toBePrinted = toBePrinted.concat("    ").concat(Integer.toString(atomnum));
+		}
+		toBePrinted = toBePrinted.concat("      ");
+		toBePrinted = toBePrinted.concat(last.getAA());
+		toBePrinted = toBePrinted.concat(" ").concat(Character.toString(last.getChainnum()));
+		String resnum = Integer.toString(last.getResnum());
+		if (resnum.length() == 4) {
+			toBePrinted = toBePrinted.concat(resnum);
+		} else if (resnum.length() == 3) {
+			toBePrinted = toBePrinted.concat(" ").concat(resnum);
+		} else if (resnum.length() == 2) {
+			toBePrinted = toBePrinted.concat("  ").concat(resnum);
+		} else if (resnum.length() == 1) {
+			toBePrinted = toBePrinted.concat("   ").concat(resnum);
+		}
+		System.out.println(toBePrinted);
 	}
 	public Atom getAtomByNum(int atomnum) {
 		for (int i = 0; i < surface.size(); i++) {
