@@ -130,18 +130,18 @@ public class ProteinDockPredict{
 			}
 			prot1.close();
 			prot2.close();
-			//ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
-			//ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
-			//ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
-			//pdp.numthread = Integer.parseInt(br.readLine());
-			//System.out.println(pdp.numthread + " NUMTHREAD");
-			//pdp.genTestCases();
-			//for (int i = 0; i < pdp.numthread; i++) {
-			//	pdp.ths[i].join();
-			//}
-			//pdp.printCases();
-			//long end = System.currentTimeMillis();
-			//System.out.println(end - start);
+			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
+			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
+			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
+			pdp.numthread = Integer.parseInt(br.readLine());
+			System.out.println(pdp.numthread + " NUMTHREAD");
+			pdp.genTestCases();
+			for (int i = 0; i < pdp.numthread; i++) {
+				pdp.ths[i].join();
+			}
+			pdp.printCases();
+			long end = System.currentTimeMillis();
+			System.out.println(end - start);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
