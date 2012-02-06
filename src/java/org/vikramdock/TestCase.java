@@ -105,10 +105,13 @@ public class TestCase {
 			double cz = current.getZcoord();
 			double vanDerWaalsE = 0;
 			double ps1size = ps1.getSize();
-			if (Math.abs(cx) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cy) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cz) < ps1size + Constants.VDWDISTTHRESHOLD) {
-				int tx = (int)((Math.round(cx/(Constants.GRIDGRAINSIZE)) * Constants.GRIDGRAINSIZE + Math.ceil(ps1size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
-				int ty = (int)((Math.round(cy/(Constants.GRIDGRAINSIZE)) * Constants.GRIDGRAINSIZE + Math.ceil(ps1size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);				
-				int tz = (int)((Math.round(cz/(Constants.GRIDGRAINSIZE)) * Constants.GRIDGRAINSIZE + Math.ceil(ps1size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
+			double ps1xcent = ps1.getXCoordCent();
+			double ps1ycent = ps1.getYCoordCent();
+			double ps1zcent = ps1.getZCoordCent();
+			if (Math.abs(cx - ps1xcent) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cy - ps1ycent) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cz - ps1zcent) < ps1size + Constants.VDWDISTTHRESHOLD) {
+				int tx = (int)((round(cx, Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD - round(ps1xcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE);
+				int ty = (int)((round(cy, Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD - round(ps1ycent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE);
+				int tz = (int)((round(cz, Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD - round(ps1zcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE);
 				if (cel == 'C') {
 					vanDerWaalsE = potentials[tx][ty][tz][0];
 				} else if (cel == 'N') {
@@ -269,6 +272,9 @@ public class TestCase {
 	}
 	public double distance(double[] first, double[] second) {
 		return Math.sqrt(Math.pow(first[0] - second[0], 2) + Math.pow(first[1] - second[1], 2) + Math.pow(first[2] - second[2], 2));
+	}
+	public double round(double number, double roundTo) {
+		return (double)(Math.round(number/roundTo)*roundTo);
 	}
 	public void printSurfacebya() {
 		for (int i = 0; i < surfacebya.size(); i++) {

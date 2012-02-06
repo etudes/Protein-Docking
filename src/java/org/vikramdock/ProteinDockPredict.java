@@ -25,12 +25,10 @@ public class ProteinDockPredict{
 		ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
 	}
 	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2) {
-		this.ps1 = ps1;
-		this.ps2 = ps2;
 		TestCaseComparator tcc = new TestCaseComparator();
 		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
-		ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
-		ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
+		this.ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
+		this.ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
 	}
 	public void genTestCases() {
 		try {

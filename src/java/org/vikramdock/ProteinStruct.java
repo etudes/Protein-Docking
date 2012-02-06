@@ -1760,9 +1760,9 @@ public class ProteinStruct {
 			double cy = current.getYcoord();
 			double cz = current.getZcoord();
 			char cel = current.getElement(); 
-			for (double j = -Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE - Constants.VDWDISTTHRESHOLD + xcoordcent; j < Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD + xcoordcent; j += Constants.GRIDGRAINSIZE) {
-				for (double k = -Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE - Constants.VDWDISTTHRESHOLD + ycoordcent; k < Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD + ycoordcent; k += Constants.GRIDGRAINSIZE) {
-					for (double l = -Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE - Constants.VDWDISTTHRESHOLD + zcoordcent; l < Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + Constants.VDWDISTTHRESHOLD + zcoordcent; l += Constants.GRIDGRAINSIZE) {
+			for (double j = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(xcoordcent, Constants.GRIDGRAINSIZE); j < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(xcoordcent, Constants.GRIDGRAINSIZE); j += Constants.GRIDGRAINSIZE) {
+				for (double k = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(ycoordcent, Constants.GRIDGRAINSIZE); k < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(ycoordcent, Constants.GRIDGRAINSIZE); k += Constants.GRIDGRAINSIZE) {
+					for (double l = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(zcoordcent, Constants.GRIDGRAINSIZE); l < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(zcoordcent, Constants.GRIDGRAINSIZE); l += Constants.GRIDGRAINSIZE) {
 						double distance = Math.sqrt(Math.pow(cx - j, 2) + Math.pow(cy - k, 2) + Math.pow(cz - l, 2));
 						if (distance < Constants.VDWDISTTHRESHOLD) {
 							double EC = 0;
@@ -1801,11 +1801,11 @@ public class ProteinStruct {
 								ES = Constants.C12_S_H/Math.pow(distance, 12) - Constants.C6_S_H/Math.pow(distance, 6);
 								EH = Constants.C12_H_H/Math.pow(distance, 12) - Constants.C6_H_H/Math.pow(distance, 6);
 							}
-							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][0] += EC;
-							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][1] += EN;
-							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][2] += EO;
-							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][3] += ES;
-							potentials[(int)((j+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - xcoordcent)/Constants.GRIDGRAINSIZE)][(int)((k+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - ycoordcent)/Constants.GRIDGRAINSIZE)][(int)((l+Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE+Constants.VDWDISTTHRESHOLD - zcoordcent)/Constants.GRIDGRAINSIZE)][4] += EH;
+							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][0] += EC;
+							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][1] += EN;
+							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][2] += EO;
+							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][3] += ES;
+							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][4] += EH;
 						}
 					}
 				}
@@ -1882,6 +1882,9 @@ public class ProteinStruct {
 	public double[][][][] getPotentials() {
 		return potentials;
 	}
+	public double round(double number, double roundTo) {
+		return (double)(Math.round(number/roundTo)*roundTo);
+	}
 	public ProteinStruct transrot(double xmov, double ymov, double zmov, double theta, double phi) {
 		ArrayList<Atom> newstruct = new ArrayList<Atom>();
 		for (int i = 0; i < surface.size(); i++) {
@@ -1940,6 +1943,7 @@ public class ProteinStruct {
 		ArrayList<Atom> newstruct = new ArrayList<Atom>();
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
+			current.printAtom();
 			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
 			newstruct.add(trcurrent);
 		}
@@ -1950,6 +1954,7 @@ public class ProteinStruct {
 			newbackbone.add(trcurrent);
 		}
 		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		answer.printStructure();
 		return answer;
 	}
 	public void printSequence() {

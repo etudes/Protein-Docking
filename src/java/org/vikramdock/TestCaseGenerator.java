@@ -44,7 +44,6 @@ public class TestCaseGenerator implements Runnable {
 							}
 						}
 					}
-					out.println("DONE");
 				}
 			}
 		} catch (Exception ex) {
