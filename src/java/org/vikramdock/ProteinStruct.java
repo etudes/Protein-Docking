@@ -11,34 +11,35 @@ import java.lang.*;
 import java.lang.reflect.*;
 
 public class ProteinStruct {
-	ArrayList<Atom> structure;
-	ArrayList<Atom> surface;
-	ArrayList<Bond> bonds;
-	ArrayList<Bond> surfacebonds;
-	ArrayList<Atom> backbone;
-	ArrayList<Atom> surfacebackbone;
-	ArrayList<Bond> backbonebonds;
-	ArrayList<Bond> surfacebackbonebonds;
-	String[] parsedsequence = new String[50];
-	HashMap chaintranslator;
-	HashMap reversechaintrans;
-	HashMap translator1;
-	HashMap translator2;
-	HashMap translator3;
-	HashMap translator4;
-	String filepath;
-	int chaincount;
-	double xcoordcent;
-	double ycoordcent;
-	double zcoordcent;
-	boolean rotated;
-	double size;
-	double[][] sizes = new double[(int)(2*Math.PI/Constants.THETAINC)][(int)(Math.PI/Constants.PHIINC)];
-	double[][][][] potentials;
+	private ArrayList<Atom> structurea;
+	private ImmutableArrayList structure;
+	private ArrayList<Atom> surface;
+	private ArrayList<Bond> bonds;
+	private ArrayList<Bond> surfacebonds;
+	private ArrayList<Atom> backbone;
+	private ArrayList<Atom> surfacebackbone;
+	private ArrayList<Bond> backbonebonds;
+	private ArrayList<Bond> surfacebackbonebonds;
+	private String[] parsedsequence = new String[50];
+	private HashMap chaintranslator;
+	private HashMap reversechaintrans;
+	private HashMap translator1;
+	private HashMap translator2;
+	private HashMap translator3;
+	private HashMap translator4;
+	private String filepath;
+	private int chaincount;
+	private double xcoordcent;
+	private double ycoordcent;
+	private double zcoordcent;
+	private boolean rotated;
+	private double size;
+	private double[][] sizes = new double[(int)(2*Math.PI/Constants.THETAINC)][(int)(Math.PI/Constants.PHIINC)];
+	private double[][][][] potentials;
 	public ProteinStruct(String filepath) {
 		try {
 			chaintranslator = new HashMap();
-			structure = new ArrayList<Atom>();
+			structurea = new ArrayList<Atom>();
 			surface = new ArrayList<Atom>();
 			bonds = new ArrayList<Bond>();
 			surfacebonds = new ArrayList<Bond>();
@@ -135,6 +136,7 @@ public class ProteinStruct {
 			rotated = false;
 			parseSequence(filepath);
 			parseStructure(filepath);
+			structure = new ImmutableArrayList(structurea);
 			determineSurface();
 			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
 			detBondsBackbone();
@@ -145,7 +147,8 @@ public class ProteinStruct {
 	}
 	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double[][] sizes, double[][][][] potentials, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
 		this.parsedsequence = parsedsequence;
-		this.structure = surface;
+		this.structurea = surface;
+		structure = new ImmutableArrayList(structurea);
 		this.surface = surface;
 		this.bonds = bonds;
 		this.surfacebonds = bonds;
@@ -248,7 +251,7 @@ public class ProteinStruct {
 	}
 	public ProteinStruct(ProteinStruct clone) {
 		this.filepath = clone.getFilepath();
-		structure = new ArrayList<Atom>();
+		structurea = new ArrayList<Atom>();
 		surface = new ArrayList<Atom>();
 		bonds = new ArrayList<Bond>();
 		surfacebonds = new ArrayList<Bond>();
@@ -261,24 +264,20 @@ public class ProteinStruct {
 		translator3 = new HashMap();
 		translator4 = new HashMap();
 		reversechaintrans = new HashMap();
-		ArrayList clonestruct = clone.getStructure();
-		for (int i = 0; i < clonestruct.size(); i++) {
-			Atom current = (Atom)clonestruct.get(i);
-			this.structure.add(new Atom(current));
-		}
-		clonestruct = clone.getSurface();
-		for (int i = 0; i < clonestruct.size(); i++) {
-			Atom current = (Atom)clonestruct.get(i);
+		structure = new ImmutableArrayList(clone.getStructure());
+		ArrayList clonestructa = clone.getSurface();
+		for (int i = 0; i < clonestructa.size(); i++) {
+			Atom current = (Atom)clonestructa.get(i);
 			this.surface.add(new Atom(current));
 		}
-		clonestruct = clone.getBackbone();
-		for (int i = 0; i < clonestruct.size(); i++) {
-			Atom current = (Atom)clonestruct.get(i);
+		clonestructa = clone.getBackbone();
+		for (int i = 0; i < clonestructa.size(); i++) {
+			Atom current = (Atom)clonestructa.get(i);
 			this.backbone.add(new Atom(current));
 		}
-		clonestruct = clone.getSurfaceBackbone();
-		for (int i = 0; i < clonestruct.size(); i++) {
-			Atom current = (Atom)clonestruct.get(i);
+		clonestructa = clone.getSurfaceBackbone();
+		for (int i = 0; i < clonestructa.size(); i++) {
+			Atom current = (Atom)clonestructa.get(i);
 			this.surfacebackbone.add(new Atom(current));
 		}
 		ArrayList clonebonds = clone.getBonds();
@@ -487,7 +486,7 @@ public class ProteinStruct {
 					System.err.println("NaN found");
 					next.printAtomErr();
 				}
-				structure.add(next);
+				structurea.add(next);
 				xcoordsum += xcoord;
 				ycoordsum += ycoord;
 				zcoordsum += zcoord;
@@ -535,7 +534,7 @@ public class ProteinStruct {
 				for (int k = 0; k < structurenew.size(); k++) {
 					Atom current = (Atom)structurenew.get(k);
 					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2 && maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE) {
-						surface.add(this.structure.get(k));
+						surface.add((Atom)this.structure.get(k));
 					}
 				}
 			}
@@ -1827,7 +1826,10 @@ public class ProteinStruct {
 	public String[] getParsedsequence() {
 		return parsedsequence;
 	}
-	public ArrayList getStructure() {
+	public ArrayList getStructurea() {
+		return structurea;
+	}
+	public ImmutableArrayList getStructure() {
 		return structure;
 	}
 	public ArrayList getSurface() {
