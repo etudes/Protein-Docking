@@ -16,9 +16,11 @@ class ImmutableArrayList {
 		this.al = al;
 	}
 	public ImmutableArrayList(ImmutableArrayList clone) {
-		ArrayList cloneal = clone.getAL();
-		for (int i = 0; i < cloneal.size(); i++) {
-			al.add(new Atom((Atom)cloneal.get(i)));
+		al = new ArrayList();
+		for (int i = 0; i < clone.size(); i++) {
+			Atom next = (Atom)clone.get(i);
+			Atom clonea = new Atom(next);
+			al.add(clonea);
 		}
 	}
 	public Object get(int index) {

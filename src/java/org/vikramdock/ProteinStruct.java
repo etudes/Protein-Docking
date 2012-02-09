@@ -148,7 +148,7 @@ public class ProteinStruct {
 	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double[][] sizes, double[][][][] potentials, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
 		this.parsedsequence = parsedsequence;
 		this.structurea = surface;
-		structure = new ImmutableArrayList(structurea);
+		this.structure = new ImmutableArrayList(this.structurea);
 		this.surface = surface;
 		this.bonds = bonds;
 		this.surfacebonds = bonds;
