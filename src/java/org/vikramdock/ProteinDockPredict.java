@@ -13,6 +13,8 @@ import java.lang.reflect.*;
 public class ProteinDockPredict{
 	ProteinStruct ps1;
 	ProteinStruct ps2;
+	ProteinStruct origps1;
+	ProteinStruct origps2;
 	TestCaseStore cases;
 	int numthread;
 	Thread[] ths;
@@ -27,6 +29,8 @@ public class ProteinDockPredict{
 	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2) {
 		TestCaseComparator tcc = new TestCaseComparator();
 		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
+		this.origps1 = ps1;
+		this.origps2 = ps2;
 		this.ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
 		this.ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
 	}
@@ -154,8 +158,8 @@ public class ProteinDockPredict{
 				System.out.println("MODEL       10 " + score);
 			}
 			current.printInfo();
-			ps1.printStructurePDB();
-			ProteinStruct newps = ps2.transrotpolarall(current.getRmov(), current.getThetamov(), current.getPhimov(), current.getTheta(), current.getPhi());
+			origps1.printStructurePDB();
+			ProteinStruct newps = origps2.transrotpolarall(current.getRmov(), current.getThetamov(), current.getPhimov(), current.getTheta(), current.getPhi());
 			newps.printStructurePDB();
 			System.out.println("ENDMDL");
 		}
