@@ -12,6 +12,7 @@ import java.lang.reflect.*;
 
 public class Constants {
 	public static final int NUMCASES = 10;
+	public static final double FPPRECISION = Math.pow(10,-9);
 	public static final double THETAINC = Math.PI/180;
 	public static final double PHIINC = Math.PI/180;
 	public static final double STHETAINC = Math.PI/5;

@@ -138,9 +138,9 @@ public class ProteinStruct {
 			parseStructure(filepath);
 			structure = new ImmutableArrayList(structurea);
 			determineSurface();
-			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
-			detBondsBackbone();
-			detPotentials();
+			//potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
+			//detBondsBackbone();
+			//detPotentials();
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -1945,7 +1945,6 @@ public class ProteinStruct {
 		ArrayList<Atom> newstruct = new ArrayList<Atom>();
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
-			current.printAtom();
 			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
 			newstruct.add(trcurrent);
 		}
@@ -1956,7 +1955,6 @@ public class ProteinStruct {
 			newbackbone.add(trcurrent);
 		}
 		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
-		answer.printStructure();
 		return answer;
 	}
 	public void printSequence() {

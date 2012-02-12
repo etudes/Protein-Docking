@@ -48,7 +48,10 @@ public class ProteinDockPredict{
 		}
 	}
 	public static void main(String[] args) {
-		capriParse(args[0], args[1]);
+		//capriParse(args[0], args[1]);
+		Atom test = new Atom(1, 0, 0, 'C', 0, 0, 'A', "CA", "ALA");
+		Atom result = test.rotateAtomNew(0, 0, 0, Math.PI/4, 2*Math.PI, Math.PI/5);
+		result.printAtomPDB();
 	}
 	public static void PDBParse() {
 		try {
@@ -135,15 +138,17 @@ public class ProteinDockPredict{
 			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
 			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
-			pdp.numthread = Integer.parseInt(br.readLine());
-			System.out.println(pdp.numthread + " NUMTHREAD");
-			pdp.genTestCases();
-			for (int i = 0; i < pdp.numthread; i++) {
-				pdp.ths[i].join();
-			}
-			pdp.printCases();
-			long end = System.currentTimeMillis();
-			System.out.println(end - start);
+			//pdp.numthread = Integer.parseInt(br.readLine());
+			//System.out.println(pdp.numthread + " NUMTHREAD");
+			//pdp.genTestCases();
+			//for (int i = 0; i < pdp.numthread; i++) {
+				//pdp.ths[i].join();
+			//}
+			//pdp.printCases();
+			//long end = System.currentTimeMillis();
+			//System.out.println(end - start);
+			ProteinStruct newps = ps2.transrotpolarall(0,0,0,0,2*Math.PI/5);
+			newps.printStructurePDB();
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -158,9 +163,10 @@ public class ProteinDockPredict{
 				System.out.println("MODEL       10 " + score);
 			}
 			current.printInfo();
-			origps1.printStructurePDB();
-			ProteinStruct newps = origps2.transrotpolarall(current.getRmov(), current.getThetamov(), current.getPhimov(), current.getTheta(), current.getPhi());
-			newps.printStructurePDB();
+			ProteinStruct newps1 = origps1.transrotall(-origps1.getXCoordCent(), -origps1.getYCoordCent(), -origps1.getZCoordCent(), 0, 0);
+			newps1.printStructurePDB();
+			ProteinStruct newps2 = origps2.transrotall(-origps2.getXCoordCent(), -origps2.getYCoordCent(), -origps2.getZCoordCent(), 0, 0).transrotpolarall(current.getRmov(), current.getThetamov(), current.getPhimov(), current.getTheta(), current.getPhi());
+			newps2.printStructurePDB();
 			System.out.println("ENDMDL");
 		}
 		System.out.println("MODELS PASSED " + cases.size());

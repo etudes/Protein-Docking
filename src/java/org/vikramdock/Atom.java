@@ -137,6 +137,9 @@ public class Atom {
 	}
 	public void printAtomPDB() {
 		setCartesian();
+		xcoord = round(xcoord, Math.pow(10,-3));
+		ycoord = round(ycoord, Math.pow(10,-3));
+		zcoord = round(zcoord, Math.pow(10,-3));
 		String toBePrinted = "ATOM  ";
 		int length = Integer.toString(atomnum).length();
 		if (length == 5) { 
@@ -334,15 +337,34 @@ public class Atom {
 		} else {
 			phib = phia - phi;
 		}
-		if (phib < 0.0) {
+		if (phib > Math.PI) {
+			phib -= Math.PI;
+			thetab = Math.PI - thetab;
+		} else if (phib < 0) {
 			phib = -phib;
-		} if (phib > Math.PI) {
-			phib = Math.PI - phib;
+			thetab = Math.PI - thetab;
 		}
 		double xcoordb = rcoorda * Math.cos(thetab) * Math.sin(phib) + xcent;
 		double ycoordb = rcoorda * Math.sin(thetab) * Math.sin(phib) + ycent;
 		double zcoordb = rcoorda * Math.cos(phib) + zcent;
 		Atom answer = new Atom(xcoordb, ycoordb, zcoordb, element, resnum, atomnum, chainnum, eType, bonded, AA);
+		return answer;
+	}
+	public Atom rotateAtomNew(double xcent, double ycent, double zcent, double a, double b, double c) {
+		setCartesian();
+		double xcoorda = xcoord - xcent;
+		double ycoorda = ycoord - ycent;
+		double zcoorda = zcoord - zcent;
+		double xcoordb = xcoorda * Math.cos(b) * Math.cos(c) - zcoorda * Math.sin(b) + ycoorda * Math.cos(b) * Math.sin(c);
+		double ycoordb = ycoorda * Math.cos(a) * Math.cos(c) + zcoorda * Math.cos(b) * Math.sin(a) + xcoorda * Math.cos(c) * Math.sin(a) * Math.sin(b) - xcoorda * Math.cos(a) * Math.sin(c) + ycoorda * Math.sin(a) * Math.sin(b) * Math.sin(c); 
+		double zcoordb = zcoorda * Math.cos(a) * Math.cos(b) - ycoorda * Math.cos(c) * Math.sin(a) + xcoorda * Math.cos(a) * Math.cos(c) * Math.sin(b) + xcoorda * Math.sin(a) * Math.sin(c) + ycoorda * Math.cos(a) * Math.sin(b) * Math.sin(c);
+		xcoordb = round(xcoordb, Constants.FPPRECISION);
+		ycoordb = round(ycoordb, Constants.FPPRECISION);
+		zcoordb = round(zcoordb, Constants.FPPRECISION);
+		double xcoordc = xcoordb + xcent;
+		double ycoordc = ycoordb + ycent;
+		double zcoordc = zcoordb + zcent;
+		Atom answer = new Atom(xcoordc, ycoordc, zcoordc, element, resnum, atomnum, chainnum, eType, bonded, AA);
 		return answer;
 	}
 	public double distance(Atom other) {
@@ -370,5 +392,8 @@ public class Atom {
 		double b = distance(third);
 		double c = second.distance(third);
 		return Math.acos((Math.pow(a,2) + Math.pow(b,2) - Math.pow(c,2))/(2*a*b));
+	}
+	public double round(double number, double roundTo) {
+		return (double)(Math.round(number/roundTo)*roundTo);
 	}
 }
