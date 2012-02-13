@@ -17,6 +17,12 @@ public class Constants {
 	public static final double PHIINC = Math.PI/180;
 	public static final double STHETAINC = Math.PI/5;
 	public static final double SPHIINC = Math.PI/5;
+	public static final double ALPHAINC = Math.PI/180*8;
+	public static final double BETAINC = Math.PI/180*8;
+	public static final double GAMMAINC = Math.PI/180*8;
+	public static final double SALPHAINC = Math.PI/3;
+	public static final double SBETAINC = Math.PI/3;
+	public static final double SGAMMAINC = Math.PI/3;
 	public static final double MAXCLASH = 1;
 	public static final double CLASHINC = 1;
 	public static final double GRIDGRAINSIZE = 1;

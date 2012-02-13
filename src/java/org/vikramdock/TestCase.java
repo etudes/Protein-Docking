@@ -14,12 +14,20 @@ public class TestCase {
 	ProteinStruct ps1;
 	ProteinStruct ps2;
 	ProteinStruct newps;
+	ProteinStruct newps1;
+	ProteinStruct newps2;
 	double rmov;
 	double thetamov;
 	double phimov;
+	double alphamov;
+	double betamov;
+	double gammamov;
 	double theta;
 	double clash;
 	double phi;
+	double alpha;
+	double beta;
+	double gamma;
 	ArrayList<Atom> ps1struct;
 	ArrayList<Atom> ps2struct;
 	ArrayList<Atom> surfacebya;
@@ -27,6 +35,8 @@ public class TestCase {
 	double score;
 	double[][] ps1sizes;
 	double[][] ps2sizes;
+	double[][][] ps1newsizes;
+	double[][][] ps2newsizes;
 	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double thetamov, double phimov, double clash, double theta, double phi) {
 		surfacebya = new ArrayList<Atom>();
 		surfacebyps = new ArrayList<ProteinStruct>();
@@ -47,6 +57,30 @@ public class TestCase {
 		surfacebyps.add(newps);
 		surfacebya.addAll(ps1.getSurface());
 		surfacebya.addAll(newps.getSurface());
+		score = -1;
+	}
+	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double alphamov, double betamov, double gammamov, double alpha, double beta, double gamma) {
+		surfacebya = new ArrayList<Atom>();
+		surfacebyps = new ArrayList<ProteinStruct>();
+		this.ps1 = ps1;
+		this.ps2 = ps2;
+		this.alphamov = alphamov;
+		this.betamov = betamov;
+		this.gammamov = gammamov;
+		this.alpha = alpha;
+		this.beta = beta;
+		this.gamma = gamma;
+		ps1newsizes = ps1.getNewSizes();
+		ps2newsizes = ps2.getNewSizes();
+		rmov = Math.abs(ps1newsizes[(int)(alphamov/Constants.ALPHAINC)][(int)(betamov/Constants.BETAINC)][(int)(gammamov/Constants.GAMMAINC)] + ps2newsizes[(int)(alpha/Constants.ALPHAINC)][(int)(beta/Constants.BETAINC)][(int)(gamma/Constants.GAMMAINC)]);
+		this.newps1 = ps1.transrotnew(0, 0, 0, alphamov, betamov, gammamov);
+		this.newps2 = ps2.transrotnew(rmov, 0, 0, alpha, Math.PI - beta, gamma);
+		ps1struct = newps1.getSurface();
+		ps2struct = newps2.getSurface();
+		surfacebyps.add(newps1);
+		surfacebyps.add(newps2);
+		surfacebya.addAll(newps1.getSurface());
+		surfacebya.addAll(newps2.getSurface());
 		score = -1;
 	}
 	public double score() {
@@ -309,5 +343,6 @@ public class TestCase {
 		double[] answer = new double[2];
 		answer[0] = thetab - thetaa;
 		answer[1] = phib - phia;
+		return answer;
 	}
 }

@@ -35,6 +35,7 @@ public class ProteinStruct {
 	private boolean rotated;
 	private double size;
 	private double[][] sizes = new double[(int)(2*Math.PI/Constants.THETAINC)][(int)(Math.PI/Constants.PHIINC)];
+	private double[][][] newsizes = new double[(int)(2*Math.PI/Constants.ALPHAINC)][(int)(2*Math.PI/Constants.BETAINC)][(int)(2*Math.PI/Constants.GAMMAINC)];
 	private double[][][][] potentials;
 	public ProteinStruct(String filepath) {
 		try {
@@ -137,10 +138,10 @@ public class ProteinStruct {
 			parseSequence(filepath);
 			parseStructure(filepath);
 			structure = new ImmutableArrayList(structurea);
-			determineSurface();
-			//potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
-			//detBondsBackbone();
-			//detPotentials();
+			determineSurfaceNew();
+			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
+			detBondsBackbone();
+			detPotentials();
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -536,6 +537,51 @@ public class ProteinStruct {
 					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2 && maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE) {
 						surface.add((Atom)this.structure.get(k));
 					}
+				}
+			}
+		}
+		size = maxnumoverall;
+	}
+	public void determineSurfaceNew() {
+		surface.clear();
+		for (int i = 0; i < (int)(2*Math.PI/Constants.ALPHAINC); i++) {
+			for (int j = 0; j < (int)(2*Math.PI/Constants.BETAINC); j++) {
+				for (int k = 0; k < (int)(2*Math.PI/Constants.GAMMAINC); k++) {
+					newsizes[i][j][k] = Double.POSITIVE_INFINITY;
+				}
+			}
+		}
+		ArrayList newstructure = new ArrayList<Atom>();
+		for (int i = 0; i < structure.size(); i++) {
+			Atom current = (Atom)structure.get(i);
+			Atom trcurrent = current.transAtom(-xcoordcent, -ycoordcent, -zcoordcent);
+			newstructure.add(trcurrent);
+		}
+		double maxnumoverall = 0;
+		for (double i = Constants.ALPHAINC/2; i < 2*Math.PI; i += Constants.ALPHAINC) {
+			for (double j = Constants.BETAINC/2; j < 2*Math.PI; j += Constants.BETAINC) {
+				for (double k = Constants.GAMMAINC/2; k < 2*Math.PI; k += Constants.GAMMAINC) { 
+					double maxnum = 0;
+					ArrayList worked = new ArrayList();
+					for (int l = 0; l < newstructure.size(); l++) {
+						Atom current = (Atom)newstructure.get(l);
+						Atom test = current.rotateAtomNew(0, 0, 0, i, j, k);
+						test.setSpherical();
+						if (Math.abs(test.getYcoord()) <= Constants.ALPHAINC/2 && Math.abs(Math.PI/2 - test.getZcoord()) <= Constants.BETAINC/2) {
+							worked.add(current.getAtomnum());
+							maxnum = Math.max(current.getXcoord(), maxnum);
+						} 
+					}
+					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k=Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
+					for (int l = 0; l < worked.size(); l++) {
+						Atom current = this.getAtomByNum(Integer.parseInt(worked.get(l).toString()));
+						current.setSpherical();
+						if (maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE) {
+							current.setCartesian();
+							surface.add(current);
+						}
+					}
+					maxnumoverall = Math.max(maxnum, maxnumoverall);
 				}
 			}
 		}
@@ -1880,6 +1926,9 @@ public class ProteinStruct {
 	}
 	public double[][] getSizes() {
 		return sizes;
+	}
+	public double[][][] getNewSizes() {
+		return newsizes;
 	}
 	public double[][][][] getPotentials() {
 		return potentials;
