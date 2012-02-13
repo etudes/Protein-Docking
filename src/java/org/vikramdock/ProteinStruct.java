@@ -1957,6 +1957,38 @@ public class ProteinStruct {
 		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
+	public ProteinStruct transrotnew(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) {
+		ArrayList<Atom> newstruct = new ArrayList<Atom>();
+		for (int i = 0; i < surface.size(); i++) {
+			Atom current = (Atom)surface.get(i);
+			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
+			newstruct.add(trcurrent);
+		}
+		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
+		for (int i = 0; i < surfacebackbone.size(); i++) {
+			Atom current = (Atom)surfacebackbone.get(i);
+			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
+			newbackbone.add(trcurrent);
+		}
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		return answer;
+	}
+	public ProteinStruct transrotnewall(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) {
+		ArrayList<Atom> newstruct = new ArrayList<Atom>();
+		for (int i = 0; i < structure.size(); i++) {
+			Atom current = (Atom)structure.get(i);
+			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
+			newstruct.add(trcurrent);
+		}
+		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
+		for (int i = 0; i < backbone.size(); i++) {
+			Atom current = (Atom)backbone.get(i);
+			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
+			newbackbone.add(trcurrent);
+		}
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		return answer;
+	}
 	public void printSequence() {
 		System.out.println("BEGIN SEQUENCE OF " + filepath);
 		for (int i = 0; i < chaincount; i++) {

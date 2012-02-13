@@ -285,4 +285,29 @@ public class TestCase {
 	public void printInfo() {
 		System.out.println(rmov + " " + thetamov + " " + phimov + " " + clash + " " + theta + " " + phi);
 	}
+	public double[] convert(double a, double b, double c) {
+		double xcoorda = 1;
+		double ycoorda = 1;
+		double zcoorda = 1;
+		double rcoorda = Math.sqrt(3);
+		double thetaa = Math.PI/4;
+		double phia = Math.acos(1/Math.sqrt(3));
+		double xcoordb = xcoorda * Math.cos(b) * Math.cos(c) - zcoorda * Math.sin(b) + ycoorda * Math.cos(b) * Math.sin(c);
+		double ycoordb = ycoorda * Math.cos(a) * Math.cos(c) + zcoorda * Math.cos(b) * Math.sin(a) + xcoorda * Math.cos(c) * Math.sin(a) * Math.sin(b) - xcoorda * Math.cos(a) * Math.sin(c) + ycoorda * Math.sin(a) * Math.sin(b) * Math.sin(c); 
+		double zcoordb = zcoorda * Math.cos(a) * Math.cos(b) - ycoorda * Math.cos(c) * Math.sin(a) + xcoorda * Math.cos(a) * Math.cos(c) * Math.sin(b) + xcoorda * Math.sin(a) * Math.sin(c) + ycoorda * Math.cos(a) * Math.sin(b) * Math.sin(c);
+		double rcoordb = Math.sqrt(Math.pow(xcoordb, 2) + Math.pow(ycoordb, 2) + Math.pow(zcoordb, 2));
+		if (rcoordb != rcoorda) {
+			System.err.println("ROTATION FAILURE IN CONVERSION BETWEEN SPHERICAL AND ALPHA-BETA-GAMMA " + a + " " + b + " " + c);
+		}
+		double thetab = Math.atan2(ycoordb, xcoordb);
+		double phib;
+		if (rcoordb != 0) {
+			phib = Math.acos(zcoordb/rcoordb);
+		} else {
+			phib = 0; 
+		}
+		double[] answer = new double[2];
+		answer[0] = thetab - thetaa;
+		answer[1] = phib - phia;
+	}
 }
