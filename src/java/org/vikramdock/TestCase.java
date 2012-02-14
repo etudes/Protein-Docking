@@ -139,10 +139,7 @@ public class TestCase {
 			double cz = current.getZcoord();
 			double vanDerWaalsE = 0;
 			double ps1size = ps1.getSize();
-			double ps1xcent = ps1.getXCoordCent();
-			double ps1ycent = ps1.getYCoordCent();
-			double ps1zcent = ps1.getZCoordCent();
-			if (Math.abs(cx - ps1xcent) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cy - ps1ycent) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cz - ps1zcent) < ps1size + Constants.VDWDISTTHRESHOLD) {
+			if (Math.abs(cx) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cy) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cz) < ps1size + Constants.VDWDISTTHRESHOLD) {
 				int tx = (int)((round(cx, Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD - round(ps1xcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE);
 				int ty = (int)((round(cy, Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD - round(ps1ycent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE);
 				int tz = (int)((round(cz, Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD - round(ps1zcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE);
