@@ -32,7 +32,9 @@ public class ProteinDockPredict{
 		this.origps1 = ps1;
 		this.origps2 = ps2;
 		this.ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
+		System.out.println("TRANSLATED AND ROTATED FIRST PROTEIN");
 		this.ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
+		System.out.println("TRANSLATED AND ROTATED SECOND PROTEIN");
 	}
 	public void genTestCases() {
 		try {
@@ -48,35 +50,7 @@ public class ProteinDockPredict{
 		}
 	}
 	public static void main(String[] args) {
-		//capriParse(args[0], args[1]);
-		double[] answer = convert(Math.PI/2, Math.PI/2, Math.PI/2);
-		System.out.println(answer[0] + " " + answer[1]);
-	}
-	public static double[] convert(double a, double b, double c) {
-		double xcoorda = 1;
-		double ycoorda = 35;
-		double zcoorda = 1;
-		double rcoorda = Math.sqrt(Math.pow(xcoorda, 2) + Math.pow(ycoorda, 2) + Math.pow(zcoorda, 2));
-		double thetaa = Math.atan2(ycoorda, xcoorda);
-		double phia = Math.acos(zcoorda/rcoorda);
-		double xcoordb = xcoorda * Math.cos(b) * Math.cos(c) - zcoorda * Math.sin(b) + ycoorda * Math.cos(b) * Math.sin(c);
-		double ycoordb = ycoorda * Math.cos(a) * Math.cos(c) + zcoorda * Math.cos(b) * Math.sin(a) + xcoorda * Math.cos(c) * Math.sin(a) * Math.sin(b) - xcoorda * Math.cos(a) * Math.sin(c) + ycoorda * Math.sin(a) * Math.sin(b) * Math.sin(c); 
-		double zcoordb = zcoorda * Math.cos(a) * Math.cos(b) - ycoorda * Math.cos(c) * Math.sin(a) + xcoorda * Math.cos(a) * Math.cos(c) * Math.sin(b) + xcoorda * Math.sin(a) * Math.sin(c) + ycoorda * Math.cos(a) * Math.sin(b) * Math.sin(c);
-		double rcoordb = Math.sqrt(Math.pow(xcoordb, 2) + Math.pow(ycoordb, 2) + Math.pow(zcoordb, 2));
-		if (rcoordb != rcoorda) {
-			System.err.println("ROTATION FAILURE IN CONVERSION BETWEEN SPHERICAL AND ALPHA-BETA-GAMMA " + a + " " + b + " " + c);
-		}
-		double thetab = Math.atan2(ycoordb, xcoordb);
-		double phib;
-		if (rcoordb != 0) {
-			phib = Math.acos(zcoordb/rcoordb);
-		} else {
-			phib = 0; 
-		}
-		double[] answer = new double[2];
-		answer[0] = thetab - thetaa;
-		answer[1] = phib - phia;
-		return answer;
+		capriParse(args[0], args[1]);
 	}
 	public static void PDBParse() {
 		try {
@@ -161,19 +135,20 @@ public class ProteinDockPredict{
 			prot1.close();
 			prot2.close();
 			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
+			System.out.println("DONE WITH FIRST PROTEIN");
 			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
+			System.out.println("DONE WITH SECOND PROTEIN");
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
-			//pdp.numthread = Integer.parseInt(br.readLine());
-			//System.out.println(pdp.numthread + " NUMTHREAD");
-			//pdp.genTestCases();
-			//for (int i = 0; i < pdp.numthread; i++) {
-				//pdp.ths[i].join();
-			//}
-			//pdp.printCases();
-			//long end = System.currentTimeMillis();
-			//System.out.println(end - start);
-			ProteinStruct newps = ps2.transrotpolarall(0,0,0,0,2*Math.PI/5);
-			newps.printStructurePDB();
+			System.out.println("DECLARED PDP OBJECT");
+			pdp.numthread = Integer.parseInt(br.readLine());
+			System.out.println(pdp.numthread + " NUMTHREAD");
+			pdp.genTestCases();
+			for (int i = 0; i < pdp.numthread; i++) {
+				pdp.ths[i].join();
+			}
+			pdp.printCases();
+			long end = System.currentTimeMillis();
+			System.out.println(end - start);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}

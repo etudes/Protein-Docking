@@ -560,7 +560,8 @@ public class ProteinStruct {
 		double maxnumoverall = 0;
 		for (double i = Constants.ALPHAINC/2; i < 2*Math.PI; i += Constants.ALPHAINC) {
 			for (double j = Constants.BETAINC/2; j < 2*Math.PI; j += Constants.BETAINC) {
-				for (double k = Constants.GAMMAINC/2; k < 2*Math.PI; k += Constants.GAMMAINC) { 
+				for (double k = Constants.GAMMAINC/2; k < 2*Math.PI; k += Constants.GAMMAINC) {
+					System.out.println(i + " " + j + " " + k);
 					double maxnum = 0;
 					ArrayList worked = new ArrayList();
 					for (int l = 0; l < newstructure.size(); l++) {
@@ -568,14 +569,13 @@ public class ProteinStruct {
 						Atom test = current.rotateAtomNew(0, 0, 0, i, j, k);
 						test.setSpherical();
 						if (Math.abs(test.getYcoord()) <= Constants.ALPHAINC/2 && Math.abs(Math.PI/2 - test.getZcoord()) <= Constants.BETAINC/2) {
-							worked.add(current.getAtomnum());
+							worked.add(current);
 							maxnum = Math.max(current.getXcoord(), maxnum);
 						} 
 					}
-					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k=Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
+					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k-Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
 					for (int l = 0; l < worked.size(); l++) {
-						Atom current = this.getAtomByNum(Integer.parseInt(worked.get(l).toString()));
-						current.setSpherical();
+						Atom current = ((Atom)worked.get(l)).transAtom(xcoordcent, ycoordcent, zcoordcent);
 						if (maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE) {
 							current.setCartesian();
 							surface.add(current);
@@ -586,6 +586,7 @@ public class ProteinStruct {
 			}
 		}
 		size = maxnumoverall;
+		System.out.println("DONE WITH DETERMINING SURFACE");
 	}
 	public void detBondsBackbone() {
 		Atom first = (Atom)structure.get(0);
@@ -1769,6 +1770,7 @@ public class ProteinStruct {
 		detSurfaceBonds();
 		detSurfaceBackbone();
 		detSurfaceBackboneBonds();
+		System.out.println("DONE WITH DETERMINING BONDS AND BACKBONE");
 	}
 	public void detSurfaceBonds() {
 		for (int i = 0; i < bonds.size(); i++) {
@@ -1856,6 +1858,7 @@ public class ProteinStruct {
 				}
 			}
 		}
+		System.out.println("DONE WITH DETERMINING POTENTIALS");
 	}
 	public String removeSpace(String test) {
 		String answer = "";

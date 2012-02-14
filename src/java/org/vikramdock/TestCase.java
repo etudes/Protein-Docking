@@ -140,9 +140,10 @@ public class TestCase {
 			double vanDerWaalsE = 0;
 			double ps1size = ps1.getSize();
 			if (Math.abs(cx) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cy) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cz) < ps1size + Constants.VDWDISTTHRESHOLD) {
-				int tx = (int)((round(cx, Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD - round(ps1xcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE);
-				int ty = (int)((round(cy, Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD - round(ps1ycent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE);
-				int tz = (int)((round(cz, Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD - round(ps1zcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE);
+				double[] rotatedcoords = deRotate(cx, cy, cz, alphamov, betamov, gammamov); 
+				int tx = (int)((round(rotatedcoords[0], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
+				int ty = (int)((round(rotatedcoords[1], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
+				int tz = (int)((round(rotatedcoords[2], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				if (cel == 'C') {
 					vanDerWaalsE = potentials[tx][ty][tz][0];
 				} else if (cel == 'N') {
@@ -316,30 +317,11 @@ public class TestCase {
 	public void printInfo() {
 		System.out.println(rmov + " " + thetamov + " " + phimov + " " + clash + " " + theta + " " + phi);
 	}
-	public double[] convert(double a, double b, double c) {
-		double xcoorda = 1;
-		double ycoorda = 1;
-		double zcoorda = 1;
-		double rcoorda = Math.sqrt(3);
-		double thetaa = Math.PI/4;
-		double phia = Math.acos(1/Math.sqrt(3));
-		double xcoordb = xcoorda * Math.cos(b) * Math.cos(c) - zcoorda * Math.sin(b) + ycoorda * Math.cos(b) * Math.sin(c);
-		double ycoordb = ycoorda * Math.cos(a) * Math.cos(c) + zcoorda * Math.cos(b) * Math.sin(a) + xcoorda * Math.cos(c) * Math.sin(a) * Math.sin(b) - xcoorda * Math.cos(a) * Math.sin(c) + ycoorda * Math.sin(a) * Math.sin(b) * Math.sin(c); 
-		double zcoordb = zcoorda * Math.cos(a) * Math.cos(b) - ycoorda * Math.cos(c) * Math.sin(a) + xcoorda * Math.cos(a) * Math.cos(c) * Math.sin(b) + xcoorda * Math.sin(a) * Math.sin(c) + ycoorda * Math.cos(a) * Math.sin(b) * Math.sin(c);
-		double rcoordb = Math.sqrt(Math.pow(xcoordb, 2) + Math.pow(ycoordb, 2) + Math.pow(zcoordb, 2));
-		if (rcoordb != rcoorda) {
-			System.err.println("ROTATION FAILURE IN CONVERSION BETWEEN SPHERICAL AND ALPHA-BETA-GAMMA " + a + " " + b + " " + c);
-		}
-		double thetab = Math.atan2(ycoordb, xcoordb);
-		double phib;
-		if (rcoordb != 0) {
-			phib = Math.acos(zcoordb/rcoordb);
-		} else {
-			phib = 0; 
-		}
-		double[] answer = new double[2];
-		answer[0] = thetab - thetaa;
-		answer[1] = phib - phia;
+	public double[] deRotate(double cx, double cy, double cz, double a, double b, double c) {
+		double[] answer = new double[3];
+		answer[0] = cx*Math.cos(b)*Math.cos(c) + cy*(Math.cos(c)*Math.sin(a)*Math.sin(b) - Math.cos(a)*Math.sin(c)) + cz*(Math.cos(a)*Math.cos(c)*Math.sin(b) + Math.sin(a)*Math.sin(c));
+		answer[1] = cx*Math.cos(b)*Math.sin(c) + cz*(Math.cos(a)*Math.sin(b)*Math.sin(c) - Math.cos(c)*Math.sin(a)) + cy*(Math.cos(a)*Math.cos(c) + Math.sin(a)*Math.sin(b)*Math.sin(c));
+		answer[2] = cz*Math.cos(a)*Math.cos(b) + cy*Math.sin(a)*Math.cos(b) - cx*Math.sin(b);
 		return answer;
 	}
 }
