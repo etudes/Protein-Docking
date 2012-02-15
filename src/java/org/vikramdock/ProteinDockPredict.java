@@ -23,17 +23,17 @@ public class ProteinDockPredict{
 		ps2 = new ProteinStruct(file2);
 		TestCaseComparator tcc = new TestCaseComparator();
 		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
-		ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
-		ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
+		ps1 = ps1.trans(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent());
+		ps2 = ps2.trans(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent());
 	}
 	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2) {
 		TestCaseComparator tcc = new TestCaseComparator();
 		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
 		this.origps1 = ps1;
 		this.origps2 = ps2;
-		this.ps1 = ps1.transrot(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent(), 0, 0);
+		this.ps1 = ps1.trans(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent());
 		System.out.println("TRANSLATED AND ROTATED FIRST PROTEIN");
-		this.ps2 = ps2.transrot(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent(), 0, 0);
+		this.ps2 = ps2.trans(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent());
 		System.out.println("TRANSLATED AND ROTATED SECOND PROTEIN");
 	}
 	public void genTestCases() {
@@ -163,9 +163,9 @@ public class ProteinDockPredict{
 				System.out.println("MODEL       10 " + score);
 			}
 			current.printInfo();
-			ProteinStruct newps1 = origps1.transrotall(-origps1.getXCoordCent(), -origps1.getYCoordCent(), -origps1.getZCoordCent(), 0, 0);
+			ProteinStruct newps1 = origps1.transall(-origps1.getXCoordCent(), -origps1.getYCoordCent(), -origps1.getZCoordCent()).transrotnewall(0, 0, 0, current.getAlphamov(), current.getBetamov(), current.getGammamov());
 			newps1.printStructurePDB();
-			ProteinStruct newps2 = origps2.transrotall(-origps2.getXCoordCent(), -origps2.getYCoordCent(), -origps2.getZCoordCent(), 0, 0).transrotpolarall(current.getRmov(), current.getThetamov(), current.getPhimov(), current.getTheta(), current.getPhi());
+			ProteinStruct newps2 = origps2.transall(-origps2.getXCoordCent(), -origps2.getYCoordCent(), -origps2.getZCoordCent()).transrotnewall(current.getRmov(), 0, 0, current.getAlpha(), Math.PI - current.getBeta(), current.getGamma());
 			newps2.printStructurePDB();
 			System.out.println("ENDMDL");
 		}

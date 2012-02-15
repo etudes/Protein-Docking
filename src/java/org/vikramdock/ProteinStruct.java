@@ -138,10 +138,17 @@ public class ProteinStruct {
 			parseSequence(filepath);
 			parseStructure(filepath);
 			structure = new ImmutableArrayList(structurea);
+			long beforeS = System.currentTimeMillis();
 			determineSurfaceNew();
+			long afterS = System.currentTimeMillis();
+			System.out.println("SURFACE TIME TOTAL " + (afterS - beforeS));
+			System.out.println("SURFACE SIZE " + surface.size());
 			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
 			detBondsBackbone();
+			long beforeP = System.currentTimeMillis();
 			detPotentials();
+			long afterP = System.currentTimeMillis();
+			System.out.println("POTENTIALS TIME TOTAL " + (afterP - beforeP));
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -500,50 +507,7 @@ public class ProteinStruct {
 			throw ex;
 		}
 	}
-	public void determineSurface() {
-		for (int i = 0; i < (int)(2*Math.PI/Constants.THETAINC); i++) {
-			for (int j = 0; j < (int)(Math.PI/Constants.PHIINC); j++) {
-				sizes[i][j] = Double.POSITIVE_INFINITY;
-			}
-		}
-		ArrayList newstructure = new ArrayList<Atom>();
-		for (int i = 0; i < structure.size(); i++) {
-			Atom current = (Atom)structure.get(i);
-			Atom trcurrent = current.transAtom(-xcoordcent, -ycoordcent, -zcoordcent);
-			newstructure.add(trcurrent);
-		}
-		ArrayList structurenew = new ArrayList<Atom>();
-		for (int i = 0; i < newstructure.size(); i++) {
-			Atom current = (Atom)newstructure.get(i);
-			current.setSpherical();
-			structurenew.add(current);
-		}
-		double maxnumoverall = 0;
-		for (double i = Constants.THETAINC/2; i < 2*Math.PI; i += Constants.THETAINC) {
-			for (double j = Constants.PHIINC/2; j < Math.PI; j += Constants.PHIINC) {
-				double maxnum = 0;
-				for (int k = 0; k < structurenew.size(); k++) {
-					Atom current = (Atom)structurenew.get(k);
-					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2 && current.getXcoord() >= maxnum) {
-						maxnum = current.getXcoord();
-					}
-					if (current.getXcoord() >= maxnumoverall) {
-						maxnumoverall = current.getXcoord();
-					}
-				}
-				sizes[(int)((i-Constants.THETAINC/2)*(1/Constants.THETAINC))][(int)((j-Constants.PHIINC/2)*(1/Constants.PHIINC))] = maxnum;
-				for (int k = 0; k < structurenew.size(); k++) {
-					Atom current = (Atom)structurenew.get(k);
-					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2 && maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE) {
-						surface.add((Atom)this.structure.get(k));
-					}
-				}
-			}
-		}
-		size = maxnumoverall;
-	}
 	public void determineSurfaceNew() {
-		surface.clear();
 		for (int i = 0; i < (int)(2*Math.PI/Constants.ALPHAINC); i++) {
 			for (int j = 0; j < (int)(2*Math.PI/Constants.BETAINC); j++) {
 				for (int k = 0; k < (int)(2*Math.PI/Constants.GAMMAINC); k++) {
@@ -558,10 +522,10 @@ public class ProteinStruct {
 			newstructure.add(trcurrent);
 		}
 		double maxnumoverall = 0;
+		ArrayList done = new ArrayList<Atom>();
 		for (double i = Constants.ALPHAINC/2; i < 2*Math.PI; i += Constants.ALPHAINC) {
 			for (double j = Constants.BETAINC/2; j < 2*Math.PI; j += Constants.BETAINC) {
 				for (double k = Constants.GAMMAINC/2; k < 2*Math.PI; k += Constants.GAMMAINC) {
-					System.out.println(i + " " + j + " " + k);
 					double maxnum = 0;
 					ArrayList worked = new ArrayList();
 					for (int l = 0; l < newstructure.size(); l++) {
@@ -571,14 +535,17 @@ public class ProteinStruct {
 						if (Math.abs(test.getYcoord()) <= Constants.ALPHAINC/2 && Math.abs(Math.PI/2 - test.getZcoord()) <= Constants.BETAINC/2) {
 							worked.add(current);
 							maxnum = Math.max(current.getXcoord(), maxnum);
-						} 
+						}
 					}
 					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k-Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
 					for (int l = 0; l < worked.size(); l++) {
-						Atom current = ((Atom)worked.get(l)).transAtom(xcoordcent, ycoordcent, zcoordcent);
-						if (maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE) {
+						Atom thisa = (Atom)worked.get(l);
+						Atom current = thisa.transAtom(xcoordcent, ycoordcent, zcoordcent);
+						current.setSpherical();
+						if (maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE && !done.contains(thisa)) {
 							current.setCartesian();
 							surface.add(current);
+							done.add(thisa);
 						}
 					}
 					maxnumoverall = Math.max(maxnum, maxnumoverall);
@@ -1777,7 +1744,7 @@ public class ProteinStruct {
 			Bond current = (Bond)bonds.get(i);
 			Atom first = current.getFirst();
 			Atom second = current.getSecond();
-			if (surface.contains(first) && surface.contains(second)) {
+			if (isAlreadyIn(surface, first) && isAlreadyIn(surface, second)) {
 				surfacebonds.add(current);
 			}
 		}
@@ -1795,18 +1762,20 @@ public class ProteinStruct {
 			Bond current = (Bond)backbonebonds.get(i);
 			Atom first = current.getFirst();
 			Atom second = current.getSecond();
-			if (surface.contains(first) && surface.contains(second)) {
+			if (isAlreadyIn(surface, first) && isAlreadyIn(surface, second)) {
 				surfacebackbonebonds.add(current);
 			}
 		}
 	}
 	public void detPotentials() {
 		for (int i = 0; i < surface.size(); i++) {
+			System.out.println("ON ATOM " + i);
 			Atom current = (Atom)surface.get(i);
 			double cx = current.getXcoord();
 			double cy = current.getYcoord();
 			double cz = current.getZcoord();
 			char cel = current.getElement(); 
+			long start = System.currentTimeMillis();
 			for (double j = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(xcoordcent, Constants.GRIDGRAINSIZE); j < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(xcoordcent, Constants.GRIDGRAINSIZE); j += Constants.GRIDGRAINSIZE) {
 				for (double k = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(ycoordcent, Constants.GRIDGRAINSIZE); k < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(ycoordcent, Constants.GRIDGRAINSIZE); k += Constants.GRIDGRAINSIZE) {
 					for (double l = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(zcoordcent, Constants.GRIDGRAINSIZE); l < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(zcoordcent, Constants.GRIDGRAINSIZE); l += Constants.GRIDGRAINSIZE) {
@@ -1853,6 +1822,7 @@ public class ProteinStruct {
 							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][2] += EO;
 							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][3] += ES;
 							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][4] += EH;
+							
 						}
 					}
 				}
@@ -1939,74 +1909,36 @@ public class ProteinStruct {
 	public double round(double number, double roundTo) {
 		return (double)(Math.round(number/roundTo)*roundTo);
 	}
-	public ProteinStruct transrot(double xmov, double ymov, double zmov, double theta, double phi) {
+	public ProteinStruct trans(double xmov, double ymov, double zmov) {
 		ArrayList<Atom> newstruct = new ArrayList<Atom>();
 		for (int i = 0; i < surface.size(); i++) {
 			Atom current = (Atom)surface.get(i);
-			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
+			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newstruct.add(trcurrent);
 		}
 		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
 		for (int i = 0; i < surfacebackbone.size(); i++) {
 			Atom current = (Atom)surfacebackbone.get(i);
-			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
+			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
 		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	} 
-	public ProteinStruct transrotall(double xmov, double ymov, double zmov, double theta, double phi) {
+	public ProteinStruct transall(double xmov, double ymov, double zmov) {
 		ArrayList<Atom> newstruct = new ArrayList<Atom>();
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
-			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
+			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newstruct.add(trcurrent);
 		}
 		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
 		for (int i = 0; i < backbone.size(); i++) {
 			Atom current = (Atom)backbone.get(i);
-			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtom(xcoordcent, ycoordcent, zcoordcent, theta, phi);
+			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
 		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
-		return answer;
-	}
-	public ProteinStruct transrotpolar(double rmov, double thetamov, double phimov, double theta, double phi) {
-		double xmov = rmov * Math.cos(thetamov) * Math.sin(phimov);
-		double ymov = rmov * Math.sin(thetamov) * Math.sin(phimov);
-		double zmov = rmov * Math.cos(phimov);
-		ArrayList<Atom> newstruct = new ArrayList<Atom>();
-		for (int i = 0; i < surface.size(); i++) {
-			Atom current = (Atom)surface.get(i);
-			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
-			newstruct.add(trcurrent);
-		}
-		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
-		for (int i = 0; i < surfacebackbone.size(); i++) {
-			Atom current = (Atom)surfacebackbone.get(i);
-			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
-			newbackbone.add(trcurrent);
-		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
-		return answer;
-	}
-	public ProteinStruct transrotpolarall(double rmov, double thetamov, double phimov, double theta, double phi) {
-		double xmov = rmov * Math.cos(thetamov) * Math.sin(phimov);
-		double ymov = rmov * Math.sin(thetamov) * Math.sin(phimov);
-		double zmov = rmov * Math.cos(phimov);
-		ArrayList<Atom> newstruct = new ArrayList<Atom>();
-		for (int i = 0; i < structure.size(); i++) {
-			Atom current = (Atom)structure.get(i);
-			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
-			newstruct.add(trcurrent);
-		}
-		ArrayList<Atom> newbackbone = new ArrayList<Atom>();
-		for (int i = 0; i < backbone.size(); i++) {
-			Atom current = (Atom)backbone.get(i);
-			Atom trcurrent = current.transAtom(rmov, 0, 0).rotateAtom(0, 0, 0, thetamov, phimov).rotateAtom(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, theta, phi);
-			newbackbone.add(trcurrent);
-		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotnew(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) {
@@ -2138,5 +2070,20 @@ public class ProteinStruct {
 			}
 		}
 		return null;
+	}
+	public boolean isAlreadyIn(ArrayList<Atom> surface, Atom test) {
+		double cx = test.getXcoord();
+		double cy = test.getYcoord();
+		double cz = test.getZcoord();
+		for (int i = 0; i < surface.size(); i++) {
+			Atom trial = (Atom)surface.get(i);
+			double tx = trial.getXcoord();
+			double ty = trial.getYcoord();
+			double tz = trial.getZcoord();
+			if (Math.abs(tx - cx) <= Constants.FPPRECISION && Math.abs(ty - cy) <= Constants.FPPRECISION && Math.abs(tz - cz) <= Constants.FPPRECISION && trial.getEtype().equals(test.getEtype()) && test.getAtomnum() == trial.getAtomnum()) {
+				return true;
+			}
+		}
+		return false;
 	}
 }

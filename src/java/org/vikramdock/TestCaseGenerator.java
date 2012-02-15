@@ -16,8 +16,6 @@ public class TestCaseGenerator implements Runnable {
 	ProteinStruct ps2;
 	double alphamin;
 	double alphamax;
-	double thetamin;
-	double thetamax;
 	int num;
 	public TestCaseGenerator(ProteinDockPredict pdp, double alphamin, double alphamax, int num) {
 		this.pdp = pdp;
@@ -26,31 +24,6 @@ public class TestCaseGenerator implements Runnable {
 		this.alphamin = alphamin;
 		this.alphamax = alphamax;
 		this.num = num;
-	}
-	public void runOld() {
-		try {
-			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("thread" + num + ".txt")));
-			for (double i = thetamin; i < thetamax; i += Constants.THETAINC) {
-				for (double j = 0; j < Math.PI; j += Constants.PHIINC) {
-					for (double k = 0; k < Constants.MAXCLASH; k += Constants.CLASHINC) {
-						out.println(i + " " + j + " " + k);
-						out.flush();
-						for (double theta = 0; theta < 2*Math.PI; theta += Constants.STHETAINC) {
-							for (double phi = 0; phi < Math.PI; phi += Constants.SPHIINC) {
-								TestCase next = new TestCase(ps1, ps2, i, j, k, theta, phi);
-								if (next.score() != Double.POSITIVE_INFINITY) {
-									pdp.add(next);
-								} else {
-									next = null;
-								}
-							}
-						}
-					}
-				}
-			}
-		} catch (Exception ex) {
-			ex.printStackTrace();
-		}
 	}
 	public void run() {
 		try {

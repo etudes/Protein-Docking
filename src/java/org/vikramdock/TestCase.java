@@ -13,18 +13,12 @@ import java.lang.reflect.*;
 public class TestCase {
 	ProteinStruct ps1;
 	ProteinStruct ps2;
-	ProteinStruct newps;
 	ProteinStruct newps1;
 	ProteinStruct newps2;
 	double rmov;
-	double thetamov;
-	double phimov;
 	double alphamov;
 	double betamov;
 	double gammamov;
-	double theta;
-	double clash;
-	double phi;
 	double alpha;
 	double beta;
 	double gamma;
@@ -33,32 +27,8 @@ public class TestCase {
 	ArrayList<Atom> surfacebya;
 	ArrayList<ProteinStruct> surfacebyps;
 	double score;
-	double[][] ps1sizes;
-	double[][] ps2sizes;
 	double[][][] ps1newsizes;
 	double[][][] ps2newsizes;
-	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double thetamov, double phimov, double clash, double theta, double phi) {
-		surfacebya = new ArrayList<Atom>();
-		surfacebyps = new ArrayList<ProteinStruct>();
-		this.ps1 = ps1;
-		this.ps2 = ps2;
-		this.thetamov = thetamov;
-		this.phimov = phimov;
-		this.clash = clash;
-		this.theta = theta;
-		this.phi = phi;
-		ps1struct = ps1.getSurface();
-		surfacebyps.add(ps1);
-		ps1sizes = ps1.getSizes();
-		ps2sizes = ps2.getSizes();
-		rmov = Math.abs(ps1sizes[(int)(thetamov/Constants.THETAINC)][(int)(phimov/Constants.PHIINC)] + ps2sizes[(int)(theta/Constants.THETAINC)][(int)(phi/Constants.PHIINC)] - clash);
-		newps = ps2.transrotpolar(rmov, thetamov + Constants.THETAINC/2, phimov + Constants.PHIINC/2, theta, phi);
-		ps2struct = newps.getSurface();
-		surfacebyps.add(newps);
-		surfacebya.addAll(ps1.getSurface());
-		surfacebya.addAll(newps.getSurface());
-		score = -1;
-	}
 	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double alphamov, double betamov, double gammamov, double alpha, double beta, double gamma) {
 		surfacebya = new ArrayList<Atom>();
 		surfacebyps = new ArrayList<ProteinStruct>();
@@ -92,38 +62,6 @@ public class TestCase {
 		//}
 		return score;
 	}
-	public boolean surfaceScore() {
-		boolean answer = false;
-		double surfacesize = Constants.SURFACESIZE;
-		ArrayList structurenew2 = new ArrayList<Atom>();
-		for (int i = 0; i < ps2struct.size(); i++) {
-			Atom current = (Atom)ps2struct.get(i);
-			current.setSpherical();
-			structurenew2.add(current);
-		}
-		Atom second = null;
-		for (double i = Constants.THETAINC/2; i < 2*Math.PI; i += Constants.THETAINC) {
-			for (double j = Constants.PHIINC/2; j < Math.PI; j += Constants.PHIINC) {
-				for (int k = 0; k < structurenew2.size(); k++) {
-					Atom current = (Atom)structurenew2.get(k);
-					if (Math.abs(current.getYcoord() - i) <= Constants.THETAINC/2 && Math.abs(current.getZcoord() - j) <= Constants.PHIINC/2) {
-						second = current;
-						break;
-					}
-				}
-				double firstrad = ps1sizes[(int)((i-Constants.THETAINC/2)/Constants.THETAINC)][(int)((phimov-Constants.PHIINC/2)/Constants.PHIINC)];
-				if (firstrad != Double.POSITIVE_INFINITY && second != null) {
-					double secondrad = second.getXcoord();
-					if (Math.abs(firstrad - secondrad) <= surfacesize) {
-						answer = true;
-					} else if (secondrad < firstrad - surfacesize) {
-						return false;
-					}
-				}
-			}
-		}
-		return answer;
-	}
 	public double energyScore() {
 		double Etot = 0;
 		double vanDerWaalsEtot = 0;
@@ -139,8 +77,8 @@ public class TestCase {
 			double cz = current.getZcoord();
 			double vanDerWaalsE = 0;
 			double ps1size = ps1.getSize();
-			if (Math.abs(cx) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cy) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(cz) < ps1size + Constants.VDWDISTTHRESHOLD) {
-				double[] rotatedcoords = deRotate(cx, cy, cz, alphamov, betamov, gammamov); 
+			double[] rotatedcoords = deRotate(cx, cy, cz, alphamov, betamov, gammamov); 
+			if (Math.abs(rotatedcoords[0]) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[1]) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[2]) < ps1size + Constants.VDWDISTTHRESHOLD) {
 				int tx = (int)((round(rotatedcoords[0], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				int ty = (int)((round(rotatedcoords[1], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				int tz = (int)((round(rotatedcoords[2], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
@@ -162,12 +100,12 @@ public class TestCase {
 			vanDerWaalsEtot += vanDerWaalsE;
 		}
 		//bond stretching
-		ArrayList ps1bonds = ps1.getSurfaceBonds();
+		ArrayList ps1bonds = newps1.getSurfaceBonds();
 		for (int i = 0; i < ps1bonds.size(); i++) {
 			double bStretchE = 0;
 			Bond current = (Bond)ps1bonds.get(i);
-			Atom first = ps1.getAtomByNum(current.getFirst().getAtomnum());
-			Atom second = ps1.getAtomByNum(current.getSecond().getAtomnum());
+			Atom first = newps1.getAtomByNum(current.getFirst().getAtomnum());
+			Atom second = newps1.getAtomByNum(current.getSecond().getAtomnum());
 			double distance = first.distance(second);
 			bStretchE = current.bondE(distance);
 			if (bStretchE > Constants.ETHRESHOLD) {
@@ -175,12 +113,12 @@ public class TestCase {
 			}
 			bStretchEtot += bStretchE;
 		}
-		ArrayList ps2bonds = newps.getSurfaceBonds();
+		ArrayList ps2bonds = newps2.getSurfaceBonds();
 		for (int i = 0; i < ps2bonds.size(); i++) {
 			double bStretchE = 0;
 			Bond current = (Bond)ps2bonds.get(i);
-			Atom first = newps.getAtomByNum(current.getFirst().getAtomnum());
-			Atom second = newps.getAtomByNum(current.getSecond().getAtomnum());
+			Atom first = newps2.getAtomByNum(current.getFirst().getAtomnum());
+			Atom second = newps2.getAtomByNum(current.getSecond().getAtomnum());
 			double distance = first.distance(second);
 			bStretchE = current.bondE(distance);
 			if (bStretchE > Constants.ETHRESHOLD) {
@@ -189,7 +127,7 @@ public class TestCase {
 			bStretchEtot += bStretchE;
 		}
 		//angle bending
-		ArrayList ps1backbone = ps1.getSurfaceBackbone();
+		ArrayList ps1backbone = newps1.getSurfaceBackbone();
 		for (int i = 1; i < ps1backbone.size() - 1; i++) {
 			double aBendE = 0;
 			Atom current = (Atom)ps1backbone.get(i);
@@ -207,7 +145,7 @@ public class TestCase {
 				aBendEtot += aBendE;
 			}
 		}
-		ArrayList ps2backbone = newps.getSurfaceBackbone();
+		ArrayList ps2backbone = newps2.getSurfaceBackbone();
 		for (int i = 1; i < ps2backbone.size() - 1; i++) {
 			double aBendE = 0;
 			Atom current = (Atom)ps2backbone.get(i);
@@ -226,7 +164,7 @@ public class TestCase {
 			}
 		}
 		//torsion
-		ArrayList ps1backbonebonds = ps1.getSurfaceBackboneBonds();
+		ArrayList ps1backbonebonds = newps1.getSurfaceBackboneBonds();
 		for (int i = 1; i < ps1backbonebonds.size() - 1; i++) {
 			double torsE = 0;
 			Bond current = (Bond)ps1backbonebonds.get(i);
@@ -243,7 +181,7 @@ public class TestCase {
 				torsEtot += torsE;
 			}
 		}
-		ArrayList ps2backbonebonds = newps.getSurfaceBackboneBonds();
+		ArrayList ps2backbonebonds = newps2.getSurfaceBackboneBonds();
 		for (int i = 1; i < ps2backbonebonds.size() - 1; i++) {
 			double torsE = 0;
 			Bond current = (Bond)ps2backbonebonds.get(i);
@@ -266,20 +204,23 @@ public class TestCase {
 	public double getRmov() {
 		return rmov;
 	}
-	public double getThetamov() {
-		return thetamov;
+	public double getAlphamov() {
+		return alphamov;
 	}
-	public double getPhimov() {
-		return phimov;
+	public double getBetamov() {
+		return betamov;
 	}
-	public double getClash() {
-		return clash;
+	public double getGammamov() {
+		return gammamov;
 	}
-	public double getTheta() {
-		return theta;
+	public double getAlpha() {
+		return alpha;
 	}
-	public double getPhi() {
-		return phi;
+	public double getBeta() {
+		return beta;
+	}
+	public double getGamma() {
+		return gamma;
 	}
 	public ProteinStruct getPS1() {
 		return ps1;
@@ -287,8 +228,11 @@ public class TestCase {
 	public ProteinStruct getPS2() {
 		return ps2;
 	}
-	public ProteinStruct getNewPS() {
-		return newps;
+	public ProteinStruct getNewPS1() {
+		return newps1;
+	}
+	public ProteinStruct getNewPS2() {
+		return newps2;
 	}
 	public ArrayList getSurfacebya() {
 		return surfacebya;
@@ -315,7 +259,7 @@ public class TestCase {
 		}
 	}
 	public void printInfo() {
-		System.out.println(rmov + " " + thetamov + " " + phimov + " " + clash + " " + theta + " " + phi);
+		System.out.println(alphamov + " " + betamov + " " + gammamov + " " + alpha + " " + beta + " " + gamma);
 	}
 	public double[] deRotate(double cx, double cy, double cz, double a, double b, double c) {
 		double[] answer = new double[3];
