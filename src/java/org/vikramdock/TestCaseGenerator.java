@@ -33,9 +33,11 @@ public class TestCaseGenerator implements Runnable {
 					for (double k = 0; k < 2*Math.PI; k += Constants.GAMMAINC) {
 						out.println(i + " " + j + " " + k);
 						out.flush();
-						for (double alpha = 0; alpha < 2*Math.PI; alpha += Constants.SALPHAINC) {
-							for (double beta = 0; beta < 2*Math.PI; beta += Constants.SBETAINC) {
-								for (double gamma = 0; gamma < 2*Math.PI; gamma += Constants.SGAMMAINC) {
+						for (double alpha = 0; Math.abs(2*Math.PI - alpha) > Constants.FPPRECISION; alpha += Constants.SALPHAINC) {
+							for (double beta = 0; Math.abs(2*Math.PI - beta) > Constants.FPPRECISION; beta += Constants.SBETAINC) {
+								for (double gamma = 0; Math.abs(2*Math.PI - gamma) > Constants.FPPRECISION; gamma += Constants.SGAMMAINC) {
+									out.println(i + " " + j + " " + k + " " + alpha + " " + beta + " " + gamma);
+									out.flush();
 									TestCase next = new TestCase(ps1, ps2, i, j, k, alpha, beta, gamma);
 									if (next.score() != Double.POSITIVE_INFINITY) {
 										pdp.add(next);

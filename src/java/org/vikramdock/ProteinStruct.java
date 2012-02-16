@@ -34,7 +34,6 @@ public class ProteinStruct {
 	private double zcoordcent;
 	private boolean rotated;
 	private double size;
-	private double[][] sizes = new double[(int)(2*Math.PI/Constants.THETAINC)][(int)(Math.PI/Constants.PHIINC)];
 	private double[][][] newsizes = new double[(int)(2*Math.PI/Constants.ALPHAINC)][(int)(2*Math.PI/Constants.BETAINC)][(int)(2*Math.PI/Constants.GAMMAINC)];
 	private double[][][][] potentials;
 	public ProteinStruct(String filepath) {
@@ -153,7 +152,7 @@ public class ProteinStruct {
 			ex.printStackTrace();
 		}
 	}
-	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double[][] sizes, double[][][][] potentials, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
+	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double[][][] newsizes, double[][][][] potentials, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
 		this.parsedsequence = parsedsequence;
 		this.structurea = surface;
 		this.structure = new ImmutableArrayList(this.structurea);
@@ -164,7 +163,7 @@ public class ProteinStruct {
 		this.surfacebackbone = backbone;
 		this.backbonebonds = backbonebonds;
 		this.surfacebackbonebonds = backbonebonds;
-		this.sizes = sizes;
+		this.newsizes = newsizes;
 		this.potentials = potentials;
 		rotated = true;
 		translator1 = new HashMap();
@@ -395,7 +394,7 @@ public class ProteinStruct {
 		this.parsedsequence = clone.getParsedsequence();
 		this.rotated = clone.getRotated();
 		this.size = clone.getSize();
-		this.sizes = clone.getSizes();
+		this.newsizes = clone.getNewSizes();
 		this.potentials = clone.getPotentials();
 	}
 	public void parseSequence(String filepath) throws Exception {
@@ -538,14 +537,16 @@ public class ProteinStruct {
 						}
 					}
 					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k-Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
-					for (int l = 0; l < worked.size(); l++) {
-						Atom thisa = (Atom)worked.get(l);
-						Atom current = thisa.transAtom(xcoordcent, ycoordcent, zcoordcent);
-						current.setSpherical();
-						if (maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE && !done.contains(thisa)) {
-							current.setCartesian();
-							surface.add(current);
-							done.add(thisa);
+					if (maxnum >= Constants.SURFACETHRESHOLD) {
+						for (int l = 0; l < worked.size(); l++) {
+							Atom thisa = (Atom)worked.get(l);
+							Atom current = thisa.transAtom(xcoordcent, ycoordcent, zcoordcent);
+							current.setSpherical();
+							if (maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE && !done.contains(thisa)) {
+								current.setCartesian();
+								surface.add(current);
+								done.add(thisa);
+							}
 						}
 					}
 					maxnumoverall = Math.max(maxnum, maxnumoverall);
@@ -1897,9 +1898,6 @@ public class ProteinStruct {
 		centcoords[2] = zcoordcent;
 		return centcoords;
 	}
-	public double[][] getSizes() {
-		return sizes;
-	}
 	public double[][][] getNewSizes() {
 		return newsizes;
 	}
@@ -1922,7 +1920,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	} 
 	public ProteinStruct transall(double xmov, double ymov, double zmov) {
@@ -1938,7 +1936,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, newsizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotnew(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) {
@@ -1954,7 +1952,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotnewall(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) {
@@ -1970,7 +1968,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, sizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public void printSequence() {
