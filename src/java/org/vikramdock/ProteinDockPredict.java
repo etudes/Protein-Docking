@@ -83,49 +83,57 @@ public class ProteinDockPredict{
 			FileInputStream fis = new FileInputStream(filepath);
 			InputStreamReader isr = new InputStreamReader(fis);
 			BufferedReader br2 = new BufferedReader(isr);
+			BufferedReader br3 = new BufferedReader(new InputStreamReader(new FileInputStream(sourcepath.concat("chaindata").concat(filename).concat(".txt"))));
+			String chain1 = br3.readLine();
+			String chain2 = br3.readLine();
+			if (br3.readLine() != null) {
+				System.err.println("TOO MANY PROTEINS");
+				System.exit(-1);
+			}
+			ArrayList chain1a = new ArrayList();
+			ArrayList chain2a = new ArrayList();
+			for (int i = 0; i < chain1.length(); i++) {
+				chain1a.add(chain1.charAt(i));
+			}
+			for (int i = 0; i < chain2.length(); i++) {
+				chain2a.add(chain2.charAt(i));
+			}
 			int curatom = Integer.MAX_VALUE;
-			int counter = 0;
-			char chain = ' ';
 			while(true) {
 				String s = br2.readLine();
 				if(s != null) {
 					String[] ssplit = new String[20];
 					ssplit = s.split(" ");
 					if (ssplit[0].equals("ATOM")) {
-						if (Integer.parseInt(removeSpace(s.substring(6,11))) < curatom) {
-							counter++;
-							if (counter == 2) {
-								chain = s.charAt(21);
-							}
-						}
-						curatom = Integer.parseInt(removeSpace(s.substring(6,11)));
-						if (counter == 1) {
+						if (chain1a.contains(s.charAt(21))) {
 							prot1.println(s);
-						} else if (counter == 2) {
+						} else if (chain2a.contains(s.charAt(21))) {
 							prot2.println(s);
+						} else {
+							System.err.println("UNKNOWN CHAIN FOUND " + s.charAt(21));
+							System.exit(-1);
 						}
 					}
 				} else {
 					break;
 				}
 			}
-			boolean change = false;
 			FileInputStream fis2 = new FileInputStream(filepath);
 			InputStreamReader isr2 = new InputStreamReader(fis2);
-			BufferedReader br3 = new BufferedReader(isr2);
+			BufferedReader br4 = new BufferedReader(isr2);
 			while(true) {
-				String s = br3.readLine();
+				String s = br4.readLine();
 				if(s != null) {
 					String[] ssplit = new String[20];
 					ssplit = s.split(" ");
 					if (ssplit[0].equals("SEQRES")) {
-						if (s.charAt(11) == chain) {
-							change = true;
-						}
-						if (!change) {
+						if (chain1a.contains(s.charAt(11))) {
 							prot1.println(s);
-						} else if (change) {
+						} else if (chain2a.contains(s.charAt(11))) {
 							prot2.println(s);
+						} else {
+							System.err.println("UNKNOWN CHAIN FOUND " + s.charAt(11));
+							System.exit(-1);
 						}
 					}
 				} else {

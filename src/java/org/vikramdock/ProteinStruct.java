@@ -430,13 +430,13 @@ public class ProteinStruct {
 					chaintranslator.put(newchain,chaincount);
 					reversechaintrans.put(chaincount,newchain);
 					currentchain = newchain; 
-					for (int j = 19; j <= 67; j=j+4) {
+					for (int j = 19; j <= Math.min(seqraw[i].length() - 4, 67); j=j+4) {
 						if (translator2.get(seqraw[i].substring(j,j+3)) != null) {
 							parsedsequence[chaincount] = parsedsequence[chaincount] + translator2.get(seqraw[i].substring(j,j+3));
 						}
 					}
 				} else {
-					for (int j = 19; j <= 67; j=j+4) {
+					for (int j = 19; j <= Math.min(seqraw[i].length() - 4, 67); j=j+4) {
 						if (translator2.get(seqraw[i].substring(j,j+3)) != null) {
 							parsedsequence[chaincount] = parsedsequence[chaincount] + translator2.get(seqraw[i].substring(j,j+3));
 						}
@@ -482,13 +482,13 @@ public class ProteinStruct {
 				}				
 				int resnum = Integer.parseInt(removeSpace(catom.substring(22,26)));
 				int atomnum = Integer.parseInt(removeSpace(catom.substring(6,11)));
-				int chainnum = Integer.parseInt(chaintranslator.get(catom.charAt(21)).toString());
+				char chainnum = catom.charAt(21);
 				String eType = removeSpace(catom.substring(12,16));
 				String AA = removeSpace(catom.substring(17,20));
 				if (element == ' ') {
 					element = eType.charAt(0);
 				}
-				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, reversechaintrans.get(chainnum).toString().charAt(0), eType, AA);
+				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chainnum, eType, AA);
 				if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
 					System.err.println("NaN found");
 					next.printAtomErr();
@@ -1770,7 +1770,6 @@ public class ProteinStruct {
 	}
 	public void detPotentials() {
 		for (int i = 0; i < surface.size(); i++) {
-			System.out.println("ON ATOM " + i);
 			Atom current = (Atom)surface.get(i);
 			double cx = current.getXcoord();
 			double cy = current.getYcoord();

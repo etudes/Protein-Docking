@@ -21,7 +21,7 @@ public class Constants {
 	public static final double SGAMMAINC = Math.PI/3;
 	public static final double GRIDGRAINSIZE = 1;
 	public static final double SURFACESIZE = 1;
-	public static final double SURFACETHRESHOLD = 15;
+	public static final double SURFACETHRESHOLD = 10;
 	public static final double ETHRESHOLD = 100;
 	public static final double VDWDISTTHRESHOLD = 5;
 	public static final double BONDDISTHRES = 5;
