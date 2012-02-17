@@ -28,14 +28,6 @@ public class Bond {
 				first.printAtom();
 				second.printAtom();
 			}
-		} else if (first == null && second != null) {
-			System.err.println("NULL ATOM IN BOND");
-			second.printAtom();
-		} else if (second == null && first != null) {
-			System.err.println("NULL ATOM IN BOND");
-			first.printAtom();
-		} else {
-			System.err.println("DOUBLE NULL ATOM IN BOND");
 		}
 	}
 	public Bond(Bond clone) {

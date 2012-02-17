@@ -54,12 +54,7 @@ public class TestCase {
 		score = -1;
 	}
 	public double score() {
-		double score;
-		//if (!surfaceScore()) {
-		//	score = Double.POSITIVE_INFINITY;
-		//} else {
-			score = energyScore();
-		//}
+		double score = energyScore();
 		return score;
 	}
 	public double energyScore() {
