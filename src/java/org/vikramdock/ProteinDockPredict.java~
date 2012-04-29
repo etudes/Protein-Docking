@@ -147,7 +147,6 @@ public class ProteinDockPredict{
 			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
 			System.out.println("DONE WITH SECOND PROTEIN");
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
-			System.out.println("DECLARED PDP OBJECT");
 			pdp.numthread = Integer.parseInt(br.readLine());
 			System.out.println(pdp.numthread + " NUMTHREAD");
 			pdp.genTestCases();

@@ -50,7 +50,7 @@ public class ProteinDockPredict{
 		}
 	}
 	public static void main(String[] args) {
-		capriParse(args[0], args[1]);
+		benchParse(args[0], args[1]);
 	}
 	public static void PDBParse() {
 		try {
@@ -61,6 +61,88 @@ public class ProteinDockPredict{
 			String file2 = "E:\\Research\\pdb\\wwpdb\\pdb\\".concat(id2.substring(1,3)).concat("\\pdb").concat(id2).concat(".ent.gz");
 			long start = System.currentTimeMillis();
 			ProteinDockPredict pdp = new ProteinDockPredict(file1, file2);
+			pdp.genTestCases();
+			for (int i = 0; i < pdp.numthread; i++) {
+				pdp.ths[i].join();
+			}
+			pdp.printCases();
+			long end = System.currentTimeMillis();
+			System.out.println(end - start);
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+	public static void benchParse(String sourcepath, String pdbpath) {
+		try {
+			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			String id1 = st.nextToken();
+			String chain1 = st.nextToken();
+			st = new StringTokenizer(br.readLine());
+			String id2 = st.nextToken();
+			String chain2 = st.nextToken();
+			long start = System.currentTimeMillis();
+			PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
+			PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
+			String filepath1 = pdbpath.concat(id1.substring(1,3).concat("\\pdb").concat(id1).concat(".ent.gz"));
+			BufferedReader br2 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath1))));
+			String filepath2 = pdbpath.concat(id2.substring(1,3).concat("\\pdb").concat(id2).concat(".ent.gz"));
+			BufferedReader br3 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath2))));
+			ArrayList chain1a = new ArrayList();
+			ArrayList chain2a = new ArrayList();
+			for (int i = 0; i < chain1.length(); i++) {
+				chain1a.add(chain1.charAt(i));
+			}
+			for (int i = 0; i < chain2.length(); i++) {
+				chain2a.add(chain2.charAt(i));
+			}
+			while(true) {
+				String s = br2.readLine();
+				if(s != null) {
+					String[] ssplit = new String[20];
+					ssplit = s.split(" ");
+					if (ssplit[0].equals("ATOM")) {
+						if (chain1a.contains(s.charAt(21))) {
+							prot1.println(s);
+						}
+					}
+					if (ssplit[0].equals("SEQRES")) {
+						if (chain1a.contains(s.charAt(11))) {
+							prot1.println(s);
+						}
+					}
+				} else {
+					break;
+				}
+			}
+			while(true) {
+				String s = br3.readLine();
+				if(s != null) {
+					String[] ssplit = new String[20];
+					ssplit = s.split(" ");
+					if (ssplit[0].equals("ATOM")) {
+						if (chain2a.contains(s.charAt(21))) {
+							prot2.println(s);
+						}
+					}
+					if (ssplit[0].equals("SEQRES")) {
+						if (chain2a.contains(s.charAt(11))) {
+							prot2.println(s);
+						}
+					}
+				} else {
+					break;
+				}
+			}
+			prot1.close();
+			prot2.close();
+			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
+			System.out.println("DONE WITH FIRST PROTEIN");
+			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
+			System.out.println("DONE WITH SECOND PROTEIN");
+			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
+			pdp.numthread = Integer.parseInt(br.readLine());
+			System.out.println(pdp.numthread + " NUMTHREAD");
 			pdp.genTestCases();
 			for (int i = 0; i < pdp.numthread; i++) {
 				pdp.ths[i].join();
