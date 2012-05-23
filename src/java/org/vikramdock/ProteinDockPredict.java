@@ -74,27 +74,40 @@ public class ProteinDockPredict{
 	}
 	public static void benchParse(String sourcepath, String pdbpath) {
 		try {
+			String filesep = System.getProperty("file.separator");
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			String id1 = st.nextToken();
 			String chain1 = st.nextToken();
+			boolean chainreq1 = true;
+			if (chain1 == null) {
+				chainreq1 = false;
+			}
 			st = new StringTokenizer(br.readLine());
 			String id2 = st.nextToken();
 			String chain2 = st.nextToken();
+			boolean chainreq2 = true;
+			if (chain2 == null) {
+				chainreq2 = false;
+			}
 			long start = System.currentTimeMillis();
 			PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
 			PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
-			String filepath1 = pdbpath.concat(id1.substring(1,3).concat("\\pdb").concat(id1).concat(".ent.gz"));
+			String filepath1 = pdbpath.concat(id1.substring(1,3).concat(filesep).concat("pdb").concat(id1).concat(".ent.gz"));
 			BufferedReader br2 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath1))));
-			String filepath2 = pdbpath.concat(id2.substring(1,3).concat("\\pdb").concat(id2).concat(".ent.gz"));
+			String filepath2 = pdbpath.concat(id2.substring(1,3).concat(filesep).concat("pdb").concat(id2).concat(".ent.gz"));
 			BufferedReader br3 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath2))));
 			ArrayList chain1a = new ArrayList();
 			ArrayList chain2a = new ArrayList();
-			for (int i = 0; i < chain1.length(); i++) {
-				chain1a.add(chain1.charAt(i));
+			if (chainreq1) {
+				for (int i = 0; i < chain1.length(); i++) {
+					chain1a.add(chain1.charAt(i));
+				}
 			}
-			for (int i = 0; i < chain2.length(); i++) {
-				chain2a.add(chain2.charAt(i));
+			if (chainreq2) {
+				for (int i = 0; i < chain2.length(); i++) {
+					chain2a.add(chain2.charAt(i));
+				}
 			}
 			while(true) {
 				String s = br2.readLine();
@@ -102,12 +115,12 @@ public class ProteinDockPredict{
 					String[] ssplit = new String[20];
 					ssplit = s.split(" ");
 					if (ssplit[0].equals("ATOM")) {
-						if (chain1a.contains(s.charAt(21))) {
+						if (!chainreq1 || chain1a.contains(s.charAt(21))) {
 							prot1.println(s);
 						}
 					}
 					if (ssplit[0].equals("SEQRES")) {
-						if (chain1a.contains(s.charAt(11))) {
+						if (!chainreq1 || chain1a.contains(s.charAt(11))) {
 							prot1.println(s);
 						}
 					}
@@ -121,12 +134,12 @@ public class ProteinDockPredict{
 					String[] ssplit = new String[20];
 					ssplit = s.split(" ");
 					if (ssplit[0].equals("ATOM")) {
-						if (chain2a.contains(s.charAt(21))) {
+						if (!chainreq2 || chain2a.contains(s.charAt(21))) {
 							prot2.println(s);
 						}
 					}
 					if (ssplit[0].equals("SEQRES")) {
-						if (chain2a.contains(s.charAt(11))) {
+						if (!chainreq2 || chain2a.contains(s.charAt(11))) {
 							prot2.println(s);
 						}
 					}
