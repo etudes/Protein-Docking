@@ -430,13 +430,13 @@ public class ProteinStruct {
 					chaintranslator.put(newchain,chaincount);
 					reversechaintrans.put(chaincount,newchain);
 					currentchain = newchain; 
-					for (int j = 19; j <= 67; j=j+4) {
+					for (int j = 19; j <= Math.min(seqraw[i].length() - 4, 67); j=j+4) {
 						if (translator2.get(seqraw[i].substring(j,j+3)) != null) {
 							parsedsequence[chaincount] = parsedsequence[chaincount] + translator2.get(seqraw[i].substring(j,j+3));
 						}
 					}
 				} else {
-					for (int j = 19; j <= 67; j=j+4) {
+					for (int j = 19; j <= Math.min(seqraw[i].length() - 4, 67); j=j+4) {
 						if (translator2.get(seqraw[i].substring(j,j+3)) != null) {
 							parsedsequence[chaincount] = parsedsequence[chaincount] + translator2.get(seqraw[i].substring(j,j+3));
 						}

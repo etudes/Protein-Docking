@@ -33,7 +33,7 @@ public class ProteinStruct {
 	private double ycoordcent;
 	private double zcoordcent;
 	private boolean rotated;
-	private double size;
+	private double size = 0;
 	private double[][][] newsizes = new double[(int)(2*Math.PI/Constants.ALPHAINC)][(int)(2*Math.PI/Constants.BETAINC)][(int)(2*Math.PI/Constants.GAMMAINC)];
 	private double[][][][] potentials;
 	public ProteinStruct(String filepath) {
@@ -453,7 +453,7 @@ public class ProteinStruct {
 			FileInputStream fis = new FileInputStream(filepath);
 			InputStreamReader isr = new InputStreamReader(fis);
 			BufferedReader br = new BufferedReader(isr);
-			String[] structraw = new String[10000];
+			ArrayList<String> structraw = new ArrayList<String>();
 			int structcount = 0;
 			while(true) {
 				String s = br.readLine();
@@ -461,7 +461,7 @@ public class ProteinStruct {
 					String[] ssplit = new String[20];
 					ssplit = s.split(" ");
 					if (ssplit[0].equals("ATOM")) {
-						structraw[structcount] = s;
+						structraw.add(s);
 						structcount++;
 					}
 				} else {
@@ -471,8 +471,9 @@ public class ProteinStruct {
 			double xcoordsum = 0;
 			double ycoordsum = 0;
 			double zcoordsum = 0;
+			Iterator it = structraw.iterator();
 			for (int i = 0; i < structcount; i++) {
-				String catom = structraw[i];
+				String catom = (String)it.next();
 				double xcoord = Double.parseDouble(removeSpace(catom.substring(30,38)));
 				double ycoord = Double.parseDouble(removeSpace(catom.substring(38,46)));
 				double zcoord = Double.parseDouble(removeSpace(catom.substring(46,54)));
@@ -518,9 +519,11 @@ public class ProteinStruct {
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
 			Atom trcurrent = current.transAtom(-xcoordcent, -ycoordcent, -zcoordcent);
+			trcurrent.setSpherical();
+			size = Math.max(size, trcurrent.getXcoord());
+			trcurrent.setCartesian();
 			newstructure.add(trcurrent);
 		}
-		double maxnumoverall = 0;
 		ArrayList done = new ArrayList<Atom>();
 		for (double i = Constants.ALPHAINC/2; i < 2*Math.PI; i += Constants.ALPHAINC) {
 			for (double j = Constants.BETAINC/2; j < 2*Math.PI; j += Constants.BETAINC) {
@@ -537,7 +540,7 @@ public class ProteinStruct {
 						}
 					}
 					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k-Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
-					if (maxnum >= Constants.SURFACETHRESHOLD) {
+					if (maxnum/size >= Constants.SURFACETHRESHOLD) {
 						for (int l = 0; l < worked.size(); l++) {
 							Atom thisa = (Atom)worked.get(l);
 							Atom current = thisa.transAtom(xcoordcent, ycoordcent, zcoordcent);
@@ -549,11 +552,9 @@ public class ProteinStruct {
 							}
 						}
 					}
-					maxnumoverall = Math.max(maxnum, maxnumoverall);
 				}
 			}
 		}
-		size = maxnumoverall;
 		System.out.println("DONE WITH DETERMINING SURFACE");
 	}
 	public void detBondsBackbone() {

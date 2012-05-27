@@ -50,7 +50,7 @@ public class ProteinDockPredict{
 		}
 	}
 	public static void main(String[] args) {
-		benchParse(args[0], args[1]);
+		benchParse(args[0], args[1], args[2], args[3], args[4], args[5], Integer.parseInt(args[6]));
 	}
 	public static void PDBParse() {
 		try {
@@ -72,22 +72,15 @@ public class ProteinDockPredict{
 			ex.printStackTrace();
 		}
 	}
-	public static void benchParse(String sourcepath, String pdbpath) {
+	public static void benchParse(String sourcepath, String pdbpath, String id1, String chain1, String id2, String chain2, int numthread) {
 		try {
 			String filesep = System.getProperty("file.separator");
-			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-			StringTokenizer st = new StringTokenizer(br.readLine());
-			String id1 = st.nextToken();
-			String chain1 = st.nextToken();
 			boolean chainreq1 = true;
-			if (chain1 == null) {
+			if (chain1.equals("ALL")) {
 				chainreq1 = false;
 			}
-			st = new StringTokenizer(br.readLine());
-			String id2 = st.nextToken();
-			String chain2 = st.nextToken();
 			boolean chainreq2 = true;
-			if (chain2 == null) {
+			if (chain2.equals("ALL")) {
 				chainreq2 = false;
 			}
 			long start = System.currentTimeMillis();
@@ -154,7 +147,7 @@ public class ProteinDockPredict{
 			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
 			System.out.println("DONE WITH SECOND PROTEIN");
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
-			pdp.numthread = Integer.parseInt(br.readLine());
+			pdp.numthread = numthread;
 			System.out.println(pdp.numthread + " NUMTHREAD");
 			pdp.genTestCases();
 			for (int i = 0; i < pdp.numthread; i++) {
@@ -193,7 +186,6 @@ public class ProteinDockPredict{
 			for (int i = 0; i < chain2.length(); i++) {
 				chain2a.add(chain2.charAt(i));
 			}
-			int curatom = Integer.MAX_VALUE;
 			while(true) {
 				String s = br2.readLine();
 				if(s != null) {

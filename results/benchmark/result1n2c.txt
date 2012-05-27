@@ -1,0 +1,47 @@
+java.lang.ArrayIndexOutOfBoundsException: 10000
+	at org.vikramdock.ProteinStruct.parseStructure(ProteinStruct.java:464)
+	at org.vikramdock.ProteinStruct.<init>(ProteinStruct.java:138)
+	at org.vikramdock.ProteinDockPredict.benchParse(ProteinDockPredict.java:140)
+	at org.vikramdock.ProteinDockPredict.main(ProteinDockPredict.java:53)
+java.lang.ArrayIndexOutOfBoundsException: 10000
+	at org.vikramdock.ProteinStruct.parseStructure(ProteinStruct.java:464)
+	at org.vikramdock.ProteinStruct.<init>(ProteinStruct.java:138)
+	at org.vikramdock.ProteinDockPredict.benchParse(ProteinDockPredict.java:140)
+	at org.vikramdock.ProteinDockPredict.main(ProteinDockPredict.java:53)
+DONE WITH FIRST PROTEIN
+DONE WITH DETERMINING SURFACE
+SURFACE TIME TOTAL 206761
+SURFACE SIZE 653
+DONE WITH DETERMINING BONDS AND BACKBONE
+DONE WITH DETERMINING POTENTIALS
+POTENTIALS TIME TOTAL 28192
+DONE WITH SECOND PROTEIN
+TRANSLATED AND ROTATED FIRST PROTEIN
+TRANSLATED AND ROTATED SECOND PROTEIN
+4 NUMTHREAD
+java.lang.NullPointerException
+	at org.vikramdock.TestCase.energyScore(TestCase.java:85)
+	at org.vikramdock.TestCase.score(TestCase.java:57)
+	at org.vikramdock.TestCaseGenerator.run(TestCaseGenerator.java:42)
+	at java.lang.Thread.run(Thread.java:662)
+java.lang.NullPointerException
+	at org.vikramdock.TestCase.energyScore(TestCase.java:85)
+	at org.vikramdock.TestCase.score(TestCase.java:57)
+	at org.vikramdock.TestCaseGenerator.run(TestCaseGenerator.java:42)
+	at java.lang.Thread.run(Thread.java:662)
+java.lang.NullPointerException
+	at org.vikramdock.TestCase.energyScore(TestCase.java:85)
+	at org.vikramdock.TestCase.score(TestCase.java:57)
+	at org.vikramdock.TestCaseGenerator.run(TestCaseGenerator.java:42)
+	at java.lang.Thread.run(Thread.java:662)
+java.lang.NullPointerException
+	at org.vikramdock.TestCase.energyScore(TestCase.java:85)
+	at org.vikramdock.TestCase.score(TestCase.java:57)
+	at org.vikramdock.TestCaseGenerator.run(TestCaseGenerator.java:42)
+	at java.lang.Thread.run(Thread.java:662)
+MODELS PASSED 0
+236289
+
+real	4m18.928s
+user	3m55.511s
+sys	0m1.744s
