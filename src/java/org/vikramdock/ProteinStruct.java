@@ -28,6 +28,7 @@ public class ProteinStruct {
 	private HashMap translator3;
 	private HashMap translator4;
 	private String filepath;
+	private PrintWriter out;
 	private int chaincount;
 	private double xcoordcent;
 	private double ycoordcent;
@@ -36,7 +37,7 @@ public class ProteinStruct {
 	private double size = 0;
 	private double[][][] newsizes = new double[(int)(2*Math.PI/Constants.ALPHAINC)][(int)(2*Math.PI/Constants.BETAINC)][(int)(2*Math.PI/Constants.GAMMAINC)];
 	private double[][][][] potentials;
-	public ProteinStruct(String filepath) {
+	public ProteinStruct(String filepath, PrintWriter out) {
 		try {
 			chaintranslator = new HashMap();
 			structurea = new ArrayList<Atom>();
@@ -133,6 +134,7 @@ public class ProteinStruct {
 			translator4.put("W","TRP");
 			translator4.put("Y","TYR");
 			this.filepath = filepath;
+			this.out = out;
 			rotated = false;
 			parseSequence(filepath);
 			parseStructure(filepath);
@@ -140,14 +142,14 @@ public class ProteinStruct {
 			long beforeS = System.currentTimeMillis();
 			determineSurfaceNew();
 			long afterS = System.currentTimeMillis();
-			System.out.println("SURFACE TIME TOTAL " + (afterS - beforeS));
-			System.out.println("SURFACE SIZE " + surface.size());
+			out.println("SURFACE TIME TOTAL " + (afterS - beforeS));
+			out.println("SURFACE SIZE " + surface.size());
 			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
 			detBondsBackbone();
 			long beforeP = System.currentTimeMillis();
 			detPotentials();
 			long afterP = System.currentTimeMillis();
-			System.out.println("POTENTIALS TIME TOTAL " + (afterP - beforeP));
+			out.println("POTENTIALS TIME TOTAL " + (afterP - beforeP));
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -555,7 +557,7 @@ public class ProteinStruct {
 				}
 			}
 		}
-		System.out.println("DONE WITH DETERMINING SURFACE");
+		out.println("DONE WITH DETERMINING SURFACE");
 	}
 	public void detBondsBackbone() {
 		Atom first = (Atom)structure.get(0);
@@ -1739,7 +1741,7 @@ public class ProteinStruct {
 		detSurfaceBonds();
 		detSurfaceBackbone();
 		detSurfaceBackboneBonds();
-		System.out.println("DONE WITH DETERMINING BONDS AND BACKBONE");
+		out.println("DONE WITH DETERMINING BONDS AND BACKBONE");
 	}
 	public void detSurfaceBonds() {
 		for (int i = 0; i < bonds.size(); i++) {
@@ -1829,7 +1831,7 @@ public class ProteinStruct {
 				}
 			}
 		}
-		System.out.println("DONE WITH DETERMINING POTENTIALS");
+		out.println("DONE WITH DETERMINING POTENTIALS");
 	}
 	public String removeSpace(String test) {
 		String answer = "";
@@ -1972,27 +1974,27 @@ public class ProteinStruct {
 		return answer;
 	}
 	public void printSequence() {
-		System.out.println("BEGIN SEQUENCE OF " + filepath);
+		out.println("BEGIN SEQUENCE OF " + filepath);
 		for (int i = 0; i < chaincount; i++) {
-			System.out.println("SEQUENCE CHAIN NO " + i + " " + parsedsequence[i]);
+			out.println("SEQUENCE CHAIN NO " + i + " " + parsedsequence[i]);
 		}
-		System.out.println("END SEQUENCE OF " + filepath);
+		out.println("END SEQUENCE OF " + filepath);
 	}
 	public void printStructure() {
-		System.out.println("BEGIN STRUCTURE OF " + filepath);
+		out.println("BEGIN STRUCTURE OF " + filepath);
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
 			current.printAtom();
 		}
-		System.out.println("END STRUCTURE OF " + filepath);
+		out.println("END STRUCTURE OF " + filepath);
 	}
 	public void printSurface() {
 		for (int i = 0; i < surface.size(); i++) {
 			Atom current = (Atom)surface.get(i);
-			current.printAtomPDB();
+			current.printAtomPDB(out);
 		}
 	}
-	public void printStructurePDB() {
+	public void printStructurePDB(PrintWriter out) {
 		char currentchain = ' ';
 		Atom last = null;
 		for (int i = 0; i < structure.size(); i++) {
@@ -2025,10 +2027,10 @@ public class ProteinStruct {
 				} else if (resnum.length() == 1) {
 					toBePrinted = toBePrinted.concat("   ").concat(resnum);
 				}
-				System.out.println(toBePrinted);
+				out.println(toBePrinted);
 			}
 			currentchain = current.getChainnum();
-			current.printAtomPDB();
+			current.printAtomPDB(out);
 			last = current;
 		}
 		String toBePrinted = "TER   ";
@@ -2058,7 +2060,7 @@ public class ProteinStruct {
 		} else if (resnum.length() == 1) {
 			toBePrinted = toBePrinted.concat("   ").concat(resnum);
 		}
-		System.out.println(toBePrinted);
+		out.println(toBePrinted);
 	}
 	public Atom getAtomByNum(int atomnum) {
 		for (int i = 0; i < surface.size(); i++) {

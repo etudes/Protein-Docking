@@ -16,11 +16,12 @@ public class ProteinDockPredict{
 	ProteinStruct origps1;
 	ProteinStruct origps2;
 	TestCaseStore cases;
+	PrintWriter out;
 	int numthread;
 	Thread[] ths;
 	public ProteinDockPredict(String file1, String file2) {
-		ps1 = new ProteinStruct(file1);
-		ps2 = new ProteinStruct(file2);
+		ps1 = new ProteinStruct(file1, null);
+		ps2 = new ProteinStruct(file2, null);
 		TestCaseComparator tcc = new TestCaseComparator();
 		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
 		ps1 = ps1.trans(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent());
@@ -36,6 +37,17 @@ public class ProteinDockPredict{
 		this.ps2 = ps2.trans(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent());
 		System.out.println("TRANSLATED AND ROTATED SECOND PROTEIN");
 	}
+	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2, PrintWriter out) {
+		TestCaseComparator tcc = new TestCaseComparator();
+		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
+		this.origps1 = ps1;
+		this.origps2 = ps2;
+		this.out = out;
+		this.ps1 = ps1.trans(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent());
+		out.println("TRANSLATED AND ROTATED FIRST PROTEIN");
+		this.ps2 = ps2.trans(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent());
+		out.println("TRANSLATED AND ROTATED SECOND PROTEIN");
+	}
 	public void genTestCases() {
 		try {
 			ths = new Thread[numthread];
@@ -49,8 +61,9 @@ public class ProteinDockPredict{
 			ex.printStackTrace();
 		}
 	}
-	public static void main(String[] args) {
-		benchParse(args[0], args[1], args[2], args[3], args[4], args[5], Integer.parseInt(args[6]));
+	public static void main(String[] args) throws IOException {
+		PrintWriter out = new PrintWriter(new FileWriter(args[0].concat("result").concat(args[2].toLowerCase()).concat(".txt")));
+		benchParse(args[0], args[1], args[3].toLowerCase(), args[4], args[5].toLowerCase(), args[6], Integer.parseInt(args[7]), out);
 	}
 	public static void PDBParse() {
 		try {
@@ -72,7 +85,7 @@ public class ProteinDockPredict{
 			ex.printStackTrace();
 		}
 	}
-	public static void benchParse(String sourcepath, String pdbpath, String id1, String chain1, String id2, String chain2, int numthread) {
+	public static void benchParse(String sourcepath, String pdbpath, String id1, String chain1, String id2, String chain2, int numthread, PrintWriter out) {
 		try {
 			String filesep = System.getProperty("file.separator");
 			boolean chainreq1 = true;
@@ -142,20 +155,20 @@ public class ProteinDockPredict{
 			}
 			prot1.close();
 			prot2.close();
-			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
-			System.out.println("DONE WITH FIRST PROTEIN");
-			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
-			System.out.println("DONE WITH SECOND PROTEIN");
-			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
+			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"), out);
+			out.println("DONE WITH FIRST PROTEIN");
+			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out);
+			out.println("DONE WITH SECOND PROTEIN");
+			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
 			pdp.numthread = numthread;
-			System.out.println(pdp.numthread + " NUMTHREAD");
+			out.println(pdp.numthread + " NUMTHREAD");
 			pdp.genTestCases();
 			for (int i = 0; i < pdp.numthread; i++) {
 				pdp.ths[i].join();
 			}
 			pdp.printCases();
 			long end = System.currentTimeMillis();
-			System.out.println(end - start);
+			out.println(end - start);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -229,9 +242,9 @@ public class ProteinDockPredict{
 			}
 			prot1.close();
 			prot2.close();
-			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"));
+			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"), null);
 			System.out.println("DONE WITH FIRST PROTEIN");
-			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"));
+			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), null);
 			System.out.println("DONE WITH SECOND PROTEIN");
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
 			pdp.numthread = Integer.parseInt(br.readLine());
@@ -252,18 +265,18 @@ public class ProteinDockPredict{
 			TestCase current = (TestCase)cases.poll();
 			double score = current.getScore();
 			if (i < 9) {
-				System.out.println("MODEL        " + (i+1) + " " + score);
+				out.println("MODEL        " + (i+1) + " " + score);
 			} else {
-				System.out.println("MODEL       10 " + score);
+				out.println("MODEL       10 " + score);
 			}
-			current.printInfo();
+			current.printInfo(out);
 			ProteinStruct newps1 = origps1.transall(-origps1.getXCoordCent(), -origps1.getYCoordCent(), -origps1.getZCoordCent()).transrotnewall(0, 0, 0, current.getAlphamov(), current.getBetamov(), current.getGammamov());
-			newps1.printStructurePDB();
+			newps1.printStructurePDB(out);
 			ProteinStruct newps2 = origps2.transall(-origps2.getXCoordCent(), -origps2.getYCoordCent(), -origps2.getZCoordCent()).transrotnewall(current.getRmov(), 0, 0, current.getAlpha(), Math.PI - current.getBeta(), current.getGamma());
-			newps2.printStructurePDB();
-			System.out.println("ENDMDL");
+			newps2.printStructurePDB(out);
+			out.println("ENDMDL");
 		}
-		System.out.println("MODELS PASSED " + cases.size());
+		out.println("MODELS PASSED " + cases.size());
 	}
 	public synchronized void add(TestCase worked) {
 		cases.addCap(worked);

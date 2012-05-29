@@ -314,42 +314,6 @@ public class Atom {
 		Atom answer = new Atom(xcoordnew, ycoordnew, zcoordnew, element, resnum, atomnum, chainnum, eType, bonded, AA);
 		return answer;
 	}
-	public Atom rotateAtom(double xcent, double ycent, double zcent, double theta, double phi) {
-		setCartesian();
-		double xcoorda = xcoord - xcent;
-		double ycoorda = ycoord - ycent;
-		double zcoorda = zcoord - zcent;
-		double rcoorda = Math.sqrt(Math.pow(xcoorda, 2) + Math.pow(ycoorda, 2) + Math.pow(zcoorda, 2));
-		double thetaa = Math.atan2(ycoorda, xcoorda);
-		double phia;
-		if (rcoorda != 0.0) {
-			phia = Math.acos(zcoorda/rcoorda);
-		} else {
-			phia = 0;
-		}
-		double thetab = thetaa + theta;
-		if (thetab >= 2*Math.PI) {
-			thetab -= 2*Math.PI;
-		}
-		double phib;
-		if (xcoorda >= 0.0) {
-			phib = phia + phi;
-		} else {
-			phib = phia - phi;
-		}
-		if (phib > Math.PI) {
-			phib -= Math.PI;
-			thetab = Math.PI - thetab;
-		} else if (phib < 0) {
-			phib = -phib;
-			thetab = Math.PI - thetab;
-		}
-		double xcoordb = rcoorda * Math.cos(thetab) * Math.sin(phib) + xcent;
-		double ycoordb = rcoorda * Math.sin(thetab) * Math.sin(phib) + ycent;
-		double zcoordb = rcoorda * Math.cos(phib) + zcent;
-		Atom answer = new Atom(xcoordb, ycoordb, zcoordb, element, resnum, atomnum, chainnum, eType, bonded, AA);
-		return answer;
-	}
 	public Atom rotateAtomNew(double xcent, double ycent, double zcent, double a, double b, double c) {
 		setCartesian();
 		double xcoorda = xcoord - xcent;

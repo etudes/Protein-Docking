@@ -135,7 +135,7 @@ public class Atom {
 	public void printAtomErr() {
 		System.out.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " COORDS " + xcoord + " " + ycoord + " " + zcoord + " SPHERICAL " + spherical);
 	}
-	public void printAtomPDB() {
+	public void printAtomPDB(PrintWriter out) {
 		setCartesian();
 		xcoord = round(xcoord, Math.pow(10,-3));
 		ycoord = round(ycoord, Math.pow(10,-3));
@@ -276,7 +276,7 @@ public class Atom {
 		}
 		toBePrinted = toBePrinted.concat("                       ");
 		toBePrinted = toBePrinted.concat(atom.substring(0,1));
-		System.out.println(toBePrinted);
+		out.println(toBePrinted);
 	}
 	public void setSpherical() {
 		if (spherical == false) {
