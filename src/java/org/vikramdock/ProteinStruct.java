@@ -2061,6 +2061,7 @@ public class ProteinStruct {
 			toBePrinted = toBePrinted.concat("   ").concat(resnum);
 		}
 		out.println(toBePrinted);
+		out.flush();
 	}
 	public Atom getAtomByNum(int atomnum) {
 		for (int i = 0; i < surface.size(); i++) {
