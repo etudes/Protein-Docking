@@ -1,0 +1,35 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 3SGQ 2QA9 E 2OVO A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 7CEI 1UNK D 1M08 B 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1A2K 1QG4 A 1OUN AB 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1AK4 2CPL ALL 1E6J P 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1AKJ 2CLR DE 1CD8 AB 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1AZS 1AB8 AB 1AZT A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1B6C 1D6O A 1IAS A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1BUH 1HCL ALL 1DKS A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1E96 1MH1 ALL 1HH8 A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1EFN 1AVV A 1G83 A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1F51 1IXM AB 1SRR C 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1FC2 1BDD ALL 1FC1 AB 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1FCC 1FC1 AB 2IGG A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1FFW 3CHY A 1FWP A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1FQJ 1TND C 1FQI A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1GCQ 1GRI B 1GCP B 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1GHQ 1C3D ALL 1LY2 A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1GLA 1BU6 O 1F3Z A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1GPW 1THF D 1K9V F 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1H9D 1EAN A 1ILF A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1HCF 1B98 AM 1WWB X 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1HE1 1MH1 ALL 1HE9 A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1I4D 1MH1 ALL 1I49 AB 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1J2J 1O3Y A 1OXZ A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1JWH 3EED AB 3C13 A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1K74 1MZN AB 1ZGY AB 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1KAC 1NOB F 1F5W B 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1KLU 1H15 AB 1STE ALL 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1KTZ 1TGK ALL 1M9Z A 4
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1KXP 1IJJ B 1KW2 B 4
