@@ -147,6 +147,7 @@ public class ProteinStruct {
 			out.println("SURFACE TIME TOTAL " + (afterS - beforeS));
 			out.println("SURFACE SIZE " + surface.size());
 			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
+			solvpotentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][17];
 			detBondsBackbone();
 			long beforeP = System.currentTimeMillis();
 			detPotentials();
@@ -156,7 +157,7 @@ public class ProteinStruct {
 			ex.printStackTrace();
 		}
 	}
-	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double[][][] newsizes, double[][][][] potentials, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
+	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double[][][] newsizes, double[][][][] potentials, double[][][][] solvpotentials, double solvEModel, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
 		this.parsedsequence = parsedsequence;
 		this.structurea = surface;
 		this.structure = new ImmutableArrayList(this.structurea);
@@ -169,6 +170,8 @@ public class ProteinStruct {
 		this.surfacebackbonebonds = backbonebonds;
 		this.newsizes = newsizes;
 		this.potentials = potentials;
+		this.solvpotentials = solvpotentials;
+		this.solvEModel = solvEModel;
 		rotated = true;
 		translator1 = new HashMap();
 		translator2 = new HashMap();
@@ -400,6 +403,8 @@ public class ProteinStruct {
 		this.size = clone.getSize();
 		this.newsizes = clone.getNewSizes();
 		this.potentials = clone.getPotentials();
+		this.solvpotentials = clone.getSolvPotentials();
+		this.solvEModel = clone.getSolvEModel();
 	}
 	public void parseSequence(String filepath) throws Exception {
 		try {
@@ -1961,7 +1966,7 @@ public class ProteinStruct {
 	public void detSolvEModel() {
 		for (int i = 0; i < surface.size(); i++) {
 			Atom current = (Atom)surface.get(i);
-			char cel = current.getEtype().charAt(0);
+			char cel = current.getElement();
 			int ctype = current.getAtomType();
 			if (cel == 'H') {
 				continue;
@@ -2025,7 +2030,8 @@ public class ProteinStruct {
 			double cx = current.getXcoord();
 			double cy = current.getYcoord();
 			double cz = current.getZcoord();
-			char cel = current.getElement(); 
+			char cel = current.getElement();
+			int ctype = current.getAtomType();
 			long start = System.currentTimeMillis();
 			for (double j = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(xcoordcent, Constants.GRIDGRAINSIZE); j < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(xcoordcent, Constants.GRIDGRAINSIZE); j += Constants.GRIDGRAINSIZE) {
 				for (double k = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(ycoordcent, Constants.GRIDGRAINSIZE); k < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(ycoordcent, Constants.GRIDGRAINSIZE); k += Constants.GRIDGRAINSIZE) {
@@ -2073,7 +2079,62 @@ public class ProteinStruct {
 							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][2] += EO;
 							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][3] += ES;
 							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][4] += EH;
-							
+							if (cel == 'H') {
+								continue;
+							}
+							double eDens = 0;
+							if (cel == 'C' && ctype == 0) {
+								eDens = 2.*Constants.Solv_Gfree_C/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'C' && ctype == 1) {
+								eDens = 2.*Constants.Solv_Gfree_CR/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'C' && ctype == 2) {
+								eDens = 2.*Constants.Solv_Gfree_CH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'C' && ctype == 3) {
+								eDens = 2.*Constants.Solv_Gfree_CH2E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'C' && ctype == 4) {
+								eDens = 2.*Constants.Solv_Gfree_CH3E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'C' && ctype == 5) {
+								eDens = 2.*Constants.Solv_Gfree_CR1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'N' && ctype == 0) {
+								eDens = 2.*Constants.Solv_Gfree_NH1/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'N' && ctype == 1) {
+								eDens = 2.*Constants.Solv_Gfree_NR/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'N' && ctype == 2) {
+								eDens = 2.*Constants.Solv_Gfree_NH2/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'N' && ctype == 3) {
+								eDens = 2.*Constants.Solv_Gfree_NH3/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'N' && ctype == 4) {
+								eDens = 2.*Constants.Solv_Gfree_NC2/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'N' && ctype == 5) {
+								eDens = 2.*Constants.Solv_Gfree_N/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'O' && ctype == 0) {
+								eDens = 2.*Constants.Solv_Gfree_OH1/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_O)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'O' && ctype == 1) {
+								eDens = 2.*Constants.Solv_Gfree_O/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_O)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'O' && ctype == 2) {
+								eDens = 2.*Constants.Solv_Gfree_OC/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_O)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'S' && ctype == 0) {
+								eDens = 2.*Constants.Solv_Gfree_S/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_S)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							} else if (cel == 'S' && ctype == 1) {
+								eDens = 2.*Constants.Solv_Gfree_SH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_S)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+							}
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][0] += eDens*Constants.Solv_V_C;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][1] += eDens*Constants.Solv_V_CR;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][2] += eDens*Constants.Solv_V_CH1E;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][3] += eDens*Constants.Solv_V_CH2E;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][4] += eDens*Constants.Solv_V_CH3E;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][5] += eDens*Constants.Solv_V_CR1E;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][6] += eDens*Constants.Solv_V_NH1;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][7] += eDens*Constants.Solv_V_NR;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][8] += eDens*Constants.Solv_V_NH2;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][9] += eDens*Constants.Solv_V_NH3;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][10] += eDens*Constants.Solv_V_NC2;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][11] += eDens*Constants.Solv_V_N;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][12] += eDens*Constants.Solv_V_OH1;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][13] += eDens*Constants.Solv_V_O;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][14] += eDens*Constants.Solv_V_OC;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][15] += eDens*Constants.Solv_V_S;
+							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][16] += eDens*Constants.Solv_V_SH1E;
 						}
 					}
 				}
@@ -2154,6 +2215,9 @@ public class ProteinStruct {
 	public double[][][][] getPotentials() {
 		return potentials;
 	}
+	public double[][][][] getSolvPotentials() {
+		return solvpotentials;
+	}
 	public double getSolvEModel() {
 		return solvEModel;
 	}
@@ -2173,7 +2237,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	} 
 	public ProteinStruct transall(double xmov, double ymov, double zmov) {
@@ -2189,7 +2253,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, newsizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotnew(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) {
@@ -2205,7 +2269,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotnewall(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) {
@@ -2221,7 +2285,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public void printSequence() {

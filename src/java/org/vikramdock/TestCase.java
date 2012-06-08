@@ -65,13 +65,17 @@ public class TestCase {
 		double aBendEtot = 0;
 		double torsEtot = 0;
 		double[][][][] potentials = ps1.getPotentials();
+		double[][][][] solvpotentials1 = ps1.getSolvPotentials();
+		double[][][][] solvpotentials2 = ps2.getSolvPotentials();
 		for (int i = 0; i < ps2struct.size(); i++) {
 			Atom current = (Atom)ps2struct.get(i);
 			char cel = current.getElement();
+			int ctype = current.getAtomType();
 			double cx = current.getXcoord();
 			double cy = current.getYcoord();
 			double cz = current.getZcoord();
 			double vanDerWaalsE = 0;
+			double solvE = 0;
 			double ps1size = ps1.getSize();
 			double[] rotatedcoords = deRotate(cx, cy, cz, alphamov, betamov, gammamov); 
 			if (Math.abs(rotatedcoords[0]) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[1]) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[2]) < ps1size + Constants.VDWDISTTHRESHOLD) {
@@ -80,20 +84,125 @@ public class TestCase {
 				int tz = (int)((round(rotatedcoords[2], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				if (cel == 'C') {
 					vanDerWaalsE = potentials[tx][ty][tz][0];
+					if (ctype == 0) {
+						solvE = solvpotentials1[tx][ty][tz][0];
+					} else if (ctype == 1) {
+						solvE = solvpotentials1[tx][ty][tz][1];
+					} else if (ctype == 2) {
+						solvE = solvpotentials1[tx][ty][tz][2];
+					} else if (ctype == 3) {
+						solvE = solvpotentials1[tx][ty][tz][3];
+					} else if (ctype == 4) {
+						solvE = solvpotentials1[tx][ty][tz][4];
+					} else if (ctype == 5) {
+						solvE = solvpotentials1[tx][ty][tz][5];
+					}
 				} else if (cel == 'N') {
 					vanDerWaalsE = potentials[tx][ty][tz][1];
+					if (ctype == 0) {
+						solvE = solvpotentials1[tx][ty][tz][6];
+					} else if (ctype == 1) {
+						solvE = solvpotentials1[tx][ty][tz][7];
+					} else if (ctype == 2) {
+						solvE = solvpotentials1[tx][ty][tz][8];
+					} else if (ctype == 3) {
+						solvE = solvpotentials1[tx][ty][tz][9];
+					} else if (ctype == 4) {
+						solvE = solvpotentials1[tx][ty][tz][10];
+					} else if (ctype == 5) {
+						solvE = solvpotentials1[tx][ty][tz][11];
+					}
 				} else if (cel == 'O') {
 					vanDerWaalsE = potentials[tx][ty][tz][2];
+					if (ctype == 0) {
+						solvE = solvpotentials1[tx][ty][tz][12];
+					} else if (ctype == 1) {
+						solvE = solvpotentials1[tx][ty][tz][13];
+					} else if (ctype == 2) {
+						solvE = solvpotentials1[tx][ty][tz][14];
+					}
 				} else if (cel == 'S') {
 					vanDerWaalsE = potentials[tx][ty][tz][3];
+					if (ctype == 0) {
+						solvE = solvpotentials1[tx][ty][tz][15];
+					} else if (ctype == 1) {
+						solvE = solvpotentials1[tx][ty][tz][16];
+					}
 				} else if (cel == 'H') {
 					vanDerWaalsE = potentials[tx][ty][tz][4];
 				}
 			}
-			if (vanDerWaalsE > Constants.ETHRESHOLD) {
+			if (vanDerWaalsE > Constants.ETHRESHOLD || solvE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
 			vanDerWaalsEtot += vanDerWaalsE;
+			solvEtot += solvE;
+		}
+		for (int i = 0; i < ps1struct.size(); i++) {
+			Atom current = (Atom)ps1struct.get(i);
+			char cel = current.getElement();
+			int ctype = current.getAtomType();
+			double cx = current.getXcoord();
+			double cy = current.getYcoord();
+			double cz = current.getZcoord();
+			double solvE = 0;
+			double ps2size = ps2.getSize();
+			double[] rotatedcoords = deRotate(cx, cy, cz, alphamov, betamov, gammamov); 
+			if (Math.abs(rotatedcoords[0]) < ps2size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[1]) < ps2size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[2]) < ps2size + Constants.VDWDISTTHRESHOLD) {
+				int tx = (int)((round(rotatedcoords[0], Constants.GRIDGRAINSIZE) + round(ps2size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
+				int ty = (int)((round(rotatedcoords[1], Constants.GRIDGRAINSIZE) + round(ps2size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
+				int tz = (int)((round(rotatedcoords[2], Constants.GRIDGRAINSIZE) + round(ps2size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
+				if (cel == 'H') {
+					continue;
+				}
+				if (cel == 'C') {
+					if (ctype == 0) {
+						solvE = solvpotentials2[tx][ty][tz][0];
+					} else if (ctype == 1) {
+						solvE = solvpotentials2[tx][ty][tz][1];
+					} else if (ctype == 2) {
+						solvE = solvpotentials2[tx][ty][tz][2];
+					} else if (ctype == 3) {
+						solvE = solvpotentials2[tx][ty][tz][3];
+					} else if (ctype == 4) {
+						solvE = solvpotentials2[tx][ty][tz][4];
+					} else if (ctype == 5) {
+						solvE = solvpotentials2[tx][ty][tz][5];
+					}
+				} else if (cel == 'N') {
+					if (ctype == 0) {
+						solvE = solvpotentials2[tx][ty][tz][6];
+					} else if (ctype == 1) {
+						solvE = solvpotentials2[tx][ty][tz][7];
+					} else if (ctype == 2) {
+						solvE = solvpotentials2[tx][ty][tz][8];
+					} else if (ctype == 3) {
+						solvE = solvpotentials2[tx][ty][tz][9];
+					} else if (ctype == 4) {
+						solvE = solvpotentials2[tx][ty][tz][10];
+					} else if (ctype == 5) {
+						solvE = solvpotentials2[tx][ty][tz][11];
+					}
+				} else if (cel == 'O') {
+					if (ctype == 0) {
+						solvE = solvpotentials2[tx][ty][tz][12];
+					} else if (ctype == 1) {
+						solvE = solvpotentials2[tx][ty][tz][13];
+					} else if (ctype == 2) {
+						solvE = solvpotentials2[tx][ty][tz][14];
+					}
+				} else if (cel == 'S') {
+					if (ctype == 0) {
+						solvE = solvpotentials2[tx][ty][tz][15];
+					} else if (ctype == 1) {
+						solvE = solvpotentials2[tx][ty][tz][16];
+					}
+				} 
+			}
+			if (solvE > Constants.ETHRESHOLD) {
+				return Double.POSITIVE_INFINITY;
+			}
+			solvEtot += solvE;
 		}
 		//bond stretching
 		ArrayList ps1bonds = newps1.getSurfaceBonds();

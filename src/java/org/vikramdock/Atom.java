@@ -335,7 +335,7 @@ public class Atom {
 		double ycoordnew = ymov + ycoord;
 		double zcoordnew = zmov + zcoord;
 		Atom answer = new Atom(xcoordnew, ycoordnew, zcoordnew, element, resnum, atomnum, chainnum, eType, bonded, AA, atomtype);
-		if (atomtype == -1) {
+		if (atomtype == -1 && element != 'H') {
 			System.err.println("TRANSLATING AN UNKNOWN ATOM TYPE");
 		}
 		return answer;
@@ -355,7 +355,7 @@ public class Atom {
 		double ycoordc = ycoordb + ycent;
 		double zcoordc = zcoordb + zcent;
 		Atom answer = new Atom(xcoordc, ycoordc, zcoordc, element, resnum, atomnum, chainnum, eType, bonded, AA, atomtype);
-		if (atomtype == -1) {
+		if (atomtype == -1 && element != 'H') {
 			System.err.println("TRANSLATING AN UNKNOWN ATOM TYPE");
 		}
 		long end = System.currentTimeMillis();

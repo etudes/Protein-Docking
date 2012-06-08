@@ -37,6 +37,8 @@ public class ProteinStruct {
 	private double size = 0;
 	private double[][][] newsizes = new double[(int)(2*Math.PI/Constants.ALPHAINC)][(int)(2*Math.PI/Constants.BETAINC)][(int)(2*Math.PI/Constants.GAMMAINC)];
 	private double[][][][] potentials;
+	private double[][][][] solvpotentials;
+	private double solvEModel;
 	public ProteinStruct(String filepath, PrintWriter out) {
 		try {
 			chaintranslator = new HashMap();
@@ -612,10 +614,15 @@ public class ProteinStruct {
 			AminoAcid.remove(CAatom);
 			AminoAcid.remove(Natom);
 			AminoAcid.remove(Oatom);
+			Catom.setAtomType(0);
+			CAatom.setAtomType(1);
+			Natom.setAtomType(2);
+			Oatom.setAtomType(1);
 			if (restype == 'A') {
 				Atom CBatom = AminoAcid.get(0);
 				Bond newb4 = new Bond(CBatom, CAatom, Constants.BONDCONST); 
 				bonds.add(newb4);
+				CBatom.setAtomType(4);
 			} else if (restype == 'C') {
 				Atom CBatom = null;
 				Atom SGatom = null;
@@ -623,7 +630,7 @@ public class ProteinStruct {
 					Atom current = (Atom)AminoAcid.get(i);
 					if (current.getEtype() == "CB") {
 						CBatom = current;
-					} else {
+					} else if (current.getEtype() == "SG") {
 						SGatom = current;
 					}
 				}
@@ -631,6 +638,8 @@ public class ProteinStruct {
 				Bond newb5 = new Bond(CBatom, SGatom, Constants.BONDCONST);
 				bonds.add(newb4);
 				bonds.add(newb5);
+				CBatom.setAtomType(3);
+				SGatom.setAtomType(1);
 			} else if (restype == 'D') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -644,7 +653,7 @@ public class ProteinStruct {
 						CGatom = current;
 					} else if (current.getEtype() == "OD1") {
 						OD1atom = current;
-					} else {
+					} else if (current.getEtype() == "OD2") {
 						OD2atom = current;
 					}
 				}
@@ -656,6 +665,10 @@ public class ProteinStruct {
 				bonds.add(newb5);
 				bonds.add(newb6);
 				bonds.add(newb7);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(0);
+				OD1atom.setAtomType(1);
+				OD2atom.setAtomType(0);
 			} else if (restype == 'E') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -672,7 +685,7 @@ public class ProteinStruct {
 						CDatom = current;
 					} else if (current.getEtype() == "OE1") {
 						OE1atom = current;
-					} else {
+					} else if (current.getEtype() == "OE2") {
 						OE2atom = current;
 					}
 				}
@@ -686,6 +699,11 @@ public class ProteinStruct {
 				bonds.add(newb6);
 				bonds.add(newb7);
 				bonds.add(newb8);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(3);
+				CDatom.setAtomType(0);
+				OE1atom.setAtomType(1);
+				OE2atom.setAtomType(0);
 			} else if (restype == 'F') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -708,7 +726,7 @@ public class ProteinStruct {
 						CE1atom = current;
 					} else if (current.getEtype() == "CE2") {
 						CE2atom = current;
-					} else {
+					} else if (current.getEtype() == "CZ") {
 						CZatom = current;
 					}
 				}
@@ -727,7 +745,14 @@ public class ProteinStruct {
 				bonds.add(newb8);
 				bonds.add(newb9);
 				bonds.add(newb10);
-				bonds.add(newb11);	
+				bonds.add(newb11);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(1);
+				CD1atom.setAtomType(5);
+				CD2atom.setAtomType(5);
+				CZatom.setAtomType(5);
+				CE1atom.setAtomType(5);
+				CE2atom.setAtomType(5);
 			} else if (restype == 'G') {
 				//This is intentionally left blank.
 			} else if (restype == 'H') {
@@ -749,7 +774,7 @@ public class ProteinStruct {
 						CD2atom = current;
 					} else if (current.getEtype() == "CE1") {
 						CE1atom = current;
-					} else {
+					} else if (current.getEtype() == "NE2") {
 						NE2atom = current;
 					}
 				}
@@ -757,14 +782,20 @@ public class ProteinStruct {
 				Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
 				Bond newb6 = new Bond(CGatom, ND1atom, Constants.BONDCONST);
 				Bond newb7 = new Bond(ND1atom, CD2atom, Constants.BONDCONST);
-				Bond newb10 = new Bond(CE1atom, NE2atom, Constants.BONDCONST);
-				Bond newb11 = new Bond(NE2atom, CGatom, Constants.BONDCONST);
+				Bond newb8 = new Bond(CE1atom, NE2atom, Constants.BONDCONST);
+				Bond newb9 = new Bond(NE2atom, CGatom, Constants.BONDCONST);
 				bonds.add(newb4);
 				bonds.add(newb5);
 				bonds.add(newb6);
 				bonds.add(newb7);
-				bonds.add(newb10);
-				bonds.add(newb11);	
+				bonds.add(newb8);
+				bonds.add(newb9);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(2);
+				ND1atom.setAtomType(0);
+				CD2atom.setAtomType(4);
+				CE1atom.setAtomType(4);
+				NE2atom.setAtomType(0);
 			} else if (restype == 'I') {
 				Atom CBatom = null;
 				Atom CG1atom = null;
@@ -778,7 +809,7 @@ public class ProteinStruct {
 						CG1atom = current;
 					} else if (current.getEtype() == "CG2") {
 						CG2atom = current;
-					} else {
+					} else if (current.getEtype() == "CD1") {
 						CD1atom = current;
 					}
 				}
@@ -790,6 +821,10 @@ public class ProteinStruct {
 				bonds.add(newb5);
 				bonds.add(newb6);
 				bonds.add(newb7);
+				CBatom.setAtomType(3);
+				CG1atom.setAtomType(3);
+				CG2atom.setAtomType(4);
+				CD1atom.setAtomType(4);
 			} else if (restype == 'K') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -806,7 +841,7 @@ public class ProteinStruct {
 						CDatom = current;
 					} else if (current.getEtype() == "CE") {
 						CEatom = current;
-					} else {
+					} else if (current.getEtype() == "NZ") {
 						NZatom = current;
 					}
 				}
@@ -820,6 +855,11 @@ public class ProteinStruct {
 				bonds.add(newb6);
 				bonds.add(newb7);
 				bonds.add(newb8);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(3);
+				CDatom.setAtomType(3);
+				CEatom.setAtomType(3);
+				NZatom.setAtomType(2);
 			} else if (restype == 'L') {
 				Atom CBatom = null;
 				Atom CG1atom = null;
@@ -833,7 +873,7 @@ public class ProteinStruct {
 						CG1atom = current;
 					} else if (current.getEtype() == "CD2") {
 						CD2atom = current;
-					} else {
+					} else if (current.getEtype() == "CD1") {
 						CD1atom = current;
 					}
 				}
@@ -845,6 +885,10 @@ public class ProteinStruct {
 				bonds.add(newb5);
 				bonds.add(newb6);
 				bonds.add(newb7);
+				CBatom.setAtomType(3);
+				CG1atom.setAtomType(2);
+				CD2atom.setAtomType(4);
+				CD1atom.setAtomType(4);
 			} else if (restype == 'M') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -858,7 +902,7 @@ public class ProteinStruct {
 						CGatom = current;
 					} else if (current.getEtype() == "SD") {
 						SDatom = current;
-					} else {
+					} else if (current.getEtype() == "CE") {
 						CEatom = current;
 					}
 				}
@@ -870,6 +914,10 @@ public class ProteinStruct {
 				bonds.add(newb5);
 				bonds.add(newb6);
 				bonds.add(newb7);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(3);
+				SDatom.setAtomType(0);
+				CEatom.setAtomType(4);
 			} else if (restype == 'N') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -883,7 +931,7 @@ public class ProteinStruct {
 						CGatom = current;
 					} else if (current.getEtype() == "OD1") {
 						OD1atom = current;
-					} else {
+					} else if (current.getEtype() == "ND2") {
 						ND2atom = current;
 					}
 				}
@@ -895,6 +943,10 @@ public class ProteinStruct {
 				bonds.add(newb5);
 				bonds.add(newb6);
 				bonds.add(newb7);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(0);
+				OD1atom.setAtomType(1);
+				ND2atom.setAtomType(2);
 			} else if (restype == 'P') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -905,7 +957,7 @@ public class ProteinStruct {
 						CBatom = current;
 					} else if (current.getEtype() == "CG") {
 						CGatom = current;
-					} else {
+					} else if (current.getEtype() == "CD") {
 						CDatom = current;
 					} 
 				}
@@ -917,6 +969,10 @@ public class ProteinStruct {
 				bonds.add(newb5);
 				bonds.add(newb6);
 				bonds.add(newb7);
+				Natom.setAtomType(5);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(3);
+				CDatom.setAtomType(3);
 			} else if (restype == 'Q') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -933,7 +989,7 @@ public class ProteinStruct {
 						CDatom = current;
 					} else if (current.getEtype() == "OE1") {
 						OE1atom = current;
-					} else {
+					} else if (current.getEtype() == "NE2") {
 						NE2atom = current;
 					}
 				}
@@ -947,6 +1003,11 @@ public class ProteinStruct {
 				bonds.add(newb6);
 				bonds.add(newb7);
 				bonds.add(newb8);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(3);
+				CDatom.setAtomType(0);
+				OE1atom.setAtomType(1);
+				NE2atom.setAtomType(2);
 			} else if (restype == 'R') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -969,7 +1030,7 @@ public class ProteinStruct {
 						CZatom = current;
 					} else if (current.getEtype() == "NH1") {
 						NH1atom = current;
-					} else {
+					} else if (current.getEtype() == "NH2") {
 						NH2atom = current;
 					}
 				}
@@ -987,6 +1048,13 @@ public class ProteinStruct {
 				bonds.add(newb8);
 				bonds.add(newb9);
 				bonds.add(newb10);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(3);
+				CDatom.setAtomType(3);
+				NEatom.setAtomType(0);
+				CZatom.setAtomType(2);
+				NH1atom.setAtomType(2);
+				NH2atom.setAtomType(4);
 			} else if (restype == 'S') {
 				Atom CBatom = null;
 				Atom OGatom = null;
@@ -994,7 +1062,7 @@ public class ProteinStruct {
 					Atom current = (Atom)AminoAcid.get(i);
 					if (current.getEtype() == "CB") {
 						CBatom = current;
-					} else {
+					} else if (current.getEtype() == "OG") {
 						OGatom = current;
 					}
 				}
@@ -1002,26 +1070,31 @@ public class ProteinStruct {
 				Bond newb5 = new Bond(CBatom, OGatom, Constants.BONDCONST);
 				bonds.add(newb4);
 				bonds.add(newb5);
+				CBatom.setAtomType(3);
+				OGatom.setAtomType(0);
 			} else if (restype == 'T') {
 				Atom CBatom = null;
-				Atom CG1atom = null;
-				Atom OG2atom = null;
+				Atom CG2atom = null;
+				Atom OG1atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
 					if (current.getEtype() == "CB") {
 						CBatom = current;
-					} else if (current.getEtype() == "CG1") {
-						CG1atom = current;
-					} else {
-						OG2atom = current;
+					} else if (current.getEtype() == "CG2") {
+						CG2atom = current;
+					} else if (current.getEtype() == "OG1") {
+						OG1atom = current;
 					}
 				}
 				Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-				Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
-				Bond newb6 = new Bond(CBatom, OG2atom, Constants.BONDCONST);
+				Bond newb5 = new Bond(CBatom, CG2atom, Constants.BONDCONST);
+				Bond newb6 = new Bond(CBatom, OG1atom, Constants.BONDCONST);
 				bonds.add(newb4);
 				bonds.add(newb5);
 				bonds.add(newb6);
+				CBatom.setAtomType(2);
+				CG2atom.setAtomType(4);
+				OG1atom.setAtomType(0);
 			} else if (restype == 'V') {
 				Atom CBatom = null;
 				Atom CG1atom = null;
@@ -1032,7 +1105,7 @@ public class ProteinStruct {
 						CBatom = current;
 					} else if (current.getEtype() == "CG1") {
 						CG1atom = current;
-					} else {
+					} else if (current.getEtype() == "CG2") {
 						CG2atom = current;
 					}
 				}
@@ -1042,6 +1115,9 @@ public class ProteinStruct {
 				bonds.add(newb4);
 				bonds.add(newb5);
 				bonds.add(newb6);
+				CBatom.setAtomType(2);
+				CG1atom.setAtomType(4);
+				CG2atom.setAtomType(4);
 			} else if (restype == 'W') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -1071,7 +1147,7 @@ public class ProteinStruct {
 						CZ2atom = current;
 					} else if (current.getEtype() == "CZ3") {
 						CZ3atom = current;
-					} else {
+					} else if (current.getEtype() == "CH2") {
 						CH2atom = current;
 					}
 				}
@@ -1097,6 +1173,16 @@ public class ProteinStruct {
 				bonds.add(newb12);
 				bonds.add(newb13);
 				bonds.add(newb14);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(1);
+				CD1atom.setAtomType(5);
+				CD2atom.setAtomType(1);
+				NE1atom.setAtomType(0);
+				CE2atom.setAtomType(1);
+				CE3atom.setAtomType(5);
+				CZ2atom.setAtomType(5);
+				CZ3atom.setAtomType(5);
+				CH2atom.setAtomType(5);
 			} else if (restype == 'Y') {
 				Atom CBatom = null;
 				Atom CGatom = null;
@@ -1122,7 +1208,7 @@ public class ProteinStruct {
 						CE2atom = current;
 					} else if (current.getEtype() == "CZ") {
 						CZatom = current;
-					} else {
+					} else if (current.getEtype() == "OH") {
 						OHatom = current;
 					}
 				}
@@ -1144,6 +1230,14 @@ public class ProteinStruct {
 				bonds.add(newb10);
 				bonds.add(newb11);	
 				bonds.add(newb12);
+				CBatom.setAtomType(3);
+				CGatom.setAtomType(1);
+				CD1atom.setAtomType(5);
+				CD2atom.setAtomType(5);
+				CE1atom.setAtomType(5);
+				CE2atom.setAtomType(5);
+				CZatom.setAtomType(1);
+				OHatom.setAtomType(0);
 			} else {
 				System.err.println("UNKNOWN RES TYPE " + restype);
 			}
@@ -1201,10 +1295,15 @@ public class ProteinStruct {
 				AminoAcid.remove(CAatom);
 				AminoAcid.remove(Natom);
 				AminoAcid.remove(Oatom);
+				Catom.setAtomType(0);
+				CAatom.setAtomType(1);
+				Natom.setAtomType(2);
+				Oatom.setAtomType(1);
 				if (restype == 'A') {
 					Atom CBatom = AminoAcid.get(0);
 					Bond newb4 = new Bond(CBatom, CAatom, Constants.BONDCONST); 
 					bonds.add(newb4);
+					CBatom.setAtomType(4);
 				} else if (restype == 'C') {
 					Atom CBatom = null;
 					Atom SGatom = null;
@@ -1212,7 +1311,7 @@ public class ProteinStruct {
 						Atom current = (Atom)AminoAcid.get(i);
 						if (current.getEtype() == "CB") {
 							CBatom = current;
-						} else {
+						} else if (current.getEtype() == "SG") {
 							SGatom = current;
 						}
 					}
@@ -1220,6 +1319,8 @@ public class ProteinStruct {
 					Bond newb5 = new Bond(CBatom, SGatom, Constants.BONDCONST);
 					bonds.add(newb4);
 					bonds.add(newb5);
+					CBatom.setAtomType(3);
+					SGatom.setAtomType(1);
 				} else if (restype == 'D') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1233,7 +1334,7 @@ public class ProteinStruct {
 							CGatom = current;
 						} else if (current.getEtype() == "OD1") {
 							OD1atom = current;
-						} else {
+						} else if (current.getEtype() == "OD2") {
 							OD2atom = current;
 						}
 					}
@@ -1245,6 +1346,10 @@ public class ProteinStruct {
 					bonds.add(newb5);
 					bonds.add(newb6);
 					bonds.add(newb7);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(0);
+					OD1atom.setAtomType(1);
+					OD2atom.setAtomType(0);
 				} else if (restype == 'E') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1261,7 +1366,7 @@ public class ProteinStruct {
 							CDatom = current;
 						} else if (current.getEtype() == "OE1") {
 							OE1atom = current;
-						} else {
+						} else if (current.getEtype() == "OE2") {
 							OE2atom = current;
 						}
 					}
@@ -1275,6 +1380,11 @@ public class ProteinStruct {
 					bonds.add(newb6);
 					bonds.add(newb7);
 					bonds.add(newb8);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(3);
+					CDatom.setAtomType(0);
+					OE1atom.setAtomType(1);
+					OE2atom.setAtomType(0);
 				} else if (restype == 'F') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1297,7 +1407,7 @@ public class ProteinStruct {
 							CE1atom = current;
 						} else if (current.getEtype() == "CE2") {
 							CE2atom = current;
-						} else {
+						} else if (current.getEtype() == "CZ") {
 							CZatom = current;
 						}
 					}
@@ -1316,7 +1426,14 @@ public class ProteinStruct {
 					bonds.add(newb8);
 					bonds.add(newb9);
 					bonds.add(newb10);
-					bonds.add(newb11);	
+					bonds.add(newb11);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(1);
+					CD1atom.setAtomType(5);
+					CD2atom.setAtomType(5);
+					CZatom.setAtomType(5);
+					CE1atom.setAtomType(5);
+					CE2atom.setAtomType(5);
 				} else if (restype == 'G') {
 					//This is intentionally left blank.
 				} else if (restype == 'H') {
@@ -1338,7 +1455,7 @@ public class ProteinStruct {
 							CD2atom = current;
 						} else if (current.getEtype() == "CE1") {
 							CE1atom = current;
-						} else {
+						} else if (current.getEtype() == "NE2") {
 							NE2atom = current;
 						}
 					}
@@ -1346,14 +1463,20 @@ public class ProteinStruct {
 					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
 					Bond newb6 = new Bond(CGatom, ND1atom, Constants.BONDCONST);
 					Bond newb7 = new Bond(ND1atom, CD2atom, Constants.BONDCONST);
-					Bond newb10 = new Bond(CE1atom, NE2atom, Constants.BONDCONST);
-					Bond newb11 = new Bond(NE2atom, CGatom, Constants.BONDCONST);
+					Bond newb8 = new Bond(CE1atom, NE2atom, Constants.BONDCONST);
+					Bond newb9 = new Bond(NE2atom, CGatom, Constants.BONDCONST);
 					bonds.add(newb4);
 					bonds.add(newb5);
 					bonds.add(newb6);
 					bonds.add(newb7);
-					bonds.add(newb10);
-					bonds.add(newb11);	
+					bonds.add(newb8);
+					bonds.add(newb9);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(2);
+					ND1atom.setAtomType(0);
+					CD2atom.setAtomType(4);
+					CE1atom.setAtomType(4);
+					NE2atom.setAtomType(0);
 				} else if (restype == 'I') {
 					Atom CBatom = null;
 					Atom CG1atom = null;
@@ -1367,7 +1490,7 @@ public class ProteinStruct {
 							CG1atom = current;
 						} else if (current.getEtype() == "CG2") {
 							CG2atom = current;
-						} else {
+						} else if (current.getEtype() == "CD1") {
 							CD1atom = current;
 						}
 					}
@@ -1379,6 +1502,10 @@ public class ProteinStruct {
 					bonds.add(newb5);
 					bonds.add(newb6);
 					bonds.add(newb7);
+					CBatom.setAtomType(3);
+					CG1atom.setAtomType(3);
+					CG2atom.setAtomType(4);
+					CD1atom.setAtomType(4);
 				} else if (restype == 'K') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1395,7 +1522,7 @@ public class ProteinStruct {
 							CDatom = current;
 						} else if (current.getEtype() == "CE") {
 							CEatom = current;
-						} else {
+						} else if (current.getEtype() == "NZ") {
 							NZatom = current;
 						}
 					}
@@ -1409,6 +1536,11 @@ public class ProteinStruct {
 					bonds.add(newb6);
 					bonds.add(newb7);
 					bonds.add(newb8);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(3);
+					CDatom.setAtomType(3);
+					CEatom.setAtomType(3);
+					NZatom.setAtomType(2);
 				} else if (restype == 'L') {
 					Atom CBatom = null;
 					Atom CG1atom = null;
@@ -1422,7 +1554,7 @@ public class ProteinStruct {
 							CG1atom = current;
 						} else if (current.getEtype() == "CD2") {
 							CD2atom = current;
-						} else {
+						} else if (current.getEtype() == "CD1") {
 							CD1atom = current;
 						}
 					}
@@ -1434,6 +1566,10 @@ public class ProteinStruct {
 					bonds.add(newb5);
 					bonds.add(newb6);
 					bonds.add(newb7);
+					CBatom.setAtomType(3);
+					CG1atom.setAtomType(2);
+					CD2atom.setAtomType(4);
+					CD1atom.setAtomType(4);
 				} else if (restype == 'M') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1447,7 +1583,7 @@ public class ProteinStruct {
 							CGatom = current;
 						} else if (current.getEtype() == "SD") {
 							SDatom = current;
-						} else {
+						} else if (current.getEtype() == "CE") {
 							CEatom = current;
 						}
 					}
@@ -1459,6 +1595,10 @@ public class ProteinStruct {
 					bonds.add(newb5);
 					bonds.add(newb6);
 					bonds.add(newb7);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(3);
+					SDatom.setAtomType(0);
+					CEatom.setAtomType(4);
 				} else if (restype == 'N') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1472,7 +1612,7 @@ public class ProteinStruct {
 							CGatom = current;
 						} else if (current.getEtype() == "OD1") {
 							OD1atom = current;
-						} else {
+						} else if (current.getEtype() == "ND2") {
 							ND2atom = current;
 						}
 					}
@@ -1484,6 +1624,10 @@ public class ProteinStruct {
 					bonds.add(newb5);
 					bonds.add(newb6);
 					bonds.add(newb7);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(0);
+					OD1atom.setAtomType(1);
+					ND2atom.setAtomType(2);
 				} else if (restype == 'P') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1494,7 +1638,7 @@ public class ProteinStruct {
 							CBatom = current;
 						} else if (current.getEtype() == "CG") {
 							CGatom = current;
-						} else {
+						} else if (current.getEtype() == "CD") {
 							CDatom = current;
 						} 
 					}
@@ -1506,6 +1650,10 @@ public class ProteinStruct {
 					bonds.add(newb5);
 					bonds.add(newb6);
 					bonds.add(newb7);
+					Natom.setAtomType(5);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(3);
+					CDatom.setAtomType(3);
 				} else if (restype == 'Q') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1522,7 +1670,7 @@ public class ProteinStruct {
 							CDatom = current;
 						} else if (current.getEtype() == "OE1") {
 							OE1atom = current;
-						} else {
+						} else if (current.getEtype() == "NE2") {
 							NE2atom = current;
 						}
 					}
@@ -1536,6 +1684,11 @@ public class ProteinStruct {
 					bonds.add(newb6);
 					bonds.add(newb7);
 					bonds.add(newb8);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(3);
+					CDatom.setAtomType(0);
+					OE1atom.setAtomType(1);
+					NE2atom.setAtomType(2);
 				} else if (restype == 'R') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1558,7 +1711,7 @@ public class ProteinStruct {
 							CZatom = current;
 						} else if (current.getEtype() == "NH1") {
 							NH1atom = current;
-						} else {
+						} else if (current.getEtype() == "NH2") {
 							NH2atom = current;
 						}
 					}
@@ -1576,6 +1729,13 @@ public class ProteinStruct {
 					bonds.add(newb8);
 					bonds.add(newb9);
 					bonds.add(newb10);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(3);
+					CDatom.setAtomType(3);
+					NEatom.setAtomType(0);
+					CZatom.setAtomType(2);
+					NH1atom.setAtomType(2);
+					NH2atom.setAtomType(4);
 				} else if (restype == 'S') {
 					Atom CBatom = null;
 					Atom OGatom = null;
@@ -1583,7 +1743,7 @@ public class ProteinStruct {
 						Atom current = (Atom)AminoAcid.get(i);
 						if (current.getEtype() == "CB") {
 							CBatom = current;
-						} else {
+						} else if (current.getEtype() == "OG") {
 							OGatom = current;
 						}
 					}
@@ -1591,26 +1751,31 @@ public class ProteinStruct {
 					Bond newb5 = new Bond(CBatom, OGatom, Constants.BONDCONST);
 					bonds.add(newb4);
 					bonds.add(newb5);
+					CBatom.setAtomType(3);
+					OGatom.setAtomType(0);
 				} else if (restype == 'T') {
 					Atom CBatom = null;
-					Atom CG1atom = null;
-					Atom OG2atom = null;
+					Atom CG2atom = null;
+					Atom OG1atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
 						if (current.getEtype() == "CB") {
 							CBatom = current;
-						} else if (current.getEtype() == "CG1") {
-							CG1atom = current;
-						} else {
-							OG2atom = current;
+						} else if (current.getEtype() == "CG2") {
+							CG2atom = current;
+						} else if (current.getEtype() == "OG1") {
+							OG1atom = current;
 						}
 					}
 					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-					Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
-					Bond newb6 = new Bond(CBatom, OG2atom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CG2atom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CBatom, OG1atom, Constants.BONDCONST);
 					bonds.add(newb4);
 					bonds.add(newb5);
 					bonds.add(newb6);
+					CBatom.setAtomType(2);
+					CG2atom.setAtomType(4);
+					OG1atom.setAtomType(0);
 				} else if (restype == 'V') {
 					Atom CBatom = null;
 					Atom CG1atom = null;
@@ -1621,7 +1786,7 @@ public class ProteinStruct {
 							CBatom = current;
 						} else if (current.getEtype() == "CG1") {
 							CG1atom = current;
-						} else {
+						} else if (current.getEtype() == "CG2") {
 							CG2atom = current;
 						}
 					}
@@ -1631,6 +1796,9 @@ public class ProteinStruct {
 					bonds.add(newb4);
 					bonds.add(newb5);
 					bonds.add(newb6);
+					CBatom.setAtomType(2);
+					CG1atom.setAtomType(4);
+					CG2atom.setAtomType(4);
 				} else if (restype == 'W') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1660,7 +1828,7 @@ public class ProteinStruct {
 							CZ2atom = current;
 						} else if (current.getEtype() == "CZ3") {
 							CZ3atom = current;
-						} else {
+						} else if (current.getEtype() == "CH2") {
 							CH2atom = current;
 						}
 					}
@@ -1686,6 +1854,16 @@ public class ProteinStruct {
 					bonds.add(newb12);
 					bonds.add(newb13);
 					bonds.add(newb14);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(1);
+					CD1atom.setAtomType(5);
+					CD2atom.setAtomType(1);
+					NE1atom.setAtomType(0);
+					CE2atom.setAtomType(1);
+					CE3atom.setAtomType(5);
+					CZ2atom.setAtomType(5);
+					CZ3atom.setAtomType(5);
+					CH2atom.setAtomType(5);
 				} else if (restype == 'Y') {
 					Atom CBatom = null;
 					Atom CGatom = null;
@@ -1711,7 +1889,7 @@ public class ProteinStruct {
 							CE2atom = current;
 						} else if (current.getEtype() == "CZ") {
 							CZatom = current;
-						} else {
+						} else if (current.getEtype() == "OH") {
 							OHatom = current;
 						}
 					}
@@ -1733,6 +1911,14 @@ public class ProteinStruct {
 					bonds.add(newb10);
 					bonds.add(newb11);	
 					bonds.add(newb12);
+					CBatom.setAtomType(3);
+					CGatom.setAtomType(1);
+					CD1atom.setAtomType(5);
+					CD2atom.setAtomType(5);
+					CE1atom.setAtomType(5);
+					CE2atom.setAtomType(5);
+					CZatom.setAtomType(1);
+					OHatom.setAtomType(0);
 				} else {
 					System.err.println("UNKNOWN RES TYPE " + restype);
 				}
@@ -1741,6 +1927,7 @@ public class ProteinStruct {
 		detSurfaceBonds();
 		detSurfaceBackbone();
 		detSurfaceBackboneBonds();
+		detSolvEModel();
 		out.println("DONE WITH DETERMINING BONDS AND BACKBONE");
 	}
 	public void detSurfaceBonds() {
@@ -1768,6 +1955,67 @@ public class ProteinStruct {
 			Atom second = current.getSecond();
 			if (isAlreadyIn(surface, first) && isAlreadyIn(surface, second)) {
 				surfacebackbonebonds.add(current);
+			}
+		}
+	}
+	public void detSolvEModel() {
+		for (int i = 0; i < surface.size(); i++) {
+			Atom current = (Atom)surface.get(i);
+			char cel = current.getEtype().charAt(0);
+			int ctype = current.getAtomType();
+			if (cel == 'H') {
+				continue;
+			}
+			if (cel == 'C' && ctype == 0) {
+				solvEModel += Constants.Solv_Gref_C;
+				continue;
+			} else if (cel == 'C' && ctype == 1) {
+				solvEModel += Constants.Solv_Gref_CR;
+				continue;
+			} else if (cel == 'C' && ctype == 2) {
+				solvEModel += Constants.Solv_Gref_CH1E;
+				continue;
+			} else if (cel == 'C' && ctype == 3) {
+				solvEModel += Constants.Solv_Gref_CH2E;
+				continue;
+			} else if (cel == 'C' && ctype == 4) {
+				solvEModel += Constants.Solv_Gref_CH3E;
+				continue;
+			} else if (cel == 'C' && ctype == 5) {
+				solvEModel += Constants.Solv_Gref_CR1E;
+				continue;
+			} else if (cel == 'N' && ctype == 0) {
+				solvEModel += Constants.Solv_Gref_NH1;
+				continue;
+			} else if (cel == 'N' && ctype == 1) {
+				solvEModel += Constants.Solv_Gref_NR;
+				continue;
+			} else if (cel == 'N' && ctype == 2) {
+				solvEModel += Constants.Solv_Gref_NH2;
+				continue;
+			} else if (cel == 'N' && ctype == 3) {
+				solvEModel += Constants.Solv_Gref_NH3;
+				continue;
+			} else if (cel == 'N' && ctype == 4) {
+				solvEModel += Constants.Solv_Gref_NC2;
+				continue;
+			} else if (cel == 'N' && ctype == 5) {
+				solvEModel += Constants.Solv_Gref_N;
+				continue;
+			} else if (cel == 'O' && ctype == 0) {
+				solvEModel += Constants.Solv_Gref_OH1;
+				continue;
+			} else if (cel == 'O' && ctype == 1) {
+				solvEModel += Constants.Solv_Gref_O;
+				continue;
+			} else if (cel == 'O' && ctype == 2) {
+				solvEModel += Constants.Solv_Gref_OC;
+				continue;
+			} else if (cel == 'S' && ctype == 0) {
+				solvEModel += Constants.Solv_Gref_S;
+				continue;
+			} else if (cel == 'S' && ctype == 1) {
+				solvEModel += Constants.Solv_Gref_SH1E;
 			}
 		}
 	}
@@ -1905,6 +2153,9 @@ public class ProteinStruct {
 	}
 	public double[][][][] getPotentials() {
 		return potentials;
+	}
+	public double getSolvEModel() {
+		return solvEModel;
 	}
 	public double round(double number, double roundTo) {
 		return (double)(Math.round(number/roundTo)*roundTo);
