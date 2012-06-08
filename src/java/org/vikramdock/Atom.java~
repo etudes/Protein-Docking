@@ -277,6 +277,7 @@ public class Atom {
 		toBePrinted = toBePrinted.concat("                       ");
 		toBePrinted = toBePrinted.concat(atom.substring(0,1));
 		out.println(toBePrinted);
+		out.flush();
 	}
 	public void setSpherical() {
 		if (spherical == false) {

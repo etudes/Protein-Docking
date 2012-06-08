@@ -17,6 +17,7 @@ public class Atom {
 	char element;
 	int resnum;
 	int atomnum;
+	int atomtype;
 	char chainnum;
 	boolean spherical;
 	ArrayList<Bond> bonded;
@@ -88,6 +89,9 @@ public class Atom {
 	public void addBond(Bond toBeBonded) {
 		bonded.add(toBeBonded);
 	}
+	public void setAtomType(int atomtype) {
+		this.atomtype = atomtype;
+	}
 	public double getXcoord() {
 		return xcoord;
 	}
@@ -127,6 +131,9 @@ public class Atom {
 	}
 	public String getAA() {
 		return AA;
+	}
+	public int getAtomType() {
+		return atomtype;
 	}
 	public void printAtom() {
 		setCartesian();

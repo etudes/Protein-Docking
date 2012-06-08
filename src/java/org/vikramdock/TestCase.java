@@ -60,6 +60,7 @@ public class TestCase {
 	public double energyScore() {
 		double Etot = 0;
 		double vanDerWaalsEtot = 0;
+		double solvEtot = 0;
 		double bStretchEtot = 0;
 		double aBendEtot = 0;
 		double torsEtot = 0;
@@ -193,7 +194,7 @@ public class TestCase {
 				torsEtot += torsE;
 			}
 		}
-		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
+		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * solvEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;
 	}
 	public double getRmov() {

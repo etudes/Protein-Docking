@@ -247,14 +247,14 @@ public class TestCase {
 	public double round(double number, double roundTo) {
 		return (double)(Math.round(number/roundTo)*roundTo);
 	}
-	public void printSurfacebya() {
+	public void printSurfacebya(PrintWriter out) {
 		for (int i = 0; i < surfacebya.size(); i++) {
 			Atom current = (Atom)surfacebya.get(i);
-			current.printAtomPDB();
+			current.printAtomPDB(out);
 		}
 	}
-	public void printInfo() {
-		System.out.println(alphamov + " " + betamov + " " + gammamov + " " + alpha + " " + beta + " " + gamma);
+	public void printInfo(PrintWriter out) {
+		out.println(alphamov + " " + betamov + " " + gammamov + " " + alpha + " " + beta + " " + gamma);
 	}
 	public double[] deRotate(double cx, double cy, double cz, double a, double b, double c) {
 		double[] answer = new double[3];
