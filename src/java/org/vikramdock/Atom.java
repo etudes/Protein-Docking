@@ -17,7 +17,7 @@ public class Atom {
 	char element;
 	int resnum;
 	int atomnum;
-	int atomtype;
+	int atomtype = -1;
 	char chainnum;
 	boolean spherical;
 	ArrayList<Bond> bonded;
@@ -73,6 +73,20 @@ public class Atom {
 		this.eType = eType;
 		this.AA = AA;
 	}
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList bonded, String AA, int atomtype) {
+		this.xcoord = xcoord;
+		this.ycoord = ycoord;
+		this.zcoord = zcoord;
+		this.element = element;
+		this.resnum = resnum;
+		this.atomnum = atomnum;
+		this.chainnum = chainnum;
+		this.spherical = false;
+		this.bonded = bonded;
+		this.eType = eType;
+		this.AA = AA;
+		this.atomtype = atomtype;
+	}
 	public Atom(Atom clone) {
 		this.xcoord = clone.getXcoord();
 		this.ycoord = clone.getYcoord();
@@ -85,6 +99,7 @@ public class Atom {
 		this.bonded = clone.getBonded();
 		this.eType = clone.getEtype();
 		this.AA = clone.getAA();
+		this.atomtype = clone.getAtomType();
 	}
 	public void addBond(Bond toBeBonded) {
 		bonded.add(toBeBonded);
@@ -319,7 +334,10 @@ public class Atom {
 		double xcoordnew = xmov + xcoord;
 		double ycoordnew = ymov + ycoord;
 		double zcoordnew = zmov + zcoord;
-		Atom answer = new Atom(xcoordnew, ycoordnew, zcoordnew, element, resnum, atomnum, chainnum, eType, bonded, AA);
+		Atom answer = new Atom(xcoordnew, ycoordnew, zcoordnew, element, resnum, atomnum, chainnum, eType, bonded, AA, atomtype);
+		if (atomtype == -1) {
+			System.err.println("TRANSLATING AN UNKNOWN ATOM TYPE");
+		}
 		return answer;
 	}
 	public Atom rotateAtomNew(double xcent, double ycent, double zcent, double a, double b, double c) {
@@ -336,7 +354,10 @@ public class Atom {
 		double xcoordc = xcoordb + xcent;
 		double ycoordc = ycoordb + ycent;
 		double zcoordc = zcoordb + zcent;
-		Atom answer = new Atom(xcoordc, ycoordc, zcoordc, element, resnum, atomnum, chainnum, eType, bonded, AA);
+		Atom answer = new Atom(xcoordc, ycoordc, zcoordc, element, resnum, atomnum, chainnum, eType, bonded, AA, atomtype);
+		if (atomtype == -1) {
+			System.err.println("TRANSLATING AN UNKNOWN ATOM TYPE");
+		}
 		long end = System.currentTimeMillis();
 		return answer;
 	}
