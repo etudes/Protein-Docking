@@ -1,0 +1,24 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+for i in 1eaw_ab 1ewy_ac 1ezu_cab 1f34_ab 1fle_ei 1gl1_ai 1gxd_ac 1hia_abi 1jtg_ba 1mah_af 1n8o_abce 1oc0_ab 1oph_ab 1oyv_bi 1oyv_ai 1ppe_ei 1r0r_ei 1tmq_ab 1udi_ei 1yvb_ai 2abz_be 2b42_ab 2j0t_ad 2mta_hla 2o8v_ab 2oul_ab 2pcc_ab 2sic_ei 2sni_ei 2uuy_ab
+do
+	echo "\n Result for $i" >> /home/vikram/Protein-Docking/p2resultstmp.txt
+	cd /home/vikram/Protein-Docking/
+	java BenchParser ${i:0:4}
+	cd /home/vikram/Protein-Docking/usf_export/lsqman
+	for j in 1 2 3 4 5
+	do
+		echo -e "$ gunzip -c ../../pdb/wwpdb/pdb/${i:1:2}/pdb${i:0:4}.ent.gz > ../../pdb/wwpdb/pdb/${i:1:2}/pdb${i:0:4}.ent \n re m1 ../../pdb/wwpdb/pdb/${i:1:2}/pdb${i:0:4}.ent \n re m2 ../../result${i:0:4}.txt \n brute m1 ${i:5} m2 ${i:5} 30 10 30 d 2 \n de m1 \n de m2" > /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+	done
+    ./lsqman < /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp >> /home/vikram/Protein-Docking/p2resultstmp.txt
+     cd /home/vikram/Protein-Docking
+    java RMSECleaner 2
+    rm /home/vikram/Protein-Docking/p2resultstmp.txt
+    for j in 1 2 3 4 5
+    do
+    	rm /home/vikram/Protein-Docking/result${i:0:4}model$j.txt
+	done
+done

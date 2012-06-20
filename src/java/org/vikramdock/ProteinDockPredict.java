@@ -19,6 +19,8 @@ public class ProteinDockPredict{
 	PrintWriter out;
 	int numthread;
 	Thread[] ths;
+	int counter = 0;
+	String id;
 	public ProteinDockPredict(String file1, String file2) {
 		ps1 = new ProteinStruct(file1, null);
 		ps2 = new ProteinStruct(file2, null);
@@ -62,7 +64,8 @@ public class ProteinDockPredict{
 		}
 	}
 	public static void main(String[] args) throws IOException {
-		PrintWriter out = new PrintWriter(new FileWriter(args[0].concat("result").concat(args[2].toLowerCase()).concat(".txt")));
+		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(args[0].concat("result").concat(args[2].toLowerCase()).concat(".txt"))));
+		id = args[2];
 		benchParse(args[0], args[1], args[3].toLowerCase(), args[4], args[5].toLowerCase(), args[6], Integer.parseInt(args[7]), out);
 	}
 	public static void PDBParse() {
@@ -254,7 +257,7 @@ public class ProteinDockPredict{
 			for (int i = 0; i < pdp.numthread; i++) {
 				pdp.ths[i].join();
 			}
-			pdp.printCases();
+			//pdp.printCases();
 			long end = System.currentTimeMillis();
 			System.out.println(end - start);
 		} catch (Exception ex) {
@@ -283,6 +286,18 @@ public class ProteinDockPredict{
 	}
 	public synchronized void add(TestCase worked) {
 		cases.addCap(worked);
+	}
+	public synchronized printCase(TestCase current) {
+		counter++;
+		PrintWriter out1 = new PrintWriter(new BufferedWriter(new FileWriter("result"+args[2].toLowerCase()+"model"+counter+".txt")));
+		double score = current.getScore();
+		current.printInfo(out1);
+		out.println("SCORE " + score);
+		ProteinStruct newps1 = origps1.transall(-origps1.getXCoordCent(), -origps1.getYCoordCent(), -origps1.getZCoordCent()).transrotnewall(0, 0, 0, current.getAlphamov(), current.getBetamov(), current.getGammamov());
+		newps1.printStructurePDB(out1);
+		ProteinStruct newps2 = origps2.transall(-origps2.getXCoordCent(), -origps2.getYCoordCent(), -origps2.getZCoordCent()).transrotnewall(current.getRmov(), 0, 0, current.getAlpha(), Math.PI - current.getBeta(), current.getGamma());
+		newps2.printStructurePDB(out1);
+		out.flush();
 	}
 	public static String removeSpace(String test) {
 		String answer = "";

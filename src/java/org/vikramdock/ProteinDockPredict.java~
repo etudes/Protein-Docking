@@ -169,6 +169,7 @@ public class ProteinDockPredict{
 			pdp.printCases();
 			long end = System.currentTimeMillis();
 			out.println(end - start);
+			out.flush();
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -275,8 +276,10 @@ public class ProteinDockPredict{
 			ProteinStruct newps2 = origps2.transall(-origps2.getXCoordCent(), -origps2.getYCoordCent(), -origps2.getZCoordCent()).transrotnewall(current.getRmov(), 0, 0, current.getAlpha(), Math.PI - current.getBeta(), current.getGamma());
 			newps2.printStructurePDB(out);
 			out.println("ENDMDL");
+			out.flush();
 		}
 		out.println("MODELS PASSED " + cases.size());
+		out.flush();
 	}
 	public synchronized void add(TestCase worked) {
 		cases.addCap(worked);

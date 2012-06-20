@@ -28,7 +28,7 @@ public class Constants {
 	public static final double BONDCONST = 1;
 	public static final double ABENDCONST = 1;
 	public static final double TORSCONST = 1;
-	public static final double VDWSCALE = 1;
+	public static final double VDWSCALE = 2;
 	public static final double SOLVSCALE = 1;
 	public static final double BSTRETCHSCALE = 1;
 	public static final double ABENDSCALE = 1;
@@ -125,4 +125,5 @@ public class Constants {
 	public static final double Vdw_Rad_O = 1.52;
 	public static final double Vdw_Rad_S = 1.80;
 	public static final double Vdw_Rad_H = 1.09;
+	public static final double Solv_Corr = 3.5;
 }

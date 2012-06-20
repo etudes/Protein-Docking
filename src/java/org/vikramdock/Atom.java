@@ -20,7 +20,7 @@ public class Atom {
 	int atomtype = -1;
 	char chainnum;
 	boolean spherical;
-	ArrayList<Bond> bonded;
+	ArrayList<Bond> bonded = new ArrayList<Bond>();
 	String eType;
 	String AA;
 	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, String AA) {
@@ -152,10 +152,10 @@ public class Atom {
 	}
 	public void printAtom() {
 		setCartesian();
-		System.out.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " COORDS " + xcoord + " " + ycoord + " " + zcoord);
+		System.out.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " " + eType +  " COORDS " + xcoord + " " + ycoord + " " + zcoord);
 	}
 	public void printAtomErr() {
-		System.out.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " COORDS " + xcoord + " " + ycoord + " " + zcoord + " SPHERICAL " + spherical);
+		System.out.println("ATOM NO " + atomnum + " FROM RES NO " + resnum + " FROM CHAIN NO " + chainnum + " ELEMENT " + element + " " + eType + " COORDS " + xcoord + " " + ycoord + " " + zcoord + " SPHERICAL " + spherical);
 	}
 	public void printAtomPDB(PrintWriter out) {
 		setCartesian();
@@ -335,9 +335,6 @@ public class Atom {
 		double ycoordnew = ymov + ycoord;
 		double zcoordnew = zmov + zcoord;
 		Atom answer = new Atom(xcoordnew, ycoordnew, zcoordnew, element, resnum, atomnum, chainnum, eType, bonded, AA, atomtype);
-		if (atomtype == -1 && element != 'H') {
-			System.err.println("TRANSLATING AN UNKNOWN ATOM TYPE");
-		}
 		return answer;
 	}
 	public Atom rotateAtomNew(double xcent, double ycent, double zcent, double a, double b, double c) {
@@ -355,9 +352,6 @@ public class Atom {
 		double ycoordc = ycoordb + ycent;
 		double zcoordc = zcoordb + zcent;
 		Atom answer = new Atom(xcoordc, ycoordc, zcoordc, element, resnum, atomnum, chainnum, eType, bonded, AA, atomtype);
-		if (atomtype == -1 && element != 'H') {
-			System.err.println("TRANSLATING AN UNKNOWN ATOM TYPE");
-		}
 		long end = System.currentTimeMillis();
 		return answer;
 	}

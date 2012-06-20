@@ -566,7 +566,7 @@ public class ProteinStruct {
 		}
 		out.println("DONE WITH DETERMINING SURFACE");
 	}
-	public void detBondsBackbone() {
+	public void detBondsBackbone() throws Exception {
 		Atom first = (Atom)structure.get(0);
 		ArrayList<Atom> AminoAcid = new ArrayList<Atom>();
 		int resnum = first.getResnum();
@@ -591,13 +591,13 @@ public class ProteinStruct {
 		char restype = ' ';
 		for (int i = 0; i < AminoAcid.size(); i++) {
 			Atom current = (Atom)AminoAcid.get(i);
-			if (current.getEtype() == "C") {
+			if (current.getEtype().equals("C")) {
 				Catom = current;
-			} else if (current.getEtype() == "CA") {
+			} else if (current.getEtype().equals("CA")) {
 				CAatom = current;
-			} else if (current.getEtype() == "N") {
+			} else if (current.getEtype().equals("N")) {
 				Natom = current;
-			} else if (current.getEtype() == "O") {
+			} else if (current.getEtype().equals("O")) {
 				Oatom = current;
 			}
 		}
@@ -614,7 +614,7 @@ public class ProteinStruct {
 			backbonebonds.add(newb1);
 			backbonebonds.add(newb2);
 			CatomLast = Catom;
-			restype = parsedsequence[CAatom.getChainnum()].charAt(resnum - 1);
+			restype = parsedsequence[Integer.parseInt(chaintranslator.get(CAatom.getChainnum()).toString())].charAt(resnum - 1);
 			AminoAcid.remove(Catom);
 			AminoAcid.remove(CAatom);
 			AminoAcid.remove(Natom);
@@ -633,9 +633,9 @@ public class ProteinStruct {
 				Atom SGatom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "SG") {
+					} else if (current.getEtype().equals("SG")) {
 						SGatom = current;
 					}
 				}
@@ -652,13 +652,13 @@ public class ProteinStruct {
 				Atom OD2atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "OD1") {
+					} else if (current.getEtype().equals("OD1")) {
 						OD1atom = current;
-					} else if (current.getEtype() == "OD2") {
+					} else if (current.getEtype().equals("OD2")) {
 						OD2atom = current;
 					}
 				}
@@ -682,15 +682,15 @@ public class ProteinStruct {
 				Atom OE2atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "CD") {
+					} else if (current.getEtype().equals("CD")) {
 						CDatom = current;
-					} else if (current.getEtype() == "OE1") {
+					} else if (current.getEtype().equals("OE1")) {
 						OE1atom = current;
-					} else if (current.getEtype() == "OE2") {
+					} else if (current.getEtype().equals("OE2")) {
 						OE2atom = current;
 					}
 				}
@@ -719,19 +719,19 @@ public class ProteinStruct {
 				Atom CZatom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "CD1") {
+					} else if (current.getEtype().equals("CD1")) {
 						CD1atom = current;
-					} else if (current.getEtype() == "CD2") {
+					} else if (current.getEtype().equals("CD2")) {
 						CD2atom = current;
-					} else if (current.getEtype() == "CE1") {
+					} else if (current.getEtype().equals("CE1")) {
 						CE1atom = current;
-					} else if (current.getEtype() == "CE2") {
+					} else if (current.getEtype().equals("CE2")) {
 						CE2atom = current;
-					} else if (current.getEtype() == "CZ") {
+					} else if (current.getEtype().equals("CZ")) {
 						CZatom = current;
 					}
 				}
@@ -769,17 +769,17 @@ public class ProteinStruct {
 				Atom NE2atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "ND1") {
+					} else if (current.getEtype().equals("ND1")) {
 						ND1atom = current;
-					} else if (current.getEtype() == "CD2") {
+					} else if (current.getEtype().equals("CD2")) {
 						CD2atom = current;
-					} else if (current.getEtype() == "CE1") {
+					} else if (current.getEtype().equals("CE1")) {
 						CE1atom = current;
-					} else if (current.getEtype() == "NE2") {
+					} else if (current.getEtype().equals("NE2")) {
 						NE2atom = current;
 					}
 				}
@@ -808,13 +808,13 @@ public class ProteinStruct {
 				Atom CD1atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG1") {
+					} else if (current.getEtype().equals("CG1")) {
 						CG1atom = current;
-					} else if (current.getEtype() == "CG2") {
+					} else if (current.getEtype().equals("CG2")) {
 						CG2atom = current;
-					} else if (current.getEtype() == "CD1") {
+					} else if (current.getEtype().equals("CD1")) {
 						CD1atom = current;
 					}
 				}
@@ -838,15 +838,15 @@ public class ProteinStruct {
 				Atom NZatom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "CD") {
+					} else if (current.getEtype().equals("CD")) {
 						CDatom = current;
-					} else if (current.getEtype() == "CE") {
+					} else if (current.getEtype().equals("CE")) {
 						CEatom = current;
-					} else if (current.getEtype() == "NZ") {
+					} else if (current.getEtype().equals("NZ")) {
 						NZatom = current;
 					}
 				}
@@ -872,13 +872,13 @@ public class ProteinStruct {
 				Atom CD1atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG1") {
+					} else if (current.getEtype().equals("CG1")) {
 						CG1atom = current;
-					} else if (current.getEtype() == "CD2") {
+					} else if (current.getEtype().equals("CD2")) {
 						CD2atom = current;
-					} else if (current.getEtype() == "CD1") {
+					} else if (current.getEtype().equals("CD1")) {
 						CD1atom = current;
 					}
 				}
@@ -901,13 +901,13 @@ public class ProteinStruct {
 				Atom CEatom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "SD") {
+					} else if (current.getEtype().equals("SD")) {
 						SDatom = current;
-					} else if (current.getEtype() == "CE") {
+					} else if (current.getEtype().equals("CE")) {
 						CEatom = current;
 					}
 				}
@@ -930,13 +930,13 @@ public class ProteinStruct {
 				Atom ND2atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "OD1") {
+					} else if (current.getEtype().equals("OD1")) {
 						OD1atom = current;
-					} else if (current.getEtype() == "ND2") {
+					} else if (current.getEtype().equals("ND2")) {
 						ND2atom = current;
 					}
 				}
@@ -958,11 +958,11 @@ public class ProteinStruct {
 				Atom CDatom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "CD") {
+					} else if (current.getEtype().equals("CD")) {
 						CDatom = current;
 					} 
 				}
@@ -986,15 +986,15 @@ public class ProteinStruct {
 				Atom NE2atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "CD") {
+					} else if (current.getEtype().equals("CD")) {
 						CDatom = current;
-					} else if (current.getEtype() == "OE1") {
+					} else if (current.getEtype().equals("OE1")) {
 						OE1atom = current;
-					} else if (current.getEtype() == "NE2") {
+					} else if (current.getEtype().equals("NE2")) {
 						NE2atom = current;
 					}
 				}
@@ -1023,19 +1023,19 @@ public class ProteinStruct {
 				Atom NH2atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "CD") {
+					} else if (current.getEtype().equals("CD")) {
 						CDatom = current;
-					} else if (current.getEtype() == "NE") {
+					} else if (current.getEtype().equals("NE")) {
 						NEatom = current;
-					} else if (current.getEtype() == "CZ") {
+					} else if (current.getEtype().equals("CZ")) {
 						CZatom = current;
-					} else if (current.getEtype() == "NH1") {
+					} else if (current.getEtype().equals("NH1")) {
 						NH1atom = current;
-					} else if (current.getEtype() == "NH2") {
+					} else if (current.getEtype().equals("NH2")) {
 						NH2atom = current;
 					}
 				}
@@ -1065,9 +1065,9 @@ public class ProteinStruct {
 				Atom OGatom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "OG") {
+					} else if (current.getEtype().equals("OG")) {
 						OGatom = current;
 					}
 				}
@@ -1083,11 +1083,11 @@ public class ProteinStruct {
 				Atom OG1atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG2") {
+					} else if (current.getEtype().equals("CG2")) {
 						CG2atom = current;
-					} else if (current.getEtype() == "OG1") {
+					} else if (current.getEtype().equals("OG1")) {
 						OG1atom = current;
 					}
 				}
@@ -1106,11 +1106,11 @@ public class ProteinStruct {
 				Atom CG2atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG1") {
+					} else if (current.getEtype().equals("CG1")) {
 						CG1atom = current;
-					} else if (current.getEtype() == "CG2") {
+					} else if (current.getEtype().equals("CG2")) {
 						CG2atom = current;
 					}
 				}
@@ -1136,23 +1136,25 @@ public class ProteinStruct {
 				Atom CH2atom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "CD1") {
+					} else if (current.getEtype().equals("CD1")) {
 						CD1atom = current;
-					} else if (current.getEtype() == "CD2") {
+					} else if (current.getEtype().equals("CD2")) {
 						CD2atom = current;
-					} else if (current.getEtype() == "NE1") {
+					} else if (current.getEtype().equals("NE1")) {
 						NE1atom = current;
-					} else if (current.getEtype() == "CE2") {
+					} else if (current.getEtype().equals("CE2")) {
 						CE2atom = current;
-					} else if (current.getEtype() == "CZ2") {
+					} else if (current.getEtype().equals("CE3")) {
+							CE3atom = current;
+					} else if (current.getEtype().equals("CZ2")) {
 						CZ2atom = current;
-					} else if (current.getEtype() == "CZ3") {
+					} else if (current.getEtype().equals("CZ3")) {
 						CZ3atom = current;
-					} else if (current.getEtype() == "CH2") {
+					} else if (current.getEtype().equals("CH2")) {
 						CH2atom = current;
 					}
 				}
@@ -1199,21 +1201,21 @@ public class ProteinStruct {
 				Atom OHatom = null;
 				for (int i = 0; i < AminoAcid.size(); i++) {
 					Atom current = (Atom)AminoAcid.get(i);
-					if (current.getEtype() == "CB") {
+					if (current.getEtype().equals("CB")) {
 						CBatom = current;
-					} else if (current.getEtype() == "CG") {
+					} else if (current.getEtype().equals("CG")) {
 						CGatom = current;
-					} else if (current.getEtype() == "CD1") {
+					} else if (current.getEtype().equals("CD1")) {
 						CD1atom = current;
-					} else if (current.getEtype() == "CD2") {
+					} else if (current.getEtype().equals("CD2")) {
 						CD2atom = current;
-					} else if (current.getEtype() == "CE1") {
+					} else if (current.getEtype().equals("CE1")) {
 						CE1atom = current;
-					} else if (current.getEtype() == "CE2") {
+					} else if (current.getEtype().equals("CE2")) {
 						CE2atom = current;
-					} else if (current.getEtype() == "CZ") {
+					} else if (current.getEtype().equals("CZ")) {
 						CZatom = current;
-					} else if (current.getEtype() == "OH") {
+					} else if (current.getEtype().equals("OH")) {
 						OHatom = current;
 					}
 				}
@@ -1248,6 +1250,7 @@ public class ProteinStruct {
 			}
 		}
 		while (true) {
+			AminoAcid.clear();
 			first = (Atom)structure.get(counter);
 			resnum = first.getResnum();
 			if (counter >= structure.size() - 1) {
@@ -1269,13 +1272,13 @@ public class ProteinStruct {
 			Oatom = null;
 			for (int i = 0; i < AminoAcid.size(); i++) {
 				Atom current = (Atom)AminoAcid.get(i);
-				if (current.getEtype() == "C") {
+				if (current.getEtype().equals("C")) {
 					Catom = current;
-				} else if (current.getEtype() == "CA") {
+				} else if (current.getEtype().equals("CA")) {
 					CAatom = current;
-				} else if (current.getEtype() == "N") {
+				} else if (current.getEtype().equals("N")) {
 					Natom = current;
-				} else if (current.getEtype() == "O") {
+				} else if (current.getEtype().equals("O")) {
 					Oatom = current;
 				}
 			}
@@ -1283,19 +1286,21 @@ public class ProteinStruct {
 				backbone.add(Catom);
 				backbone.add(CAatom);
 				backbone.add(Natom);
-				Bond newb0 = new Bond(CatomLast, Natom, Constants.BONDCONST);
+				if (CatomLast.getChainnum() == Natom.getChainnum()) {
+					Bond newb0 = new Bond(CatomLast, Natom, Constants.BONDCONST);
+					bonds.add(newb0);
+					backbonebonds.add(newb0);
+				}
 				newb1 = new Bond(Natom, CAatom, Constants.BONDCONST);
 				newb2 = new Bond(CAatom, Catom, Constants.BONDCONST);
 				newb3 = new Bond(Catom, Oatom, Constants.BONDCONST);
-				bonds.add(newb0);
 				bonds.add(newb1);
 				bonds.add(newb2);
 				bonds.add(newb3);
-				backbonebonds.add(newb0);
 				backbonebonds.add(newb1);
 				backbonebonds.add(newb2);
 				CatomLast = Catom;
-				restype = parsedsequence[CAatom.getChainnum()].charAt(resnum - 1);
+				restype = parsedsequence[Integer.parseInt(chaintranslator.get(CAatom.getChainnum()).toString())].charAt(resnum - 1);
 				AminoAcid.remove(Catom);
 				AminoAcid.remove(CAatom);
 				AminoAcid.remove(Natom);
@@ -1314,9 +1319,9 @@ public class ProteinStruct {
 					Atom SGatom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "SG") {
+						} else if (current.getEtype().equals("SG")) {
 							SGatom = current;
 						}
 					}
@@ -1333,13 +1338,13 @@ public class ProteinStruct {
 					Atom OD2atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "OD1") {
+						} else if (current.getEtype().equals("OD1")) {
 							OD1atom = current;
-						} else if (current.getEtype() == "OD2") {
+						} else if (current.getEtype().equals("OD2")) {
 							OD2atom = current;
 						}
 					}
@@ -1363,15 +1368,15 @@ public class ProteinStruct {
 					Atom OE2atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "CD") {
+						} else if (current.getEtype().equals("CD")) {
 							CDatom = current;
-						} else if (current.getEtype() == "OE1") {
+						} else if (current.getEtype().equals("OE1")) {
 							OE1atom = current;
-						} else if (current.getEtype() == "OE2") {
+						} else if (current.getEtype().equals("OE2")) {
 							OE2atom = current;
 						}
 					}
@@ -1400,19 +1405,19 @@ public class ProteinStruct {
 					Atom CZatom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "CD1") {
+						} else if (current.getEtype().equals("CD1")) {
 							CD1atom = current;
-						} else if (current.getEtype() == "CD2") {
+						} else if (current.getEtype().equals("CD2")) {
 							CD2atom = current;
-						} else if (current.getEtype() == "CE1") {
+						} else if (current.getEtype().equals("CE1")) {
 							CE1atom = current;
-						} else if (current.getEtype() == "CE2") {
+						} else if (current.getEtype().equals("CE2")) {
 							CE2atom = current;
-						} else if (current.getEtype() == "CZ") {
+						} else if (current.getEtype().equals("CZ")) {
 							CZatom = current;
 						}
 					}
@@ -1450,17 +1455,17 @@ public class ProteinStruct {
 					Atom NE2atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "ND1") {
+						} else if (current.getEtype().equals("ND1")) {
 							ND1atom = current;
-						} else if (current.getEtype() == "CD2") {
+						} else if (current.getEtype().equals("CD2")) {
 							CD2atom = current;
-						} else if (current.getEtype() == "CE1") {
+						} else if (current.getEtype().equals("CE1")) {
 							CE1atom = current;
-						} else if (current.getEtype() == "NE2") {
+						} else if (current.getEtype().equals("NE2")) {
 							NE2atom = current;
 						}
 					}
@@ -1489,13 +1494,13 @@ public class ProteinStruct {
 					Atom CD1atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG1") {
+						} else if (current.getEtype().equals("CG1")) {
 							CG1atom = current;
-						} else if (current.getEtype() == "CG2") {
+						} else if (current.getEtype().equals("CG2")) {
 							CG2atom = current;
-						} else if (current.getEtype() == "CD1") {
+						} else if (current.getEtype().equals("CD1")) {
 							CD1atom = current;
 						}
 					}
@@ -1519,15 +1524,15 @@ public class ProteinStruct {
 					Atom NZatom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "CD") {
+						} else if (current.getEtype().equals("CD")) {
 							CDatom = current;
-						} else if (current.getEtype() == "CE") {
+						} else if (current.getEtype().equals("CE")) {
 							CEatom = current;
-						} else if (current.getEtype() == "NZ") {
+						} else if (current.getEtype().equals("NZ")) {
 							NZatom = current;
 						}
 					}
@@ -1548,31 +1553,31 @@ public class ProteinStruct {
 					NZatom.setAtomType(2);
 				} else if (restype == 'L') {
 					Atom CBatom = null;
-					Atom CG1atom = null;
+					Atom CGatom = null;
 					Atom CD2atom = null;
 					Atom CD1atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG1") {
-							CG1atom = current;
-						} else if (current.getEtype() == "CD2") {
+						} else if (current.getEtype().equals("CG")) {
+							CGatom = current;
+						} else if (current.getEtype().equals("CD2")) {
 							CD2atom = current;
-						} else if (current.getEtype() == "CD1") {
+						} else if (current.getEtype().equals("CD1")) {
 							CD1atom = current;
 						}
 					}
 					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-					Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
-					Bond newb6 = new Bond(CG1atom, CD2atom, Constants.BONDCONST);
-					Bond newb7 = new Bond(CG1atom, CD1atom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, CD2atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CGatom, CD1atom, Constants.BONDCONST);
 					bonds.add(newb4);
 					bonds.add(newb5);
 					bonds.add(newb6);
 					bonds.add(newb7);
 					CBatom.setAtomType(3);
-					CG1atom.setAtomType(2);
+					CGatom.setAtomType(2);
 					CD2atom.setAtomType(4);
 					CD1atom.setAtomType(4);
 				} else if (restype == 'M') {
@@ -1582,13 +1587,13 @@ public class ProteinStruct {
 					Atom CEatom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "SD") {
+						} else if (current.getEtype().equals("SD")) {
 							SDatom = current;
-						} else if (current.getEtype() == "CE") {
+						} else if (current.getEtype().equals("CE")) {
 							CEatom = current;
 						}
 					}
@@ -1611,13 +1616,13 @@ public class ProteinStruct {
 					Atom ND2atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "OD1") {
+						} else if (current.getEtype().equals("OD1")) {
 							OD1atom = current;
-						} else if (current.getEtype() == "ND2") {
+						} else if (current.getEtype().equals("ND2")) {
 							ND2atom = current;
 						}
 					}
@@ -1639,11 +1644,11 @@ public class ProteinStruct {
 					Atom CDatom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "CD") {
+						} else if (current.getEtype().equals("CD")) {
 							CDatom = current;
 						} 
 					}
@@ -1667,15 +1672,15 @@ public class ProteinStruct {
 					Atom NE2atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "CD") {
+						} else if (current.getEtype().equals("CD")) {
 							CDatom = current;
-						} else if (current.getEtype() == "OE1") {
+						} else if (current.getEtype().equals("OE1")) {
 							OE1atom = current;
-						} else if (current.getEtype() == "NE2") {
+						} else if (current.getEtype().equals("NE2")) {
 							NE2atom = current;
 						}
 					}
@@ -1704,19 +1709,19 @@ public class ProteinStruct {
 					Atom NH2atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "CD") {
+						} else if (current.getEtype().equals("CD")) {
 							CDatom = current;
-						} else if (current.getEtype() == "NE") {
+						} else if (current.getEtype().equals("NE")) {
 							NEatom = current;
-						} else if (current.getEtype() == "CZ") {
+						} else if (current.getEtype().equals("CZ")) {
 							CZatom = current;
-						} else if (current.getEtype() == "NH1") {
+						} else if (current.getEtype().equals("NH1")) {
 							NH1atom = current;
-						} else if (current.getEtype() == "NH2") {
+						} else if (current.getEtype().equals("NH2")) {
 							NH2atom = current;
 						}
 					}
@@ -1746,9 +1751,9 @@ public class ProteinStruct {
 					Atom OGatom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "OG") {
+						} else if (current.getEtype().equals("OG")) {
 							OGatom = current;
 						}
 					}
@@ -1764,11 +1769,11 @@ public class ProteinStruct {
 					Atom OG1atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG2") {
+						} else if (current.getEtype().equals("CG2")) {
 							CG2atom = current;
-						} else if (current.getEtype() == "OG1") {
+						} else if (current.getEtype().equals("OG1")) {
 							OG1atom = current;
 						}
 					}
@@ -1787,11 +1792,11 @@ public class ProteinStruct {
 					Atom CG2atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG1") {
+						} else if (current.getEtype().equals("CG1")) {
 							CG1atom = current;
-						} else if (current.getEtype() == "CG2") {
+						} else if (current.getEtype().equals("CG2")) {
 							CG2atom = current;
 						}
 					}
@@ -1817,23 +1822,25 @@ public class ProteinStruct {
 					Atom CH2atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "CD1") {
+						} else if (current.getEtype().equals("CD1")) {
 							CD1atom = current;
-						} else if (current.getEtype() == "CD2") {
+						} else if (current.getEtype().equals("CD2")) {
 							CD2atom = current;
-						} else if (current.getEtype() == "NE1") {
+						} else if (current.getEtype().equals("NE1")) {
 							NE1atom = current;
-						} else if (current.getEtype() == "CE2") {
+						} else if (current.getEtype().equals("CE2")) {
 							CE2atom = current;
-						} else if (current.getEtype() == "CZ2") {
+						} else if (current.getEtype().equals("CE3")) {
+							CE3atom = current;
+						} else if (current.getEtype().equals("CZ2")) {
 							CZ2atom = current;
-						} else if (current.getEtype() == "CZ3") {
+						} else if (current.getEtype().equals("CZ3")) {
 							CZ3atom = current;
-						} else if (current.getEtype() == "CH2") {
+						} else if (current.getEtype().equals("CH2")) {
 							CH2atom = current;
 						}
 					}
@@ -1880,21 +1887,21 @@ public class ProteinStruct {
 					Atom OHatom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
-						if (current.getEtype() == "CB") {
+						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype() == "CG") {
+						} else if (current.getEtype().equals("CG")) {
 							CGatom = current;
-						} else if (current.getEtype() == "CD1") {
+						} else if (current.getEtype().equals("CD1")) {
 							CD1atom = current;
-						} else if (current.getEtype() == "CD2") {
+						} else if (current.getEtype().equals("CD2")) {
 							CD2atom = current;
-						} else if (current.getEtype() == "CE1") {
+						} else if (current.getEtype().equals("CE1")) {
 							CE1atom = current;
-						} else if (current.getEtype() == "CE2") {
+						} else if (current.getEtype().equals("CE2")) {
 							CE2atom = current;
-						} else if (current.getEtype() == "CZ") {
+						} else if (current.getEtype().equals("CZ")) {
 							CZatom = current;
-						} else if (current.getEtype() == "OH") {
+						} else if (current.getEtype().equals("OH")) {
 							OHatom = current;
 						}
 					}
@@ -2044,35 +2051,35 @@ public class ProteinStruct {
 							double ES = 0;
 							double EH = 0;
 							if (cel == 'C') {
-								EC = Constants.C12_C_C/Math.pow(distance, 12) - Constants.C6_C_C/Math.pow(distance, 6);
-								EN = Constants.C12_C_N/Math.pow(distance, 12) - Constants.C6_C_N/Math.pow(distance, 6);
-								EO = Constants.C12_C_O/Math.pow(distance, 12) - Constants.C6_C_O/Math.pow(distance, 6);
-								ES = Constants.C12_C_S/Math.pow(distance, 12) - Constants.C6_C_S/Math.pow(distance, 6);
-								EH = Constants.C12_C_H/Math.pow(distance, 12) - Constants.C6_C_H/Math.pow(distance, 6);
+								EC = Constants.C12_C_C/Math.pow(distance, 12.) - Constants.C6_C_C/Math.pow(distance, 6.);
+								EN = Constants.C12_C_N/Math.pow(distance, 12.) - Constants.C6_C_N/Math.pow(distance, 6.);
+								EO = Constants.C12_C_O/Math.pow(distance, 12.) - Constants.C6_C_O/Math.pow(distance, 6.);
+								ES = Constants.C12_C_S/Math.pow(distance, 12.) - Constants.C6_C_S/Math.pow(distance, 6.);
+								EH = Constants.C12_C_H/Math.pow(distance, 12.) - Constants.C6_C_H/Math.pow(distance, 6.);
 							} else if (cel == 'N') {
-								EC = Constants.C12_C_N/Math.pow(distance, 12) - Constants.C6_C_N/Math.pow(distance, 6);
-								EN = Constants.C12_N_N/Math.pow(distance, 12) - Constants.C6_N_N/Math.pow(distance, 6);
-								EO = Constants.C12_N_O/Math.pow(distance, 12) - Constants.C6_N_O/Math.pow(distance, 6);
-								ES = Constants.C12_N_S/Math.pow(distance, 12) - Constants.C6_N_S/Math.pow(distance, 6);
-								EH = Constants.C12_N_H/Math.pow(distance, 12) - Constants.C6_N_H/Math.pow(distance, 6);
+								EC = Constants.C12_C_N/Math.pow(distance, 12.) - Constants.C6_C_N/Math.pow(distance, 6.);
+								EN = Constants.C12_N_N/Math.pow(distance, 12.) - Constants.C6_N_N/Math.pow(distance, 6.);
+								EO = Constants.C12_N_O/Math.pow(distance, 12.) - Constants.C6_N_O/Math.pow(distance, 6.);
+								ES = Constants.C12_N_S/Math.pow(distance, 12.) - Constants.C6_N_S/Math.pow(distance, 6.);
+								EH = Constants.C12_N_H/Math.pow(distance, 12.) - Constants.C6_N_H/Math.pow(distance, 6.);
 							} else if (cel == 'O') {
-								EC = Constants.C12_C_O/Math.pow(distance, 12) - Constants.C6_C_O/Math.pow(distance, 6);
-								EN = Constants.C12_N_O/Math.pow(distance, 12) - Constants.C6_N_O/Math.pow(distance, 6);
-								EO = Constants.C12_O_O/Math.pow(distance, 12) - Constants.C6_O_O/Math.pow(distance, 6);
-								ES = Constants.C12_O_S/Math.pow(distance, 12) - Constants.C6_O_S/Math.pow(distance, 6);
-								EH = Constants.C12_O_H/Math.pow(distance, 12) - Constants.C6_O_H/Math.pow(distance, 6);
+								EC = Constants.C12_C_O/Math.pow(distance, 12.) - Constants.C6_C_O/Math.pow(distance, 6.);
+								EN = Constants.C12_N_O/Math.pow(distance, 12.) - Constants.C6_N_O/Math.pow(distance, 6.);
+								EO = Constants.C12_O_O/Math.pow(distance, 12.) - Constants.C6_O_O/Math.pow(distance, 6.);
+								ES = Constants.C12_O_S/Math.pow(distance, 12.) - Constants.C6_O_S/Math.pow(distance, 6.);
+								EH = Constants.C12_O_H/Math.pow(distance, 12.) - Constants.C6_O_H/Math.pow(distance, 6.);
 							} else if (cel == 'S') {
-								EC = Constants.C12_C_S/Math.pow(distance, 12) - Constants.C6_C_S/Math.pow(distance, 6);
-								EN = Constants.C12_N_S/Math.pow(distance, 12) - Constants.C6_N_S/Math.pow(distance, 6);
-								EO = Constants.C12_O_S/Math.pow(distance, 12) - Constants.C6_O_S/Math.pow(distance, 6);
-								ES = Constants.C12_S_S/Math.pow(distance, 12) - Constants.C6_S_S/Math.pow(distance, 6);
-								EH = Constants.C12_S_H/Math.pow(distance, 12) - Constants.C6_S_H/Math.pow(distance, 6);
+								EC = Constants.C12_C_S/Math.pow(distance, 12.) - Constants.C6_C_S/Math.pow(distance, 6.);
+								EN = Constants.C12_N_S/Math.pow(distance, 12.) - Constants.C6_N_S/Math.pow(distance, 6.);
+								EO = Constants.C12_O_S/Math.pow(distance, 12.) - Constants.C6_O_S/Math.pow(distance, 6.);
+								ES = Constants.C12_S_S/Math.pow(distance, 12.) - Constants.C6_S_S/Math.pow(distance, 6.);
+								EH = Constants.C12_S_H/Math.pow(distance, 12.) - Constants.C6_S_H/Math.pow(distance, 6.);
 							} else if (cel == 'H') {
-								EC = Constants.C12_C_H/Math.pow(distance, 12) - Constants.C6_C_H/Math.pow(distance, 6);
-								EN = Constants.C12_N_H/Math.pow(distance, 12) - Constants.C6_N_H/Math.pow(distance, 6);
-								EO = Constants.C12_O_H/Math.pow(distance, 12) - Constants.C6_O_H/Math.pow(distance, 6);
-								ES = Constants.C12_S_H/Math.pow(distance, 12) - Constants.C6_S_H/Math.pow(distance, 6);
-								EH = Constants.C12_H_H/Math.pow(distance, 12) - Constants.C6_H_H/Math.pow(distance, 6);
+								EC = Constants.C12_C_H/Math.pow(distance, 12.) - Constants.C6_C_H/Math.pow(distance, 6.);
+								EN = Constants.C12_N_H/Math.pow(distance, 12.) - Constants.C6_N_H/Math.pow(distance, 6.);
+								EO = Constants.C12_O_H/Math.pow(distance, 12.) - Constants.C6_O_H/Math.pow(distance, 6.);
+								ES = Constants.C12_S_H/Math.pow(distance, 12.) - Constants.C6_S_H/Math.pow(distance, 6.);
+								EH = Constants.C12_H_H/Math.pow(distance, 12.) - Constants.C6_H_H/Math.pow(distance, 6.);
 							}
 							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][0] += EC;
 							potentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][1] += EN;
@@ -2084,39 +2091,39 @@ public class ProteinStruct {
 							}
 							double eDens = 0;
 							if (cel == 'C' && ctype == 0) {
-								eDens = 2.*Constants.Solv_Gfree_C/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_C/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'C' && ctype == 1) {
-								eDens = 2.*Constants.Solv_Gfree_CR/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_CR/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'C' && ctype == 2) {
-								eDens = 2.*Constants.Solv_Gfree_CH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_CH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'C' && ctype == 3) {
-								eDens = 2.*Constants.Solv_Gfree_CH2E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_CH2E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'C' && ctype == 4) {
-								eDens = 2.*Constants.Solv_Gfree_CH3E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_CH3E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'C' && ctype == 5) {
-								eDens = 2.*Constants.Solv_Gfree_CR1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_CR1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'N' && ctype == 0) {
-								eDens = 2.*Constants.Solv_Gfree_NH1/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_NH1/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'N' && ctype == 1) {
-								eDens = 2.*Constants.Solv_Gfree_NR/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_NR/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'N' && ctype == 2) {
-								eDens = 2.*Constants.Solv_Gfree_NH2/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_NH2/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'N' && ctype == 3) {
-								eDens = 2.*Constants.Solv_Gfree_NH3/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_NH3/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'N' && ctype == 4) {
-								eDens = 2.*Constants.Solv_Gfree_NC2/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_NC2/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'N' && ctype == 5) {
-								eDens = 2.*Constants.Solv_Gfree_N/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_N/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_N)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'O' && ctype == 0) {
-								eDens = 2.*Constants.Solv_Gfree_OH1/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_O)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_OH1/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_O)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'O' && ctype == 1) {
-								eDens = 2.*Constants.Solv_Gfree_O/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_O)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_O/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_O)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'O' && ctype == 2) {
-								eDens = 2.*Constants.Solv_Gfree_OC/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_O)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_OC/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_O)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'S' && ctype == 0) {
-								eDens = 2.*Constants.Solv_Gfree_S/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_S)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_S/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_S)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							} else if (cel == 'S' && ctype == 1) {
-								eDens = 2.*Constants.Solv_Gfree_SH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_S)/Constants.Solv_Corr, 2))/(4.*Math.PI*Math.pow(distance, 2));
+								eDens = 2.*Constants.Solv_Gfree_SH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_S)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							}
 							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][0] += eDens*Constants.Solv_V_C;
 							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][1] += eDens*Constants.Solv_V_CR;

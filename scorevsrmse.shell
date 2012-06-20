@@ -1,0 +1,20 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1AHW 1FGN LH 1TFH A 4
+cd /home/vikram/Protein-Docking/usf_export/lsqman
+for i in $(seq 1000)
+do
+	echo -e "re m1 ../../pdb.unzipped/wwpdb/pdb/ah/pdb1ahw.ent \n re m2 ../../result1ahwmodel$i.txt \n fa m1 \"abc\" m2 \"lha\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+done
+echo -e "\n qu" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+./lsqman < /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermstmp1ahw.txt
+rm /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+cd /home/vikram/Protein-Docking
+java RMSEScoreGen /home/vikram/Protein-Docking/scorermstmp1ahw.txt /home/vikram/Protein-Docking/result1ahw /home/vikram/Protein-Docking/scorerms1ahw.txt
+for i in $(seq 1000) 
+do
+	rm /home/vikram/Protein-Docking/result1ahwmodel$i.txt
+done
