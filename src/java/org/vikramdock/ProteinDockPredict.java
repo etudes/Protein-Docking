@@ -65,8 +65,7 @@ public class ProteinDockPredict{
 	}
 	public static void main(String[] args) throws IOException {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(args[0].concat("result").concat(args[2].toLowerCase()).concat(".txt"))));
-		id = args[2];
-		benchParse(args[0], args[1], args[3].toLowerCase(), args[4], args[5].toLowerCase(), args[6], Integer.parseInt(args[7]), out);
+		benchParse(args[0], args[1], args[2], args[3].toLowerCase(), args[4], args[5].toLowerCase(), args[6], Integer.parseInt(args[7]), out);
 	}
 	public static void PDBParse() {
 		try {
@@ -88,7 +87,7 @@ public class ProteinDockPredict{
 			ex.printStackTrace();
 		}
 	}
-	public static void benchParse(String sourcepath, String pdbpath, String id1, String chain1, String id2, String chain2, int numthread, PrintWriter out) {
+	public static void benchParse(String sourcepath, String pdbpath, String id, String id1, String chain1, String id2, String chain2, int numthread, PrintWriter out) {
 		try {
 			String filesep = System.getProperty("file.separator");
 			boolean chainreq1 = true;
@@ -165,6 +164,7 @@ public class ProteinDockPredict{
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
 			pdp.numthread = numthread;
 			out.println(pdp.numthread + " NUMTHREAD");
+			pdp.id = id;
 			pdp.genTestCases();
 			for (int i = 0; i < pdp.numthread; i++) {
 				pdp.ths[i].join();
@@ -287,17 +287,19 @@ public class ProteinDockPredict{
 	public synchronized void add(TestCase worked) {
 		cases.addCap(worked);
 	}
-	public synchronized printCase(TestCase current) {
+	public synchronized void printCase(TestCase current) throws IOException {
 		counter++;
-		PrintWriter out1 = new PrintWriter(new BufferedWriter(new FileWriter("result"+args[2].toLowerCase()+"model"+counter+".txt")));
-		double score = current.getScore();
-		current.printInfo(out1);
-		out.println("SCORE " + score);
-		ProteinStruct newps1 = origps1.transall(-origps1.getXCoordCent(), -origps1.getYCoordCent(), -origps1.getZCoordCent()).transrotnewall(0, 0, 0, current.getAlphamov(), current.getBetamov(), current.getGammamov());
-		newps1.printStructurePDB(out1);
-		ProteinStruct newps2 = origps2.transall(-origps2.getXCoordCent(), -origps2.getYCoordCent(), -origps2.getZCoordCent()).transrotnewall(current.getRmov(), 0, 0, current.getAlpha(), Math.PI - current.getBeta(), current.getGamma());
-		newps2.printStructurePDB(out1);
-		out.flush();
+		if (counter <= 10000) {
+			PrintWriter out1 = new PrintWriter(new BufferedWriter(new FileWriter("result"+id.toLowerCase()+"model"+counter+".txt")));
+			double score = current.getScore();
+			current.printInfo(out1);
+			out1.println("SCORE " + score);
+			ProteinStruct newps1 = origps1.transall(-origps1.getXCoordCent(), -origps1.getYCoordCent(), -origps1.getZCoordCent()).transrotnewall(0, 0, 0, current.getAlphamov(), current.getBetamov(), current.getGammamov());
+			newps1.printStructurePDB(out1);
+			ProteinStruct newps2 = origps2.transall(-origps2.getXCoordCent(), -origps2.getYCoordCent(), -origps2.getZCoordCent()).transrotnewall(current.getRmov(), 0, 0, current.getAlpha(), Math.PI - current.getBeta(), current.getGamma());
+			newps2.printStructurePDB(out1);
+			out1.flush();
+		}
 	}
 	public static String removeSpace(String test) {
 		String answer = "";
