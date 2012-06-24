@@ -614,7 +614,7 @@ public class ProteinStruct {
 			backbonebonds.add(newb1);
 			backbonebonds.add(newb2);
 			CatomLast = Catom;
-			restype = parsedsequence[CAatom.getChainnum()].charAt(resnum - 1);
+			restype = parsedsequence[Integer.parseInt(chaintranslator.get(CAatom.getChainnum()).toString())].charAt(resnum - 1);
 			AminoAcid.remove(Catom);
 			AminoAcid.remove(CAatom);
 			AminoAcid.remove(Natom);
@@ -1148,6 +1148,8 @@ public class ProteinStruct {
 						NE1atom = current;
 					} else if (current.getEtype().equals("CE2")) {
 						CE2atom = current;
+					} else if (current.getEtype().equals("CE3")) {
+							CE3atom = current;
 					} else if (current.getEtype().equals("CZ2")) {
 						CZ2atom = current;
 					} else if (current.getEtype().equals("CZ3")) {
@@ -1248,6 +1250,7 @@ public class ProteinStruct {
 			}
 		}
 		while (true) {
+			AminoAcid.clear();
 			first = (Atom)structure.get(counter);
 			resnum = first.getResnum();
 			if (counter >= structure.size() - 1) {
@@ -1283,19 +1286,21 @@ public class ProteinStruct {
 				backbone.add(Catom);
 				backbone.add(CAatom);
 				backbone.add(Natom);
-				Bond newb0 = new Bond(CatomLast, Natom, Constants.BONDCONST);
+				if (CatomLast.getChainnum() == Natom.getChainnum()) {
+					Bond newb0 = new Bond(CatomLast, Natom, Constants.BONDCONST);
+					bonds.add(newb0);
+					backbonebonds.add(newb0);
+				}
 				newb1 = new Bond(Natom, CAatom, Constants.BONDCONST);
 				newb2 = new Bond(CAatom, Catom, Constants.BONDCONST);
 				newb3 = new Bond(Catom, Oatom, Constants.BONDCONST);
-				bonds.add(newb0);
 				bonds.add(newb1);
 				bonds.add(newb2);
 				bonds.add(newb3);
-				backbonebonds.add(newb0);
 				backbonebonds.add(newb1);
 				backbonebonds.add(newb2);
 				CatomLast = Catom;
-				restype = parsedsequence[CAatom.getChainnum()].charAt(resnum - 1);
+				restype = parsedsequence[Integer.parseInt(chaintranslator.get(CAatom.getChainnum()).toString())].charAt(resnum - 1);
 				AminoAcid.remove(Catom);
 				AminoAcid.remove(CAatom);
 				AminoAcid.remove(Natom);
@@ -1548,15 +1553,15 @@ public class ProteinStruct {
 					NZatom.setAtomType(2);
 				} else if (restype == 'L') {
 					Atom CBatom = null;
-					Atom CG1atom = null;
+					Atom CGatom = null;
 					Atom CD2atom = null;
 					Atom CD1atom = null;
 					for (int i = 0; i < AminoAcid.size(); i++) {
 						Atom current = (Atom)AminoAcid.get(i);
 						if (current.getEtype().equals("CB")) {
 							CBatom = current;
-						} else if (current.getEtype().equals("CG1")) {
-							CG1atom = current;
+						} else if (current.getEtype().equals("CG")) {
+							CGatom = current;
 						} else if (current.getEtype().equals("CD2")) {
 							CD2atom = current;
 						} else if (current.getEtype().equals("CD1")) {
@@ -1564,15 +1569,15 @@ public class ProteinStruct {
 						}
 					}
 					Bond newb4 = new Bond(CAatom, CBatom, Constants.BONDCONST);
-					Bond newb5 = new Bond(CBatom, CG1atom, Constants.BONDCONST);
-					Bond newb6 = new Bond(CG1atom, CD2atom, Constants.BONDCONST);
-					Bond newb7 = new Bond(CG1atom, CD1atom, Constants.BONDCONST);
+					Bond newb5 = new Bond(CBatom, CGatom, Constants.BONDCONST);
+					Bond newb6 = new Bond(CGatom, CD2atom, Constants.BONDCONST);
+					Bond newb7 = new Bond(CGatom, CD1atom, Constants.BONDCONST);
 					bonds.add(newb4);
 					bonds.add(newb5);
 					bonds.add(newb6);
 					bonds.add(newb7);
 					CBatom.setAtomType(3);
-					CG1atom.setAtomType(2);
+					CGatom.setAtomType(2);
 					CD2atom.setAtomType(4);
 					CD1atom.setAtomType(4);
 				} else if (restype == 'M') {
@@ -1829,6 +1834,8 @@ public class ProteinStruct {
 							NE1atom = current;
 						} else if (current.getEtype().equals("CE2")) {
 							CE2atom = current;
+						} else if (current.getEtype().equals("CE3")) {
+							CE3atom = current;
 						} else if (current.getEtype().equals("CZ2")) {
 							CZ2atom = current;
 						} else if (current.getEtype().equals("CZ3")) {

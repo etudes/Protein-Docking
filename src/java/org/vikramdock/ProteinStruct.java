@@ -157,7 +157,7 @@ public class ProteinStruct {
 			ex.printStackTrace();
 		}
 	}
-	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double[][][] newsizes, double[][][][] potentials, double[][][][] solvpotentials, double solvEModel, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
+	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double size, double[][][] newsizes, double[][][][] potentials, double[][][][] solvpotentials, double solvEModel, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) {
 		this.parsedsequence = parsedsequence;
 		this.structurea = surface;
 		this.structure = new ImmutableArrayList(this.structurea);
@@ -168,6 +168,7 @@ public class ProteinStruct {
 		this.surfacebackbone = backbone;
 		this.backbonebonds = backbonebonds;
 		this.surfacebackbonebonds = backbonebonds;
+		this.size = size;
 		this.newsizes = newsizes;
 		this.potentials = potentials;
 		this.solvpotentials = solvpotentials;
@@ -2244,7 +2245,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	} 
 	public ProteinStruct transall(double xmov, double ymov, double zmov) {
@@ -2260,7 +2261,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotnew(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) {
@@ -2276,7 +2277,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotnewall(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) {
@@ -2292,7 +2293,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public void printSequence() {

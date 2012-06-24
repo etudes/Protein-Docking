@@ -55,6 +55,7 @@ public class TestCase {
 	}
 	public double score() {
 		score = energyScore();
+		if (score == 0) score = Double.POSITIVE_INFINITY;
 		return score;
 	}
 	public double energyScore() {
@@ -303,6 +304,7 @@ public class TestCase {
 				torsEtot += torsE;
 			}
 		}
+System.out.println(vanDerWaalsEtot + " " + solvEtot + " " + bStretchEtot + " " + aBendEtot + " " + torsEtot);
 		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * solvEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;
 	}

@@ -1,48 +1,13 @@
 DONE WITH DETERMINING SURFACE
-SURFACE TIME TOTAL 6
+SURFACE TIME TOTAL 8
 SURFACE SIZE 0
-java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
-	at java.util.ArrayList.get(ArrayList.java:322)
-	at org.vikramdock.ImmutableArrayList.get(ImmutableArrayList.java:27)
-	at org.vikramdock.ProteinStruct.detBondsBackbone(ProteinStruct.java:560)
-	at org.vikramdock.ProteinStruct.<init>(ProteinStruct.java:146)
-	at org.vikramdock.ProteinDockPredict.benchParse(ProteinDockPredict.java:140)
-	at org.vikramdock.ProteinDockPredict.main(ProteinDockPredict.java:53)
 DONE WITH FIRST PROTEIN
 DONE WITH DETERMINING SURFACE
-SURFACE TIME TOTAL 35733
-SURFACE SIZE 214
-DONE WITH DETERMINING BONDS AND BACKBONE
-DONE WITH DETERMINING POTENTIALS
-POTENTIALS TIME TOTAL 1932
+SURFACE TIME TOTAL 52634
+SURFACE SIZE 181
 DONE WITH SECOND PROTEIN
 TRANSLATED AND ROTATED FIRST PROTEIN
 TRANSLATED AND ROTATED SECOND PROTEIN
 4 NUMTHREAD
-java.lang.ArrayIndexOutOfBoundsException: 10
-	at org.vikramdock.TestCase.energyScore(TestCase.java:83)
-	at org.vikramdock.TestCase.score(TestCase.java:57)
-	at org.vikramdock.TestCaseGenerator.run(TestCaseGenerator.java:42)
-	at java.lang.Thread.run(Thread.java:662)
-java.lang.ArrayIndexOutOfBoundsException: 10
-	at org.vikramdock.TestCase.energyScore(TestCase.java:81)
-	at org.vikramdock.TestCase.score(TestCase.java:57)
-	at org.vikramdock.TestCaseGenerator.run(TestCaseGenerator.java:42)
-	at java.lang.Thread.run(Thread.java:662)
-java.lang.ArrayIndexOutOfBoundsException: 10
-	at org.vikramdock.TestCase.energyScore(TestCase.java:83)
-	at org.vikramdock.TestCase.score(TestCase.java:57)
-	at org.vikramdock.TestCaseGenerator.run(TestCaseGenerator.java:42)
-	at java.lang.Thread.run(Thread.java:662)
-java.lang.ArrayIndexOutOfBoundsException: 10
-	at org.vikramdock.TestCase.energyScore(TestCase.java:81)
-	at org.vikramdock.TestCase.score(TestCase.java:57)
-	at org.vikramdock.TestCaseGenerator.run(TestCaseGenerator.java:42)
-	at java.lang.Thread.run(Thread.java:662)
 MODELS PASSED 0
-38017
-
-real	0m53.627s
-user	0m38.234s
-sys	0m0.132s
+53636
