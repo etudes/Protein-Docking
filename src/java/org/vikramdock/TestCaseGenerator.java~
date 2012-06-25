@@ -44,7 +44,7 @@ public class TestCaseGenerator implements Runnable {
 									//} else {
 									//	next = null;
 									//}
-									if (next.score() <= 100) {
+									if (next.score() <= 0) {
 										pdp.printCase(next);
 									} else {
 										next = null;

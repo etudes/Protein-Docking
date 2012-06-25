@@ -64,7 +64,7 @@ public class ProteinDockPredict{
 		}
 	}
 	public static void main(String[] args) throws IOException {
-		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(args[0].concat("result").concat(args[2].toLowerCase()).concat(".txt"))));
+		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(args[0].concat("result").concat(args[2].toLowerCase()).concat(".pdb"))));
 		benchParse(args[0], args[1], args[2], args[3].toLowerCase(), args[4], args[5].toLowerCase(), args[6], Integer.parseInt(args[7]), out);
 	}
 	public static void PDBParse() {
@@ -257,16 +257,17 @@ public class ProteinDockPredict{
 			for (int i = 0; i < pdp.numthread; i++) {
 				pdp.ths[i].join();
 			}
-			//pdp.printCases();
+			pdp.printCases();
 			long end = System.currentTimeMillis();
 			System.out.println(end - start);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 	}
-	public void printCases() {
-		for (int i = 0; i < Math.min(cases.size(),10); i++) {
+	public void printCases() throws IOException {
+		for (int i = 0; i < Math.min(cases.size(),Constants.NUMCASES); i++) {
 			TestCase current = (TestCase)cases.poll();
+			printCase(current);
 			double score = current.getScore();
 			if (i < 9) {
 				out.println("MODEL        " + (i+1) + " " + score);
@@ -289,7 +290,7 @@ public class ProteinDockPredict{
 	}
 	public synchronized void printCase(TestCase current) throws IOException {
 		counter++;
-		if (counter <= 10000) {
+		if (counter <= 1000) {
 			PrintWriter out1 = new PrintWriter(new BufferedWriter(new FileWriter("result"+id.toLowerCase()+"model"+counter+".txt")));
 			double score = current.getScore();
 			current.printInfo(out1);
