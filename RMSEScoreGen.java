@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2011-2012 Vikram Sundar.
  * All Rights Reserved.
- */
+ */	
 //package org.vikramdock;
 
 import java.io.*;
@@ -15,7 +15,7 @@ public class RMSEScoreGen {
 		for (int i = 1; i <= 10000; i++) {
 			double curscore = -1;
 			double currms = -1;
-			BufferedReader br2 = new BufferedReader(new FileReader(args[1]+"model"+i+".txt"));
+			BufferedReader br2 = new BufferedReader(new FileReader(args[1]+"model"+i+".pdb"));
 			while (true) {
 				String s = br2.readLine();
 				if (s == null) break;

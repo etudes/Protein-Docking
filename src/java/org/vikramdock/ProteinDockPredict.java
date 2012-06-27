@@ -291,7 +291,7 @@ public class ProteinDockPredict{
 	public synchronized void printCase(TestCase current) throws IOException {
 		counter++;
 		if (counter <= 1000) {
-			PrintWriter out1 = new PrintWriter(new BufferedWriter(new FileWriter("result"+id.toLowerCase()+"model"+counter+".txt")));
+			PrintWriter out1 = new PrintWriter(new BufferedWriter(new FileWriter("result"+id.toLowerCase()+"model"+counter+".pdb")));
 			double score = current.getScore();
 			current.printInfo(out1);
 			out1.println("SCORE " + score);
