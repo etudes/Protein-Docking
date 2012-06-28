@@ -1,0 +1,20 @@
+#!/bin/bash
+#time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1AHW 1FGN LH 1TFH A 4
+PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
+for i in $(seq 100) 
+do
+	mkdir /home/vikram/Protein-Docking/tmp
+	mkdir /home/vikram/Protein-Docking/tmp/1
+	mv result1ahwmodel$i.pdb /home/vikram/Protein-Docking/tmp/1/result1ahwmodel$i.pdb
+	for j in $(seq 10)
+	do
+		let "k=${j}+1"
+		mkdir /home/vikram/Protein-Docking/tmp/$k
+		Scwrl4 -i /home/vikram/Protein-Docking/tmp/$j/result1ahwmodel${i}.pdb -o /home/vikram/Protein-Docking/tmp/$k/result1ahwmodel${i}scwrl.pdb
+		#rm /home/vikram/Protein-Docking/tmp/result1ahwmodel$i.pdb
+		/home/vikram/Protein-Docking/kobamin/kobamin.sh /home/vikram/Protein-Docking/tmp/$k/
+		mv /home/vikram/Protein-Docking/tmp/$k/result1ahwmodel${i}scwrl.kb /home/vikram/Protein-Docking/tmp/$k/result1ahwmodel$i.pdb
+	done
+	mv /home/vikram/Protein-Docking/tmp/11/result1ahwmodel$i.pdb /home/vikram/Protein-Docking/result1ahwmodel$i.pdb
+	#rm -rf /home/vikram/Protein-Docking/tmp
+done

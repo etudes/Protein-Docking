@@ -1,0 +1,1140 @@
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/uu/pdb2uuy.ent.gz > 
+  ../pdb/wwpdb/pdb/uu/pdb2uuy.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               08-MAR-07   2UUY
+ TITLE  :     STRUCTURE OF A TICK TRYPTASE INHIBITOR IN COMPLEX WITH
+ TITLE  :    2 BOVINE TRYPSIN
+ KEYWDS :     CALCIUM, ZYMOGEN, PROTEASE, HYDROLASE, DIGESTION, METAL-
+ KEYWDS :    2 BINDING, SERINE PROTEASE, TRYPTASE INHIBITOR
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     C.SIEBOLD,G.C.PAESEN,K.HARLOS,M.F.PEACEY,P.A.NUTTALL,
+ AUTHOR :    2 D.I.STUART
+ REVDAT :    3   24-FEB-09 2UUY    1       VERSN
+ REVDAT :    2   01-MAY-07 2UUY    1       JRNL
+ REVDAT :    1   10-APR-07 2UUY    0
+ CRYST1 :    46.949   67.690   69.068  90.00  90.00  90.00 P 21 21 21    4
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (       6638) 
+ Nr of atoms in molecule    : (       2538) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        512) 
+ Stripped alt. conf. atoms  : (        107) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ Nr of lines read from file : (      18238) 
+ Nr of atoms in molecule    : (      12550) 
+ Nr of chains or models     : (          5) 
+ Stripped hydrogen atoms    : (       5650) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Brute-force fit of M1 A
+ And                M2 A
+ Atom types     | CA |
+ B-factor range used  -1000.00 - 10000.00 A2
+ Fragment length            30
+ Fragment step size         10
+ Sliding step size           2
+ Mol 1 zone to try : (A21-243) 
+ Mol 2 zone to try : (A16-245) 
+ Min matched residues       30
+
+ Try zone : (A21-50) 
+ Max match so far : (          7) 
+ RMSD (A)         : (   2.038) 
+ Max match so far : (         11) 
+ RMSD (A)         : (   1.756) 
+ Max match so far : (         16) 
+ RMSD (A)         : (   2.180) 
+ Max match so far : (         18) 
+ RMSD (A)         : (   2.223) 
+ Try zone : (A31-60) 
+ Try zone : (A41-70) 
+ Max match so far : (        215) 
+ RMSD (A)         : (   0.327) 
+
+ Number of trials : (        208) 
+ Number IMproved  : (         78) 
+
+ Max match : (        215) 
+ RMSD (A)  : (   0.327) 
+ Mol 1 res : (         41) 
+ Mol 2 res : (         38) 
+ Regenerating best alignment ...
+ The    215 atoms have an RMS distance of    0.327 A
+ SI = RMS * Nmin / Nmatch             =      0.33894
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.72678
+ CR = Maiorov-Crippen RHO (0-2)       =      0.02074
+ RR = relative RMSD                   =      0.01929
+ NR = normalised RMSD (100)           =      0.236 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.152 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.071 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.033 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.015 A
+ RMSD / Nalign                        =    0.00152 A
+ RMS delta B for matched atoms        =     9.548 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.23210956 -0.94899905  0.21336812
+                 -0.59560919  0.31209177  0.74016786
+                 -0.76900899  0.04471604 -0.63767201
+ Translation  :      21.6301      5.4456     20.4257
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       2802) 
+ Nr of atoms in molecule    : (       2800) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 E
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        265) 
+ Central atoms mol 2 : (        367) 
+ Min matched residues       30
+ Max number of trials : (       2295) 
+ Max match so far : (         83) 
+ RMSD (A)         : (   1.511) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (         83) 
+ RMSD (A)  : (   1.511) 
+ Regenerating best alignment ...
+ The     83 atoms have an RMS distance of    1.511 A
+ SI = RMS * Nmin / Nmatch             =      4.82402
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.12577
+ CR = Maiorov-Crippen RHO (0-2)       =      0.09064
+ RR = relative RMSD                   =      0.08954
+ NR = normalised RMSD (100)           =      1.666 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.820 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      2.193 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      2.642 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      3.184 A
+ RMSD / Nalign                        =    0.01820 A
+ RMS delta B for matched atoms        =    66.083 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.74029177 -0.15420903 -0.65436047
+                  0.18988480  0.98166734 -0.01652271
+                  0.64491230 -0.11202148  0.75600225
+ Translation  :     -33.6096    148.4217     42.2935
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       2802) 
+ Nr of atoms in molecule    : (       2800) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 E
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        265) 
+ Central atoms mol 2 : (        367) 
+ Min matched residues       30
+ Max number of trials : (       2295) 
+ Max match so far : (         74) 
+ RMSD (A)         : (   0.954) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (         74) 
+ RMSD (A)  : (   0.954) 
+ Regenerating best alignment ...
+ The     74 atoms have an RMS distance of    0.954 A
+ SI = RMS * Nmin / Nmatch             =      3.41729
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.14428
+ CR = Maiorov-Crippen RHO (0-2)       =      0.07056
+ RR = relative RMSD                   =      0.07106
+ NR = normalised RMSD (100)           =      1.123 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.290 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.743 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      2.355 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      3.182 A
+ RMSD / Nalign                        =    0.01290 A
+ RMS delta B for matched atoms        =    67.218 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.68308741 -0.23878747 -0.69019705
+                  0.22135553  0.96827894 -0.11592010
+                  0.69598359 -0.07359537  0.71427613
+ Translation  :     -34.2368    146.2653     41.3039
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       2802) 
+ Nr of atoms in molecule    : (       2800) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 E
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        265) 
+ Central atoms mol 2 : (        367) 
+ Min matched residues       30
+ Max number of trials : (       2295) 
+ Max match so far : (         83) 
+ RMSD (A)         : (   1.511) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (         83) 
+ RMSD (A)  : (   1.511) 
+ Regenerating best alignment ...
+ The     83 atoms have an RMS distance of    1.511 A
+ SI = RMS * Nmin / Nmatch             =      4.82400
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.12577
+ CR = Maiorov-Crippen RHO (0-2)       =      0.09064
+ RR = relative RMSD                   =      0.08954
+ NR = normalised RMSD (100)           =      1.666 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.820 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      2.193 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      2.642 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      3.184 A
+ RMSD / Nalign                        =    0.01820 A
+ RMS delta B for matched atoms        =    66.083 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.74029166  0.65436047 -0.15420902
+                  0.18988489  0.01652263  0.98166722
+                  0.64491224 -0.75600207 -0.11202160
+ Translation  :     -33.6096    148.4217     42.2935
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       2802) 
+ Nr of atoms in molecule    : (       2800) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 E
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        265) 
+ Central atoms mol 2 : (        367) 
+ Min matched residues       30
+ Max number of trials : (       2295) 
+ Max match so far : (         83) 
+ RMSD (A)         : (   1.511) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (         83) 
+ RMSD (A)  : (   1.511) 
+ Regenerating best alignment ...
+ The     83 atoms have an RMS distance of    1.511 A
+ SI = RMS * Nmin / Nmatch             =      4.82399
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.12577
+ CR = Maiorov-Crippen RHO (0-2)       =      0.09064
+ RR = relative RMSD                   =      0.08954
+ NR = normalised RMSD (100)           =      1.666 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.820 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      2.193 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      2.642 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      3.184 A
+ RMSD / Nalign                        =    0.01820 A
+ RMS delta B for matched atoms        =    66.083 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.74029171 -0.65436047  0.15420911
+                  0.18988478 -0.01652286 -0.98166728
+                  0.64491224  0.75600219  0.11202137
+ Translation  :     -33.6096    148.4217     42.2935
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       3007) 
+ Nr of atoms in molecule    : (       3004) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 E
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        265) 
+ Central atoms mol 2 : (        391) 
+ Min matched residues       30
+ Max number of trials : (       2499) 
+ Max match so far : (         75) 
+ RMSD (A)         : (   0.940) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (         75) 
+ RMSD (A)  : (   0.940) 
+ Regenerating best alignment ...
+ The     75 atoms have an RMS distance of    0.940 A
+ SI = RMS * Nmin / Nmatch             =      3.32012
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.14730
+ CR = Maiorov-Crippen RHO (0-2)       =      0.06867
+ RR = relative RMSD                   =      0.06899
+ NR = normalised RMSD (100)           =      1.098 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.253 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.671 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      2.227 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      2.970 A
+ RMSD / Nalign                        =    0.01253 A
+ RMS delta B for matched atoms        =    67.107 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.67505991  0.69792420 -0.23915644
+                  0.20910485  0.12987018  0.96923101
+                  0.70750910 -0.70429784 -0.05826920
+ Translation  :     -34.3458    146.0791     41.0914
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  LSQMAN > 
+
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/uu/pdb2uuy.ent.gz > 
+  ../pdb/wwpdb/pdb/uu/pdb2uuy.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               08-MAR-07   2UUY
+ TITLE  :     STRUCTURE OF A TICK TRYPTASE INHIBITOR IN COMPLEX WITH
+ TITLE  :    2 BOVINE TRYPSIN
+ KEYWDS :     CALCIUM, ZYMOGEN, PROTEASE, HYDROLASE, DIGESTION, METAL-
+ KEYWDS :    2 BINDING, SERINE PROTEASE, TRYPTASE INHIBITOR
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     C.SIEBOLD,G.C.PAESEN,K.HARLOS,M.F.PEACEY,P.A.NUTTALL,
+ AUTHOR :    2 D.I.STUART
+ REVDAT :    3   24-FEB-09 2UUY    1       VERSN
+ REVDAT :    2   01-MAY-07 2UUY    1       JRNL
+ REVDAT :    1   10-APR-07 2UUY    0
+ CRYST1 :    46.949   67.690   69.068  90.00  90.00  90.00 P 21 21 21    4
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (       6638) 
+ Nr of atoms in molecule    : (       2538) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        512) 
+ Stripped alt. conf. atoms  : (        107) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ Nr of lines read from file : (      18238) 
+ Nr of atoms in molecule    : (      12550) 
+ Nr of chains or models     : (          5) 
+ Stripped hydrogen atoms    : (       5650) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Brute-force fit of M1 A
+ And                M2 A
+ Atom types     | CA |
+ B-factor range used  -1000.00 - 10000.00 A2
+ Fragment length            30
+ Fragment step size         10
+ Sliding step size           2
+ Mol 1 zone to try : (A21-243) 
+ Mol 2 zone to try : (A16-245) 
+ Min matched residues       30
+
+ Try zone : (A21-50) 
+ Max match so far : (          7) 
+ RMSD (A)         : (   2.038) 
+ Max match so far : (         11) 
+ RMSD (A)         : (   1.756) 
+ Max match so far : (         16) 
+ RMSD (A)         : (   2.180) 
+ Max match so far : (         18) 
+ RMSD (A)         : (   2.223) 
+ Try zone : (A31-60) 
+ Try zone : (A41-70) 
+ Max match so far : (        215) 
+ RMSD (A)         : (   0.327) 
+
+ Number of trials : (        208) 
+ Number IMproved  : (         78) 
+
+ Max match : (        215) 
+ RMSD (A)  : (   0.327) 
+ Mol 1 res : (         41) 
+ Mol 2 res : (         38) 
+ Regenerating best alignment ...
+ The    215 atoms have an RMS distance of    0.327 A
+ SI = RMS * Nmin / Nmatch             =      0.33894
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.72678
+ CR = Maiorov-Crippen RHO (0-2)       =      0.02074
+ RR = relative RMSD                   =      0.01929
+ NR = normalised RMSD (100)           =      0.236 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.152 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.071 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.033 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.015 A
+ RMSD / Nalign                        =    0.00152 A
+ RMS delta B for matched atoms        =     9.548 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.23210956 -0.94899905  0.21336812
+                 -0.59560919  0.31209177  0.74016786
+                 -0.76900899  0.04471604 -0.63767201
+ Translation  :      21.6301      5.4456     20.4257
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel2.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel3.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel4.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel5.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.2       1.2       0.0
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ CPU total/user/sys :       1.2       1.2       0.0
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  LSQMAN > 
+
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/uu/pdb2uuy.ent.gz > 
+  ../pdb/wwpdb/pdb/uu/pdb2uuy.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               08-MAR-07   2UUY
+ TITLE  :     STRUCTURE OF A TICK TRYPTASE INHIBITOR IN COMPLEX WITH
+ TITLE  :    2 BOVINE TRYPSIN
+ KEYWDS :     CALCIUM, ZYMOGEN, PROTEASE, HYDROLASE, DIGESTION, METAL-
+ KEYWDS :    2 BINDING, SERINE PROTEASE, TRYPTASE INHIBITOR
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     C.SIEBOLD,G.C.PAESEN,K.HARLOS,M.F.PEACEY,P.A.NUTTALL,
+ AUTHOR :    2 D.I.STUART
+ REVDAT :    3   24-FEB-09 2UUY    1       VERSN
+ REVDAT :    2   01-MAY-07 2UUY    1       JRNL
+ REVDAT :    1   10-APR-07 2UUY    0
+ CRYST1 :    46.949   67.690   69.068  90.00  90.00  90.00 P 21 21 21    4
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (       6638) 
+ Nr of atoms in molecule    : (       2538) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        512) 
+ Stripped alt. conf. atoms  : (        107) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ Nr of lines read from file : (      18238) 
+ Nr of atoms in molecule    : (      12550) 
+ Nr of chains or models     : (          5) 
+ Stripped hydrogen atoms    : (       5650) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Brute-force fit of M1 A
+ And                M2 A
+ Atom types     | CA |
+ B-factor range used  -1000.00 - 10000.00 A2
+ Fragment length            30
+ Fragment step size         10
+ Sliding step size           2
+ Mol 1 zone to try : (A21-243) 
+ Mol 2 zone to try : (A16-245) 
+ Min matched residues       30
+
+ Try zone : (A21-50) 
+ Max match so far : (          7) 
+ RMSD (A)         : (   2.038) 
+ Max match so far : (         11) 
+ RMSD (A)         : (   1.756) 
+ Max match so far : (         16) 
+ RMSD (A)         : (   2.180) 
+ Max match so far : (         18) 
+ RMSD (A)         : (   2.223) 
+ Try zone : (A31-60) 
+ Try zone : (A41-70) 
+ Max match so far : (        215) 
+ RMSD (A)         : (   0.327) 
+
+ Number of trials : (        208) 
+ Number IMproved  : (         78) 
+
+ Max match : (        215) 
+ RMSD (A)  : (   0.327) 
+ Mol 1 res : (         41) 
+ Mol 2 res : (         38) 
+ Regenerating best alignment ...
+ The    215 atoms have an RMS distance of    0.327 A
+ SI = RMS * Nmin / Nmatch             =      0.33894
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.72678
+ CR = Maiorov-Crippen RHO (0-2)       =      0.02074
+ RR = relative RMSD                   =      0.01929
+ NR = normalised RMSD (100)           =      0.236 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.152 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.071 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.033 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.015 A
+ RMSD / Nalign                        =    0.00152 A
+ RMS delta B for matched atoms        =     9.548 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.23210956 -0.94899905  0.21336812
+                 -0.59560919  0.31209177  0.74016786
+                 -0.76900899  0.04471604 -0.63767201
+ Translation  :      21.6301      5.4456     20.4257
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel2.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel3.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel4.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel5.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/i9/pdb2i9b.ent.gz > 
+  ../pdb/wwpdb/pdb/i9/pdb2i9b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               05-SEP-06   2I9B
+ TITLE  :     CRYSTAL STRUCTURE OF ATF-UROKINASE RECEPTOR COMPLEX
+ KEYWDS :     UROKINASE RECEPTOR, KRINGLE DOMAIN, GROWTH FACTOR-LIKE DOMAIN,
+ KEYWDS :    2 HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.LUBKOWSKI,C.BARINKA
+ REVDAT :    4   13-JUL-11 2I9B    1       VERSN
+ REVDAT :    3   24-FEB-09 2I9B    1       VERSN
+ REVDAT :    2   09-JAN-07 2I9B    1       JRNL
+ REVDAT :    1   02-JAN-07 2I9B    0
+ CRYST1 :    62.914  281.921   62.811  90.00 105.41  90.00 P 1 21 1      8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |F| becomes chain J
+ Old chain |G| becomes chain K
+ Old chain |H| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Nr of lines read from file : (      13477) 
+ Nr of atoms in molecule    : (      11892) 
+ Nr of chains or models     : (         19) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        196) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.2       1.2       0.0
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2i9bmodel6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ CPU total/user/sys :       1.2       1.2       0.0
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  LSQMAN > 
+
