@@ -1,0 +1,50 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1AVX 1QQU A 1BA7 B 4
+cd /home/vikram/Protein-Docking/usf_export/lsqman
+for i in $(seq 1000)
+do
+	echo -e "re m1 ../../pdb.unzipped/wwpdb/pdb/av/pdb1avx.ent \n re m2 ../../result1avxmodel$i.txt \n ex m1 \"a1-276 b1-99 c1-9 d1-120\" m2 \"a1-276 b1-99 c1-9 d1-120\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+done
+echo -e "\n qu" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+./lsqman < /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermstmp1avx.txt
+rm /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+cd /home/vikram/Protein-Docking
+java RMSEScoreGen /home/vikram/Protein-Docking/scorermstmp1avx.txt /home/vikram/Protein-Docking/result1avx /home/vikram/Protein-Docking/scorerms1avx.txt
+#for i in $(seq 1000) 
+#do
+	#rm /home/vikram/Protein-Docking/result1avxmodel$i.txt
+#done
+PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
+for i in $(seq 10) 
+do
+	mkdir /home/vikram/Protein-Docking/tmp
+	mkdir /home/vikram/Protein-Docking/tmp/1
+	mv result1avxmodel$i.pdb /home/vikram/Protein-Docking/tmp/1/result1avxmodel$i.pdb
+	for j in $(seq 10)
+	do
+		let "k=${j}+1"
+		mkdir /home/vikram/Protein-Docking/tmp/$k
+		Scwrl4 -i /home/vikram/Protein-Docking/tmp/$j/result1avxmodel${i}.pdb -o /home/vikram/Protein-Docking/tmp/$k/result1avxmodel${i}scwrl.pdb
+		#rm /home/vikram/Protein-Docking/tmp/result1avxmodel$i.pdb
+		/home/vikram/Protein-Docking/kobamin/kobamin.sh /home/vikram/Protein-Docking/tmp/$k/
+		mv /home/vikram/Protein-Docking/tmp/$k/result1avxmodel${i}scwrl.kb /home/vikram/Protein-Docking/tmp/$k/result1avxmodel$i.pdb
+	done
+	mv /home/vikram/Protein-Docking/tmp/11/result1avxmodel$i.pdb /home/vikram/Protein-Docking/result1avxmodel$i.pdb
+	#rm -rf /home/vikram/Protein-Docking/tmp
+done
+for i in $(seq 10)
+do
+	echo -e "re m1 /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/av/pdb1avx.ent \n re m2 /home/vikram/Protein-Docking/result1avxmodel$i.pdb \n ex m1 \"a1-276 b1-99 c1-9 d1-120\" m2 \"a1-276 b1-99 c1-9 d1-120\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2 \n" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+done
+echo -e "\n qu" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+/home/vikram/Protein-Docking/usf_export/lsqman/lsqman < /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermsitertmp1avx.txt
+rm /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+java RMSEScoreGen /home/vikram/Protein-Docking/scorermsitertmp1avx.txt /home/vikram/Protein-Docking/result1avx /home/vikram/Protein-Docking/scorermsiter1avx.txt
+#for i in $(seq 100) 
+#do
+#	rm /home/vikram/Protein-Docking/result1avxmodel$i.pdb
+#done	
