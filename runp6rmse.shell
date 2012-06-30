@@ -3,21 +3,21 @@
 # * Copyright (c) 2011-2012 Vikram Sundar.
 # * All Rights Reserved.
 # */
-for i in 1ahw_abc 1bvk_def 1dqj_abc 1e6j_hlp 1jps_hlt 1mlc_abe 1vfb_abc 1wej_hlf 2fd6_hlu 2i25_nl 2vis_abc 1bj1_hlvw 1fsk_bca 1i9r_hlabc 1iqd_abc 1k4c_abc 1kxq_ha 1nca_hln 1nsn_hls 1qfw_hlab 1qfw_imab 2jel_hlp 1avx_ab 1ay7_ab 1bvn_pt 1cgi_ei 1clv_ai 1d6r_ai 1dfj_ei 1e6e_ab
+for i in 2h7v_ac 2hrk_ab 2j7p_ad 2nz8_ab 2oza_ba 2z0e_ab 3cph_ga 1e4k_abc 2hmi_cdab 1f6m_ac 1fq1_ab 1pxv_ac 1zli_ab 2o3b_ab 1atn_ad 1bkd_rs 1de4_abcf 1eer_abc 1fak_hlt 1h1v_ag 1ibr_ab 1ira_yx 1jk9_ba 1jmo_ahl 1jzd_abc 1r8s_ae 1y64_ab 1zm4_ab 2c0l_ab 
 do
 	echo "\n Result for $i" >> /home/vikram/Protein-Docking/p6resultstmp.txt
 	cd /home/vikram/Protein-Docking/
 	java BenchParser ${i:0:4}
-	cd /home/vikram/Protein-Docking/usf_export/lsqman
-	for j in 1 2 3 4 5
+	cd /home/vikram/Protein-Docking/bin32
+	for j in 2 3 4 5 6
 	do
-		echo -e "$ gunzip -c ../../pdb/wwpdb/pdb/${i:1:2}/pdb${i:0:4}.ent.gz > ../../pdb/wwpdb/pdb/${i:1:2}/pdb${i:0:4}.ent \n re m1 ../../pdb/wwpdb/pdb/${i:1:2}/pdb${i:0:4}.ent \n re m2 ../../result${i:0:4}.txt \n brute m1 ${i:5} m2 ${i:5} 30 10 30 d 2 \n de m1 \n de m2" > /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+		echo -e "$ gunzip -c ../pdb/wwpdb/pdb/${i:1:2}/pdb${i:0:4}.ent.gz > ../pdb/wwpdb/pdb/${i:1:2}/pdb${i:0:4}.ent \n re m1 ../pdb/wwpdb/pdb/${i:1:2}/pdb${i:0:4}.ent \n re m2 ../result${i:0:4}model$j.txt \n fa m1 ${i:5} m2 ${i:5} 100 10 30 d 2 \n de m1 \n de m2" > /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
 	done
-    ./lsqman < /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp >> /home/vikram/Protein-Docking/p6resultstmp.txt
+    ./lsqman < /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp >> /home/vikram/Protein-Docking/p6resultstmp.txt
     cd /home/vikram/Protein-Docking
     java RMSECleaner 6
     rm /home/vikram/Protein-Docking/p6resultstmp.txt
-    for j in 1 2 3 4 5
+    for j in 1 2 3 4 5 6
     do
     	rm /home/vikram/Protein-Docking/result${i:0:4}model$j.txt
 	done
