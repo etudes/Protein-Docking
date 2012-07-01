@@ -78,7 +78,7 @@ public class TestCase {
 			double vanDerWaalsE = 0;
 			double solvE = 0;
 			double ps1size = ps1.getSize();
-			double[] rotatedcoords = deRotate(cx, cy, cz, alphamov, betamov, gammamov); 
+			double[] rotatedcoords = deRotate(cx, cy, cz, alphamov, betamov, gammamov);
 			if (Math.abs(rotatedcoords[0]) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[1]) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[2]) < ps1size + Constants.VDWDISTTHRESHOLD) {
 				int tx = (int)((round(rotatedcoords[0], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				int ty = (int)((round(rotatedcoords[1], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
@@ -304,7 +304,6 @@ public class TestCase {
 				torsEtot += torsE;
 			}
 		}
-System.out.println(vanDerWaalsEtot + " " + solvEtot + " " + bStretchEtot + " " + aBendEtot + " " + torsEtot);
 		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * solvEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;
 	}

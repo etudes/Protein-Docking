@@ -11,7 +11,7 @@ import java.lang.*;
 import java.lang.reflect.*;
 
 public class Constants {
-	public static final int NUMCASES = 10;
+	public static final int NUMCASES = 1000;
 	public static final double FPPRECISION = Math.pow(10,-9);
 	public static final double ALPHAINC = Math.PI/180*15;
 	public static final double BETAINC = Math.PI/180*15;

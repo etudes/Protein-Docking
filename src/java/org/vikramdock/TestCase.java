@@ -79,7 +79,7 @@ public class TestCase {
 			double solvE = 0;
 			double ps1size = ps1.getSize();
 			double[] rotatedcoords = deRotate(cx, cy, cz, alphamov, betamov, gammamov);
-			if (Math.abs(rotatedcoords[0]) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[1]) < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[2]) < ps1size + Constants.VDWDISTTHRESHOLD) {
+			if (Math.abs(rotatedcoords[0]) + Constants.GRIDGRAINSIZE < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[1]) + Constants.GRIDGRAINSIZE < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[2]) + Constants.GRIDGRAINSIZE < ps1size + Constants.VDWDISTTHRESHOLD) {
 				int tx = (int)((round(rotatedcoords[0], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				int ty = (int)((round(rotatedcoords[1], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				int tz = (int)((round(rotatedcoords[2], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);

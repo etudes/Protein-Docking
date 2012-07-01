@@ -22,7 +22,7 @@ public class Constants {
 	public static final double GRIDGRAINSIZE = 1;
 	public static final double SURFACESIZE = 1;
 	public static final double SURFACETHRESHOLD = 0.5;
-	public static final double ETHRESHOLD = 100;
+	public static final double ETHRESHOLD = 10000;
 	public static final double VDWDISTTHRESHOLD = 5;
 	public static final double BONDDISTHRES = 5;
 	public static final double BONDCONST = 1;
