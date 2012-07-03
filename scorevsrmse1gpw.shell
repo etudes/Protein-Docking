@@ -7,7 +7,7 @@ time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/
 cd /home/vikram/Protein-Docking/usf_export/lsqman
 for i in $(seq 1000)
 do
-	echo -e "re m1 ../../pdb.unzipped/wwpdb/pdb/gp/pdb1gpw.ent \n re m2 ../../result1gpwmodel$i.pdb \n ex m1 \"a1-253 b1-201\" m2 \"a1-253 b1-201\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+	echo -e "re m1 ../../pdb.unzipped/wwpdb/pdb/gp/pdb1gpw.ent \n re m2 ../../result1gpwmodel$i.pdb \n ex m1 \"a1-253 b1-201\" m2 \"a1-253 b301-500\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
 done
 echo -e "\n qu" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
 ./lsqman < /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermstmp1gpw.txt
@@ -38,7 +38,7 @@ do
 done
 for i in $(seq 10)
 do
-	echo -e "re m1 /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/gp/pdb1gpw.ent \n re m2 /home/vikram/Protein-Docking/result1gpwmodel$i.pdb \n ex m1 \"a1-253 b1-201\" m2 \"a1-253 b1-201\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2 \n" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+	echo -e "re m1 /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/gp/pdb1gpw.ent \n re m2 /home/vikram/Protein-Docking/result1gpwmodel$i.pdb \n ex m1 \"a1-253 b1-201\" m2 \"a1-253 b301-500\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2 \n" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
 done
 echo -e "\n qu" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
 /home/vikram/Protein-Docking/usf_export/lsqman/lsqman < /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermsitertmp1gpw.txt
