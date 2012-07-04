@@ -65,6 +65,7 @@ public class PsuedoTestCase {
 			double solvE = 0;
 			double ps1size = ps1.getSize();
 			double[] rotatedcoords = {cx, cy, cz};
+System.out.println(ps1size + " " + rotatedcoords[0]);
 			if (Math.abs(rotatedcoords[0]) + Constants.GRIDGRAINSIZE < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[1]) + Constants.GRIDGRAINSIZE < ps1size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[2]) + Constants.GRIDGRAINSIZE < ps1size + Constants.VDWDISTTHRESHOLD) {
 				int tx = (int)((round(rotatedcoords[0], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				int ty = (int)((round(rotatedcoords[1], Constants.GRIDGRAINSIZE) + round(ps1size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
@@ -135,7 +136,7 @@ System.out.println(vanDerWaalsE);
 			double cz = current.getZcoord();
 			double solvE = 0;
 			double ps2size = ps2.getSize();
-			double[] rotatedcoords = {cx, cy, cz}; 
+			double[] rotatedcoords = {cx, cy, cz};
 			if (Math.abs(rotatedcoords[0]) < ps2size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[1]) < ps2size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[2]) < ps2size + Constants.VDWDISTTHRESHOLD) {
 				int tx = (int)((round(rotatedcoords[0], Constants.GRIDGRAINSIZE) + round(ps2size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				int ty = (int)((round(rotatedcoords[1], Constants.GRIDGRAINSIZE) + round(ps2size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
