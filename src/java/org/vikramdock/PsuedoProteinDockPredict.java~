@@ -24,7 +24,7 @@ public class PsuedoProteinDockPredict{
 		System.out.println(tc.getScore());
 	}
 	public static void main(String[] args) throws IOException {
-		nativeParse(args[0], args[1], args[2].toLowerCase(), args[3], args[4]);
+		nativeParse(args[0], args[1], args[2], args[3], args[4]);
 	}
 	public static void nativeParse(String sourcepath, String pdbpath, String complex, String chain1, String chain2) throws IOException {
 		try {

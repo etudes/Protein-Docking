@@ -530,7 +530,6 @@ System.out.println(surface.size());
 			trcurrent.setCartesian();
 			newstructure.add(trcurrent);
 		}
-System.out.println("SIZE " + size);
 		ArrayList done = new ArrayList<Atom>();
 		for (double i = Constants.ALPHAINC/2; i < 2*Math.PI; i += Constants.ALPHAINC) {
 			for (double j = Constants.BETAINC/2; j < 2*Math.PI; j += Constants.BETAINC) {
@@ -546,7 +545,6 @@ System.out.println("SIZE " + size);
 							maxnum = Math.max(current.getXcoord(), maxnum);
 						}
 					}
-System.out.println("MAXNUM " + maxnum);
 					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k-Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
 					if (maxnum/size >= Constants.SURFACETHRESHOLD) {
 						for (int l = 0; l < worked.size(); l++) {
