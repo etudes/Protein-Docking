@@ -352,7 +352,6 @@ public class Atom {
 		double ycoordc = ycoordb + ycent;
 		double zcoordc = zcoordb + zcent;
 		Atom answer = new Atom(xcoordc, ycoordc, zcoordc, element, resnum, atomnum, chainnum, eType, bonded, AA, atomtype);
-		long end = System.currentTimeMillis();
 		return answer;
 	}
 	public double distance(Atom other) {

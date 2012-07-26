@@ -527,6 +527,8 @@ System.out.println(surface.size());
 			Atom trcurrent = current.transAtom(-xcoordcent, -ycoordcent, -zcoordcent);
 			trcurrent.setSpherical();
 			size = Math.max(size, trcurrent.getXcoord());
+System.out.println("SIZE " + size);
+trcurrent.printAtom();
 			trcurrent.setCartesian();
 			newstructure.add(trcurrent);
 		}
@@ -543,18 +545,19 @@ System.out.println("SIZE " + size);
 						test.setSpherical();
 						if (Math.abs(test.getYcoord()) <= Constants.ALPHAINC/2 && Math.abs(Math.PI/2 - test.getZcoord()) <= Constants.BETAINC/2) {
 							worked.add(current);
-							maxnum = Math.max(current.getXcoord(), maxnum);
+							maxnum = Math.max(test.getXcoord(), maxnum);
 						}
 					}
 System.out.println("MAXNUM " + maxnum);
 					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k-Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
 					if (maxnum/size >= Constants.SURFACETHRESHOLD) {
+System.out.println("HERE");						
 						for (int l = 0; l < worked.size(); l++) {
 							Atom thisa = (Atom)worked.get(l);
 							Atom current = thisa.transAtom(xcoordcent, ycoordcent, zcoordcent);
-							current.setSpherical();
-							if (maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE && !done.contains(thisa)) {
-								current.setCartesian();
+							thisa.setSpherical();
+							if (maxnum - thisa.getXcoord() <= 2*Constants.SURFACESIZE && !done.contains(thisa)) {
+								thisa.setCartesian();
 								surface.add(current);
 								done.add(thisa);
 							}
