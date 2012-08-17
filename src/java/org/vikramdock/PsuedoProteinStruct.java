@@ -141,7 +141,6 @@ public class PsuedoProteinStruct {
 			structure = new ImmutableArrayList(structurea);
 			long beforeS = System.currentTimeMillis();
 			determineSurfaceNew();
-System.out.println(surface.size());
 			long afterS = System.currentTimeMillis();
 			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
 			solvpotentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][17];
@@ -527,12 +526,9 @@ System.out.println(surface.size());
 			Atom trcurrent = current.transAtom(-xcoordcent, -ycoordcent, -zcoordcent);
 			trcurrent.setSpherical();
 			size = Math.max(size, trcurrent.getXcoord());
-System.out.println("SIZE " + size);
-trcurrent.printAtom();
 			trcurrent.setCartesian();
 			newstructure.add(trcurrent);
 		}
-System.out.println("SIZE " + size);
 		ArrayList done = new ArrayList<Atom>();
 		for (double i = Constants.ALPHAINC/2; i < 2*Math.PI; i += Constants.ALPHAINC) {
 			for (double j = Constants.BETAINC/2; j < 2*Math.PI; j += Constants.BETAINC) {
@@ -548,10 +544,8 @@ System.out.println("SIZE " + size);
 							maxnum = Math.max(test.getXcoord(), maxnum);
 						}
 					}
-System.out.println("MAXNUM " + maxnum);
 					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k-Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
-					if (maxnum/size >= Constants.SURFACETHRESHOLD) {
-System.out.println("HERE");						
+					if (maxnum/size >= Constants.SURFACETHRESHOLD) {			
 						for (int l = 0; l < worked.size(); l++) {
 							Atom thisa = (Atom)worked.get(l);
 							Atom current = thisa.transAtom(xcoordcent, ycoordcent, zcoordcent);

@@ -119,7 +119,8 @@ public class PsuedoTestCase {
 					vanDerWaalsE = potentials[tx][ty][tz][4];
 				}
 			}
-System.out.println(vanDerWaalsE);
+System.out.println(vanDerWaalsE + " VDW");
+System.out.println(solvE + " SOLV");
 			if (vanDerWaalsE > Constants.ETHRESHOLD || solvE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
@@ -135,7 +136,7 @@ System.out.println(vanDerWaalsE);
 			double cz = current.getZcoord();
 			double solvE = 0;
 			double ps2size = ps2.getSize();
-			double[] rotatedcoords = {cx, cy, cz}; 
+			double[] rotatedcoords = {cx, cy, cz};
 			if (Math.abs(rotatedcoords[0]) < ps2size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[1]) < ps2size + Constants.VDWDISTTHRESHOLD && Math.abs(rotatedcoords[2]) < ps2size + Constants.VDWDISTTHRESHOLD) {
 				int tx = (int)((round(rotatedcoords[0], Constants.GRIDGRAINSIZE) + round(ps2size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
 				int ty = (int)((round(rotatedcoords[1], Constants.GRIDGRAINSIZE) + round(ps2size, Constants.GRIDGRAINSIZE) + Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE);
@@ -291,7 +292,7 @@ System.out.println(vanDerWaalsE);
 				torsEtot += torsE;
 			}
 		}
-		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * solvEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
+		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * (ps1.getSolvEModel() + ps2.getSolvEModel() - solvEtot) + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;
 	}
 	public PsuedoProteinStruct getPS1() {

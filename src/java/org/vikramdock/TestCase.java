@@ -304,7 +304,7 @@ public class TestCase {
 				torsEtot += torsE;
 			}
 		}
-		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * solvEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
+		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * (ps1.getSolvEModel() + ps2.getSolvEModel() - solvEtot) + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;
 	}
 	public double getRmov() {

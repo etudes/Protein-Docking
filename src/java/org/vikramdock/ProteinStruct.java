@@ -546,7 +546,7 @@ public class ProteinStruct {
 						test.setSpherical();
 						if (Math.abs(test.getYcoord()) <= Constants.ALPHAINC/2 && Math.abs(Math.PI/2 - test.getZcoord()) <= Constants.BETAINC/2) {
 							worked.add(current);
-							maxnum = Math.max(current.getXcoord(), maxnum);
+							maxnum = Math.max(test.getXcoord(), maxnum);
 						}
 					}
 					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k-Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
@@ -554,9 +554,9 @@ public class ProteinStruct {
 						for (int l = 0; l < worked.size(); l++) {
 							Atom thisa = (Atom)worked.get(l);
 							Atom current = thisa.transAtom(xcoordcent, ycoordcent, zcoordcent);
-							current.setSpherical();
-							if (maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE && !done.contains(thisa)) {
-								current.setCartesian();
+							thisa.setSpherical();
+							if (maxnum - thisa.getXcoord() <= 2*Constants.SURFACESIZE && !done.contains(thisa)) {
+								thisa.setCartesian();
 								surface.add(current);
 								done.add(thisa);
 							}

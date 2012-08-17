@@ -15,13 +15,15 @@ public class PsuedoProteinDockPredict{
 	PsuedoProteinStruct ps2;
 	PrintWriter out;
 	int counter = 0;
-	String id;
-	public PsuedoProteinDockPredict(PsuedoProteinStruct ps1, PsuedoProteinStruct ps2) {
+	public PsuedoProteinDockPredict(PsuedoProteinStruct ps1, PsuedoProteinStruct ps2, String complex) throws IOException {
 		this.ps1 = ps1;
 		this.ps1 = ps2;
 		this.out = out;
 		PsuedoTestCase tc = new PsuedoTestCase(ps1, ps2);
-		System.out.println(tc.getScore());
+		out = new PrintWriter(new BufferedWriter(new FileWriter(complex + "native.txt")));
+		out.println(tc.getScore());
+		out.flush();
+		out.close();
 	}
 	public static void main(String[] args) throws IOException {
 		nativeParse(args[0], args[1], args[2].toLowerCase(), args[3], args[4]);
@@ -86,10 +88,8 @@ public class PsuedoProteinDockPredict{
 			prot1.close();
 			prot2.close();
 			PsuedoProteinStruct ps1 = new PsuedoProteinStruct(sourcepath.concat("firstprot.txt"));
-			System.out.println("DONE WITH FIRST PROTEIN");
 			PsuedoProteinStruct ps2 = new PsuedoProteinStruct(sourcepath.concat("secondprot.txt"));
-			System.out.println("DONE WITH SECOND PROTEIN");
-			PsuedoProteinDockPredict pdp = new PsuedoProteinDockPredict(ps1, ps2);
+			PsuedoProteinDockPredict pdp = new PsuedoProteinDockPredict(ps1, ps2, complex);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}

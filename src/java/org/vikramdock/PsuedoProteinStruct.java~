@@ -530,7 +530,6 @@ System.out.println(surface.size());
 			trcurrent.setCartesian();
 			newstructure.add(trcurrent);
 		}
-System.out.println("SIZE " + size);
 		ArrayList done = new ArrayList<Atom>();
 		for (double i = Constants.ALPHAINC/2; i < 2*Math.PI; i += Constants.ALPHAINC) {
 			for (double j = Constants.BETAINC/2; j < 2*Math.PI; j += Constants.BETAINC) {
@@ -543,18 +542,17 @@ System.out.println("SIZE " + size);
 						test.setSpherical();
 						if (Math.abs(test.getYcoord()) <= Constants.ALPHAINC/2 && Math.abs(Math.PI/2 - test.getZcoord()) <= Constants.BETAINC/2) {
 							worked.add(current);
-							maxnum = Math.max(current.getXcoord(), maxnum);
+							maxnum = Math.max(test.getXcoord(), maxnum);
 						}
 					}
-System.out.println("MAXNUM " + maxnum);
 					newsizes[(int)((i-Constants.ALPHAINC/2)*(1/Constants.ALPHAINC))][(int)((j-Constants.BETAINC/2)*(1/Constants.BETAINC))][(int)((k-Constants.GAMMAINC/2)*(1/Constants.GAMMAINC))] = maxnum;
-					if (maxnum/size >= Constants.SURFACETHRESHOLD) {
+					if (maxnum/size >= Constants.SURFACETHRESHOLD) {			
 						for (int l = 0; l < worked.size(); l++) {
 							Atom thisa = (Atom)worked.get(l);
 							Atom current = thisa.transAtom(xcoordcent, ycoordcent, zcoordcent);
-							current.setSpherical();
-							if (maxnum - current.getXcoord() <= 2*Constants.SURFACESIZE && !done.contains(thisa)) {
-								current.setCartesian();
+							thisa.setSpherical();
+							if (maxnum - thisa.getXcoord() <= 2*Constants.SURFACESIZE && !done.contains(thisa)) {
+								thisa.setCartesian();
 								surface.add(current);
 								done.add(thisa);
 							}
@@ -2121,6 +2119,8 @@ System.out.println("MAXNUM " + maxnum);
 							} else if (cel == 'S' && ctype == 1) {
 								eDens = 2.*Constants.Solv_Gfree_SH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_S)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							}
+System.out.println(distance + " " + 2.*Constants.Solv_Gfree_CH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.)));
+if (eDens != 0) System.out.println(eDens);
 							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][0] += eDens*Constants.Solv_V_C;
 							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][1] += eDens*Constants.Solv_V_CR;
 							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][2] += eDens*Constants.Solv_V_CH1E;

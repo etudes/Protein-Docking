@@ -163,7 +163,6 @@ public class ProteinDockPredict{
 			out.println("DONE WITH SECOND PROTEIN");
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
 			pdp.numthread = numthread;
-			out.println(pdp.numthread + " NUMTHREAD");
 			pdp.id = id;
 			pdp.genTestCases();
 			for (int i = 0; i < pdp.numthread; i++) {
@@ -252,7 +251,6 @@ public class ProteinDockPredict{
 			System.out.println("DONE WITH SECOND PROTEIN");
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
 			pdp.numthread = Integer.parseInt(br.readLine());
-			System.out.println(pdp.numthread + " NUMTHREAD");
 			pdp.genTestCases();
 			for (int i = 0; i < pdp.numthread; i++) {
 				pdp.ths[i].join();

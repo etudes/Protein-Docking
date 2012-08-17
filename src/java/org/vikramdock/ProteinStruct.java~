@@ -2040,7 +2040,6 @@ public class ProteinStruct {
 			double cz = current.getZcoord();
 			char cel = current.getElement();
 			int ctype = current.getAtomType();
-			long start = System.currentTimeMillis();
 			for (double j = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(xcoordcent, Constants.GRIDGRAINSIZE); j < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(xcoordcent, Constants.GRIDGRAINSIZE); j += Constants.GRIDGRAINSIZE) {
 				for (double k = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(ycoordcent, Constants.GRIDGRAINSIZE); k < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(ycoordcent, Constants.GRIDGRAINSIZE); k += Constants.GRIDGRAINSIZE) {
 					for (double l = -round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(zcoordcent, Constants.GRIDGRAINSIZE); l < round(size, Constants.GRIDGRAINSIZE) - Constants.VDWDISTTHRESHOLD + round(zcoordcent, Constants.GRIDGRAINSIZE); l += Constants.GRIDGRAINSIZE) {

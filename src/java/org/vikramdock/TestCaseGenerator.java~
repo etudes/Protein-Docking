@@ -39,7 +39,7 @@ public class TestCaseGenerator implements Runnable {
 									out.println(i + " " + j + " " + k + " " + alpha + " " + beta + " " + gamma);
 									out.flush();
 									TestCase next = new TestCase(ps1, ps2, i, j, k, alpha, beta, gamma);
-									if (next.score() != Double.POSITIVE_INFINITY) {
+									if (next.getScore() != Double.POSITIVE_INFINITY && next.getScore() != Double.NaN) {
 										pdp.add(next);
 									} else {
 										next = null;
