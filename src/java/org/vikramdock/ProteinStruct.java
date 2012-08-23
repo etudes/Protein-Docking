@@ -23,6 +23,8 @@ public class ProteinStruct {
 	private String[] parsedsequence = new String[50];
 	private HashMap chaintranslator;
 	private HashMap reversechaintrans;
+	private HashMap chaintranslator2;
+	private HashMap reversechaintrans2;
 	private HashMap translator1;
 	private HashMap translator2;
 	private HashMap translator3;
@@ -39,7 +41,7 @@ public class ProteinStruct {
 	private double[][][][] potentials;
 	private double[][][][] solvpotentials;
 	private double solvEModel;
-	public ProteinStruct(String filepath, PrintWriter out) {
+	public ProteinStruct(String filepath, PrintWriter out, HashMap chaintranslator2, HashMap reversechaintrans2) {
 		try {
 			chaintranslator = new HashMap();
 			structurea = new ArrayList<Atom>();
@@ -137,6 +139,8 @@ public class ProteinStruct {
 			translator4.put("Y","TYR");
 			this.filepath = filepath;
 			this.out = out;
+			this.chaintranslator2 = chaintranslator2;
+			this.reversechaintrans2 = reversechaintrans2;
 			rotated = false;
 			parseSequence(filepath);
 			parseStructure(filepath);
@@ -278,7 +282,10 @@ public class ProteinStruct {
 		translator2 = new HashMap();
 		translator3 = new HashMap();
 		translator4 = new HashMap();
+		chaintranslator = new HashMap();
 		reversechaintrans = new HashMap();
+		chaintranslator2 = new HashMap();
+		reversechaintrans2 = new HashMap();
 		structure = new ImmutableArrayList(clone.getStructure());
 		ArrayList clonestructa = clone.getSurface();
 		for (int i = 0; i < clonestructa.size(); i++) {
@@ -460,9 +467,7 @@ public class ProteinStruct {
 	}
 	public void parseStructure(String filepath) throws Exception {
 		try {
-			FileInputStream fis = new FileInputStream(filepath);
-			InputStreamReader isr = new InputStreamReader(fis);
-			BufferedReader br = new BufferedReader(isr);
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filepath)));
 			ArrayList<String> structraw = new ArrayList<String>();
 			int structcount = 0;
 			while(true) {
@@ -490,10 +495,10 @@ public class ProteinStruct {
 				char element = ' ';
 				if (catom.length() > 77) {
 					element = catom.charAt(77);
-				}				
+				}
 				int resnum = Integer.parseInt(removeSpace(catom.substring(22,26)));
 				int atomnum = Integer.parseInt(removeSpace(catom.substring(6,11)));
-				char chainnum = catom.charAt(21);
+				char chainnum = chaintranslator2.get(catom.charAt(21)).toString().charAt(0);
 				String eType = removeSpace(catom.substring(12,16));
 				String AA = removeSpace(catom.substring(17,20));
 				if (element == ' ') {
@@ -615,7 +620,7 @@ public class ProteinStruct {
 			backbonebonds.add(newb1);
 			backbonebonds.add(newb2);
 			CatomLast = Catom;
-			restype = parsedsequence[Integer.parseInt(chaintranslator.get(CAatom.getChainnum()).toString())].charAt(resnum - 1);
+			restype = parsedsequence[Integer.parseInt(chaintranslator.get(reversechaintrans2.get(CAatom.getChainnum())).toString())].charAt(resnum - 1);
 			AminoAcid.remove(Catom);
 			AminoAcid.remove(CAatom);
 			AminoAcid.remove(Natom);
@@ -1301,7 +1306,7 @@ public class ProteinStruct {
 				backbonebonds.add(newb1);
 				backbonebonds.add(newb2);
 				CatomLast = Catom;
-				restype = parsedsequence[Integer.parseInt(chaintranslator.get(CAatom.getChainnum()).toString())].charAt(resnum - 1);
+				restype = parsedsequence[Integer.parseInt(chaintranslator.get(reversechaintrans2.get(CAatom.getChainnum())).toString())].charAt(resnum - 1);
 				AminoAcid.remove(Catom);
 				AminoAcid.remove(CAatom);
 				AminoAcid.remove(Natom);
