@@ -21,14 +21,7 @@ public class ProteinDockPredict{
 	Thread[] ths;
 	int counter = 0;
 	String id;
-	public ProteinDockPredict(String file1, String file2) {
-		ps1 = new ProteinStruct(file1, null);
-		ps2 = new ProteinStruct(file2, null);
-		TestCaseComparator tcc = new TestCaseComparator();
-		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
-		ps1 = ps1.trans(-ps1.getXCoordCent(), -ps1.getYCoordCent(), -ps1.getZCoordCent());
-		ps2 = ps2.trans(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent());
-	}
+	
 	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2) {
 		TestCaseComparator tcc = new TestCaseComparator();
 		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
@@ -67,26 +60,6 @@ public class ProteinDockPredict{
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(args[0].concat("result").concat(args[2].toLowerCase()).concat(".pdb"))));
 		benchParse(args[0], args[1], args[2], args[3], args[4].toLowerCase(), args[5], args[6].toLowerCase(), args[7], Integer.parseInt(args[8]), out);
 	}
-	public static void PDBParse() {
-		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-			String id1 = br.readLine();
-			String id2 = br.readLine();
-			String file1 = "E:\\Research\\pdb\\wwpdb\\pdb\\".concat(id1.substring(1,3)).concat("\\pdb").concat(id1).concat(".ent.gz");
-			String file2 = "E:\\Research\\pdb\\wwpdb\\pdb\\".concat(id2.substring(1,3)).concat("\\pdb").concat(id2).concat(".ent.gz");
-			long start = System.currentTimeMillis();
-			ProteinDockPredict pdp = new ProteinDockPredict(file1, file2);
-			pdp.genTestCases();
-			for (int i = 0; i < pdp.numthread; i++) {
-				pdp.ths[i].join();
-			}
-			pdp.printCases();
-			long end = System.currentTimeMillis();
-			System.out.println(end - start);
-		} catch (Exception ex) {
-			ex.printStackTrace();
-		}
-	}
 	public static void benchParse(String sourcepath, String pdbpath, String id, String chain, String id1, String chain1, String id2, String chain2, int numthread, PrintWriter out) {
 		try {
 			String filesep = System.getProperty("file.separator");
@@ -107,14 +80,22 @@ public class ProteinDockPredict{
 			BufferedReader br3 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath2))));
 			ArrayList chain1a = new ArrayList();
 			ArrayList chain2a = new ArrayList();
+			HashMap chaintranslator1 = new HashMap();
+			HashMap reversechaintrans1 = new HashMap();
+			HashMap chaintranslator2 = new HashMap();
+			HashMap reversechaintrans2 = new HashMap();
 			if (chainreq1) {
 				for (int i = 0; i < chain1.length(); i++) {
 					chain1a.add(chain1.charAt(i));
+					chaintranslator1.put(chain1.charAt(i), chain.charAt(i));
+					reversechaintrans1.put(chain.charAt(i), chain1.charAt(i));
 				}
 			}
 			if (chainreq2) {
 				for (int i = 0; i < chain2.length(); i++) {
 					chain2a.add(chain2.charAt(i));
+					chaintranslator2.put(chain2.charAt(i), chain.charAt(chain1.length() + i));
+					reversechaintrans2.put(chain.charAt(chain1.length() + i), chain2.charAt(i));
 				}
 			}
 			while(true) {
@@ -157,9 +138,9 @@ public class ProteinDockPredict{
 			}
 			prot1.close();
 			prot2.close();
-			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"), out);
+			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"), out, chaintranslator1, reversechaintrans1);
 			out.println("DONE WITH FIRST PROTEIN");
-			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out);
+			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out, chaintranslator2, reversechaintrans2);
 			out.println("DONE WITH SECOND PROTEIN");
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
 			pdp.numthread = numthread;
@@ -176,7 +157,7 @@ public class ProteinDockPredict{
 			ex.printStackTrace();
 		}
 	}
-	public static void capriParse(String sourcepath, String capripath) {
+	public static void capriParse(String sourcepath, String capripath, PrintWriter out) {
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			String filename = br.readLine();
@@ -188,6 +169,7 @@ public class ProteinDockPredict{
 			InputStreamReader isr = new InputStreamReader(fis);
 			BufferedReader br2 = new BufferedReader(isr);
 			BufferedReader br3 = new BufferedReader(new InputStreamReader(new FileInputStream(sourcepath.concat("chaindata").concat(filename).concat(".txt"))));
+			String chain = br3.readLine();
 			String chain1 = br3.readLine();
 			String chain2 = br3.readLine();
 			if (br3.readLine() != null) {
@@ -196,11 +178,19 @@ public class ProteinDockPredict{
 			}
 			ArrayList chain1a = new ArrayList();
 			ArrayList chain2a = new ArrayList();
+			HashMap chaintranslator1 = new HashMap();
+			HashMap reversechaintrans1 = new HashMap();
+			HashMap chaintranslator2 = new HashMap();
+			HashMap reversechaintrans2 = new HashMap();
 			for (int i = 0; i < chain1.length(); i++) {
 				chain1a.add(chain1.charAt(i));
+				chaintranslator1.put(chain1.charAt(i), chain.charAt(i));
+				reversechaintrans1.put(chain.charAt(i), chain1.charAt(i));
 			}
 			for (int i = 0; i < chain2.length(); i++) {
 				chain2a.add(chain2.charAt(i));
+				chaintranslator2.put(chain2.charAt(i), chain.charAt(chain1.length() + i));
+				reversechaintrans2.put(chain.charAt(chain1.length() + i), chain2.charAt(i));
 			}
 			while(true) {
 				String s = br2.readLine();
@@ -245,9 +235,9 @@ public class ProteinDockPredict{
 			}
 			prot1.close();
 			prot2.close();
-			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"), null);
+			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"), out, chaintranslator1, reversechaintrans1);
 			System.out.println("DONE WITH FIRST PROTEIN");
-			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), null);
+			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out, chaintranslator2, reversechaintrans2);
 			System.out.println("DONE WITH SECOND PROTEIN");
 			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
 			pdp.numthread = Integer.parseInt(br.readLine());

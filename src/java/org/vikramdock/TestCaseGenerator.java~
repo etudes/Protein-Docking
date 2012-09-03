@@ -31,8 +31,6 @@ public class TestCaseGenerator implements Runnable {
 			for (double i = alphamin; i < alphamax; i += Constants.ALPHAINC) {
 				for (double j = 0; j < 2*Math.PI; j += Constants.BETAINC) {
 					for (double k = 0; k < 2*Math.PI; k += Constants.GAMMAINC) {
-						out.println(i + " " + j + " " + k);
-						out.flush();
 						for (double alpha = 0; Math.abs(2*Math.PI - alpha) > Constants.FPPRECISION; alpha += Constants.SALPHAINC) {
 							for (double beta = 0; Math.abs(2*Math.PI - beta) > Constants.FPPRECISION; beta += Constants.SBETAINC) {
 								for (double gamma = 0; Math.abs(2*Math.PI - gamma) > Constants.FPPRECISION; gamma += Constants.SGAMMAINC) {
@@ -44,11 +42,6 @@ public class TestCaseGenerator implements Runnable {
 									} else {
 										next = null;
 									}
-									//if (next.score() <= 0) {
-									//	pdp.printCase(next);
-									//} else {
-									//	next = null;
-									//}
 								}
 							}
 						}

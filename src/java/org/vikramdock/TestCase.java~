@@ -29,7 +29,7 @@ public class TestCase {
 	double score;
 	double[][][] ps1newsizes;
 	double[][][] ps2newsizes;
-	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double alphamov, double betamov, double gammamov, double alpha, double beta, double gamma) {
+	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double alphamov, double betamov, double gammamov, double alpha, double beta, double gamma) throws Exception {
 		surfacebya = new ArrayList<Atom>();
 		surfacebyps = new ArrayList<ProteinStruct>();
 		this.ps1 = ps1;
@@ -55,6 +55,7 @@ public class TestCase {
 	}
 	public double score() {
 		score = energyScore();
+if (score != 0) System.out.println(score + " SCORE");
 		if (score == 0) score = Double.POSITIVE_INFINITY;
 		return score;
 	}
@@ -133,6 +134,8 @@ public class TestCase {
 					vanDerWaalsE = potentials[tx][ty][tz][4];
 				}
 			}
+if (vanDerWaalsE != 0) System.out.println(vanDerWaalsE + " VDW");
+if (solvE != 0) System.out.println(solvE + " SOLV");
 			if (vanDerWaalsE > Constants.ETHRESHOLD || solvE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
@@ -200,6 +203,7 @@ public class TestCase {
 					}
 				} 
 			}
+if (solvE != 0) System.out.println(solvE + " SOLV");
 			if (solvE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
@@ -214,6 +218,7 @@ public class TestCase {
 			Atom second = newps1.getAtomByNum(current.getSecond().getAtomnum());
 			double distance = first.distance(second);
 			bStretchE = current.bondE(distance);
+if (bStretchE != 0) System.out.println(bStretchE + " BSTRETCH");
 			if (bStretchE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
@@ -227,6 +232,7 @@ public class TestCase {
 			Atom second = newps2.getAtomByNum(current.getSecond().getAtomnum());
 			double distance = first.distance(second);
 			bStretchE = current.bondE(distance);
+if (bStretchE != 0) System.out.println(bStretchE + " BSTRETCH");
 			if (bStretchE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
@@ -245,6 +251,7 @@ public class TestCase {
 				double origangle = ps1.getAtomByNum(current.getAtomnum()).angle(ps1.getAtomByNum(previous.getAtomnum()), ps1.getAtomByNum(next.getAtomnum()));
 				double newangle = current.angle(previous, next);
 				aBendE = 1/2 * Constants.ABENDCONST * Math.pow((newangle - origangle),2);
+if (aBendE != 0) System.out.println(aBendE + "ABEND");
 				if (aBendE > Constants.ETHRESHOLD) {
 					return Double.POSITIVE_INFINITY;
 				}
@@ -263,6 +270,7 @@ public class TestCase {
 				double origangle = ps2.getAtomByNum(current.getAtomnum()).angle(ps2.getAtomByNum(previous.getAtomnum()), ps2.getAtomByNum(next.getAtomnum()));
 				double newangle = current.angle(previous, next);
 				aBendE = 1/2 * Constants.ABENDCONST * Math.pow((newangle - origangle),2);
+if (aBendE != 0) System.out.println(aBendE + "ABEND");
 				if (aBendE > Constants.ETHRESHOLD) {
 					return Double.POSITIVE_INFINITY;
 				}
@@ -281,6 +289,7 @@ public class TestCase {
 			} else {
 				double torsAngle = current.torsAng(previous, next);
 				torsE = 1/2*Constants.TORSCONST*(1 + Math.cos(3*torsAngle));
+if (torsE != 0) System.out.println(torsE + "TORSION");
 				if (torsE > Constants.ETHRESHOLD) {
 					return Double.POSITIVE_INFINITY;
 				}
@@ -298,13 +307,14 @@ public class TestCase {
 			} else {
 				double torsAngle = current.torsAng(previous, next);
 				torsE = 1/2*Constants.TORSCONST*(1 + Math.cos(3*torsAngle));
+if (torsE != 0) System.out.println(torsE + "TORSION");
 				if (torsE > Constants.ETHRESHOLD) {
 					return Double.POSITIVE_INFINITY;
 				}
 				torsEtot += torsE;
 			}
 		}
-		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * solvEtot + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
+		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * (ps1.getSolvEModel() + ps2.getSolvEModel() - solvEtot) + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;
 	}
 	public double getRmov() {

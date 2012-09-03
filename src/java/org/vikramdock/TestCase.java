@@ -29,7 +29,7 @@ public class TestCase {
 	double score;
 	double[][][] ps1newsizes;
 	double[][][] ps2newsizes;
-	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double alphamov, double betamov, double gammamov, double alpha, double beta, double gamma) {
+	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double alphamov, double betamov, double gammamov, double alpha, double beta, double gamma) throws Exception {
 		surfacebya = new ArrayList<Atom>();
 		surfacebyps = new ArrayList<ProteinStruct>();
 		this.ps1 = ps1;
@@ -55,6 +55,7 @@ public class TestCase {
 	}
 	public double score() {
 		score = energyScore();
+if (score != 0) System.out.println(score + " SCORE");
 		if (score == 0) score = Double.POSITIVE_INFINITY;
 		return score;
 	}
@@ -133,6 +134,8 @@ public class TestCase {
 					vanDerWaalsE = potentials[tx][ty][tz][4];
 				}
 			}
+if (vanDerWaalsE != 0) System.out.println(vanDerWaalsE + " VDW");
+if (solvE != 0) System.out.println(solvE + " SOLV");
 			if (vanDerWaalsE > Constants.ETHRESHOLD || solvE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
@@ -200,6 +203,7 @@ public class TestCase {
 					}
 				} 
 			}
+if (solvE != 0) System.out.println(solvE + " SOLV");
 			if (solvE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}

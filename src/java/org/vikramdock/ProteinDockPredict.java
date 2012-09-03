@@ -21,8 +21,7 @@ public class ProteinDockPredict{
 	Thread[] ths;
 	int counter = 0;
 	String id;
-	
-	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2) {
+	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2) throws Exception {
 		TestCaseComparator tcc = new TestCaseComparator();
 		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
 		this.origps1 = ps1;
@@ -32,7 +31,7 @@ public class ProteinDockPredict{
 		this.ps2 = ps2.trans(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent());
 		System.out.println("TRANSLATED AND ROTATED SECOND PROTEIN");
 	}
-	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2, PrintWriter out) {
+	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2, PrintWriter out) throws Exception {
 		TestCaseComparator tcc = new TestCaseComparator();
 		cases = new TestCaseStore(Constants.NUMCASES, Constants.NUMCASES, tcc);
 		this.origps1 = ps1;
@@ -56,108 +55,104 @@ public class ProteinDockPredict{
 			ex.printStackTrace();
 		}
 	}
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(args[0].concat("result").concat(args[2].toLowerCase()).concat(".pdb"))));
 		benchParse(args[0], args[1], args[2], args[3], args[4].toLowerCase(), args[5], args[6].toLowerCase(), args[7], Integer.parseInt(args[8]), out);
 	}
-	public static void benchParse(String sourcepath, String pdbpath, String id, String chain, String id1, String chain1, String id2, String chain2, int numthread, PrintWriter out) {
-		try {
-			String filesep = System.getProperty("file.separator");
-			boolean chainreq1 = true;
-			if (chain1.equals("ALL")) {
-				chainreq1 = false;
-			}
-			boolean chainreq2 = true;
-			if (chain2.equals("ALL")) {
-				chainreq2 = false;
-			}
-			long start = System.currentTimeMillis();
-			PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
-			PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
-			String filepath1 = pdbpath.concat(id1.substring(1,3).concat(filesep).concat("pdb").concat(id1).concat(".ent.gz"));
-			BufferedReader br2 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath1))));
-			String filepath2 = pdbpath.concat(id2.substring(1,3).concat(filesep).concat("pdb").concat(id2).concat(".ent.gz"));
-			BufferedReader br3 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath2))));
-			ArrayList chain1a = new ArrayList();
-			ArrayList chain2a = new ArrayList();
-			HashMap chaintranslator1 = new HashMap();
-			HashMap reversechaintrans1 = new HashMap();
-			HashMap chaintranslator2 = new HashMap();
-			HashMap reversechaintrans2 = new HashMap();
-			if (chainreq1) {
-				for (int i = 0; i < chain1.length(); i++) {
-					chain1a.add(chain1.charAt(i));
-					chaintranslator1.put(chain1.charAt(i), chain.charAt(i));
-					reversechaintrans1.put(chain.charAt(i), chain1.charAt(i));
-				}
-			}
-			if (chainreq2) {
-				for (int i = 0; i < chain2.length(); i++) {
-					chain2a.add(chain2.charAt(i));
-					chaintranslator2.put(chain2.charAt(i), chain.charAt(chain1.length() + i));
-					reversechaintrans2.put(chain.charAt(chain1.length() + i), chain2.charAt(i));
-				}
-			}
-			while(true) {
-				String s = br2.readLine();
-				if(s != null) {
-					String[] ssplit = new String[20];
-					ssplit = s.split(" ");
-					if (ssplit[0].equals("ATOM")) {
-						if (!chainreq1 || chain1a.contains(s.charAt(21))) {
-							prot1.println(s);
-						}
-					}
-					if (ssplit[0].equals("SEQRES")) {
-						if (!chainreq1 || chain1a.contains(s.charAt(11))) {
-							prot1.println(s);
-						}
-					}
-				} else {
-					break;
-				}
-			}
-			while(true) {
-				String s = br3.readLine();
-				if(s != null) {
-					String[] ssplit = new String[20];
-					ssplit = s.split(" ");
-					if (ssplit[0].equals("ATOM")) {
-						if (!chainreq2 || chain2a.contains(s.charAt(21))) {
-							prot2.println(s);
-						}
-					}
-					if (ssplit[0].equals("SEQRES")) {
-						if (!chainreq2 || chain2a.contains(s.charAt(11))) {
-							prot2.println(s);
-						}
-					}
-				} else {
-					break;
-				}
-			}
-			prot1.close();
-			prot2.close();
-			ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"), out, chaintranslator1, reversechaintrans1);
-			out.println("DONE WITH FIRST PROTEIN");
-			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out, chaintranslator2, reversechaintrans2);
-			out.println("DONE WITH SECOND PROTEIN");
-			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
-			pdp.numthread = numthread;
-			pdp.id = id;
-			pdp.genTestCases();
-			for (int i = 0; i < pdp.numthread; i++) {
-				pdp.ths[i].join();
-			}
-			pdp.printCases();
-			long end = System.currentTimeMillis();
-			out.println(end - start);
-			out.flush();
-		} catch (Exception ex) {
-			ex.printStackTrace();
+	public static void benchParse(String sourcepath, String pdbpath, String id, String chain, String id1, String chain1, String id2, String chain2, int numthread, PrintWriter out) throws Exception {
+		String filesep = System.getProperty("file.separator");
+		boolean chainreq1 = true;
+		if (chain1.equals("ALL")) {
+			chainreq1 = false;
 		}
+		boolean chainreq2 = true;
+		if (chain2.equals("ALL")) {
+			chainreq2 = false;
+		}
+		long start = System.currentTimeMillis();
+		PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
+		PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
+		String filepath1 = pdbpath.concat(id1.substring(1,3).concat(filesep).concat("pdb").concat(id1).concat(".ent.gz"));
+		BufferedReader br2 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath1))));
+		String filepath2 = pdbpath.concat(id2.substring(1,3).concat(filesep).concat("pdb").concat(id2).concat(".ent.gz"));
+		BufferedReader br3 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath2))));
+		ArrayList chain1a = new ArrayList();
+		ArrayList chain2a = new ArrayList();
+		HashMap chaintranslator1 = new HashMap();
+		HashMap reversechaintrans1 = new HashMap();
+		HashMap chaintranslator2 = new HashMap();
+		HashMap reversechaintrans2 = new HashMap();
+		if (chainreq1) {
+			for (int i = 0; i < chain1.length(); i++) {
+				chain1a.add(chain1.charAt(i));
+				chaintranslator1.put(chain1.charAt(i), chain.charAt(i));
+				reversechaintrans1.put(chain.charAt(i), chain1.charAt(i));
+			}
+		}
+		if (chainreq2) {
+			for (int i = 0; i < chain2.length(); i++) {
+				chain2a.add(chain2.charAt(i));
+				chaintranslator2.put(chain2.charAt(i), chain.charAt(chain1.length() + i));
+				reversechaintrans2.put(chain.charAt(chain1.length() + i), chain2.charAt(i));
+			}
+		}
+		while(true) {
+			String s = br2.readLine();
+			if(s != null) {
+				String[] ssplit = new String[20];
+				ssplit = s.split(" ");
+				if (ssplit[0].equals("ATOM")) {
+					if (!chainreq1 || chain1a.contains(s.charAt(21))) {
+						prot1.println(s);
+					}
+				}
+				if (ssplit[0].equals("SEQRES")) {
+					if (!chainreq1 || chain1a.contains(s.charAt(11))) {
+						prot1.println(s);
+					}
+				}
+			} else {
+				break;
+			}
+		}
+		while(true) {
+			String s = br3.readLine();
+			if(s != null) {
+				String[] ssplit = new String[20];
+				ssplit = s.split(" ");
+				if (ssplit[0].equals("ATOM")) {
+					if (!chainreq2 || chain2a.contains(s.charAt(21))) {
+						prot2.println(s);
+					}
+				}
+				if (ssplit[0].equals("SEQRES")) {
+					if (!chainreq2 || chain2a.contains(s.charAt(11))) {
+						prot2.println(s);
+					}
+				}
+			} else {
+				break;
+			}
+		}
+		prot1.close();
+		prot2.close();
+		ProteinStruct ps1 = new ProteinStruct(sourcepath.concat("firstprot.txt"), out, chaintranslator1, reversechaintrans1);
+		out.println("DONE WITH FIRST PROTEIN");
+		ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out, chaintranslator2, reversechaintrans2);
+		out.println("DONE WITH SECOND PROTEIN");
+		ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
+		pdp.numthread = numthread;
+		pdp.id = id;
+		pdp.genTestCases();
+		for (int i = 0; i < pdp.numthread; i++) {
+			pdp.ths[i].join();
+		}
+		pdp.printCases();
+		long end = System.currentTimeMillis();
+		out.println(end - start);
+		out.flush();
 	}
-	public static void capriParse(String sourcepath, String capripath, PrintWriter out) {
+	public static void capriParse(String sourcepath, String capripath, PrintWriter out) throws Exception {
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			String filename = br.readLine();
@@ -252,7 +247,7 @@ public class ProteinDockPredict{
 			ex.printStackTrace();
 		}
 	}
-	public void printCases() throws IOException {
+	public void printCases() throws Exception {
 		for (int i = 0; i < Math.min(cases.size(),Constants.NUMCASES); i++) {
 			TestCase current = (TestCase)cases.poll();
 			printCase(current);
@@ -276,7 +271,7 @@ public class ProteinDockPredict{
 	public synchronized void add(TestCase worked) {
 		cases.addCap(worked);
 	}
-	public synchronized void printCase(TestCase current) throws IOException {
+	public synchronized void printCase(TestCase current) throws Exception {
 		counter++;
 		if (counter <= 1000) {
 			PrintWriter out1 = new PrintWriter(new BufferedWriter(new FileWriter("result"+id.toLowerCase()+"model"+counter+".pdb")));

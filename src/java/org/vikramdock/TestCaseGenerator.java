@@ -17,7 +17,7 @@ public class TestCaseGenerator implements Runnable {
 	double alphamin;
 	double alphamax;
 	int num;
-	public TestCaseGenerator(ProteinDockPredict pdp, double alphamin, double alphamax, int num) {
+	public TestCaseGenerator(ProteinDockPredict pdp, double alphamin, double alphamax, int num) throws Exception {
 		this.pdp = pdp;
 		this.ps1 = new ProteinStruct(pdp.ps1);
 		this.ps2 = new ProteinStruct(pdp.ps2);
