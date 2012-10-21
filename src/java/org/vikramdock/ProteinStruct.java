@@ -20,7 +20,6 @@ public class ProteinStruct {
 	private ArrayList<Atom> surfacebackbone;
 	private ArrayList<Bond> backbonebonds;
 	private ArrayList<Bond> surfacebackbonebonds;
-	private String[] parsedsequence = new String[50];
 	private HashMap chaintranslator;
 	private HashMap reversechaintrans;
 	private HashMap chaintranslator2;
@@ -141,7 +140,6 @@ public class ProteinStruct {
 		this.chaintranslator2 = chaintranslator2;
 		this.reversechaintrans2 = reversechaintrans2;
 		rotated = false;
-		parseSequence(filepath);
 		parseStructure(filepath);
 		structure = new ImmutableArrayList(structurea);
 		long beforeS = System.currentTimeMillis(); 
@@ -158,8 +156,7 @@ public class ProteinStruct {
 		out.println("POTENTIALS TIME TOTAL " + (afterP - beforeP));
 		out.flush();
 	}
-	public ProteinStruct(String[] parsedsequence, ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double size, double[][][] newsizes, double[][][][] potentials, double[][][][] solvpotentials, double solvEModel, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) throws Exception  {
-		this.parsedsequence = parsedsequence;
+	public ProteinStruct(ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double size, double[][][] newsizes, double[][][][] potentials, double[][][][] solvpotentials, double solvEModel, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) throws Exception  {
 		this.structurea = surface;
 		this.structure = new ImmutableArrayList(this.structurea);
 		this.surface = surface;
@@ -403,64 +400,12 @@ public class ProteinStruct {
 		this.xcoordcent = clone.getXCoordCent();
 		this.ycoordcent = clone.getYCoordCent();
 		this.zcoordcent = clone.getZCoordCent();
-		this.parsedsequence = clone.getParsedsequence();
 		this.rotated = clone.getRotated();
 		this.size = clone.getSize();
 		this.newsizes = clone.getNewSizes();
 		this.potentials = clone.getPotentials();
 		this.solvpotentials = clone.getSolvPotentials();
 		this.solvEModel = clone.getSolvEModel();
-	}
-	public void parseSequence(String filepath) throws Exception {
-		try {
-			FileInputStream fis = new FileInputStream(filepath);
-			InputStreamReader isr = new InputStreamReader(fis);
-			BufferedReader br = new BufferedReader(isr);
-			String[] seqraw = new String[10000];
-			int seqcount = 0;
-			while(true) {
-				String s = br.readLine();
-				if(s != null) {
-					String[] ssplit = new String[20];
-					ssplit = s.split(" ");
-					if (ssplit[0].equals("SEQRES")) {
-						seqraw[seqcount] = s;
-						seqcount++;
-					}
-				} else {
-					break;
-				}
-			}
-			chaincount = -1;
-			for (int i = 0; i < 10; i++) {
-				parsedsequence[i] = "";
-			}
-			char currentchain = ' ';
-			char newchain = ' ';
-			for (int i = 0; i < seqcount; i++) {
-				if(currentchain != seqraw[i].charAt(11)) {
-					chaincount = chaincount + 1;
-					newchain = seqraw[i].charAt(11);
-					chaintranslator.put(newchain,chaincount);
-					reversechaintrans.put(chaincount,newchain);
-					currentchain = newchain; 
-					for (int j = 19; j <= Math.min(seqraw[i].length() - 4, 67); j=j+4) {
-						if (translator2.get(seqraw[i].substring(j,j+3)) != null) {
-							parsedsequence[chaincount] = parsedsequence[chaincount] + translator2.get(seqraw[i].substring(j,j+3));
-						}
-					}
-				} else {
-					for (int j = 19; j <= Math.min(seqraw[i].length() - 4, 67); j=j+4) {
-						if (translator2.get(seqraw[i].substring(j,j+3)) != null) {
-							parsedsequence[chaincount] = parsedsequence[chaincount] + translator2.get(seqraw[i].substring(j,j+3));
-						}
-					}
-				}
-			}
-		} catch (Exception ex) {
-			ex.printStackTrace();
-			throw ex;
-		}
 	}
 	public void parseStructure(String filepath) throws Exception {
 		try {
@@ -483,6 +428,9 @@ public class ProteinStruct {
 			double xcoordsum = 0;
 			double ycoordsum = 0;
 			double zcoordsum = 0;
+			int atomcount = 1;
+			int rescount = 0;
+			int pastres = -1;
 			Iterator it = structraw.iterator();
 			for (int i = 0; i < structcount; i++) {
 				String catom = (String)it.next();
@@ -501,7 +449,10 @@ public class ProteinStruct {
 				if (element == ' ') {
 					element = eType.charAt(0);
 				}
-				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chainnum, eType, AA);
+				if (pastres != resnum) {
+					rescount++;
+				}
+				Atom next = new Atom(xcoord, ycoord, zcoord, element, rescount, atomcount, chainnum, eType, AA);
 				if (Double.isNaN(xcoord) || Double.isNaN(ycoord) || Double.isNaN(zcoord)) {
 					System.err.println("NaN found");
 					next.printAtomErr();
@@ -510,6 +461,8 @@ public class ProteinStruct {
 				xcoordsum += xcoord;
 				ycoordsum += ycoord;
 				zcoordsum += zcoord;
+				pastres = resnum;
+				atomcount++;
 			}
 			xcoordcent = xcoordsum/structcount;
 			ycoordcent = ycoordsum/structcount;
@@ -618,7 +571,7 @@ public class ProteinStruct {
 				backbonebonds.add(newb1);
 				backbonebonds.add(newb2);
 				CatomLast = Catom;
-				restype = parsedsequence[Integer.parseInt(chaintranslator.get(reversechaintrans2.get(CAatom.getChainnum())).toString())].charAt(resnum - 1);
+				restype = translator2.get(Catom.getAA()).toString().charAt(0);
 				AminoAcid.remove(Catom);
 				AminoAcid.remove(CAatom);
 				AminoAcid.remove(Natom);
@@ -1304,7 +1257,7 @@ public class ProteinStruct {
 					backbonebonds.add(newb1);
 					backbonebonds.add(newb2);
 					CatomLast = Catom;
-					restype = parsedsequence[Integer.parseInt(chaintranslator.get(reversechaintrans2.get(CAatom.getChainnum())).toString())].charAt(resnum - 1);
+					restype = translator2.get(Catom.getAA()).toString().charAt(0);
 					AminoAcid.remove(Catom);
 					AminoAcid.remove(CAatom);
 					AminoAcid.remove(Natom);
@@ -2167,9 +2120,6 @@ public class ProteinStruct {
 	public String getFilepath() {
 		return filepath;
 	}
-	public String[] getParsedsequence() {
-		return parsedsequence;
-	}
 	public ArrayList getStructurea() {
 		return structurea;
 	}
@@ -2250,7 +2200,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(newstruct, surfacebonds, newbackbone, surfacebackbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	} 
 	public ProteinStruct transall(double xmov, double ymov, double zmov) throws Exception {
@@ -2266,7 +2216,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, bonds, newbackbone, backbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(newstruct, bonds, newbackbone, backbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotnew(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) throws Exception {
@@ -2282,7 +2232,7 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(newstruct, surfacebonds, newbackbone, surfacebackbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
 	}
 	public ProteinStruct transrotnewall(double xmov, double ymov, double zmov, double alpha, double beta, double gamma) throws Exception {
@@ -2298,15 +2248,8 @@ public class ProteinStruct {
 			Atom trcurrent = current.transAtom(xmov, ymov, zmov).rotateAtomNew(xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov, alpha, beta, gamma);
 			newbackbone.add(trcurrent);
 		}
-		ProteinStruct answer = new ProteinStruct(parsedsequence, newstruct, surfacebonds, newbackbone, surfacebackbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
+		ProteinStruct answer = new ProteinStruct(newstruct, surfacebonds, newbackbone, surfacebackbonebonds, size, newsizes, potentials, solvpotentials, solvEModel, chaincount, xcoordcent + xmov, ycoordcent + ymov, zcoordcent + zmov);
 		return answer;
-	}
-	public void printSequence() {
-		out.println("BEGIN SEQUENCE OF " + filepath);
-		for (int i = 0; i < chaincount; i++) {
-			out.println("SEQUENCE CHAIN NO " + i + " " + parsedsequence[i]);
-		}
-		out.println("END SEQUENCE OF " + filepath);
 	}
 	public void printStructure() {
 		out.println("BEGIN STRUCTURE OF " + filepath);

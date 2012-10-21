@@ -141,7 +141,6 @@ public class PsuedoProteinStruct {
 			structure = new ImmutableArrayList(structurea);
 			long beforeS = System.currentTimeMillis();
 			determineSurfaceNew();
-System.out.println(surface.size());
 			long afterS = System.currentTimeMillis();
 			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
 			solvpotentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][17];
@@ -2119,8 +2118,6 @@ System.out.println(surface.size());
 							} else if (cel == 'S' && ctype == 1) {
 								eDens = 2.*Constants.Solv_Gfree_SH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_S)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.));
 							}
-System.out.println(distance + " " + 2.*Constants.Solv_Gfree_CH1E/(Math.sqrt(Math.PI)*Constants.Solv_Corr)*Math.pow(Math.E, -Math.pow((distance - Constants.Vdw_Rad_C)/Constants.Solv_Corr, 2.))/(4.*Math.PI*Math.pow(distance, 2.)));
-if (eDens != 0) System.out.println(eDens);
 							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][0] += eDens*Constants.Solv_V_C;
 							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][1] += eDens*Constants.Solv_V_CR;
 							solvpotentials[(int)((j+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(xcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((k+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(ycoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][(int)((l+round(size, Constants.GRIDGRAINSIZE)+Constants.VDWDISTTHRESHOLD - round(zcoordcent, Constants.GRIDGRAINSIZE))/Constants.GRIDGRAINSIZE)][2] += eDens*Constants.Solv_V_CH1E;

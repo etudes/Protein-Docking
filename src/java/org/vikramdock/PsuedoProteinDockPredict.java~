@@ -15,26 +15,34 @@ public class PsuedoProteinDockPredict{
 	PsuedoProteinStruct ps2;
 	PrintWriter out;
 	int counter = 0;
-	public PsuedoProteinDockPredict(PsuedoProteinStruct ps1, PsuedoProteinStruct ps2, String complex) {
+	public PsuedoProteinDockPredict(PsuedoProteinStruct ps1, PsuedoProteinStruct ps2, String complex) throws IOException {
 		this.ps1 = ps1;
 		this.ps1 = ps2;
 		this.out = out;
 		PsuedoTestCase tc = new PsuedoTestCase(ps1, ps2);
-		out = new PrintWriter(new BufferedWriter(new FileWriter(complex + "native.txt")));
+		out = new PrintWriter(new BufferedWriter(new FileWriter(complex + "decoys.txt")));
 		out.println(tc.getScore());
+		out.flush();
+		out.close();
 	}
 	public static void main(String[] args) throws IOException {
-		nativeParse(args[0], args[1], args[2].toLowerCase(), args[3], args[4]);
+		for (int i = 1; i <= 1000; i++) {
+			nativeParse(args[0], args[1], args[2], args[3], args[4], i);
+		}
 	}
-	public static void nativeParse(String sourcepath, String pdbpath, String complex, String chain1, String chain2) throws IOException {
+	public static void nativeParse(String sourcepath, String pdbpath, String complex, String chain1, String chain2, int num) throws IOException {
 		try {
 			String filesep = System.getProperty("file.separator");
 			long start = System.currentTimeMillis();
 			PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
 			PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
-			String filepath = pdbpath.concat(complex.substring(1,3).concat(filesep).concat("pdb").concat(complex).concat(".ent.gz"));
-			BufferedReader br2 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath))));
-			BufferedReader br3 = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath))));
+			String iString = Integer.toString(num);
+			for (int j = iString.length(); j < 4; j++) {
+				iString = "0" + iString;
+			}
+			String filepath = pdbpath.concat(complex.concat(filesep).concat("aa").concat(complex).concat(".ppk_").concat(iString).concat(".pdb"));
+			BufferedReader br2 = new BufferedReader(new InputStreamReader(new FileInputStream(filepath)));
+			BufferedReader br3 = new BufferedReader(new InputStreamReader(new FileInputStream(filepath)));
 			ArrayList chain1a = new ArrayList();
 			ArrayList chain2a = new ArrayList();
 			for (int i = 0; i < chain1.length(); i++) {
