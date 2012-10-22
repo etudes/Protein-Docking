@@ -20,13 +20,13 @@ public class PsuedoProteinDockPredict{
 		this.ps1 = ps2;
 		this.out = out;
 		PsuedoTestCase tc = new PsuedoTestCase(ps1, ps2);
-		out = new PrintWriter(new BufferedWriter(new FileWriter(complex + "decoys.txt")));
+		out = new PrintWriter(new BufferedWriter(new FileWriter(complex + "decoys.txt", true)));
 		out.println(tc.getScore());
 		out.flush();
 		out.close();
 	}
 	public static void main(String[] args) throws IOException {
-		for (int i = 1; i <= 1000; i++) {
+		for (int i = 959; i <= 1000; i++) {
 			nativeParse(args[0], args[1], args[2], args[3], args[4], i);
 		}
 	}
