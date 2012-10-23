@@ -10,12 +10,12 @@ import java.lang.*;
 
 public class SequenceCreator {
 	public static void main(String[] args) throws IOException {
-		for (int i = 1; i < 1000; i++) {
+		for (int i = 1; i <= 1000; i++) {
 			String iString = Integer.toString(i);
-			for (int j = iString.length(); j < 3; j++) {
+			for (int j = iString.length(); j < 4; j++) {
 				iString = "0" + iString;
 			}
-			String filename = "../../../disk2/bound_perturb/".concat(args[0]).concat("/aa").concat(args[0]).concat(".ppk_0").concat(iString).concat(".pdb");
+			String filename = "../../../disk2/bound_perturb/".concat(args[0]).concat("/aa").concat(args[0]).concat(".ppk_").concat(iString).concat(".pdb");
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(filename)));
 			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(filename.concat("2"), true)));
 			String print = "";

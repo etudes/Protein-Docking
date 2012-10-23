@@ -1,0 +1,10 @@
+figure1 = figure;
+axes1 = axes('Parent',figure1,'CLim',[0 1]);
+hold(axes1,'all');
+scatter(x1,y1,10,'black','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','Without iteration');
+scatter(x2,y2,10,'red','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','With iteration');
+scatter(x3,y3,10,'blue','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','Native configuration');
+xlabel({'LRMS (A)'},'FontSize',36,'FontName','Times New Roman','Color',[0 0.498039215686275 0]);
+ylabel({'Score'},'FontSize',36,'FontName','Times New Roman','Color',[0 0.498039215686275 0]);
+title({'Complex 1jtg'},'FontSize',36,'FontName','Times New Roman','Color',[0 0.498039215686275 0]);
+legend(axes1,'show');

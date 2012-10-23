@@ -1,0 +1,1684 @@
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/h7/pdb2h7v.ent.gz > 
+  ../pdb/wwpdb/pdb/h7/pdb2h7v.ent) 
+ LSQMAN >  HEADER :     SIGNALING PROTEIN                       04-JUN-06   2H7V
+ TITLE  :     CO-CRYSTAL STRUCTURE OF YPKA-RAC1
+ KEYWDS :     YPKA, YOPO, RAC1, GDI, GTPASE, YERSINIA, SIGNALING PROTEIN
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     G.PREHNA,M.IVANOV,J.B.BLISKA,C.E.STEBBINS
+ REVDAT :    3   13-JUL-11 2H7V    1       VERSN
+ REVDAT :    2   24-FEB-09 2H7V    1       VERSN
+ REVDAT :    1   19-SEP-06 2H7V    0
+ CRYST1 :    66.398   75.519   99.772  92.08 103.38 115.79 P 1           2
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |B| becomes chain H
+ Old chain |C| becomes chain I
+ Old chain |D| becomes chain J
+ Nr of lines read from file : (       8067) 
+ Nr of atoms in molecule    : (       7191) 
+ Nr of chains or models     : (         10) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        133) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       3567) 
+ Nr of atoms in molecule    : (       3564) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        182) 
+ Central atoms mol 2 : (        453) 
+ Min matched residues       30
+ Max number of trials : (       1602) 
+ Max match so far : (        170) 
+ RMSD (A)         : (   0.861) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        170) 
+ RMSD (A)  : (   0.861) 
+ Regenerating best alignment ...
+ The    170 atoms have an RMS distance of    0.861 A
+ SI = RMS * Nmin / Nmatch             =      0.92127
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.50224
+ CR = Maiorov-Crippen RHO (0-2)       =      0.05594
+ RR = relative RMSD                   =      0.05222
+ NR = normalised RMSD (100)           =      0.680 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.506 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.298 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.175 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.103 A
+ RMSD / Nalign                        =    0.00506 A
+ RMS delta B for matched atoms        =    67.167 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.02715425 -0.98313820 -0.18083620
+                 -0.96026778  0.02461079 -0.27799276
+                  0.27775586  0.18119988 -0.94340771
+ Translation  :       2.0416    -14.0641    -33.9474
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/hr/pdb2hrk.ent.gz > 
+  ../pdb/wwpdb/pdb/hr/pdb2hrk.ent) 
+ LSQMAN >  HEADER :     LIGASE/RNA BINDING PROTEIN              20-JUL-06   2HRK
+ TITLE  :     STRUCTURAL BASIS OF YEAST AMINOACYL-TRNA SYNTHETASE COMPLEX
+ TITLE  :    2 FORMATION REVEALED BY CRYSTAL STRUCTURES OF TWO BINARY SUB-
+ TITLE  :    3 COMPLEXES
+ KEYWDS :     PROTEIN COMPLEX PROTEIN INTERACTION GST-FOLD, LIGASE/RNA
+ KEYWDS :    2 BINDING PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     H.SIMADER,D.SUCK
+ REVDAT :    3   24-FEB-09 2HRK    1       VERSN
+ REVDAT :    2   19-SEP-06 2HRK    1       JRNL
+ REVDAT :    1   05-SEP-06 2HRK    0
+ CRYST1 :    40.320   86.310   47.120  90.00  99.37  90.00 P 1 21 1      2
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       3024) 
+ Nr of atoms in molecule    : (       2589) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        275) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       2290) 
+ Nr of atoms in molecule    : (       2287) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        177) 
+ Central atoms mol 2 : (        295) 
+ Min matched residues       30
+ Max number of trials : (        792) 
+ Max match so far : (        173) 
+ RMSD (A)         : (   0.659) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        173) 
+ RMSD (A)  : (   0.659) 
+ Regenerating best alignment ...
+ The    173 atoms have an RMS distance of    0.659 A
+ SI = RMS * Nmin / Nmatch             =      0.67397
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.58932
+ CR = Maiorov-Crippen RHO (0-2)       =      0.04221
+ RR = relative RMSD                   =      0.03939
+ NR = normalised RMSD (100)           =      0.517 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.381 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.220 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.127 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.074 A
+ RMSD / Nalign                        =    0.00381 A
+ RMS delta B for matched atoms        =    30.920 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.74552965  0.62996596 -0.21755184
+                  0.27037555 -0.01247454 -0.96267432
+                 -0.60916579 -0.77652282 -0.16102722
+ Translation  :      -4.2411     -1.9545    -16.4346
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/j7/pdb2j7p.ent.gz > 
+  ../pdb/wwpdb/pdb/j7/pdb2j7p.ent) 
+ LSQMAN >  HEADER :     SIGNAL RECOGNITION                      14-OCT-06   2J7P
+ TITLE  :     GMPPNP-STABILIZED NG DOMAIN COMPLEX OF THE SRP GTPASES FFH
+ TITLE  :    2 AND FTSY
+ KEYWDS :     INNER MEMBRANE, MEMBRANE TARGETING, NUCLEOTIDE-BINDING,
+ KEYWDS :    2 GMPPNP, GDP-PNP, SIGNAL RECOGNITION PARTICLE, RNA-BINDING,
+ KEYWDS :    3 GTP-BINDING, CELL DIVISION, SIGNAL SEQUENCE RECOGNITION,
+ KEYWDS :    4 SRP, FFH, FTSY, GTPASE, MEMBRANE, CELL CYCLE, CELL
+ KEYWDS :    5 DIVISION/COMPLEX, SIGNAL RECOGNITION
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.M.FREYMANN
+ REVDAT :    4   24-FEB-09 2J7P    1       VERSN
+ REVDAT :    3   05-JUN-07 2J7P    1       REMARK
+ REVDAT :    2   03-APR-07 2J7P    1       JRNL
+ REVDAT :    1   11-DEC-06 2J7P    0
+ CRYST1 :    51.029  129.556   88.964  90.00  91.66  90.00 P 1 21 1      4
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |E| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |E| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |E| becomes chain L
+ Nr of lines read from file : (      10534) 
+ Nr of atoms in molecule    : (       9181) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        728) 
+ Stripped alt. conf. atoms  : (        184) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       4351) 
+ Nr of atoms in molecule    : (       4348) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        292) 
+ Central atoms mol 2 : (        566) 
+ Min matched residues       30
+ Max number of trials : (       4680) 
+ Max match so far : (         92) 
+ RMSD (A)         : (   1.586) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (         92) 
+ RMSD (A)  : (   1.586) 
+ Regenerating best alignment ...
+ The     92 atoms have an RMS distance of    1.586 A
+ SI = RMS * Nmin / Nmatch             =      5.03474
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.12273
+ CR = Maiorov-Crippen RHO (0-2)       =      0.09698
+ RR = relative RMSD                   =      0.09443
+ NR = normalised RMSD (100)           =      1.655 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.724 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.874 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      2.037 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      2.214 A
+ RMSD / Nalign                        =    0.01724 A
+ RMS delta B for matched atoms        =    27.093 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.96357554  0.26051429  0.06045383
+                  0.26389089  0.88950193  0.37302554
+                  0.04340469  0.37539148 -0.92584956
+ Translation  :       5.1124     37.4634     29.8936
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/nz/pdb2nz8.ent.gz > 
+  ../pdb/wwpdb/pdb/nz/pdb2nz8.ent) 
+ LSQMAN >  HEADER :     SIGNALING PROTEIN,CELL CYCLE            22-NOV-06   2NZ8
+ TITLE  :     N-TERMINAL DHPH CASSETTE OF TRIO IN COMPLEX WITH NUCLEOTIDE-
+ TITLE  :    2 FREE RAC1
+ KEYWDS :     TRIO; RAC1; DBL-FAMILY GEF; RHO-FAMILY GTPASE; DH/PH
+ KEYWDS :    2 CASSETTE, SIGNALING PROTEIN,CELL CYCLE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.K.CHHATRIWALA,L.BETTS,D.K.WORTHYLAKE,J.SONDEK
+ REVDAT :    3   24-FEB-09 2NZ8    1       VERSN
+ REVDAT :    2   05-JUN-07 2NZ8    1       JRNL
+ REVDAT :    1   10-APR-07 2NZ8    0
+ CRYST1 :    97.492  108.558   53.416  90.00  90.00  90.00 P 21 21 2     4
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       8376) 
+ Nr of atoms in molecule    : (       3905) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        242) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       4020) 
+ Nr of atoms in molecule    : (       4017) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        177) 
+ Central atoms mol 2 : (        503) 
+ Min matched residues       30
+ Max number of trials : (       1624) 
+ Max match so far : (        158) 
+ RMSD (A)         : (   0.898) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        158) 
+ RMSD (A)  : (   0.898) 
+ Regenerating best alignment ...
+ The    158 atoms have an RMS distance of    0.898 A
+ SI = RMS * Nmin / Nmatch             =      1.00560
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.47072
+ CR = Maiorov-Crippen RHO (0-2)       =      0.05963
+ RR = relative RMSD                   =      0.05578
+ NR = normalised RMSD (100)           =      0.731 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.568 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.360 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.228 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.144 A
+ RMSD / Nalign                        =    0.00568 A
+ RMS delta B for matched atoms        =    39.668 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.50379032  0.86267239 -0.04462589
+                  0.72918075  0.45239371  0.51345426
+                  0.46313131  0.22613294 -0.85695571
+ Translation  :      47.1835     32.5398     -7.5055
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/oz/pdb2oza.ent.gz > 
+  ../pdb/wwpdb/pdb/oz/pdb2oza.ent) 
+ LSQMAN >  HEADER :     SIGNALING PROTEIN/TRANSFERASE           25-FEB-07   2OZA
+ TITLE  :     STRUCTURE OF P38ALPHA COMPLEX
+ KEYWDS :     SERINE/THREONINE KINASE, PROTEIN-PROTEIN COMPLEX, P38A, MK2,
+ KEYWDS :    2 SIGNALING PROTEIN/TRANSFERASE COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.WHITE,C.A.PARGELLIS,J.M.STUDTS,B.G.WERNEBURG,B.T.FARMER II
+ REVDAT :    3   24-FEB-09 2OZA    1       VERSN
+ REVDAT :    2   24-APR-07 2OZA    1       JRNL
+ REVDAT :    1   03-APR-07 2OZA    0
+ CRYST1 :    83.310   83.310  231.490  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       6074) 
+ Nr of atoms in molecule    : (       5500) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         60) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2ozamodel6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/z0/pdb2z0e.ent.gz > 
+  ../pdb/wwpdb/pdb/z0/pdb2z0e.ent) 
+ LSQMAN >  HEADER :     HYDROLASE/STRUCTURAL PROTEIN            07-MAY-07   2Z0E
+ TITLE  :     THE CRYSTAL STRUCTURE OF HUMAN ATG4B- LC3(1-124) COMPLEX
+ KEYWDS :     PAPAIN-LIKE FOLD, UBIQUITIN FOLD, HYDROLASE/STRUCTURAL
+ KEYWDS :    2 PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     K.SATOO,N.N.NODA,F.INAGAKI
+ REVDAT :    3   06-OCT-09 2Z0E    1       JRNL
+ REVDAT :    2   24-FEB-09 2Z0E    1       VERSN
+ REVDAT :    1   22-MAY-07 2Z0E    0
+ CRYST1 :    46.850   90.883  102.472  90.00  90.00  90.00 P 21 21 21    4
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       4082) 
+ Nr of atoms in molecule    : (       3577) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        184) 
+ Stripped alt. conf. atoms  : (          7) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2z0emodel6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/cp/pdb3cph.ent.gz > 
+  ../pdb/wwpdb/pdb/cp/pdb3cph.ent) 
+ LSQMAN >  HEADER :     PROTEIN TRANSPORT                       31-MAR-08   3CPH
+ TITLE  :     CRYSTAL STRUCTURE OF SEC4 IN COMPLEX WITH RAB-GDI
+ KEYWDS :     RAB GTPASE, PRENYLATION, VESICULAR TRANSPORT, CYTOPLASM,
+ KEYWDS :    2 CYTOPLASMIC VESICLE, EXOCYTOSIS, GTP-BINDING, LIPOPROTEIN,
+ KEYWDS :    3 MEMBRANE, NUCLEOTIDE-BINDING, PALMITATE, PHOSPHOPROTEIN,
+ KEYWDS :    4 PROTEIN TRANSPORT, GTPASE ACTIVATION
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.KRAVCHENKO,A.IGNATEV,R.S.GOODY,A.RAK,O.PYLYPENKO
+ REVDAT :    3   24-FEB-09 3CPH    1       VERSN
+ REVDAT :    2   15-JUL-08 3CPH    1       JRNL
+ REVDAT :    1   06-MAY-08 3CPH    0
+ CRYST1 :   131.900  131.900  217.562  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |G| becomes chain A
+ Old chain |A| becomes chain B
+ Old chain |H| becomes chain C
+ Old chain |A| becomes chain D
+ Old chain |G| becomes chain E
+ Old chain |A| becomes chain F
+ Old chain |H| becomes chain G
+ Nr of lines read from file : (       9174) 
+ Nr of atoms in molecule    : (       8489) 
+ Nr of chains or models     : (          7) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        116) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result3cphmodel6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/e4/pdb1e4k.ent.gz > 
+  ../pdb/wwpdb/pdb/e4/pdb1e4k.ent) 
+ LSQMAN >  HEADER :     IMMUNE SYSTEM                           07-JUL-00   1E4K
+ TITLE  :     CRYSTAL STRUCTURE OF SOLUBLE HUMAN IGG1 FC
+ TITLE  :    2 FRAGMENT-FC-GAMMA RECEPTOR III COMPLEX
+ KEYWDS :     IMMUNE SYSTEM, FC FRAGMENT, IGG, RECEPTOR,
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.SONDERMANN,R.HUBER,V.OOSTHUIZEN,U.JACOB
+ REVDAT :    4   19-OCT-11 1E4K    1       KEYWDS REMARK HETSYN FORMUL
+ REVDAT :    4 2                           SITE   VERSN
+ REVDAT :    3   24-FEB-09 1E4K    1       VERSN
+ REVDAT :    2   06-JUN-01 1E4K    1       HETSYN SSBOND LINK   HETATM
+ REVDAT :    1   06-AUG-00 1E4K    0
+ CRYST1 :   115.320  115.320  299.100  90.00  90.00 120.00 P 65 2 2     24
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Old chain |B| becomes chain E
+ Nr of lines read from file : (       5998) 
+ Nr of atoms in molecule    : (       5042) 
+ Nr of chains or models     : (          5) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        220) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result1e4kmodel6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/hm/pdb2hmi.ent.gz > 
+  ../pdb/wwpdb/pdb/hm/pdb2hmi.ent) 
+ LSQMAN >  HEADER :     IMMUNE SYSTEM/DNA                       10-APR-98   2HMI
+ TITLE  :     HIV-1 REVERSE TRANSCRIPTASE/FRAGMENT OF FAB 28/DNA COMPLEX
+ KEYWDS :     AIDS, HIV-1, RT, POLYMERASE, IMMUNE SYSTEM/DNA COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.DING,E.ARNOLD
+ REVDAT :    3   24-FEB-09 2HMI    1       VERSN
+ REVDAT :    2   01-APR-03 2HMI    1       JRNL
+ REVDAT :    1   14-OCT-98 2HMI    0
+ CRYST1 :   169.000  169.000  221.000  90.00  90.00 120.00 P 32 1 2      6
+ Old chain |E| becomes chain A
+ Old chain |F| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |C| becomes chain E
+ Old chain |D| becomes chain F
+ Nr of lines read from file : (      12649) 
+ Nr of atoms in molecule    : (      11647) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result2hmimodel6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/f6/pdb1f6m.ent.gz > 
+  ../pdb/wwpdb/pdb/f6/pdb1f6m.ent) 
+ LSQMAN >  HEADER :     OXIDOREDUCTASE                          22-JUN-00   1F6M
+ TITLE  :     CRYSTAL STRUCTURE OF A COMPLEX BETWEEN THIOREDOXIN
+ TITLE  :    2 REDUCTASE, THIOREDOXIN, AND THE NADP+ ANALOG, AADP+
+ KEYWDS :     ALTERNATE CONFORMATION, TERNARY COMPLEX, DOMAIN MOTION,
+ KEYWDS :    2 REDOX-ACTIVE CENTER, NADP, FAD, ELECTRON TRANSPORT,
+ KEYWDS :    3 OXIDOREDUCTASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     B.W.LENNON,C.H.WILLIAMS JR.,M.L.LUDWIG
+ REVDAT :    3   24-FEB-09 1F6M    1       VERSN
+ REVDAT :    2   08-NOV-00 1F6M    1       HETATM
+ REVDAT :    1   30-AUG-00 1F6M    0
+ CRYST1 :   298.929   94.828   79.613  90.00 104.18  90.00 C 1 2 1      16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |E| becomes chain K
+ Old chain |F| becomes chain L
+ Old chain |A| becomes chain M
+ Old chain |B| becomes chain N
+ Old chain |C| becomes chain O
+ Old chain |D| becomes chain P
+ Old chain |E| becomes chain Q
+ Old chain |F| becomes chain R
+ Old chain |G| becomes chain S
+ Old chain |H| becomes chain T
+ Nr of lines read from file : (      14928) 
+ Nr of atoms in molecule    : (      13612) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        632) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       3221) 
+ Nr of atoms in molecule    : (       3218) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        320) 
+ Central atoms mol 2 : (        424) 
+ Min matched residues       30
+ Max number of trials : (       3749) 
+ Max match so far : (        187) 
+ RMSD (A)         : (   0.606) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        187) 
+ RMSD (A)  : (   0.606) 
+ Regenerating best alignment ...
+ The    187 atoms have an RMS distance of    0.606 A
+ SI = RMS * Nmin / Nmatch             =      1.03661
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.36473
+ CR = Maiorov-Crippen RHO (0-2)       =      0.04026
+ RR = relative RMSD                   =      0.03751
+ NR = normalised RMSD (100)           =      0.461 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.324 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.173 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.093 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.050 A
+ RMSD / Nalign                        =    0.00324 A
+ RMS delta B for matched atoms        =    34.338 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.13834088  0.11951455 -0.98314703
+                 -0.90868306  0.41013432 -0.07800561
+                  0.39389956  0.90416044  0.16533919
+ Translation  :      12.5682     40.3444     75.7083
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/fq/pdb1fq1.ent.gz > 
+  ../pdb/wwpdb/pdb/fq/pdb1fq1.ent) 
+ LSQMAN >  HEADER :     HYDROLASE/TRANSFERASE                   01-SEP-00   1FQ1
+ TITLE  :     CRYSTAL STRUCTURE OF KINASE ASSOCIATED PHOSPHATASE (KAP) IN
+ TITLE  :    2 COMPLEX WITH PHOSPHO-CDK2
+ KEYWDS :     PHOSPHO-PROTEIN/PROTEIN COMPLEX, HYDROLASE/TRANSFERASE
+ KEYWDS :    2 COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     H.SONG,N.HANLON,N.R.BROWN,M.E.M.NOBLE,L.N.JOHNSON,D.BARFORD
+ REVDAT :    4   24-FEB-09 1FQ1    1       VERSN
+ REVDAT :    3   26-AUG-08 1FQ1    1       COMPND
+ REVDAT :    2   01-APR-03 1FQ1    1       JRNL
+ REVDAT :    1   09-MAY-01 1FQ1    0
+ CRYST1 :   134.450  134.450   65.800  90.00  90.00 120.00 P 32 2 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4538) 
+ Nr of atoms in molecule    : (       3853) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         43) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       3737) 
+ Nr of atoms in molecule    : (       3734) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        183) 
+ Central atoms mol 2 : (        468) 
+ Min matched residues       30
+ Max number of trials : (       1665) 
+ Max match so far : (        175) 
+ RMSD (A)         : (   0.607) 
+
+ Number of trials : (        144) 
+ Number IMproved  : (          1) 
+
+ Max match : (        175) 
+ RMSD (A)  : (   0.607) 
+ Regenerating best alignment ...
+ The    175 atoms have an RMS distance of    0.607 A
+ SI = RMS * Nmin / Nmatch             =      0.63497
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.59514
+ CR = Maiorov-Crippen RHO (0-2)       =      0.03979
+ RR = relative RMSD                   =      0.03712
+ NR = normalised RMSD (100)           =      0.474 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.347 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.198 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.113 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.065 A
+ RMSD / Nalign                        =    0.00347 A
+ RMS delta B for matched atoms        =    68.478 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.99522340 -0.01668750  0.09618690
+                 -0.00640754  0.99432325  0.10620817
+                 -0.09741322  0.10508454 -0.98968071
+ Translation  :       3.3633     56.9055     35.6867
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/px/pdb1pxv.ent.gz > 
+  ../pdb/wwpdb/pdb/px/pdb1pxv.ent) 
+ LSQMAN >  HEADER :     HYDROLASE                               07-JUL-03   1PXV
+ TITLE  :     THE STAPHOSTATIN-STAPHOPAIN COMPLEX: A FORWARD BINDING
+ TITLE  :    2 INHIBITOR IN COMPLEX WITH ITS TARGET CYSTEINE PROTEASE
+ KEYWDS :     CYSTEINE PROTEASE INHIBITOR, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     R.FILIPEK,M.RZYCHON,A.OLEKSY,M.GRUCA,A.DUBIN,J.POTEMPA,
+ AUTHOR :    2 M.BOCHTLER
+ REVDAT :    3   24-FEB-09 1PXV    1       VERSN
+ REVDAT :    2   23-NOV-04 1PXV    1       COMPND MASTER
+ REVDAT :    1   21-OCT-03 1PXV    0
+ CRYST1 :    73.485   94.966  110.927  90.00  90.00  90.00 P 21 21 21    8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |B| becomes chain H
+ Old chain |C| becomes chain I
+ Old chain |D| becomes chain J
+ Nr of lines read from file : (       5968) 
+ Nr of atoms in molecule    : (       5303) 
+ Nr of chains or models     : (         10) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        487) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       3703) 
+ Nr of atoms in molecule    : (       3700) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        183) 
+ Central atoms mol 2 : (        457) 
+ Min matched residues       30
+ Max number of trials : (       1620) 
+ Max match so far : (        156) 
+ RMSD (A)         : (   0.596) 
+
+ Number of trials : (         80) 
+ Number IMproved  : (          1) 
+
+ Max match : (        156) 
+ RMSD (A)  : (   0.596) 
+ Regenerating best alignment ...
+ The    156 atoms have an RMS distance of    0.596 A
+ SI = RMS * Nmin / Nmatch             =      0.69905
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.53465
+ CR = Maiorov-Crippen RHO (0-2)       =      0.04011
+ RR = relative RMSD                   =      0.03755
+ NR = normalised RMSD (100)           =      0.488 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.382 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.245 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.157 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.101 A
+ RMSD / Nalign                        =    0.00382 A
+ RMS delta B for matched atoms        =    24.011 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.60623640  0.76156211  0.22912982
+                  0.40926659  0.05171866  0.91094780
+                  0.68189311  0.64602494 -0.34303564
+ Translation  :      28.5457     -0.2926      9.4583
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/zl/pdb1zli.ent.gz > 
+  ../pdb/wwpdb/pdb/zl/pdb1zli.ent) 
+ LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           06-MAY-05   1ZLI
+ TITLE  :     CRYSTAL STRUCTURE OF THE TICK CARBOXYPEPTIDASE INHIBITOR IN
+ TITLE  :    2 COMPLEX WITH HUMAN CARBOXYPEPTIDASE B
+ KEYWDS :     INHIBITOR-METALLOCARBOXYPEPTIDASE COMPLEX, BETA-DEFENSIN
+ KEYWDS :    2 FOLD (TCI), EIGHT-STRANDED TWISTED BETA-SHEET SURROUNDED BY
+ KEYWDS :    3 EIGHT ALPHA-HELICES (CPB), HYDROLASE/HYDROLASE INHIBITOR
+ KEYWDS :    4 COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     J.L.AROLAS,G.M.POPOWICZ,J.LORENZO,C.P.SOMMERHOFF,R.HUBER,
+ AUTHOR :    2 F.X.AVILES,T.A.HOLAK
+ REVDAT :    2   24-FEB-09 1ZLI    1       VERSN
+ REVDAT :    1   05-JUL-05 1ZLI    0
+ CRYST1 :    74.200   74.200  163.550  90.00  90.00  90.00 P 43 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       4055) 
+ Nr of atoms in molecule    : (       3479) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        506) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (      24489) 
+ Nr of atoms in molecule    : (      15926) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (       8560) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        306) 
+ Central atoms mol 2 : (       1903) 
+ Min matched residues       30
+ Max number of trials : (      18963) 
+ WARNING - Many trials to do !
+ ... Be patient or re-do with bigger step sizes !
+ Max match so far : (        302) 
+ RMSD (A)         : (   0.514) 
+
+ Number of trials : (         47) 
+ Number IMproved  : (          1) 
+
+ Max match : (        302) 
+ RMSD (A)  : (   0.514) 
+ Regenerating best alignment ...
+ The    302 atoms have an RMS distance of    0.514 A
+ SI = RMS * Nmin / Nmatch             =      0.52127
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.65170
+ CR = Maiorov-Crippen RHO (0-2)       =      0.02897
+ RR = relative RMSD                   =      0.02690
+ NR = normalised RMSD (100)           =      0.331 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.170 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.056 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.019 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.006 A
+ RMSD / Nalign                        =    0.00170 A
+ RMS delta B for matched atoms        =    21.360 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.90230840  0.13161093  0.41050932
+                  0.09991622  0.99017406 -0.09783576
+                 -0.41935197 -0.04726150 -0.90659255
+ Translation  :       2.9305     29.0203     65.6620
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/o3/pdb2o3b.ent.gz > 
+  ../pdb/wwpdb/pdb/o3/pdb2o3b.ent) 
+ LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           01-DEC-06   2O3B
+ TITLE  :     CRYSTAL STRUCTURE COMPLEX OF NUCLEASE A (NUCA) WITH INTRA-CELLULAR
+ TITLE  :    2 INHIBITOR NUIA
+ KEYWDS :     NUCLEASE, NUCLEASE INHIBITOR, METAL COMPLEX, NON-SPECIFIC NUCLEASE,
+ KEYWDS :    2 HYDROLASE-HYDROLASE INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GHOSH,G.MEISS,A.M.PINGOUD,R.E.LONDON,L.C.PEDERSEN
+ REVDAT :    4   13-JUL-11 2O3B    1       VERSN
+ REVDAT :    3   24-FEB-09 2O3B    1       VERSN
+ REVDAT :    2   17-APR-07 2O3B    1       JRNL
+ REVDAT :    1   19-DEC-06 2O3B    0
+ CRYST1 :    87.225   87.225  138.977  90.00  90.00  90.00 P 43 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       3797) 
+ Nr of atoms in molecule    : (       3166) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        254) 
+ Stripped alt. conf. atoms  : (         39) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       4068) 
+ Nr of atoms in molecule    : (       3232) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (        833) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        241) 
+ Central atoms mol 2 : (        383) 
+ Min matched residues       30
+ Max number of trials : (       2145) 
+ Max match so far : (        239) 
+ RMSD (A)         : (   0.374) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        239) 
+ RMSD (A)  : (   0.374) 
+ Regenerating best alignment ...
+ The    239 atoms have an RMS distance of    0.374 A
+ SI = RMS * Nmin / Nmatch             =      0.37759
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.72155
+ CR = Maiorov-Crippen RHO (0-2)       =      0.02248
+ RR = relative RMSD                   =      0.02089
+ NR = normalised RMSD (100)           =      0.261 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.157 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.066 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.027 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.011 A
+ RMSD / Nalign                        =    0.00157 A
+ RMS delta B for matched atoms        =    39.071 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.95189571 -0.21894719 -0.21437514
+                 -0.02496059 -0.75268638  0.65790600
+                 -0.30540389 -0.62090695 -0.72194397
+ Translation  :      -3.0295     31.2910     22.4032
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/at/pdb1atn.ent.gz > 
+  ../pdb/wwpdb/pdb/at/pdb1atn.ent) 
+ LSQMAN >  HEADER :     ENDODEOXYRIBONUCLEASE                   08-MAR-91   1ATN
+ TITLE  :     ATOMIC STRUCTURE OF THE ACTIN:DNASE I COMPLEX
+ KEYWDS :     ENDODEOXYRIBONUCLEASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     W.KABSCH,H.G.MANNHERZ,D.SUCK,E.PAI,K.C.HOLMES
+ REVDAT :    3   13-JUL-11 1ATN    1       VERSN
+ REVDAT :    2   24-FEB-09 1ATN    1       VERSN
+ REVDAT :    1   15-JUL-92 1ATN    0
+ CRYST1 :   132.900   56.300  109.700  90.00  90.00  90.00 P 21 21 21    4
+ Old chain |A| becomes chain A
+ Old chain |D| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |A| becomes chain E
+ Nr of lines read from file : (       5876) 
+ Nr of atoms in molecule    : (       5019) 
+ Nr of chains or models     : (          5) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         88) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result1atnmodel6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/bk/pdb1bkd.ent.gz > 
+  ../pdb/wwpdb/pdb/bk/pdb1bkd.ent) 
+ LSQMAN >  HEADER :     COMPLEX(ONCOGENE PROTEIN/EXCHANGE FACTR)06-JUL-98   1BKD
+ TITLE  :     COMPLEX OF HUMAN H-RAS WITH HUMAN SOS-1
+ KEYWDS :     COMPLEX (ONCOGENE PROTEIN/EXCHANGE FACTOR), SMALL GTPASE,
+ KEYWDS :    2 EXCHANGE FACTOR, COMPLEX(ONCOGENE PROTEIN/EXCHANGE FACTR)
+ KEYWDS :    3 COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.A.BORIACK-SJODIN,S.M.MARGARIT,D.B.SAGI,J.KURIYAN
+ REVDAT :    2   24-FEB-09 1BKD    1       VERSN
+ REVDAT :    1   13-JAN-99 1BKD    0
+ CRYST1 :   142.700  142.700  207.900  90.00  90.00  90.00 I 4 2 2      16
+ Old chain |R| becomes chain A
+ Old chain |S| becomes chain B
+ Old chain |R| becomes chain C
+ Old chain |S| becomes chain D
+ Nr of lines read from file : (       5537) 
+ Nr of atoms in molecule    : (       5010) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         26) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result1bkdmodel6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/de/pdb1de4.ent.gz > 
+  ../pdb/wwpdb/pdb/de/pdb1de4.ent) 
+ LSQMAN >  HEADER :     METAL TRANSPORT INHIBITOR/RECEPTOR      12-NOV-99   1DE4
+ TITLE  :     HEMOCHROMATOSIS PROTEIN HFE COMPLEXED WITH TRANSFERRIN RECEPTOR
+ KEYWDS :     HFE, HEREDITARY HEMOCHROMATOSIS, MHC CLASS I, TRANSFERRIN RECEPTOR,
+ KEYWDS :    2 METAL TRANSPORT INHIBITOR-RECEPTOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.J.BENNETT,J.A.LEBRON,P.J.BJORKMAN
+ REVDAT :    3   13-JUL-11 1DE4    1       VERSN
+ REVDAT :    2   24-FEB-09 1DE4    1       VERSN
+ REVDAT :    1   19-JAN-00 1DE4    0
+ CRYST1 :   110.400  144.400  327.100  90.00  93.60  90.00 C 1 2 1      12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |G| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |I| becomes chain I
+ Old chain |C| becomes chain J
+ Old chain |F| becomes chain K
+ Old chain |G| becomes chain L
+ Old chain |I| becomes chain M
+ Old chain |C| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |I| becomes chain P
+ Nr of lines read from file : (      25513) 
+ Nr of atoms in molecule    : (      24315) 
+ Nr of chains or models     : (         16) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         60) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : ../result1de4model6.txt
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/ee/pdb1eer.ent.gz > 
+  ../pdb/wwpdb/pdb/ee/pdb1eer.ent) 
+ LSQMAN >  HEADER :     COMPLEX (CYTOKINE/RECEPTOR)             24-JUL-98   1EER
+ TITLE  :     CRYSTAL STRUCTURE OF HUMAN ERYTHROPOIETIN COMPLEXED TO ITS
+ TITLE  :    2 RECEPTOR AT 1.9 ANGSTROMS
+ KEYWDS :     ERYTHROPOIETIN, ERYTHROPOIETIN RECEPTOR, SIGNAL
+ KEYWDS :    2 TRANSDUCTION, HEMATOPOIETIC CYTOKINE, CYTOKINE RECEPTOR
+ KEYWDS :    3 CLASS 1, COMPLEX (CYTOKINE/RECEPTOR)
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     R.S.SYED,C.LI
+ REVDAT :    2   24-FEB-09 1EER    1       VERSN
+ REVDAT :    1   01-OCT-99 1EER    0
+ CRYST1 :    58.400   79.300  136.500  90.00  90.00  90.00 P 21 21 21    8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Old chain |B| becomes chain E
+ Old chain |C| becomes chain F
+ Nr of lines read from file : (       5434) 
+ Nr of atoms in molecule    : (       4917) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        298) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       5878) 
+ Nr of atoms in molecule    : (       4886) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (        988) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        166) 
+ Central atoms mol 2 : (        582) 
+ Min matched residues       30
+ Max number of trials : (       1694) 
+ Max match so far : (        118) 
+ RMSD (A)         : (   1.733) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        118) 
+ RMSD (A)  : (   1.733) 
+ Regenerating best alignment ...
+ The    118 atoms have an RMS distance of    1.733 A
+ SI = RMS * Nmin / Nmatch             =      2.43825
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.26071
+ CR = Maiorov-Crippen RHO (0-2)       =      0.12491
+ RR = relative RMSD                   =      0.11849
+ NR = normalised RMSD (100)           =      1.601 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.469 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.245 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.055 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.894 A
+ RMSD / Nalign                        =    0.01469 A
+ RMS delta B for matched atoms        =    26.149 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.53882360 -0.30820400 -0.78401494
+                 -0.66320986 -0.41866553  0.62038046
+                 -0.51944375  0.85424209  0.02118294
+ Translation  :     -20.4359     32.4587     99.6807
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/fa/pdb1fak.ent.gz > 
+  ../pdb/wwpdb/pdb/fa/pdb1fak.ent) 
+ LSQMAN >  HEADER :     BLOOD CLOTTING                          28-DEC-98   1FAK
+ TITLE  :     HUMAN TISSUE FACTOR COMPLEXED WITH COAGULATION FACTOR VIIA
+ TITLE  :    2 INHIBITED WITH A BPTI-MUTANT
+ KEYWDS :     COMPLEX(SERINE PROTEASE/COFACTOR/LIGAND), BLOOD COAGULATION,
+ KEYWDS :    2 SERINE PROTEASE, COMPLEX, CO-FACTOR, RECEPTOR ENZYME,
+ KEYWDS :    3 INHIBITOR, GLA, EGF, COMPLEX (SERINE
+ KEYWDS :    4 PROTEASE/COFACTOR/LIGAND), BLOOD CLOTTING
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     E.ZHANG,R.ST CHARLES,A.TULINSKY
+ REVDAT :    3   24-FEB-09 1FAK    1       VERSN
+ REVDAT :    2   10-JAN-01 1FAK    1       SOURCE REMARK MODRES
+ REVDAT :    1   03-DEC-99 1FAK    0
+ CRYST1 :    63.490  190.000  175.300  90.00  90.00  90.00 C 2 2 21      8
+ Old chain |L| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |T| becomes chain C
+ Old chain |I| becomes chain D
+ Old chain |L| becomes chain E
+ Old chain |H| becomes chain F
+ Old chain |L| becomes chain G
+ Old chain |H| becomes chain H
+ Old chain |T| becomes chain I
+ Old chain |I| becomes chain J
+ Nr of lines read from file : (       5873) 
+ Nr of atoms in molecule    : (       5079) 
+ Nr of chains or models     : (         10) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        363) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       4215) 
+ Nr of atoms in molecule    : (       4211) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- Requested chain not found
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/h1/pdb1h1v.ent.gz > 
+  ../pdb/wwpdb/pdb/h1/pdb1h1v.ent) 
+ LSQMAN >  HEADER :     ACTIN-BINDING                           23-JUL-02   1H1V
+ TITLE  :     GELSOLIN G4-G6/ACTIN COMPLEX
+ KEYWDS :     ACTIN-BINDING, SEVERING, CAPPING, CALCIUM, AMYLOID, MUSCLE
+ KEYWDS :    2 CONTRACTION
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     H.CHOE,L.D.BURTNICK,M.MEJILLANO,H.L.YIN,R.C.ROBINSON,S.CHOE
+ REVDAT :    2   24-FEB-09 1H1V    1       VERSN
+ REVDAT :    1   24-JAN-03 1H1V    0
+ CRYST1 :    54.350  113.450  159.350  90.00  90.00  90.00 P 21 21 21    4
+ Old chain |A| becomes chain A
+ Old chain |G| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |G| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |G| becomes chain F
+ Nr of lines read from file : (       6626) 
+ Nr of atoms in molecule    : (       5796) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        382) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       8476) 
+ Nr of atoms in molecule    : (       8473) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        368) 
+ Central atoms mol 2 : (       1100) 
+ Min matched residues       30
+ Max number of trials : (      13527) 
+ WARNING - Many trials to do !
+ ... Be patient or re-do with bigger step sizes !
+ Max match so far : (        358) 
+ RMSD (A)         : (   0.738) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        358) 
+ RMSD (A)  : (   0.738) 
+ Regenerating best alignment ...
+ The    358 atoms have an RMS distance of    0.738 A
+ SI = RMS * Nmin / Nmatch             =      0.75880
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.55972
+ CR = Maiorov-Crippen RHO (0-2)       =      0.03522
+ RR = relative RMSD                   =      0.03270
+ NR = normalised RMSD (100)           =      0.451 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.206 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.058 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.016 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.004 A
+ RMSD / Nalign                        =    0.00206 A
+ RMS delta B for matched atoms        =    27.285 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.32926202 -0.89269733  0.30769780
+                 -0.58365929 -0.44857457 -0.67684752
+                  0.74224544  0.04326949 -0.66872972
+ Translation  :      13.0496     37.2242     48.8512
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/ib/pdb1ibr.ent.gz > 
+  ../pdb/wwpdb/pdb/ib/pdb1ibr.ent) 
+ LSQMAN >  HEADER :     CELL CYCLE,TRANSLATION                  14-MAY-99   1IBR
+ TITLE  :     COMPLEX OF RAN WITH IMPORTIN BETA
+ KEYWDS :     SMALL GTPASE; NUCLEAR TRANSPORT RECEPTOR, CELL CYCLE,
+ KEYWDS :    2 TRANSLATION
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.R.VETTER,A.ARNDT,U.KUTAY,D.GOERLICH,A.WITTINGHOFER
+ REVDAT :    5   24-FEB-09 1IBR    1       VERSN
+ REVDAT :    4   20-APR-04 1IBR    1       HELIX  HEADER COMPND SOURCE
+ REVDAT :    4 2                   1       JRNL   REMARK
+ REVDAT :    3   01-APR-03 1IBR    1       JRNL
+ REVDAT :    2   11-JUL-01 1IBR    3       SOURCE ATOM   REMARK
+ REVDAT :    1   03-JUN-99 1IBR    0
+ CRYST1 :    65.700  108.950  114.050  90.00 100.66  90.00 P 1 21 1      4
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |C| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |B| becomes chain H
+ Old chain |C| becomes chain I
+ Old chain |D| becomes chain J
+ Nr of lines read from file : (      11057) 
+ Nr of atoms in molecule    : (      10117) 
+ Nr of chains or models     : (         10) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        378) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       5056) 
+ Nr of atoms in molecule    : (       5053) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        168) 
+ Central atoms mol 2 : (        642) 
+ Min matched residues       30
+ Max number of trials : (       1904) 
+ Max match so far : (        150) 
+ RMSD (A)         : (   1.082) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        150) 
+ RMSD (A)  : (   1.082) 
+ Regenerating best alignment ...
+ The    150 atoms have an RMS distance of    1.082 A
+ SI = RMS * Nmin / Nmatch             =      1.21139
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.42923
+ CR = Maiorov-Crippen RHO (0-2)       =      0.07443
+ RR = relative RMSD                   =      0.06973
+ NR = normalised RMSD (100)           =      0.899 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.721 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.481 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.320 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.214 A
+ RMSD / Nalign                        =    0.00721 A
+ RMS delta B for matched atoms        =    28.826 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.69400179 -0.64632392 -0.31721759
+                  0.50769448  0.75172466 -0.42089951
+                  0.51049769  0.13105540  0.84983331
+ Translation  :      -3.0399     -0.1710     16.7113
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/ir/pdb1ira.ent.gz > 
+  ../pdb/wwpdb/pdb/ir/pdb1ira.ent) 
+ LSQMAN >  HEADER :     COMPLEX (CYTOKINE RECEPTOR/ANTAGONIST)  09-APR-98   1IRA
+ TITLE  :     COMPLEX OF THE INTERLEUKIN-1 RECEPTOR WITH THE INTERLEUKIN-1 RECEPTOR
+ TITLE  :    2 ANTAGONIST (IL1RA)
+ KEYWDS :     CYTOKINE RECEPTOR, RECEPTOR ANTAGONIST, IMMUNOGLOBULIN FOLD, COMPLEX
+ KEYWDS :    2 (CYTOKINE RECEPTOR-ANTAGONIST), COMPLEX (CYTOKINE RECEPTOR-
+ KEYWDS :    3 ANTAGONIST) COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     H.A.SCHREUDER,C.TARDIF,S.TRAMP-KALMEYER,A.SOFFIENTINI,E.SARUBBI,
+ AUTHOR :    2 A.AKESON,T.BOWLIN,S.YANOFSKY,R.W.BARRETT
+ REVDAT :    3   13-JUL-11 1IRA    1       VERSN
+ REVDAT :    2   24-FEB-09 1IRA    1       VERSN
+ REVDAT :    1   17-JUN-98 1IRA    0
+ CRYST1 :    47.200   84.600  140.200  90.00  90.00  90.00 P 21 21 21    4
+ Old chain |X| becomes chain A
+ Old chain |Y| becomes chain B
+ Old chain |X| becomes chain C
+ Old chain |Y| becomes chain D
+ Nr of lines read from file : (       4341) 
+ Nr of atoms in molecule    : (       3780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        142) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       3655) 
+ Nr of atoms in molecule    : (       3652) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- Requested chain not found
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/jk/pdb1jk9.ent.gz > 
+  ../pdb/wwpdb/pdb/jk/pdb1jk9.ent) 
+ LSQMAN >  HEADER :     OXIDOREDUCTASE                          11-JUL-01   1JK9
+ TITLE  :     HETERODIMER BETWEEN H48F-YSOD1 AND YCCS
+ KEYWDS :     PROTEIN-PROTEIN COMPLEX, HETERODIMER, METALLOCHAPERONE,
+ KEYWDS :    2 CHAPERONE, COPPER, AMYOTROPHIC LATERAL SCLEROSIS, LOU
+ KEYWDS :    3 GEHRIG'S DISEASE, OXIDOREDUCTASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.L.LAMB,A.S.TORRES,T.V.O'HALLORAN,A.C.ROSENZWEIG
+ REVDAT :    3   24-FEB-09 1JK9    1       VERSN
+ REVDAT :    2   01-APR-03 1JK9    1       JRNL
+ REVDAT :    1   05-SEP-01 1JK9    0
+ CRYST1 :   104.090  104.090  233.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |C| becomes chain G
+ Old chain |D| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |C| becomes chain K
+ Old chain |D| becomes chain L
+ Nr of lines read from file : (       6659) 
+ Nr of atoms in molecule    : (       5979) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         25) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       2791) 
+ Nr of atoms in molecule    : (       2788) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- Requested chain not found
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/jm/pdb1jmo.ent.gz > 
+  ../pdb/wwpdb/pdb/jm/pdb1jmo.ent) 
+ LSQMAN >  HEADER :     BLOOD CLOTTING                          19-JUL-01   1JMO
+ TITLE  :     CRYSTAL STRUCTURE OF THE HEPARIN COFACTOR II-S195A THROMBIN COMPLEX
+ KEYWDS :     SERPIN, THROMBIN, PROTEASE, INHIBITION, INHIBITOR, BLOOD CLOTTING
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     T.P.BAGLIN,R.W.CARRELL,C.T.ESMON,J.A.HUNTINGTON
+ REVDAT :    3   13-JUL-11 1JMO    1       VERSN
+ REVDAT :    2   24-FEB-09 1JMO    1       VERSN
+ REVDAT :    1   30-AUG-02 1JMO    0
+ CRYST1 :   152.310  152.310  126.800  90.00  90.00 120.00 P 61          6
+ Old chain |L| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |H| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |L| becomes chain F
+ Old chain |H| becomes chain G
+ Old chain |A| becomes chain H
+ Nr of lines read from file : (       7095) 
+ Nr of atoms in molecule    : (       6235) 
+ Nr of chains or models     : (          8) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        337) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       7674) 
+ Nr of atoms in molecule    : (       6037) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (       1633) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (         47) 
+ Central atoms mol 2 : (        681) 
+ ERROR ---  Not enough atoms
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/jz/pdb1jzd.ent.gz > 
+  ../pdb/wwpdb/pdb/jz/pdb1jzd.ent) 
+ LSQMAN >  HEADER :     OXIDOREDUCTASE                          15-SEP-01   1JZD
+ TITLE  :     DSBC-DSBDALPHA COMPLEX
+ KEYWDS :     THIOL DISULFIDE OXIDOREDUCTASE, REACTION INTERMEDIATE,
+ KEYWDS :    2 PROTEIN-PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.W.HAEBEL,D.GOLDSTONE,F.KATZEN,J.BECKWITH,P.METCALF
+ REVDAT :    2   24-FEB-09 1JZD    1       VERSN
+ REVDAT :    1   08-MAR-03 1JZD    0
+ CRYST1 :    68.910   68.910  230.336  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Old chain |B| becomes chain E
+ Old chain |C| becomes chain F
+ Nr of lines read from file : (       4922) 
+ Nr of atoms in molecule    : (       4347) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        124) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       4209) 
+ Nr of atoms in molecule    : (       4205) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        219) 
+ Central atoms mol 2 : (        547) 
+ Min matched residues       30
+ Max number of trials : (       2925) 
+ Max match so far : (        199) 
+ RMSD (A)         : (   1.446) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        199) 
+ RMSD (A)  : (   1.446) 
+ Regenerating best alignment ...
+ The    199 atoms have an RMS distance of    1.446 A
+ SI = RMS * Nmin / Nmatch             =      1.59157
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.37163
+ CR = Maiorov-Crippen RHO (0-2)       =      0.07882
+ RR = relative RMSD                   =      0.07331
+ NR = normalised RMSD (100)           =      1.076 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.727 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.365 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.184 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.092 A
+ RMSD / Nalign                        =    0.00727 A
+ RMS delta B for matched atoms        =    46.219 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.01682963 -0.79808962  0.60230374
+                  0.16368559 -0.59206283 -0.78909361
+                  0.98636901  0.11186859  0.12067159
+ Translation  :      18.5273     34.4251     39.3499
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/r8/pdb1r8s.ent.gz > 
+  ../pdb/wwpdb/pdb/r8/pdb1r8s.ent) 
+ LSQMAN >  HEADER :     PROTEIN TRANSPORT/EXCHANGE FACTOR       28-OCT-03   1R8S
+ TITLE  :     ARF1[DELTA1-17]-GDP IN COMPLEX WITH A SEC7 DOMAIN CARRYING THE
+ TITLE  :    2 MUTATION OF THE CATALYTIC GLUTAMATE TO LYSINE
+ KEYWDS :     PROTEIN TRANSPORT/EXCHANGE FACTOR, PROTEIN TRANSPORT-EXCHANGE FACTOR
+ KEYWDS :    2 COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     L.RENAULT,B.GUIBERT,J.CHERFILS
+ REVDAT :    4   13-JUL-11 1R8S    1       VERSN
+ REVDAT :    3   24-FEB-09 1R8S    1       VERSN
+ REVDAT :    2   17-FEB-04 1R8S    3       ATOM
+ REVDAT :    1   20-JAN-04 1R8S    0
+ CRYST1 :   104.018  104.018   69.277  90.00  90.00 120.00 P 32 2 1      6
+ Old chain |A| becomes chain A
+ Old chain |E| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |E| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |E| becomes chain F
+ Nr of lines read from file : (       3909) 
+ Nr of atoms in molecule    : (       3206) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        400) 
+ Stripped alt. conf. atoms  : (         29) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       3029) 
+ Nr of atoms in molecule    : (       3026) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        160) 
+ Central atoms mol 2 : (        375) 
+ Min matched residues       30
+ Max number of trials : (        973) 
+ Max match so far : (         39) 
+ RMSD (A)         : (   2.196) 
+
+ Number of trials : (          7) 
+ Number IMproved  : (          1) 
+
+ Max match : (         39) 
+ RMSD (A)  : (   2.196) 
+ Regenerating best alignment ...
+ The     39 atoms have an RMS distance of    2.196 A
+ SI = RMS * Nmin / Nmatch             =      9.00976
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.07773
+ CR = Maiorov-Crippen RHO (0-2)       =      0.19590
+ RR = relative RMSD                   =      0.23136
+ NR = normalised RMSD (100)           =      4.150 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.631 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =     14.439 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =     37.022 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =     94.929 A
+ RMSD / Nalign                        =    0.05631 A
+ RMS delta B for matched atoms        =    11.832 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.18722317  0.48328105 -0.85521168
+                  0.39805773 -0.75859863 -0.51582778
+                 -0.89805216 -0.43699852 -0.05034651
+ Translation  :      30.0282     34.6076    -21.2812
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/y6/pdb1y64.ent.gz > 
+  ../pdb/wwpdb/pdb/y6/pdb1y64.ent) 
+ LSQMAN >  HEADER :     STRUCTURAL PROTEIN                      03-DEC-04   1Y64
+ TITLE  :     BNI1P FORMIN HOMOLOGY 2 DOMAIN COMPLEXED WITH ATP-ACTIN
+ KEYWDS :     FH2 ACTIN CYTOSKELETON, COILED COIL, ACTIN,
+ KEYWDS :    2 TETRAMETHYLRHODAMINE-5-MALEIMIDE, ATP-STATE, STRUCTURAL
+ KEYWDS :    3 PROTEIN
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     T.OTOMO,D.R.TOMCHICK,C.OTOMO,S.C.PANCHAL,M.MACHIUS,M.K.ROSEN
+ REVDAT :    3   24-FEB-09 1Y64    1       VERSN
+ REVDAT :    2   01-FEB-05 1Y64    1       JRNL
+ REVDAT :    1   18-JAN-05 1Y64    0
+ CRYST1 :   231.997   56.229  100.945  90.00 107.70  90.00 C 1 2 1       4
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Nr of lines read from file : (       6966) 
+ Nr of atoms in molecule    : (       6162) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         43) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       6166) 
+ Nr of atoms in molecule    : (       6163) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        357) 
+ Central atoms mol 2 : (        771) 
+ Min matched residues       30
+ Max number of trials : (       8762) 
+ Max match so far : (        353) 
+ RMSD (A)         : (   0.898) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        353) 
+ RMSD (A)  : (   0.898) 
+ Regenerating best alignment ...
+ The    353 atoms have an RMS distance of    0.898 A
+ SI = RMS * Nmin / Nmatch             =      0.90822
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.52097
+ CR = Maiorov-Crippen RHO (0-2)       =      0.04292
+ RR = relative RMSD                   =      0.03985
+ NR = normalised RMSD (100)           =      0.551 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.254 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.072 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.020 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.006 A
+ RMSD / Nalign                        =    0.00254 A
+ RMS delta B for matched atoms        =   108.342 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.35691983 -0.04697158 -0.93295312
+                 -0.01542022 -0.99889499  0.04439226
+                 -0.93400753 -0.00145814 -0.35724980
+ Translation  :     150.0005     30.8676     62.1624
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/zm/pdb1zm4.ent.gz > 
+  ../pdb/wwpdb/pdb/zm/pdb1zm4.ent) 
+ LSQMAN >  HEADER :     BIOSYNTHETIC PROTEIN/TRANSFERASE        10-MAY-05   1ZM4
+ TITLE  :     STRUCTURE OF THE EEF2-ETA-BTAD COMPLEX
+ KEYWDS :     ELONGATION FACTOR, TOXIN, ADP-RIBOSYLATION, BIOSYNTHETIC
+ KEYWDS :    2 PROTEIN/TRANSFERASE COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     R.JOERGENSEN,A.R.MERRILL,S.P.YATES,V.E.MARQUEZ,A.L.SCHWAN,
+ AUTHOR :    2 T.BOESEN,G.R.ANDERSEN
+ REVDAT :    3   24-FEB-09 1ZM4    1       VERSN
+ REVDAT :    2   30-AUG-05 1ZM4    1       JRNL
+ REVDAT :    1   24-MAY-05 1ZM4    0
+ CRYST1 :   326.950   68.580  190.200  90.00 103.42  90.00 C 1 2 1      12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |B| becomes chain G
+ Old chain |D| becomes chain H
+ Old chain |F| becomes chain I
+ Nr of lines read from file : (      25479) 
+ Nr of atoms in molecule    : (      24125) 
+ Nr of chains or models     : (          9) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        179) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       7989) 
+ Nr of atoms in molecule    : (       7986) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        823) 
+ Central atoms mol 2 : (       1029) 
+ Min matched residues       30
+ Max number of trials : (      34018) 
+ WARNING - Many trials to do !
+ ... Be patient or re-do with bigger step sizes !
+ Max match so far : (        527) 
+ RMSD (A)         : (   0.807) 
+
+ Number of trials : (          1) 
+ Number IMproved  : (          1) 
+
+ Max match : (        527) 
+ RMSD (A)  : (   0.807) 
+ Regenerating best alignment ...
+ The    527 atoms have an RMS distance of    0.807 A
+ SI = RMS * Nmin / Nmatch             =      1.26027
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.35461
+ CR = Maiorov-Crippen RHO (0-2)       =      0.03160
+ RR = relative RMSD                   =      0.02933
+ NR = normalised RMSD (100)           =      0.441 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.153 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.029 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.006 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.001 A
+ RMSD / Nalign                        =    0.00153 A
+ RMS delta B for matched atoms        =    55.833 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.14595021 -0.42526329  0.89322442
+                 -0.82038963  0.55660832  0.13095149
+                 -0.55286497 -0.71367955 -0.43011868
+ Translation  :     -15.6957      0.6964     39.9635
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
+ LSQMAN >  Spawn system command : (  gunzip -c ../pdb/wwpdb/pdb/c0/pdb2c0l.ent.gz > 
+  ../pdb/wwpdb/pdb/c0/pdb2c0l.ent) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/RECEPTOR              05-SEP-05   2C0L
+ TITLE  :     TPR DOMAIN OF HUMAN PEX5P IN COMPLEX WITH HUMAN MSCP2
+ KEYWDS :     TRANSPORT PROTEIN/RECEPTOR, TPR REPEAT, TRANSPORT, IMPORT
+ KEYWDS :    2 RECEPTOR COMPLEX, PEROXISOME, DISEASE MUTATION, PROTEIN
+ KEYWDS :    3 TRANSPORT, ZELLWEGER SYNDROME, ALTERNATIVE INITIATION,
+ KEYWDS :    4 LIPID TRANSPORT, LIPID-BINDING, MITOCHONDRION, TRANSIT
+ KEYWDS :    5 PEPTIDE, TRANSPORT PROTEIN/RECEPTOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     W.A.STANLEY,P.KURSULA,M.WILMANNS
+ REVDAT :    3   24-FEB-09 2C0L    1       VERSN
+ REVDAT :    2   02-JAN-07 2C0L    1       JRNL
+ REVDAT :    1   15-NOV-06 2C0L    0
+ CRYST1 :    40.480   68.620  137.390  90.00  90.00  90.00 P 21 21 21    4
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       3749) 
+ Nr of atoms in molecule    : (       3301) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         99) 
+ Stripped alt. conf. atoms  : (          7) 
+ LSQMAN >  Multiple NMR models
+ NMR model   1 becomes chain A
+ Nr of lines read from file : (       3303) 
+ Nr of atoms in molecule    : (       3300) 
+ Nr of chains or models     : (          1) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Fast-force fit of  M1 A
+ And                M2 A
+ Atom type      | CA |
+ Fragment length           100
+ Fragment step size         10
+ Sliding step size           2
+ Central atoms mol 1 : (        292) 
+ Central atoms mol 2 : (        425) 
+ Min matched residues       30
+ Max number of trials : (       3280) 
+ Max match so far : (         15) 
+ RMSD (A)         : (   1.862) 
+ Max match so far : (         16) 
+ RMSD (A)         : (   2.521) 
+ Max match so far : (         18) 
+ RMSD (A)         : (   2.132) 
+ Max match so far : (        261) 
+ RMSD (A)         : (   0.863) 
+
+ Number of trials : (          8) 
+ Number IMproved  : (          8) 
+
+ Max match : (        261) 
+ RMSD (A)  : (   0.863) 
+ Regenerating best alignment ...
+ The    261 atoms have an RMS distance of    0.863 A
+ SI = RMS * Nmin / Nmatch             =      0.96519
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.48005
+ CR = Maiorov-Crippen RHO (0-2)       =      0.04629
+ RR = relative RMSD                   =      0.04299
+ NR = normalised RMSD (100)           =      0.583 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.331 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.127 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.049 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.019 A
+ RMSD / Nalign                        =    0.00331 A
+ RMS delta B for matched atoms        =    33.292 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.00490118 -0.40284905 -0.91525340
+                  0.25171593 -0.88529623  0.39101133
+                 -0.96778882 -0.23230025  0.09706451
+ Translation  :      12.8115      1.6008     55.3078
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN > 
