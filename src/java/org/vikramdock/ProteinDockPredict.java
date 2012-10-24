@@ -250,7 +250,7 @@ public class ProteinDockPredict{
 	public void printCases() throws Exception {
 		for (int i = 0; i < Math.min(cases.size(),Constants.NUMCASES); i++) {
 			TestCase current = (TestCase)cases.poll();
-			printCase(current);
+//			printCase(current);
 			double score = current.getScore();
 			if (i < 9) {
 				out.println("MODEL        " + (i+1) + " " + score);

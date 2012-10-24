@@ -1,0 +1,27 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+proteins[10]="1TNR_R"
+proteins[1]="3ALQ_R"
+proteins[2]="3IT8_A"
+proteins[3]="1YVL_A"
+proteins[4]="1F2H_A"
+proteins[5]="1F3V_B"
+proteins[6]="2GF5_A"
+proteins[7]="3FQE_A"
+proteins[8]="4EBV_A"
+proteins[9]="2CLQ_A"
+for i in `seq 10`
+do
+	for j in `seq 10`
+	do
+		if [ $j -le $i ]
+		then
+			continue
+		fi
+		time java -cp ProteinDock.jar org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ PROT$i$j AB ${proteins[$i]:0:4} ${proteins[$i]:5} ${proteins[$j]:0:4} ${proteins[$j]:5} 4
+		
+	done
+done
