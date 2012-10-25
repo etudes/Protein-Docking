@@ -55,7 +55,6 @@ public class TestCase {
 	}
 	public double score() {
 		score = energyScore();
-if (score != 0) System.out.println(score + " SCORE");
 		if (score == 0) score = Double.POSITIVE_INFINITY;
 		return score;
 	}
@@ -134,8 +133,6 @@ if (score != 0) System.out.println(score + " SCORE");
 					vanDerWaalsE = potentials[tx][ty][tz][4];
 				}
 			}
-if (vanDerWaalsE != 0) System.out.println(vanDerWaalsE + " VDW");
-if (solvE != 0) System.out.println(solvE + " SOLV");
 			if (vanDerWaalsE > Constants.ETHRESHOLD || solvE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
@@ -203,7 +200,6 @@ if (solvE != 0) System.out.println(solvE + " SOLV");
 					}
 				} 
 			}
-if (solvE != 0) System.out.println(solvE + " SOLV");
 			if (solvE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}

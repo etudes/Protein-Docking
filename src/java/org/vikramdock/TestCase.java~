@@ -218,7 +218,6 @@ if (solvE != 0) System.out.println(solvE + " SOLV");
 			Atom second = newps1.getAtomByNum(current.getSecond().getAtomnum());
 			double distance = first.distance(second);
 			bStretchE = current.bondE(distance);
-if (bStretchE != 0) System.out.println(bStretchE + " BSTRETCH");
 			if (bStretchE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
@@ -232,7 +231,6 @@ if (bStretchE != 0) System.out.println(bStretchE + " BSTRETCH");
 			Atom second = newps2.getAtomByNum(current.getSecond().getAtomnum());
 			double distance = first.distance(second);
 			bStretchE = current.bondE(distance);
-if (bStretchE != 0) System.out.println(bStretchE + " BSTRETCH");
 			if (bStretchE > Constants.ETHRESHOLD) {
 				return Double.POSITIVE_INFINITY;
 			}
@@ -251,7 +249,6 @@ if (bStretchE != 0) System.out.println(bStretchE + " BSTRETCH");
 				double origangle = ps1.getAtomByNum(current.getAtomnum()).angle(ps1.getAtomByNum(previous.getAtomnum()), ps1.getAtomByNum(next.getAtomnum()));
 				double newangle = current.angle(previous, next);
 				aBendE = 1/2 * Constants.ABENDCONST * Math.pow((newangle - origangle),2);
-if (aBendE != 0) System.out.println(aBendE + "ABEND");
 				if (aBendE > Constants.ETHRESHOLD) {
 					return Double.POSITIVE_INFINITY;
 				}
@@ -270,7 +267,6 @@ if (aBendE != 0) System.out.println(aBendE + "ABEND");
 				double origangle = ps2.getAtomByNum(current.getAtomnum()).angle(ps2.getAtomByNum(previous.getAtomnum()), ps2.getAtomByNum(next.getAtomnum()));
 				double newangle = current.angle(previous, next);
 				aBendE = 1/2 * Constants.ABENDCONST * Math.pow((newangle - origangle),2);
-if (aBendE != 0) System.out.println(aBendE + "ABEND");
 				if (aBendE > Constants.ETHRESHOLD) {
 					return Double.POSITIVE_INFINITY;
 				}
@@ -289,7 +285,6 @@ if (aBendE != 0) System.out.println(aBendE + "ABEND");
 			} else {
 				double torsAngle = current.torsAng(previous, next);
 				torsE = 1/2*Constants.TORSCONST*(1 + Math.cos(3*torsAngle));
-if (torsE != 0) System.out.println(torsE + "TORSION");
 				if (torsE > Constants.ETHRESHOLD) {
 					return Double.POSITIVE_INFINITY;
 				}
@@ -307,7 +302,6 @@ if (torsE != 0) System.out.println(torsE + "TORSION");
 			} else {
 				double torsAngle = current.torsAng(previous, next);
 				torsE = 1/2*Constants.TORSCONST*(1 + Math.cos(3*torsAngle));
-if (torsE != 0) System.out.println(torsE + "TORSION");
 				if (torsE > Constants.ETHRESHOLD) {
 					return Double.POSITIVE_INFINITY;
 				}

@@ -21,7 +21,7 @@ do
 		then
 			continue
 		fi
-		time java -cp ProteinDock.jar org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ PROT$i$j AB ${proteins[$i]:0:4} ${proteins[$i]:5} ${proteins[$j]:0:4} ${proteins[$j]:5} 4
+		time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ PROT${i}to${j} AB ${proteins[$i]:0:4} ${proteins[$i]:5} ${proteins[$j]:0:4} ${proteins[$j]:5} 4
 		
 	done
 done

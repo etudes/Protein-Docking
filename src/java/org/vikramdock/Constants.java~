@@ -11,7 +11,7 @@ import java.lang.*;
 import java.lang.reflect.*;
 
 public class Constants {
-	public static final int NUMCASES = 1000;
+	public static final int NUMCASES = 2000;
 	public static final double FPPRECISION = Math.pow(10,-9);
 	public static final double ALPHAINC = Math.PI/180*15;
 	public static final double BETAINC = Math.PI/180*15;
@@ -22,7 +22,7 @@ public class Constants {
 	public static final double GRIDGRAINSIZE = 1;
 	public static final double SURFACESIZE = 1;
 	public static final double SURFACETHRESHOLD = 0.5;
-	public static final double ETHRESHOLD = 10000;
+	public static final double ETHRESHOLD = 1000000;
 	public static final double VDWDISTTHRESHOLD = 5;
 	public static final double BONDDISTHRES = 5;
 	public static final double BONDCONST = 1;
