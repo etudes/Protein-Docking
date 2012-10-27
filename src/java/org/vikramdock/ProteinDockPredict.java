@@ -8,7 +8,7 @@ import java.io.*;
 import java.util.*;
 import java.util.zip.*;
 import java.lang.*;
-import java.lang.reflect.*;
+import java.lang.reflect.*;	
 
 public class ProteinDockPredict{
 	ProteinStruct ps1;
@@ -41,6 +41,7 @@ public class ProteinDockPredict{
 		out.println("TRANSLATED AND ROTATED FIRST PROTEIN");
 		this.ps2 = ps2.trans(-ps2.getXCoordCent(), -ps2.getYCoordCent(), -ps2.getZCoordCent());
 		out.println("TRANSLATED AND ROTATED SECOND PROTEIN");
+		out.flush();
 	}
 	public void genTestCases() {
 		try {
@@ -140,6 +141,7 @@ public class ProteinDockPredict{
 		out.println("DONE WITH FIRST PROTEIN");
 		ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out, chaintranslator2, reversechaintrans2);
 		out.println("DONE WITH SECOND PROTEIN");
+		out.flush();
 		ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
 		pdp.numthread = numthread;
 		pdp.id = id;
@@ -250,7 +252,7 @@ public class ProteinDockPredict{
 	public void printCases() throws Exception {
 		for (int i = 0; i < Math.min(cases.size(),Constants.NUMCASES); i++) {
 			TestCase current = (TestCase)cases.poll();
-//			printCase(current);
+/*			printCase(current); */
 			double score = current.getScore();
 			if (i < 9) {
 				out.println("MODEL        " + (i+1) + " " + score);
@@ -271,7 +273,7 @@ public class ProteinDockPredict{
 	public synchronized void add(TestCase worked) {
 		cases.addCap(worked);
 	}
-	public synchronized void printCase(TestCase current) throws Exception {
+	/*public synchronized void printCase(TestCase current) throws Exception {
 		counter++;
 		if (counter <= 1000) {
 			PrintWriter out1 = new PrintWriter(new BufferedWriter(new FileWriter("result"+id.toLowerCase()+"model"+counter+".pdb")));
@@ -284,7 +286,7 @@ public class ProteinDockPredict{
 			newps2.printStructurePDB(out1);
 			out1.flush();
 		}
-	}
+	}*/
 	public static String removeSpace(String test) {
 		String answer = "";
 		for (int i = 0; i < test.length(); i++) {
