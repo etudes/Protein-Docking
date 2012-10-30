@@ -99,10 +99,11 @@ public class ProteinDockPredict{
 		}
 		while(true) {
 			String s = br2.readLine();
+			boolean endMdl = false;
 			if(s != null) {
 				String[] ssplit = new String[20];
 				ssplit = s.split(" ");
-				if (ssplit[0].equals("ATOM")) {
+				if (ssplit[0].equals("ATOM") && !endMdl) {
 					if (!chainreq1 || chain1a.contains(s.charAt(21))) {
 						prot1.println(s);
 					}
@@ -112,16 +113,20 @@ public class ProteinDockPredict{
 						prot1.println(s);
 					}
 				}
+				if (ssplit[0].equals("ENDMDL")) {
+					break;
+				}
 			} else {
 				break;
 			}
 		}
 		while(true) {
 			String s = br3.readLine();
+			boolean endMdl = false;
 			if(s != null) {
 				String[] ssplit = new String[20];
 				ssplit = s.split(" ");
-				if (ssplit[0].equals("ATOM")) {
+				if (ssplit[0].equals("ATOM") && !endMdl) {
 					if (!chainreq2 || chain2a.contains(s.charAt(21))) {
 						prot2.println(s);
 					}
@@ -130,6 +135,9 @@ public class ProteinDockPredict{
 					if (!chainreq2 || chain2a.contains(s.charAt(11))) {
 						prot2.println(s);
 					}
+				}
+				if (ssplit[0].equals("ENDMDL")) {
+					break;
 				}
 			} else {
 				break;
