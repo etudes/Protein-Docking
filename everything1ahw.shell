@@ -1,0 +1,58 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+mkdir /home/vikram/Protein-Docking/1ahwresults
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.PsuedoProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1AHW AB C
+mv /home/vikram/Protein-Docking/1ahwnative.txt /home/vikram/Protein-Docking/1ahwresults/1ahwnative.txt
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/pdb/wwpdb/pdb/ 1AHW 1FGN LH 1TFH A 4
+cd /home/vikram/Protein-Docking/usf_export/lsqman
+for i in $(seq 1000)
+do
+	echo -e "re m1 ../../pdb.unzipped/wwpdb/pdb/ah/pdb1ahw.ent \n re m2 ../../result1ahwmodel$i.pdb \n ex m1 \"a1-214 b1-214 c1-211\" m2 \"a1 b1 c1\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+done
+echo -e "\n qu" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+/home/vikram/Protein-Docking/usf_export/lsqman/lsqman < /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermstmp1ahw.txt
+rm /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+cd /home/vikram/Protein-Docking
+java RMSEScoreGen /home/vikram/Protein-Docking/scorermstmp1ahw.txt /home/vikram/Protein-Docking/result1ahw /home/vikram/Protein-Docking/scorerms1ahw.txt
+java MinRMS /home/vikram/Protein-Docking/scorermstmp1ahw.txt /home/vikram/Protein-Docking/minrms.txt
+for i in $(seq 1000) 
+do
+	mv /home/vikram/Protein-Docking/result1ahwmodel$i.pdb /home/vikram/Protein-Docking/1ahwresults/result1ahwmodel$i.pdb
+done
+mv /home/vikram/Protein-Docking/scorermstmp1ahw.txt /home/vikram/Protein-Docking/1ahwresults/scorermstmp1ahw.txt
+mv /home/vikram/Protein-Docking/scorerms1ahw.txt /home/vikram/Protein-Docking/1ahwresults/scorerms1ahw.txt
+PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
+for i in $(seq 10) 
+do
+	mkdir /home/vikram/Protein-Docking/tmp
+	mkdir /home/vikram/Protein-Docking/tmp/1
+	cp /home/vikram/Protein-Docking/1ahwresults/result1ahwmodel$i.pdb /home/vikram/Protein-Docking/tmp/1/result1ahwmodel$i.pdb
+	for j in $(seq 10)
+	do
+		let "k=${j}+1"
+		mkdir /home/vikram/Protein-Docking/tmp/$k
+		Scwrl4 -i /home/vikram/Protein-Docking/tmp/$j/result1ahwmodel${i}.pdb -o /home/vikram/Protein-Docking/tmp/$k/result1ahwmodel${i}scwrl.pdb > /home/vikram/Protein-Docking/tmp/$j/result1ahwmodel${i}scwrl.txt
+		/home/vikram/Protein-Docking/kobamin/kobamin.sh /home/vikram/Protein-Docking/tmp/$k/
+		mv /home/vikram/Protein-Docking/tmp/$k/result1ahwmodel${i}scwrl.kb /home/vikram/Protein-Docking/tmp/$k/result1ahwmodel$i.pdb
+	done
+	mv /home/vikram/Protein-Docking/tmp/11/result1ahwmodel$i.pdb /home/vikram/Protein-Docking/result1ahwmodel${i}iter.pdb
+	mv home/vikram/Protein-Docking/tmp/ /home/vikram/Protein-Docking/1ahwresults
+done
+for i in $(seq 10)
+do
+	echo -e "re m1 /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/ah/pdb1ahw.ent \n re m2 /home/vikram/Protein-Docking/result1ahwmodel${i}iter.pdb \n ex m1 \"a1-214 b1-214 c1-211\" m2 \"a1 b1 c1\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2 \n" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+done
+echo -e "\n qu" >> /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+/home/vikram/Protein-Docking/usf_export/lsqman/lsqman < /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermsitertmp1ahw.txt
+rm /home/vikram/Protein-Docking/usf_export/lsqman/lsqmanrun.tmp
+java RMSEScoreGen /home/vikram/Protein-Docking/scorermsitertmp1ahw.txt /home/vikram/Protein-Docking/result1ahw /home/vikram/Protein-Docking/scorermsiter1ahw.txt
+java MinRMS /home/vikram/Protein-Docking/scorermsitertmp1ahw.txt /home/vikram/Protein-Docking/minrmsiter.txt
+for i in $(seq 10) 
+do
+	mv /home/vikram/Protein-Docking/result1ahwmodel${i}iter.pdb /home/vikram/Protein-Docking/1ahwresults/result1ahwmodel${i}iter.pdb
+done
+mv /home/vikram/Protein-Docking/scorermsitertmp1ahw.txt /home/vikram/Protein-Docking/1ahwresults/scorermsitertmp1ahw.txt
+mv /home/vikram/Protein-Docking/scorermsiter1ahw.txt /home/vikram/Protein-Docking/1ahwresults/scorermsiter1ahw.txt
