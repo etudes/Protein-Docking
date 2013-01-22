@@ -1,0 +1,25 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
+for i in 5 24 41 77 82 90 106 135 183 200 217 242 263 278 311 320 351 368 384 386 407 431 437 454 466 480 494 502 519 624 644 702 708 730 747 748 749 762 794 827 851 883 890 893 924 958 995
+do
+	mkdir /home/vikram/Protein-Docking/tmp
+	mkdir /home/vikram/Protein-Docking/tmp/1
+	mv $(printf /disk2/bound_perturb/1DFJ/aa1DFJ.ppk_%04d.pdb $i) $(printf /home/vikram/Protein-Docking/tmp/1/aa1dfj.ppk_%d.pdb $i)
+	for j in $(seq 10)
+	do
+		let "k=${j}+1"
+		mkdir /home/vikram/Protein-Docking/tmp/$k
+		Scwrl4 -i /home/vikram/Protein-Docking/tmp/$j/aa1dfj.ppk_$i.pdb -o /home/vikram/Protein-Docking/tmp/$k/aa1dfj.ppk_${i}scwrl.pdb
+		#rm /home/vikram/Protein-Docking/tmp/result1dfjmodel$i.pdb
+		/home/vikram/Protein-Docking/kobamin/kobamin.sh /home/vikram/Protein-Docking/tmp/$k/
+		mv /home/vikram/Protein-Docking/tmp/$k/aa1dfj.ppk_${i}scwrl.kb /home/vikram/Protein-Docking/tmp/$k/aa1dfj.ppk_$i.pdb
+	done
+	mv /home/vikram/Protein-Docking/tmp/1/aa1dfj.ppk_$i.pdb $(printf /disk2/bound_perturb/1DFJ/aa1DFJ.ppk_%04d.pdb $i)
+	mv /home/vikram/Protein-Docking/tmp/11/aa1dfj.ppk_$i.pdb $(printf /disk2/bound_perturb/1DFJ/aa1DFJ.ppk_{%04d}kb.pdb $i)
+	rm -rf /home/vikram/Protein-Docking/tmp
+done
+java -cp ProteinDock.jar org.vikramdock.PsuedoProteinDockPredict /home/vikram/Protein-Docking/ /disk2/bound_perturb/ 1DFJ DE F

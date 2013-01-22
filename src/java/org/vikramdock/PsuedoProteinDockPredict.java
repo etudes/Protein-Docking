@@ -20,13 +20,15 @@ public class PsuedoProteinDockPredict{
 		this.ps1 = ps2;
 		this.out = out;
 		PsuedoTestCase tc = new PsuedoTestCase(ps1, ps2);
-		out = new PrintWriter(new BufferedWriter(new FileWriter(complex + "native.txt", true)));
+		out = new PrintWriter(new BufferedWriter(new FileWriter(complex + "decoyskb.txt", true)));
 		out.println(tc.getScore());
 		out.flush();
 		out.close();
 	}
 	public static void main(String[] args) throws IOException {
-		nativeParse(args[0], args[1], args[2].toLowerCase(), args[3], args[4]);
+		for (int i = 0; i < 1000; i++) {
+			decoyParse(args[0], args[1], args[2], args[3], args[4], i);
+		}
 	}
 	public static void nativeParse(String sourcepath, String pdbpath, String complex, String chain1, String chain2) throws IOException {
 		try {
@@ -104,7 +106,7 @@ public class PsuedoProteinDockPredict{
 			for (int j = iString.length(); j < 4; j++) {
 				iString = "0" + iString;
 			}
-			String filepath = pdbpath.concat(complex.concat(filesep).concat("aa").concat(complex).concat(".ppk_").concat(iString).concat(".pdb"));
+			String filepath = pdbpath.concat(complex.concat(filesep).concat("aa").concat(complex).concat(".ppk_").concat(iString).concat("kb.pdb"));
 			BufferedReader br2 = new BufferedReader(new InputStreamReader(new FileInputStream(filepath)));
 			BufferedReader br3 = new BufferedReader(new InputStreamReader(new FileInputStream(filepath)));
 			ArrayList chain1a = new ArrayList();
