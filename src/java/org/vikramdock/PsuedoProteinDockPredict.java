@@ -100,15 +100,15 @@ public class PsuedoProteinDockPredict{
 		try {
 			String filesep = System.getProperty("file.separator");
 			long start = System.currentTimeMillis();
-			PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
-			PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
 			String iString = Integer.toString(num);
 			for (int j = iString.length(); j < 4; j++) {
 				iString = "0" + iString;
 			}
-			String filepath = pdbpath.concat(complex.concat(filesep).concat("aa").concat(complex).concat(".ppk_").concat(iString).concat("kb.pdb"));
+			String filepath = pdbpath.concat(complex.concat(filesep).concat("aa").concat(complex).concat(".ppk_{").concat(iString).concat("}kb.pdb"));
 			BufferedReader br2 = new BufferedReader(new InputStreamReader(new FileInputStream(filepath)));
 			BufferedReader br3 = new BufferedReader(new InputStreamReader(new FileInputStream(filepath)));
+			PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
+			PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
 			ArrayList chain1a = new ArrayList();
 			ArrayList chain2a = new ArrayList();
 			for (int i = 0; i < chain1.length(); i++) {
