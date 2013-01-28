@@ -1,0 +1,27 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
+for i in 36 64 70 90 99 118 185 210 226 250 272 287 304 307 321 325 376 385 390 415 431 442 466 547 560 561 562 639 651 675 711 743 762 769 783 842 855 864 901 915 919 961 980 991 992 997
+do
+	let "i=${i}+1"
+	mkdir /home/vikram/Protein-Docking/tmp
+	mkdir /home/vikram/Protein-Docking/tmp/1
+	mv $(printf /disk2/bound_perturb/1IGC/aa1IGC.ppk_%04d.pdb $i) $(printf /home/vikram/Protein-Docking/tmp/1/aa1igc.ppk_%d.pdb $i)
+	for j in $(seq 10)
+	do
+		let "k=${j}+1"
+		mkdir /home/vikram/Protein-Docking/tmp/$k
+		Scwrl4 -i /home/vikram/Protein-Docking/tmp/$j/aa1igc.ppk_$i.pdb -o /home/vikram/Protein-Docking/tmp/$k/aa1igc.ppk_${i}scwrl.pdb
+		#rm /home/vikram/Protein-Docking/tmp/result1igcmodel$i.pdb
+		/home/vikram/Protein-Docking/kobamin/kobamin.sh /home/vikram/Protein-Docking/tmp/$k/
+		mv /home/vikram/Protein-Docking/tmp/$k/aa1igc.ppk_${i}scwrl.kb /home/vikram/Protein-Docking/tmp/$k/aa1igc.ppk_$i.pdb
+	done
+	mv /home/vikram/Protein-Docking/tmp/1/aa1igc.ppk_$i.pdb $(printf /disk2/bound_perturb/1IGC/aa1IGC.ppk_%04d.pdb $i)
+	mv /home/vikram/Protein-Docking/tmp/11/aa1igc.ppk_$i.pdb $(printf /disk2/bound_perturb/1IGC/aa1IGC.ppk_{%04d}kb.pdb $i)
+	rm -rf /home/vikram/Protein-Docking/tmp
+done
+java SequenceCreator 1IGC
+java -cp ProteinDock.jar org.vikramdock.PsuedoProteinDockPredict /home/vikram/Protein-Docking/ /disk2/bound_perturb/ 1IGC LH A
