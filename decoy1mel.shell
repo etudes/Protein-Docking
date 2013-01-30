@@ -1,0 +1,27 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
+for i in 14 17 23 27 30 34 37 38 39 42 49 56 57 60 61 64 68 69 71 75 79 90 100 103 106 116 129 136 139 143 145 150 160 165 166 168 173 176 181 182 183 186 188 189 192 200 202 206 207 210 213 220 229 230 236 241 242 245 250 262 264 268 277 280 287 290 292 293 297 298 301 303 306 311 318 319 323 325 327 332 334 336 347 349 353 358 360 375 380 383 395 397 400 403 406 408 413 418 425 428 429 432 433 436 437 438 456 457 464 474 475 477 479 486 492 493 494 496 497 501 502 510 517 522 529 531 533 536 537 538 542 548 555 556 557 558 559 561 565 567 573 574 575 577 585 591 597 601 606 615 617 618 622 643 644 650 659 672 679 686 690 694 699 708 711 719 737 739 740 742 745 748 751 752 758 760 765 769 770 772 773 777 783 784 788 790 793 800 806 812 813 814 829 831 835 837 839 841 844 846 851 855 858 861 862 867 868 882 883 884 894 895 896 898 901 903 907 910 915 918 920 927 929 931 941 945 952 957 961 969 971 972 974 975 976 978 980 984 990 998
+do
+	let "i=${i}+1"
+	mkdir /home/vikram/Protein-Docking/tmp
+	mkdir /home/vikram/Protein-Docking/tmp/1
+	mv $(printf /disk2/bound_perturb/1MEL/aa1MEL.ppk_%04d.pdb $i) $(printf /home/vikram/Protein-Docking/tmp/1/aa1mel.ppk_%d.pdb $i)
+	for j in $(seq 10)
+	do
+		let "k=${j}+1"
+		mkdir /home/vikram/Protein-Docking/tmp/$k
+		Scwrl4 -i /home/vikram/Protein-Docking/tmp/$j/aa1mel.ppk_$i.pdb -o /home/vikram/Protein-Docking/tmp/$k/aa1mel.ppk_${i}scwrl.pdb
+		#rm /home/vikram/Protein-Docking/tmp/result1melmodel$i.pdb
+		/home/vikram/Protein-Docking/kobamin/kobamin.sh /home/vikram/Protein-Docking/tmp/$k/
+		mv /home/vikram/Protein-Docking/tmp/$k/aa1mel.ppk_${i}scwrl.kb /home/vikram/Protein-Docking/tmp/$k/aa1mel.ppk_$i.pdb
+	done
+	mv /home/vikram/Protein-Docking/tmp/1/aa1mel.ppk_$i.pdb $(printf /disk2/bound_perturb/1MEL/aa1MEL.ppk_%04d.pdb $i)
+	mv /home/vikram/Protein-Docking/tmp/11/aa1mel.ppk_$i.pdb $(printf /disk2/bound_perturb/1MEL/aa1MEL.ppk_{%04d}kb.pdb $i)
+	rm -rf /home/vikram/Protein-Docking/tmp
+done
+java SequenceCreator 1MEL
+java -cp ProteinDock.jar org.vikramdock.PsuedoProteinDockPredict /home/vikram/Protein-Docking/ /disk2/bound_perturb/ 1MEL M B
