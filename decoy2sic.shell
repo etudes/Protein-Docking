@@ -1,0 +1,27 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2012 Vikram Sundar.
+# * All Rights Reserved.
+# */
+PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
+for i in 9 33 100 161 173 177 259 293 294 300 308 332 362 370 384 428 492 501 560 577 595 664 669 677 741 797 801 820 825 833 883 887 901 922 940 946
+do
+	let "i=${i}+1"
+	mkdir /home/vikram/Protein-Docking/tmp
+	mkdir /home/vikram/Protein-Docking/tmp/1
+	mv $(printf /disk2/bound_perturb/2SIC/aa2SIC.ppk_%04d.pdb $i) $(printf /home/vikram/Protein-Docking/tmp/1/aa2sic.ppk_%d.pdb $i)
+	for j in $(seq 10)
+	do
+		let "k=${j}+1"
+		mkdir /home/vikram/Protein-Docking/tmp/$k
+		Scwrl4 -i /home/vikram/Protein-Docking/tmp/$j/aa2sic.ppk_$i.pdb -o /home/vikram/Protein-Docking/tmp/$k/aa2sic.ppk_${i}scwrl.pdb
+		#rm /home/vikram/Protein-Docking/tmp/result2sicmodel$i.pdb
+		/home/vikram/Protein-Docking/kobamin/kobamin.sh /home/vikram/Protein-Docking/tmp/$k/
+		mv /home/vikram/Protein-Docking/tmp/$k/aa2sic.ppk_${i}scwrl.kb /home/vikram/Protein-Docking/tmp/$k/aa2sic.ppk_$i.pdb
+	done
+	mv /home/vikram/Protein-Docking/tmp/1/aa2sic.ppk_$i.pdb $(printf /disk2/bound_perturb/2SIC/aa2SIC.ppk_%04d.pdb $i)
+	mv /home/vikram/Protein-Docking/tmp/11/aa2sic.ppk_$i.pdb $(printf /disk2/bound_perturb/2SIC/aa2SIC.ppk_{%04d}kb.pdb $i)
+	rm -rf /home/vikram/Protein-Docking/tmp
+done
+java SequenceCreator 2SIC
+java -cp ProteinDock.jar org.vikramdock.PsuedoProteinDockPredict /home/vikram/Protein-Docking/ /disk2/bound_perturb/ 2SIC E I
