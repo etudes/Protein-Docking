@@ -27,7 +27,9 @@ public class MatlabDecoyParser {
 		out.println();
 		out.print("y1=[");
 		for (int i = 0; i < 1000; i++) {
-			out.print(Double.parseDouble(br1.readLine()));
+			double test = Double.parseDouble(br1.readLine());
+			if (!Double.isInfinite(test)) out.print(test);
+			else out.print(10000);
 			if (i != 999) out.print(",");
 		}
 		out.print("];");
@@ -49,25 +51,29 @@ public class MatlabDecoyParser {
 				if (test.equals("FAILED")) break;
 			}
 		}
-		BufferedReader br4 = new BufferedReader(new FileReader("results\\decoys\\" + prot.toUpperCase() + "decoyskb.txt"));
-		out.print("y2=[");
-		boolean first = true;
-		while (true) {
-			String s = br4.readLine();
-			if (s == null) break;
-			if (first) first = false;
-			else out.print(",");
-			out.print(Double.parseDouble(s));
+		if (!failed) {
+			BufferedReader br4 = new BufferedReader(new FileReader("results\\decoys\\" + prot.toUpperCase() + "decoyskb.txt"));
+			out.print("y2=[");
+			boolean first = true;
+			while (true) {
+				String s = br4.readLine();
+				if (s == null) break;
+				if (first) first = false;
+				else out.print(",");
+				double test = Double.parseDouble(s);
+				if (!Double.isInfinite(test)) out.print(test);
+				else out.print(10000);
+			}
+			out.print("];");
+			out.println();
+			out.print("x2=[");
+			for (int i = 0; i < runKB.size(); i++) {
+				out.print(rms[runKB.get(i)]);
+				if (i != runKB.size() - 1) out.print(",");
+			}
+			out.print("];");
+			out.println();
 		}
-		out.print("];");
-		out.println();
-		out.print("x2=[");
-		for (int i = 0; i < runKB.size(); i++) {
-			out.print(rms[runKB.get(i)]);
-			if (i != runKB.size() - 1) out.print(",");
-		}
-		out.print("];");
-		out.println();
 		BufferedReader br5 = new BufferedReader(new FileReader("results\\natives\\" + prot + "native.txt"));
 		out.println("x3=[0]");
 		out.println("y3=[" + Double.parseDouble(br5.readLine()) + "]");
