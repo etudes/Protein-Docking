@@ -19,6 +19,7 @@ public class Constants {
 	public static final double SALPHAINC = Math.PI/3;
 	public static final double SBETAINC = Math.PI/3;
 	public static final double SGAMMAINC = Math.PI/3;
+	public static final double MAXSIZE = 100;
 	public static final double GRIDGRAINSIZE = 1;
 	public static final double SURFACESIZE = 1;
 	public static final double SURFACETHRESHOLD = 0.5;

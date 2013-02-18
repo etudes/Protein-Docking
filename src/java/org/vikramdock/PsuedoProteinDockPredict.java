@@ -91,6 +91,10 @@ public class PsuedoProteinDockPredict{
 			prot2.close();
 			PsuedoProteinStruct ps1 = new PsuedoProteinStruct(sourcepath.concat("firstprot.txt"));
 			PsuedoProteinStruct ps2 = new PsuedoProteinStruct(sourcepath.concat("secondprot.txt"));
+			if (ps1.getPotentials() == null || ps2.getPotentials() == null) {
+				PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(complex + "decoyskb.txt", true)));
+				out.println(Double.POSITIVE_INFINITY);
+			}
 			PsuedoProteinDockPredict pdp = new PsuedoProteinDockPredict(ps1, ps2, complex);
 		} catch (Exception ex) {
 			ex.printStackTrace();
