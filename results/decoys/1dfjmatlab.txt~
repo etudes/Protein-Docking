@@ -14,4 +14,4 @@ xlabel({'LRMS (A)'},'FontSize',36,'FontName','Times New Roman');
 ylabel({'Score'},'FontSize',36,'FontName','Times New Roman'); 
 title({'Complex 1dfj decoys'},'FontSize',36,'FontName','Times New Roman'); 
 legend1 = legend(axes1,'show'); 
-set(legend1,'LineWidth',2);
+set(legend1,'LineWidth',2

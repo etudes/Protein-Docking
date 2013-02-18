@@ -6,6 +6,7 @@
 PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
 for i in 2 5 7 18 27 28 31 36 41 46 47 48 63 78 80 81 89 92 94 106 109 113 116 144 149 151 152 170 186 187 190 192 194 198 205 206 212 214 218 219 222 230 235 241 242 243 249 251 260 273 281 282 285 295 308 310 315 332 335 338 344 360 368 371 372 379 385 388 403 404 429 433 436 445 457 460 462 466 467 468 469 473 478 479 482 485 496 498 504 506 507 522 536 538 539 549 555 557 559 567 573 577 578 584 585 598 605 612 615 620 623 634 642 644 648 655 669 670 678 684 685 686 698 699 707 709 726 743 747 749 763 789 792 799 800 802 806 834 836 839 847 855 859 864 875 885 892 902 904 909 914 921 923 934 939 954 960 964 967 968 975 978 984 993 994
 do
+	let "i=${i}+1"
 	mkdir /home/vikram/Protein-Docking/tmp
 	mkdir /home/vikram/Protein-Docking/tmp/1
 	mv $(printf /disk2/bound_perturb/1ATN/aa1ATN.ppk_%04d.pdb $i) $(printf /home/vikram/Protein-Docking/tmp/1/aa1atn.ppk_%d.pdb $i)
@@ -22,4 +23,5 @@ do
 	mv /home/vikram/Protein-Docking/tmp/11/aa1atn.ppk_$i.pdb $(printf /disk2/bound_perturb/1ATN/aa1ATN.ppk_{%04d}kb.pdb $i)
 	rm -rf /home/vikram/Protein-Docking/tmp
 done
-java -cp ProteinDock.jar org.vikramdock.PsuedoProteinDockPredict /home/vikram/Protein-Docking/ /disk2/bound_perturb/ 1ATN A D
+java SequenceCreator 1ATN
+java -cp ProteinDock.jar org.vikramdock.PsuedoProteinDockPredict /home/vikram/Protein-Docking/ /disk2/bound_perturb/ 1ATN DE F

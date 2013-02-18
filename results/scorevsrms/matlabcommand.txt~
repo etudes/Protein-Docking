@@ -7,3 +7,4 @@ scatter(x3,y3,10,'blue','MarkerFaceColor','flat','MarkerEdgeColor','none','Paren
 xlabel({'LRMS (A)'},'FontSize',36,'FontName','Times New Roman','Color',[0 0.498039215686275 0]);
 ylabel({'Score'},'FontSize',36,'FontName','Times New Roman','Color',[0 0.498039215686275 0]);
 title({'Complex 1jtg'},'FontSize',36,'FontName','Times New Roman','Color',[0 0.498039215686275 0]);
+legend(axes1,'show');

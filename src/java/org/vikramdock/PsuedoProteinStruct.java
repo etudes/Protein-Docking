@@ -38,7 +38,7 @@ public class PsuedoProteinStruct {
 	private double[][][][] potentials;
 	private double[][][][] solvpotentials;
 	private double solvEModel;
-	public PsuedoProteinStruct(String filepath) {
+	public PsuedoProteinStruct(String filepath) throws Exception {
 		try {
 			chaintranslator = new HashMap();
 			structurea = new ArrayList<Atom>();
