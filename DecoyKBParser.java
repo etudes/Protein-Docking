@@ -11,7 +11,7 @@ import java.lang.*;
 public class DecoyKBParser {
 	public static void main(String[] args) throws IOException {
 		PrintWriter out = new PrintWriter(new FileWriter("decoyKBSummary.txt"));
-		String[] decoys = {"1DFJ", "1DQJ", "1FBI", "1FIN", "1IGC", "1JHL", "1MEL", "1WEJ", "2PCC", "2SIC", "2SNI", "2TEC"};
+		String[] decoys = {"1ATN", "1BVK", "1DFJ", "1DQJ", "1FBI", "1FIN", "1IAI", "1IGC", "1JHL", "1MEL", "1WEJ", "2PCC", "2SIC", "2SNI", "2TEC", "2VIR"};
 		BufferedReader sum = new BufferedReader(new FileReader("decoySummary.txt"));
 		for (int i = 0; i < decoys.length; i++) {
 			BufferedReader br = new BufferedReader(new FileReader("results\\natives\\" + decoys[i].toLowerCase() + "native.txt"));

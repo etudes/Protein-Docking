@@ -3,13 +3,11 @@ y1=[104.64619759657815,100.15545638461185,-63.99090361130276,-115.45114850385868
 x3=[0]
 y3=[-188.3294088616671]
 figure1 = figure; 
-axes1 = axes('Parent',figure1,'LineWidth',2,'CLim',[0 1]); 
+axes1 = axes('Parent',figure1,'LineWidth',5,'FontWeight','bold','FontSize',36,'FontName','TimesNewRoman','CLim',[0 1]); 
 hold(axes1,'all'); 
-scatter(x1,y1,30,'black','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','Without iteration'); 
-scatter(x2,y2,30,'red','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','With iteration'); 
-scatter(x3,y3,30,'blue','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','Native configuration'); 
-xlabel({'LRMS (A)'},'FontSize',36,'FontName','Times New Roman'); 
-ylabel({'Score'},'FontSize',36,'FontName','Times New Roman'); 
-title({'Complex 1mlc decoys'},'FontSize',36,'FontName','Times New Roman'); 
-legend1 = legend(axes1,'show'); 
-set(legend1,'LineWidth',2);
+scatter(x1,y1,100,'black','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','Without iteration'); 
+scatter(x2,y2,100,'red','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','With iteration'); 
+scatter(x3,y3,100,'blue','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','Native configuration'); 
+xlabel({'LRMS (A)'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman'); 
+ylabel({'Score'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman'); 
+title({'Complex 1mlc decoys'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman');

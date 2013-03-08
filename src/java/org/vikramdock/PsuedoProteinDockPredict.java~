@@ -26,9 +26,10 @@ public class PsuedoProteinDockPredict{
 		out.close();
 	}
 	public static void main(String[] args) throws IOException {
-		for (int i = 0; i < 1000; i++) {
+		nativeParse(args[0], args[1], args[2].toLowerCase(), args[3], args[4]);
+		/*for (int i = 0; i < 1000; i++) {
 			decoyParse(args[0], args[1], args[2], args[3], args[4], i);
-		}
+		}*/
 	}
 	public static void nativeParse(String sourcepath, String pdbpath, String complex, String chain1, String chain2) throws IOException {
 		try {
@@ -91,10 +92,6 @@ public class PsuedoProteinDockPredict{
 			prot2.close();
 			PsuedoProteinStruct ps1 = new PsuedoProteinStruct(sourcepath.concat("firstprot.txt"));
 			PsuedoProteinStruct ps2 = new PsuedoProteinStruct(sourcepath.concat("secondprot.txt"));
-			if (ps1.getPotentials() == null || ps2.getPotentials() == null) {
-				PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(complex + "decoyskb.txt", true)));
-				out.println(Double.POSITIVE_INFINITY);
-			}
 			PsuedoProteinDockPredict pdp = new PsuedoProteinDockPredict(ps1, ps2, complex);
 		} catch (Exception ex) {
 			ex.printStackTrace();

@@ -260,7 +260,7 @@ public class ProteinDockPredict{
 	public void printCases() throws Exception {
 		for (int i = 0; i < Math.min(cases.size(),Constants.NUMCASES); i++) {
 			TestCase current = (TestCase)cases.poll();
-/*			printCase(current); */
+			printCase(current);
 			double score = current.getScore();
 			if (i < 9) {
 				out.println("MODEL        " + (i+1) + " " + score);
@@ -281,7 +281,7 @@ public class ProteinDockPredict{
 	public synchronized void add(TestCase worked) {
 		cases.addCap(worked);
 	}
-	/*public synchronized void printCase(TestCase current) throws Exception {
+	public synchronized void printCase(TestCase current) throws Exception {
 		counter++;
 		if (counter <= 1000) {
 			PrintWriter out1 = new PrintWriter(new BufferedWriter(new FileWriter("result"+id.toLowerCase()+"model"+counter+".pdb")));
@@ -294,7 +294,7 @@ public class ProteinDockPredict{
 			newps2.printStructurePDB(out1);
 			out1.flush();
 		}
-	}*/
+	}
 	public static String removeSpace(String test) {
 		String answer = "";
 		for (int i = 0; i < test.length(); i++) {

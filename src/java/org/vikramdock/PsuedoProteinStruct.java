@@ -142,7 +142,6 @@ public class PsuedoProteinStruct {
 			long beforeS = System.currentTimeMillis();
 			determineSurfaceNew();
 			long afterS = System.currentTimeMillis();
-			if (size > Constants.MAXSIZE) return;
 			potentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][5];
 			solvpotentials = new double[(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][(int)((2*Math.ceil(size/Constants.GRIDGRAINSIZE)*Constants.GRIDGRAINSIZE + 2*Constants.VDWDISTTHRESHOLD)/Constants.GRIDGRAINSIZE)][17];
 			detBondsBackbone();
