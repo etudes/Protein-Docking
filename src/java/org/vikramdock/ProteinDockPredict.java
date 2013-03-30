@@ -58,7 +58,7 @@ public class ProteinDockPredict{
 	}
 	public static void main(String[] args) throws Exception {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(args[0].concat("result").concat(args[2].toLowerCase()).concat(".pdb"))));
-		benchParse(args[0], args[1], args[2], args[3], args[4].toLowerCase(), args[5], args[6].toLowerCase(), args[7], Integer.parseInt(args[8]), out);
+		capriParse(args[0], args[1], args[2], Integer.parseInt(args[3]), out);
 	}
 	public static void benchParse(String sourcepath, String pdbpath, String id, String chain, String id1, String chain1, String id2, String chain2, int numthread, PrintWriter out) throws Exception {
 		String filesep = System.getProperty("file.separator");
@@ -162,10 +162,8 @@ public class ProteinDockPredict{
 		out.println(end - start);
 		out.flush();
 	}
-	public static void capriParse(String sourcepath, String capripath, PrintWriter out) throws Exception {
+	public static void capriParse(String sourcepath, String capripath, String filename, int numthread, PrintWriter out) throws Exception {
 		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-			String filename = br.readLine();
 			String filepath = capripath.concat("capri_").concat(filename).concat(".brk");
 			long start = System.currentTimeMillis();
 			PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
@@ -244,8 +242,9 @@ public class ProteinDockPredict{
 			System.out.println("DONE WITH FIRST PROTEIN");
 			ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out, chaintranslator2, reversechaintrans2);
 			System.out.println("DONE WITH SECOND PROTEIN");
-			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2);
-			pdp.numthread = Integer.parseInt(br.readLine());
+			ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
+			pdp.id = filename;
+			pdp.numthread = numthread;
 			pdp.genTestCases();
 			for (int i = 0; i < pdp.numthread; i++) {
 				pdp.ths[i].join();
