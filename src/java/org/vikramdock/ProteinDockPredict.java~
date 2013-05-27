@@ -293,8 +293,8 @@ public class ProteinDockPredict{
 			newps1.printStructurePDB(out1);
 			ProteinStruct newps2 = origps2.transall(-origps2.getXCoordCent(), -origps2.getYCoordCent(), -origps2.getZCoordCent()).transrotnewall(current.getRmov(), 0, 0, current.getAlpha(), Math.PI - current.getBeta(), current.getGamma());
 			newps2.printStructurePDB(out1);
-			if (interfaces) current.printInterface(out1);
 			out1.flush();
+			if (interfaces) current.printInterface(out1);
 		}
 	}
 	public static String removeSpace(String test) {

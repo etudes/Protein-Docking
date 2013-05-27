@@ -1,0 +1,1211 @@
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ Version  - 081126/9.7.9
+ (c) 1992-2009 Gerard J. Kleywegt, Dept. Cell Mol. Biol., Uppsala (SE)
+ User I/O - routines courtesy of Rolf Boelens, Univ. of Utrecht (NL)
+ Others   - T.A. Jones, G. Bricogne, Rams, W.A. Hendrickson
+ Others   - W. Kabsch, CCP4, PROTEIN, E. Dodson, etc. etc.
+
+ Started  - Fri May 24 19:45:32 2013
+ User     - Anonymous
+ Mode     - interactive
+ Host     - localhost (OSX/Apple)
+ ProcID   - 15409
+ Not using a tty as input device
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ Reference(s) for this program:
+
+ *  1 * G.J. Kleywegt & T.A. Jones (1994).  Halloween ... Masks and
+        Bones. In "From First Map to Final Model", edited by
+        S. Bailey, R. Hubbard and D. Waller.  SERC Daresbury
+        Laboratory, Warrington, pp. 59-66.
+        [http://xray.bmc.uu.se/gerard/papers/halloween.html]
+
+ *  2 * G.J. Kleywegt & T.A. Jones (1994). A super position.
+        CCP4/ESF-EACBM Newsletter on Protein Crystallography 31,
+        November 1994, pp. 9-14.
+        [http://xray.bmc.uu.se/usf/factory_4.html]
+
+ *  3 * G.J. Kleywegt & T.A. Jones (1995). Where freedom is given,
+        liberties are taken. Structure 3, 535-540.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=8590014&dopt=Citation]
+
+ *  4 * G.J. Kleywegt (1996). Use of non-crystallographic symmetry
+        in protein structure refinement. Acta Cryst D52, 842-857.
+        [http://scripts.iucr.org/cgi-bin/paper?gr0471]
+
+ *  5 * G.J. Kleywegt (1996). Making the most of your search model.
+        CCP4/ESF-EACBM Newsletter on Protein Crystallography 32,
+        June 1996, pp. 32-36.
+        [http://xray.bmc.uu.se/usf/factory_6.html]
+
+ *  6 * G.J. Kleywegt & T.A. Jones (1996). Phi/Psi-chology:
+        Ramachandran revisited. Structure 4, 1395-1400.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=8994966&dopt=Citation]
+
+ *  7 * G.J. Kleywegt & T.A. Jones (1997). Detecting folding motifs
+        and similarities in protein structures. Methods in
+        Enzymology 277, 525-545.
+
+ *  8 * T.A. Jones & G.J. Kleywegt (1999). CASP3 comparative
+        modelling evaluation.
+        Proteins: Struct. Funct. Genet. Suppl. 3, 30-46.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=10526350&dopt=Citation]
+        [http://xray.bmc.uu.se/casp3]
+
+ *  9 * G.J. Kleywegt (1999). Experimental assessment of
+        differences between related protein crystal structures.
+        Acta Cryst. D55, 1878-1857.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=10531486&dopt=Citation]
+        [http://scripts.iucr.org/cgi-bin/paper?se0283]
+
+ * 10 * Y.W. Chen, E.J. Dodson & G.J. Kleywegt (2000). Does NMR
+        mean "Not for Molecular Replacement" ? Using NMR-based
+        search models to solve protein crystal structures.
+        Structure 8, R213-R220.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=11080645&dopt=Citation]
+
+ * 11 * D. Madsen & G.J. Kleywegt (2002). Interactive motif and
+        fold recognition in protein structures. J. Appl. Cryst.
+        35, 137-139.
+        [http://scripts.iucr.org/cgi-bin/paper?wt0007]
+
+ * 12 * M. Novotny, D. Madsen & G.J. Kleywegt (2004). An evaluation
+        of protein-fold-comparison servers. Proteins, 54, 260-270
+        (2004).
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=14696188&dopt=Citation]
+
+ * 13 * M.L. Sierk & G.J. Kleywegt (2004). Deja vu all over again:
+        finding and analyzing protein structure similarities.
+        Structure 12, 2103-2111.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=15576025&dopt=Citation]
+
+ * 14 * Kleywegt, G.J., Zou, J.Y., Kjeldgaard, M. & Jones, T.A. (2001).
+        Around O. In: "International Tables for Crystallography, Vol. F.
+        Crystallography of Biological Macromolecules" (Rossmann, M.G.
+        & Arnold, E., Editors). Chapter 17.1, pp. 353-356, 366-367.
+        Dordrecht: Kluwer Academic Publishers, The Netherlands.
+
+ ==> For manuals and up-to-date references, visit:
+ ==>     http://xray.bmc.uu.se/usf
+ ==> For reprints, visit:
+ ==>     http://xray.bmc.uu.se/gerard
+ ==> For downloading up-to-date versions, visit:
+ ==>     ftp://xray.bmc.uu.se/pub/gerard
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ Allocate buffer arrays of size  : (    1000000) 
+
+ Max nr of molecules             : (          8) 
+ Max nr of residues per molecule : (      30000) 
+ Max nr of atoms per molecule    : (     200000) 
+ Max nr of atom types            : (         15) 
+ Max nr of chains/models per mol : (         26) 
+
+ *** BLOSUM-45 substitution matrix loaded ***
+
+ Symbol START_TIME : (Fri May 24 19:45:32 2013) 
+ Symbol USERNAME : (Anonymous) 
+
+ Initialising : (XVRML - 20051205/0.8) 
+ Nr of predefined colours : (        411) 
+
+
+ LSQMAN options :
+
+ ? (list options)                     ! (comment)
+ QUit                                 $ shell_command
+ & symbol value                       & ? (list symbols)
+ @ macro_file                         ECho on_off
+ # parameter(s) (command history)     
+
+ REad mol pdb_file [chain] [atom]     WRite mol pdb_file [chain] [first] [last]
+ DElete mol                           ANnotate mol comment_string
+ LIst [mol]                           CHain_mode mode
+ TYpe_residues mol                    BFactor_range b_lo b_hi
+ FRactionalise mol                    ORthogonalise mol
+ CEll mol a b c al be ga              SUbtract_ave_b mol
+ HYdrogens keep_or_strip              HEtatm keep_or_strip
+ NMr_model_mode all_or_first          AA_substitution_matrix filename
+
+ ALter CHain_id mol chain new_chain   ALter SEgid mol segid new_segid
+ ALter FOrce mol chain new_segid      ALter SAme mol chain
+ ALter REnumber mol chain [first]     
+
+ EXplicit mol1 range1 mol2 range2     NWunsch mol1 chain1 mol2 chain2 gap
+ BRute_force mol1 chain1 mol2 chain2 frag_length frag_step min_match [S|D] [slide_step]
+ FAst_force  mol1 chain1 mol2 chain2 frag_length frag_step min_match [S|D] [slide_step]
+ XAlignment mol1 chain1 mol2 chain2 pir_alignment_file
+
+ IMprove mol1 range1 mol2 range2      
+ DP_improve mol1 chain1 mol2 chain2 mode cut_off max_cycles [verbose]
+
+ GLobal_nw mol1 chain1 mol2 chain2 cut_off [log_file]
+
+ EDit_operator mol1 mol2 val1 ...     SHow_operator mol1 mol2
+ SAve_operator mol1 mol2 file [name]  PErturb_operator mol1 mol2 [amplitude]
+ APply_operator mol1 mol2_to_move [chain] [first] [last]
+ OLd_o_operator mol1 mol2 file        RMsd_calc mol1 range1 mol2 range2 [Ltarget]
+ WAters mol1 mol2 cut_off plot_file   HIsto_dist mol1 mol2 cut_off bin
+
+ MOrph mol1 range1 mol2 range2 nsteps basename type oid range3 cutoff
+ SImilarity_plot mol1 chain1 mol2 chain2 plot_file [start] [end] [step]
+ LEsk_plot mol1 chain1 mol2 chain2 plot_file
+ PHipsi_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ ETa_theta_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ DIstance_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ DDihe_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ D1_D2_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ QDiff_dist_plot mol1 range1 mol2 range2 2d_plot_file
+ DChi mol1 range1 mol2 range2 [cut-off] 
+ SOap_film mol1 chain1 mol2 chain2 odl_file [verbose]
+
+ MCentral mol residue_range exp_imp [rt_file]  
+ MAlign mol residue_range exp_imp chain
+ MDihedral mol chain plot_file [cut]  MRamachandran mol chain ps_file [cut] [how]
+ MSide_ch mol chain plot_file [cut]   MTorsion mol chain ps_file [cut] [how]
+ VMain_ch mol chain plot_file [cut]   VSide_ch mol chain plot_file [cut]
+ MPlot mol chain plot_file ps_file [dmax_black] [cut_dist_print]
+ MBfactors mol chain plot_file [cut]  
+
+ JUdge target tchn parent pchn model mchn dist phi chi 
+ CAsp target tchn model mchn [start] [end] [step]
+
+ GEt XYz mol chain x y z radius symbol_name [O_macro]
+
+ FIx_atom_names mol1 range1 mol2 range2 mode how what [min_gain] [cut_off]
+ NOmenclature mol                     INvert_ncs infile outfile
+ NUcleic_acid_pdb_nomenclature mol    
+
+ ATom_types ?                         ATom_types CA
+ ATom_types MAin_chain                ATom_types SIde_chain
+ ATom_types EXtended_main_chain       ATom_types ALl
+ ATom_types NOn_hydrogen              ATom_types DEfine type1 [type2 ...]
+ ATom_types PHosphorous               ATom_types TRace_and_side_chain
+ ATom_types C4*                       ATom_types NUcleic_acid_backbone
+
+ SEt ?                                SEt REset_defaults
+ SEt COarse_6A_fit_defaults           SEt INtermediate_4A_fit_defaults
+ SEt FIne_tune_3A_fit_defaults        SEt SImilar_mols_2A_fit_defaults
+
+ SEt MAx_nr_improve_cycles value      SEt DIst_max value
+ SEt MIn_fragment_length value        SEt DEcay value
+ SEt OPtimisation_criterion value     SEt SEquential_hits on_off
+ SEt RMs_weight value                 SEt FRagment_length_decay value
+ SEt SHift_correction on_off          SEt NUcleic_acid_defaults
+
+ OMacro INit mol1 file                OMacro APpend mol2
+ OMacro WRite o_command_string        OMacro CLose_file
+ OMacro DEfine central_atom max_dist connect_file
+
+ VRml SEtup central_atom max_dist backgr_col default_col
+ VRml INit [vrml_file]                VRml COlour_list
+ VRml ADd mol [chain] [colour]        VRml ALl_chains mol
+
+ Max nr of molecules             : (          8) 
+ Max nr of residues per molecule : (      30000) 
+ Max nr of atoms per molecule    : (     200000) 
+ Max nr of atom types            : (         15) 
+
+ LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/result04/result04model1iter.pdb
+ OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
+   
+ Error : (No such file or directory) 
+ Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ ERROR --- Mol not in memory
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  ERROR --- No mols in memory
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       5854) 
+ Nr of atoms in molecule    : (       4724) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (       1122) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-496 B1-119
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        604) 
+ Nr skipped (B limits) : (          0) 
+
+ The    604 atoms have an RMS distance of   10.702 A
+ RMS delta B  =   14.252 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.361188  0.576707 -0.732770
+                -0.460149 -0.573251 -0.677972
+                -0.811053  0.582059  0.058320
+ Translation :      6.962     0.716    11.456
+ Maiorov-Crippen RHO (0-2)            =      0.42847
+ Estimated RMSD for 2 random proteins =     27.512 A
+ Relative RMSD                        =      0.38898
+ Normalised RMSD (100)                =      5.635 A
+ RMSD / Nalign                        =    0.01772 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-496 B1-119 M2 A1 B1) 
+ The    604 atoms have an RMS distance of   10.702 A
+ SI = RMS * Nmin / Nmatch             =     10.70179
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.08546
+ CR = Maiorov-Crippen RHO (0-2)       =      0.42847
+ RR = relative RMSD                   =      0.38898
+ NR = normalised RMSD (100)           =      5.635 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.772 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.293 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.049 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.008 A
+ RMSD / Nalign                        =    0.01772 A
+ RMS delta B for matched atoms        =    14.252 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.36118788  0.57670724 -0.73277032
+                 -0.46014932 -0.57325059 -0.67797244
+                 -0.81105256  0.58205914  0.05832024
+ Translation  :       6.9620      0.7164     11.4557
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.3611879    0.5767072   -0.7327703                  6.962
+               -0.4601493   -0.5732506   -0.6779724                  0.716
+               -0.8110526    0.5820591    0.0583202                 11.456
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                42.776     -86.657    -144.335
+ Spherical polars Omega Phi Chi          129.396       3.555     125.231
+ Direction cosines of rotation axis     0.771289    0.047918   -0.634679
+ X-PLOR polars Phi Psi Kappa            -140.550      92.747     125.231
+ Lattmann Theta+ Theta2 Theta-          -258.441      86.657       7.110
+ Rotation angle                             125.231
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4724) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       5854) 
+ Nr of atoms in molecule    : (       4724) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (       1122) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-496 B1-119
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        604) 
+ Nr skipped (B limits) : (          0) 
+
+ The    604 atoms have an RMS distance of   12.109 A
+ RMS delta B  =   14.252 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.392930  0.630104 -0.669757
+                -0.403456 -0.536364 -0.741307
+                -0.826335  0.561499  0.043466
+ Translation :      6.305     1.155    12.329
+ Maiorov-Crippen RHO (0-2)            =      0.47543
+ Estimated RMSD for 2 random proteins =     28.215 A
+ Relative RMSD                        =      0.42916
+ Normalised RMSD (100)                =      6.376 A
+ RMSD / Nalign                        =    0.02005 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-496 B1-119 M2 A1 B1) 
+ The    604 atoms have an RMS distance of   12.109 A
+ SI = RMS * Nmin / Nmatch             =     12.10875
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.07628
+ CR = Maiorov-Crippen RHO (0-2)       =      0.47543
+ RR = relative RMSD                   =      0.42916
+ NR = normalised RMSD (100)           =      6.376 A
+ SAS(1) = cRMS * (100/Nmatch)         =      2.005 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.332 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.055 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.009 A
+ RMSD / Nalign                        =    0.02005 A
+ RMS delta B for matched atoms        =    14.252 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.39293024  0.63010442 -0.66975665
+                 -0.40345597 -0.53636420 -0.74130726
+                 -0.82633460  0.56149948  0.04346569
+ Translation  :       6.3047      1.1548     12.3290
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.3929302    0.6301044   -0.6697567                  6.305
+               -0.4034560   -0.5363642   -0.7413073                  1.155
+               -0.8263346    0.5614995    0.0434657                 12.329
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                47.903     -87.509    -145.804
+ Spherical polars Omega Phi Chi          128.226       6.853     123.366
+ Direction cosines of rotation axis     0.779960    0.093740   -0.618769
+ X-PLOR polars Phi Psi Kappa            -141.574      95.379     123.366
+ Lattmann Theta+ Theta2 Theta-          -262.099      87.509      13.706
+ Rotation angle                             123.366
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4724) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       5854) 
+ Nr of atoms in molecule    : (       4724) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (       1122) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-496 B1-119
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        604) 
+ Nr skipped (B limits) : (          0) 
+
+ The    604 atoms have an RMS distance of    9.715 A
+ RMS delta B  =   14.252 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.390741  0.711765  0.583704
+                -0.434752  0.701633 -0.564536
+                -0.811364 -0.033179  0.583599
+ Translation :      6.316     0.921    12.067
+ Maiorov-Crippen RHO (0-2)            =      0.38066
+ Estimated RMSD for 2 random proteins =     27.993 A
+ Relative RMSD                        =      0.34707
+ Normalised RMSD (100)                =      5.115 A
+ RMSD / Nalign                        =    0.01608 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-496 B1-119 M2 A1 B1) 
+ The    604 atoms have an RMS distance of    9.715 A
+ SI = RMS * Nmin / Nmatch             =      9.71525
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.09332
+ CR = Maiorov-Crippen RHO (0-2)       =      0.38066
+ RR = relative RMSD                   =      0.34707
+ NR = normalised RMSD (100)           =      5.115 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.608 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.266 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.044 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.007 A
+ RMSD / Nalign                        =    0.01608 A
+ RMS delta B for matched atoms        =    14.252 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.39074123  0.71176541  0.58370447
+                 -0.43475220  0.70163292 -0.56453645
+                 -0.81136394 -0.03317910  0.58359861
+ Translation  :       6.3155      0.9211     12.0669
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.3907412    0.7117654    0.5837045                  6.316
+               -0.4347522    0.7016329   -0.5645365                  0.921
+               -0.8113639   -0.0331791    0.5835986                 12.067
+ Determinant of rotation matrix         0.999999
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma               135.956     -54.296     177.658
+ Spherical polars Omega Phi Chi          127.525      69.149      70.246
+ Direction cosines of rotation axis     0.282291    0.741150   -0.609104
+ X-PLOR polars Phi Psi Kappa            -114.866     137.829      70.246
+ Lattmann Theta+ Theta2 Theta-            46.385      54.296    -221.702
+ Rotation angle                              70.246
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4724) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       5854) 
+ Nr of atoms in molecule    : (       4724) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (       1122) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-496 B1-119
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        604) 
+ Nr skipped (B limits) : (          0) 
+
+ The    604 atoms have an RMS distance of    7.808 A
+ RMS delta B  =   14.252 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.369930 -0.601508  0.708053
+                -0.441712  0.556601  0.703623
+                -0.817338 -0.573047 -0.059790
+ Translation :      6.301     1.121    12.321
+ Maiorov-Crippen RHO (0-2)            =      0.30156
+ Estimated RMSD for 2 random proteins =     28.221 A
+ Relative RMSD                        =      0.27667
+ Normalised RMSD (100)                =      4.111 A
+ RMSD / Nalign                        =    0.01293 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-496 B1-119 M2 A1 B1) 
+ The    604 atoms have an RMS distance of    7.808 A
+ SI = RMS * Nmin / Nmatch             =      7.80798
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.11353
+ CR = Maiorov-Crippen RHO (0-2)       =      0.30156
+ RR = relative RMSD                   =      0.27667
+ NR = normalised RMSD (100)           =      4.111 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.293 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.214 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.035 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.006 A
+ RMSD / Nalign                        =    0.01293 A
+ RMS delta B for matched atoms        =    14.252 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.36993045 -0.60150814  0.70805323
+                 -0.44171190  0.55660111  0.70362335
+                 -0.81733835 -0.57304722 -0.05978966
+ Translation  :       6.3014      1.1214     12.3214
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.3699304   -0.6015081    0.7080532                  6.301
+               -0.4417119    0.5566011    0.7036234                  1.121
+               -0.8173383   -0.5730472   -0.0597897                 12.321
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                44.820      93.428     -35.035
+ Spherical polars Omega Phi Chi           85.407     129.928      93.820
+ Direction cosines of rotation axis    -0.639757    0.764394    0.080076
+ X-PLOR polars Phi Psi Kappa               7.134     -40.147      93.820
+ Lattmann Theta+ Theta2 Theta-            -9.785      93.428    -100.145
+ Rotation angle                              93.820
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4724) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       5855) 
+ Nr of atoms in molecule    : (       4724) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (       1122) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-496 B1-119
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        604) 
+ Nr skipped (B limits) : (          0) 
+
+ The    604 atoms have an RMS distance of   11.630 A
+ RMS delta B  =   14.252 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.441294 -0.593362  0.673188
+                -0.427286  0.520741  0.739091
+                -0.789105 -0.613800 -0.023735
+ Translation :      6.197     0.960    11.985
+ Maiorov-Crippen RHO (0-2)            =      0.45825
+ Estimated RMSD for 2 random proteins =     28.055 A
+ Relative RMSD                        =      0.41453
+ Normalised RMSD (100)                =      6.124 A
+ RMSD / Nalign                        =    0.01925 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-496 B1-119 M2 A1 B1) 
+ The    604 atoms have an RMS distance of   11.630 A
+ SI = RMS * Nmin / Nmatch             =     11.62985
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.07918
+ CR = Maiorov-Crippen RHO (0-2)       =      0.45825
+ RR = relative RMSD                   =      0.41453
+ NR = normalised RMSD (100)           =      6.124 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.925 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.319 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.053 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.009 A
+ RMSD / Nalign                        =    0.01925 A
+ RMS delta B for matched atoms        =    14.252 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.44129369 -0.59336197  0.67318767
+                 -0.42728618  0.52074128  0.73909074
+                 -0.78910488 -0.61379975 -0.02373549
+ Translation  :       6.1972      0.9597     11.9850
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.4412937   -0.5933620    0.6731877                  6.197
+               -0.4272862    0.5207413    0.7390907                  0.960
+               -0.7891049   -0.6137998   -0.0237355                 11.985
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                47.672      91.360     -37.877
+ Spherical polars Omega Phi Chi           85.235     132.775      91.768
+ Direction cosines of rotation axis    -0.676767    0.731494    0.083077
+ X-PLOR polars Phi Psi Kappa               6.998     -42.988      91.768
+ Lattmann Theta+ Theta2 Theta-            -9.794      91.360     -94.451
+ Rotation angle                              91.768
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4724) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       5854) 
+ Nr of atoms in molecule    : (       4724) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (       1122) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-496 B1-119
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        604) 
+ Nr skipped (B limits) : (          0) 
+
+ The    604 atoms have an RMS distance of    8.554 A
+ RMS delta B  =   14.252 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.395461 -0.566258  0.723161
+                -0.451379  0.565890  0.689946
+                -0.799917 -0.599267 -0.031810
+ Translation :      6.260     1.131    12.267
+ Maiorov-Crippen RHO (0-2)            =      0.32999
+ Estimated RMSD for 2 random proteins =     28.320 A
+ Relative RMSD                        =      0.30204
+ Normalised RMSD (100)                =      4.504 A
+ RMSD / Nalign                        =    0.01416 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-496 B1-119 M2 A1 B1) 
+ The    604 atoms have an RMS distance of    8.554 A
+ SI = RMS * Nmin / Nmatch             =      8.55398
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.10467
+ CR = Maiorov-Crippen RHO (0-2)       =      0.32999
+ RR = relative RMSD                   =      0.30204
+ NR = normalised RMSD (100)           =      4.504 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.416 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.234 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.039 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.006 A
+ RMSD / Nalign                        =    0.01416 A
+ RMS delta B for matched atoms        =    14.252 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.39546090 -0.56625819  0.72316134
+                 -0.45137921  0.56588954  0.68994612
+                 -0.79991710 -0.59926671 -0.03180999
+ Translation  :       6.2596      1.1312     12.2670
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.3954609   -0.5662582    0.7231613                  6.260
+               -0.4513792    0.5658895    0.6899461                  1.131
+               -0.7999171   -0.5992667   -0.0318100                 12.267
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                43.654      91.823     -36.839
+ Spherical polars Omega Phi Chi           86.705     130.246      92.019
+ Direction cosines of rotation axis    -0.645007    0.762012    0.057475
+ X-PLOR polars Phi Psi Kappa               5.092     -40.358      92.019
+ Lattmann Theta+ Theta2 Theta-            -6.814      91.823     -99.507
+ Rotation angle                              92.019
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4724) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       5854) 
+ Nr of atoms in molecule    : (       4724) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (       1122) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-496 B1-119
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        604) 
+ Nr skipped (B limits) : (          0) 
+
+ The    604 atoms have an RMS distance of    8.941 A
+ RMS delta B  =   14.252 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.381131  0.625654 -0.680658
+                -0.411496 -0.544482 -0.730897
+                -0.827895  0.558656  0.049935
+ Translation :      6.343     0.968    12.035
+ Maiorov-Crippen RHO (0-2)            =      0.35090
+ Estimated RMSD for 2 random proteins =     27.869 A
+ Relative RMSD                        =      0.32081
+ Normalised RMSD (100)                =      4.708 A
+ RMSD / Nalign                        =    0.01480 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-496 B1-119 M2 A1 B1) 
+ The    604 atoms have an RMS distance of    8.941 A
+ SI = RMS * Nmin / Nmatch             =      8.94072
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.10060
+ CR = Maiorov-Crippen RHO (0-2)       =      0.35090
+ RR = relative RMSD                   =      0.32081
+ NR = normalised RMSD (100)           =      4.708 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.480 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.245 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.041 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.007 A
+ RMSD / Nalign                        =    0.01480 A
+ RMS delta B for matched atoms        =    14.252 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.38113144  0.62565422 -0.68065834
+                 -0.41149637 -0.54448152 -0.73089731
+                 -0.82789481  0.55865633  0.04993546
+ Translation  :       6.3426      0.9681     12.0352
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.3811314    0.6256542   -0.6806583                  6.343
+               -0.4114964   -0.5444815   -0.7308973                  0.968
+               -0.8278948    0.5586563    0.0499355                 12.035
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                47.038     -87.138    -145.989
+ Spherical polars Omega Phi Chi          128.628       6.514     123.828
+ Direction cosines of rotation axis     0.776177    0.088621   -0.624256
+ X-PLOR polars Phi Psi Kappa            -141.191      95.084     123.828
+ Lattmann Theta+ Theta2 Theta-          -261.049      87.138      13.027
+ Rotation angle                             123.828
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4724) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       5854) 
+ Nr of atoms in molecule    : (       4724) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (       1122) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-496 B1-119
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        604) 
+ Nr skipped (B limits) : (          0) 
+
+ The    604 atoms have an RMS distance of   11.517 A
+ RMS delta B  =   14.252 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.382792 -0.582888  0.716737
+                -0.451040  0.559162  0.695630
+                -0.806246 -0.589558 -0.048864
+ Translation :      7.352     0.282    10.581
+ Maiorov-Crippen RHO (0-2)            =      0.47270
+ Estimated RMSD for 2 random proteins =     26.968 A
+ Relative RMSD                        =      0.42707
+ Normalised RMSD (100)                =      6.064 A
+ RMSD / Nalign                        =    0.01907 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-496 B1-119 M2 A1 B1) 
+ The    604 atoms have an RMS distance of   11.517 A
+ SI = RMS * Nmin / Nmatch             =     11.51739
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.07989
+ CR = Maiorov-Crippen RHO (0-2)       =      0.47270
+ RR = relative RMSD                   =      0.42707
+ NR = normalised RMSD (100)           =      6.064 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.907 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.316 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.052 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.009 A
+ RMSD / Nalign                        =    0.01907 A
+ RMS delta B for matched atoms        =    14.252 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.38279152 -0.58288831  0.71673697
+                 -0.45104033  0.55916208  0.69562960
+                 -0.80624646 -0.58955836 -0.04886362
+ Translation  :       7.3519      0.2816     10.5806
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.3827915   -0.5828883    0.7167370                  7.352
+               -0.4510403    0.5591621    0.6956296                  0.282
+               -0.8062465   -0.5895584   -0.0488636                 10.581
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                44.144      92.801     -36.176
+ Spherical polars Omega Phi Chi           86.215     130.160      93.064
+ Direction cosines of rotation axis    -0.643514    0.762582    0.066018
+ X-PLOR polars Phi Psi Kappa               5.858     -40.308      93.064
+ Lattmann Theta+ Theta2 Theta-            -7.968      92.801     -99.680
+ Rotation angle                              93.064
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4724) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE, IMMUNE SYSTEM                01-FEB-02   1KXT
+ TITLE  :     CAMELID VHH DOMAINS IN COMPLEX WITH PORCINE PANCREATIC
+ TITLE  :    2 ALPHA-AMYLASE
+ KEYWDS :     ALPHA 8 BETA 8; BETA BARREL, HYDROLASE, IMMUNE SYSTEM
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     A.DESMYTER,S.SPINELLI,F.PAYAN,M.LAUWEREYS,L.WYNS,
+ AUTHOR :    2 S.MUYLDERMANS,C.CAMBILLAU
+ REVDAT :    4   24-FEB-09 1KXT    1       VERSN
+ REVDAT :    3   01-APR-03 1KXT    1       JRNL
+ REVDAT :    2   14-AUG-02 1KXT    1       JRNL
+ REVDAT :    1   19-JUN-02 1KXT    0
+ CRYST1 :    52.780  286.850   65.980  90.00  93.73  90.00 P 1 21 1      6
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |D| becomes chain D
+ Old chain |E| becomes chain E
+ Old chain |F| becomes chain F
+ Old chain |A| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |E| becomes chain I
+ Old chain |A| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Nr of lines read from file : (      17339) 
+ Nr of atoms in molecule    : (      16172) 
+ Nr of chains or models     : (         15) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1733) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       5854) 
+ Nr of atoms in molecule    : (       4724) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (       1122) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-496 B1-119
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        604) 
+ Nr skipped (B limits) : (          0) 
+
+ The    604 atoms have an RMS distance of   10.927 A
+ RMS delta B  =   14.252 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.406258  0.557142 -0.724256
+                -0.442759 -0.573324 -0.689393
+                -0.799324  0.600743  0.013762
+ Translation :      6.642     0.868    11.727
+ Maiorov-Crippen RHO (0-2)            =      0.42707
+ Estimated RMSD for 2 random proteins =     28.197 A
+ Relative RMSD                        =      0.38753
+ Normalised RMSD (100)                =      5.754 A
+ RMSD / Nalign                        =    0.01809 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-496 B1-119 M2 A1 B1) 
+ The    604 atoms have an RMS distance of   10.927 A
+ SI = RMS * Nmin / Nmatch             =     10.92710
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.08384
+ CR = Maiorov-Crippen RHO (0-2)       =      0.42707
+ RR = relative RMSD                   =      0.38753
+ NR = normalised RMSD (100)           =      5.754 A
+ SAS(1) = cRMS * (100/Nmatch)         =      1.809 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.300 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.050 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.008 A
+ RMSD / Nalign                        =    0.01809 A
+ RMS delta B for matched atoms        =    14.252 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.40625784  0.55714202 -0.72425646
+                 -0.44275945 -0.57332438 -0.68939340
+                 -0.79932386  0.60074282  0.01376236
+ Translation  :       6.6416      0.8681     11.7275
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.4062578    0.5571420   -0.7242565                  6.642
+               -0.4427595   -0.5733244   -0.6893934                  0.868
+               -0.7993239    0.6007428    0.0137624                 11.727
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                43.587     -89.211    -143.073
+ Spherical polars Omega Phi Chi          127.730       3.330     125.215
+ Direction cosines of rotation axis     0.789567    0.045941   -0.611942
+ X-PLOR polars Phi Psi Kappa            -142.223      92.633     125.215
+ Lattmann Theta+ Theta2 Theta-          -260.514      89.211       6.660
+ Rotation angle                             125.215
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4724) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  LSQMAN > 
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ Version - 081126/9.7.9
+ Started - Fri May 24 19:45:32 2013
+ Stopped - Fri May 24 19:45:33 2013
+
+ CPU-time taken :
+ User    -      1.2 Sys    -      0.0 Total   -      1.2
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ >>>>>>>>>>>>>> USF .... Uppsala Software Factory <<<<<<<<<<<<<<
+ >>>>>>>>>> This program: (c) 1992-2009, G J Kleywegt <<<<<<<<<<
+ >>>>>>>>>>>>>>>> E-mail: gerard@xray.bmc.uu.se <<<<<<<<<<<<<<<<
+ >>>>>>>>>>>>>>>>>> http://xray.bmc.uu.se/usf <<<<<<<<<<<<<<<<<<
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+

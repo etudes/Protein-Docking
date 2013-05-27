@@ -379,7 +379,6 @@ public class TestCase {
 		out.println(alphamov + " " + betamov + " " + gammamov + " " + alpha + " " + beta + " " + gamma);
 	}
 	public void printInterface(PrintWriter out) {
-		out.println("INTERFACE");
 		ArrayList<Atom> interfacea = detInterface();
 		for (int i = 0; i < interfacea.size(); i++) {
 			Atom current = interfacea.get(i);
