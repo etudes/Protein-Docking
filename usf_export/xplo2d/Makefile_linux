@@ -1,0 +1,23 @@
+#
+OBJ=	xplo2d.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	xplo2d
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = xplo2d_subs.o
+##INCL## INCL = Makefile_linux xplo2d.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+xplo2d.o:	xplo2d.fpp $(INCL)
+	$(fc) $(opt) -c xplo2d.fpp
+
+##SUBS## xplo2d_subs.o:	xplo2d_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c xplo2d_subs.fpp

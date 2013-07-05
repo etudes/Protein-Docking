@@ -1,0 +1,21 @@
+#
+OBJ=	mapman_test.o ../gklib/osx_kleylib  ../ccp4libs_gfort/libccp4f.a  ../ccp4libs_gfort/libccp4c.a
+EXEC =	mapman_test
+INCL=	Makefile_osx
+SUBS = 
+##SUBS = mapman_subs.o
+INCL = Makefile_osx mapman.incl
+
+fc =	 gfortran
+
+opt= -O -u -check_bounds -ffixed-line-length-132 -m32 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) -m32 ; strip $(EXEC)
+
+mapman_test.o:	mapman_test.f $(INCL)
+	$(fc) $(opt) -c mapman_test.fpp
+
+#mapman_subs.o:	mapman_subs.fpp $(INCL)
+#			$(fc) $(opt) -c mapman_subs.fpp

@@ -1,0 +1,22 @@
+#
+OBJ=	xpand.o ../gklib/osx_kleylib  ../ccp4libs_latest_m32_osx/libccp4f.a  ../ccp4libs_latest_m32_osx/libccp4c.a
+EXEC =	xpand
+INCL=	Makefile_osx
+SUBS = 
+##SUBS## SUBS = xpand_subs.o
+INCL = Makefile_osx xpand.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DOSX
+
+opt= -O -u -ffixed-line-length-132 -m32 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) -m32 ; strip $(EXEC)
+
+xpand.o:	xpand.fpp $(INCL)
+	$(fc) $(opt) -c xpand.fpp
+
+##SUBS## xpand_subs.o:	xpand_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c xpand_subs.fpp

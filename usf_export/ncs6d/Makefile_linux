@@ -1,0 +1,23 @@
+#
+OBJ=	ncs6d.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	ncs6d
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = ncs6d_subs.o
+##INCL## INCL = Makefile_linux ncs6d.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+ncs6d.o:	ncs6d.fpp $(INCL)
+	$(fc) $(opt) -c ncs6d.fpp
+
+##SUBS## ncs6d_subs.o:	ncs6d_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c ncs6d_subs.fpp

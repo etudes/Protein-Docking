@@ -1,0 +1,22 @@
+#
+OBJ=	ccp4libs_gfort_osx.o ../gklib/osx_kleylib  ../ccp4libs_latest_m32_osx/libccp4f.a  ../ccp4libs_latest_m32_osx/libccp4c.a
+EXEC =	ccp4libs_gfort_osx
+INCL=	Makefile_osx
+SUBS = 
+##SUBS## SUBS = ccp4libs_gfort_osx_subs.o
+##INCL## INCL = Makefile_osx ccp4libs_gfort_osx.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DOSX
+
+opt= -O -u -ffixed-line-length-132 -m32 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) -m32 ; strip $(EXEC)
+
+ccp4libs_gfort_osx.o:	ccp4libs_gfort_osx.fpp $(INCL)
+	$(fc) $(opt) -c ccp4libs_gfort_osx.fpp
+
+##SUBS## ccp4libs_gfort_osx_subs.o:	ccp4libs_gfort_osx_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c ccp4libs_gfort_osx_subs.fpp

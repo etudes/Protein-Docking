@@ -1,0 +1,23 @@
+#
+OBJ=	o2d.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	o2d
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+SUBS = o2d_subs.o
+INCL = Makefile_linux o2d.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+o2d.o:	o2d.fpp $(INCL)
+	$(fc) $(opt) -c o2d.fpp
+
+o2d_subs.o:	o2d_subs.fpp $(INCL)
+			$(fc) $(opt) -c o2d_subs.fpp

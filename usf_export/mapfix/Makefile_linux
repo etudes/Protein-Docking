@@ -1,0 +1,23 @@
+#
+OBJ=	mapfix.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	mapfix
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = mapfix_subs.o
+##INCL## INCL = Makefile_linux mapfix.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+mapfix.o:	mapfix.fpp $(INCL)
+	$(fc) $(opt) -c mapfix.fpp
+
+##SUBS## mapfix_subs.o:	mapfix_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c mapfix_subs.fpp

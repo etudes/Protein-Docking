@@ -1,0 +1,227 @@
+
+ *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** 
+
+ Version  - 080625/7.8.5
+ (c) 1992-2009 Gerard J. Kleywegt & T. Alwyn Jones, BMC, Uppsala (SE)
+ User I/O - routines courtesy of Rolf Boelens, Univ. of Utrecht (NL)
+ Others   - T.A. Jones, G. Bricogne, Rams, W.A. Hendrickson
+ Others   - W. Kabsch, CCP4, PROTEIN, E. Dodson, etc. etc.
+
+ Started  - Mon Feb 15 19:23:19 2010
+ User     - markh
+ Mode     - interactive
+ Host     - localhost (OSX/Apple)
+ ProcID   - 35792
+ Not using a tty as input device
+
+ *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** 
+
+ Reference(s) for this program:
+
+ *  1 * T.A. Jones & S. Thirup (1986). Using known substructures in
+        protein model building and crystallography. EMBO J 5, 819-822.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=3709525&dopt=Citation]
+
+ *  2 * T.A. Jones (1992). A, yaap, asap, @#*?  A set of averaging
+        programs. In "Molecular Replacement", edited by E.J. Dodson,
+        S. Gover and W. Wolf. SERC Daresbury Laboratory, Warrington,
+        pp. 91-105.
+
+ *  3 * G.J. Kleywegt & T.A. Jones (1994).  Halloween ... Masks and
+        Bones. In "From First Map to Final Model", edited by
+        S. Bailey, R. Hubbard and D. Waller.  SERC Daresbury
+        Laboratory, Warrington, pp. 59-66.
+        [http://xray.bmc.uu.se/gerard/papers/halloween.html]
+
+ *  4 * G.J. Kleywegt & T.A. Jones (1996). xdlMAPMAN and xdlDATAMAN -
+        programs for reformatting, analysis and manipulation of
+        biomacromolecular electron-density maps and reflection data
+        sets. Acta Cryst D52, 826-828.
+        [http://scripts.iucr.org/cgi-bin/paper?gr0468]
+
+ *  5 * G.J. Kleywegt (1996). Making the most of your search model.
+        CCP4/ESF-EACBM Newsletter on Protein Crystallography 32,
+        June 1996, pp. 32-36.
+        [http://xray.bmc.uu.se/usf/factory_6.html]
+
+ *  6 * G.J. Kleywegt & R.J. Read (1997). Not your average density.
+        Structure 5, 1557-1569.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=9438862&dopt=Citation]
+
+ *  7 * G.J. Kleywegt & T.A. Jones (1999). Software for handling
+        macromolecular envelopes. Acta Cryst D55, 941-944.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=10089342&dopt=Citation]
+        [http://scripts.iucr.org/cgi-bin/paper?se0256]
+
+ *  8 * G.J. Kleywegt (1999). Experimental assessment of
+        differences between related protein crystal structures.
+        Acta Cryst. D55, 1878-1857.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=10531486&dopt=Citation]
+        [http://scripts.iucr.org/cgi-bin/paper?se0283]
+
+ *  9 * R.J. Read & G.J. Kleywegt (2001). Density modification:
+        theory and practice. In: "Methods in Macromolecular
+        Crystallography" (D Turk & L Johnson, Eds.), IOS Press,
+        Amsterdam, pp. 123-135.
+
+ * 10 * G.J. Kleywegt, M.R. Harris, J. Zou, T.C. Taylor,
+        A. Wahlby & T.A. Jones (2004). The Uppsala Electron-
+        Density Server. Acta Cryst. D60, 2240-2249.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=15572777&dopt=Citation]
+        [http://scripts.iucr.org/cgi-bin/paper?ba5061]
+
+ * 11 * Kleywegt, G.J., Zou, J.Y., Kjeldgaard, M. & Jones, T.A. (2001).
+        Around O. In: "International Tables for Crystallography, Vol. F.
+        Crystallography of Biological Macromolecules" (Rossmann, M.G.
+        & Arnold, E., Editors). Chapter 17.1, pp. 353-356, 366-367.
+        Dordrecht: Kluwer Academic Publishers, The Netherlands.
+
+ ==> For manuals and up-to-date references, visit:
+ ==>     http://xray.bmc.uu.se/usf
+ ==> For reprints, visit:
+ ==>     http://xray.bmc.uu.se/gerard
+ ==> For downloading up-to-date versions, visit:
+ ==>     ftp://xray.bmc.uu.se/pub/gerard
+
+ *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** 
+
+ Allocate maps of size : (   10000000) 
+ Max number of maps    : (          2) 
+
+ Max nr of maps in memory     :          2
+ Max nr of points in map      :   10000000
+ Max nr of picked peaks       :     100000
+ Max size of density buffer   :    1000000
+ Max nr of BONES points       :     500000
+ Max nr of BONES branches     :     500000
+ Max nr of BONES connections  :    1000000
+ Record length for DSN6/BRIX  :        128
+
+ Input  formats : ( PROTEIN FFT-Y TENEYCK2 CCP4 X-PLOR OLDEZD MASK NEWEZD 
+  BINXPLOR BRICK DSN6 3DMATRIX TNT PHASES FSMASK BRIX XPLOR CNS EZD EM08 
+  OMAP MPI AMBER) 
+
+ Output formats : ( CCP4 OLDEZD MASK NEWEZD ENVELOPE X-PLOR DSN6 BRIX 
+  XPLOR CNS EZD AMORE OMAP TURBO MPI) 
+
+ Initialising : (XVRML - 20051205/0.8) 
+ Nr of predefined colours : (        411) 
+
+
+ Symbol START_TIME : (Mon Feb 15 19:23:19 2010) 
+ Symbol USERNAME : (markh) 
+
+ MAPMAN's options :
+
+ ? (list options)            ! (comment)
+ QUit                        $ shell_command
+ & symbol value              & ? (list symbols)
+ @ macro_file                ZP_restart mapsize nummaps
+ ECho on_off                 # parameter(s) (command history)
+
+ REad new_map file fmt       WRite map file fmt [cutoff] [op]
+ DElete map                  LIst [map]
+ HIsto map x1 x2 x3 [...]    EXtract map file type plane
+ MOments map                 DH map plot_file nr_bins
+ 1D_proj map file type       2D_proj map file type first last
+
+ MAppage map file            BRix map file
+ SWapbytes brick_file        
+
+ NEw ? (list defaults)       NEw ORigin o1 o2 o3
+ NEw CEll a b c al be ga     NEw EXtent e1 e2 e3
+ NEw GRid g1 g2 g3           NEw SAme map
+ NEw ENcompass map           NEw MAke new_map
+
+ UVw map u v w               SPacegroup map ispcgr
+ PRod_plus map prod plus     CEll map a b c al be ga
+ RAnge map low high          DRange map low high
+ MUltiply map factor         DIvide map factor
+ PLus map value              ODl map odl_file type mode
+ SCale map low high          ZEro map low high
+ NOrmalise map               ERase map e1 .. e6
+ INtegrate map e1 .. e6      FRame map type e1 e2 e3
+ VAlue_at map e1 .. e6       CHange_value map lo hi new
+ WHere_value map value toler SEt_value map start [dx dy dz]
+ TRanslate map tx ty tz      GTranslate map gx gy gz
+ LAbel map text              
+
+ SImilarity map1 map2        DUplicate new_map map
+ ADd map map_to_add          MIn_max map1 map2
+ OPerate map oper map2       COrrelate map1 map2
+ MStats map mask_map cutoff  QInvert new_map map
+ PAste map1 e1 .. e6 map2 e1 e2 e3
+ ROughness new_map map npos nneg box plot_file nr_bins
+
+ BOnes SKel map base step nr_spares
+ BOnes COnnect file id mc    BOnes ?   
+ BOnes PRune file mc bfac    
+
+ PIck PDb res atom first     PIck LImits e1 .. e6
+ PIck LEvel threshold        PIck ?
+ PIck PEaks map file format  PIck INtegrate map file format
+ PIck HIgh map file format   
+
+ PEek VAlue map pdb_in pdb_out mode
+ PEek CUbe map pdb_in pdb_out mode nr_points
+ PEek SPhere map pdb_in pdb_out mode radius
+
+ FIlter ?                    FIlter EDge map a b
+ FIlter MEdian map size      FIlter AVerage map size
+ FIlter MInimum map size     FIlter MAximum map size
+ FIlter SMooth map           FIlter SIgnal/noise map size
+ FIlter GRadient map         FIlter LAplace map
+ FIlter KHighest map size k  FIlter KLowest map size k
+ FIlter VAr_thr map size a b FIlter STat_diff map size a b c
+
+ VRml SEtup central_atom max_dist backgr_col default_col
+ VRml INit [filename]                 VRml COlour_list
+ VRml TRace pdb_file [colour]         VRml BOx map [colour] [line_solid]
+ VRml CEll map [colour] [line_solid]  [x_offset] [y_offset] [z_offset]
+ VRml DOts map low high [colour]      VRml DRaw map level [colour]
+ VRml CLose_file                      
+
+ Max nr of maps in memory     :          2
+ Max nr of points in map      :   10000000
+ Max nr of picked peaks       :     100000
+ Max size of density buffer   :    1000000
+ Max nr of BONES points       :     500000
+ Max nr of BONES branches     :     500000
+ Max nr of BONES connections  :    1000000
+ Record length for DSN6/BRIX  :        128
+
+ ERROR --- Environment variable CCP4_OPEN undefined
+ ERROR --- You will *not* be able to write CCP4 maps
+ ERROR --- To fix this, use: setenv CCP4_OPEN UNKNOWN
+ MAPMAN >  Read header
+ Input map : (mapman_test.xE) 
+ **CCPOPN ERROR**  FORMATTED      OLD     file open failure on unit   1
+ Logical name: mapman_test.xE, File name: mapman_test.xE
+ Inappropriate ioctl for device
+
+ ERROR --- While reading map header. Sorry !
+ ERROR --- While opening map file
+ MAPMAN >  Command > (! normalise m1) 
+ MAPMAN >  ERROR --- No maps in memory
+ MAPMAN >  ERROR --- Map not in memory
+ MAPMAN > 
+
+
+ *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** 
+
+ Version - 080625/7.8.5
+ Started - Mon Feb 15 19:23:19 2010
+ Stopped - Mon Feb 15 19:23:19 2010
+
+ CPU-time taken :
+ User    -      0.0 Sys    -      0.0 Total   -      0.0
+
+ *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** 
+
+ >>>>>>>>>>>>>> USF .... Uppsala Software Factory <<<<<<<<<<<<<<
+ >>>> This program: (c) 1992-2009, G J Kleywegt & T A Jones <<<<
+ >>>> E-mail: gerard@xray.bmc.uu.se or alwyn@xray.bmc.uu.se <<<<
+ >>>>>>>>>>>>>>>>>> http://xray.bmc.uu.se/usf <<<<<<<<<<<<<<<<<<
+
+ *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** MAPMAN *** 
+

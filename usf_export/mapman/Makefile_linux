@@ -1,0 +1,23 @@
+#
+OBJ=	mapman.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	mapman
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+SUBS = mapman_subs.o
+INCL = Makefile_linux mapman.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+mapman.o:	mapman.fpp $(INCL)
+	$(fc) $(opt) -c mapman.fpp
+
+mapman_subs.o:	mapman_subs.fpp $(INCL)
+			$(fc) $(opt) -c mapman_subs.fpp

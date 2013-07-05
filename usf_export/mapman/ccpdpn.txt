@@ -1,0 +1,20 @@
+SUBROUTINE CCPDPN(IUN,LOGNAM,STATUS,TYPE,LREC,IFAIL)
+More friendly CCPOPN
+IUN	(i) (integer)	unit number
+LOGNAM	(i) (character*(*))	logical file name
+STATUS	(i) (character*(*))	file status flag 'UNKNOWN'
+'SCRATCH'
+'OLD'
+'NEW'
+'READONLY'
+'PRINTER'
+TYPE	(i) (character*(*))	file type flag ='F', 'SEQUENTIAL' 'FORMATTED'
+='U', 'SEQUENTIAL' 'UNFORMATTED'
+='DF', 'DIRECT' 'FORMATTED'
+='DU', 'DIRECT' 'UNFORMATTED'
+LREC	(i) (integer)	record length for direct access file (no. of characters for a formated file or words for an unformated file). Not relevant for a sequential file.
+IFAIL	(i/o) (integer)	on input: =0, stop on open failure
+=1, continue after open failure
+(only on file not found) on output: unchanged if file open OK
+=-1, error in opening file
+

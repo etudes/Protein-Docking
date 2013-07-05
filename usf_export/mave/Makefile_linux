@@ -1,0 +1,23 @@
+#
+OBJ=	mave.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	mave
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = mave_subs.o
+##INCL## INCL = Makefile_linux mave.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+mave.o:	mave.fpp $(INCL)
+	$(fc) $(opt) -c mave.fpp
+
+##SUBS## mave_subs.o:	mave_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c mave_subs.fpp

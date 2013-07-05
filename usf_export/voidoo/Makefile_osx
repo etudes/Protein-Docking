@@ -1,0 +1,22 @@
+#
+OBJ=	voidoo.o ../gklib/osx_kleylib  ../ccp4libs_latest_m32_osx/libccp4f.a  ../ccp4libs_latest_m32_osx/libccp4c.a
+EXEC =	voidoo
+INCL=	Makefile_osx
+SUBS = 
+SUBS = voidoo_subs.o
+INCL = Makefile_osx voidoo.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DOSX
+
+opt= -O -u -ffixed-line-length-132 -m32 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) -m32 ; strip $(EXEC)
+
+voidoo.o:	voidoo.fpp $(INCL)
+	$(fc) $(opt) -c voidoo.fpp
+
+voidoo_subs.o:	voidoo_subs.fpp $(INCL)
+			$(fc) $(opt) -c voidoo_subs.fpp

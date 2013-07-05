@@ -1,0 +1,23 @@
+#
+OBJ=	essens.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	essens
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = essens_subs.o
+##INCL## INCL = Makefile_linux essens.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+essens.o:	essens.fpp $(INCL)
+	$(fc) $(opt) -c essens.fpp
+
+##SUBS## essens_subs.o:	essens_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c essens_subs.fpp

@@ -1,0 +1,23 @@
+#
+OBJ=	site2rt.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	site2rt
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = site2rt_subs.o
+##INCL## INCL = Makefile_linux site2rt.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+site2rt.o:	site2rt.fpp $(INCL)
+	$(fc) $(opt) -c site2rt.fpp
+
+##SUBS## site2rt_subs.o:	site2rt_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c site2rt_subs.fpp

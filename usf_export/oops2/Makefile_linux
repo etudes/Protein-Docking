@@ -1,0 +1,23 @@
+#
+OBJ=	oops2.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	oops2
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = oops2_subs.o
+INCL = Makefile_linux oops2.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+oops2.o:	oops2.fpp $(INCL)
+	$(fc) $(opt) -c oops2.fpp
+
+##SUBS## oops2_subs.o:	oops2_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c oops2_subs.fpp

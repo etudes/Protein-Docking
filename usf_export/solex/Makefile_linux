@@ -1,0 +1,23 @@
+#
+OBJ=	solex.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	solex
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = solex_subs.o
+##INCL## INCL = Makefile_linux solex.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+solex.o:	solex.fpp $(INCL)
+	$(fc) $(opt) -c solex.fpp
+
+##SUBS## solex_subs.o:	solex_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c solex_subs.fpp

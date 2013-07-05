@@ -1,0 +1,23 @@
+#
+OBJ=	spancsi.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	spancsi
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = spancsi_subs.o
+##INCL## INCL = Makefile_linux spancsi.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+spancsi.o:	spancsi.fpp $(INCL)
+	$(fc) $(opt) -c spancsi.fpp
+
+##SUBS## spancsi_subs.o:	spancsi_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c spancsi_subs.fpp

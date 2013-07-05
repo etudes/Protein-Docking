@@ -1,0 +1,23 @@
+#
+OBJ=	ave.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	ave
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+##SUBS## SUBS = ave_subs.o
+##INCL## INCL = Makefile_linux ave.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+ave.o:	ave.fpp $(INCL)
+	$(fc) $(opt) -c ave.fpp
+
+##SUBS## ave_subs.o:	ave_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c ave_subs.fpp

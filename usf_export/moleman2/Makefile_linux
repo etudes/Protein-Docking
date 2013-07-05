@@ -1,0 +1,23 @@
+#
+OBJ=	moleman2.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	moleman2
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+SUBS = moleman2_subs.o
+INCL = Makefile_linux moleman2.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+moleman2.o:	moleman2.fpp $(INCL)
+	$(fc) $(opt) -c moleman2.fpp
+
+moleman2_subs.o:	moleman2_subs.fpp $(INCL)
+			$(fc) $(opt) -c moleman2_subs.fpp

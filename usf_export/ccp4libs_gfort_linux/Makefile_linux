@@ -1,0 +1,21 @@
+#
+OBJ=	ccp4libs_latest_m32.o ../gklib/linux_kleylib  ../ccp4libs_latest_m32/libccp4f.a  ../ccp4libs_latest_m32/libccp4c.a
+EXEC =	ccp4libs_latest_m32
+INCL=	Makefile_linux
+SUBS = 
+##SUBS## SUBS = ccp4libs_latest_m32_subs.o
+##INCL## INCL = Makefile_linux ccp4libs_latest_m32.incl
+
+fc =	 gfortran -DLINUX -m32
+
+opt= -O -u -check_bounds -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) ; strip $(EXEC)
+
+ccp4libs_latest_m32.o:	ccp4libs_latest_m32.fpp $(INCL)
+	$(fc) $(opt) -c ccp4libs_latest_m32.fpp
+
+##SUBS## ccp4libs_latest_m32_subs.o:	ccp4libs_latest_m32_subs.fpp $(INCL)
+##SUBS## 			$(fc) $(opt) -c ccp4libs_latest_m32_subs.fpp

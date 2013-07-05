@@ -1,0 +1,23 @@
+#
+OBJ=	mama.o ../gklib/linux_kleylib  ../ccp4libs_latest_m64_linux/libccp4f.a  ../ccp4libs_latest_m64_linux/libccp4c.a
+EXEC =	mama
+INCL=	Makefile_linux
+SUBS = 
+STATIC = 
+SUBS = mama_subs.o
+INCL = Makefile_linux mama.incl
+##STATIC## STATIC = -static
+
+fc =	 gfortran -DLINUX -m64
+
+opt= -O -u -ffixed-line-length-132 -I..
+link= -O
+
+$(EXEC):	$(OBJ) $(SUBS)
+	$(fc) $(link) -o $(EXEC) $(SUBS) $(OBJ) $(STATIC) ; strip $(EXEC)
+
+mama.o:	mama.fpp $(INCL)
+	$(fc) $(opt) -c mama.fpp
+
+mama_subs.o:	mama_subs.fpp $(INCL)
+			$(fc) $(opt) -c mama_subs.fpp

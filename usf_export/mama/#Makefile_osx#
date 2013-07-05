@@ -1,0 +1,21 @@
+#
+OBJ=	mama.o mask_subs.o ../gklib/osx_kleylib  ../ccp4libs_gfort/libccp4f.a  ../ccp4libs_gfort/libccp4c.a
+INCL=	Makefile_osx
+
+fc =	 gfortran
+
+exec =	mama
+
+opt= -O -u -check_bounds -ffixed-line-length-132 -I..
+link= -O
+
+$(exec):	$(OBJ)
+	$(fc) $(link) -o $(exec) $(OBJ) ; strip $(exec)
+
+
+mask_subs.o:	mask_subs.fpp $(INCL)
+	$(fc) $(opt) -c mask_subs.fpp
+
+mama.o:	mama.fpp $(INCL)
+	$(fc) $(opt) -c mama.fpp
+
