@@ -1,0 +1,476 @@
+#BEGIN_DRUGCARD DB00648
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01XX23
+
+# Absorption:
+About 40% oral Lysodren is absorbed
+
+# Biotransformation:
+Hepatic and renal
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Chloditan
+Chlodithan
+Chlodithane
+Khlodithan
+Lysodren
+Mitotan
+Mitotanum [INN-Latin]
+
+# CAS_Registry_Number:
+53-19-0
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C14H10Cl4
+
+# Chemical_IUPAC_Name:
+1-chloro-4-[2,2-dichloro-1-(2-chlorophenyl)ethyl]benzene
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+463221
+
+# Description:
+A derivative of the insecticide  dichlorodiphenyldichloroethane that specifically inhibits cells of the adrenal cortex and their production of hormones. It is used to treat adrenocortical tumors and causes CNS damage, but no bone marrow depression. [PubChem]
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Antineoplastic Agents
+Antineoplastic Agents, Hormonal
+
+# Drug_Interactions:
+Acenocoumarol	Mitotane may decrease the anticoagulant effect of acenocoumarol.
+Anisindione	Mitotane may decrease the anticoagulant effect of anisindione.
+Dicumarol	Mitotane may decrease the anticoagulant effect of dicumarol.
+Spironolactone	Spironolactone antagonizes the effect of mitotane
+Warfarin	Mitotane may decrease the anticoagulant effect of warfarin.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+6
+
+# Experimental_Logs:
+-6.51
+
+# Experimental_Water_Solubility:
+0.1 mg/L (at 25 °C)
+
+# Food_Interactions:
+Take without regard to meals.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Mitotane
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+18-159 days
+
+# InChI_Identifier:
+InChI=1S/C14H10Cl4/c15-10-7-5-9(6-8-10)13(14(17)18)11-3-1-2-4-12(11)16/h1-8,13-14H
+
+# InChI_Key:
+InChIKey=JWBOIMRXGHLCPP-UHFFFAOYSA-N
+
+# Indication:
+For treatment of inoperable adrenocortical tumours; Cushing's syndrome
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D00420
+
+# LIMS_Drug_ID:
+648
+
+# Mechanism_Of_Action:
+Its biochemical mechanism of action is unknown, although data are available to suggest that the drug modifies the peripheral metabolism of steroids as well as directly suppressing the adrenal cortex.
+
+# Melting_Point:
+77 °C
+
+# Molecular_Weight_Avg:
+320.041
+
+# Molecular_Weight_Mono:
+317.953661148
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164746157
+
+# Pharmacology:
+Mitotane is an oral chemotherapeutic agent indicated in the treatment of inoperable adrenal cortical carcinoma of both functional and nonfunctional types. Mitotane can best be described as an adrenal cytotoxic agent, although it can cause adrenal inhibition, apparently without cellular destruction. The administration of Mitotane alters the extra-adrenal metabolism of cortisol in man; leading to a reduction in measurable 17-hydroxy corticosteroids, even though plasma levels of corticosteroids do not fall. The drug apparently causes increased formation of 6-B-hydroxyl cortisol.
+
+# Predicted_LogP_Hydrophobicity:
+6.08
+
+# Predicted_LogS:
+-7.5
+
+# Predicted_Water_Solubility:
+9.42e-06 g/l
+
+# Primary_Accession_No:
+DB00648
+
+# Protein_Binding:
+6%
+
+# PubChem_Compound_ID:
+4211
+
+# PubChem_Substance_ID:
+46508319
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/mitotane.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00494
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:19:31 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Mitotane
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Mitochondrion
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11889204	Lindhe O, Skogseid B, Brandt I: Cytochrome P450-catalyzed binding of 3-methylsulfonyl-DDE and o,p'-DDD in human adrenal zona fasciculata/reticularis. J Clin Endocrinol Metab. 2002 Mar;87(3):1319-26.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+CYP11B1
+
+# Drug_Target_1_GenBank_ID_Gene:
+M32879
+
+# Drug_Target_1_GenBank_ID_Protein:
+181333
+
+# Drug_Target_1_GeneCard_ID:
+CYP11B1
+
+# Drug_Target_1_Gene_Name:
+CYP11B1
+
+# Drug_Target_1_Gene_Sequence:
+>1512 bp
+ATGGCACTCAGGGCAAAGGCAGAGGTGTGCATGGCAGTGCCCTGGCTGTCCCTGCAAAGG
+GCACAGGCACTGGGCACGAGAGCCGCCCGGGTCCCCAGGACAGTGCTGCCCTTTGAAGCC
+ATGCCCCGGCGTCCAGGCAACAGGTGGCTGAGGCTGCTGCAGATCTGGAGGGAGCAGGGT
+TATGAGGACCTGCACCTGGAAGTACACCAGACCTTCCAGGAACTGGGGCCCATTTTCAGG
+TACGATTTGGGAGGAGCAGGCATGGTGTGTGTGATGCTGCCGGAGGACGTGGAGAAGCTG
+CAACAGGTGGACAGCCTGCATCCCCACAGGATGAGCCTGGAGCCCTGGGTGGCCTACAGA
+CAACATCGTGGGCACAAATGTGGCGTGTTCTTGCTGAATGGGCCTGAATGGCGCTTCAAC
+CGATTGCGGCTGAATCCAGAAGTGCTGTCGCCCAACGCTGTGCAGAGGTTCCTCCCGATG
+GTGGATGCAGTGGCCAGGGACTTCTCCCAGGCCCTGAAGAAGAAGGTGCTGCAGAACGCC
+CGGGGGAGCCTGACCCTGGACGTCCAGCCCAGCATCTTCCACTACACCATAGAAGCCAGC
+AACTTGGCTCTTTTTGGAGAGCGGCTGGGCCTGGTTGGCCACAGCCCCAGTTCTGCCAGC
+CTGAACTTCCTCCATGCCCTGGAGGTCATGTTCAAATCCACCGTCCAGCTCATGTTCATG
+CCCAGGAGCCTGTCTCGCTGGACCAGCCCCAAGGTGTGGAAGGAGCACTTTGAGGCCTGG
+GACTGCATCTTCCAGTACGGCGACAACTGTATCCAGAAAATCTATCAGGAACTGGCCTTC
+AGCCGCCCTCAACAGTACACCAGCATCGTGGCGGAGCTCCTGTTGAATGCGGAACTGTCG
+CCAGATGCCATCAAGGCCAACTCTATGGAACTCACTGCAGGGAGCGTGGACACGACGGTG
+TTTCCCTTGCTGATGACGCTCTTTGAGCTGGCTCGGAACCCCAACGTGCAGCAGGCCCTG
+CGCCAGGAGAGCCTGGCCGCCGCAGCCAGCATCAGTGAACATCCCCAGAAGGCAACCACC
+GAGCTGCCCTTGCTGCGTGCGGCCCTCAAGGAGACCTTGCGGCTCTACCCTGTGGGTCTG
+TTTCTGGAGCGAGTGGCGAGCTCAGACTTGGTGCTTCAGAACTACCACATCCCAGCTGGG
+ACATTGGTGCGCGTGTTCCTCTACTCTCTGGGTCGCAACCCCGCCTTGTTCCCGAGGCCT
+GAGCGCTATAACCCCCAGCGCTGGCTAGACATCAGGGGCTCCGGCAGGAACTTCTACCAC
+GTGCCCTTTGGCTTTGGCATGCGCCAGTGCCTTGGGCGGCGCCTGGCAGAGGCAGAGATG
+CTGCTGCTGCTGCACCATGTGCTGAAACACCTCCAGGTGGAGACACTAACCCAAGAGGAC
+ATAAAGATGGTCTACAGCTTCATATTGAGGCCCAGCATGTGCCCCCTCCTCACCTTCAGA
+GCCATCAACTAA
+
+# Drug_Target_1_General_Function:
+Secondary metabolites biosynthesis, transport and catabolism
+
+# Drug_Target_1_General_References:
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+10391210	Halushka MK, Fan JB, Bentley K, Hsie L, Shen N, Weder A, Cooper R, Lipshutz R, Chakravarti A: Patterns of single-nucleotide polymorphisms in candidate genes for blood-pressure homeostasis. Nat Genet. 1999 Jul;22(3):239-47.
+10599751	Loidi L, Quinteiro C, Barros F, Dominguez F, Barreiro J, Pombo M: The C494F variant in the CYP11B1 gene is a sequence polymorphism in the Spanish population. J Clin Endocrinol Metab. 1999 Dec;84(12):4749.
+1741400	Kawamoto T, Mitsuuchi Y, Toda K, Yokoyama Y, Miyahara K, Miura S, Ohnishi T, Ichikawa Y, Nakao K, Imura H, et al.: Role of steroid 11 beta-hydroxylase and steroid 18-hydroxylase in the biosynthesis of glucocorticoids and mineralocorticoids in humans. Proc Natl Acad Sci U S A. 1992 Feb 15;89(4):1458-62.
+2022736	White PC, Dupont J, New MI, Leiberman E, Hochberg Z, Rosler A: A mutation in CYP11B1 (Arg-448----His) associated with steroid 11 beta-hydroxylase deficiency in Jews of Moroccan origin. J Clin Invest. 1991 May;87(5):1664-7.
+2401360	Kawamoto T, Mitsuuchi Y, Toda K, Miyahara K, Yokoyama Y, Nakao K, Hosoda K, Yamamoto Y, Imura H, Shizuta Y: Cloning of cDNA and genomic DNA for human cytochrome P-45011 beta. FEBS Lett. 1990 Sep 3;269(2):345-9.
+2592361	Mornet E, Dupont J, Vitek A, White PC: Characterization of two genes encoding human steroid 11 beta-hydroxylase (P-450(11) beta). J Biol Chem. 1989 Dec 15;264(35):20961-7.
+3499608	Chua SC, Szabo P, Vitek A, Grzeschik KH, John M, White PC: Cloning of cDNA encoding steroid 11 beta-hydroxylase (P450c11). Proc Natl Acad Sci U S A. 1987 Oct;84(20):7193-7.
+7903314	Naiki Y, Kawamoto T, Mitsuuchi Y, Miyahara K, Toda K, Orii T, Imura H, Shizuta Y: A nonsense mutation (TGG [Trp116]-->TAG [Stop]) in CYP11B1 causes steroid 11 beta-hydroxylase deficiency. J Clin Endocrinol Metab. 1993 Dec;77(6):1677-82.
+9302260	Joehrer K, Geley S, Strasser-Wozak EM, Azziz R, Wollmann HA, Schmitt K, Kofler R, White PC: CYP11B1 mutations causing non-classic adrenal hyperplasia due to 11 beta-hydroxylase deficiency. Hum Mol Genet. 1997 Oct;6(11):1829-34.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:2591
+
+# Drug_Target_1_HPRD_ID:
+01943
+
+# Drug_Target_1_ID:
+805
+
+# Drug_Target_1_Locus:
+8q21
+
+# Drug_Target_1_Molecular_Weight:
+57530
+
+# Drug_Target_1_Name:
+Cytochrome P450 11B1, mitochondrial
+
+# Drug_Target_1_Number_of_Residues:
+503
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00067	p450
+
+# Drug_Target_1_Protein_Sequence:
+>Cytochrome P450 11B1, mitochondrial precursor
+MALRAKAEVCMAVPWLSLQRAQALGTRAARVPRTVLPFEAMPQRPGNRWLRLLQIWREQG
+YEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYR
+QHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNA
+RGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFM
+PRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELS
+PDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATT
+ELPLLRAALKETLRLYPVGLFLERVVSSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRP
+ERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQED
+IKMVYSFILRPSMCPLLTFRAIN
+
+# Drug_Target_1_Reaction:
+a steroid + reduced adrenal ferredoxin + O2 = an 11beta-hydroxysteroid + oxidized adrenal ferredoxin + H2O
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Has steroid 11-beta-hydroxylase activity. In addition to this activity, the 18 or 19-hydroxylation of steroids and the aromatization of androstendione to estrone have also been ascribed to cytochrome P450 XIB
+
+# Drug_Target_1_SwissProt_ID:
+P15538
+
+# Drug_Target_1_SwissProt_Name:
+C11B1_HUMAN
+
+# Drug_Target_1_Synonyms:
+CYPXIB1
+Cytochrome P450 11B1, mitochondrial precursor
+EC 1.14.15.4
+P-450c11
+P450C11
+Steroid 11-beta-hydroxylase
+
+# Drug_Target_1_Theoretical_pI:
+9.42
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Mitochondrion
+mitochondrial matrix
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+11159707	Cabrini DA, Campos MM, Tratsk KS, Merino VF, Silva  JA Jr, Souza GE, Avellar MC, Pesquero JB, Calixto JB: Molecular and pharmacological evidence for modulation of kinin B(1) receptor expression by endogenous glucocorticoids hormones in rats. Br J Pharmacol. 2001 Jan;132(2):567-77.
+3770229	Kandul SV, Iatsyk MI, Kononenko VIa: [Comparative study of the effect of chloditan on the concentration of cytochrome P-450 and adrenodoxin in various organs of the dog and rat] Fiziol Zh. 1986 Sep-Oct;32(5):579-84.
+9118466	Cai W, Counsell RE, Schteingart DE, Sinsheimer JE, Vaz AD, Wotring LL: Adrenal proteins bound by a reactive intermediate of mitotane. Cancer Chemother Pharmacol. 1997;39(6):537-40.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+FDX1
+
+# Drug_Target_2_GenBank_ID_Gene:
+M23668
+
+# Drug_Target_2_GenBank_ID_Protein:
+557734
+
+# Drug_Target_2_GeneCard_ID:
+FDX1
+
+# Drug_Target_2_Gene_Name:
+FDX1
+
+# Drug_Target_2_Gene_Sequence:
+>555 bp
+ATGGCTGCCGCTGGGGGCGCCCGGCTGCTGCGCGCCGCTTCTGCTGTCCTCGGCGGCCCG
+GCCGGCCGGTGGCTGCACCACGCTGGGTCCCGCGCTGGATCCAGCGGCCTGCTGAGGAAC
+CGGGGGCCGGGCGGTAGCGCGGAGGCGAGCCGGTCGCTGAGCGTGTCGGCGCGGGCCCGG
+AGCAGCTCAGAAGATAAAATAACAGTCCACTTTATAAACCGTGATGGTGAAACATTAACA
+ACCAAAGGAAAAGTTGGTGATTCTCTGCTAGATGTTGTGGTTGAAAATAATCTAGATATT
+GATGGCTTTGGTGCATGTGAGGGAACCCTGGCTTGTTCAACCTGTCACCTCATCTTTGAA
+GATCACATATATGAGAAGTTAGATGCAATCACTGATGAGGAGAATGACATGCTCGATCTG
+GCATATGGACTAACAGACAGATCACGGTTGGGCTGCCAAATCTGTTTGACAAAATCTATG
+GACAATATGACTGTTCGAGTGCCTGAAACAGTGGCTGATGCCAGACAATCCATTGATGTG
+GGCAAGACCTCCTGA
+
+# Drug_Target_2_General_Function:
+Energy production and conversion
+
+# Drug_Target_2_General_References:
+12699818	Johnson D, Norman S, Tuckey RC, Martin LL: Electrochemical behaviour of human adrenodoxin on a pyrolytic graphite electrode. Bioelectrochemistry. 2003 Apr;59(1-2):41-7.
+1909889	Skjeldal L, Markley JL, Coghlan VM, Vickery LE: 1H NMR spectra of vertebrate [2Fe-2S] ferredoxins. Hyperfine resonances suggest different electron delocalization patterns from plant ferredoxins. Biochemistry. 1991 Sep 17;30(37):9078-83.
+2340092	Chang CY, Wu DA, Mohandas TK, Chung BC: Structure, sequence, chromosomal location, and evolution of the human ferredoxin gene family. DNA Cell Biol. 1990 Apr;9(3):205-12.
+2969697	Mittal S, Zhu YZ, Vickery LE: Molecular cloning and sequence analysis of human placental ferredoxin. Arch Biochem Biophys. 1988 Aug 1;264(2):383-91.
+3229285	Chang CY, Wu DA, Lai CC, Miller WL, Chung BC: Cloning and structure of the human adrenodoxin gene. DNA. 1988 Nov;7(9):609-15.
+3343244	Picado-Leonard J, Voutilainen R, Kao LC, Chung BC, Strauss JF 3rd, Miller WL: Human adrenodoxin: cloning of three cDNAs and cycloheximide enhancement in JEG-3 cells. J Biol Chem. 1988 Mar 5;263(7):3240-4.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:3638
+
+# Drug_Target_2_HPRD_ID:
+00059
+
+# Drug_Target_2_ID:
+269
+
+# Drug_Target_2_Locus:
+11q22
+
+# Drug_Target_2_Molecular_Weight:
+19393
+
+# Drug_Target_2_Name:
+Adrenodoxin, mitochondrial
+
+# Drug_Target_2_Number_of_Residues:
+184
+
+# Drug_Target_2_PDB_ID:
+1L6V
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00111	Fer2
+
+# Drug_Target_2_Protein_Sequence:
+>Adrenodoxin, mitochondrial precursor
+MAAAGGARLLRAASAVLGGPAGRWLHHAGSRAGSSGLLRNRGPGGSAEASRSLSVSARAR
+SSSEDKITVHFINRDGETLTTKGKVGDSLLDVVVENNLDIDGFGACEGTLACSTCHLIFE
+DHIYEKLDAITDEENDMLDLAYGLTDRSRLGCQICLTKSMDNMTVRVPETVADARQSIDV
+GKTS
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Participates in the synthesis of thyroid hormones. Transfers electrons from adrenodoxin reductase to the cholesterol side chain cleavage cytochrome P450
+
+# Drug_Target_2_SwissProt_ID:
+P10109
+
+# Drug_Target_2_SwissProt_Name:
+ADX_HUMAN
+
+# Drug_Target_2_Synonyms:
+Adrenal ferredoxin
+Adrenodoxin, mitochondrial precursor
+Ferredoxin- 1
+Hepatoredoxin
+
+# Drug_Target_2_Theoretical_pI:
+5.62
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00648

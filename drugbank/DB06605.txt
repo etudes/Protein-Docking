@@ -1,0 +1,548 @@
+#BEGIN_DRUGCARD DB06605
+
+# AHFS_Codes:
+20:12.04.14
+
+# ATC_Codes:
+B01AF02
+
+# Absorption:
+Apixaban is absorbed in the stomach and small intestine. For doses up to 10 mg, the absolute bioavailability is about 50%. For oral administration, absorption is not affected by the presence of food, and it takes about 3-4 hours to achieve maximum plasma concentrations. For large oral doses equal or greater than 25 mg, absorption is dissolution limited and  bioavailability is decreased. Most of the absorption occurs in the distal small intestine and the ascending colon.
+
+# Biotransformation:
+Apixaban mainly undergoes o-demethylation and hydroxylation to metabolites. The major site of biotransformation is at the 3-oxopiperidinyl moiety. The main enzyme responsible for metabolism is CYP3A4/5 while CYP1A2, 2C8, 2C9, 2C19, and 2J2 are minor metabolic enzymes. There are no active metabolites and unchanged apixaban is the primary circulating entity.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Eliquis
+
+# CAS_Registry_Number:
+503612-47-3
+
+# ChEBI_ID:
+72296
+
+# Chemical_Formula:
+C25H25N5O4
+
+# Chemical_IUPAC_Name:
+1-(4-methoxyphenyl)-7-oxo-6-[4-(2-oxopiperidin-1-yl)phenyl]-1H,4H,5H,6H,7H-pyrazolo[3,4-c]pyridine-3-carboxamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2008-03-19 10:40:12 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Apixaban is an oral, direct, and highly selective factor Xa (FXa) inhibitor (of both free and prothrombinase-bound FXa independently of antithrombin III) for the prevention and treatment of thromboembolic diseases. It is marketed under the name Eliquis. FDA approved on December 28, 2012.
+
+# Dosage_Forms:
+Tablet	Oral
+Tablet	Oral
+
+# Drug_Category:
+Anticoagulants
+
+# Drug_Interactions:
+Dabigatran etexilate	Concomitant therapy with another anticoagulant may increase bleed risk. Monitor closely for adverse effects.
+Enoxaparin	Due to pharmacodynamic interaction, a 50-60% increase in anti-Factor Xa activity may be observed with concomitant therapy.
+Etravirine	Apixaban, when administered concomitantly with etravirine (a strong CYP3A4 inducer), may experience a decrease in serum concentration. Concomitant use should be avoided.
+Itraconazole	Avoid combination. Otherwise, itraconazole will likely increase apixaban serum concentration.
+Ketoconazole	Avoid combination. Otherwise, ketoconazole will likely increase apixaban serum concentration.
+Naproxen	Due to pharmacodynamic interaction, a 50-60% increase in anti-Factor Xa activity may be observed with concomitant therapy.
+Posaconazole	Avoid combination. Otherwise, posaconazole will likely increase apixaban serum concentration.
+Ritonavir	Avoid combination. Otherwise, ritonavir will likely increase apixaban serum concentration.
+Rivaroxaban	Avoid combination. Otherwise, excessive anticoagulation will likely occur.
+Voriconazole	Avoid combination. Otherwise, voriconazole will likely increase apixaban serum concentration.
+
+# Drug_Reference:
+21870978	Granger CB, Alexander JH, McMurray JJ, Lopes RD, Hylek EM, Hanna M, Al-Khalidi HR, Ansell J, Atar D, Avezum A, Bahit MC, Diaz R, Easton JD, Ezekowitz JA, Flaker G, Garcia D, Geraldes M, Gersh BJ, Golitsyn S, Goto S, Hermosillo AG, Hohnloser SH, Horowitz J, Mohan P, Jansky P, Lewis BS, Lopez-Sendon JL, Pais P, Parkhomenko A, Verheugt FW, Zhu J, Wallentin L: Apixaban versus warfarin in patients with atrial fibrillation. N Engl J Med. 2011 Sep 15;365(11):981-92. doi: 10.1056/NEJMoa1107039. Epub 2011 Aug 27.
+23662974	de Souza Brito F, Lopes RD, Alexander JH: The safety and efficacy of apixaban : where do we stand in 2013? Expert Opin Drug Saf. 2013 May 10.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Aqueous solubility: 40-50 μg/ml in 0.9% saline solution
+
+# Food_Interactions:
+Alfalfa, Anise, Bilberry may increase the adverse effects of apixaban.
+Grapefruit juice may increase apixaban serum concentration.
+St. John's wort will likely decrease apixaban serum concentration. Avoid combination if possible.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Apixaban
+
+# HET_ID:
+GG2
+
+# Half_Life:
+If administered orally, the half life is 12 hours (due to prolonged absorption). If administerd by I.V., the half-life is about 5 hours.
+
+# InChI_Identifier:
+InChI=1S/C25H25N5O4/c1-34-19-11-9-18(10-12-19)30-23-20(22(27-30)24(26)32)13-15-29(25(23)33)17-7-5-16(6-8-17)28-14-3-2-4-21(28)31/h5-12H,2-4,13-15H2,1H3,(H2,26,32)
+
+# InChI_Key:
+InChIKey=QNZCBYKSOIHPEH-UHFFFAOYSA-N
+
+# Indication:
+Apixaban is to reduce the risk of stroke and systemic embolism in patients with nonvalvular atrial fibrillation. It has also been used to lower the risk of developing venous thrombosis post-orthopedic surgical procedures.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D03213
+
+# LIMS_Drug_ID:
+6606
+
+# Mechanism_Of_Action:
+Apixaban acts by directly inhibiting, in a reversible manner, free and clot-bound factor Xa to inhibit coagulation.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+459.4971
+
+# Molecular_Weight_Mono:
+459.190654313
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Apixaban acts by inhibiting coagulation, and thus prevents development of blood clots. As a result of FXa inhibition, apixaban prolongs clotting tests such as prothrombin time (PT), INR, and activated partial thromboplastin time (aPTT). Changes observed in these clotting tests at the expected therapeutic dose, however, are small, subject to a high degree of variability, and not useful in monitoring the anticoagulation effect of apixaban. The Rotachrom®  Heparin chromogenic assay is not recommended for assessing the anticoagulant effect of apixaban.
+
+# Predicted_LogP_Hydrophobicity:
+2.22
+
+# Predicted_LogS:
+-3.8
+
+# Predicted_Water_Solubility:
+6.79e-02 g/l
+
+# Primary_Accession_No:
+DB06605
+
+# Protein_Binding:
+Apixaban is about 87% plasma protein bound.
+
+# PubChem_Compound_ID:
+10182969
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/eliquis-drug.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+DB07828
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+COC1=CC=C(C=C1)N1N=C(C(N)=O)C2=C1C(=O)N(CC2)C1=CC=C(C=C1)N1CCCCC1=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+BMS-562247
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Major bleeding events.
+
+# Update_Date:
+2013-05-28 14:08:01 -0600
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Apixaban
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A5
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4118
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A5
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A5
+MDLIPNLAVETWLLLAVSLVLLYLYGTRTHGLFKRLGIPGPTPLPLLGNVLSYRQGLWKF
+DTECYKKYGKMWGTYEGQLPVLAITDPDVIRTVLVKECYSVFTNRRSLGPVGFMKSAISL
+AEDEEWKRIRSLLSPTFTSGKLKEMFPIIAQYGDVLVRNLRREAEKGKPVTLKDIFGAYS
+MDVITGTSFGVNIDSLNNPQDPFVESTKKFLKFGFLDPLFLSIILFPFLTPVFEALNVSL
+FPKDTINFLSKSVNRMKKSRLNDKQKHRLDFLQLMIDSQNSKETESHKALSDLELAAQSI
+IFIFAGYETTSSVLSFTLYELATHPDVQQKLQKEIDAVLPNKAPPTYDAVVQMEYLDMVV
+NETLRLFPVAIRLERTCKKDVEINGVFIPKGSMVVIPTYALHHDPKYWTEPEEFRPERFS
+KKKDSIDPYIYTPFGTGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLDTQG
+LLQPEKPIVLKVDSRDGTLSGE
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P20815
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P11712
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+CYP2C8
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+4924
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Cytochrome P450 2C8
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Cytochrome P450 2C8
+MEPFVVLVLCLSFMLLFSLWRQSCRRRKLPPGPTPLPIIGNMLQIDVKDICKSFTNFSKV
+YGPVFTVYFGMNPIVVFHGYEAVKEALIDNGEEFSGRGNSPISQRITKGLGIISSNGKRW
+KEIRRFSLTTLRNFGMGKRSIEDRVQEEAHCLVEELRKTKASPCDPTFILGCAPCNVICS
+VVFQKRFDYKDQNFLTLMKRFNENFRILNSPWIQVCNNFPLLIDCFPGTHNKVLKNVALT
+RSYIREKVKEHQASLDVNNPRDFIDCFLIKMEQEKDNQKSEFNIENLVGTVADLFVAGTE
+TTSTTLRYGLLLLLKHPEVTAKVQEEIDHVIGRHRSPCMQDRSHMPYTDAVVHEIQRYSD
+LVPTGVPHAVTTDTKFRNYLIPKGTTIMALLTSVLHDDKEFPNPNIFDPGHFLDKNGNFK
+KSDYFMPFSAGKRICAGEGLARMELFLFLTTILQNFNLKSVDDLKNLNTTAVTKGIVSLP
+PSYQICFIPV
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P10632
+
+# Phase_1_Metabolizing_Enzyme_6_Gene_Name:
+CYP2C19
+
+# Phase_1_Metabolizing_Enzyme_6_ID:
+6016
+
+# Phase_1_Metabolizing_Enzyme_6_Name:
+Cytochrome P450 2C19
+
+# Phase_1_Metabolizing_Enzyme_6_Protein_Sequence:
+>Cytochrome P450 2C19
+MDPFVVLVLCLSCLLLLSIWRQSSGRGKLPPGPTPLPVIGNILQIDIKDVSKSLTNLSKI
+YGPVFTLYFGLERMVVLHGYEVVKEALIDLGEEFSGRGHFPLAERANRGFGIVFSNGKRW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFQKRFDYKDQQFLNLMEKLNENIRIVSTPWIQICNNFPTIIDYFPGTHNKLLKNLAFM
+ESDILEKVKEHQESMDINNPRDFIDCFLIKMEKEKQNQQSEFTIENLVITAADLLGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVVGRNRSPCMQDRGHMPYTDAVVHEVQRYID
+LIPTSLPHAVTCDVKFRNYLIPKGTTILTSLTSVLHDNKEFPNPEMFDPRHFLDEGGNFK
+KSNYFMPFSAGKRICVGEGLARMELFLFLTFILQNFNLKSLIDPKDLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_6_SwissProt_ID:
+P33261
+
+# Phase_1_Metabolizing_Enzyme_7_Gene_Name:
+CYP2J2
+
+# Phase_1_Metabolizing_Enzyme_7_ID:
+6182
+
+# Phase_1_Metabolizing_Enzyme_7_Name:
+Cytochrome P450 2J2
+
+# Phase_1_Metabolizing_Enzyme_7_Protein_Sequence:
+>Cytochrome P450 2J2
+MLAAMGSLAAALWAVVHPRTLLLGTVAFLLAADFLKRRRPKNYPPGPWRLPFLGNFFLVD
+FEQSHLEVQLFVKKYGNLFSLELGDISAVLITGLPLIKEALIHMDQNFGNRPVTPMREHI
+FKKNGLIMSSGQAWKEQRRFTLTALRNFGLGKKSLEERIQEEAQHLTEAIKEENGQPFDP
+HFKINNAVSNIICSITFGERFEYQDSWFQQLLKLLDEVTYLEASKTCQLYNVFPWIMKFL
+PGPHQTLFSNWKKLKLFVSHMIDKHRKDWNPAETRDFIDAYLKEMSKHTGNPTSSFHEEN
+LICSTLDLFFAGTETTSTTLRWALLYMALYPEIQEKVQAEIDRVIGQGQQPSTAARESMP
+YTNAVIHEVQRMGNIIPLNVPREVTVDTTLAGYHLPKGTMILTNLTALHRDPTEWATPDT
+FNPDHFLENGQFKKREAFMPFSIGKRACLGEQLARTELFIFFTSLMQKFTFRPPNNEKLS
+LKFRMGITISPVSHRLCAVPQV
+
+# Phase_1_Metabolizing_Enzyme_7_SwissProt_ID:
+P51589
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17371192	Spyropoulos AC: Investigational treatments of venous thromboembolism. Expert Opin Investig Drugs. 2007 Apr;16(4):431-40.
+18393142	Harenberg J, Wehling M: Current and future prospects for anticoagulant therapy: inhibitors of factor Xa and factor IIa. Semin Thromb Hemost. 2008 Feb;34(1):39-57.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+F10
+
+# Drug_Target_1_GenBank_ID_Gene:
+K03194
+
+# Drug_Target_1_GenBank_ID_Protein:
+182841
+
+# Drug_Target_1_GeneCard_ID:
+F10
+
+# Drug_Target_1_Gene_Name:
+F10
+
+# Drug_Target_1_Gene_Sequence:
+>1433 bp
+CCTCCCTGGCTGGCCTCCTGCTGCTCGGGGAAAGTCTGTTCATCCGCAGGGAGCAGGCCA
+ACAACATCCTGGCGAGGGTCACGAGGGCCAATTCCTTTCTTGAAGAGATGAAGAAAGGAC
+ACCTCGAAAGAGAGTGCATGGAAGAGACCTGCTCATACGAAGAGGCCCGCGAGGTCTTTG
+AGGACAGCGACAAGACGAATGAATTCTGGAATAAATACAAAGATGGCGACCAGTGTGAGA
+CCAGTCCTTGCCAGAACCAGGGCAAATGTAAAGACGGCCTCGGGGAATACACCTGCACCT
+GTTTAGAAGGATTCGAAGGCAAAAACTGTGAATTATTCACACGGAAGCTCTGCAGCCTGG
+ACAACGGGGACTGTGACCAGTTCTGCCACGAGGAACAGAACTCTGTGGTGTGCTCCTGCG
+CCCGCGGGTACACCCTGGCTGACAACGGCAAGGCCTGCATTCCCACAGGGCCCTACCCCT
+GTGGGAAACAGACCCTGGAACGCAGGAAGAGGTCAGTGGCCCAGGCCACCAGCAGCAGCG
+GGGAGGCCCCTGACAGCATCACATGGAAGCCATATGATGCAGCCGACCTGGACCCCACCG
+AGAACCCCTTCGACCTGCTTGACTTCAACCAGACGCAGCCTGAGAGGGGCGACAACAACC
+TCACCAGGATCGTGGGAGGCCAGGAATGCAAGGACGGGGAGTGTCCCTGGCAGGCCCTGC
+TCATCAATGAGGAAAACGAGGGTTTCTGTGGTGGAACTATTCTGAGCGAGTTCTACATCC
+TAACGGCAGCCCACTGTCTCTACCAAGCCAAGAGATTCAAGGTGAGGGTAGGGGACCGGA
+ACACGGAGCAGGAGGAGGGCGGTGAGGCGGTGCACGAGGTGGAGGTGGTCATCAAGCACA
+ACCGGTTCACAAAGGAGACCTATGACTTCGACATCGCCGTGCTCCGGCTCAAGACCCCCA
+TCACCTTCCGCATGAACGTGGCGCCTGCCTGCCTCCCCGAGCGTGACTGGGCCGAGTCCA
+CGCTGATGACGCAGAAGACGGGGATTGTGAGCGGCTTCGGGCGCACCCACGAGAAGGGCC
+GGCAGTCCACCAGGCTCAAGATGCTGGAGGTGCCCTACGTGGACCGCAACAGCTGCAAGC
+TGTCCAGCAGCTTCATCATCACCCAGAACATGTTCTGTGCCGGCTACGACACCAAGCAGG
+AGGATGCCTGCCAGGGGGACAGCGGGGGCCCGCACGTCACCCGCTTCAAGGACACCTACT
+TCGTGACAGGCATCGTCAGCTGGGGAGAGAGCTGTGCCCGTAAGGGGAAGTACGGGATCT
+ACACCAAGGTCACCGCCTTCCTCAAGTGGATCGACAGGTCCATGAAAACCAGGGGCTTGC
+CCAAGGCCAAGAGCCATGCCCCGGAGGTCATAACGTCCTCTCCATTAAAGTGA
+
+# Drug_Target_1_General_Function:
+Involved in calcium ion binding
+
+# Drug_Target_1_General_References:
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+1902434	Messier TL, Pittman DD, Long GL, Kaufman RJ, Church WR: Cloning and expression in COS-1 cells of a full-length cDNA encoding human coagulation factor X. Gene. 1991 Mar 15;99(2):291-4.
+2582420	Fung MR, Hay CW, MacGillivray RT: Characterization of an almost full-length cDNA coding for human blood coagulation factor X. Proc Natl Acad Sci U S A. 1985 Jun;82(11):3591-5.
+2612918	Jagadeeswaran P, Reddy SV, Rao KJ, Hamsabhushanam K, Lyman G: Cloning and characterization of the 5' end (exon 1) of the gene encoding human factor X. Gene. 1989 Dec 14;84(2):517-9.
+3011603	Kaul RK, Hildebrand B, Roberts S, Jagadeeswaran P: Isolation and characterization of human blood-coagulation factor X cDNA. Gene. 1986;41(2-3):311-4.
+3768336	Leytus SP, Foster DC, Kurachi K, Davie EW: Gene for human factor X: a blood coagulation factor whose gene organization is essentially identical with that of factor IX and protein C. Biochemistry. 1986 Sep 9;25(18):5098-102.
+6587384	Leytus SP, Chung DW, Kisiel W, Kurachi K, Davie EW: Characterization of a cDNA coding for human factor X. Proc Natl Acad Sci U S A. 1984 Jun;81(12):3699-702.
+6871167	McMullen BA, Fujikawa K, Kisiel W, Sasagawa T, Howald WN, Kwa EY, Weinstein B: Complete amino acid sequence of the light chain of human blood coagulation factor X: evidence for identification of residue 63 as beta-hydroxyaspartic acid. Biochemistry. 1983 Jun 7;22(12):2875-84.
+8243461	Inoue K, Morita T: Identification of O-linked oligosaccharide chains in the activation peptides of blood coagulation factor X. The role of the carbohydrate moieties in the activation of factor X. Eur J Biochem. 1993 Nov 15;218(1):153-63.
+8355279	Padmanabhan K, Padmanabhan KP, Tulinsky A, Park CH, Bode W, Huber R, Blankenship DT, Cardin AD, Kisiel W: Structure of human des(1-45) factor Xa at 2.2 A resolution. J Mol Biol. 1993 Aug 5;232(3):947-66.
+9618463	Kamata K, Kawamoto H, Honma T, Iwama T, Kim SH: Structural basis for chemical inhibition of human blood coagulation factor Xa. Proc Natl Acad Sci U S A. 1998 Jun 9;95(12):6630-5.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:3528
+
+# Drug_Target_1_HPRD_ID:
+01966
+
+# Drug_Target_1_ID:
+239
+
+# Drug_Target_1_Locus:
+13q34
+
+# Drug_Target_1_Molecular_Weight:
+54732
+
+# Drug_Target_1_Name:
+Coagulation factor X
+
+# Drug_Target_1_Number_of_Residues:
+488
+
+# Drug_Target_1_PDB_ID:
+1P0S
+
+# Drug_Target_1_Pathway:
+Acenocoumarol Pathway	SMP00269
+Alteplase Pathway	SMP00280
+Aminocaproic Acid Pathway	SMP00286
+Anistreplase Pathway	SMP00281
+Aprotinin Pathway	SMP00288
+Ardeparin Pathway	SMP00275
+Argatroban Pathway	SMP00276
+Bivalirudin Pathway	SMP00277
+Dicumarol Pathway	SMP00270
+Enoxaparin Pathway	SMP00272
+Fondaparinux Pathway	SMP00273
+Heparin Pathway	SMP00274
+Lepirudin Pathway	SMP00278
+Phenprocoumon Pathway	SMP00271
+Reteplase Pathway	SMP00285
+Streptokinase Pathway	SMP00282
+Tenecteplase Pathway	SMP00283
+Tranexamic Acid Pathway	SMP00287
+Urokinase Pathway	SMP00284
+Warfarin Pathway	SMP00268
+Ximelagatran Pathway	SMP00279
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00008	EGF
+PF00089	Trypsin
+PF00594	Gla
+
+# Drug_Target_1_Protein_Sequence:
+>Coagulation factor X precursor
+MGRPLHLVLLSASLAGLLLLGESLFIRREQANNILARVTRANSFLEEMKKGHLERECMEE
+TCSYEEAREVFEDSDKTNEFWNKYKDGDQCETSPCQNQGKCKDGLGEYTCTCLEGFEGKN
+CELFTRKLCSLDNGDCDQFCHEEQNSVVCSCARGYTLADNGKACIPTGPYPCGKQTLERR
+KRSVAQATSSSGEAPDSITWKPYDAADLDPTENPFDLLDFNQTQPERGDNNLTRIVGGQE
+CKDGECPWQALLINEENEGFCGGTILSEFYILTAAHCLYQAKRFKVRVGDRNTEQEEGGE
+AVHEVEVVIKHNRFTKETYDFDIAVLRLKTPITFRMNVAPACLPERDWAESTLMTQKTGI
+VSGFGRTHEKGRQSTRLKMLEVPYVDRNSCKLSSSFIITQNMFCAGYDTKQEDACQGDSG
+GPHVTRFKDTYFVTGIVSWGEGCARKGKYGIYTKVTAFLKWIDRSMKTRGLPKAKSHAPE
+VITSSPLK
+
+# Drug_Target_1_Reaction:
+Selective cleavage of Arg!Thr and then Arg!Ile bonds in prothrombin to form thrombin
+
+# Drug_Target_1_Signals:
+1-31
+
+# Drug_Target_1_Specific_Function:
+Factor Xa is a vitamin K-dependent glycoprotein that converts prothrombin to thrombin in the presence of factor Va, calcium and phospholipid during blood clotting
+
+# Drug_Target_1_SwissProt_ID:
+P00742
+
+# Drug_Target_1_SwissProt_Name:
+FA10_HUMAN
+
+# Drug_Target_1_Synonyms:
+Coagulation factor X precursor
+EC 3.4.21.6
+Stuart factor
+Stuart- Prower factor
+
+# Drug_Target_1_Theoretical_pI:
+5.74
+
+# Drug_Target_1_Transmembrane_Regions:
+7-26
+
+#END_DRUGCARD DB06605

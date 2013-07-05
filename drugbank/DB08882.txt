@@ -1,0 +1,400 @@
+#BEGIN_DRUGCARD DB08882
+
+# AHFS_Codes:
+68:20.05
+
+# ATC_Codes:
+A10BH05
+
+# Absorption:
+Cmax, 5 mg, healthy subjects = 8.32 nmol/L; 
+Tmax, 5 mg, healthy subjects = 1.75 hours;
+AUC(0-24 hours), 5 mg, healthy subjects = 119 nmol · h/L;
+Bioavailability, healthy subjects = 30%. 
+When a dose of 5 mg once daily is given, steady state is achieved by the third dose. Although a high fat meal reduces Cmax and increases AUC, this interaction with food is not clinically significant. Linagliptin may be administered with or without food.
+
+# Biotransformation:
+Linagliptin is not extensively metabolized, 90% of dose is excreted unchanged. The small portion of drug that is metabolized, the main metabolite is CD 1790 and is pharmacologically inactive. Glucuronidation forms some of its other minor metabolites.
+
+# Brand_Mixtures:
+Jentadueto (Linagliptin and metformin hydrochloride)
+
+# Brand_Names:
+Tradjenta
+
+# CAS_Registry_Number:
+668270-12-0
+
+# ChEBI_ID:
+68610
+
+# Chemical_Formula:
+C25H28N8O2
+
+# Chemical_IUPAC_Name:
+8-[(3R)-3-aminopiperidin-1-yl]-7-(but-2-yn-1-yl)-3-methyl-1-[(4-methylquinazolin-2-yl)methyl]-2,3,6,7-tetrahydro-1H-purine-2,6-dione
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2013-05-21 16:46:36 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Linagliptin is a DPP-4 inhibitor developed by Boehringer Ingelheim for the treatment of type II diabetes [Wikipedia]. Two pharmacological characteristics that sets linagliptin apart from other DPP-4 inhibitors is that it has a non-linear pharmacokinetic profile and is not primarily eliminated by the renal system. FDA approved on May 2, 2011.
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Antidiabetic
+
+# Drug_Interactions:
+Carbamazepine	CYP3A4 and p-glycoprotein inducers may decreases levels of linagliptin. Monitor concomitant therapy closely.
+Etravirine	Linagliptin, when used concomitantly with etravirine (a strong CYP3A4 inducer), may experience a decrease in serum concentration. It is recommended to avoid concurrent therapy if possible, and to monitor linagliptin therapy if concurrent use cannot be avoided.
+Hydrocortisone	CYP3A4 inducers may decrease levels of linagliptin and diminish the hypoglycemic effect of antidiabetic agents. Monitor concomitant therapy closely.
+Prednisone	CYP3A4 inducers may decrease levels of linagliptin and diminish the hypoglycemic effect of antidiabetic agents. Monitor concomitant therapy closely.
+Rifampin	CYP3A4 and p-glycoprotein inducers may decreases levels of linagliptin. Monitor concomitant therapy closely.
+Ritonavir	CYP3A4 inhibitors may increase levels of linagliptin. Monitor concomitant therapy closely.
+
+# Drug_Reference:
+22149370	Forst T, Pfutzner A: Linagliptin, a dipeptidyl peptidase-4 inhibitor with a unique pharmacological profile, and efficacy in a broad range of patients with type 2 diabetes. Expert Opin Pharmacother. 2012 Jan;13(1):101-10. doi: 10.1517/14656566.2012.642863.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+<1 mg/mL
+
+# Food_Interactions:
+Although a high fat meal reduces Cmax and increases AUC, this interaction with food is not clinically significant
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Linagliptin
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Terminal half life = 131 hours. Because of this long half-life, inhibition of DPP-4 activity is sustained which indicates that once-daily dosing is appropriate. Effective half-life for accumulation of drug is 12 hours when multiple oral doses of 5 mg are given.
+
+# InChI_Identifier:
+InChI=1S/C25H28N8O2/c1-4-5-13-32-21-22(29-24(32)31-12-8-9-17(26)14-31)30(3)25(35)33(23(21)34)15-20-27-16(2)18-10-6-7-11-19(18)28-20/h6-7,10-11,17H,8-9,12-15,26H2,1-3H3/t17-/m1/s1
+
+# InChI_Key:
+InChIKey=LTXREWYXXSTFRX-QGZVFWFLSA-N
+
+# Indication:
+Linagliptin is used for the management of type 2 diabetes mellitus.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D09566
+
+# LIMS_Drug_ID:
+8895
+
+# Mechanism_Of_Action:
+Linagliptin is a competitive and reversible dipeptidyl peptidase (DPP)-4 enzyme inhibitor that slows the breakdown of insulinotropic hormone glucagon-like peptide (GLP)-1 for better glycemic control in diabetes patients. GLP and glucose-dependent insulinotropic polypeptide (GIP) are incretin hormones that increase the production and release of insulin from pancreatic beta cells and decrease the release of glucagon from pancreatic alpha cells. This results in a overall decrease in glucose production in the liver and increase an of insulin in a glucose-dependent manner.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+472.5422
+
+# Molecular_Weight_Mono:
+472.23352218
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Linagliptin is a more potent inhibitor of DPP-4 than other drugs that belong to the same class with an IC50 of 1 nM. In comparison, sitagliptin, saxagliptin, and vildagliptin have an IC50 of 19, 50, and 62 nM respectively. A dose of 2.5 and 5 mg reduces the activity of DPP-4 by 72.7% and 86.1% from baseline respectively in healthy male subjects. In diabetes patients, a dose of 5 and 10 mg inhibits >90% of DPP-4. Linagliptin is also selectively inhibits DPP-4 as indicated by the lack of DPP-8 or DPP-9 inhibition at therapeutic exposures in vitro.
+
+# Predicted_LogP_Hydrophobicity:
+2.62
+
+# Predicted_LogS:
+-4
+
+# Predicted_Water_Solubility:
+5.02e-02 g/l
+
+# Primary_Accession_No:
+DB08882
+
+# Protein_Binding:
+70-80% protein bound, the extent to which is concentration dependent. Because of the propensity of linagliptin to bind to plasma protein, it has a long terminal half-life and a non-linear pharmacokinetic profile. In contrast, other DPP-4 inhibitors have linear pharmacokinetic profiles which makes linagliptin unique.
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/tradjenta-drug.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CC#CCN1C(=NC2=C1C(=O)N(CC1=NC3=C(C=CC=C3)C(C)=N1)C(=O)N2C)N1CCC[C@@H](N)C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+BI-1356
+Trajenta
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-05-22 00:19:39 -0600
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Linagliptin
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P08684
+
+# Drug_Target_1_Cellular_Location:
+Cell membrane
+single-pass type II membrane protein. Processed form:Secreted protein. Note=Also exis
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+22149370	Forst T, Pfutzner A: Linagliptin, a dipeptidyl peptidase-4 inhibitor with a unique pharmacological profile, and efficacy in a broad range of patients with type 2 diabetes. Expert Opin Pharmacother. 2012 Jan;13(1):101-10. doi: 10.1517/14656566.2012.642863.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+DPP4
+
+# Drug_Target_1_GenBank_ID_Gene:
+U13735
+
+# Drug_Target_1_GenBank_ID_Protein:
+535388
+
+# Drug_Target_1_GeneCard_ID:
+DPP4
+
+# Drug_Target_1_Gene_Name:
+DPP4
+
+# Drug_Target_1_Gene_Sequence:
+>2301 bp
+ATGAAGACACCGTGGAAGGTTCTTCTGGGACTGCTGGGTGCTGCTGCGCTTGTCACCATC
+ATCACCGTGCCCGTGGTTCTGCTGAACAAAGGCACAGATGATGCTACAGCTGACAGTCGC
+AAAACTTACACTCTAACTGATTACTTAAAAAATACTTATAGACTGAAGTTATACTCCTTA
+AGATGGATTTCAGATCATGAATATCTCTACAAACAAGAAAATAATATCTTGGTATTCAAT
+GCTGAATATGGAAACAGCTCAGTTTTCTTGGAGAACAGTACATTTGATGAGTTTGGACAT
+TCTATCAATGATTATTCAATATCTCCTGATGGGCAGTTTATTCTCTTAGAATACAACTAC
+GTGAAGCAATGGAGGCATTCCTACACAGCTTCATATGACATTTATGATTTAAATAAAAGG
+CAGCTGATTACAGAAGAGAGGATTCCAAACAACACACAGTGGGTCACATGGTCACCAGTG
+GGTCATAAATTGGCATATGTTTGGAACAATGACATTTATGTTAAAATTGAACCAAATTTA
+CCAAGTTACAGAATCACATGGACGGGGAAAGAAGATATAATATATAATGGAATAACTGAC
+TGGGTTTATGAAGAGGAAGTCTTCAGTGCCTACTCTGCTCTGTGGTGGTCTCCAAACGGC
+ACTTTTTTAGCATATGCCCAATTTAACGACACAGAAGTCCCACTTATTGAATACTCCTTC
+TACTCTGATGAGTCACTGCAGTACCCAAAGACTGTACGGGTTCCATATCCAAAGGCAGGA
+GCTGTGAATCCAACTGTAAAGTTCTTTGTTGTAAATACAGACTCTCTCAGCTCAGTCACC
+AATGCAACTTCCATACAAATCACTGCTCCTGCTTCTATGTTGATAGGGGATCACTACTTG
+TGTGATGTGACATGGGCAACACAAGAAAGAATTTCTTTGCAGTGGCTCAGGAGGATTCAG
+AACTATTCGGTCATGGATATTTGTGACTATGATGAATCCAGTGGAAGATGGAACTGCTTA
+GTGGCACGGCAACACATTGAAATGAGTACTACTGGCTGGGTTGGAAGATTTAGGCCTTCA
+GAACCTCATTTTACCCTTGATGGTAATAGCTTCTACAAGATCATCAGCAATGAAGAAGGT
+TACAGACACATTTGCTATTTCCAAATAGATAAAAAAGACTGCACATTTATTACAAAAGGC
+ACCTGGGAAGTCATCGGGATAGAAGCTCTAACCAGTGATTATCTATACTACATTAGTAAT
+GAATATAAAGGAATGCCAGGAGGAAGGAATCTTTATAAAATCCAACTTAGTGACTATACA
+AAAGTGACATGCCTCAGTTGTGAGCTGAATCCGGAAAGGTGTCAGTACTATTCTGTGTCA
+TTCAGTAAAGAGGCGAAGTATTATCAGCTGAGATGTTCCGGTCCTGGTCTGCCCCTCTAT
+ACTCTACACAGCAGCGTGAATGATAAAGGGCTGAGAGTCCTGGAAGACAATTCAGCTTTG
+GATAAAATGCTGCAGAATGTCCAGATGCCCTCCAAAAAACTGGACTTCATTATTTTGAAT
+GAAACAAAATTTTGGTATCAGATGATCTTGCCTCCTCATTTTGATAAATCCAAGAAATAT
+CCTCTACTATTAGATGTGTATGCAGGCCCATGTAGTCAAAAAGCAGACACTGTCTTCAGA
+CTGAACTGGGCCACTTACCTTGCAAGCACAGAAAACATTATAGTAGCTAGCTTTGATGGC
+AGAGGAAGTGGTTACCAAGGAGATAAGATCATGCATGCAATCAACAGAAGACTGGGAACA
+TTTGAAGTTGAAGATCAAATTGAAGCAGCCAGACAATTTTCAAAAATGGGATTTGTGGAC
+AACAAACGAATTGCAATTTGGGGCTGGTCATATGGAGGGTACGTAACCTCAATGGTCCTG
+GGATCGGGAAGTGGCGTGTTCAAGTGTGGAATAGCCGTGGCGCCTGTATCCCGGTGGGAG
+TACTATGACTCAGTGTACACAGAACGTTACATGGGTCTCCCAACTCCAGAAGACAACCTT
+GACCATTACAGAAATTCAACAGTCATGAGCAGAGCTGAAAATTTTAAACAAGTTGAGTAC
+CTCCTTATTCATGGAACAGCAGATGATAACGTTCACTTTCAGCAGTCAGCTCAGATCTCC
+AAAGCCCTGGTCGATGTTGGAGTGGATTTCCAGGCAATGTGGTATACTGATGAAGACCAT
+GGAATAGCTAGCAGCACAGCACACCAACATATATATACCCACATGAGCCACTTCATAAAA
+CAATGTTTCTCTTTACCTTAG
+
+# Drug_Target_1_General_Function:
+Amino acid transport and metabolism
+
+# Drug_Target_1_General_References:
+1347043	Darmoul D, Lacasa M, Baricault L, Marguet D, Sapin C, Trotot P, Barbat A, Trugnan G: Dipeptidyl peptidase IV (CD 26) gene expression in enterocyte-like colon cancer cell lines HT-29 and Caco-2. Cloning of the complete human coding sequence and changes of dipeptidyl peptidase IV mRNA levels during cell differentiation. J Biol Chem. 1992 Mar 5;267(7):4824-33.
+1352530	Tanaka T, Camerini D, Seed B, Torimoto Y, Dang NH, Kameoka J, Dahlberg HN, Schlossman SF, Morimoto C: Cloning and functional expression of the T cell activation antigen CD26. J Immunol. 1992 Jul 15;149(2):481-6.
+1352704	Misumi Y, Hayashi Y, Arakawa F, Ikehara Y: Molecular cloning and sequence analysis of human dipeptidyl peptidase IV, a serine proteinase on the cell surface. Biochim Biophys Acta. 1992 Jul 15;1131(3):333-6.
+1677636	Gorvel JP, Ferrero A, Chambraud L, Rigal A, Bonicel J, Maroux S: Expression of sucrase-isomaltase and dipeptidylpeptidase IV in human small intestine and colon. Gastroenterology. 1991 Sep;101(3):618-25.
+1977364	Darmoul D, Lacasa M, Chantret I, Swallow DM, Trugnan G: Isolation of a cDNA probe for the human intestinal dipeptidylpeptidase IV and assignment of the gene locus DPP4 to chromosome 2. Ann Hum Genet. 1990 Jul;54(Pt 3):191-7.
+7487939	Bohm SK, Gum JR Jr, Erickson RH, Hicks JW, Kim YS: Human dipeptidyl peptidase IV gene promoter: tissue-specific regulation from a TATA-less GC-rich sequence characteristic of a housekeeping gene promoter. Biochem J. 1995 Nov 1;311 ( Pt 3):835-43.
+7927537	Abbott CA, Baker E, Sutherland GR, McCaughan GW: Genomic organization, exact localization, and tissue expression of the human CD26 (dipeptidyl peptidase IV) gene. Immunogenetics. 1994;40(5):331-8.
+8094732	Tanaka T: Cloning and functional expression of the T cell activation antigen CD26. J Immunol. 1993 Mar 1;150(5):2090.
+8096237	Morrison ME, Vijayasaradhi S, Engelstein D, Albino AP, Houghton AN: A marker for neoplastic progression of human melanocytes is a cell surface ectopeptidase. J Exp Med. 1993 Apr 1;177(4):1135-43.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:3009
+
+# Drug_Target_1_HPRD_ID:
+02187
+
+# Drug_Target_1_ID:
+952
+
+# Drug_Target_1_Locus:
+2q24.3
+
+# Drug_Target_1_Molecular_Weight:
+88279
+
+# Drug_Target_1_Name:
+Dipeptidyl peptidase 4
+
+# Drug_Target_1_Number_of_Residues:
+766
+
+# Drug_Target_1_PDB_ID:
+2BGR
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00326	Peptidase_S9
+PF00930	DPPIV_N
+
+# Drug_Target_1_Protein_Sequence:
+>Dipeptidyl peptidase 4
+MKTPWKVLLGLLGAAALVTIITVPVVLLNKGTDDATADSRKTYTLTDYLKNTYRLKLYSL
+RWISDHEYLYKQENNILVFNAEYGNSSVFLENSTFDEFGHSINDYSISPDGQFILLEYNY
+VKQWRHSYTASYDIYDLNKRQLITEERIPNNTQWVTWSPVGHKLAYVWNNDIYVKIEPNL
+PSYRITWTGKEDIIYNGITDWVYEEEVFSAYSALWWSPNGTFLAYAQFNDTEVPLIEYSF
+YSDESLQYPKTVRVPYPKAGAVNPTVKFFVVNTDSLSSVTNATSIQITAPASMLIGDHYL
+CDVTWATQERISLQWLRRIQNYSVMDICDYDESSGRWNCLVARQHIEMSTTGWVGRFRPS
+EPHFTLDGNSFYKIISNEEGYRHICYFQIDKKDCTFITKGTWEVIGIEALTSDYLYYISN
+EYKGMPGGRNLYKIQLSDYTKVTCLSCELNPERCQYYSVSFSKEAKYYQLRCSGPGLPLY
+TLHSSVNDKGLRVLEDNSALDKMLQNVQMPSKKLDFIILNETKFWYQMILPPHFDKSKKY
+PLLLDVYAGPCSQKADTVFRLNWATYLASTENIIVASFDGRGSGYQGDKIMHAINRRLGT
+FEVEDQIEAARQFSKMGFVDNKRIAIWGWSYGGYVTSMVLGSGSGVFKCGIAVAPVSRWE
+YYDSVYTERYMGLPTPEDNLDHYRNSTVMSRAENFKQVEYLLIHGTADDNVHFQQSAQIS
+KALVDVGVDFQAMWYTDEDHGIASSTAHQHIYTHMSHFIKQCFSLP
+
+# Drug_Target_1_Reaction:
+Release of an N-terminal dipeptide, Xaa-Yaa!Zaa-, from a polypeptide, preferentially when Yaa is Pro, provided Zaa is neither Pro nor hydroxyproline INHIBITOR L-Pro-L-boroPro
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Removes N-terminal dipeptides sequentially from polypeptides having unsubstituted N-termini provided that the penultimate residue is proline. Plays a role in T-cell activation
+
+# Drug_Target_1_SwissProt_ID:
+P27487
+
+# Drug_Target_1_SwissProt_Name:
+DPP4_HUMAN
+
+# Drug_Target_1_Synonyms:
+ADABP
+Adenosine deaminase complexing protein 2
+DPP IV
+Dipeptidyl peptidase IV
+EC 3.4.14.5
+T-cell activation antigen CD26
+TP103
+
+# Drug_Target_1_Theoretical_pI:
+5.92
+
+# Drug_Target_1_Transmembrane_Regions:
+7-28
+
+#END_DRUGCARD DB08882

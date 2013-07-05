@@ -1,0 +1,683 @@
+#BEGIN_DRUGCARD DB02950
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C11H10BrN5O2
+
+# Chemical_IUPAC_Name:
+5-[(3aR,4S)-2-bromo-8-oxo-3aH,4H,5H,6H,7H,8H-pyrrolo[2,3-c]azepin-4-yl]-2-amino-4H-imidazol-4-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Hymenialdisine
+
+# HET_ID:
+HMD
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C11H10BrN5O2/c12-6-3-5-4(7-10(19)17-11(13)16-7)1-2-14-9(18)8(5)15-6/h3-5H,1-2H2,(H,14,18)(H2,13,17,19)/t4-,5-/m0/s1
+
+# InChI_Key:
+InChIKey=QPCBNXNDVYOBIP-WHFBIAKZSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+2950
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+324.133
+
+# Molecular_Weight_Mono:
+323.001787236
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1DM2
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+0.29
+
+# Predicted_LogS:
+-3.3
+
+# Predicted_Water_Solubility:
+1.63e-01 g/l
+
+# Primary_Accession_No:
+DB02950
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+17754027
+
+# PubChem_Substance_ID:
+46506233
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT01757
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@@]12C=C(Br)N=C1C(=O)NCC[C@]2([H])C1=NC(N)=NC1=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:21:41 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm. Cell projection
+growth cone (By similari
+lamellipodium (By similarity). Cell projection
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+CDK5
+
+# Drug_Target_1_GenBank_ID_Gene:
+X66364
+
+# Drug_Target_1_GenBank_ID_Protein:
+36621
+
+# Drug_Target_1_GeneCard_ID:
+CDK5
+
+# Drug_Target_1_Gene_Name:
+CDK5
+
+# Drug_Target_1_Gene_Sequence:
+>879 bp
+ATGCAGAAATACGAGAAACTGGAAAAGATTGGGGAAGGCACCTACGGAACTGTGTTCAAG
+GCCAAAAACCGGGAGACTCATGAGATCGTGGCTCTGAAACGGGTGAGGCTGGATGACGAT
+GATGAGGGTGTGCCGAGTTCCGCCCTCCGGGAGATCTGCCTACTCAAGGAGCTGAAGCAC
+AAGAACATCGTCAGGCTTCATGACGTCCTGCACAGCGACAAGAAGCTGACTTTGGTTTTT
+GAATTCTGTGACCAGGACCTGAAGAAGTATTTTGACAGTTGCAATGGTGACCTCGATCCT
+GAGATTGTAAAGTCATTCCTCTTCCAGCTACTAAAAGGGCTGGGATTCTGTCATAGCCGC
+AATGTGCTACACAGGGACCTGAAGCCCCAGAACCTGCTAATAAACAGGAATGGGGAGCTG
+AAATTGGCTGATTTTGGCCTGGCTCGAGCCTTTGGGATTCCCGTCCGCTGTTACTCAGCT
+GAGGTGGTCACACTGTGGTACCGCCCACCGGATGTCCTCTTTGGGGCCAAGCTGTACTCC
+ACGTCCATCGACATGTGGTCAGCCGGCTGCATCTTTGCAGAGCTGGCCAATGCTGGGCGG
+CCTCTTTTTCCCGGCAATGATGTCGATGACCAGTTGAAGAGGATCTTCCGACTGCTGGGG
+ACGCCCACCGAGGAGCAGTGGCCCTCTATGACCAAGCTGCCAGACTATAAGCCCTATCCG
+ATGTACCCGGCCACAACATCCCTGGTGAACGTCGTGCCCAAACTCAATGCCACAGGGAGG
+GATCTGCTGCAGAACCTTCTGAAGTGTAACCCTGTCCAGCGTATCTCAGCAGAAGAGGCC
+CTGCAGCACCCCTACTTCTCCGACTTCTGTCCGCCCTAG
+
+# Drug_Target_1_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_1_General_References:
+1639063	Meyerson M, Enders GH, Wu CL, Su LK, Gorka C, Nelson C, Harlow E, Tsai LH: A family of human cdc2-related protein kinases. EMBO J. 1992 Aug;11(8):2909-17.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:1774
+
+# Drug_Target_1_HPRD_ID:
+00449
+
+# Drug_Target_1_ID:
+1058
+
+# Drug_Target_1_Locus:
+7q36
+
+# Drug_Target_1_Molecular_Weight:
+33305
+
+# Drug_Target_1_Name:
+Cell division protein kinase 5
+
+# Drug_Target_1_Number_of_Residues:
+292
+
+# Drug_Target_1_PDB_ID:
+1UNL
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00069	Pkinase
+
+# Drug_Target_1_Protein_Sequence:
+>Cell division protein kinase 5
+MQKYEKLEKIGEGTYGTVFKAKNRETHEIVALKRVRLDDDDEGVPSSALREICLLKELKH
+KNIVRLHDVLHSDKKLTLVFEFCDQDLKKYFDSCNGDLDPEIVKSFLFQLLKGLGFCHSR
+NVLHRDLKPQNLLINRNGELKLADFGLARAFGIPVRCYSAEVVTLWYRPPDVLFGAKLYS
+TSIDMWSAGCIFAELANAGRPLFPGNDVDDQLKRIFRLLGTPTEEQWPSMTKLPDYKPYP
+MYPATTSLVNVVPKLNATGRDLLQNLLKCNPVQRISAEEALQHPYFSDFCPP
+
+# Drug_Target_1_Reaction:
+ATP + a protein = ADP + a phosphoprotein
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Probably involved in the control of the cell cycle. Interacts with d1 and d3-type G1 cyclins. Can phosphorylate histone H1, tau, MAP2 and NF-H and NF-M. Also interacts with p35 which activates the kinase
+
+# Drug_Target_1_SwissProt_ID:
+Q00535
+
+# Drug_Target_1_SwissProt_Name:
+CDK5_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 2.7.11.22
+Serine/threonine-protein kinase PSSALRE
+TPKII catalytic subunit
+Tau protein kinase II catalytic subunit
+
+# Drug_Target_1_Theoretical_pI:
+7.75
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Nucleus
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+CDC2
+
+# Drug_Target_2_GenBank_ID_Gene:
+X05360
+
+# Drug_Target_2_GenBank_ID_Protein:
+29839
+
+# Drug_Target_2_GeneCard_ID:
+CDC2
+
+# Drug_Target_2_Gene_Name:
+CDK1
+
+# Drug_Target_2_Gene_Sequence:
+>894 bp
+ATGGAAGATTATACCAAAATAGAGAAAATTGGAGAAGGTACCTATGGAGTTGTGTATAAG
+GGTAGACACAAAACTACAGGTCAAGTGGTAGCCATGAAAAAAATCAGACTAGAAAGTGAA
+GAGGAAGGGGTTCCTAGTACTGCAATTCGGGAAATTTCTCTATTAAAGGAACTTCGTCAT
+CCAAATATAGTCAGTCTTCAGGATGTGCTTATGCAGGATTCCAGGTTATATCTCATCTTT
+GAGTTTCTTTCCATGGATCTGAAGAAATACTTGGATTCTATCCCTCCTGGTCAGTACATG
+GATTCTTCACTTGTTAAGAGTTATTTATACCAAATCCTACAGGGGATTGTGTTTTGTCAC
+TCTAGAAGAGTTCTTCACAGAGACTTAAAACCTCAAAATCTCTTGATTGATGACAAAGGA
+ACAATTAAACTGGCTGATTTTGGCCTTGCCAGAGCTTTTGGAATACCTATCAGAGTATAT
+ACACATGAGGTAGTAACACTCTGGTACAGATCTCCAGAAGTATTGCTGGGGTCAGCTCGT
+TACTCAACTCCAGTTGACATTTGGAGTATAGGCACCATATTTGCTGAACTAGCAACTAAG
+AAACCACTTTTCCATGGGGATTCAGAAATTGATCAACTCTTCAGGATTTTCAGAGCTTTG
+GGCACTCCCAATAATGAAGTGTGGCCAGAAGTGGAATCTTTACAGGACTATAAGAATACA
+TTTCCCAAATGGAAACCAGGAAGCCTAGCATCCCATGTCAAAAACTTGGATGAAAATGGC
+TTGGATTTGCTCTCGAAAATGTTAATCTATGATCCAGCCAAACGAATTTCTGGCAAAATG
+GCACTGAATCATCCATATTTTAATGATTTGGACAATCAGATTAAGAAGATGTAG
+
+# Drug_Target_2_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_2_General_References:
+3289755	Draetta G, Beach D: Activation of cdc2 protein kinase during mitosis in human cells: cell cycle-dependent phosphorylation and subunit rearrangement. Cell. 1988 Jul 1;54(1):17-26.
+3553962	Lee MG, Nurse P: Complementation used to clone a human homologue of the fission yeast cell cycle control gene cdc2. Nature. 1987 May 7-13;327(6117):31-5.
+9515786	Ohta T, Okamoto K, Isohashi F, Shibata K, Fukuda M, Yamaguchi S, Xiong Y: T-loop deletion of CDC2 from breast cancer tissues eliminates binding to cyclin B1 and cyclin-dependent kinase inhibitor p21. Cancer Res. 1998 Mar 15;58(6):1095-8.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:1722
+
+# Drug_Target_2_HPRD_ID:
+00302
+
+# Drug_Target_2_ID:
+1771
+
+# Drug_Target_2_Locus:
+10q21.1
+
+# Drug_Target_2_Molecular_Weight:
+34096
+
+# Drug_Target_2_Name:
+Cell division control protein 2 homolog
+
+# Drug_Target_2_Number_of_Residues:
+297
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00069	Pkinase
+
+# Drug_Target_2_Protein_Sequence:
+>Cell division control protein 2 homolog
+MEDYTKIEKIGEGTYGVVYKGRHKTTGQVVAMKKIRLESEEEGVPSTAIREISLLKELRH
+PNIVSLQDVLMQDSRLYLIFEFLSMDLKKYLDSIPPGQYMDSSLVKSYLYQILQGIVFCH
+SRRVLHRDLKPQNLLIDDKGTIKLADFGLARAFGIPIRVYTHEVVTLWYRSPEVLLGSAR
+YSTPVDIWSIGTIFAELATKKPLFHGDSEIDQLFRIFRALGTPNNEVWPEVESLQDYKNT
+FPKWKPGSLASHVKNLDENGLDLLSKMLIYDPAKRISGKMALNHPYFNDLDNQIKKM
+
+# Drug_Target_2_Reaction:
+ATP + a protein = ADP + a phosphoprotein
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Plays a key role in the control of the eukaryotic cell cycle. It is required in higher cells for entry into S-phase and mitosis. p34 is a component of the kinase complex that phosphorylates the repetitive C-terminus of RNA polymerase II
+
+# Drug_Target_2_SwissProt_ID:
+P06493
+
+# Drug_Target_2_SwissProt_Name:
+CDK1_HUMAN
+
+# Drug_Target_2_Synonyms:
+CDK1
+Cyclin-dependent kinase 1
+EC 2.7.11.22
+EC 2.7.11.23
+p34 protein kinase
+
+# Drug_Target_2_Theoretical_pI:
+8.75
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Not Available
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+CDK2
+
+# Drug_Target_3_GenBank_ID_Gene:
+X61622
+
+# Drug_Target_3_GenBank_ID_Protein:
+29849
+
+# Drug_Target_3_GeneCard_ID:
+CDK2
+
+# Drug_Target_3_Gene_Name:
+CDK2
+
+# Drug_Target_3_Gene_Sequence:
+>897 bp
+ATGGAGAACTTCCAAAAGGTGGAAAAGATCGGAGAGGGCACGTACGGAGTTGTGTACAAA
+GCCAGAAACAAGTTGACGGGAGAGGTGGTGGCGCTTAAGAAAATCCGCCTGGACACTGAG
+ACTGAGGGTGTGCCCAGTACTGCCATCCGAGAGATCTCTCTGCTTAAGGAGCTTAACCAT
+CCTAATATTGTCAAGCTGCTGGATGTCATTCACACAGAAAATAAACTCTACCTGGTTTTT
+GAATTTCTGCACCAAGATCTCAAGAAATTCATGGATGCCTCTGCTCTCACTGGCATTCCT
+CTTCCCCTCATCAAGAGCTATCTGTTCCAGCTGCTCCAGGGCCTAGCTTTCTGCCATTCT
+CATCGGGTCCTCCACCGAGACCTTAAACCTCAGAATCTGCTTATTAACACAGAGGGGGCC
+ATCAAGCTAGCAGACTTTGGACTAGCCAGAGCTTTTGGAGTCCCTGTTCGTACTTACACC
+CATGAGGTGGTGACCCTGTGGTACCGAGCTCCTGAAATCCTCCTGGGCTCGAAATATTAT
+TCCACAGCTGTGGACATCTGGAGCCTGGGCTGCATCTTTGCTGAGATGGTGACTCGCCGG
+GCCCTGTTCCCTGGAGATTCTGAGATTGACCAGCTCTTCCGGATCTTTCGGACTCTGGGG
+ACCCCAGATGAGGTGGTGTGGCCAGGAGTTACTTCTATGCCTGATTACAAGCCAAGTTTC
+CCCAAGTGGGCCCGGCAAGATTTTAGTAAAGTTGTACCTCCCCTGGATGAAGATGGACGG
+AGCTTGTTATCGCAAATGCTGCACTACGACCCTAACAAGCGGATTTCGGCCAAGGCAGCC
+CTGGCTCACCCTTTCTTCCAGGATGTGACCAAGCCAGTACCCCATCTTCGACTCTGA
+
+# Drug_Target_3_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_3_General_References:
+1396589	Gu Y, Rosenblatt J, Morgan DO: Cell cycle regulation of CDK2 activity by phosphorylation of Thr160 and Tyr15. EMBO J. 1992 Nov;11(11):3995-4005.
+1653904	Tsai LH, Harlow E, Meyerson M: Isolation of the human cdk2 gene that encodes the cyclin A- and adenovirus E1A-associated p33 kinase. Nature. 1991 Sep 12;353(6340):174-7.
+1714386	Elledge SJ, Spottswood MR: A new human p34 protein kinase, CDK2, identified by complementation of a cdc28 mutation in Saccharomyces cerevisiae, is a homolog of Xenopus Eg1. EMBO J. 1991 Sep;10(9):2653-9.
+1717994	Ninomiya-Tsuji J, Nomoto S, Yasuda H, Reed SI, Matsumoto K: Cloning of a human cDNA encoding a CDC2-related kinase by complementation of a budding yeast cdc28 mutation. Proc Natl Acad Sci U S A. 1991 Oct 15;88(20):9006-10.
+7630397	Jeffrey PD, Russo AA, Polyak K, Gibbs E, Hurwitz J, Massague J, Pavletich NP: Mechanism of CDK activation revealed by the structure of a cyclinA-CDK2 complex. Nature. 1995 Jul 27;376(6538):313-20.
+8510751	De Bondt HL, Rosenblatt J, Jancarik J, Jones HD, Morgan DO, Kim SH: Crystal structure of cyclin-dependent kinase 2. Nature. 1993 Jun 17;363(6430):595-602.
+8601310	Bourne Y, Watson MH, Hickey MJ, Holmes W, Rocque W, Reed SI, Tainer JA: Crystal structure and mutational analysis of the human CDK2 kinase complex with cell cycle-regulatory protein CksHs1. Cell. 1996 Mar 22;84(6):863-74.
+8610110	De Azevedo WF Jr, Mueller-Dieckmann HJ, Schulze-Gahmen U, Worland PJ, Sausville E, Kim SH: Structural basis for specificity and potency of a flavonoid inhibitor of human CDK2, a cell cycle kinase. Proc Natl Acad Sci U S A. 1996 Apr 2;93(7):2735-40.
+8684460	Russo AA, Jeffrey PD, Patten AK, Massague J, Pavletich NP: Crystal structure of the p27Kip1 cyclin-dependent-kinase inhibitor bound to the cyclin A-Cdk2 complex. Nature. 1996 Jul 25;382(6589):325-31.
+8756328	Russo AA, Jeffrey PD, Pavletich NP: Structural basis of cyclin-dependent kinase activation by phosphorylation. Nat Struct Biol. 1996 Aug;3(8):696-700.
+8917641	Schulze-Gahmen U, De Bondt HL, Kim SH: High-resolution crystal structures of human cyclin-dependent kinase 2 with and without ATP: bound waters and natural ligand as guides for inhibitor design. J Med Chem. 1996 Nov 8;39(23):4540-6.
+9334743	Lawrie AM, Noble ME, Tunnah P, Brown NR, Johnson LN, Endicott JA: Protein kinase inhibition by staurosporine revealed in details of the molecular interaction with CDK2. Nat Struct Biol. 1997 Oct;4(10):796-801.
+9677190	Gray NS, Wodicka L, Thunnissen AM, Norman TC, Kwon S, Espinoza FH, Morgan DO, Barnes G, LeClerc S, Meijer L, Kim SH, Lockhart DJ, Schultz PG: Exploiting chemical libraries, structure, and genomics in the search for kinase inhibitors. Science. 1998 Jul 24;281(5376):533-8.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:1771
+
+# Drug_Target_3_HPRD_ID:
+00310
+
+# Drug_Target_3_ID:
+2240
+
+# Drug_Target_3_Locus:
+12q13
+
+# Drug_Target_3_Molecular_Weight:
+33930
+
+# Drug_Target_3_Name:
+Cell division protein kinase 2
+
+# Drug_Target_3_Number_of_Residues:
+298
+
+# Drug_Target_3_PDB_ID:
+1V1K
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00069	Pkinase
+
+# Drug_Target_3_Protein_Sequence:
+>Cell division protein kinase 2
+MENFQKVEKIGEGTYGVVYKARNKLTGEVVALKKIRLDTETEGVPSTAIREISLLKELNH
+PNIVKLLDVIHTENKLYLVFEFLHQDLKKFMDASALTGIPLPLIKSYLFQLLQGLAFCHS
+HRVLHRDLKPQNLLINTEGAIKLADFGLARAFGVPVRTYTHEVVTLWYRAPEILLGCKYY
+STAVDIWSLGCIFAEMVTRRALFPGDSEIDQLFRIFRTLGTPDEVVWPGVTSMPDYKPSF
+PKWARQDFSKVVPPLDEDGRSLLSQMLHYDPNKRISAKAALAHPFFQDVTKPVPHLRL
+
+# Drug_Target_3_Reaction:
+ATP + a protein = ADP + a phosphoprotein
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Probably involved in the control of the cell cycle. Interacts with cyclins A, B3, D, or E. Activity of CDK2 is maximal during S phase and G2
+
+# Drug_Target_3_SwissProt_ID:
+P24941
+
+# Drug_Target_3_SwissProt_Name:
+CDK2_HUMAN
+
+# Drug_Target_3_Synonyms:
+EC 2.7.11.22
+p33 protein kinase
+
+# Drug_Target_3_Theoretical_pI:
+8.99
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Not Available
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+CDK2deltaT
+
+# Drug_Target_4_GenBank_ID_Gene:
+AB012305
+
+# Drug_Target_4_GenBank_ID_Protein:
+3551191
+
+# Drug_Target_4_GeneCard_ID:
+CDK2deltaT
+
+# Drug_Target_4_Gene_Name:
+CDK2deltaT
+
+# Drug_Target_4_Gene_Sequence:
+>795 bp
+ATGGAGAACTTCCAAAAGGTGGCACAGATCGGACAGGGCACGTACGGAGTTGTGTACAAA
+GCCAGAAACAAGTCGACGGGACAAATGGTGGCGCTTAAGAAAATCCGCCTGGACACTGAG
+ACTGAGGGTGTGCCCAGTACTGCCATCCGAGAGATCTCTCTGCTTAAGGAGCTTAACCAT
+CCTAATATTGTCAAGCTGCTGGATGTCATTCACACAGAAAATAAACTCTACCTGGTTTTT
+GAATTTCTGCACCAAGATCTCAAGAAATTCATGGATGCCTCTGCTCTCACTGGCATTCCT
+CTTCCCCTCATCAAGAGCTATCTGTTCCAGCTGCTCCAGGGCCTAGCTTTCTGCCATTCT
+CATCGGGTCCTCCACCGAGACCTTAAACCTCAGAATCTGCTTATTAACACAGAGGGGGCC
+ATCAAGCTAGCAGACTTTGGACTAGCCAGAGCTTTTGGAGTCCCTGTTCGTACTTACACC
+CATGAGGTGACTCGCCGGGCCCTATTCCCTGGAGATTCTGAGATTGACCAGCTCTTCCGG
+ATCTTTCGGACTCTGGGGACCCCAGATGAGGTGGTGTGGCCAGGAGTTACTTCTATGCCT
+GATTACAAGCCAAGTTTCCCCAAGTGGGCCCGGCAAGATTTTAGTAAAGTTGTACCTCCC
+CTGGATGAAGATGGACGGAGCTTGTTATCGCAAATGCTGCACTACGACCCTTACAAGAGG
+TTCTCGACCAAGGCAGCCTTGGCTCACCCATTTTTGGAGGATGTGACCAAGCCAGTACCC
+CATCTTCGACTCTGA
+
+# Drug_Target_4_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_4_General_References:
+Not Available
+
+# Drug_Target_4_HGNC_ID:
+HGNC:1771
+
+# Drug_Target_4_HPRD_ID:
+00310
+
+# Drug_Target_4_ID:
+1742
+
+# Drug_Target_4_Locus:
+Not Available
+
+# Drug_Target_4_Molecular_Weight:
+30061
+
+# Drug_Target_4_Name:
+D-HSCDK2
+
+# Drug_Target_4_Number_of_Residues:
+264
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00069	Pkinase
+
+# Drug_Target_4_Protein_Sequence:
+>D-HSCDK2
+MENFQKVAQIGQGTYGVVYKARNKSTGQMVALKKIRLDTETEGVPSTAIREISLLKELNH
+PNIVKLLDVIHTENKLYLVFEFLHQDLKKFMDASALTGIPLPLIKSYLFQLLQGLAFCHS
+HRVLHRDLKPQNLLINTEGAIKLADFGLARAFGVPVRTYTHEVTRRALFPGDSEIDQLFR
+IFRTLGTPDEVVWPGVTSMPDYKPSFPKWARQDFSKVVPPLDEDGRSLLSQMLHYDPYKR
+FSTKAALAHPFLEDVTKPVPHLRL
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+ATP + a protein = ADP + a phosphoprotein
+
+# Drug_Target_4_SwissProt_ID:
+O75100
+
+# Drug_Target_4_SwissProt_Name:
+O75100_HUMAN
+
+# Drug_Target_4_Synonyms:
+Not Available
+
+# Drug_Target_4_Theoretical_pI:
+9.76
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB02950

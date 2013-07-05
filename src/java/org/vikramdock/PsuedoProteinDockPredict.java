@@ -11,10 +11,10 @@ import java.lang.*;
 import java.lang.reflect.*;
 
 public class PsuedoProteinDockPredict{
-	PsuedoProteinStruct ps1;
-	PsuedoProteinStruct ps2;
-	PrintWriter out;
-	int counter = 0;
+	private PsuedoProteinStruct ps1;
+	private PsuedoProteinStruct ps2;
+	private PrintWriter out;
+	private int counter = 0;
 	public PsuedoProteinDockPredict(PsuedoProteinStruct ps1, PsuedoProteinStruct ps2, String complex) throws IOException {
 		this.ps1 = ps1;
 		this.ps1 = ps2;
@@ -39,8 +39,8 @@ public class PsuedoProteinDockPredict{
 			PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
 			String filepath = pdbpath.concat(complex.substring(1,3).concat(filesep).concat("pdb").concat(complex).concat(".ent.gz"));
 			BufferedReader br = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(filepath))));
-			ArrayList chain1a = new ArrayList();
-			ArrayList chain2a = new ArrayList();
+			ArrayList<Character> chain1a = new ArrayList<Character>();
+			ArrayList<Character> chain2a = new ArrayList<Character>();
 			for (int i = 0; i < chain1.length(); i++) {
 				chain1a.add(chain1.charAt(i));
 			}
@@ -110,8 +110,8 @@ public class PsuedoProteinDockPredict{
 			BufferedReader br3 = new BufferedReader(new InputStreamReader(new FileInputStream(filepath)));
 			PrintWriter prot1 = new PrintWriter(new BufferedWriter(new FileWriter("firstprot.txt")));
 			PrintWriter prot2 = new PrintWriter(new BufferedWriter(new FileWriter("secondprot.txt")));
-			ArrayList chain1a = new ArrayList();
-			ArrayList chain2a = new ArrayList();
+			ArrayList<Character> chain1a = new ArrayList<Character>();
+			ArrayList<Character> chain2a = new ArrayList<Character>();
 			for (int i = 0; i < chain1.length(); i++) {
 				chain1a.add(chain1.charAt(i));
 			}

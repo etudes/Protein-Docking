@@ -1,0 +1,339 @@
+#BEGIN_DRUGCARD DB00789
+
+# AHFS_Codes:
+92:00.00
+
+# ATC_Codes:
+V08CA01
+V08CA03
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+No detectable biotransformation or decomposition.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Gadopentetic Acid Dimeglumine Salt
+Magnevist
+
+# CAS_Registry_Number:
+86050-77-3
+
+# ChEBI_ID:
+31797
+
+# Chemical_Formula:
+C28H54GdN5O20
+
+# Chemical_IUPAC_Name:
+gadolinium(3+) ion bis((2R,3R,4R,5S)-6-(methylamino)hexane-1,2,3,4,5-pentol) 2-[bis({2-[(carboxylatomethyl)(carboxymethyl)amino]ethyl})amino]acetate
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+1989987
+
+# Description:
+A complex of gadolinium with a chelating agent, diethylenetriamine penta-acetic acid (DTPA see pentetic acid), that is given to enhance the image in cranial and spinal MRIs. (From Martindale, The Extra Pharmacopoeia, 30th ed, p706)
+
+# Dosage_Forms:
+Liquid	Intravenous
+
+# Drug_Category:
+Contrast Agents
+Contrast Media
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Gadopentetate dimeglumine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Distribution half life 12 minutes, elimination half 100 minutes
+
+# InChI_Identifier:
+InChI=1S/C14H23N3O10.2C7H17NO5.Gd/c18-10(19)5-15(1-3-16(6-11(20)21)7-12(22)23)2-4-17(8-13(24)25)9-14(26)27;2*1-8-2-4(10)6(12)7(13)5(11)3-9;/h1-9H2,(H,18,19)(H,20,21)(H,22,23)(H,24,25)(H,26,27);2*4-13H,2-3H2,1H3;/q;;;+3/p-3/t;2*4-,5+,6+,7+;/m.00./s1
+
+# InChI_Key:
+InChIKey=LGMLJQFQKXPRGA-VPVMAENOSA-K
+
+# Indication:
+For use with magnetic resonance imaging (MRI) in adults, and pediatric patients (2 years of age and older) to visualize lesions with abnormal vascularity in the brain (intracranial lesions), spine and associated tissues as well as lesions with abnormal vascularity in the head and neck. Also used to facilitate the visualization of lesions with abnormal vascularity in the body (excluding the heart).
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D01707
+
+# LIMS_Drug_ID:
+789
+
+# Mechanism_Of_Action:
+Based on the behavior of protons when placed in a strong magnetic field, which is interpreted and transformed into images by magnetic resonance (MR) instruments. MR images are based primarily on proton density and proton relaxation dynamics. MR instruments are sensitive to two different relaxation processes, the T1 (spin-lattice or longitudinal relaxation time) and T2 (spin-spin or transverse relaxation time). Paramagnetic agents contain one or more unpaired electrons that enhance the T1 and T2 relaxation rates of protons in their molecular environment. The proton relaxation effect (PRE) of an unpaired electron is 700 times stronger than that of a proton itself. In MRI, visualization of normal and pathological brain tissue depends in part on variations in the radio frequency signal intensity that occur with changes in proton density, alteration of the T1, and variation in T2. When placed in a magnetic field, gadopentetate dimeglumine shortens the T1 and T2 relaxation times in tissues where it accumulates. In the central nervous system (CNS), gadopentetate dimeglumine enhances visualization of normal tissues that lack a blood-brain barrier, such as the pituitary gland and the meninges. Gadopentetate dimeglumine does not cross the intact blood-brain barrier; therefore, it does not accumulate in normal brain tissue or in CNS lesions that have not caused an abnormal blood-brain barrier (e.g., cysts, mature post-operative scars). Abnormal vascularity or disruption of the blood-brain barrier allows accumulation of gadopentetate dimeglumine in lesions such as neoplasms, abscesses, and subacute infarcts. Outside the CNS, gadopentetate dimeglumine rapidly reaches equilibrium in the interstitial compartment and enhances signal in all tissues as a function of delivery and size of the interstitial compartment.
+This compound has also been found to inhibit human erythrocyte 6-phosphogluconate dehydrogenase.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+938
+
+# Molecular_Weight_Mono:
+938.260314726
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164748760
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+0
+
+# Predicted_LogS:
+0
+
+# Predicted_Water_Solubility:
+Not Available
+
+# Primary_Accession_No:
+DB00789
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+55466
+
+# PubChem_Substance_ID:
+46504878
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic4/magnevist.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00991
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[Gd+3].CNC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.CNC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.OC(=O)CN(CCN(CCN(CC(O)=O)CC([O-])=O)CC([O-])=O)CC([O-])=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:19:38 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Gadopentetate_dimeglumine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm (By similarity)
+
+# Drug_Target_1_Chromosome_Location:
+1
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+20235752	Akkemik E, Budak H, Ciftci M: Effects of some drugs on human erythrocyte 6-phosphogluconate dehydrogenase: an in vitro study. J Enzyme Inhib Med Chem. 2010 Mar 17.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+U30255
+
+# Drug_Target_1_GenBank_ID_Protein:
+984325
+
+# Drug_Target_1_GeneCard_ID:
+PGD
+
+# Drug_Target_1_Gene_Name:
+PGD
+
+# Drug_Target_1_Gene_Sequence:
+>1452 bp
+ATGGCCCAAGCTGACATCGCGCTGATCGGATTGGCCGTCATGGGCCAGAACTTAATTCTG
+AACATGAATGACCACGGCTTTGTGGTCTGTGCTTTTAATAGGACTGTCTCCAAAGTTGAC
+GATTTCTTGGCCAATGAGGCAAAGGGAACCAAAGTGGTGGGTGCCCAGTCCCTGAAAGAG
+ATGGTCTCCAAGCTGAAGAAGCCCCGGCGGATCATCCTCCTGGTGAAGGCTGGGCAAGCT
+GTGGATGATTTCATCGAGAAATTGGTACCATTGTTGGATACTGGTGACATCATCATTGAC
+GGAGGAAATTCTGAATATAGGGACACCACAAGACGGTGCCGAGACCTCAAAGGCAAGGGA
+ATTTTATTTGTGGGGAGCGGAGTCAGTGGTGGAGAGGAAGGGCCCCGGTATGGCCCATCG
+CTCATGCCAGGAGGGAACAAAGAAGCGTGGCCCCACATCAAGACCATCTTCCAAGGCATT
+GCTGCAAAAGTGGGAACTGGAGAACCCTGCTGTGACTGGGTGGGAGATGAGGGAGCAGGC
+CACTTTGTGAAGATGGTGCACAACGGGATAGAGTATGGGGACATGCAGCTGATCTGTGAG
+GCATACCACCTGATGAAAGACGTGCTGGGCATGGCGCAGGACGAGATGGCCCAGGCCTTT
+GAGGATTGGAATAAGACAGAGCTAGACTCATTCCTGATTGAAATCACAGCCAATATTCTC
+AAGTTCCAAGACACCGATGGCAAACACCTGCTGCCAAAGATCAGGGACAGCGCGGGGCAG
+AAGGGCACAGGGAAGTGGACCGCCATCTCCGCCCTGGAATACGGCGTACCCGTCACCCTC
+ATTGGAGAAGCTGTCTTTGCTCGGTGCTTATCATCTCTGAAGGATGAGAGAATTCAAGCT
+AGCAAAAAGCTGAAGGGTCCCCAGAAGTTCCAGTTTGATGGTGATAAGAAATCATTCCTG
+GAGGACATTCGGAAGGCACTCTACGCTTCCAAGATCATCTCTTACGCTCAAGGCTTTATG
+CTGCTAAGGCAGGCAGCCACCGAGTTTGGCTGGACTCTCAATTATGGTGGCATCGCCCTG
+ATGTGGAGAGGGGGCTGCATCATTAGAAGTGTATTCCTAGGAAAGATAAAGGATGCATTT
+GATCGAAACCCGGAACTTCAGAACCTCCTACTGGACGACTTCTTTAAGTCAGCTGTTGAA
+AACTGCCAGGACTCCTGGCGGCGGGCAGTCAGCACTGGGGTCCAGGCTGGCATTCCCATG
+CCCTGTTTTACCACTGCCCTCTCCTTCTATGACGGGTACAGACATGAGATGCTTCCAGCC
+AGCCTCATCCAGGCTCAGCGGGATTACTTCGGGGCTCACACCTATGAACTCTTGGCCAAA
+CCAGGGCAGTTTATCCACACCAACTGGACAGGCCATGGTGGCACCGTGTCATCCTCGTCA
+TACAATGCCTGA
+
+# Drug_Target_1_General_Function:
+Carbohydrate transport and metabolism
+
+# Drug_Target_1_General_References:
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+8978909	Tsui SK, Chan JY, Waye MM, Fung KP, Lee CY: Identification of a cDNA encoding 6-phosphogluconate dehydrogenase from a human heart cDNA library. Biochem Genet. 1996 Oct;34(9-10):367-73.
+
+# Drug_Target_1_HGNC_ID:
+GNC:8891
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+6040
+
+# Drug_Target_1_Locus:
+1p36.3-p36.13
+
+# Drug_Target_1_Molecular_Weight:
+53139.6
+
+# Drug_Target_1_Name:
+6-phosphogluconate dehydrogenase, decarboxylating
+
+# Drug_Target_1_Number_of_Residues:
+483
+
+# Drug_Target_1_PDB_ID:
+2PGD
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00393	6PGD
+PF03446	NAD_binding_2
+
+# Drug_Target_1_Protein_Sequence:
+>6-phosphogluconate dehydrogenase, decarboxylating
+MAQADIALIGLAVMGQNLILNMNDHGFVVCAFNRTVSKVDDFLANEAKGTKVVGAQSLKE
+MVSKLKKPRRIILLVKAGQAVDDFIEKLVPLLDTGDIIIDGGNSEYRDTTRRCRDLKAKG
+ILFVGSGVSGGEEGARYGPSLMPGGNKEAWPHIKTIFQGIAAKVGTGEPCCDWVGDEGAG
+HFVKMVHNGIEYGDMQLICEAYHLMKDVLGMAQDEMAQAFEDWNKTELDSFLIEITANIL
+KFQDTDGKHLLPKIRDSAGQKGTGKWTAISALEYGVPVTLIGEAVFARCLSSLKDERIQA
+SKKLKGPQKFQFDGDKKSFLEDIRKALYASKIISYAQGFMLLRQAATEFGWTLNYGGIAL
+MWRGGCIIRSVFLGKIKDAFDRNPELQNLLLDDFFKSAVENCQDSWRRAVSTGVQAGIPM
+PCFTTALSFYDGYRHEMLPASLIQAQRDYFGAHTYELLAKPGQFIHTNWTGHGGTVSSSS
+YNA
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+6-phospho-D-gluconate + NADP(+) = D-ribulose 5-phosphate + CO(2) + NADPH
+
+# Drug_Target_1_SwissProt_ID:
+P52209
+
+# Drug_Target_1_SwissProt_Name:
+6PGD_HUMAN
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+7.25
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00789

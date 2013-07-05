@@ -1,0 +1,453 @@
+#BEGIN_DRUGCARD DB00633
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+N05CM18
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Hepatic
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+PRECEDEX
+
+# CAS_Registry_Number:
+113775-47-6
+
+# ChEBI_ID:
+4466
+
+# Chemical_Formula:
+C13H16N2
+
+# Chemical_IUPAC_Name:
+4-[(1S)-1-(2,3-dimethylphenyl)ethyl]-1H-imidazole
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+An agonist of receptors, adrenergic alpha-2 that is used in veterinary medicine for its analgesic and sedative properties. It is the racemate of dexmedetomidine. [PubChem]
+
+# Dosage_Forms:
+Injection, solution	Intravenous
+
+# Drug_Category:
+Adrenergic alpha-Agonists
+Analgesics
+Analgesics, Non-Narcotic
+Hypnotics and Sedatives
+
+# Drug_Interactions:
+Tranylcypromine	Tranylcypromine, a strong CYP2A6 inhibitor, may decrease the metabolism and clearance of Dexmedetomidine.
+Treprostinil	Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use.
+Trimipramine	Trimipramine may reduce the antihypertensive effect of the alpha2-agonist, Dexmedetomidine. Trimipramine may also increase the rebound hypertensive effect of Clonidine. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of Clonidine if Trimipramine is initiated, discontinued or dose changed. Dexmedetomidine should be withdrawn very gradually to reduce the risk of hypertensive crisis.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+2.8
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Freely soluble in water
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Dexmedetomidine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+2 hours
+
+# InChI_Identifier:
+InChI=1S/C13H16N2/c1-9-5-4-6-12(10(9)2)11(3)13-7-14-8-15-13/h4-8,11H,1-3H3,(H,14,15)/t11-/m0/s1
+
+# InChI_Key:
+InChIKey=CUHVIMMYOGQXCV-NSHDSACASA-N
+
+# Indication:
+For sedation of initially intubated and mechanically ventilated patients during treatment in an intensive care setting, also used in pain relief; anxiety reduction and analgesia
+
+# KEGG_Compound_ID:
+C07450
+
+# KEGG_Drug_ID:
+D00514
+
+# LIMS_Drug_ID:
+633
+
+# Mechanism_Of_Action:
+Dexmedetomidine is a specific and selective alpha-2 adrenoceptor agonist. By binding to the presynaptic alpha-2 adrenoceptors, it inhibits the release if norepinephrine, therefore, terminate the propagation of pain signals. Activation of the postsynaptic alpha-2 adrenoceptors inhibits the sympathetic activity decreases blood pressure and heart rate.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+200.2795
+
+# Molecular_Weight_Mono:
+200.131348522
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA449256
+
+# Pharmacology:
+Dexmedetomidine activates 2-adrenoceptors, and causes the decrease of sympathetic tone, with attenuation of the neuroendocrine and hemodynamic responses to anesthesia and surgery; it reduces anesthetic and opioid requirements; and causes sedation and analgesia.
+
+# Predicted_LogP_Hydrophobicity:
+3.28
+
+# Predicted_LogS:
+-3.1
+
+# Predicted_Water_Solubility:
+1.74e-01 g/l
+
+# Primary_Accession_No:
+DB00633
+
+# Protein_Binding:
+94%
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic/precedex.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00578
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+C[C@H](C1=CNC=N1)C1=C(C)C(C)=CC=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Medetomidina [Spanish]
+Medetomidine
+Medetomidinum [Latin]
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:19:30 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Dexmedetomidine
+
+# pKa_Isoelectric_Point:
+7.1
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP2E1
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+6013
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 2E1
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 2E1
+MSALGVTVALLVWAAFLLLVSMWRQVHSSWNLPPGPFPLPIIGNLFQLELKNIPKSFTRL
+AQRFGPVFTLYVGSQRMVVMHGYKAVKEALLDYKDEFSGRGDLPAFHAHRDRGIIFNNGP
+TWKDIRRFSLTTLRNYGMGKQGNESRIQREAHFLLEALRKTQGQPFDPTFLIGCAPCNVI
+ADILFRKHFDYNDEKFLRLMYLFNENFHLLSTPWLQLYNNFPSFLHYLPGSHRKVIKNVA
+EVKEYVSERVKEHHQSLDPNCPRDLTDCLLVEMEKEKHSAERLYTMDGITVTVADLFFAG
+TETTSTTLRYGLLILMKYPEIEEKLHEEIDRVIGPSRIPAIKDRQEMPYMDAVVHEIQRF
+ITLVPSNLPHEATRDTIFRGYLIPKGTVVVPTLDSVLYDNQEFPDPEKFKPEHFLNENGK
+FKYSDYFKPFSTGKRVCAGEGLARMELFLLLCAILQHFNLKPLVDPKDIDLSPIHIGFGC
+IPPRYKLCVIPRS
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P05181
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP1A1
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+6024
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 1A1
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 1A1
+MLFPISMSATEFLLASVIFCLVFWVIRASRPQVPKGLKNPPGPWGWPLIGHMLTLGKNPH
+LALSRMSQQYGDVLQIRIGSTPVVVLSGLDTIRQALVRQGDDFKGRPDLYTFTLISNGQS
+MSFSPDSGPVWAARRRLAQNGLKSFSIASDPASSTSCYLEEHVSKEAEVLISTLQELMAG
+PGHFNPYRYVVVSVTNVICAICFGRRYDHNHQELLSLVNLNNNFGEVVGSGNPADFIPIL
+RYLPNPSLNAFKDLNEKFYSFMQKMVKEHYKTFEKGHIRDITDSLIEHCQEKQLDENANV
+QLSDEKIINIVLDLFGAGFDTVTTAISWSLMYLVMNPRVQRKIQEELDTVIGRSRRPRLS
+DRSHLPYMEAFILETFRHSSFVPFTIPHSTTRDTSLKGFYIPKGRCVFVNQWQINHDQKL
+WVNPSEFLPERFLTPDGAIDKVLSEKVIIFGMGKRKCIGETIARWEVFLFLAILLQRVEF
+SVPLGVKVDMTPIYGLTMKHACCEHFQMQLRS
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P04798
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752127	Fairbanks CA, Stone LS, Kitto KF, Nguyen HO, Posthumus IJ, Wilcox GL: alpha(2C)-Adrenergic receptors mediate spinal analgesia and adrenergic-opioid synergy. J Pharmacol Exp Ther. 2002 Jan;300(1):282-90.
+11834617	Scheibner J, Trendelenburg AU, Hein L, Starke K, Blandizzi C: Alpha 2-adrenoceptors in the enteric nervous system: a study in alpha 2A-adrenoceptor-deficient mice. Br J Pharmacol. 2002 Feb;135(3):697-704.
+14583739	Davies MF, Tsui J, Flannery JA, Li X, DeLorey TM, Hoffman BB: Activation of alpha2 adrenergic receptors suppresses fear conditioning: expression of c-Fos and phosphorylated CREB in mouse amygdala. Neuropsychopharmacology. 2004 Feb;29(2):229-39.
+15087625	Dawson C, Ma D, Chow A, Maze M: Dexmedetomidine enhances analgesic action of nitrous oxide: mechanisms of action. Anesthesiology. 2004 Apr;100(4):894-904.
+15306201	Ozdogan UK, Lahdesmaki J, Hakala K, Scheinin M: The involvement of alpha 2A-adrenoceptors in morphine analgesia, tolerance and withdrawal in mice. Eur J Pharmacol. 2004 Aug 23;497(2):161-71.
+17692748	Menon DV, Wang Z, Fadel PJ, Arbique D, Leonard D, Li JL, Victor RG, Vongpatanasin W: Central sympatholysis as a novel countermeasure for cocaine-induced sympathetic activation and vasoconstriction in humans. J Am Coll Cardiol. 2007 Aug 14;50(7):626-33. Epub 2007 Jul 30.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+ADRA2A
+
+# Drug_Target_1_GenBank_ID_Gene:
+M23533
+
+# Drug_Target_1_GenBank_ID_Protein:
+178196
+
+# Drug_Target_1_GeneCard_ID:
+ADRA2A
+
+# Drug_Target_1_Gene_Name:
+ADRA2A
+
+# Drug_Target_1_Gene_Sequence:
+>1353 bp
+ATGGGCTCCCTGCAGCCGGACGCGGGCAACGCGAGCTGGAACGGGACCGAGGCGCCGGGG
+GGCGGCGCCCGGGCCACCCCTTACTCCCTGCAGGTGACGCTGACGCTGGTGTGCCTGGCC
+GGCCTGCTCATGCTGCTCACCGTGTTCGGCAACGTGCTCGTCATCATCGCCGTGTTCACG
+AGCCGCGCGCTCAAGGCGCCCCAAAACCTCTTCCTGGTGTCTCTGGCCTCGGCCGACATC
+CTGGTGGCCACGCTCGTCATCCCTTTCTCGCTGGCCAACGAGGTCATGGGCTACTGGTAC
+TTCGGCAAGGCTTGGTGCGAGATCTACCTGGCGCTCGACGTGCTCTTCTGCACGTCGTCC
+ATCGTGCACCTGTGCGCCATCAGCCTGGACCGCTACTGGTCCATCACACAGGCCATCGAG
+TACAACCTGAAGCGCACGCCGCGCCGCATCAAGGCCATCATCATCACCGTGTGGGTCATC
+TCGGCCGTCATCTCCTTCCCGCCGCTCATCTCCATCGAGAAGAAGGGCGGCGGCGGCGGC
+CCGCAGCCGGCCGAGCCGCGCTGCGAGATCAACGACCAGAAGTGGTACGTCATCTCGTCG
+TGCATCGGCTCCTTCTTCGCTCCCTGCCTCATCATGATCCTGGTCTACGTGCGCATCTAC
+CAGATCGCCAAGCGTCGCACCCGCGTGCCACCCAGCCGCCGGGGTCCGGACGCCGTCGCC
+GCGCCGCCGGGGGGCACCGAGCGCAGGCCCAACGGTCTGGGCCCCGAGCGCAGCGCGGGC
+CCGGGGGGCGCAGAGGCCGAACCGCTGCCCACCCAGCTCAACGGCGCCCCTGGCGAGCCC
+GCGCCGGCCGGGCCGCGCGACACCGACGCGCTGGACCTGGAGGAGAGCTCGTCTTCCGAC
+CACGCCGAGCGGCCTCCAGGGCCCCGCAGACCCGAGCGCGGTCCCCGGGGCAAAGGCAAG
+GCCCGAGCGAGCCAGGTGAAGCCGGGCGACAGCCTGCGCGGCGCGGGCCGGGGGCGACGG
+GGATCGGGACGCCGGCTGCAGGGCCGGGGGAGGAGCGCGTCGGGGCTGCCAAGGCGTCGC
+GCTGGCGCGGGCGGGCAGAACCGCGAGAAGCGCTTCACGTTCGTGCTGGCCGTGGTCATC
+GGAGTGTTCGTGGTGTGCTGGTTCCCCTTCTTCTTCACCTACACGCTCACGGCCGTCGGG
+TGCTCCGTGCCACGCACGCTCTTCAAATTCTTCTTCTGGTTCGGCTACTGCAACAGCTCG
+TTGAACCCGGTCATCTACACCATCTTCAACCACGATTTCCGCCGCGCCTTCAAGAAGATC
+CTCTGTCGGGGGGACAGGAAGCGGATCGTGTGA
+
+# Drug_Target_1_General_Function:
+Involved in alpha2-adrenergic receptor activity
+
+# Drug_Target_1_General_References:
+11888275	Chung DA, Zuiderweg ER, Fowler CB, Soyer OS, Mosberg HI, Neubig RR: NMR structure of the second intracellular loop of the alpha 2A adrenergic receptor: evidence for a novel cytoplasmic helix. Biochemistry. 2002 Mar 19;41(11):3596-604.
+1678390	Suryanarayana S, Daunt DA, Von Zastrow M, Kobilka BK: A point mutation in the seventh hydrophobic domain of the alpha 2 adrenergic receptor increases its affinity for a family of beta receptor antagonists. J Biol Chem. 1991 Aug 15;266(23):15488-92.
+1678850	Wang CD, Buck MA, Fraser CM: Site-directed mutagenesis of alpha 2A-adrenergic receptors: identification of amino acids involved in ligand binding and receptor activation by agonists. Mol Pharmacol. 1991 Aug;40(2):168-79.
+1849485	Chhajlani V, Rangel N, Uhlen S, Wikberg JE: Identification of an additional gene belonging to the alpha 2 adrenergic receptor family in the human genome by PCR. FEBS Lett. 1991 Mar 25;280(2):241-4.
+2170371	Guyer CA, Horstman DA, Wilson AL, Clark JD, Cragoe EJ Jr, Limbird LE: Cloning, sequencing, and expression of the gene encoding the porcine alpha 2-adrenergic receptor. Allosteric modulation by Na+, H+, and amiloride analogs. J Biol Chem. 1990 Oct 5;265(28):17307-17.
+2568356	Fraser CM, Arakawa S, McCombie WR, Venter JC: Cloning, sequence analysis, and permanent expression of a human alpha 2-adrenergic receptor in Chinese hamster ovary cells. Evidence for independent pathways of receptor coupling to adenylate cyclase attenuation and activation. J Biol Chem. 1989 Jul 15;264(20):11754-61.
+2823383	Kobilka BK, Matsui H, Kobilka TS, Yang-Feng TL, Francke U, Caron MG, Lefkowitz RJ, Regan JW: Cloning, sequencing, and expression of the gene coding for the human platelet alpha 2-adrenergic receptor. Science. 1987 Oct 30;238(4827):650-6.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:281
+
+# Drug_Target_1_HPRD_ID:
+00078
+
+# Drug_Target_1_ID:
+318
+
+# Drug_Target_1_Locus:
+10q24-q26
+
+# Drug_Target_1_Molecular_Weight:
+48957
+
+# Drug_Target_1_Name:
+Alpha-2A adrenergic receptor
+
+# Drug_Target_1_Number_of_Residues:
+450
+
+# Drug_Target_1_PDB_ID:
+1HOF
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_1_Protein_Sequence:
+>Alpha-2A adrenergic receptor
+MGSLQPDAGNASWNGTEAPGGGARATPYSLQVTLTLVCLAGLLMLLTVFGNVLVIIAVFT
+SRALKAPQNLFLVSLASADILVATLVIPFSLANEVMGYWYFGKAWCEIYLALDVLFCTSS
+IVHLCAISLDRYWSITQAIEYNLKRTPRRIKAIIITVWVISAVISFPPLISIEKKGGGGG
+PQPAEPRCEINDQKWYVISSCIGSFFAPCLIMILVYVRIYQIAKRRTRVPPSRRGPDAVA
+APPGGTERRPNGLGPERSAGPGGAEAEPLPTQLNGAPGEPAPAGPRDTDALDLEESSSSD
+HAERPPGPRRPERGPRGKGKARASQVKPGDSLPRRGPGATGIGTPAAGPGEERVGAAKAS
+RWRGRQNREKRFTFVLAVVIGVFVVCWFPFFFTYTLTAVGCSVPRTLFKFFFWFGYCNSS
+LNPVIYTIFNHDFRRAFKKILCRGDRKRIV
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Alpha-2 adrenergic receptors mediate the catecholamine- induced inhibition of adenylate cyclase through the action of G proteins. The rank order of potency for agonists of this receptor is oxymetazoline > clonidine > epinephrine > norepinephrine > phenylephrine > dopamine > p-synephrine > p-tyramine > serotonin = p-octopamine. For antagonists, the rank order is yohimbine > phentolamine = mianserine > chlorpromazine = spiperone = prazosin > propanolol > alprenolol = pindolol
+
+# Drug_Target_1_SwissProt_ID:
+P08913
+
+# Drug_Target_1_SwissProt_Name:
+ADA2A_HUMAN
+
+# Drug_Target_1_Synonyms:
+Alpha-2 adrenergic receptor subtype C10
+Alpha-2A adrenoceptor
+Alpha-2A adrenoreceptor
+Alpha-2AAR
+
+# Drug_Target_1_Theoretical_pI:
+10.20
+
+# Drug_Target_1_Transmembrane_Regions:
+34-59
+71-96
+107-129
+150-173
+193-217
+375-399
+407-430
+
+#END_DRUGCARD DB00633

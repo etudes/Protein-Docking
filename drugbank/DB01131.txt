@@ -1,0 +1,610 @@
+#BEGIN_DRUGCARD DB01131
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+P01BB01
+
+# Absorption:
+Rapidly and well absorbed in humans following oral doses ranging from 50 to 500 mg.
+
+# Biotransformation:
+Variably metabolized in the liver by cytochrome P450 isoenzymes to the active triazine metabolite, cycloguanil. This variable metabolism of proguanil may have profound clinical importance in poor metabolizers such as the Asian and African populations at risk for malaria infection. Prophylaxis with proguanil may not be effective in these persons because they may not achieve adequate therapeutic levels of the active compound, cycloguanil, even after multiple doses.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Chloroguanide
+Paludrine
+
+# CAS_Registry_Number:
+500-92-5
+
+# ChEBI_ID:
+8455
+
+# Chemical_Formula:
+C11H16ClN5
+
+# Chemical_IUPAC_Name:
+(E)-1-({amino[(4-chlorophenyl)amino]methylidene}amino)-N'-(propan-2-yl)methenimidamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2043068
+
+# Description:
+Proguanil is a prophylactic antimalarial drug, which works by stopping the malaria parasite, Plasmodium falciparum and Plasmodium vivax, from reproducing once it is in the red blood cells. It does this by inhibiting the enzyme, dihydrofolate reductase, which is involved in the reproduction of the parasite.
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Antimalarials
+Antimetabolites
+
+# Drug_Interactions:
+Artemether	Proguanil may increase the adverse effects of artemether. Combination therapy is contraindicated unless there are no other treatment options.
+Lumefantrine	Proguanil may increase the adverse effects of lumefantrine. Combination therapy is contraindicated unless there are no other treatment options.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+2.53
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+156 mg/L
+
+# Food_Interactions:
+Take with food.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Proguanil
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Approximately 20 hours
+
+# InChI_Identifier:
+InChI=1S/C11H16ClN5/c1-7(2)15-10(13)17-11(14)16-9-5-3-8(12)4-6-9/h3-7H,1-2H3,(H5,13,14,15,16,17)
+
+# InChI_Key:
+InChIKey=SSOLNOMRVKKSON-UHFFFAOYSA-N
+
+# Indication:
+For the causal prevention and suppression of malaria caused by susceptible strains of <i>P. falciparum</i> and other species of Plasmodium found in some geographical areas of the world.
+
+# KEGG_Compound_ID:
+C07631
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+1131
+
+# Mechanism_Of_Action:
+Proguanil inhibits the dihydrofolate reductase of plasmodia and thereby blocks the biosynthesis of purines and pyrimidines, which are essential for DNA synthesis and cell multiplication. This leads to failure of nuclear division at the time of schizont formation in erythrocytes and liver.
+
+# Melting_Point:
+129 °C
+
+# Molecular_Weight_Avg:
+253.731
+
+# Molecular_Weight_Mono:
+253.109423244
+
+# Organisms_Affected:
+Plasmodium
+
+# PDB_Experimental_ID:
+1MVT
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA451124
+
+# Pharmacology:
+Proguanil is a biguanide derivative that is converted to an active metabolite called cycloguanil. It exerts its antimalarial action by inhibiting parasitic dihydrofolate reductase enzyme. It has causal prophylactic and suppressive activity against <i>P. falciparum</i> and cures the acute infection. It is also effective in suppressing the clinical attacks of vivax malaria. However it is slower compared to 4-aminoquinolines.
+
+# Predicted_LogP_Hydrophobicity:
+1.9
+
+# Predicted_LogS:
+-3
+
+# Predicted_Water_Solubility:
+2.86e-01 g/l
+
+# Primary_Accession_No:
+DB01131
+
+# Protein_Binding:
+Approximately 75%
+
+# PubChem_Compound_ID:
+6178111
+
+# PubChem_Substance_ID:
+46506228
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00188
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CC(C)\N=C(/N)N=C(N)NC1=CC=C(Cl)C=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:19:56 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Proguanil
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P11712
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+CYP2E1
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+6013
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Cytochrome P450 2E1
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Cytochrome P450 2E1
+MSALGVTVALLVWAAFLLLVSMWRQVHSSWNLPPGPFPLPIIGNLFQLELKNIPKSFTRL
+AQRFGPVFTLYVGSQRMVVMHGYKAVKEALLDYKDEFSGRGDLPAFHAHRDRGIIFNNGP
+TWKDIRRFSLTTLRNYGMGKQGNESRIQREAHFLLEALRKTQGQPFDPTFLIGCAPCNVI
+ADILFRKHFDYNDEKFLRLMYLFNENFHLLSTPWLQLYNNFPSFLHYLPGSHRKVIKNVA
+EVKEYVSERVKEHHQSLDPNCPRDLTDCLLVEMEKEKHSAERLYTMDGITVTVADLFFAG
+TETTSTTLRYGLLILMKYPEIEEKLHEEIDRVIGPSRIPAIKDRQEMPYMDAVVHEIQRF
+ITLVPSNLPHEATRDTIFRGYLIPKGTVVVPTLDSVLYDNQEFPDPEKFKPEHFLNENGK
+FKYSDYFKPFSTGKRVCAGEGLARMELFLLLCAILQHFNLKPLVDPKDIDLSPIHIGFGC
+IPPRYKLCVIPRS
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P05181
+
+# Phase_1_Metabolizing_Enzyme_6_Gene_Name:
+CYP2C19
+
+# Phase_1_Metabolizing_Enzyme_6_ID:
+6016
+
+# Phase_1_Metabolizing_Enzyme_6_Name:
+Cytochrome P450 2C19
+
+# Phase_1_Metabolizing_Enzyme_6_Protein_Sequence:
+>Cytochrome P450 2C19
+MDPFVVLVLCLSCLLLLSIWRQSSGRGKLPPGPTPLPVIGNILQIDIKDVSKSLTNLSKI
+YGPVFTLYFGLERMVVLHGYEVVKEALIDLGEEFSGRGHFPLAERANRGFGIVFSNGKRW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFQKRFDYKDQQFLNLMEKLNENIRIVSTPWIQICNNFPTIIDYFPGTHNKLLKNLAFM
+ESDILEKVKEHQESMDINNPRDFIDCFLIKMEKEKQNQQSEFTIENLVITAADLLGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVVGRNRSPCMQDRGHMPYTDAVVHEVQRYID
+LIPTSLPHAVTCDVKFRNYLIPKGTTILTSLTSVLHDNKEFPNPEMFDPRHFLDEGGNFK
+KSNYFMPFSAGKRICVGEGLARMELFLFLTFILQNFNLKSLIDPKDLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_6_SwissProt_ID:
+P33261
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10068594	Kaneko A, Bergqvist Y, Takechi M, Kalkoa M, Kaneko O, Kobayakawa T, Ishizaki T, Bjorkman A: Intrinsic efficacy of proguanil against falciparum and vivax malaria independent of the metabolite cycloguanil. J Infect Dis. 1999 Apr;179(4):974-9.
+10998224	Vasconcelos KF, Plowe CV, Fontes CJ, Kyle D, Wirth DF, Pereira da Silva LH, Zalis MG: Mutations in Plasmodium falciparum dihydrofolate reductase and dihydropteroate synthase of isolates from the Amazon region of Brazil. Mem Inst Oswaldo Cruz. 2000 Sep-Oct;95(5):721-8.
+11295178	Tahar R, de Pecoulas PE, Basco LK, Chiadmi M, Mazabraud A: Kinetic properties of dihydrofolate reductase from wild-type and mutant Plasmodium vivax expressed in Escherichia coli. Mol Biochem Parasitol. 2001 Apr 6;113(2):241-9.
+11740746	Durand R, Jafari S, Bouchaud O, Ralaimazava P, Keundjian A, Le Bras J: Plasmodium falciparum: pfcrt and DHFR mutations are associated with failure of chloroquine plus proguanil prophylaxis in travelers. J Infect Dis. 2001 Dec 15;184(12):1633-4.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+12667224	Le Bras J, Durand R: The mechanisms of resistance to antimalarial drugs in Plasmodium falciparum. Fundam Clin Pharmacol. 2003 Apr;17(2):147-53.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+DHFR
+
+# Drug_Target_1_GenBank_ID_Gene:
+J00140
+
+# Drug_Target_1_GenBank_ID_Protein:
+182724
+
+# Drug_Target_1_GeneCard_ID:
+DHFR
+
+# Drug_Target_1_Gene_Name:
+DHFR
+
+# Drug_Target_1_Gene_Sequence:
+>564 bp
+ATGGTTGGTTCGCTAAACTGCATCGTCGCTGTGTCCCAGAACATGGGCATCGGCAAGAAC
+GGGGACCTGCCCTGGCCACCGCTCAGGAATGAATTCAGATATTTCCAGAGAATGACCACA
+ACCTCTTCAGTAGAAGGTAAACAGAATCTGGTGATTATGGGTAAGAAGACCTGGTTCTCC
+ATTCCTGAGAAGAATCGACCTTTAAAGGGTAGAATTAATTTAGTTCTCAGCAGAGAACTC
+AAGGAACCTCCACAAGGAGCTCATTTTCTTTCCAGAAGTCTAGATGATGCCTTAAAACTT
+ACTGAACAACCAGAATTAGCAAATAAAGTAGACATGGTCTGGATAGTTGGTGGCAGTTCT
+GTTTATAAGGAAGCCATGAATCACCCAGGCCATCTTAAACTATTTGTGACAAGGATCATG
+CAAGACTTTGAAAGTGACACGTTTTTTCCAGAAATTGATTTGGAGAAATATAAACTTCTG
+CCAGAATACCCAGGTGTTCTCTCTGATGTCCAGGAGGAGAAAGGCATTAAGTACAAATTT
+GAAGTATATGAGAAGAATGATTAA
+
+# Drug_Target_1_General_Function:
+Coenzyme transport and metabolism
+
+# Drug_Target_1_General_References:
+1731871	Stockman BJ, Nirmala NR, Wagner G, Delcamp TJ, DeYarman MT, Freisheim JH: Sequence-specific 1H and 15N resonance assignments for human dihydrofolate reductase in solution. Biochemistry. 1992 Jan 14;31(1):218-29.
+2248959	Davies JF 2nd, Delcamp TJ, Prendergast NJ, Ashford VA, Freisheim JH, Kraut J: Crystal structures of recombinant human dihydrofolate reductase complexed with folate and 5-deazafolate. Biochemistry. 1990 Oct 9;29(40):9467-79.
+3383852	Oefner C, D'Arcy A, Winkler FK: Crystal structure of human dihydrofolate reductase complexed with folate. Eur J Biochem. 1988 Jun 1;174(2):377-85.
+6235374	Yang JK, Masters JN, Attardi G: Human dihydrofolate reductase gene organization. Extensive conservation of the G + C-rich 5' non-coding sequence and strong intron size divergence from homologous mammalian genes. J Mol Biol. 1984 Jun 25;176(2):169-87.
+6323448	Chen MJ, Shimada T, Moulton AD, Cline A, Humphries RK, Maizel J, Nienhuis AW: The functional human dihydrofolate reductase gene. J Biol Chem. 1984 Mar 25;259(6):3933-43.
+6687716	Masters JN, Attardi G: The nucleotide sequence of the cDNA coding for the human dihydrofolic acid reductase. Gene. 1983 Jan-Feb;21(1-2):59-63.
+9374868	Cody V, Galitsky N, Luft JR, Pangborn W, Rosowsky A, Blakley RL: Comparison of two independent crystal structures of human dihydrofolate reductase ternary complexes reduced with nicotinamide adenine dinucleotide phosphate and the very tight-binding inhibitor PT523. Biochemistry. 1997 Nov 11;36(45):13897-903.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:2861
+
+# Drug_Target_1_HPRD_ID:
+00519
+
+# Drug_Target_1_ID:
+365
+
+# Drug_Target_1_Locus:
+5q11.2-q13.2
+
+# Drug_Target_1_Molecular_Weight:
+21322
+
+# Drug_Target_1_Name:
+Dihydrofolate reductase
+
+# Drug_Target_1_Number_of_Residues:
+186
+
+# Drug_Target_1_PDB_ID:
+1MVT
+
+# Drug_Target_1_Pathway:
+Methotrexate Pathway	SMP00432
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00186	DHFR_1
+
+# Drug_Target_1_Protein_Sequence:
+>Dihydrofolate reductase
+VGSLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSI
+PEKNRPLKGRINLVLSRELKEPPQGAHFLSRSLDDALKLTEQPELANKVDMVWIVGGSSV
+YKEAMNHPGHLKLFVTRIMQDFESDTFFPEIDLEKYKLLPEYPGVLSDVQEEKGIKYKFE
+VYEKND
+
+# Drug_Target_1_Reaction:
+5,6,7,8-tetrahydrofolate + NADP+ = 7,8-dihydrofolate + NADPH + H+
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+P00374
+
+# Drug_Target_1_SwissProt_Name:
+DYR_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 1.5.1.3
+
+# Drug_Target_1_Theoretical_pI:
+7.60
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+M22159
+
+# Drug_Target_2_GenBank_ID_Protein:
+160260
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+Not Available
+
+# Drug_Target_2_Gene_Sequence:
+>1827 bp
+ATGATGGAACAAGTCTGCGACGTTTTCGATATTTATGCCATATGTGCATGTTGTAAGGTT
+GAAAGCAAAAATGAGGGGAAAAAAAATGAGGTTTTTAATAACTACACATTTAGAGGTCTA
+GGAAATAAAGGAGTATTACCATGGAAATGTAATTCCCTAGATATGAAATATTTTCGTGCA
+GTTACAACATATGTGAATGAATCAAAATATGAAAAATTGAAATATAAGAGATGTAAATAT
+TTAAACAAAGAAACTGTGGATAATGTAAATGATATGCCTAATTCTAAAAAATTACAAAAT
+GTTGTAGTTATGGGAAGAACAAACTGGGAAAGCATTCCAAAAAAATTTAAACCTTTAAGC
+AATAGGATAAATGTTATATTGTCTAGAACCTTAAAAAAAGAAGATTTTGATGAAGATGTT
+TATATCATTAACAAAGTTGAAGATCTAATAGTTTTACTTGGGAAATTAAATTACTATAAA
+TGTTTTATTATAGGAGGTTCCGTTGTTTATCAAGAATTTTTAGAAAAGAAATTAATAAAA
+AAAATATATTTTACTAGAATAAATAGTACATATGAATGTGATGTATTTTTTCCAGAAATA
+AATGAAAATGAGTATCAAATTATTTCTGTTAGCGATGTATATACTAGTAACAATACAACA
+TTGGATTTTATCATTTATAAGAAAACGAATAATAAAATGTTAAATGAACAAAATTGTATA
+AAAGGAGAAGAAAAAAATAATGATATGCCTTTAAAGAATGATGACAAAGATACATGTCAT
+ATGAAAAAATTAACAGAATTTTACAAAAATGTAGACAAATATAAAATTAATTATGAAAAT
+GATGATGATGATGAAGAAGAAGATGATTTTGTTTATTTTAATTTTAATAAAGAAAAAGAA
+GAGAAAAATAAAAATTCTATACATCCAAATGATTTTCAAATATATAATAGCTTGAAATAT
+AAATATCATCCTGAATACCAATATTTAAATATTATTTATGATATTATGATGAATGGAAAT
+AAACAAAGTGATCGAACGGGAGTAGGTGTTTTAAGTAAATTCGGATATATTATGAAATTT
+GATTTAAGTCAATATTTCCCATTATTAACTACGAAGAAATTATTTTTAAGAGGAATTATT
+GAAGAATTGCTTTGGTTTATTAGAGGAGAAACAAATGGTAATACGTTGTTAAATAAGAAT
+GTAAGGATATGGGAAGCTAATGGTACTAGGGAATTTTTAGATAATAGAAAATTATTTCAT
+AGAGAAGTTAACGATTTAGGACCTATTTATGGTTTTCAATGGAGACATTTCGGTGCTGAA
+TATACAAATATGTATGATAATTATGAAAATAAAGGAGTGGATCAATTAAAAAATATAATA
+AATTTAATTAAAAATGATCCTACAAGTAGAAGAATTCTTTTGTGTGCATGGAATGTAAAA
+GATCTTGACCAAATGGCATTACCTCCTTGTCATATTTTATGTCAGTTTTATGTTTTCGAT
+GGGAAATTATCATGTATTATGTATCAAAGATCATGTGATTTAGGGCTAGGAGTACCTTTT
+AATATTGCTTCTTATTCTATTTTTACTCATATGATTGCACAAGTCTGTAATTTGCAACCT
+GCGCAGTTCATACACGTTTTAGGAAATGCACATGTTTATAATAATCACATTGATAGTTTA
+AAAATTCAACTTAACAGAATACCCTATCCATTCCCAACACTTAAATTAAATCCAGATATT
+AAAAATATTGAAGATTTTACAATTTCGGATTTTACAATACAAAATTATGTTCATCATGAA
+AAAATTTCAATGGATATGGCTGCTTAA
+
+# Drug_Target_2_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_2_General_References:
+2663650	Snewin VA, England SM, Sims PF, Hyde JE: Characterisation of the dihydrofolate reductase-thymidylate synthetase gene from human malaria parasites highly resistant to pyrimethamine. Gene. 1989 Mar 15;76(1):41-52.
+2677719	Zolg JW, Plitt JR, Chen GX, Palmer S: Point mutations in the dihydrofolate reductase-thymidylate synthase gene as the molecular basis for pyrimethamine resistance in Plasmodium falciparum. Mol Biochem Parasitol. 1989 Oct;36(3):253-62.
+2825189	Bzik DJ, Li WB, Horii T, Inselburg J: Molecular cloning and sequence analysis of the Plasmodium falciparum dihydrofolate reductase-thymidylate synthase gene. Proc Natl Acad Sci U S A. 1987 Dec;84(23):8360-4.
+3057499	Cowman AF, Morry MJ, Biggs BA, Cross GA, Foote SJ: Amino acid changes linked to pyrimethamine resistance in the dihydrofolate reductase-thymidylate synthase gene of Plasmodium falciparum. Proc Natl Acad Sci U S A. 1988 Dec;85(23):9109-13.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+620
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+71818
+
+# Drug_Target_2_Name:
+Bifunctional dihydrofolate reductase-thymidylate synthase
+
+# Drug_Target_2_Number_of_Residues:
+608
+
+# Drug_Target_2_PDB_ID:
+1J3K
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00186	DHFR_1
+PF00303	Thymidylat_synt
+
+# Drug_Target_2_Protein_Sequence:
+>Bifunctional dihydrofolate reductase-thymidylate synthase
+MMEQVCDVFDIYAICACCKVESKNEGKKNEVFNNYTFRGLGNKGVLPWKCNSLDMKYFRA
+VTTYVNESKYEKLKYKRCKYLNKETVDNVNDMPNSKKLQNVVVMGRTNWESIPKKFKPLS
+NRINVILSRTLKKEDFDEDVYIINKVEDLIVLLGKLNYYKCFIIGGSVVYQEFLEKKLIK
+KIYFTRINSTYECDVFFPEINENEYQIISVSDVYTSNNTTLDFIIYKKTNNKMLNEQNCI
+KGEEKNNDMPLKNDDKDTCHMKKLTEFYKNVDKYKINYENDDDDEEEDDFVYFNFNKEKE
+EKNKNSIHPNDFQIYNSLKYKYHPEYQYLNIIYDIMMNGNKQSDRTGVGVLSKFGYIMKF
+DLSQYFPLLTTKKLFLRGIIEELLWFIRGETNGNTLLNKNVRIWEANGTREFLDNRKLFH
+REVNDLGPIYGFQWRHFGAEYTNMYDNYENKGVDQLKNIINLIKNDPTSRRILLCAWNVK
+DLDQMALPPCHILCQFYVFDGKLSCIMYQRSCDLGLGVPFNIASYSIFTHMIAQVCNLQP
+AQFIHVLGNAHVYNNHIDSLKIQLNRIPYPFPTLKLNPDIKNIEDFTISDFTIQNYVHHE
+KISMDMAA
+
+# Drug_Target_2_Reaction:
+5,6,7,8-tetrahydrofolate + NADP+ = 7,8-dihydrofolate + NADPH + H+
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Not Available
+
+# Drug_Target_2_SwissProt_ID:
+P13922
+
+# Drug_Target_2_SwissProt_Name:
+DRTS_PLAFK
+
+# Drug_Target_2_Synonyms:
+DHFR-TS
+
+# Drug_Target_2_Theoretical_pI:
+7.41
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB01131

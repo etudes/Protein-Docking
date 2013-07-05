@@ -1,0 +1,344 @@
+#BEGIN_DRUGCARD DB03070
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C19H25N7O14P2Se
+
+# Chemical_IUPAC_Name:
+[({[(2S,3R,4R,5R)-5-(6-amino-9H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy]({[(2S,3R,4R,5R)-5-(4-carbamoyl-1,3-selenazol-2-yl)-3,4-dihydroxyoxolan-2-yl]methoxy})phosphinic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Selenazole-4-Carboxyamide-Adenine Dinucleotide
+
+# HET_ID:
+SAE
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C19H25N7O14P2Se/c20-15-9-17(23-4-22-15)26(5-24-9)19-13(30)11(28)8(39-19)2-37-42(34,35)40-41(32,33)36-1-7-10(27)12(29)14(38-7)18-25-6(3-43-18)16(21)31/h3-5,7-8,10-14,19,27-30H,1-2H2,(H2,21,31)(H,32,33)(H,34,35)(H2,20,22,23)/t7-,8-,10-,11-,12+,13+,14+,19+/m0/s1
+
+# InChI_Key:
+InChIKey=SKNBJMQZTZPCPF-FXXOXGJPSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+3070
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+716.35
+
+# Molecular_Weight_Mono:
+717.009993395
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1B3O
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-1.4
+
+# Predicted_LogS:
+-2
+
+# Predicted_Water_Solubility:
+7.05e+00 g/l
+
+# Primary_Accession_No:
+DB03070
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+46936569
+
+# PubChem_Substance_ID:
+46508188
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT02840
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC(=O)C1=C[Se]C(=N1)[C@@H]1O[C@@H](CO[P@](O)(=O)O[P@@](O)(=O)OC[C@@H]2O[C@H]([C@H](O)[C@H]2O)N2C=NC3=C2N=CN=C3N)[C@H](O)[C@H]1O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:21:53 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+IMPDH2
+
+# Drug_Target_1_GenBank_ID_Gene:
+J04208
+
+# Drug_Target_1_GenBank_ID_Protein:
+307066
+
+# Drug_Target_1_GeneCard_ID:
+IMPDH2
+
+# Drug_Target_1_Gene_Name:
+IMPDH2
+
+# Drug_Target_1_Gene_Sequence:
+>1545 bp
+ATGGCCGACTACCTGATTAGTGGGGGCACGTCCTACGTGCCAGACGACGGACTCACAGCA
+CAGCAGCTCTTCAACTGCGGAGACGGCCTCACCTACAATGACTTTCTCATTCTCCCTGGG
+TACATCGACTTCACTGCAGACCAGGTGGACCTGACTTCTGCTCTGACCAAGAAAATCACT
+CTTAAGACCCCACTGGTTTCCTCTCCCATGGACACAGTCACAGAGGCTGGGATGGCCATA
+GCAATGGCGCTTACAGGCGGTATTGGCTTCATCCACCACAACTGTACACCTGAATTCCAG
+GCCAATGAAGTTCGGAAAGTGAAGAAATATGAACAGGGATTCATCACAGACCCTGTGGTC
+CTCAGCCCCAAGGATCGCGTGCGGGATGTTTTTGAGGCCAAGGCCCGGCATGGTTTCTGC
+GGTATCCCAATCACAGACACAGGCCGGATGGGGAGCCGCTTGGTGGGCATCATCTCCTCC
+AGGGACATTGATTTTCTCAAAGAGGAGGAACATGACTGTTTCTTGGAAGAGATAATGACA
+AAGAGGGAAGACTTGGTGGTAGCCCCCCGCAGCATCACACTGAAGGAGGCAAATGAAATT
+CTGCAGCGCAGCAAGAAGGGAAAGTTGCCCATTGTAAATGAAGATGATGAGCTTGTGGCC
+ATCATTGCCCGGACAGACCTGAAGAAGAATCGGGACTACCCACTAGCCTCCAAAGATGCC
+AAGAAACAGCTGCTGTGTGGGGCAGCCATTGGCACTCATGAGGATGACAAGTATAGGCTG
+GACTTGCTCGCCCAGGCTGGTGTGGATGTAGTGGTTTTGGACTCTTCCCAGGGAAATTCC
+ATCTTCCAGATCAATATGATCAAGTACATCAAAGACAAATACCCTAATCTCCAAGTCATT
+GGAGGCAATGTGGTCACTGCTGCCCAGGCCAAGAACCTCATTGATGCAGGTGTGGATGCC
+CTGCGGGTGGGCATGGGAAGTGGCTCCATCTGCATTACGCAGGAAGTGCTGGCCTGTGGG
+CGGCCCCAAGCAACAGCAGTGTACAAGGTGTCAGAGTATGCACGGCGCTTTGGTGTTCCG
+GTCATTGCTGATGGAGGAATCCAAAATGTGGGTCATATTGCGAAAGCCTTGGCCCTTGGG
+GCCTCCACAGTCATGATGGGCTCTCTCCTGGCTGCCACCACTGAGGCCCCTGGTGAATAC
+TTCTTTTCCGATGGGATCCGGCTAAAGAAATATCGCGGTATGGGTTCTCTCGATGCCATG
+GACAAGCACCTCAGCAGCCAGAACAGATATTTCAGTGAAGCTGACAAAATCAAAGTGGCC
+CAGGGAGTGTCTGGTGCTGTGCAGGACAAAGGGTCAATCCACAAATTTGTCCCTTACCTG
+ATTGCTGGCATCCAACACTCATGCCAGGACATTGGTGCCAAGAGCTTGACCCAAGTCCGA
+GCCATGATGTACTCTGGGGAGCTTAAGTTTGAGAAGAGAACGTCCTCAGCCCAGGTGGAA
+GGTGGCGTCCATAGCCTCCATTCGTATGAGAAGCGGCTTTTCTGA
+
+# Drug_Target_1_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_1_General_References:
+10097070	Colby TD, Vanderveen K, Strickler MD, Markham GD, Goldstein BM: Crystal structure of human type II inosine monophosphate dehydrogenase: implications for ligand binding and drug design. Proc Natl Acad Sci U S A. 1999 Mar 30;96(7):3531-6.
+1969416	Natsumeda Y, Ohno S, Kawasaki H, Konno Y, Weber G, Suzuki K: Two distinct cDNAs for human IMP dehydrogenase. J Biol Chem. 1990 Mar 25;265(9):5292-5.
+2902093	Collart FR, Huberman E: Cloning and sequence analysis of the human and Chinese hamster inosine-5'-monophosphate dehydrogenase cDNAs. J Biol Chem. 1988 Oct 25;263(30):15769-72.
+7763314	Hager PW, Collart FR, Huberman E, Mitchell BS: Recombinant human inosine monophosphate dehydrogenase type I and type II proteins. Purification and characterization of inhibitor binding. Biochem Pharmacol. 1995 May 11;49(9):1323-9.
+7896827	Zimmermann AG, Spychala J, Mitchell BS: Characterization of the human inosine-5'-monophosphate dehydrogenase type II gene. J Biol Chem. 1995 Mar 24;270(12):6808-14.
+7999076	Glesne DA, Huberman E: Cloning and sequence of the human type II IMP dehydrogenase gene. Biochem Biophys Res Commun. 1994 Nov 30;205(1):537-44.
+8098009	Glesne D, Collart F, Varkony T, Drabkin H, Huberman E: Chromosomal localization and structure of the human type II IMP dehydrogenase gene (IMPDH2). Genomics. 1993 Apr;16(1):274-7.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:6053
+
+# Drug_Target_1_HPRD_ID:
+00895
+
+# Drug_Target_1_ID:
+796
+
+# Drug_Target_1_Locus:
+3p21.2
+
+# Drug_Target_1_Molecular_Weight:
+55806
+
+# Drug_Target_1_Name:
+Inosine-5'-monophosphate dehydrogenase 2
+
+# Drug_Target_1_Number_of_Residues:
+514
+
+# Drug_Target_1_PDB_ID:
+1NFB
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00478	IMPDH
+PF00571	CBS
+
+# Drug_Target_1_Protein_Sequence:
+>Inosine-5'-monophosphate dehydrogenase 2
+MADYLISGGTSYVPDDGLTAQQLFNCGDGLTYNDFLILPGYIDFTADQVDLTSALTKKIT
+LKTPLVSSPMDTVTEAGMAIAMALTGGIGFIHHNCTPEFQANEVRKVKKYEQGFITDPVV
+LSPKDRVRDVFEAKARHGFCGIPITDTGRMGSRLVGIISSRDIDFLKEEEHDCFLEEIMT
+KREDLVVAPAGITLKEANEILQRSKKGKLPIVNEDDELVAIIARTDLKKNRDYPLASKDA
+KKQLLCGAAIGTHEDDKYRLDLLAQAGVDVVVLDSSQGNSIFQINMIKYIKDKYPNLQVI
+GGNVVTAAQAKNLIDAGVDALRVGMGSGSICITQEVLACGRPQATAVYKVSEYARRFGVP
+VIADGGIQNVGHIAKALALGASTVMMGSLLAATTEAPGEYFFSDGIRLKKYRGMGSLDAM
+DKHLSSQNRYFSEADKIKVAQGVSGAVQDKGSIHKFVPYLIAGIQHSCQDIGAKSLTQVR
+AMMYSGELKFEKRTSSAQVEGGVHSLHSYEKRLF
+
+# Drug_Target_1_Reaction:
+inosine 5'-phosphate + NAD+ + H2O = xanthosine 5'-phosphate + NADH + H+
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Rate limiting enzyme in the de novo synthesis of guanine nucleotides and therefore is involved in the regulation of cell growth. It may also have a role in the development of malignancy and the growth progression of some tumors
+
+# Drug_Target_1_SwissProt_ID:
+P12268
+
+# Drug_Target_1_SwissProt_Name:
+IMDH2_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 1.1.1.205
+IMP dehydrogenase 2
+IMPD 2
+IMPDH-II
+
+# Drug_Target_1_Theoretical_pI:
+6.90
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB03070

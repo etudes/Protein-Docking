@@ -1,0 +1,962 @@
+#BEGIN_DRUGCARD DB03880
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+130370-60-4
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C23H31N3O4S2
+
+# Chemical_IUPAC_Name:
+(2R,3S)-N-hydroxy-N'-[(1S)-1-(methylcarbamoyl)-2-phenylethyl]-2-(2-methylpropyl)-3-[(thiophen-2-ylsulfanyl)methyl]butanediamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Antineoplastic Agents
+Protease Inhibitors
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Batimastat
+
+# HET_ID:
+BAT
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C23H31N3O4S2/c1-15(2)12-17(18(22(28)26-30)14-32-20-10-7-11-31-20)21(27)25-19(23(29)24-3)13-16-8-5-4-6-9-16/h4-11,15,17-19,30H,12-14H2,1-3H3,(H,24,29)(H,25,27)(H,26,28)/t17-,18+,19+/m1/s1
+
+# InChI_Key:
+InChIKey=XFILPEOLDIKJHX-QYZOEREBSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D03061
+
+# LIMS_Drug_ID:
+3880
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+477.64
+
+# Molecular_Weight_Mono:
+477.175597875
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+1RM8
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+An anticancer drug that belongs to the family of drugs called angiogenesis inhibitors. Batimastat is a matrix metalloproteinase inhibitor.
+
+# Predicted_LogP_Hydrophobicity:
+3.23
+
+# Predicted_LogS:
+-5.4
+
+# Predicted_Water_Solubility:
+1.73e-03 g/l
+
+# Primary_Accession_No:
+DB03880
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+5362422
+
+# PubChem_Substance_ID:
+46505727
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT00627
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@@](CC1=CC=CC=C1)(NC(=O)[C@]([H])(CC(C)C)[C@]([H])(CSC1=CC=CS1)C(=O)NO)C(=O)NC
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+BB94
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:22:43 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasmic granule. Note=Stored in intracellular granules
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+MMP8
+
+# Drug_Target_1_GenBank_ID_Gene:
+J05556
+
+# Drug_Target_1_GenBank_ID_Protein:
+180618
+
+# Drug_Target_1_GeneCard_ID:
+MMP8
+
+# Drug_Target_1_Gene_Name:
+MMP8
+
+# Drug_Target_1_Gene_Sequence:
+>1404 bp
+ATGTTCTCCCTGAAGACGCTTCCATTTCTGCTCTTACTCCATGTGCAGATTTCCAAGGCC
+TTTCCTGTATCTTCTAAAGAGAAAAATACAAAAACTGTTCAGGACTACCTGGAAAAGTTC
+TACCAATTACCAAGCAACCAGTATCAGTCTACAAGGAAGAATGGCACTAATGTGATCGTT
+GAAAAGCTTAAAGAAATGCAGCGATTTTTTGGGTTGAATGTGACGGGGAAGCCAAATGAG
+GAAACTCTGGACATGATGAAAAAGCCTCGCTGTGGAGTGCCTGACAGTGGTGGTTTTATG
+TTAACCCCAGGAAACCCCAAGTGGGAACGCACTAACTTGACCTACAGGATTCGAAACTAT
+ACCCCACAGCTGTCAGAGGCTGAGGTAGAAAGAGCTATCAAGGATGCCTTTGAACTCTGG
+AGTGTTGCATCACCTCTCATCTTCACCAGGATCTCACAGGGAGAGGCAGATATCAACATT
+GCTTTTTACCAAAGAGATCACGGTGACAATTCTCCATTTGATGGACCCAATGGAATCCTT
+GCTCATGCCTTTCAGCCAGGCCAAGGTATTGGAGGAGATGCTCATTTTGATGCCGAAGAA
+ACATGGACCAACACCTCCGCAAATTACAACTTGTTTCTTGTTGCTGCTCATGAATTTGGC
+CATTCTTTGGGGCTCGCTCACTCCTCTGACCCTGGTGCCTTGATGTATCCCAACTATGCT
+TTCAGGGAAACCAGCAACTACTCACTCCCTCAAGATGACATCGATGGCATTCAGGCCATC
+TATGGACTTTCAAGCAACCCTATCCAACCTACTGGACCAAGCACACCCAAACCCTGTGAC
+CCCAGTTTGACATTTGATGCTATCACCACACTCCGTGGAGAAATACTTTTCTTTAAAGAC
+AGGTACTTCTGGAGAAGGCATCCTCAGCTACAAAGAGTCGAAATGAATTTTATTTCTCTA
+TTCTGGCCATCCCTTCCAACTGGTATACAGGCTGCTTATGAAGATTTTGACAGAGACCTC
+ATTTTCCTATTTAAAGGCAACCAATACTGGGCTCTGAGTGGCTATGATATTCTGCAAGGT
+TATCCCAAGGATATATCAAACTATGGCTTCCCCAGCAGCGTCCAAGCAATTGACGCAGCT
+GTTTTCTACAGAAGTAAAACATACTTCTTTGTAAATGACCAATTCTGGAGATATGATAAC
+CAAAGACAATTCATGGAGCCAGGTTATCCCAAAAGCATATCAGGTGCCTTTCCAGGAATA
+GAGAGTAAAGTTGATGCAGTTTTCCAGCAAGAACATTTCTTCCATGTCTTCAGTGGACCA
+AGATATTACGCATTTGATCTTATTGCTCAGAGAGTTACCAGAGTTGCAAGAGGCAATAAA
+TGGCTTAACTGTAGATATGGCTGA
+
+# Drug_Target_1_General_Function:
+Involved in protease activity and collagen degradation
+
+# Drug_Target_1_General_References:
+1330697	Blaser J, Triebel S, Reinke H, Tschesche H: Formation of a covalent Hg-Cys-bond during mercurial activation of PMNL procollagenase gives evidence of a cysteine-switch mechanism. FEBS Lett. 1992 Nov 16;313(1):59-61.
+1662606	Blaser J, Knauper V, Osthues A, Reinke H, Tschesche H: Mercurial activation of human polymorphonuclear leucocyte procollagenase. Eur J Biochem. 1991 Dec 18;202(3):1223-30.
+2159879	Knauper V, Kramer S, Reinke H, Tschesche H: Characterization and activation of procollagenase from human polymorphonuclear leucocytes. N-terminal sequence determination of the proenzyme and various proteolytically activated forms. Eur J Biochem. 1990 Apr 30;189(2):295-300.
+2164002	Hasty KA, Pourmotabbed TF, Goldberg GI, Thompson JP, Spinella DG, Stevens RM, Mainardi CL: Human neutrophil collagenase. A distinct gene product with homology to other matrix metalloproteinases. J Biol Chem. 1990 Jul 15;265(20):11421-4.
+2169256	Knauper V, Kramer S, Reinke H, Tschesche H: Partial amino acid sequence of human PMN leukocyte procollagenase. Biol Chem Hoppe Seyler. 1990 May;371 Suppl:295-304.
+2169766	Knauper V, Kramer S, Reinke H, Tschesche H: Partial amino-acid sequence of human PMN leukocyte procollagenase. Biol Chem Hoppe Seyler. 1990 Aug;371(8):733.
+2176876	Mallya SK, Mookhtiar KA, Gao Y, Brew K, Dioszegi M, Birkedal-Hansen H, Van Wart HE: Characterization of 58-kilodalton human neutrophil collagenase: comparison with human fibroblast collagenase. Biochemistry. 1990 Nov 27;29(47):10628-34.
+7656015	Stams T, Spurlino JC, Smith DL, Wahl RC, Ho TF, Qoronfleh MW, Banks TM, Rubin B: Structure of human neutrophil collagenase reveals large S1' specificity pocket. Nat Struct Biol. 1994 Feb;1(2):119-23.
+8137810	Bode W, Reinemer P, Huber R, Kleine T, Schnierer S, Tschesche H: The X-ray crystal structure of the catalytic domain of human neutrophil collagenase inhibited by a substrate analogue reveals the essentials for catalysis and specificity. EMBO J. 1994 Mar 15;13(6):1263-9.
+8307185	Reinemer P, Grams F, Huber R, Kleine T, Schnierer S, Piper M, Tschesche H, Bode W: Structural implications for the role of the N terminus in the 'superactivation' of collagenases. A crystallographic study. FEBS Lett. 1994 Jan 31;338(2):227-33.
+9249047	Betz M, Huxley P, Davies SJ, Mushtaq Y, Pieper M, Tschesche H, Bode W, Gomis-Ruth FX: 1.8-A crystal structure of the catalytic domain of human neutrophil collagenase (matrix metalloproteinase-8) complexed with a peptidomimetic hydroxamate primed-side inhibitor with a distinct selectivity profile. Eur J Biochem. 1997 Jul 1;247(1):356-63.
+9655333	Brandstetter H, Engh RA, Von Roedern EG, Moroder L, Huber R, Bode W, Grams F: Structure of malonic acid-based inhibitors bound to human neutrophil collagenase. A new binding mode explains apparently anomalous data. Protein Sci. 1998 Jun;7(6):1303-9.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:7175
+
+# Drug_Target_1_HPRD_ID:
+00385
+
+# Drug_Target_1_ID:
+2154
+
+# Drug_Target_1_Locus:
+11q22.3
+
+# Drug_Target_1_Molecular_Weight:
+53413
+
+# Drug_Target_1_Name:
+Neutrophil collagenase
+
+# Drug_Target_1_Number_of_Residues:
+467
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00045	Hemopexin
+PF00413	Peptidase_M10
+PF01471	PG_binding_1
+
+# Drug_Target_1_Protein_Sequence:
+>Neutrophil collagenase precursor
+MFSLKTLPFLLLLHVQISKAFPVSSKEKNTKTVQDYLEKFYQLPSNQYQSTRKNGTNVIV
+EKLKEMQRFFGLNVTGKPNEETLDMMKKPRCGVPDSGGFMLTPGNPKWERTNLTYRIRNY
+TPQLSEAEVERAIKDAFELWSVASPLIFTRISQGEADINIAFYQRDHGDNSPFDGPNGIL
+AHAFQPGQGIGGDAHFDAEETWTNTSANYNLFLVAAHEFGHSLGLAHSSDPGALMYPNYA
+FRETSNYSLPQDDIDGIQAIYGLSSNPIQPTGPSTPKPCDPSLTFDAITTLRGEILFFKD
+RYFWRRHPQLQRVEMNFISLFWPSLPTGIQAAYEDFDRDLIFLFKGNQYWALSGYDILQG
+YPKDISNYGFPSSVQAIDAAVFYRSKTYFFVNDQFWRYDNQRQFMEPGYPKSISGAFPGI
+ESKVDAVFQQEHFFHVFSGPRYYAFDLIAQRVTRVARGNKWLNCRYG
+
+# Drug_Target_1_Reaction:
+Cleavage of interstitial collagens in the triple helical domain. Unlike internal_xref(ec_num(3,4,24,7)), this enzyme cleaves type III collagen more slowly than type I
+
+# Drug_Target_1_Signals:
+1-20
+
+# Drug_Target_1_Specific_Function:
+Can degrade fibrillar type I, II, and III collagens
+
+# Drug_Target_1_SwissProt_ID:
+P22894
+
+# Drug_Target_1_SwissProt_Name:
+MMP8_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 3.4.24.34
+MMP-8
+Matrix metalloproteinase-8
+Neutrophil collagenase precursor
+PMNL collagenase
+PMNL-CL
+
+# Drug_Target_1_Theoretical_pI:
+6.86
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+MMP12
+
+# Drug_Target_2_GenBank_ID_Gene:
+L23808
+
+# Drug_Target_2_GenBank_ID_Protein:
+435970
+
+# Drug_Target_2_GeneCard_ID:
+MMP12
+
+# Drug_Target_2_Gene_Name:
+MMP12
+
+# Drug_Target_2_Gene_Sequence:
+>1413 bp
+ATGAAGTTTCTTCTAATACTGCTCCTGCAGGCCACTGCTTCTGGAGCTCTTCCCCTGAAC
+AGCTCTACAAGCCTGGAAAAAAATAATGTGCTATTTGGTGAGAGATACTTAGAAAAATTT
+TATGGCCTTGAGATAAACAAACTTCCAGTGACAAAAATGAAATATAGTGGAAACTTAATG
+AAGGAAAAAATCCAAGAAATGCAGCACTTCTTGGGTCTGAAAGTGACCGGGCAACTGGAC
+ACATCTACCCTGGAGATGATGCACGCACCTCGATGTGGAGTCCCCGATCTCCATCATTTC
+AGGGAAATGCCAGGGGGGCCCGTATGGAGGAAACATTATATCACCTACAGAATCAATAAT
+TACACACCTGACATGAACCGTGAGGATGTTGACTACGCAATCCGGAAAGCTTTCCAAGTA
+TGGAGTAATGTTACCCCCTTGAAATTCAGCAAGATTAACACAGGCATGGCTGACATTTTG
+GTGGTTTTTGCCCGTGGAGCTCATGGAGACTTCCATGCTTTTGATGGCAAAGGTGGAATC
+CTAGCCCATGCTTTTGGACCTGGATCTGGCATTGGAGGGGATGCACATTTCGATGAGGAC
+GAATTCTGGACTACACATTCAGGAGGCACAAACTTGTTCCTCACTGCTGTTCACGAGATT
+GGCCATTCCTTAGGTCTTGGCCATTCTAGTGATCCAAAGGCTGTAATGTTCCCCACCTAC
+AAATATGTCGACATCAACACATTTCGCCTCTCTGCTGATGACATACGTGGCATTCAGTCC
+CTGTATGGAGACCCAAAAGAGAACCAACGCTTGCCAAATCCTGACAATTCAGAACCAGCT
+CTCTGTGACCCCAATTTGAGTTTTGATGCTGTCACTACCGTGGGAAATAAGATCTTTTTC
+TTCAAAGACAGGTTCTTCTGGCTGAAGGTTTCTGAGAGACCAAAGACCAGTGTTAATTTA
+ATTTCTTCCTTATGGCCAACCTTGCCATCTGGCATTGAAGCTGCTTATGAAATTGAAGCC
+AGAAATCAAGTTTTTCTTTTTAAAGATGACAAATACTGGTTAATTAGCAATTTAAGACCA
+GAGCCAAATTATCCCAAGAGCATACATTCTTTTGGTTTTCCTAACTTTGTGAAAAAAATT
+GATGCAGCTGTTTTTAACCCACGTTTTTATAGGACCTACTTCTTTGTAGATAACCAGTAT
+TGGAGGTATGATGAAAGGAGACAGATGATGGACCCTGGTTATCCCAAACTGATTACCAAG
+AACTTCCAAGGAATCGGGCCTAAAATTGATGCAGTCTTCTATTCTAAAAACAAATACTAC
+TATTTCTTCCAAGGATCTAACCAATTTGAATATGACTTCCTACTCCAACGTATCACCAAA
+ACACTGAAAAGCAATAGCTGGTTTGGTTGTTAG
+
+# Drug_Target_2_General_Function:
+Involved in protease activity
+
+# Drug_Target_2_General_References:
+11575928	Lang R, Kocourek A, Braun M, Tschesche H, Huber R, Bode W, Maskos K: Substrate specificity determinants of human macrophage elastase (MMP-12) based on the 1.1 A crystal structure. J Mol Biol. 2001 Sep 28;312(4):731-42.
+11575929	Nar H, Werle K, Bauer MM, Dollinger H, Jung B: Crystal structure of human macrophage elastase (MMP-12) in complex with a hydroxamic acid inhibitor. J Mol Biol. 2001 Sep 28;312(4):743-51.
+8226919	Shapiro SD, Kobayashi DK, Ley TJ: Cloning and characterization of a unique elastolytic metalloproteinase produced by human alveolar macrophages. J Biol Chem. 1993 Nov 15;268(32):23824-9.
+9115292	Gronski TJ Jr, Martin RL, Kobayashi DK, Walsh BC, Holman MC, Huber M, Van Wart HE, Shapiro SD: Hydrolysis of a broad spectrum of extracellular matrix proteins by human macrophage elastase. J Biol Chem. 1997 May 2;272(18):12189-94.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:7158
+
+# Drug_Target_2_HPRD_ID:
+03027
+
+# Drug_Target_2_ID:
+2203
+
+# Drug_Target_2_Locus:
+11q22.3
+
+# Drug_Target_2_Molecular_Weight:
+54002
+
+# Drug_Target_2_Name:
+Macrophage metalloelastase
+
+# Drug_Target_2_Number_of_Residues:
+470
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00045	Hemopexin
+PF00413	Peptidase_M10
+PF01471	PG_binding_1
+
+# Drug_Target_2_Protein_Sequence:
+>Macrophage metalloelastase precursor
+MKFLLILLLQATASGALPLNSSTSLEKNNVLFGERYLEKFYGLEINKLPVTKMKYSGNLM
+KEKIQEMQHFLGLKVTGQLDTSTLEMMHAPRCGVPDVHHFREMPGGPVWRKHYITYRINN
+YTPDMNREDVDYAIRKAFQVWSNVTPLKFSKINTGMADILVVFARGAHGDFHAFDGKGGI
+LAHAFGPGSGIGGDAHFDEDEFWTTHSGGTNLFLTAVHEIGHSLGLGHSSDPKAVMFPTY
+KYVDINTFRLSADDIRGIQSLYGDPKENQRLPNPDNSEPALCDPNLSFDAVTTVGNKIFF
+FKDRFFWLKVSERPKTSVNLISSLWPTLPSGIEAAYEIEARNQVFLFKDDKYWLISNLRP
+EPNYPKSIHSFGFPNFVKKIDAAVFNPRFYRTYFFVDNQYWRYDERRQMMDPGYPKLITK
+NFQGIGPKIDAVFYSKNKYYYFFQGSNQFEYDFLLQRITKTLKSNSWFGC
+
+# Drug_Target_2_Reaction:
+Hydrolysis of soluble and insoluble elastin [1]. Specific cleavages are also produced at -Ala14!Leu- and -Tyr16!Leu- in the B chain of insulin [2]
+
+# Drug_Target_2_Signals:
+1-16
+
+# Drug_Target_2_Specific_Function:
+May be involved in tissue injury and remodeling. Has significant elastolytic activity. Can accept large and small amino acids at the P1' site, but has a preference for leucine. Aromatic or hydrophobic residues are preferred at the P1 site, with small hydrophobic residues (preferably alanine) occupying P3
+
+# Drug_Target_2_SwissProt_ID:
+P39900
+
+# Drug_Target_2_SwissProt_Name:
+MMP12_HUMAN
+
+# Drug_Target_2_Synonyms:
+EC 3.4.24.65
+HME
+ME
+MMP-12
+Macrophage elastase
+Macrophage metalloelastase precursor
+Matrix metalloproteinase-12
+
+# Drug_Target_2_Theoretical_pI:
+8.98
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Isoform Long:Cell membrane
+single-pass type I membrane protein (Potential). Isoform Short:Secreted
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+MMP16
+
+# Drug_Target_3_GenBank_ID_Gene:
+AB009303
+
+# Drug_Target_3_GenBank_ID_Protein:
+2662306
+
+# Drug_Target_3_GeneCard_ID:
+MMP16
+
+# Drug_Target_3_Gene_Name:
+MMP16
+
+# Drug_Target_3_Gene_Sequence:
+>1824 bp
+ATGATCTTACTCACATTCAGCACTGGAAGACGGTTGGATTTCGTGCATCATTCGGGGGTG
+TTTTTCTTGCAAACCTTGCTTTGGATTTTATGTGCTACAGTCTGCGGAACGGAGCAGTAT
+TTCAATGTGGAGGTTTGGTTACAAAAGTACGGCTACCTTCCACCGACTGACCCCAGAATG
+TCAGTGCTGCGCTCTGCAGAGACCATGCAGTCTGCCCTAGCTGCCATGCAGCAGTTCTAT
+GGCATTAACATGACAGGAAAAGTGGACAGAAACACAATTGACTGGATGAAGAAGCCCCGA
+TGCGGTGTACCTGACCAGACAAGAGGTAGCTCCAAATTTCATATTCGTCGAAAGCGATAT
+GCATTGACAGGACAGAAATGGCAGCACAAGCACATCACTTACAGTATAAAGAACGTAACT
+CCAAAAGTAGGAGACCCTGAGACTCGTAAAGCTATTCGCCGTGCCTTTGATGTGTGGCAG
+AATGTAACTCCTCTGACATTTGAAGAAGTTCCCTACAGTGAATTAGAAAATGGCAAACGT
+GATGTGGATATAACCATTATTTTTGCATCTGGTTTCCATGGGGACAGCTCTCCCTTTGAT
+GGAGAGGGAGGATTTTTGGCACATGCCTACTTCCCTGGACCAGGAATTGGAGGAGATACC
+CATTTTGACTCAGATGAGCCATGGACACTAGGAAATCCTAATCATGATGGAAATGACTTA
+TTTCTTGTAGCAGTCCATGAACTGGGACATGCTCTGGGATTGGAGCATTCCAATGACCCC
+ACTGCCATCATGGCTCCATTTTACCAGTACATGGAAACAGACAACTTCAAACTACCTAAT
+GATGATTTACAGGGCATCCAGAAAATATATGGTCCACCTGACAAGATTCCTCCACCTACA
+AGACCTCTACCGACAGTGCCCCCACACCGCTCTATTCCTCCGGCTGACCCAAGGAAAAAT
+GACAGGCCAAAACCTCCTCGGCCTCCAACCGGCAGACCCTCCTATCCCGGAGCCAAACCC
+AACATCTGTGATGGGAACTTTAACACTCTAGCTATTCTTCGTCGTGAGATGTTTGTTTTC
+AAGGACCAGTGGTTTTGGCGAGTGAGAAACAACAGGGTGATGGATGGATACCCAATGCAA
+ATTACTTACTTCTGGCGGGGCTTGCCTCCTAGTATCGATGCAGTTTATGAAAATAGCGAC
+GGGAATTTTGTGTTCTTTAAAGGTAACAAATATTGGGTGTTCAAGGATACAACTCTTCAA
+CCTGGTTACCCTCATGACTTGATAACCCTTGGAAGTGGAATTCCCCCTCATGGTATTGAT
+TCAGCCATTTGGTGGGAGGACGTCGGGAAAACCTATTTCTTCAAGGGAGACAGATATTGG
+AGATATAGTGAAGAAATGAAAACAATGGACCCTGGCTATCCCAAGCCAATCACAGTCTGG
+AAAGGGATCCCTGAATCTCCTCAGGGAGCATTTGTACACAAAGAAAATGGCTTTACGTAT
+TTCTACAAAGGAAAGGAGTATTGGAAATTCAACAACCAGATACTCAAGGTAGAACCTGGA
+CATCCAAGATCCATCCTCAAGGATTTTATGGGCTGTGATGGACCAACAGACAGAGTTAAA
+GAAGGACACAGCCCACCAGATGATGTAGACATTGTCATCAAACTGGACAACACAGCCAGC
+ACTGTGAAAGCCATAGCTATTGTCATTCCCTGCATCTTGGCCTTATGCCTCCTTGTATTG
+GTTTACACTGTGTTCCAGTTCAAGAGGAAAGGAACACCCCGCCACATACTGTACTGTAAA
+CGCTCTATGCAAGAGTGGGTGTGA
+
+# Drug_Target_3_General_Function:
+Involved in protease activity
+
+# Drug_Target_3_General_References:
+7559440	Takino T, Sato H, Shinagawa A, Seiki M: Identification of the second membrane-type matrix metalloproteinase (MT-MMP-2) gene from a human placenta cDNA library. MT-MMPs form a unique membrane-type subclass in the MMP family. J Biol Chem. 1995 Sep 29;270(39):23013-20.
+9092507	Shofuda K, Yasumitsu H, Nishihashi A, Miki K, Miyazaki K: Expression of three membrane-type matrix metalloproteinases (MT-MMPs) in rat vascular smooth muscle cells and characterization of MT3-MMPs with and without transmembrane domain. J Biol Chem. 1997 Apr 11;272(15):9749-54.
+9396633	Matsumoto S, Katoh M, Saito S, Watanabe T, Masuho Y: Identification of soluble type of membrane-type matrix metalloproteinase-3 formed by alternatively spliced mRNA. Biochim Biophys Acta. 1997 Nov 1;1354(2):159-70.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:7162
+
+# Drug_Target_3_HPRD_ID:
+03776
+
+# Drug_Target_3_ID:
+2970
+
+# Drug_Target_3_Locus:
+8q21
+
+# Drug_Target_3_Molecular_Weight:
+69522
+
+# Drug_Target_3_Name:
+Matrix metalloproteinase-16
+
+# Drug_Target_3_Number_of_Residues:
+607
+
+# Drug_Target_3_PDB_ID:
+1RM8
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00045	Hemopexin
+PF00413	Peptidase_M10
+PF01471	PG_binding_1
+
+# Drug_Target_3_Protein_Sequence:
+>Matrix metalloproteinase-16 precursor
+MILLTFSTGRRLDFVHHSGVFFLQTLLWILCATVCGTEQYFNVEVWLQKYGYLPPTDPRM
+SVLRSAETMQSALAAMQQFYGINMTGKVDRNTIDWMKKPRCGVPDQTRGSSKFHIRRKRY
+ALTGQKWQHKHITYSIKNVTPKVGDPETRKAIRRAFDVWQNVTPLTFEEVPYSELENGKR
+DVDITIIFASGFHGDSSPFDGEGGFLAHAYFPGPGIGGDTHFDSDEPWTLGNPNHDGNDL
+FLVAVHELGHALGLEHSNDPTAIMAPFYQYMETDNFKLPNDDLQGIQKIYGPPDKIPPPT
+RPLPTVPPHRSIPPADPRKNDRPKPPRPPTGRPSYPGAKPNICDGNFNTLAILRREMFVF
+KDQWFWRVRNNRVMDGYPMQITYFWRGLPPSIDAVYENSDGNFVFFKGNKYWVFKDTTLQ
+PGYPHDLITLGSGIPPHGIDSAIWWEDVGKTYFFKGDRYWRYSEEMKTMDPGYPKPITVW
+KGIPESPQGAFVHKENGFTYFYKGKEYWKFNNQILKVEPGYPRSILKDFMGCDGPTDRVK
+EGHSPPDDVDIVIKLDNTASTVKAIAIVIPCILALCLLVLVYTVFQFKRKGTPRHILYCK
+RSMQEWV
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+1-31
+
+# Drug_Target_3_Specific_Function:
+Endopeptidase that degrades various components of the extracellular matrix, such as collagen type III and fibronectin. Activates progelatinase A. Involved in the matrix remodeling of blood vessels. The short isoform cleaves fibronectin and also collagen type III, but at lower rate. It has no effect on type I, II, IV and V collagen. However, upon interaction with CSPG4, it may be involved in degradation and invasion of type I collagen by melanoma cells
+
+# Drug_Target_3_SwissProt_ID:
+P51512
+
+# Drug_Target_3_SwissProt_Name:
+MMP16_HUMAN
+
+# Drug_Target_3_Synonyms:
+EC 3.4.24.-
+MMP- X2
+MMP-16
+MT-MMP 3
+MT3-MMP
+MT3MMP
+MTMMP3
+Matrix metalloproteinase-16 precursor
+Membrane-type matrix metalloproteinase 3
+Membrane-type-3 matrix metalloproteinase
+
+# Drug_Target_3_Theoretical_pI:
+8.74
+
+# Drug_Target_3_Transmembrane_Regions:
+565-585
+
+# Drug_Target_4_Cellular_Location:
+Isoform 2:Secreted
+
+# Drug_Target_4_Chromosome_Location:
+8
+
+# Drug_Target_4_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Gene:
+AF137334
+
+# Drug_Target_4_GenBank_ID_Protein:
+4583505
+
+# Drug_Target_4_GeneCard_ID:
+ADAM28
+
+# Drug_Target_4_Gene_Name:
+ADAM28
+
+# Drug_Target_4_Gene_Sequence:
+>2328 bp
+ATGTTGCAAGGTCTCCTGCCAGTCAGTCTCCTCCTCTCTGTTGCAGTAAGTGCTATAAAA
+GAACTCCCTGGGGTGAAGAAGTATGAAGTGGTTTATCCTATAAGACTTCATCCACTGCAT
+AAAAGAGAGGCCAAAGAGCCAGAGCAACAGGAACAATTTGAAACTGAATTAAAGTATAAA
+ATGACAATTAATGGAAAAATTGCAGTGCTTTATTTGAAAAAAAACAAGAACCTCCTTGCA
+CCAGGCTACACGGAAACATATTATAATTCCACTGGAAAGGAGATCACCACAAGCCCACAA
+ATTATGGATGATTGTTATTATCAAGGACATATTCTTAATGAAAAGGTTTCTGACGCTAGC
+ATCAGCACATGTAGGGGTCTAAGGGGCTACTTCAGTCAGGGGGATCAAAGATACTTTATT
+GAACCTTTAAGCCCCATACATCGGGATGGACAGGAGCATGCACTCTTCAAGTATAACCCT
+GATGAAAAGAATTATGACAGCACCTGTGGGATGGATGGTGTGTTGTGGGCCCACGATTTG
+CAGCAGAACATTGCCCTACCTGCCACCAAACTAGTAAAATTGAAAGACAGGAAGGTTCAG
+GAACATGAGAAATACATAGAATATTATCTGGTCCTGGATAATGGTGAGTTTAAAAGGTAC
+AATGAGAATCAAGATGAGATCAGAAAGAGGGTATTTGAGATGGCTAATTATGTCAACATG
+CTTTATAAAAAGCTCAATACTCATGTGGCCTTAGTTGGTATGGAAATCTGGACTGACAAG
+GATAAGATAAAGATAACCCCAAATGCAAGCTTCACCTTGGAGAATTTTTCTAAATGGAGG
+GGGAGTGTTCTCTCAAGAAGAAAGCGTCATGATATTGCTCAGTTAATCACAGCAACAGAA
+CTTGCTGGAACGACTGTGGGTCTTGCATTTATGTCTACAATGTGTTCTCCTTATTCTGTT
+GGCGTTGTTCAGGACCACAGCGATAATCTTCTTAGAGTTGCAGGGACAATGGCACATGAA
+ATGGGCCACAACTTTGGAATGTTTCATGACGACTATTCTTGCAAGTGTCCTTCTACAATA
+TGTGTGATGGACAAAGCACTGAGCTTCTATATACCCACAGACTTCAGTTCCTGCAGCCGT
+CTCAGCTATGACAAGTTTTTTGAAGATAAATTATCAAATTGCCTCTTTAATGCTCCATTG
+CCTACAGATATCATATCCACTCCAATTTGTGGGAACCAGTTGGTGGAAATGGGAGAGGAC
+TGTGATTGTGGGACATCTGAGGAATGTACCAATATTTGCTGTGATGCTAAGACATGTAAA
+ATCAAAGCAACTTTTCAATGTGCATTAGGAGAATGTTGTGAAAAATGCCAATTTAAAAAG
+GCTGGGATGGTGTGCAGACCAGCAAAAGATGAGTGCGACCTGCCTGAAATGTGTAATGGT
+AAATCTGGTAATTGTCCTGATGATAGATTCCAAGTCAATGGCTTCCCTTGCCATCACGGG
+AAGGGCCACTGCTTGATGGGCACATGCCCCACACTGCGGGAGCAGTGCACAGAGCTGTGG
+GGACCAGGAACTGAGGTTGCAGATAAGTCATGTTACAACAGGAATGAAGGTGGGTCAAAG
+TACGGGTACTGTCGCAGAGTGGATGACACACTCATTCCCTGCAAAGCAAATGATACCATG
+TGTGGGAAGTTGTTCTGTCAAGGTGGGTCGGATAATTTGCCCTGGAAAGGACGGATAGTG
+ACTTTCCTGACATGTAAAACATTTGATCCTGAAGACACAAGTCAAGAAATAGGCATGGTG
+GCCAATGGAACTAAGTGTGGCGATAACAAGGTTTGCATTAATGCAGAATGTGTGGATATT
+GAGAAAGCCTACAAATCAACCAATTGCTCATCCAAGTGCAAAGGACATGCTGTGTGTGAC
+CATGAGCTCCAGTGTCAATGTGAGGAAGGATGGATCCCTCCCGACTGCGATGACTCCTCA
+GTGGTCTTCCACTTCTCCATTGTGGTTGGGGTGCTGTTCCCAATGGCGGTCATTTTTGTG
+GTGGTTGCTATGGTAATCCGGCACCAGAGCTCCAGAGAAAAGCAGAAGAAAGATCAGAGG
+CCACTATCTACCACTGGCACCAGGCCACACAAACAGAAGAGGAAACCCCAGATGGTAAAG
+GCTGTTCAACCCCAAGAGATGAGTCAGATGAAGCCCCATGTGTATGATCTGCCAGTAGAA
+GGCAATGAGCCCCCAGCCTCTTTTCATAAAGACACAAACGCACTTCCCCCTACTGTTTTC
+AAGGATAATCCAATGTCTACACCTAAGGACTCAAATCCAGAAGCATGA
+
+# Drug_Target_4_General_Function:
+Involved in metalloendopeptidase activity
+
+# Drug_Target_4_General_References:
+10506182	Roberts CM, Tani PH, Bridges LC, Laszik Z, Bowditch RD: MDC-L, a novel metalloprotease disintegrin cysteine-rich protein family member expressed by human lymphocytes. J Biol Chem. 1999 Oct 8;274(41):29251-9.
+10587367	Jury JA, Perry AC, Hall L: Identification, sequence analysis and expression of transcripts encoding a putative metalloproteinase, eMDC II, in human and macaque epididymis. Mol Hum Reprod. 1999 Dec;5(12):1127-34.
+
+# Drug_Target_4_HGNC_ID:
+GNC:206
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+6374
+
+# Drug_Target_4_Locus:
+8p21.2
+
+# Drug_Target_4_Molecular_Weight:
+87180.0
+
+# Drug_Target_4_Name:
+Disintegrin and metalloproteinase domain-containing protein 28
+
+# Drug_Target_4_Number_of_Residues:
+775
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00200	Disintegrin
+PF01421	Reprolysin
+PF01562	Pep_M12B_propep
+PF08516	ADAM_CR
+
+# Drug_Target_4_Protein_Sequence:
+>Disintegrin and metalloproteinase domain-containing protein 28
+MLQGLLPVSLLLSVAVSAIKELPGVKKYEVVYPIRLHPLHKREAKEPEQQEQFETELKYK
+MTINGKIAVLYLKKNKNLLAPGYTETYYNSTGKEITTSPQIMDDCYYQGHILNEKVSDAS
+ISTCRGLRGYFSQGDQRYFIEPLSPIHRDGQEHALFKYNPDEKNYDSTCGMDGVLWAHDL
+QQNIALPATKLVKLKDRKVQEHEKYIEYYLVLDNGEFKRYNENQDEIRKRVFEMANYVNM
+LYKKLNTHVALVGMEIWTDKDKIKITPNASFTLENFSKWRGSVLSRRKRHDIAQLITATE
+LAGTTVGLAFMSTMCSPYSVGVVQDHSDNLLRVAGTMAHEMGHNFGMFHDDYSCKCPSTI
+CVMDKALSFYIPTDFSSCSRLSYDKFFEDKLSNCLFNAPLPTDIISTPICGNQLVEMGED
+CDCGTSEECTNICCDAKTCKIKATFQCALGECCEKCQFKKAGMVCRPAKDECDLPEMCNG
+KSGNCPDDRFQVNGFPCHHGKGHCLMGTCPTLQEQCTELWGPGTEVADKSCYNRNEGGSK
+YGYCRRVDDTLIPCKANDTMCGKLFCQGGSDNLPWKGRIVTFLTCKTFDPEDTSQEIGMV
+ANGTKCGDNKVCINAECVDIEKAYKSTNCSSKCKGHAVCDHELQCQCEEGWIPPDCDDSS
+VVFHFSIVVGVLFPMAVIFVVVAMVIRHQSSREKQKKDQRPLSTTGTRPHKQKRKPQMVK
+AVQPQEMSQMKPHVYDLPVEGNEPPASFHKDTNALPPTVFKDNPMSTPKDSNPEA
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+1-18
+
+# Drug_Target_4_Specific_Function:
+May play a role in the adhesive and proteolytic events that occur during lymphocyte emigration or may function in ectodomain shedding of lymphocyte surface target proteins, such as FASL and CD40L. May be involved in sperm maturation
+
+# Drug_Target_4_SwissProt_ID:
+Q9UKQ2
+
+# Drug_Target_4_SwissProt_Name:
+ADA28_HUMAN
+
+# Drug_Target_4_Synonyms:
+ADAM 28
+Epididymial metalloproteinase-like, disintegrin-like, and cysteine-rich protein II
+MDC-L
+Metalloproteinase-like, disintegrin-like, and cysteine-rich protein L
+eMDC II
+
+# Drug_Target_4_Theoretical_pI:
+6.80
+
+# Drug_Target_4_Transmembrane_Regions:
+666-686
+
+# Drug_Target_5_Cellular_Location:
+Secreted, extracellular space, extracellular matrix (By similarity)
+
+# Drug_Target_5_Chromosome_Location:
+2
+
+# Drug_Target_5_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+Not Available
+
+# Drug_Target_5_GenBank_ID_Gene:
+AF142099
+
+# Drug_Target_5_GenBank_ID_Protein:
+5733438
+
+# Drug_Target_5_GeneCard_ID:
+ADAMTS5
+
+# Drug_Target_5_Gene_Name:
+ADAMTS5
+
+# Drug_Target_5_Gene_Sequence:
+>2793 bp
+ATGCTGCTCGGGTGGGCGTCCCTGCTGCTGTGCGCGTTCCGCCTGCCCCTGGCCGCGGTC
+GGCCCCGCCGCGACACCTGCCCAGGATAAAGCCGGGCAGCCTCCGACTGCTGCAGCAGCC
+GCCCAGCCCCGCCGGCGGCAGGGGGAGGAGGTGCAGGAGCGAGCCGAGCCTCCCGGCCAC
+CCGCACCCCCTGGCGCAGCGGCGCAGGAGCAAGGGGCTGGTGCAGAACATCGACCAACTC
+TACTCCGGCGGCGGCAAGGTGGGCTACCTCGTCTACGCGGGCGGCCGGAGGTTCCTCTTG
+GACCTGGAGCGAGATGGTTCGGTGGGCATTGCTGGCTTCGTGCCCGCAGGAGGCGGGACG
+AGTGCGCCCTGGCGCCACCGGAGCCACTGCTTCTATCGGGGCACAGTGGACGCTAGTCCC
+CGCTCTCTGGCTGTCTTTGACCTCTGTGGGGGTCTCGACGGCTTCTTCGCGGTCAAGCAC
+GCGCGCTACACCCTAAAGCCACTGCTGCGCGGACCCTGGGCGGAGGAAGAAAAGGGGCGC
+GTGTACGGGGATGGGTCCGCACGGATCCTGCACGTCTACACCCGCGAGGGCTTCAGCTTC
+GAGGCCCTGCCGCCGCGCGCCAGCTGCGAAACCCCCGCGTCCACACCGGAGGCCCACGAG
+CATGCTCCGGCGCACAGCAACCCGAGCGGACGCGCAGCACTGGCCTCGCAGCTCTTGGAC
+CAGTCCGCTCTCTCGCCCGCTGGGGGCTCAGGACCGCAGACGTGGTGGCGGCGGCGGCGC
+CGCTCCATCTCCCGGGCCCGCCAGGTGGAGCTGCTTCTGGTGGCTGACGCGTCCATGGCG
+CGGTTGTATGGCCGGGGCCTGCAGCATTACCTGCTGACCCTGGCCTCCATCGCCAATAGG
+CTGTACAGCCATGCTAGCATCGAGAACCACATCCGCCTGGCCGTGGTGAAGGTGGTGGTG
+CTAGGCGACAAGGACAAGAGCCTGGAAGTGAGCAAGAACGCTGCCACCACACTCAAGAAC
+TTTTGCAAGTGGCAGCACCAACACAACCAGCTGGGAGATGACCATGAGGAGCACTACGAT
+GCAGCTATCCTGTTTACTCGGGAGGATTTATGTGGGCATCATTCATGTGACACCCTGGGA
+ATGGCAGACGTTGGGACCATATGTTCTCCAGAGCGCAGCTGTGCTGTGATTGAAGACGAT
+GGCCTCCACGCAGCCTTCACTGTGGCTCACGAAATCGGACATTTACTTGGCCTCTCCCAT
+GACGATTCCAAATTCTGTGAAGAGACCTTTGGTTCCACAGAAGATAAGCGCTTAATGTCT
+TCCATCCTTACCAGCATTGATGCATCTAAGCCCTGGTCCAAATGCACTTCAGCCACCATC
+ACAGAATTCCTGGATGATGGCCATGGTAACTGTTTGCTGGACCTACCACGAAAGCAGATC
+CTGGGCCCCGAAGAACTCCCAGGACAGACCTACGATGCCACCCAGCAGTGCAACCTGACA
+TTCGGGCCTGAGTACTCCGTGTGTCCCGGCATGGATGTCTGTGCTCGCCTGTGGTGTGCT
+GTGGTACGCCAGGGCCAGATGGTCTGTCTGACCAAGAAGCTGCCTGCGGTGGAAGGGACG
+CCTTGTGGAAAGGGGAGAATCTGCCTGCAGGGCAAATGTGTGGACAAAACCAAGAAAAAA
+TATTATTCAACGTCAAGCCATGGCAACTGGGGATCTTGGGGATCCTGGGGCCAGTGTTCT
+CGCTCATGTGGAGGAGGAGTGCAGTTTGCCTATCGTCACTGTAATAACCCTGCTCCCAGA
+AACAACGGACGCTACTGCACAGGGAAGAGGGCCATCTACCGCTCCTGCAGTCTCATGCCC
+TGCCCACCCAATGGTAAATCATTTCGTCATGAACAGTGTGAGGCCAAAAATGGCTATCAG
+TCTGATGCAAAAGGAGTCAAAACTTTTGTGGAATGGGTTCCCAAATATGCAGGTGTCCTG
+CCAGCGGATGTGTGCAAGCTGACCTGCAGAGCCAAGGGCACTGGCTACTATGTGGTATTT
+TCTCCAAAGGTGACCGATGGCACTGAATGTAGGCCGTACAGTAATTCCGTCTGCGTCCGG
+GGGAAGTGTGTGAGAACTGGCTGTGACGGCATCATTGGCTCAAAGCTGCAGTATGACAAG
+TGCGGAGTATGTGGAGGAGACAACTCCAGCTGTACAAAGATTGTTGGAACCTTTAATAAG
+AAAAGTAAGGGTTACACTGACGTGGTGAGGATTCCTGAAGGGGCAACCCACATAAAAGTT
+CGACAGTTCAAAGCCAAAGACCAGACTAGATTCACTGCCTATTTAGCCCTGAAAAAGAAA
+AACGGTGAGTACCTTATCAATGGAAAGTACATGATCTCCACTTCAGAGACTATCATTGAC
+ATCAATGGAACAGTCATGAACTATAGCGGTTGGAGCCACAGGGATGACTTCCTGCATGGC
+ATGGGCTACTCTGCCACGAAGGAAATTCTAATAGTGCAGATTCTTGCAACAGACCCCACT
+AAACCATTAGATGTCCGTTATAGCTTTTTTGTTCCCAAGAAGTCCACTCCAAAAGTAAAC
+TCTGTCACTAGTCATGGCAGCAATAAAGTGGGATCACACACTTCGCAGCCGCAGTGGGTC
+ACGGGCCCATGGCTCGCCTGCTCTAGGACCTGTGACACAGGTTGGCACACCAGAACGGTG
+CAGTGCCAGGATGGAAACCGGAAGTTAGCAAAAGGATGTCCTCTCTCCCAAAGGCCTTCT
+GCGTTTAAGCAATGCTTGTTGAAGAAATGTTAG
+
+# Drug_Target_5_General_Function:
+Involved in integrin binding
+
+# Drug_Target_5_General_References:
+10438522	Abbaszade I, Liu RQ, Yang F, Rosenfeld SA, Ross OH, Link JR, Ellis DM, Tortorella MD, Pratta MA, Hollis JM, Wynn R, Duke JL, George HJ, Hillman MC Jr, Murphy K, Wiswall BH, Copeland RA, Decicco CP, Bruckner R, Nagase H, Itoh Y, Newton RC, Magolda RL, Trzaskos JM, Burn TC, et al.: Cloning and characterization of ADAMTS11, an aggrecanase from the ADAMTS family. J Biol Chem. 1999 Aug 13;274(33):23443-50.
+10464288	Hurskainen TL, Hirohata S, Seldin MF, Apte SS: ADAM-TS5, ADAM-TS6, and ADAM-TS7, novel members of a new family of zinc metalloproteases. General features and genomic distribution of the ADAM-TS family. J Biol Chem. 1999 Sep 3;274(36):25555-63.
+10830953	Hattori M, Fujiyama A, Taylor TD, Watanabe H, Yada T, Park HS, Toyoda A, Ishii K, Totoki Y, Choi DK, Groner Y, Soeda E, Ohki M, Takagi T, Sakaki Y, Taudien S, Blechschmidt K, Polley A, Menzel U, Delabar J, Kumpf K, Lehmann R, Patterson D, Reichwald K, Rump A, Schillhabel M, Schudy A, Zimmermann W, Rosenthal A, Kudoh J, Schibuya K, Kawasaki K, Asakawa S, Shintani A, Sasaki T, Nagamine K, Mitsuyama S, Antonarakis SE, Minoshima S, Shimizu N, Nordsiek G, Hornischer K, Brant P, Scharfe M, Schon O, Desario A, Reichelt J, Kauer G, Blocker H, Ramser J, Beck A, Klages S, Hennig S, Riesselmann L, Dagand E, Haaf T, Wehrmeyer S, Borzym K, Gardiner K, Nizetic D, Francis F, Lehrach H, Reinhardt R, Yaspo ML: The DNA sequence of human chromosome 21. Nature. 2000 May 18;405(6784):311-9.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+
+# Drug_Target_5_HGNC_ID:
+GNC:221
+
+# Drug_Target_5_HPRD_ID:
+Not Available
+
+# Drug_Target_5_ID:
+6230
+
+# Drug_Target_5_Locus:
+21q21.3
+
+# Drug_Target_5_Molecular_Weight:
+101714.9
+
+# Drug_Target_5_Name:
+A disintegrin and metalloproteinase with thrombospondin motifs 5
+
+# Drug_Target_5_Number_of_Residues:
+930
+
+# Drug_Target_5_PDB_ID:
+Not Available
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00090	TSP_1
+PF01421	Reprolysin
+PF01562	Pep_M12B_propep
+PF05986	ADAM_spacer1
+
+# Drug_Target_5_Protein_Sequence:
+>A disintegrin and metalloproteinase with thrombospondin motifs 5
+MLLGWASLLLCAFRLPLAAVGPAATPAQDKAGQPPTAAAAAQPRRRQGEEVQERAEPPGH
+PHPLAQRRRSKGLVQNIDQLYSGGGKVGYLVYAGGRRFLLDLERDGSVGIAGFVPAGGGT
+SAPWRHRSHCFYRGTVDASPRSLAVFDLCGGLDGFFAVKHARYTLKPLLRGPWAEEEKGR
+VYGDGSARILHVYTREGFSFEALPPRASCETPASTPEAHEHAPAHSNPSGRAALASQLLD
+QSALSPAGGSGPQTWWRRRRRSISRARQVELLLVADASMARLYGRGLQHYLLTLASIANR
+LYSHASIENHIRLAVVKVVVLGDKDKSLEVSKNAATTLKNFCKWQHQHNQLGDDHEEHYD
+AAILFTREDLCGHHSCDTLGMADVGTICSPERSCAVIEDDGLHAAFTVAHEIGHLLGLSH
+DDSKFCEETFGSTEDKRLMSSILTSIDASKPWSKCTSATITEFLDDGHGNCLLDLPRKQI
+LGPEELPGQTYDATQQCNLTFGPEYSVCPGMDVCARLWCAVVRQGQMVCLTKKLPAVEGT
+PCGKGRICLQGKCVDKTKKKYYSTSSHGNWGSWGSWGQCSRSCGGGVQFAYRHCNNPAPR
+NNGRYCTGKRAIYRSCSLMPCPPNGKSFRHEQCEAKNGYQSDAKGVKTFVEWVPKYAGVL
+PADVCKLTCRAKGTGYYVVFSPKVTDGTECRPYSNSVCVRGKCVRTGCDGIIGSKLQYDK
+CGVCGGDNSSCTKIVGTFNKKSKGYTDVVRIPEGATHIKVRQFKAKDQTRFTAYLALKKK
+NGEYLINGKYMISTSETIIDINGTVMNYSGWSHRDDFLHGMGYSATKEILIVQILATDPT
+KPLDVRYSFFVPKKSTPKVNSVTSHGSNKVGSHTSQPQWVTGPWLACSRTCDTGWHTRTV
+QCQDGNRKLAKGCPLSQRPSAFKQCLLKKC
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+1-16
+
+# Drug_Target_5_Specific_Function:
+Cleaves aggrecan, a cartilage proteoglycan, and may be involved in its turnover. May play an important role in the destruction of aggrecan in arthritic diseases. May play a role in proteolytic processing mostly during the peri-implantation period
+
+# Drug_Target_5_SwissProt_ID:
+Q9UNA0
+
+# Drug_Target_5_SwissProt_Name:
+ATS5_HUMAN
+
+# Drug_Target_5_Synonyms:
+A disintegrin and metalloproteinase with thrombospondin motifs 11
+ADAM-TS 11
+ADAM-TS 5
+ADAM-TS5
+ADAMTS-11
+ADAMTS-5
+ADMP-2
+Aggrecanase-2
+
+# Drug_Target_5_Theoretical_pI:
+9.01
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB03880

@@ -1,0 +1,551 @@
+#BEGIN_DRUGCARD DB03575
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+77-10-1
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C17H25N
+
+# Chemical_IUPAC_Name:
+1-(1-phenylcyclohexyl)piperidine
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+A hallucinogen formerly used as a veterinary anesthetic, and briefly as a general anesthetic for humans. Phencyclidine is similar to ketamine in structure and in many of its effects. Like ketamine, it can produce a dissociative state. It exerts its pharmacological action through inhibition of NMDA receptors (receptors, N-methyl-D-aspartate). As a drug of abuse, it is known as PCP and Angel Dust. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Enzyme Inhibitors
+Excitatory Amino Acid Antagonists
+Hallucinogens
+
+# Drug_Interactions:
+Telithromycin	Telithromycin may reduce clearance of Phencyclidine. Consider alternate therapy or monitor for changes in the therapeutic/adverse effects of Phencyclidine if Telithromycin is initiated, discontinued or dose changed.
+Voriconazole	Voriconazole, a strong CYP3A4 inhibitor, may increase the serum concentration of phencyclidine by decreasing its metabolism. Monitor for changes in the therapeutic and adverse effects of phencyclidine if voriconazole is initiated, discontinued or dose changed.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Illicit
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+-4.61
+
+# Experimental_LogP_Hydrophobicity:
+4.69
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Phencyclidine
+
+# HET_ID:
+1PC
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C17H25N/c1-4-10-16(11-5-1)17(12-6-2-7-13-17)18-14-8-3-9-15-18/h1,4-5,10-11H,2-3,6-9,12-15H2
+
+# InChI_Key:
+InChIKey=JTJMJGYZQZDUJJ-UHFFFAOYSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+C07575
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+3575
+
+# Mechanism_Of_Action:
+The N-methyl-D-Aspartate (NMDA) receptor, a type of ionotropic receptor, is found on the dendrites of neurons and receives signals in the form of neurotransmitters. It is a major excitatory receptor in the brain. Normal physiological function requires that the activated receptor fluxes positive ions through the channel part of the receptor. PCP enters the ion channel from the outside of the neuron and binds, reversibly, to a site in the channel pore, blocking the flux of positive ions into the cell. PCP therefore inhibits depolarization of neurons and interferes with cognitive and other functions of the nervous system. [Wikipedia]
+
+# Melting_Point:
+46.5 °C
+
+# Molecular_Weight_Avg:
+243.3871
+
+# Molecular_Weight_Mono:
+243.198699805
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA128406980
+
+# Pharmacology:
+Phencyclidine works primarily as an NMDA receptor antagonist, which blocks the activity of the NMDA Receptor.
+
+# Predicted_LogP_Hydrophobicity:
+5.31
+
+# Predicted_LogS:
+-4.9
+
+# Predicted_Water_Solubility:
+3.25e-03 g/l
+
+# Primary_Accession_No:
+DB03575
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+6468
+
+# PubChem_Substance_ID:
+46508889
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT03307
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+C1CCN(CC1)C1(CCCCC1)C1=CC=CC=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+1-(1-Phenylcyclohexyl)piperidine
+1-(1-Phenylcyclohexyl)piperidine hydrochloride
+Angel dust
+Busy bee
+CJS
+Cadillac
+Crystal
+DUST
+Elephant tranquilizer
+Fenciclidina [inn-spanish]
+Magic mist
+Phencyclidine hydrochloride
+Phencyclidinum [inn-latin]
+Phenylcyclidine hydrochloride
+Rocket fuel
+Sernyl
+Sernylan
+Stardust
+Supergrass
+Surfer
+TIC
+Trank
+Tranks
+Whack
+Zombie dust
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:22:24 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Phencyclidine
+
+# pKa_Isoelectric_Point:
+8.29
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2B6
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+6030
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2B6
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2B6
+MELSVLLFLALLTGLLLLLVQRHPNTHDRLPPGPRPLPLLGNLLQMDRRGLLKSFLRFRE
+KYGDVFTVHLGPRPVVMLCGVEAIREALVDKAEAFSGRGKIAMVDPFFRGYGVIFANGNR
+WKVLRRFSVTTMRDFGMGKRSVEERIQEEAQCLIEELRKSKGALMDPTFLFQSITANIIC
+SIVFGKRFHYQDQEFLKMLNLFYQTFSLISSVFGQLFELFSGFLKYFPGAHRQVYKNLQE
+INAYIGHSVEKHRETLDPSAPKDLIDTYLLHMEKEKSNAHSEFSHQNLNLNTLSLFFAGT
+ETTSTTLRYGFLLMLKYPHVAERVYREIEQVIGPHRPPELHDRAKMPYTEAVIYEIQRFS
+DLLPMGVPHIVTQHTSFRGYIIPKDTEVFLILSTALHDPHYFEKPDAFNPDHFLDANGAL
+KKTEAFIPFSLGKRICLGEGIARAELFLFFTTILQNFSMASPVAPEDIDLTPQECGVGKI
+PPTYQIRFLPR
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P20813
+
+# Drug_Target_1_Cellular_Location:
+Cell membrane
+multi-pass membrane protein. Enriched in post-synaptic plasma membrane and post-synap
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+GRIN3A
+
+# Drug_Target_1_GenBank_ID_Gene:
+AJ416950
+
+# Drug_Target_1_GenBank_ID_Protein:
+20372905
+
+# Drug_Target_1_GeneCard_ID:
+GRIN3A
+
+# Drug_Target_1_Gene_Name:
+GRIN3A
+
+# Drug_Target_1_Gene_Sequence:
+>3348 bp
+ATGAGGAGACTGAGTTTGTGGTGGCTGCTGAGCAGGGTCTGTCTGCTGTTGCCGCCGCCC
+TGCGCACTGGTGCTGGCCGGGGTGCCCAGCTCCTCCTCGCACCCGCAGCCCTGCCAGATC
+CTCAAGCGCATCGGGCACGCGGTGAGGGTGGGCGCGGTGCACTTGCAGCCCTGGACCACC
+GCCCCCCGCGCGGCCAGCCGCGCTCCGGACGACAGCCGAGCAGGAGCCCAGAGGGATGAG
+CCGGAGCCAGGGACTAGGCGGTCCCCGGCGCCCTCGCCGGGCGCACGCTGGTTGGGGAGC
+ACCCTGCATGGCCGGGGGCCGCCGGGCTCCCGTAAGCCCGGGGAGGGCGCCAGGGCGGAG
+GCCCTGTGGCCACGGGACGCCCTCCTATTTGCCGTGGACAACCTGAACCGCGTGGAAGGG
+CTGCTACCCTACAACCTGTCTTTGGAAGTAGTGATGGCCATCGAGGCAGGCCTGGGCGAT
+CTGCCACTTTTGCCCTTCTCCTCCCCTAGTTCGCCATGGAGCAGTGACCCTTTCTCCTTC
+CTGCAAAGTGTGTGCCATACCGTGGTGGTGCAAGGGGTGTCGGCGCTGCTCGCCTTCCCC
+CAGAGCCAGGGCGAAATGATGGAGCTCGACTTGGTCAGCTTAGTCCTGCACATTCCAGTG
+ATCAGCATCGTGCGCCACGAGTTTCCGCGGGAGAGTCAGAATCCCCTTCACCTACAACTG
+AGTTTAGAAAATTCATTAAGTTCTGATGCTGATGTCACTGTCTCAATCCTGACCATGAAC
+AACTGGTACAATTTTAGCTTGTTGCTGTGCCAGGAAGACTGGAACATCACCGACTTCCTC
+CTCCTTACCCAGAATAATTCCAAGTTCCACCTTGGTTCTATCATCAACATCACCGCTAAC
+CTCCCCTCCACCCAGGACCTCTTGAGCTTCCTACAGATCCAGCTTGAGAGTATTAAGAAC
+AGCACACCCACAGTGGTGATGTTTGGCTGCGACATGGAAAGTATCCGGCGGATTTTCGAA
+ATTACAACCCAGTTTGGGGTCATGCCCCCTGAACTTCGTTGGGTGCTGGGAGATTCCCAG
+AATATGGAGGAACTGAGGACAGAGGGTCTGCCCTTAGGACTCATTGCTCATGGAAAAACA
+ACACAGTCTGTCTTTGAGCACTACGTACAAGATGCTATGGAGCTGGTCGCAAGAGCTGTA
+GCCACAGCCACCATGATCCAACCAGAACTTGCTCTCATTCCCAGCACGATGAACTGCATG
+GAGGTGGAAACTACAAATCTCACTTCAGGACAATATTTATCAAGGTTTCTAGCCAATACC
+ACTTTCAGAGGCCTCAGTGGTTCCATCAGAGTAAAAGGTTCCACCATCGTCAGCTCAGAA
+AACAACTTTTTCATCTGGAATCTTCAACATGACCCCATGGGAAAGCCAATGTGGACCCGC
+TTGGGCAGCTGGCAGGGGAGAAAGATTGTCATGGACTATGGAATATGGCCAGAGCAGGCC
+CAGAGACACAAAACCCACTTCCAACATCCAAGTAAGCTACACTTGAGAGTGGTTACCCTG
+ATTGAGCATCCTTTTGTCTTCACAAGGGAGGTAGATGATGAAGGCTTGTGCCCTGCTGGC
+CAACTCTGTCTAGACCCCATGACTAATGACTCTTCCACACTGGACAGCCTTTTTAGCAGC
+CTCCATAGCAGTAATGATACAGTGCCCATTAAATTCAAGAAGTGCTGCTATGGATATTGC
+ATTGATCTGCTGGAAAAGATAGCAGAAGACATGAACTTTGACTTCGACCTCTATATTGTA
+GGGGATGGAAAGTATGGAGCCTGGAAAAATGGGCACTGGACTGGGCTAGTGGGTGATCTC
+CTGAGAGGGACTGCCCACATGGCAGTCACTTCCTTTAGCATCAATACTGCACGGAGCCAG
+GTGATAGATTTCACCAGCCCTTTCTTCTCCACCAGCTTGGGCATCTTAGTGAGGACCCGA
+GATACAGCAGCTCCCATTGGAGCCTTCATGTGGCCACTCCACTGGACAATGTGGCTGGGG
+ATTTTTGTGGCTCTGCACATCACTGCCGTCTTCCTCACTCTGTATGAATGGAAGAGTCCA
+TTTGGTTTGACTCCCAAGGGGCGAAATAGAAGTAAAGTCTTCTCCTTTTCTTCAGCCTTG
+AACATCTGTTATGCCCTCTTGTTTGGCAGAACAGTGGCCATCAAACCTCCAAAATGTTGG
+ACTGGAAGGTTTCTAATGAACCTTTGGGCCATTTTCTGTATGTTTTGCCTTTCCACATAC
+ACGGCAAACTTGGCTGCTGTCATGGTAGGTGAGAAGATCTATGAAGAGCTTTCTGGAATA
+CATGACCCCAAGTTACATCATCCTTCCCAAGGATTCCGCTTTGGAACTGTCCGAGAAAGC
+AGTGCTGAAGATTATGTGAGACAAAGTTTCCCAGAGATGCATGAATATATGAGAAGGTAC
+AATGTTCCAGCCACCCCTGATGGAGTGGAGTATCTGAAGAACAATCCAGAGAAACTAGAC
+GCCTTCATCATGGACAAAGCCCTTCTGGATTATGAAGTGTCAATAGATGCTGACTGCAAA
+CTTCTCACTGTGGGGAAGCCATTTGCCATAGAAGGATACGGCATTGGCCTCCCACCCAAC
+TCTCCATTGACCGCCAACATATCCGAGCTAATCAGTCAATACAAGTCACATGGGTTTATG
+GATATGCTCCATGACAAGTGGTACAGGGTGGTTCCCTGTGGCAAGAGAAGTTTTGCTGTC
+ACGGAGACTTTGCAAATGGGCATCAAACACTTCTCTGGGCTCTTTGTGCTGCTGTGCATT
+GGATTTGGTCTGTCCATTTTGACCACCATTGGTGAGCACATAGTATACAGGCTGCTGCTA
+CCACGAATCAAAAACAAATCCAAGCTGCAATACTGGCTCCACACCAGCCAGAGATTACAC
+AGAGCAATAAATACATCATTTATAGAGGAAAAGCAGCAGCATTTCAAGACCAAACGTGTG
+GAAAAGAGGTCTAATGTGGGACCCCGTCAGCTTACCGTATGGAATACTTCCAATCTGAGT
+CATGACAACCGACGGAAATACATCTTTAGTGATGAGGAAGGACAAAACCAGCTGGGCATC
+CGGATCCACCAGGACATCCCCCTCCCTCCAAGGAGAAGAGAGCTCCCTGCCTTGCGGACC
+ACCAATGGGAAAGCAGACTCCCTAAATGTATCTCGGAACTCAGTGATGCAGGAACTCTCA
+GAGCTCGAGAAGCAGATTCAGGTGATCCGTCAGGAGCTGCAGCTGGCTGTGAGCAGGAAA
+ACGGAGCTGGAGGAGTATCAAAGGACAAGTCGGACTTGTGAGTCCTAG
+
+# Drug_Target_1_General_Function:
+Involved in ionotropic glutamate receptor activity
+
+# Drug_Target_1_General_References:
+11735224	Andersson O, Stenqvist A, Attersand A, von Euler G: Nucleotide sequence, genomic organization, and chromosomal localization of genes encoding the human NMDA receptor subunits NR3A and NR3B. Genomics. 2001 Dec;78(3):178-84.
+11853319	Nagase T, Kikuno R, Ohara O: Prediction of the coding sequences of unidentified human genes. XXII. The complete sequences of 50 new cDNA clones which code for large proteins. DNA Res. 2001 Dec 31;8(6):319-27.
+11880201	Eriksson M, Nilsson A, Froelich-Fabre S, Akesson E, Dunker J, Seiger A, Folkesson R, Benedikz E, Sundstrom E: Cloning and expression of the human N-methyl-D-aspartate receptor subunit NR3A. Neurosci Lett. 2002 Mar 22;321(3):177-81.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:16767
+
+# Drug_Target_1_HPRD_ID:
+09443
+
+# Drug_Target_1_ID:
+706
+
+# Drug_Target_1_Locus:
+9q31.1
+
+# Drug_Target_1_Molecular_Weight:
+125597
+
+# Drug_Target_1_Name:
+Glutamate [NMDA] receptor subunit 3A
+
+# Drug_Target_1_Number_of_Residues:
+1115
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Methadone Pathway	SMP00408
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00060	Lig_chan
+
+# Drug_Target_1_Protein_Sequence:
+>Glutamate [NMDA] receptor subunit 3A precursor
+MRRLSLWWLLSRVCLLLPPPCALVLAGVPSSSSHPQPCQILKRIGHAVRVGAVHLQPWTT
+APRAASRAPDDSRAGAQRDEPEPGTRRSPAPSPGARWLGSTLHGRGPPGSRKPGEGARAE
+ALWPRDALLFAVDNLNRVEGLLPYNLSLEVVMAIEAGLGDLPLLPFSSPSSPWSSDPFSF
+LQSVCHTVVVQGVSALLAFPQSQGEMMELDLVSLVLHIPVISIVRHEFPRESQNPLHLQL
+SLENSLSSDADVTVSILTMNNWYNFSLLLCQEDWNITDFLLLTQNNSKFHLGSIINITAN
+LPSTQDLLSFLQIQLESIKNSTPTVVMFGCDMESIRRIFEITTQFGVMPPELRWVLGDSQ
+NMEELRTEGLPLGLIAHGKTTQSVFEHYVQDAMELVARAVATATMIQPELALIPSTMNCM
+EVETTNLTSGQYLSRFLANTTFRGLSGSIRVKGSTIVSSENNFFIWNLQHDPMGKPMWTR
+LGSWQGRKIVMDYGIWPEQAQRHKTHFQHPSKLHLRVVTLIEHPFVFTREVDDEGLCPAG
+QLCLDPMTNDSSTLDSLFSSLHSSNDTVPIKFKKCCYGYCIDLLEKIAEDMNFDFDLYIV
+GDGKYGAWKNGHWTGLVGDLLRGTAHMAVTSFSINTARSQVIDFTSPFFSTSLGILVRTR
+DTAAPIGAFMWPLHWTMWLGIFVALHITAVFLTLYEWKSPFGLTPKGRNRSKVFSFSSAL
+NICYALLFGRTVAIKPPKCWTGRFLMNLWAIFCMFCLSTYTANLAAVMVGEKIYEELSGI
+HDPKLHHPSQGFRFGTVRESSAEDYVRQSFPEMHEYMRRYNVPATPDGVEYLKNNPEKLD
+AFIMDKALLDYEVSIDADCKLLTVGKPFAIEGYGIGLPPNSPLTANISELISQYKSHGFM
+DMLHDKWYRVVPCGKRSFAVTETLQMGIKHFSGLFVLLCIGFGLSILTTIGEHIVYRLLL
+PRIKNKSKLQYWLHTSQRLHRAINTSFIEEKQQHFKTKRVEKRSNVGPRQLTVWNTSNLS
+HDNRRKYIFSDEEGQNQLGIRIHQDIPLPPRRRELPALRTTNGKADSLNVSRNSVMQELS
+ELEKQIQVIRQELQLAVSRKTELEEYQRTSRTCES
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+1-23
+
+# Drug_Target_1_Specific_Function:
+NMDA receptor subtype of glutamate-gated ion channels with reduced single-channel conductance, low calcium permeability and low voltage-dependent sensitivity to magnesium. Mediated by glycine. May play a role in the development of dendritic spines. May play a role in PPP2CB-NMDAR mediated signaling mechanism
+
+# Drug_Target_1_SwissProt_ID:
+Q8TCU5
+
+# Drug_Target_1_SwissProt_Name:
+NMD3A_HUMAN
+
+# Drug_Target_1_Synonyms:
+Glutamate receptor subunit 3A precursor
+N-methyl-D-aspartate receptor subtype NR3A
+NMDAR-L
+
+# Drug_Target_1_Theoretical_pI:
+7.81
+
+# Drug_Target_1_Transmembrane_Regions:
+675-695
+749-769
+931-951
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+OPRS1
+
+# Drug_Target_2_GenBank_ID_Gene:
+U75283
+
+# Drug_Target_2_GenBank_ID_Protein:
+1783387
+
+# Drug_Target_2_GeneCard_ID:
+OPRS1
+
+# Drug_Target_2_Gene_Name:
+SIGMAR1
+
+# Drug_Target_2_Gene_Sequence:
+>672 bp
+ATGCAGTGGGCCGTGGGCCGGCGGTGGGCGTGGGCCGCGCTGCTCCTGGCTGTCGCAGCG
+GTGCTGACCCAGGTCGTCTGGCTCTGGCTGGGTACGCAGAGCTTCGTCTTCCAGCGCGAA
+GAGATAGCGCAGTTGGCGCGGCAGTACGCTGGGCTGGACCACGAGCTGGCCTTCTCTCGT
+CTGATCGTGGAGCTGCGGCGGCTGCACCCAGGCCACGTGCTGCCCGACGAGGAGCTGCAG
+TGGGTGTTCGTGAATGCGGGTGGCTGGATGGGCGCCATGTGCCTTCTGCACGCCTCGCTG
+TCCGAGTATGTGCTGCTCTTCGGCACCGCCTTGGGCTCCCGCGGCCACTCGGGGCGCTAC
+TGGGCTGAGATCTCGGATACCATCATCTCTGGCACCTTCCACCAGTGGAGAGAGGGCACC
+ACCAAAAGTGAGGTCTTCTACCCAGGGGAGACGGTAGTACACGGGCCTGGTGAGGCAACA
+GCTGTGGAGTGGGGGCCAAACACATGGATGGTGGAGTACGGCCGGGGCGTCATCCCATCC
+ACCCTGGCCTTCGCGCTGGCCGACACTGTCTTCAGCACCCAGGACTTCCTCACCCTCTTC
+TATACTCTTCGCTCCTATGCTCGGGGCCTCCGGCTTGAGCTCACCACCTACCTCTTTGGC
+CAGGACCCTTGA
+
+# Drug_Target_2_General_Function:
+Involved in C-8 sterol isomerase activity
+
+# Drug_Target_2_General_References:
+12477932	Strausberg RL, Feingold EA, Grouse LH, Derge JG, Klausner RD, Collins FS, Wagner L, Shenmen CM, Schuler GD, Altschul SF, Zeeberg B, Buetow KH, Schaefer CF, Bhat NK, Hopkins RF, Jordan H, Moore T, Max SI, Wang J, Hsieh F, Diatchenko L, Marusina K, Farmer AA, Rubin GM, Hong L, Stapleton M, Soares MB, Bonaldo MF, Casavant TL, Scheetz TE, Brownstein MJ, Usdin TB, Toshiyuki S, Carninci P, Prange C, Raha SS, Loquellano NA, Peters GJ, Abramson RD, Mullahy SJ, Bosak SA, McEwan PJ, McKernan KJ, Malek JA, Gunaratne PH, Richards S, Worley KC, Hale S, Garcia AM, Gay LJ, Hulyk SW, Villalon DK, Muzny DM, Sodergren EJ, Lu X, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madan A, Young AC, Shevchenko Y, Bouffard GG, Blakesley RW, Touchman JW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Krzywinski MI, Skalska U, Smailus DE, Schnerch A, Schein JE, Jones SJ, Marra MA: Generation and initial analysis of more than 15,000 full-length human and mouse cDNA sequences. Proc Natl Acad Sci U S A. 2002 Dec 24;99(26):16899-903. Epub 2002 Dec 11.
+8954936	Kekuda R, Prasad PD, Fei YJ, Leibach FH, Ganapathy V: Cloning and functional expression of the human type 1 sigma receptor (hSigmaR1). Biochem Biophys Res Commun. 1996 Dec 13;229(2):553-8.
+9453537	Prasad PD, Li HW, Fei YJ, Ganapathy ME, Fujita T, Plumley LH, Yang-Feng TL, Leibach FH, Ganapathy V: Exon-intron structure, analysis of promoter region, and chromosomal localization of the human type 1 sigma receptor gene. J Neurochem. 1998 Feb;70(2):443-51.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:8157
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+174
+
+# Drug_Target_2_Locus:
+9p13.3
+
+# Drug_Target_2_Molecular_Weight:
+25128
+
+# Drug_Target_2_Name:
+Sigma 1-type opioid receptor
+
+# Drug_Target_2_Number_of_Residues:
+223
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF04622	ERG2_Sigma1R
+
+# Drug_Target_2_Protein_Sequence:
+>Sigma receptor
+MQWAVGRRWAWAALLLAVAAVLTQVVWLWLGTQSFVFQREEIAQLARQYAGLDHELAFSR
+LIVELRRLHPGHVLPDEELQWVFVNAGGWMGAMCLLHASLSEYVLLFGTALGSRGHSGRY
+WAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTWMVEYGRGVIPS
+TLAFALADTVFSTQDFLTLFYTLRSYARGLRLELTTYLFGQDP
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Not Available
+
+# Drug_Target_2_SwissProt_ID:
+Q99720
+
+# Drug_Target_2_SwissProt_Name:
+SGMR1_HUMAN
+
+# Drug_Target_2_Synonyms:
+Aging-associated gene 8 protein
+SIG-1R
+SR-BP
+SR31747-binding protein
+Sigma1-receptor
+Sigma1R
+hSigmaR1
+
+# Drug_Target_2_Theoretical_pI:
+5.87
+
+# Drug_Target_2_Transmembrane_Regions:
+9-31
+
+#END_DRUGCARD DB03575

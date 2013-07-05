@@ -1,0 +1,593 @@
+#BEGIN_DRUGCARD DB01204
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01DB07
+
+# Absorption:
+Poorly absorbed following oral administration
+
+# Biotransformation:
+Hepatic
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Mitox
+Novantron
+Novantrone
+
+# CAS_Registry_Number:
+65271-80-9
+
+# ChEBI_ID:
+50729
+
+# Chemical_Formula:
+C22H28N4O6
+
+# Chemical_IUPAC_Name:
+1,4-dihydroxy-5,8-bis({2-[(2-hydroxyethyl)amino]ethyl}amino)-9,10-dihydroanthracene-9,10-dione
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2244614
+
+# Description:
+An anthracenedione-derived antineoplastic agent. [PubChem]
+
+# Dosage_Forms:
+Solution	Intravenous
+
+# Drug_Category:
+Analgesics
+Antineoplastic Agents
+
+# Drug_Interactions:
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+
+# Drug_Reference:
+16750460	Fox EJ: Management of worsening multiple sclerosis with mitoxantrone: a review. Clin Ther. 2006 Apr;28(4):461-74.
+
+# Drug_Type:
+Approved
+Investigational
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-3.1
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Mitoxantrone
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+75 hours
+
+# InChI_Identifier:
+InChI=1S/C22H28N4O6/c27-11-9-23-5-7-25-13-1-2-14(26-8-6-24-10-12-28)18-17(13)21(31)19-15(29)3-4-16(30)20(19)22(18)32/h1-4,23-30H,5-12H2
+
+# InChI_Key:
+InChIKey=KKZJGLLVHKMTCM-UHFFFAOYSA-N
+
+# Indication:
+For the treatment of secondary (chronic) progressive, progressive relapsing, or worsening relapsing-remitting multiple sclerosis
+
+# KEGG_Compound_ID:
+C11195
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+1204
+
+# Mechanism_Of_Action:
+Mitoxantrone, a DNA-reactive agent that intercalates into deoxyribonucleic acid (DNA) through hydrogen bonding, causes crosslinks and strand breaks. Mitoxantrone also interferes with ribonucleic acid (RNA) and is a potent inhibitor of topoisomerase II, an enzyme responsible for uncoiling and repairing damaged DNA. It has a cytocidal effect on both proliferating and nonproliferating cultured human cells, suggesting lack of cell cycle phase specificity.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+444.4809
+
+# Molecular_Weight_Mono:
+444.200884648
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA450526
+
+# Pharmacology:
+Mitoxantrone has been shown in vitro to inhibit B cell, T cell, and macrophage proliferation and impair antigen presentation, as well as the secretion of interferon gamma, TNFa, and IL-2.
+
+# Predicted_LogP_Hydrophobicity:
+0.91
+
+# Predicted_LogS:
+-2.8
+
+# Predicted_Water_Solubility:
+7.34e-01 g/l
+
+# Primary_Accession_No:
+DB01204
+
+# Protein_Binding:
+78%
+
+# PubChem_Compound_ID:
+4212
+
+# PubChem_Substance_ID:
+46504608
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/mitoxantrone.htm
+
+# Salts:
+Mitoxantrone hydrochloride
+
+# Secondary_Accession_No:
+APRD00371
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+OCCNCCNC1=C2C(=O)C3=C(O)C=CC(O)=C3C(=O)C2=C(NCCNCCO)C=C1
+
+# State:
+liquid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Mitoxanthrone
+Mitoxantron
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Severe leukopenia with infection.
+
+# Update_Date:
+2013-02-08 16:20:00 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Mitoxantrone
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP1B1
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+1898
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 1B1
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 1B1
+MGTSLSPNDPWPLNPLSIQQTTLLLLLSVLATVHVGQRLLRQRRRQLRSAPPGPFAWPLI
+GNAAAVGQAAHLSFARLARRYGDVFQIRLGSCPIVVLNGERAIHQALVQQGSAFADRPAF
+ASFRVVSGGRSMAFGHYSEHWKVQRRAAHSMMRNFFTRQPRSRQVLEGHVLSEARELVAL
+LVRGSADGAFLDPRPLTVVAVANVMSAVCFGCRYSHDDPEFRELLSHNEEFGRTVGAGSL
+VDVMPWLQYFPNPVRTVFREFEQLNRNFSNFILDKFLRHCESLRPGAAPRDMMDAFILSA
+EKKAAGDSHGGGARLDLENVPATITDIFGASQDTLSTALQWLLLLFTRYPDVQTRVQAEL
+DQVVGRDRLPCMGDQPNLPYVLAFLYEAMRFSSFVPVTIPHATTANTSVLGYHIPKDTVV
+FVNQWSVNHDPLKWPNPENFDPARFLDKDGLINKDLTSRVMIFSVGKRRCIGEELSKMQL
+FLFISILAHQCDFRANPNEPAKMNFSYGLTIKPKSFKVNVTLRESMELLDSAVQNLQAKE
+TCQ
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+Q16678
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP2E1
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+6013
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 2E1
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 2E1
+MSALGVTVALLVWAAFLLLVSMWRQVHSSWNLPPGPFPLPIIGNLFQLELKNIPKSFTRL
+AQRFGPVFTLYVGSQRMVVMHGYKAVKEALLDYKDEFSGRGDLPAFHAHRDRGIIFNNGP
+TWKDIRRFSLTTLRNYGMGKQGNESRIQREAHFLLEALRKTQGQPFDPTFLIGCAPCNVI
+ADILFRKHFDYNDEKFLRLMYLFNENFHLLSTPWLQLYNNFPSFLHYLPGSHRKVIKNVA
+EVKEYVSERVKEHHQSLDPNCPRDLTDCLLVEMEKEKHSAERLYTMDGITVTVADLFFAG
+TETTSTTLRYGLLILMKYPEIEEKLHEEIDRVIGPSRIPAIKDRQEMPYMDAVVHEIQRF
+ITLVPSNLPHEATRDTIFRGYLIPKGTVVVPTLDSVLYDNQEFPDPEKFKPEHFLNENGK
+FKYSDYFKPFSTGKRVCAGEGLARMELFLLLCAILQHFNLKPLVDPKDIDLSPIHIGFGC
+IPPRYKLCVIPRS
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P05181
+
+# Drug_Target_1_Cellular_Location:
+Nucleus and mitochondria
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+19284573	Hajihassan Z, Rabbani-Chadegani A: Studies on the binding affinity of anticancer drug mitoxantrone to chromatin, DNA and histone proteins. J Biomed Sci. 2009 Mar 11;16:31.
+9701490	Mazerski J, Martelli S, Borowski E: The geometry of intercalation complex of antitumor mitoxantrone and ametantrone with DNA: molecular dynamics simulations. Acta Biochim Pol. 1998;45(1):1-11.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+>Example: Dickerson dodecamer
+CGCGAATTCGCG
+
+# Drug_Target_1_General_Function:
+Biological information storage and information transfer
+
+# Drug_Target_1_General_References:
+1234	Nadeau D, Marchand C: Change in the kinetics of sulphacetamide tissue distribution in Walker tumor-bearing rats. Drug Metab Dispos. 1975 Nov-Dec;3(6):565-76.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+874
+
+# Drug_Target_1_Locus:
+All loci
+
+# Drug_Target_1_Molecular_Weight:
+7656 (double strand)
+
+# Drug_Target_1_Name:
+DNA
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+1BNA
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+DNA + DNA polymerase + nNTP = 2 DNA + nNDP; DNA + RNA polymerase + NTP = mRNA + nNDP
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+DNA is the molecule of heredity, as it is responsible for the genetic propagation of most inherited traits. It is a polynucleic acid that carries genetic information on cell growth, division, and function. DNA consists of two long strands of nucleotides twisted into a double helix and held together by hydrogen bonds. The sequence of nucleotides determines hereditary characteristics. Each strand serves as the template for subsequent DNA replication and as a template for mRNA production, leading to protein synthesis via ribosomes.
+
+# Drug_Target_1_SwissProt_ID:
+Not Available
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Deoxyribonucleic acid
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasm. Nucleus
+nucleoplasm. Generally located in the nucleoplasm
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+10451375	Mao Y, Yu C, Hsieh TS, Nitiss JL, Liu AA, Wang H, Liu LF: Mutations of human topoisomerase II alpha affecting multidrug resistance and sensitivity. Biochemistry. 1999 Aug 17;38(33):10793-800.
+11004693	Satherley K, de Souza L, Neale MH, Alexander RA, Myatt N, Foss AJ, Hungerford JL, Hickson ID, Cree IA: Relationship between expression of topoisomerase II isoforms and chemosensitivity in choroidal melanoma. J Pathol. 2000 Oct;192(2):174-81.
+11278845	Wang H, Mao Y, Zhou N, Hu T, Hsieh TS, Liu LF: Atp-bound topoisomerase ii as a target for antitumor drugs. J Biol Chem. 2001 May 11;276(19):15990-5. Epub 2001 Feb 23.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+18687447	Ko MW, Tamhankar MA, Volpe NJ, Porter D, McGrath C, Galetta SL: Acute promyelocytic leukemic involvement of the optic nerves following mitoxantrone treatment for multiple sclerosis. J Neurol Sci. 2008 Oct 15;273(1-2):144-7. Epub 2008 Aug 6.
+9494516	McPherson JP, Deffie AM, Jones NR, Brown GA, Deuchars KL, Goldenberg GJ: Selective sensitization of adriamycin-resistant P388 murine leukemia cells to antineoplastic agents following transfection with human DNA topoisomerase II alpha. Anticancer Res. 1997 Nov-Dec;17(6D):4243-52.
+9631585	Takeda K, Shinohara K, Kameda N, Ariyoshi K: A case of therapy-related acute myeloblastic leukemia with t(16;21)(q24;q22) after chemotherapy with DNA-topoisomerase II inhibitors, etoposide and mitoxantrone, and the alkylating agent, cyclophosphamide. Int J Hematol. 1998 Feb;67(2):179-86.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+TOP2A
+
+# Drug_Target_2_GenBank_ID_Gene:
+J04088
+
+# Drug_Target_2_GenBank_ID_Protein:
+292830
+
+# Drug_Target_2_GeneCard_ID:
+TOP2A
+
+# Drug_Target_2_Gene_Name:
+TOP2A
+
+# Drug_Target_2_Gene_Sequence:
+>4596 bp
+ATGGAAGTGTCACCATTGCAGCCTGTAAATGAAAATATGCAAGTCAACAAAATAAAGAAA
+AATGAAGATGCTAAGAAAAGACTGTCTGTTGAAAGAATCTATCAAAAGAAAACACAATTG
+GAACATATTTTGCTCCGCCCAGACACCTACATTGGTTCTGTGGAATTAGTGACCCAGCAA
+ATGTGGGTTTACGATGAAGATGTTGGCATTAACTATAGGGAAGTCACTTTTGTTCCTGGT
+TTGTACAAAATCTTTGATGAGATTCTAGTTAATGCTGCGGACAACAAACAAAGGGACCCA
+AAAATGTCTTGTATTAGAGTCACAATTGATCCGGAAAACAATTTAATTAGTATATGGAAT
+AATGGAAAAGGTATTCCTGTTGTTGAACACAAAGTTGAAAAGATGTATGTCCCAGCTCTC
+ATATTTGGACAGCTCCTAACTTCTAGTAACTATGATGATGATGAAAAGAAAGTGACAGGT
+GGTCGAAATGGCTATGGAGCCAAATTGTGTAACATATTCAGTACCAAATTTACTGTGGAA
+ACAGCCAGTAGAGAATACAAGAAAATGTTCAAACAGACATGGATGGATAATATGGGAAGA
+GCTGGTGAGATGGAACTCAAGCCCTTCAATGGAGAAGATTATACATGTATCACCTTTCAG
+CCTGATTTGTCTAAGTTTAAAATGCAAAGCCTGGACAAAGATATTGTTGCACTAATGGTC
+AGAAGAGCATATGATATTGCTGGATCCACCAAAGATGTCAAAGTCTTTCTTAATGGAAAT
+AAACTGCCAGTAAAAGGATTTCGTAGTTATGTGGACATGTATTTGAAGGACAAGTTGGAT
+GAAACTGGTAACTCCTTGAAAGTAATACATGAACAAGTAAACCACAGGTGGGAAGTGTGT
+TTAACTATGAGTGAAAAAGGCTTTCAGCAAATTAGCTTTGTCAACAGCATTGCTACATCC
+AAGGGTGGCAGACATGTTGATTATGTAGCTGATCAGATTGTGACTAAACTTGTTGATGTT
+GTGAAGAAGAAGAACAAGGGTGGTGTTGCAGTAAAAGCACATCAGGTGAAAAATCACATG
+TGGATTTTTGTAAATGCCTTAATTGAAAACCCAACCTTTGACTCTCAGACAAAAGAAAAC
+ATGACTTTACAACCCAAGAGCTTTGGATCAACATGCCAATTGAGTGAAAAATTTATCAAA
+GCTGCCATTGGCTGTGGTATTGTAGAAAGCATACTAAACTGGGTGAAGTTTAAGGCCCAA
+GTCCAGTTAAACAAGAAGTGTTCAGCTGTAAAACATAATAGAATCAAGGGAATTCCCAAA
+CTCGATGATGCCAATGATGCAGGGGGCCGAAACTCCACTGAGTGTACGCTTATCCTGACT
+GAGGGAGATTCAGCCAAAACTTTGGCTGTTTCAGGCCTTGGTGTGGTTGGGAGAGACAAA
+TATGGGGTTTTCCCTCTTAGAGGAAAAATACTCAATGTTCGAGAAGCTTCTCATAAGCAG
+ATCATGGAAAATGCTGAGATTAACAATATCATCAAGATTGTGGGTCTTCAGTACAAGAAA
+AACTATGAAGATGAAGATTCATTGAAGACGCTTCGTTATGGGAAGATAATGATTATGACA
+GATCAGGACCAAGATGGTTCCCACATCAAAGGCTTGCTGATTAATTTTATCCATCACAAC
+TGGCCCTCTCTTCTGCGACATCGTTTTCTGGAGGAATTTATCACTCCCATTGTAAAGGTA
+TCTAAAAACAAGCAAGAAATGGCATTTTACAGCCTTCCTGAATTTGAAGAGTGGAAGAGT
+TCTACTCCAAATCATAAAAAATGGAAAGTCAAATATTACAAAGGTTTGGGCACCAGCACA
+TCAAAGGAAGCTAAAGAATACTTTGCAGATATGAAAAGACATCGTATCCAGTTCAAATAT
+TCTGGTCCTGAAGATGATGCTGCTATCAGCCTGGCCTTTAGCAAAAAACAGATAGATGAT
+CGAAAGGAATGGTTAACTAATTTCATGGAGGATAGAAGACAACGAAAGTTACTTGGGCTT
+CCTGAGGATTACTTGTATGGACAAACTACCACATATCTGACATATAATGACTTCATCAAC
+AAGGAACTTATCTTGTTCTCAAATTCTGATAACGAGAGATCTATCCCTTCTATGGTGGAT
+GGTTTGAAACCAGGTCAGAGAAAGGTTTTGTTTACTTGCTTCAAACGGAATGACAAGCGA
+GAAGTAAAGGTTGCCCAATTAGCTGGATCAGTGGCTGAAATGTCTTCTTATCATCATGGT
+GAGATGTCACTAATGATGACCATTATCAATTTGGCTCAGAATTTTGTGGGTAGCAATAAT
+CTAAACCTCTTGCAGCCCATTGGTCAGTTTGGTACCAGGCTACATGGTGGCAAGGATTCT
+GCTAGTCCACGATACATCTTTACAATGCTCAGCTCTTTGGCTCGATTGTTATTTCCACCA
+AAAGATGATCACACGTTGAAGTTTTTATATGATGACAACCAGCGTGTTGAGCCTGAATGG
+TACATTCCTATTATTCCCATGGTGCTGATAAATGGTGCTGAAGGAATCGGTACTGGGTGG
+TCCTGCAAAATCCCCAACTTTGATGTGCGTGAAATTGTAAATAACATCAGGCGTTTGATG
+GATGGAGAAGAACCTTTGCCAATGCTTCCAAGTTACAAGAACTTCAAGGGTACTATTGAA
+GAACTGGCTCCAAATCAATATGTGATTAGTGGTGAAGTAGCTATTCTTAATTCTACAACC
+ATTGAAATCTCAGAGCTTCCCGTCAGAACATGGACCCAGACATACAAAGAACAAGTTCTA
+GAACCCATGTTGAATGGCACCGAGAAGACACCTCCTCTCATAACAGACTATAGGGAATAC
+CATACAGATACCACTGTGAAATTTGTTGTGAAGATGACTGAAGAAAAACTGGCAGAGGCA
+GAGAGAGTTGGACTACACAAAGTCTTCAAACTCCAAACTAGTCTCACATGCAACTCTATG
+GTGCTTTTTGACCACGTAGGCTGTTTAAAGAAATATGACACGGTGTTGGATATTCTAAGA
+GACTTTTTTGAACTCAGACTTAAATATTATGGATTAAGAAAAGAATGGCTCCTAGGAATG
+CTTGGTGCTGAATCTGCTAAACTGAATAATCAGGCTCGCTTTATCTTAGAGAAAATAGAT
+GGCAAAATAATCATTGAAAATAAGCCTAAGAAAGAATTAATTAAAGTTCTGATTCAGAGG
+GGATATGATTCGGATCCTGTGAAGGCCTGGAAAGAAGCCCAGCAAAAGGTTCCAGATGAA
+GAAGAAAATGAAGAGAGTGACAACGAAAAGGAAACTGAAAAGAGTGACTCCGTAACAGAT
+TCTGGACCAACCTTCAACTATCTTCTTGATATGCCCCTTTGGTATTTAACCAAGGAAAAG
+AAAGATGAACTCTGCAGGCTAAGAAATGAAAAAGAACAAGAGCTGGACACATTAAAAAGA
+AAGAGTCCATCAGATTTGTGGAAAGAAGACTTGGCTACATTTATTGAAGAATTGGAGGCT
+GTTGAAGCCAAGGAAAAACAAGATGAACAAGTCGGACTTCCTGGGAAAGGGGGGAAGGCC
+AAGGGGAAAAAAACACAAATGGCTGAAGTTTTGCCTTCTCCGCGTGGTCAAAGAGTCATT
+CCACGAATAACCATAGAAATGAAAGCAGAGGCAGAAAAGAAAAATAAAAAGAAAATTAAG
+AATGAAAATACTGAAGGAAGCCCTCAAGAAGATGGTGTGGAACTAGAAGGCCTAAAACAA
+AGATTAGAAAAGAAACAGAAAAGAGAACCAGGTACAAAGACAAAGAAACAAACTACATTG
+GCATTTAAGCCAATCAAAAAAGGAAAGAAGAGAAATCCCTGGCCTGATTCAGAATCAGAT
+AGGAGCAGTGACGAAAGTAATTTTGATGTCCCTCCACGAGAAACAGAGCCACGGAGAGCA
+GCAACAAAAACAAAATTCACAATGGATTTGGATTCAGATGAAGATTTCTCAGATTTTGAT
+GAAAAAACTGATGATGAAGATTTTGTCCCATCAGATGCTAGTCCACCTAAGACCAAAACT
+TCCCCAAAACTTAGTAACAAAGAACTGAAACCACAGAAAAGTGTCGTGTCAGACCTTGAA
+GCTGATGATGTTAAGGGCAGTGTACCACTGTCTTCAAGCCCTCCTGCTACACATTTCCCA
+GATGAAACTGAAATTACAAACCCAGTTCCTAAAAAGAATGTGACAGTGAAGAAGACAGCA
+GCAAAAAGTCAGTCTTCCACCTCCACTACCGGTGCCAAAAAAAGGGCTGCCCCAAAAGGA
+ACTAAAAGGGATCCAGCTTTGAATTCTGGTGTCTCTCAAAAGCCTGATCCTGCCAAAACC
+AAGAATCGCCGCAAAAGGAAGCCATCCACTTCTGATGATTCTGACTCTAATTTTGAGAAA
+ATTGTTTCGAAAGCAGTCACAAGCAAGAAATCCAAGGGGGAGAGTGATGACTTCCATATG
+GACTTTGACTCAGCTGTGGCTCCTCGGGCAAAATCTGTACGGGCAAAGAAACCTATAAAG
+TACCTGGAAGAGTCAGATGAAGATGATCTGTTTTAA
+
+# Drug_Target_2_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_2_General_References:
+10095062	Sng JH, Heaton VJ, Bell M, Maini P, Austin CA, Fisher LM: Molecular cloning and characterization of the human topoisomerase IIalpha and IIbeta genes: evidence for isoform evolution through gene duplication. Biochim Biophys Acta. 1999 Mar 19;1444(3):395-406.
+10942766	Escargueil AE, Plisov SY, Filhol O, Cochet C, Larsen AK: Mitotic phosphorylation of DNA topoisomerase II alpha by protein kinase CK2 creates the MPM-2 phosphoepitope on Ser-1469. J Biol Chem. 2000 Nov 3;275(44):34710-8.
+12821127	Mirski SE, Bielawski JC, Cole SP: Identification of functional nuclear export sequences in human topoisomerase IIalpha and beta. Biochem Biophys Res Commun. 2003 Jul 11;306(4):905-11.
+1651812	Hinds M, Deisseroth K, Mayes J, Altschuler E, Jansen R, Ledley FD, Zwelling LA: Identification of a point mutation in the topoisomerase II gene from a human leukemia cell line containing an amsacrine-resistant form of topoisomerase II. Cancer Res. 1991 Sep 1;51(17):4729-31.
+1652758	Bugg BY, Danks MK, Beck WT, Suttle DP: Expression of a mutant DNA topoisomerase II in CCRF-CEM human leukemic cells selected for resistance to teniposide. Proc Natl Acad Sci U S A. 1991 Sep 1;88(17):7654-8.
+2845399	Tsai-Pflugfelder M, Liu LF, Liu AA, Tewey KM, Whang-Peng J, Knutsen T, Huebner K, Croce CM, Wang JC: Cloning and sequencing of cDNA encoding human DNA topoisomerase II and localization of the gene to chromosome region 17q21-22. Proc Natl Acad Sci U S A. 1988 Oct;85(19):7177-81.
+8393377	Wasserman RA, Austin CA, Fisher LM, Wang JC: Use of yeast in the study of anticancer drugs targeting DNA topoisomerases: expression of a functional recombinant human DNA topoisomerase II alpha in yeast. Cancer Res. 1993 Aug 1;53(15):3591-6.
+9795238	Lang AJ, Mirski SE, Cummings HJ, Yu Q, Gerlach JH, Cole SP: Structural organization of the human TOP2A and TOP2B genes. Gene. 1998 Oct 23;221(2):255-66.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:11989
+
+# Drug_Target_2_HPRD_ID:
+00536
+
+# Drug_Target_2_ID:
+817
+
+# Drug_Target_2_Locus:
+17q21-q22
+
+# Drug_Target_2_Molecular_Weight:
+174387
+
+# Drug_Target_2_Name:
+DNA topoisomerase 2-alpha
+
+# Drug_Target_2_Number_of_Residues:
+1531
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Etoposide Pathway	SMP00442
+Teniposide Pathway	SMP00443
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00204	DNA_gyraseB
+PF00521	DNA_topoisoIV
+PF02518	HATPase_c
+PF08070	DTHCT
+
+# Drug_Target_2_Protein_Sequence:
+>DNA topoisomerase 2-alpha
+MEVSPLQPVNENMQVNKIKKNEDAKKRLSVERIYQKKTQLEHILLRPDTYIGSVELVTQQ
+MWVYDEDVGINYREVTFVPGLYKIFDEILVNAADNKQRDPKMSCIRVTIDPENNLISIWN
+NGKGIPVVEHKVEKMYVPALIFGQLLTSSNYDDDEKKVTGGRNGYGAKLCNIFSTKFTVE
+TASREYKKMFKQTWMDNMGRAGEMELKPFNGEDYTCITFQPDLSKFKMQSLDKDIVALMV
+RRAYDIAGSTKDVKVFLNGNKLPVKGFRSYVDMYLKDKLDETGNSLKVIHEQVNHRWEVC
+LTMSEKGFQQISFVNSIATSKGGRHVDYVADQIVTKLVDVVKKKNKGGVAVKAHQVKNHM
+WIFVNALIENPTFDSQTKENMTLQPKSFGSTCQLSEKFIKAAIGCGIVESILNWVKFKAQ
+VQLNKKCSAVKHNRIKGIPKLDDANDAGGRNSTECTLILTEGDSAKTLAVSGLGVVGRDK
+YGVFPLRGKILNVREASHKQIMENAEINNIIKIVGLQYKKNYEDEDSLKTLRYGKIMIMT
+DQDQDGSHIKGLLINFIHHNWPSLLRHRFLEEFITPIVKVSKNKQEMAFYSLPEFEEWKS
+STPNHKKWKVKYYKGLGTSTSKEAKEYFADMKRHRIQFKYSGPEDDAAISLAFSKKQIDD
+RKEWLTNFMEDRRQRKLLGLPEDYLYGQTTTYLTYNDFINKELILFSNSDNERSIPSMVD
+GLKPGQRKVLFTCFKRNDKREVKVAQLAGSVAEMSSYHHGEMSLMMTIINLAQNFVGSNN
+LNLLQPIGQFGTRLHGGKDSASPRYIFTMLSSLARLLFPPKDDHTLKFLYDDNQRVEPEW
+YIPIIPMVLINGAEGIGTGWSCKIPNFDVREIVNNIRRLMDGEEPLPMLPSYKNFKGTIE
+ELAPNQYVISGEVAILNSTTIEISELPVRTWTQTYKEQVLEPMLNGTEKTPPLITDYREY
+HTDTTVKFVVKMTEEKLAEAERVGLHKVFKLQTSLTCNSMVLFDHVGCLKKYDTVLDILR
+DFFELRLKYYGLRKEWLLGMLGAESAKLNNQARFILEKIDGKIIIENKPKKELIKVLIQR
+GYDSDPVKAWKEAQQKVPDEEENEESDNEKETEKSDSVTDSGPTFNYLLDMPLWYLTKEK
+KDELCRLRNEKEQELDTLKRKSPSDLWKEDLATFIEELEAVEAKEKQDEQVGLPGKGGKA
+KGKKTQMAEVLPSPRGQRVIPRITIEMKAEAEKKNKKKIKNENTEGSPQEDGVELEGLKQ
+RLEKKQKREPGTKTKKQTTLAFKPIKKGKKRNPWSDSESDRSSDESNFDVPPRETEPRRA
+ATKTKFTMDLDSDEDFSDFDEKTDDEDFVPSDASPPKTKTSPKLSNKELKPQKSVVSDLE
+ADDVKGSVPLSSSPPATHFPDETEITNPVPKKNVTVKKTAAKSQSSTSTTGAKKRAAPKG
+TKRDPALNSGVSQKPDPAKTKNRRKRKPSTSDDSDSNFEKIVSKAVTSKKSKGESDDFHM
+DFDSAVAPRAKSVRAKKPIKYLEESDEDDLF
+
+# Drug_Target_2_Reaction:
+ATP-dependent breakage, passage and rejoining of double-stranded DNA INHIBITOR Coumermycin A1; GRI22222X; Nalidixic acid; Novobiocin; Ciprofloxacin
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Control of topological states of DNA by transient breakage and subsequent rejoining of DNA strands. Topoisomerase II makes double-strand breaks
+
+# Drug_Target_2_SwissProt_ID:
+P11388
+
+# Drug_Target_2_SwissProt_Name:
+TOP2A_HUMAN
+
+# Drug_Target_2_Synonyms:
+DNA topoisomerase II, alpha isozyme
+EC 5.99.1.3
+
+# Drug_Target_2_Theoretical_pI:
+9.17
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB01204

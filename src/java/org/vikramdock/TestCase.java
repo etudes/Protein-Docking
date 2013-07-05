@@ -10,25 +10,27 @@ import java.util.zip.*;
 import java.lang.*;
 import java.lang.reflect.*;
 
-public class TestCase {
-	ProteinStruct ps1;
-	ProteinStruct ps2;
-	ProteinStruct newps1;
-	ProteinStruct newps2;
-	double rmov;
-	double alphamov;
-	double betamov;
-	double gammamov;
-	double alpha;
-	double beta;
-	double gamma;
-	ArrayList<Atom> ps1struct;
-	ArrayList<Atom> ps2struct;
-	ArrayList<Atom> surfacebya;
-	ArrayList<ProteinStruct> surfacebyps;
-	double score;
-	double[][][] ps1newsizes;
-	double[][][] ps2newsizes;
+public class TestCase implements Comparable {
+	private ProteinStruct ps1;
+	private ProteinStruct ps2;
+	private ProteinStruct newps1;
+	private ProteinStruct newps2;
+	private double rmov;
+	private double alphamov;
+	private double betamov;
+	private double gammamov;
+	private double alpha;
+	private double beta;
+	private double gamma;
+	private ArrayList<Atom> ps1struct;
+	private ArrayList<Atom> ps2struct;
+	private ArrayList<Atom> surfacebya;
+	private ArrayList<ProteinStruct> surfacebyps;
+	private ArrayList<Atom> interfacea;
+	private double score;
+	private double[][][] ps1newsizes;
+	private double[][][] ps2newsizes;
+	private double probability;
 	public TestCase(ProteinStruct ps1, ProteinStruct ps2, double alphamov, double betamov, double gammamov, double alpha, double beta, double gamma) throws Exception {
 		surfacebya = new ArrayList<Atom>();
 		surfacebyps = new ArrayList<ProteinStruct>();
@@ -52,6 +54,7 @@ public class TestCase {
 		surfacebya.addAll(newps1.getSurface());
 		surfacebya.addAll(newps2.getSurface());
 		score = -1;
+		probability = -1;
 	}
 	public double score() {
 		score = energyScore();
@@ -206,7 +209,7 @@ public class TestCase {
 			solvEtot += solvE;
 		}
 		//bond stretching
-		ArrayList ps1bonds = newps1.getSurfaceBonds();
+		ArrayList<Bond> ps1bonds = newps1.getSurfaceBonds();
 		for (int i = 0; i < ps1bonds.size(); i++) {
 			double bStretchE = 0;
 			Bond current = (Bond)ps1bonds.get(i);
@@ -219,7 +222,7 @@ public class TestCase {
 			}
 			bStretchEtot += bStretchE;
 		}
-		ArrayList ps2bonds = newps2.getSurfaceBonds();
+		ArrayList<Bond> ps2bonds = newps2.getSurfaceBonds();
 		for (int i = 0; i < ps2bonds.size(); i++) {
 			double bStretchE = 0;
 			Bond current = (Bond)ps2bonds.get(i);
@@ -233,7 +236,7 @@ public class TestCase {
 			bStretchEtot += bStretchE;
 		}
 		//angle bending
-		ArrayList ps1backbone = newps1.getSurfaceBackbone();
+		ArrayList<Atom> ps1backbone = newps1.getSurfaceBackbone();
 		for (int i = 1; i < ps1backbone.size() - 1; i++) {
 			double aBendE = 0;
 			Atom current = (Atom)ps1backbone.get(i);
@@ -251,7 +254,7 @@ public class TestCase {
 				aBendEtot += aBendE;
 			}
 		}
-		ArrayList ps2backbone = newps2.getSurfaceBackbone();
+		ArrayList<Atom> ps2backbone = newps2.getSurfaceBackbone();
 		for (int i = 1; i < ps2backbone.size() - 1; i++) {
 			double aBendE = 0;
 			Atom current = (Atom)ps2backbone.get(i);
@@ -270,7 +273,7 @@ public class TestCase {
 			}
 		}
 		//torsion
-		ArrayList ps1backbonebonds = newps1.getSurfaceBackboneBonds();
+		ArrayList<Bond> ps1backbonebonds = newps1.getSurfaceBackboneBonds();
 		for (int i = 1; i < ps1backbonebonds.size() - 1; i++) {
 			double torsE = 0;
 			Bond current = (Bond)ps1backbonebonds.get(i);
@@ -287,7 +290,7 @@ public class TestCase {
 				torsEtot += torsE;
 			}
 		}
-		ArrayList ps2backbonebonds = newps2.getSurfaceBackboneBonds();
+		ArrayList<Bond> ps2backbonebonds = newps2.getSurfaceBackboneBonds();
 		for (int i = 1; i < ps2backbonebonds.size() - 1; i++) {
 			double torsE = 0;
 			Bond current = (Bond)ps2backbonebonds.get(i);
@@ -308,7 +311,7 @@ public class TestCase {
 		return Etot;
 	}
 	public ArrayList<Atom> detInterface() {
-		ArrayList<Atom> interfacea = new ArrayList<Atom>();
+		interfacea = new ArrayList<Atom>();
 		for (int i = 0; i < ps1struct.size(); i++) {
 			Atom cur1 = (Atom)ps1struct.get(i);
 			for (int j = 0; j < ps2struct.size(); j++) {
@@ -351,17 +354,23 @@ public class TestCase {
 	public ProteinStruct getNewPS2() {
 		return newps2;
 	}
-	public ArrayList getSurfacebya() {
+	public ArrayList<Atom> getSurfacebya() {
 		return surfacebya;
 	}
-	public ArrayList getSurfacebyps() {
+	public ArrayList<ProteinStruct> getSurfacebyps() {
 		return surfacebyps;
 	}
+	public ArrayList<Atom> getInterfacea() {
+		if (interfacea == null) return detInterface();
+		return interfacea;
+	}
 	public double getScore() {
-		if (score == -1) {
-			score();
-		}
+		if (score == -1) score();
 		return score;
+	}
+	public int compareTo(Object other) {
+		TestCase tother = (TestCase)other;
+		return (int)(score - tother.getScore());
 	}
 	public double distance(double[] first, double[] second) {
 		return Math.sqrt(Math.pow(first[0] - second[0], 2) + Math.pow(first[1] - second[1], 2) + Math.pow(first[2] - second[2], 2));
@@ -392,5 +401,11 @@ public class TestCase {
 		answer[1] = cx*Math.cos(b)*Math.sin(c) + cz*(Math.cos(a)*Math.sin(b)*Math.sin(c) - Math.cos(c)*Math.sin(a)) + cy*(Math.cos(a)*Math.cos(c) + Math.sin(a)*Math.sin(b)*Math.sin(c));
 		answer[2] = cz*Math.cos(a)*Math.cos(b) + cy*Math.sin(a)*Math.cos(b) - cx*Math.sin(b);
 		return answer;
+	}
+	public double getProbability() {
+		if (probability != -1) return probability;
+		if (score == -1) score();
+		probability = Math.pow(Math.E, -score/(Constants.Boltzmann*Constants.Temp));
+		return probability;
 	}
 }

@@ -12,7 +12,7 @@ import java.lang.reflect.*;
 
 public class ProteinStruct {
 	private ArrayList<Atom> structurea;
-	private ImmutableArrayList structure;
+	private ImmutableArrayList<Atom> structure;
 	private ArrayList<Atom> surface;
 	private ArrayList<Bond> bonds;
 	private ArrayList<Bond> surfacebonds;
@@ -20,14 +20,14 @@ public class ProteinStruct {
 	private ArrayList<Atom> surfacebackbone;
 	private ArrayList<Bond> backbonebonds;
 	private ArrayList<Bond> surfacebackbonebonds;
-	private HashMap chaintranslator;
-	private HashMap reversechaintrans;
-	private HashMap chaintranslator2;
-	private HashMap reversechaintrans2;
-	private HashMap translator1;
-	private HashMap translator2;
-	private HashMap translator3;
-	private HashMap translator4;
+	private HashMap<Character,Character> chaintranslator;
+	private HashMap<Character,Character> reversechaintrans;
+	private HashMap<Character,Character> chaintranslator2;
+	private HashMap<Character,Character> reversechaintrans2;
+	private HashMap<String,Integer> translator1;
+	private HashMap<String,String> translator2;
+	private HashMap<String,Integer> translator3;
+	private HashMap<String,String> translator4;
 	private String filepath;
 	private PrintWriter out;
 	private int chaincount;
@@ -40,8 +40,8 @@ public class ProteinStruct {
 	private double[][][][] potentials;
 	private double[][][][] solvpotentials;
 	private double solvEModel;
-	public ProteinStruct(String filepath, PrintWriter out, HashMap chaintranslator2, HashMap reversechaintrans2) throws Exception {
-		chaintranslator = new HashMap();
+	public ProteinStruct(String filepath, PrintWriter out, HashMap<Character,Character> chaintranslator2, HashMap<Character,Character>  reversechaintrans2) throws Exception {
+		chaintranslator = new HashMap<Character,Character>();
 		structurea = new ArrayList<Atom>();
 		surface = new ArrayList<Atom>();
 		bonds = new ArrayList<Bond>();
@@ -50,11 +50,11 @@ public class ProteinStruct {
 		surfacebackbone = new ArrayList<Atom>();
 		backbonebonds = new ArrayList<Bond>();
 		surfacebackbonebonds = new ArrayList<Bond>();
-		translator1 = new HashMap();
-		translator2 = new HashMap();
-		translator3 = new HashMap();
-		translator4 = new HashMap();
-		reversechaintrans = new HashMap();
+		translator1 = new HashMap<String,Integer>();
+		translator2 = new HashMap<String,String>();
+		translator3 = new HashMap<String,Integer>();
+		translator4 = new HashMap<String,String>();
+		reversechaintrans = new HashMap<Character,Character>();
 		translator1.put("ALA",0);
 		translator1.put("CYS",1);
 		translator1.put("ASP",2);
@@ -141,7 +141,7 @@ public class ProteinStruct {
 		this.reversechaintrans2 = reversechaintrans2;
 		rotated = false;
 		parseStructure(filepath);
-		structure = new ImmutableArrayList(structurea);
+		structure = new ImmutableArrayList<Atom>(structurea);
 		long beforeS = System.currentTimeMillis(); 
 		determineSurfaceNew();
 		long afterS = System.currentTimeMillis();
@@ -172,10 +172,10 @@ public class ProteinStruct {
 		this.solvpotentials = solvpotentials;
 		this.solvEModel = solvEModel;
 		rotated = true;
-		translator1 = new HashMap();
-		translator2 = new HashMap();
-		translator3 = new HashMap();
-		translator4 = new HashMap();
+		translator1 = new HashMap<String,Integer>();
+		translator2 = new HashMap<String,String>();
+		translator3 = new HashMap<String,Integer>();
+		translator4 = new HashMap<String,String>();
 		translator1.put("ALA",0);
 		translator1.put("CYS",1);
 		translator1.put("ASP",2);
@@ -272,16 +272,16 @@ public class ProteinStruct {
 		surfacebackbone = new ArrayList<Atom>();
 		backbonebonds = new ArrayList<Bond>();
 		surfacebackbonebonds = new ArrayList<Bond>();
-		translator1 = new HashMap();
-		translator2 = new HashMap();
-		translator3 = new HashMap();
-		translator4 = new HashMap();
-		chaintranslator = new HashMap();
-		reversechaintrans = new HashMap();
-		chaintranslator2 = new HashMap();
-		reversechaintrans2 = new HashMap();
-		structure = new ImmutableArrayList(clone.getStructure());
-		ArrayList clonestructa = clone.getSurface();
+		translator1 = new HashMap<String,Integer>();
+		translator2 = new HashMap<String,String>();
+		translator3 = new HashMap<String,Integer>();
+		translator4 = new HashMap<String,String>();
+		chaintranslator = new HashMap<Character,Character>();
+		reversechaintrans = new HashMap<Character,Character>();
+		chaintranslator2 = new HashMap<Character,Character>();
+		reversechaintrans2 = new HashMap<Character,Character>();
+		structure = new ImmutableArrayList<Atom>(clone.getStructure());
+		ArrayList<Atom> clonestructa = clone.getSurface();
 		for (int i = 0; i < clonestructa.size(); i++) {
 			Atom current = (Atom)clonestructa.get(i);
 			this.surface.add(new Atom(current));
@@ -296,7 +296,7 @@ public class ProteinStruct {
 			Atom current = (Atom)clonestructa.get(i);
 			this.surfacebackbone.add(new Atom(current));
 		}
-		ArrayList clonebonds = clone.getBonds();
+		ArrayList<Bond> clonebonds = clone.getBonds();
 		for (int i = 0; i < clonebonds.size(); i++) {
 			Bond current = (Bond)clonebonds.get(i);
 			this.bonds.add(new Bond(current));
@@ -480,7 +480,7 @@ public class ProteinStruct {
 				}
 			}
 		}
-		ArrayList newstructure = new ArrayList<Atom>();
+		ArrayList<Atom> newstructure = new ArrayList<Atom>();
 		for (int i = 0; i < structure.size(); i++) {
 			Atom current = (Atom)structure.get(i);
 			Atom trcurrent = current.transAtom(-xcoordcent, -ycoordcent, -zcoordcent);
@@ -489,14 +489,14 @@ public class ProteinStruct {
 			trcurrent.setCartesian();
 			newstructure.add(trcurrent);
 		}
-		ArrayList done = new ArrayList<Atom>();
+		ArrayList<Atom> done = new ArrayList<Atom>();
 		for (double i = Constants.ALPHAINC/2; i < 2*Math.PI; i += Constants.ALPHAINC) {
 			for (double j = Constants.BETAINC/2; j < 2*Math.PI; j += Constants.BETAINC) {
 				for (double k = Constants.GAMMAINC/2; k < 2*Math.PI; k += Constants.GAMMAINC) {
 					double maxnum = 0;
-					ArrayList worked = new ArrayList();
+					ArrayList<Atom> worked = new ArrayList<Atom>();
 					for (int l = 0; l < newstructure.size(); l++) {
-						Atom current = (Atom)newstructure.get(l);
+						Atom current = newstructure.get(l);
 						Atom test = current.rotateAtomNew(0, 0, 0, i, j, k);
 						test.setSpherical();
 						if (Math.abs(test.getYcoord()) <= Constants.ALPHAINC/2 && Math.abs(Math.PI/2 - test.getZcoord()) <= Constants.BETAINC/2) {
@@ -2120,31 +2120,31 @@ public class ProteinStruct {
 	public String getFilepath() {
 		return filepath;
 	}
-	public ArrayList getStructurea() {
+	public ArrayList<Atom> getStructurea() {
 		return structurea;
 	}
-	public ImmutableArrayList getStructure() {
+	public ImmutableArrayList<Atom> getStructure() {
 		return structure;
 	}
-	public ArrayList getSurface() {
+	public ArrayList<Atom> getSurface() {
 		return surface;
 	}
-	public ArrayList getBonds() {
+	public ArrayList<Bond> getBonds() {
 		return bonds;
 	}
-	public ArrayList getSurfaceBonds() {
+	public ArrayList<Bond> getSurfaceBonds() {
 		return surfacebonds;
 	}
-	public ArrayList getBackbone() {
+	public ArrayList<Atom> getBackbone() {
 		return backbone;
 	}
-	public ArrayList getSurfaceBackbone() {
+	public ArrayList<Atom> getSurfaceBackbone() {
 		return surfacebackbone;
 	}
-	public ArrayList getBackboneBonds() {
+	public ArrayList<Bond> getBackboneBonds() {
 		return backbonebonds;
 	}
-	public ArrayList getSurfaceBackboneBonds() {
+	public ArrayList<Bond> getSurfaceBackboneBonds() {
 		return surfacebackbonebonds;
 	}
 	public double getXCoordCent() {

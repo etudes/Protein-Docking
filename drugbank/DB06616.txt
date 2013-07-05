@@ -1,0 +1,1536 @@
+#BEGIN_DRUGCARD DB06616
+
+# AHFS_Codes:
+10:00
+
+# ATC_Codes:
+L01XE14
+
+# Absorption:
+Food increase the exposure of bosutinib. 
+Tmax, single dose, cancer patients, fed-state = 4-6 hours;
+After 15 daily doses of bosutinib 500 mg with food in CML patients, the pharmacokinetic parameters are as follows:
+Cmax = 200 ng/mL; 
+AUC = 3650 ng∙h/mL
+
+# Biotransformation:
+Bosutinib is primarily metabolized by CYP3A4. The major circulating metabolites identified in plasma are oxydechlorinated (M2) bosutinib (19% of parent exposure) and N-desmethylated (M5) bosutinib (25% of parent exposure), with bosutinib N-oxide (M6) as a minor circulating metabolite. All the metabolites were deemed inactive.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Bosulif
+
+# CAS_Registry_Number:
+380843-75-4
+
+# ChEBI_ID:
+39112
+
+# Chemical_Formula:
+C26H29Cl2N5O3
+
+# Chemical_IUPAC_Name:
+4-[(2,4-dichloro-5-methoxyphenyl)amino]-6-methoxy-7-[3-(4-methylpiperazin-1-yl)propoxy]quinoline-3-carbonitrile
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2008-03-19 10:41:22 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Bosutinib is a Bcr-Abl kinase inhibitor for the treatment of Philadelphia chromosome-positive (Ph+) chronic myelogenous leukemia (CML). Compared to other tyrosine kinase inhibitors, it has a more favourable hematologic toxicity profile. FDA approved on September 4, 2012.
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Antineoplastic Agents
+
+# Drug_Interactions:
+Abiraterone 	Abiraterone increases levels by P-glycoprotein (MDR1) efflux transporter. Consider alternate therapy.
+Crizotinib	Strong CYP3A4 inhibitors may increase levels of crizotinib. Consider alternative therapy.
+Digoxin	Bosutinib is a substrate and inhibitor of p-glycoprotein (p-gp) and may increase levels of other p-gp substrates.
+Etravirine	Bosutinib, when used concomitantly with etravirine, may experience a decrease in serum concentration. It is recommended to avoid this combination.
+Ketoconazole	Strong CYP3A4 inhibitors may increase levels of bosutinib. Monitor concomitant therapy closely.
+Lansoprazole	Concomitant lansoprazole (PPI) decreased bosutinib Cmax by 46% and AUC by 26% compared to bosutinib alone. Consider using short-acting antacids or H2 blockers instead of PPIs to avoid a reduction in bosutinib exposure. Separate antacid or H2 blocker dosing and BOSULIF dosing by more than 2 hours.
+Rifampin	Strong CYP3A4 inducers may decrease levels of bosutinib. Monitor concomitant therapy closely.
+
+# Drug_Reference:
+23098112	Keller-V Amsberg G, Brummendorf TH: Novel aspects of therapy with the dual Src and Abl kinase inhibitor bosutinib in chronic myeloid leukemia. Expert Rev Anticancer Ther. 2012 Sep;12(9):1121-7. doi: 10.1586/era.12.84.
+23674887	Amsberg GK, Schafhausen P: Bosutinib in the management of chronic myelogenous leukemia. Biologics. 2013;7:115-22. doi: 10.2147/BTT.S30182. Epub 2013 May 6.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+When given with a high fat meal, the Cmax and AUC of bosutinib increased 1.8- and 1.7-fold, respectively.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Bosutinib
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Terminal phase elimination half-life, single oral dose, fed-state = 22.5 hours
+
+# InChI_Identifier:
+InChI=1/C26H29Cl2N5O3/c1-32-6-8-33(9-7-32)5-4-10-36-25-13-21-18(11-24(25)35-3)26(17(15-29)16-30-21)31-22-14-23(34-2)20(28)12-19(22)27/h11-14,16H,4-10H2,1-3H3,(H,30,31)
+
+# InChI_Key:
+InChIKey=UBPYILGKFZZVDX-UHFFFAOYNA-N
+
+# Indication:
+Treatment of chronic, accelerated, or blast phase Philadelphia chromosome-positive (Ph+) chronic myelogenous leukemia (CML) with resistance or intolerance to prior therapy in adult patients.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D03252
+
+# LIMS_Drug_ID:
+6617
+
+# Mechanism_Of_Action:
+Bosutinib is a tyrosine kinase inhibitor. Although it is able to inhibit several tyrosine kinases such as Src, Lyn, and Hck, which are members of the Src-family of kinases, its primary target is the Bcr-Abl kinase. The Bcr-Abl gene is a chimeric oncogene created from the fusion of the breakpoint-cluster (Bcr) gene and Abelson (Abl) tyrosine gene. This chromosomal abnormality results in the formation of what is commonly known as the Philadelphia chromosome or Philadelphia translocation. The Bcr-Abl gene expresses a particular kinase that promotes the progression of CML. A decrease in the growth and size of the CML tumour has been observed following administration of bosutinib. Bosutinib did not inhibit the T315I and V299L mutant cells.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+530.446
+
+# Molecular_Weight_Mono:
+529.164745233
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+4.87
+
+# Predicted_LogS:
+-4.8
+
+# Predicted_Water_Solubility:
+9.50e-03 g/l
+
+# Primary_Accession_No:
+DB06616
+
+# Protein_Binding:
+94% bound to human plasma proteins in vitro. 96% bound to human plasma proteins in healthy subjects ex vivo. Extent of protein binding is not concentration-dependent.
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/bosulif-drug.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+COC1=CC(NC2=C(C=NC3=CC(OCCCN4CCN(C)CC4)=C(OC)C=C23)C#N)=C(Cl)C=C1Cl
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Bosulif®
+Bosutinib Monohydrate
+SKI-606
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Most common adverse reactions (incidence greater than 20%) are diarrhea, nausea, thrombocytopenia, vomiting, abdominal pain, rash, anemia, pyrexia, and fatigue. Because bosutinib is not an inhibitor of c-KIT or PDGF receptor, it has less hematologic toxicities.
+
+# Update_Date:
+2013-06-08 15:59:15 -0600
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Bosutinib
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P08684
+
+# Drug_Target_10_Cellular_Location:
+Not Available
+
+# Drug_Target_10_Chromosome_Location:
+1
+
+# Drug_Target_10_Drug_References:
+23493838	Amsberg GK, Koschmieder S: Profile of bosutinib and its clinical potential in the treatment of chronic myeloid leukemia. Onco Targets Ther. 2013;6:99-106. doi: 10.2147/OTT.S19901. Epub 2013 Mar 4.
+
+# Drug_Target_10_Essentiality:
+Non-Essential
+
+# Drug_Target_10_GenAtlas_ID:
+Not Available
+
+# Drug_Target_10_GenBank_ID_Gene:
+BC034044
+
+# Drug_Target_10_GenBank_ID_Protein:
+21707842
+
+# Drug_Target_10_GeneCard_ID:
+CAMK2G
+
+# Drug_Target_10_Gene_Name:
+CAMK2G
+
+# Drug_Target_10_Gene_Sequence:
+>1584 bp
+ATGGCCACCACCGCCACCTGCACACGTTTCACCGACGACTACCAGCTCTTCGAGGAGCTT
+GGCAAGGGTGCTTTCTCTGTGGTCCGCAGGTGTGTGAAGAAAACCCCCACGCAGGAGTAC
+GCAGCAAAAATCATCAATACCAAGAAATTGTCTGCCCGGGATCACCAGAAACTAGAACGT
+GAGGCTCGGATATGTCGACTTCTGAAACATCCAAACATCGTGCGCCTCCATGACAGTATT
+TCTGAAGAAGGGTTTCACTACCTCGTGTTTGACCTTGTTACCGGCGGGGAGCTGTTTGAA
+GACATTGTGGCCAGAGAGTACTACAGTGAAGCAGATGCCAGCCACTGTATACATCAGATT
+CTGGAGAGTGTTAACCACATCCACCAGCATGACATCGTCCACAGGGACCTGAAGCCTGAG
+AACCTGCTGCTGGCGAGTAAATGCAAGGGTGCCGCCGTCAAGCTGGCTGATTTTGGCCTA
+GCCATCGAAGTACAGGGAGAGCAGCAGGCTTGGTTTGGTTTTGCTGGCACCCCAGGTTAC
+TTGTCCCCTGAGGTCTTGAGGAAAGATCCCTATGGAAAACCTGTGGATATCTGGGCCTGC
+GGGGTCATCCTGTATATCCTCCTGGTGGGCTATCCTCCCTTCTGGGATGAGGATCAGCAC
+AAGCTGTATCAGCAGATCAAGGCTGGAGCCTATGATTTCCCATCACCAGAATGGGACACG
+GTAACTCCTGAAGCCAAGAACTTGATCAACCAGATGCTGACCATAAACCCAGCAAAGCGC
+ATCACGGCTGACCAGGCTCTCAAGCACCCGTGGGTCTGTCAACGATCCACGGTGGCATCC
+ATGATGCATCGTCAGGAGACTGTGGAGTGTTTGCGCAAGTTCAATGCCCGGAGAAAACTG
+AAGGGTGCCATCCTCACGACCATGCTTGTCTCCAGGAACTTCTCAGTTGGCAGGCAGAGC
+TCCGCCCCCGCCTCGCCTGCCGCGAGCGCCGCCGGCCTGGCCGGGCAAGCTGCCAAAAGC
+CTATTGAACAAGAAGTCGGATGGCGGTGTCAAGAAAAGGAAGTCGAGTTCCAGCGTGCAC
+CTAATGGAGCCACAAACCACTGTGGTACACAACGCTACAGATGGGATCAAGGGCTCCACA
+GAGAGCTGCAACACCACCACAGAAGATGAGGACCTCAAAGTGCGAAAACAGGAGATCATT
+AAGATTACAGAACAGCTGATTGAAGCCATCAACAATGGGGACTTTGAGGCCTACACGAAG
+ATTTGTGATCCAGGCCTCACTTCCTTTGAGCCTGAGGCCCTTGGTAACCTCGTGGAGGGG
+ATGGATTTCCATAAGTTTTACTTTGAGAATCTCCTGTCAAAGAACAGCAAGCCTATCCAT
+ACCACCATCCTAAACCCACACGTCCACGTGATTGGGGAGGACGCAGCGTGCATCGCCTAC
+ATCCGCCTCACCCAGTACATCGACGGGCAGGGTCGGCCTCGCACCAGCCAGTCAGAAGAG
+ACCCGGGTCTGGCACCGTCGGGATGGCAAGTGGCTCAATGTCCACTATCACTGCTCAGGG
+GCCCCTGCCGCACCGCTGCAGTGA
+
+# Drug_Target_10_General_Function:
+Involved in ATP binding
+
+# Drug_Target_10_General_References:
+12032636	Gloyn AL, Desai M, Clark A, Levy JC, Holman RR, Frayling TM, Hattersley AT, Ashcroft SJ: Human calcium/calmodulin-dependent protein kinase II gamma gene (CAMK2G): cloning, genomic structure and detection of variants in subjects with type II diabetes. Diabetologia. 2002 Apr;45(4):580-3.
+15164054	Deloukas P, Earthrowl ME, Grafham DV, Rubenfield M, French L, Steward CA, Sims SK, Jones MC, Searle S, Scott C, Howe K, Hunt SE, Andrews TD, Gilbert JG, Swarbreck D, Ashurst JL, Taylor A, Battles J, Bird CP, Ainscough R, Almeida JP, Ashwell RI, Ambrose KD, Babbage AK, Bagguley CL, Bailey J, Banerjee R, Bates K, Beasley H, Bray-Allen S, Brown AJ, Brown JY, Burford DC, Burrill W, Burton J, Cahill P, Camire D, Carter NP, Chapman JC, Clark SY, Clarke G, Clee CM, Clegg S, Corby N, Coulson A, Dhami P, Dutta I, Dunn M, Faulkner L, Frankish A, Frankland JA, Garner P, Garnett J, Gribble S, Griffiths C, Grocock R, Gustafson E, Hammond S, Harley JL, Hart E, Heath PD, Ho TP, Hopkins B, Horne J, Howden PJ, Huckle E, Hynds C, Johnson C, Johnson D, Kana A, Kay M, Kimberley AM, Kershaw JK, Kokkinaki M, Laird GK, Lawlor S, Lee HM, Leongamornlert DA, Laird G, Lloyd C, Lloyd DM, Loveland J, Lovell J, McLaren S, McLay KE, McMurray A, Mashreghi-Mohammadi M, Matthews L, Milne S, Nickerson T, Nguyen M, Overton-Larty E, Palmer SA, Pearce AV, Peck AI, Pelan S, Phillimore B, Porter K, Rice CM, Rogosin A, Ross MT, Sarafidou T, Sehra HK, Shownkeen R, Skuce CD, Smith M, Standring L, Sycamore N, Tester J, Thorpe A, Torcasso W, Tracey A, Tromans A, Tsolas J, Wall M, Walsh J, Wang H, Weinstock K, West AP, Willey DL, Whitehead SL, Wilming L, Wray PW, Young L, Chen Y, Lovering RC, Moschonas NK, Siebert R, Fechtel K, Bentley D, Durbin R, Hubbard T, Doucette-Stamm L, Beck S, Smith DR, Rogers J: The DNA sequence and comparative analysis of human chromosome 10. Nature. 2004 May 27;429(6990):375-81.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+17081983	Olsen JV, Blagoev B, Gnad F, Macek B, Kumar C, Mortensen P, Mann M: Global, in vivo, and site-specific phosphorylation dynamics in signaling networks. Cell. 2006 Nov 3;127(3):635-48.
+17192257	Wissing J, Jansch L, Nimtz M, Dieterich G, Hornberger R, Keri G, Wehland J, Daub H: Proteomics analysis of protein kinases by target class-selective prefractionation and tandem mass spectrometry. Mol Cell Proteomics. 2007 Mar;6(3):537-47. Epub 2006 Dec 27.
+18691976	Daub H, Olsen JV, Bairlein M, Gnad F, Oppermann FS, Korner R, Greff Z, Keri G, Stemmann O, Mann M: Kinase-selective enrichment enables quantitative phosphoproteomics of the kinome across the cell cycle. Mol Cell. 2008 Aug 8;31(3):438-48.
+7557101	Kwiatkowski AP, McGill JM: Human biliary epithelial cell line Mz-ChA-1 expresses new isoforms of calmodulin-dependent protein kinase II. Gastroenterology. 1995 Oct;109(4):1316-23.
+9060999	Tombes RM, Krystal GW: Identification of novel human tumor cell-specific CaMK-II variants. Biochim Biophys Acta. 1997 Mar 1;1355(3):281-92.
+9240463	Breen MA, Ashcroft SJ: Human islets of Langerhans express multiple isoforms of calcium/calmodulin-dependent protein kinase II. Biochem Biophys Res Commun. 1997 Jul 18;236(2):473-8.
+
+# Drug_Target_10_HGNC_ID:
+GNC:1463
+
+# Drug_Target_10_HPRD_ID:
+Not Available
+
+# Drug_Target_10_ID:
+6893
+
+# Drug_Target_10_Locus:
+10q22
+
+# Drug_Target_10_Molecular_Weight:
+62608.7
+
+# Drug_Target_10_Name:
+Calcium/calmodulin-dependent protein kinase type II gamma chain
+
+# Drug_Target_10_Number_of_Residues:
+558
+
+# Drug_Target_10_PDB_ID:
+Not Available
+
+# Drug_Target_10_Pathway:
+Not Available
+
+# Drug_Target_10_Pfam_Domain_Function:
+PF00069	Pkinase
+PF08332	CaMKII_AD
+
+# Drug_Target_10_Protein_Sequence:
+>Calcium/calmodulin-dependent protein kinase type II gamma chain
+MATTATCTRFTDDYQLFEELGKGAFSVVRRCVKKTSTQEYAAKIINTKKLSARDHQKLER
+EARICRLLKHPNIVRLHDSISEEGFHYLVFDLVTGGELFEDIVAREYYSEADASHCIHQI
+LESVNHIHQHDIVHRDLKPENLLLASKCKGAAVKLADFGLAIEVQGEQQAWFGFAGTPGY
+LSPEVLRKDPYGKPVDIWACGVILYILLVGYPPFWDEDQHKLYQQIKAGAYDFPSPEWDT
+VTPEAKNLINQMLTINPAKRITADQALKHPWVCQRSTVASMMHRQETVECLRKFNARRKL
+KGAILTTMLVSRNFSAAKSLLNKKSDGGVKKRKSSSSVHLMPQSNNKNSLVSPAQEPAPL
+QTAMEPQTTVVHNATDGIKGSTESCNTTTEDEDLKARSPEGRSSRDRTAPSAGMQPQPSL
+CSSAMRKQEIIKITEQLIEAINNGDFEAYTKICDPGLTSFEPEALGNLVEGMDFHKFYFE
+NLLSKNSKPIHTTILNPHVHVIGEDAACIAYIRLTQYIDGQGRPRTSQSEETRVWHRRDG
+KWLNVHYHCSGAPAAPLQ
+
+# Drug_Target_10_Reaction:
+Not Available
+
+# Drug_Target_10_Signals:
+None
+
+# Drug_Target_10_Specific_Function:
+CaM-kinase II (CAMK2) is a prominent kinase in the central nervous system that may function in long-term potentiation and neurotransmitter release
+
+# Drug_Target_10_SwissProt_ID:
+Q13555
+
+# Drug_Target_10_SwissProt_Name:
+KCC2G_HUMAN
+
+# Drug_Target_10_Synonyms:
+CaM kinase II subunit gamma
+CaM-kinase II gamma chain
+CaMK-II subunit gamma
+
+# Drug_Target_10_Theoretical_pI:
+7.89
+
+# Drug_Target_10_Transmembrane_Regions:
+None
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+Not Available
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+Not Available
+
+# Drug_Target_1_General_Function:
+Not Available
+
+# Drug_Target_1_General_References:
+Not Available
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+7295
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+Not Available
+
+# Drug_Target_1_Name:
+Breakpoint cluster region protein
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+Not Available
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+P11274
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+Not Available
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+ABL1
+
+# Drug_Target_2_GenBank_ID_Gene:
+X16416
+
+# Drug_Target_2_GenBank_ID_Protein:
+28237
+
+# Drug_Target_2_GeneCard_ID:
+ABL1
+
+# Drug_Target_2_Gene_Name:
+ABL1
+
+# Drug_Target_2_Gene_Sequence:
+>3393 bp
+ATGTTGGAGATCTGCCTGAAGCTGGTGGGCTGCAAATCCAAGAAGGGGCTGTCCTCGTCC
+TCCAGCTGTTATCTGGAAGAAGCCCTTCAGCGGCCAGTAGCATCTGACTTTGAGCCTCAG
+GGTCTGAGTGAAGCCGCTCGTTGGAACTCCAAGGAAAACCTTCTCGCTGGACCCAGTGAA
+AATGACCCCAACCTTTTCGTTGCACTGTATGATTTTGTGGCCAGTGGAGATAACACTCTA
+AGCATAACTAAAGGTGAAAAGCTCCGGGTCTTAGGCTATAATCACAATGGGGAATGGTGT
+GAAGCCCAAACCAAAAATGGCCAAGGCTGGGTCCCAAGCAACTACATCACGCCAGTCAAC
+AGTCTGGAGAAACACTCCTGGTACCATGGGCCTGTGTCCCGCAATGCCGCTGAGTATCTG
+CTGAGCAGCGGGATCAATGGCAGCTTCTTGGTGCGTGAGAGTGAGAGCAGTCCTGGCCAG
+AGGTCCATCTCGCTGAGATACGAAGGGAGGGTGTACCATTACAGGATCAACACTGCTTCT
+GATGGCAAGCTCTACGTCTCCTCCGAGAGCCGCTTCAACACCCTGGCCGAGTTGGTTCAT
+CATCATTCAACGGTGGCCGACGGGCTCATCACCACGCTCCATTATCCAGCCCCAAAGCGC
+AACAAGCCCACTGTCTATGGTGTGTCCCCCAACTACGACAAGTGGGAGATGGAACGCACG
+GACATCACCATGAAGCACAAGCTGGGCGGGGGCCAGTACGGGGAGGTGTACGAGGGCGTG
+TGGAAGAAATACAGCCTGACGGTGGCCGTGAAGACCTTGAAGGAGGACACCATGGAGGTG
+GAAGAGTTCTTGAAAGAAGCTGCAGTCATGAAAGAGATCAAACACCCTAACCTGGTGCAG
+CTCCTTGGGGTCTGCACCCGGGAGCCCCCGTTCTATATCATCACTGAGTTCATGACCTAC
+GGGAACCTCCTGGACTACCTGAGGGAGTGCAACCGGCAGGAGGTGAACGCCGTGGTGCTG
+CTGTACATGGCCACTCAGATCTCGTCAGCCATGGAGTACCTGGAGAAGAAAAACTTCATC
+CACAGAGATCTTGCTGCCCGAAACTGCCTGGTAGGGGAGAACCACTTGGTGAAGGTAGCT
+GATTTTGGCCTGAGCAGGTTGATGACAGGGGACACCTACACAGCCCATGCTGGAGCCAAG
+TTCCCCATCAAATGGACTGCACCCGAGAGCCTGGCCTACAACAAGTTCTCCATCAAGTCC
+GACGTCTGGGCATTTGGAGTATTGCTTTGGGAAATTGCTACCTATGGCATGTCCCCTTAC
+CCGGGAATTGACCTGTCCCAGGTGTATGAGCTGCTAGAGAAGGACTACCGCATGGAGCGC
+CCAGAAGGCTGCCCAGAGAAGGTCTATGAACTCATGCGAGCATGTTGGCAGTGGAATCCC
+TCTGACCGGCCCTCCTTTGCTGAAATCCACCAAGCCTTTGAAACAATGTTCCAGGAATCC
+AGTATCTCAGACGAAGTGGAAAAGGAGCTGGGGAAACAAGGCGTCCGTGGGGCTGTGAGT
+ACCTTGCTGCAGGCCCCAGAGCTGCCCACCAAGACGAGGACCTCCAGGAGAGCTGCAGAG
+CACAGAGACACCACTGACGTGCCTGAGATGCCTCACTCCAAGGGCCAGGGAGAGAGCGAT
+CCTCTGGACCATGAGCCTGCCGTGTCTCCATTGCTCCCTCGAAAAGAGCGAGGTCCCCCG
+GAGGGCGGCCTGAATGAAGATGAGCGCCTTCTCCCCAAAGACAAAAAGACCAACTTGTTC
+AGCGCCTTGATCAAGAAGAAGAAGAAGACAGCCCCAACCCCTCCCAAACGCAGCAGCTCC
+TTCCGGGAGATGGACGGCCAGCCGGAGCGCAGAGGGGCCGGCGAGGAAGAGGGCCGAGAC
+ATCAGCAACGGGGCACTGGCTTTCACCCCCTTGGACACAGCTGACCCAGCCAAGTCCCCA
+AAGCCCAGCAATGGGGCTGGGGTCCCCAATGGAGCCCTCCGGGAGTCCGGGGGCTCAGGC
+TTCCGGTCTCCCCACCTGTGGAAGAAGTCCAGCACGCTGACCAGCAGCCGCCTAGCCACC
+GGCGAGGAGGAGGGCGGTGGCAGCTCCAGCAAGCGCTTCCTGCGCTCTTGCTCCGCCTCC
+TGCGTTCCCCATGGGGCCAAGGACACGGAGTGGAGGTCAGTCACGCTGCCTCGGGACTTG
+CAGTCCACGGGAAGACAGTTTGACTCGTCCACATTTGGAGGGCACAAAAGTGAGAAGCCG
+GCTCTGCCTCGGAAGAGGGCAGGGGAGAACAGGTCTGACCAGGTGACCCGAGGCACAGTA
+ACGCCTCCCCCCAGGCTGGTGAAAAAGAATGAGGAAGCTGCTGATGAGGTCTTCAAAGAC
+ATCATGGAGTCCAGCCCGGGCTCCAGCCCGCCCAACCTGACTCCAAAACCCCTCCGGCGG
+CAGGTCACCGTGGCCCCTGCCTCGGGCCTCCCCCACAAGGAAGAAGCTGAAAAGGGCAGT
+GCCTTAGGGACCCCTGCTGCAGCTGAGCCAGTGACCCCCACCAGCAAAGCAGGCTCAGGT
+GCACCAGGGGGCACCAGCAAGGGCCCCGCCGAGGAGTCCAGAGTGAGGAGGCACAAGCAC
+TCCTCTGAGTCGCCAGGGAGGGACAAGGGGAAATTGTCCAGGCTCAAACCTGCCCCGCCG
+CCCCCACCAGCAGCCTCTGCAGGGAAGGCTGGAGGAAAGCCCTCGCAGAGCCCGAGCCAG
+GAGGCGGCCGGGGAGGCAGTCCTGGGCGCAAAGACAAAAGCCACGAGTCTGGTTGATGCT
+GTGAACAGTGACGCTGCCAAGCCCAGCCAGCCGGGAGAGGGCCTCAAAAAGCCCGTGCTC
+CCGGCCACTCCAAAGCCACAGTCCGCCAAGCCGTCGGGGACCCCCATCAGCCCAGCCCCC
+GTTCCCTCCACGTTGCCATCAGCATCCTCGGCCCTGGCAGGGGACCAGCCGTCTTCCACT
+GCCTTCATCCCTCTCATATCAACCCGAGTGTCTCTTCGGAAAACCCGCCAGCCTCCAGAG
+CGGATCGCCAGCGGCGCCATCACCAAGGGCGTGGTCCTGGACAGCACCGAGGCGCTGTGC
+CTCGCCATCTCTAGGAACTCCGAGCAGATGGCCAGCCACAGCGCAGTGCTGGAGGCCGGC
+AAAAACCTCTACACGTTCTGCGTGAGCTATGTGGATTCCATCCAGCAAATGAGGAACAAG
+TTTGCCTTCCGAGAGGCCATCAACAAACTGGAGAATAATCTCCGGGAGCTTCAGATCTGC
+CCGGCGACAGCAGGCAGTGGTCCGGCGGCCACTCAGGACTTCAGCAAGCTCCTCAGTTCG
+GTGAAGGAAATCAGTGACATAGTGCAGAGGTAG
+
+# Drug_Target_2_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_2_General_References:
+11374898	Lin WH, Huang CJ, Liu MW, Chang HM, Chen YJ, Tai TY, Chuang LM: Cloning, mapping, and characterization of the human sorbin and SH3 domain containing 1 (SORBS1) gene: a protein associated with c-Abl during insulin signaling in the hepatoma cell line Hep3B. Genomics. 2001 May 15;74(1):12-20.
+12384576	Donaldson LW, Gish G, Pawson T, Kay LE, Forman-Kay JD: Structure of a regulatory complex involving the Abl SH3 domain, the Crk SH2 domain, and a Crk-derived phosphopeptide. Proc Natl Acad Sci U S A. 2002 Oct 29;99(22):14053-8. Epub 2002 Oct 16.
+12522270	Salomon AR, Ficarro SB, Brill LM, Brinker A, Phung QT, Ericson C, Sauer K, Brock A, Horn DM, Schultz PG, Peters EC: Profiling of tyrosine phosphorylation pathways in human cells using mass spectrometry. Proc Natl Acad Sci U S A. 2003 Jan 21;100(2):443-8. Epub 2003 Jan 9.
+1281542	Overduin M, Mayer B, Rios CB, Baltimore D, Cowburn D: Secondary structure of Src homology 2 domain of c-Abl by heteronuclear NMR spectroscopy in solution. Proc Natl Acad Sci U S A. 1992 Dec 15;89(24):11673-7.
+1505033	Overduin M, Rios CB, Mayer BJ, Baltimore D, Cowburn D: Three-dimensional solution structure of the src homology 2 domain of c-abl. Cell. 1992 Aug 21;70(4):697-704.
+2687768	Fainstein E, Einat M, Gokkel E, Marcelle C, Croce CM, Gale RP, Canaani E: Nucleotide sequence analysis of human abl and bcr-abl cDNAs. Oncogene. 1989 Dec;4(12):1477-81.
+2825022	Fainstein E, Marcelle C, Rosner A, Canaani E, Gale RP, Dreazen O, Smith SD, Croce CM: A new fused transcript in Philadelphia chromosome positive acute lymphocytic leukaemia. Nature. 1987 Nov 26-Dec 2;330(6146):386-8.
+3021337	Shtivelman E, Lifshitz B, Gale RP, Roe BA, Canaani E: Alternative splicing of RNAs transcribed from the human abl gene and from the bcr-abl fused gene. Cell. 1986 Oct 24;47(2):277-84.
+6191223	Groffen J, Heisterkamp N, Reynolds FH Jr, Stephenson JR: Homology between phosphotyrosine acceptor site of human c-abl and viral oncogene products. Nature. 1983 Jul 14-20;304(5922):167-9.
+7545908	Inokuchi K, Futaki M, Dan K, Nomura T: Sequence analysis of the mutation at codon 834 and the sequence variation of codon 837 of c-abl gene. Leukemia. 1994 Feb;8(2):343-4.
+7665185	Chissoe SL, Bodenteich A, Wang YF, Wang YP, Burian D, Clifton SW, Crabtree J, Freeman A, Iyer K, Jian L, et al.: Sequence and analysis of the human ABL gene, the BCR gene, and regions involved in the Philadelphia chromosomal translocation. Genomics. 1995 May 1;27(1):67-82.
+7892170	Pisabarro MT, Ortiz AR, Serrano L, Wade RC: Homology modeling of the Abl-SH3 domain. Proteins. 1994 Nov;20(3):203-15.
+8590002	Gosser YQ, Zheng J, Overduin M, Mayer BJ, Cowburn D: The solution structure of Abl SH3, and its relationship to SH2 in the SH(32) construct. Structure. 1995 Oct 15;3(10):1075-86.
+8805596	Nam HJ, Haser WG, Roberts TM, Frederick CA: Intramolecular interactions of the regulatory domains of the Bcr-Abl kinase reveal a novel control mechanism. Structure. 1996 Sep 15;4(9):1105-14.
+9168116	Baskaran R, Wood LD, Whitaker LL, Canman CE, Morgan SE, Xu Y, Barlow C, Baltimore D, Wynshaw-Boris A, Kastan MB, Wang JY: Ataxia telangiectasia mutant protein activates c-Abl tyrosine kinase in response to ionizing radiation. Nature. 1997 May 29;387(6632):516-9.
+9698566	Pisabarro MT, Serrano L, Wilmanns M: Crystal structure of the abl-SH3 domain complexed with a designed high-affinity peptide ligand: implications for SH3-ligand interactions. J Mol Biol. 1998 Aug 21;281(3):513-21.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:76
+
+# Drug_Target_2_HPRD_ID:
+01809
+
+# Drug_Target_2_ID:
+17
+
+# Drug_Target_2_Locus:
+9q34.1
+
+# Drug_Target_2_Molecular_Weight:
+122873
+
+# Drug_Target_2_Name:
+Proto-oncogene tyrosine-protein kinase ABL1
+
+# Drug_Target_2_Number_of_Residues:
+1130
+
+# Drug_Target_2_PDB_ID:
+1OPL
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00017	SH2
+PF00018	SH3_1
+PF07714	Pkinase_Tyr
+
+# Drug_Target_2_Protein_Sequence:
+>Proto-oncogene tyrosine-protein kinase ABL1
+MLEICLKLVGCKSKKGLSSSSSCYLEEALQRPVASDFEPQGLSEAARWNSKENLLAGPSE
+NDPNLFVALYDFVASGDNTLSITKGEKLRVLGYNHNGEWCEAQTKNGQGWVPSNYITPVN
+SLEKHSWYHGPVSRNAAEYLLSSGINGSFLVRESESSPGQRSISLRYEGRVYHYRINTAS
+DGKLYVSSESRFNTLAELVHHHSTVADGLITTLHYPAPKRNKPTVYGVSPNYDKWEMERT
+DITMKHKLGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQ
+LLGVCTREPPFYIITEFMTYGNLLDYLRECNRQEVNAVVLLYMATQISSAMEYLEKKNFI
+HRDLAARNCLVGENHLVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPESLAYNKFSIKS
+DVWAFGVLLWEIATYGMSPYPGIDLSQVYELLEKDYRMERPEGCPEKVYELMRACWQWNP
+SDRPSFAEIHQAFETMFQESSISDEVEKELGKQGVRGAVSTLLQAPELPTKTRTSRRAAE
+HRDTTDVPEMPHSKGQGESDPLDHEPAVSPLLPRKERGPPEGGLNEDERLLPKDKKTNLF
+SALIKKKKKTAPTPPKRSSSFREMDGQPERRGAGEEEGRDISNGALAFTPLDTADPAKSP
+KPSNGAGVPNGALRESGGSGFRSPHLWKKSSTLTSSRLATGEEEGGGSSSKRFLRSCSAS
+CVPHGAKDTEWRSVTLPRDLQSTGRQFDSSTFGGHKSEKPALPRKRAGENRSDQVTRGTV
+TPPPRLVKKNEEAADEVFKDIMESSPGSSPPNLTPKPLRRQVTVAPASGLPHKEEAGKGS
+ALGTPAAAEPVTPTSKAGSGAPGGTSKGPAEESRVRRHKHSSESPGRDKGKLSRLKPAPP
+PPPAASAGKAGGKPSQSPSQEAAGEAVLGAKTKATSLVDAVNSDAAKPSQPGEGLKKPVL
+PATPKPQSAKPSGTPISPAPVPSTLPSASSALAGDQPSSTAFIPLISTRVSLRKTRQPPE
+RIASGAITKGVVLDSTEALCLAISRNSEQMASHSAVLEAGKNLYTFCVSYVDSIQQMRNK
+FAFREAINKLENNLRELQICPATAGSGPAATQDFSKLLSSVKEISDIVQR
+
+# Drug_Target_2_Reaction:
+ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Not Available
+
+# Drug_Target_2_SwissProt_ID:
+P00519
+
+# Drug_Target_2_SwissProt_Name:
+ABL1_HUMAN
+
+# Drug_Target_2_Synonyms:
+Abelson murine leukemia viral oncogene homolog 1
+EC 2.7.10.2
+c- ABL
+p150
+
+# Drug_Target_2_Theoretical_pI:
+8.94
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cell membrane. Nucleus. Cytoplasm. Cytoplasm, perinuclear region. Golgi apparatus
+
+# Drug_Target_3_Chromosome_Location:
+8
+
+# Drug_Target_3_Drug_References:
+Not Available
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+M16038
+
+# Drug_Target_3_GenBank_ID_Protein:
+307144
+
+# Drug_Target_3_GeneCard_ID:
+LYN
+
+# Drug_Target_3_Gene_Name:
+LYN
+
+# Drug_Target_3_Gene_Sequence:
+>1539 bp
+ATGGGATGTATAAAATCAAAAGGGAAAGACAGCTTGAGTGACGATGGAGTAGATTTGAAG
+ACTCAACCAGTACGTAATACTGAAAGAACTATTTATGTGAGAGATCCAACGTCCAATAAA
+CAGCAAAGGCCAGTTCCAGAATCTCAGCTTTTACCTGGACAGAGGTTTCAAACTAAAGAT
+CCAGAGGAACAAGGAGACATTGTGGTAGCCTTGTACCCCTATGATGGCATCCACCCGGAC
+GACTTGTCTTTCAAGAAAGGAGAGAAGATGAAAGTCCTGGAGGAGCATGGAGAATGGTGG
+AAAGCAAAGTCCCTTTTAACAAAAAAAGAAGGCTTCATCCCCAGCAACTATGTGGCCAAA
+CTCAACACCTTAGAAACAGAAGAGTGGTTTTTCAAGGATATAACCAGGAAGGACGCAGAA
+AGGCAGCTTTTGGCACCAGGAAATAGCGCTGGAGCTTTCCTTATTAGAGAAAGTGAAACA
+TTAAAAGGAAGCTTCTCTCTGTCTGTCAGAGACTTTGACCCTGTGCATGGTGATGTTATT
+AAGCACTACAAAATTAGAAGTCTGGATAATGGGGGCTATTACATCTCTCCACGAATCACT
+TTTCCCTGTATCAGCGACATGATTAAACATTACCAAAAGCAGGCAGATGGCTTGTGCAGA
+AGATTGGAGAAGGCTTGTATTAGTCCCAAGCCACAGAAGCCATGGGATAAAGATGCCTGG
+GAGATCCCCCGGGAGTCCATCAAGTTGGTGAAAAGGCTTGGCGCTGGGCAGTTTGGGGAA
+GTCTGGATGGGTTACTATAACAACAGTACCAAGGTGGCTGTGAAAACCCTGAAGCCAGGA
+ACTATGTCTGTGCAAGCCTTCCTGGAAGAAGCCAACCTCATGAAGACCCTGCAGCATGAC
+AAGCTCGTGAGGCTCTACGCTGTGGTCACCAGGGAGGAGCCCATTTACATCATCACCGAG
+TACATGGCCAAGGGCAGTTTGCTGGATTTCCTGAAGAGCGATGAAGGTGGCAAAGTGCTG
+CTTCCAAAGCTCATTGACTTTTCTGCTCAGATTGCAGAGGGAATGGCATACATCGAGCGG
+AAGAACTACATTCACCGGGACCTGCGAGCAGCTAATGTTCTGGTCTCCGAGTCACTAATG
+TGCAAAATTGCAGATTTTGGCCTTGCTAGAGTAATTGAAGATAATGAGTACACAGCAAGG
+GAAGGTGCTAAGTTCCCTATTAAGTGGACGGCTCCAGAAGCAATCAACTTTGGATGTTTC
+ACTATTAAGTCTGATGTGTGGTCCTTTGGAATCCTCCTATACGAAATTGTCACCTATGGG
+AAAATTCCCTACCCAGGGAGAACTAATGCCGACGTGATGACCGCCCTGTCCCAGGGCTAC
+AGGATGCCCCGTGTGGAGAACTGCCCAGATGAGCTCTATGACATTATGAAAATGTGCTGG
+AAAGAAAAGGCAGAAGAGAGACCAACGTTTGACTACTTACAGAGCGTCCTGGATGATTTC
+TACACAGCCACGGAAGGGCAATACCAGCAGCAGCCTTAG
+
+# Drug_Target_3_General_Function:
+Involved in ATP binding
+
+# Drug_Target_3_General_References:
+10891478	Yoshida K, Weichselbaum R, Kharbanda S, Kufe D: Role for Lyn tyrosine kinase as a regulator of stress-activated protein kinase activity in response to DNA damage. Mol Cell Biol. 2000 Aug;20(15):5370-80.
+11517336	Grishin AV, Azhipa O, Semenov I, Corey SJ: Interaction between growth arrest-DNA damage protein 34 and Src kinase Lyn negatively regulates genotoxic apoptosis. Proc Natl Acad Sci U S A. 2001 Aug 28;98(18):10172-7. Epub 2001 Aug 21.
+12750561	Li Y, Chen W, Ren J, Yu WH, Li Q, Yoshida K, Kufe D: DF3/MUC1 signaling in multiple myeloma cells is regulated by interleukin-7. Cancer Biol Ther. 2003 Mar-Apr;2(2):187-93.
+1510669	Bielke W, Ziemieki A, Kappos L, Miescher GC: Expression of the B cell-associated tyrosine kinase gene Lyn in primary neuroblastoma tumours and its modulation during the differentiation of neuroblastoma cell lines. Biochem Biophys Res Commun. 1992 Aug 14;186(3):1403-9.
+15173188	Kasahara K, Nakayama Y, Ikeda K, Fukushima Y, Matsuda D, Horimoto S, Yamaguchi N: Trafficking of Lyn through the Golgi caveolin involves the charged residues on alphaE and alphaI helices in the kinase domain. J Cell Biol. 2004 Jun 7;165(5):641-52. Epub 2004 Jun 1.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+2247464	Partanen J, Makela TP, Alitalo R, Lehvaslaiho H, Alitalo K: Putative tyrosine kinases expressed in K-562 human leukemia cells. Proc Natl Acad Sci U S A. 1990 Nov;87(22):8913-7.
+3561390	Yamanashi Y, Fukushige S, Semba K, Sukegawa J, Miyajima N, Matsubara K, Yamamoto T, Toyoshima K: The yes-related cellular gene lyn encodes a possible tyrosine kinase similar to p56lck. Mol Cell Biol. 1987 Jan;7(1):237-43.
+7895172	Miller CL, Burkhardt AL, Lee JH, Stealey B, Longnecker R, Bolen JB, Kieff E: Integral membrane protein 2 of Epstein-Barr virus regulates reactivation from latency through dominant negative effects on protein-tyrosine kinases. Immunity. 1995 Feb;2(2):155-66.
+8125304	Rider LG, Raben N, Miller L, Jelsema C: The cDNAs encoding two forms of the LYN protein tyrosine kinase are expressed in rat mast cells and human myeloid cells. Gene. 1994 Jan 28;138(1-2):219-22.
+
+# Drug_Target_3_HGNC_ID:
+GNC:6735
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+6824
+
+# Drug_Target_3_Locus:
+8q13
+
+# Drug_Target_3_Molecular_Weight:
+58573.6
+
+# Drug_Target_3_Name:
+Tyrosine-protein kinase Lyn
+
+# Drug_Target_3_Number_of_Residues:
+512
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00017	SH2
+PF00018	SH3_1
+PF07714	Pkinase_Tyr
+
+# Drug_Target_3_Protein_Sequence:
+>Tyrosine-protein kinase Lyn
+MGCIKSKGKDSLSDDGVDLKTQPVRNTERTIYVRDPTSNKQQRPVPESQLLPGQRFQTKD
+PEEQGDIVVALYPYDGIHPDDLSFKKGEKMKVLEEHGEWWKAKSLLTKKEGFIPSNYVAK
+LNTLETEEWFFKDITRKDAERQLLAPGNSAGAFLIRESETLKGSFSLSVRDFDPVHGDVI
+KHYKIRSLDNGGYYISPRITFPCISDMIKHYQKQADGLCRRLEKACISPKPQKPWDKDAW
+EIPRESIKLVKRLGAGQFGEVWMGYYNNSTKVAVKTLKPGTMSVQAFLEEANLMKTLQHD
+KLVRLYAVVTREEPIYIITEYMAKGSLLDFLKSDEGGKVLLPKLIDFSAQIAEGMAYIER
+KNYIHRDLRAANVLVSESLMCKIADFGLARVIEDNEYTAREGAKFPIKWTAPEAINFGCF
+TIKSDVWSFGILLYEIVTYGKIPYPGRTNADVMTALSQGYRMPRVENCPDELYDIMKMCW
+KEKAEERPTFDYLQSVLDDFYTATEGQYQQQP
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Down regulates expression of stem cell growth factor receptor (KIT). Acts as an effector of EpoR (erythropoietin receptor) in controlling KIT expression and may play a central role in erythroid differentiation during the switch between proliferation and maturation (By similarity). Acts as a positive regulator of cell movement while negatively regulating adhesion to stromal cells by inhibiting the ICAM-1-binding activity of beta-2 integrins. Acts as the mediator that relays suppressing signals from the chemokine receptor CXCR4 to beta-2 integrin LFA-1 in hematopoietic precursors. Involved in induction of stress- activated protein kinase (SAPK), but not ERK or p38 MAPK, in response to genotoxic agents. Induces SAPK by a MKK7- and MEKK1- dependent mechanism. The LYN -> MEKK1 -> MKK7 -> SAPK pathway is functional in the induction of apoptosis by genotoxic agents
+
+# Drug_Target_3_SwissProt_ID:
+P07948
+
+# Drug_Target_3_SwissProt_Name:
+LYN_HUMAN
+
+# Drug_Target_3_Synonyms:
+Not Available
+
+# Drug_Target_3_Theoretical_pI:
+7.13
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Isoform p59-HCK:Membrane
+lipid-anchor. Cytoplasm
+lipid-anchor. Isoform p60-HCK:Membrane
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+Not Available
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+HCK
+
+# Drug_Target_4_GenBank_ID_Gene:
+M16591
+
+# Drug_Target_4_GenBank_ID_Protein:
+306832
+
+# Drug_Target_4_GeneCard_ID:
+HCK
+
+# Drug_Target_4_Gene_Name:
+HCK
+
+# Drug_Target_4_Gene_Sequence:
+>1518 bp
+ATGGGGTCGATGAAGTCCAAGTTCCTCCAGGTCGGAGGCAATACATTCTCAAAAACTGAA
+ACCAGCGCCAGCCCACACTGTCCTGTGTACGTGCCGGATCCCACATCCACCATCAAGCCG
+GGGCCTAATAGCCACAACAGCAACACACCAGGAATCAGGGAGGCAGGCTCTGAGGACATC
+ATCGTGGTTGCCCTGTATGATTACGAGGCCATTCACCACGAAGACCTCAGCTTCCAGAAG
+GGGGACCAGATGGTGGTCCTAGAGGAATCCGGGGAGTGGTGGAAGGCTCGATCCCTGGCC
+ACCCGGAAGGAGGGCTACATCCCAAGCAACTATGTCGCCCGCGTTGACTCTCTGGAGACA
+GAGGAGTGGTTTTTCAAGGGCATCAGCCGGAAGGACGCAGAGCGCCAACTGCTGGCTCCC
+GGCAACATGCTGGGCTCCTTCATGATCCGGGATAGCGAGACCACTAAAGGAAGCTACTCT
+TTGTCCGTGCGAGACTACGACCCTCGGCAGGGAGATACCGTGAAACATTACAAGATCCGG
+ACCCTGGACAACGGGGGCTTCTACATATCCCCCCGAAGCACCTTCAGCACTCTGCAGGAG
+CTGGTGGACCACTACAAGAAGGGGAACGACGGGCTCTGCCAGAAACTGTCGGTGCCCTGC
+ATGTCTTCCAAGCCCCAGAAGCCTTGGGAGAAAGATGCCTGGGAGATCCCTCGGGAATCC
+CTCAAGCTGGAGAAGAAACTTGGAGCTGGGCAGTTTGGGGAAGTCTGGATGGCCACCTAC
+AACAAGCACACCAAGGTGGCAGTGAAGACGATGAAGCCAGGGAGCATGTCGGTGGAGGCC
+TTCCTGGCAGAGGCCAACGTGATGAAAACTCTGCAGCATGACAAGCTGGTCAAACTTCAT
+GCGGTGGTCACCAAGGAGCCCATCTACATCATCACGGAGTTCATGGCCAAAGGAAGCTTG
+CTGGACTTTCTGAAAAGTGATGAGGGCAGCAAGCAGCCATTGCCAAAACTCATTGACTTC
+TCAGCCCAGATTGCAGAAGGCATGGCCTTCATCGAGCAGAGGAACTACATCCACCGAGAC
+CTCCGAGCTGCCAACATCTTGGTCTCTGCATCCCTGGTGTGTAAGATTGCTGACTTTGGC
+CTGGCCCGGGTCATTGAGGACAACGAGTACACGGCTCGGGAAGGGGCCAAGTTCCCCATC
+AAGTGGACAGCTCCTGAAGCCATCAACTTTGGCTCCTTCACCATCAAGTCAGACGTCTGG
+TCCTTTGGTATCCTGCTGATGGAGATCGTCACCTACGGCCGGATCCCTTACCCAGGGATG
+TCAAACCCTGAAGTGATCCGAGCTCTGGAGCGTGGATACCGGATGCCTCGCCCAGAGAAC
+TGCCCAGAGGAGCTCTACAACATCATGATGCGCTGCTGGAAAAACCGTCCGGAGGAGCGG
+CCGACCTTCGAATACATCCAGAGTGTGCTGGATGACTTCTACACGGCCACAGAGAGCCAG
+TACCAACAGCAGCCATGA
+
+# Drug_Target_4_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_4_General_References:
+11780052	Deloukas P, Matthews LH, Ashurst J, Burton J, Gilbert JG, Jones M, Stavrides G, Almeida JP, Babbage AK, Bagguley CL, Bailey J, Barlow KF, Bates KN, Beard LM, Beare DM, Beasley OP, Bird CP, Blakey SE, Bridgeman AM, Brown AJ, Buck D, Burrill W, Butler AP, Carder C, Carter NP, Chapman JC, Clamp M, Clark G, Clark LN, Clark SY, Clee CM, Clegg S, Cobley VE, Collier RE, Connor R, Corby NR, Coulson A, Coville GJ, Deadman R, Dhami P, Dunn M, Ellington AG, Frankland JA, Fraser A, French L, Garner P, Grafham DV, Griffiths C, Griffiths MN, Gwilliam R, Hall RE, Hammond S, Harley JL, Heath PD, Ho S, Holden JL, Howden PJ, Huckle E, Hunt AR, Hunt SE, Jekosch K, Johnson CM, Johnson D, Kay MP, Kimberley AM, King A, Knights A, Laird GK, Lawlor S, Lehvaslaiho MH, Leversha M, Lloyd C, Lloyd DM, Lovell JD, Marsh VL, Martin SL, McConnachie LJ, McLay K, McMurray AA, Milne S, Mistry D, Moore MJ, Mullikin JC, Nickerson T, Oliver K, Parker A, Patel R, Pearce TA, Peck AI, Phillimore BJ, Prathalingam SR, Plumb RW, Ramsay H, Rice CM, Ross MT, Scott CE, Sehra HK, Shownkeen R, Sims S, Skuce CD, Smith ML, Soderlund C, Steward CA, Sulston JE, Swann M, Sycamore N, Taylor R, Tee L, Thomas DW, Thorpe A, Tracey A, Tromans AC, Vaudin M, Wall M, Wallis JM, Whitehead SL, Whittaker P, Willey DL, Williams L, Williams SA, Wilming L, Wray PW, Hubbard T, Durbin RM, Bentley DR, Beck S, Rogers J: The DNA sequence and comparative analysis of human chromosome 20. Nature. 2001 Dec 20-27;414(6866):865-71.
+1572549	Hradetzky D, Strebhardt K, Rubsamen-Waigmann H: The genomic locus of the human hemopoietic-specific cell protein tyrosine kinase (PTK)-encoding gene (HCK) confirms conservation of exon-intron structure among human PTKs of the src family. Gene. 1992 Apr 15;113(2):275-80.
+1875927	Lock P, Ralph S, Stanley E, Boulet I, Ramsay R, Dunn AR: Two isoforms of murine hck, generated by utilization of alternative translational initiation codons, exhibit different patterns of subcellular localization. Mol Cell Biol. 1991 Sep;11(9):4363-70.
+3453117	Ziegler SF, Marth JD, Lewis DB, Perlmutter RM: Novel protein-tyrosine kinase gene (hck) preferentially expressed in cells of hematopoietic origin. Mol Cell Biol. 1987 Jun;7(6):2276-85.
+3496523	Quintrell N, Lebo R, Varmus H, Bishop JM, Pettenati MJ, Le Beau MM, Diaz MO, Rowley JD: Identification of a human gene (HCK) that encodes a protein-tyrosine kinase and is expressed in hemopoietic cells. Mol Cell Biol. 1987 Jun;7(6):2267-75.
+9024658	Sicheri F, Moarefi I, Kuriyan J: Crystal structure of the Src family tyrosine kinase Hck. Nature. 1997 Feb 13;385(6617):602-9.
+9109402	Zhang W, Smithgall TE, Gmeiner WH: Sequential assignment and secondary structure determination for the Src homology 2 domain of hematopoietic cellular kinase. FEBS Lett. 1997 Apr 7;406(1-2):131-5.
+9218412	Briggs SD, Sharkey M, Stevenson M, Smithgall TE: SH3-mediated Hck tyrosine kinase activation and fibroblast transformation by the Nef protein of HIV-1. J Biol Chem. 1997 Jul 18;272(29):17899-902.
+9571048	Horita DA, Baldisseri DM, Zhang W, Altieri AS, Smithgall TE, Gmeiner WH, Byrd RA: Solution structure of the human Hck SH3 domain and identification of its ligand binding site. J Mol Biol. 1998 Apr 24;278(1):253-65.
+9778343	Arold S, O'Brien R, Franken P, Strub MP, Hoh F, Dumas C, Ladbury JE: RT loop flexibility enhances the specificity of Src family SH3 domains for HIV-1 Nef. Biochemistry. 1998 Oct 20;37(42):14683-91.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:4840
+
+# Drug_Target_4_HPRD_ID:
+00796
+
+# Drug_Target_4_ID:
+2599
+
+# Drug_Target_4_Locus:
+20q11-q12
+
+# Drug_Target_4_Molecular_Weight:
+59600
+
+# Drug_Target_4_Name:
+Tyrosine-protein kinase HCK
+
+# Drug_Target_4_Number_of_Residues:
+526
+
+# Drug_Target_4_PDB_ID:
+1QCF
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00017	SH2
+PF00018	SH3_1
+PF07714	Pkinase_Tyr
+
+# Drug_Target_4_Protein_Sequence:
+>Tyrosine-protein kinase HCK
+MGGRSSCEDPGCPRDEERAPRMGCMKSKFLQVGGNTFSKTETSASPHCPVYVPDPTSTIK
+PGPNSHNSNTPGIREAGSEDIIVVALYDYEAIHHEDLSFQKGDQMVVLEESGEWWKARSL
+ATRKEGYIPSNYVARVDSLETEEWFFKGISRKDAERQLLAPGNMLGSFMIRDSETTKGSY
+SLSVRDYDPRQGDTVKHYKIRTLDNGGFYISPRSTFSTLQELVDHYKKGNDGLCQKLSVP
+CMSSKPQKPWEKDAWEIPRESLKLEKKLGAGQFGEVWMATYNKHTKVAVKTMKPGSMSVE
+AFLAEANVMKTLQHDKLVKLHAVVTKEPIYIITEFMAKGSLLDFLKSDEGSKQPLPKLID
+FSAQIAEGMAFIEQRNYIHRDLRAANILVSASLVCKIADFGLARVIEDNEYTAREGAKFP
+IKWTAPEAINFGSFTIKSDVWSFGILLMEIVTYGRIPYPGMSNPEVIRALERGYRMPRPE
+NCPEELYNIMMRCWKNRPEERPTFEYIQSVLDDFYTATESQYQQQP
+
+# Drug_Target_4_Reaction:
+ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+May serve as part of a signaling pathway coupling the Fc receptor to the activation of the respiratory burst. May also contribute to neutrophil migration and may regulate the degranulation process of neutrophils
+
+# Drug_Target_4_SwissProt_ID:
+P08631
+
+# Drug_Target_4_SwissProt_Name:
+HCK_HUMAN
+
+# Drug_Target_4_Synonyms:
+EC 2.7.10.2
+Hemopoietic cell kinase
+p59-HCK/p60-HCK
+
+# Drug_Target_4_Theoretical_pI:
+6.68
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+# Drug_Target_5_Cellular_Location:
+Not Available
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+Not Available
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+SRC
+
+# Drug_Target_5_GenBank_ID_Gene:
+AL133293
+
+# Drug_Target_5_GenBank_ID_Protein:
+10635153
+
+# Drug_Target_5_GeneCard_ID:
+SRC
+
+# Drug_Target_5_Gene_Name:
+SRC
+
+# Drug_Target_5_Gene_Sequence:
+>1611 bp
+ATGGGTAGCAACAAGAGCAAGCCCAAGGATGCCAGCCAGCGGCGCCGCAGCCTGGAGCCC
+GCCGAGAACGTGCACGGCGCTGGCGGGGGCGCTTTCCCCGCCTCGCAGACCCCCAGCAAG
+CCAGCCTCGGCCGACGGCCACCGCGGCCCCAGCGCGGCCTTCGCCCCCGCGGCCGCCGAG
+CCCAAGCTGTTCGGAGGCTTCAACTCCTCGGACACCGTCACCTCCCCGCAGAGGGCGGGC
+CCGCTGGCCGGTGGAGTGACCACCTTTGTGGCCCTCTATGACTATGAGTCTAGGACGGAG
+ACAGACCTGTCCTTCAAGAAAGGCGAGCGGCTCCAGATTGTCAACAACACAGAGGGAGAC
+TGGTGGCTGGCCCACTCGCTCAGCACAGGACAGACAGGCTACATCCCCAGCAACTACGTG
+GCGCCCTCCGACTCCATCCAGGCTGAGGAGTGGTATTTTGGCAAGATCACCAGACGGGAG
+TCAGAGCGGTTACTGCTCAATGCAGAGAACCCGAGAGGGACCTTCCTCGTGCGAGAAAGT
+GAGACCACGAAAGGTGCCTACTGCCTCTCAGTGTCTGACTTCGACAACGCCAAGGGCCTC
+AACGTGAAGCACTACAAGATCCGCAAGCTGGACAGCGGCGGCTTCTACATCACCTCCCGC
+ACCCAGTTCAACAGCCTGCAGCAGCTGGTGGCCTACTACTCCAAACACGCCGATGGCCTG
+TGCCACCGCCTCACCACCGTGTGCCCCACGTCCAAGCCGCAGACTCAGGGCCTGGCCAAG
+GATGCCTGGGAGATCCCTCGGGAGTCGCTGCGGCTGGAGGTCAAGCTGGGCCAGGGCTGC
+TTTGGCGAGGTGTGGATGGGGACCTGGAACGGTACCACCAGGGTGGCCATCAAAACCCTG
+AAGCCTGGCACGATGTCTCCAGAGGCCTTCCTGCAGGAGGCCCAGGTCATGAAGAAGCTG
+AGGCATGAGAAGCTGGTGCAGTTGTATGCTGTGGTTTCAGAGGAGCCCATTTACATCGTC
+ACGGAGTACATGAGCAAGGGGAGTTTGCTGGACTTTCTCAAGGGGGAGACAGGCAAGTAC
+CTGCGGCTGCCTCAGCTGGTGGACATGGCTGCTCAGATCGCCTCAGGCATGGCGTACGTG
+GAGCGGATGAACTACGTCCACCGGGACCTTCGTGCAGCCAACATCCTGGTGGGAGAGAAC
+CTGGTGTGCAAAGTGGCGGACTTTGGGCTGGCTCGGCTCATTGAAGACAATGAGTACACG
+GCGCGGCAAGGTGCCAAATTCCCCATCAAGTGGACGGCTCCAGAAGCTGCCCTCTATGGC
+CGCTTCACCATCAAGTCGGACGTGTGGTCCTTCGGGATCCTGCTGACTGAGCTCACCACA
+AAGGGACGGGTGCCCTACCCTGGGATGGTGAACCGCGAGGTGCTGGACCAGGTGGAGCGG
+GGCTACCGGATGCCCTGCCCGCCGGAGTGTCCCGAGTCCCTGCACGACCTCATGTGCCAG
+TGCTGGCGGAAGGAGCCTGAGGAGCGGCCCACCTTCGAGTACCTGCAGGCCTTCCTGGAG
+GACTACTTCACGTCCACCGAGCCCCAGTACCAGCCCGGGGAGAACCTCTAG
+
+# Drug_Target_5_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_5_General_References:
+11780052	Deloukas P, Matthews LH, Ashurst J, Burton J, Gilbert JG, Jones M, Stavrides G, Almeida JP, Babbage AK, Bagguley CL, Bailey J, Barlow KF, Bates KN, Beard LM, Beare DM, Beasley OP, Bird CP, Blakey SE, Bridgeman AM, Brown AJ, Buck D, Burrill W, Butler AP, Carder C, Carter NP, Chapman JC, Clamp M, Clark G, Clark LN, Clark SY, Clee CM, Clegg S, Cobley VE, Collier RE, Connor R, Corby NR, Coulson A, Coville GJ, Deadman R, Dhami P, Dunn M, Ellington AG, Frankland JA, Fraser A, French L, Garner P, Grafham DV, Griffiths C, Griffiths MN, Gwilliam R, Hall RE, Hammond S, Harley JL, Heath PD, Ho S, Holden JL, Howden PJ, Huckle E, Hunt AR, Hunt SE, Jekosch K, Johnson CM, Johnson D, Kay MP, Kimberley AM, King A, Knights A, Laird GK, Lawlor S, Lehvaslaiho MH, Leversha M, Lloyd C, Lloyd DM, Lovell JD, Marsh VL, Martin SL, McConnachie LJ, McLay K, McMurray AA, Milne S, Mistry D, Moore MJ, Mullikin JC, Nickerson T, Oliver K, Parker A, Patel R, Pearce TA, Peck AI, Phillimore BJ, Prathalingam SR, Plumb RW, Ramsay H, Rice CM, Ross MT, Scott CE, Sehra HK, Shownkeen R, Sims S, Skuce CD, Smith ML, Soderlund C, Steward CA, Sulston JE, Swann M, Sycamore N, Taylor R, Tee L, Thomas DW, Thorpe A, Tracey A, Tromans AC, Vaudin M, Wall M, Wallis JM, Whitehead SL, Whittaker P, Willey DL, Williams L, Williams SA, Wilming L, Wray PW, Hubbard T, Durbin RM, Bentley DR, Beck S, Rogers J: The DNA sequence and comparative analysis of human chromosome 20. Nature. 2001 Dec 20-27;414(6866):865-71.
+12415108	Wong CW, McNally C, Nickbarg E, Komm BS, Cheskis BJ: Estrogen receptor-interacting protein that modulates its nongenomic activity-crosstalk with Src/Erk phosphorylation cascade. Proc Natl Acad Sci U S A. 2002 Nov 12;99(23):14783-8. Epub 2002 Nov 1.
+2581127	Parker RC, Mardon G, Lebo RV, Varmus HE, Bishop JM: Isolation of duplicated human c-src genes located on chromosomes 1 and 20. Mol Cell Biol. 1985 Apr;5(4):831-8.
+2582238	Anderson SK, Gibbs CP, Tanaka A, Kung HJ, Fujita DJ: Human cellular src gene: nucleotide sequence and derived amino acid sequence of the region coding for the carboxy-terminal two-thirds of pp60c-src. Mol Cell Biol. 1985 May;5(5):1122-9.
+2681803	Pyper JM, Bolen JB: Neuron-specific splicing of C-SRC RNA in human brain. J Neurosci Res. 1989 Sep;24(1):89-96.
+3299057	Tanaka A, Gibbs CP, Arthur RR, Anderson SK, Kung HJ, Fujita DJ: DNA sequence encoding the amino-terminal region of the human c-src protein: implications of sequence divergence among src-type kinase oncogenes. Mol Cell Biol. 1987 May;7(5):1978-83.
+7532003	Xu RX, Word JM, Davis DG, Rink MJ, Willard DH Jr, Gampe RT Jr: Solution structure of the human pp60c-src SH2 domain complexed with a phosphorylated tyrosine pentapeptide. Biochemistry. 1995 Feb 21;34(7):2107-21.
+9024657	Xu W, Harrison SC, Eck MJ: Three-dimensional structure of the tyrosine kinase c-Src. Nature. 1997 Feb 13;385(6617):595-602.
+9174343	Charifson PS, Shewchuk LM, Rocque W, Hummel CW, Jordan SR, Mohr C, Pacofsky GJ, Peel MR, Rodriguez M, Sternbach DD, Consler TG: Peptide ligands of pp60(c-src) SH2 domains: a thermodynamic and structural study. Biochemistry. 1997 May 27;36(21):6283-93.
+
+# Drug_Target_5_HGNC_ID:
+11283
+
+# Drug_Target_5_HPRD_ID:
+01819
+
+# Drug_Target_5_ID:
+933
+
+# Drug_Target_5_Locus:
+20q12-q13
+
+# Drug_Target_5_Molecular_Weight:
+59704
+
+# Drug_Target_5_Name:
+Proto-oncogene tyrosine-protein kinase Src
+
+# Drug_Target_5_Number_of_Residues:
+535
+
+# Drug_Target_5_PDB_ID:
+2SRC
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00017	SH2
+PF00018	SH3_1
+PF07714	Pkinase_Tyr
+
+# Drug_Target_5_Protein_Sequence:
+>Proto-oncogene tyrosine-protein kinase Src
+GSNKSKPKDASQRRRSLEPAENVHGAGGGAFPASQTPSKPASADGHRGPSAAFAPAAAEP
+KLFGGFNSSDTVTSPQRAGPLAGGVTTFVALYDYESRTETDLSFKKGERLQIVNNTEGDW
+WLAHSLSTGQTGYIPSNYVAPSDSIQAEEWYFGKITRRESERLLLNAENPRGTFLVRESE
+TTKGAYCLSVSDFDNAKGLNVKHYKIRKLDSGGFYITSRTQFNSLQQLVAYYSKHADGLC
+HRLTTVCPTSKPQTQGLAKDAWEIPRESLRLEVKLGQGCFGEVWMGTWNGTTRVAIKTLK
+PGTMSPEAFLQEAQVMKKLRHEKLVQLYAVVSEEPIYIVTEYMSKGSLLDFLKGETGKYL
+RLPQLVDMAAQIASGMAYVERMNYVHRDLRAANILVGENLVCKVADFGLARLIEDNEYTA
+RQGAKFPIKWTAPEAALYGRFTIKSDVWSFGILLTELTTKGRVPYPGMVNREVLDQVERG
+YRMPCPPECPESLHDLMCQCWRKEPEERPTFEYLQAFLEDYFTSTEPQYQPGENL
+
+# Drug_Target_5_Reaction:
+ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate
+
+# Drug_Target_5_Signals:
+None
+
+# Drug_Target_5_Specific_Function:
+Not Available
+
+# Drug_Target_5_SwissProt_ID:
+P12931
+
+# Drug_Target_5_SwissProt_Name:
+SRC_HUMAN
+
+# Drug_Target_5_Synonyms:
+EC 2.7.10.2
+c- Src
+p60-Src
+pp60c-src
+
+# Drug_Target_5_Theoretical_pI:
+7.47
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+# Drug_Target_6_Cellular_Location:
+Not Available
+
+# Drug_Target_6_Chromosome_Location:
+Not Available
+
+# Drug_Target_6_Drug_References:
+19039322	Remsing Rix LL, Rix U, Colinge J, Hantschel O, Bennett KL, Stranzl T, Muller A, Baumgartner C, Valent P, Augustin M, Till JH, Superti-Furga G: Global target profile of the kinase inhibitor bosutinib in primary chronic myeloid leukemia cells. Leukemia. 2009 Mar;23(3):477-85. doi: 10.1038/leu.2008.334. Epub 2008 Nov 27.
+
+# Drug_Target_6_Essentiality:
+Non-Essential
+
+# Drug_Target_6_GenAtlas_ID:
+CDK2
+
+# Drug_Target_6_GenBank_ID_Gene:
+X61622
+
+# Drug_Target_6_GenBank_ID_Protein:
+29849
+
+# Drug_Target_6_GeneCard_ID:
+CDK2
+
+# Drug_Target_6_Gene_Name:
+CDK2
+
+# Drug_Target_6_Gene_Sequence:
+>897 bp
+ATGGAGAACTTCCAAAAGGTGGAAAAGATCGGAGAGGGCACGTACGGAGTTGTGTACAAA
+GCCAGAAACAAGTTGACGGGAGAGGTGGTGGCGCTTAAGAAAATCCGCCTGGACACTGAG
+ACTGAGGGTGTGCCCAGTACTGCCATCCGAGAGATCTCTCTGCTTAAGGAGCTTAACCAT
+CCTAATATTGTCAAGCTGCTGGATGTCATTCACACAGAAAATAAACTCTACCTGGTTTTT
+GAATTTCTGCACCAAGATCTCAAGAAATTCATGGATGCCTCTGCTCTCACTGGCATTCCT
+CTTCCCCTCATCAAGAGCTATCTGTTCCAGCTGCTCCAGGGCCTAGCTTTCTGCCATTCT
+CATCGGGTCCTCCACCGAGACCTTAAACCTCAGAATCTGCTTATTAACACAGAGGGGGCC
+ATCAAGCTAGCAGACTTTGGACTAGCCAGAGCTTTTGGAGTCCCTGTTCGTACTTACACC
+CATGAGGTGGTGACCCTGTGGTACCGAGCTCCTGAAATCCTCCTGGGCTCGAAATATTAT
+TCCACAGCTGTGGACATCTGGAGCCTGGGCTGCATCTTTGCTGAGATGGTGACTCGCCGG
+GCCCTGTTCCCTGGAGATTCTGAGATTGACCAGCTCTTCCGGATCTTTCGGACTCTGGGG
+ACCCCAGATGAGGTGGTGTGGCCAGGAGTTACTTCTATGCCTGATTACAAGCCAAGTTTC
+CCCAAGTGGGCCCGGCAAGATTTTAGTAAAGTTGTACCTCCCCTGGATGAAGATGGACGG
+AGCTTGTTATCGCAAATGCTGCACTACGACCCTAACAAGCGGATTTCGGCCAAGGCAGCC
+CTGGCTCACCCTTTCTTCCAGGATGTGACCAAGCCAGTACCCCATCTTCGACTCTGA
+
+# Drug_Target_6_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_6_General_References:
+1396589	Gu Y, Rosenblatt J, Morgan DO: Cell cycle regulation of CDK2 activity by phosphorylation of Thr160 and Tyr15. EMBO J. 1992 Nov;11(11):3995-4005.
+1653904	Tsai LH, Harlow E, Meyerson M: Isolation of the human cdk2 gene that encodes the cyclin A- and adenovirus E1A-associated p33 kinase. Nature. 1991 Sep 12;353(6340):174-7.
+1714386	Elledge SJ, Spottswood MR: A new human p34 protein kinase, CDK2, identified by complementation of a cdc28 mutation in Saccharomyces cerevisiae, is a homolog of Xenopus Eg1. EMBO J. 1991 Sep;10(9):2653-9.
+1717994	Ninomiya-Tsuji J, Nomoto S, Yasuda H, Reed SI, Matsumoto K: Cloning of a human cDNA encoding a CDC2-related kinase by complementation of a budding yeast cdc28 mutation. Proc Natl Acad Sci U S A. 1991 Oct 15;88(20):9006-10.
+7630397	Jeffrey PD, Russo AA, Polyak K, Gibbs E, Hurwitz J, Massague J, Pavletich NP: Mechanism of CDK activation revealed by the structure of a cyclinA-CDK2 complex. Nature. 1995 Jul 27;376(6538):313-20.
+8510751	De Bondt HL, Rosenblatt J, Jancarik J, Jones HD, Morgan DO, Kim SH: Crystal structure of cyclin-dependent kinase 2. Nature. 1993 Jun 17;363(6430):595-602.
+8601310	Bourne Y, Watson MH, Hickey MJ, Holmes W, Rocque W, Reed SI, Tainer JA: Crystal structure and mutational analysis of the human CDK2 kinase complex with cell cycle-regulatory protein CksHs1. Cell. 1996 Mar 22;84(6):863-74.
+8610110	De Azevedo WF Jr, Mueller-Dieckmann HJ, Schulze-Gahmen U, Worland PJ, Sausville E, Kim SH: Structural basis for specificity and potency of a flavonoid inhibitor of human CDK2, a cell cycle kinase. Proc Natl Acad Sci U S A. 1996 Apr 2;93(7):2735-40.
+8684460	Russo AA, Jeffrey PD, Patten AK, Massague J, Pavletich NP: Crystal structure of the p27Kip1 cyclin-dependent-kinase inhibitor bound to the cyclin A-Cdk2 complex. Nature. 1996 Jul 25;382(6589):325-31.
+8756328	Russo AA, Jeffrey PD, Pavletich NP: Structural basis of cyclin-dependent kinase activation by phosphorylation. Nat Struct Biol. 1996 Aug;3(8):696-700.
+8917641	Schulze-Gahmen U, De Bondt HL, Kim SH: High-resolution crystal structures of human cyclin-dependent kinase 2 with and without ATP: bound waters and natural ligand as guides for inhibitor design. J Med Chem. 1996 Nov 8;39(23):4540-6.
+9334743	Lawrie AM, Noble ME, Tunnah P, Brown NR, Johnson LN, Endicott JA: Protein kinase inhibition by staurosporine revealed in details of the molecular interaction with CDK2. Nat Struct Biol. 1997 Oct;4(10):796-801.
+9677190	Gray NS, Wodicka L, Thunnissen AM, Norman TC, Kwon S, Espinoza FH, Morgan DO, Barnes G, LeClerc S, Meijer L, Kim SH, Lockhart DJ, Schultz PG: Exploiting chemical libraries, structure, and genomics in the search for kinase inhibitors. Science. 1998 Jul 24;281(5376):533-8.
+
+# Drug_Target_6_HGNC_ID:
+HGNC:1771
+
+# Drug_Target_6_HPRD_ID:
+00310
+
+# Drug_Target_6_ID:
+2240
+
+# Drug_Target_6_Locus:
+12q13
+
+# Drug_Target_6_Molecular_Weight:
+33930
+
+# Drug_Target_6_Name:
+Cell division protein kinase 2
+
+# Drug_Target_6_Number_of_Residues:
+298
+
+# Drug_Target_6_PDB_ID:
+1V1K
+
+# Drug_Target_6_Pathway:
+Not Available
+
+# Drug_Target_6_Pfam_Domain_Function:
+PF00069	Pkinase
+
+# Drug_Target_6_Protein_Sequence:
+>Cell division protein kinase 2
+MENFQKVEKIGEGTYGVVYKARNKLTGEVVALKKIRLDTETEGVPSTAIREISLLKELNH
+PNIVKLLDVIHTENKLYLVFEFLHQDLKKFMDASALTGIPLPLIKSYLFQLLQGLAFCHS
+HRVLHRDLKPQNLLINTEGAIKLADFGLARAFGVPVRTYTHEVVTLWYRAPEILLGCKYY
+STAVDIWSLGCIFAEMVTRRALFPGDSEIDQLFRIFRTLGTPDEVVWPGVTSMPDYKPSF
+PKWARQDFSKVVPPLDEDGRSLLSQMLHYDPNKRISAKAALAHPFFQDVTKPVPHLRL
+
+# Drug_Target_6_Reaction:
+ATP + a protein = ADP + a phosphoprotein
+
+# Drug_Target_6_Signals:
+None
+
+# Drug_Target_6_Specific_Function:
+Probably involved in the control of the cell cycle. Interacts with cyclins A, B3, D, or E. Activity of CDK2 is maximal during S phase and G2
+
+# Drug_Target_6_SwissProt_ID:
+P24941
+
+# Drug_Target_6_SwissProt_Name:
+CDK2_HUMAN
+
+# Drug_Target_6_Synonyms:
+EC 2.7.11.22
+p33 protein kinase
+
+# Drug_Target_6_Theoretical_pI:
+8.99
+
+# Drug_Target_6_Transmembrane_Regions:
+None
+
+# Drug_Target_7_Cellular_Location:
+Not Available
+
+# Drug_Target_7_Chromosome_Location:
+Not Available
+
+# Drug_Target_7_Drug_References:
+19039322	Remsing Rix LL, Rix U, Colinge J, Hantschel O, Bennett KL, Stranzl T, Muller A, Baumgartner C, Valent P, Augustin M, Till JH, Superti-Furga G: Global target profile of the kinase inhibitor bosutinib in primary chronic myeloid leukemia cells. Leukemia. 2009 Mar;23(3):477-85. doi: 10.1038/leu.2008.334. Epub 2008 Nov 27.
+
+# Drug_Target_7_Essentiality:
+Non-Essential
+
+# Drug_Target_7_GenAtlas_ID:
+MAP2K1
+
+# Drug_Target_7_GenBank_ID_Gene:
+L05624
+
+# Drug_Target_7_GenBank_ID_Protein:
+188569
+
+# Drug_Target_7_GeneCard_ID:
+MAP2K1
+
+# Drug_Target_7_Gene_Name:
+MAP2K1
+
+# Drug_Target_7_Gene_Sequence:
+>1182 bp
+ATGCCCAAGAAGAAGCCGACGCCCATCCAGCTGAACCCGGCCCCCGACGGCTCTGCAGTT
+AACGGGACCAGCTCTGCGGAGACCAACTTGGAGGCCTTGCAGAAGAAGCTGGAGGAGCTA
+GAGCTTGATGAGCAGCAGCGAAAGCGCCTTGAGGCCTTTCTTACCCAGAAGCAGAAGGTG
+GGAGAACTGAAGGATGACGACTTTGAGAAGATCAGTGAGCTGGGGGCTGGCAATGGCGGT
+GTGGTGTTCAAGGTCTCCCACAAGCCTTCTGGCCTGGTCATGGCCAGAAAGCTAATTCAT
+CTGGAGATCAAACCCGCAATCCGGAACCAGATCATAAGGGAGCTGCAGGTTCTGCATGAG
+TGCAACTCTCCGTACATCGTGGGCTTCTATGGTGCGTTCTACAGCGATGGCGAGATCAGT
+ATCTGCATGGAGCACATGGATGGAGGTTCTCTGGATCAAGTCCTGAAGAAAGCTGGAAGA
+ATTCCTGAACAAATTTTAGGAAAAGTTAGCATTGCTGTAATAAAAGGCCTGACATATCTG
+AGGGAGAAGCACAAGATCATGCACAGAGATGTCAAGCCCTCCAACATCCTAGTCAACTCC
+CGTGGGGAGATCAAGCTCTGTGACTTTGGGGTCAGCGGGCAGCTCATCGACTCCATGGCC
+AACTCCTTCGTGGGCACAAGGTCCTACATGTCGCCAGAAAGACTCCAGGGGACTCATTAC
+TCTGTGCAGTCAGACATCTGGAGCATGGGACTGTCTCTGGTAGAGATGGCGGTTGGGAGG
+TATCCCATCCCTCCTCCAGATGCCAAGGAGCTGGAGCTGATGTTTGGGTGCCAGGTGGAA
+GGAGATGCGGCTGAGACCCCACCCAGGCCAAGGACCCCCGGGAGGCCCCTTAGCTCATAC
+GGAATGGACAGCCGACCTCCCATGGCAATTTTTGAGTTGTTGGATTACATAGTCAACGAG
+CCTCCTCCAAAACTGCCCAGTGGAGTGTTCAGTCTGGAATTTCAAGATTTTGTGAATAAA
+TGCTTAATAAAAAACCCCGCAGAGAGAGCAGATTTGAAGCAACTCATGGTTCATGCTTTT
+ATCAAGAGATCTGATGCTGAGGAAGTGGATTTTGCAGGTTGGCTCTGCTCCACCATCGGC
+CTTAACCAGCCCAGCACACCAACCCATGCTGCTGGCGTCTAA
+
+# Drug_Target_7_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_7_General_References:
+11104681	Vitale G, Bernardi L, Napolitani G, Mock M, Montecucco C: Susceptibility of mitogen-activated protein kinase kinase family members to proteolysis by anthrax lethal factor. Biochem J. 2000 Dec 15;352 Pt 3:739-45.
+1281467	Seger R, Seger D, Lozeman FJ, Ahn NG, Graves LM, Campbell JS, Ericsson L, Harrylock M, Jensen AM, Krebs EG: Human T-cell mitogen-activated protein kinase kinases are related to yeast signal transduction kinases. J Biol Chem. 1992 Dec 25;267(36):25628-31.
+8131746	Zheng CF, Guan KL: Activation of MEK family kinases requires phosphorylation of two conserved Ser/Thr residues. EMBO J. 1994 Mar 1;13(5):1123-31.
+8388392	Zheng CF, Guan KL: Cloning and characterization of two distinct human extracellular signal-regulated kinase activator kinases, MEK1 and MEK2. J Biol Chem. 1993 May 25;268(15):11435-9.
+9563949	Duesbery NS, Webb CP, Leppla SH, Gordon VM, Klimpel KR, Copeland TD, Ahn NG, Oskarsson MK, Fukasawa K, Paull KD, Vande Woude GF: Proteolytic inactivation of MAP-kinase-kinase by anthrax lethal factor. Science. 1998 May 1;280(5364):734-7.
+
+# Drug_Target_7_HGNC_ID:
+HGNC:6840
+
+# Drug_Target_7_HPRD_ID:
+01469
+
+# Drug_Target_7_ID:
+990
+
+# Drug_Target_7_Locus:
+15q22.1-q22.33
+
+# Drug_Target_7_Molecular_Weight:
+43440
+
+# Drug_Target_7_Name:
+Dual specificity mitogen-activated protein kinase kinase 1
+
+# Drug_Target_7_Number_of_Residues:
+393
+
+# Drug_Target_7_PDB_ID:
+1S9J
+
+# Drug_Target_7_Pathway:
+Bevacizumab Pathway	SMP00420
+Cetuximab Pathway	SMP00474
+Erlotinib Pathway	SMP00472
+Gefitinib Pathway	SMP00473
+Panitumumab Pathway	SMP00475
+Trastuzumab Pathway	SMP00476
+Vatalanib Pathway	SMP00421
+
+# Drug_Target_7_Pfam_Domain_Function:
+PF00069	Pkinase
+
+# Drug_Target_7_Protein_Sequence:
+>Dual specificity mitogen-activated protein kinase kinase 1
+MPKKKPTPIQLNPAPDGSAVNGTSSAETNLEALQKKLEELELDEQQRKRLEAFLTQKQKV
+GELKDDDFEKISELGAGNGGVVFKVSHKPSGLVMARKLIHLEIKPAIRNQIIRELQVLHE
+CNSPYIVGFYGAFYSDGEISICMEHMDGGSLDQVLKKAGRIPEQILGKVSIAVIKGLTYL
+REKHKIMHRDVKPSNILVNSRGEIKLCDFGVSGQLIDSMANSFVGTRSYMSPERLQGTHY
+SVQSDIWSMGLSLVEMAVGRYPIPPPDAKELELMFGCQVEGDAAETPPRPRTPGRPLSSY
+GMDSRPPMAIFELLDYIVNEPPPKLPSGVFSLEFQDFVNKCLIKNPAERADLKQLMVHAF
+IKRSDAEEVDFAGWLCSTIGLNQPSTPTHAAGV
+
+# Drug_Target_7_Reaction:
+ATP + a protein = ADP + a phosphoprotein
+
+# Drug_Target_7_Signals:
+None
+
+# Drug_Target_7_Specific_Function:
+Catalyzes the concomitant phosphorylation of a threonine and a tyrosine residue in a Thr-Glu-Tyr sequence located in MAP kinases. Activates ERK1 and ERK2 MAP kinases
+
+# Drug_Target_7_SwissProt_ID:
+Q02750
+
+# Drug_Target_7_SwissProt_Name:
+MP2K1_HUMAN
+
+# Drug_Target_7_Synonyms:
+EC 2.7.12.2
+ERK activator kinase 1
+MAP kinase kinase 1
+MAPK/ERK kinase 1
+MAPKK 1
+MEK1
+
+# Drug_Target_7_Theoretical_pI:
+6.61
+
+# Drug_Target_7_Transmembrane_Regions:
+None
+
+# Drug_Target_8_Cellular_Location:
+Not Available
+
+# Drug_Target_8_Chromosome_Location:
+Not Available
+
+# Drug_Target_8_Drug_References:
+19039322	Remsing Rix LL, Rix U, Colinge J, Hantschel O, Bennett KL, Stranzl T, Muller A, Baumgartner C, Valent P, Augustin M, Till JH, Superti-Furga G: Global target profile of the kinase inhibitor bosutinib in primary chronic myeloid leukemia cells. Leukemia. 2009 Mar;23(3):477-85. doi: 10.1038/leu.2008.334. Epub 2008 Nov 27.
+
+# Drug_Target_8_Essentiality:
+Non-Essential
+
+# Drug_Target_8_GenAtlas_ID:
+Not Available
+
+# Drug_Target_8_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_8_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_8_GeneCard_ID:
+Not Available
+
+# Drug_Target_8_Gene_Name:
+Not Available
+
+# Drug_Target_8_Gene_Sequence:
+Not Available
+
+# Drug_Target_8_General_Function:
+Not Available
+
+# Drug_Target_8_General_References:
+Not Available
+
+# Drug_Target_8_HGNC_ID:
+Not Available
+
+# Drug_Target_8_HPRD_ID:
+Not Available
+
+# Drug_Target_8_ID:
+7296
+
+# Drug_Target_8_Locus:
+Not Available
+
+# Drug_Target_8_Molecular_Weight:
+Not Available
+
+# Drug_Target_8_Name:
+Dual specificity mitogen-activated protein kinase kinase 2
+
+# Drug_Target_8_Number_of_Residues:
+0
+
+# Drug_Target_8_PDB_ID:
+Not Available
+
+# Drug_Target_8_Pathway:
+Not Available
+
+# Drug_Target_8_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_8_Protein_Sequence:
+Not Available
+
+# Drug_Target_8_Reaction:
+Not Available
+
+# Drug_Target_8_Signals:
+Not Available
+
+# Drug_Target_8_Specific_Function:
+Not Available
+
+# Drug_Target_8_SwissProt_ID:
+P36507
+
+# Drug_Target_8_SwissProt_Name:
+Not Available
+
+# Drug_Target_8_Synonyms:
+Not Available
+
+# Drug_Target_8_Theoretical_pI:
+Not Available
+
+# Drug_Target_8_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_9_Cellular_Location:
+Not Available
+
+# Drug_Target_9_Chromosome_Location:
+Not Available
+
+# Drug_Target_9_Drug_References:
+23134735	Ahmad S, Hughes MA, Johnson GL, Scott JE: Development and validation of a high-throughput intrinsic ATPase activity assay for the discovery of MEKK2 inhibitors. J Biomol Screen. 2013 Apr;18(4):388-99. doi: 10.1177/1087057112466430. Epub 2012 Nov 7.
+
+# Drug_Target_9_Essentiality:
+Non-Essential
+
+# Drug_Target_9_GenAtlas_ID:
+Not Available
+
+# Drug_Target_9_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_9_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_9_GeneCard_ID:
+Not Available
+
+# Drug_Target_9_Gene_Name:
+Not Available
+
+# Drug_Target_9_Gene_Sequence:
+Not Available
+
+# Drug_Target_9_General_Function:
+Not Available
+
+# Drug_Target_9_General_References:
+Not Available
+
+# Drug_Target_9_HGNC_ID:
+Not Available
+
+# Drug_Target_9_HPRD_ID:
+Not Available
+
+# Drug_Target_9_ID:
+7297
+
+# Drug_Target_9_Locus:
+Not Available
+
+# Drug_Target_9_Molecular_Weight:
+Not Available
+
+# Drug_Target_9_Name:
+Mitogen-activated protein kinase kinase kinase 2
+
+# Drug_Target_9_Number_of_Residues:
+0
+
+# Drug_Target_9_PDB_ID:
+Not Available
+
+# Drug_Target_9_Pathway:
+Not Available
+
+# Drug_Target_9_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_9_Protein_Sequence:
+Not Available
+
+# Drug_Target_9_Reaction:
+Not Available
+
+# Drug_Target_9_Signals:
+Not Available
+
+# Drug_Target_9_Specific_Function:
+Not Available
+
+# Drug_Target_9_SwissProt_ID:
+Q9Y2U5
+
+# Drug_Target_9_SwissProt_Name:
+Not Available
+
+# Drug_Target_9_Synonyms:
+Not Available
+
+# Drug_Target_9_Theoretical_pI:
+Not Available
+
+# Drug_Target_9_Transmembrane_Regions:
+Not Available
+
+#END_DRUGCARD DB06616

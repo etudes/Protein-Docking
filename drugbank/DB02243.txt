@@ -1,0 +1,340 @@
+#BEGIN_DRUGCARD DB02243
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C31H42N4O5S
+
+# Chemical_IUPAC_Name:
+(2R)-N-[(1E,3R)-1-(benzenesulfonyl)hex-1-en-3-yl]-2-{[(E)-[4-(morpholin-4-yl)piperidin-1-yl]carbonyl]amino}-3-phenylpropanamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+4-Morpholin-4-Yl-Piperidine-1-Carboxylic Acid [1-(3-Benzenesulfonyl-1-Propyl-Allylcarbamoyl)-2-Phenylethyl]-Amide
+
+# HET_ID:
+MYP
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C31H42N4O5S/c1-2-9-26(16-23-41(38,39)28-12-7-4-8-13-28)32-30(36)29(24-25-10-5-3-6-11-25)33-31(37)35-17-14-27(15-18-35)34-19-21-40-22-20-34/h3-8,10-13,16,23,26-27,29H,2,9,14-15,17-22,24H2,1H3,(H,32,36)(H,33,37)/b23-16+/t26-,29-/m1/s1
+
+# InChI_Key:
+InChIKey=OFBHNKJTHNHXQT-OIWPGSPOSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+2243
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+582.754
+
+# Molecular_Weight_Mono:
+582.287591164
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1M6D
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+2.73
+
+# Predicted_LogS:
+-4.6
+
+# Predicted_Water_Solubility:
+1.58e-02 g/l
+
+# Primary_Accession_No:
+DB02243
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+46936331
+
+# PubChem_Substance_ID:
+46504921
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT02269
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CCC[C@H](\C=C\S(=O)(=O)C1=CC=CC=C1)NC(=O)[C@H](NC(=O)N1CCC(CC1)N1CCOCC1)CC1=CC=CC=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:20:56 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Lysosome
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+CTSF
+
+# Drug_Target_1_GenBank_ID_Gene:
+AJ007331
+
+# Drug_Target_1_GenBank_ID_Protein:
+4826528
+
+# Drug_Target_1_GeneCard_ID:
+CTSF
+
+# Drug_Target_1_Gene_Name:
+CTSF
+
+# Drug_Target_1_Gene_Sequence:
+>1455 bp
+ATGGCGCCCTGGCTGCAGCTCCTGTCGCTGCTGGGGCTGCTCCCGGGCGCAGTGGCCGCC
+CCCGCCCAGCCCCGAGCCGCCAGCTTTCAGGCCTGGGGGCCGCCGTCCCCGGAGCTGCTG
+GCGCCCACCCGCTTCGCGCTGGAGATGTTCAACCGCGGCCGGGCTGCGGGGACGCGGGCC
+GTGCTGGGCCTTGTGCGCGGCCGCGTCCGCCGGGCGGGTCAGGGGTCGCTGTACTCCCTG
+GAGGCCACCCTGGAGGAGCCACCCTGCAACGACCCCATGGTGTGCCGGCTCCCCGTGTCC
+AAGAAAACCCTGCTCTGCAGCTTCCAAGTCCTGGATGAGCTCGGAAGACACGTGCTGCTG
+CGGAAGGACTGTGGCCCAGTGGACACCAAGGTTCCAGGTGCTGGGGAGCCCAAGTCAGCC
+TTCACTCAGGGCTCAGCCATGATTTCTTCTCTGTCCCAAAACCATCCAGACAACAGAAAC
+GAGACTTTCAGCTCAGTCATTTCCCTGTTGAATGAGGATCCCCTGTCCCAGGACTTGCCT
+GTGAAGATGGCTTCAATCTTCAAGAACTTTGTCATTACCTATAACCGGACATATGAGTCA
+AAGGAAGAAGCCCGGTGGCGCCTGTCCGTCTTTGTCAATAACATGGTGCGAGCACAGAAG
+ATCCAGGCCCTGGACCGTGGGACAGCTCAGTATGGAGTCACCAAGTTCAGTGATCTCACA
+GAGGAGGAGTTCCGCACTATCTACCTGAATACTCTCCTGAGGAAAGAGCCTGGCAACAAG
+ATGAAGCAAGCCAAGTCTGTGGGTGACCTCGCCCCACCTGAATGGGACTGGAGGAGTAAG
+GGGGCTGTCACAAAAGTCAAAGACCAGGGCATGTGTGGCTCCTGCTGGGCCTTCTCAGTC
+ACAGGCAATGTGGAGGGCCAGTGGTTTCTCAACCAGGGGACCCTGCTCTCCCTCTCTGAA
+CAGGAGCTCTTGGACTGTGACAAGATGGACAAGGCCTGCATGGGCGGCTTGCCCTCCAAT
+GCCTACTCGGCCATAAAGAATTTGGGAGGGCTGGAGACAGAGGATGACTACAGCTACCAG
+GGTCACATGCAGTCCTGCAACTTCTCAGCAGAGAAGGCCAAGGTCTACATCAATGACTCC
+GTGGAGCTGAGCCAGAACGAGCAGAAGCTGGCAGCCTGGCTGGCCAAGAGAGGCCCAATC
+TCCGTGGCCATCAATGCCTTTGGCATGCAGTTTTACCGCCACGGGATCTCCCGCCCTCTC
+CGGCCCCTCTGCAGCCCTTGGCTCATTGACCATGCGGTGTTGCTTGTGGGCTACGGCAAC
+CGCTCTGACGTTCCCTTTTGGGCCATCAAGAACAGCTGGGGCACTGACTGGGGTGAGAAG
+GGTTACTACTACTTGCATCGTGGGTCCGGGGCCTGTGGCGTGAACACCATGGCCAGCTCG
+GCGGTGGTGGACTGA
+
+# Drug_Target_1_General_Function:
+Involved in cysteine-type endopeptidase activity
+
+# Drug_Target_1_General_References:
+10198209	Nagler DK, Sulea T, Menard R: Full-length cDNA of human cathepsin F predicts the presence of a cystatin domain at the N-terminus of the cysteine protease zymogen. Biochem Biophys Res Commun. 1999 Apr 13;257(2):313-8.
+10318784	Santamaria I, Velasco G, Pendas AM, Paz A, Lopez-Otin C: Molecular cloning and structural and functional characterization of human cathepsin F, a new cysteine proteinase of the papain family with a long propeptide domain. J Biol Chem. 1999 May 14;274(20):13800-9.
+10362521	Wex T, Levy B, Wex H, Bromme D: Human cathepsins F and W: A new subgroup of cathepsins. Biochem Biophys Res Commun. 1999 Jun 7;259(2):401-7.
+10661872	Wex T, Wex H, Bromme D: The human cathepsin F gene--a fusion product between an ancestral cathepsin and cystatin gene. Biol Chem. 1999 Dec;380(12):1439-42.
+9822672	Wang B, Shi GP, Yao PM, Li Z, Chapman HA, Bromme D: Human cathepsin F. Molecular cloning, functional expression, tissue localization, and enzymatic characterization. J Biol Chem. 1998 Nov 27;273(48):32000-8.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:2531
+
+# Drug_Target_1_HPRD_ID:
+04643
+
+# Drug_Target_1_ID:
+2735
+
+# Drug_Target_1_Locus:
+11q13
+
+# Drug_Target_1_Molecular_Weight:
+53366
+
+# Drug_Target_1_Name:
+Cathepsin F
+
+# Drug_Target_1_Number_of_Residues:
+484
+
+# Drug_Target_1_PDB_ID:
+1M6D
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00112	Peptidase_C1
+PF08246	Inhibitor_I29
+
+# Drug_Target_1_Protein_Sequence:
+>Cathepsin F precursor
+MAPWLQLLSLLGLLPGAVAAPAQPRAASFQAWGPPSPELLAPTRFALEMFNRGRAAGTRA
+VLGLVRGRVRRAGQGSLYSLEATLEEPPCNDPMVCRLPVSKKTLLCSFQVLDELGRHVLL
+RKDCGPVDTKVPGAGEPKSAFTQGSAMISSLSQNHPDNRNETFSSVISLLNEDPLSQDLP
+VKMASIFKNFVITYNRTYESKEEARWRLSVFVNNMVRAQKIQALDRGTAQYGVTKFSDLT
+EEEFRTIYLNTLLRKEPGNKMKQAKSVGDLAPPEWDWRSKGAVTKVKDQGMCGSCWAFSV
+TGNVEGQWFLNQGTLLSLSEQELLDCDKMDKACMGGLPSNAYSAIKNLGGLETEDDYSYQ
+GHMQSCNFSAEKAKVYINDSVELSQNEQKLAAWLAKRGPISVAINAFGMQFYRHGISRPL
+RPLCSPWLIDHAVLLVGYGNRSDVPFWAIKNSWGTDWGEKGYYYLHRGSGACGVNTMASS
+AVVD
+
+# Drug_Target_1_Reaction:
+The recombinant enzyme cleaves synthetic substrates with Phe and Leu (better than Val) in P2, with high specificity constant (kcat/Km) comparable to that of cathepsin L
+
+# Drug_Target_1_Signals:
+1-19
+
+# Drug_Target_1_Specific_Function:
+Thiol protease which is believed to participate in intracellular degradation and turnover of proteins. Has also been implicated in tumor invasion and metastasis
+
+# Drug_Target_1_SwissProt_ID:
+Q9UBX1
+
+# Drug_Target_1_SwissProt_Name:
+CATF_HUMAN
+
+# Drug_Target_1_Synonyms:
+CATSF
+Cathepsin F precursor
+EC 3.4.22.41
+
+# Drug_Target_1_Theoretical_pI:
+8.33
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB02243

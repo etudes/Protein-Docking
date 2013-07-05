@@ -1,0 +1,397 @@
+#BEGIN_DRUGCARD DB01333
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+J01DB09
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+38821-53-3
+
+# ChEBI_ID:
+3547
+
+# Chemical_Formula:
+C16H19N3O4S
+
+# Chemical_IUPAC_Name:
+(6R,7R)-7-[(2R)-2-amino-2-(cyclohexa-1,4-dien-1-yl)acetamido]-3-methyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2007-06-30 12:05:56 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+A semi-synthetic cephalosporin antibiotic. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Anti-Bacterial Agents
+Cephalosporins
+
+# Drug_Interactions:
+Amikacin	Increased risk of nephrotoxicity
+Gentamicin	Increased risk of nephrotoxicity
+Netilmicin	Increased risk of nephrotoxicity
+Probenecid	Probenecid may increase the serum level of cefradine.
+Tobramycin	Increased risk of nephrotoxicity
+
+# Drug_Reference:
+4572639	Neiss ES: Cephradine--a summary of preclinical studies and clinical pharmacology. J Ir Med Assoc. 1973 Mar 24;Suppl:1-12.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+2.13E+004 mg/L
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Cefradine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C16H19N3O4S/c1-8-7-24-15-11(14(21)19(15)12(8)16(22)23)18-13(20)10(17)9-5-3-2-4-6-9/h2-3,6,10-11,15H,4-5,7,17H2,1H3,(H,18,20)(H,22,23)/t10-,11-,15-/m1/s1
+
+# InChI_Key:
+InChIKey=RDLPVSKMFDYCOR-UEKVPHQBSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+C06897
+
+# KEGG_Drug_ID:
+D00264
+
+# LIMS_Drug_ID:
+1333
+
+# Mechanism_Of_Action:
+Cefradine is a first generation cephalosporin antibiotic with a spectrum of activity similar to Cefalexin. Cefradine, like the penicillins, is a beta-lactam antibiotic. By binding to specific penicillin-binding proteins (PBPs) located inside the bacterial cell wall, it inhibits the third and last stage of bacterial cell wall synthesis. Cell lysis is then mediated by bacterial cell wall autolytic enzymes such as autolysins; it is possible that Cefradine interferes with an autolysin inhibitor.
+
+# Melting_Point:
+140 °C
+
+# Molecular_Weight_Avg:
+349.405
+
+# Molecular_Weight_Mono:
+349.109626801
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA448890
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+0.7
+
+# Predicted_LogS:
+-2.6
+
+# Predicted_Water_Solubility:
+7.78e-01 g/l
+
+# Primary_Accession_No:
+DB01333
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+38103
+
+# PubChem_Substance_ID:
+46505082
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@]12SCC(C)=C(N1C(=O)[C@H]2NC(=O)[C@H](N)C1=CCC=CC1)C(O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Cephradine
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:20:05 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Cefradine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P08684
+
+# Drug_Target_1_Cellular_Location:
+Bacterial cell inner membrane
+single-pass type II membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+7592463	Sharma UK, Dwarakanath P, Banerjee N, Town C, Balganesh TS: Expression and characterization of the ponA (ORF I) gene of Haemophilus influenzae: functional complementation in a heterologous system. J Bacteriol. 1995 Dec;177(23):6745-50.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+X02164
+
+# Drug_Target_1_GenBank_ID_Protein:
+581194
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+mrcA
+
+# Drug_Target_1_Gene_Sequence:
+>2553 bp
+GTGAAGTTCGTAAAGTATTTTTTGATCCTTGCAGTCTGTTGCATTCTGCTGGGAGCAGGC
+TCGATTTATGGCCTATACCGCTACATCGAGCCACAACTGCCGGATGTGGCGACATTAAAA
+GATGTTCGCCTGCAAATTCCGATGCAGATTTACAGCGCCGATGGCGAGCTGATTGCTCAA
+TACGGTGAGAAACGTCGTATTCCGGTTACGTTGGATCAAATCCCACCGGAGATGGTGAAA
+GCCTTTATCGCGACAGAAGACAGCCGCTTCTACGAGCATCACGGCGTTGACCCGGTGGGG
+ATCTTCCGTGCAGCAAGCGTGGCGCTGTTCTCCGGTCACGCGTCACAAGGGGCAAGTACC
+ATTACCCAGCAGCTGGCGAGAAACTTCTTCCTCAGTCCAGAACGCACGCTGATGCGTAAG
+ATTAAGGAAGTCTTCCTCGCGATTCGCATTGAACAGCTGCTGACGAAAGACGAGATCCTC
+GAGCTTTATCTGAACAAGATTTACCTTGGTTACCGCGCCTATGGTGTCGGTGCTGCGGCA
+CAAGTCTATTTCGGAAAAACGGTCGACCAACTGACGCTGAACGAAATGGCGGTGATAGCC
+GGGCTGCCGAAAGCGCCTTCCACCTTCAACCCGCTCTACTCGATGGATCGTGCCGTCGCG
+CGGCGTAACGTCGTGCTGTCGCGGATGCTGGATGAAGGGTATATCACCCAACAACAGTTC
+GATCAGACACGCACTGAGGCGATTAACGCTAACTATCACGCGCCGGAGATTGCTTTCTCT
+GCGCCGTACCTGAGCGAAATGGTGCGCCAGGAGATGTATAACCGTTATGGCGAAAGTGCC
+TATGAAGACGGTTATCGCATTTACACCACCATCACCCGCAAAGTGCAGCAGGCCGCGCAG
+CAGGCGGTACGTAATAACGTGCTGGACTACGACATGCGCCACGGCTATCGCGGCCCGGCA
+AATGTGCTGTGGAAAGTGGGCGAGTCGGCGTGGGATAACAACAAGATTACCGATACGCTG
+AAGGCGCTGCCAACCTATGGTCCGCTGCTGCCTGCCGCAGTCACCAGCGCCAATCCTCAG
+CAAGCGACGGCGATGCTGGCGGACGGGTCGACCGTCGCATTGAGTATGGAAGGCGTTCGC
+TGGGCGCGTCCTTACCGTTCGGATACTCAGCAAGGACCGACGCCGCGTAAAGTGACCGAT
+GTTCTGCAAACGGGTCAGCAAATCTGGGTTCGTCAGGTTGGCGATGCATGGTGGCTGGCA
+CAAGTGCCGGAAGTGAACTCGGCGCTGGTGTCGATCAATCCGCAAAACGGTGCCGTTATG
+GCGCTGGTCGGTGGCTTTGATTTCAATCAGAGCAAGTTTAACCGCGCCACCCAGGCACTG
+CGTCAGGTGGGTTCCAACATCAAACCGTTCCTCTACACCGCGGCGATGGATAAAGGTCTG
+ACGCTGGCAAGTATGTTGAACGATGTGCCAATTTCTCGCTGGGATGCAAGTGCCGGTTCT
+GACTGGCAGCCGAAGAACTCACCACCGCAGTATGCTGGTCCAATTCGCTTACGTCAGGGG
+CTGGGTCAGTCGAAAAACGTGGTGATGGTACGCGCAATGCGGGCGATGGGCGTCGACTAC
+GCTGCAGAATATCTGCAACGCTTCGGCTTCCCGGCACAAAACATTGTCCACACCGAATCG
+CTGGCGCTGGGTTCAGCGTCCTTCACCCCAATGCAGGTGGCGCGCGGCTACGCGGTCATG
+GCGAACGGCGGCTTCCTGGTGGACCCGTGGTTTATCAGCAAAATTGAAAACGATCAGGGC
+GGCGTGATTTTCGAAGCGAAACCGAAAGTAGCCTGCCCGGAATGCGATATTCCGGTGATT
+TACGGTGATACGCAGAAATCGAACGTGCTGGAAAATAACGATGTTGAAGATGTCGCTATC
+TCCCGCGAGCAGCAGAATGTTTCTGTACCAATGCCGCAGCTGGAGCAGGCAAATCAGGCG
+TTAGTGGCGAAGACTGGCGCGCAGGAGTACGCACCGCACGTCATCAACACTCCGCTGGCA
+TTCCTGATTAAGAGTGCTTTGAACACCAATATCTTTGGTGAGCCAGGCTGGCAGGGTACT
+GGCTGGCGTGCAGGTCGTGATTTGCAGCGTCGCGATATCGGCGGGAAAACCGGGACCACT
+AACAGTTCGAAAGATGCGTGGTTCTCGGGTTACGGTCCGGGCGTTGTGACCTCGGTCTGG
+ATTGGCTTTGATGATCACCGTCGTAATCTCGGTCATACAACGGCTTCCGGAGCGATTAAA
+GATCAGATCTCAGGTTACGAAGGCGGTGCCAAGAGTGCCCAGCCTGCATGGGACGCTTAT
+ATGAAAGCCGTTCTTGAAGGTGTGCCGGAGCAGCCGCTGACGCCGCCACCGGGTATTGTG
+ACGGTGAATATCGATCGCAGCACCGGGCAGTTAGCTAATGGTGGCAACAGCCGCGAAGAG
+TATTTCATCGAAGGTACGCAGCCGACACAACAGGCAGTGCACGAGGTGGGAACGACCATT
+ATCGATAATGGCGAGGCACAGGAATTGTTCTGA
+
+# Drug_Target_1_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_1_General_References:
+3882429	Broome-Smith JK, Edelman A, Yousif S, Spratt BG: The nucleotide sequences of the ponA and ponB genes encoding penicillin-binding protein 1A and 1B of Escherichia coli K12. Eur J Biochem. 1985 Mar 1;147(2):437-46.
+3920658	Keck W, Glauner B, Schwarz U, Broome-Smith JK, Spratt BG: Sequences of the active-site peptides of three of the high-Mr penicillin-binding proteins of Escherichia coli K-12. Proc Natl Acad Sci U S A. 1985 Apr;82(7):1999-2003.
+7006606	Ishino F, Mitsui K, Tamaki S, Matsuhashi M: Dual enzyme activities of cell wall peptidoglycan synthesis, peptidoglycan transglycosylase and penicillin-sensitive transpeptidase, in purified preparations of Escherichia coli penicillin-binding protein 1A. Biochem Biophys Res Commun. 1980 Nov 17;97(1):287-93.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+9841666	Goffin C, Ghuysen JM: Multimodular penicillin-binding proteins: an enigmatic family of orthologs and paralogs. Microbiol Mol Biol Rev. 1998 Dec;62(4):1079-93.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+645
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+93637
+
+# Drug_Target_1_Name:
+Penicillin-binding protein 1A
+
+# Drug_Target_1_Number_of_Residues:
+850
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00905	Transpeptidase
+PF00912	Transgly
+
+# Drug_Target_1_Protein_Sequence:
+>Penicillin-binding protein 1A
+MKFVKYFLILAVCCILLGAGSIYGLYRYIEPQLPDVATLKDVRLQIPMQIYSADGELIAQ
+YGEKRRIPVTLDQIPPEMVKAFIATEDSRFYEHHGVDPVGIFRAASVALFSGHASQGAST
+ITQQLARNFFLSPERTLMRKIKEVFLAIRIEQLLTKDEILELYLNKIYLGYRAYGVGAAA
+QVYFGKTVDQLTLNEMAVIAGLPKAPSTFNPLYSMDRAVARRNVVLSRMLDEGYITQQQF
+DQTRTEAINANYHAPEIAFSAPYLSEMVRQEMYNRYGESAYEDGYRIYTTITRKVQQAAQ
+QAVRNNVLDYDMRHGYRGPANVLWKVGESAWDNNKITDTLKALPTYGPLLPAAVTSANPQ
+QATAMLADGSTVALSMEGVRWARPYRSDTQQGPTPRKVTDVLQTGQQIWVRQVGDAWWLA
+QVPEVNSALVSINPQNGAVMALVGGFDFNQSKFNRATQALRQVGSNIKPFLYTAAMDKGL
+TLASMLNDVPISRWDASAGSDWQPKNSPPQYAGPIRLRQGLGQSKNVVMVRAMRAMGVDY
+AAEYLQRFGFPAQNIVHTESLALGSASFTPMQVARGYAVMANGGFLVDPWFISKIENDQG
+GVIFEAKPKVACPECDIPVIYGDTQKSNVLENNDVEDVAISREQQNVSVPMPQLEQANQA
+LVAKTGAQEYAPHVINTPLAFLIKSALNTNIFGEPGWQGTGWRAGRDLQRRDIGGKTGTT
+NSSKDAWFSGYGPGVVTSVWIGFDDHRRNLGHTTASGAIKDQISGYEGGAKSAQPAWDAY
+MKAVLEGVPEQPLTPPPGIVTVNIDRSTGQLANGGNSREEYFIEGTQPTQQAVHEVGTTI
+IDNGEAQELF
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Cell wall formation. Synthesis of cross-linked peptidoglycan from the lipid intermediates. The enzyme has a penicillin-insensitive transglycosylase N-terminal domain (formation of linear glycan strands) and a penicillin-sensitive transpeptidase C-terminal domain (cross-linking of the peptide subunits)
+
+# Drug_Target_1_SwissProt_ID:
+P02918
+
+# Drug_Target_1_SwissProt_Name:
+PBPA_ECOLI
+
+# Drug_Target_1_Synonyms:
+DD-transpeptidase
+EC 2.4.2.-
+EC 3.4.-.-
+PBP-1a
+PBP1a
+Penicillin-sensitive transpeptidase
+Peptidoglycan TGase
+
+# Drug_Target_1_Theoretical_pI:
+6.53
+
+# Drug_Target_1_Transmembrane_Regions:
+6-26
+
+#END_DRUGCARD DB01333

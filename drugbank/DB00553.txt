@@ -1,0 +1,442 @@
+#BEGIN_DRUGCARD DB00553
+
+# AHFS_Codes:
+84:50.06
+
+# ATC_Codes:
+D05AD02
+D05BA02
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Deltasoralen
+Meladinine
+Meloxine
+Oxsoralen
+UltraMop
+Uvadex
+
+# CAS_Registry_Number:
+298-81-7
+
+# ChEBI_ID:
+18358
+
+# Chemical_Formula:
+C12H8O4
+
+# Chemical_IUPAC_Name:
+9-methoxy-2H-furo[3,2-g]chromen-2-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+698059
+
+# Description:
+A naturally occurring furocoumarin compound found in several species of plants, including Psoralea corylifolia. It is a photoactive substance that forms DNA adducts in the presence of ultraviolet A irradiation. [PubChem]
+
+# Dosage_Forms:
+Capsule	Oral
+Liquid	Topical
+Lotion	Topical
+
+# Drug_Category:
+Antineoplastic Agents
+Cross-Linking Reagents
+Photosensitizing Agents
+Pigmenting Agents
+
+# Drug_Interactions:
+Ethotoin	The hydantoin decreases the effect of psoralene
+Fosphenytoin	The hydantoin decreases the effect of psoralene
+Mephenytoin	The hydantoin decreases the effect of psoralene
+Phenytoin	The hydantoin decreases the effect of psoralene
+Tacrine	The metabolism of Tacrine, a CYP1A2 substrate, may be reduced by strong CYP1A2 inhibitors such as Methoxsalen. Consider modifying therapy to avoid Tacrine toxicity. Monitor the efficacy and toxicity of Tacrine if Methoxsalen is initiated, discontinued or if the dose is changed.
+Thiothixene	The strong CYP1A2 inhibitor, Methoxsalen, may decrease the metabolism and clearance of Thiothixene, a CYP1A2 substrate. Consider alternate therapy or monitor for changes in Thiothixene therapeutic and adverse effects if Methoxsalen is initiated, discontinued or dose changed.
+Tizanidine	Methoxsalen may decrease the metabolism and clearance of Tizanidine. Consider alternate therapy or use caution during co-administration.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+1.7
+
+# Experimental_Logs:
+-3.66
+
+# Experimental_Water_Solubility:
+47.6 mg/L (at 30 °C)
+
+# Food_Interactions:
+Take with food or milk, or in two divided doses 30 minutes apart to decrease nausea.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Methoxsalen
+
+# HET_ID:
+8MO
+
+# Half_Life:
+Approximately 2 hours
+
+# InChI_Identifier:
+InChI=1S/C12H8O4/c1-14-12-10-8(4-5-15-10)6-7-2-3-9(13)16-11(7)12/h2-6H,1H3
+
+# InChI_Key:
+InChIKey=QXKHYNVANLEOEG-UHFFFAOYSA-N
+
+# Indication:
+For the treatment of psoriasis and vitiligo
+
+# KEGG_Compound_ID:
+C01864
+
+# KEGG_Drug_ID:
+D00139
+
+# LIMS_Drug_ID:
+553
+
+# Mechanism_Of_Action:
+After activation it binds preferentially to the guanine and cytosine moieties of DNA, leading to cross-linking of DNA, thus inhibiting DNA synthesis and function.
+
+# Melting_Point:
+148 °C
+
+# Molecular_Weight_Avg:
+216.1895
+
+# Molecular_Weight_Mono:
+216.042258744
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA450433
+
+# Pharmacology:
+Methoxsalen selectively inhibits the synthesis of deoxyribonucleic acid (DNA). The guanine and cytosine content correlates with the degree of Methoxsalen-induced cross-linking. At high concentrations of the drug, cellular RNA and protein synthesis are also suppressed.
+
+# Predicted_LogP_Hydrophobicity:
+2.1
+
+# Predicted_LogS:
+-3.1
+
+# Predicted_Water_Solubility:
+1.64e-01 g/l
+
+# Primary_Accession_No:
+DB00553
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+4114
+
+# PubChem_Substance_ID:
+46506275
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/methox.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00157
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+COC1=C2OC(=O)C=CC2=CC2=C1OC=C2
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Methoxalen
+Xanthotoxin
+Xanthotoxine
+Xanthoxin
+Zanthotoxin
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:19:26 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Methoxsalen
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP2A6
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+5718
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 2A6
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 2A6
+MLASGMLLVALLVCLTVMVLMSVWQQRKSKGKLPPGPTPLPFIGNYLQLNTEQMYNSLMK
+ISERYGPVFTIHLGPRRVVVLCGHDAVREALVDQAEEFSGRGEQATFDWVFKGYGVVFSN
+GERAKQLRRFSIATLRDFGVGKRGIEERIQEEAGFLIDAHRGTGGANIDPTFFLSRTVSN
+VISSIVFGDRFDYKDKEFLSLLRMMLGIFQFTSTSTGQLYEMFSSVMKHLPGPQQQAFQL
+LQGLEDFIAKKVEHNQRTLDPNSPRDFIDSFLIRMQEEEKNPNTEFYLKNLVMTTLNLFI
+GGTETVSTTLRYGFLLLMKHPEVEAKVHEEIDRVIGKNRQPKFEDRAKMPYMEAVIHEIQ
+RFGDVIPMSLARRVKKDTKFRDFFLPKGTEVYPMLGSVLRDPSFFSNPQDFNPQHFLNEK
+GQFKKSDAFVPFSIGKRNCFGEGLARMELFLFFTTVMQNFRLKSSQSPKDIDVSPKHVGF
+ATIPRNYTMSFLPR
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P11509
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2A13
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+6014
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2A13
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2A13
+MLASGLLLVTLLACLTVMVLMSVWRQRKSRGKLPPGPTPLPFIGNYLQLNTEQMYNSLMK
+ISERYGPVFTIHLGPRRVVVLCGHDAVKEALVDQAEEFSGRGEQATFDWLFKGYGVAFSN
+GERAKQLRRFSIATLRGFGVGKRGIEERIQEEAGFLIDALRGTHGANIDPTFFLSRTVSN
+VISSIVFGDRFDYEDKEFLSLLRMMLGSFQFTATSTGQLYEMFSSVMKHLPGPQQQAFKE
+LQGLEDFIAKKVEHNQRTLDPNSPRDFIDSFLIRMQEEEKNPNTEFYLKNLVMTTLNLFF
+AGTETVSTTLRYGFLLLMKHPEVEAKVHEEIDRVIGKNRQPKFEDRAKMPYTEAVIHEIQ
+RFGDMLPMGLAHRVNKDTKFRDFFLPKGTEVFPMLGSVLRDPRFFSNPRDFNPQHFLDKK
+GQFKKSDAFVPFSIGKRYCFGEGLARMELFLFFTTIMQNFRFKSPQSPKDIDVSPKHVGF
+ATIPRNYTMSFLPR
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+Q16696
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+CYP1A1
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+6024
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Cytochrome P450 1A1
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Cytochrome P450 1A1
+MLFPISMSATEFLLASVIFCLVFWVIRASRPQVPKGLKNPPGPWGWPLIGHMLTLGKNPH
+LALSRMSQQYGDVLQIRIGSTPVVVLSGLDTIRQALVRQGDDFKGRPDLYTFTLISNGQS
+MSFSPDSGPVWAARRRLAQNGLKSFSIASDPASSTSCYLEEHVSKEAEVLISTLQELMAG
+PGHFNPYRYVVVSVTNVICAICFGRRYDHNHQELLSLVNLNNNFGEVVGSGNPADFIPIL
+RYLPNPSLNAFKDLNEKFYSFMQKMVKEHYKTFEKGHIRDITDSLIEHCQEKQLDENANV
+QLSDEKIINIVLDLFGAGFDTVTTAISWSLMYLVMNPRVQRKIQEELDTVIGRSRRPRLS
+DRSHLPYMEAFILETFRHSSFVPFTIPHSTTRDTSLKGFYIPKGRCVFVNQWQINHDQKL
+WVNPSEFLPERFLTPDGAIDKVLSEKVIIFGMGKRKCIGETIARWEVFLFLAILLQRVEF
+SVPLGVKVDMTPIYGLTMKHACCEHFQMQLRS
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P04798
+
+# Drug_Target_1_Cellular_Location:
+Nucleus and mitochondria
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+20419242	Smith SI, Brodbelt JS: Rapid characterization of cross-links, mono-adducts, and non-covalent binding of psoralens to deoxyoligonucleotides by LC-UV/ESI-MS and IRMPD mass spectrometry. Analyst. 2010 May;135(5):943-52. Epub 2010 Feb 12.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+>Example: Dickerson dodecamer
+CGCGAATTCGCG
+
+# Drug_Target_1_General_Function:
+Biological information storage and information transfer
+
+# Drug_Target_1_General_References:
+1234	Nadeau D, Marchand C: Change in the kinetics of sulphacetamide tissue distribution in Walker tumor-bearing rats. Drug Metab Dispos. 1975 Nov-Dec;3(6):565-76.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+874
+
+# Drug_Target_1_Locus:
+All loci
+
+# Drug_Target_1_Molecular_Weight:
+7656 (double strand)
+
+# Drug_Target_1_Name:
+DNA
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+1BNA
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+DNA + DNA polymerase + nNTP = 2 DNA + nNDP; DNA + RNA polymerase + NTP = mRNA + nNDP
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+DNA is the molecule of heredity, as it is responsible for the genetic propagation of most inherited traits. It is a polynucleic acid that carries genetic information on cell growth, division, and function. DNA consists of two long strands of nucleotides twisted into a double helix and held together by hydrogen bonds. The sequence of nucleotides determines hereditary characteristics. Each strand serves as the template for subsequent DNA replication and as a template for mRNA production, leading to protein synthesis via ribosomes.
+
+# Drug_Target_1_SwissProt_ID:
+Not Available
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Deoxyribonucleic acid
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00553

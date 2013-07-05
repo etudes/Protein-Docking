@@ -1,0 +1,526 @@
+#BEGIN_DRUGCARD DB00175
+
+# AHFS_Codes:
+24:06.08
+
+# ATC_Codes:
+C10AA03
+
+# Absorption:
+Average oral absorption of pravastatin is 34% and absolute bioavailability is 17%.
+
+# Biotransformation:
+Hepatic, there is a small amount of metabolism by P450 enzymes, but this effect is so minimal that inhibitory pharmacokinetic drug interactions have no real effect on its overall activity and elimination. An in vitro study which found moderate affinity for P450 2C9 (major), 2D6 and 3A4.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Elisor
+Lipostat
+Mevalotin
+Mevinolin
+Oliprevin
+Pravachol
+Pravaselect
+Selectin
+Selipran
+Vasten
+
+# CAS_Registry_Number:
+81093-37-0
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C23H36O7
+
+# Chemical_IUPAC_Name:
+(3R,5R)-7-[(1S,2S,6S,8S,8aR)-6-hydroxy-2-methyl-8-{[(2S)-2-methylbutanoyl]oxy}-1,2,6,7,8,8a-hexahydronaphthalen-1-yl]-3,5-dihydroxyheptanoic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2247008
+
+# Description:
+Pravastatin is a cholesterol-lowering agent that belongs to a class of medications known as statins. It was derived from microbial transformation of mevastatin, the first statin discovered. It is a ring-opened dihydroxyacid with a 6’-hydroxyl group that does not require <i>in vivo</i> activation. Pravastatin is one of the lower potency statins; however, its increased hydrophilicity is thought to confer advantages such as minimal penetration through lipophilic membranes of peripheral cells, increased selectivity for hepatic tissues, and a reduction in side effects compared with lovastatin and simvastatin.
+
+# Dosage_Forms:
+Tablet	Oral
+Tablet	Oral
+Tablet	Oral
+Tablet	Oral
+
+# Drug_Category:
+Anticholesteremic Agents
+HMG-CoA Reductase Inhibitors
+Hydroxymethylglutaryl-CoA Reductase Inhibitors
+
+# Drug_Interactions:
+Bezafibrate	Increased risk of myopathy/rhabdomyolysis
+Boceprevir 	Boceprevir increases pravastatin AUC by 60% with boceprevir. Concomitant therapy should be closely monitored.
+Colchicine	Increased risk of rhabdomyolysis with this combination
+Colesevelam	Bile Acid Sequestrants may decrease the serum concentration of Pravastatin. Administer pravastatin at least 1 hour before or 4 hours after administration of bile-acid resins (eg, cholestyramine, colestipol, colesevelam) to minimize the risk for any significant interaction.
+Cyclosporine	Possible myopathy and rhabdomyolysis
+Fenofibrate	Increased risk of myopathy/rhabdomyolysis
+Gemfibrozil	Increased risk of myopathy/rhabdomyolysis
+Tipranavir	Tipranavir may increase the plasma concentration of Pravastatin. Consider alternate therapy.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+2.2
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+2464mg/L
+
+# Food_Interactions:
+Avoid alcohol.
+Avoid drastic changes in dietary habit.
+Take without regard to meals.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Pravastatin
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+77 hours
+
+# InChI_Identifier:
+InChI=1S/C23H36O7/c1-4-13(2)23(29)30-20-11-17(25)9-15-6-5-14(3)19(22(15)20)8-7-16(24)10-18(26)12-21(27)28/h5-6,9,13-14,16-20,22,24-26H,4,7-8,10-12H2,1-3H3,(H,27,28)/t13-,14-,16+,17+,18+,19-,20-,22-/m0/s1
+
+# InChI_Key:
+InChIKey=TUZYXOIXSAXUGO-PZAWKZKUSA-N
+
+# Indication:
+For the treatment of hypercholesterolemia and to reduce the risk of cardiovascular disease.
+
+# KEGG_Compound_ID:
+C01844
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+175
+
+# Mechanism_Of_Action:
+Pravastatin is structurally similar to the HMG, a substituent of the endogenous substrate of HMG-CoA reductase. Unlike its parent compound, mevastatin, and statins such as lovastatin and simvastatin, pravastatin does not need to be activated <i>in vivo</i>. Its hydrolyzed lactone ring mimics the tetrahedral intermediate produced by the reductase allowing the agent to bind with a much greater affinity than its natural substrate. The bicyclic portion of pravastatin binds to the coenzyme A portion of the active site.
+
+# Melting_Point:
+326 °C
+
+# Molecular_Weight_Avg:
+424.5277
+
+# Molecular_Weight_Mono:
+424.246103506
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Pravastatin Pathway	SMP00089
+
+# PharmGKB_ID:
+PA451089
+
+# Pharmacology:
+The primary cause of cardiovascular (CV) disease is atherosclerotic plaque formation and sustained elevation of cholesterol in the blood increases the risk of CV disease. Pravastatin lowers hepatic production of cholesterol by competitively inhibiting HMG-CoA reductase, the enzyme that catalyzes the rate-limiting step in the cholesterol biosynthesis pathway via the mevalonic acid pathway. Decreased hepatic cholesterol levels causes increased uptake of low density lipoprotein (LDL) cholesterol and reduces cholesterol levels in the circulation. Pravastatin also inhibits hepatic synthesis if VLDL. At therapeutic doses, pravastatin lowers LDL cholesterol by 20-30%, increase high density lipoprotein (HDL) cholesterol by 3-10%, and decrease plasma triglycerides by 19-34%. HDL cholesterol is thought to confer protective effects against CV disease, whereas high LDL and triglyceride levels are associated with higher risk of disease.
+
+# Predicted_LogP_Hydrophobicity:
+2.23
+
+# Predicted_LogS:
+-3.2
+
+# Predicted_Water_Solubility:
+2.42e-01 g/l
+
+# Primary_Accession_No:
+DB00175
+
+# Protein_Binding:
+50%
+
+# PubChem_Compound_ID:
+54687
+
+# PubChem_Substance_ID:
+46504851
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic/pravast.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00328
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@]12[C@H](C[C@H](O)C=C1C=C[C@H](C)[C@@H]2CC[C@@H](O)C[C@@H](O)CC(O)=O)OC(=O)[C@@H](C)CC
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Pravastatin Sodium
+Pravastatina [Spanish]
+Pravastatine [French]
+Pravastatinum [Latin]
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Side effects include diarrhea, nausea, constipation, gas abdominal pain, myopathy, myositis, rhabdomyolysis, and hepatotoxicity. LD<sub>50</sub>=mg/kg (orally in rat)
+
+# Update_Date:
+2013-02-08 16:19:09 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Pravastatin
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A5
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4118
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A5
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A5
+MDLIPNLAVETWLLLAVSLVLLYLYGTRTHGLFKRLGIPGPTPLPLLGNVLSYRQGLWKF
+DTECYKKYGKMWGTYEGQLPVLAITDPDVIRTVLVKECYSVFTNRRSLGPVGFMKSAISL
+AEDEEWKRIRSLLSPTFTSGKLKEMFPIIAQYGDVLVRNLRREAEKGKPVTLKDIFGAYS
+MDVITGTSFGVNIDSLNNPQDPFVESTKKFLKFGFLDPLFLSIILFPFLTPVFEALNVSL
+FPKDTINFLSKSVNRMKKSRLNDKQKHRLDFLQLMIDSQNSKETESHKALSDLELAAQSI
+IFIFAGYETTSSVLSFTLYELATHPDVQQKLQKEIDAVLPNKAPPTYDAVVQMEYLDMVV
+NETLRLFPVAIRLERTCKKDVEINGVFIPKGSMVVIPTYALHHDPKYWTEPEEFRPERFS
+KKKDSIDPYIYTPFGTGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLDTQG
+LLQPEKPIVLKVDSRDGTLSGE
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P20815
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P11712
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+CYP2C8
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+4924
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Cytochrome P450 2C8
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Cytochrome P450 2C8
+MEPFVVLVLCLSFMLLFSLWRQSCRRRKLPPGPTPLPIIGNMLQIDVKDICKSFTNFSKV
+YGPVFTVYFGMNPIVVFHGYEAVKEALIDNGEEFSGRGNSPISQRITKGLGIISSNGKRW
+KEIRRFSLTTLRNFGMGKRSIEDRVQEEAHCLVEELRKTKASPCDPTFILGCAPCNVICS
+VVFQKRFDYKDQNFLTLMKRFNENFRILNSPWIQVCNNFPLLIDCFPGTHNKVLKNVALT
+RSYIREKVKEHQASLDVNNPRDFIDCFLIKMEQEKDNQKSEFNIENLVGTVADLFVAGTE
+TTSTTLRYGLLLLLKHPEVTAKVQEEIDHVIGRHRSPCMQDRSHMPYTDAVVHEIQRYSD
+LVPTGVPHAVTTDTKFRNYLIPKGTTIMALLTSVLHDDKEFPNPNIFDPGHFLDKNGNFK
+KSDYFMPFSAGKRICAGEGLARMELFLFLTTILQNFNLKSVDDLKNLNTTAVTKGIVSLP
+PSYQICFIPV
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P10632
+
+# Drug_Target_1_Cellular_Location:
+Endoplasmic reticulum
+endoplasmic reticulum membrane
+multi-pass membrane protein. Peroxisome
+pero
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+HMGCR
+
+# Drug_Target_1_GenBank_ID_Gene:
+M11058
+
+# Drug_Target_1_GenBank_ID_Protein:
+306865
+
+# Drug_Target_1_GeneCard_ID:
+HMGCR
+
+# Drug_Target_1_Gene_Name:
+HMGCR
+
+# Drug_Target_1_Gene_Sequence:
+>2667 bp
+ATGTTGTCAAGACTTTTTCGAATGCATGGCCTCTTTGTGGCCTCCCATCCCTGGGAAGTC
+ATAGTGGGGACAGTGACACTGACCATCTGCATGATGTCCATGAACATGTTTACTGGTAAC
+AATAAGATCTGTGGTTGGAATTATGAATGTCCAAAGTTTGAAGAGGATGTTTTGAGCAGT
+GACATTATAATTCTGACAATAACACGATGCATAGCCATCCTGTATATTTACTTCCAGTTC
+CAGAATTTACGTCAACTTGGATCAAAATATATTTTGGGTATTGCTGGCCTTTTCACAATT
+TTCTCAAGTTTTGTATTCAGTACAGTTGTCATTCACTTCTTAGACAAAGAATTGACAGGC
+TTGAATGAAGCTTTGCCCTTTTTCCTACTTTTGATTGACCTTTCCAGAGCAAGCACATTA
+GCAAAGTTTGCCCTCAGTTCCAACTCACAGGATGAAGTAAGGGAAAATATTGCTCGTGGA
+ATGGCAATTTTAGGTCCTACGTTTACCCTCGATGCTCTTGTTGAATGTCTTGTGATTGGA
+GTTGGTACCATGTCAGGGGTACGTCAGCTTGAAATTATGTGCTGCTTTGGCTGCATGTCA
+GTTCTTGCCAACTACTTCGTGTTCATGACTTTCTTCCCAGCTTGTGTGTCCTTGGTATTA
+GAGCTTTCTCGGGAAAGCCGCGAGGGTCGTCCAATTTGGCAGCTCAGCCATTTTGCCCGA
+GTTTTAGAAGAAGAAGAAAATAAGCCGAATCCTGTAACTCAGAGGGTCAAGATGATTATG
+TCTCTAGGCTTGGTTCTTGTTCATGCTCACAGTCGCTGGATAGCTGATCCTTCTCCTCAA
+AACAGTACAGCAGATACTTCTAAGGTTTCATTAGGACTGGATGAAAATGTGTCCAAGAGA
+ATTGAACCAAGTGTTTCCCTCTGGCAGTTTTATCTCTCTAAAATGATCAGCATGGATATT
+GAACAAGTTATTACCCTAAGTTTAGCTCTCCTTCTGGCTGTCAAGTACATCTTCTTTGAA
+CAAACAGAGACAGAATCTACACTCTCATTAAAAAACCCTATCACATCTCCTGTAGTGACA
+CAAAAGAAAGTCCCAGACAATTGTTGTAGACGTGAACCTATGCTGGTCAGAAATAACCAG
+AAATGTGATTCAGTAGAGGAAGAGACAGGGATAAACCGAGAAAGAAAAGTTGAGGTTATA
+AAACCCTTAGTGGCTGAAACAGATACCCCAAACAGAGCTACATTTGTGGTTGGTAACTCC
+TCCTTACTCGATACTTCATCAGTACTGGTGACACAGGAACCTGAAATTGAACTTCCCAGG
+GAACCTCGGCCTAATGAAGAATGTCTACAGATACTTGGGAATGCAGAGAAAGGTGCAAAA
+TTCCTTAGTGATGCTGAGATCATCCAGTTAGTCAATGCTAAGCATATCCCAGCCTACAAG
+TTGGAAACTCTGATGGAAACTCATGAGCGTGGTGTATCTATTCGCCGACAGTTACTTTCC
+AAGAAGCTTTCAGAACCTTCTTCTCTCCAGTACCTACCTTACAGGGATTATAATTACTCC
+TTGGTGATGGGAGCTTGTTGTGAGAATGTTATTGGATATATGCCCATCCCTGTTGGAGTG
+GCAGGACCCCTTTGCTTAGATGAAAAAGAATTTCAGGTTCCAATGGCAACAACAGAAGGT
+TGTCTTGTGGCCAGCACCAATAGAGGCTGCAGAGCAATAGGTCTTGGTGGAGGTGCCAGC
+AGCCGAGTCCTTGCAGATGGGATGACTCGTGGCCCAGTTGTGCGTCTTCCACGTGCTTGT
+GACTCTGCAGAAGTGAAAGCCTGGCTCGAAACATCTGAAGGGTTCGCAGTGATAAAGGAG
+GCATTTGACAGCACTAGCAGATTTGCACGTCTACAGAAACTTCATACAAGTATAGCTGGA
+CGCAACCTTTATATCCGTTTCCAGTCCAGGTCAGGGGATGCCATGGGGATGAACATGATT
+TCAAAGGGTACAGAGAAAGCACTTTCAAAACTTCACGAGTATTTCCCTGAAATGCAGATT
+CTAGCCGTTAGTGGTAACTATTGTACTGACAAGAAACCTGCTGCTATAAATTGGATAGAG
+GGAAGAGGAAAATCTGTTGTTTGTGAAGCTGTCATTCCAGCCAAGGTTGTCAGAGAAGTA
+TTAAAGACTACCACAGAGGCTATGATTGAGGTCAACATTAACAAGAATTTAGTGGGCTCT
+GCCATGGCTGGGAGCATAGGAGGCTACAACGCCCATGCAGCAAACATTGTCACCGCCATC
+TACATTGCCTGTGGACAGGATGCAGCACAGAATGTTGGTAGTTCAAACTGTATTACTTTA
+ATGGAAGCAAGTGGTCCCACAAATGAAGATTTATATATCAGCTGCACCATGCCATCTATA
+GAGATAGGAACGGTGGGTGGTGGGACCAACCTACTACCTCAGCAAGCCTGTTTGCAGATG
+CTAGGTGTTCAAGGAGCATGCAAAGATAATCCTGGGGAAAATGCCCGGCAGCTTGCCCGA
+ATTGTGTGTGGGACCGTAATGGCTGGGGAATTGTCACTTATGGCAGCATTGGCAGCAGGA
+CATCTTGTCAAAAGTCACATGATTCACAACAGGTCGAAGATCAATTTACAAGACCTCCAA
+GGAGCTTGCACCAAGAAGACAGCCTGA
+
+# Drug_Target_1_General_Function:
+Lipid transport and metabolism
+
+# Drug_Target_1_General_References:
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+10698924	Istvan ES, Palnitkar M, Buchanan SK, Deisenhofer J: Crystal structure of the catalytic portion of human HMG-CoA reductase: insights into regulation of activity and catalysis. EMBO J. 2000 Mar 1;19(5):819-30.
+2991281	Luskey KL, Stevens B: Human 3-hydroxy-3-methylglutaryl coenzyme A reductase. Conserved domains responsible for catalytic activity and sterol-regulated degradation. J Biol Chem. 1985 Aug 25;260(18):10271-7.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:5006
+
+# Drug_Target_1_HPRD_ID:
+00836
+
+# Drug_Target_1_ID:
+631
+
+# Drug_Target_1_Locus:
+5q13.3-q14
+
+# Drug_Target_1_Molecular_Weight:
+97477
+
+# Drug_Target_1_Name:
+3-hydroxy-3-methylglutaryl-coenzyme A reductase
+
+# Drug_Target_1_Number_of_Residues:
+888
+
+# Drug_Target_1_PDB_ID:
+1HWL
+
+# Drug_Target_1_Pathway:
+Alendronate pathway	SMP00095
+Atorvastatin Pathway	SMP00131
+Cerivastatin Pathway	SMP00111
+Fluvastatin Pathway	SMP00119
+Ibandronate Pathway	SMP00079
+Lovastatin Pathway	SMP00099
+Pamidronate Pathway	SMP00117
+Pravastatin Pathway	SMP00089
+Risedronate Pathway	SMP00112
+Rosuvastatin Pathway	SMP00092
+Zoledronate Pathway	SMP00107
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00368	HMG-CoA_red
+
+# Drug_Target_1_Protein_Sequence:
+>3-hydroxy-3-methylglutaryl-coenzyme A reductase
+MLSRLFRMHGLFVASHPWEVIVGTVTLTICMMSMNMFTGNNKICGWNYECPKFEEDVLSS
+DIIILTITRCIAILYIYFQFQNLRQLGSKYILGIAGLFTIFSSFVFSTVVIHFLDKELTG
+LNEALPFFLLLIDLSRASTLAKFALSSNSQDEVRENIARGMAILGPTFTLDALVECLVIG
+VGTMSGVRQLEIMCCFGCMSVLANYFVFMTFFPACVSLVLELSRESREGRPIWQLSHFAR
+VLEEEENKPNPVTQRVKMIMSLGLVLVHAHSRWIADPSPQNSTADTSKVSLGLDENVSKR
+IEPSVSLWQFYLSKMISMDIEQVITLSLALLLAVKYIFFEQTETESTLSLKNPITSPVVT
+QKKVPDNCCRREPMLVRNNQKCDSVEEETGINRERKVEVIKPLVAETDTPNRATFVVGNS
+SLLDTSSVLVTQEPEIELPREPRPNEECLQILGNAEKGAKFLSDAEIIQLVNAKHIPAYK
+LETLMETHERGVSIRRQLLSKKLSEPSSLQYLPYRDYNYSLVMGACCENVIGYMPIPVGV
+AGPLCLDEKEFQVPMATTEGCLVASTNRGCRAIGLGGGASSRVLADGMTRGPVVRLPRAC
+DSAEVKAWLETSEGFAVIKEAFDSTSRFARLQKLHTSIAGRNLYIRFQSRSGDAMGMNMI
+SKGTEKALSKLHEYFPEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVREV
+LKTTTEAMIEVNINKNLVGSAMAGSIGGYNAHAANIVTAIYIACGQDAAQNVGSSNCITL
+MEASGPTNEDLYISCTMPSIEIGTVGGGTNLLPQQACLQMLGVQGACKDNPGENARQLAR
+IVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQDLQGACTKKTA
+
+# Drug_Target_1_Reaction:
+(R)-mevalonate + CoA + 2 NADP+ = (S)-3-hydroxy-3-methylglutaryl-CoA + 2 NADPH + 2 H+
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+This transmembrane glycoprotein is involved in the control of cholesterol biosynthesis. It is the rate-limiting enzyme of sterol biosynthesis
+
+# Drug_Target_1_SwissProt_ID:
+P04035
+
+# Drug_Target_1_SwissProt_Name:
+HMDH_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 1.1.1.34
+HMG-CoA reductase
+
+# Drug_Target_1_Theoretical_pI:
+6.72
+
+# Drug_Target_1_Transmembrane_Regions:
+10-39
+57-78
+90-114
+124-149
+160-187
+192-220
+315-339
+
+#END_DRUGCARD DB00175

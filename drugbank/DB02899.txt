@@ -1,0 +1,969 @@
+#BEGIN_DRUGCARD DB02899
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C6H11NO4S
+
+# Chemical_IUPAC_Name:
+(2S)-2-(carboxyamino)-4-(methylsulfanyl)butanoic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+N-Carboxymethionine
+
+# HET_ID:
+CXM
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C6H11NO4S/c1-12-3-2-4(5(8)9)7-6(10)11/h4,7H,2-3H2,1H3,(H,8,9)(H,10,11)/t4-/m0/s1
+
+# InChI_Key:
+InChIKey=LWQBAQJPCYBWJQ-BYPYZUCNSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+2899
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+193.221
+
+# Molecular_Weight_Mono:
+193.040878535
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1BJG
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-0.03
+
+# Predicted_LogS:
+-1.4
+
+# Predicted_Water_Solubility:
+7.08e+00 g/l
+
+# Primary_Accession_No:
+DB02899
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+17753927
+
+# PubChem_Substance_ID:
+46508277
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT01067
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@@](CCSC)(NC(O)=O)C(O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:21:35 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+J01710
+
+# Drug_Target_1_GenBank_ID_Protein:
+147987
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+thyA
+
+# Drug_Target_1_Gene_Sequence:
+>795 bp
+ATGAAACAGTATTTAGAACTGATGCAAAAAGTGCTCGACGAAGGCACACAGAAAAACGAC
+CGTACCGGAACCGGAACGCTTTCCATTTTTGGTCATCAGATGCGTTTTAACCTGCAAGAT
+GGATTCCCGCTGGTGACAACTAAACGTTGCCACCTGCGTTCCATCATCCATGAACTGCTG
+TGGTTTCTGCAGGGCGACACTAACATTGCTTATCTACACGAAAACAATGTCACCATCTGG
+GACGAATGGGCCGATGAAAACGGCGACCTCGGGCCAGTGTATGGTAAACAGTGGCGCGCC
+TGGCCAACGCCAGATGGTCGTCATATTGACCAGATCACTACGGTACTGAACCAGCTGAAA
+AACGACCCGGATTCGCGCCGCATTATTGTTTCAGCGTGGAACGTAGGCGAACTGGATAAA
+ATGGCGCTGGCACCGTGCCATGCATTCTTCCAGTTCTATGTGGCAGACGGCAAACTCTCT
+TGCCAGCTTTATCAGCGCTCCTGTGACGTCTTCCTCGGCCTGCCGTTCAACATTGCCAGC
+TACGCGTTATTGGTGCATATGATGGCGCAGCAGTGCGATCTGGAAGTGGGTGATTTTGTC
+TGGACCGGTGGCGACACGCATCTGTACAGCAACCATATGGATCAAACTCATCTGCAATTA
+AGCCGCGAACCGCGTCCGCTGCCGAAGTTGATTATCAAACGTAAACCCGAATCCATCTTC
+GACTACCGTTTCGAAGACTTTGAGATTGAAGGCTACGATCCGCATCCGGGCATTAAAGCG
+CCGGTGGCTATCTAA
+
+# Drug_Target_1_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_1_General_References:
+10944209	Erlanson DA, Braisted AC, Raphael DR, Randal M, Stroud RM, Gordon EM, Wells JA: Site-directed ligand discovery. Proc Natl Acad Sci U S A. 2000 Aug 15;97(17):9367-72.
+1518803	Kim CW, Michaels ML, Miller JH: Amino acid substitution analysis of E. coli thymidylate synthase: the study of a highly conserved region at the N-terminus. Proteins. 1992 Aug;13(4):352-63.
+2128651	Perry KM, Fauman EB, Finer-Moore JS, Montfort WR, Maley GF, Maley F, Stroud RM: Plastic adaptation toward mutations in proteins: structural comparison of thymidylate synthases. Proteins. 1990;8(4):315-33.
+2223754	Montfort WR, Perry KM, Fauman EB, Finer-Moore JS, Maley GF, Hardy L, Maley F, Stroud RM: Structure, multiple site binding, and segmental accommodation in thymidylate synthase on binding dUMP and an anti-folate. Biochemistry. 1990 Jul 31;29(30):6964-77.
+3520484	Finch PW, Wilson RE, Brown K, Hickson ID, Tomkinson AE, Emmerson PT: Complete nucleotide sequence of the Escherichia coli recC gene and of the thyA-recC intergenic region. Nucleic Acids Res. 1986 Jun 11;14(11):4437-51.
+6308660	Belfort M, Maley G, Pedersen-Lane J, Maley F: Primary structure of the Escherichia coli thyA gene and its thymidylate synthase product. Proc Natl Acad Sci U S A. 1983 Aug;80(16):4914-8.
+7708505	Voeller DM, Changchien LM, Maley GF, Maley F, Takechi T, Turner RE, Montfort WR, Allegra CJ, Chu E: Characterization of a specific interaction between Escherichia coli thymidylate synthase and Escherichia coli thymidylate synthase mRNA. Nucleic Acids Res. 1995 Mar 11;23(5):869-75.
+8312270	Fauman EB, Rutenber EE, Maley GF, Maley F, Stroud RM: Water-mediated substrate/product discrimination: the product complex of thymidylate synthase at 1.83 A. Biochemistry. 1994 Feb 15;33(6):1502-11.
+8973201	Sage CR, Rutenber EE, Stout TJ, Stroud RM: An essential role for water in an enzyme reaction mechanism: the crystal structure of the thymidylate synthase mutant E58Q. Biochemistry. 1996 Dec 17;35(50):16270-81.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+9416600	Strop P, Changchien L, Maley F, Montfort WR: Crystal structures of a marginally active thymidylate synthase mutant, Arg 126-->Glu. Protein Sci. 1997 Dec;6(12):2504-11.
+9826509	Reyes CL, Sage CR, Rutenber EE, Nissen RM, Finer-Moore JS, Stroud RM: Inactivity of N229A thymidylate synthase due to water-mediated effects: isolating a late stage in methyl transfer. J Mol Biol. 1998 Dec 4;284(3):699-712.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+2626
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+30480
+
+# Drug_Target_1_Name:
+Thymidylate synthase
+
+# Drug_Target_1_Number_of_Residues:
+264
+
+# Drug_Target_1_PDB_ID:
+2KCE
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00303	Thymidylat_synt
+
+# Drug_Target_1_Protein_Sequence:
+>Thymidylate synthase
+MKQYLELMQKVLDEGTQKNDRTGTGTLSIFGHQMRFNLQDGFPLVTTKRCHLRSIIHELL
+WFLQGDTNIAYLHENNVTIWDEWADENGDLGPVYGKQWRAWPTPDGRHIDQITTVLNQLK
+NDPDSRRIIVSAWNVGELDKMALAPCHAFFQFYVADGKLSCQLYQRSCDVFLGLPFNIAS
+YALLVHMMAQQCDLEVGDFVWTGGDTHLYSNHMDQTHLQLSREPRPLPKLIIKRKPESIF
+DYRFEDFEIEGYDPHPGIKAPVAI
+
+# Drug_Target_1_Reaction:
+5,10-methylenetetrahydrofolate + dUMP = dihydrofolate + dTMP
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Provides the sole de novo source of dTMP for DNA biosynthesis. This protein also binds to its mRNA thus repressing its own translation
+
+# Drug_Target_1_SwissProt_ID:
+P0A884
+
+# Drug_Target_1_SwissProt_Name:
+TYSY_ECOLI
+
+# Drug_Target_1_Synonyms:
+EC 2.1.1.45
+TS
+TSase
+
+# Drug_Target_1_Theoretical_pI:
+5.94
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasm (By similarity)
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_2_Essentiality:
+Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+X78411
+
+# Drug_Target_2_GenBank_ID_Protein:
+498709
+
+# Drug_Target_2_GeneCard_ID:
+ureC
+
+# Drug_Target_2_Gene_Name:
+ureC
+
+# Drug_Target_2_Gene_Sequence:
+>303 bp
+ATGCATTTAAATCCAGCAGAGAAAGAAAAATTACAAATTTTTCTAGCGAGCGAATTACTC
+TTAAGGCGTAAAGCAAGAGGTCTTAAGTTGAACTATCCGGAAGCAGTTGCGATCATCACA
+AGTTTCATTATGGAGGGTGCGCGTGACGGAAAGACGGTAGCGATGCTAATGGAAGAAGGA
+AAACACGTTCTTACGAGGGACGATGTTATGGAAGGTGTACCAGAAATGATTGATGATATT
+CAAGCAGAAGCTACTTTCCCGGATGGAACTAAACTCGTAACTGTTCACAATCCAATTTCT
+TAA
+
+# Drug_Target_2_General_Function:
+Amino acid transport and metabolism
+
+# Drug_Target_2_General_References:
+10368287	Benini S, Rypniewski WR, Wilson KS, Miletti S, Ciurli S, Mangani S: A new proposal for urease mechanism based on the crystal structures of the native and inhibited enzyme from Bacillus pasteurii: why urea hydrolysis costs two nickels. Structure. 1999 Feb 15;7(2):205-16.
+10766443	Benini S, Rypniewski WR, Wilson KS, Miletti S, Ciurli S, Mangani S: The complex of Bacillus pasteurii urease with acetohydroxamate anion from X-ray data at 1.55 A resolution. J Biol Inorg Chem. 2000 Feb;5(1):110-8.
+11713685	Benini S, Rypniewski WR, Wilson KS, Ciurli S, Mangani S: Structure-based rationalization of urease inhibition by phosphate: novel insights into the enzyme mechanism. J Biol Inorg Chem. 2001 Oct;6(8):778-90.
+15038715	Benini S, Rypniewski WR, Wilson KS, Mangani S, Ciurli S: Molecular details of urease inhibition by boric acid: insights into the catalytic mechanism. J Am Chem Soc. 2004 Mar 31;126(12):3714-5.
+9761912	Benini S, Ciurli S, Rypniewski WR, Wilson KS, Mangani S: Crystallization and preliminary high-resolution X-ray diffraction analysis of native and beta-mercaptoethanol-inhibited urease from Bacillus pasteurii. Acta Crystallogr D Biol Crystallogr. 1998 May 1;54(Pt 3):409-12.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+6511
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+61397.4
+
+# Drug_Target_2_Name:
+Urease subunit alpha
+
+# Drug_Target_2_Number_of_Residues:
+569
+
+# Drug_Target_2_PDB_ID:
+4UBP
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00449	Urease_alpha
+PF01979	Amidohydro_1
+
+# Drug_Target_2_Protein_Sequence:
+>Urease subunit alpha
+MKINRQQYAESYGPTVGDRVRLADTDLGEVEKDYYYLGDEVNFGGGKVLREGMGENGTYT
+RTENVLDLLLTNALILDYTGIYKADIGVKDGYIVGIGKGGNPDIMDGVTPNMIVGTATEV
+IAAEGKIVTAGGIDTHVHFINPDQVDVALANGITTLFGGGTGPAEGSKATTVTPGPWNIE
+KMLKSTEGLPINVGILGKGHGSSIAPIMEQIDAGAAGLKIHEDWGATPASIDRSLTVADE
+ADVQVAIHSDTLNEAGFLEDTVRAINGRVIHSFHVEGAGGGHAPDIMAMAGHPNVLPSST
+NPTRPFTVNTIDEHLDMLMVCHHLKQNIPEDVAFADSRIRPETIAAEDILHDLGIISMMS
+TDALAMGRAGEMVLRTWQTADKMKKQRGPLAEEKNGSDNFRLKRYVSKYTINPAIAQGMA
+HEVGSIEEGKFADLVLWEPKFFGVKADRVIKGGIIAYAQIGDPSASIPTPQPVMGRRMYG
+TVGDLIHDTNITFMSKSSIQQGVPAKLGLKRRIGTVKNCRNIGKKDMKWNDVTTDIDINP
+ETYEVKVDGEVLTCEPVKELPMAQRYFLF
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Urea + H(2)O = CO(2) + 2 NH(3)
+
+# Drug_Target_2_SwissProt_ID:
+P41020
+
+# Drug_Target_2_SwissProt_Name:
+URE1_BACPA
+
+# Drug_Target_2_Synonyms:
+Urea amidohydrolase subunit alpha
+
+# Drug_Target_2_Theoretical_pI:
+5.10
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cytoplasm (By similarity)
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_3_Essentiality:
+Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+X78411
+
+# Drug_Target_3_GenBank_ID_Protein:
+498709
+
+# Drug_Target_3_GeneCard_ID:
+ureB
+
+# Drug_Target_3_Gene_Name:
+ureB
+
+# Drug_Target_3_Gene_Sequence:
+>303 bp
+ATGCATTTAAATCCAGCAGAGAAAGAAAAATTACAAATTTTTCTAGCGAGCGAATTACTC
+TTAAGGCGTAAAGCAAGAGGTCTTAAGTTGAACTATCCGGAAGCAGTTGCGATCATCACA
+AGTTTCATTATGGAGGGTGCGCGTGACGGAAAGACGGTAGCGATGCTAATGGAAGAAGGA
+AAACACGTTCTTACGAGGGACGATGTTATGGAAGGTGTACCAGAAATGATTGATGATATT
+CAAGCAGAAGCTACTTTCCCGGATGGAACTAAACTCGTAACTGTTCACAATCCAATTTCT
+TAA
+
+# Drug_Target_3_General_Function:
+Amino acid transport and metabolism
+
+# Drug_Target_3_General_References:
+10368287	Benini S, Rypniewski WR, Wilson KS, Miletti S, Ciurli S, Mangani S: A new proposal for urease mechanism based on the crystal structures of the native and inhibited enzyme from Bacillus pasteurii: why urea hydrolysis costs two nickels. Structure. 1999 Feb 15;7(2):205-16.
+10766443	Benini S, Rypniewski WR, Wilson KS, Miletti S, Ciurli S, Mangani S: The complex of Bacillus pasteurii urease with acetohydroxamate anion from X-ray data at 1.55 A resolution. J Biol Inorg Chem. 2000 Feb;5(1):110-8.
+11713685	Benini S, Rypniewski WR, Wilson KS, Ciurli S, Mangani S: Structure-based rationalization of urease inhibition by phosphate: novel insights into the enzyme mechanism. J Biol Inorg Chem. 2001 Oct;6(8):778-90.
+15038715	Benini S, Rypniewski WR, Wilson KS, Mangani S, Ciurli S: Molecular details of urease inhibition by boric acid: insights into the catalytic mechanism. J Am Chem Soc. 2004 Mar 31;126(12):3714-5.
+8706719	Benini S, Ciurli S, Nolting HF, Mangani S: X-ray absorption spectroscopy study of native and phenylphosphorodiamidate-inhibited Bacillus pasteurii urease. Eur J Biochem. 1996 Jul 1;239(1):61-6.
+9761912	Benini S, Ciurli S, Rypniewski WR, Wilson KS, Mangani S: Crystallization and preliminary high-resolution X-ray diffraction analysis of native and beta-mercaptoethanol-inhibited urease from Bacillus pasteurii. Acta Crystallogr D Biol Crystallogr. 1998 May 1;54(Pt 3):409-12.
+
+# Drug_Target_3_HGNC_ID:
+Not Available
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+6512
+
+# Drug_Target_3_Locus:
+Not Available
+
+# Drug_Target_3_Molecular_Weight:
+13958.5
+
+# Drug_Target_3_Name:
+Urease subunit beta
+
+# Drug_Target_3_Number_of_Residues:
+126
+
+# Drug_Target_3_PDB_ID:
+4UBP
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00699	Urease_beta
+
+# Drug_Target_3_Protein_Sequence:
+>Urease subunit beta
+MSNNNYIVPGEYRVAEGEIEINAGREKTTIRVSNTGDRPIQVGSHIHFVEVNKELLFDRA
+EGIGRRLNIPSGTAARFEPGEEMEVELTELGGNREVFGISDLTNGSVDNKELILQRAKEL
+GYKGVE
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Urea + H(2)O = CO(2) + 2 NH(3)
+
+# Drug_Target_3_SwissProt_ID:
+P41021
+
+# Drug_Target_3_SwissProt_Name:
+URE2_BACPA
+
+# Drug_Target_3_Synonyms:
+Urea amidohydrolase subunit beta
+
+# Drug_Target_3_Theoretical_pI:
+4.61
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Cytoplasm (By similarity)
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_4_Essentiality:
+Essential
+
+# Drug_Target_4_GenAtlas_ID:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Gene:
+X78411
+
+# Drug_Target_4_GenBank_ID_Protein:
+498709
+
+# Drug_Target_4_GeneCard_ID:
+ureA
+
+# Drug_Target_4_Gene_Name:
+ureA
+
+# Drug_Target_4_Gene_Sequence:
+>303 bp
+ATGCATTTAAATCCAGCAGAGAAAGAAAAATTACAAATTTTTCTAGCGAGCGAATTACTC
+TTAAGGCGTAAAGCAAGAGGTCTTAAGTTGAACTATCCGGAAGCAGTTGCGATCATCACA
+AGTTTCATTATGGAGGGTGCGCGTGACGGAAAGACGGTAGCGATGCTAATGGAAGAAGGA
+AAACACGTTCTTACGAGGGACGATGTTATGGAAGGTGTACCAGAAATGATTGATGATATT
+CAAGCAGAAGCTACTTTCCCGGATGGAACTAAACTCGTAACTGTTCACAATCCAATTTCT
+TAA
+
+# Drug_Target_4_General_Function:
+Amino acid transport and metabolism
+
+# Drug_Target_4_General_References:
+10368287	Benini S, Rypniewski WR, Wilson KS, Miletti S, Ciurli S, Mangani S: A new proposal for urease mechanism based on the crystal structures of the native and inhibited enzyme from Bacillus pasteurii: why urea hydrolysis costs two nickels. Structure. 1999 Feb 15;7(2):205-16.
+10766443	Benini S, Rypniewski WR, Wilson KS, Miletti S, Ciurli S, Mangani S: The complex of Bacillus pasteurii urease with acetohydroxamate anion from X-ray data at 1.55 A resolution. J Biol Inorg Chem. 2000 Feb;5(1):110-8.
+11713685	Benini S, Rypniewski WR, Wilson KS, Ciurli S, Mangani S: Structure-based rationalization of urease inhibition by phosphate: novel insights into the enzyme mechanism. J Biol Inorg Chem. 2001 Oct;6(8):778-90.
+15038715	Benini S, Rypniewski WR, Wilson KS, Mangani S, Ciurli S: Molecular details of urease inhibition by boric acid: insights into the catalytic mechanism. J Am Chem Soc. 2004 Mar 31;126(12):3714-5.
+9761912	Benini S, Ciurli S, Rypniewski WR, Wilson KS, Mangani S: Crystallization and preliminary high-resolution X-ray diffraction analysis of native and beta-mercaptoethanol-inhibited urease from Bacillus pasteurii. Acta Crystallogr D Biol Crystallogr. 1998 May 1;54(Pt 3):409-12.
+
+# Drug_Target_4_HGNC_ID:
+Not Available
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+6513
+
+# Drug_Target_4_Locus:
+Not Available
+
+# Drug_Target_4_Molecular_Weight:
+11145.9
+
+# Drug_Target_4_Name:
+Urease subunit gamma
+
+# Drug_Target_4_Number_of_Residues:
+100
+
+# Drug_Target_4_PDB_ID:
+4UBP
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00547	Urease_gamma
+
+# Drug_Target_4_Protein_Sequence:
+>Urease subunit gamma
+MHLNPAEKEKLQIFLASELLLRRKARGLKLNYPEAVAIITSFIMEGARDGKTVAMLMEEG
+KHVLTRDDVMEGVPEMIDDIQAEATFPDGTKLVTVHNPIS
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+Urea + H(2)O = CO(2) + 2 NH(3)
+
+# Drug_Target_4_SwissProt_ID:
+P41022
+
+# Drug_Target_4_SwissProt_Name:
+URE3_BACPA
+
+# Drug_Target_4_Synonyms:
+Urea amidohydrolase subunit gamma
+
+# Drug_Target_4_Theoretical_pI:
+5.16
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+# Drug_Target_5_Cellular_Location:
+Cell inner membrane
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_5_Essentiality:
+Essential
+
+# Drug_Target_5_GenAtlas_ID:
+Not Available
+
+# Drug_Target_5_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_5_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_5_GeneCard_ID:
+Not Available
+
+# Drug_Target_5_Gene_Name:
+Not Available
+
+# Drug_Target_5_Gene_Sequence:
+Not Available
+
+# Drug_Target_5_General_Function:
+Involved in bacteriochlorophyll binding
+
+# Drug_Target_5_General_References:
+3376519	Bissig I, Brunisholz RA, Suter F, Cogdell RJ, Zuber H: The complete amino acid sequences of the B800-850 antenna polypeptides from Rhodopseudomonas acidophila strain 7750. Z Naturforsch C. 1988 Jan-Feb;43(1-2):77-83.
+8740367	Freer A, Prince S, Sauer K, Papiz M, Hawthornthwaite-Lawless A, McDermott G, Cogdell R, Isaacs NW: Pigment-pigment interactions and energy transfer in the antenna complex of the photosynthetic bacterium Rhodopseudomonas acidophila. Structure. 1996 Apr 15;4(4):449-62.
+9159480	Prince SM, Papiz MZ, Freer AA, McDermott G, Hawthornthwaite-Lawless AM, Cogdell RJ, Isaacs NW: Apoprotein structure in the LH2 complex from Rhodopseudomonas acidophila strain 10050: modular assembly and protein pigment interactions. J Mol Biol. 1997 May 2;268(2):412-23.
+
+# Drug_Target_5_HGNC_ID:
+Not Available
+
+# Drug_Target_5_HPRD_ID:
+Not Available
+
+# Drug_Target_5_ID:
+6427
+
+# Drug_Target_5_Locus:
+Not Available
+
+# Drug_Target_5_Molecular_Weight:
+5653.7
+
+# Drug_Target_5_Name:
+Light-harvesting protein B-800/850 alpha chain
+
+# Drug_Target_5_Number_of_Residues:
+53
+
+# Drug_Target_5_PDB_ID:
+1NKZ
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00556	LHC
+
+# Drug_Target_5_Protein_Sequence:
+>Light-harvesting protein B-800/850 alpha chain
+MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHTTWFPAYWQGGVKKAA
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+None
+
+# Drug_Target_5_Specific_Function:
+Antenna complexes are light-harvesting systems, which transfer the excitation energy to the reaction centers
+
+# Drug_Target_5_SwissProt_ID:
+P26789
+
+# Drug_Target_5_SwissProt_Name:
+LHA4_RHOAC
+
+# Drug_Target_5_Synonyms:
+Antenna pigment protein alpha chain
+
+# Drug_Target_5_Theoretical_pI:
+10.64
+
+# Drug_Target_5_Transmembrane_Regions:
+14-34
+
+# Drug_Target_6_Cellular_Location:
+Cell inner membrane
+
+# Drug_Target_6_Chromosome_Location:
+Not Available
+
+# Drug_Target_6_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_6_Essentiality:
+Essential
+
+# Drug_Target_6_GenAtlas_ID:
+Not Available
+
+# Drug_Target_6_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_6_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_6_GeneCard_ID:
+Not Available
+
+# Drug_Target_6_Gene_Name:
+Not Available
+
+# Drug_Target_6_Gene_Sequence:
+Not Available
+
+# Drug_Target_6_General_Function:
+Involved in bacteriochlorophyll binding
+
+# Drug_Target_6_General_References:
+3376519	Bissig I, Brunisholz RA, Suter F, Cogdell RJ, Zuber H: The complete amino acid sequences of the B800-850 antenna polypeptides from Rhodopseudomonas acidophila strain 7750. Z Naturforsch C. 1988 Jan-Feb;43(1-2):77-83.
+9159480	Prince SM, Papiz MZ, Freer AA, McDermott G, Hawthornthwaite-Lawless AM, Cogdell RJ, Isaacs NW: Apoprotein structure in the LH2 complex from Rhodopseudomonas acidophila strain 10050: modular assembly and protein pigment interactions. J Mol Biol. 1997 May 2;268(2):412-23.
+
+# Drug_Target_6_HGNC_ID:
+Not Available
+
+# Drug_Target_6_HPRD_ID:
+Not Available
+
+# Drug_Target_6_ID:
+6428
+
+# Drug_Target_6_Locus:
+Not Available
+
+# Drug_Target_6_Molecular_Weight:
+4554.2
+
+# Drug_Target_6_Name:
+Light-harvesting protein B-800/850 beta chain
+
+# Drug_Target_6_Number_of_Residues:
+41
+
+# Drug_Target_6_PDB_ID:
+1NKZ
+
+# Drug_Target_6_Pathway:
+Not Available
+
+# Drug_Target_6_Pfam_Domain_Function:
+PF00556	LHC
+
+# Drug_Target_6_Protein_Sequence:
+>Light-harvesting protein B-800/850 beta chain
+ATLTAEQSEELHKYVIDGTRVFLGLALVAHFLAFSATPWLH
+
+# Drug_Target_6_Reaction:
+Not Available
+
+# Drug_Target_6_Signals:
+None
+
+# Drug_Target_6_Specific_Function:
+Antenna complexes are light-harvesting systems, which transfer the excitation energy to the reaction centers
+
+# Drug_Target_6_SwissProt_ID:
+P26790
+
+# Drug_Target_6_SwissProt_Name:
+LHB5_RHOAC
+
+# Drug_Target_6_Synonyms:
+Antenna pigment protein beta chain
+
+# Drug_Target_6_Theoretical_pI:
+6.22
+
+# Drug_Target_6_Transmembrane_Regions:
+15-36
+
+# Drug_Target_7_Cellular_Location:
+Not Available
+
+# Drug_Target_7_Chromosome_Location:
+Not Available
+
+# Drug_Target_7_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_7_Essentiality:
+Essential
+
+# Drug_Target_7_GenAtlas_ID:
+Not Available
+
+# Drug_Target_7_GenBank_ID_Gene:
+AP008226
+
+# Drug_Target_7_GenBank_ID_Protein:
+55771383
+
+# Drug_Target_7_GeneCard_ID:
+Not Available
+
+# Drug_Target_7_Gene_Name:
+TTHA1387
+
+# Drug_Target_7_Gene_Sequence:
+>1128 bp
+ATGAACATAACGGTTCCCAAAAAACTCCTCTCGGACCAGCTTTCCCTCCTGGAGCGCATC
+GTCCCCTCTAGAAGCGCCAACCCCCTCTACACCTACCTGGGGCTTTACGCCGAGGAAGGG
+GCCTTGATCCTCTTCGGGACCAACGGGGAGGTGGACCTCGAGGTCCGCCTCCCCGCCGAG
+GCCCAAAGCCTTCCCCGGGTGCTCGTCCCCGCCCAGCCCTTCTTCCAGCTGGTGCGGAGC
+CTTCCTGGGGACCTCGTGGCCCTCGGCCTCGCCTCGGAGCCGGGCCAGGGGGGGCAGCTG
+GAGCTCTCCTCCGGGCGCTTCCGCACCCGGCTCAGCCTGGCCCCTGCCGAGGGCTACCCC
+GAGCTTCTGGTGCCCGAGGGGGAGGACAAGGGGGCCTTCCCCCTCCGGACGCGGATGCCC
+TCCGGGGAGCTCGTCAAGGCCTTGACCCACGTGCGCTACGCCGCGAGCAACGAGGAGTAC
+CGGGCCATCTTCCGCGGGGTGCAGCTGGAGTTCTCCCCCCAGGGCTTCCGGGCGGTGGCC
+TCCGACGGGTACCGCCTCGCCCTCTACGACCTGCCCCTGCCCCAAGGGTTCCAGGCCAAG
+GCCGTGGTCCCCGCCCGGAGCGTGGACGAGATGGTGCGGGTCCTGAAGGGGGCGGACGGG
+GCCGAGGCCGACCTCGCCCTGGGCGAGGGGGTGTTGGCCCTGGCCCTCGAGGGCGGAAGC
+GGGGTCCGGATGGCCCTCCGCCTCATGGAAGGGGAGTTCCCCGACTACCAGAGGGTCATC
+CCCCAGGAGTTCGCCCTCAAGGTCCAGGTGGAGGGGGAGGCCCTCAGGGAGGCGGTGCGC
+CGGGTGAGCGTCCTCTCCGACCGGCAGAACCACCGGGTGGACCTCCTTTTGGAGGAAGGC
+CGGATCCTCCTCTCCGCCGAGGGGGACTACGGCAAGGGGCAGGAGGAGGTGCCCGCCCAG
+GTGGAGGGGCCGGGCATGGCCGTGGCCTACAACGCCCGCTACCTCCTCGAGGCCCTCGCC
+CCCGTGGGGGACCGGGCCCACCTGGGCATCTCCGGGCCCACGAGCCCGAGCCTCATCTGG
+GGGGACGGGGAGGGGTACCGGGCGGTGGTGGTGCCCCTCAGGGTCTAG
+
+# Drug_Target_7_General_Function:
+Translation, ribosomal structure and biogenesis
+
+# Drug_Target_7_General_References:
+Not Available
+
+# Drug_Target_7_HGNC_ID:
+Not Available
+
+# Drug_Target_7_HPRD_ID:
+Not Available
+
+# Drug_Target_7_ID:
+6514
+
+# Drug_Target_7_Locus:
+Not Available
+
+# Drug_Target_7_Molecular_Weight:
+49739.1
+
+# Drug_Target_7_Name:
+Probable rRNA methylase
+
+# Drug_Target_7_Number_of_Residues:
+456
+
+# Drug_Target_7_PDB_ID:
+Not Available
+
+# Drug_Target_7_Pathway:
+Not Available
+
+# Drug_Target_7_Pfam_Domain_Function:
+PF01189	Nol1_Nop2_Fmu
+
+# Drug_Target_7_Protein_Sequence:
+>Probable rRNA methylase
+MLPKAFLSRMAELLGEEFPAFLKALTEGKRTYGLRVNTLKLPPEAFQRISPWPLRPIPWC
+QEGFYYPEEARPGPHPFFYAGLYYIQEPSAQAVGVLLDPKPGERVLDLAAAPGGKTTHLA
+ARMGGKGLLLANEVDGKRVRGLLENVERWGAPLAVTQAPPRALAEAFGTYFHRVLLDAPC
+SGEGMFRKDREAARHWGPSAPKRMAEVQKALLAQASRLLGPGGVLVYSTCTFAPEENEGV
+VAHFLKAHPEFRLEDARLHPLFAPGVPEWGEGNPELLKTARLWPHRLEGEGHFLARFRKE
+GGAWSTPRLERPSPLSQEALRAFRGFLEEAGLTLEGPVLDRAGHLYLLPEGLPTLLGLKA
+PAPGLYLGKVQKGRFLPARALALAFGATLPWPEGLPRLALTPEDPRALAFATGEGVAWEG
+EDHPLALVVLKTAAGEFPLDFGKAKRGVLRPVGVGL
+
+# Drug_Target_7_Reaction:
+Not Available
+
+# Drug_Target_7_Signals:
+None
+
+# Drug_Target_7_Specific_Function:
+Not Available
+
+# Drug_Target_7_SwissProt_ID:
+Q5SII2
+
+# Drug_Target_7_SwissProt_Name:
+Q5SII2_THET8
+
+# Drug_Target_7_Synonyms:
+Not Available
+
+# Drug_Target_7_Theoretical_pI:
+9.22
+
+# Drug_Target_7_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB02899

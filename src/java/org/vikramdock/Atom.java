@@ -11,18 +11,18 @@ import java.lang.*;
 import java.lang.reflect.*;
 
 public class Atom {
-	double xcoord;
-	double ycoord;
-	double zcoord;
-	char element;
-	int resnum;
-	int atomnum;
-	int atomtype = -1;
-	char chainnum;
-	boolean spherical;
-	ArrayList<Bond> bonded = new ArrayList<Bond>();
-	String eType;
-	String AA;
+	private double xcoord;
+	private double ycoord;
+	private double zcoord;
+	private char element;
+	private int resnum;
+	private int atomnum;
+	private int atomtype = -1;
+	private char chainnum;
+	private boolean spherical;
+	private ArrayList<Bond> bonded = new ArrayList<Bond>();
+	private String eType;
+	private String AA;
 	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, String AA) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
@@ -35,7 +35,7 @@ public class Atom {
 		this.eType = eType;
 		this.AA = AA;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList bonded, String AA) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList<Bond> bonded, String AA) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -60,7 +60,7 @@ public class Atom {
 		this.eType = eType;
 		this.AA = AA;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType, ArrayList bonded, String AA) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, boolean spherical, String eType, ArrayList<Bond> bonded, String AA) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -73,7 +73,7 @@ public class Atom {
 		this.eType = eType;
 		this.AA = AA;
 	}
-	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList bonded, String AA, int atomtype) {
+	public Atom(double xcoord, double ycoord, double zcoord, char element, int resnum, int atomnum, char chainnum, String eType, ArrayList<Bond> bonded, String AA, int atomtype) {
 		this.xcoord = xcoord;
 		this.ycoord = ycoord;
 		this.zcoord = zcoord;
@@ -138,7 +138,7 @@ public class Atom {
 	public boolean getSpherical() {
 		return spherical;
 	}
-	public ArrayList getBonded() {
+	public ArrayList<Bond> getBonded() {
 		return bonded;
 	}
 	public String getEtype() {
@@ -382,5 +382,8 @@ public class Atom {
 	}
 	public double round(double number, double roundTo) {
 		return (double)(Math.round(number/roundTo)*roundTo);
+	}
+	public boolean same(Atom other) {
+		return distance(other) == 0 && element == other.getElement() && resnum == other.getResnum() && atomnum == other.getAtomnum();
 	}
 }

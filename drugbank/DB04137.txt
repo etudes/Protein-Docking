@@ -1,0 +1,3157 @@
+#BEGIN_DRUGCARD DB04137
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+86-01-1
+
+# ChEBI_ID:
+15996
+
+# Chemical_Formula:
+C10H16N5O14P3
+
+# Chemical_IUPAC_Name:
+({[({[(2S,3R,4R,5R)-5-(2-amino-6-oxo-6,9-dihydro-1H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Guanosine 5&#39;-(tetrahydrogen triphosphate). A guanine nucleotide containing three phosphate groups esterified to the sugar moiety. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Guanosine-5'-Triphosphate
+
+# HET_ID:
+GTP
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C10H16N5O14P3/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(27-9)1-26-31(22,23)29-32(24,25)28-30(19,20)21/h2-3,5-6,9,16-17H,1H2,(H,22,23)(H,24,25)(H2,19,20,21)(H3,11,13,14,18)/t3-,5-,6+,9+/m0/s1
+
+# InChI_Key:
+InChIKey=XKMLYUALXHKNFT-BZKDHIKHSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+C00044
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+4137
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+523.1804
+
+# Molecular_Weight_Mono:
+522.990659781
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1XTS
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-0.63
+
+# Predicted_LogS:
+-1.7
+
+# Predicted_Water_Solubility:
+1.04e+01 g/l
+
+# Primary_Accession_No:
+DB04137
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+6335984
+
+# PubChem_Substance_ID:
+46507835
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT01660
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=NC2=C(N=CN2[C@@H]2O[C@@H](CO[P@](O)(=O)O[P@@](O)(=O)OP(O)(O)=O)[C@H](O)[C@H]2O)C(=O)N1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:22:59 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_10_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_10_Chromosome_Location:
+Not Available
+
+# Drug_Target_10_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_10_Essentiality:
+Non-Essential
+
+# Drug_Target_10_GenAtlas_ID:
+Not Available
+
+# Drug_Target_10_GenBank_ID_Gene:
+AE005674
+
+# Drug_Target_10_GenBank_ID_Protein:
+24052588
+
+# Drug_Target_10_GeneCard_ID:
+Not Available
+
+# Drug_Target_10_Gene_Name:
+folE
+
+# Drug_Target_10_Gene_Sequence:
+>669 bp
+TCAGTTGTGATGGCGCACAGCGCGCAGAAACTCGTGGCGCGTATTCTGACTGGATTTGAA
+CAATCCACCAAGAGAGGTCGTTGTCGTGGCACTGGTTGCATCGCGGATGCCACGCGCCTT
+CACGCAGTAATGCACCGCGTCGATCGAGACAGCCACGTTATTGGTGCCCAGCAGCGTTTG
+TAGCGCAATAAGAATTTGCTGCGTCAGACGTTCCTGCACCTGCGGACGCTGGGCAAAGAA
+CTGCACGATACGGTTAATTTTTGACAGACCGATCACCGAATCTTTCGGGATATAAGCCAC
+CGTCGCTTTGCCATCGATGGTAACAAAATGGTGTTCACAGGTACTGGTCAGAGTGATATC
+GCGCACGGTGACCATTTCATCGACCTTCATTTTGTTTTCAATGAGGGTGATTTTCGGGAA
+ATTGGCGTAATCCAGACCGGAGAAAATTTCATCGACATACATTTTAGCGATGCGATGCGG
+CGTTTCCATCAAACTGTCATCAGCCAGGTCGAGATTCAGCAGCTGCATGATTTCGGTCAT
+ATGACCAGCAATAAGGCTTTTGCGCGTTTCGTTATCCATTTCATGCACGGGCGGGCGCAG
+CGGTGTTTCCAGTCCTCTCGCAACTAACGCTTCATGAACCAGGGCCGCTTCTTTACTGAG
+TGATGGCAT
+
+# Drug_Target_10_General_Function:
+Coenzyme transport and metabolism
+
+# Drug_Target_10_General_References:
+12384590	Jin Q, Yuan Z, Xu J, Wang Y, Shen Y, Lu W, Wang J, Liu H, Yang J, Yang F, Zhang X, Zhang J, Yang G, Wu H, Qu D, Dong J, Sun L, Xue Y, Zhao A, Gao Y, Zhu J, Kan B, Ding K, Chen S, Cheng H, Yao Z, He B, Chen R, Ma D, Qiang B, Wen Y, Hou Y, Yu J: Genome sequence of Shigella flexneri 2a: insights into pathogenicity through comparison with genomes of Escherichia coli K12 and O157. Nucleic Acids Res. 2002 Oct 15;30(20):4432-41.
+12704152	Wei J, Goldberg MB, Burland V, Venkatesan MM, Deng W, Fournier G, Mayhew GF, Plunkett G 3rd, Rose DJ, Darling A, Mau B, Perna NT, Payne SM, Runyen-Janecky LJ, Zhou S, Schwartz DC, Blattner FR: Complete genome sequence and comparative genomics of Shigella flexneri serotype 2a strain 2457T. Infect Immun. 2003 May;71(5):2775-86.
+
+# Drug_Target_10_HGNC_ID:
+Not Available
+
+# Drug_Target_10_HPRD_ID:
+Not Available
+
+# Drug_Target_10_ID:
+3302
+
+# Drug_Target_10_Locus:
+Not Available
+
+# Drug_Target_10_Molecular_Weight:
+24831
+
+# Drug_Target_10_Name:
+GTP cyclohydrolase I
+
+# Drug_Target_10_Number_of_Residues:
+222
+
+# Drug_Target_10_PDB_ID:
+1GTP
+
+# Drug_Target_10_Pathway:
+Not Available
+
+# Drug_Target_10_Pfam_Domain_Function:
+PF01227	GTP_cyclohydroI
+
+# Drug_Target_10_Protein_Sequence:
+>GTP cyclohydrolase I
+MPSLSKEAALVHEALVARGLETPLRPPVHEMDNETRKSLIAGHMTEIMQLLNLDLADDSL
+METPHRIAKMYVDEIFSGLDYANFPKITLIENKMKVDEMVTVRDITLTSTCEHHFVTIDG
+KATVAYIPKDSVIGLSKINRIVQFFAQRPQVQERLTQQILIALQTLLGTNNVAVSIDAVH
+YCVKARGIRDATSATTTTSLGGLFKSSQNTRHEFLRAVRHHN
+
+# Drug_Target_10_Reaction:
+GTP + H2O = formate + 2-amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate
+
+# Drug_Target_10_Signals:
+None
+
+# Drug_Target_10_Specific_Function:
+GTP + H(2)O = formate + 2-amino-4-hydroxy-6- (erythro-1,2,3-trihydroxypropyl)-dihydropteridine triphosphate
+
+# Drug_Target_10_SwissProt_ID:
+P0A6T8
+
+# Drug_Target_10_SwissProt_Name:
+GCH1_SHIFL
+
+# Drug_Target_10_Synonyms:
+EC 3.5.4.16
+GTP-CH-I
+
+# Drug_Target_10_Theoretical_pI:
+7.37
+
+# Drug_Target_10_Transmembrane_Regions:
+None
+
+# Drug_Target_11_Cellular_Location:
+Not Available
+
+# Drug_Target_11_Chromosome_Location:
+Not Available
+
+# Drug_Target_11_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_11_Essentiality:
+Non-Essential
+
+# Drug_Target_11_GenAtlas_ID:
+PFKFB1
+
+# Drug_Target_11_GenBank_ID_Gene:
+X52638
+
+# Drug_Target_11_GenBank_ID_Protein:
+35503
+
+# Drug_Target_11_GeneCard_ID:
+PFKFB1
+
+# Drug_Target_11_Gene_Name:
+PFKFB1
+
+# Drug_Target_11_Gene_Sequence:
+>1416 bp
+ATGTCTCCAGAGATGGGAGAGCTCACCCAAACCAGGTTGCAGAAGATCTGGATTCCACAC
+AGCAGCGGCAGCAGCAGGCTGCAACGGAGAAGGGGCTCATCCATACCCCAGTTTACCAAT
+TCCCCCACAATGGTGATCATGGTGGGTTTACCAGCTCGAGGCAAGACCTATATCTCCACA
+AAGCTCACACGATATCTCAACTGGATAGGAACACCAACTAAAGTGTTTAATTTAGGCCAG
+TATCGACGAGAGGCAGTGAGCTACAAGAACTATGAATTCTTTCTTCCAGACAACATGGAA
+GCCCTGCAAATCAGGAAGCAGTGCGCCCTGGCAGCCCTGAAGGATGTTCACAACTATCTC
+AGCCATGAGGAAGGTCATGTTGCGGTTTTTGATGCCACCAACACTACCAGAGAACGACGG
+TCACTGATCCTGCAGTTTGCAAAAGAACATGGTTACAAGGTGTTTTTCATTGAGTCCATT
+TGTAATGACCCTGGCATAATTGCAGAAAACATCAGGCAAGTGAAACTTGGCAGCCCTGAT
+TATATAGACTGTGACCGGGAAAAGGTTCTGGAAGACTTTCTAAAGAGAATTGAGTGCTAT
+GAGGTCAACTACCAACCCTTGGATGAGGAACTGGACAGCCACCTGTCCTACATCAAGATC
+TTCGACGTGGGCACACGCTACATGGTGAACCGAGTGCAGGATCACATCCAGAGCCGCACA
+GTCTACTACCTCATGAATATCCATGTCACACCTCGCTCCATCTACCTTTGCCGACATGGC
+GAGAGTGAACTCAACATCAGAGGCCGCATCGGAGGTGACTCTGGCCTCTCAGTTCGCGGC
+AAGCAGTATGCCTATGCCCTGGCCAACTTCATTCAGTCCCAGGGCATCAGCTCCCTGAAG
+GTGTGGACCAGTCGCATGAAGAGGACCATCCAGACAGCTGAGGCCCTGGGTGTCCCCTAT
+GAGCAGTGGAAGGCCCTGAATGAGATTGATGCGGGTGTCTGTGAGGAGATGACCTATGAA
+GAAATCCAGGAACATTACCCTGAAGAATTTGCACTGCGAGACCAAGATAAATATCGCTAC
+CGCTATCCCAAGGGAGAGTCCTATGAGGATCTGGTTCAGCGTCTGGAGCCAGTGATAATG
+GAGCTAGAACGACAGGAGAATGTACTGGTGATCTGCCACCAGGCTGTCATGCGGTGCCTC
+CTGGCCTATTTCCTGGATAAAAGTTCAGATGAGCTTCCATATCTCAAGTGCCCTCTGCAC
+ACAGTGCTCAAACTCACTCCTGTGGCTTATGGCTGCAAAGTGGAATCCATCTACCTGAAT
+GTGGAGGCCGTGAACACACACCGGGAGAAGCCTGAGAATGTGGACATCACCCGGGAACCT
+GAGGAAGCCCTGGATACTGTCCCAGCCCACTACTGA
+
+# Drug_Target_11_General_Function:
+Carbohydrate transport and metabolism
+
+# Drug_Target_11_General_References:
+2163524	Lange AJ, Pilkis SJ: Sequence of human liver 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase. Nucleic Acids Res. 1990 Jun 25;18(12):3652.
+2837207	Algaier J, Uyeda K: Molecular cloning, sequence analysis, and expression of a human liver cDNA coding for fructose-6-P,2-kinase:fructose-2,6-bisphosphatase. Biochem Biophys Res Commun. 1988 May 31;153(1):328-33.
+
+# Drug_Target_11_HGNC_ID:
+HGNC:8872
+
+# Drug_Target_11_HPRD_ID:
+02411
+
+# Drug_Target_11_ID:
+1750
+
+# Drug_Target_11_Locus:
+Xp11.21
+
+# Drug_Target_11_Molecular_Weight:
+54682
+
+# Drug_Target_11_Name:
+6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 1
+
+# Drug_Target_11_Number_of_Residues:
+471
+
+# Drug_Target_11_PDB_ID:
+1K6M
+
+# Drug_Target_11_Pathway:
+Not Available
+
+# Drug_Target_11_Pfam_Domain_Function:
+PF00300	PGAM
+PF01591	6PF2K
+
+# Drug_Target_11_Protein_Sequence:
+>6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 1
+MSPEMGELTQTRLQKIWIPHSSGSSRLQRRRGSSIPQFTNSPTMVIMVGLPARGKTYIST
+KLTRYLNWIGTPTKVFNLGQYRREAVSYKNYEFFLPDNMEALQIRKQCALAALKDVHNYL
+SHEEGHVAVFDATNTTRERRSLILQFAKEHGYKVFFIESICNDPGIIAENIRQVKLGSPD
+YIDCDREKVLEDFLKRIECYEVNYQPLDEELDSHLSYIKIFDVGTRYMVNRVQDHIQSRT
+VYYLMNIHVTPRSIYLCRHGESELNIRGRIGGDSGLSVRGKQYAYALANFIQSQGISSLK
+VWTSHMKRTIQTAEALGVPYEQWKALNEIDAGVCEEMTYEEIQEHYPEEFALRDQDKYRY
+RYPKGESYEDLVQRLEPVIMELERQENVLVICHQAVMRCLLAYFLDKSSDELPYLKCPLH
+TVLKLTPVAYGCKVESIYLNVEAVNTHREKPENVDITREPEEALDTVPAHY
+
+# Drug_Target_11_Reaction:
+ATP + beta-D-fructose 6-phosphate = ADP + beta-D-fructose 2,6-bisphosphate
+
+# Drug_Target_11_Signals:
+None
+
+# Drug_Target_11_Specific_Function:
+Synthesis and degradation of fructose 2,6-bisphosphate
+
+# Drug_Target_11_SwissProt_ID:
+P16118
+
+# Drug_Target_11_SwissProt_Name:
+F261_HUMAN
+
+# Drug_Target_11_Synonyms:
+6PF-2-K/Fru- 2,6-P2ASE liver isozyme
+
+# Drug_Target_11_Theoretical_pI:
+6.56
+
+# Drug_Target_11_Transmembrane_Regions:
+None
+
+# Drug_Target_12_Cellular_Location:
+Not Available
+
+# Drug_Target_12_Chromosome_Location:
+Not Available
+
+# Drug_Target_12_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_12_Essentiality:
+Non-Essential
+
+# Drug_Target_12_GenAtlas_ID:
+Not Available
+
+# Drug_Target_12_GenBank_ID_Gene:
+U42580
+
+# Drug_Target_12_GenBank_ID_Protein:
+1131446
+
+# Drug_Target_12_GeneCard_ID:
+Not Available
+
+# Drug_Target_12_Gene_Name:
+A103R
+
+# Drug_Target_12_Gene_Sequence:
+>993 bp
+ATGGTTCCTCCCACAATCAACACCGGCAAAAATATCACTACCGAACGCGCCGTCTTGACG
+CTCAACGGTCTGCAAATAAAGCTGCATAAGGTTGTCGGAGAATCTCGCGATGATATCGTT
+GCCAAGATGAAAGATCTCGCTATGGACGACCATAAGTTCCCCAGGCTGCCGGGTCCCAAC
+CCGGTTAGCATTGAGCGAAAGGACTTTGAAAAATTGAAGCAGAATAAATACGTCGTATCG
+GAAAAGACGGATGGTATTCGGTTCATGATGTTTTTCACTCGGGTTTTCGGGTTCAAGGTG
+TGTACTATTATTGACCGCGCGATGACTGTATACCTTCTTCCTTTCAAGAACATTCCCCGA
+GTTCTATTTCAAGGTTCTATTTTCGATGGAGAGTTGTGCGTTGACATCGTCGAAAAGAAA
+TTTGCGTTTGTTCTATTTGACGCCGTCGTGGTGAGTGGTGTTACCGTGAGTCAGATGGAT
+CTTGCAAGTCGCTTCTTTGCGATGAAGAGGTCTCTTAAAGAGTTCAAGAATGTTCCCGAG
+GATCCCGCCATTCTTCGATACAAAGAATGGATTCCACTCGAGCATCCAACTATCATCAAG
+GACCATCTCAAAAAGGCCAATGCTATTTATCATACCGACGGTCTTATCATAATGAGCGTT
+GACGAACCTGTTATTTATGGACGGAATTTCAATTTGTTCAAGCTGAAGCCCGGGACCCAC
+CATACTATTGACTTCATTATCATGAGCGAAGATGGGACAATCGGCATCTTCGATCCTAAT
+TTGAGGAAGAATGTTCCCGTCGGAAAACTTGATGGTTATTACAATAAGGGTTCTATCGTA
+GAATGTGGATTCGCTGATGGAACGTGGAAATATATTCAGGGGCGTTCTGACAAAAACCAA
+GCAAATGATCGTTTGACATACGAAAAGACACTACTGAACATCGAGGAAAACATTACGATT
+GACGAATTGCTTGATTTGTTCAAATGGGAGTGA
+
+# Drug_Target_12_General_Function:
+Involved in mRNA guanylyltransferase activity
+
+# Drug_Target_12_General_References:
+7676624	Li Y, Lu Z, Burbank DE, Kutish GF, Rock DL, Van Etten JL: Analysis of 43 kb of the Chlorella virus PBCV-1 330-kb genome: map positions 45 to 88. Virology. 1995 Sep 10;212(1):134-50.
+9160746	Hakansson K, Doherty AJ, Shuman S, Wigley DB: X-ray crystallography reveals a large conformational change during guanyl transfer by mRNA capping enzymes. Cell. 1997 May 16;89(4):545-53.
+9465045	Hakansson K, Wigley DB: Structure of a complex between a cap analogue and mRNA guanylyl transferase demonstrates the structural chemistry of RNA capping. Proc Natl Acad Sci U S A. 1998 Feb 17;95(4):1505-10.
+
+# Drug_Target_12_HGNC_ID:
+Not Available
+
+# Drug_Target_12_HPRD_ID:
+Not Available
+
+# Drug_Target_12_ID:
+3311
+
+# Drug_Target_12_Locus:
+Not Available
+
+# Drug_Target_12_Molecular_Weight:
+37833
+
+# Drug_Target_12_Name:
+mRNA-capping enzyme
+
+# Drug_Target_12_Number_of_Residues:
+330
+
+# Drug_Target_12_PDB_ID:
+1CKO
+
+# Drug_Target_12_Pathway:
+Not Available
+
+# Drug_Target_12_Pfam_Domain_Function:
+PF01331	mRNA_cap_enzyme
+PF03919	mRNA_cap_C
+
+# Drug_Target_12_Protein_Sequence:
+>mRNA-capping enzyme
+MVPPTINTGKNITTERAVLTLNGLQIKLHKVVGESRDDIVAKMKDLAMDDHKFPRLPGPN
+PVSIERKDFEKLKQNKYVVSEKTDGIRFMMFFTRVFGFKVCTIIDRAMTVYLLPFKNIPR
+VLFQGSIFDGELCVDIVEKKFAFVLFDAVVVSGVTVSQMDLASRFFAMKRSLKEFKNVPE
+DPAILRYKEWIPLEHPTIIKDHLKKANAIYHTDGLIIMSVDEPVIYGRNFNLFKLKPGTH
+HTIDFIIMSEDGTIGIFDPNLRKNVPVGKLDGYYNKGSIVECGFADGTWKYIQGRSDKNQ
+ANDRLTYEKTLLNIEENITIDELLDLFKWE
+
+# Drug_Target_12_Reaction:
+GTP + (5')ppPur-mRNA = diphosphate + G(5')pppPur-mRNA
+
+# Drug_Target_12_Signals:
+None
+
+# Drug_Target_12_Specific_Function:
+mRNA capping. Transfers a GMP cap onto the end of mRNA that terminates with a 5'-diphosphate tail
+
+# Drug_Target_12_SwissProt_ID:
+Q84424
+
+# Drug_Target_12_SwissProt_Name:
+MCE_PBCV1
+
+# Drug_Target_12_Synonyms:
+EC 2.7.7.50
+GTP--RNA guanylyltransferase
+mRNA guanylyltransferase
+
+# Drug_Target_12_Theoretical_pI:
+8.42
+
+# Drug_Target_12_Transmembrane_Regions:
+None
+
+# Drug_Target_13_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_13_Chromosome_Location:
+Not Available
+
+# Drug_Target_13_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_13_Essentiality:
+Non-Essential
+
+# Drug_Target_13_GenAtlas_ID:
+Not Available
+
+# Drug_Target_13_GenBank_ID_Gene:
+V01149
+
+# Drug_Target_13_GenBank_ID_Protein:
+61253
+
+# Drug_Target_13_GeneCard_ID:
+Not Available
+
+# Drug_Target_13_Gene_Name:
+Not Available
+
+# Drug_Target_13_Gene_Sequence:
+>6630 bp
+ATGGGTGCTCAGGTTTCATCACAGAAAGTGGGCGCACATGAAAACTCAAATAGAGCGTAT
+GGTGGTTCTACCATTAATTACACCACCATTAATTATTATAGAGATTCAGCTAGTAACGCG
+GCTTCGAAACAGGACTTCTCTCAAGACCCTTCCAAGTTCACCGAGCCCATCAAGGATGTC
+CTGATAAAAACAGCCCCAATGCTAAACTCGCCAAACATAGAGGCTTGCGGGTATAGCGAT
+AGAGTACTGCAATTAACACTGGGAAACTCCACTATAACCACACAGGAGGCGGCTAATTCA
+GTAGTCGCTTATGGGCGTTGGCCTGAATATCTGAGGGACAGCGAAGCCAATCCAGTGGAC
+CAGCCGACAGAACCAGACGTCGCTGCATGCAGGTTTTATACGCTAGACACCGTGTCTTGG
+ACGAAAGAGTCGCGAGGGTGGTGGTGGAAGTTGCCTGATGCACTGAGGGACATGGGACTC
+TTTGGGCAAAATATGTACTACCACTACCTAGGTAGGTCCGGGTACACCGTGCATGTACAG
+TGTAACGCCTCCAAATTCCACCAGGGGGCACTAGGGGTATTCGCCGTACCAGAGATGTGT
+CTGGCCGGGGATAGCAACACCACTACCATGCACACCAGCTATCAAAATGCCAATCCTGGC
+GAGAAAGGAGGCACTTTCACGGGTACGTTCACTCCTGACAACAACCAGACATCACCTGCC
+CGCAGGTTCTGCCCGGTGGATTACCTCCTTGGAAATGGCACGTTGTTGGGGAATGCCTTT
+GTGTTCCCGCACCAGATAATAAACCTACGGACCAACAACTGTGCTACACTGGTACTCCCT
+TACGTGAACTCCCTCTCGATAGATAGTATGGTAAAGCACAATAATTGGGGAATTGCAATA
+TTACCATTGGCCCCATTAAATTTTGCTAGTGAGTCCTCCCCAGAGATTCCAATCACCTTG
+ACCATAGCCCCTATGTGCTGTGAGTTCAATGGATTAAGAAACATCACCCTGCCACGCTTA
+CAGGGCCTGCCGGTCATGAACACCCCTGGTAGCAATCAATATCTTACTGCAGACAACTTC
+CAGTCACCGTGTGCGCTGCCTGAATTTGATGTGACCCCACCTATTGACATACCCGGTGAA
+GTAAAGAACATGATGGAATTGGCAGAAATCGACACCATGATTCCCTTTGACTTAAGTGCC
+ACAAAAAAGAACACCATGGAAATGTATAGGGTTCGGTTAAGTGACAAACCACATACAGAC
+GATCCCATACTCTGCCTGTCACTCTCTCCAGCTTCAGATCCTAGGTTGTCACATACTATG
+CTTGGAGAAATCCTAAATTACTACACACACTGGGCAGGATCCCTGAAGTTCACGTTTCTG
+TTCTGTGGATTCATGATGGCAACTGGCAAACTGTTGGTGTCATACGCGCCTCCTGGAGCC
+GACCCACCAAAGAAGCGTAAGGAGGCGATGTTGGGAACACATGTGATCTGGGACATAGGA
+CTGCAGTCCTCATGTACTATGGTAGTGCCATGGATTAGCAACACCACGTATCGGCAAACC
+ATAGATGATAGTTTCACCGAAGGCGGATACATCAGCGTCTTCTACCAAACTAGAATAGTC
+GTCCCTCTTTCGACACCCAGAGAGATGGACATCCTTGGTTTTGTGTCAGCGTGTAATGAC
+TTCAGCGTGCGCTTGTTGCGAGATACCACACATATAGAGCAAAAAGCGCTAGCACAGGGG
+TTAGGTCAGATGCTTGAAAGCATGATTGACAACACAGTCCGTGAAACGGTGGGGGCGGCA
+ACATCTAGAGACGCTCTCCCAAACACTGAAGCCAGTGGACCAACACACTCCAAGGAAATT
+CCGGCACTCACCGCAGTGGAAACTGGGGCCACAAATCCACTAGTCCCTTCTGATACAGTG
+CAAACCAGACATGTTGTACAACATAGGTCAAGGTCAGAGTCTAGCATAGAGTCTTTCTTC
+GCGCGGGGTGCATGCGTGACCATTATGACCGTGGATAACCCAGCTTCCACCACGAATAAG
+GATAAGCTATTTGCAGTGTGGAAGATCACTTATAAAGATACTGTCCAGTTACGGAGGAAA
+TTGGAGTTCTTCACCTATTCTAGATTTGATATGGAACTTACCTTTGTGGTTACTGCAAAT
+TTCACTGAGACTAACAATGGGCATGCCTTAAATCAAGTGTACCAAATTATGTACGTACCA
+CCAGGCGCTCCAGTGCCCGAGAAATGGGACGACTACACATGGCAAACCTCATCAAATCCA
+TCAATCTTTTACACCTACGGAACAGCTCCAGCCCGGATCTCGGTACCGTATGTTGGTATT
+TCGAACGCCTATTCACACTTTTACGACGGTTTTTCCAAAGTACCACTGAAGGACCAGTCG
+GCAGCACTAGGTGACTCCCTTTATGGTGCAGCATCTCTAAATGACTTCGGTATTTTGGCT
+GTTAGAGTAGTCAATGATCACAACCCGACCAAGGTCACCTCCAAAATCAGAGTGTATCTA
+AAACCCAAACACATCAGAGTCTGGTGCCCGCGTCCACCGAGGGCAGTGGCGTACTACGGC
+CCTGGAGTGGATTACAAGGATGGTACGCTTACACCCCTCTCCACCAAGGATCTGACCACA
+TATGGATTCGGACACCAAAACAAAGCGGTGTACACTGCAGGTTACAAAATTTGCAACTAC
+CACTTGGCCACTCAGGATGATTTGCAAAACGCAGTGAACGTCATGTGGAGTAGAGACCTC
+TTAGTCACAGAATCAAGAGCCCAGGGCACCGATTCAATCGCAAGGTGCAATTGCAACGCA
+GGGGTGTACTACTGCGAGTCTAGAAGGAAATACTACCCAGTATCCTTCGTTGGCCCAACG
+TTCCAGTACATGGAGGCTAATAACTATTACCCAGCTAGGTACCAGTCCCATATGCTCATT
+GGCCATGGATTCGCATCTCCAGGGGATTGTGGTGGCATACTCAGATGTCACCACGGGGTG
+ATAGGGATCATTACTGCTGGTGGCGAAGGGTTGGTTGCATTTTCAGACATTAGAGACTTG
+TATGCCTACGAAGAAGAAGCCATGGAACAAGGCATCACCAATTACATAGAGTCACTTGGG
+GCCGCATTTGGAAGTGGATTTACTCAGCAGATTAGCGACAAAATAACAGAGTTGACCAAT
+ATGGTGACCAGTACCATCACTGAAAAGCTACTTAAGAACTTGATCAAGATCATATCCTCA
+CTAGTTATTATAACTAGGAACTATGAAGACACCACAACAGTGCTCGCTACCCTGGCCCTT
+CTTGGGTGTGATGCTTCACCATGGCAGTGGCTTAGAAAGAAAGCATGCGATGTTCTGGAG
+ATACCTTATGTCATCAAGCAAGGTGACAGTTGGTTGAAGAAGTTTACTGAAGCATGCAAC
+GCAGCTAAGGGACTGGAGTGGGTGTCAAACAAAATCTCAAAATTCATTGATTGGCTCAAG
+GAGAAAATTATCCCACAAGCTAGAGATAAGTTGGAATTTGTAACAAAACTTAGACAACTA
+GAAATGCTGGAAAACCAAATCTCAACTATACACCAATCATGCCCTAGTCAGGAACACCAG
+GAAATTCTATTCAATAATGTCAGATGGTTATCCATCCAGTCTAAGAGGTTTGCCCCTCTT
+TACGCAGTGGAAGCCAAAAGAATACAGAAACTAGAGCATACTATTAACAACTACATACAG
+TTCAAGAGCAAACACCGTATTGAACCAGTATGTTTGCTAGTACATGGCAGCCCCGGAACA
+GGTAAATCTGTAGCAACCAACCTGATTGCTAGAGCCATAGCTGAAAGAGAAAACACGTCC
+ACGTACTCGCTACCCCCGGATCCATCACACTTCGACGGATACAAACAACAGGGAGTGGTG
+ATTATGGACGACCTGAATCAAAACCCAGATGGTGCGGACATGAAGCTGTTCTGTCAGATG
+GTATCAACAGTGGAGTTTATACCACCCATGGCATCCCTGGAGGAGAAAGGAATCCTGTTT
+ACTTCAAATTACGTTCTAGCATCCACAAACTCAAGCAGAATTTCCCCCCCCACTGTGGCA
+CACAGTGATGCATTAGCCAGGCGCTTTGCGTTCGACATGGACATTCAGGTCATGAATGAG
+TATTCTAGAGATGGGAAATTGAACATGGCCATGGCTACTGAAATGTGTAAGAACTGTCAC
+CAACCAGCAAACTTTAAGAGATGCTGTCCTTTAGTGTGTGGTAAGGCAATTCAATTAATG
+GACAAATCTTCCAGAGTTAGATACAGTATTGACCAGATCACTACAATGATTATCAATGAG
+AGAAACAGAAGATCCAACATTGGCAATTGTATGGAGGCTTTGTTTCAAGGACCACTCCAG
+TATAAAGACTTGAAAATTGACATCAAGACGAGTCCCCCTCCTGAATGTATCAATGACTTG
+CTCCAAGCAGTTGACTCCCAGGAGGTGAGAGATTACTGTGAGAAGAAGGGTTGGATAGTC
+AACATCACCAGCCAGGTTCAAACAGAAAGGAACATCAACAGGGCAATGACAATTCTACAA
+GCGGTGACAACCTTCGCCGCAGTGGCTGGAGTTGTCTATGTCATGTATAAACTGTTTGCT
+GGACACCAGGGAGCATACACTGGTTTACCAAACAAAAAACCCAACGTGCCCACCATTCGG
+ACAGCAAAGGTACAAGGACCAGGGTTCGATTACGCAGTGGCTATGGCTAAAAGAAACATT
+GTTACAGCAACTACTAGCAAGGGAGAGTTCACTATGTTAGGAGTCCACGACAACGTGGCT
+ATTTTACCAACCCACGCTTCACCTGGTGAAAGCATTGTGATCGATGGCAAAGAAGTGGAG
+ATCTTGGATGCCAAAGCGCTCGAAGATCAAGCAGGAACCAATCTTGAAATCACTATAATC
+ACTCTAAAGAGAAATGAAAAGTTCAGAGACATTAGACCACATATACCTACTCAAATCACT
+GAGACAAATGATGGAGTCTTGATCGTGAACACTAGCAAGTACCCCAATATGTATGTTCCT
+GTCGGTGCTGTGACTGAACAGGGATATCTAAATCTCGGTGGGCGCCAAACTGCTCGTACT
+CTAATGTACAACTTTCCAACCAGAGCAGGACAGTGTGGTGGAGTCATCACATGTACTGGG
+AAAGTCATCGGGATGCATGTTGGTGGGAACGGTTCACACGGGTTTGCAGCGGCCCTGAAG
+CGATCATACTTCACTCAGAGTCAAGGTGAAATCCAGTGGATGAGACCTTCGAAGGAAGTG
+GGATATCCAATCATAAATGCCCCGTCCAAAACCAAGCTTGAACCCAGTGCTTTCCACTAT
+GTGTTTGAAGGGGTGAAGGAACCAGCAGTCCTCACTAAAAACGATCCCAGGCTTAAGACA
+GACTTTGAGGAGGCAATTTTCTCCAAGTACGTGGGTAACAAAATTACTGAAGTGGATGAG
+TACATGAAAGAGGCAGTAGACCACTATGCTGGCCAGCTCATGTCACTAGACATCAACACA
+GAACAAATGTGCTTGGAGGATGCCATGTATGGCACTGATGGTCTAGAAGCACTTGATTTG
+TCCACCAGTGCTGGCTACCCTTATGTAGCAATGGGAAAGAAGAAGAGAGACATCTTGAAC
+AAACAAACCAGAGACACTAAGGAAATGCAAAAACTGCTCGACACATATGGAATCAACCTC
+CCACTGGTGACTTATGTAAAGGATGAACTTAGATCCAAAACAAAGGTTGAGCAGGGGAAA
+TCCAGATTAATTGAAGCTTCTAGTTTGAATGACTCAGTGGCAATGAGAATGGCTTTTGGG
+AACCTATATGCTGCTTTTCACAAAAACCCAGGAGTGATAACAGGTTCAGCAGTGGGGTGC
+GATCCAGATTTGTTTTGGAGCAAAATTCCGGTATTGATGGAAGAGAAGCTGTTTGCTTTT
+GACTACACAGGGTATGATGCATCTCTCAGCCCTGCTTGGTTCGAGGCACTAAAGATGGTG
+CTTGAGAAAATCGGATTCGGAGACAGAGTTGACTACATCGACTACCTAAACCACTCACAC
+CACCTGTACAAGAATAAAACATACTGTGTCAAGGGCGGTATGCCATCTGGCTGCTCAGGC
+ACTTCAATTTTTAACTCAATGATTAACAACTTGATTATCAGGACACTCTTACTGAAAACC
+TACAAGGGCATAGATTTAGACCACCTAAAAATGATTGCCTATGGTGATGATGTAATTGCT
+TCCTACCCCCATGAAGTTGACGCTAGTCTCCTAGCCCAATCAGGAAAAGACTATGGACTA
+ACTATGACTCCAGCTGACAAATCAGCTACATTTGAAACAGTCACATGGGAGAATGTAACA
+TTCTTGAAGAGATTCTTCAGGGCAGACGAGAAATACCCATTTCTTATTCATCCAGTAATG
+CCAATGAAGGAAATTCATGAATCAATTAGATGGACTAAAGATCCTAGGAACACTCAGGAT
+CACGTTCGCTCTCTGTGCCTTTTAGCTTGGCACAATGGCGAAGAAGAATATAACAAATTC
+CTAGCTAAAATCAGGAGTGTGCCAATTGGAAGAGCTTTATTGCTCCCAGAGTACTCAACA
+TTGTACCGCCGTTGGCTTGACTCATTTTAG
+
+# Drug_Target_13_General_Function:
+Involved in nucleotide binding
+
+# Drug_Target_13_General_References:
+209034	Ambros V, Baltimore D: Protein is linked to the 5' end of poliovirus RNA by a phosphodiester linkage to tyrosine. J Biol Chem. 1978 Aug 10;253(15):5263-6.
+2994218	Hogle JM, Chow M, Filman DJ: Three-dimensional structure of poliovirus at 2.9 A resolution. Science. 1985 Sep 27;229(4720):1358-65.
+6250717	Kitamura N, Adler CJ, Rothberg PG, Martinko J, Nathenson SG, Wimmer E: The genome-linked protein of picornaviruses. VII. Genetic mapping of poliovirus VPg by protein and RNA sequence studies. Cell. 1980 Aug;21(1):295-302.
+6264310	Kitamura N, Semler BL, Rothberg PG, Larsen GR, Adler CJ, Dorner AJ, Emini EA, Hanecak R, Lee JJ, van der Werf S, Anderson CW, Wimmer E: Primary structure, gene organization and polypeptide expression of poliovirus RNA. Nature. 1981 Jun 18;291(5816):547-53.
+6272282	Racaniello VR, Baltimore D: Molecular cloning of poliovirus cDNA and determination of the complete nucleotide sequence of the viral genome. Proc Natl Acad Sci U S A. 1981 Aug;78(8):4887-91.
+6284987	Dorner AJ, Dorner LF, Larsen GR, Wimmer E, Anderson CW: Identification of the initiation site of poliovirus polyprotein synthesis. J Virol. 1982 Jun;42(3):1017-28.
+7820548	Grant RA, Hiremath CN, Filman DJ, Syed R, Andries K, Hogle JM: Structures of poliovirus complexes with anti-viral drugs: implications for viral stability and drug design. Curr Biol. 1994 Sep 1;4(9):784-97.
+
+# Drug_Target_13_HGNC_ID:
+Not Available
+
+# Drug_Target_13_HPRD_ID:
+Not Available
+
+# Drug_Target_13_ID:
+2928
+
+# Drug_Target_13_Locus:
+Not Available
+
+# Drug_Target_13_Molecular_Weight:
+246543
+
+# Drug_Target_13_Name:
+Genome polyprotein
+
+# Drug_Target_13_Number_of_Residues:
+2209
+
+# Drug_Target_13_PDB_ID:
+1RDR
+
+# Drug_Target_13_Pathway:
+Not Available
+
+# Drug_Target_13_Pfam_Domain_Function:
+PF00073	Rhv
+PF00548	Peptidase_C3
+PF00680	RdRP_1
+PF00910	RNA_helicase
+PF00947	Pico_P2A
+PF01552	Pico_P2B
+PF02226	Pico_P1A
+PF08727	P3A
+
+# Drug_Target_13_Protein_Sequence:
+>Genome polyprotein [Contains: Capsid protein VP4
+MGAQVSSQKVGAHENSNRAYGGSTINYTTINYYRDSASNAASKQDFSQDPSKFTEPIKDV
+LIKTAPMLNSPNIEACGYSDRVLQLTLGNSTITTQEAANSVVAYGRWPEYLRDSEANPVD
+QPTEPDVAACRFYTLDTVSWTKESRGWWWKLPDALRDMGLFGQNMYYHYLGRSGYTVHVQ
+CNASKFHQGALGVFAVPEMCLAGDSNTTTMHTSYQNANPGEKGGTFTGTFTPDNNQTSPA
+RRFCPVDYLLGNGTLLGNAFVFPHQIINLRTNNCATLVLPYVNSLSIDSMVKHNNWGIAI
+LPLAPLNFASESSPEIPITLTIAPMCCEFNGLRNITLPRLQGLPVMNTPGSNQYLTADNF
+QSPCALPEFDVTPPIDIPGEVKNMMELAEIDTMIPFDLSATKKNTMEMYRVRLSDKPHTD
+DPILCLSLSPASDPRLSHTMLGEILNYYTHWAGSLKFTFLFCGFMMATGKLLVSYAPPGA
+DPPKKRKEAMLGTHVIWDIGLQSSCTMVVPWISNTTYRQTIDDSFTEGGYISVFYQTRIV
+VPLSTPREMDILGFVSACNDFSVRLLRDTTHIEQKALAQGLGQMLESMIDNTVRETVGAA
+TSRDALPNTEASGPTHSKEIPALTAVETGATNPLVPSDTVQTRHVVQHRSRSESSIESFF
+ARGACVTIMTVDNPASTTNKDKLFAVWKITYKDTVQLRRKLEFFTYSRFDMELTFVVTAN
+FTETNNGHALNQVYQIMYVPPGAPVPEKWDDYTWQTSSNPSIFYTYGTAPARISVPYVGI
+SNAYSHFYDGFSKVPLKDQSAALGDSLYGAASLNDFGILAVRVVNDHNPTKVTSKIRVYL
+KPKHIRVWCPRPPRAVAYYGPGVDYKDGTLTPLSTKDLTTYGFGHQNKAVYTAGYKICNY
+HLATQDDLQNAVNVMWSRDLLVTESRAQGTDSIARCNCNAGVYYCESRRKYYPVSFVGPT
+FQYMEANNYYPARYQSHMLIGHGFASPGDCGGILRCHHGVIGIITAGGEGLVAFSDIRDL
+YAYEEEAMEQGITNYIESLGAAFGSGFTQQISDKITELTNMVTSTITEKLLKNLIKIISS
+LVIITRNYEDTTTVLATLALLGCDASPWQWLRKKACDVLEIPYVIKQGDSWLKKFTEACN
+AAKGLEWVSNKISKFIDWLKEKIIPQARDKLEFVTKLRQLEMLENQISTIHQSCPSQEHQ
+EILFNNVRWLSIQSKRFAPLYAVEAKRIQKLEHTINNYIQFKSKHRIEPVCLLVHGSPGT
+GKSVATNLIARAIAERENTSTYSLPPDPSHFDGYKQQGVVIMDDLNQNPDGADMKLFCQM
+VSTVEFIPPMASLEEKGILFTSNYVLASTNSSRISPPTVAHSDALARRFAFDMDIQVMNE
+YSRDGKLNMAMATEMCKNCHQPANFKRCCPLVCGKAIQLMDKSSRVRYSIDQITTMIINE
+RNRRSNIGNCMEALFQGPLQYKDLKIDIKTSPPPECINDLLQAVDSQEVRDYCEKKGWIV
+NITSQVQTERNINRAMTILQAVTTFAAVAGVVYVMYKLFAGHQGAYTGLPNKKPNVPTIR
+TAKVQGPGFDYAVAMAKRNIVTATTSKGEFTMLGVHDNVAILPTHASPGESIVIDGKEVE
+ILDAKALEDQAGTNLEITIITLKRNEKFRDIRPHIPTQITETNDGVLIVNTSKYPNMYVP
+VGAVTEQGYLNLGGRQTARTLMYNFPTRAGQCGGVITCTGKVIGMHVGGNGSHGFAAALK
+RSYFTQSQGEIQWMRPSKEVGYPIINAPSKTKLEPSAFHYVFEGVKEPAVLTKNDPRLKT
+DFEEAIFSKYVGNKITEVDEYMKEAVDHYAGQLMSLDINTEQMCLEDAMYGTDGLEALDL
+STSAGYPYVAMGKKKRDILNKQTRDTKEMQKLLDTYGINLPLVTYVKDELRSKTKVEQGK
+SRLIEASSLNDSVAMRMAFGNLYAAFHKNPGVITGSAVGCDPDLFWSKIPVLMEEKLFAF
+DYTGYDASLSPAWFEALKMVLEKIGFGDRVDYIDYLNHSHHLYKNKTYCVKGGMPSGCSG
+TSIFNSMINNLIIRTLLLKTYKGIDLDHLKMIAYGDDVIASYPHEVDASLLAQSGKDYGL
+TMTPADKSATFETVTWENVTFLKRFFRADEKYPFLIHPVMPMKEIHESIRWTKDPRNTQD
+HVRSLCLLAWHNGEEEYNKFLAKIRSVPIGRALLLPEYSTLYRRWLDSF
+
+# Drug_Target_13_Reaction:
+nucleoside triphosphate + RNAn = diphosphate + RNAn+1
+
+# Drug_Target_13_Signals:
+None
+
+# Drug_Target_13_Specific_Function:
+RNA-directed RNA polymerase replicates genomic and antigenomic RNA by recognizing replications specific signals
+
+# Drug_Target_13_SwissProt_ID:
+P03300
+
+# Drug_Target_13_SwissProt_Name:
+POLG_POL1M
+
+# Drug_Target_13_Synonyms:
+Capsid protein VP1
+Capsid protein VP2
+Capsid protein VP3
+Core protein P2A
+Core protein P2B
+Core protein P2C
+Core protein P3A
+EC 2.7.7.48
+EC 3.4.22.28
+EC 3.4.22.29
+Genome polyprotein [Contains: Capsid protein VP4
+Genome-linked protein VPg
+P1A
+P1B
+P1C
+P1D
+P3B
+P3C
+P3D]
+Picornain 2A
+Picornain 3C
+Protease 3C
+RNA-directed RNA polymerase
+Virion protein 1
+Virion protein 2
+Virion protein 3
+Virion protein 4
+
+# Drug_Target_13_Theoretical_pI:
+7.13
+
+# Drug_Target_13_Transmembrane_Regions:
+None
+
+# Drug_Target_14_Cellular_Location:
+Golgi apparatus. Cytoplasm, perinuclear region
+
+# Drug_Target_14_Chromosome_Location:
+1
+
+# Drug_Target_14_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_14_Essentiality:
+Non-Essential
+
+# Drug_Target_14_GenAtlas_ID:
+Not Available
+
+# Drug_Target_14_GenBank_ID_Gene:
+M36340
+
+# Drug_Target_14_GenBank_ID_Protein:
+178983
+
+# Drug_Target_14_GeneCard_ID:
+ARF1
+
+# Drug_Target_14_Gene_Name:
+ARF1
+
+# Drug_Target_14_Gene_Sequence:
+>546 bp
+ATGGGGAACATCTTCGCCAACCTCTTCAAGGGCCTTTTTGGCAAAAAAGAAATGCGCATC
+CTCATGGTGGGCCTGGATGCTGCAGGGAAGACCACGATCCTCTACAAGCTTAAGCTGGGT
+GAGATCGTGACCACCATTCCCACCATAGGCTTCAACGTGGAAACCGTGGAGTACAAGAAC
+ATCAGCTTCACTGTGTGGGACGTGGGTGGCCAGGACAAGATCCGGCCCCTGTGGCGCCAC
+TACTTCCAGAACACACAAGGCCTGATCTTCGTGGTGGACAGCAATGACAGAGAGCGTGTG
+AACGAGGCCCGTGAGGAGCTCATGAGGATGCTGGCCGAGGACGAGCTCCGGGATGCTGTC
+CTCCTGGTGTTCGCCAACAAGCAGGACCTCCCCAACGCCATGAATGCGGCCGAGATCACA
+GACAAGCTGGGGCTGCACTCACTACGCCACAGGAACTGGTACATTCAGGCCACCTGCGCC
+ACCAGCGGCGACGGGCTCTATGAAGGACTGGACTGGCTGTCCAATCAGCTCCGGAACCAG
+AAGTGA
+
+# Drug_Target_14_General_Function:
+Involved in GTP binding
+
+# Drug_Target_14_General_References:
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+1577740	Lee CM, Haun RS, Tsai SC, Moss J, Vaughan M: Characterization of the human gene encoding ADP-ribosylation factor 1, a guanine nucleotide-binding activator of cholera toxin. J Biol Chem. 1992 May 5;267(13):9028-34.
+16710414	Gregory SG, Barlow KF, McLay KE, Kaul R, Swarbreck D, Dunham A, Scott CE, Howe KL, Woodfine K, Spencer CC, Jones MC, Gillson C, Searle S, Zhou Y, Kokocinski F, McDonald L, Evans R, Phillips K, Atkinson A, Cooper R, Jones C, Hall RE, Andrews TD, Lloyd C, Ainscough R, Almeida JP, Ambrose KD, Anderson F, Andrew RW, Ashwell RI, Aubin K, Babbage AK, Bagguley CL, Bailey J, Beasley H, Bethel G, Bird CP, Bray-Allen S, Brown JY, Brown AJ, Buckley D, Burton J, Bye J, Carder C, Chapman JC, Clark SY, Clarke G, Clee C, Cobley V, Collier RE, Corby N, Coville GJ, Davies J, Deadman R, Dunn M, Earthrowl M, Ellington AG, Errington H, Frankish A, Frankland J, French L, Garner P, Garnett J, Gay L, Ghori MR, Gibson R, Gilby LM, Gillett W, Glithero RJ, Grafham DV, Griffiths C, Griffiths-Jones S, Grocock R, Hammond S, Harrison ES, Hart E, Haugen E, Heath PD, Holmes S, Holt K, Howden PJ, Hunt AR, Hunt SE, Hunter G, Isherwood J, James R, Johnson C, Johnson D, Joy A, Kay M, Kershaw JK, Kibukawa M, Kimberley AM, King A, Knights AJ, Lad H, Laird G, Lawlor S, Leongamornlert DA, Lloyd DM, Loveland J, Lovell J, Lush MJ, Lyne R, Martin S, Mashreghi-Mohammadi M, Matthews L, Matthews NS, McLaren S, Milne S, Mistry S, Moore MJ, Nickerson T, O'Dell CN, Oliver K, Palmeiri A, Palmer SA, Parker A, Patel D, Pearce AV, Peck AI, Pelan S, Phelps K, Phillimore BJ, Plumb R, Rajan J, Raymond C, Rouse G, Saenphimmachak C, Sehra HK, Sheridan E, Shownkeen R, Sims S, Skuce CD, Smith M, Steward C, Subramanian S, Sycamore N, Tracey A, Tromans A, Van Helmond Z, Wall M, Wallis JM, White S, Whitehead SL, Wilkinson JE, Willey DL, Williams H, Wilming L, Wray PW, Wu Z, Coulson A, Vaudin M, Sulston JE, Durbin R, Hubbard T, Wooster R, Dunham I, Carter NP, McVean G, Ross MT, Harrow J, Olson MV, Beck S, Rogers J, Bentley DR, Banerjee R, Bryant SP, Burford DC, Burrill WD, Clegg SM, Dhami P, Dovey O, Faulkner LM, Gribble SM, Langford CF, Pandian RD, Porter KM, Prigmore E: The DNA sequence and biological annotation of human chromosome 1. Nature. 2006 May 18;441(7091):315-21.
+1899243	Kahn RA, Kern FG, Clark J, Gelmann EP, Rulka C: Human ADP-ribosylation factors. A functionally conserved family of GTP-binding proteins. J Biol Chem. 1991 Feb 5;266(4):2606-14.
+2474826	Bobak DA, Nightingale MS, Murtagh JJ, Price SR, Moss J, Vaughan M: Molecular cloning, characterization, and expression of human ADP-ribosylation factors: two guanine nucleotide-dependent activators of cholera toxin. Proc Natl Acad Sci U S A. 1989 Aug;86(16):6101-5.
+8861955	Rosa JL, Casaroli-Marano RP, Buckler AJ, Vilaro S, Barbacid M: p619, a giant protein related to the chromosome condensation regulator RCC1, stimulates guanine nucleotide exchange on ARF1 and Rab proteins. EMBO J. 1996 Aug 15;15(16):4262-73.
+9110174	Yu W, Andersson B, Worley KC, Muzny DM, Ding Y, Liu W, Ricafrente JY, Wentland MA, Lennon G, Gibbs RA: Large-scale concatenation cDNA sequencing. Genome Res. 1997 Apr;7(4):353-8.
+
+# Drug_Target_14_HGNC_ID:
+GNC:652
+
+# Drug_Target_14_HPRD_ID:
+Not Available
+
+# Drug_Target_14_ID:
+6316
+
+# Drug_Target_14_Locus:
+1q42
+
+# Drug_Target_14_Molecular_Weight:
+20696.6
+
+# Drug_Target_14_Name:
+ADP-ribosylation factor 1
+
+# Drug_Target_14_Number_of_Residues:
+181
+
+# Drug_Target_14_PDB_ID:
+1R8Q
+
+# Drug_Target_14_Pathway:
+Not Available
+
+# Drug_Target_14_Pfam_Domain_Function:
+PF00025	Arf
+
+# Drug_Target_14_Protein_Sequence:
+>ADP-ribosylation factor 1
+MGNIFANLFKGLFGKKEMRILMVGLDAAGKTTILYKLKLGEIVTTIPTIGFNVETVEYKN
+ISFTVWDVGGQDKIRPLWRHYFQNTQGLIFVVDSNDRERVNEAREELMRMLAEDELRDAV
+LLVFANKQDLPNAMNAAEITDKLGLHSLRHRNWYIQATCATSGDGLYEGLDWLSNQLRNQ
+K
+
+# Drug_Target_14_Reaction:
+Not Available
+
+# Drug_Target_14_Signals:
+None
+
+# Drug_Target_14_Specific_Function:
+GTP-binding protein that functions as an allosteric activator of the cholera toxin catalytic subunit, an ADP- ribosyltransferase. Involved in protein trafficking among different compartments. Modulates vesicle budding and uncoating within the Golgi complex. Deactivation induces the redistribution of the entire Golgi complex to the endoplasmic reticulum, suggesting a crucial role in protein trafficking. In its GTP-bound form, its triggers the association with coat proteins with the Golgi membrane. The hydrolysis of ARF1-bound GTP, which is mediated by ARFGAPs proteins, is required for dissociation of coat proteins from Golgi membranes and vesicles
+
+# Drug_Target_14_SwissProt_ID:
+P84077
+
+# Drug_Target_14_SwissProt_Name:
+ARF1_HUMAN
+
+# Drug_Target_14_Synonyms:
+Not Available
+
+# Drug_Target_14_Theoretical_pI:
+6.80
+
+# Drug_Target_14_Transmembrane_Regions:
+None
+
+# Drug_Target_15_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_15_Chromosome_Location:
+Not Available
+
+# Drug_Target_15_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_15_Essentiality:
+Non-Essential
+
+# Drug_Target_15_GenAtlas_ID:
+Not Available
+
+# Drug_Target_15_GenBank_ID_Gene:
+L19201
+
+# Drug_Target_15_GenBank_ID_Protein:
+304962
+
+# Drug_Target_15_GeneCard_ID:
+Not Available
+
+# Drug_Target_15_Gene_Name:
+mobA
+
+# Drug_Target_15_Gene_Sequence:
+>585 bp
+TCATCGTTTTTCCTGCCATCGGGCAAGCTCCTCTGGCGTATTCACGTTAACAAATGCATC
+TTTATGATCGCTGAAATCAACCGCATGACCGCCAGCCAGACGCATAAATACCATTACCCG
+GCGTTCTCCTGCTTGCAGATATTCCAGTAATAAAGGCTCAATAGCGCGGTTTACCAGAGC
+AATAGTCGGGTGATCGCGTTCACCGTCATGGACCCACACGACAGGCGCATCTTTGCGCTG
+ATGATTAAGCCTGGCTGCTAAATCAGGGGGAATGTAAGGCGTATCGCACGGGCAAAACAA
+AAACCACTCACCAGCTTCCTGCTGCATTACTGAAAGCATTCCTGCCAGAGGGCCTGGGTA
+ATCCGCCAGTGAATCTTCAATCACTTTCAGACCGCTTGCCTGATAGATTTCCTGATGACG
+ATTAGCATTAACCACGACGTGAGAGAGCTGCGTCATAAGCGCGTCAGCGACATGTTGCCA
+TAATGGTTTGCCGTTTAATTCAAGCAATCCTTTATCTACGCCGCCCATTCGTCTGGCTTT
+ACCGCCTGCCAGCACAACGCCTGTTATCGTCGTCATCAGATTCAC
+
+# Drug_Target_15_General_Function:
+Coenzyme transport and metabolism
+
+# Drug_Target_15_General_References:
+10978347	Lake MW, Temple CA, Rajagopalan KV, Schindelin H: The crystal structure of the Escherichia coli MobA protein provides insight into molybdopterin guanine dinucleotide biosynthesis. J Biol Chem. 2000 Dec 22;275(51):40211-7.
+7551035	Iobbi-Nivol C, Palmer T, Whitty PW, McNairn E, Boxer DH: The mob locus of Escherichia coli K12 required for molybdenum cofactor biosynthesis is expressed at very low levels. Microbiology. 1995 Jul;141 ( Pt 7):1663-71.
+8020507	Palmer T, Vasishta A, Whitty PW, Boxer DH: Isolation of protein FA, a product of the mob locus required for molybdenum cofactor biosynthesis in Escherichia coli. Eur J Biochem. 1994 Jun 1;222(2):687-92.
+8346018	Plunkett G 3rd, Burland V, Daniels DL, Blattner FR: Analysis of the Escherichia coli genome. III. DNA sequence of the region from 87.2 to 89.2 minutes. Nucleic Acids Res. 1993 Jul 25;21(15):3391-8.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+
+# Drug_Target_15_HGNC_ID:
+Not Available
+
+# Drug_Target_15_HPRD_ID:
+Not Available
+
+# Drug_Target_15_ID:
+3085
+
+# Drug_Target_15_Locus:
+Not Available
+
+# Drug_Target_15_Molecular_Weight:
+21643
+
+# Drug_Target_15_Name:
+Molybdopterin-guanine dinucleotide biosynthesis protein A
+
+# Drug_Target_15_Number_of_Residues:
+194
+
+# Drug_Target_15_PDB_ID:
+1FRW
+
+# Drug_Target_15_Pathway:
+Not Available
+
+# Drug_Target_15_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_15_Protein_Sequence:
+>Molybdopterin-guanine dinucleotide biosynthesis protein A
+MNLMTTITGVVLAGGKARRMGGVDKGLLELNGKPLWQHVADALMTQLSHVVVNANRHQEI
+YQASGLKVIEDSLADYPGPLAGMLSVMQQEAGEWFLFCPCDTPYIPPDLAARLNHQRKDA
+PVVWVHDGERDHPTIALVNRAIEPLLLEYLQAGERRVMVFMRLAGGHAVDFSDHKDAFVN
+VNTPEELARWQEKR
+
+# Drug_Target_15_Reaction:
+Not Available
+
+# Drug_Target_15_Signals:
+None
+
+# Drug_Target_15_Specific_Function:
+Links a guanosine 5'-phosphate to molydopterin (MPT) forming molybdopterin guanine dinucleotide (MGD)
+
+# Drug_Target_15_SwissProt_ID:
+P32173
+
+# Drug_Target_15_SwissProt_Name:
+MOBA_ECOLI
+
+# Drug_Target_15_Synonyms:
+Protein FA
+
+# Drug_Target_15_Theoretical_pI:
+6.30
+
+# Drug_Target_15_Transmembrane_Regions:
+None
+
+# Drug_Target_16_Cellular_Location:
+Not Available
+
+# Drug_Target_16_Chromosome_Location:
+Not Available
+
+# Drug_Target_16_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_16_Essentiality:
+Non-Essential
+
+# Drug_Target_16_GenAtlas_ID:
+Not Available
+
+# Drug_Target_16_GenBank_ID_Gene:
+U11816
+
+# Drug_Target_16_GenBank_ID_Protein:
+555803
+
+# Drug_Target_16_GeneCard_ID:
+Not Available
+
+# Drug_Target_16_Gene_Name:
+odcI
+
+# Drug_Target_16_Gene_Sequence:
+>2196 bp
+ATGAGTTCTTCTCTTAAAATTGCTTCGACTCAAGAAGCGCGTCAATATTTCGATACTGAC
+CGCGTTGTTGTCGATGCTGTAGGCTCTGATTTTACTGATGTCGGTGCTGTTATCGCAATG
+GATTACGAAACAGATGTCATCGACGCTGCTGATGCAACTAAGTTTGGTATTCCTGTTTTT
+GCCGTAACTAAGGATGCCCAAGCTATCAGTGCTGATGAGCTGAAGAAGATTTTCCACATC
+ATTGATTTGGAAAACAAATTTGATGCTACTGTTAACGCTCGTGAAATCGAAACTGCTGTT
+AACAACTACGAAGACAGCATTTTACCACCATTCTTCAAGTCATTGAAAGAATACGTTAGC
+CGTGGTTTAATCCAATTCGACTGCCCAGGTCACCAAGGTGGTCAATACTACAGAAAGCAC
+CCAGCTGGTCGTGAATTCTACGACTTCTTCGGCGAAACTGTCTTCCGTGCAGACTTATGT
+AACGCTGACGTTGCCTTGGGTGACTTGCTGATCCACGAAGGTCCTGCTGTTGCTGCTGAA
+AAGCATGCTGCACGTGTTTACAACGCTGACAAGACTTACTTCGTTTTAGGTGGTTCTTCC
+AACGCTAACAACACTGTAACATCTGCTTTAGTTTCTAACGGCGACTTGGTATTGTTCGAC
+CGGAACAACCACAAGTCCGTTTACAACTCAGCTTTAGCTATGGCTGGTGGCCGTCCTGTT
+TACCTCCAAACAAACCGTAACCCATACGGCTTCATCGGTGGTATCTACGACAGCGACTTC
+GATGAAAAGAAGATCCGTGAACTGGCAGCTAAGGTTGACCCAGAACGTGCTAAGTGGAAG
+CGTCCATTCCGTCTGGCTGTTATCCAATTAGGTACTTACGATGGTACTATCTACAACGCA
+CACGAAGTTGTAAAGCGTATCGGTCACCTTTGTGATTACATCGAATTCGACTCTGCTTGG
+GTAGGTTACGAACAATTCATTCCTATGATGCGTAACTCTTCACCATTATTGATTGATGAC
+CTTGGTCCAGAAGATCCTGGTATCATTGTTGTTCAATCAGTTCACAAGCAACAAGCCGGC
+TTCTCACAAACTTCACAAATCCACAAGAAGGATAGCCACATCAAGGGTCAATTACGTTAC
+TGTGACCACAAGCACTTTAACAACTCCTTCAACTTGTTCATGTCTACTTCACCATTCTAC
+CCAATGTATGCAGCATTAGACGTTAACGCTGCTATGCAAGAAGGCGAAGCAGGTCGCAAG
+TTATGGCATGACCTTCTGATTACTACCATTGAAGCTCGTAAGAAGTTGATCAAGGCTGGC
+TCAATGTTCCGTCCATTCGTTCCACCTGTTGTTAACGGCAAGAAGTGGGAAGATGGCGAC
+ACTGAAGATATGGCTAACAACATTGACTACTGGCGCTTTGAAAAGGGTGCTAAGTGGCAT
+GCTTACGAAGGCTACGGCGACAACCAATACTACGTTGATCCAAACAAGTTCATGTTAACT
+ACACCTGGTATCAACCCAGAAACTGGTGACTACGAAGACTTCGGTGTTCCAGCTACTATC
+GTTGCTAACTACTTACGTGACCACGGTATCATCCCTGAAAAGTCTGACTTGAACTCTATC
+TTGTTCTTGATGACTCCAGCTGAAACTCCAGCTAAGATGAACAACCTGATCACTCAACTT
+CTTCAATTACAACGCTTGATCGAAGAAGATGCTCCATTGAAGCAAGTTCTTCCTTCAATC
+TACGCTGCTAACGAAGAACGTTACAATGGCTACACTATCCGTGAACTTTGCCAAGAATTG
+CACGACTTCTACAAGAACAACAACACGTTCACATACCAGAAGCGTCTCTTCTTACGTGAA
+TTCTTCCCAGAACAAGGTATGCTTCCATACGAAGCTCGTCAAGAATTCATCCGCAACCAC
+AACAAGCTTGTTCCATTGAACAAGATCGAAGGCGAAATCGCCCTCGAAGGTGCTCTTCCA
+TACCCTCCAGGAGTATTCTGTGTAGCACCAGGTGAAAAGTGGTCAGAAACTGCTGTTAAG
+TACTTCACTATCTTACAAGATGGTATCAACAACTTCCCTGGATTCGCTCCAGAAATCCAA
+GGTGTATACTTCAAGCAAGAAGGCGACAAGGTTGTTGCTTACGGTGAAGTTTACGATGCA
+GAAGTTGCTAAGAACGATGATCGTTACAACAACTAA
+
+# Drug_Target_16_General_Function:
+Amino acid transport and metabolism
+
+# Drug_Target_16_General_References:
+10666573	Vitali J, Carroll D, Chaudhry RG, Hackert ML: Three-dimensional structure of the Gly121Tyr dimeric form of ornithine decarboxylase from Lactobacillus 30a. Acta Crystallogr D Biol Crystallogr. 1999 Dec;55(Pt 12):1978-85.
+7563080	Momany C, Ernst S, Ghosh R, Chang NL, Hackert ML: Crystallographic structure of a PLP-dependent ornithine decarboxylase from Lactobacillus 30a to 3.0 A resolution. J Mol Biol. 1995 Oct 6;252(5):643-55.
+7663340	Momany C, Ghosh R, Hackert ML: Structural motifs for pyridoxal-5'-phosphate binding in decarboxylases: an analysis based on the crystal structure of the Lactobacillus 30a ornithine decarboxylase. Protein Sci. 1995 May;4(5):849-54.
+7961515	Hackert ML, Carroll DW, Davidson L, Kim SO, Momany C, Vaaler GL, Zhang L: Sequence of ornithine decarboxylase from Lactobacillus sp. strain 30a. J Bacteriol. 1994 Dec;176(23):7391-4.
+
+# Drug_Target_16_HGNC_ID:
+Not Available
+
+# Drug_Target_16_HPRD_ID:
+Not Available
+
+# Drug_Target_16_ID:
+3209
+
+# Drug_Target_16_Locus:
+Not Available
+
+# Drug_Target_16_Molecular_Weight:
+82689
+
+# Drug_Target_16_Name:
+Ornithine decarboxylase, inducible
+
+# Drug_Target_16_Number_of_Residues:
+731
+
+# Drug_Target_16_PDB_ID:
+1ORD
+
+# Drug_Target_16_Pathway:
+Not Available
+
+# Drug_Target_16_Pfam_Domain_Function:
+PF01276	OKR_DC_1
+PF03709	OKR_DC_1_N
+PF03711	OKR_DC_1_C
+
+# Drug_Target_16_Protein_Sequence:
+>Ornithine decarboxylase, inducible
+MSSSLKIASTQEARQYFDTDRVVVDAVGSDFTDVGAVIAMDYETDVIDAADATKFGIPVF
+AVTKDAQAISADELKKIFHIIDLENKFDATVNAREIETAVNNYEDSILPPFFKSLKEYVS
+RGLIQFDCPGHQGGQYYRKHPAGREFYDFFGETVFRADLCNADVALGDLLIHEGPAVAAE
+KHAARVYNADKTYFVLGGSSNANNTVTSALVSNGDLVLFDRNNHKSVYNSALAMAGGRPV
+YLQTNRNPYGFIGGIYDSDFDEKKIRELAAKVDPERAKWKRPFRLAVIQLGTYDGTIYNA
+HEVVKRIGHLCDYIEFDSAWVGYEQFIPMMRNSSPLLIDDLGPEDPGIIVVQSVHKQQAG
+FSQTSQIHKKDSHIKGQLRYCDHKHFNNSFNLFMSTSPFYPMYAALDVNAAMQEGEAGRK
+LWHDLLITTIEARKKLIKAGSMFRPFVPPVVNGKKWEDGDTEDMANNIDYWRFEKGAKWH
+AYEGYGDNQYYVDPNKFMLTTPGINPETGDYEDFGVPATIVANYLRDHGIIPEKSDLNSI
+LFLMTPAETPAKMNNLITQLLQLQRLIEEDAPLKQVLPSIYAANEERYNGYTIRELCQEL
+HDFYKNNNTFTYQKRLFLREFFPEQGMLPYEARQEFIRNHNKLVPLNKIEGEIALEGALP
+YPPGVFCVAPGEKWSETAVKYFTILQDGINNFPGFAPEIQGVYFKQEGDKVVAYGEVYDA
+EVAKNDDRYNN
+
+# Drug_Target_16_Reaction:
+L-ornithine = putrescine + CO2
+
+# Drug_Target_16_Signals:
+None
+
+# Drug_Target_16_Specific_Function:
+L-ornithine = putrescine + CO(2)
+
+# Drug_Target_16_SwissProt_ID:
+P43099
+
+# Drug_Target_16_SwissProt_Name:
+DCOR_LACS3
+
+# Drug_Target_16_Synonyms:
+EC 4.1.1.17
+ODC
+
+# Drug_Target_16_Theoretical_pI:
+4.99
+
+# Drug_Target_16_Transmembrane_Regions:
+None
+
+# Drug_Target_17_Cellular_Location:
+Mitochondrion
+mitochondrial matrix
+
+# Drug_Target_17_Chromosome_Location:
+Not Available
+
+# Drug_Target_17_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_17_Essentiality:
+Non-Essential
+
+# Drug_Target_17_GenAtlas_ID:
+GLUD1
+
+# Drug_Target_17_GenBank_ID_Gene:
+X07674
+
+# Drug_Target_17_GenBank_ID_Protein:
+31707
+
+# Drug_Target_17_GeneCard_ID:
+GLUD1
+
+# Drug_Target_17_Gene_Name:
+GLUD1
+
+# Drug_Target_17_Gene_Sequence:
+>1677 bp
+ATGTACCGCTACCTGGGCGAAGCGCTGTTGCTGTCCCGGGCCGGGCCCGCTGCCCTGGGC
+TCGGCGTCCGCCGACTCGGCCGCGTTGCTGGGCTGGGCCCGGGGACAGCCCGCCGCCGCC
+CCGCAGCCGGGGCTGGCATTGGCCGCCCGGCGCCACTACAGCGAGGCGGTGGCCGACCGC
+GAGGACGACCCCAACTTCTTCAAGATGGTGGAGGGCTTCTTCGATCGCGGCGCCAGCATC
+GTGGAGGACAAGCTGGTGGAGGACCTGAGGACCCGGGAGAGCGAGGAGCAGAAGCGGAAC
+CGGGTGCGCGGCATCCTGCGGATCATCAAGCCCTGCAACCATGTGCTGAGTCTCTCCTTC
+CCCATCCGGCGCGACGACGGCTCCTGGGAGGTCATCGAAGGCTACCGGGCCCAGCACAGC
+CAGCACCGCACGCCCTGCAAGGGAGGTATCCGTTACAGCACTGATGTGAGTGTAGATGAA
+GTAAAAGCTTTGGCTTCTCTGATGACATACAAGTGTGCAGTGGTTGATGTGCCGTTTGGG
+GGTGCTAAAGCTGGTGTTAAGATCAATCCCAAGAACTATACTGATAATGAATTGGAAAAG
+ATCACAAGGAGGTTCACCATGGAGCTAGCAAAAAAGGGCTTTATTGGTCCTGGCATTGAT
+GTGCCTGCTCCAGACATGAGCACAGGTGAGCGGGAGATGTCCTGGATCGCTGATACCTAT
+GCCAGCACCATAGGGCACTATGATATTAATGCACACGCCTGTGTTACTGGTAAACCCATC
+AGCCAAGGGGGAATCCATGGACGCATCTCTGCTACTGGCCGTGGTGTCTTCCATGGGATT
+GAAAATTTCATCAATGAAGCTTCTTACATGAGCATTTTAGGAATGACACCAGGGTTTGGA
+GATAAAACATTTGTTGTTCAGGGATTTGGTAATGTGGGCCTACACTCTATGAGATATTTA
+CATCGTTTTGGTGCTAAATGTATTGCTGTTGGTGAGTCTGATGGGAGTATATGGAATCCA
+GATGGTATTGACCCAAAGGAACTGGAAGACTTCAAATTGCAACATGGGTCCATTCTGGGC
+TTCCCCAAGGCAAAGCCCTATGAAGGAAGCATCTTGGAGGCCGACTGTGACATACTGATC
+CCAGCTGCCAGTGAGAAGCAGTTGACCAAATCCAACGCACCCAGAGTCAAAGCCAAGATC
+ATTGCTGAAGGTGCCAATGGGCCAACAACTCCAGAAGCTGACAAGATCTTCCTGGAGAGA
+AACATTATGGTTATTCCAGATCTCTACTTGAATGCTGGAGGAGTGACAGTATCTTACTTT
+GAGTGGCTGAAGAATCTAAATCATGTCAGCTATGGCCGTTTGACCTTCAAATATGAAAGG
+GATTCTAACTACCACTTGCTCATGTCTGTTCAAGAGAGTTTAGAAAGAAAATTTGGAAAG
+CATGGTGGAACTATTCCCATTGTACCCACGGCAGAGTTCCAAGACAGGATATCGGGTGCA
+TCTGAGAAAGACATCGTGCACTCTGGCTTGGCATACACAATGGAGCGTTCTGCCAGGCAA
+ATTATGCGCACAGCCATGAAGTATAACCTGGGATTGGACCTGAGAACAGCTGCCTATGTT
+AATGCCATTGAGAAAGTCTTCAAAGTGTACAATGAAGCTGGTGTGACCTTCACATAG
+
+# Drug_Target_17_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_17_General_References:
+10338089	Meissner T, Beinbrech B, Mayatepek E: Congenital hyperinsulinism: molecular basis of a heterogeneous disease. Hum Mutat. 1999;13(5):351-61.
+10636977	Miki Y, Taki T, Ohura T, Kato H, Yanagisawa M, Hayashi Y: Novel missense mutations in the glutamate dehydrogenase gene in the congenital hyperinsulinism-hyperammonemia syndrome. J Pediatr. 2000 Jan;136(1):69-72.
+11214910	Santer R, Kinner M, Passarge M, Superti-Furga A, Mayatepek E, Meissner T, Schneppenheim R, Schaub J: Novel missense mutations outside the allosteric domain of glutamate dehydrogenase are prevalent in European patients with the congenital hyperinsulinism-hyperammonemia syndrome. Hum Genet. 2001 Jan;108(1):66-71.
+11254391	Smith TJ, Peterson PE, Schmidt T, Fang J, Stanley CA: Structures of bovine glutamate dehydrogenase complexes elucidate the mechanism of purine regulation. J Mol Biol. 2001 Mar 23;307(2):707-20.
+11297618	MacMullen C, Fang J, Hsu BY, Kelly A, de Lonlay-Debeney P, Saudubray JM, Ganguly A, Smith TJ, Stanley CA: Hyperinsulinism/hyperammonemia syndrome in children with regulatory mutations in the inhibitory guanosine triphosphate-binding domain of glutamate dehydrogenase. J Clin Endocrinol Metab. 2001 Apr;86(4):1782-7.
+11903050	Fang J, Hsu BY, MacMullen CM, Poncz M, Smith TJ, Stanley CA: Expression, purification and characterization of human glutamate dehydrogenase (GDH) allosteric regulatory mutations. Biochem J. 2002 Apr 1;363(Pt 1):81-7.
+12054821	Smith TJ, Schmidt T, Fang J, Wu J, Siuzdak G, Stanley CA: The structure of apo human glutamate dehydrogenase details subunit communication and allostery. J Mol Biol. 2002 May 3;318(3):765-77.
+12653548	Banerjee S, Schmidt T, Fang J, Stanley CA, Smith TJ: Structural studies on ADP activation of mammalian glutamate dehydrogenase and the evolution of regulation. Biochemistry. 2003 Apr 1;42(12):3446-56.
+1286669	Hochstrasser DF, Frutiger S, Paquet N, Bairoch A, Ravier F, Pasquali C, Sanchez JC, Tissot JD, Bjellqvist B, Vargas R, et al.: Human liver protein map: a reference database established by microsequencing and gel comparison. Electrophoresis. 1992 Dec;13(12):992-1001.
+3368458	Mavrothalassitis G, Tzimagiorgis G, Mitsialis A, Zannis V, Plaitakis A, Papamatheakis J, Moschonas N: Isolation and characterization of cDNA clones encoding human liver glutamate dehydrogenase: evidence for a small gene family. Proc Natl Acad Sci U S A. 1988 May;85(10):3494-8.
+3377777	Amuro N, Yamaura M, Goto Y, Okazaki T: Molecular cloning and nucleotide sequence of the cDNA for human liver glutamate dehydrogenase precursor. Biochem Biophys Res Commun. 1988 May 16;152(3):1395-400.
+3399399	Nakatani Y, Schneider M, Banner C, Freese E: Complete nucleotide sequence of human glutamate dehydrogenase cDNA. Nucleic Acids Res. 1988 Jul 11;16(13):6237.
+3426581	Nakatani Y, Banner C, von Herrath M, Schneider ME, Smith HH, Freese E: Comparison of human brain and liver glutamate dehydrogenase cDNAS. Biochem Biophys Res Commun. 1987 Dec 16;149(2):405-10.
+3585334	Banner C, Silverman S, Thomas JW, Lampel KA, Vitkovic L, Huie D, Wenthold RJ: Isolation of a human brain cDNA for glutamate dehydrogenase. J Neurochem. 1987 Jul;49(1):246-52.
+429360	Julliard JH, Smith EL: Partial amino acid sequence of the glutamate dehydrogenase of human liver and a revision of the sequence of the bovine enzyme. J Biol Chem. 1979 May 10;254(9):3427-38.
+8314555	Tzimagiorgis G, Leversha MA, Chroniary K, Goulielmos G, Sargent CA, Ferguson-Smith M, Moschonas NK: Structure and expression analysis of a member of the human glutamate dehydrogenase (GLUD) gene family mapped to chromosome 10p11.2. Hum Genet. 1993 Jun;91(5):433-8.
+8486350	Michaelidis TM, Tzimagiorgis G, Moschonas NK, Papamatheakis J: The human glutamate dehydrogenase gene family: gene organization and structural characterization. Genomics. 1993 Apr;16(1):150-60.
+9571255	Stanley CA, Lieu YK, Hsu BY, Burlina AB, Greenberg CR, Hopwood NJ, Perlman K, Rich BH, Zammarchi E, Poncz M: Hyperinsulinism and hyperammonemia in infants with regulatory mutations of the glutamate dehydrogenase gene. N Engl J Med. 1998 May 7;338(19):1352-7.
+
+# Drug_Target_17_HGNC_ID:
+HGNC:4335
+
+# Drug_Target_17_HPRD_ID:
+11748
+
+# Drug_Target_17_ID:
+201
+
+# Drug_Target_17_Locus:
+10q23.3
+
+# Drug_Target_17_Molecular_Weight:
+61399
+
+# Drug_Target_17_Name:
+Glutamate dehydrogenase 1, mitochondrial
+
+# Drug_Target_17_Number_of_Residues:
+558
+
+# Drug_Target_17_PDB_ID:
+1L1F
+
+# Drug_Target_17_Pathway:
+Not Available
+
+# Drug_Target_17_Pfam_Domain_Function:
+PF00208	ELFV_dehydrog
+PF02812	ELFV_dehydrog_N
+
+# Drug_Target_17_Protein_Sequence:
+>Glutamate dehydrogenase 1, mitochondrial precursor
+MYRYLGEALLLSRAGPAALGSASADSAALLGWARGQPAAAPQPGLALAARRHYSEAVADR
+EDDPNFFKMVEGFFDRGASIVEDKLVEDLRTRESEEQKRNRVRGILRIIKPCNHVLSLSF
+PIRRDDGSWEVIEGYRAQHSQHRTPCKGGIRYSTDVSVDEVKALASLMTYKCAVVDVPFG
+GAKAGVKINPKNYTDNELEKITRRFTMELAKKGFIGPGIDVPAPDMSTGEREMSWIADTY
+ASTIGHYDINAHACVTGKPISQGGIHGRISATGRGVFHGIENFINEASYMSILGMTPGFG
+DKTFVVQGFGNVGLHSMRYLHRFGAKCIAVGESDGSIWNPDGIDPKELEDFKLQHGSILG
+FPKAKPYEGSILEADCDILIPAASEKQLTKSNAPRVKAKIIAEGANGPTTPEADKIFLER
+NIMVIPDLYLNAGGVTVSYFEWLKNLNHVSYGRLTFKYERDSNYHLLMSVQESLERKFGK
+HGGTIPIVPTAEFQDRISGASEKDIVHSGLAYTMERSARQIMRTAMKYNLGLDLRTAAYV
+NAIEKVFKVYNEAGVTFT
+
+# Drug_Target_17_Reaction:
+L-glutamate + H2O + NAD(P)+ = 2-oxoglutarate + NH3 + NAD(P)H + H+
+
+# Drug_Target_17_Signals:
+None
+
+# Drug_Target_17_Specific_Function:
+May be involved in learning and memory reactions by increasing the turnover of the excitatory neurotransmitter glutamate
+
+# Drug_Target_17_SwissProt_ID:
+P00367
+
+# Drug_Target_17_SwissProt_Name:
+DHE3_HUMAN
+
+# Drug_Target_17_Synonyms:
+EC 1.4.1.3
+GDH
+Glutamate dehydrogenase 1, mitochondrial precursor
+
+# Drug_Target_17_Theoretical_pI:
+7.91
+
+# Drug_Target_17_Transmembrane_Regions:
+None
+
+# Drug_Target_18_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_18_Chromosome_Location:
+Not Available
+
+# Drug_Target_18_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_18_Essentiality:
+Non-Essential
+
+# Drug_Target_18_GenAtlas_ID:
+ADSSL1
+
+# Drug_Target_18_GenBank_ID_Gene:
+AY037159
+
+# Drug_Target_18_GenBank_ID_Protein:
+21303413
+
+# Drug_Target_18_GeneCard_ID:
+ADSSL1
+
+# Drug_Target_18_Gene_Name:
+ADSSL1
+
+# Drug_Target_18_Gene_Sequence:
+>1374 bp
+ATGTCGGGGACCCGAGCCTCCAACGACCGGCCCCCCGGCGCAGGCGGCGTCAAGCGGGGG
+CGGCTGCAGCAGGAGGCGGCGGCGACCGGCTCCCGCGTGACGGTGGTGCTGGGCGCGCAG
+TGGGGGGACGAGGGCAAAGGCAAGGTGGTGGACCTGCTGGCCACGGACGCCGACATCATC
+AGCCGCTGCCAGGGGGGCAACAACGCCGGCCACACGGTGGTGGTGGATGGGAAAGAGTAC
+GACTTCCACCTGCTGCCCAGCGGCATCATCAACACCAAGGCCGTGTCCTTCATTGGCAAC
+GGGGTGGTCATCCACTTGCCAGGCTTGTTTGAGGAAGCAGAGAAGAATGAAAAGAAAGGC
+CTGAAGGACTGGGAGAAGAGGCTCATCATCTCTGACAGAGCCCACCTTGTGTTTGATTTT
+CACCAGGCTGTCGACGGACTTCAGGAAGTGCAGCGCCAGGCACAAGAGGGGAAGAATATA
+GGCACCACCAAGAAGGGAATCGGACCAACCTACTCTTCCAAAGCTGCCCGGACAGGCCTC
+CGCATCTGCGACCTCCTGTCAGATTTTGATGAGTTTTCCTCCAGATTCAAGAACCTGGCC
+CACCAGCACCAGTCGATGTTCCCCACCCTGGAAATAGACATTGAAGGCCAACTCAAAAGG
+CTCAAGGGCTTTGCTGAGCGGATCAGACCCATGGTCCGAGATGGTGTTTACTTTATGTAT
+GAGGCACTCCACGGCCCCCCCAAGAAGATCCTGGTGGAGGGTGCCAACGCCGCCCTCCTC
+GACATTGACTTCGGGACCTACCCCTTTGTGACTTCATCCAACTGCACCGTGGGCGGTGTG
+TGCACGGGCCTGGGCATCCCCCCGCAGAACATAGGTGACGTGTATGGCGTGGTGAAAGCC
+TATACCACACGTGTGGGCATCGGGGCCTTCCCCACCGAGCAGATCAACGAGATTGGAGGC
+CTGCTGCAGACCCGCGGCCACGAGTGGGGAGTGACCACAGGCAGGAAGAGGCGCTGCGGC
+TGGCTCGACCTGATGATTCTAAGATATGCTCACATGGTCAACGGATTCACTGCGCTGGCC
+CTGACGAAGCTGGACATCCTGGACGTACTGGGTGAGGTTAAAGTCGGTGTCTCATACAAG
+CTGAACGGGAAAAGGATTCCCTATTTCCCAGCTAACCAGGAGATGCTTCAGAAGGTCGAA
+GTTGAGTATGAAACGCTGCCTGGGTGGAAAGCAGACACCACAGGCGCCAGGAGGTGGGAG
+GACCTGCCCCCACAGGCCCAGAACTACATCCGCTTTGTGGAGAATCACGTGGGAGTCGCA
+GTCAAATGGGTTGGTGTTGGCAAGTCAAGAGAGTCGATGATCCAGCTGTTTTAG
+
+# Drug_Target_18_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_18_General_References:
+Not Available
+
+# Drug_Target_18_HGNC_ID:
+HGNC:20093
+
+# Drug_Target_18_HPRD_ID:
+Not Available
+
+# Drug_Target_18_ID:
+3978
+
+# Drug_Target_18_Locus:
+14q32.33
+
+# Drug_Target_18_Molecular_Weight:
+50209
+
+# Drug_Target_18_Name:
+Adenylosuccinate synthetase isozyme 1
+
+# Drug_Target_18_Number_of_Residues:
+457
+
+# Drug_Target_18_PDB_ID:
+1MF1
+
+# Drug_Target_18_Pathway:
+Azathioprine Pathway	SMP00427
+Mercaptopurine Pathway	SMP00428
+Thioguanine Pathway	SMP00430
+
+# Drug_Target_18_Pfam_Domain_Function:
+PF00709	Adenylsucc_synt
+
+# Drug_Target_18_Protein_Sequence:
+>Adenylosuccinate synthetase isozyme 1
+MSGTRASNDRPPGAGGVKRGRLQQEAAATGSRVTVVLGAQWGDEGKGKVVDLLATDADII
+SRCQGGNNAGHTVVVDGKEYDFHLLPSGIINTKAVSFIGNGVVIHLPGLFEEAEKNEKKG
+LKDWEKRLIISDRAHLVFDFHQAVDGLQEVQRQAQEGKNIGTTKKGIGPTYSSKAARTGL
+RICDLLSDFDEFSSRFKNLAHQHQSMFPTLEIDIEGQLKRLKGFAERIRPMVRDGVYFMY
+EALHGPPKKILVEGANAALLDIDFGTYPFVTSSNCTVGGVCTGLGIPPQNIGDVYGVVKA
+YTTRVGIGAFPTEQINEIGGLLQTRGHEWGVTTGRKRRCGWLDLMILRYAHMVNGFTALA
+LTKLDILDVLGEVKVGVSYKLNGKRIPYFPANQEMLQKVEVEYETLPGWKADTTGARRWE
+DLPPQAQNYIRFVENHVGVAVKWVGVGKSRESMIQLF
+
+# Drug_Target_18_Reaction:
+GTP + IMP + L-aspartate = GDP + phosphate + N6-(1,2-dicarboxyethyl)-AMP
+
+# Drug_Target_18_Signals:
+None
+
+# Drug_Target_18_Specific_Function:
+Plays an important role in the de novo pathway of purine nucleotide biosynthesis
+
+# Drug_Target_18_SwissProt_ID:
+Q8N142
+
+# Drug_Target_18_SwissProt_Name:
+PURA1_HUMAN
+
+# Drug_Target_18_Synonyms:
+AMPSase 1
+AdSS 1
+EC 6.3.4.4
+IMP--aspartate ligase 1
+
+# Drug_Target_18_Theoretical_pI:
+8.85
+
+# Drug_Target_18_Transmembrane_Regions:
+None
+
+# Drug_Target_19_Cellular_Location:
+Cell membrane
+cytoplasmic side (Potential)
+lipid-anchor
+
+# Drug_Target_19_Chromosome_Location:
+Not Available
+
+# Drug_Target_19_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_19_Essentiality:
+Non-Essential
+
+# Drug_Target_19_GenAtlas_ID:
+RAP2A
+
+# Drug_Target_19_GenBank_ID_Gene:
+X12534
+
+# Drug_Target_19_GenBank_ID_Protein:
+35861
+
+# Drug_Target_19_GeneCard_ID:
+RAP2A
+
+# Drug_Target_19_Gene_Name:
+RAP2A
+
+# Drug_Target_19_Gene_Sequence:
+>552 bp
+ATGCGCGAGTACAAAGTGGTGGTGCTGGGCTCGGGCGGGGTAGGCAAATCCGCCCTGACC
+GTGCAGTTCGTGACCGGCACCTTCATCGAGAAATACGACCCCACCATCGAGGACTTCTAC
+CGCAAGGAGATCGAGGTGGATTCGTCGCCGTCGGTGCTGGAGATCCTGGACACGGCGGGC
+ACCGAGCAGTTCGCGTCCATGCGGGACCTGTACATCAAGAACGGCCAGGGCTTCATCCTC
+GTCTACAGCCTCGTCAACCAGCAGAGCTTCCAGGACATCAAGCCCATGCGGGACCAGATC
+ATCCGCGTGAAGCGGTATGAGAAAGTGCCAGTCATCTTGGTTGGGAACAAAGTGGACCTG
+GAAAGTGAGAGAGAAGTATCGTCCAGCGAAGGCAGAGCCCTTGCTGAAGAGTGGGGCTGC
+CCCTTTATGGAAACTTCCGCTAAGAGTAAAACAATGGTGGACGAACTCTTTGCAGAAATT
+GTGAGGCAGATGAACTATGCTGCTCAGCCTGACAAAGATGACCCATGCTGTTCTGCATGT
+AACATACAATAG
+
+# Drug_Target_19_General_Function:
+Involved in GTP binding
+
+# Drug_Target_19_General_References:
+10591105	Menetrey J, Cherfils J: Structure of the small G protein Rap2 in a non-catalytic complex with GTP. Proteins. 1999 Nov 15;37(3):465-73.
+1900290	Lerosey I, Chardin P, de Gunzburg J, Tavitian A: The product of the rap2 gene, member of the ras superfamily. Biochemical characterization and site-directed mutagenesis. J Biol Chem. 1991 Mar 5;266(7):4315-21.
+3045729	Pizon V, Chardin P, Lerosey I, Olofsson B, Tavitian A: Human cDNAs rap1 and rap2 homologous to the Drosophila gene Dras3 encode proteins closely related to ras in the 'effector' region. Oncogene. 1988 Aug;3(2):201-4.
+8424780	Farrell FX, Yamamoto K, Lapetina EG: Prenyl group identification of rap2 proteins: a ras superfamily member other than ras that is farnesylated. Biochem J. 1993 Jan 15;289 ( Pt 2):349-55.
+9312017	Cherfils J, Menetrey J, Le Bras G, Janoueix-Lerosey I, de Gunzburg J, Garel JR, Auzat I: Crystal structures of the small G protein Rap2A in complex with its substrate GTP, with GDP and with GTPgammaS. EMBO J. 1997 Sep 15;16(18):5582-91.
+
+# Drug_Target_19_HGNC_ID:
+HGNC:9861
+
+# Drug_Target_19_HPRD_ID:
+01547
+
+# Drug_Target_19_ID:
+3354
+
+# Drug_Target_19_Locus:
+13q34
+
+# Drug_Target_19_Molecular_Weight:
+20616
+
+# Drug_Target_19_Name:
+Ras-related protein Rap-2a
+
+# Drug_Target_19_Number_of_Residues:
+183
+
+# Drug_Target_19_PDB_ID:
+3RAP
+
+# Drug_Target_19_Pathway:
+Not Available
+
+# Drug_Target_19_Pfam_Domain_Function:
+PF00071	Ras
+
+# Drug_Target_19_Protein_Sequence:
+>Ras-related protein Rap-2a precursor
+MREYKVVVLGSGGVGKSALTVQFVTGTFIEKYDPTIEDFYRKEIEVDSSPSVLEILDTAG
+TEQFASMRDLYIKNGQGFILVYSLVNQQSFQDIKPMRDQIIRVKRYEKVPVILVGNKVDL
+ESEREVSSSEGRALAEEWGCPFMETSAKSKTMVDELFAEIVRQMNYAAQPDKDDPCCSAC
+NIQ
+
+# Drug_Target_19_Reaction:
+Not Available
+
+# Drug_Target_19_Signals:
+None
+
+# Drug_Target_19_Specific_Function:
+Not Available
+
+# Drug_Target_19_SwissProt_ID:
+P10114
+
+# Drug_Target_19_SwissProt_Name:
+RAP2A_HUMAN
+
+# Drug_Target_19_Synonyms:
+Ras-related protein Rap-2a precursor
+RbBP-30
+
+# Drug_Target_19_Theoretical_pI:
+4.45
+
+# Drug_Target_19_Transmembrane_Regions:
+None
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+RAB5A
+
+# Drug_Target_1_Gene_Sequence:
+Not Available
+
+# Drug_Target_1_General_Function:
+Not Available
+
+# Drug_Target_1_General_References:
+Not Available
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+7043
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+Not Available
+
+# Drug_Target_1_Name:
+Ras-related protein Rab-5A
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+Not Available
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+P20339
+
+# Drug_Target_1_SwissProt_Name:
+RAB5A_HUMAN
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+X76424
+
+# Drug_Target_2_GenBank_ID_Protein:
+496557
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+engB
+
+# Drug_Target_2_Gene_Sequence:
+>588 bp
+ATGAAAGTCACAAAGTCAGAAATCGTGATCAGTGCAGTAAAACCGGAACAGTACCCTGAA
+GGGGGGCTTCCGGAAATCGCATTGGCCGGAAGATCGAACGTAGGAAAATCGTCTTTTATC
+AATTCATTAATCAATCGCAAAAATCTTGCGAGAACGTCATCAAAGCCGGGAAAAACACAA
+ACGCTTAATTTCTACATTATCAATGATGAGCTGCATTTTGTGGATGTGCCGGGCTACGGT
+TTTGCCAAAGTGTCAAAGTCTGAGCGTGAAGCATGGGGCAGAATGATTGAAACCTATATC
+ACGACACGCGAGGAATTAAAAGCTGTGGTGCAGATCGTTGATTTGCGGCATGCGCCATCT
+AATGATGATGTACAGATGTATGAATTTTTAAAGTATTACGGCATTCCTGTTATTGTTATC
+GCTACAAAGGCGGATAAGATCCCGAAAGGTAAATGGGACAAACACGCGAAGGTTGTCCGA
+CAAACATTAAATATTGATCCGGAAGACGAGCTGATCCTCTTTTCTTCAGAAACGAAAAAG
+GGAAAAGACGAAGCTTGGGGAGCGATCAAAAAAATGATAAACCGGTAG
+
+# Drug_Target_2_General_Function:
+Involved in GTP binding
+
+# Drug_Target_2_General_References:
+7961402	Riethdorf S, Volker U, Gerth U, Winkler A, Engelmann S, Hecker M: Cloning, nucleotide sequence, and expression of the Bacillus subtilis lon gene. J Bacteriol. 1994 Nov;176(21):6518-27.
+8969504	Wipat A, Carter N, Brignell SC, Guy BJ, Piper K, Sanders J, Emmerson PT, Harwood CR: The dnaB-pheA (256 degrees-240 degrees) region of the Bacillus subtilis chromosome containing genes responsible for stress responses, the utilization of plant cell walls and primary metabolism. Microbiology. 1996 Nov;142 ( Pt 11):3067-78.
+9384377	Kunst F, Ogasawara N, Moszer I, Albertini AM, Alloni G, Azevedo V, Bertero MG, Bessieres P, Bolotin A, Borchert S, Borriss R, Boursier L, Brans A, Braun M, Brignell SC, Bron S, Brouillet S, Bruschi CV, Caldwell B, Capuano V, Carter NM, Choi SK, Codani JJ, Connerton IF, Danchin A, et al.: The complete genome sequence of the gram-positive bacterium Bacillus subtilis. Nature. 1997 Nov 20;390(6657):249-56.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+3335
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+22027
+
+# Drug_Target_2_Name:
+Probable GTP-binding protein engB
+
+# Drug_Target_2_Number_of_Residues:
+195
+
+# Drug_Target_2_PDB_ID:
+1SVW
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF01926	MMR_HSR1
+
+# Drug_Target_2_Protein_Sequence:
+>Probable GTP-binding protein engB
+MKVTKSEIVISAVKPEQYPEGGLPEIALAGRSNVGKSSFINSLINRKNLARTSSKPGKTQ
+TLNFYIINDELHFVDVPGYGFAKVSKSEREAWGRMIETYITTREELKAVVQIVDLRHAPS
+NDDVQMYEFLKYYGIPVIVIATKADKIPKGKWDKHAKVVRQTLNIDPEDELILFSSETKK
+GKDEAWGAIKKMINR
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Necessary for normal cell division and for the maintenance of normal septation
+
+# Drug_Target_2_SwissProt_ID:
+P38424
+
+# Drug_Target_2_SwissProt_Name:
+ENGB_BACSU
+
+# Drug_Target_2_Synonyms:
+Not Available
+
+# Drug_Target_2_Theoretical_pI:
+9.88
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+M17461
+
+# Drug_Target_3_GenBank_ID_Protein:
+215481
+
+# Drug_Target_3_GeneCard_ID:
+Not Available
+
+# Drug_Target_3_Gene_Name:
+P2
+
+# Drug_Target_3_Gene_Sequence:
+>1998 bp
+ATGCCGAGGAGAGCTCCCGCGTTCCCTCTGAGCGATATCAAGGCTCAGATGCTGTTCGCA
+AATAACATCAAGGCCCAACAAGCCTCGAAGCGTAGCTTCAAAGAGGGGGCGATTGAAACG
+TACGAAGGGCTGCTTTCAGTAGACCCTCGGTTTTTGAGTTTCAAGAACGAGCTCTCTCGG
+TATCTGACCGACCACTTCCCGGCGAACGTCGACGAGTATGGTCGTGTTTATGGAAACGGT
+GTTCGTACCAACTTCTTTGGTATGCGCCACATGAACGGGTTTCCAATGATCCCCGCGACG
+TGGCCACTCGCTTCCAACCTTAAGAAACGTGCCGACGCTGACCTAGCCGATGGCCCTGTT
+TCTGAGCGCGACAATCTACTCTTTCGCGCCGCAGTCCGGCTTATGTTTTCAGATCTAGAG
+CCTGTTCCGCTGAAGATCCGTAAAGGATCGTCAACCTGCATCCCGTATTTTTCTAACGAT
+ATGGGAACGAAGATCGAGATCGCCGAGCGCGCTCTTGAGAAAGCGGAAGAAGCTGGCAAT
+CTGATGCTGCAAGGTAAGTTTGATGACGCCTACCAGCTCCACCAAATGGGTGGTGCCTAT
+TACGTCGTGTATCGTGCACAATCGACCGATGCTATCACACTCGACCCTAAGACCGGAAAA
+TTCGTGTCAAAGGATCGTATGGTCGCTGACTTCGAATACGCAGTCACGGGCGGTGAGCAA
+GGCTCGCTGTTCGCTGCTTCGAAGGATGCCTCTCGTTTGAAGGAACAGTACGGGATAGAT
+GTCCCGGACGGGTTTTTCTGCGAGCGGCGTCGTACCGCTATGGGTGGTCCGTTCGCGTTG
+AACGCTCCTATCATGGCCGTTGCGCAACCTGTGCGAAACAAAATTTACTCCAAGTACGCT
+TACACCTTTCACCATACTACTCGTCTTAATAAGGAGGAAAAGGTGAAAGAGTGGTCGTTG
+TGCGTCGCTACTGACGTATCCGACCACGACACGTTCTGGCCTGGATGGCTGCGGGATCTC
+ATCTGTGATGAACTGCTCAACATGGGGTACGCTCCGTGGTGGGTTAAGTTGTTCGAGACC
+TCGCTCAAACTGCCCGTTTACGTGGGCGCTCCTGCTCCTGAGCAGGGCCACACGTTGTTG
+GGTGATCCGTCCAACCCTGATCTCGAAGTTGGTCTCTCGTCCGGACAAGGGGCGACCGAC
+CTCATGGGCACGTTGCTCATGAGTATCACCTACCTGGTGATGCAACTTGATCACACCGCT
+CCTCACCTCAACAGTCGAATCAAGGACATGCCATCAGCATGCCGCTTTCTTGACTCGTAT
+TGGCAAGGACACGAGGAGATCCGTCAGATCTCAAAATCTGATGATGCTATACTTGGCTGG
+ACCAAAGGTCGTGCTTTGGTTGGTGGTCATCGTTTGTTCGAGATGCTGAAAGAGGGTAAG
+GTTAACCCCTCACCTTACATGAAGATCTCCTACGAGCACGGTGGCGCCTTCCTTGGTGAC
+ATCCTGCTTTACGACTCGCGTCGTGAGCCTGGCTCTGCCATCTTCGTTGGTAACATCAAC
+TCAATGCTGAACAACCAGTTCAGCCCTGAGTACGGTGTCCAATCGGGCGTTCGCGACCGA
+TCTAAGCGCAAACGGCCGTTCCCCGGTCTTGCTTGGGCGTCGATGAAAGATACCTACGGT
+GCCTGTCCGATCTACTCTGATGTGCTGGAGGCGATCGAGCGTTGCTGGTGGAACGCGTTC
+GGTGAGTCGTACCGTGCGTATCGTGAAGATATGCTTAAACGCGACACTCTCGAACTATCA
+CGCTACGTTGCGTCGATGGCTCGTCAAGCCGGGCTGGCTGAACTCACTCCCATTGATTTG
+GAGGTGCTTGCTGACCCGAACAAACTCCAGTATAAGTGGACCGAGGCCGATGTCTCGGCG
+AATATCCACGAGGTACTGATGCATGGCGTATCGGTCGAAAAGACTGAGCGCTTTCTCCGT
+TCTGTAATGCCGAGGTAA
+
+# Drug_Target_3_General_Function:
+Involved in RNA binding
+
+# Drug_Target_3_General_References:
+3346944	Mindich L, Nemhauser I, Gottlieb P, Romantschuk M, Carton J, Frucht S, Strassman J, Bamford DH, Kalkkinen N: Nucleotide sequence of the large double-stranded RNA segment of bacteriophage phi 6: genes specifying the viral replicase and transcriptase. J Virol. 1988 Apr;62(4):1180-5.
+
+# Drug_Target_3_HGNC_ID:
+Not Available
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+2647
+
+# Drug_Target_3_Locus:
+Not Available
+
+# Drug_Target_3_Molecular_Weight:
+74923
+
+# Drug_Target_3_Name:
+RNA-directed RNA polymerase
+
+# Drug_Target_3_Number_of_Residues:
+665
+
+# Drug_Target_3_PDB_ID:
+1UVN
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00680	RdRP_1
+
+# Drug_Target_3_Protein_Sequence:
+>RNA-directed RNA polymerase
+MPRRAPAFPLSDIKAQMLFANNIKAQQASKRSFKEGAIETYEGLLSVDPRFLSFKNELSR
+YLTDHFPANVDEYGRVYGNGVRTNFFGMRHMNGFPMIPATWPLASNLKKRADADLADGPV
+SERDNLLFRAAVRLMFSDLEPVPLKIRKGSSTCIPYFSNDMGTKIEIAERALEKAEEAGN
+LMLQGKFDDAYQLHQMGGAYYVVYRAQSTDAITLDPKTGKFVSKDRMVADFEYAVTGGEQ
+GSLFAASKDASRLKEQYGIDVPDGFFCERRRTAMGGPFALNAPIMAVAQPVRNKIYSKYA
+YTFHHTTRLNKEEKVKEWSLCVATDVSDHDTFWPGWLRDLICDELLNMGYAPWWVKLFET
+SLKLPVYVGAPAPEQGHTLLGDPSNPDLEVGLSSGQGATDLMGTLLMSITYLVMQLDHTA
+PHLNSRIKDMPSACRFLDSYWQGHEEIRQISKSDDAILGWTKGRALVGGHRLFEMLKEGK
+VNPSPYMKISYEHGGAFLGDILLYDSRREPGSAIFVGNINSMLNNQFSPEYGVQSGVRDR
+SKRKRPFPGLAWASMKDTYGACPIYSDVLEAIERCWWNAFGESYRAYREDMLKRDTLELS
+RYVASMARQAGLAELTPIDLEVLADPNKLQYKWTEADVSANIHEVLMHGVSVEKTERFLR
+SVMPR
+
+# Drug_Target_3_Reaction:
+nucleoside triphosphate + RNAn = diphosphate + RNAn+1
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Nucleoside triphosphate + RNA(n) = diphosphate + RNA(n+1)
+
+# Drug_Target_3_SwissProt_ID:
+P11124
+
+# Drug_Target_3_SwissProt_Name:
+RDRP_BPPH6
+
+# Drug_Target_3_Synonyms:
+EC 2.7.7.48
+Protein P2
+
+# Drug_Target_3_Theoretical_pI:
+7.03
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Not Available
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_4_GeneCard_ID:
+Not Available
+
+# Drug_Target_4_Gene_Name:
+UCKL1
+
+# Drug_Target_4_Gene_Sequence:
+Not Available
+
+# Drug_Target_4_General_Function:
+Not Available
+
+# Drug_Target_4_General_References:
+Not Available
+
+# Drug_Target_4_HGNC_ID:
+Not Available
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+7092
+
+# Drug_Target_4_Locus:
+Not Available
+
+# Drug_Target_4_Molecular_Weight:
+Not Available
+
+# Drug_Target_4_Name:
+Uridine-cytidine kinase-like 1
+
+# Drug_Target_4_Number_of_Residues:
+0
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_4_Protein_Sequence:
+Not Available
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+Not Available
+
+# Drug_Target_4_Specific_Function:
+Not Available
+
+# Drug_Target_4_SwissProt_ID:
+Q9NWZ5
+
+# Drug_Target_4_SwissProt_Name:
+UCKL1_HUMAN
+
+# Drug_Target_4_Synonyms:
+Not Available
+
+# Drug_Target_4_Theoretical_pI:
+Not Available
+
+# Drug_Target_4_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_5_Cellular_Location:
+Cell membrane
+Golgi apparatus membrane
+cytoplasmic side. Golgi apparatus
+lipid-anch
+lipid-anchor
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+HRAS
+
+# Drug_Target_5_GenBank_ID_Gene:
+J00277
+
+# Drug_Target_5_GenBank_ID_Protein:
+190891
+
+# Drug_Target_5_GeneCard_ID:
+HRAS
+
+# Drug_Target_5_Gene_Name:
+HRAS
+
+# Drug_Target_5_Gene_Sequence:
+>570 bp
+ATGACGGAATATAAGCTGGTGGTGGTGGGCGCCGGCGGTGTGGGCAAGAGTGCGCTGACC
+ATCCAGCTGATCCAGAACCATTTTGTGGACGAATACGACCCCACTATAGAGGATTCCTAC
+CGGAAGCAGGTGGTCATTGATGGGGAGACGTGCCTGTTGGACATCCTGGATACCGCCGGC
+CAGGAGGAGTACAGCGCCATGCGGGACCAGTACATGCGCACCGGGGAGGGCTTCCTGTGT
+GTGTTTGCCATCAACAACACCAAGTCTTTTGAGGACATCCACCAGTACAGGGAGCAGATC
+AAACGGGTGAAGGACTCGGATGACGTGCCCATGGTGCTGGTGGGGAACAAGTGTGACCTG
+GCTGCACGCACTGTGGAATCTCGGCAGGCTCAGGACCTCGCCCGAAGCTACGGCATCCCC
+TACATCGAGACCTCGGCCAAGACCCGGCAGGGAGTGGAGGATGCCTTCTACACGTTGGTG
+CGTGAGATCCGGCAGCACAAGCTGCGGAAGCTGAACCCTCCTGATGAGAGTGGCCCCGGC
+TGCATGAGCTGCAAGTGTGTGCTCTCCTGA
+
+# Drug_Target_5_General_Function:
+Involved in GTP binding
+
+# Drug_Target_5_General_References:
+10574788	Scheidig AJ, Burmester C, Goody RS: The pre-hydrolysis state of p21(ras) in complex with GTP: new insights into the role of water molecules in the GTP hydrolysis reaction of ras-like proteins. Structure. 1999 Nov 15;7(11):1311-24.
+11022048	Song C, Hu CD, Masago M, Kariyai K, Yamawaki-Kataoka Y, Shibatohge M, Wu D, Satoh T, Kataoka T: Regulation of a novel human phospholipase C, PLCepsilon, through membrane targeting by Ras. J Biol Chem. 2001 Jan 26;276(4):2752-7. Epub 2000 Oct 5.
+1459726	Sakai E, Rikimaru K, Ueda M, Matsumoto Y, Ishii N, Enomoto S, Yamamoto H, Tsuchida N: The p53 tumor-suppressor gene and ras oncogene mutations in oral squamous-cell carcinoma. Int J Cancer. 1992 Dec 2;52(6):867-72.
+1899707	Tong LA, de Vos AM, Milburn MV, Kim SH: Crystal structures at 2.2 A resolution of the catalytic domains of normal ras protein and an oncogenic mutant complexed with GDP. J Mol Biol. 1991 Feb 5;217(3):503-16.
+2196171	Pai EF, Krengel U, Petsko GA, Goody RS, Kabsch W, Wittinghofer A: Refined crystal structure of the triphosphate conformation of H-ras p21 at 1.35 A resolution: implications for the mechanism of GTP hydrolysis. EMBO J. 1990 Aug;9(8):2351-9.
+2448879	de Vos AM, Tong L, Milburn MV, Matias PM, Jancarik J, Noguchi S, Nishimura S, Miura K, Ohtsuka E, Kim SH: Three-dimensional structure of an oncogene protein: catalytic domain of human c-H-ras p21. Science. 1988 Feb 19;239(4842):888-93.
+2476675	Pai EF, Kabsch W, Krengel U, Holmes KC, John J, Wittinghofer A: Structure of the guanine-nucleotide-binding domain of the Ha-ras oncogene product p21 in the triphosphate conformation. Nature. 1989 Sep 21;341(6239):209-14.
+2661017	Hancock JF, Magee AI, Childs JE, Marshall CJ: All ras proteins are polyisoprenylated but only some are palmitoylated. Cell. 1989 Jun 30;57(7):1167-77.
+3011420	Lacal JC, Anderson PS, Aaronson SA: Deletion mutants of Harvey ras p21 protein reveal the absolute requirement of at least two distant regions for GTP-binding and transforming activities. EMBO J. 1986 Apr;5(4):679-87.
+3088563	Feig LA, Pan BT, Roberts TM, Cooper GM: Isolation of ras GTP-binding mutants using an in situ colony-binding assay. Proc Natl Acad Sci U S A. 1986 Jul;83(13):4607-11.
+3670300	Honkawa H, Masahashi W, Hashimoto S, Hashimoto-Gotoh T: Identification of the principal promoter sequence of the c-H-ras transforming oncogene: deletion analysis of the 5'-flanking region by focus formation assay. Mol Cell Biol. 1987 Aug;7(8):2933-40.
+6087347	Sekiya T, Fushimi M, Hori H, Hirohashi S, Nishimura S, Sugimura T: Molecular cloning and the total nucleotide sequence of the human c-Ha-ras-1 gene activated in a melanoma from a Japanese patient. Proc Natl Acad Sci U S A. 1984 Aug;81(15):4771-5.
+6290897	Tabin CJ, Bradley SM, Bargmann CI, Weinberg RA, Papageorge AG, Scolnick EM, Dhar R, Lowy DR, Chang EH: Mechanism of activation of a human oncogene. Nature. 1982 Nov 11;300(5888):143-9.
+6298635	Capon DJ, Chen EY, Levinson AD, Seeburg PH, Goeddel DV: Complete nucleotide sequences of the T24 human bladder carcinoma oncogene and its normal homologue. Nature. 1983 Mar 3;302(5903):33-7.
+6844927	Reddy EP: Nucleotide sequence analysis of the T24 human bladder carcinoma oncogene. Science. 1983 Jun 3;220(4601):1061-3.
+8142349	Kraulis PJ, Domaille PJ, Campbell-Burk SL, Van Aken T, Laue ED: Solution structure and dynamics of ras p21.GDP determined by heteronuclear three- and four-dimensional NMR spectroscopy. Biochemistry. 1994 Mar 29;33(12):3515-31.
+8626715	Dudler T, Gelb MH: Palmitoylation of Ha-Ras facilitates membrane binding, activation of downstream effectors, and meiotic maturation in Xenopus oocytes. J Biol Chem. 1996 May 10;271(19):11541-7.
+9219684	Scheffzek K, Ahmadian MR, Kabsch W, Wiesmuller L, Lautwein A, Schmitz F, Wittinghofer A: The Ras-RasGAP complex: structural basis for GTPase activation and its loss in oncogenic Ras mutants. Science. 1997 Jul 18;277(5324):333-8.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:5173
+
+# Drug_Target_5_HPRD_ID:
+01813
+
+# Drug_Target_5_ID:
+1758
+
+# Drug_Target_5_Locus:
+11p15.5
+
+# Drug_Target_5_Molecular_Weight:
+21298
+
+# Drug_Target_5_Name:
+GTPase HRas
+
+# Drug_Target_5_Number_of_Residues:
+189
+
+# Drug_Target_5_PDB_ID:
+4Q21
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00071	Ras
+
+# Drug_Target_5_Protein_Sequence:
+>GTPase HRas precursor
+MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAG
+QEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDL
+AARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQHKLRKLNPPDESGPG
+CMSCKCVLS
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+None
+
+# Drug_Target_5_Specific_Function:
+Ras proteins bind GDP/GTP and possess intrinsic GTPase activity
+
+# Drug_Target_5_SwissProt_ID:
+P01112
+
+# Drug_Target_5_SwissProt_Name:
+RASH_HUMAN
+
+# Drug_Target_5_Synonyms:
+GTPase HRas precursor
+H-Ras-1
+Ha-Ras
+Transforming protein p21
+c-H-ras
+p21ras
+
+# Drug_Target_5_Theoretical_pI:
+4.94
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+# Drug_Target_6_Cellular_Location:
+Core protein p21:Endoplasmic reticulum
+endoplasmic reticulum membrane
+single-pass membrane protein
+
+# Drug_Target_6_Chromosome_Location:
+Not Available
+
+# Drug_Target_6_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_6_Essentiality:
+Non-Essential
+
+# Drug_Target_6_GenAtlas_ID:
+Not Available
+
+# Drug_Target_6_GenBank_ID_Gene:
+M58335
+
+# Drug_Target_6_GenBank_ID_Protein:
+329771
+
+# Drug_Target_6_GeneCard_ID:
+Not Available
+
+# Drug_Target_6_Gene_Name:
+Not Available
+
+# Drug_Target_6_Gene_Sequence:
+>9033 bp
+ATGAGCACGAATCCTAAACCTCAAAGAAAAACCAAACGTAACACCAACCGCCGCCCACAG
+GACGTCAAGTTCCCGGGCGGTGGTCAGATCGTTGGTGGAGTTTACCTGTTGCCGCGCAGG
+GGCCCCAGGTTGGGTGTGCGCGCGCCCAGGAAGACTTCCGAGCGGTCGCAACCTCGTGGA
+AGGCGACAACCTATCCCCAAGGCTCGCCGGCCCGAGGGCAGGACCTGGGCTCAGCCCGGG
+TACCCTTGGCCTCTCTATGGCAATGAGGGCTTAGGGTGGGCAGGATGGCTCCTGTCACCC
+CGCGGCTCCCGGCCTAGTTGGGGCCCCACGGACCCCCGGCGTAGGTCGCGTAATTTGGGT
+AAGGTCATCGATACCCTCACATGCGGCTTCGCCGATCTCATGGGGTACATTCCGCTCGTC
+GGCGCCCCCCTGGGGGGCGCTGCCAGGGCCCTGGCACATGGTGTCCGGGTTCTGGAGGAC
+GGCGTGAACTATGCAACAGGGAATCTGCCCGGTTGCTCTTTTTCTATCTTCCTCTTGGCT
+CTGCTGTCCTGCCTGACCACCCCAGCTTCCGCTTACGAAGTGCACAACGTGTCCGGGATA
+TATCATGTCACGAACGACTGCTCCAACGCAAGCATTGTGTATGAGGCAGCGGACTTGATC
+ATGCATACTCCTGGGTGCGTGCCCTGCGTTCGGGAAGGCAACTCCTCCCGCTGCTGGGTA
+GCGCTCACTCCCACGCTCGCAGCCAGGAACGTCACCATCCCCACCACGACGATACGACGC
+CACGTCGATCTGCTCGTTGGGGCGGCTGCTTTCTGTTCCGCTATGTACGTGGGGGACCTC
+TGCGGATCTGTTTTCCTCGTCTCTCAGCTGTTCACCTTCTCGCCTCGCCGGCATGTGACA
+TTACAGGACTGTAACTGCTCAATTTATCCCGGCCATGTGTCGGGTCACCGTATGGCTTGG
+GACATGATGATGAACTGGTCGCCCACAACAGCCCTAGTGGTGTCGCAGTTACTCCGGATC
+CCACAAGCCGTCGTGGACATGGTGGCGGGGGCCCACTGGGGAGTCCTGGCGGGCCTTGCC
+TACTATTCCATGGCGGGGAACTGGGCTAAGGTTCTGATTGTGATGCTACTTTTTGCTGGC
+GTTGACGGGGATACCCACGTGACAGGGGGGGCGCAAGCCAAAACCACCAACAGGCTCGTG
+TCCATGTTCGCAAGTGGGCCGTCTCAGAAAATCCAGCTTATAAACACCAATGGGAGTTGG
+CACATCAACAGGACTGCCCTGAACTGCAATGACTCTCTCCAGACTGGGTTTCTTGCCGCG
+CTGTTCTACACACATAGTTTCAACTCGTCCGGGTGCCCAGAGCGCATGGCCCAGTGCCGC
+ACCATTGACAAGTTCGACCAGGGATGGGGTCCCATTACTTATGCTGAGTCTAGCAGATCA
+GACCAGAGGCCATATTGCTGGCACTACCCACCTCCACAATGTACCATCGTACCTGCGTCG
+GAGGTGTGCGGCCCAGTGTACTGCTTCACCCCAAGCCCTGTCGTCGTGGGGACGACCGAT
+CGTTTCGGTGTCCCTACGTATAGATGGGGGGAGAACGAGACTGACGTGCTGCTGCTCAAC
+AACACGCGGCCGCCGCAAGGCAACTGGTTCGGCTGCACATGGATGAATAGCACCGGGTTC
+ACCAAGACATGTGGGGGGCCCCCGTGTAACATCGGGGGGGTCGGCAACAACACCCTGACC
+TGCCCCACGGACTGCTTCCGGAAGCACCCCGAGGCTACCTACACAAAATGTGGTTCGGGG
+CCTTGGCTGACACCTAGGTGCATGGTTGACTATCCATACAGGCTCTGGCATTACCCCTGC
+ACTGTTAACTTTACCATCTTCAAGGTTAGGATGTATGTGGGGGGGGTGGAGCACAGGCTC
+AATGCTGCATGCAATTGGACCCGAGGAGAGCGTTGTGACTTGGAGGACAGGGATAGGCCG
+GAGCTCAGCCCGCTGCTGCTGTCTACAACAGAGTGGCAGGTACTGCCCTGTTCCTTCACC
+ACCCTACCAGCTCTGTCCACTGGCTTGATTCACCTCCATCAGAACATCGTGGACGTGCAA
+TACCTATACGGTATAGGGTCAGCGGTTGTCTCCTTTGCAATCAAATGGGAGTATGTCCTG
+TTGCTTTTCCTTCTCCTAGCGGACGCACGTGTCTGTGCCTGCTTGTGGATGATGCTGCTG
+ATAGCCCAGGCCGAGGCCGCCTTGGAGAACCTGGTGGTCCTCAATTCGGCGTCTGTGGCC
+GGCGCACATGGCATCCTCTCCTTCCTTGTGTTCTTCTGTGCCGCCTGGTACATCAAAGGC
+AGGCTGGTCCCTGGGGCGACATATGCTCTTTATGGCGTGTGGCCGCTGCTCCTGCTCTTG
+CTGGCATTACCACCGCGAGCTTACGCCATGGACCGGGAGATGGCTGCATCGTGCGGAGGC
+GCGGTTTTTGTGGGTCTGGTACTCCTGACTTTGTCACCATACTACAAGGTGTTCCTCGCT
+AGGCTCATATGGTGGTTACAATATTTTACCACCAGAGCCGAGGCGGACTTACATGTGTGG
+ATCCCCCCCCTCAACGCTCGGGGAGGCCGCGATGCCATCATCCTCCTCATGTGCGCAGTC
+CATCCAGAGCTAATCTTTGACATCACCAAACTTCTAATTGCCATACTCGGTCCGCTCATG
+GTGCTCCAAGCTGGCATAACCAGAGTGCCGTACTTCGTGCGCGCTCAAGGGCTCATTCAT
+GCATGCATGTTAGTGCGGAAGGTCGCTGGGGGTCATTATGTCCAAATGGCCTTCATGAAG
+CTGGGCGCGCTGACAGGCACGTACATTTACAACCATCTTACCCCGCTACGGGATTGGCCA
+CGCGCGGGCCTACGAGACCTTGCGGTGGCAGTGGAGCCCGTCGTCTTCTCCGACATGGAG
+ACCAAGATCATCACCTGGGGAGCAGACACCGCGGCGTGTGGGGACATCATCTTGGGTCTG
+CCCGTCTCCGCCCGAAGGGGAAAGGAGATACTCCTGGGCCCGGCCGATAGTCTTGAAGGG
+CGGGGGTTGCGACTCCTCGCGCCCATCACGGCCTACTCCCAACAGACGCGGGGCCTACTT
+GGTTGCATCATCACTAGCCTTACAGGCCGGGACAAGAACCAGGTCGAGGGAGAGGTTCAG
+GTGGTTTCCACCGCAACACAATCCTTCCTGGCGACCTGCGTCAACGGCGTGTGTTGGACC
+GTTTACCATGGTGCTGGCTCAAAGACCTTAGCCGCGCCAAAGGGGCCAATCACCCAGATG
+TACACTAATGTGGACCAGGACCTCGTCGGCTGGCCCAAGCCCCCCGGGGCGCGTTCCTTG
+ACACCATGCACCTGTGGCAGCTCAGACCTTTACTTGGTCACGAGACATGCTGACGTCATT
+CCGGTGCGCCGGCGGGGCGACAGTAGGGGGAGCCTGCTCTCCCCCAGGCCTGTCTCCTAC
+TTGAAGGGCTCTTCGGGTGGTCCACTGCTCTGCCCCTTCGGGCACGCTGTGGGCATCTTC
+CGGGCTGCCGTATGCACCCGGGGGGTTGCGAAGGCGGTGGACTTTGTGCCCGTAGAGTCC
+ATGGAAACTACTATGCGGTCTCCGGTCTTCACGGACAACTCATCCCCCCCGGCCGTACCG
+CAGTCATTTCAAGTGGCCCACCTACACGCTCCCACTGGCAGCGGCAAGAGTACTAAAGTG
+CCGGCTGCATATGCAGCCCAAGGGTACAAGGTGCTCGTCCTCAATCCGTCCGTTGCCGCT
+ACCTTAGGGTTTGGGGCGTATATGTCTAAGGCACACGGTATTGACCCCAACATCAGAACT
+GGGGTAAGGACCATTACCACAGGCGCCCCCGTCACATACTCTACCTATGGCAAGTTTCTT
+GCCGATGGTGGTTGCTCTGGGGGCGCTTATGACATCATAATATGTGATGAGTGCCATTCA
+ACTGACTCGACTACAATCTTGGGCATCGGCACAGTCCTGGACCAAGCGGAGACGGCTGGA
+GCGCGGCTTGTCGTGCTCGCCACCGCTACGCCTCCGGGATCGGTCACCGTGCCACACCCA
+AACATCGAGGAGGTGGCCCTGTCTAATACTGGAGAGATCCCCTTCTATGGCAAAGCCATC
+CCCATTGAAGCCATCAGGGGGGGAAGGCATCTCATTTTCTGTCATTCCAAGAAGAAGTGC
+GACGAGCTCGCCGCAAAGCTGTCAGGCCTCGGAATCAACGCTGTGGCGTATTACCGGGGG
+CTCGATGTGTCCGTCATACCAACTATCGGAGACGTCGTTGTCGTGGCAACAGACGCTCTG
+ATGACGGGCTATACGGGCGACTTTGACTCAGTGATCGACTGTAACACATGTGTCACCCAG
+ACAGTCGACTTCAGCTTGGATCCCACCTTCACCATTGAGACGACGACCGTGCCTCAAGAC
+GCAGTGTCGCGCTCGCAGCGGCGGGGTAGGACTGGCAGGGGTAGGAGAGGCATCTACAGG
+TTTGTGACTCCGGGAGAACGGCCCTCGGGCATGTTCGATTCCTCGGTCCTGTGTGAGTGC
+TATGACGCGGGCTGTGCTTGGTACGAGCTCACCCCGGCCGAGACCTCGGTTAGGTTGCGG
+GCCTACCTGAACACACCAGGGTTGCCCGTTTGCCAGGACCACCTGGAGTTCTGGGAGAGT
+GTCTTCACAGGCCTCACCCATATAGATGCACACTTCTTGTCCCAGACCAAGCAGGCAGGA
+GACAACTTCCCCTACCTGGTAGCATACCAAGCCACGGTGTGCGCCAGGGCTCAGGCCCCA
+CCTCCATCATGGGATCAAATGTGGAAGTGTCTCATACGGCTGAAACCTACGCTGCACGGG
+CCAACACCCTTGCTGTACAGGCTGGGAGCCGTCCAGAATGAGGTCACCCTCACCCACCCC
+ATAACCAAATACATCATGGCATGCATGTCGGCTGACCTGGAGGTCGTCACTAGCACCTGG
+GTGCTGGTGGGCGGAGTCCTTGCAGCTCTGGCCGCGTATTGCCTGACAACAGGCAGTGTG
+GTCATTGTGGGTAGGATTATCTTGTCCGGGAGGCCGGCCATTGTTCCCGACAGGGAGCTT
+CTCTACCAGGAGTTCGATGAAATGGAAGAGTGCGCCTCGCACCTCCCTTACATCGAGCAG
+GGAATGCAGCTCGCCGAGCAATTCAAGCAGAAAGCGCTCGGGTTACTGCAAACAGCCACC
+AAACAAGCGGAGGCTGCTGCTCCCGTGGTGGAGTCCAAGTGGCGAGCCCTTGAGACATTC
+TGGGCGAAGCACATGTGGAATTTCATCAGCGGGATACAGTACTTAGCAGGCTTATCCACT
+CTGCCTGGGAACCCCGCAATAGCATCATTGATGGCATTCACAGCCTCTATCACCAGCCCG
+CTCACCACCCAAAGTACCCTCCTGTTTAACATCTTGGGGGGGTGGGTGGCTGCCCAACTC
+GCCCCCCCCAGCGCCGCTTCGGCTTTCGTGGGCGCCGGCATCGCCGGTGCGGCTGTTGGC
+AGCATAGGCCTTGGGAAGGTGCTTGTGGACATTCTGGCGGGTTATGGAGCAGGAGTGGCC
+GGCGCGCTCGTGGCCTTTAAGGTCATGAGCGGCGAGATGCCCTCCACCGAGGACCTGGTC
+AATCTACTTCCTGCCATCCTCTCTCCTGGCGCCCTGGTCGTCGGGGTCGTGTGTGCAGCA
+ATACTGCGTCGACACGTGGGTCCGGGAGAGGGGGCTGTGCAGTGGATGAACCGGCTGATA
+GCGTTCGCCTCGCGGGGTAATCATGTTTCCCCCACGCACTATGTGCCTGAGAGCGACGCC
+GCAGCGCGTGTTACTCAGATCCTCTCCAGCCTTACCATCACTCAGCTGCTGAAAAGGCTC
+CACCAGTGGATTAATGAAGACTGCTCCACACCGTGTTCCGGCTCGTGGCTAAGGGATGTT
+TGGGACTGGATATGCACGGTGTTGACTGACTTCAAGACCTGGCTCCAGTCCAAGCTCCTG
+CCGCAGCTACCTGGAGTCCCTTTTTTCTCGTGCCAACGCGGGTACAAGGGAGTCTGGCGG
+GGAGACGGCATCATGCAAACCACCTGCCCATGTGGAGCACAGATCACCGGACATGTCAAA
+AACGGTTCCATGAGGATCGTCGGGCCTAAGACCTGCAGCAACACGTGGCATGGAACATTC
+CCCATCAACGCATACACCACGGGCCCCTGCACACCCTCTCCAGCGCCAAACTATTCTAGG
+GCGCTGTGGCGGGTGGCCGCTGAGGAGTACGTGGAGGTCACGCGGGTGGGGGATTTCCAC
+TACGTGACGGGCATGACCACTGACAACGTAAAGTGCCCATGCCAGGTTCCGGCTCCTGAA
+TTCTTCTCGGAGGTGGACGGAGTGCGGTTGCACAGGTACGCTCCGGCGTGCAGGCCTCTC
+CTACGGGAGGAGGTTACATTCCAGGTCGGGCTCAACCAATACCTGGTTGGGTCACAGCTA
+CCATGCGAGCCCGAACCGGATGTAGCAGTGCTCACTTCCATGCTCACCGACCCCTCCCAC
+ATCACAGCAGAAACGGCTAAGCGTAGGTTGGCCAGGGGGTCTCCCCCCTCCTTGGCCAGC
+TCTTCAGCTAGCCAGTTGTCTGCGCCTTCCTTGAAGGCGACATGCACTACCCACCATGTC
+TCTCCGGACGCTGACCTCATCGAGGCCAACCTCCTGTGGCGGCAGGAGATGGGCGGGAAC
+ATCACCCGCGTGGAGTCGGAGAACAAGGTGGTAGTCCTGGACTCTTTCGACCCGCTTCGA
+GCGGAGGAGGATGAGAGGGAAGTATCCGTTCCGGCGGAGATCCTGCGGAAATCCAAGAAG
+TTCCCCGCAGCGATGCCCATCTGGGCGCGCCCGGATTACAACCCTCCACTGTTAGAGTCC
+TGGAAGGACCCGGACTACGTCCCTCCGGTGGTGCACGGGTGCCCGTTGCCACCTATCAAG
+GCCCCTCCAATACCACCTCCACGGAGAAAGAGGACGGTTGTCCTAACAGAGTCCTCCGTG
+TCTTCTGCCTTAGCGGAGCTCGCTACTAAGACCTTCGGCAGCTCCGAATCATCGGCCGTC
+GACAGCGGCACGGCGACCGCCCTTCCTGACCAGGCCTCCGACGACGGTGACAAAGGATCC
+GACGTTGAGTCGTACTCCTCCATGCCCCCCCTTGAGGGGGAACCGGGGGACCCCGATCTC
+AGTGACGGGTCTTGGTCTACCGTGAGCGAGGAAGCTAGTGAGGATGTCGTCTGCTGCTCA
+ATGTCCTACACATGGACAGGCGCCTTGATCACGCCATGCGCTGCGGAGGAAAGCAAGCTG
+CCCATCAACGCGTTGAGCAACTCTTTGCTGCGCCACCATAACATGGTTTATGCCACAACA
+TCTCGCAGCGCAGGCCTGCGGCAGAAGAAGGTCACCTTTGACAGACTGCAAGTCCTGGAC
+GACCACTACCGGGACGTGCTCAAGGAGATGAAGGCGAAGGCGTCCACAGTTAAGGCTAAA
+CTCCTATCCGTAGAGGAAGCCTGCAAGCTGACGCCCCCACATTCGGCCAAATCCAAGTTT
+GGCTATGGGGCAAAGGACGTCCGGAACCTATCCAGCAAGGCCGTTAACCACATCCACTCC
+GTGTGGAAGGACTTGCTGGAAGACACTGTGACACCAATTGACACCACCATCATGGCAAAA
+AATGAGGTTTTCTGTGTCCAACCAGAGAAAGGAGGCCGTAAGCCAGCCCGCCTTATCGTA
+TTCCCAGATCTGGGAGTCCGTGTATGCGAGAAGATGGCCCTCTATGATGTGGTCTCCACC
+CTTCCTCAGGTCGTGATGGGCTCCTCATACGGATTCCAGTACTCTCCTGGGCAGCGAGTC
+GAGTTCCTGGTGAATACCTGGAAATCAAAGAAAAACCCCATGGGCTTTTCATATGACACT
+CGCTGTTTCGACTCAACGGTCACCGAGAACGACATCCGTGTTGAGGAGTCAATTTACCAA
+TGTTGTGACTTGGCCCCCGAAGCCAGACAGGCCATAAAATCGCTCACAGAGCGGCTTTAT
+ATCGGGGGTCCTCTGACTAATTCAAAAGGGCAGAACTGCGGTTATCGCCGGTGCCGCGCG
+AGCGGCGTGCTGACGACTAGCTGCGGTAACACCCTCACATGTTACTTGAAGGCCTCTGCA
+GCCTGTCGAGCTGCGAAGCTCCAGGACTGCACGATGCTCGTGAACGGAGACGACCTCGTC
+GTTATCTGTGAAAGCGCGGGAACCCAAGAGGACGCGGCGAGCCTACGAGTCTTCACGGAG
+GCTATGACTAGGTACTCCGCCCCCCCCGGGGACCCGCCCCAACCAGAATACGACTTGGAG
+CTGATAACATCATGTTCCTCCAATGTGTCGGTCGCCCACGATGCATCAGGCAAAAGGGTG
+TACTACCTCACCCGTGATCCCACCACCCCCCTAGCACGGGCTGCGTGGGAGACAGCTAGA
+CACACTCCAGTTAACTCCTGGCTAGGCAACATTATTATGTATGCGCCCACTTTGTGGGCA
+AGGATGATTCTGATGACTCACTTCTTCTCCATCCTTCTAGCGCAGGAGCAACTTGAAAAA
+GCCCTGGACTGCCAGATCTACGGGGCCTGTTACTCCATTGAGCCACTTGACCTACCTCAG
+ATCATTGAACGACTCCATGGCCTTAGCGCATTTTCACTCCATAGTTACTCTCCAGGTGAG
+ATCAATAGGGTGGCTTCATGCCTCAGGAAACTTGGGGTACCACCCTTGCGAGTCTGGAGA
+CATCGGGCCAGGAGCGTCCGCGCTAGGCTACTGTCCCAGGGAGGGAGGGCCGCCACTTGT
+GGCAAATACCTCTTCAACTGGGCAGTAAAAACCAAACTTAAACTCACTCCAATCCCGGCT
+GCGTCCCGGCTGGACTTGTCCGGCTGGTTCGTTGCTGGTTACAGCGGGGGAGACATATAT
+CACAGCCTGTCTCGTGCCCGACCCCGTTGGTTCATGCTGTGCCTACTCCTACTTTCTGTA
+GGGGTAGGCATCTACCTGCTCCCCAACCGATGA
+
+# Drug_Target_6_General_Function:
+Involved in structural molecule activity
+
+# Drug_Target_6_General_References:
+10318918	Tan SL, Nakao H, He Y, Vijaysri S, Neddermann P, Jacobs BL, Mayer BJ, Katze MG: NS5A, a nonstructural protein of hepatitis C virus, binds growth factor receptor-bound protein 2 adaptor protein in a Src homology 3 domain/ligand-dependent manner and perturbs mitogenic signaling. Proc Natl Acad Sci U S A. 1999 May 11;96(10):5533-8.
+10557268	Bressanelli S, Tomei L, Roussel A, Incitti I, Vitale RL, Mathieu M, De Francesco R, Rey FA: Crystal structure of the RNA-dependent RNA polymerase of hepatitis C virus. Proc Natl Acad Sci U S A. 1999 Nov 9;96(23):13034-9.
+10574797	Yao N, Reichert P, Taremi SS, Prosise WW, Weber PC: Molecular views of viral polyprotein processing revealed by the crystal structure of the hepatitis C virus bifunctional protease-helicase. Structure. 1999 Nov 15;7(11):1353-63.
+10574802	Ago H, Adachi T, Yoshida A, Yamamoto M, Habuka N, Yatsunami K, Miyano M: Crystal structure of the RNA-dependent RNA polymerase of hepatitis C virus. Structure. 1999 Nov 15;7(11):1417-26.
+11591719	Thibeault D, Maurice R, Pilote L, Lamarre D, Pause A: In vitro characterization of a purified NS2/3 protease variant of hepatitis C virus. J Biol Chem. 2001 Dec 7;276(49):46678-84. Epub 2001 Oct 8.
+12660945	Hofmann WP, Sarrazin C, Kronenberger B, Schonberger B, Bruch K, Zeuzem S: Mutations within the CD81-binding sites and hypervariable region 2 of the envelope 2 protein: correlation with treatment response in hepatitis C virus-infected patients. J Infect Dis. 2003 Mar 15;187(6):982-7. Epub 2003 Mar 6.
+1847440	Takamizawa A, Mori C, Fuke I, Manabe S, Murakami S, Fujita J, Onishi E, Andoh T, Yoshida I, Okayama H: Structure and organization of the hepatitis C virus genome isolated from human carriers. J Virol. 1991 Mar;65(3):1105-13.
+8647104	Borowski P, Heiland M, Oehlmann K, Becker B, Kornetzky L, Feucht H, Laufs R: Non-structural protein 3 of hepatitis C virus inhibits phosphorylation mediated by cAMP-dependent protein kinase. Eur J Biochem. 1996 May 1;237(3):611-8.
+8861916	Love RA, Parge HE, Wickersham JA, Hostomsky Z, Habuka N, Moomaw EW, Adachi T, Hostomska Z: The crystal structure of hepatitis C virus NS3 proteinase reveals a trypsin-like fold and a structural zinc binding site. Cell. 1996 Oct 18;87(2):331-42.
+9568891	Yan Y, Li Y, Munshi S, Sardana V, Cole JL, Sardana M, Steinkuehler C, Tomei L, De Francesco R, Kuo LC, Chen Z: Complex of NS3 protease and NS4A peptide of BK strain hepatitis C virus: a 2.2 A resolution structure in a hexagonal crystal form. Protein Sci. 1998 Apr;7(4):837-47.
+9614113	Cho HS, Ha NC, Kang LW, Chung KM, Back SH, Jang SK, Oh BH: Crystal structure of RNA helicase from genotype 1b hepatitis C virus. A feasible mechanism of unwinding duplex RNA. J Biol Chem. 1998 Jun 12;273(24):15045-52.
+
+# Drug_Target_6_HGNC_ID:
+Not Available
+
+# Drug_Target_6_HPRD_ID:
+Not Available
+
+# Drug_Target_6_ID:
+2694
+
+# Drug_Target_6_Locus:
+Not Available
+
+# Drug_Target_6_Molecular_Weight:
+327196
+
+# Drug_Target_6_Name:
+Genome polyprotein
+
+# Drug_Target_6_Number_of_Residues:
+3010
+
+# Drug_Target_6_PDB_ID:
+1CU1
+
+# Drug_Target_6_Pathway:
+Not Available
+
+# Drug_Target_6_Pfam_Domain_Function:
+PF00998	RdRP_3
+PF01001	HCV_NS4b
+PF01006	HCV_NS4a
+PF01506	HCV_NS5a
+PF01538	HCV_NS2
+PF01539	HCV_env
+PF01542	HCV_core
+PF01543	HCV_capsid
+PF01560	HCV_NS1
+PF02907	Peptidase_S29
+PF08300	HCV_NS5a_1a
+PF08301	HCV_NS5a_1b
+
+# Drug_Target_6_Protein_Sequence:
+>Genome polyprotein [Contains: Core protein p21
+MSTNPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPRLGVRAPRKTSERSQPRG
+RRQPIPKARRPEGRTWAQPGYPWPLYGNEGLGWAGWLLSPRGSRPSWGPTDPRRRSRNLG
+KVIDTLTCGFADLMGYIPLVGAPLGGAARALAHGVRVLEDGVNYATGNLPGCSFSIFLLA
+LLSCLTTPASAYEVHNVSGIYHVTNDCSNASIVYEAADLIMHTPGCVPCVREGNSSRCWV
+ALTPTLAARNVTIPTTTIRRHVDLLVGAAAFCSAMYVGDLCGSVFLVSQLFTFSPRRHVT
+LQDCNCSIYPGHVSGHRMAWDMMMNWSPTTALVVSQLLRIPQAVVDMVAGAHWGVLAGLA
+YYSMAGNWAKVLIVMLLFAGVDGDTHVTGGAQAKTTNRLVSMFASGPSQKIQLINTNGSW
+HINRTALNCNDSLQTGFLAALFYTHSFNSSGCPERMAQCRTIDKFDQGWGPITYAESSRS
+DQRPYCWHYPPPQCTIVPASEVCGPVYCFTPSPVVVGTTDRFGVPTYRWGENETDVLLLN
+NTRPPQGNWFGCTWMNSTGFTKTCGGPPCNIGGVGNNTLTCPTDCFRKHPEATYTKCGSG
+PWLTPRCMVDYPYRLWHYPCTVNFTIFKVRMYVGGVEHRLNAACNWTRGERCDLEDRDRP
+ELSPLLLSTTEWQVLPCSFTTLPALSTGLIHLHQNIVDVQYLYGIGSAVVSFAIKWEYVL
+LLFLLLADARVCACLWMMLLIAQAEAALENLVVLNSASVAGAHGILSFLVFFCAAWYIKG
+RLVPGATYALYGVWPLLLLLLALPPRAYAMDREMAASCGGAVFVGLVLLTLSPYYKVFLA
+RLIWWLQYFTTRAEADLHVWIPPLNARGGRDAIILLMCAVHPELIFDITKLLIAILGPLM
+VLQAGITRVPYFVRAQGLIHACMLVRKVAGGHYVQMAFMKLGALTGTYIYNHLTPLRDWP
+RAGLRDLAVAVEPVVFSDMETKIITWGADTAACGDIILGLPVSARRGKEILLGPADSLEG
+RGLRLLAPITAYSQQTRGLLGCIITSLTGRDKNQVEGEVQVVSTATQSFLATCVNGVCWT
+VYHGAGSKTLAAPKGPITQMYTNVDQDLVGWPKPPGARSLTPCTCGSSDLYLVTRHADVI
+PVRRRGDSRGSLLSPRPVSYLKGSSGGPLLCPFGHAVGIFRAAVCTRGVAKAVDFVPVES
+METTMRSPVFTDNSSPPAVPQSFQVAHLHAPTGSGKSTKVPAAYAAQGYKVLVLNPSVAA
+TLGFGAYMSKAHGIDPNIRTGVRTITTGAPVTYSTYGKFLADGGCSGGAYDIIICDECHS
+TDSTTILGIGTVLDQAETAGARLVVLATATPPGSVTVPHPNIEEVALSNTGEIPFYGKAI
+PIEAIRGGRHLIFCHSKKKCDELAAKLSGLGINAVAYYRGLDVSVIPTIGDVVVVATDAL
+MTGYTGDFDSVIDCNTCVTQTVDFSLDPTFTIETTTVPQDAVSRSQRRGRTGRGRRGIYR
+FVTPGERPSGMFDSSVLCECYDAGCAWYELTPAETSVRLRAYLNTPGLPVCQDHLEFWES
+VFTGLTHIDAHFLSQTKQAGDNFPYLVAYQATVCARAQAPPPSWDQMWKCLIRLKPTLHG
+PTPLLYRLGAVQNEVTLTHPITKYIMACMSADLEVVTSTWVLVGGVLAALAAYCLTTGSV
+VIVGRIILSGRPAIVPDRELLYQEFDEMEECASHLPYIEQGMQLAEQFKQKALGLLQTAT
+KQAEAAAPVVESKWRALETFWAKHMWNFISGIQYLAGLSTLPGNPAIASLMAFTASITSP
+LTTQSTLLFNILGGWVAAQLAPPSAASAFVGAGIAGAAVGSIGLGKVLVDILAGYGAGVA
+GALVAFKVMSGEMPSTEDLVNLLPAILSPGALVVGVVCAAILRRHVGPGEGAVQWMNRLI
+AFASRGNHVSPTHYVPESDAAARVTQILSSLTITQLLKRLHQWINEDCSTPCSGSWLRDV
+WDWICTVLTDFKTWLQSKLLPQLPGVPFFSCQRGYKGVWRGDGIMQTTCPCGAQITGHVK
+NGSMRIVGPKTCSNTWHGTFPINAYTTGPCTPSPAPNYSRALWRVAAEEYVEVTRVGDFH
+YVTGMTTDNVKCPCQVPAPEFFSEVDGVRLHRYAPACRPLLREEVTFQVGLNQYLVGSQL
+PCEPEPDVAVLTSMLTDPSHITAETAKRRLARGSPPSLASSSASQLSAPSLKATCTTHHV
+SPDADLIEANLLWRQEMGGNITRVESENKVVVLDSFDPLRAEEDEREVSVPAEILRKSKK
+FPAAMPIWARPDYNPPLLESWKDPDYVPPVVHGCPLPPIKAPPIPPPRRKRTVVLTESSV
+SSALAELATKTFGSSESSAVDSGTATALPDQASDDGDKGSDVESYSSMPPLEGEPGDPDL
+SDGSWSTVSEEASEDVVCCSMSYTWTGALITPCAAEESKLPINALSNSLLRHHNMVYATT
+SRSAGLRQKKVTFDRLQVLDDHYRDVLKEMKAKASTVKAKLLSVEEACKLTPPHSAKSKF
+GYGAKDVRNLSSKAVNHIHSVWKDLLEDTVTPIDTTIMAKNEVFCVQPEKGGRKPARLIV
+FPDLGVRVCEKMALYDVVSTLPQVVMGSSYGFQYSPGQRVEFLVNTWKSKKNPMGFSYDT
+RCFDSTVTENDIRVEESIYQCCDLAPEARQAIKSLTERLYIGGPLTNSKGQNCGYRRCRA
+SGVLTTSCGNTLTCYLKASAACRAAKLQDCTMLVNGDDLVVICESAGTQEDAASLRVFTE
+AMTRYSAPPGDPPQPEYDLELITSCSSNVSVAHDASGKRVYYLTRDPTTPLARAAWETAR
+HTPVNSWLGNIIMYAPTLWARMILMTHFFSILLAQEQLEKALDCQIYGACYSIEPLDLPQ
+IIERLHGLSAFSLHSYSPGEINRVASCLRKLGVPPLRVWRHRARSVRARLLSQGGRAATC
+GKYLFNWAVKTKLKLTPIPAASRLDLSGWFVAGYSGGDIYHSLSRARPRWFMLCLLLLSV
+GVGIYLLPNR
+
+# Drug_Target_6_Reaction:
+nucleoside triphosphate + RNAn = diphosphate + RNAn+1
+
+# Drug_Target_6_Signals:
+None
+
+# Drug_Target_6_Specific_Function:
+NS5B is a RNA-dependent RNA polymerase that plays an essential role in the virus replication
+
+# Drug_Target_6_SwissProt_ID:
+P26663
+
+# Drug_Target_6_SwissProt_Name:
+POLG_HCVBK
+
+# Drug_Target_6_Synonyms:
+Capsid protein C
+Core protein p19
+EC 2.7.7.48
+EC 3.4.21.98
+EC 3.4.22.-
+EC 3.6.1.-
+EC 3.6.1.15
+Envelope glycoprotein E1
+Envelope glycoprotein E2
+Genome polyprotein [Contains: Core protein p21
+Hepacivirin
+NS1
+NS3P
+NS4A
+NS4B
+NS5A
+NS5B
+Non-structural protein 4A
+Non-structural protein 4B
+Non-structural protein 5A
+Protease NS2-3
+RNA-directed RNA polymerase
+Serine protease/NTPase/helicase NS3
+gp32
+gp35
+gp68
+gp70
+p21
+p23
+p27
+p56
+p68]
+p7
+p70
+p8
+
+# Drug_Target_6_Theoretical_pI:
+8.14
+
+# Drug_Target_6_Transmembrane_Regions:
+169-189
+359-379
+726-746
+758-778
+783-803
+814-834
+882-902
+929-949
+1658-1678
+1806-1826
+1829-1849
+1851-1871
+1882-1902
+2990-3010
+
+# Drug_Target_7_Cellular_Location:
+Not Available
+
+# Drug_Target_7_Chromosome_Location:
+Not Available
+
+# Drug_Target_7_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_7_Essentiality:
+Non-Essential
+
+# Drug_Target_7_GenAtlas_ID:
+Not Available
+
+# Drug_Target_7_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_7_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_7_GeneCard_ID:
+Not Available
+
+# Drug_Target_7_Gene_Name:
+RND3
+
+# Drug_Target_7_Gene_Sequence:
+Not Available
+
+# Drug_Target_7_General_Function:
+Not Available
+
+# Drug_Target_7_General_References:
+Not Available
+
+# Drug_Target_7_HGNC_ID:
+Not Available
+
+# Drug_Target_7_HPRD_ID:
+Not Available
+
+# Drug_Target_7_ID:
+7112
+
+# Drug_Target_7_Locus:
+Not Available
+
+# Drug_Target_7_Molecular_Weight:
+Not Available
+
+# Drug_Target_7_Name:
+Rho-related GTP-binding protein RhoE
+
+# Drug_Target_7_Number_of_Residues:
+0
+
+# Drug_Target_7_PDB_ID:
+Not Available
+
+# Drug_Target_7_Pathway:
+Not Available
+
+# Drug_Target_7_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_7_Protein_Sequence:
+Not Available
+
+# Drug_Target_7_Reaction:
+Not Available
+
+# Drug_Target_7_Signals:
+Not Available
+
+# Drug_Target_7_Specific_Function:
+Not Available
+
+# Drug_Target_7_SwissProt_ID:
+P61587
+
+# Drug_Target_7_SwissProt_Name:
+RND3_HUMAN
+
+# Drug_Target_7_Synonyms:
+Not Available
+
+# Drug_Target_7_Theoretical_pI:
+Not Available
+
+# Drug_Target_7_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_8_Cellular_Location:
+E(rns) glycoprotein:Cell surface. Envelope glycoprotein E2:Cell surface. Non-structural protein 2:Me
+
+# Drug_Target_8_Chromosome_Location:
+Not Available
+
+# Drug_Target_8_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_8_Essentiality:
+Non-Essential
+
+# Drug_Target_8_GenAtlas_ID:
+Not Available
+
+# Drug_Target_8_GenBank_ID_Gene:
+M31182
+
+# Drug_Target_8_GenBank_ID_Protein:
+323206
+
+# Drug_Target_8_GeneCard_ID:
+Not Available
+
+# Drug_Target_8_Gene_Name:
+Not Available
+
+# Drug_Target_8_Gene_Sequence:
+>11967 bp
+ATGGAGTTGATCACAAATGAACTTTTATACAAAACATACAAACAAAAACCCGTCGGGGTG
+GAGGAACCTGTTTATGATCAGGCAGGTGATCCCTTATTTGGTGAAAGGGGAGCAGTCCAC
+CCTCAATCGACGCTAAAGCTCCCACACAAGAGAGGGGAACGCGATGTTCCAACCAACTTG
+GCATCCTTACCAAAAAGAGGTGACTGCAGGTCGGGTAATAGCAGAGGACCTGTGAGCGGG
+ATCTACCTGAAGCCAGGGCCACTATTTTACCAGGACTATAAAGGTCCCGTCTATCACAGG
+GCCCCGCTGGAGCTCTTTGAGGAGGGATCCATGTGTGAAACGACTAAACGGATAGGGAGA
+GTAACTGGAAGTGACGGAAAGCTGTACCACATTTATGTGTGTATAGATGGATGTATAATA
+ATAAAAAGTGCCACGAGAAGTTACCAAAGGGTGTTCAGGTGGGTCCATAATAGGCTTGAC
+TGCCCTCTATGGGTCACAACTTGCTCAGACACGAAAGAAGAGGGAGCAACAAAAAAGAAA
+ACACAGAAACCCGACAGACTAGAAAGGGGGAAAATGAAAATAGTGCCCAAAGAATCTGAA
+AAAGACAGCAAAACTAAACCTCCGGATGCTACAATAGTGGTGGAAGGAGTCAAATACCAG
+GTGAGGAAGAAGGGAAAAACCAAGAGTAAAAACACTCAGGACGGCTTGTACCATAACAAA
+AACAAACCTCAGGAATCACGCAAGAAACTGGAAAAAGCATTGTTGGCGTGGGCAATAATA
+GCTATAGTTTTGTTTCAAGTTACAATGGGAGAAAACATAACACAGTGGAACCTACAAGAT
+AATGGGACGGAAGGGATACAACGGGCAATGTTCCAAAGGGGTGTGAATAGAAGTTTACAT
+GGAATCTGGCCAGAGAAAATCTGTACTGGCGTCCCTTCCCATCTAGCCACCGATATAGAA
+CTAAAAACAATTCATGGTATGATGGATGCAAGTGAGAAGACCAACTACACGTGTTGCAGA
+CTTCAACGCCATGAGTGGAACAAGCATGGTTGGTGCAACTGGTACAATATTGAACCCTGG
+ATTCTAGTCATGAATAGAACCCAAGCCAATCTCACTGAGGGACAACCACCAAGGGAGTGC
+GCAGTCACTTGTAGGTATGATAGGGCTAGTGACTTAAACGTGGTAACACAAGCTAGAGAT
+AGCCCCACACCCTTAACAGGTTGCAAGAAAGGAAAGAACTTCTCCTTTGCAGGCATATTG
+ATGCGGGGCCCCTGCAACTTTGAAATAGCTGCAAGTGATGTATTATTCAAAGAACATGAA
+CGCATTAGTATGTTCCAGGATACCACTCTTTACCTTGTTGACGGGTTGACCAACTCCTTA
+GAAGGTGCCAGACAAGGAACCGCTAAACTGACAACCTGGTTAGGCAAGCAGCTCGGGATA
+CTAGGAAAAAAGTTGGAAAACAAGAGTAAGACGTGGTTTGGAGCATACGCTGCTTCCCCT
+TACTGTGATGTCGATCGCAAAATTGGCTACATATGGTATACAAAAAATTGCACCCCTGCC
+TGCTTACCCAAGAACACAAAAATTGTCGGCCCTGGGAAATTTGGCACCAATGCAGAGGAC
+GGCAAGATATTACATGAGATGGGGGGTCACTTGTCGGAGGTACTACTACTTTCTTTAGTG
+GTGCTGTCCGACTTCGCACCGGAAACAGCTAGTGTAATGTACCTAATCCTACATTTTTCC
+ATCCCACAAAGTCACGTTGATGTAATGGATTGTGATAAGACCCAGTTGAACCTCACAGTG
+GAGCTGACAACAGCTGAAGTAATACCAGGGTCGGTCTGGAATCTAGGCAAATATGTATGT
+ATAAGACCAAATTGGTGGCCTTATGAGACAACTGTAGTGTTGGCATTTGAAGAGGTGAGC
+CAGGTGGTGAAGTTAGTGTTGAGGGCACTCAGAGATTTAACACGCATTTGGAACGCTGCA
+ACAACTACTGCTTTTTTAGTATGCCTTGTTAAGATAGTCAGGGGCCAGATGGTACAGGGC
+ATTCTGTGGCTACTATTGATAACAGGGGTACAAGGGCACTTGGATTGCAAACCTGAATTC
+TCGTATGCCATAGCAAAGGACGAAAGAATTGGTCAACTGGGGGCTGAAGGCCTTACCACC
+ACTTGGAAGGAATACTCACCTGGAATGAAGCTGGAAGACACAATGGTCATTGCTTGGTGC
+GAAGATGGGAAGTTAATGTACCTCCAAAGATGCACGAGAGAAACCAGATATCTCGCAATC
+TTGCATACAAGAGCCTTGCCGACCAGTGTGGTATTCAAAAAACTCTTTGATGGGCGAAAG
+CAAGAGGATGTAGTCGAAATGAACGACAACTTTGAATTTGGACTCTGCCCATGTGATGCC
+AAACCCATAGTAAGAGGGAAGTTCAATACAACGCTGCTGAACGGACCGGCCTTCCAGATG
+GTATGCCCCATAGGATGGACAGGGACTGTAAGCTGTACGTCATTCAATATGGACACCTTA
+GCCACAACTGTGGTACGGACATATAGAAGGTCTAAACCATTCCCTCATAGGCAAGGCTGT
+ATCACCCAAAAGAATCTGGGGGAGGATCTCCATAACTGCATCCTTGGAGGAAATTGGACT
+TGTGTGCCTGGAGACCAACTACTATACAAAGGGGGCTCTATTGAATCTTGCAAGTGGTGT
+GGCTATCAATTTAAAGAGAGTGAGGGACTACCACACTACCCCATTGGCAAGTGTAAATTG
+GAGAACGAGACTGGTTACAGGCTAGTAGACAGTACCTCTTGCAATAGAGAAGGTGTGGCC
+ATAGTACCACAAGGGACATTAAAGTGCAAGATAGGAAAAACAACTGTACAGGTCATAGCT
+ATGGATACCAAACTCGGACCTATGCCTTGCAGACCATATGAAATCATATCAAGTGAGGGG
+CCTGTAGAAAAGACAGCGTGTACTTTCAACTACACTAAGACATTAAAAAATAAGTATTTT
+GAGCCCAGAGACAGCTACTTTCAGCAATACATGCTAAAAGGAGAGTATCAATACTGGTTT
+GACCTGGAGGTGACTGACCATCACCGGGATTACTTCGCTGAGTCCATATTAGTGGTGGTA
+GTAGCCCTCTTGGGTGGCAGATATGTACTTTGGTTACTGGTTACATACATGGTCTTATCA
+GAACAGAAGGCCTTAGGGATTCAGTATGGATCAGGGGAAGTGGTGATGATGGGCAACTTG
+CTAACCCATAACAATATTGAAGTGGTGACATACTTCTTGCTGCTGTACCTACTGCTGAGG
+GAGGAGAGCGTAAAGAAGTGGGTCTTACTCTTATACCACATCTTAGTGGTACACCCAATC
+AAATCTGTAATTGTGATCCTACTGATGATTGGGGATGTGGTAAAGGCCGATTCAGGGGGC
+CAAGAGTACTTGGGGAAAATAGACCTCTGTTTTACAACAGTAGTACTAATCGTCATAGGT
+TTAATCATAGCTAGGCGTGACCCAACTATAGTGCCACTGGTAACAATAATGGCAGCACTG
+AGGGTCACTGAACTGACCCACCAGCCTGGAGTTGACATCGCTGTGGCGGTCATGACTATA
+ACCCTACTGATGGTTAGCTATGTGACAGATTATTTTAGATATAAAAAATGGTTACAGTGC
+ATTCTCAGCCTGGTATCTGCGGTGTTCTTGATAAGAAGCCTAATATACCTAGGTAGAATC
+GAGATGCCAGAGGTAACTATCCCAAACTGGAGACCACTAACTTTAATACTATTATATTTG
+ATCTCAACAACAATTGTAACGAGGTGGAAGGTTGACGTGGCTGGCCTATTGTTGCAATGT
+GTGCCTATCTTATTGCTGGTCACAACCTTGTGGGCCGACTTCTTAACCCTAATACTGATC
+CTGCCTACCTATGAATTGGTTAAATTATACTATCTGAAAACTGTTAGGACTGATACAGAA
+AGAAGTTGGCTAGGGGGGATAGACTATACAAGAGTTGACTCCATCTACGACGTTGATGAG
+AGTGGAGAGGGCGTATATCTTTTTCCATCAAGGCAGAAAGCACAGGGGAATTTTTCTATA
+CTCTTGCCCCTTATCAAAGCAACACTGATAAGTTGCGTCAGCAGTAAATGGCAGCTAATA
+TACATGAGTTACTTAACTTTGGACTTTATGTACTACATGCACAGGAAAGTTATAGAAGAG
+ATCTCAGGAGGTACCAACATAATATCCAGGTTAGTGGCAGCACTCATAGAGCTGAACTGG
+TCCATGGAAGAAGAGGAGAGCAAAGGCTTAAAGAAGTTTTATCTATTGTCTGGAAGGTTG
+AGAAACCTAATAATAAAACATAAGGTAAGGAATGAGACCGTGGCTTCTTGGTACGGGGAG
+GAGGAAGTCTACGGTATGCCAAAGATCATGACTATAATCAAGGCCAGTACACTGAGTAAG
+AGCAGGCACTGCATAATATGCACTGTATGTGAGGGCCGAGAGTGGAAAGGTGGCACCTGC
+CCAAAATGTGGACGCCATGGGAAGCCGATAACGTGTGGGATGTCGCTAGCAGATTTTGAA
+GAAAGACACTATAAAAGAATCTTTATAAGGGAAGGCAACTTTGAGGGTATGTGCAGCCGA
+TGCCAGGGAAAGCATAGGAGGTTTGAAATGGACCGGGAACCTAAGAGTGCCAGATACTGT
+GCTGAGTGTAATAGGCTGCATCCTGCTGAGGAAGGTGACTTTTGGGCAGAGTCGAGCATG
+TTGGGCCTCAAAATCACCTACTTTGCGCTGATGGATGGAAAGGTGTATGATATCACAGAG
+TGGGCTGGATGCCAGCGTGTGGGAATCTCCCCAGATACCCACAGAGTCCCTTGTCACATC
+TCATTTGGTTCACGGATGCCTTTCAGGCAGGAATACAATGGCTTTGTACAATATACCGCT
+AGGGGGCAACTATTTCTGAGAAACTTGCCCGTACTGGCAACTAAAGTAAAAATGCTCATG
+GTAGGCAACCTTGGAGAAGAAATTGGTAATCTGGAACATCTTGGGTGGATCCTAAGGGGG
+CCTGCCGTGTGTAAGAAGATCACAGAGCACGAAAAATGCCACATTAATATACTGGATAAA
+CTAACCGCATTTTTCGGGATCATGCCAAGGGGGACTACACCCAGAGCCCCGGTGAGGTTC
+CCTACGAGCTTACTAAAAGTGAGGAGGGGTCTGGAGACTGCCTGGGCTTACACACACCAA
+GGCGGGATAAGTTCAGTCGACCATGTAACCGCCGGAAAAGATCTACTGGTCTGTGACAGC
+ATGGGACGAACTAGAGTGGTTTGCCAAAGCAACAACAGGTTGACCGATGAGACAGAGTAT
+GGCGTCAAGACTGACTCAGGGTGCCCAGACGGTGCCAGATGTTATGTGTTAAATCCAGAG
+GCCGTTAACATATCAGGATCCAAAGGGGCAGTCGTTCACCTCCAAAAGACAGGTGGAGAA
+TTCACGTGTGTCACCGCATCAGGCACACCGGCTTTCTTCGACCTAAAAAACTTGAAAGGA
+TGGTCAGGCTTGCCTATATTTGAAGCCTCCAGCGGGAGGGTGGTTGGCAGAGTCAAAGTA
+GGGAAGAATGAAGAGTCTAAACCTACAAAAATAATGAGTGGAATCCAGACCGTCTCAAAA
+AACAGAGCAGACCTGACCGAGATGGTCAAGAAGATAACCAGCATGAACAGGGGAGACTTC
+AAGCAGATTACTTTGGCAACAGGGGCAGGCAAAACCACAGAACTCCCAAAAGCAGTTATA
+GAGGAGATAGGAAGACACAAGAGAGTATTAGTTCTTATACCATTAAGGGCAGCGGCAGAG
+TCAGTCTACCAGTATATGAGATTGAAACACCCAAGCATCTCTTTTAACCTAAGGATAGGG
+GACATGAAAGAGGGGGACATGGCAACCGGGATAACCTATGCATCATACGGGTACTTCTGC
+CAAATGCCTCAACCAAAGCTCAGAGCTGCTATGGTAGAATACTCATACATATTCTTAGAT
+GAATACCATTGTGCCACTCCTGAACAACTGGCAATTATCGGGAAGATCCACAGATTTTCA
+GAGAGTATAAGGGTTGTCGCCATGACTGCCACGCCAGCAGGGTCGGTGACCACAACAGGT
+CAAAAGCACCCAATAGAGGAATTCATAGCCCCCGAGGTAATGAAAGGGGAGGATCTTGGT
+AGTCAGTTCCTTGATATAGCAGGGTTAAAAATACCAGTGGATGAGATGAAAGGCAATATG
+TTGGTTTTTGTACCAACGAGAAACATGGCAGTAGAGGTAGCAAAGAAGCTAAAAGCTAAG
+GGCTATAACTCTGGATACTATTACAGTGGAGAGGATCCAGCCAATCTGAGAGTTGTGACA
+TCACAATCCCCCTATGTAATCGTGGCTACAAATGCTATTGAATCAGGAGTGACACTACCA
+GATTTGGACACGGTTATAGACACGGGGTTGAAATGTGAAAAGAGGGTGAGGGTATCATCA
+AAGATACCCTTCATCGTAACAGGCCTTAAGAGGATGGCCGTGACTGTGGGTGAGCAGGCG
+CAGCGTAGGGGCAGAGTAGGTAGAGTGAAACCCGGGAGGTATTATAGGAGCCAGGAAACA
+GCAACAGGGTCAAAGGACTACCACTATGACCTCTTGCAGGCACAAAGATACGGGATTGAG
+GATGGAATCAACGTGACGAAATCCTTTAGGGAGATGAATTACGATTGGAGCCTATACGAG
+GAGGACAGCCTACTAATAACCCAGCTGGAAATACTAAATAATCTACTCATCTCAGAAGAC
+TTGCCAGCCGCTGTTAAGAACATAATGGCCAGGACTGATCACCCAGAGCCAATCCAACTT
+GCATACAACAGCTATGAAGTCCAGGTCCCGGTCCTATTCCCAAAAATAAGGAATGGAGAA
+GTCACAGACACCTACGAAAATTACTCGTTTCTAAATGCCAGAAAGTTAGGGGAGGATGTG
+CCCGTGTATATCTACGCTACTGAAGATGAGGATCTGGCAGTTGACCTCTTAGGGCTAGAC
+TGGCCTGATCCTGGGAACCAGCAGGTAGTGGAGACTGGTAAAGCACTGAAGCAAGTGACC
+GGGTTGTCCTCGGCTGAAAATGCCCTACTAGTGGCTTTATTTGGGTATGTGGGTTACCAG
+GCTCTCTCAAAGAGGCATGTCCCAATGATAACAGACATATATACCATCGAGGACCAGAGA
+CTAGAAGACACCACCCACCTCCAGTATGCACCCAACGCCATAAAAACCGATGGGACAGAG
+ACTGAACTGAAAGAACTGGCGTCGGGTGACGTGGAAAAAATCATGGGAGCCATTTCAGAT
+TATGCAGCTGGGGGACTGGAGTTTGTTAAATCCCAAGCAGAAAAGATAAAAACAGCTCCT
+TTGTTTAAAGAAAACGCAGAAGCCGCAAAAGGGTATGTCCAAAAATTCATTGACTCATTA
+ATTGAAAATAAAGAAGAAATAATCAGATATGGTTTGTGGGGAACACACACAGCACTATAC
+AAAAGCATAGCTGCAAGACTGGGGCATGAAACAGCGTTTGCCACACTAGTGTTAAAGTGG
+CTAGCTTTTGGAGGGGAATCAGTGTCAGACCACGTCAAGCAGGCGGCAGTTGATTTAGTG
+GTCTATTATGTGATGAATAAGCCTTCCTTCCCAGGTGACTCCGAGACACAGCAAGAAGGG
+AGGCGATTCGTCGCAAGCCTGTTCATCTCCGCACTGGCAACCTACACATACAAAACTTGG
+AATTACCACAATCTCTCTAAAGTGGTGGAACCAGCCCTGGCTTACCTCCCCTATGCTACC
+AGCGCATTAAAAATGTTCACCCCAACGCGGCTGGAGAGCGTGGTGATACTGAGCACCACG
+ATATATAAAACATACCTCTCTATAAGGAAGGGGAAGAGTGATGGATTGCTGGGTACGGGG
+ATAAGTGCAGCCATGGAAATCCTGTCACAAAACCCAGTATCGGTAGGTATATCTGTGATG
+TTGGGGGTAGGGGCAATCGCTGCGCACAACGCTATTGAGTCCAGTGAACAGAAAAGGACC
+CTACTTATGAAGGTGTTTGTAAAGAACTTCTTGGATCAGGCTGCAACAGATGAGCTGGTA
+AAAGAAAACCCAGAAAAAATTATAATGGCCTTATTTGAAGCAGTCCAGACAATTGGTAAC
+CCCCTGAGACTAATATACCACCTGTATGGGGTTTACTACAAAGGTTGGGAGGCCAAGGAA
+CTATCTGAGAGGACAGCAGGCAGAAACTTATTCACATTGATAATGTTTGAAGCCTTCGAG
+TTATTAGGGATGGACTCACAAGGGAAAATAAGGAACCTGTCCGGAAATTACATTTTGGAT
+TTGATATACGGCCTACACAAGCAAATCAACAGAGGGCTGAAGAAAATGGTACTGGGGTGG
+GCCCCTGCACCCTTTAGTTGTGACTGGACCCCTAGTGACGAGAGGATCAGATTGCCAACA
+GACAACTATTTGAGGGTAGAAACCAGGTGCCCATGTGGCTATGAGATGAAAGCTTTCAAA
+AATGTAGGTGGCAAACTTACCAAAGTGGAGGAGAGCGGGCCTTTCCTATGTAGAAACAGA
+CCTGGTAGGGGACCAGTCAACTACAGAGTCACCAAGTATTACGATGACAACCTCAGAGAG
+ATAAAACCAGTAGCAAAGTTGGAAGGACAGGTAGAGCACTACTACAAAGGGGTCACAGCA
+AAAATTGACTACAGTAAAGGAAAAATGCTCTTGGCCACTGACAAGTGGGAGGTGGAACAT
+GGTGTCATAACCAGGTTAGCTAAGAGATATACTGGGGTCGGGTTCAATGGTGCATACTTA
+GGTGACGAGCCCAATCACCGTGCTCTAGTGGAGAGGGACTGTGCAACTATAACCAAAAAC
+ACAGTACAGTTTCTAAAAATGAAGAAGGGGTGTGCGTTCACCTATGACCTGACCATCTCC
+AATCTGACCAGGCTCATCGAACTAGTACACAGGAACAATCTTGAAGAGAAGGAAATACCC
+ACCGCTACGGTCACCACATGGCTAGCTTACACCTTCGTGAATGAAGACGTAGGGACTATA
+AAACCAGTACTAGGAGAGAGAGTAATCCCCGACCCTGTAGTTGATATCAATTTACAACCA
+GAGGTGCAAGTGGACACGTCAGAGGTTGGGATCACAATAATTGGAAGGGAAACCCTGATG
+ACAACGGGAGTGACACCTGTCTTGGAAAAAGTAGAGCCTGACGCCAGCGACAACCAAAAC
+TCGGTGAAGATCGGGTTGGATGAGGGTAATTACCCAGGGCCTGGAATACAGACACATACA
+CTAACAGAAGAAATACACAACAGGGATGCGAGGCCCTTCATCATGATCCTGGGCTCAAGG
+AATTCCATATCAAATAGGGCAAAGACTGCTAGAAATATAAATCTGTACACAGGAAATGAC
+CCCAGGGAAATACGAGACTTGATGGCTGCAGGGCGCATGTTAGTAGTAGCACTGAGGGAT
+GTCGACCCTGAGCTGTCTGAAATGGTCGATTTCAAGGGGACTTTTTTAGATAGGGAGGCC
+CTGGAGGCTCTAAGTCTCGGGCAACCTAAACCGAAGCAGGTTACCAAGGAAGCTGTTAGG
+AATTTGATAGAACAGAAAAAAGATGTGGAGATCCCTAACTGGTTTGCATCAGATGACCCA
+GTATTTCTGGAAGTGGCCTTAAAAAATGATAAGTACTACTTAGTAGGAGATGTTGGAGAG
+CTAAAAGATCAAGCTAAAGCACTTGGGGCCACGGATCAGACAAGAATTATAAAGGAGGTA
+GGCTCAAGGACGTATGCCATGAAGCTATCTAGCTGGTTCCTCAAGGCATCAAACAAACAG
+ATGAGTTTAACTCCACTGTTTGAGGAATTGTTGCTACGGTGCCCACCTGCAACTAAGAGC
+AATAAGGGGCACATGGCATCAGCTTACCAATTGGCACAGGGTAACTGGGAGCCCCTCGGT
+TGCGGGGTGCACCTAGGTACAATACCAGCCAGAAGGGTGAAGATACACCCATATGAAGCT
+TACCTGAAGTTGAAAGATTTCATAGAAGAAGAAGAGAAGAAACCTAGGGTTAAGGATACA
+GTAATAAGAGAGCACAACAAATGGATACTTAAAAAAATAAGGTTTCAAGGAAACCTCAAC
+ACCAAGAAAATGCTCAACCCAGGGAAACTATCTGAACAGTTGGACAGGGAGGGGCGCAAG
+AGGAACATCTACAACCACCAGATTGGTACTATAATGTCAAGTGCAGGCATAAGGCTGGAG
+AAATTGCCAATAGTGAGGGCCCAAACCGACACCAAAACCTTTCATGAGGCAATAAGAGAT
+AAGATAGACAAGAGTGAAAACCGGCAAAATCCAGAATTGCACAACAAATTGTTGGAGATT
+TTCCACACGATAGCCCAACCCACCCTGAAACACACCTACGGTGAGGTGACGTGGGAGCAA
+CTTGAGGCGGGGGTAAATAGAAAGGGGGCAGCAGGCTTCCTGGAGAAGAAGAACATCGGA
+GAAGTATTGGATTCAGAAAAGCACCTGGTAGAACAATTGGTCAGGGATCTGAAGGCCGGG
+AGAAAGATAAAATATTATGAAACTGCAATACCAAAAAATGAGAAGAGAGATGTCAGTGAT
+GACTGGCAGGCAGGGGACCTGGTGGTTGAGAAGAGGCCAAGAGTTATCCAATACCCTGAA
+GCCAAGACAAGGCTAGCCATCACTAAGGTCATGTATAACTGGGTGAAACAGCAGCCCGTT
+GTGATTCCAGGATATGAAGGAAAGACCCCCTTGTTCAACATCTTTGATAAAGTGAGAAAG
+GAATGGGACTCGTTCAATGAGCCAGTGGCCGTAAGTTTTGACACCAAAGCCTGGGACACT
+CAAGTGACTAGTAAGGATCTGCAACTTATTGGAGAAATCCAGAAATATTACTATAAGAAG
+GAGTGGCACAAGTTCATTGACACCATCACCGACCACATGACAGAAGTACCAGTTATAACA
+GCAGATGGTGAAGTATATATAAGAAATGGGCAGAGAGGGAGCGGCCAGCCAGACACAAGT
+GCTGGCAACAGCATGTTAAATGTCCTGACAATGATGTACGGCTTCTGCGAAAGCACAGGG
+GTACCGTACAAGAGTTTCAACAGGGTGGCAAGGATCCACGTCTGTGGGGATGATGGCTTC
+TTAATAACTGAAAAAGGGTTAGGGCTGAAATTTGCTAACAAAGGGATGCAGATTCTTCAT
+GAAGCAGGCAAACCTCAGAAGATAACGGAAGGGGAAAAGATGAAAGTTGCCTATAGATTT
+GAGGATATAGAGTTCTGTTCTCATACCCCAGTCCCTGTTAGGTGGTCCGACAACACCAGT
+AGTCACATGGCCGGGAGAGACACCGCTGTGATACTATCAAAGATGGCAACAAGATTGGAT
+TCAAGTGGAGAGAGGGGTACCACAGCATATGAAAAAGCGGTAGCCTTCAGTTTCTTGCTG
+ATGTATTCCTGGAACCCGCTTGTTAGGAGGATTTGCCTGTTGGTCCTTTCGCAACAGCCA
+GAGACAGACCCATCAAAACATGCCACTTATTATTACAAAGGTGATCCAATAGGGGCCTAT
+AAAGATGTAATAGGTCGGAATCTAAGTGAACTGAAGAGAACAGGCTTTGAGAAATTGGCA
+AATCTAAACCTAAGCCTGTCCACGTTGGGGGTCTGGACTAAGCACACAAGCAAAAGAATA
+ATTCAGGACTGTGTTGCCATTGGGAAAGAAGAGGGCAACTGGCTAGTTAAGCCCGACAGG
+CTGATATCCAGCAAAACTGGCCACTTATACATACCTGATAAAGGCTTTACATTACAAGGA
+AAGCATTATGAGCAACTGCAGCTAAGAACAGAGACAAACCCGGTCATGGGGGTTGGGACT
+GAGAGATACAAGTTAGGTCCCATAGTCAATCTGCTGCTGAGAAGGTTGAAAATTCTGCTC
+ATGACGGCCGTCGGCGTCAGCAGCTGA
+
+# Drug_Target_8_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_8_General_References:
+10355762	Weiland F, Weiland E, Unger G, Saalmuller A, Thiel HJ: Localization of pestiviral envelope proteins E(rns) and E2 at the cell surface and on isolated particles. J Gen Virol. 1999 May;80 ( Pt 5):1157-65.
+2838957	Colett MS, Larson R, Gold C, Strick D, Anderson DK, Purchio AF: Molecular cloning and nucleotide sequence of the pestivirus bovine viral diarrhea virus. Virology. 1988 Jul;165(1):191-9.
+2838958	Collett MS, Larson R, Belzer SK, Retzel E: Proteins encoded by bovine viral diarrhea virus: the genomic organization of a pestivirus. Virology. 1988 Jul;165(1):200-8.
+9188600	Xu J, Mendez E, Caron PR, Lin C, Murcko MA, Collett MS, Rice CM: Bovine viral diarrhea virus NS3 serine proteinase: polyprotein cleavage sites, cofactor requirements, and molecular model of an enzyme essential for pestivirus replication. J Virol. 1997 Jul;71(7):5312-22.
+
+# Drug_Target_8_HGNC_ID:
+Not Available
+
+# Drug_Target_8_HPRD_ID:
+Not Available
+
+# Drug_Target_8_ID:
+3260
+
+# Drug_Target_8_Locus:
+Not Available
+
+# Drug_Target_8_Molecular_Weight:
+449168
+
+# Drug_Target_8_Name:
+Genome polyprotein
+
+# Drug_Target_8_Number_of_Residues:
+3988
+
+# Drug_Target_8_PDB_ID:
+1S4F
+
+# Drug_Target_8_Pathway:
+Not Available
+
+# Drug_Target_8_Pfam_Domain_Function:
+PF00271	Helicase_C
+PF00998	RdRP_3
+PF05550	Peptidase_C53
+PF05578	Peptidase_S31
+
+# Drug_Target_8_Protein_Sequence:
+>Genome polyprotein [Contains: N-terminal protease
+MELITNELLYKTYKQKPVGVEEPVYDQAGDPLFGERGAVHPQSTLKLPHKRGERDVPTNL
+ASLPKRGDCRSGNSRGPVSGIYLKPGPLFYQDYKGPVYHRAPLELFEEGSMCETTKRIGR
+VTGSDGKLYHIYVCIDGCIIIKSATRSYQRVFRWVHNRLDCPLWVTTCSDTKEEGATKKK
+TQKPDRLERGKMKIVPKESEKDSKTKPPDATIVVEGVKYQVRKKGKTKSKNTQDGLYHNK
+NKPQESRKKLEKALLAWAIIAIVLFQVTMGENITQWNLQDNGTEGIQRAMFQRGVNRSLH
+GIWPEKICTGVPSHLATDIELKTIHGMMDASEKTNYTCCRLQRHEWNKHGWCNWYNIEPW
+ILVMNRTQANLTEGQPPRECAVTCRYDRASDLNVVTQARDSPTPLTGCKKGKNFSFAGIL
+MRGPCNFEIAASDVLFKEHERISMFQDTTLYLVDGLTNSLEGARQGTAKLTTWLGKQLGI
+LGKKLENKSKTWFGAYAASPYCDVDRKIGYIWYTKNCTPACLPKNTKIVGPGKFGTNAED
+GKILHEMGGHLSEVLLLSLVVLSDFAPETASVMYLILHFSIPQSHVDVMDCDKTQLNLTV
+ELTTAEVIPGSVWNLGKYVCIRPNWWPYETTVVLAFEEVSQVVKLVLRALRDLTRIWNAA
+TTTAFLVCLVKIVRGQMVQGILWLLLITGVQGHLDCKPEFSYAIAKDERIGQLGAEGLTT
+TWKEYSPGMKLEDTMVIAWCEDGKLMYLQRCTRETRYLAILHTRALPTSVVFKKLFDGRK
+QEDVVEMNDNFEFGLCPCDAKPIVRGKFNTTLLNGPAFQMVCPIGWTGTVSCTSFNMDTL
+ATTVVRTYRRSKPFPHRQGCITQKNLGEDLHNCILGGNWTCVPGDQLLYKGGSIESCKWC
+GYQFKESEGLPHYPIGKCKLENETGYRLVDSTSCNREGVAIVPQGTLKCKIGKTTVQVIA
+MDTKLGPMPCRPYEIISSEGPVEKTACTFNYTKTLKNKYFEPRDSYFQQYMLKGEYQYWF
+DLEVTDHHRDYFAESILVVVVALLGGRYVLWLLVTYMVLSEQKALGIQYGSGEVVMMGNL
+LTHNNIEVVTYFLLLYLLLREESVKKWVLLLYHILVVHPIKSVIVILLMIGDVVKADSGG
+QEYLGKIDLCFTTVVLIVIGLIIARRDPTIVPLVTIMAALRVTELTHQPGVDIAVAVMTI
+TLLMVSYVTDYFRYKKWLQCILSLVSAVFLIRSLIYLGRIEMPEVTIPNWRPLTLILLYL
+ISTTIVTRWKVDVAGLLLQCVPILLLVTTLWADFLTLILILPTYELVKLYYLKTVRTDTE
+RSWLGGIDYTRVDSIYDVDESGEGVYLFPSRQKAQGNFSILLPLIKATLISCVSSKWQLI
+YMSYLTLDFMYYMHRKVIEEISGGTNIISRLVAALIELNWSMEEEESKGLKKFYLLSGRL
+RNLIIKHKVRNETVASWYGEEEVYGMPKIMTIIKASTLSKSRHCIICTVCEGREWKGGTC
+PKCGRHGKPITCGMSLADFEERHYKRIFIREGNFEGMCSRCQGKHRRFEMDREPKSARYC
+AECNRLHPAEEGDFWAESSMLGLKITYFALMDGKVYDITEWAGCQRVGISPDTHRVPCHI
+SFGSRMPFRQEYNGFVQYTARGQLFLRNLPVLATKVKMLMVGNLGEEIGNLEHLGWILRG
+PAVCKKITEHEKCHINILDKLTAFFGIMPRGTTPRAPVRFPTSLLKVRRGLETAWAYTHQ
+GGISSVDHVTAGKDLLVCDSMGRTRVVCQSNNRLTDETEYGVKTDSGCPDGARCYVLNPE
+AVNISGSKGAVVHLQKTGGEFTCVTASGTPAFFDLKNLKGWSGLPIFEASSGRVVGRVKV
+GKNEESKPTKIMSGIQTVSKNRADLTEMVKKITSMNRGDFKQITLATGAGKTTELPKAVI
+EEIGRHKRVLVLIPLRAAAESVYQYMRLKHPSISFNLRIGDMKEGDMATGITYASYGYFC
+QMPQPKLRAAMVEYSYIFLDEYHCATPEQLAIIGKIHRFSESIRVVAMTATPAGSVTTTG
+QKHPIEEFIAPEVMKGEDLGSQFLDIAGLKIPVDEMKGNMLVFVPTRNMAVEVAKKLKAK
+GYNSGYYYSGEDPANLRVVTSQSPYVIVATNAIESGVTLPDLDTVIDTGLKCEKRVRVSS
+KIPFIVTGLKRMAVTVGEQAQRRGRVGRVKPGRYYRSQETATGSKDYHYDLLQAQRYGIE
+DGINVTKSFREMNYDWSLYEEDSLLITQLEILNNLLISEDLPAAVKNIMARTDHPEPIQL
+AYNSYEVQVPVLFPKIRNGEVTDTYENYSFLNARKLGEDVPVYIYATEDEDLAVDLLGLD
+WPDPGNQQVVETGKALKQVTGLSSAENALLVALFGYVGYQALSKRHVPMITDIYTIEDQR
+LEDTTHLQYAPNAIKTDGTETELKELASGDVEKIMGAISDYAAGGLEFVKSQAEKIKTAP
+LFKENAEAAKGYVQKFIDSLIENKEEIIRYGLWGTHTALYKSIAARLGHETAFATLVLKW
+LAFGGESVSDHVKQAAVDLVVYYVMNKPSFPGDSETQQEGRRFVASLFISALATYTYKTW
+NYHNLSKVVEPALAYLPYATSALKMFTPTRLESVVILSTTIYKTYLSIRKGKSDGLLGTG
+ISAAMEILSQNPVSVGISVMLGVGAIAAHNAIESSEQKRTLLMKVFVKNFLDQAATDELV
+KENPEKIIMALFEAVQTIGNPLRLIYHLYGVYYKGWEAKELSERTAGRNLFTLIMFEAFE
+LLGMDSQGKIRNLSGNYILDLIYGLHKQINRGLKKMVLGWAPAPFSCDWTPSDERIRLPT
+DNYLRVETRCPCGYEMKAFKNVGGKLTKVEESGPFLCRNRPGRGPVNYRVTKYYDDNLRE
+IKPVAKLEGQVEHYYKGVTAKIDYSKGKMLLATDKWEVEHGVITRLAKRYTGVGFNGAYL
+GDEPNHRALVERDCATITKNTVQFLKMKKGCAFTYDLTISNLTRLIELVHRNNLEEKEIP
+TATVTTWLAYTFVNEDVGTIKPVLGERVIPDPVVDINLQPEVQVDTSEVGITIIGRETLM
+TTGVTPVLEKVEPDASDNQNSVKIGLDEGNYPGPGIQTHTLTEEIHNRDARPFIMILGSR
+NSISNRAKTARNINLYTGNDPREIRDLMAAGRMLVVALRDVDPELSEMVDFKGTFLDREA
+LEALSLGQPKPKQVTKEAVRNLIEQKKDVEIPNWFASDDPVFLEVALKNDKYYLVGDVGE
+LKDQAKALGATDQTRIIKEVGSRTYAMKLSSWFLKASNKQMSLTPLFEELLLRCPPATKS
+NKGHMASAYQLAQGNWEPLGCGVHLGTIPARRVKIHPYEAYLKLKDFIEEEEKKPRVKDT
+VIREHNKWILKKIRFQGNLNTKKMLNPGKLSEQLDREGRKRNIYNHQIGTIMSSAGIRLE
+KLPIVRAQTDTKTFHEAIRDKIDKSENRQNPELHNKLLEIFHTIAQPTLKHTYGEVTWEQ
+LEAGVNRKGAAGFLEKKNIGEVLDSEKHLVEQLVRDLKAGRKIKYYETAIPKNEKRDVSD
+DWQAGDLVVEKRPRVIQYPEAKTRLAITKVMYNWVKQQPVVIPGYEGKTPLFNIFDKVRK
+EWDSFNEPVAVSFDTKAWDTQVTSKDLQLIGEIQKYYYKKEWHKFIDTITDHMTEVPVIT
+ADGEVYIRNGQRGSGQPDTSAGNSMLNVLTMMYGFCESTGVPYKSFNRVARIHVCGDDGF
+LITEKGLGLKFANKGMQILHEAGKPQKITEGEKMKVAYRFEDIEFCSHTPVPVRWSDNTS
+SHMAGRDTAVILSKMATRLDSSGERGTTAYEKAVAFSFLLMYSWNPLVRRICLLVLSQQP
+ETDPSKHATYYYKGDPIGAYKDVIGRNLSELKRTGFEKLANLNLSLSTLGVWTKHTSKRI
+IQDCVAIGKEEGNWLVKPDRLISSKTGHLYIPDKGFTLQGKHYEQLQLRTETNPVMGVGT
+ERYKLGPIVNLLLRRLKILLMTAVGVSS
+
+# Drug_Target_8_Reaction:
+nucleoside triphosphate + RNAn = diphosphate + RNAn+1
+
+# Drug_Target_8_Signals:
+None
+
+# Drug_Target_8_Specific_Function:
+E(rns), E1 and E2 are responsible of cell attachment and subsequent fusion of viral and cellular membrane. Binding to target cell involves interactions with glycosaminoglycans and membranes proteins such as bovine CD46/MCP and low-density- lipoprotein receptor
+
+# Drug_Target_8_SwissProt_ID:
+P19711
+
+# Drug_Target_8_SwissProt_Name:
+POLG_BVDVN
+
+# Drug_Target_8_Synonyms:
+Autoprotease p20
+Capsid protein C
+E(rnsglycoprotein
+EC 2.7.7.48
+EC 3.4.21.113
+EC 3.4.22.-
+Envelope glycoprotein E1
+Envelope glycoprotein E2
+Genome polyprotein [Contains: N-terminal protease
+N- pro
+NS2
+NS4A
+NS4B
+NS5A
+NS5B]
+NTPase
+Non-structural protein 2
+Non-structural protein 2-3
+Non-structural protein 4A
+Non-structural protein 4B
+Non-structural protein 5A
+Polyprotein protease/helicase NS3
+RNA-directed RNA polymerase
+gp33
+gp44/48
+gp55
+p7
+
+# Drug_Target_8_Theoretical_pI:
+8.73
+
+# Drug_Target_8_Transmembrane_Regions:
+1144-1164
+1189-1209
+1217-1237
+1247-1267
+1281-1301
+1360-1380
+1658-1678
+
+# Drug_Target_9_Cellular_Location:
+Not Available
+
+# Drug_Target_9_Chromosome_Location:
+Not Available
+
+# Drug_Target_9_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_9_Essentiality:
+Non-Essential
+
+# Drug_Target_9_GenAtlas_ID:
+Not Available
+
+# Drug_Target_9_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_9_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_9_GeneCard_ID:
+Not Available
+
+# Drug_Target_9_Gene_Name:
+RHEB
+
+# Drug_Target_9_Gene_Sequence:
+Not Available
+
+# Drug_Target_9_General_Function:
+Not Available
+
+# Drug_Target_9_General_References:
+Not Available
+
+# Drug_Target_9_HGNC_ID:
+Not Available
+
+# Drug_Target_9_HPRD_ID:
+Not Available
+
+# Drug_Target_9_ID:
+7104
+
+# Drug_Target_9_Locus:
+Not Available
+
+# Drug_Target_9_Molecular_Weight:
+Not Available
+
+# Drug_Target_9_Name:
+GTP-binding protein Rheb
+
+# Drug_Target_9_Number_of_Residues:
+0
+
+# Drug_Target_9_PDB_ID:
+Not Available
+
+# Drug_Target_9_Pathway:
+Not Available
+
+# Drug_Target_9_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_9_Protein_Sequence:
+Not Available
+
+# Drug_Target_9_Reaction:
+Not Available
+
+# Drug_Target_9_Signals:
+Not Available
+
+# Drug_Target_9_Specific_Function:
+Not Available
+
+# Drug_Target_9_SwissProt_ID:
+Q15382
+
+# Drug_Target_9_SwissProt_Name:
+RHEB_HUMAN
+
+# Drug_Target_9_Synonyms:
+Not Available
+
+# Drug_Target_9_Theoretical_pI:
+Not Available
+
+# Drug_Target_9_Transmembrane_Regions:
+Not Available
+
+#END_DRUGCARD DB04137

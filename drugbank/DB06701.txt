@@ -1,0 +1,725 @@
+#BEGIN_DRUGCARD DB06701
+
+# AHFS_Codes:
+28:20.92
+
+# ATC_Codes:
+N06BA11
+
+# Absorption:
+11-52%
+
+# Biotransformation:
+epatic, methylphenidate is metabolized primarily by de-esterification to ritalinic acid (&alpha;-phenyl-2-piperidine acetic acid, PPAA), which has little to no pharmacologic activity.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Focalin
+
+# CAS_Registry_Number:
+40431-64-9
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C14H19NO2
+
+# Chemical_IUPAC_Name:
+methyl (2R)-2-phenyl-2-[(2R)-piperidin-2-yl]acetate
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2010-05-06 10:32:54 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Dexmethylphenidate is the dextrorotary form of methylphenidate. It is a norepinephrine-dopamine reuptake inhibitor (NDRI) and thus a psychostimulant. It is used for treatment of Attention Deficit Hyperactivity Disorder (ADHD).
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Avoid alcohol
+Avoid excessive quantities of coffee or tea (caffeine)
+Take on empty stomach: 1 hour before or 2 hours after meals
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Dexmethylphenidate
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+2-4 hours
+
+# InChI_Identifier:
+InChI=1S/C14H19NO2/c1-17-14(16)13(11-7-3-2-4-8-11)12-9-5-6-10-15-12/h2-4,7-8,12-13,15H,5-6,9-10H2,1H3/t12-,13-/m1/s1
+
+# InChI_Key:
+InChIKey=DUGOZIWVEXMGBE-CHWSQXEVSA-N
+
+# Indication:
+Dexmethylphenidate is used as a treatment for ADHD, ideally in conjunction with psychological, educational, behavioral or other forms of treatment.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+6705
+
+# Mechanism_Of_Action:
+Methylphenidate blocks dopamine uptake in central adrenergic neurons by blocking dopamine transport or carrier proteins. Methylphenidate acts at the brain stem arousal system and the cerebral cortex and causes increased sympathomimetic activity in the central nervous system.
+Methylphenidate is a catecholamine reuptake inhibitor that indirectly increases catecholaminergic neurotransmission by inhibiting the dopamine transporter (DAT) and norepinephrine transporter (NET), which are responsible for clearing catecholamines from the synapse, particularly in the striatum and meso-limbic system.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+233.3062
+
+# Molecular_Weight_Mono:
+233.141578857
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Methylphenidate is a central nervous system stimulant used most commonly in the treatment of attention-deficit disorders in children and for narcolepsy.
+
+# Predicted_LogP_Hydrophobicity:
+1.47
+
+# Predicted_LogS:
+-3.1
+
+# Predicted_Water_Solubility:
+1.82e-01 g/l
+
+# Primary_Accession_No:
+DB06701
+
+# Protein_Binding:
+30%
+
+# PubChem_Compound_ID:
+4158
+
+# PubChem_Substance_ID:
+99443255
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+COC(=O)[C@@H]([C@H]1CCCCN1)C1=CC=CC=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Insomnia, dizziness, nausea, stomach pain, euphoria, headache, anxiety, anorexia, and weight loss are common side effects.
+Symptoms of overdose include vomiting, agitation, tremors, hyperreflexia, muscle twitching, convulsions (may be followed by coma), euphoria, confusion, hallucinations, delirium, sweating, flushing, headache, hyperpyrexia, tachycardia, palpitations, cardiac arrhythmias, hypertension, mydriasis, and dryness of mucous membranes. LD<sub>50</sub>=190mg/kg (orally in mice)
+
+# Update_Date:
+2013-02-08 16:24:49 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Dexmethylphenidate
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P10635
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10025684	Volkow ND, Fowler JS, Gatley SJ, Dewey SL, Wang GJ, Logan J, Ding YS, Franceschi D, Gifford A, Morgan A, Pappas N, King P: Comparable changes in synaptic dopamine induced by methylphenidate and by cocaine in the baboon brain. Synapse. 1999 Jan;31(1):59-66.
+10037500	Wayment HK, Deutsch H, Schweri MM, Schenk JO: Effects of methylphenidate analogues on phenethylamine substrates for the striatal dopamine transporter: potential as amphetamine antagonists? J Neurochem. 1999 Mar;72(3):1266-74.
+10199939	Dresel SH, Kung MP, Huang X, Plossl K, Hou C, Shiue CY, Karp J, Kung HF: In vivo imaging of serotonin transporters with [99mTc]TRODAT-1 in nonhuman primates. Eur J Nucl Med. 1999 Apr;26(4):342-7.
+10403500	Volkow ND, Wang GJ, Fowler JS, Fischman M, Foltin R, Abumrad NN, Gatley SJ, Logan J, Wong C, Gifford A, Ding YS, Hitzemann R, Pappas N: Methylphenidate and cocaine have a similar in vivo potency to block dopamine transporters in the human brain. Life Sci. 1999;65(1):PL7-12.
+10414438	Izenwasser S, Coy AE, Ladenheim B, Loeloff RJ, Cadet JL, French D: Chronic methylphenidate alters locomotor activity and dopamine transporters differently from cocaine. Eur J Pharmacol. 1999 Jun 4;373(2-3):187-93.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+11862378	Davids E, Zhang K, Tarazi FI, Baldessarini RJ: Stereoselective effects of methylphenidate on motor hyperactivity in juvenile rats induced by neonatal 6-hydroxydopamine lesioning. Psychopharmacology (Berl). 2002 Feb;160(1):92-8. Epub 2001 Dec 18.
+15303308	Viggiano D, Vallone D, Sadile A: Dysfunctions in dopamine systems and ADHD: evidence from animals and modeling. Neural Plast. 2004;11(1-2):97-114.
+18480678	Markowitz JS, Patrick KS: Differential pharmacokinetics and pharmacodynamics of methylphenidate enantiomers: does chirality matter? J Clin Psychopharmacol. 2008 Jun;28(3 Suppl 2):S54-61.
+18698001	Tilley MR, Gu HH: The effects of methylphenidate on knockin mice with a methylphenidate-resistant dopamine transporter. J Pharmacol Exp Ther. 2008 Nov;327(2):554-60. Epub 2008 Aug 12.
+9181638	Ding YS, Fowler JS, Volkow ND, Dewey SL, Wang GJ, Logan J, Gatley SJ, Pappas N: Chiral drugs: comparison of the pharmacokinetics of [11C]d-threo and L-threo-methylphenidate in the human and baboon brain. Psychopharmacology (Berl). 1997 May;131(1):71-8.
+9537821	Tatsumi M, Groshan K, Blakely RD, Richelson E: Pharmacological profile of antidepressants and related compounds at human monoamine transporters. Eur J Pharmacol. 1997 Dec 11;340(2-3):249-58.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+SLC6A3
+
+# Drug_Target_1_GenBank_ID_Gene:
+M96670
+
+# Drug_Target_1_GenBank_ID_Protein:
+553260
+
+# Drug_Target_1_GeneCard_ID:
+SLC6A3
+
+# Drug_Target_1_Gene_Name:
+SLC6A3
+
+# Drug_Target_1_Gene_Sequence:
+>1863 bp
+ATGAGTAAGAGCAAATGCTCCGTGGGACTCATGTCTTCCGTGGTGGCCCCGGCTAAGGAG
+CCCAATGCCGTGGGCCCGAAGGAGGTGGAGCTCATCCTTGTCAAGGAGCAGAACGGAGTG
+CAGCTCACCAGCTCCACCCTCACCAACCCGCGGCAGAGCCCCGTGGAGGCCCAGGATCGG
+GAGACCTGGGGCAAGAAGATCGACTTTCTCCTGTCCGTCATTGGCTTTGCTGTGGACCTG
+GCCAACGTCTGGCGGTTCCCCTACCTGTGCTACAAAAATGGTGGCGGTGCCTTCCTGGTC
+CCCTACCTGCTCTTCATGGTCATTGCTGGGATGCCACTTTTCTACATGGAGCTGGCCCTC
+GGCCAGTTCAACAGGGAAGGGGCCGCTGGTGTCTGGAAGATCTGCCCCATACTGAAAGGT
+GTGGGCTTCACGGTCATCCTCATCTCACTGTATGTCGGCTTCTTCTACAACGTCATCATC
+GCCTGGGCGCTGCACTATCTCTTCTCCTCCTTCACCACGGAGCTCCCCTGGATCCACTGC
+AACAACTCCTGGAACAGCCCCAACTGCTCGGATGCCCATCCTGGTGACTCCAGTGGAGAC
+AGCTCGGGCCTCAACGACACTTTTGGGACCACACCTGCTGCCGAGTACTTTGAACGTGGC
+GTGCTGCACCTCCACCAGAGCCATGGCATCGACGACCTGGGGCCTCCGCGGTGGCAGCTC
+ACAGCCTGCCTGGTGCTGGTCATCGTGCTGCTCTACTTCAGCCTCTGGAAGGGCGTGAAG
+ACCTCAGGGAAGGTGGTATGGATCACAGCCACCATGCCATACGTGGTCCTCACTGCCCTG
+CTCCTGCGTGGGGTCACCCTCCCTGGAGCCATAGACGGCATCAGAGCATACCTGAGCGTT
+GACTTCTACCGGCTCTGCGAGGCGTCTGTTTGGATTGACGCGGCCACCCAGGTGTGCTTC
+TCCCTGGGCGTGGGGTTCGGGGTGCTGATCGCCTTCTCCAGCTACAACAAGTTCACCAAC
+AACTGCTACAGGGACGCGATTGTCACCACCTCCATCAACTCCCTGACGAGCTTCTCCTCC
+GGCTTCGTCGTCTTCTCCTTCCTGGGGTACATGGCACAGAAGCACAGTGTGCCCATCGGG
+GACGTGGCCAAGGACGGGCCAGGGCTGATCTTCATCATCTACCCGGAAGCCATCGCCACG
+CTCCCTCTGTCCTCAGCCTGGGCCGTGGTCTTCTTCATCATGCTGCTCACCCTGGGTATC
+GACAGCGCCATGGGTGGTATGGAGTCAGTGATCACCGGGCTCATCGATGAGTTCCAGCTG
+CTGCACAGACACCGTGAGCTCTTCACGCTCTTCATCGTCCTGGCGACCTTCCTCCTGTCC
+CTGTTCTGCGTCACCAACGGTGGCATCTACGTCTTCACGCTCCTGGACCATTTTGCAGCC
+GGCACGTCCATCCTCTTTGGAGTGCTCATCGAAGCCATCGGAGTGGCCTGGTTCTATGGT
+GTTGGGCAGTTCAGCGACGACATCCAGCAGATGACCGGGCAGCGGCCCAGCCTGTACTGG
+CGGCTGTGCTGGAAGCTGGTCAGCCCCTGCTTTCTCCTGTTCGTGGTCGTGGTCAGCATT
+GTGACCTTCAGACCCCCCCACTACGGAGCCTACATCTTCCCCGACTGGGCCAACGCGCTG
+GGCTGGGTCATCGCCACATCCTCCATGGCCATGGTGCCCATCTATGCGGCCTACAAGTTC
+TGCAGCCTGCCTGGGTCCTTTCGAGAGAAACTGGCCTACGCCATTGCACCCGAGAAGGAC
+CGTGAGCTGGTGGACAGAGGGGAGGTGCGCCAGTTCACGCTCCGCCACTGGCTCAAGGTG
+TAG
+
+# Drug_Target_1_General_Function:
+Involved in dopamine:sodium symporter activity
+
+# Drug_Target_1_General_References:
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+10889531	Vandenbergh DJ, Thompson MD, Cook EH, Bendahhou E, Nguyen T, Krasowski MD, Zarrabian D, Comings D, Sellers EM, Tyndale RF, George SR, O'Dowd BF, Uhl GR: Human dopamine transporter gene: coding region conservation among normal, Tourette's disorder, alcohol dependence and attention-deficit hyperactivity disorder populations. Mol Psychiatry. 2000 May;5(3):283-92.
+11304827	Greenwood TA, Alexander M, Keck PE, McElroy S, Sadovnick AD, Remick RA, Kelsoe JR: Evidence for linkage disequilibrium between the dopamine transporter and bipolar disorder. Am J Med Genet. 2001 Mar 8;105(2):145-51.
+11343649	Torres GE, Yao WD, Mohn AR, Quan H, Kim KM, Levey AI, Staudinger J, Caron MG: Functional interaction between monoamine plasma membrane transporters and the synaptic PDZ domain-containing protein PICK1. Neuron. 2001 Apr;30(1):121-34.
+1353885	Bannon MJ, Poosch MS, Xia Y, Goebel DJ, Cassin B, Kapatos G: Dopamine transporter mRNA content in human substantia nigra decreases precipitously with age. Proc Natl Acad Sci U S A. 1992 Aug 1;89(15):7095-9.
+1359373	Vandenbergh DJ, Persico AM, Uhl GR: A human dopamine transporter cDNA predicts reduced glycosylation, displays a novel repetitive element and provides racially-dimorphic TaqI RFLPs. Brain Res Mol Brain Res. 1992 Sep;15(1-2):161-6.
+1406597	Giros B, el Mestikawy S, Godinot N, Zheng K, Han H, Yang-Feng T, Caron MG: Cloning, pharmacological characterization, and chromosome assignment of the human dopamine transporter. Mol Pharmacol. 1992 Sep;42(3):383-90.
+7637582	Donovan DM, Vandenbergh DJ, Perry MP, Bird GS, Ingersoll R, Nanthakumar E, Uhl GR: Human and mouse dopamine transporter genes: conservation of 5'-flanking sequence elements and gene structures. Brain Res Mol Brain Res. 1995 Jun;30(2):327-35.
+8302271	Pristupa ZB, Wilson JM, Hoffman BJ, Kish SJ, Niznik HB: Pharmacological heterogeneity of the cloned and native human dopamine transporter: disassociation of [3H]WIN 35,428 and [3H]GBR 12,935 binding. Mol Pharmacol. 1994 Jan;45(1):125-35.
+9300814	Kawarai T, Kawakami H, Yamamura Y, Nakamura S: Structure and organization of the gene encoding human dopamine transporter. Gene. 1997 Aug 11;195(1):11-8.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:11049
+
+# Drug_Target_1_HPRD_ID:
+00543
+
+# Drug_Target_1_ID:
+713
+
+# Drug_Target_1_Locus:
+5p15.3
+
+# Drug_Target_1_Molecular_Weight:
+68496
+
+# Drug_Target_1_Name:
+Sodium-dependent dopamine transporter
+
+# Drug_Target_1_Number_of_Residues:
+620
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Disulfiram Pathway	SMP00429
+Nicotine Pathway	SMP00431
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00209	SNF
+
+# Drug_Target_1_Protein_Sequence:
+>Sodium-dependent dopamine transporter
+MSKSKCSVGLMSSVVAPAKEPNAVGPKEVELILVKEQNGVQLTSSTLTNPRQSPVEAQDR
+ETWGKKIDFLLSVIGFAVDLANVWRFPYLCYKNGGGAFLVPYLLFMVIAGMPLFYMELAL
+GQFNREGAAGVWKICPILKGVGFTVILISLYVGFFYNVIIAWALHYLFSSFTTELPWIHC
+NNSWNSPNCSDAHPGDSSGDSSGLNDTFGTTPAAEYFERGVLHLHQSHGIDDLGPPRWQL
+TACLVLVIVLLYFSLWKGVKTSGKVVWITATMPYVVLTALLLRGVTLPGAIDGIRAYLSV
+DFYRLCEASVWIDAATQVCFSLGVGFGVLIAFSSYNKFTNNCYRDAIVTTSINSLTSFSS
+GFVVFSFLGYMAQKHSVPIGDVAKDGPGLIFIIYPEAIATLPLSSAWAVVFFIMLLTLGI
+DSAMGGMESVITGLIDEFQLLHRHRELFTLFIVLATFLLSLFCVTNGGIYVFTLLDHFAA
+GTSILFGVLIEAIGVAWFYGVGQFSDDIQQMTGQRPSLYWRLCWKLVSPCFLLFVVVVSI
+VTFRPPHYGAYIFPDWANALGWVIATSSMAMVPIYAAYKFCSLPGSFREKLAYAIAPEKD
+RELVDRGEVRQFTLRHWLKV
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Amine transporter. Terminates the action of dopamine by its high affinity sodium-dependent reuptake into presynaptic terminals
+
+# Drug_Target_1_SwissProt_ID:
+Q01959
+
+# Drug_Target_1_SwissProt_Name:
+SC6A3_HUMAN
+
+# Drug_Target_1_Synonyms:
+DA transporter
+DAT
+
+# Drug_Target_1_Theoretical_pI:
+6.92
+
+# Drug_Target_1_Transmembrane_Regions:
+69-89
+96-116
+140-160
+238-256
+265-282
+318-335
+347-368
+401-420
+447-465
+481-501
+522-541
+560-578
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+11160413	Sandoval V, Riddle EL, Ugarte YV, Hanson GR, Fleckenstein AE: Methamphetamine-induced rapid and reversible changes in dopamine transporter function: an in vitro model. J Neurosci. 2001 Feb 15;21(4):1413-9.
+11862378	Davids E, Zhang K, Tarazi FI, Baldessarini RJ: Stereoselective effects of methylphenidate on motor hyperactivity in juvenile rats induced by neonatal 6-hydroxydopamine lesioning. Psychopharmacology (Berl). 2002 Feb;160(1):92-8. Epub 2001 Dec 18.
+15322419	Yang L, Wang YF, Li J, Faraone SV: Association of norepinephrine transporter gene with methylphenidate response. J Am Acad Child Adolesc Psychiatry. 2004 Sep;43(9):1154-8.
+16246598	Chuhan YS, Taukulis HK: Impairment of single-trial memory formation by oral methylphenidate in the rat. Neurobiol Learn Mem. 2006 Mar;85(2):125-31. Epub 2005 Oct 24.
+17218796	Williard RL, Middaugh LD, Zhu HJ, Patrick KS: Methylphenidate and its ethanol transesterification metabolite ethylphenidate: brain disposition, monoamine transporters and motor activity. Behav Pharmacol. 2007 Feb;18(1):39-51.
+17611273	Gray JD, Punsoni M, Tabori NE, Melton JT, Fanslow V, Ward MJ, Zupan B, Menzer D, Rice J, Drake CT, Romeo RD, Brake WG, Torres-Reveron A, Milner TA: Methylphenidate administration to juvenile rats alters brain areas involved in cognition, motivated behaviors, appetite, and stress. J Neurosci. 2007 Jul 4;27(27):7196-207.
+18480678	Markowitz JS, Patrick KS: Differential pharmacokinetics and pharmacodynamics of methylphenidate enantiomers: does chirality matter? J Clin Psychopharmacol. 2008 Jun;28(3 Suppl 2):S54-61.
+18698001	Tilley MR, Gu HH: The effects of methylphenidate on knockin mice with a methylphenidate-resistant dopamine transporter. J Pharmacol Exp Ther. 2008 Nov;327(2):554-60. Epub 2008 Aug 12.
+9181638	Ding YS, Fowler JS, Volkow ND, Dewey SL, Wang GJ, Logan J, Gatley SJ, Pappas N: Chiral drugs: comparison of the pharmacokinetics of [11C]d-threo and L-threo-methylphenidate in the human and baboon brain. Psychopharmacology (Berl). 1997 May;131(1):71-8.
+9537821	Tatsumi M, Groshan K, Blakely RD, Richelson E: Pharmacological profile of antidepressants and related compounds at human monoamine transporters. Eur J Pharmacol. 1997 Dec 11;340(2-3):249-58.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+SLC6A2
+
+# Drug_Target_2_GenBank_ID_Gene:
+M65105
+
+# Drug_Target_2_GenBank_ID_Protein:
+189258
+
+# Drug_Target_2_GeneCard_ID:
+SLC6A2
+
+# Drug_Target_2_Gene_Name:
+SLC6A2
+
+# Drug_Target_2_Gene_Sequence:
+>1854 bp
+ATGCTTCTGGCGCGGATGAACCCGCAGGTGCAGCCCGAGAACAACGGGGCGGACACGGGT
+CCAGAGCAGCCCCTTCGGGCGCGCAAAACTGCGGAGCTGCTGGTGGTGAAGGAGCGCAAC
+GGCGTCCAGTGCCTGCTGGCGCCCCGCGACGGCGACGCGCAGCCCCGGGAGACCTGGGGC
+AAGAAGATCGACTTCCTGCTGTCCGTAGTCGGCTTCGCAGTGGACCTGGCCAACGTGTGG
+CGCTTCCCCTACCTCTGCTACAAGAACGGCGGCGGTGCCTTCTTGATCCCGTACACACTG
+TTCCTTATCATCGCGGGGATGCCCCTGTTCTACATGGAGCTGGCTCTGGGACAGTACAAC
+CGGGAGGGGGCTGCCACCGTTTGGAAAATCTGCCCATTCTTCAAAGGCGTTGGCTATGCT
+GTCATCCTGATCGCCCTGTACGTTGGCTTCTACTACAACGTCATCATCGCCTGGTCACTC
+TACTACCTCTTCTCCTCCTTCACCCTCAACCTGCCCTGGACCGACTGTGGCCACACCTGG
+AACAGCCCCAACTGTACCGACCCCAAGCTCCTCAATGGCTCCGTGCTTGGCAACCACACC
+AAGTACTCCAAGTACAAGTTCACGCCGGCAGCCGAGTTTTATGAGCGTGGTGTCCTGCAC
+CTTCACGAGAGCAGCGGGATTCATGACATCGGCCTGCCCCAGTGGCAGCTCTTGCTCTGT
+CTGATGGTCGTCGTCATCGTCTTGTATTTTAGCCTCTGGAAAGGGGTGAAGACATCAGGA
+AAGGTGGTGTGGATCACAGCCACGCTGCCTTACTTCGTGCTGTTCGTGCTCCTGGTCCAT
+GGCGTCACGCTGCCCGGAGCCTCCAATGGCATCAATGCCTACCTGCACATCGACTTCTAC
+CGCTTGAAAGAGGCCACGGTATGGATTGATGCCGCAACTCAGATATTTTTTTCCTTGGGG
+GCTGGATTTGGAGTATTGATTGCATTTGCCAGTTACAACAAATTTGACAACAACTGTTAC
+AGGGATGCCCTGCTGACCAGCAGCATCAACTGTATCACCAGCTTCGTCTCTGGGTTCGCC
+ATCTTCTCCATCCTTGGTTACATGGCCCATGAACACAAGGTCAACATTGAGGATGTGGCC
+ACAGAAGGAGCTGGCCTAGTGTTCATCCTGTATCCAGAGGCCATTTCTACCCTGTCTGGA
+TCTACATTCTGGGCTGTTGTGTTTTTCGTCATGCTCCTGGCGCTGGGCCTTGACAGCTCA
+ATGGGAGGCATGGAGGCTGTCATCACGGGCCTGGCAGATGACTTCCAGGTCCTGAAGCGA
+CACCGGAAACTCTTCACATTTGGCGTCACCTTCAGCACTTTCCTTCTCGCCCTGTTCTGC
+ATAACCAAGGGTGGAATTTACGTCTTGACCCTCCTGGACACCTTTGCTGCGGGCACCTCC
+ATCCTTTTTGCTGTCCTCATGGAAGCCATCGGAGTTTCCTGGTTTTATGGAGTGGACAGG
+TTCAGCAACGACATCCAGCAGATGATGGGGTTCAGGCCGGGTCTATACTGGAGACTGTGC
+TGGAAGTTCGTCAGTCCTGCCTTCCTCCTGTTCGTGGTTGTGGTCAGCATCATCAACTTC
+AAGCCACTCACCTACGACGACTACATCTTCCCGCCCTGGGCCAACTGGGTGGGGTGGGGC
+ATCGCCCTGTCCTCCATGGTCCTGGTGCCCATCTACGTCATCTATAAGTTCCTCAGCACG
+CAGGGCTCTCTTTGGGAGAGACTGGCCTATGGCATCACGCCAGAGAACGAGCACCACCTG
+GTGGCTCAGAGGGACATCAGACAGTTCCAGTTGCAACACTGGCTGGCCATCTGA
+
+# Drug_Target_2_General_Function:
+Involved in neurotransmitter:sodium symporter activity
+
+# Drug_Target_2_General_References:
+10684912	Shannon JR, Flattem NL, Jordan J, Jacob G, Black BK, Biaggioni I, Blakely RD, Robertson D: Orthostatic intolerance and tachycardia associated with norepinephrine-transporter deficiency. N Engl J Med. 2000 Feb 24;342(8):541-9.
+11343649	Torres GE, Yao WD, Mohn AR, Quan H, Kim KM, Levey AI, Staudinger J, Caron MG: Functional interaction between monoamine plasma membrane transporters and the synaptic PDZ domain-containing protein PICK1. Neuron. 2001 Apr;30(1):121-34.
+2008212	Pacholczyk T, Blakely RD, Amara SG: Expression cloning of a cocaine- and antidepressant-sensitive human noradrenaline transporter. Nature. 1991 Mar 28;350(6316):350-4.
+7488042	Porzgen P, Bonisch H, Bruss M: Molecular cloning and organization of the coding region of the human norepinephrine transporter gene. Biochem Biophys Res Commun. 1995 Oct 24;215(3):1145-50.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:11048
+
+# Drug_Target_2_HPRD_ID:
+01232
+
+# Drug_Target_2_ID:
+540
+
+# Drug_Target_2_Locus:
+16q12.2
+
+# Drug_Target_2_Molecular_Weight:
+69333
+
+# Drug_Target_2_Name:
+Sodium-dependent noradrenaline transporter
+
+# Drug_Target_2_Number_of_Residues:
+617
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Desipramine Pathway	SMP00423
+Disulfiram Pathway	SMP00429
+Imipramine Pathway	SMP00422
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00209	SNF
+
+# Drug_Target_2_Protein_Sequence:
+>Sodium-dependent noradrenaline transporter
+MLLARMNPQVQPENNGADTGPEQPLRARKTAELLVVKERNGVQCLLAPRDGDAQPRETWG
+KKIDFLLSVVGFAVDLANVWRFPYLCYKNGGGAFLIPYTLFLIIAGMPLFYMELALGQYN
+REGAATVWKICPFFKGVGYAVILIALYVGFYYNVIIAWSLYYLFSSFTLNLPWTDCGHTW
+NSPNCTDPKLLNGSVLGNHTKYSKYKFTPAAEFYERGVLHLHESSGIHDIGLPQWQLLLC
+LMVVVIVLYFSLWKGVKTSGKVVWITATLPYFVLFVLLVHGVTLPGASNGINAYLHIDFY
+RLKEATVWIDAATQIFFSLGAGFGVLIAFASYNKFDNNCYRDALLTSSINCITSFVSGFA
+IFSILGYMAHEHKVNIEDVATEGAGLVFILYPEAISTLSGSTFWAVVFFVMLLALGLDSS
+MGGMEAVITGLADDFQVLKRHRKLFTFGVTFSTFLLALFCITKGGIYVLTLLDTFAAGTS
+ILFAVLMEAIGVSWFYGVDRFSNDIQQMMGFRPGLYWRLCWKFVSPAFLLFVVVVSIINF
+KPLTYDDYIFPPWANWVGWGIALSSMVLVPIYVIYKFLSTQGSLWERLAYGITPENEHHL
+VAQRDIRQFQLQHWLAI
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Amine transporter. Terminates the action of noradrenaline by its high affinity sodium-dependent reuptake into presynaptic terminals
+
+# Drug_Target_2_SwissProt_ID:
+P23975
+
+# Drug_Target_2_SwissProt_Name:
+SC6A2_HUMAN
+
+# Drug_Target_2_Synonyms:
+NET
+Norepinephrine transporter
+
+# Drug_Target_2_Theoretical_pI:
+7.53
+
+# Drug_Target_2_Transmembrane_Regions:
+65-85
+93-112
+136-156
+235-253
+262-279
+315-332
+344-365
+398-417
+444-462
+478-498
+519-538
+557-575
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+10199939	Dresel SH, Kung MP, Huang X, Plossl K, Hou C, Shiue CY, Karp J, Kung HF: In vivo imaging of serotonin transporters with [99mTc]TRODAT-1 in nonhuman primates. Eur J Nucl Med. 1999 Apr;26(4):342-7.
+10414438	Izenwasser S, Coy AE, Ladenheim B, Loeloff RJ, Cadet JL, French D: Chronic methylphenidate alters locomotor activity and dopamine transporters differently from cocaine. Eur J Pharmacol. 1999 Jun 4;373(2-3):187-93.
+17154506	Stehouwer JS, Jarkas N, Zeng F, Voll RJ, Williams L, Owens MJ, Votaw JR, Goodman MM: Synthesis, radiosynthesis, and biological evaluation of carbon-11 labeled 2beta-carbomethoxy-3beta-(3'-((Z)-2-haloethenyl)phenyl)nortropanes: candidate radioligands for in vivo imaging of the serotonin transporter with positron emission tomography. J Med Chem. 2006 Nov 16;49(23):6760-7.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+SLC6A4
+
+# Drug_Target_3_GenBank_ID_Gene:
+X70697
+
+# Drug_Target_3_GenBank_ID_Protein:
+36433
+
+# Drug_Target_3_GeneCard_ID:
+SLC6A4
+
+# Drug_Target_3_Gene_Name:
+SLC6A4
+
+# Drug_Target_3_Gene_Sequence:
+>1893 bp
+ATGGAGACGACGCCCTTGAATTCTCAGAAGCAGCTATCAGCGTGTGAAGATGGAGAAGAT
+TGTCAGGAAAACGGAGTTCTACAGAAGGTTGTTCCCACCCCAGGGGACAAAGTGGAGTCC
+GGGCAAATATCCAATGGGTACTCAGCAGTTCCAAGTCCTGGTGCGGGAGATGACACACGG
+CACTCTATCCCAGCGACCACCACCACCCTAGTGGCTGAGCTTCATCAAGGGGAACGGGAG
+ACCTGGGGCAAGAAGGTGGATTTCCTTCTCTCAGTGATTGGCTATGCTGTGGACCTGGGC
+AATGTCTGGCGCTTCCCCTACATATGTTACCAGAATGGAGGGGGGGCATTCCTCCTCCCC
+TACACCATCATGGCCATTTTTGGGGGAATCCCGCTCTTTTACATGGAGCTCGCACTGGGA
+CAGTACCACCGAAATGGATGCATTTCAATATGGAGGAAAATCTGCCCGATTTTCAAAGGG
+ATTGGTTATGCCATCTGCATCATTGCCTTTTACATTGCTTCCTACTACAACACCATCATG
+GCCTGGGCGCTATACTACCTCATCTCCTCCTTCACGGACCAGCTGCCCTGGACCAGCTGC
+AAGAACTCCTGGAACACTGGCAACTGCACCAATTACTTCTCCGAGGACAACATCACCTGG
+ACCCTCCATTCCACGTCCCCTGCTGAAGAATTTTACACGCGCCACGTCCTGCAGATCCAC
+CGGTCTAAGGGGCTCCAGGACCTGGGGGGCATCAGCTGGCAGCTGGCCCTCTGCATCATG
+CTGATCTTCACTGTTATCTACTTCAGCATCTGGAAAGGCGTCAAGACCTCTGGCAAGGTG
+GTGTGGGTGACAGCCACCTTCCCTTATATCATCCTTTCTGTCCTGCTGGTGAGGGGTGCC
+ACCCTCCCTGGAGCCTGGAGGGGTGTTCTCTTCTACTTGAAACCCAATTGGCAGAAACTC
+CTGGAGACAGGGGTGTGGATAGATGCAGCCGCTCAGATCTTCTTCTCTCTTGGTCCGGGC
+TTTGGGGTCCTGCTGGCTTTTGCTAGCTACAACAAGTTCAACAACAACTGCTACCAAGAT
+GCCCTGGTGACCAGCGTGGTGAACTGCATGACGAGCTTCGTTTCGGGATTTGTCATCTTC
+ACAGTGCTCGGTTACATGGCTGAGATGAGGAATGAAGATGTGTCTGAGGTGGCCAAAGAC
+GCAGGTCCCAGCCTCCTCTTCATCACGTATGCAGAAGCGATAGCCAACATGCCAGCGTCC
+ACTTTCTTTGCCATCATCTTCTTTCTGATGTTAATCACGCTGGGCTTGGACAGCACGTTT
+GCAGGCTTGGAGGGGGTGATCACGGCTGTGCTGGATGAGTTCCCACACGTCTGGGCCAAG
+CGCCGGGAGCGGTTCGTGCTCGCCGTGGTCATCACCTGCTTCTTTGGATCCCTGGTCACC
+CTGACTTTTGGAGGGGCCTACGTGGTGAAGCTGCTGGAGGAGTATGCCACGGGGCCCGCA
+GTGCTCACTGTCGCGCTGATCGAAGCAGTCGCTGTGTCTTGGTTCTATGGCATCACTCAG
+TTCTGCAGGGACGTGAAGGAAATGCTCGGCTTCAGCCCGGGGTGGTTCTGGAGGATCTGC
+TGGGTGGCCATCAGCCCTCTGTTTCTCCTGTTCATCATTTGCAGTTTTCTGATGAGCCCG
+CCACAACTACGACTTTTCCAATATAATTATCCTTACTGGAGTATCATCTTGGGTTACTGC
+ATAGGAACCTCATCTTTCATTTGCATCCCCACATATATAGCTTATCGGTTGATCATCACT
+CCAGGGACATTTAAAGAGCGTATTATTAAAAGTATTACCCCGGAGACACCAACAGAAATT
+CCTTGTGGGGACATCCGCTTGAATGCTGTGTAA
+
+# Drug_Target_3_General_Function:
+Involved in serotonin:sodium symporter activity
+
+# Drug_Target_3_General_References:
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+12869766	Caspi A, Sugden K, Moffitt TE, Taylor A, Craig IW, Harrington H, McClay J, Mill J, Martin J, Braithwaite A, Poulton R: Influence of life stress on depression: moderation by a polymorphism in the 5-HTT gene. Science. 2003 Jul 18;301(5631):386-9.
+7681602	Ramamoorthy S, Bauman AL, Moore KR, Han H, Yang-Feng T, Chang AS, Ganapathy V, Blakely RD: Antidepressant- and cocaine-sensitive human serotonin transporter: molecular cloning, expression, and chromosomal localization. Proc Natl Acad Sci U S A. 1993 Mar 15;90(6):2542-6.
+7684072	Lesch KP, Wolozin BL, Murphy DL, Reiderer P: Primary structure of the human platelet serotonin uptake site: identity with the brain serotonin transporter. J Neurochem. 1993 Jun;60(6):2319-22.
+8452685	Lesch KP, Wolozin BL, Estler HC, Murphy DL, Riederer P: Isolation of a cDNA encoding the human brain serotonin transporter. J Neural Transm Gen Sect. 1993;91(1):67-72.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:11050
+
+# Drug_Target_3_HPRD_ID:
+01640
+
+# Drug_Target_3_ID:
+824
+
+# Drug_Target_3_Locus:
+17q11.1-q12
+
+# Drug_Target_3_Molecular_Weight:
+70325
+
+# Drug_Target_3_Name:
+Sodium-dependent serotonin transporter
+
+# Drug_Target_3_Number_of_Residues:
+630
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Citalopram Pathway	SMP00424
+Desipramine Pathway	SMP00423
+Escitalopram Pathway	SMP00425
+Fluoxetine Pathway	SMP00426
+Imipramine Pathway	SMP00422
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00209	SNF
+PF03491	5HT_transporter
+
+# Drug_Target_3_Protein_Sequence:
+>Sodium-dependent serotonin transporter
+METTPLNSQKQLSACEDGEDCQENGVLQKVVPTPGDKVESGQISNGYSAVPSPGAGDDTR
+HSIPATTTTLVAELHQGERETWGKKVDFLLSVIGYAVDLGNVWRFPYICYQNGGGAFLLP
+YTIMAIFGGIPLFYMELALGQYHRNGCISIWRKICPIFKGIGYAICIIAFYIASYYNTIM
+AWALYYLISSFTDQLPWTSCKNSWNTGNCTNYFSEDNITWTLHSTSPAEEFYTRHVLQIH
+RSKGLQDLGGISWQLALCIMLIFTVIYFSIWKGVKTSGKVVWVTATFPYIILSVLLVRGA
+TLPGAWRGVLFYLKPNWQKLLETGVWIDAAAQIFFSLGPGFGVLLAFASYNKFNNNCYQD
+ALVTSVVNCMTSFVSGFVIFTVLGYMAEMRNEDVSEVAKDAGPSLLFITYAEAIANMPAS
+TFFAIIFFLMLITLGLDSTFAGLEGVITAVLDEFPHVWAKRRERFVLAVVITCFFGSLVT
+LTFGGAYVVKLLEEYATGPAVLTVALIEAVAVSWFYGITQFCRDVKEMLGFSPGWFWRIC
+WVAISPLFLLFIICSFLMSPPQLRLFQYNYPYWSIILGYCIGTSSFICIPTYIAYRLIIT
+PGTFKERIIKSITPETPTEIPCGDIRLNAV
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Terminates the action of serotonine by its high affinity sodium-dependent reuptake into presynaptic terminals
+
+# Drug_Target_3_SwissProt_ID:
+P31645
+
+# Drug_Target_3_SwissProt_Name:
+SC6A4_HUMAN
+
+# Drug_Target_3_Synonyms:
+5HT transporter
+5HTT
+
+# Drug_Target_3_Theoretical_pI:
+6.17
+
+# Drug_Target_3_Transmembrane_Regions:
+88-108
+116-135
+160-180
+253-271
+280-297
+333-350
+362-383
+417-436
+464-482
+498-518
+539-558
+577-595
+
+#END_DRUGCARD DB06701

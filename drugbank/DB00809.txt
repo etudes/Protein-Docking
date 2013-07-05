@@ -1,0 +1,787 @@
+#BEGIN_DRUGCARD DB00809
+
+# AHFS_Codes:
+52:24.00
+
+# ATC_Codes:
+S01FA06
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Diophenyl-T Solution (Phenylephrine Hydrochloride + Tropicamide)
+Phenyltrope Oph Soln (Phenylephrine Hydrochloride + Tropicamide)
+
+# Brand_Names:
+I-Picamide
+Minims Tropicamide
+Mydriacyl
+Mydriafair
+Mydriaticum
+Ocu-Tropic
+Opticyl
+Paremyd
+Spectro-Cyl
+Tropicacyl
+
+# CAS_Registry_Number:
+1508-75-4
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C17H20N2O2
+
+# Chemical_IUPAC_Name:
+N-ethyl-3-hydroxy-2-phenyl-N-(pyridin-4-ylmethyl)propanamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2148536
+
+# Description:
+One of the muscarinic antagonists with pharmacologic action similar to atropine and used mainly as an ophthalmic parasympatholytic or mydriatic. [PubChem]
+
+# Dosage_Forms:
+Liquid	Ophthalmic
+Solution	Ophthalmic
+Solution / drops	Ophthalmic
+
+# Drug_Category:
+Diagnostic aid, cycloplegic
+Diagnostic aid, mydriatic
+Muscarinic Antagonists
+Mydriatics
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+1.3
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Tropicamide
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C17H20N2O2/c1-2-19(12-14-8-10-18-11-9-14)17(21)16(13-20)15-6-4-3-5-7-15/h3-11,16,20H,2,12-13H2,1H3
+
+# InChI_Key:
+InChIKey=BGDKAVGWHJFAGW-UHFFFAOYSA-N
+
+# Indication:
+Indicated to induce mydriasis (dilation of the pupil) and cycloplegia (paralysis of the ciliary muscle of the eye) in diagnostic procedures, such as measurement of refractive errors and examination of the fundus of the eye.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D00397
+
+# LIMS_Drug_ID:
+809
+
+# Mechanism_Of_Action:
+Tropicamide binds to and blocks the receptors in the muscles of the eye (muscarinic receptor M4). Tropicamide acts by blocking the responses of the iris sphincter muscle to the iris and ciliary muscles to cholinergic stimulation, producing dilation of the pupil and paralysis of the ciliary muscle.
+
+# Melting_Point:
+96.5 °C
+
+# Molecular_Weight_Avg:
+284.3529
+
+# Molecular_Weight_Mono:
+284.152477894
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164749389
+
+# Pharmacology:
+Tropicamide belongs to the group of medicines called anti-muscarinics. Tropicamide blocks the receptors in the muscles of the eye (muscarinic receptors). These receptors are involved controlling the pupil size and the shape of the lens. By blocking these receptors, tropicamide produces dilatation of the pupil (mydriasis) and prevents the eye from accommodating for near vision (cycloplegia). Tropicamide is given as eye drops to dilate the pupil and relax the lens so that eye examinations can be carried out thoroughly.
+
+# Predicted_LogP_Hydrophobicity:
+1.42
+
+# Predicted_LogS:
+-2.9
+
+# Predicted_Water_Solubility:
+3.75e-01 g/l
+
+# Primary_Accession_No:
+DB00809
+
+# Protein_Binding:
+45%
+
+# PubChem_Compound_ID:
+5593
+
+# PubChem_Substance_ID:
+46505924
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00287
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CCN(CC1=CC=NC=C1)C(=O)C(CO)C1=CC=CC=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Overdose can casue dry mouth, blurred vision, photophobia, hallucinations and rapid/irregular pulse.
+
+# Update_Date:
+2013-02-08 16:19:39 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Tropicamide
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+17594079	Betz AJ, McLaughlin PJ, Burgos M, Weber SM, Salamone JD: The muscarinic receptor antagonist tropicamide suppresses tremulous jaw movements in a rodent model of parkinsonian tremor: possible role of M4 receptors. Psychopharmacology (Berl). 2007 Oct;194(3):347-59. Epub 2007 Jun 27.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+CHRM4
+
+# Drug_Target_1_GenBank_ID_Gene:
+M16405
+
+# Drug_Target_1_GenBank_ID_Protein:
+61970253
+
+# Drug_Target_1_GeneCard_ID:
+CHRM4
+
+# Drug_Target_1_Gene_Name:
+CHRM4
+
+# Drug_Target_1_Gene_Sequence:
+>1440 bp
+ATGGCCAACTTCACACCTGTCAATGGCAGCTCGGGCAATCAGTCCGTGCGCCTGGTCACG
+TCATCATCCCACAATCGCTATGAGACGGTGGAAATGGTCTTCATTGCCACAGTGACAGGC
+TCCCTGAGCCTGGTGACTGTCGTGGGCAACATCCTGGTGATGCTGTCCATCAAGGTCAAC
+AGGCAGCTGCAGACAGTCAACAACTACTTCCTCTTCAGCCTGGCGTGTGCTGATCTCATC
+ATAGGCGCCTTCTCCATGAACCTCTACACCGTGTACATCATCAAGGGCTACTGGCCCCTG
+GGCGCCGTGGTCTGCGACCTGTGGCTGGCCCTGGACTACGTGGTGAGCAACGCCTCCGTC
+ATGAACCTTCTCATCATCAGCTTTGACCGCTACTTCTGCGTCACCAAGCCTCTCACCTAC
+CCTGCCCGGCGCACCACCAAGATGGCAGGCCTCATGATTGCTGCTGCCTGGGTACTGTCC
+TTCGTGCTCTGGGCGCCTGCCATCTTGTTCTGGCAGTTTGTGGTGGGTAAGCGGACGGTG
+CCCGACAACCAGTGCTTCATCCAGTTCCTGTCCAACCCAGCAGTGACCTTTGGCACAGCC
+ATTGCTGCCTTCTACCTGCCTGTGGTCATCATGACGGTGCTGTACATCCACATCTCCCTG
+GCCAGTCGCAGCCGAGTCCACAAGCACCGGCCCGAGGGCCCGAAGGAGAAGAAAGCCAAG
+ACGCTGGCCTTCCTCAAGAGCCCACTAATGAAGCAGAGCGTCAAGAAGCCCCCGCCCGGG
+GAGGCCGCCCGGGAGGAGCTGCGCAATGGCAAGCTGGAGGAGGCCCCCCCGCCAGCGCTG
+CCACCGCCACCGCGCCCCGTGGCTGATAAGGACACTTCCAATGAGTCCAGCTCAGGCAGT
+GCCACCCAGAACACCAAGGAACGCCCAGCCACAGAGCTGTCCACCACAGAGGCCACCACG
+CCCGCCATGCCCGCCCCTCCCCTGCAGCCGCGGGCCCTCAACCCAGCCTCCAGATGGTCC
+AAGATCCAGATTGTGACGAAGCAGACAGGCAATGAGTGTGTGACAGCCATTGAGATTGTG
+CCTGCCACGCCGGCTGGCATGCGCCCTGCGGCCAACGTGGCCCGCAAGTTCGCCAGCATC
+GCTCGCAACCAGGTGCGCAAGAAGCGGCAGATGGCGGCCCGGGAGCGCAAAGTGACACGA
+ACGATCTTTGCCATTCTGCTAGCCTTCATCCTCACCTGGACGCCCTACAACGTCATGGTC
+CTGGTGAACACCTTCTGCCAGAGCTGCATCCCTGACACGGTGTGGTCCATTGGCTACTGG
+CTCTGCTACGTCAACAGCACCATCAACCCTGCCTGCTATGCTCTGTGCAACGCCACCTTT
+AAAAAGACCTTCCGGCACCTGCTGCTGTGCCAGTATCGGAACATCGGCACTGCCAGGTAG
+
+# Drug_Target_1_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_1_General_References:
+3037705	Bonner TI, Buckley NJ, Young AC, Brann MR: Identification of a family of muscarinic acetylcholine receptor genes. Science. 1987 Jul 31;237(4814):527-32.
+3272174	Bonner TI, Young AC, Brann MR, Buckley NJ: Cloning and expression of the human and rat m5 muscarinic acetylcholine receptor genes. Neuron. 1988 Jul;1(5):403-10.
+3443095	Peralta EG, Ashkenazi A, Winslow JW, Smith DH, Ramachandran J, Capon DJ: Distinct primary structures, ligand-binding properties and tissue-specific expression of four human muscarinic acetylcholine receptors. EMBO J. 1987 Dec 20;6(13):3923-9.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:1953
+
+# Drug_Target_1_HPRD_ID:
+00330
+
+# Drug_Target_1_ID:
+450
+
+# Drug_Target_1_Locus:
+11p12-p11.2
+
+# Drug_Target_1_Molecular_Weight:
+53050
+
+# Drug_Target_1_Name:
+Muscarinic acetylcholine receptor M4
+
+# Drug_Target_1_Number_of_Residues:
+479
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_1_Protein_Sequence:
+>Muscarinic acetylcholine receptor M4
+MANFTPVNGSSGNQSVRLVTSSSHNRYETVEMVFIATVTGSLSLVTVVGNILVMLSIKVN
+RQLQTVNNYFLFSLACADLIIGAFSMNLYTVYIIKGYWPLGAVVCDLWLALDYVVSNASV
+MNLLIISFDRYFCVTKPLTYPARRTTKMAGLMIAAAWVLSFVLWAPAILFWQFVVGKRTV
+PDNQCFIQFLSNPAVTFGTAIAAFYLPVVIMTVLYIHISLASRSRVHKHRPEGPKEKKAK
+TLAFLKSPLMKQSVKKPPPGEAAREELRNGKLEEAPPPALPPPPRPVADKDTSNESSSGS
+ATQNTKERPATELSTTEATTPAMPAPPLQPRALNPASRWSKIQIVTKQTGNECVTAIEIV
+PATPAGMRPAANVARKFASIARNQVRKKRQMAARERKVTRTIFAILLAFILTWTPYNVMV
+LVNTFCQSCIPDTVWSIGYWLCYVNSTINPACYALCNATFKKTFRHLLLCQYRNIGTAR
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+The muscarinic acetylcholine receptor mediates various cellular responses, including inhibition of adenylate cyclase, breakdown of phosphoinositides and modulation of potassium channels through the action of G proteins. Primary transducing effect is inhibition of adenylate cyclase
+
+# Drug_Target_1_SwissProt_ID:
+P08173
+
+# Drug_Target_1_SwissProt_Name:
+ACM4_HUMAN
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+10.34
+
+# Drug_Target_1_Transmembrane_Regions:
+32-54
+69-89
+107-128
+149-171
+194-216
+402-422
+437-456
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17594079	Betz AJ, McLaughlin PJ, Burgos M, Weber SM, Salamone JD: The muscarinic receptor antagonist tropicamide suppresses tremulous jaw movements in a rodent model of parkinsonian tremor: possible role of M4 receptors. Psychopharmacology (Berl). 2007 Oct;194(3):347-59. Epub 2007 Jun 27.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+CHRM1
+
+# Drug_Target_2_GenBank_ID_Gene:
+X52068
+
+# Drug_Target_2_GenBank_ID_Protein:
+34451
+
+# Drug_Target_2_GeneCard_ID:
+CHRM1
+
+# Drug_Target_2_Gene_Name:
+CHRM1
+
+# Drug_Target_2_Gene_Sequence:
+>1383 bp
+ATGAACACTTCAGCCCCACCTGCTGTCAGCCCCAACATCACCGTCCTGGCACCAGGAAAG
+GGTCCCTGGCAAGTGGCCTTCATTGGGATCACCACGGGCCTCCTGTCGCTAGCCACAGTG
+ACAGGCAACCTGCTGGTACTCATCTCTTTCAAGGTCAACACGGAGCTCAAGACAGTCAAT
+AACTACTTCCTGCTGAGCCTGGCCTGTGCTGACCTCATCATCGGTACCTTCTCCATGAAC
+CTCTATACCACGTACCTGCTCATGGGCCACTGGGCTCTGGGCACGCTGGCTTGTGACCTC
+TGGCTGGCCCTGGACTATGTGGCCAGCAATGCCTCCGTCATGAATCTGCTGCTCATCAGC
+TTTGACCGCTACTTCTCCGTGACTCGGCCCCTGAGCTACCGTGCCAAGCGCACACCCCGC
+CGGGCAGCTCTGATGATCGGCCTGGCCTGGCTGGTTTCCTTTGTGCTCTGGGCCCCAGCC
+ATCCTCTTCTGGCAGTACCTGGTAGGGGAGCGGACAGTGCTAGCTGGGCAGTGCTACATC
+CAGTTCCTCTCCCAGCCCATCATCACCTTTGGCACAGCCATGGCTGCCTTCTACCTCCCT
+GTCACAGTCATGTGCACGCTCTACTGGCGCATCTACCGGGAGACAGAGAACCGAGCACGG
+GAGCTGGCAGCCCTTCAGGGCTCCGAGACGCCAGGCAAAGGGGGTGGCAGCAGCAGCAGC
+TCAGAGAGGTCTCAGCCAGGGGCTGAGGGCTCACCAGAGACTCCTCCAGGCCGCTGCTGT
+CGCTGCTGCCGGGCCCCCAGGCTGCTGCAGGCCTACAGCTGGAAGGAAGAAGAGGAAGAG
+GACGAAGGCTCCATGGAGTCCCTCACATCCTCAGAGGGAGAGGAGCCTGGCTCCGAAGTG
+GTGATCAAGATGCCAATGGTGGACCCCGAGGCACAGGCCCCCACCAAGCAGCCCCCACGG
+AGCTCCCCAAATACAGTCAAGAGGCCGACTAAGAAAGGGCGTGATCGAGCTGGCAAGGGC
+CAGAAGCCCCGTGGAAAGGAGCAGCTGGCCAAGCGGAAGACCTTCTCGCTGGTCAAGGAG
+AAGAAGGCGGCTCGGACCCTGAGTGCCATCCTCCTGGCCTTCATCCTCACCTGGACACCG
+TACAACATCATGGTGCTGGTGTCCACCTTCTGCAAGGACTGTGTTCCCGAGACCCTGTGG
+GAGCTGGGCTACTGGCTGTGCTACGTCAACAGCACCATCAACCCCATGTGCTACGCACTC
+TGCAACAAAGCCTTCCGGGACACCTTTCGCCTGCTGCTGCTTTGCCGCTGGGACAAGAGA
+CGCTGGCGCAAGATCCCCAAGCGCCCTGGCTCCGTGCACCGCACTCCCTCCCGCCAATGC
+TGA
+
+# Drug_Target_2_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_2_General_References:
+1445347	Arden JR, Nagata O, Shockley MS, Philip M, Lameh J, Sadee W: Mutational analysis of third cytoplasmic loop domains in G-protein coupling of the HM1 muscarinic receptor. Biochem Biophys Res Commun. 1992 Nov 16;188(3):1111-5.
+2336407	Chapman CG, Browne MJ: Isolation of the human ml (Hml) muscarinic acetylcholine receptor gene by PCR amplification. Nucleic Acids Res. 1990 Apr 25;18(8):2191.
+3443095	Peralta EG, Ashkenazi A, Winslow JW, Smith DH, Ramachandran J, Capon DJ: Distinct primary structures, ligand-binding properties and tissue-specific expression of four human muscarinic acetylcholine receptors. EMBO J. 1987 Dec 20;6(13):3923-9.
+3697105	Allard WJ, Sigal IS, Dixon RA: Sequence of the gene encoding the human M1 muscarinic acetylcholine receptor. Nucleic Acids Res. 1987 Dec 23;15(24):10604.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:1950
+
+# Drug_Target_2_HPRD_ID:
+00338
+
+# Drug_Target_2_ID:
+103
+
+# Drug_Target_2_Locus:
+11q13
+
+# Drug_Target_2_Molecular_Weight:
+51421
+
+# Drug_Target_2_Name:
+Muscarinic acetylcholine receptor M1
+
+# Drug_Target_2_Number_of_Residues:
+460
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_2_Protein_Sequence:
+>Muscarinic acetylcholine receptor M1
+MNTSAPPAVSPNITVLAPGKGPWQVAFIGITTGLLSLATVTGNLLVLISFKVNTELKTVN
+NYFLLSLACADLIIGTFSMNLYTTYLLMGHWALGTLACDLWLALDYVASNASVMNLLLIS
+FDRYFSVTRPLSYRAKRTPRRAALMIGLAWLVSFVLWAPAILFWQYLVGERTVLAGQCYI
+QFLSQPIITFGTAMAAFYLPVTVMCTLYWRIYRETENRARELAALQGSETPGKGGGSSSS
+SERSQPGAEGSPETPPGRCCRCCRAPRLLQAYSWKEEEEEDEGSMESLTSSEGEEPGSEV
+VIKMPMVDPEAQAPTKQPPRSSPNTVKRPTKKGRDRAGKGQKPRGKEQLAKRKTFSLVKE
+KKAARTLSAILLAFILTWTPYNIMVLVSTFCKDCVPETLWELGYWLCYVNSTINPMCYAL
+CNKAFRDTFRLLLLCRWDKRRWRKIPKRPGSVHRTPSRQC
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+The muscarinic acetylcholine receptor mediates various cellular responses, including inhibition of adenylate cyclase, breakdown of phosphoinositides and modulation of potassium channels through the action of G proteins. Primary transducing effect is Pi turnover
+
+# Drug_Target_2_SwissProt_ID:
+P11229
+
+# Drug_Target_2_SwissProt_Name:
+ACM1_HUMAN
+
+# Drug_Target_2_Synonyms:
+Not Available
+
+# Drug_Target_2_Theoretical_pI:
+9.67
+
+# Drug_Target_2_Transmembrane_Regions:
+25-47
+62-82
+100-121
+142-164
+187-209
+367-387
+402-421
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+17594079	Betz AJ, McLaughlin PJ, Burgos M, Weber SM, Salamone JD: The muscarinic receptor antagonist tropicamide suppresses tremulous jaw movements in a rodent model of parkinsonian tremor: possible role of M4 receptors. Psychopharmacology (Berl). 2007 Oct;194(3):347-59. Epub 2007 Jun 27.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+CHRM2
+
+# Drug_Target_3_GenBank_ID_Gene:
+M16404
+
+# Drug_Target_3_GenBank_ID_Protein:
+177990
+
+# Drug_Target_3_GeneCard_ID:
+CHRM2
+
+# Drug_Target_3_Gene_Name:
+CHRM2
+
+# Drug_Target_3_Gene_Sequence:
+>1401 bp
+ATGAATAACTCAACAAACTCCTCTAACAATAGCCTGGCTCTTACAAGTCCTTATAAGACA
+TTTGAAGTGGTGTTTATTGTCCTGGTGGCTGGATCCCTCAGTTTGGTGACCATTATCGGG
+AACATCCTAGTCATGGTTTCCATTAAAGTCAACCGCCACCTCCAGACCGTCAACAATTAC
+TTTTTATTCAGCTTGGCCTGTGCTGACCTTATCATAGGTGTTTTCTCCATGAACTTGTAC
+ACCCTCTACACTGTGATTGGTTACTGGCCTTTGGGACCTGTGGTGTGTGACCTTTGGCTA
+GCCCTGGACTATGTGGTCAGCAATGCCTCAGTTATGAATCTGCTCATCATCAGCTTTGAC
+AGGTACTTCTGTGTCACAAAACCTCTGACCTACCCAGTCAAGCGGACCACAAAAATGGCA
+GGTATGATGATTGCAGCTGCCTGGGTCCTCTCTTTCATCCTCTGGGCTCCAGCCATTCTC
+TTCTGGCAGTTCATTGTAGGGGTGAGAACTGTGGAGGATGGGGAGTGCTACATTCAGTTT
+TTTTCCAATGCTGCTGTCACCTTTGGTACGGCTATTGCAGCCTTCTATTTGCCAGTGATC
+ATCATGACTGTGCTATATTGGCACATATCCCGAGCCAGCAAGAGCAGGATAAAGAAGGAC
+AAGAAGGAGCCTGTTGCCAACCAAGACCCCGTTTCTCCAAGTCTGGTACAAGGAAGGATA
+GTGAAGCCAAACAATAACAACATGCCCAGCAGTGACGATGGCCTGGAGCACAACAAAATC
+CAGAATGGCAAAGCCCCCAGGGATCCTGTGACTGAAAACTGTGTTCAGGGAGAGGAGAAG
+GAGAGCTCCAATGACTCCACCTCAGTCAGTGCTGTTGCCTCTAATATGAGAGATGATGAA
+ATAACCCAGGATGAAAACACAGTTTCCACTTCCCTGGGCCATTCCAAAGATGAGAACTCT
+AAGCAAACATGCATCAGAATTGGCACCAAGACCCCAAAAAGTGACTCATGTACCCCAACT
+AATACCACCGTGGAGGTAGTGGGGTCTTCAGGTCAGAATGGAGATGAAAAGCAGAATATT
+GTAGCCCGCAAGATTGTGAAGATGACTAAGCAGCCTGCAAAAAAGAAGCCTCCTCCTTCC
+CGGGAAAAGAAAGTCACCAGGACAATCTTGGCTATTCTGTTGGCTTTCATCATCACTTGG
+GCCCCATACAATGTCATGGTGCTCATTAACACCTTTTGTGCACCTTGCATCCCCAACACT
+GTGTGGACAATTGGTTACTGGCTTTGTTACATCAACAGCACTATCAACCCTGCCTGCTAT
+GCACTTTGCAATGCCACCTTCAAGAAGACCTTTAAACACCTTCTCATGTGTCATTATAAG
+AACATAGGCGCTACAAGGTAA
+
+# Drug_Target_3_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_3_General_References:
+3037705	Bonner TI, Buckley NJ, Young AC, Brann MR: Identification of a family of muscarinic acetylcholine receptor genes. Science. 1987 Jul 31;237(4814):527-32.
+3443095	Peralta EG, Ashkenazi A, Winslow JW, Smith DH, Ramachandran J, Capon DJ: Distinct primary structures, ligand-binding properties and tissue-specific expression of four human muscarinic acetylcholine receptors. EMBO J. 1987 Dec 20;6(13):3923-9.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:1951
+
+# Drug_Target_3_HPRD_ID:
+00328
+
+# Drug_Target_3_ID:
+617
+
+# Drug_Target_3_Locus:
+7q31-q35
+
+# Drug_Target_3_Molecular_Weight:
+51716
+
+# Drug_Target_3_Name:
+Muscarinic acetylcholine receptor M2
+
+# Drug_Target_3_Number_of_Residues:
+466
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Diltiazem Pathway	SMP00359
+Disopyramide Pathway	SMP00325
+Flecainide Pathway	SMP00331
+Fosphenytoin (Antiarrhythmic) Pathway	SMP00326
+Ibutilide Pathway	SMP00332
+Lidocaine (Antiarrhythmic) Pathway	SMP00328
+Mexiletine Pathway	SMP00329
+Phenytoin (Antiarrhythmic) Pathway	SMP00327
+Procainamide (Antiarrhythmic) Pathway	SMP00324
+Quinidine Pathway	SMP00323
+Tocainide Pathway	SMP00330
+Verapamil Pathway	SMP00375
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_3_Protein_Sequence:
+>Muscarinic acetylcholine receptor M2
+MNNSTNSSNNSLALTSPYKTFEVVFIVLVAGSLSLVTIIGNILVMVSIKVNRHLQTVNNY
+FLFSLACADLIIGVFSMNLYTLYTVIGYWPLGPVVCDLWLALDYVVSNASVMNLLIISFD
+RYFCVTKPLTYPVKRTTKMAGMMIAAAWVLSFILWAPAILFWQFIVGVRTVEDGECYIQF
+FSNAAVTFGTAIAAFYLPVIIMTVLYWHISRASKSRIKKDKKEPVANQDPVSPSLVQGRI
+VKPNNNNMPSSDDGLEHNKIQNGKAPRDPVTENCVQGEEKESSNDSTSVSAVASNMRDDE
+ITQDENTVSTSLGHSKDENSKQTCIRIGTKTPKSDSCTPTNTTVEVVGSSGQNGDEKQNI
+VARKIVKMTKQPAKKKPPPSREKKVTRTILAILLAFIITWAPYNVMVLINTFCAPCIPNT
+VWTIGYWLCYINSTINPACYALCNATFKKTFKHLLMCHYKNIGATR
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+The muscarinic acetylcholine receptor mediates various cellular responses, including inhibition of adenylate cyclase, breakdown of phosphoinositides and modulation of potassium channels through the action of G proteins. Primary transducing effect is adenylate cyclase inhibition
+
+# Drug_Target_3_SwissProt_ID:
+P08172
+
+# Drug_Target_3_SwissProt_Name:
+ACM2_HUMAN
+
+# Drug_Target_3_Synonyms:
+Not Available
+
+# Drug_Target_3_Theoretical_pI:
+9.08
+
+# Drug_Target_3_Transmembrane_Regions:
+23-45
+60-80
+98-119
+140-162
+185-207
+389-409
+424-443
+
+# Drug_Target_4_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+17594079	Betz AJ, McLaughlin PJ, Burgos M, Weber SM, Salamone JD: The muscarinic receptor antagonist tropicamide suppresses tremulous jaw movements in a rodent model of parkinsonian tremor: possible role of M4 receptors. Psychopharmacology (Berl). 2007 Oct;194(3):347-59. Epub 2007 Jun 27.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+CHRM3
+
+# Drug_Target_4_GenBank_ID_Gene:
+X15266
+
+# Drug_Target_4_GenBank_ID_Protein:
+32324
+
+# Drug_Target_4_GeneCard_ID:
+CHRM3
+
+# Drug_Target_4_Gene_Name:
+CHRM3
+
+# Drug_Target_4_Gene_Sequence:
+>1773 bp
+ATGACCTTGCACAATAACAGTACAACCTCGCCTTTGTTTCCAAACATCAGCTCCTCCTGG
+ATACACAGCCCCTCCGATGCAGGGCTGCCCCCGGGAACCGTCACTCATTTCGGCAGCTAC
+AATGTTTCTCGAGCAGCTGGCAATTTCTCCTCTCCAGACGGTACCACCGATGACCCTCTG
+GGAGGTCATACCGTCTGGCAAGTGGTCTTCATCGCTTTCTTAACGGGCATCCTGGCCTTG
+GTGACCATCATCGGCAACATCCTGGTAATTGTGTCATTTAAGGTCAACAAGCAGCTGAAG
+ACGGTCAACAACTACTTCCTCTTAAGCCTGGCCTGTGCCGATCTGATTATCGGGGTCATT
+TCAATGAATCTGTTTACGACCTACATCATCATGAATCGATGGGCCTTAGGGAACTTGGCC
+TGTGACCTCTGGCTTGCCATTGACTACGTAGCCAGCAATGCCTCTGTTATGAATCTTCTG
+GTCATCAGCTTTGACAGATACTTTTCCATCACGAGGCCGCTCACGTACCGAGCCAAACGA
+ACAACAAAGAGAGCCGGTGTGATGATCGGTCTGGCTTGGGTCATCTCCTTTGTCCTTTGG
+GCTCCTGCCATCTTGTTCTGGCAATACTTTGTTGGAAAGAGAACTGTGCCTCCGGGAGAG
+TGCTTCATTCAGTTCCTCAGTGAGCCCACCATTACTTTTGGCACAGCCATCGCTGCTTTT
+TATATGCCTGTCACCATTATGACTATTTTATACTGGAGGATCTATAAGGAAACTGAAAAG
+CGTACCAAAGAGCTTGCTGGCCTGCAAGCCTCTGGGACAGAGGCAGAGACAGAAAACTTT
+GTCCACCCCACGGGCAGTTCTCGAAGCTGCAGCAGTTACGAACTTCAACAGCAAAGCATG
+AAACGCTCCAACAGGAGGAAGTATGGCCGCTGCCACTTCTGGTTCACAACCAAGAGCTGG
+AAACCCAGCTCCGAGCAGATGGACCAAGACCACAGCAGCAGTGACAGTTGGAACAACAAT
+GATGCTGCTGCCTCCCTGGAGAACTCCGCCTCCTCCGACGAGGAGGACATTGGCTCCGAG
+ACGAGAGCCATCTACTCCATCGTGCTCAAGCTTCCGGGTCACAGCACCATCCTCAACTCC
+ACCAAGTTACCCTCATCGGACAACCTGCAGGTGCCTGAGGAGGAGCTGGGGATGGTGGAC
+TTGGAGAGGAAAGCCGACAAGCTGCAGGCCCAGAAGAGCGTGGACGATGGAGGCAGTTTT
+CCAAAAAGCTTCTCCAAGCTTCCCATCCAGCTAGAGTCAGCCGTGGACACAGCTAAGACT
+TCTGACGTCAACTCCTCAGTGGGTAAGAGCACGGCCACTCTACCTCTGTCCTTCAAGGAA
+GCCACTCTGGCCAAGAGGTTTGCTCTGAAGACCAGAAGTCAGATCACTAAGCGGAAAAGG
+ATGTCCCTGGTCAAGGAGAAGAAAGCGGCCCAGACCCTCAGTGCGATCTTGCTTGCCTTC
+ATCATCACTTGGACCCCATACAACATCATGGTTCTGGTGAACACCTTTTGTGACAGCTGC
+ATACCCAAAACCTTTTGGAATCTGGGCTACTGGCTGTGCTACATCAACAGCACCGTGAAC
+CCCGTGTGCTATGCTCTGTGCAACAAAACATTCAGAACCACTTTCAAGATGCTGCTGCTG
+TGCCAGTGTGACAAAAAAAAGAGGCGCAAGCAGCAGTACCAGCAGAGACAGTCGGTCATT
+TTTCACAAGCGCGCACCCGAGCAGGCCTTGTAG
+
+# Drug_Target_4_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_4_General_References:
+11238933	Speek M: Antisense promoter of human L1 retrotransposon drives transcription of adjacent cellular genes. Mol Cell Biol. 2001 Mar;21(6):1973-85.
+3272174	Bonner TI, Young AC, Brann MR, Buckley NJ: Cloning and expression of the human and rat m5 muscarinic acetylcholine receptor genes. Neuron. 1988 Jul;1(5):403-10.
+3443095	Peralta EG, Ashkenazi A, Winslow JW, Smith DH, Ramachandran J, Capon DJ: Distinct primary structures, ligand-binding properties and tissue-specific expression of four human muscarinic acetylcholine receptors. EMBO J. 1987 Dec 20;6(13):3923-9.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:1952
+
+# Drug_Target_4_HPRD_ID:
+00329
+
+# Drug_Target_4_ID:
+51
+
+# Drug_Target_4_Locus:
+1q43
+
+# Drug_Target_4_Molecular_Weight:
+66129
+
+# Drug_Target_4_Name:
+Muscarinic acetylcholine receptor M3
+
+# Drug_Target_4_Number_of_Residues:
+590
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Cimetidine Pathway	SMP00232
+Esomeprazole Pathway	SMP00225
+Famotidine Pathway	SMP00231
+Lansoprazole Pathway	SMP00227
+Nizatidine Pathway	SMP00233
+Omeprazole Pathway	SMP00226
+Pantoprazole Pathway	SMP00228
+Pirenzepine Pathway	SMP00246
+Rabeprazole Pathway	SMP00229
+Ranitidine Pathway	SMP00230
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_4_Protein_Sequence:
+>Muscarinic acetylcholine receptor M3
+MTLHNNSTTSPLFPNISSSWIHSPSDAGLPPGTVTHFGSYNVSRAAGNFSSPDGTTDDPL
+GGHTVWQVVFIAFLTGILALVTIIGNILVIVSFKVNKQLKTVNNYFLLSLACADLIIGVI
+SMNLFTTYIIMNRWALGNLACDLWLAIDYVASNASVMNLLVISFDRYFSITRPLTYRAKR
+TTKRAGVMIGLAWVISFVLWAPAILFWQYFVGKRTVPPGECFIQFLSEPTITFGTAIAAF
+YMPVTIMTILYWRIYKETEKRTKELAGLQASGTEAETENFVHPTGSSRSCSSYELQQQSM
+KRSNRRKYGRCHFWFTTKSWKPSSEQMDQDHSSSDSWNNNDAAASLENSASSDEEDIGSE
+TRAIYSIVLKLPGHSTILNSTKLPSSDNLQVPEEELGMVDLERKADKLQAQKSVDDGGSF
+PKSFSKLPIQLESAVDTAKTSDVNSSVGKSTATLPLSFKEATLAKRFALKTRSQITKRKR
+MSLVKEKKAAQTLSAILLAFIITWTPYNIMVLVNTFCDSCIPKTFWNLGYWLCYINSTVN
+PVCYALCNKTFRTTFKMLLLCQCDKKKRRKQQYQQRQSVIFHKRAPEQAL
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+The muscarinic acetylcholine receptor mediates various cellular responses, including inhibition of adenylate cyclase, breakdown of phosphoinositides and modulation of potassium channels through the action of G proteins. Primary transducing effect is Pi turnover
+
+# Drug_Target_4_SwissProt_ID:
+P20309
+
+# Drug_Target_4_SwissProt_Name:
+ACM3_HUMAN
+
+# Drug_Target_4_Synonyms:
+Not Available
+
+# Drug_Target_4_Theoretical_pI:
+9.62
+
+# Drug_Target_4_Transmembrane_Regions:
+68-91
+105-125
+143-164
+185-207
+230-252
+493-513
+528-547
+
+#END_DRUGCARD DB00809

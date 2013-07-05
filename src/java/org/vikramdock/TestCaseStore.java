@@ -10,17 +10,13 @@ import java.util.zip.*;
 import java.lang.*;
 import java.lang.reflect.*;
 
-public class TestCaseStore extends PriorityQueue {
-	int maxcap;
+public class TestCaseStore<T> extends PriorityQueue<T> {
+	private int maxcap;
 	public TestCaseStore(int maxcap, int initialCapacity) {
 		super(initialCapacity);
 		this.maxcap = maxcap;
 	}
-	public TestCaseStore(int maxcap, int initialCapacity, Comparator comparator) {
-		super(initialCapacity, comparator);
-		this.maxcap = maxcap;
-	}
-	public boolean addCap(Object o) {
+	public boolean addCap(T o) {
 		if (super.size() < maxcap) {
 			super.add(o);
 		} else {
@@ -33,6 +29,7 @@ public class TestCaseStore extends PriorityQueue {
 	public void reduceSize(int cap) {
 		if (super.size() > cap) {
 			Object[] array = super.toArray();
+			Arrays.sort(array);
 			int size = super.size(); 
 			for (int i = cap; i < size; i++) {
 				super.remove(array[i]);

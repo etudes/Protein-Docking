@@ -1,0 +1,939 @@
+#BEGIN_DRUGCARD DB01598
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Imipenem is not effectively absorbed from the gastrointestinal tract and therefore must be administered parenterally.
+
+# Biotransformation:
+Renal.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Tienamycin
+
+# CAS_Registry_Number:
+74431-23-5
+
+# ChEBI_ID:
+471744
+
+# Chemical_Formula:
+C12H17N3O4S
+
+# Chemical_IUPAC_Name:
+(5R,6S)-3-({2-[(E)-(aminomethylidene)amino]ethyl}sulfanyl)-6-[(1R)-1-hydroxyethyl]-7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2007-08-29 12:42:26 -0600
+
+# DPD_Drug_ID_Number:
+717274
+
+# Description:
+Semisynthetic thienamycin that has a wide spectrum of antibacterial activity against gram-negative and gram-positive aerobic and anaerobic bacteria, including many multiresistant strains. It is stable to beta-lactamases. Clinical studies have demonstrated high efficacy in the treatment of infections of various body systems. Its effectiveness is enhanced when it is administered in combination with cilastatin, a renal dipeptidase inhibitor. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Anti-Bacterial Agents
+
+# Drug_Interactions:
+Cyclosporine	Imipenem increases the effect and toxicity of cyclosporine
+Valganciclovir	Generalized convulsions have been reported in patients taking Ganciclovir and Imipenem-cilastatin. Concomitant therapy should be avoided. (Note: Valganciclovir is converted to Ganciclovir in vivo)
+
+# Drug_Reference:
+1382937	Buckley MM, Brogden RN, Barradell LB, Goa KL: Imipenem/cilastatin. A reappraisal of its antibacterial activity, pharmacokinetic properties and therapeutic efficacy. Drugs. 1992 Sep;44(3):408-44.
+19076841	Kattan JN, Villegas MV, Quinn JP: New developments in carbapenems. Clin Microbiol Infect. 2008 Dec;14(12):1102-11.
+1921491	Hellinger WC, Brewer NS: Imipenem. Mayo Clin Proc. 1991 Oct;66(10):1074-81.
+3530614	Pastel DA: Imipenem-cilastatin sodium, a broad-spectrum carbapenem antibiotic combination. Clin Pharm. 1986 Sep;5(9):719-36.
+3552595	Clissold SP, Todd PA, Campoli-Richards DM: Imipenem/cilastatin. A review of its antibacterial activity, pharmacokinetic properties and therapeutic efficacy. Drugs. 1987 Mar;33(3):183-241.
+3859213	Birnbaum J, Kahan FM, Kropp H, MacDonald JS: Carbapenems, a new class of beta-lactam antibiotics. Discovery and development of imipenem/cilastatin. Am J Med. 1985 Jun 7;78(6A):3-21.
+6365872	Kahan FM, Kropp H, Sundelof JG, Birnbaum J: Thienamycin: development of imipenen-cilastatin. J Antimicrob Chemother. 1983 Dec;12 Suppl D:1-35.
+9573653	Richerson MA, Ambrose PG, Quintiliani R, Nightingale CH: Formulary review of the carbapenems: comparison of imipenem/cilastatin and meropenem. Conn Med. 1998 Mar;62(3):165-9.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+1E+004 mg/L
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Imipenem
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+1 hour
+
+# InChI_Identifier:
+InChI=1S/C12H17N3O4S/c1-6(16)9-7-4-8(20-3-2-14-5-13)10(12(18)19)15(7)11(9)17/h5-7,9,16H,2-4H2,1H3,(H2,13,14)(H,18,19)/t6-,7-,9-/m1/s1
+
+# InChI_Key:
+InChIKey=ZSKVGTPCRGIANV-ZXFLCMHBSA-N
+
+# Indication:
+For the treatment of bacterial infections caused by susceptible bacteria.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+1598
+
+# Mechanism_Of_Action:
+Imipenem acts as an antimicrobial through the inhibition of cell wall synthesis of various gram-positive and gram-negative bacteria. This inhibition of cell wall synthesis in gram-negative bateria is attained by binding to pencillin binding proteins (PBPs). In E. coli and selected strains of P. aeruginosa, imipenem has shown to have the highest affinity to PBP-2, PBP-1a, and PBP-1b. This preferential binding to PBP-2 and PBP-1b results in the direct conversion of the individual cell to a spheroblast, which leads to rapid cell lysis and death without filament formation.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+299.346
+
+# Molecular_Weight_Mono:
+299.093976737
+
+# Organisms_Affected:
+Enteric bacteria and other eubacteria
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA449968
+
+# Pharmacology:
+Imipenem is a beta-lactam antibiotic belongings to the subgroup of carbapenems. Imipenem has a broad spectrum of activity against aerobic and anaerobic Gram positive as well as Gram negative bacteria. It is particularly important for its activity against <i>Pseudomonas aeruginosa</i> and the <i>Enterococcus</i> species. Imipenem is rapidly degraded by the renal enzyme dehydropeptidase when administered alone, and is always co-administered with cilastatin to prevent this inactivation.
+
+# Predicted_LogP_Hydrophobicity:
+-0.19
+
+# Predicted_LogS:
+-2.6
+
+# Predicted_Water_Solubility:
+7.76e-01 g/l
+
+# Primary_Accession_No:
+DB01598
+
+# Protein_Binding:
+20% binds to plasma proteins
+
+# PubChem_Compound_ID:
+104838
+
+# PubChem_Substance_ID:
+46505744
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@]12CC(SCC\N=C\N)=C(N1C(=O)[C@]2([H])[C@@H](C)O)C(O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+IMP
+Imipemide
+Imipenem, n-formimidoyl thienamycin
+N-formimidoylthienamycin
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:20:18 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Imipenem
+
+# pKa_Isoelectric_Point:
+3.2
+
+# Drug_Target_1_Cellular_Location:
+Cell inner membrane
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11061029	Luchi M, Morrison DC, Opal S, Yoneda K, Slotman G, Chambers H, Wiesenfeld H, Lemke J, Ryan JL, Horn D: A comparative trial of imipenem versus ceftazidime in the release of endotoxin and cytokine generation in patients with gram-negative urosepsis. Urosepsis Study Group. J Endotoxin Res. 2000;6(1):25-31.
+17488146	Zhanel GG, Wiebe R, Dilay L, Thomson K, Rubinstein E, Hoban DJ, Noreddin AM, Karlowsky JA: Comparative review of the carbapenems. Drugs. 2007;67(7):1027-52.
+18076336	Nicolau DP: Carbapenems: a potent class of antibiotics. Expert Opin Pharmacother. 2008 Jan;9(1):23-37.
+3873871	Neu HC: Carbapenems: special properties contributing to their activity. Am J Med. 1985 Jun 7;78(6A):33-40.
+
+# Drug_Target_1_Essentiality:
+Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+X04516
+
+# Drug_Target_1_GenBank_ID_Protein:
+42314
+
+# Drug_Target_1_GeneCard_ID:
+mrdA
+
+# Drug_Target_1_Gene_Name:
+mrdA
+
+# Drug_Target_1_Gene_Sequence:
+>210 bp
+ATGATCATCTGTACGGGTACGTCCAGCCGTCATGTTATGTCCATTGCTGACCACGTTGTG
+CAGGAGTCTCGCGCAGCGGGCCTGTTACCGCTCGGCGTAGAAGGTGAAAACAGCGCCGAC
+TGGATTGTCGTGGATTTGGGCGATGTGATTGTCCATGTCATGCAGGAAGAGAGCCGTCGC
+CTGTATGAACTGGAAAAACTCTGGAGTTAA
+
+# Drug_Target_1_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_1_General_References:
+16738553	Hayashi K, Morooka N, Yamamoto Y, Fujita K, Isono K, Choi S, Ohtsubo E, Baba T, Wanner BL, Mori H, Horiuchi T: Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110. Mol Syst Biol. 2006;2:2006.0007. Epub 2006 Feb 21.
+2644207	Matsuzawa H, Asoh S, Kunai K, Muraiso K, Takasuga A, Ohta T: Nucleotide sequence of the rodA gene, responsible for the rod shape of Escherichia coli: rodA and the pbpA gene, encoding penicillin-binding protein 2, constitute the rodA operon. J Bacteriol. 1989 Jan;171(1):558-60.
+3533535	Asoh S, Matsuzawa H, Ishino F, Strominger JL, Matsuhashi M, Ohta T: Nucleotide sequence of the pbpA gene and characteristics of the deduced amino acid sequence of penicillin-binding protein 2 of Escherichia coli K12. Eur J Biochem. 1986 Oct 15;160(2):231-8.
+8905232	Oshima T, Aiba H, Baba T, Fujita K, Hayashi K, Honjo A, Ikemoto K, Inada T, Itoh T, Kajihara M, Kanai K, Kashimoto K, Kimura S, Kitagawa M, Makino K, Masuda S, Miki T, Mizobuchi K, Mori H, Motomura K, Nakamura Y, Nashimoto H, Nishio Y, Saito N, Horiuchi T, et al.: A 718-kb DNA sequence of the Escherichia coli K-12 genome corresponding to the 12.7-28.0 min region on the linkage map. DNA Res. 1996 Jun 30;3(3):137-55.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-62.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+6069
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+70856.1
+
+# Drug_Target_1_Name:
+Penicillin-binding protein 2
+
+# Drug_Target_1_Number_of_Residues:
+633
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00905	Transpeptidase
+PF03717	PBP_dimer
+
+# Drug_Target_1_Protein_Sequence:
+>Penicillin-binding protein 2
+MKLQNSFRDYTAESALFVRRALVAFLGILLLTGVLIANLYNLQIVRFTDYQTRSNENRIK
+LVPIAPSRGIIYDRNGIPLALNRTIYQIEMMPEKVDNVQQTLDALRSVVDLTDDDIAAFR
+KERARSHRFTSIPVKTNLTEVQVARFAVNQYRFPGVEVKGYKRRYYPYGSALTHVIGYVS
+KINDKDVERLNNDGKLANYAATHDIGKLGIERYYEDVLHGQTGYEEVEVNNRGRVIRQLK
+EVPPQAGHDIYLTLDLKLQQYIETLLAGSRAAVVVTDPRTGGVLALVSTPSYDPNLFVDG
+ISSKDYSALLNDPNTPLVNRATQGVYPPASTVKPYVAVSALSAGVITRNTTLFDPGWWQL
+PGSEKRYRDWKKWGHGRLNVTRSLEESADTFFYQVAYDMGIDRLSEWMGKFGYGHYTGID
+LAEERSGNMPTREWKQKRFKKPWYQGDTIPVGIGQGYWTATPIQMSKALMILINDGIVKV
+PHLLMSTAEDGKQVPWVQPHEPPVGDIHSGYWELAKDGMYGVANRPNGTAHKYFASAPYK
+IAAKSGTAQVFGLKANETYNAHKIAERLRDHKLMTAFAPYNNPQVAVAMILENGGAGPAV
+GTLMRQILDHIMLGDNNTDLPAENPAVAAAEDH
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Cell wall formation; PBP-2 is responsible for the determination of the rod shape of the cell. Its synthesize cross- linked peptidoglycan from the lipid intermediates
+
+# Drug_Target_1_SwissProt_ID:
+P0AD65
+
+# Drug_Target_1_SwissProt_Name:
+PBP2_ECOLI
+
+# Drug_Target_1_Synonyms:
+PBP-2
+
+# Drug_Target_1_Theoretical_pI:
+9.16
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Bacterial cell inner membrane
+single-pass type II membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17488146	Nicolau DP: Carbapenems: a potent class of antibiotics. Expert Opin Pharmacother. 2008 Jan;9(1):23-37. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/18076336# Zhanel GG, Wiebe R, Dilay L, Thomson K, Rubinstein E, Hoban DJ, Noreddin AM, Karlowsky JA: Comparative review of the carbapenems. Drugs. 2007;67(7):1027-52.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+X02163
+
+# Drug_Target_2_GenBank_ID_Protein:
+42468
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+mrcB
+
+# Drug_Target_2_Gene_Sequence:
+>2535 bp
+ATGGCCGGGAATGACCGCGAGCCAATTGGACGCAAAGGGAAACCGACGCGTCCGGTCAAA
+CAAAAGGTAAGCCGTCGTCGTTACGAAGATGACGATGATTACGACGATTATGATGACTAT
+GAGGATGAAGAACCGATGCCGCGCAAAGGTAAGGGCAAAGGCAAAGGGCGTAAGCCTCGT
+GGCAAACGCGGCTGGCTATGGCTACTGCTAAAACTGGCTATCGTTTTTGCCGTGCTGATC
+GCCATTTACGGCGTTTATCTCGATCAAAAAATTCGTAGCCGTATTGATGGCAAGGTCTGG
+CAACTCGCTGCGGCAGTTTATGGCCGAATGGTCAATCTTGAGCCAGACATGACCATCAGC
+AAGAACGAGATGGTGAAGCTGCTGGAGGCGACCCAGTATCGTCAGGTGTCGAAAATGACC
+CGTCCTGGCGAATTTACCGTGCAGGCCAACAGCATTGAGATGATTCGCCGTCCGTTTGAT
+TTCCCGGACAGTAAAGAAGGACAGGTGCGCGCGCGTCTGACCTTTGATGGCGATCATCTG
+GCGACGATCGTCAATATGGAGAACAACCGTCAGTTCGGTTTCTTCCGTCTTGATCCGCGT
+CTGATCACCATGATCTCTTCGCCAAACGGTGAGCAGCGTCTGTTTGTGCCGCGCAGTGGT
+TTCCCGGATTTGCTGGTGGATACTTTGCTGGCGACAGAAGACCGTCATTTTTACGAGCAT
+GATGGAATCAGTCTCTACTCAATCGGACGTGCGGTGCTGGCAAACCTGACCGCCGGACGC
+ACGGTACAGGGTGCGAGTACGCTGACGCAACAGCTGGTGAAAAACCTGTTCCTCTCCAGC
+GAGCGTTCTTACTGGCGTAAAGCGAACGAAGCTTACATGGCGCTGATCATGGACGCGCGT
+TACAGCAAAGACCGTATTCTTGAGCTGTATATGAACGAGGTGTATCTCGGTCAGAGCGGC
+GACAACGAAATCCGCGGCTTCCCGCTGGCAAGCTTGTATTACTTTGGTCGCCCGGTAGAA
+GAGCTAAGCCTCGACCAGCAGGCGCTGTTAGTCGGTATGGTGAAAGGGGCGTCCATCTAC
+AACCCGTGGCGTAACCCAAAACTGGCGCTGGAGCGACGTAATCTGGTGCTGCGTCTGCTG
+CAACAGCAACAGATTATTGATCAAGAACTCTATGACATGTTGAGTGCCCGTCCGCTGGGG
+GTTCAGCCGCGCGGTGGGGTGATCTCTCCTCAGCCAGCCTTTATGCAACTGGTGCGTCAG
+GAGCTGCAGGCAAAACTGGGCGATAAGGTAAAAGATCTCTCCGGCGTGAAGATCTTCACT
+ACCTTTGACTCGGTGGCCCAGGACGCGGCAGAAAAAGCCGCCGTGGAAGGCATTCCGGCA
+CTGAAGAAACAGCGTAAGTTGAGCGATCTTGAAACTGCGATTGTGGTCGTCGACCGCTTT
+AGTGGTGAAGTTCGTGCGATGGTCGGAGGTTCTGAGCCGCAGTTTGCGGGCTACAACCGT
+GCGATGCAGGCGCGTCGTTCGATTGGTTCCCTTGCAAAACCAGCGACTTATCTGACGGCC
+TTAAGCCAGCCGAAAATCTATCGTCTGAATACGTGGATTGCGGATGCGCCAATTGCGCTG
+CGTCAGCCGAATGGCCAGGTCTGGTCACCGCAGAATGATGACCGTCGTTATAGCGAAAGC
+GGCAGAGTGATGCTGGTGGATGCGTTGACCCGTTCGATGAACGTGCCGACGGTAAATCTG
+GGGATGGCGCTGGGGCTGCCTGCGGTTACGGAGACCTGGATTAAACTGGGCGTACCGAAA
+GATCAGTTGCATCCGGTTCCGGCAATGCTGCTGGGGGCGTTGAACTTAACGCCAATCGAA
+GTGGCGCAGGCATTCCAGACCATCGCCAGCGGTGGTAACCGTGCACCGCTTTCTGCGCTG
+CGTTCGGTAATCGCGGAAGATGGCAAAGTGCTGTATCAGAGCTTCCCGCAGGCGGAACGC
+GCTGTTCCGGCGCAGGCGGCGTATCTGACACTATGGACCATGCAGCAGGTGGTACAACGC
+GGTACGGGTCGTCAGCTTGGGGCGAAATACCCGAACCTGCATCTGGCAGGGAAAACAGGG
+ACTACCAACAATAACGTAGATACCTGGTTTGCGGGCATTGACGGCAGCACGGTGACCATC
+ACCTGGGTCGGCCGTGATAACAACCAGCCGACCAAACTGTATGGTGCCAGCGGGGCAATG
+TCGATTTATCAGCGTTATCTGGCTAACCAGACGCCAACGCCGCTGAATCTTGTTCCGCCA
+GAAGATATTGCAGATATGGGCGTGGACTACGACGGCAACTTTGTTTGCAGCGGTGGCATG
+CGTATCTTGCCGGTCTGGACCAGCGATCCGCAATCGCTGTGCCAGCAGAGCGAGATGCAG
+CAGCAGCCGTCAGGCAATCCGTTTGATCAGTCTTCTCAGCCGCAGCAACAGCCGCAACAG
+CAACCTGCTCAGCAAGAGCAGAAAGACAGCGACGGTGTAGCCGGTTGGATCAAGGATATG
+TTTGGTAGTAATTAA
+
+# Drug_Target_2_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_2_General_References:
+10037771	Vollmer W, von Rechenberg M, Holtje JV: Demonstration of molecular interactions between the murein polymerase PBP1B, the lytic transglycosylase MltA, and the scaffolding protein MipA of Escherichia coli. J Biol Chem. 1999 Mar 5;274(10):6726-34.
+10564478	Terrak M, Ghosh TK, van Heijenoort J, Van Beeumen J, Lampilas M, Aszodi J, Ayala JA, Ghuysen JM, Nguyen-Disteche M: The catalytic, glycosyl transferase and acyl transferase modules of the cell wall peptidoglycan-polymerizing penicillin-binding protein 1b of Escherichia coli. Mol Microbiol. 1999 Oct;34(2):350-64.
+1885547	Zijderveld CA, Aarsman ME, den Blaauwen T, Nanninga N: Penicillin-binding protein 1B of Escherichia coli exists in dimeric forms. J Bacteriol. 1991 Sep;173(18):5740-6.
+3330753	Edelman A, Bowler L, Broome-Smith JK, Spratt BG: Use of a beta-lactamase fusion vector to investigate the organization of penicillin-binding protein 1B in the cytoplasmic membrane of Escherichia coli. Mol Microbiol. 1987 Jul;1(1):101-6.
+3882429	Broome-Smith JK, Edelman A, Yousif S, Spratt BG: The nucleotide sequences of the ponA and ponB genes encoding penicillin-binding protein 1A and 1B of Escherichia coli K12. Eur J Biochem. 1985 Mar 1;147(2):437-46.
+3920658	Keck W, Glauner B, Schwarz U, Broome-Smith JK, Spratt BG: Sequences of the active-site peptides of three of the high-Mr penicillin-binding proteins of Escherichia coli K-12. Proc Natl Acad Sci U S A. 1985 Apr;82(7):1999-2003.
+8202364	Fujita N, Mori H, Yura T, Ishihama A: Systematic sequencing of the Escherichia coli genome: analysis of the 2.4-4.1 min (110,917-193,643 bp) region. Nucleic Acids Res. 1994 May 11;22(9):1637-9.
+8645198	Wang CC, Schultz DE, Nicholas RA: Localization of a putative second membrane association site in penicillin-binding protein 1B of Escherichia coli. Biochem J. 1996 May 15;316 ( Pt 1):149-56.
+9244263	Lefevre F, Remy MH, Masson JM: Topographical and functional investigation of Escherichia coli penicillin-binding protein 1b by alanine stretch scanning mutagenesis. J Bacteriol. 1997 Aug;179(15):4761-7.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+9841666	Goffin C, Ghuysen JM: Multimodular penicillin-binding proteins: an enigmatic family of orthologs and paralogs. Microbiol Mol Biol Rev. 1998 Dec;62(4):1079-93.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+543
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+94294
+
+# Drug_Target_2_Name:
+Penicillin-binding protein 1B
+
+# Drug_Target_2_Number_of_Residues:
+844
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00905	Transpeptidase
+PF00912	Transgly
+
+# Drug_Target_2_Protein_Sequence:
+>Penicillin-binding protein 1B
+MAGNDREPIGRKGKPTRPVKQKVSRRRYEDDDDYDDYDDYEDEEPMPRKGKGKGKGRKPR
+GKRGWLWLLLKLAIVFAVLIAIYGVYLDQKIRSRIDGKVWQLPAAVYGRMVNLEPDMTIS
+KNEMVKLLEATQYRQVSKMTRPGEFTVQANSIEMIRRPFDFPDSKEGQVRARLTFDGDHL
+ATIVNMENNRQFGFFRLDPRLITMISSPNGEQRLFVPRSGFPDLLVDTLLATEDRHFYEH
+DGISLYSIGRAVLANLTAGRTVQGASTLTQQLVKNLFLSSERSYWRKANEAYMALIMDAR
+YSKDRILELYMNEVYLGQSGDNEIRGFPLASLYYFGRPVEELSLDQQALLVGMVKGASIY
+NPWRNPKLALERRNLVLRLLQQQQIIDQELYDMLSARPLGVQPRGGVISPQPAFMQLVRQ
+ELQAKLGDKVKDLSGVKIFTTFDSVAQDAAEKAAVEGIPALKKQRKLSDLETAIVVVDRF
+SGEVRAMVGGSEPQFAGYNRAMQARRSIGSLAKPATYLTALSQPKIYRLNTWIADAPIAL
+RQPNGQVWSPQNDDRRYSESGRVMLVDALTRSMNVPTVNLGMALGLPAVTETWIKLGVPK
+DQLHPVPAMLLGALNLTPIEVAQAFQTIASGGNRAPLSALRSVIAEDGKVLYQSFPQAER
+AVPAQAAYLTLWTMQQVVQRGTGRQLGAKYPNLHLAGKTGTTNNNVDTWFAGIDGSTVTI
+TWVGRDNNQPTKLYGASGAMSIYQRYLANQTPTPLNLVPPEDIADMGVDYDGNFVCSGGM
+RILPVWTSDPQSLCQQSEMQQQPSGNPFDQSSQPQQQPQQQPAQQEQKDSDGVAGWIKDM
+FGSN
+
+# Drug_Target_2_Reaction:
+[GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n- diphosphoundecaprenol + GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)- diphosphoundecaprenol = [GlcNAc-(1->4)-Mur2Ac(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)]n+1- diphosphoundecaprenol + undecaprenyl diphosphate
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Cell wall formation. Synthesis of cross-linked peptidoglycan from the lipid intermediates. The enzyme has a penicillin-insensitive transglycosylase N-terminal domain (formation of linear glycan strands) and a penicillin-sensitive transpeptidase C-terminal domain (cross-linking of the peptide subunits)
+
+# Drug_Target_2_SwissProt_ID:
+P02919
+
+# Drug_Target_2_SwissProt_Name:
+PBPB_ECOLI
+
+# Drug_Target_2_Synonyms:
+EC 2.4.1.129
+EC 3.4.-.-
+Murein polymerase
+PBP-1b
+PBP1b
+Penicillin- sensitive transpeptidase
+Peptidoglycan TGase
+Peptidoglycan glycosyltransferase
+
+# Drug_Target_2_Theoretical_pI:
+9.46
+
+# Drug_Target_2_Transmembrane_Regions:
+64-87
+
+# Drug_Target_3_Cellular_Location:
+Bacterial cell inner membrane
+single-pass type II membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+17488146	Nicolau DP: Carbapenems: a potent class of antibiotics. Expert Opin Pharmacother. 2008 Jan;9(1):23-37. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/18076336# Zhanel GG, Wiebe R, Dilay L, Thomson K, Rubinstein E, Hoban DJ, Noreddin AM, Karlowsky JA: Comparative review of the carbapenems. Drugs. 2007;67(7):1027-52.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+X02164
+
+# Drug_Target_3_GenBank_ID_Protein:
+581194
+
+# Drug_Target_3_GeneCard_ID:
+Not Available
+
+# Drug_Target_3_Gene_Name:
+mrcA
+
+# Drug_Target_3_Gene_Sequence:
+>2553 bp
+GTGAAGTTCGTAAAGTATTTTTTGATCCTTGCAGTCTGTTGCATTCTGCTGGGAGCAGGC
+TCGATTTATGGCCTATACCGCTACATCGAGCCACAACTGCCGGATGTGGCGACATTAAAA
+GATGTTCGCCTGCAAATTCCGATGCAGATTTACAGCGCCGATGGCGAGCTGATTGCTCAA
+TACGGTGAGAAACGTCGTATTCCGGTTACGTTGGATCAAATCCCACCGGAGATGGTGAAA
+GCCTTTATCGCGACAGAAGACAGCCGCTTCTACGAGCATCACGGCGTTGACCCGGTGGGG
+ATCTTCCGTGCAGCAAGCGTGGCGCTGTTCTCCGGTCACGCGTCACAAGGGGCAAGTACC
+ATTACCCAGCAGCTGGCGAGAAACTTCTTCCTCAGTCCAGAACGCACGCTGATGCGTAAG
+ATTAAGGAAGTCTTCCTCGCGATTCGCATTGAACAGCTGCTGACGAAAGACGAGATCCTC
+GAGCTTTATCTGAACAAGATTTACCTTGGTTACCGCGCCTATGGTGTCGGTGCTGCGGCA
+CAAGTCTATTTCGGAAAAACGGTCGACCAACTGACGCTGAACGAAATGGCGGTGATAGCC
+GGGCTGCCGAAAGCGCCTTCCACCTTCAACCCGCTCTACTCGATGGATCGTGCCGTCGCG
+CGGCGTAACGTCGTGCTGTCGCGGATGCTGGATGAAGGGTATATCACCCAACAACAGTTC
+GATCAGACACGCACTGAGGCGATTAACGCTAACTATCACGCGCCGGAGATTGCTTTCTCT
+GCGCCGTACCTGAGCGAAATGGTGCGCCAGGAGATGTATAACCGTTATGGCGAAAGTGCC
+TATGAAGACGGTTATCGCATTTACACCACCATCACCCGCAAAGTGCAGCAGGCCGCGCAG
+CAGGCGGTACGTAATAACGTGCTGGACTACGACATGCGCCACGGCTATCGCGGCCCGGCA
+AATGTGCTGTGGAAAGTGGGCGAGTCGGCGTGGGATAACAACAAGATTACCGATACGCTG
+AAGGCGCTGCCAACCTATGGTCCGCTGCTGCCTGCCGCAGTCACCAGCGCCAATCCTCAG
+CAAGCGACGGCGATGCTGGCGGACGGGTCGACCGTCGCATTGAGTATGGAAGGCGTTCGC
+TGGGCGCGTCCTTACCGTTCGGATACTCAGCAAGGACCGACGCCGCGTAAAGTGACCGAT
+GTTCTGCAAACGGGTCAGCAAATCTGGGTTCGTCAGGTTGGCGATGCATGGTGGCTGGCA
+CAAGTGCCGGAAGTGAACTCGGCGCTGGTGTCGATCAATCCGCAAAACGGTGCCGTTATG
+GCGCTGGTCGGTGGCTTTGATTTCAATCAGAGCAAGTTTAACCGCGCCACCCAGGCACTG
+CGTCAGGTGGGTTCCAACATCAAACCGTTCCTCTACACCGCGGCGATGGATAAAGGTCTG
+ACGCTGGCAAGTATGTTGAACGATGTGCCAATTTCTCGCTGGGATGCAAGTGCCGGTTCT
+GACTGGCAGCCGAAGAACTCACCACCGCAGTATGCTGGTCCAATTCGCTTACGTCAGGGG
+CTGGGTCAGTCGAAAAACGTGGTGATGGTACGCGCAATGCGGGCGATGGGCGTCGACTAC
+GCTGCAGAATATCTGCAACGCTTCGGCTTCCCGGCACAAAACATTGTCCACACCGAATCG
+CTGGCGCTGGGTTCAGCGTCCTTCACCCCAATGCAGGTGGCGCGCGGCTACGCGGTCATG
+GCGAACGGCGGCTTCCTGGTGGACCCGTGGTTTATCAGCAAAATTGAAAACGATCAGGGC
+GGCGTGATTTTCGAAGCGAAACCGAAAGTAGCCTGCCCGGAATGCGATATTCCGGTGATT
+TACGGTGATACGCAGAAATCGAACGTGCTGGAAAATAACGATGTTGAAGATGTCGCTATC
+TCCCGCGAGCAGCAGAATGTTTCTGTACCAATGCCGCAGCTGGAGCAGGCAAATCAGGCG
+TTAGTGGCGAAGACTGGCGCGCAGGAGTACGCACCGCACGTCATCAACACTCCGCTGGCA
+TTCCTGATTAAGAGTGCTTTGAACACCAATATCTTTGGTGAGCCAGGCTGGCAGGGTACT
+GGCTGGCGTGCAGGTCGTGATTTGCAGCGTCGCGATATCGGCGGGAAAACCGGGACCACT
+AACAGTTCGAAAGATGCGTGGTTCTCGGGTTACGGTCCGGGCGTTGTGACCTCGGTCTGG
+ATTGGCTTTGATGATCACCGTCGTAATCTCGGTCATACAACGGCTTCCGGAGCGATTAAA
+GATCAGATCTCAGGTTACGAAGGCGGTGCCAAGAGTGCCCAGCCTGCATGGGACGCTTAT
+ATGAAAGCCGTTCTTGAAGGTGTGCCGGAGCAGCCGCTGACGCCGCCACCGGGTATTGTG
+ACGGTGAATATCGATCGCAGCACCGGGCAGTTAGCTAATGGTGGCAACAGCCGCGAAGAG
+TATTTCATCGAAGGTACGCAGCCGACACAACAGGCAGTGCACGAGGTGGGAACGACCATT
+ATCGATAATGGCGAGGCACAGGAATTGTTCTGA
+
+# Drug_Target_3_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_3_General_References:
+3882429	Broome-Smith JK, Edelman A, Yousif S, Spratt BG: The nucleotide sequences of the ponA and ponB genes encoding penicillin-binding protein 1A and 1B of Escherichia coli K12. Eur J Biochem. 1985 Mar 1;147(2):437-46.
+3920658	Keck W, Glauner B, Schwarz U, Broome-Smith JK, Spratt BG: Sequences of the active-site peptides of three of the high-Mr penicillin-binding proteins of Escherichia coli K-12. Proc Natl Acad Sci U S A. 1985 Apr;82(7):1999-2003.
+7006606	Ishino F, Mitsui K, Tamaki S, Matsuhashi M: Dual enzyme activities of cell wall peptidoglycan synthesis, peptidoglycan transglycosylase and penicillin-sensitive transpeptidase, in purified preparations of Escherichia coli penicillin-binding protein 1A. Biochem Biophys Res Commun. 1980 Nov 17;97(1):287-93.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+9841666	Goffin C, Ghuysen JM: Multimodular penicillin-binding proteins: an enigmatic family of orthologs and paralogs. Microbiol Mol Biol Rev. 1998 Dec;62(4):1079-93.
+
+# Drug_Target_3_HGNC_ID:
+Not Available
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+645
+
+# Drug_Target_3_Locus:
+Not Available
+
+# Drug_Target_3_Molecular_Weight:
+93637
+
+# Drug_Target_3_Name:
+Penicillin-binding protein 1A
+
+# Drug_Target_3_Number_of_Residues:
+850
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00905	Transpeptidase
+PF00912	Transgly
+
+# Drug_Target_3_Protein_Sequence:
+>Penicillin-binding protein 1A
+MKFVKYFLILAVCCILLGAGSIYGLYRYIEPQLPDVATLKDVRLQIPMQIYSADGELIAQ
+YGEKRRIPVTLDQIPPEMVKAFIATEDSRFYEHHGVDPVGIFRAASVALFSGHASQGAST
+ITQQLARNFFLSPERTLMRKIKEVFLAIRIEQLLTKDEILELYLNKIYLGYRAYGVGAAA
+QVYFGKTVDQLTLNEMAVIAGLPKAPSTFNPLYSMDRAVARRNVVLSRMLDEGYITQQQF
+DQTRTEAINANYHAPEIAFSAPYLSEMVRQEMYNRYGESAYEDGYRIYTTITRKVQQAAQ
+QAVRNNVLDYDMRHGYRGPANVLWKVGESAWDNNKITDTLKALPTYGPLLPAAVTSANPQ
+QATAMLADGSTVALSMEGVRWARPYRSDTQQGPTPRKVTDVLQTGQQIWVRQVGDAWWLA
+QVPEVNSALVSINPQNGAVMALVGGFDFNQSKFNRATQALRQVGSNIKPFLYTAAMDKGL
+TLASMLNDVPISRWDASAGSDWQPKNSPPQYAGPIRLRQGLGQSKNVVMVRAMRAMGVDY
+AAEYLQRFGFPAQNIVHTESLALGSASFTPMQVARGYAVMANGGFLVDPWFISKIENDQG
+GVIFEAKPKVACPECDIPVIYGDTQKSNVLENNDVEDVAISREQQNVSVPMPQLEQANQA
+LVAKTGAQEYAPHVINTPLAFLIKSALNTNIFGEPGWQGTGWRAGRDLQRRDIGGKTGTT
+NSSKDAWFSGYGPGVVTSVWIGFDDHRRNLGHTTASGAIKDQISGYEGGAKSAQPAWDAY
+MKAVLEGVPEQPLTPPPGIVTVNIDRSTGQLANGGNSREEYFIEGTQPTQQAVHEVGTTI
+IDNGEAQELF
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Cell wall formation. Synthesis of cross-linked peptidoglycan from the lipid intermediates. The enzyme has a penicillin-insensitive transglycosylase N-terminal domain (formation of linear glycan strands) and a penicillin-sensitive transpeptidase C-terminal domain (cross-linking of the peptide subunits)
+
+# Drug_Target_3_SwissProt_ID:
+P02918
+
+# Drug_Target_3_SwissProt_Name:
+PBPA_ECOLI
+
+# Drug_Target_3_Synonyms:
+DD-transpeptidase
+EC 2.4.2.-
+EC 3.4.-.-
+PBP-1a
+PBP1a
+Penicillin-sensitive transpeptidase
+Peptidoglycan TGase
+
+# Drug_Target_3_Theoretical_pI:
+6.53
+
+# Drug_Target_3_Transmembrane_Regions:
+6-26
+
+# Drug_Target_4_Cellular_Location:
+Not Available
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+17488146	Zhanel GG, Wiebe R, Dilay L, Thomson K, Rubinstein E, Hoban DJ, Noreddin AM, Karlowsky JA: Comparative review of the carbapenems. Drugs. 2007;67(7):1027-52.
+18076336	Nicolau DP: Carbapenems: a potent class of antibiotics. Expert Opin Pharmacother. 2008 Jan;9(1):23-37.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Gene:
+D38161
+
+# Drug_Target_4_GenBank_ID_Protein:
+790944
+
+# Drug_Target_4_GeneCard_ID:
+Not Available
+
+# Drug_Target_4_Gene_Name:
+pbpC
+
+# Drug_Target_4_Gene_Sequence:
+>2007 bp
+ATGTTAAAAAAGTGTATTCTACTAGTATTTCTATGCGTCGGATTGATTGGGTTAATCGGA
+TGCTCCAAAACAGATTCACCAGAGGATCGCATGGAAGCATTCGTGAAACAGTGGAACGAT
+CAGCAATTCGATGACATGTATCAAAGCCTGACTAAAGATGTCAAAAAAGAAATCTCCAAA
+AAAGATTTCGTCAACAGGTATAAAGCCATCTATGAGCAGGCCGGCGTAAAAAATTTGAAA
+GTCACTGCGGGAGAAGTAGATAAGGACGATCAAGACAACAAGACGATGAAACATATCCCG
+TATAAAGTCAGCATGAACACAAATGCCGGCAAAGTCAGCTTCAAGAATACTGCTGTGCTG
+AAATTAGAAAAAACAGATGACGAGGAGTCATGGAATATAGATTGGGACCCATCGTTTATT
+TTCAAGCAGCTGGCTGACGACAAAACCGTGCAAATTATGAGCATTGAACCGAAACGAGGC
+CAAATTTACGATAAAAATGGAAAAGGCTTAGCCGTCAATACAGATGTTCCGGAAATTGGA
+ATTGTTCCCGGAGAGCTTGGCGATAAAAAAGAGAAAGTCATAAAAGAACTCGCCAAAAAA
+CTTGATTTGACTGAAGACGACATCAAGAAAAAGCTGGATCAAGGCTGGGTAAAAGACGAT
+TCGTTTGTGCCGCTCAAAAAGGTCAAGCCTGACCAGGAGAAATTAGTTTCTGAAGCGACG
+TCATTACAAGGCGTAACAAGAACGAATGTCAGCTCCCGCTACTATCCGTATGGCGAAAAG
+ACAGCCCATTTGACAGGCTATGTCCGCGCCATTACAGCGGAAGAACTGAAGAAAAAGAAA
+GAAGGAACGTACAGCGATACGTCTAACATCGGTATCGCCGGACTTGAAAATGTGTATGAA
+GACAAGCTAAGAGGCACAACTGGCTGGAAAATCTACGTGCCGCAAACCGGGGAAGTCATC
+GCTGAAAAGAAAGCAAAGGACGGCGAGGATCTTCACCTCACAATTGATATCAAAACGCAA
+ATGAAGCTGTATGATGAACTGAAGGATGACAGCGGGGCGGCAGTCGCGCTGCAGCCGAAG
+ACAGGCGAAACACTCGCCCTTGTCAGCGCGCCTTCCTACGATCCAAACGGATTTATTTTC
+GGCTGGAGCGATAAGGAATGGAAAAAGCTAAACAAAGATAAAAACAATCCGTTTTCAGCG
+AAATTCAATAAGACATACGCGCCAGGTTCTACCATTAAACCGATTGCGGCTGCTATTGGA
+ATCAAAAACGGCACCCTTAAAGCCGATGAGAAGAAAACAATCAAAGGCAAGGAGTGGCAA
+AAAGATTCAAGCTGGGGCGGCTATTCAGTGACACGTGTGTCTGAGAGACTTCAACAAGTC
+GATTTGGAAAACGCCCTTATTACGTCAGACAATATTTATTTTGCCCAGAATGCGCTTGAT
+ATGGGAGCGGACACCTTTACAAAAGGCTTGAAGACATTCGGTTTTTCAGAGGACGTTCCG
+TACGAATTCCCGATCCAGAAATCGTCTATTGCAAATGACAAGCTTGATTCAGACATTTTG
+CTTGCGGATACAGGCTACGGACAAGGGCAAATGCAAATGTCTCCGCTTCACTTGGCAACT
+GCTTACACGCCATTTGTTGACAATGGAGACCTTGTCAAACCGACGCTGATCAAAAAAGAT
+TCACAAACAGCTGATGTTTGGCACAAGCAAGTGGTCACGAAGGAAGGAGCGGCAGACATT
+ACAAAAGGTCTGAAAGGCGTTGTGGAAGATGAGCGCGGATCAGCGTATCAGCCTGTCGTG
+AAAGGAATCACAGTGGCTGGAAAAACAGGAACAGCCGAGCTGAAAACATCAAAAGATGAT
+AAAGACGGCACGGAAAATGGCTGGTTTGTCGGCTACGATTACGAAAACAAAGACCTGCTT
+GTCGCCATGATGATCCAAAATGTGCAGGACCGCGGCGGCAGCCACTATGTCGTTGAGAAA
+GCGAAAAAGCAATTTCAATCGAATTAA
+
+# Drug_Target_4_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_4_General_References:
+3145906	Smith H, de Jong A, Bron S, Venema G: Characterization of signal-sequence-coding regions selected from the Bacillus subtilis chromosome. Gene. 1988 Oct 30;70(2):351-61.
+8969502	Yamane K, Kumano M, Kurita K: The 25 degrees-36 degrees region of the Bacillus subtilis chromosome: determination of the sequence of a 146 kb segment and identification of 113 genes. Microbiology. 1996 Nov;142 ( Pt 11):3047-56.
+9384377	Kunst F, Ogasawara N, Moszer I, Albertini AM, Alloni G, Azevedo V, Bertero MG, Bessieres P, Bolotin A, Borchert S, Borriss R, Boursier L, Brans A, Braun M, Brignell SC, Bron S, Brouillet S, Bruschi CV, Caldwell B, Capuano V, Carter NM, Choi SK, Codani JJ, Connerton IF, Danchin A, et al.: The complete genome sequence of the gram-positive bacterium Bacillus subtilis. Nature. 1997 Nov 20;390(6657):249-56.
+
+# Drug_Target_4_HGNC_ID:
+Not Available
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+867
+
+# Drug_Target_4_Locus:
+Not Available
+
+# Drug_Target_4_Molecular_Weight:
+74407
+
+# Drug_Target_4_Name:
+Penicillin-binding protein 3
+
+# Drug_Target_4_Number_of_Residues:
+668
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00905	Transpeptidase
+PF03717	PBP_dimer
+PF05223	MecA_N
+
+# Drug_Target_4_Protein_Sequence:
+>Penicillin-binding protein 3
+MLKKCILLVFLCVGLIGLIGCSKTDSPEDRMEAFVKQWNDQQFDDMYQSLTKDVKKEISK
+KDFVNRYKAIYEQAGVKNLKVTAGEVDKDDQDNKTMKHIPYKVSMNTNAGKVSFKNTAVL
+KLEKTDDEESWNIDWDPSFIFKQLADDKTVQIMSIEPKRGQIYDKNGKGLAVNTDVPEIG
+IVPGELGDKKEKVIKELAKKLDLTEDDIKKKLDQGWVKDDSFVPLKKVKPDQEKLVSEAT
+SLQGVTRTNVSSRYYPYGEKTAHLTGYVRAITAEELKKKKEGTYSDTSNIGIAGLENVYE
+DKLRGTTGWKIYVPQTGEVIAEKKAKDGEDLHLTIDIKTQMKLYDELKDDSGAAVALQPK
+TGETLALVSAPSYDPNGFIFGWSDKEWKKLNKDKNNPFSAKFNKTYAPGSTIKPIAAAIG
+IKNGTLKADEKKTIKGKEWQKDSSWGGYSVTRVSERLQQVDLENALITSDNIYFAQNALD
+MGADTFTKGLKTFGFSEDVPYEFPIQKSSIANDKLDSDILLADTGYGQGQMQMSPLHLAT
+AYTPFVDNGDLVKPTLIKKDSQTADVWHKQVVTKEGAADITKGLKGVVEDERGSAYQPVV
+KGITVAGKTGTAELKTSKDDKDGTENGWFVGYDYENKDLLVAMMIQNVQDRGGSHYVVEK
+AKKQFQSN
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+Not Available
+
+# Drug_Target_4_SwissProt_ID:
+P42971
+
+# Drug_Target_4_SwissProt_Name:
+PBPC_BACSU
+
+# Drug_Target_4_Synonyms:
+PBP 3
+PSPB20
+
+# Drug_Target_4_Theoretical_pI:
+6.56
+
+# Drug_Target_4_Transmembrane_Regions:
+7-23
+
+# Drug_Target_5_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+15872249	Jeon BC, Jeong SH, Bae IK, Kwon SB, Lee K, Young D, Lee JH, Song JS, Lee SH: Investigation of a nosocomial outbreak of imipenem-resistant Acinetobacter baumannii producing the OXA-23 beta-lactamase in korea. J Clin Microbiol. 2005 May;43(5):2241-5.
+16048941	Pichardo C, Rodriguez-Martinez JM, Pachon-Ibanez ME, Conejo C, Ibanez-Martinez J, Martinez-Martinez L, Pachon J, Pascual A: Efficacy of cefepime and imipenem in experimental murine pneumonia caused by porin-deficient Klebsiella pneumoniae producing CMY-2 beta-Lactamase. Antimicrob Agents Chemother. 2005 Aug;49(8):3311-6.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+17192008	Fenollar-Ferrer C, Donoso J, Frau J, Munoz F: Molecular modeling of Henry-Michaelis and acyl-enzyme complexes between imipenem and Enterobacter cloacae P99 beta-lactamase. Chem Biodivers. 2005 May;2(5):645-56.
+3873871	Neu HC: Carbapenems: special properties contributing to their activity. Am J Med. 1985 Jun 7;78(6A):33-40.
+6365872	Kahan FM, Kropp H, Sundelof JG, Birnbaum J: Thienamycin: development of imipenen-cilastatin. J Antimicrob Chemother. 1983 Dec;12 Suppl D:1-35.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+Not Available
+
+# Drug_Target_5_GenBank_ID_Gene:
+X04121
+
+# Drug_Target_5_GenBank_ID_Protein:
+581568
+
+# Drug_Target_5_GeneCard_ID:
+Not Available
+
+# Drug_Target_5_Gene_Name:
+blaZ
+
+# Drug_Target_5_Gene_Sequence:
+>846 bp
+TTGAAAAAGTTAATATTTTTAATTGTAATTGCTTTAGTTTTAAGTGCATGTAATTCAAAC
+AGTTCACATGCCAAAGAGTTAAATGATTTAGAAAAAAAATATAATGCTCATATTGGTGTT
+TATGCTTTAGATACTAAAAGTGGTAAGGAAGTAAAATTTAATTCAGATAAGAGATTTGCC
+TATGCTTCAACTTCAAAAGCGATAAATAGTGCTATTTTGTTAGAACAAGTACCTTATAAT
+AAGTTAAATAAAAAAGTACATATTAACAAAGATGATATAGTTGCTTATTCTCCTATTTTA
+GAAAAATATGTAGGAAAAGATATCACTTTAAAAGCACTTATTGAGGCTTCAATGACATAT
+AGTGATAATACAGCAAACAATAAAATTATAAAAGAAATCGGTGGAATCAAAAAAGTTAAA
+CAACGTCTAAAAGAACTAGGAGATAAAGTAACAAATCCAGTTAGATATGAGATAGAATTA
+AATTACTATTCACCAAAGAGCAAAAAAGATACTTCAACACCTGCTGCCTTCGGTAAGACC
+CTTAATAAACTTATCGCCAATGGAAAATTAAGCAAAGAAAACAAAAAATTCTTACTTGAT
+TTAATGTTAAATAATAAAAGCGGAGATACTTTAATTAAAGACGGTGTTCCAAAAGACTAT
+AAGGTTGCTGATAAAAGTGGTCAAGCAATAACATATGCTTCTAGAAATGATGTTGCTTTT
+GTTTATCCTAAGGGCCAATCTGAACCTATTGTTTTAGTCATTTTTACGAATAAAGACAAT
+AAAAGTGATAAGCCAAATGATAAGTTGATAAGTGAAACCGCCAAGAGTGTAATGAAGGAA
+TTTTAA
+
+# Drug_Target_5_General_Function:
+Involved in antibiotic degradation
+
+# Drug_Target_5_General_References:
+10436083	Chen CC, Herzberg O: Relocation of the catalytic carboxylate group in class A beta-lactamase: the structure and function of the mutant enzyme Glu166-->Gln:Asn170-->Asp. Protein Eng. 1999 Jul;12(7):573-9.
+1218078	Ambler RP: The amino acid sequence of Staphylococcus aureus penicillinase. Biochem J. 1975 Nov;151(2):197-218.
+2005620	Herzberg O: Refined crystal structure of beta-lactamase from Staphylococcus aureus PC1 at 2.0 A resolution. J Mol Biol. 1991 Feb 20;217(4):701-19.
+2170815	Rowland SJ, Dyke KG: Tn552, a novel transposable element from Staphylococcus aureus. Mol Microbiol. 1990 Jun;4(6):961-75.
+2555777	Gillespie MT, Skurray RA: Nucleotide sequence of the blaZ gene of the Staphylococcus aureus beta-lactamase transposon Tn4002. Nucleic Acids Res. 1989 Nov 11;17(21):8854.
+3104315	Wang PZ, Novick RP: Nucleotide sequence and expression of the beta-lactamase gene from Staphylococcus aureus plasmid pI258 in Escherichia coli, Bacillus subtilis, and Staphylococcus aureus. J Bacteriol. 1987 Apr;169(4):1763-6.
+3107125	Herzberg O, Moult J: Bacterial resistance to beta-lactam antibiotics: crystal structure of beta-lactamase from Staphylococcus aureus PC1 at 2.5 A resolution. Science. 1987 May 8;236(4802):694-701.
+3488540	Chan PT: Nucleotide sequence of the Staphylococcus aureus PC1 beta-lactamase gene. Nucleic Acids Res. 1986 Jul 25;14(14):5940.
+6793593	McLaughlin JR, Murray CL, Rabinowitz JC: Unique features in the ribosome binding site sequence of the gram-positive Staphylococcus aureus beta-lactamase gene. J Biol Chem. 1981 Nov 10;256(21):11283-91.
+9521648	Banerjee S, Pieper U, Kapadia G, Pannell LK, Herzberg O: Role of the omega-loop in the activity, substrate specificity, and structure of class A beta-lactamase. Biochemistry. 1998 Mar 10;37(10):3286-96.
+
+# Drug_Target_5_HGNC_ID:
+Not Available
+
+# Drug_Target_5_HPRD_ID:
+Not Available
+
+# Drug_Target_5_ID:
+332
+
+# Drug_Target_5_Locus:
+Not Available
+
+# Drug_Target_5_Molecular_Weight:
+31350
+
+# Drug_Target_5_Name:
+Beta-lactamase
+
+# Drug_Target_5_Number_of_Residues:
+281
+
+# Drug_Target_5_PDB_ID:
+3BLM
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00144	Beta-lactamase
+
+# Drug_Target_5_Protein_Sequence:
+>Beta-lactamase precursor
+MKKLIFLIVIALVLSACNSNSSHAKELNDLEKKYNAHIGVYALDTKSGKEVKFNSDKRFA
+YASTSKAINSAILLEQVPYNKLNKKVHINKDDIVAYSPILEKYVGKDITLKALIEASMTY
+SDNTANNKIIKEIGGIKKVKQRLKELGDKVTNPVRYEIELNYYSPKSKKDTSTPAAFGKT
+LNKLIANGKLSKENKKFLLDLMLNNKSGDTLIKDGVPKDYKVADKSGQAITYASRNDVAF
+VYPKGQSEPIVLVIFTNKDNKSDKPNDKLISETAKSVMKEF
+
+# Drug_Target_5_Reaction:
+a beta-lactam + H2O = a substituted beta-amino acid
+
+# Drug_Target_5_Signals:
+1-24
+
+# Drug_Target_5_Specific_Function:
+Not Available
+
+# Drug_Target_5_SwissProt_ID:
+P00807
+
+# Drug_Target_5_SwissProt_Name:
+BLAC_STAAU
+
+# Drug_Target_5_Synonyms:
+Beta-lactamase precursor
+EC 3.5.2.6
+Penicillinase
+
+# Drug_Target_5_Theoretical_pI:
+10.15
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB01598

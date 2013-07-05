@@ -1,0 +1,362 @@
+#BEGIN_DRUGCARD DB01347
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+146623-69-0
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C25H22BrF3N4O4S
+
+# Chemical_IUPAC_Name:
+1-({3-bromo-2-[2-(trifluoromethane)sulfonamidophenyl]-1-benzofuran-5-yl}methyl)-4-cyclopropyl-2-ethyl-1H-imidazole-5-carboxamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2007-06-30 12:15:15 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Saprisartan is an AT1 receptor antagonist. It is based on medications of losartan's prototypical chemical structure. The mode of (functional) AT1 receptor antagonism has been characterized as insurmountable/noncompetitive for saprisartan.  It is very likely that slow dissociation kinetics from the AT1 receptor underlie insurmountable antagonism.(10579749)
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Amiloride	Increased risk of hyperkalemia
+Lithium	The ARB increases serum levels of lithium
+Potassium	Increased risk of hyperkalemia
+Triamterene	Increased risk of hyperkalemia
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Saprisartan
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C25H22BrF3N4O4S/c1-2-19-31-21(14-8-9-14)22(24(30)34)33(19)12-13-7-10-18-16(11-13)20(26)23(37-18)15-5-3-4-6-17(15)32-38(35,36)25(27,28)29/h3-7,10-11,14,32H,2,8-9,12H2,1H3,(H2,30,34)
+
+# InChI_Key:
+InChIKey=DUEWVPTZCSAMNB-UHFFFAOYSA-N
+
+# Indication:
+Saprisartan is used in the treatment of hypertension and heart failure.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+1347
+
+# Mechanism_Of_Action:
+Saprisartan is a selective, potent, orally active and long-acting nonpeptide Angiotensin II type 1 (AT1) receptor antagonist. Saprisartan blocks the renin-angiotensin-aldosterone system (RAAS) at the level of the AT1 receptor that mediates most, if not all, of the important actions of Ang II.  Saprisartan binds reversibly to the AT1 receptors in vascular smooth muscle and the adrenal gland. As angiotensin II is a vasoconstrictor, which also stimulates the synthesis and release of aldosterone, blockage of its effects results in decreases in systemic vascular resistance. AT1 receptor antagonists avoid the nonspecificity of the Ang I converting enzyme (ACE) inhibitors.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+611.431
+
+# Molecular_Weight_Mono:
+610.049723164
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164746338
+
+# Pharmacology:
+By inhibiting the angiotensin II receptor, this drug leades to a decrease in sodium reabsorption and a decrease in vasoconstriction. This has the combined effect of decreasing blood pressure.
+
+# Predicted_LogP_Hydrophobicity:
+5.89
+
+# Predicted_LogS:
+-4.6
+
+# Predicted_Water_Solubility:
+1.51e-02 g/l
+
+# Primary_Accession_No:
+DB01347
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+60921
+
+# PubChem_Substance_ID:
+46508176
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CCC1=NC(C2CC2)=C(N1CC1=CC2=C(OC(=C2Br)C2=CC=CC=C2NS(=O)(=O)C(F)(F)F)C=C1)C(N)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:20:06 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10579749	Timmermans PB: Pharmacological properties of angiotensin II receptor antagonists. Can J Cardiol. 1999 Nov;15 Suppl F:26F-8F.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+AGTR1
+
+# Drug_Target_1_GenBank_ID_Gene:
+M91464
+
+# Drug_Target_1_GenBank_ID_Protein:
+179122
+
+# Drug_Target_1_GeneCard_ID:
+AGTR1
+
+# Drug_Target_1_Gene_Name:
+AGTR1
+
+# Drug_Target_1_Gene_Sequence:
+>1080 bp
+ATGATTCTCAACTCTTCTACTGAAGATGGTATTAAAAGAATCCAAGATGATTGTCCCAAA
+GCTGGAAGGCATAATTACATATTTGTCATGATTCCTACTTTATACAGTATCATCTTTGTG
+GTGGGAATATTTGGAAACAGCTTGGTGGTGATAGTCATTTACTTTTATATGAAGCTGAAG
+ACTGTGGCCAGTGTTTTTCTTTTGAATTTAGCACTGGCTGACTTATGCTTTTTACTGACT
+TTGCCACTATGGGCTGTCTACACAGCTATGGAATACCGCTGGCCCTTTGGCAATTACCTA
+TGTAAGATTGCTTCAGCCAGCGTCAGTTTCAACCTGTACGCTAGTGTGTTTCTACTCACG
+TGTCTCAGCATTGATCGATACCTGGCTATTGTTCACCCAATGAAGTCCCGCCTTCGACGC
+ACAATGCTTGTAGCCAAAGTCACCTGCATCATCATTTGGCTGCTGGCAGGCTTGGCCAGT
+TTGCCAGCTATAATCCATCGAAATGTATTTTTCATTGAGAACACCAATATTACAGTTTGT
+GCTTTCCATTATGAGTCCCAAAATTCAACCCTCCCGATAGGGCTGGGCCTGACCAAAAAT
+ATACTGGGTTTCCTGTTTCCTTTTCTGATCATTCTTACAAGTTATACTCTTATTTGGAAG
+GCCCTAAAGAAGGCTTATGAAATTCAGAAGAACAAACCAAGAAATGATGATATTTTTAAG
+ATAATTATGGCAATTGTGCTTTTCTTTTTCTTTTCCTGGATTCCCCACCAAATATTCACT
+TTTCTGGATGTATTGATTCAACTAGGCATCATACGTGACTGTAGAATTGCAGATATTGTG
+GACACGGCCATGCCTATCACCATTTGTATAGCTTATTTTAACAATTGCCTGAATCCTCTT
+TTTTATGGCTTTCTGGGGAAAAAATTTAAAAGATATTTTCTCCAGCTTCTAAAATATATT
+CCCCCAAAAGCCAAATCCCACTCAAACCTTTCAACAAAAATGAGCACGCTTTCCTACCGC
+CCCTCAGATAATGTAAGCTCATCCACCAAGAAGCCTGCACCATGTTTTGAGGTTGAGTGA
+
+# Drug_Target_1_General_Function:
+Involved in angiotensin type II receptor activity
+
+# Drug_Target_1_General_References:
+1378723	Mauzy CA, Hwang O, Egloff AM, Wu LH, Chung FZ: Cloning, expression, and characterization of a gene encoding the human angiotensin II type 1A receptor. Biochem Biophys Res Commun. 1992 Jul 15;186(1):277-84.
+1508224	Curnow KM, Pascoe L, White PC: Genetic analysis of the human type-1 angiotensin II receptor. Mol Endocrinol. 1992 Jul;6(7):1113-8.
+1543512	Furuta H, Guo DF, Inagami T: Molecular cloning and sequencing of the gene encoding human angiotensin II type 1 receptor. Biochem Biophys Res Commun. 1992 Feb 28;183(1):8-13.
+1550596	Takayanagi R, Ohnaka K, Sakai Y, Nakao R, Yanase T, Haji M, Inagami T, Furuta H, Gou DF, Nakamuta M, et al.: Molecular cloning, sequence analysis and expression of a cDNA encoding human type-1 angiotensin II receptor. Biochem Biophys Res Commun. 1992 Mar 16;183(2):910-6.
+1567413	Bergsma DJ, Ellis C, Kumar C, Nuthulaganti P, Kersten H, Elshourbagy N, Griffin E, Stadel JM, Aiyar N: Cloning and characterization of a human angiotensin II type 1 receptor. Biochem Biophys Res Commun. 1992 Mar 31;183(3):989-95.
+7792812	Nawata H, Takayanagi R, Ohnaka K, Sakai Y, Imasaki K, Yanase T, Ikuyama S, Tanaka S, Ohe K: Type 1 angiotensin II receptors of adrenal tumors. Steroids. 1995 Jan;60(1):28-34.
+8135787	Konishi H, Kuroda S, Inada Y, Fujisawa Y: Novel subtype of human angiotensin II type 1 receptor: cDNA cloning and expression. Biochem Biophys Res Commun. 1994 Mar 15;199(2):467-74.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:336
+
+# Drug_Target_1_HPRD_ID:
+00107
+
+# Drug_Target_1_ID:
+70
+
+# Drug_Target_1_Locus:
+3q21-q25
+
+# Drug_Target_1_Molecular_Weight:
+41062
+
+# Drug_Target_1_Name:
+Type-1 angiotensin II receptor
+
+# Drug_Target_1_Number_of_Residues:
+359
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Amlodipine Pathway	SMP00376
+Benazepril Pathway	SMP00145
+Captopril Pathway	SMP00146
+Cilazapril Pathway	SMP00147
+Diltiazem Pathway	SMP00359
+Enalapril Pathway	SMP00148
+Felodipine Pathway	SMP00377
+Fosinopril Pathway	SMP00149
+Isradipine Pathway	SMP00378
+Lisinopril Pathway	SMP00150
+Moexipril Pathway	SMP00151
+Nifedipine Pathway	SMP00379
+Nimodipine Pathway	SMP00380
+Nisoldipine Pathway	SMP00381
+Nitrendipine Pathway	SMP00382
+Perindopril Pathway	SMP00152
+Quinapril Pathway	SMP00153
+Ramipril Pathway	SMP00154
+Rescinnamine Pathway	SMP00155
+Spirapril Pathway	SMP00156
+Trandolapril Pathway	SMP00157
+Verapamil Pathway	SMP00375
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_1_Protein_Sequence:
+>Type-1 angiotensin II receptor
+MILNSSTEDGIKRIQDDCPKAGRHNYIFVMIPTLYSIIFVVGIFGNSLVVIVIYFYMKLK
+TVASVFLLNLALADLCFLLTLPLWAVYTAMEYRWPFGNYLCKIASASVSFNLYASVFLLT
+CLSIDRYLAIVHPMKSRLRRTMLVAKVTCIIIWLLAGLASLPAIIHRNVFFIENTNITVC
+AFHYESQNSTLPIGLGLTKNILGFLFPFLIILTSYTLIWKALKKAYEIQKNKPRNDDIFK
+IIMAIVLFFFFSWIPHQIFTFLDVLIQLGIIRDCRIADIVDTAMPITICIAYFNNCLNPL
+FYGFLGKKFKRYFLQLLKYIPPKAKSHSNLSTKMSTLSYRPSDNVSSSTKKPAPCFEVE
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Receptor for angiotensin II. Mediates its action by association with G proteins that activate a phosphatidylinositol- calcium second messenger system
+
+# Drug_Target_1_SwissProt_ID:
+P30556
+
+# Drug_Target_1_SwissProt_Name:
+AGTR1_HUMAN
+
+# Drug_Target_1_Synonyms:
+AT1
+AT1AR
+AT1BR
+
+# Drug_Target_1_Theoretical_pI:
+9.71
+
+# Drug_Target_1_Transmembrane_Regions:
+28-52
+65-87
+103-124
+143-162
+193-214
+241-262
+276-296
+
+#END_DRUGCARD DB01347

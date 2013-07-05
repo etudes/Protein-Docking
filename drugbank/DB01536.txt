@@ -1,0 +1,774 @@
+#BEGIN_DRUGCARD DB01536
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+63-05-8
+
+# ChEBI_ID:
+16422
+
+# Chemical_Formula:
+C19H26O2
+
+# Chemical_IUPAC_Name:
+(1S,2R,10R,11S,15S)-2,15-dimethyltetracyclo[8.7.0.0^{2,7}.0^{11,15}]heptadec-6-ene-5,14-dione
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+A delta-4 C19 steroid that is produced not only in the testis, but also in the ovary and the adrenal cortex.  Depending on the tissue type, androstenedione can serve as a precursor to testosterone as well as estrone and estradiol. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Illicit
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+2.75
+
+# Experimental_Logs:
+-3.69
+
+# Experimental_Water_Solubility:
+57.8 mg/L (at 25 °C)
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+4-Androstenedione
+
+# HET_ID:
+ASD
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C19H26O2/c1-18-9-7-13(20)11-12(18)3-4-14-15-5-6-17(21)19(15,2)10-8-16(14)18/h11,14-16H,3-10H2,1-2H3/t14-,15-,16-,18-,19-/m0/s1
+
+# InChI_Key:
+InChIKey=AEMFNILZOJDQLW-QAGGRKNESA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+C00280
+
+# KEGG_Drug_ID:
+D00051
+
+# LIMS_Drug_ID:
+1536
+
+# Mechanism_Of_Action:
+4-androstenedione is a 19-carbon steroid hormone produced in the adrenal glands and the gonads as an intermediate step in the biochemical pathway that produces the androgen testosterone and the estrogens estrone and estradiol.
+
+# Melting_Point:
+158 °C
+
+# Molecular_Weight_Avg:
+286.4085
+
+# Molecular_Weight_Mono:
+286.193280076
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1XF0
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+2.93
+
+# Predicted_LogS:
+-4
+
+# Predicted_Water_Solubility:
+2.70e-02 g/l
+
+# Primary_Accession_No:
+DB01536
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+6128
+
+# PubChem_Substance_ID:
+46508011
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+DB07386
+EXPT00569
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@@]12CCC(=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+4-Androstene-3,17-dione
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:20:15 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+HSD17B1
+
+# Drug_Target_1_GenBank_ID_Gene:
+X13440
+
+# Drug_Target_1_GenBank_ID_Protein:
+23365
+
+# Drug_Target_1_GeneCard_ID:
+HSD17B1
+
+# Drug_Target_1_Gene_Name:
+HSD17B1
+
+# Drug_Target_1_Gene_Sequence:
+>987 bp
+ATGGCCCGCACCGTGGTGCTCATCACCGGCTGTTCCTCGGGCATCGGCCTGCACTTGGCC
+GTACGTCTGGCTTCAGATCCATCCCAGAGCTTCAAAGTGTATGCCACGTTGAGGGACCTG
+AAAACACAGGGCCGGCTGTGGGAGGCGGCCCGGGCCCTGGCATGCCCTCCGGGATCCCTG
+GAGACGTTGCAGCTGGACGTAAGGGACTCAAAATCCGTGGCCGCTGCCCGGGAACGCGTG
+ACTGAGGGCCGCGTGGACGTGCTGGTGTGTAACGCAGGCCTGGGCCTGCTGGGGCCGCTG
+GAGGCGCTGGGGGAGGACGCCGTGGCCTCTGTGCTGGACGTGAATGTAGTAGGGACTGTG
+CGGATGCTGCAGGCCTTCCTGCCAGACATGAAGAGGCGCGGTTCGGGACGCGTGTTGGTG
+ACCGGGAGCGTGGGAGGATTGATGGGGCTGCCTTTCAATGACGTTTATTGCGCCAGCAAG
+TTCGCGCTCGAAGGCTTATGCGAGAGTCTGGCGGTTCTGCTGCTGCCCTTTGGGGTCCAC
+TTGAGCCTGATCGAGTGCGGCCCAGTGCACACCGCCTTCATGGAGAAGGTGTTGGGCAGC
+CCAGAGGAGGTGCTGGACCGCACGGACATCCACACCTTCCACCGCTTCTACCAATACCTC
+GCCCACAGCAAGCAAGTCTTTCGCGAGGCGGCGCAGAACCCTGAGGAGGTGGCGGAGGTC
+TTCCTCACCGCTTTGCGCGCCCCGAAGCCGACCCTGCGCTACTTCACCACCGAGCGCTTC
+CTGCCCCTGCTGCGGATGCGCCTGGACGACCCCAGCGGCTCCAACTACGTCACCGCCATG
+CACCGGGAAGTGTTCGGCGACGTTCCGGCAAAGGCCGAGGCTGGGGCCGAGGCTGGGGGC
+GGGGCCGGGCCTGGGGCAGAGGACGAGGCCGGGCGCAGTGCGGTGGGGGACCCTGAGCTC
+GGCGATCCTCCGGCCGCCCCGCAGTAA
+
+# Drug_Target_1_General_Function:
+Lipid transport and metabolism
+
+# Drug_Target_1_General_References:
+10625652	Han Q, Campbell RL, Gangloff A, Huang YW, Lin SX: Dehydroepiandrosterone and dihydrotestosterone recognition by human estrogenic 17beta-hydroxysteroid dehydrogenase. C-18/c-19 steroid discrimination and enzyme-induced strain. J Biol Chem. 2000 Jan 14;275(2):1105-11.
+1327779	Peltoketo H, Isomaa V, Vihko R: Genomic organization and DNA sequences of human 17 beta-hydroxysteroid dehydrogenase genes and flanking regions. Localization of multiple Alu sequences and putative cis-acting elements. Eur J Biochem. 1992 Oct 1;209(1):459-66.
+2197970	Luu-The V, Labrie C, Zhao HF, Couet J, Lachance Y, Simard J, Cote J, Leblanc G, Lagace L, Berube D, et al.: Purification, cloning, complementary DNA structure, and predicted amino acid sequence of human estradiol 17 beta-dehydrogenase. Ann N Y Acad Sci. 1990;595:40-52.
+2330005	Luu-The V, Labrie C, Simard J, Lachance Y, Zhao HF, Couet J, Leblanc G, Labrie F: Structure of two in tandem human 17 beta-hydroxysteroid dehydrogenase genes. Mol Endocrinol. 1990 Feb;4(2):268-75.
+2547159	Baker ME: Human placental 17 beta-hydroxysteroid dehydrogenase is homologous to NodG protein of Rhizobium meliloti. Mol Endocrinol. 1989 May;3(5):881-4.
+2779584	Luu The V, Labrie C, Zhao HF, Couet J, Lachance Y, Simard J, Leblanc G, Cote J, Berube D, Gagne R, et al.: Characterization of cDNAs for human estradiol 17 beta-dehydrogenase and assignment of the gene to chromosome 17: evidence of two mRNA species with distinct 5'-termini in human placenta. Mol Endocrinol. 1989 Aug;3(8):1301-9.
+2846351	Peltoketo H, Isomaa V, Maentausta O, Vihko R: Complete amino acid sequence of human placental 17 beta-hydroxysteroid dehydrogenase deduced from cDNA. FEBS Lett. 1988 Oct 24;239(1):73-7.
+3955020	Galdes A, Auld DS, Vallee BL: Elucidation of the chemical nature of the steady-state intermediates in the mechanism of carboxypeptidase A. Biochemistry. 1986 Feb 11;25(3):646-51.
+4719204	Nicolas JC, Harris JI: Human placental 17 -oestradiol dehydrogenase. Sequence of a tryptic peptide containing an essential cysteine. FEBS Lett. 1973 Jan 15;29(2):173-6.
+5045524	Burns DJ, Engel LL, Bethune JL: Amino acid composition and subunit structure. Human placental 17 -estradiol dehydrogenase. Biochemistry. 1972 Jul 4;11(14):2699-703.
+6578212	Murdock GL, Chin CC, Offord RE, Bradshaw RA, Warren JC: Human placental estradiol 17 beta-dehydrogenase. Identification of a single histidine residue affinity-labeled by both 3-bromoacetoxyestrone and 12 beta-bromoacetoxy-4-estrene-3,17-dione. J Biol Chem. 1983 Oct 10;258(19):11460-4.
+7663947	Ghosh D, Pletnev VZ, Zhu DW, Wawrzak Z, Duax WL, Pangborn W, Labrie F, Lin SX: Structure of human estrogenic 17 beta-hydroxysteroid dehydrogenase at 2.20 A resolution. Structure. 1995 May 15;3(5):503-13.
+8389226	Normand T, Narod S, Labrie F, Simard J: Detection of polymorphisms in the estradiol 17 beta-hydroxysteroid dehydrogenase II gene at the EDH17B2 locus on 17q11-q21. Hum Mol Genet. 1993 Apr;2(4):479-83.
+8805577	Breton R, Housset D, Mazza C, Fontecilla-Camps JC: The structure of a complex of human 17beta-hydroxysteroid dehydrogenase with estradiol and NADP+ identifies two principal targets for the design of inhibitors. Structure. 1996 Aug 15;4(8):905-15.
+9525918	Mazza C, Breton R, Housset D, Fontecilla-Camps JC: Unusual charge stabilization of NADP+ in 17beta-hydroxysteroid dehydrogenase. J Biol Chem. 1998 Apr 3;273(14):8145-52.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:5210
+
+# Drug_Target_1_HPRD_ID:
+00185
+
+# Drug_Target_1_ID:
+217
+
+# Drug_Target_1_Locus:
+17q11-q21
+
+# Drug_Target_1_Molecular_Weight:
+34849
+
+# Drug_Target_1_Name:
+Estradiol 17-beta-dehydrogenase 1
+
+# Drug_Target_1_Number_of_Residues:
+327
+
+# Drug_Target_1_PDB_ID:
+1QYX
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00106	adh_short
+
+# Drug_Target_1_Protein_Sequence:
+>Estradiol 17-beta-dehydrogenase 1
+ARTVVLITGCSSGIGLHLAVRLASDPSQSFKVYATLRDLKTQGRLWEAARALACPPGSLE
+TLQLDVRDSKSVAAARERVTEGRVDVLVCNAGLGLLGPLEALGEDAVASVLDVNVVGTVR
+MLQAFLPDMKRRGSGRVLVTGSVGGLMGLPFNDVYCASKFALEGLCESLAVLLLPFGVHL
+SLIECGPVHTAFMEKVLGSPEEVLDRTDIHTFHRFYQYLAHSKQVFREAAQNPEEVAEVF
+LTALRAPKPTLRYFTTERFLPLLRMRLDDPSGSNYVTAMHREVFGDVPAKAEAGAEAGGG
+AGPGAEDEAGRSAVGDPELGDPPAAPQ
+
+# Drug_Target_1_Reaction:
+estradiol-17beta + NAD(P)+ = estrone + NAD(P)H + H+
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Favors the reduction of estrogens and androgens. Also has 20-alpha-HSD activity. Uses preferentially NADH
+
+# Drug_Target_1_SwissProt_ID:
+P14061
+
+# Drug_Target_1_SwissProt_Name:
+DHB1_HUMAN
+
+# Drug_Target_1_Synonyms:
+17-beta- hydroxysteroid dehydrogenase type 1
+17-beta-HSD 1
+20 alpha-hydroxysteroid dehydrogenase
+20-alpha-HSD
+E2DH
+EC 1.1.1.62
+Placental 17- beta-hydroxysteroid dehydrogenase
+
+# Drug_Target_1_Theoretical_pI:
+5.42
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Endoplasmic reticulum
+endoplasmic reticulum membrane
+single-pass membrane protein. Mitochondrion
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+2945972	Ishii-Ohba H, Inano H, Tamaoki B: Purification and properties of testicular 3 beta-hydroxy-5-ene-steroid dehydrogenase and 5-ene-4-ene isomerase. J Steroid Biochem. 1986 Oct;25(4):555-60.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+HSD3B1
+
+# Drug_Target_2_GenBank_ID_Gene:
+M27137
+
+# Drug_Target_2_GenBank_ID_Protein:
+306889
+
+# Drug_Target_2_GeneCard_ID:
+HSD3B1
+
+# Drug_Target_2_Gene_Name:
+HSD3B1
+
+# Drug_Target_2_Gene_Sequence:
+>1122 bp
+ATGACGGGCTGGAGCTGCCTTGTGACAGGAGCAGGAGGGTTTCTGGGACAGAGGATCATC
+CGCCTCTTGGTGAAGGAGAAGGAGCTGAAGGAGATCAGGGTCTTGGACAAGGCCTTCGGA
+CCAGAATTGAGAGAGGAATTTTCTAAACTCCAGAACAAGACCAAGCTGACAGTGCTGGAA
+GGAGACATTCTGGATGAGCCATTCCTGAAGAGAGCCTGCCAGGACGTCTCGGTCATCATC
+CACACCGCCTGTATCATTGATGTCTTCGGTGTCACTCACAGAGAGTCTATCATGAATGTC
+AATGTGAAAGGTACCCAGCTCCTGTTAGAGGCCTGTGTCCAAGCTAGTGTGCCAGTCTTC
+ATCTACACCAGTAGCATAGAGGTAGCCGGGCCCAACTCCTACAAGGAAATCATCCAGAAT
+GGCCATGAAGAAGAGCCTCTGGAAAACACATGGCCCGCTCCATACCCACACAGCAAAAAG
+CTTGCTGAGAAGGCTGTACTGGCGGCTAACGGGTGGAATCTGAAAAACGGCGGCACCCTG
+TACACTTGTGCCTTACGACCCATGTATATCTATGGGGAAGGAAGCCGATTCCTTTCTGCT
+AGTATAAACGAGGCCCTGAACAACAATGGGATCCTGTCAAGTGTTGGAAAGTTCTCCACT
+GTTAACCCAGTCTATGTTGGCAATGTGGCCTGGGCCCACATTCTGGCCTTGAGGGCCCTG
+CAGGACCCCAAGAAGGCCCCAAGCATCCGAGGACAGTTCTACTATATCTCAGATGACACG
+CCTCACCAAAGCTATGATAACCTTAATTACACCCTGAGCAAAGAGTTCGGCCTCCGCCTT
+GATTCCAGATGGAGCTTTCCTTTATCCCTGATGTATTGGATTGGCTTCCTGCTGGAAATA
+GTGAGCTTCCTACTCAGGCCAATTTACACCTATCGACCGCCCTTCAACCGCCACATAGTC
+ACATTGTCAAATAGCGTATTCACCTTCTCTTATAAGAAGGCTCAGCGAGATCTGGCGTAT
+AAGCCACTCTACAGCTGGGAGGAAGCCAAGCAGAAAACGGTGGAGTGGGTTGGTTCCCTT
+GTGGACCGGCACAAGGAGACCCTGAAGTCCAAGACTCAGTGA
+
+# Drug_Target_2_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_2_General_References:
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+1401999	Dumont M, Luu-The V, Dupont E, Pelletier G, Labrie F: Characterization, expression, and immunohistochemical localization of 3 beta-hydroxysteroid dehydrogenase/delta 5-delta 4 isomerase in human skin. J Invest Dermatol. 1992 Oct;99(4):415-21.
+1920284	Nickson DA, McBride MW, Zeinali S, Hawes CS, Petropoulos A, Mueller UW, Sutcliffe RG: Molecular cloning and expression of human trophoblast antigen FDO161G and its identification as 3 beta-hydroxy-5-ene steroid dehydrogenase. J Reprod Fertil. 1991 Sep;93(1):149-56.
+2082186	Lorence MC, Corbin CJ, Kamimura N, Mahendroo MS, Mason JI: Structural analysis of the gene encoding human 3 beta-hydroxysteroid dehydrogenase/delta 5----4-isomerase. Mol Endocrinol. 1990 Dec;4(12):1850-5.
+2139411	Lorence MC, Murry BA, Trant JM, Mason JI: Human 3 beta-hydroxysteroid dehydrogenase/delta 5----4isomerase from placenta: expression in nonsteroidogenic cells of a protein that catalyzes the dehydrogenation/isomerization of C21 and C19 steroids. Endocrinology. 1990 May;126(5):2493-8.
+2243100	Lachance Y, Luu-The V, Labrie C, Simard J, Dumont M, de Launoit Y, Guerin S, Leblanc G, Labrie F: Characterization of human 3 beta-hydroxysteroid dehydrogenase/delta 5-delta 4-isomerase gene and its expression in mammalian cells. J Biol Chem. 1990 Nov 25;265(33):20469-75.
+2779585	Luu The V, Lachance Y, Labrie C, Leblanc G, Thomas JL, Strickler RC, Labrie F: Full length cDNA structure and deduced amino acid sequence of human 3 beta-hydroxy-5-ene steroid dehydrogenase. Mol Endocrinol. 1989 Aug;3(8):1310-2.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:5217
+
+# Drug_Target_2_HPRD_ID:
+04920
+
+# Drug_Target_2_ID:
+57
+
+# Drug_Target_2_Locus:
+1p13.1
+
+# Drug_Target_2_Molecular_Weight:
+42121
+
+# Drug_Target_2_Name:
+3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type I
+
+# Drug_Target_2_Number_of_Residues:
+372
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF01073	3Beta_HSD
+
+# Drug_Target_2_Protein_Sequence:
+>3 beta-hydroxysteroid dehydrogenase/delta 5-->4-isomerase type I
+TGWSCLVTGAGGFLGQRIIRLLVKEKELKEIRVLDKAFGPELREEFSKLQNKTKLTVLEG
+DILDEPFLKRACQDVSVIIHTACIIDVFGVTHRESIMNVNVKGTQLLLEACVQASVPVFI
+YTSSIEVAGPNSYKEIIQNGHEEEPLENTWPAPYPHSKKLAEKAVLAANGWNLKNGGTLY
+TCALRPMYIYGEGSRFLSASINEALNNNGILSSVGKFSTVNPVYVGNVAWAHILALRALQ
+DPKKAPSIRGQFYYISDDTPHQSYDNLNYTLSKEFGLRLDSRWSFPLSLMYWIGFLLEIV
+SFLLRPIYTYRPPFNRHIVTLSNSVFTFSYKKAQRDLAYKPLYSWEEAKQKTVEWVGSLV
+DRHKETLKSKTQ
+
+# Drug_Target_2_Reaction:
+a 3beta-hydroxy-Delta5-steroid + NAD+ = a 3-oxo-Delta5-steroid + NADH + H+
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+3beta-HSD is a bifunctional enzyme, that catalyzes the oxidative conversion of delta(5)-ene-3-beta-hydroxy steroid, and the oxidative conversion of ketosteroids. The 3beta-HSD enzymatic system plays a crucial role in the biosynthesis of all classes of hormonal steroids
+
+# Drug_Target_2_SwissProt_ID:
+P14060
+
+# Drug_Target_2_SwissProt_Name:
+3BHS1_HUMAN
+
+# Drug_Target_2_Synonyms:
+3- beta-HSD I
+3-beta-hydroxy-5-ene steroid dehydrogenase
+3-beta-hydroxy-Delta(5)-steroid dehydrogenase
+Delta-5-3-ketosteroid isomerase
+EC 1.1.1.145
+EC 5.3.3.1
+Progesterone reductase
+Steroid Delta- isomerase
+Trophoblast antigen FDO161G
+
+# Drug_Target_2_Theoretical_pI:
+8.98
+
+# Drug_Target_2_Transmembrane_Regions:
+287-307
+
+# Drug_Target_3_Cellular_Location:
+Not Available
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+X60379
+
+# Drug_Target_3_GenBank_ID_Protein:
+48942
+
+# Drug_Target_3_GeneCard_ID:
+Not Available
+
+# Drug_Target_3_Gene_Name:
+eryF
+
+# Drug_Target_3_Gene_Sequence:
+>1221 bp
+ATGACGACCGTTCCCGATCTCGAAAGCGACTCCTTCCACGTCGACTGGTACCGCACCTAC
+GCCGAGCTGCGCGAGACCGCGCCGGTGACGCCGGTGCGCTTCCTCGGCCAGGACGCGTGG
+CTGGTCACCGGCTACGACGAGGCGAAGGCCGCGCTGAGCGACCTGCGCCTGAGCAGCGAC
+CCGAAGAAGAAGTACCCGGGCGTGGAGGTCGAGTTCCCGGCATACCTCGGTTTCCCCGAG
+GACGTGCGGAACTACTTCGCCACCAACATGGGCACCAGCGACCCGCCGACCCACACCCGG
+CTGCGCAAGCTGGTGTCGCAGGAGTTCACCGTCCGCCGCGTGGAGGCGATGCGGCCCCGC
+GTCGAGCAGATCACCGCGGAGCTGCTCGACGAGGTGGGCGACTCCGGCGTGGTCGACATC
+GTCGACCGCTTCGCCCACCCGCTGCCCATCAAGGTCATCTGCGAGCTGCTCGGCGTCGAC
+GAGAAGTACCGCGGGGAGTTCGGGCGGTGGAGCTCGGAGATCCTGGTCATGGACCCGGAG
+CGGGCCGAACAGCGCGGGCAGGCGGCCAGGGAGGTCGTCAACTTCATCCTCGACCTGGTC
+GAGCGCCGCCGCACCGAGCCCGGCGACGACCTGCTGTCCGCGCTGATCAGGGTCCAGGAC
+GACGATGACGGTCGGCTCAGCGCCGACGAGCTGACCTCCATCGCGCTGGTGCTGCTGCTG
+GCCGGTTTCGAGGCGTCGGTGAGCCTCATCGGGATCGGCACCTACCTGCTGCTCACCCAC
+CCGGACCAGGACCAGCTCGCGCTGGTGCGGCGGGACCCGTCGGCGCTGCCCAACGCCGTC
+GAGGAGATCCTGCGCTACATCGCTCCGCCGGAGACCACCACGCGCTTCGCCGCGGAGGAG
+GTGGAGATCCGGGGTGTCGCGATCCCCCAGTACAGCACGGTGCTGGTCGCGAACGGCGCG
+GCCAACCGCGACCCGAAGCAGTTCCCGGACCCCCACCGCTTCGACGTCACCCGCGACACC
+CGCGGCCACCTGTCGTTCGGGCAGGGCATCCACTTCTGCATGGGCCGGCCGCTGGCCAAG
+CTGGAGGGCGAGGTGGCGCTGCGGGCGCTGTTCGGCCGCTTCCCCGCTCTGTCGCTGGGA
+ATCGACGCCGACGACGTGGTGTGGCGGCGTTCGCTGCTGCTGCGGGGCATCGACCACCTA
+CCGGTGCGGCTCGACGGATGA
+
+# Drug_Target_3_General_Function:
+Secondary metabolites biosynthesis, transport and catabolism
+
+# Drug_Target_3_General_References:
+10716705	Cupp-Vickery J, Anderson R, Hatziris Z: Crystal structures of ligand complexes of P450eryF exhibiting homotropic cooperativity. Proc Natl Acad Sci U S A. 2000 Mar 28;97(7):3050-5.
+11469860	Cupp-Vickery JR, Garcia C, Hofacre A, McGee-Estrada K: Ketoconazole-induced conformational changes in the active site of cytochrome P450eryF. J Mol Biol. 2001 Aug 3;311(1):101-10.
+1840640	Haydock SF, Dowson JA, Dhillon N, Roberts GA, Cortes J, Leadlay PF: Cloning and sequence analysis of genes involved in erythromycin biosynthesis in Saccharopolyspora erythraea: sequence similarities between EryG and a family of S-adenosylmethionine-dependent methyltransferases. Mol Gen Genet. 1991 Nov;230(1-2):120-8.
+2011746	Weber JM, Leung JO, Swanson SJ, Idler KB, McAlpine JB: An erythromycin derivative produced by targeted gene disruption in Saccharopolyspora erythraea. Science. 1991 Apr 5;252(5002):114-7.
+7749919	Cupp-Vickery JR, Poulos TL: Structure of cytochrome P450eryF involved in erythromycin biosynthesis. Nat Struct Biol. 1995 Feb;2(2):144-53.
+
+# Drug_Target_3_HGNC_ID:
+Not Available
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+2972
+
+# Drug_Target_3_Locus:
+Not Available
+
+# Drug_Target_3_Molecular_Weight:
+45100
+
+# Drug_Target_3_Name:
+6-deoxyerythronolide B hydroxylase
+
+# Drug_Target_3_Number_of_Residues:
+404
+
+# Drug_Target_3_PDB_ID:
+1Z8O
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00067	p450
+
+# Drug_Target_3_Protein_Sequence:
+>6-deoxyerythronolide B hydroxylase
+MTTVPDLESDSFHVDWYRTYAELRETAPVTPVRFLGQDAWLVTGYDEAKAALSDLRLSSD
+PKKKYPGVEVEFPAYLGFPEDVRNYFATNMGTSDPPTHTRLRKLVSQEFTVRRVEAMRPR
+VEQITAELLDEVGDSGVVDIVDRFAHPLPIKVICELLGVDEKYRGEFGRWSSEILVMDPE
+RAEQRGQAAREVVNFILDLVERRRTEPGDDLLSALIRVQDDDDGRLSADELTSIALVLLL
+AGFEASVSLIGIGTYLLLTHPDQLALVRRDPSALPNAVEEILRYIAPPETTTRFAAEEVE
+IGGVAIPQYSTVLVANGAANRDPKQFPDPHRFDVTRDTRGHLSFGQGIHFCMGRPLAKLE
+GEVALRALFGRFPALSLGIDADDVVWRRSLLLRGIDHLPVRLDG
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Conversion of 6-deoxyerythronolide B (6-DEB) to erythronolide B (EB) by the insertion of an oxygen at the 6S position of 6-DEB
+
+# Drug_Target_3_SwissProt_ID:
+Q00441
+
+# Drug_Target_3_SwissProt_Name:
+CPXJ_SACEN
+
+# Drug_Target_3_Synonyms:
+6-DEB hydroxylase
+CYPCVIIA1
+Cytochrome P450 107A1
+EC 1.-.-.-
+Erythomycin A biosynthesis hydrolase
+P450eryF
+
+# Drug_Target_3_Theoretical_pI:
+4.69
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+AKR1C3
+
+# Drug_Target_4_GenBank_ID_Gene:
+S68288
+
+# Drug_Target_4_GenBank_ID_Protein:
+4261711
+
+# Drug_Target_4_GeneCard_ID:
+AKR1C3
+
+# Drug_Target_4_Gene_Name:
+AKR1C3
+
+# Drug_Target_4_Gene_Sequence:
+>972 bp
+ATGGATTCCAAACAGCAGTGTGTAAAGCTAAATGATGGCCACTTCATGCCTGTATTGGGA
+TTTGGCACCTATGCACCTCCAGAGGTTCCGAGAAGTAAAGCTTTGGAGGTCACAAAATTA
+GCAATAGAAGCTGGGTTCCGCCATATAGATTCTGCTCATTTATACAATAATGAGGAGCAG
+GTTGGACTGGCCATCCGAAGCAAGATTGCAGATGGCAGTGTTGAGAGAGAAGACATATTC
+TACACTTCAAAGCTTTGGTCCACTTTTCATCGACCAGAGTTGGTCCGACCAGCCTTGGAA
+AACTCACTGAAGAAAGCTCAATTGGACTATGTTGACCTCTATCTTATTCATTCTCCAATG
+TCTCTAAAGCCAGGTGAGGAACTTTCACCAACAGATGAAAATGGAAAAGTAATATTTGAC
+ATAGTGGATCTCTGTACCACCTGGGAGGCCATGGAGAAGTGTAAGGATGCAGGATTGGCC
+AAGTCCATTGGGGTATCAAACTTCAACCGCAGGCAGCTGGAGATCATCCTCAACAAGCCA
+GGACTCAAGTACAAGCCTGTCTGCAACCAGGTAGAATGTCATCCGTATTTCAACCGGAGT
+AAATTGCTAGATTTCTGCAAGTCGAAAGATATTGTTCTGGTTGCCTATAGTGCTCTGGGA
+TCTCAACGAGACAAACGATGGGTGGACCCGAACTCCCCGGTCCTCTTGGAGGACCCAGTC
+CTTTGTGCCTTGGCAAAAAAGCACAAGCGAACCCCAGCCCTGATTGCCCTGCGCTACCAG
+CTGCAGCGTGGGGTTGTGGTCCTGGCCAAGAGCTACAATGAGCAGCGCATCAGACAGAAC
+GTGCAGGTTTTTGAGTTCCAGTTGACTGCAGAGGACATGAAAGCCATAGATGGCCTAGAC
+AGAAATCTCCACTATTTTAACAGTGATAGTTTTGCTAGCCACCCTAATTATCCATATTCA
+GATGAATATTAA
+
+# Drug_Target_4_General_Function:
+Involved in oxidoreductase activity
+
+# Drug_Target_4_General_References:
+10557352	Griffin LD, Mellon SH: Selective serotonin reuptake inhibitors directly alter activity of neurosteroidogenic enzymes. Proc Natl Acad Sci U S A. 1999 Nov 9;96(23):13512-7.
+10622721	Suzuki-Yamamoto T, Nishizawa M, Fukui M, Okuda-Ashitaka E, Nakajima T, Ito S, Watanabe K: cDNA cloning, expression and characterization of human prostaglandin F synthase. FEBS Lett. 1999 Dec 3;462(3):335-40.
+10672042	Nishizawa M, Nakajima T, Yasuda K, Kanzaki H, Sasaguri Y, Watanabe K, Ito S: Close kinship of human 20alpha-hydroxysteroid dehydrogenase gene with three aldo-keto reductase genes. Genes Cells. 2000 Feb;5(2):111-25.
+11165022	Penning TM, Burczynski ME, Jez JM, Lin HK, Ma H, Moore M, Ratnam K, Palackal N: Structure-function aspects and inhibitor design of type 5 17beta-hydroxysteroid dehydrogenase (AKR1C3). Mol Cell Endocrinol. 2001 Jan 22;171(1-2):137-49.
+7626489	Khanna M, Qin KN, Cheng KC: Distribution of 3 alpha-hydroxysteroid dehydrogenase in rat brain and molecular cloning of multiple cDNAs encoding structurally related proteins in humans. J Steroid Biochem Mol Biol. 1995 Jun;53(1-6):41-6.
+7650035	Khanna M, Qin KN, Wang RW, Cheng KC: Substrate specificity, gene structure, and tissue-specific distribution of multiple human 3 alpha-hydroxysteroid dehydrogenases. J Biol Chem. 1995 Aug 25;270(34):20162-8.
+7788527	Nagase T, Miyajima N, Tanaka A, Sazuka T, Seki N, Sato S, Tabata S, Ishikawa K, Kawarabayasi Y, Kotani H, et al.: Prediction of the coding sequences of unidentified human genes. III. The coding sequences of 40 new genes (KIAA0081-KIAA0120) deduced by analysis of cDNA clones from human cell line KG-1. DNA Res. 1995;2(1):37-43.
+8274401	Qin KN, New MI, Cheng KC: Molecular cloning of multiple cDNAs encoding human enzymes structurally related to 3 alpha-hydroxysteroid dehydrogenase. J Steroid Biochem Mol Biol. 1993 Dec;46(6):673-9.
+9415401	Lin HK, Jez JM, Schlegel BP, Peehl DM, Pachter JA, Penning TM: Expression and characterization of recombinant type 2 3 alpha-hydroxysteroid dehydrogenase (HSD) from human prostate: demonstration of bifunctional 3 alpha/17 beta-HSD activity and cellular distribution. Mol Endocrinol. 1997 Dec;11(13):1971-84.
+9927279	Dufort I, Rheault P, Huang XF, Soucy P, Luu-The V: Characteristics of a highly labile human type 5 17beta-hydroxysteroid dehydrogenase. Endocrinology. 1999 Feb;140(2):568-74.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:386
+
+# Drug_Target_4_HPRD_ID:
+04911
+
+# Drug_Target_4_ID:
+650
+
+# Drug_Target_4_Locus:
+10p15-p14
+
+# Drug_Target_4_Molecular_Weight:
+36845
+
+# Drug_Target_4_Name:
+Aldo-keto reductase family 1 member C3
+
+# Drug_Target_4_Number_of_Residues:
+323
+
+# Drug_Target_4_PDB_ID:
+1XF0
+
+# Drug_Target_4_Pathway:
+Acetylsalicylic Acid Pathway	SMP00083
+Bromfenac Pathway	SMP00102
+Celecoxib Pathway	SMP00096
+Diclofenac Pathway	SMP00093
+Diflunisal Pathway	SMP00289
+Etodolac Pathway	SMP00084
+Ibuprofen Pathway	SMP00086
+Indomethacin Pathway	SMP00104
+Ketoprofen Pathway	SMP00085
+Ketorolac Pathway	SMP00098
+Mefanamic Acid Pathway	SMP00109
+Meloxicam Pathway	SMP00106
+Nabumetone Pathway	SMP00114
+Naproxen Pathway	SMP00120
+Oxaprozin Pathway	SMP00113
+Piroxicam Pathway	SMP00077
+Rofecoxib Pathway	SMP00087
+Sulindac Pathway	SMP00094
+Suprofen Pathway	SMP00101
+Valdecoxib Pathway	SMP00116
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00248	Aldo_ket_red
+
+# Drug_Target_4_Protein_Sequence:
+>Aldo-keto reductase family 1 member C3
+MDSKQQCVKLNDGHFMPVLGFGTYAPPEVPRSKALEVTKLAIEAGFRHIDSAHLYNNEEQ
+VGLAIRSKIADGSVKREDIFYTSKLWSTFHRPELVRPALENSLKKAQLDYVDLYLIHSPM
+SLKPGEELSPTDENGKVIFDIVDLCTTWEAMEKCKDAGLAKSIGVSNFNRRQLEMILNKP
+GLKYKPVCNQVECHPYFNRSKLLDFCKSKDIVLVAYSALGSQRDKRWVDPNSPVLLEDPV
+LCALAKKHKRTPALIALRYQLQRGVVVLAKSYNEQRIRQNVQVFEFQLTAEDMKAIDGLD
+RNLHYFNSDSFASHPNYPYSDEY
+
+# Drug_Target_4_Reaction:
+estradiol-17beta + NAD(P)+ = estrone + NAD(P)H + H+
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+Catalyzes the conversion of aldehydes and ketones to alcohols. Catalyzes the reduction of prostaglandin (PG) D2, PGH2 and phenanthrenequinone (PQ) and the oxidation of 9alpha,11beta- PGF2 to PGD2. Functions as a bi-directional 3alpha-, 17beta- and 20alpha HSD. Can interconvert active androgens, estrogens and progestins with their cognate inactive metabolites. Preferentially transforms androstenedione (4-dione) to testosterone
+
+# Drug_Target_4_SwissProt_ID:
+P42330
+
+# Drug_Target_4_SwissProt_Name:
+AK1C3_HUMAN
+
+# Drug_Target_4_Synonyms:
+17-beta-HSD 5
+17-beta-hydroxysteroid dehydrogenase type 5
+3-alpha- hydroxysteroid dehydrogenase type 2
+3-alpha-HSD type 2
+3-alpha-HSD type II, brain
+Chlordecone reductase homolog HAKRb
+DD-3
+DD3
+Dihydrodiol dehydrogenase 3
+Dihydrodiol dehydrogenase type I
+EC 1.-.-.-
+EC 1.1.1.188
+EC 1.1.1.213
+EC 1.1.1.62
+EC 1.3.1.20
+Estradiol 17-beta-dehydrogenase
+HA1753
+PGFS
+Prostaglandin F synthase
+Trans-1,2- dihydrobenzene-1,2-diol dehydrogenase
+
+# Drug_Target_4_Theoretical_pI:
+8.06
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB01536

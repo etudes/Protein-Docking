@@ -1,0 +1,346 @@
+#BEGIN_DRUGCARD DB00828
+
+# AHFS_Codes:
+08:36.00
+
+# ATC_Codes:
+J01XX01
+
+# Absorption:
+Fosfomycin tromethamine is rapidly absorbed following oral administration and converted to fosfomycin. Oral bioavailability under fasting conditions is 37%. When given with food, oral bioavailability is reduced to 30%
+
+# Biotransformation:
+No transformation, excreted unchanged
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Veramina
+
+# CAS_Registry_Number:
+23155-02-4
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C3H7O4P
+
+# Chemical_IUPAC_Name:
+[(2R,3S)-3-methyloxiran-2-yl]phosphonic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2240335
+
+# Description:
+An antibiotic produced by Streptomyces fradiae. [PubChem]
+
+# Dosage_Forms:
+Powder	Oral
+
+# Drug_Category:
+Anti-Bacterial Agents
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-1.6
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+50 mg/mL (Sodium salt)
+
+# Food_Interactions:
+Food decreases Cmax slightly.
+Take without regard to meals.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Fosfomycin
+
+# HET_ID:
+FCN
+
+# Half_Life:
+5.7 (&plusmn; 2.8) hours. The elimination half-life is 40 hours in anuric patients undergoing hemodialysis.
+
+# InChI_Identifier:
+InChI=1S/C3H7O4P/c1-2-3(7-2)8(4,5)6/h2-3H,1H3,(H2,4,5,6)/t2-,3+/m0/s1
+
+# InChI_Key:
+InChIKey=YMDXZJFXQJVXBF-STHAYSLISA-N
+
+# Indication:
+For the treatment of uncomplicated urinary tract infections (acute cystitis) in women due to susceptible strains of <i>Escherichia coli</i> and <i>Enterococcus faecalis</i>.
+
+# KEGG_Compound_ID:
+C06454
+
+# KEGG_Drug_ID:
+D04253
+
+# LIMS_Drug_ID:
+828
+
+# Mechanism_Of_Action:
+Fosfomycin is a phosphoenolpyruvate analogue produced by Streptomyces that irreversibly inhibits enolpyruvate transferase (MurA), which prevents the formation of N-acetylmuramic acid, an essential element of the peptidoglycan cell wall.
+
+# Melting_Point:
+94 °C
+
+# Molecular_Weight_Avg:
+138.059
+
+# Molecular_Weight_Mono:
+138.008195224
+
+# Organisms_Affected:
+Enteric bacteria and other eubacteria
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/mon1275.shtml
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164748039
+
+# Pharmacology:
+Fosfomycin is a broad spectrum antibiotic that concentrates in kidney and bladder and is used to treat uncomplicated urinary tract infections. Fosfomycin also reduces nephrotoxicity and ototoxicity of platinum-containing anti-tumor agents.
+
+# Predicted_LogP_Hydrophobicity:
+-0.86
+
+# Predicted_LogS:
+-0.47
+
+# Predicted_Water_Solubility:
+4.69e+01 g/l
+
+# Primary_Accession_No:
+DB00828
+
+# Protein_Binding:
+0% (not bound to plasma proteins)
+
+# PubChem_Compound_ID:
+446987
+
+# PubChem_Substance_ID:
+46506665
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/fosfomycin.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00987
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+C[C@@H]1O[C@@H]1P(O)(O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Fosfocina
+Fosfomycin disodium salt
+Fosfomycin sodium
+Fosfonomycin
+Phosphomycin
+Phosphonomycin
+phosphomycin disodium salt
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+LD<sub>50</sub>>5 g/kg (rats). Side effects may include diarrhea
+
+# Update_Date:
+2013-02-08 16:19:40 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Fosfomycin
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm (Probable)
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10529188	Samland AK, Amrhein N, Macheroux P: Lysine 22 in UDP-N-acetylglucosamine enolpyruvyl transferase from Enterobacter cloacae is crucial for enzymatic activity and the formation of covalent adducts with the substrate phosphoenolpyruvate and the antibiotic fosfomycin. Biochemistry. 1999 Oct 5;38(40):13162-9.
+12562791	McCoy AJ, Sandlin RC, Maurelli AT: In vitro and in vivo functional activity of Chlamydia MurA, a UDP-N-acetylglucosamine enolpyruvyl transferase involved in peptidoglycan synthesis and fosfomycin resistance. J Bacteriol. 2003 Feb;185(4):1218-28.
+15531591	Eschenburg S, Priestman M, Schonbrunn E: Evidence that the fosfomycin target Cys115 in UDP-N-acetylglucosamine enolpyruvyl transferase (MurA) is essential for product release. J Biol Chem. 2005 Feb 4;280(5):3757-63. Epub 2004 Nov 5.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+7608103	Brown ED, Vivas EI, Walsh CT, Kolter R: MurA (MurZ), the enzyme that catalyzes the first committed step in peptidoglycan biosynthesis, is essential in Escherichia coli. J Bacteriol. 1995 Jul;177(14):4194-7.
+8664284	Kim DH, Lees WJ, Kempsell KE, Lane WS, Duncan K, Walsh CT: Characterization of a Cys115 to Asp substitution in the Escherichia coli cell wall biosynthetic enzyme UDP-GlcNAc enolpyruvyl transferase (MurA) that confers resistance to inactivation by the antibiotic fosfomycin. Biochemistry. 1996 Apr 16;35(15):4923-8.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+M92358
+
+# Drug_Target_1_GenBank_ID_Protein:
+146902
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+murA
+
+# Drug_Target_1_Gene_Sequence:
+>1260 bp
+ATGGATAAATTTCGTGTTCAGGGGCCAACGAAGCTCCAGGGCGAAGTCACAATTTCCGGC
+GCTAAAAATGCTGCTCTGCCTATCCTTTTTGCCGCACTACTGGCGGAAGAACCGGTAGAG
+ATCCAGAACGTCCCGAAACTGAAAGACGTCGATACATCAATGAAGCTGCTAAGCCAGCTG
+GGTGCGAAAGTAGAACGTAATGGTTCTGTGCATATTGATGCCCGCGACGTTAATGTATTC
+TGCGCACCTTACGATCTGGTTAAAACCATGCGTGCTTCTATCTGGGCGCTGGGGCCGCTG
+GTAGCGCGCTTTGGTCAGGGGCAAGTTTCACTACCTGGCGGTTGTACGATCGGTGCGCGT
+CCGGTTGATCTACACATTTCTGGCCTCGAACAATTAGGCGCGACCATCAAACTGGAAGAA
+GGTTACGTTAAAGCTTCCGTCGATGGTCGTTTGAAAGGTGCACATATCGTGATGGATAAA
+GTCAGCGTTGGCGCAACGGTGACCATCATGTGTGCTGCAACCCTGGCGGAAGGCACCACG
+ATTATTGAAAACGCAGCGCGTGAACCGGAAATCGTCGATACCGCGAACTTCCTGATTACG
+CTGGGTGCGAAAATTAGCGGTCAGGGCACCGATCGTATCGTCATCGAAGGTGTGGAACGT
+TTAGGCGGCGGTGTCTATCGCGTTCTGCCGGATCGTATCGAAACCGGTACTTTCCTGGTG
+GCGGCGGCGATTTCTCGCGGCAAAATTATCTGCCGTAACGCGCAGCCAGATACTCTCGAC
+GCCGTGCTGGCGAAACTGCGTGACGCTGGAGCGGACATCGAAGTCGGCGAAGACTGGATT
+AGCCTGGATATGCATGGCAAACGTCCGAAGGCTGTTAACGTACGTACCGCGCCGCATCCG
+GCATTCCCGACCGATATGCAGGCCCAGTTCACGCTGTTGAACCTGGTGGCAGAAGGGACC
+GGGTTTATCACCGAAACGGTCTTTGAAAACCGCTTTATGCATGTGCCAGAGCTGAGCCGT
+ATGGGCGCGCACGCCGAAATCGAAAGCAATACCGTTATTTGTCACGGTGTTGAAAAACTT
+TCTGGCGCACAGGTTATGGCAACCGATCTGCGTGCATCAGCAAGCCTGGTGCTGGCTGGC
+TGTATTGCGGAAGGGACGACGGTGGTTGATCGTATTTATCACATCGATCGTGGCTACGAA
+CGCATTGAAGACAAACTGCGCGCTTTAGGTGCAAATATTGAGCGTGTGAAAGGCGAATAA
+
+# Drug_Target_1_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_1_General_References:
+10103182	Horii T, Kimura T, Sato K, Shibayama K, Ohta M: Emergence of fosfomycin-resistant isolates of Shiga-like toxin-producing Escherichia coli O26. Antimicrob Agents Chemother. 1999 Apr;43(4):789-93.
+1512209	Marquardt JL, Siegele DA, Kolter R, Walsh CT: Cloning and sequencing of Escherichia coli murZ and purification of its product, a UDP-N-acetylglucosamine enolpyruvyl transferase. J Bacteriol. 1992 Sep;174(17):5748-52.
+8994972	Skarzynski T, Mistry A, Wonacott A, Hutchinson SE, Kelly VA, Duncan K: Structure of UDP-N-acetylglucosamine enolpyruvyl transferase, an enzyme essential for the synthesis of bacterial peptidoglycan, complexed with substrate UDP-N-acetylglucosamine and the drug fosfomycin. Structure. 1996 Dec 15;4(12):1465-74.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+9485407	Skarzynski T, Kim DH, Lees WJ, Walsh CT, Duncan K: Stereochemical course of enzymatic enolpyruvyl transfer and catalytic conformation of the active site revealed by the crystal structure of the fluorinated analogue of the reaction tetrahedral intermediate bound to the active site of the C115A mutant of MurA. Biochemistry. 1998 Feb 24;37(8):2572-7.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+520
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+44818
+
+# Drug_Target_1_Name:
+UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+
+# Drug_Target_1_Number_of_Residues:
+419
+
+# Drug_Target_1_PDB_ID:
+1UAE
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00275	EPSP_synthase
+
+# Drug_Target_1_Protein_Sequence:
+>UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+MDKFRVQGPTKLQGEVTISGAKNAALPILFAALLAEEPVEIQNVPKLKDVDTSMKLLSQL
+GAKVERNGSVHIDARDVNVFCAPYDLVKTMRASIWALGPLVARFGQGQVSLPGGCTIGAR
+PVDLHISGLEQLGATIKLEEGYVKASVDGRLKGAHIVMDKVSVGATVTIMCAATLAEGTT
+IIENAAREPEIVDTANFLITLGAKISGQGTDRIVIEGVERLGGGVYRVLPDRIETGTFLV
+AAAISRGKIICRNAQPDTLDAVLAKLRDAGADIEVGEDWISLDMHGKRPKAVNVRTAPHP
+AFPTDMQAQFTLLNLVAEGTGFITETVFENRFMHVPELSRMGAHAEIESNTVICHGVEKL
+SGAQVMATDLRASASLVLAGCIAEGTTVVDRIYHIDRGYERIEDKLRALGANIERVKGE
+
+# Drug_Target_1_Reaction:
+phosphoenolpyruvate + UDP-N-acetyl-D-glucosamine = phosphate + UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Cell wall formation. Adds enolpyruvyl to UDP-N- acetylglucosamine. Target for the antibiotic phosphomycin
+
+# Drug_Target_1_SwissProt_ID:
+P0A749
+
+# Drug_Target_1_SwissProt_Name:
+MURA_ECOLI
+
+# Drug_Target_1_Synonyms:
+EC 2.5.1.7
+EPT
+Enoylpyruvate transferase
+UDP-N-acetylglucosamine enolpyruvyl transferase
+
+# Drug_Target_1_Theoretical_pI:
+6.07
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00828

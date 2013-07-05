@@ -1,0 +1,512 @@
+#BEGIN_DRUGCARD DB00260
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+J04AB01
+
+# Absorption:
+Rapidly and almost completely absorbed (70 to 90%) from the gastrointestinal tract following oral administration.
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Closerin
+Closina
+Cyclomycin
+Cyclorin
+Cycloserin
+Farmiserina
+Farmiserine
+Micoserina
+Miroserina
+Miroseryn
+Novoserin
+Orientomycin
+Oxamicina
+Oxamycin
+Oxymycin
+Seromycin
+Tebemicina
+Tisomycin
+Wasserina
+
+# CAS_Registry_Number:
+68-41-7
+
+# ChEBI_ID:
+40009
+
+# Chemical_Formula:
+C3H6N2O2
+
+# Chemical_IUPAC_Name:
+(4R)-4-amino-1,2-oxazolidin-3-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2032414
+
+# Description:
+Antibiotic substance produced by Streptomyces garyphalus. [PubChem]
+
+# Dosage_Forms:
+Capsule	Oral
+
+# Drug_Category:
+Anti-Infective Agents, Urinary
+Antibiotics
+Antibiotics, Antitubercular
+Antimetabolites
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.9
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Soluble
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Cycloserine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Half-life in patients with normal renal function is 10 hours, and is prolonged in patients with impaired renal function.
+
+# InChI_Identifier:
+InChI=1S/C3H6N2O2/c4-2-1-7-5-3(2)6/h2H,1,4H2,(H,5,6)/t2-/m1/s1
+
+# InChI_Key:
+InChIKey=DYDCUQKUCUHJBH-UWTATZPHSA-N
+
+# Indication:
+Used in combination with up to 5 other drugs as a treatment for Mycobacterium avium complex (MAC) and is also used to treat tuberculosis (TB).
+
+# KEGG_Compound_ID:
+C06682
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+260
+
+# Mechanism_Of_Action:
+Cycloserine is an analog of the amino acid D-alanine. It interferes with an early step in bacterial cell wall synthesis in the cytoplasm by competitive inhibition of two enzymes, L-alanine racemase, which forms D-alanine from L-alanine, and D-alanylalanine synthetase, which incorporates D-alanine into the pentapeptide necessary for peptidoglycan formation and bacterial cell wall synthesis.
+
+# Melting_Point:
+155.5 dec °C
+
+# Molecular_Weight_Avg:
+102.0919
+
+# Molecular_Weight_Mono:
+102.042927446
+
+# Organisms_Affected:
+Enteric bacteria and other eubacteria
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164764600
+
+# Pharmacology:
+Cycloserine, a broad-spectrum antibiotic, may be bactericidal or bacteriostatic, depending on its concentration at the site of infection and the susceptibility of the organism. Cycloserine works by blocking the formation of these peptidoglycans. By doing this the walls of the bacteria become weak and it results in the death of the bacteria
+
+# Predicted_LogP_Hydrophobicity:
+-2.3
+
+# Predicted_LogS:
+0.93
+
+# Predicted_Water_Solubility:
+8.77e+02 g/l
+
+# Primary_Accession_No:
+DB00260
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00894
+DB03123
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+N[C@@H]1CONC1=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Cicloserina
+D-CS
+D-Cycloserine
+D-Cycloserine synth. BP 88
+D-Cycloserine, synthetic
+D-Oxamicina
+D-Oxamycin
+DL-Cycloserine
+L-Cycloserine
+alpha-Cycloserine
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Oral LD<sub>50</sub> in mouse is 5290 mg/kg, and in rat is over 5000 mg/kg. Symptoms of a cycloserine overdose include drowsiness, confusion, headache, dizziness, irritability, numbness and tingling, difficulty speaking, paralysis, abnormal behavior, seizures, and unconsciousness.
+
+# Update_Date:
+2013-02-08 16:19:12 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Cycloserine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+DDC
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+3876
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Aromatic-L-amino-acid decarboxylase
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Aromatic-L-amino-acid decarboxylase
+MNASEFRRRGKEMVDYVANYMEGIEGRQVYPDVEPGYLRPLIPAAAPQEPDTFEDIINDV
+EKIIMPGVTHWHSPYFFAYFPTASSYPAMLADMLCGAIGCIGFSWAASPACTELETVMMD
+WLGKMLELPKAFLNEKAGEGGGVIQGSASEATLVALLAARTKVIHRLQAASPELTQAAIM
+EKLVAYSSDQAHSSVERAGLIGGVKLKAIPSDGNFAMRASALQEALERDKAAGLIPFFMV
+ATLGTTTCCSFDNLLEVGPICNKEDIWLHVDAAYAGSAFICPEFRHLLNGVEFADSFNFN
+PHKWLLVNFDCSAMWVKKRTDLTGAFRLDPTYLKHSHQDSGLITDYRHWQIPLGRRFRSL
+KMWFVFRMYGVKGLQAYIRKHVQLSHEFESLVRQDPRFEICVEVILGLVCFRLKGSNKVN
+EALLQRINSAKKIHLVPCHLRDKFVLRFAICSRTVESAHVQRAWEHIKELAADVLRAERE
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P20711
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11073937	Belanger AE, Porter JC, Hatfull GF: Genetic analysis of peptidoglycan biosynthesis in mycobacteria: characterization of a ddlA mutant of Mycobacterium smegmatis. J Bacteriol. 2000 Dec;182(23):6854-6.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+15302885	Noda M, Kawahara Y, Ichikawa A, Matoba Y, Matsuo H, Lee DG, Kumagai T, Sugiyama M: Self-protection mechanism in D-cycloserine-producing Streptomyces lavendulae. Gene cloning, characterization, and kinetics of its alanine racemase and D-alanyl-D-alanine ligase, which are target enzymes of D-cycloserine. J Biol Chem. 2004 Oct 29;279(44):46143-52. Epub 2004 Aug 9.
+15948948	McCoy AJ, Maurelli AT: Characterization of Chlamydia MurC-Ddl, a fusion protein exhibiting D-alanyl-D-alanine ligase activity involved in peptidoglycan synthesis and D-cycloserine sensitivity. Mol Microbiol. 2005 Jul;57(1):41-52.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+M58467
+
+# Drug_Target_1_GenBank_ID_Protein:
+145722
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+ddlA
+
+# Drug_Target_1_Gene_Sequence:
+>1095 bp
+ATGGAAAAACTGCGGGTAGGAATCGTTTTTGGTGGTAAATCAGCGGAACATGAAGTGTCT
+CTGCAATCGGCAAAAAACATTGTCGATGCCATTGATAAAAGTCGCTTCGACGTTGTGCTG
+CTGGGCATTGATAAACAAGGGCAATGGCACGTCAGCGATGCCAGCAATTATCTGCTAAAT
+GCAGACGATCCTGCCCATATTGCGTTGCGCCCTTCGGCGACCAGCCTTGCGCAGGTGCCA
+GGTAAACATGAGCATCAGCTTATCGACGCGCAAAACGGTCAGCCGTTGCCGACGGTGGAT
+GTCATTTTCCCGATTGTCCACGGTACGCTGGGCGAAGATGGTTCCTTGCAGGGAATGCTG
+CGGGTCGCCAATTTACCGTTTGTAGGTTCTGATGTTCTGGCTTCAGCAGCCTGTATGGAC
+AAAGATGTCACCAAACGTCTGCTACGCGATGCCGGGCTGAACATTGCGCCATTTATTACC
+CTGACGCGCGCCAATCGTCACAACATTAGTTTTGCCGAAGTGGAGTCTAAACTGGGGTTA
+CCACTGTTTGTAAAACCGGCTAATCAGGGCTCTTCTGTTGGTGTCAGCAAAGTAACCAGT
+GAAGAACAGTACGCAATTGCCGTCGATCTGGCGTTCGAGTTCGATCATAAAGTGATCGTT
+GAGCAAGGGATCAAAGGTCGTGAGATCGAATGCGCAGTTCTGGGCAACGACAATCCGCAA
+GCCAGCACCTGTGGAGAGATCGTACTCACCAGCGATTTCTATGCCTACGACACCAAGTAC
+ATTGACGAAGATGGCGCGAAAGTGGTAGTTCCGGCAGCCATTGCGCCAGAAATCAACGAT
+AAGATCCGGGCGATTGCCGTTCAGGCTTATCAAACGTTGGGATGCGCAGGCATGGCGCGT
+GTAGACGTGTTTTTAACCCCAGAGAACGAAGTGGTGATCAACGAGATCAACACCCTGCCT
+GGCTTCACTAATATCAGTATGTATCCGAAGCTGTGGCAAGCCAGCGGTCTGGGTTACACC
+GATCTGATCACACGTTTGATTGAACTGGCGCTGGAGCGTCACGCTGCGGATAACGCATTG
+AAAACCACAATGTAA
+
+# Drug_Target_1_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_1_General_References:
+1993184	Zawadzke LE, Bugg TD, Walsh CT: Existence of two D-alanine:D-alanine ligases in Escherichia coli: cloning and sequencing of the ddlA gene and purification and characterization of the DdlA and DdlB enzymes. Biochemistry. 1991 Feb 12;30(6):1673-82.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+807
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+39316
+
+# Drug_Target_1_Name:
+D-alanine--D-alanine ligase A
+
+# Drug_Target_1_Number_of_Residues:
+364
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF01820	Dala_Dala_lig_N
+PF07478	Dala_Dala_lig_C
+
+# Drug_Target_1_Protein_Sequence:
+>D-alanine--D-alanine ligase A
+MEKLRVGIVFGGKSAEHEVSLQSAKNIVDAIDKSRFDVVLLGIDKQGQWHVSDASNYLLN
+ADDPAHIALRPSATSLAQVPGKHEHQLIDAQNGQPLPTVDVIFPIVHGTLGEDGSLQGML
+RVANLPFVGSDVLASAACMDKDVTKRLLRDAGLNIAPFITLTRANRHNISFAEVESKLGL
+PLFVKPANQGSSVGVSKVTSEEQYAIAVDLAFEFDHKVIVEQGIKGREIECAVLGNDNPQ
+ASTCGEIVLTSDFYAYDTKYIDEDGAKVVVPAAIAPEINDKIRAIAVQAYQTLGCAGMAR
+VDVFLTPENEVVINEINTLPGFTNISMYPKLWQASGLGYTDLITRLIELALERHAADNAL
+KTTM
+
+# Drug_Target_1_Reaction:
+ATP + 2 D-alanine = ADP + phosphate + D-alanyl-D-alanine
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Cell wall formation
+
+# Drug_Target_1_SwissProt_ID:
+P0A6J8
+
+# Drug_Target_1_SwissProt_Name:
+DDLA_ECOLI
+
+# Drug_Target_1_Synonyms:
+D-Ala-D-Ala ligase A
+D-alanylalanine synthetase A
+EC 6.3.2.4
+
+# Drug_Target_1_Theoretical_pI:
+4.81
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+12499203	Feng Z, Barletta RG: Roles of Mycobacterium smegmatis D-alanine:D-alanine ligase and D-alanine racemase in the mechanisms of action of and resistance to the peptidoglycan inhibitor D-cycloserine. Antimicrob Agents Chemother. 2003 Jan;47(1):283-91.
+12741835	Fenn TD, Stamper GF, Morollo AA, Ringe D: A side reaction of alanine racemase: transamination of cycloserine. Biochemistry. 2003 May 20;42(19):5775-83.
+15807525	Fenn TD, Holyoak T, Stamper GF, Ringe D: Effect of a Y265F mutant on the transamination-based cycloserine inactivation of alanine racemase. Biochemistry. 2005 Apr 12;44(14):5317-27.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+AF214487
+
+# Drug_Target_2_GenBank_ID_Protein:
+6708455
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+alr
+
+# Drug_Target_2_Gene_Sequence:
+>1176 bp
+ATGGCCGCCGTGGCCGTTACGCCGATATCCCTGACCCCGGGCGTCCTCGCCGAGGCGCTG
+GTCGACCTGGGCGCCATCGAGCACAACGTGCGGCTGCTGTGCGAGCAGGCCCGCGGCGCG
+CAGGTGATGGCCGTGGTCAAGGCCGACGGCTACGGCCACGGGGCCGTGCAGACGGCGCGT
+GCCGCGCTGGCCGCCGGGGCCGCCGAGCTGGGCGTGGCCACCGTCGACGAGGCGCTGGCG
+CTGCGCGCCGCGGGGATCAGCGCGCCGGTGCTGGCCTGGCTGCATCCGCCCGGCATCGAC
+TTCCGGCCCGCGCTGCTGGCCGGCGTGCAGATCGGCCTGTCCTCGCAGCGCCAGCTCGAC
+GAGCTGCTGACCGCGGTGCGCGACACCGGCCGGACCGCCACGGTCACCGTCAAGGTCGAC
+ACCGGGCTGAACCGCAACGGCGTGCCGCCGGCGCAGTACCCGTCGATGCTGACCGCGCTG
+CGCCGCGCCGTCGCCGAGCAGGCCATCGTGCCGCGCGGCCTGATGTCTCACATGGTGTAC
+GCCGACCAACCCGCCAACCCGGTGAATGACGTTCAGGCGCAACGGTTCACCGACATGCTG
+GCCCAGGCGCGCGAGCAGGGGGTGCGCTTCGAGGTGGCCCACCTGTCGAATTCGTCGGCC
+ACCATGTCGCGTCCCGACCTGGCCTTCGACATGGTGCGCCCCGGTATCGCGGTGTACGGC
+CTCAGCCCTGTCCCCGAGCTGGGCGACATGGGCCTGGTGCCCGCGATGACGGTGAAATGT
+ACTGTGGCACTGGTGAAGTCGATACGTGCGGGGGAAAGCGTGTCATACGGACACACCTGG
+ACGGCGCAGCGCGACACCAACCTGGCGCTGCTGCCGGTGGGCTACGCCGACGGCATCTTC
+CGGTCGCTGGGCGGGCGGCTGCAGGTGTCGATCAACGGCCGGCGGCGGCCGGGCGTCGGC
+CGGATCTGCATGGACCAGTTCGTCGTCGACCTGGGCCCGGGCCGCCCCGACGTGGCCGAG
+GGCGACGAGGCGATCCTGTTCGGGCCGGGCAGCAACGGTGAACCCACCGCCCAGGATTGG
+GCCGATCTGCTCGGCACTATCCACTACGAAGTGGTGACCAGCCCCCGCGGGCGGATCACC
+AGGACCTACCGCGAGGCGCACACCGTTGAGTCCTGA
+
+# Drug_Target_2_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_2_General_References:
+11267762	Strych U, Penland RL, Jimenez M, Krause KL, Benedik MJ: Characterization of the alanine racemases from two mycobacteria. FEMS Microbiol Lett. 2001 Mar 15;196(2):93-8.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+894
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+41002
+
+# Drug_Target_2_Name:
+Alanine racemase
+
+# Drug_Target_2_Number_of_Residues:
+388
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00842	Ala_racemase_C
+PF01168	Ala_racemase_N
+
+# Drug_Target_2_Protein_Sequence:
+>Alanine racemase
+MAVTPISLTPGVLAEALVDLGAIEHNVRLLCEQARGAQVMAVVKADGYGHGAVQTARAAL
+AAGAAELGVATVDEALALRAAGISAPVLAWLHPPGIDFRPALLAGVQIGLSSQRQLDELL
+TAVRDTGRTATVTVKVDTGLNRNGVPPAQYPSMLTALRRAVAEQAIVPRGLMSHMVYADQ
+PANPVNDVQAQRFTDMLAQAREQGVRFEVAHLSNSSATMSRPDLAFDMVRPGIAVYGLSP
+VPELGDMGLVPAMTVKCTVALVKSIRAGESVSYGHTWTAQRDTNLALLPVGYADGIFRSL
+GGRLQVSINGRRRPGVGRICMDQFVVDLGPGRPDVAEGDEAILFGPGSNGEPTAQDWADL
+LGTIHYEVVTSPRGRITRTYREAHTVES
+
+# Drug_Target_2_Reaction:
+L-alanine = D-alanine
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Provides the D-alanine required for cell wall biosynthesis
+
+# Drug_Target_2_SwissProt_ID:
+Q9L888
+
+# Drug_Target_2_SwissProt_Name:
+ALR_MYCAV
+
+# Drug_Target_2_Synonyms:
+EC 5.1.1.1
+
+# Drug_Target_2_Theoretical_pI:
+6.52
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00260

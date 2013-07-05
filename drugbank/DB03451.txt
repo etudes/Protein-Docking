@@ -1,0 +1,349 @@
+#BEGIN_DRUGCARD DB03451
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C29H48O4
+
+# Chemical_IUPAC_Name:
+(1S,3R,5Z)-5-{2-[(1S,3aR,4Z,7aR)-1-[(1S)-1-[(4-ethyl-4-hydroxyhexyl)oxy]ethyl]-7a-methyl-octahydro-1H-inden-4-ylidene]ethylidene}-4-methylidenecyclohexane-1,3-diol
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Antineoplastic Agents
+Immunosuppressive Agents
+Vitamin D3 Receptor inhibitor
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+1alpha,25-Dihydroxyl-20-Epi-22-Oxa-24,26,27-Trihomovitamin D3
+
+# HET_ID:
+KH1
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C29H48O4/c1-6-29(32,7-2)16-9-17-33-21(4)25-13-14-26-22(10-8-15-28(25,26)5)11-12-23-18-24(30)19-27(31)20(23)3/h11-12,21,24-27,30-32H,3,6-10,13-19H2,1-2,4-5H3/b22-11-,23-12-/t21-,24-,25+,26+,27+,28-/m0/s1
+
+# InChI_Key:
+InChIKey=KLZOTDOJMRMLDX-UWVZFVHNSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+3451
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+460.689
+
+# Molecular_Weight_Mono:
+460.355260024
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1IE8
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+5.69
+
+# Predicted_LogS:
+-4.9
+
+# Predicted_Water_Solubility:
+6.32e-03 g/l
+
+# Primary_Accession_No:
+DB03451
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+46936681
+
+# PubChem_Substance_ID:
+46505581
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT01970
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CCC(O)(CC)CCCO[C@@H](C)[C@H]1CC[C@@H]2\C(CCC[C@@]12C)=C/C=C1/C[C@H](O)C[C@@H](O)C1=C
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:22:16 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Nucleus
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+VDR
+
+# Drug_Target_1_GenBank_ID_Gene:
+J03258
+
+# Drug_Target_1_GenBank_ID_Protein:
+340203
+
+# Drug_Target_1_GeneCard_ID:
+VDR
+
+# Drug_Target_1_Gene_Name:
+VDR
+
+# Drug_Target_1_Gene_Sequence:
+>1284 bp
+ATGGAGGCAATGGCGGCCAGCACTTCCCTGCCTGACCCTGGAGACTTTGACCGGAACGTG
+CCCCGGATCTGTGGGGTGTGTGGAGACCGAGCCACTGGCTTTCACTTCAATGCTATGACC
+TGTGAAGGCTGCAAAGGCTTCTTCAGGCGAAGCATGAAGCGGAAGGCACTATTCACCTGC
+CCCTTCAACGGGGACTGCCGCATCACCAAGGACAACCGACGCCACTGCCAGGCCTGCCGG
+CTCAAACGCTGTGTGGACATCGGCATGATGAAGGAGTTCATTCTGACAGATGAGGAAGTG
+CAGAGGAAGCGGGAGATGATCCTGAAGCGGAAGGAGGAGGAGGCCTTGAAGGACAGTCTG
+CGGCCCAAGCTGTCTGAGGAGCAGCAGCGCATCATTGCCATACTGCTGGACGCCCACCAT
+AAGACCTACGACCCCACCTACTCCGACTTCTGCCAGTTCCGGCCTCCAGTTCGTGTGAAT
+GATGGTGGAGGGAGCCATCCTTCCAGGCCCAACTCCAGACACACTCCCAGCTTCTCTGGG
+GACTCCTCCTCCTCCTGCTCAGATCACTGTATCACCTCTTCAGACATGATGGACTCGTCC
+AGCTTCTCCAATCTGGATCTGAGTGAAGAAGATTCAGATGACCCTTCTGTGACCCTAGAG
+CTGTCCCAGCTCTCCATGCTGCCCCACCTGGCTGACCTGGTCAGTTACAGCATCCAAAAG
+GTCATTGGCTTTGCTAAGATGATACCAGGATTCAGAGACCTCACCTCTGAGGACCAGATC
+GTACTGCTGAAGTCAAGTGCCATTGAGGTCATCATGTTGCGCTCCAATGAGTCCTTCACC
+ATGGACGACATGTCCTGGACCTGTGGCAACCAAGACTACAAGTACCGCGTCAGTGACGTG
+ACCAAAGCCGGACACAGCCTGGAGCTGATTGAGCCCCTCATCAAGTTCCAGGTGGGACTG
+AAGAAGCTGAACTTGCATGAGGAGGAGCATGTCCTGCTCATGGCCATCTGCATCGTCTCC
+CCAGATCGTCCTGGGGTGCAGGACGCCGCGCTGATTGAGGCCATCCAGGACCGCCTGTCC
+AACACACTGCAGACGTACATCCGCTGCCGCCACCCGCCCCCGGGCAGCCACCTGCTCTAT
+GCCAAGATGATCCAGAAGCTAGCCGACCTGCGCAGCCTCAATGAGGAGCACTCCAAGCAG
+TACCGCTGCCTCTCCTTCCAGCCTGAGTGCAGCATGAAGCTAACGCCCCTTGTGCTCGAA
+GTGTTTGGCAATGAGATCTCCTGA
+
+# Drug_Target_1_General_Function:
+Involved in transcription factor activity
+
+# Drug_Target_1_General_References:
+10678179	Rochel N, Wurtz JM, Mitschler A, Klaholz B, Moras D: The crystal structure of the nuclear receptor for vitamin D bound to its natural ligand. Mol Cell. 2000 Jan;5(1):173-9.
+10866662	Mahajan MA, Samuels HH: A new family of nuclear receptor coregulators that integrate nuclear receptor signaling through CREB-binding protein. Mol Cell Biol. 2000 Jul;20(14):5048-63.
+1324736	Goto H, Chen KS, Prahl JM, DeLuca HF: A single receptor identical with that from intestine/T47D cells mediates the action of 1,25-dihydroxyvitamin D-3 in HL-60 cells. Biochim Biophys Acta. 1992 Aug 17;1132(1):103-8.
+1652893	Saijo T, Ito M, Takeda E, Huq AH, Naito E, Yokota I, Sone T, Pike JW, Kuroda Y: A unique mutation in the vitamin D receptor gene in three Japanese patients with vitamin D-dependent rickets type II: utility of single-strand conformation polymorphism analysis for heterozygous carrier detection. Am J Hum Genet. 1991 Sep;49(3):668-73.
+1850412	Yu XP, Mocharla H, Hustmyer FG, Manolagas SC: Vitamin D receptor expression in human lymphocytes. Signal requirements and characterization by western blots and DNA sequencing. J Biol Chem. 1991 Apr 25;266(12):7588-95.
+2177843	Sone T, Marx SJ, Liberman UA, Pike JW: A unique point mutation in the human vitamin D receptor chromosomal gene confers hereditary resistance to 1,25-dihydroxyvitamin D3. Mol Endocrinol. 1990 Apr;4(4):623-31.
+2835767	Baker AR, McDonnell DP, Hughes M, Crisp TM, Mangelsdorf DJ, Haussler MR, Pike JW, Shine J, O'Malley BW: Cloning and expression of full-length cDNA encoding human vitamin D receptor. Proc Natl Acad Sci U S A. 1988 May;85(10):3294-8.
+2849209	Hughes MR, Malloy PJ, Kieback DG, Kesterson RA, Pike JW, Feldman D, O'Malley BW: Point mutations in the human vitamin D receptor gene associated with hypocalcemic rickets. Science. 1988 Dec 23;242(4886):1702-5.
+7828346	Rut AR, Hewison M, Kristjansson K, Luisi B, Hughes MR, O'Riordan JL: Two mutations causing vitamin D resistant rickets: modelling on the basis of steroid hormone receptor DNA-binding domain crystal structures. Clin Endocrinol (Oxf). 1994 Nov;41(5):581-90.
+8106618	Malloy PJ, Weisman Y, Feldman D: Hereditary 1 alpha,25-dihydroxyvitamin D-resistant rickets resulting from a mutation in the vitamin D receptor deoxyribonucleic acid-binding domain. J Clin Endocrinol Metab. 1994 Feb;78(2):313-6.
+8381803	Yagi H, Ozono K, Miyake H, Nagashima K, Kuroume T, Pike JW: A new point mutation in the deoxyribonucleic acid-binding domain of the vitamin D receptor in a kindred with hereditary 1,25-dihydroxyvitamin D-resistant rickets. J Clin Endocrinol Metab. 1993 Feb;76(2):509-12.
+8392085	Kristjansson K, Rut AR, Hewison M, O'Riordan JL, Hughes MR: Two mutations in the hormone binding domain of the vitamin D receptor cause tissue resistance to 1,25 dihydroxyvitamin D3. J Clin Invest. 1993 Jul;92(1):12-6.
+8675579	Lin NU, Malloy PJ, Sakati N, al-Ashwal A, Feldman D: A novel mutation in the deoxyribonucleic acid-binding domain of the vitamin D receptor causes hereditary 1,25-dihydroxyvitamin D-resistant rickets. J Clin Endocrinol Metab. 1996 Jul;81(7):2564-9.
+8961271	Whitfield GK, Selznick SH, Haussler CA, Hsieh JC, Galligan MA, Jurutka PW, Thompson PD, Lee SM, Zerwekh JE, Haussler MR: Vitamin D receptors from patients with resistance to 1,25-dihydroxyvitamin D3: point mutations confer reduced transactivation in response to ligand and impaired interaction with the retinoid X receptor heterodimeric partner. Mol Endocrinol. 1996 Dec;10(12):1617-31.
+9005998	Malloy PJ, Eccleshall TR, Gross C, Van Maldergem L, Bouillon R, Feldman D: Hereditary vitamin D resistant rickets caused by a novel mutation in the vitamin D receptor that results in decreased affinity for hormone and cellular hyporesponsiveness. J Clin Invest. 1997 Jan 15;99(2):297-304.
+9212063	Miyamoto K, Kesterson RA, Yamamoto H, Taketani Y, Nishiwaki E, Tatsumi S, Inoue Y, Morita K, Takeda E, Pike JW: Structural organization of the human vitamin D receptor chromosomal gene and its promoter. Mol Endocrinol. 1997 Jul;11(8):1165-79.
+9267036	Chen H, Lin RJ, Schiltz RL, Chakravarti D, Nash A, Nagy L, Privalsky ML, Nakatani Y, Evans RM: Nuclear receptor coactivator ACTR is a novel histone acetyltransferase and forms a multimeric activation complex with P/CAF and CBP/p300. Cell. 1997 Aug 8;90(3):569-80.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:12679
+
+# Drug_Target_1_HPRD_ID:
+03463
+
+# Drug_Target_1_ID:
+856
+
+# Drug_Target_1_Locus:
+12q13.11
+
+# Drug_Target_1_Molecular_Weight:
+48290
+
+# Drug_Target_1_Name:
+Vitamin D3 receptor
+
+# Drug_Target_1_Number_of_Residues:
+427
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00104	Hormone_recep
+PF00105	zf-C4
+
+# Drug_Target_1_Protein_Sequence:
+>Vitamin D3 receptor
+MEAMAASTSLPDPGDFDRNVPRICGVCGDRATGFHFNAMTCEGCKGFFRRSMKRKALFTC
+PFNGDCRITKDNRRHCQACRLKRCVDIGMMKEFILTDEEVQRKREMILKRKEEEALKDSL
+RPKLSEEQQRIIAILLDAHHKTYDPTYSDFCQFRPPVRVNDGGGSHPSRPNSRHTPSFSG
+DSSSSCSDHCITSSDMMDSSSFSNLDLSEEDSDDPSVTLELSQLSMLPHLADLVSYSIQK
+VIGFAKMIPGFRDLTSEDQIVLLKSSAIEVIMLRSNESFTMDDMSWTCGNQDYKYRVSDV
+TKAGHSLELIEPLIKFQVGLKKLNLHEEEHVLLMAICIVSPDRPGVQDAALIEAIQDRLS
+NTLQTYIRCRHPPPGSHLLYAKMIQKLADLRSLNEEHSKQYRCLSFQPECSMKLTPLVLE
+VFGNEIS
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Nuclear hormone receptor. VDR mediates the action of vitamin D3 by controlling the expression of hormone sensitive genes
+
+# Drug_Target_1_SwissProt_ID:
+P11473
+
+# Drug_Target_1_SwissProt_Name:
+VDR_HUMAN
+
+# Drug_Target_1_Synonyms:
+1,25-dihydroxyvitamin D3 receptor
+VDR
+
+# Drug_Target_1_Theoretical_pI:
+6.50
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB03451

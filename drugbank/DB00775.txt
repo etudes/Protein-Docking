@@ -1,0 +1,623 @@
+#BEGIN_DRUGCARD DB00775
+
+# AHFS_Codes:
+20:12.18
+
+# ATC_Codes:
+B01AC17
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Metabolism appears to be limited.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+AGG
+Aggrastat
+Tirofiban [BAN:INN]
+
+# CAS_Registry_Number:
+144494-65-5
+
+# ChEBI_ID:
+9605
+
+# Chemical_Formula:
+C22H36N2O5S
+
+# Chemical_IUPAC_Name:
+(2S)-2-(butane-1-sulfonamido)-3-{4-[4-(piperidin-4-yl)butoxy]phenyl}propanoic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2240706
+
+# Description:
+Tirofiban prevents the blood from clotting during episodes of chest pain or a heart attack, or while the patient is undergoing a procedure to treat a blocked coronary artery. It is a non-peptide reversible antagonist of the platelet glycoprotein (GP) IIb/IIIa receptor, and inhibits platelet aggregation.
+
+# Dosage_Forms:
+Solution	Intravenous
+
+# Drug_Category:
+Fibrinolytic Agents
+Platelet Aggregation Inhibitors
+
+# Drug_Interactions:
+Abciximab	Additive effects. Concomitant use is contraindicated.
+Eptifibatide	Additive effects. Concomitant use is contraindicated.
+Ginkgo biloba	Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.
+Treprostinil	The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Tirofiban. Monitor for increased bleeding during concomitant thearpy.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+1.4
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Very slightly soluble
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Tirofiban
+
+# HET_ID:
+AGG
+
+# Half_Life:
+2 hours
+
+# InChI_Identifier:
+InChI=1S/C22H36N2O5S/c1-2-3-16-30(27,28)24-21(22(25)26)17-19-7-9-20(10-8-19)29-15-5-4-6-18-11-13-23-14-12-18/h7-10,18,21,23-24H,2-6,11-17H2,1H3,(H,25,26)/t21-/m0/s1
+
+# InChI_Key:
+InChIKey=COKMIXFXJJXBQG-NRFANRHFSA-N
+
+# Indication:
+For treatment, in combination with heparin, of acute coronary syndrome, including patients who are to be managed medically and those undergoing PTCA or atherectomy.
+
+# KEGG_Compound_ID:
+C07965
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+775
+
+# Mechanism_Of_Action:
+Tirofiban is a reversible antagonist of fibrinogen binding to the GP IIb/IIIa receptor, the major platelet surface receptor involved in platelet aggregation. Platelet aggregation inhibition is reversible following cessation of the infusion of tirofiban.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+440.597
+
+# Molecular_Weight_Mono:
+440.234492962
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Tirofiban Pathway	SMP00267
+
+# PharmGKB_ID:
+PA451698
+
+# Pharmacology:
+Tirofiban prevents the blood from clotting during episodes of chest pain or a heart attack, or while the patient is undergoing a procedure to treat a blocked coronary artery. It is a non-peptide antagonist of the platelet glycoprotein (GP) IIb/IIIa receptor, and inhibits platelet aggregation. When administered intravenously, tirofiban inhibits ex vivo platelet aggregation in a dose- and concentration-dependent manner. When given according to the recommended regimen, >90% inhibition is attained by the end of the 30-minute infusion. Tirofiban has been recently shown in patients with unstable angina to reduce ischemic events at 48 hours following infusion when compared to standard heparin therapy.
+
+# Predicted_LogP_Hydrophobicity:
+1.78
+
+# Predicted_LogS:
+-5.1
+
+# Predicted_Water_Solubility:
+3.17e-03 g/l
+
+# Primary_Accession_No:
+DB00775
+
+# Protein_Binding:
+65%
+
+# PubChem_Compound_ID:
+60947
+
+# PubChem_Substance_ID:
+46504678
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic/tiro.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00304
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CCCCS(=O)(=O)N[C@@H](CC1=CC=C(OCCCCC2CCNCC2)C=C1)C(O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:19:37 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Tirofiban
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+single-pass type I membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11076818	Theroux P, Alexander J Jr, Pharand C, Barr E, Snapinn S, Ghannam AF, Sax FL: Glycoprotein IIb/IIIa receptor blockade improves outcomes in diabetic patients presenting with unstable angina/non-ST-elevation myocardial infarction: results from the Platelet Receptor Inhibition in Ischemic Syndrome Management in Patients Limited by Unstable Signs and Symptoms (PRISM-PLUS) study. Circulation. 2000 Nov 14;102(20):2466-72.
+11342206	Dickfeld T, Ruf A, Pogatsa-Murray G, Muller I, Engelmann B, Taubitz W, Fischer J, Meier O, Gawaz M: Differential antiplatelet effects of various glycoprotein IIb-IIIa antagonists. Thromb Res. 2001 Jan 15;101(2):53-64.
+11565896	von Segesser LK, Mueller X, Marty B, Horisberger J, Corno A: Alternatives to unfractionated heparin for anticoagulation in cardiopulmonary bypass. Perfusion. 2001 Sep;16(5):411-6.
+11929319	Kondo K, Umemura K: Clinical pharmacokinetics of tirofiban, a nonpeptide glycoprotein IIb/IIIa receptor antagonist: comparison with the monoclonal antibody abciximab. Clin Pharmacokinet. 2002;41(3):187-95.
+12057986	Roffi M, Moliterno DJ, Meier B, Powers ER, Grines CL, DiBattiste PM, Herrmann HC, Bertrand M, Harris KE, Demopoulos LA, Topol EJ: Impact of different platelet glycoprotein IIb/IIIa receptor inhibitors among diabetic patients undergoing percutaneous coronary intervention: : Do Tirofiban and ReoPro Give Similar Efficacy Outcomes Trial (TARGET) 1-year follow-up. Circulation. 2002 Jun 11;105(23):2730-6.
+20210689	Juwana YB, Suryapranata H, Ottervanger JP, van 't Hof AW: Tirofiban for myocardial infarction. Expert Opin Pharmacother. 2010 Apr;11(5):861-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+ITGA2B
+
+# Drug_Target_1_GenBank_ID_Gene:
+J02764
+
+# Drug_Target_1_GenBank_ID_Protein:
+190068
+
+# Drug_Target_1_GeneCard_ID:
+ITGA2B
+
+# Drug_Target_1_Gene_Name:
+ITGA2B
+
+# Drug_Target_1_Gene_Sequence:
+>3120 bp
+ATGGCCAGAGCTTTGTGTCCACTGCAAGCCCTCTGGCTTCTGGAGTGGGTGCTGCTGCTC
+TTGGGACCTTGTGCTGCCCCTCCAGCCTGGGCCTTGAACCTGGACCCAGTGCAGCTCACC
+TTCTATGCAGGCCCCAATGGCAGCCAGTTTGGATTTTCACTGGACTTCCACAAGGACAGC
+CATGGGAGAGTGGCCATCGTGGTGGGCGCCCCGCGGACCCTGGGCCCCAGCCAGGAGGAG
+ACGGGCGGCGTGTTCCTGTGCCCCTGGAGGGCCGAGGGCGGCCAGTGCCCCTCGCTGCTC
+TTTGACCTCCGTGATGAGACCCGAAATGTAGGCTCCCAAACTTTACAAACCTTCAAGGCC
+CGCCAAGGACTGGGGGCGTCGGTCGTCAGCTGGAGCGACGTCATTGTGGCCTGCGCCCCC
+TGGCAGCACTGGAACGTCCTAGAAAAGACTGAGGAGGCTGAGAAGACGCCCGTAGGTAGC
+TGCTTTTTGGCTCAGCCAGAGAGCGGCCGCCGCGCCGAGTACTCCCCCTGTCGCGGGAAC
+ACCCTGAGCCGCATTTACGTGGAAAATGATTTTAGCTGGGACAAGCGTTACTGTGAAGCG
+GGCTTCAGCTCCGTGGTCACTCAGGCCGGAGAGCTGGTGCTTGGGGCTCCTGGCGGCTAT
+TATTTCTTAGGTCTCCTGGCCCAGGCTCCAGTTGCGGATATTTTCTCGAGTTACCGCCCA
+GGCATCCTTTTGTGGCACGTGTCCTCCCAGAGCCTCTCCTTTGACTCCAGCAACCCAGAG
+TACTTCGACGGCTACTGGGGGTACTCGGTGGCCGTGGGCGAGTTCGACGGGGATCTCAAC
+ACTACAGAATATGTCGTCGGTGCCCCCACTTGGAGCTGGACCCTGGGAGCGGTGGAAATT
+TTGGATTCCTACTACCAGAGGCTGCATCGGCTGCGCGCAGAGCAGATGGCGTCGTATTTT
+GGGCATTCAGTGGCTGTCACTGACGTCAACGGGGATGGGAGGCATGATCTGCTGGTGGGC
+GCTCCACTGTATATGGAGAGCCGGGCAGACCGAAAACTGGCCGAAGTGGGGCGTGTGTAT
+TTGTTCCTGCAGCCGCGAGGCCCCCACGCGCTGGGTGCCCCCAGCCTCCTGCTGACTGGC
+ACACAGCTCTATGGGCGATTCGGCTCTGCCATCGCACCCCTGGGCGACCTCGACCGGGAT
+GGCTACAATGACATTGCAGTGGCTGCCCCCTACGGGGGTCCCAGTGGCCGGGGCCAAGTG
+CTGGTGTTCCTGGGTCAGAGTGAGGGGCTGAGGTCACGTCCCTCCCAGGTCCTGGACAGC
+CCCTTCCCCACAGGCTCTGCCTTTGGCTTCTCCCTTCGAGGTGCCGTAGACATCGATGAC
+AACGGATACCCAGACCTGATCGTGGGAGCTTACGGGGCCAACCAGGTGGCTGTGTACAGA
+GCTCAGCCAGTGGTGAAGGCCTCTGTCCAGCTACTGGTGCAAGATTCACTGAATCCTGCT
+GTGAAGAGCTGTGTCCTACCTCAGACCAAGACACCCGTGAGCTGCTTCAACATCCAGATG
+TGTGTTGGAGCCACTGGGCACAACATTCCTCAGAAGCTATCCCTAAATGCCGAGCTGCAG
+CTGGACCGGCAGAAGCCCCGCCAGGGCCGGCGGGTGCTGCTGCTGGGCTCTCAACAGGCA
+GGCACCACCCTGAACCTGGATCTGGGCGGAAAGCACAGCCCCATCTGCCACACCACCATG
+GCCTTCCTTCGAGATGAGGCAGACTTCCGGGACAAGCTGAGCCCCATTGTGCTCAGCCTC
+AATGTGTCCCTACCGCCCACGGAGGCTGGAATGGCCCCTGCTGTCGTGCTGCATGGAGAC
+ACCCATGTGCAGGAGCAGACACGAATCGTCCTGGACTCTGGGGAAGATGACGTATGTGTG
+CCCCAGCTTCAGCTCACTGCCAGCGTGACGGGCTCCCCGCTCCTAGTTGGGGCAGATAAT
+GTCCTGGAGCTGCAGATGGACGCAGCCAACGAGGGCGAGGGGGCCTATGAAGCAGAGCTG
+GCCGTGCACCTGCCCCAGGGCGCCCACTACATGCGGGCCCTAAGCAATGTCGAGGGCTTT
+GAGAGACTCATCTGTAATCAGAAGAAGGAGAATGAGACCAGGGTGGTGCTGTGTGAGCTG
+GGCAACCCCATGAAGAAGAACGCCCAGATAGGAATCGCGATGTTGGTGAGCGTGGGGAAT
+CTGGAAGAGGCTGGGGAGTCTGTGTCCTTCCAGCTGCAGATACGGAGCAAGAACAGCCAG
+AATCCAAACAGCAAGATTGTGCTGCTGGACGTGCCGGTCCGGGCAGAGGCCCAAGTGGAG
+CTGCGAGGGAACTCCTTTCCAGCCTCCCTGGTGGTGGCAGCAGAAGAAGGTGAGAGGGAG
+CAGAACAGCTTGGACAGCTGGGGACCCAAAGTGGAGCACACCTATGAGCTCCACAACAAT
+GGCCCTGGGACTGTGAATGGTCTTCACCTCAGCATCCACCTTCCGGGACAGTCCCAGCCC
+TCCGACCTGCTCTACATCCTGGATATACAGCCCCAGGGGGGCCTTCAGTGCTTCCCACAG
+CCTCCTGTCAACCCTCTCAAGGTGGACTGGGGGCTGCCCATCCCCAGCCCCTCCCCCATT
+CACCCGGCCCATCACAAGCGGGATCGCAGACAGATCTTCCTGCCAGAGCCCGAGCAGCCC
+TCGAGGCTTCAGGATCCAGTTCTCGTAAGCTGCGACTCGGCGCCCTGTACTGTGGTGCAG
+TGTGACCTGCAGGAGATGGCGCGCGGGCAGCGGGCCATGGTCACGGTGCTGGCCTTCCTG
+TGGCTGCCCAGCCTCTACCAGAGGCCTCTGGATCAGTTTGTGCTGCAGTCGCACGCATGG
+TTCAACGTGTCCTCCCTCCCCTATGCGGTGCCCCCGCTCAGCCTGCCCCGAGGGGAAGCT
+CAGGTGTGGACACAGCTGCTCCGGGCCTTGGAGGAGAGGGCCATTCCAATCTGGTGGGTG
+CTGGTGGGTGTGCTGGGTGGCCTGCTGCTGCTCACCATCCTGGTCCTGGCCATGTGGAAG
+GTCGGCTTCTTCAAGCGGAACCGGCCACCCCTGGAAGAAGATGATGAAGAGGGGGAGTGA
+
+# Drug_Target_1_General_Function:
+Involved in cell adhesion
+
+# Drug_Target_1_General_References:
+10212286	Leisner TM, Wencel-Drake JD, Wang W, Lam SC: Bidirectional transmembrane modulation of integrin alphaIIbbeta3 conformations. J Biol Chem. 1999 Apr 30;274(18):12945-9.
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+10607701	Basani RB, French DL, Vilaire G, Brown DL, Chen F, Coller BS, Derrick JM, Gartner TK, Bennett JS, Poncz M: A naturally occurring mutation near the amino terminus of alphaIIb defines a new region involved in ligand binding to alphaIIbbeta3. Blood. 2000 Jan 1;95(1):180-8.
+1953640	Catimel B, Parmentier S, Leung LL, McGregor JL: Separation of important new platelet glycoproteins (GPIa, GPIc, GPIc*, GPIIa and GMP-140) by f.p.l.c. Characterization by monoclonal antibodies and gas-phase sequencing. Biochem J. 1991 Oct 15;279 ( Pt 2):419-25.
+2322558	Heidenreich R, Eisman R, Surrey S, Delgrosso K, Bennett JS, Schwartz E, Poncz M: Organization of the gene for platelet glycoprotein IIb. Biochemistry. 1990 Feb 6;29(5):1232-44.
+2345548	Frachet P, Uzan G, Thevenon D, Denarier E, Prandini MH, Marguerie G: GPIIb and GPIIIa amino acid sequences deduced from human megakaryocyte cDNAs. Mol Biol Rep. 1990 Feb;14(1):27-33.
+2350579	Lyman S, Aster RH, Visentin GP, Newman PJ: Polymorphism of human platelet membrane glycoprotein IIb associated with the Baka/Bakb alloantigen system. Blood. 1990 Jun 15;75(12):2343-8.
+2351656	Bray PF, Leung CS, Shuman MA: Human platelets and megakaryocytes contain alternately spliced glycoprotein IIb mRNAs. J Biol Chem. 1990 Jun 15;265(17):9587-90.
+2439501	Poncz M, Eisman R, Heidenreich R, Silver SM, Vilaire G, Surrey S, Schwartz E, Bennett JS: Structure of the platelet membrane glycoprotein IIb. Homology to the alpha subunits of the vitronectin and fibronectin membrane receptors. J Biol Chem. 1987 Jun 25;262(18):8476-82.
+2476117	Calvete JJ, Alvarez MV, Rivas G, Hew CL, Henschen A, Gonzalez-Rodriguez J: Interchain and intrachain disulphide bonds in human platelet glycoprotein IIb. Localization of the epitopes for several monoclonal antibodies. Biochem J. 1989 Jul 15;261(2):551-60.
+2775232	Calvete JJ, Henschen A, Gonzalez-Rodriguez J: Complete localization of the intrachain disulphide bonds and the N-glycosylation points in the alpha-subunit of human platelet glycoprotein IIb. Biochem J. 1989 Jul 15;261(2):561-8.
+2845986	Prandini MH, Denarier E, Frachet P, Uzan G, Marguerie G: Isolation of the human platelet glycoprotein IIb gene and characterization of the 5' flanking region. Biochem Biophys Res Commun. 1988 Oct 14;156(1):595-601.
+3422188	Uzan G, Frachet P, Lajmanovich A, Prandini MH, Denarier E, Duperray A, Loftus J, Ginsberg M, Plow E, Marguerie G: cDNA clones for human platelet GPIIb corresponding to mRNA from megakaryocytes and HEL cells. Evidence for an extensive homology to other Arg-Gly-Asp adhesion receptors. Eur J Biochem. 1988 Jan 15;171(1-2):87-93.
+3479442	Bray PF, Rosa JP, Johnston GI, Shiu DT, Cook RG, Lau C, Kan YW, McEver RP, Shuman MA: Platelet glycoprotein IIb. Chromosomal localization and tissue expression. J Clin Invest. 1987 Dec;80(6):1812-7.
+3534886	Charo IF, Fitzgerald LA, Steiner B, Rall SC Jr, Bekeart LS, Phillips DR: Platelet glycoproteins IIb and IIIa: evidence for a family of immunologically and structurally related glycoproteins in mammalian cells. Proc Natl Acad Sci U S A. 1986 Nov;83(21):8351-5.
+3801670	Hiraiwa A, Matsukage A, Shiku H, Takahashi T, Naito K, Yamada K: Purification and partial amino acid sequence of human platelet membrane glycoproteins IIb and IIIa. Blood. 1987 Feb;69(2):560-4.
+7508443	Wilcox DA, Wautier JL, Pidard D, Newman PJ: A single amino acid substitution flanking the fourth calcium binding domain of alpha IIb prevents maturation of the alpha IIb beta 3 integrin complex. J Biol Chem. 1994 Feb 11;269(6):4450-7.
+7688323	Calvete JJ, Muniz-Diaz E: Localization of an O-glycosylation site in the alpha-subunit of the human platelet integrin GPIIb/IIIa involved in Baka (HPA-3a) alloantigen expression. FEBS Lett. 1993 Aug 9;328(1-2):30-4.
+7706461	Wilcox DA, Paddock CM, Lyman S, Gill JC, Newman PJ: Glanzmann thrombasthenia resulting from a single amino acid substitution between the second and third calcium-binding domains of GPIIb. Role of the GPIIb amino terminus in integrin subunit association. J Clin Invest. 1995 Apr;95(4):1553-60.
+7878622	Bray PF: Inherited diseases of platelet glycoproteins: considerations for rapid molecular characterization. Thromb Haemost. 1994 Oct;72(4):492-502.
+8282784	Poncz M, Rifat S, Coller BS, Newman PJ, Shattil SJ, Parrella T, Fortina P, Bennett JS: Glanzmann thrombasthenia secondary to a Gly273-->Asp mutation adjacent to the first calcium-binding domain of platelet glycoprotein IIb. J Clin Invest. 1994 Jan;93(1):172-9.
+8620874	Makogonenko EM, Yakubenko VP, Ingham KC, Medved LV: Thermal stability of individual domains in platelet glycoprotein IIbIIIa. Eur J Biochem. 1996 Apr 1;237(1):205-11.
+9722314	Ambo H, Kamata T, Handa M, Kawai Y, Oda A, Murata M, Takada Y, Ikeda Y: Novel point mutations in the alphaIIb subunit (Phe289-->Ser, Glu324-->Lys and Gln747-->Pro) causing thrombasthenic phenotypes in four Japanese patients. Br J Haematol. 1998 Aug;102(3):829-40.
+9763559	Tadokoro S, Tomiyama Y, Honda S, Arai M, Yamamoto N, Shiraga M, Kosugi S, Kanakura Y, Kurata Y, Matsuzawa Y: A Gln747-->Pro substitution in the IIb subunit is responsible for a moderate IIbbeta3 deficiency in Glanzmann thrombasthenia. Blood. 1998 Oct 15;92(8):2750-8.
+9809974	Trikha M, Cai Y, Grignon D, Honn KV: Identification of a novel truncated alphaIIb integrin. Cancer Res. 1998 Nov 1;58(21):4771-5.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:6138
+
+# Drug_Target_1_HPRD_ID:
+06377
+
+# Drug_Target_1_ID:
+488
+
+# Drug_Target_1_Locus:
+17q21.32
+
+# Drug_Target_1_Molecular_Weight:
+113392
+
+# Drug_Target_1_Name:
+Integrin alpha-IIb
+
+# Drug_Target_1_Number_of_Residues:
+1039
+
+# Drug_Target_1_PDB_ID:
+1TYE
+
+# Drug_Target_1_Pathway:
+Abciximab Pathway	SMP00265
+Acetylsalicylic Acid Pathway	SMP00083
+Celecoxib Pathway	SMP00096
+Cilostazol Pathway	SMP00263
+Clopidogrel Pathway	SMP00260
+Dipyridamole (Antiplatelet) Pathway	SMP00264
+Eptifibatide Pathway	SMP00266
+Etodolac Pathway	SMP00084
+Meloxicam Pathway	SMP00106
+Rofecoxib Pathway	SMP00087
+Ticlopidine Pathway	SMP00261
+Tirofiban Pathway	SMP00267
+Valdecoxib Pathway	SMP00116
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00357	Integrin_alpha
+PF01839	FG-GAP
+PF08441	Integrin_alpha2
+
+# Drug_Target_1_Protein_Sequence:
+>Integrin alpha-IIb precursor
+MARALCPLQALWLLEWVLLLLGPCAAPPAWALNLDPVQLTFYAGPNGSQFGFSLDFHKDS
+HGRVAIVVGAPRTLGPSQEETGGVFLCPWRAEGGQCPSLLFDLRDETRNVGSQTLQTFKA
+RQGLGASVVSWSDVIVACAPWQHWNVLEKTEEAEKTPVGSCFLAQPESGRRAEYSPCRGN
+TLSRIYVENDFSWDKRYCEAGFSSVVTQAGELVLGAPGGYYFLGLLAQAPVADIFSSYRP
+GILLWHVSSQSLSFDSSNPEYFDGYWGYSVAVGEFDGDLNTTEYVVGAPTWSWTLGAVEI
+LDSYYQRLHRLRAEQMASYFGHSVAVTDVNGDGRHDLLVGAPLYMESRADRKLAEVGRVY
+LFLQPRGPHALGAPSLLLTGTQLYGRFGSAIAPLGDLDRDGYNDIAVAAPYGGPSGRGQV
+LVFLGQSEGLRSRPSQVLDSPFPTGSAFGFSLRGAVDIDDNGYPDLIVGAYGANQVAVYR
+AQPVVKASVQLLVQDSLNPAVKSCVLPQTKTPVSCFNIQMCVGATGHNIPQKLSLNAELQ
+LDRQKPRQGRRVLLLGSQQAGTTLNLDLGGKHSPICHTTMAFLRDEADFRDKLSPIVLSL
+NVSLPPTEAGMAPAVVLHGDTHVQEQTRIVLDCGEDDVCVPQLQLTASVTGSPLLVGADN
+VLELQMDAANEGEGAYEAELAVHLPQGAHYMRALSNVEGFERLICNQKKENETRVVLCEL
+GNPMKKNAQIGIAMLVSVGNLEEAGESVSFQLQIRSKNSQNPNSKIVLLDVPVRAEAQVE
+LRGNSFPASLVVAAEEGEREQNSLDSWGPKVEHTYELHNNGPGTVNGLHLSIHLPGQSQP
+SDLLYILDIQPQGGLQCFPQPPVNPLKVDWGLPIPSPSPIHPAHHKRDRRQIFLPEPEQP
+SRLQDPVLVSCDSAPCTVVQCDLQEMARGQRAMVTVLAFLWLPSLYQRPLDQFVLQSHAW
+FNVSSLPYAVPPLSLPRGEAQVWTQLLRALEERAIPIWWVLVGVLGGLLLLTILVLAMWK
+VGFFKRNRPPLEEDDEEGE
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+1-31
+
+# Drug_Target_1_Specific_Function:
+Integrin alpha-IIb/beta-3 is a receptor for fibronectin, fibrinogen, plasminogen, prothrombin, thrombospondin and vitronectin. It recognizes the sequence R-G-D in a wide array of ligands. It recognizes the sequence H-H-L-G-G-G-A-K-Q-A-G-D-V in fibrinogen gamma chain. Following activation integrin alpha- IIb/beta-3 brings about platelet/platelet interaction through binding of soluble fibrinogen. This step leads to rapid platelet aggregation which physically plugs ruptured endothelial cell surface
+
+# Drug_Target_1_SwissProt_ID:
+P08514
+
+# Drug_Target_1_SwissProt_Name:
+ITA2B_HUMAN
+
+# Drug_Target_1_Synonyms:
+CD41 antigen
+GPIIb
+GPalpha IIb
+Integrin alpha-IIb precursor
+Platelet membrane glycoprotein IIb
+
+# Drug_Target_1_Theoretical_pI:
+5.03
+
+# Drug_Target_1_Transmembrane_Regions:
+994-1019
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+single-pass type I membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+20210689	Juwana YB, Suryapranata H, Ottervanger JP, van 't Hof AW: Tirofiban for myocardial infarction. Expert Opin Pharmacother. 2010 Apr;11(5):861-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+ITGB3
+
+# Drug_Target_2_GenBank_ID_Gene:
+J02703
+
+# Drug_Target_2_GenBank_ID_Protein:
+306786
+
+# Drug_Target_2_GeneCard_ID:
+ITGB3
+
+# Drug_Target_2_Gene_Name:
+ITGB3
+
+# Drug_Target_2_Gene_Sequence:
+>2367 bp
+ATGCGAGCGCGGCCGCGGCCCCGGCCGCTCTGGGTGACTGTGCTGGCGCTGGGGGCGCTG
+GCGGGCGTTGGCGTAGGAGGGCCCAACATCTGTACCACGCGAGGTGTGAGCTCCTGCCAG
+CAGTGCCTGGCTGTGAGCCCCATGTGTGCCTGGTGCTCTGATGAGGCCCTGCCTCTGGGC
+TCACCTCGCTGTGACCTGAAGGAGAATCTGCTGAAGGATAACTGTGCCCCAGAATCCATC
+GAGTTCCCAGTGAGTGAGGCCCGAGTACTAGAGGACAGGCCCCTCAGCGACAAGGGCTCT
+GGAGACAGCTCCCAGGTCACTCAAGTCAGTCCCCAGAGGATTGCACTCCGGCTCCGGCCA
+GATGATTCGAAGAATTTCTCCATCCAAGTGCGGCAGGTGGAGGATTACCCTGTGGACATC
+TACTACTTGATGGACCTGTCTTACTCCATGAAGGATGATCTGTGGAGCATCCAGAACCTG
+GGTACCAAGCTGGCCACCCAGATGCGAAAGCTCACCAGTAACCTGCGGATTGGCTTCGGG
+GCATTTGTGGACAAGCCTGTGTCACCATACATGTATATCTCCCCACCAGAGGCCCTCGAA
+AACCCCTGCTATGATATGAAGACCACCTGCTTGCCCATGTTTGGCTACAAACACGTGCTG
+ACGCTAACTGACCAGGTGACCCGCTTCAATGAGGAAGTGAAGAAGCAGAGTGTGTCACGG
+AACCGAGATGCCCCAGAGGGTGGCTTTGATGCCATCATGCAGGCTACAGTCTGTGATGAA
+AAGATTGGCTGGAGGAATGATGCATCCCACTTGCTGGTGTTTACCACTGATGCCAAGACT
+CATATAGCATTGGACGGAAGGCTGGCAGGCATTGTCCAGCCTAATGACGGGCAGTGTCAT
+GTTGGTAGTGACAATCATTACTCTGCCTCCACTACCATGGATTATCCCTCTTTGGGGCTG
+ATGACTGAGAAGCTATCCCAGAAAAACATCAATTTGATCTTTGCAGTGACTGAAAATGTA
+GTCAATCTCTATCAGAACTATAGTGAGCTCATCCCAGGGACCACAGTTGGGGTTCTGTCC
+ATGGATTCCAGCAATGTCCTCCAGCTCATTGTTGATGCTTATGGGAAAATCCGTTCTAAA
+GTCGAGCTGGAAGTGCGTGACCTCCCTGAAGAGTTGTCTCTATCCTTCAATGCCACCTGC
+CTCAACAATGAGGTCATCCCTGGCCTCAAGTCTTGTATGGGACTCAAGATTGGAGACACG
+GTGAGCTTCAGCATTGAGGCCAAGGTGCGAGGCTGTCCCCAGGAGAAGGAGAAGTCCTTT
+ACCATAAAGCCCGTGGGCTTCAAGGACAGCCTGATCGTCCAGGTCACCTTTGATTGTGAC
+TGTGCCTGCCAGGCCCAAGCTGAACCTAATAGCCATCGCTGCAACAATGGCAATGGGACC
+TTTGAGTGTGGGGTATGCCGTTGTGGGCCTGGCTGGCTGGGATCCCAGTGTGAGTGCTCA
+GAGGAGGACTATCGCCCTTCCCAGCAGGACGAGTGCAGCCCCCGAGAGGGTCAGCCCGTC
+TGCAGCCAGCGGGGCGAGTGCCTCTGTGGTCAATGTGTCTGCCACAGCAGTGACTTTGGC
+AAGATCACGGGCAAGTACTGCGAGTGTGACGACTTCTCCTGTGTCCGCTACAAGGGGGAG
+ATGTGCTCAGGCCATGGCCAGTGCAGCTGTGGGGACTGCCTGTGTGACTCCGACTGGACC
+GGCTACTACTGCAACTGTACCACGCGTACTGACACCTGCATGTCCAGCAATGGGCTGCTG
+TGCAGCGGCCGCGGCAAGTGTGAATGTGGCAGCTGTGTCTGTATCCAGCCGGGCTCCTAT
+GGGGACACCTGTGAGAAGTGCCCCACCTGCCCAGATGCCTGCACCTTTAAGAAAGAATGT
+GTGGAGTGTAAGAAGTTTGACCGGGAGCCCTACATGACCGAAAATACCTGCAACCGTTAC
+TGCCGTGACGAGATTGAGTCAGTGAAAGAGCTTAAGGACACTGGCAAGGATGCAGTGAAT
+TGTACCTATAAGAATGAGGATGACTGTGTCGTCAGATTCCAGTACTATGAAGATTCTAGT
+GGAAAGTCCATCCTGTATGTGGTAGAAGAGCCAGAGTGTCCCAAGGGCCCTGACATCCTG
+GTGGTCCTGCTCTCAGTGATGGGGGCCATTCTGCTCATTGGCCTTGCCGCCCTGCTCATC
+TGGAAACTCCTCATCACCATCCACGACCGAAAAGAATTCGCTAAATTTGAGGAAGAACGC
+GCCAGAGCAAAATGGGACACAGCCAACAACCCACTGTATAAAGAGGCCACGTCTACCTTC
+ACCAATATCACGTACCGGGGCACTTAA
+
+# Drug_Target_2_General_Function:
+Involved in cell adhesion and blood clotting
+
+# Drug_Target_2_General_References:
+10233432	Ruan J, Schmugge M, Clemetson KJ, Cazes E, Combrie R, Bourre F, Nurden AT: Homozygous Cys542-->Arg substitution in GPIIIa in a Swiss patient with type I Glanzmann's thrombasthenia. Br J Haematol. 1999 May;105(2):523-31.
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+10896934	Kirk RI, Sanderson MR, Lerea KM: Threonine phosphorylation of the beta 3 integrin cytoplasmic tail, at a site recognized by PDK1 and Akt/PKB in vitro, regulates Shc binding. J Biol Chem. 2000 Oct 6;275(40):30901-6.
+11546839	Xiong JP, Stehle T, Diefenbach B, Zhang R, Dunker R, Scott DL, Joachimiak A, Goodman SL, Arnaout MA: Crystal structure of the extracellular segment of integrin alpha Vbeta3. Science. 2001 Oct 12;294(5541):339-45. Epub 2001 Sep 6.
+11807098	van der Flier A, Kuikman I, Kramer D, Geerts D, Kreft M, Takafuta T, Shapiro SS, Sonnenberg A: Different splice variants of filamin-B affect myogenesis, subcellular distribution, and determine binding to integrin [beta] subunits. J Cell Biol. 2002 Jan 21;156(2):361-76. Epub 2002 Jan 21.
+12665801	Gevaert K, Goethals M, Martens L, Van Damme J, Staes A, Thomas GR, Vandekerckhove J: Exploring proteomes and analyzing protein processing by mass spectrometric identification of sorted N-terminal peptides. Nat Biotechnol. 2003 May;21(5):566-9. Epub 2003 Mar 31.
+1371279	Bajt ML, Ginsberg MH, Frelinger AL 3rd, Berndt MC, Loftus JC: A spontaneous mutation of integrin alpha IIb beta 3 (platelet glycoprotein IIb-IIIa) helps define a ligand binding site. J Biol Chem. 1992 Feb 25;267(6):3789-94.
+1382574	Jiang WM, Jenkins D, Yuan Q, Leung E, Choo KH, Watson JD, Krissansen GW: The gene organization of the human beta 7 subunit, the common beta subunit of the leukocyte integrins HML-1 and LPAM-1. Int Immunol. 1992 Sep;4(9):1031-40.
+1430225	Wang R, Furihata K, McFarland JG, Friedman K, Aster RH, Newman PJ: An amino acid polymorphism within the RGD binding domain of platelet membrane glycoprotein IIIa is responsible for the formation of the Pena/Penb alloantigen system. J Clin Invest. 1992 Nov;90(5):2038-43.
+1438206	Chen YP, Djaffar I, Pidard D, Steiner B, Cieutat AM, Caen JP, Rosa JP: Ser-752-->Pro mutation in the cytoplasmic domain of integrin beta 3 subunit and defective activation of platelet integrin alpha IIb beta 3 (glycoprotein IIb-IIIa) in a variant of Glanzmann thrombasthenia. Proc Natl Acad Sci U S A. 1992 Nov 1;89(21):10169-73.
+1602006	Lanza F, Stierle A, Fournier D, Morales M, Andre G, Nurden AT, Cazenave JP: A new variant of Glanzmann's thrombasthenia (Strasbourg I). Platelets with functionally defective glycoprotein IIb-IIIa complexes and a glycoprotein IIIa 214Arg----214Trp mutation. J Clin Invest. 1992 Jun;89(6):1995-2004.
+1953640	Catimel B, Parmentier S, Leung LL, McGregor JL: Separation of important new platelet glycoproteins (GPIa, GPIc, GPIc*, GPIIa and GMP-140) by f.p.l.c. Characterization by monoclonal antibodies and gas-phase sequencing. Biochem J. 1991 Oct 15;279 ( Pt 2):419-25.
+2001252	Calvete JJ, Henschen A, Gonzalez-Rodriguez J: Assignment of disulphide bonds in human platelet GPIIIa. A disulphide pattern for the beta-subunits of the integrin family. Biochem J. 1991 Feb 15;274 ( Pt 1):63-71.
+2145280	Lanza F, Kieffer N, Phillips DR, Fitzgerald LA: Characterization of the human platelet glycoprotein IIIa gene. Comparison with the fibronectin receptor beta-subunit gene. J Biol Chem. 1990 Oct 25;265(30):18098-103.
+2341395	Zimrin AB, Gidwitz S, Lord S, Schwartz E, Bennett JS, White GC 2nd, Poncz M: The genomic organization of platelet glycoprotein IIIa. J Biol Chem. 1990 May 25;265(15):8590-5.
+2345548	Frachet P, Uzan G, Thevenon D, Denarier E, Prandini MH, Marguerie G: GPIIb and GPIIIa amino acid sequences deduced from human megakaryocyte cDNAs. Mol Biol Rep. 1990 Feb;14(1):27-33.
+2392682	Loftus JC, O'Toole TE, Plow EF, Glass A, Frelinger AL 3rd, Ginsberg MH: A beta 3 integrin mutation abolishes ligand binding and alters divalent cation-dependent conformation. Science. 1990 Aug 24;249(4971):915-8.
+2452834	Zimrin AB, Eisman R, Vilaire G, Schwartz E, Bennett JS, Poncz M: Structure of platelet glycoprotein IIIa. A common subunit for two different membrane receptors. J Clin Invest. 1988 May;81(5):1470-5.
+2565345	Newman PJ, Derbes RS, Aster RH: The human platelet alloantigens, PlA1 and PlA2, are associated with a leucine33/proline33 amino acid polymorphism in membrane glycoprotein IIIa, and are distinguishable by DNA typing. J Clin Invest. 1989 May;83(5):1778-81.
+2787511	van Kuppevelt TH, Languino LR, Gailit JO, Suzuki S, Ruoslahti E: An alternative cytoplasmic domain of the integrin beta 3 subunit. Proc Natl Acad Sci U S A. 1989 Jul;86(14):5415-8.
+3165296	Rosa JP, Bray PF, Gayet O, Johnston GI, Cook RG, Jackson KW, Shuman MA, McEver RP: Cloning of glycoprotein IIIa cDNA from human erythroleukemia cells and localization of the gene to chromosome 17. Blood. 1988 Aug;72(2):593-600.
+3494014	Fitzgerald LA, Steiner B, Rall SC Jr, Lo SS, Phillips DR: Protein sequence of endothelial glycoprotein IIIa derived from a cDNA clone. Identity with platelet glycoprotein IIIa and similarity to "integrin". J Biol Chem. 1987 Mar 25;262(9):3936-9.
+3801670	Hiraiwa A, Matsukage A, Shiku H, Takahashi T, Naito K, Yamada K: Purification and partial amino acid sequence of human platelet membrane glycoproteins IIb and IIIa. Blood. 1987 Feb;69(2):560-4.
+7694683	Wang R, McFarland JG, Kekomaki R, Newman PJ: Amino acid 489 is encoded by a mutational "hot spot" on the beta 3 integrin chain: the CA/TU human platelet alloantigen system. Blood. 1993 Dec 1;82(11):3386-91.
+7878622	Bray PF: Inherited diseases of platelet glycoproteins: considerations for rapid molecular characterization. Thromb Haemost. 1994 Oct;72(4):492-502.
+8093349	Kuijpers RW, Simsek S, Faber NM, Goldschmeding R, van Wermerkerken RK, von dem Borne AE: Single point mutation in human glycoprotein IIIa is associated with a new platelet-specific alloantigen (Mo) involved in neonatal alloimmune thrombocytopenia. Blood. 1993 Jan 1;81(1):70-6.
+8132570	Santoso S, Kalb R, Kroll H, Walka M, Kiefel V, Mueller-Eckhardt C, Newman PJ: A point mutation leads to an unpaired cysteine residue and a molecular weight polymorphism of a functional platelet beta 3 integrin subunit. The Sra alloantigen system of GPIIIa. J Biol Chem. 1994 Mar 18;269(11):8439-44.
+8298129	Villa-Garcia M, Li L, Riely G, Bray PF: Isolation and characterization of a TATA-less promoter for the human beta 3 integrin gene. Blood. 1994 Feb 1;83(3):668-76.
+8631894	Law DA, Nannizzi-Alaimo L, Phillips DR: Outside-in integrin signal transduction. Alpha IIb beta 3-(GP IIb IIIa) tyrosine phosphorylation induced by platelet aggregation. J Biol Chem. 1996 May 3;271(18):10811-5.
+8781422	Grimaldi CM, Chen F, Scudder LE, Coller BS, French DL: A Cys374Tyr homozygous mutation of platelet glycoprotein IIIa (beta 3) in a Chinese patient with Glanzmann's thrombasthenia. Blood. 1996 Sep 1;88(5):1666-75.
+9195946	Kumar CS, James IE, Wong A, Mwangi V, Feild JA, Nuthulaganti P, Connor JR, Eichman C, Ali F, Hwang SM, Rieman DJ, Drake FH, Gowen M: Cloning and characterization of a novel integrin beta3 subunit. J Biol Chem. 1997 Jun 27;272(26):16390-7.
+9376589	Basani RB, Brown DL, Vilaire G, Bennett JS, Poncz M: A Leu117-->Trp mutation within the RGD-peptide cross-linking region of beta3 results in Glanzmann thrombasthenia by preventing alphaIIb beta3 export to the platelet surface. Blood. 1997 Oct 15;90(8):3082-8.
+9684783	Jackson DE, White MM, Jennings LK, Newman PJ: A Ser162-->Leu mutation within glycoprotein (GP) IIIa (integrin beta3) results in an unstable alphaIIbbeta3 complex that retains partial function in a novel form of type II Glanzmann thrombasthenia. Thromb Haemost. 1998 Jul;80(1):42-8.
+9790984	Ambo H, Kamata T, Handa M, Taki M, Kuwajima M, Kawai Y, Oda A, Murata M, Takada Y, Watanabe K, Ikeda Y: Three novel integrin beta3 subunit missense mutations (H280P, C560F, and G579S) in thrombasthenia, including one (H280P) prevalent in Japanese patients. Biochem Biophys Res Commun. 1998 Oct 29;251(3):763-8.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:6156
+
+# Drug_Target_2_HPRD_ID:
+01428
+
+# Drug_Target_2_ID:
+2039
+
+# Drug_Target_2_Locus:
+17q21.32
+
+# Drug_Target_2_Molecular_Weight:
+87058
+
+# Drug_Target_2_Name:
+Integrin beta-3
+
+# Drug_Target_2_Number_of_Residues:
+788
+
+# Drug_Target_2_PDB_ID:
+1M1X
+
+# Drug_Target_2_Pathway:
+Abciximab Pathway	SMP00265
+Acetylsalicylic Acid Pathway	SMP00083
+Celecoxib Pathway	SMP00096
+Cilostazol Pathway	SMP00263
+Clopidogrel Pathway	SMP00260
+Dipyridamole (Antiplatelet) Pathway	SMP00264
+Eptifibatide Pathway	SMP00266
+Etodolac Pathway	SMP00084
+Meloxicam Pathway	SMP00106
+Rofecoxib Pathway	SMP00087
+Ticlopidine Pathway	SMP00261
+Tirofiban Pathway	SMP00267
+Valdecoxib Pathway	SMP00116
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00362	Integrin_beta
+PF07965	Integrin_B_tail
+PF07974	EGF_2
+PF08725	Integrin_b_cyt
+
+# Drug_Target_2_Protein_Sequence:
+>Integrin beta-3 precursor
+MRARPRPRPLWATVLALGALAGVGVGGPNICTTRGVSSCQQCLAVSPMCAWCSDEALPLG
+SPRCDLKENLLKDNCAPESIEFPVSEARVLEDRPLSDKGSGDSSQVTQVSPQRIALRLRP
+DDSKNFSIQVRQVEDYPVDIYYLMDLSYSMKDDLWSIQNLGTKLATQMRKLTSNLRIGFG
+AFVDKPVSPYMYISPPEALENPCYDMKTTCLPMFGYKHVLTLTDQVTRFNEEVKKQSVSR
+NRDAPEGGFDAIMQATVCDEKIGWRNDASHLLVFTTDAKTHIALDGRLAGIVQPNDGQCH
+VGSDNHYSASTTMDYPSLGLMTEKLSQKNINLIFAVTENVVNLYQNYSELIPGTTVGVLS
+MDSSNVLQLIVDAYGKIRSKVELEVRDLPEELSLSFNATCLNNEVIPGLKSCMGLKIGDT
+VSFSIEAKVRGCPQEKEKSFTIKPVGFKDSLIVQVTFDCDCACQAQAEPNSHRCNNGNGT
+FECGVCRCGPGWLGSQCECSEEDYRPSQQDECSPREGQPVCSQRGECLCGQCVCHSSDFG
+KITGKYCECDDFSCVRYKGEMCSGHGQCSCGDCLCDSDWTGYYCNCTTRTDTCMSSNGLL
+CSGRGKCECGSCVCIQPGSYGDTCEKCPTCPDACTFKKECVECKKFDRGALHDENTCNRY
+CRDEIESVKELKDTGKDAVNCTYKNEDDCVVRFQYYEDSSGKSILYVVEEPECPKGPDIL
+VVLLSVMGAILLIGLAALLIWKLLITIHDRKEFAKFEEERARAKWDTANNPLYKEATSTF
+TNITYRGT
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+1-26
+
+# Drug_Target_2_Specific_Function:
+Integrin alpha-V/beta-3 is a receptor for cytotactin, fibronectin, laminin, matrix metalloproteinase-2, osteopontin, osteomodulin, prothrombin, thrombospondin, vitronectin and von Willebrand factor. Integrin alpha-IIb/beta-3 is a receptor for fibronectin, fibrinogen, plasminogen, prothrombin, thrombospondin and vitronectin. Integrins alpha-IIb/beta-3 and alpha-V/beta-3 recognize the sequence R-G-D in a wide array of ligands. Integrin alpha-IIb/beta-3 recognizes the sequence H-H-L-G-G-G-A-K-Q-A-G-D-V in fibrinogen gamma chain. Following activation integrin alpha- IIb/beta-3 brings about platelet/platelet interaction through binding of soluble fibrinogen. This step leads to rapid platelet aggregation which physically plugs ruptured endothelial surface. In case of HIV-1 infection, the interaction with extracellular viral Tat protein seems to enhance angiogenesis in Kaposi's sarcoma lesions
+
+# Drug_Target_2_SwissProt_ID:
+P05106
+
+# Drug_Target_2_SwissProt_Name:
+ITB3_HUMAN
+
+# Drug_Target_2_Synonyms:
+CD61 antigen
+GPIIIa
+Integrin beta-3 precursor
+Platelet membrane glycoprotein IIIa
+
+# Drug_Target_2_Theoretical_pI:
+4.85
+
+# Drug_Target_2_Transmembrane_Regions:
+719-741
+
+#END_DRUGCARD DB00775

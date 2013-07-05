@@ -1,0 +1,472 @@
+#BEGIN_DRUGCARD DB02181
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+2564-35-4
+
+# ChEBI_ID:
+16497
+
+# Chemical_Formula:
+C10H16N5O13P3
+
+# Chemical_IUPAC_Name:
+({[({[(2S,3R,5R)-5-(2-amino-6-oxo-6,9-dihydro-1H-purin-9-yl)-3-hydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)phosphonic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+2'-Deoxyguanosine-5'-Triphosphate
+
+# HET_ID:
+DGT
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C10H16N5O13P3/c11-10-13-8-7(9(17)14-10)12-3-15(8)6-1-4(16)5(26-6)2-25-30(21,22)28-31(23,24)27-29(18,19)20/h3-6,16H,1-2H2,(H,21,22)(H,23,24)(H2,18,19,20)(H3,11,13,14,17)/t4-,5+,6-/m1/s1
+
+# InChI_Key:
+InChIKey=HAAZLUGHYHWQIW-NGJCXOISSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+C00286
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+2181
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+507.181
+
+# Molecular_Weight_Mono:
+506.995745159
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1S59
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-0.61
+
+# Predicted_LogS:
+-2
+
+# Predicted_Water_Solubility:
+5.59e+00 g/l
+
+# Primary_Accession_No:
+DB02181
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+13602803
+
+# PubChem_Substance_ID:
+46506790
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT01184
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=NC2=C(N=CN2[C@H]2C[C@@H](O)[C@H](CO[P@@](O)(=O)O[P@](O)(=O)OP(O)(O)=O)O2)C(=O)N1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:20:52 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm. Nucleus
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+NME1
+
+# Drug_Target_1_GenBank_ID_Gene:
+X75598
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+NME1
+
+# Drug_Target_1_Gene_Sequence:
+>459 bp
+ATGGCCAACTGTGAGCGTACCTTCATTGCGATCAAACCAGATGGGGTCCAGCGGGGTCTT
+GTGGGAGAGATTATCAAGCGTTTTGAGCAGAAAGGATTCCGCCTTGTTGGTCTGAAATTC
+ATGCAAGCTTCCGAAGATCTTCTCAAGGAACACTACGTTGACCTGAAGGACCGTCCATTC
+TTTGCCGGCCTGGTGAAATACATGCACTCAGGGCCGGTAGTTGCCATGGTCTGGGAGGGG
+CTGAATGTGGTGAAGACGGGCCGAGTCATGCTCGGGGAGACCAACCCTGCAGACTCCAAG
+CCTGGGACCATCCGTGGAGACTTCTGCATACAAGTTGGCAGGAACATTATACATGGCAGT
+GATTCTGTGGAGAGTGCAGAGAAGGAGATCGGCTTGTGGTTTCACCCTGAGGAACTGGTA
+GATTACACGAGCTGTGCTCAGAACTGGATCTATGAATGA
+
+# Drug_Target_1_General_Function:
+Involved in nucleoside diphosphate kinase activity
+
+# Drug_Target_1_General_References:
+10512675	Manda R, Kohno T, Matsuno Y, Takenoshita S, Kuwano H, Yokota J: Identification of genes (SPON2 and C20orf2) differentially expressed between cancerous and noncancerous lung cells by mRNA differential display. Genomics. 1999 Oct 1;61(1):5-14.
+11835509	Min K, Song HK, Chang C, Kim SY, Lee KJ, Suh SW: Crystal structure of human nucleoside diphosphate kinase A, a metastasis suppressor. Proteins. 2002 Feb 15;46(3):340-2.
+12628186	Fan Z, Beresford PJ, Oh DY, Zhang D, Lieberman J: Tumor suppressor NM23-H1 is a granzyme A-activated DNase during CTL-mediated apoptosis, and the nucleosome assembly protein SET is its inhibitor. Cell. 2003 Mar 7;112(5):659-72.
+12972261	Chen Y, Gallois-Montbrun S, Schneider B, Veron M, Morera S, Deville-Bonne D, Janin J: Nucleotide binding to nucleoside diphosphate kinases: X-ray structure of human NDPK-A in complex with ADP and comparison to protein kinases. J Mol Biol. 2003 Sep 26;332(4):915-26.
+1851158	Gilles AM, Presecan E, Vonica A, Lascu I: Nucleoside diphosphate kinase from human erythrocytes. Structural characterization of the two polypeptide chains responsible for heterogeneity of the hexameric enzyme. J Biol Chem. 1991 May 15;266(14):8784-9.
+2056128	Hailat N, Keim DR, Melhem RF, Zhu XX, Eckerskorn C, Brodeur GM, Reynolds CP, Seeger RC, Lottspeich F, Strahler JR, et al.: High levels of p19/nm23 protein in neuroblastoma are associated with advanced stage disease and with N-myc gene amplification. J Clin Invest. 1991 Jul;88(1):341-5.
+2509941	Rosengard AM, Krutzsch HC, Shearn A, Biggs JR, Barker E, Margulies IM, King CR, Liotta LA, Steeg PS: Reduced Nm23/Awd protein in tumour metastasis and aberrant Drosophila development. Nature. 1989 Nov 9;342(6246):177-80.
+7916650	Wang L, Patel U, Ghosh L, Chen HC, Banerjee S: Mutation in the nm23 gene is associated with metastasis in colorectal cancer. Cancer Res. 1993 Feb 15;53(4):717-20.
+8270257	Dooley S, Seib T, Engel M, Theisinger B, Janz H, Piontek K, Zang KD, Welter C: Isolation and characterization of the human genomic locus coding for the putative metastasis control gene nm23-H1. Hum Genet. 1994 Jan;93(1):63-6.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:7849
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+5294
+
+# Drug_Target_1_Locus:
+17q21.3
+
+# Drug_Target_1_Molecular_Weight:
+17149
+
+# Drug_Target_1_Name:
+Nucleoside diphosphate kinase A
+
+# Drug_Target_1_Number_of_Residues:
+152
+
+# Drug_Target_1_PDB_ID:
+1JXV
+
+# Drug_Target_1_Pathway:
+Adefovir Dipivoxil Pathway	SMP00418
+Gemcitabine Pathway	SMP00446
+Methotrexate Pathway	SMP00432
+Tenofovir Pathway	SMP00419
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00334	NDK
+
+# Drug_Target_1_Protein_Sequence:
+>Nucleoside diphosphate kinase A
+MANCERTFIAIKPDGVQRGLVGEIIKRFEQKGFRLVGLKFMQASEDLLKEHYVDLKDRPF
+FAGLVKYMHSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIHGS
+DSVESAEKEIGLWFHPEELVDYTSCAQNWIYE
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Major role in the synthesis of nucleoside triphosphates other than ATP
+
+# Drug_Target_1_SwissProt_ID:
+P15531
+
+# Drug_Target_1_SwissProt_Name:
+NDKA_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 2.7.4.6
+GAAD
+Granzyme A-activated DNase
+Metastasis inhibition factor nm23
+NDK A
+NDP kinase A
+Tumor metastatic process-associated protein
+nm23-H1
+
+# Drug_Target_1_Theoretical_pI:
+6.11
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+Y00122
+
+# Drug_Target_2_GenBank_ID_Protein:
+1177560
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+NRDD
+
+# Drug_Target_2_Gene_Sequence:
+>1818 bp
+ATGACAATTGAAAAAGAAATTGAAGGATTAATTCATAAAACTAATAAAGACCTTTTAAAC
+GAGAATGCTAATAAAGATTCTCGTGTTTTTCCAACTCAACGGGACCTTATGGCTGGTATT
+GTGTCTAAACACATTGCCAAAAATATGGTCCCGTCTTTTATTATGAAAGCGCATGAAAGC
+GGAATTATTCACGTGCATGATATTGATTATTCCCCTGCTCTTCCATTTACTAATTGCTGT
+TTAGTAGATTTAAAAGGAATGCTTGAAAACGGATTTAAGCTTGGTAATGCGCAGATTGAA
+ACTCCTAAATCAATTGGAGTTGCTACTGCAATTATGGCACAAATTACTGCGCAAGTTGCT
+TCTCACCAATACGGCGGAACGACTTTTGCGAATGTAGATAAAGTACTTTCTCCTTATGTT
+AAACGCACCTATGCAAAACATATTGAGGATGCAGAAAAATGGCAAATCGCTGATGCGTTG
+AATTATGCTCAATCTAAAACAGAAAAAGACGTATACGATGCATTCCAAGCTTATGAGTAT
+GAAGTGAACACGTTATTCAGTTCAAACGGACAGACTCCTTTTGTAACAATTACATTTGGT
+ACGGGAACTGACTGGACTGAACGAATGATTCAGAAAGCAATTCTGAAAAATCGTATTAAA
+GGTCTTGGTCGTGATGGGATAACTCCTATTTTCCCTAAGCTTGTTATGTTCGTTGAAGAA
+GGTGTTAATCTTTATAAAGACGATCCGAACTATGATATTAAACAGCTTGCTCTAGAGTGC
+GCAAGCAAAAGGATGTATCCTGATATTATTTCAGCTAAGAACAATAAAGCTATCACTGGT
+TCATCTGTTCCTGTTTCTCCGATGGGTTGCCGTAGTTTCTTGAGCGTATGGAAAGATTCG
+ACTGGCAATGAAATTCTTGATGGACGCAATAATCTTGGTGTTGTAACACTGAATCTTCCT
+CGCATCGCGTTAGATTCTTATATTGGAACACAGTTCAATGAACAGAAATTTGTTGAGCTA
+TTTAATGAACGAATGGATTTATGTTTTGAAGCTTTGATGTGTAGAATTAGTTCCTTAAAA
+GGAGTTAAAGCTACTGTTGCTCCTATTCTTTACCAAGAAGGTGCATTCGGGGTTCGTCTT
+AAACCTGATGACGACATAATTGAGTTATTTAAAAACGGTAGAAGTTCAGTGTCTTTAGGA
+TACATTGGTATTCACGAATTGAATATTCTTGTCGGTCGTGATATTGGACGAGAAATTTTA
+ACTAAAATGAATGCTCATCTTAAACAGTGGACTGAAAGAACCGGATTTGCTTTTAGTTTA
+TATTCGACTCCTGCTGAAAACCTGTGTTATCGCTTCTGTAAACTCGATACAGAAAAATAT
+GGAAGCGTAAAAGATGTTACCGATAAAGGCTGGTACACTAACAGTTTCCATGTTTCAGTA
+GAAGAAAATATTACTCCGTTTGAAAAGATTTCTCGTGAAGCGCCATATCATTTCATTGCG
+ACAGGTGGTCACATTTCTTATGTTGAACTTCCTGATATGAAAAATAACTTAAAAGGTCTT
+GAGGCCGTGTGGGATTATGCTGCACAGCATTTAGATTATTTTGGTGTTAATATGCCAGTA
+GATAAATGTTTTACATGTGGAAGTACCCATGAAATGACTCCTACTGAAAACGGATTTGTT
+TGTTCTATTTGTGGAGAAACTGATCCTAAAAAGATGAATACCATAAGAAGAACATGTGGT
+TATTTGGGAAATCCGAACGAACGCGGATTTAATCTCGGTAAAAATAAAGAAATCATGCAT
+AGGGTTAAGCACCAATGA
+
+# Drug_Target_2_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_2_General_References:
+10066165	Logan DT, Andersson J, Sjoberg BM, Nordlund P: A glycyl radical site in the crystal structure of a class III ribonucleotide reductase. Science. 1999 Mar 5;283(5407):1499-504.
+12626685	Miller ES, Kutter E, Mosig G, Arisaka F, Kunisawa T, Ruger W: Bacteriophage T4 genome. Microbiol Mol Biol Rev. 2003 Mar;67(1):86-156, table of contents.
+1938898	Zeeh A, Shub DA: The product of the split sunY gene of bacteriophage T4 is a processed protein. J Bacteriol. 1991 Nov;173(21):6980-5.
+2974005	Barth KA, Powell D, Trupin M, Mosig G: Regulation of two nested proteins from gene 49 (recombination endonuclease VII) and of a lambda RexA-like protein of bacteriophage T4. Genetics. 1988 Oct;120(2):329-43.
+3575111	Tomaschewski J, Ruger W: Nucleotide sequence and primary structures of gene products coded for by the T4 genome between map positions 48.266 kb and 39.166 kb. Nucleic Acids Res. 1987 Apr 24;15(8):3632-3.
+8051113	Young P, Ohman M, Xu MQ, Shub DA, Sjoberg BM: Intron-containing T4 bacteriophage gene sunY encodes an anaerobic ribonucleotide reductase. J Biol Chem. 1994 Aug 12;269(32):20229-32.
+8421692	Sun X, Harder J, Krook M, Jornvall H, Sjoberg BM, Reichard P: A possible glycine radical in anaerobic ribonucleotide reductase from Escherichia coli: nucleotide sequence of the cloned nrdD gene. Proc Natl Acad Sci U S A. 1993 Jan 15;90(2):577-81.
+8702830	Young P, Andersson J, Sahlin M, Sjoberg BM: Bacteriophage T4 anaerobic ribonucleotide reductase contains a stable glycyl radical at position 580. J Biol Chem. 1996 Aug 23;271(34):20770-5.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+2633
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+67957
+
+# Drug_Target_2_Name:
+Anaerobic ribonucleoside-triphosphate reductase
+
+# Drug_Target_2_Number_of_Residues:
+605
+
+# Drug_Target_2_PDB_ID:
+1HK8
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF01228	Gly_radical
+
+# Drug_Target_2_Protein_Sequence:
+>Anaerobic ribonucleoside-triphosphate reductase
+MTIEKEIEGLIHKTNKDLLNENANKDSRVFPTQRDLMAGIVSKHIAKNMVPSFIMKAHES
+GIIHVHDIDYSPALPFTNCCLVDLKGMLENGFKLGNAQIETPKSIGVATAIMAQITAQVA
+SHQYGGTTFANVDKVLSPYVKRTYAKHIEDAEKWQIADALNYAQSKTEKDVYDAFQAYEY
+EVNTLFSSNGQTPFVTITFGTGTDWTERMIQKAILKNRIKGLGRDGITPIFPKLVMFVEE
+GVNLYKDDPNYDIKQLALECASKRMYPDIISAKNNKAITGSSVPVSPMGCRSFLSVWKDS
+TGNEILDGRNNLGVVTLNLPRIALDSYIGTQFNEQKFVELFNERMDLCFEALMCRISSLK
+GVKATVAPILYQEGAFGVRLKPDDDIIELFKNGRSSVSLGYIGIHELNILVGRDIGREIL
+TKMNAHLKQWTERTGFAFSLYSTPAENLCYRFCKLDTEKYGSVKDVTDKGWYTNSFHVSV
+EENITPFEKISREAPYHFIATGGHISYVELPDMKNNLKGLEAVWDYAAQHLDYFGVNMPV
+DKCFTCGSTHEMTPTENGFVCSICGETDPKKMNTIRRTCGYLGNPNERGFNLGKNKEIMH
+RVKHQ
+
+# Drug_Target_2_Reaction:
+2'-deoxyribonucleoside triphosphate + thioredoxin disulfide + H2O = ribonucleoside triphosphate + thioredoxin
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+2'-deoxyribonucleoside triphosphate + thioredoxin disulfide + H(2)O = ribonucleoside triphosphate + thioredoxin
+
+# Drug_Target_2_SwissProt_ID:
+P07071
+
+# Drug_Target_2_SwissProt_Name:
+NRDD_BPT4
+
+# Drug_Target_2_Synonyms:
+EC 1.17.4.2
+
+# Drug_Target_2_Theoretical_pI:
+7.06
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB02181

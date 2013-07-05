@@ -1,0 +1,489 @@
+#BEGIN_DRUGCARD DB01012
+
+# AHFS_Codes:
+92:00.00
+
+# ATC_Codes:
+H05BX01
+
+# Absorption:
+Rapidly absorbed following oral administration.
+
+# Biotransformation:
+Metabolism is hepatic by multiple enzymes, primarily CYP3A4, CYP2D6, and CYP1A2. After administration of a 75 mg radiolabeled dose to healthy volunteers, cinacalcet was rapidly and extensively metabolized via: 1) oxidative N-dealkylation to hydrocinnamic acid and hydroxy-hydrocinnamic acid, which are further metabolized via &szlig;-oxidation and glycine conjugation; the oxidative N-dealkylation process also generates metabolites that contain the naphthalene ring; and 2) oxidation of the naphthalene ring on the parent drug to form dihydrodiols, which are further conjugated with glucuronic acid.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Sensipar
+
+# CAS_Registry_Number:
+226256-56-0
+
+# ChEBI_ID:
+48390
+
+# Chemical_Formula:
+C22H22F3N
+
+# Chemical_IUPAC_Name:
+[(1R)-1-(naphthalen-1-yl)ethyl]({3-[3-(trifluoromethyl)phenyl]propyl})amine
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2257157
+
+# Description:
+Cinacalcet (INN) is a drug that acts as a calcimimetic (i.e. it mimics the action of calcium on tissues) by allosteric activation of the calcium-sensing receptor that is expressed in various human organ tissues. It is sold by Amgen under the trade name Sensipar® in North America and Australia and as Mimpara® in Europe. Cinacalcet is used to treat hyperparathyroidism (elevated parathyroid hormone levels), a consequence of parathyroid tumors and chronic renal failure.
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Calcimimetics
+
+# Drug_Interactions:
+Erythromycin	The macrolide, erythromycin, may increase the serum concentration and toxicity of cinacalcet.
+Itraconazole	Itraconazole may increase the effect and toxicity of cinacalcet.
+Ketoconazole	Ketoconazole may increase the effect and toxicity of cinacalcet.
+Tamoxifen	Cinacalcet may decrease the therapeutic effect of Tamoxifen by decreasing the production of active metabolites. Concomitant therapy should be avoided.
+Tamsulosin	Cinacalcet, a CYP2D6 inhibitor, may decrease the metabolism and clearance of Tamsulosin, a CYP2D6 substrate. Monitor for changes in therapeutic/adverse effects of Tamsulosin if Cinacalcet is initiated, discontinued, or dose changed.
+Telithromycin	Telithromycin may reduce clearance of Cinacalcet. Consider alternate therapy or monitor for changes in the therapeutic/adverse effects of Cinacalcet if Telithromycin is initiated, discontinued or dose changed.
+Tolterodine	Cinacalcet may decrease the metabolism and clearance of Tolterodine. Monitor for adverse/toxic effects of Tolterodine.
+Tramadol	Cinacalcet may decrease the effect of Tramadol by decreasing active metabolite production.
+Trimipramine	The strong CYP2D6 inhibitor, Cinacalcet, may decrease the metabolism and clearance of Trimipramine, a CYP2D6 substrate. Consider alternate therapy or monitor for changes in therapeutic and adverse effects of Trimipramine if Cinacalcet is initiated, discontinued or dose changed.
+Venlafaxine	Cinacalcet, a CYP2D6 inhibitor, may decrease the metabolism and clearance of Venlafaxine, a CYP2D6 substrate. Monitor for changes in therapeutic/adverse effects of Venlafaxine if Cinacalcet is initiated, discontinued, or dose changed.
+Voriconazole	Voriconazole, a strong CYP3A4 inhibitor, may increase the serum concentration of cinacalcet by decreasing its metabolism. Monitor for changes in the therapeutic and adverse effects of cinacalcet if voriconazole is initiated, discontinued or dose changed.
+Zuclopenthixol	Cinacalcet, a strong CYP2D6 inhibitor, may increase the serum concentration of zuclopenthixol by decreasing its metabolism. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of zuclopenthixol if cinacalcet is initiated, discontinued or dose changed.
+
+# Drug_Reference:
+16368445	Dong BJ: Cinacalcet: An oral calcimimetic agent for the management of hyperparathyroidism. Clin Ther. 2005 Nov;27(11):1725-51.
+16825031	Torres PU: Cinacalcet HCl: a novel treatment for secondary hyperparathyroidism caused by chronic kidney disease. J Ren Nutr. 2006 Jul;16(3):253-8.
+19566113	Padhi D, Harris R: Clinical pharmacokinetic and pharmacodynamic profile of cinacalcet hydrochloride. Clin Pharmacokinet. 2009;48(5):303-11. doi: 10.2165/00003088-200948050-00002.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+6.5
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Slightly soluble (in HCl salt form)
+
+# Food_Interactions:
+Food markedly increases product bioavailability.
+Peak levels and area under curve (drug exposure) are increased (82% and 68% respectively) when product is taken with a lipid-rich meal.
+Take with food or soon after a meal.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Cinacalcet
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Terminal half-life is 30 to 40 hours. The mean half-life of cinacalcet is prolonged by 33% and 70% in patients with moderate and severe hepatic impairment, respectively.
+
+# InChI_Identifier:
+InChI=1S/C22H22F3N/c1-16(20-13-5-10-18-9-2-3-12-21(18)20)26-14-6-8-17-7-4-11-19(15-17)22(23,24)25/h2-5,7,9-13,15-16,26H,6,8,14H2,1H3/t16-/m1/s1
+
+# InChI_Key:
+InChIKey=VDHAWDNDOKGFTD-MRXNPFEDSA-N
+
+# Indication:
+For the treatment of secondary hyperparathyroidism in patients with Chronic Kidney Disease who are on hemodialysis or peritoneal dialysis. Also for the treatment of hypercalcemia in patients with parathyroid carcinoma.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+1012
+
+# Mechanism_Of_Action:
+The calcium-sensing receptors on the surface of the chief cell of the parathyroid gland is the principal regulator of parathyroid hormone secretion (PTH). Cinacalcet directly lowers parathyroid hormone levels by increasing the sensitivity of the calcium sensing receptors to activation by extracellular calcium, resulting in the inhibition of PTH secretion. The reduction in PTH is associated with a concomitant decrease in serum calcium levels.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+357.412
+
+# Molecular_Weight_Mono:
+357.170434324
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164776671
+
+# Pharmacology:
+Cinacalcet is a drug that acts as a calcimimetic (i.e. it mimics the action of calcium on tissues). Secondary hyperparathyroidism (HPT) in patients with chronic kidney disease (CKD) is a progressive disease, associated with increases in parathyroid hormone (PTH) levels and derangements in calcium and phosphorus metabolism. Increased PTH stimulates osteoclastic activity resulting in cortical bone resorption and marrow fibrosis. The goals of treatment of secondary hyperparathyroidism are to lower levels of PTH, calcium, and phosphorus in the blood, in order to prevent progressive bone disease and the systemic consequences of disordered mineral metabolism. In CKD patients on dialysis with uncontrolled secondary HPT, reductions in PTH are associated with a favorable impact on bone-specific alkaline phosphatase (BALP), bone turnover and bone fibrosis. Cinacalcet reduces calcium levels by increasing the sensitivity of the calcium sensing receptor to extracellular calcium.
+
+# Predicted_LogP_Hydrophobicity:
+5.57
+
+# Predicted_LogS:
+-6.8
+
+# Predicted_Water_Solubility:
+5.59e-05 g/l
+
+# Primary_Accession_No:
+DB01012
+
+# Protein_Binding:
+Approximately 93 to 97% bound to plasma proteins.
+
+# PubChem_Compound_ID:
+156419
+
+# PubChem_Substance_ID:
+46506315
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/sensipar.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00872
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+C[C@@H](NCCCC1=CC(=CC=C1)C(F)(F)F)C1=CC=CC2=CC=CC=C12
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Doses titrated up to 300 mg once daily have been safely administered to patients on dialysis. Overdosage of cinacalcet may lead to hypocalcemia.
+
+# Update_Date:
+2013-02-08 16:19:50 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Cinacalcet
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P08684
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+15794735	de Francisco AL: Cinacalcet HCl: a novel therapeutic for hyperparathyroidism. Expert Opin Pharmacother. 2005 Mar;6(3):441-52.
+15864123	Rothe HM, Shapiro WB, Sun WY, Chou SY: Calcium-sensing receptor gene polymorphism Arg990Gly and its possible effect on response to cinacalcet HCl. Pharmacogenet Genomics. 2005 Jan;15(1):29-34.
+15884662	Tasic V: Management of renal osteodystrophy in children. Turk J Pediatr. 2005;47 Suppl:13-8.
+16030053	Moe SM, Cunningham J, Bommer J, Adler S, Rosansky SJ, Urena-Torres P, Albizem MB, Guo MD, Zani VJ, Goodman WG, Sprague SM: Long-term treatment of secondary hyperparathyroidism with the calcimimetic cinacalcet HCl. Nephrol Dial Transplant. 2005 Oct;20(10):2186-93. Epub 2005 Jul 19.
+16109140	Cunningham J: Management of secondary hyperparathyroidism. Ther Apher Dial. 2005 Aug;9 Suppl 1:S35-40.
+19056615	Drueke TB, Ritz E: Treatment of secondary hyperparathyroidism in CKD patients with cinacalcet and/or vitamin D derivatives. Clin J Am Soc Nephrol. 2009 Jan;4(1):234-41. Epub 2008 Dec 3.
+19181759	Meola M, Petrucci I, Barsotti G: Long-term treatment with cinacalcet and conventional therapy reduces parathyroid hyperplasia in severe secondary hyperparathyroidism. Nephrol Dial Transplant. 2009 Mar;24(3):982-9. Epub 2009 Jan 30.
+19261825	Belozeroff V, Goodman WG, Ren L, Kalantar-Zadeh K: Cinacalcet lowers serum alkaline phosphatase in maintenance hemodialysis patients. Clin J Am Soc Nephrol. 2009 Mar;4(3):673-9. Epub 2009 Mar 4.
+19461861	Eriguchi R, Umakoshi J, Tominaga Y, Sato Y: Successful treatment of inoperable recurrent secondary hyperparathyroidism with cinacalcet HCl. NDT Plus. 2008 Aug;1(4):218-220. Epub 2008 May 25.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+CASR
+
+# Drug_Target_1_GenBank_ID_Gene:
+X81086
+
+# Drug_Target_1_GenBank_ID_Protein:
+599820
+
+# Drug_Target_1_GeneCard_ID:
+CASR
+
+# Drug_Target_1_Gene_Name:
+CASR
+
+# Drug_Target_1_Gene_Sequence:
+>3234 bp
+ATGGCATTTTATAGCTGCTGCTGGGTCCTCTTGGCACTCACCTGGCACACCTCTGCCTAC
+GGGCCAGACCAGCGAGCCCAAAAGAAGGGGGACATTATCCTTGGGGGGCTCTTTCCTATT
+CATTTTGGAGTAGCAGCTAAAGATCAAGATCTCAAATCAAGGCCGGAGTCTGTGGAATGT
+ATCAGGTATAATTTCCGTGGGTTTCGCTGGTTACAGGCTATGATATTTGCCATAGAGGAG
+ATAAACAGCAGCCCAGCCCTTCTTCCCAACTTGACGCTGGGATACAGGATATTTGACACT
+TGCAACACCGTTTCTAAGGCCTTGGAAGCCACCCTGAGTTTTGTTGCTCAAAACAAAATT
+GATTCTTTGAACCTTGATGAGTTCTGCAACTGCTCAGAGCACATTCCCTCTACGATTGCT
+GTGGTGGGAGCAACTGGCTCAGGCGTCTCCACGGCAGTGGCAAATCTGCTGGGGCTCTTC
+TACATTCCCCAGGTCAGTTATGCCTCCTCCAGCAGACTCCTCAGCAACAAGAATCAATTC
+AAGTCTTTCCTCCGAACCATCCCCAATGATGAGCACCAGGCCACTGCCATGGCAGACATC
+ATCGAGTATTTCCGCTGGAACTGGGTGGGCACAATTGCAGCTGATGACGACTATGGGCGG
+CCGGGGATTGAGAAATTCCGAGAGGAAGCTGAGGAAAGGGATATCTGCATCGACTTCAGT
+GAACTCATCTCCCAGTACTCTGATGAGGAAGAGATCCAGCATGTGGTAGAGGTGATTCAA
+AATTCCACGGCCAAAGTCATCGTGGTTTTCTCCAGTGGCCCAGATCTTGAGCCCCTCATC
+AAGGAGATTGTCCGGCGCAATATCACGGGCAAGATCTGGCTGGCCAGCGAGGCCTGGGCC
+AGCTCCTCCCTGATCGCCATGCCTCAGTACTTCCACGTGGTTGGCGGCACCATTGGATTC
+GCTCTGAAGGCTGGGCAGATCCCAGGCTTCCGGGAATTCCTGAAGAAGGTCCATCCCAGG
+AAGTCTGTCCACAATGGTTTTGCCAAGGAGTTTTGGGAAGAAACATTTAACTGCCACCTC
+CAAGAAGGTGCAAAAGGACCTTTACCTGTGGACACCTTTCTGAGAGGTCACGAAGAAAGT
+GGCGACAGGTTTAGCAACAGCTCGACAGCCTTCCGACCCCTCTGTACAGGGGATGAGAAC
+ATCAGCAGTGTCGAGACCCCTTACATAGATTACACGCATTTACGGATATCCTACAATGTG
+TACTTAGCAGTCTACTCCATTGCCCACGCCTTGCAAGATATATATACCTGCTTACCTGGG
+AGAGGGCTCTTCACCAATGGCTCCTGTGCAGACATCAAGAAAGTTGAGGCGTGGCAGGTC
+CTGAAGCACCTACGGCATCTAAACTTTACAAACAATATGGGGGAGCAGGTGACCTTTGAT
+GAGTGTGGTGACCTGGTGGGGAACTATTCCATCATCAACTGGCACCTCTCCCCAGAGGAT
+GGCTCCATCGTGTTTAAGGAAGTCGGGTATTACAACGTCTATGCCAAGAAGGGAGAAAGA
+CTCTTCATCAACGAGGAGAAAATCCTGTGGAGTGGTTTCTCCAGGGAGGTGCCCTTCTCC
+AACTGCAGCCGAGACTGCCTGGCAGGGACCAGGAAAGGGATCATTGAGGGGGAGCCCACC
+TGCTGCTTTGAGTGTGTGGAGTGTCCTGATGGGGAGTATAGTGATGAGACAGATGCCAGT
+GCCTGTAACAAGTGCCCAGATGACTTCTGGTCCAATGAGAACCACACCTCCTGCATTGCC
+AAGGAGATCGAGTTTCTGTCGTGGACGGAGCCCTTTGGGATCGCACTCACCCTCTTTGCC
+GTGCTGGGCATTTTCCTGACAGCCTTTGTGCTGGGTGTGTTTATCAAGTTCCGCAACACA
+CCCATTGTCAAGGCCACCAACCGAGAGCTCTCCTACCTCCTCCTCTTCTCCCTGCTCTGC
+TGCTTCTCCAGCTCCCTGTTCTTCATCGGGGAGCCCCAGGACTGGACGTGCCGCCTGCGC
+CAGCCGGCCTTTGGCATCAGCTTCGTGCTCTGCATCTCATGCATCCTGGTGAAAACCAAC
+CGTGTCCTCCTGGTGTTTGAGGCCAAGATCCCCACCAGCTTCCACCGCAAGTGGTGGGGG
+CTCAACCTGCAGTTCCTGCTGGTTTTCCTCTGCACCTTCATGCAGATTGTCATCTGTGTG
+ATCTGGCTCTACACCGCGCCCCCCTCAAGCTACCGCAACCAGGAGCTGGAGGATGAGATC
+ATCTTCATCACGTGCCACGAGGGCTCCCTCATGGCCCTGGGCTTCCTGATCGGCTACACC
+TGCCTGCTGGCTGCCATCTGCTTCTTCTTTGCCTTCAAGTCCCGGAAGCTGCCGGAGAAC
+TTCAATGAAGCCAAGTTCATCACCTTCAGCATGCTCATCTTCTTCATCGTCTGGATCTCC
+TTCATTCCAGCCTATGCCAGCACCTATGGCAAGTTTGTCTCTGCCGTAGAGGTGATTGCC
+ATCCTGGCAGCCAGCTTTGGCTTGCTGGCGTGCATCTTCTTCAACAAGATCTACATCATT
+CTCTTCAAGCCATCCCGCAACACCATCGAGGAGGTGCGTTGCAGCACCGCAGCTCACGCT
+TTCAAGGTGGCTGCCCGGGCCACGCTGCGCCGCAGCAACGTCTCCCGCAAGCGGTCCAGC
+AGCCTTGGAGGCTCCACGGGATCCACCCCTTCCTCCTCCATCAGCAGCAAGAGCAACAGC
+GAAGACCCATTCCCACAGCCCGAGAGGCAGAAGCAGCAGCAGCCGCTGGCCCTAACCCAG
+CAAGAGCAGCAGCAGCAGCCCCTGACCCTCCCACAGCAGCAACGATCTCAGCAGCAGCCC
+AGATGCAAGCAGAAGGTCATCTTTGGCAGCGGCACGGTCACCTTCTCACTGAGCTTTGAT
+GAGCCTCAGAAGAACGCCATGGCCCACAGGAATTCTACGCACCAGAACTCCCTGGAGGCC
+CAGAAAAGCAGCGATACGCTGACCCGACACCAGCCATTACTCCCGCTGCAGTGCGGGGAA
+ACGGACTTAGATCTGACCGTCCAGGAAACAGGTCTGCAAGGACCTGTGGGTGGAGACCAG
+CGGCCAGAGGTGGAGGACCCTGAAGAGTTGTCCCCAGCACTTGTAGTGTCCAGTTCACAG
+AGCTTTGTCATCAGTGGTGGAGGCAGCACTGTTACAGAAAACGTAGTGAATTCA
+
+# Drug_Target_1_General_Function:
+Involved in G-protein coupled receptor activity
+
+# Drug_Target_1_General_References:
+10487661	Stock JL, Brown RS, Baron J, Coderre JA, Mancilla E, De Luca F, Ray K, Mericq MV: Autosomal dominant hypoparathyroidism associated with short stature and premature osteoarthritis. J Clin Endocrinol Metab. 1999 Sep;84(9):3036-40.
+11762699	Nakayama T, Minato M, Nakagawa M, Soma M, Tobe H, Aoi N, Kosuge K, Sato M, Ozawa Y, Kanmatsuse K, Kokubun S: A novel mutation in Ca2+-sensing receptor gene in familial hypocalciuric hypercalcemia. Endocrine. 2001 Aug;15(3):277-82.
+7673400	Aida K, Koishi S, Inoue M, Nakazato M, Tawata M, Onaya T: Familial hypocalciuric hypercalcemia associated with mutation in the human Ca(2+)-sensing receptor gene. J Clin Endocrinol Metab. 1995 Sep;80(9):2594-8.
+7677761	Aida K, Koishi S, Tawata M, Onaya T: Molecular cloning of a putative Ca(2+)-sensing receptor cDNA from human kidney. Biochem Biophys Res Commun. 1995 Sep 14;214(2):524-9.
+7726161	Chou YH, Pollak MR, Brandi ML, Toss G, Arnqvist H, Atkinson AB, Papapoulos SE, Marx S, Brown EM, Seidman JG, et al.: Mutations in the human Ca(2+)-sensing-receptor gene that cause familial hypocalciuric hypercalcemia. Am J Hum Genet. 1995 May;56(5):1075-9.
+7759551	Garrett JE, Capuano IV, Hammerland LG, Hung BC, Brown EM, Hebert SC, Nemeth EF, Fuller F: Molecular cloning and functional expression of human parathyroid calcium receptor cDNAs. J Biol Chem. 1995 May 26;270(21):12919-25.
+7874174	Pollak MR, Brown EM, Estep HL, McLaine PN, Kifor O, Park J, Hebert SC, Seidman CE, Seidman JG: Autosomal dominant hypocalcaemia caused by a Ca(2+)-sensing receptor gene mutation. Nat Genet. 1994 Nov;8(3):303-7.
+7916660	Pollak MR, Brown EM, Chou YH, Hebert SC, Marx SJ, Steinmann B, Levi T, Seidman CE, Seidman JG: Mutations in the human Ca(2+)-sensing receptor gene cause familial hypocalciuric hypercalcemia and neonatal severe hyperparathyroidism. Cell. 1993 Dec 31;75(7):1297-303.
+8613532	Bikle DD, Ratnam A, Mauro T, Harris J, Pillai S: Changes in calcium responsiveness and handling during keratinocyte differentiation. Potential role of the calcium receptor. J Clin Invest. 1996 Feb 15;97(4):1085-93.
+8675635	Pearce SH, Trump D, Wooding C, Besser GM, Chew SL, Grant DB, Heath DA, Hughes IA, Paterson CR, Whyte MP, et al.: Calcium-sensing receptor mutations in familial benign hypercalcemia and neonatal hyperparathyroidism. J Clin Invest. 1995 Dec;96(6):2683-92.
+8733126	Baron J, Winer KK, Yanovski JA, Cunningham AW, Laue L, Zimmerman D, Cutler GB Jr: Mutations in the Ca(2+)-sensing receptor gene cause autosomal dominant and sporadic hypoparathyroidism. Hum Mol Genet. 1996 May;5(5):601-6.
+8756555	Freichel M, Zink-Lorenz A, Holloschi A, Hafner M, Flockerzi V, Raue F: Expression of a calcium-sensing receptor in a human medullary thyroid carcinoma cell line and its contribution to calcitonin secretion. Endocrinology. 1996 Sep;137(9):3842-8.
+9298824	Ward BK, Stuckey BG, Gutteridge DH, Laing NG, Pullan PT, Ratajczak T: A novel mutation (L174R) in the Ca2+-sensing receptor gene associated with familial hypocalciuric hypercalcemia. Hum Mutat. 1997;10(3):233-5.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:1514
+
+# Drug_Target_1_HPRD_ID:
+03122
+
+# Drug_Target_1_ID:
+565
+
+# Drug_Target_1_Locus:
+3q13
+
+# Drug_Target_1_Molecular_Weight:
+120675
+
+# Drug_Target_1_Name:
+Extracellular calcium-sensing receptor
+
+# Drug_Target_1_Number_of_Residues:
+1078
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00003	7tm_3
+PF01094	ANF_receptor
+PF07562	NCD3G
+
+# Drug_Target_1_Protein_Sequence:
+>Extracellular calcium-sensing receptor precursor
+MAFYSCCWVLLALTWHTSAYGPDQRAQKKGDIILGGLFPIHFGVAAKDQDLKSRPESVEC
+IRYNFRGFRWLQAMIFAIEEINSSPALLPNLTLGYRIFDTCNTVSKALEATLSFVAQNKI
+DSLNLDEFCNCSEHIPSTIAVVGATGSGVSTAVANLLGLFYIPQVSYASSSRLLSNKNQF
+KSFLRTIPNDEHQATAMADIIEYFRWNWVGTIAADDDYGRPGIEKFREEAEERDICIDFS
+ELISQYSDEEEIQHVVEVIQNSTAKVIVVFSSGPDLEPLIKEIVRRNITGKIWLASEAWA
+SSSLIAMPQYFHVVGGTIGFALKAGQIPGFREFLKKVHPRKSVHNGFAKEFWEETFNCHL
+QEGAKGPLPVDTFLRGHEESGDRFSNSSTAFRPLCTGDENISSVETPYIDYTHLRISYNV
+YLAVYSIAHALQDIYTCLPGRGLFTNGSCADIKKVEAWQVLKHLRHLNFTNNMGEQVTFD
+ECGDLVGNYSIINWHLSPEDGSIVFKEVGYYNVYAKKGERLFINEEKILWSGFSREVPFS
+NCSRDCLAGTRKGIIEGEPTCCFECVECPDGEYSDETDASACNKCPDDFWSNENHTSCIA
+KEIEFLSWTEPFGIALTLFAVLGIFLTAFVLGVFIKFRNTPIVKATNRELSYLLLFSLLC
+CFSSSLFFIGEPQDWTCRLRQPAFGISFVLCISCILVKTNRVLLVFEAKIPTSFHRKWWG
+LNLQFLLVFLCTFMQIVICVIWLYTAPPSSYRNQELEDEIIFITCHEGSLMALGFLIGYT
+CLLAAICFFFAFKSRKLPENFNEAKFITFSMLIFFIVWISFIPAYASTYGKFVSAVEVIA
+ILAASFGLLACIFFNKIYIILFKPSRNTIEEVRCSTAAHAFKVAARATLRRSNVSRKRSS
+SLGGSTGSTPSSSISSKSNSEDPFPQPERQKQQQPLALTQQEQQQQPLTLPQQQRSQQQP
+RCKQKVIFGSGTVTFSLSFDEPQKNAMAHRNSTHQNSLEAQKSSDTLTRHQPLLPLQCGE
+TDLDLTVQETGLQGPVGGDQRPEVEDPEELSPALVVSSSQSFVISGGGSTVTENVVNS
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+1-19
+
+# Drug_Target_1_Specific_Function:
+Senses changes in the extracellular concentration of calcium ions. The activity of this receptor is mediated by a G- protein that activates a phosphatidylinositol-calcium second messenger system
+
+# Drug_Target_1_SwissProt_ID:
+P41180
+
+# Drug_Target_1_SwissProt_Name:
+CASR_HUMAN
+
+# Drug_Target_1_Synonyms:
+CaSR
+Extracellular calcium-sensing receptor precursor
+Parathyroid Cell calcium-sensing receptor
+
+# Drug_Target_1_Theoretical_pI:
+5.82
+
+# Drug_Target_1_Transmembrane_Regions:
+613-635
+650-670
+682-700
+725-745
+770-792
+806-828
+837-862
+
+#END_DRUGCARD DB01012

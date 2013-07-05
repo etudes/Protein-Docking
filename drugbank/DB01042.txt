@@ -1,0 +1,325 @@
+#BEGIN_DRUGCARD DB01042
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01AA03
+
+# Absorption:
+Incomplete, variable, 25-89% post oral dose
+
+# Biotransformation:
+Melphalan is not actively metabolised, it spontaneously degrades to mono and dihydroxy products.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Alkeran
+L-PAM
+L-Phenylalanine mustard
+L-Sarcolysin
+L-Sarcolysine
+L-Sarkolysin
+Levofalan
+Melfalan
+Mephalan
+Phenylalanine mustard
+Phenylalanine nitrogen mustard
+Sarcolysine
+Sarkolysin
+
+# CAS_Registry_Number:
+148-82-3
+
+# ChEBI_ID:
+28876
+
+# Chemical_Formula:
+C13H18Cl2N2O2
+
+# Chemical_IUPAC_Name:
+(2S)-2-amino-3-{4-[bis(2-chloroethyl)amino]phenyl}propanoic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+4715
+
+# Description:
+An alkylating nitrogen mustard that is used as an antineoplastic in the form of the levo isomer - melphalan, the racemic mixture - merphalan, and the dextro isomer - medphalan; toxic to bone marrow, but little vesicant action; potential carcinogen. [PubChem]
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Antineoplastic Agents, Alkylating
+Myeloablative Agonists
+
+# Drug_Interactions:
+Bendamustine	Increases toxicity through pharmacodynamic synergism. Additive myelosuppression.
+Cyclosporine	Melphalan increases toxicity of cyclosporine
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+
+# Drug_Reference:
+16781199	Souliotis VL, Dimopoulos MA, Episkopou HG, Kyrtopoulos SA, Sfikakis PP: Preferential in vivo DNA repair of melphalan-induced damage in human genes is greatly affected by the local chromatin structure. DNA Repair (Amst). 2006 Aug 13;5(8):972-85. Epub 2006 Jun 15.
+18324787	Loeber R, Michaelson E, Fang Q, Campbell C, Pegg AE, Tretyakova N: Cross-linking of the DNA repair protein Omicron6-alkylguanine DNA alkyltransferase to DNA in the presence of antitumor nitrogen mustards. Chem Res Toxicol. 2008 Apr;21(4):787-95. Epub 2008 Feb 14.
+8398701	Moscow JA, Swanson CA, Cowan KH: Decreased melphalan accumulation in a human breast cancer cell line selected for resistance to melphalan. Br J Cancer. 1993 Oct;68(4):732-7.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.52
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+< 0.1 g/100 mL at 22 °C
+
+# Food_Interactions:
+Take on an empty stomach. Food decreases bioavailabilty by approximately 30%. Increase liquid intake.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Melphalan
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+1.5 (&plusmn;0.83) hours
+
+# InChI_Identifier:
+InChI=1S/C13H18Cl2N2O2/c14-5-7-17(8-6-15)11-3-1-10(2-4-11)9-12(16)13(18)19/h1-4,12H,5-9,16H2,(H,18,19)/t12-/m0/s1
+
+# InChI_Key:
+InChIKey=SGDBTWWWUNNDEQ-LBPRGKRZSA-N
+
+# Indication:
+For the palliative treatment of multiple myeloma and for the palliation of non-resectable epithelial carcinoma of the ovary. Has also been used alone or as part of various chemotherapeutic regimens as an adjunct to surgery in the treatment of breast cancer, alone or in combination regimens for palliative treatment of locally recurrent or unresectable in-transit metastatic melanoma of the extremities, as well as for the treatment of amyloidosis with prednisone.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D00369
+
+# LIMS_Drug_ID:
+1042
+
+# Mechanism_Of_Action:
+Alkylating agents work by three different mechanisms: 1) attachment of alkyl groups to DNA bases (primarily at the N-7 position of guanine and to a lesser extent, at the N-3 position of adenine), forming monoadducts and resulting in the DNA being fragmented by repair enzymes in their attempts to replace the alkylated bases, preventing DNA synthesis and RNA transcription from the affected DNA, 2) DNA damage via the formation of cross-links (bonds between atoms in the DNA) which prevents DNA from being separated for synthesis or transcription, and 3) the induction of mispairing of the nucleotides leading to mutations.
+
+# Melting_Point:
+182.5 °C
+
+# Molecular_Weight_Avg:
+305.2
+
+# Molecular_Weight_Mono:
+304.074533244
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA450354
+
+# Pharmacology:
+Melphalan is an antineoplastic in the class of alkylating agents and is used to treat various forms of cancer. Alkylating agents are so named because of their ability to add alkyl groups to many electronegative groups under conditions present in cells. They stop tumor growth by cross-linking guanine bases in DNA double-helix strands - directly attacking DNA. This makes the strands unable to uncoil and separate. As this is necessary in DNA replication, the cells can no longer divide. In addition, these drugs add methyl or other alkyl groups onto molecules where they do not belong which in turn inhibits their correct utilization by base pairing and causes a miscoding of DNA. Alkylating agents are cell cycle-nonspecific. Alkylating agents work by three different mechanisms all of which achieve the same end result - disruption of DNA function and cell death.
+
+# Predicted_LogP_Hydrophobicity:
+-0.22
+
+# Predicted_LogS:
+-2.9
+
+# Predicted_Water_Solubility:
+3.58e-01 g/l
+
+# Primary_Accession_No:
+DB01042
+
+# Protein_Binding:
+Moderate to high (60 to 90%), primarily to albumin and, to a lesser extent, alpha 1-acid glycoprotein. 30% is irreversibly bound.
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/melph.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00118
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+N[C@@H](CC1=CC=C(C=C1)N(CCCl)CCCl)C(O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Vomiting, ulceration of the mouth, diarrhea, and hemorrhage of the gastrointestinal tract; The principal toxic effect is bone marrow suppression. LD<sub>50</sub>=11.2 mg/kg (orally in rat)
+
+# Update_Date:
+2013-02-17 16:50:11 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Melphalan
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Nucleus and mitochondria
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+15802532	Chen Q, Van der Sluis PC, Boulware D, Hazlehurst LA, Dalton WS: The FA/BRCA pathway is involved in melphalan-induced DNA interstrand cross-link repair and accounts for melphalan resistance in multiple myeloma cells. Blood. 2005 Jul 15;106(2):698-705. Epub 2005 Mar 31.
+16781199	Souliotis VL, Dimopoulos MA, Episkopou HG, Kyrtopoulos SA, Sfikakis PP: Preferential in vivo DNA repair of melphalan-induced damage in human genes is greatly affected by the local chromatin structure. DNA Repair (Amst). 2006 Aug 13;5(8):972-85. Epub 2006 Jun 15.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+17884638	Monahan SD, Subbotin VM, Budker VG, Slattum PM, Neal ZC, Herweijer H, Wolff JA: Rapidly reversible hydrophobization: an approach to high first-pass drug extraction. Chem Biol. 2007 Sep;14(9):1065-77.
+18024399	Dimopoulos MA, Souliotis VL, Anagnostopoulos A, Bamia C, Pouli A, Baltadakis I, Terpos E, Kyrtopoulos SA, Sfikakis PP: Melphalan-induced DNA damage in vitro as a predictor for clinical outcome in multiple myeloma. Haematologica. 2007 Nov;92(11):1505-12.
+18324787	Loeber R, Michaelson E, Fang Q, Campbell C, Pegg AE, Tretyakova N: Cross-linking of the DNA repair protein Omicron6-alkylguanine DNA alkyltransferase to DNA in the presence of antitumor nitrogen mustards. Chem Res Toxicol. 2008 Apr;21(4):787-95. Epub 2008 Feb 14.
+18549246	Wang F, Li F, Ganguly M, Marky LA, Gold B, Egli M, Stone MP: A bridging water anchors the tethered 5-(3-aminopropyl)-2'-deoxyuridine amine in the DNA major groove proximate to the N+2 C.G base pair: implications for formation of interstrand 5'-GNC-3' cross-links by nitrogen mustards. Biochemistry. 2008 Jul 8;47(27):7147-57. Epub 2008 Jun 13.
+20196133	Vasquez KM: Targeting and processing of site-specific DNA interstrand crosslinks. Environ Mol Mutagen. 2010 Mar 1.
+20454509	Lee PC, Kakadiya R, Su TL, Lee TC: Combination of bifunctional alkylating agent and arsenic trioxide synergistically suppresses the growth of drug-resistant tumor cells. Neoplasia. 2010 May;12(5):376-87.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+>Example: Dickerson dodecamer
+CGCGAATTCGCG
+
+# Drug_Target_1_General_Function:
+Biological information storage and information transfer
+
+# Drug_Target_1_General_References:
+1234	Nadeau D, Marchand C: Change in the kinetics of sulphacetamide tissue distribution in Walker tumor-bearing rats. Drug Metab Dispos. 1975 Nov-Dec;3(6):565-76.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+874
+
+# Drug_Target_1_Locus:
+All loci
+
+# Drug_Target_1_Molecular_Weight:
+7656 (double strand)
+
+# Drug_Target_1_Name:
+DNA
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+1BNA
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+DNA + DNA polymerase + nNTP = 2 DNA + nNDP; DNA + RNA polymerase + NTP = mRNA + nNDP
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+DNA is the molecule of heredity, as it is responsible for the genetic propagation of most inherited traits. It is a polynucleic acid that carries genetic information on cell growth, division, and function. DNA consists of two long strands of nucleotides twisted into a double helix and held together by hydrogen bonds. The sequence of nucleotides determines hereditary characteristics. Each strand serves as the template for subsequent DNA replication and as a template for mRNA production, leading to protein synthesis via ribosomes.
+
+# Drug_Target_1_SwissProt_ID:
+Not Available
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Deoxyribonucleic acid
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB01042

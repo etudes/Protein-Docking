@@ -1,0 +1,517 @@
+#BEGIN_DRUGCARD DB02062
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C21H27N2O5P
+
+# Chemical_IUPAC_Name:
+(2S)-2-[(2S)-3-{[(1R)-1-aminoethyl](hydroxy)phosphoryl}-2-[(4-phenylphenyl)methyl]propanamido]propanoic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+N-[3-[(1-Aminoethyl)(Hydroxy)Phosphoryl]-2-(1,1'-Biphenyl-4-Ylmethyl)Propanoyl]Alanine
+
+# HET_ID:
+BIR
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C21H27N2O5P/c1-14(21(25)26)23-20(24)19(13-29(27,28)15(2)22)12-16-8-10-18(11-9-16)17-6-4-3-5-7-17/h3-11,14-15,19H,12-13,22H2,1-2H3,(H,23,24)(H,25,26)(H,27,28)/t14-,15+,19+/m0/s1
+
+# InChI_Key:
+InChIKey=CWJPVKSBGVPXRD-QMTMVMCOSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+2062
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+418.4232
+
+# Molecular_Weight_Mono:
+418.165758496
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1R1H
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+0.22
+
+# Predicted_LogS:
+-4.7
+
+# Predicted_Water_Solubility:
+8.35e-03 g/l
+
+# Primary_Accession_No:
+DB02062
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+5478838
+
+# PubChem_Substance_ID:
+46508788
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT00710
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@@](C)(N)[P@](O)(=O)C[C@@]([H])(CC1=CC=C(C=C1)C1=CC=CC=C1)C(=O)N[C@@]([H])(C)C(O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:20:45 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+single-pass type II membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+MME
+
+# Drug_Target_1_GenBank_ID_Gene:
+X07166
+
+# Drug_Target_1_GenBank_ID_Protein:
+34758
+
+# Drug_Target_1_GeneCard_ID:
+MME
+
+# Drug_Target_1_Gene_Name:
+MME
+
+# Drug_Target_1_Gene_Sequence:
+>2232 bp
+ATGGATATAACTGATATCAACACTCCAAAGCCAAAGAAGAAACAGCGATGGACTCCACTG
+GAGATCAGCCTCTCGGTCCTTGTCCTGCTCCTCACCATCATAGCTGTGACAATGATCGCA
+CTCTATGCAACCTACGATGATGGTATTTGCAAGTCATCAGACTGCATAAAATCAGCTGCT
+CGACTGATCCAAAACATGGATGCCACCACTGAGCCTTGTACAGACTTTTTCAAATATGCT
+TGCGGAGGCTGGTTGAAACGTAATGTCATTCCCGAGACCAGCTCCCGTTACGGCAACTTT
+GACATTTTAAGAGATGAACTAGAAGTCGTTTTGAAAGATGTCCTTCAAGAACCCAAAACT
+GAAGATATAGTAGCAGTGCAGAAAGCAAAAGCATTGTACAGGTCTTGTATAAATGAATCT
+GCTATTGATAGCAGAGGTGGAGAACCTCTACTCAAACTGTTACCAGACATATATGGGTGG
+CCAGTAGCAACAGAAAACTGGGAGCAAAAATATGGTGCTTCTTGGACAGCTGAAAAAGCT
+ATTGCACAACTGAATTCTAAATATGGGAAAAAAGTCCTTATTAATTTGTTTGTTGGCACT
+GATGATAAGAATTCTGTGAATCATGTAATTCATATTGACCAACCTCGACTTGGCCTCCCT
+TCTAGAGATTACTATGAATGCACTGGAATCTATAAAGAGGCTTGTACAGCATATGTGGAT
+TTTATGATTTCTGTGGCCAGATTGATTCGTCAGGAAGAAAGATTGCCCATCGATGAAAAC
+CAGCTTGCTTTGGAAATGAATAAAGTTATGGAATTGGAAAAAGAAATTGCCAATGCTACG
+GCTAAACCTGAAGATCGAAATGATCCAATGCTTCTGTATAACAAGATGACATTGGCCCAG
+ATCCAAAATAACTTTTCACTAGAGATCAATGGGAAGCCATTCAGCTGGTTGAATTTCACA
+AATGAAATCATGTCAACTGTGAATATTAGTATTACAAATGAGGAAGATGTGGTTGTTTAT
+GCTCCAGAATATTTAACCAAACTTAAGCCCATTCTTACCAAATATTCTGCCAGAGATCTT
+CAAAATTTAATGTCCTGGAGATTCATAATGGATCTTGTAAGCAGCCTCAGCCGAACCTAC
+AAGGAGTCCAGAAATGCTTTCCGCAAGGCCCTTTATGGTACAACCTCAGAAACAGCAACT
+TGGAGACGTTGTGCAAACTATGTCAATGGGAATATGGAAAATGCTGTGGGGAGGCTTTAT
+GTGGAAGCAGCATTTGCTGGAGAGAGTAAACATGTGGTCGAGGATTTGATTGCACAGATC
+CGAGAAGTTTTTATTCAGACTTTAGATGACCTCACTTGGATGGATGCCGAGACAAAAAAG
+AGAGCTGAAGAAAAGGCCTTAGCAATTAAAGAAAGGATCGGCTATCCTGATGACATTGTT
+TCAAATGATAACAAACTGAATAATGAGTACCTCGAGTTGAACTACAAAGAAGATGAATAC
+TTCGAGAACATAATTCAAAATTTGAAATTCAGCCAAAGTAAACAACTGAAGAAGCTCCGA
+GAAAAGGTGGACAAAGATGAGTGGATAAGTGGAGCAGCTGTAGTCAATGCATTTTACTCT
+TCAGGAAGAAATCAGATAGTCTTCCCAGCCGGCATTCTGCAGCCCCCCTTCTTTAGTGCC
+CAGCAGTCCAACTCATTGAACTATGGGGGCATCGGCATGGTCATAGGACACGAAATCACC
+CATGGCTTCGATGACAATGGCAGAAACTTTAACAAAGATGGAGACCTCGTTGACTGGTGG
+ACTCAACAGTCTGCAAGTAACTTTAAGGAGCAATCCCAGTGCATGGTGTATCAGTATGGA
+AACTTTTCCTGGGACCTGGCAGGTGGACAGCACCTTAATGGAATTAATACACTGGGAGAA
+AACATTGCTGATAATGGAGGTCTTGGTCAAGCATACAGAGCCTATCAGAATTATATTAAA
+AAGAATGGCGAAGAAAAATTACTTCCTGGACTTGACCTAAATCACAAACAACTATTTTTC
+TTGAACTTTGCACAGGTGTGGTGTGGAACCTATAGGCCAGAGTATGCGGTTAACTCCATT
+AAAACAGATGTGCACAGTCCAGGCAATTTCAGGATTATTGGGACTTTGCAGAACTCTGCA
+GAGTTTTCAGAAGCCTTTCACTGCCGCAAGAATTCATACATGAATCCAGAAAAGAAGTGC
+CGGGTTTGGTGA
+
+# Drug_Target_1_General_Function:
+Posttranslational modification, protein turnover, chaperones
+
+# Drug_Target_1_General_References:
+10669592	Oefner C, D'Arcy A, Hennig M, Winkler FK, Dale GE: Structure of human neutral endopeptidase (Neprilysin) complexed with phosphoramidon. J Mol Biol. 2000 Feb 18;296(2):341-9.
+12754519	Zhang H, Li XJ, Martin DB, Aebersold R: Identification and quantification of N-linked glycoproteins using hydrazide chemistry, stable isotope labeling and mass spectrometry. Nat Biotechnol. 2003 Jun;21(6):660-6. Epub 2003 May 18.
+2528730	D'Adamio L, Shipp MA, Masteller EL, Reinherz EL: Organization of the gene encoding common acute lymphoblastic leukemia antigen (neutral endopeptidase 24.11): multiple miniexons and separate 5' untranslated regions. Proc Natl Acad Sci U S A. 1989 Sep;86(18):7103-7.
+2968607	Shipp MA, Richardson NE, Sayre PH, Brown NR, Masteller EL, Clayton LK, Ritz J, Reinherz EL: Molecular cloning of the common acute lymphoblastic leukemia antigen (CALLA) identifies a type II integral membrane protein. Proc Natl Acad Sci U S A. 1988 Jul;85(13):4819-23.
+2971756	Letarte M, Vera S, Tran R, Addis JB, Onizuka RJ, Quackenbush EJ, Jongeneel CV, McInnes RR: Common acute lymphocytic leukemia antigen is identical to neutral endopeptidase. J Exp Med. 1988 Oct 1;168(4):1247-53.
+3162217	Malfroy B, Kuang WJ, Seeburg PH, Mason AJ, Schofield PR: Molecular cloning and amino acid sequence of human enkephalinase (neutral endopeptidase). FEBS Lett. 1988 Feb 29;229(1):206-10.
+8168535	Le Moual H, Dion N, Roques BP, Crine P, Boileau G: Asp650 is crucial for catalytic activity of neutral endopeptidase 24-11. Eur J Biochem. 1994 Apr 1;221(1):475-80.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:7154
+
+# Drug_Target_1_HPRD_ID:
+00392
+
+# Drug_Target_1_ID:
+294
+
+# Drug_Target_1_Locus:
+3q25.1-q25.2
+
+# Drug_Target_1_Molecular_Weight:
+85384
+
+# Drug_Target_1_Name:
+Neprilysin
+
+# Drug_Target_1_Number_of_Residues:
+749
+
+# Drug_Target_1_PDB_ID:
+1DMT
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF01431	Peptidase_M13
+PF05649	Peptidase_M13_N
+
+# Drug_Target_1_Protein_Sequence:
+>Neprilysin
+GKSESQMDITDINTPKPKKKQRWTPLEISLSVLVLLLTIIAVTMIALYATYDDGICKSSD
+CIKSAARLIQNMDATTEPCTDFFKYACGGWLKRNVIPETSSRYGNFDILRDELEVVLKDV
+LQEPKTEDIVAVQKAKALYRSCINESAIDSRGGEPLLKLLPDIYGWPVATENWEQKYGAS
+WTAEKAIAQLNSKYGKKVLINLFVGTDDKNSVNHVIHIDQPRLGLPSRDYYECTGIYKEA
+CTAYVDFMISVARLIRQEERLPIDENQLALEMNKVMELEKEIANATAKPEDRNDPMLLYN
+KMTLAQIQNNFSLEINGKPFSWLNFTNEIMSTVNISITNEEDVVVYAPEYLTKLKPILTK
+YSARDLQNLMSWRFIMDLVSSLSRTYKESRNAFRKALYGTTSETATWRRCANYVNGNMEN
+AVGRLYVEAAFAGESKHVVEDLIAQIREVFIQTLDDLTWMDAETKKRAEEKALAIKERIG
+YPDDIVSNDNKLNNEYLELNYKEDEYFENIIQNLKFSQSKQLKKLREKVDKDEWISGAAV
+VNAFYSSGRNQIVFPAGILQPPFFSAQQSNSLNYGGIGMVIGHEITHGFDDNGRNFNKDG
+DLVDWWTQQSASNFKEQSQCMVYQYGNFSWDLAGGQHLNGINTLGENIADNGGLGQAYRA
+YQNYIKKNGEEKLLPGLDLNHKQLFFLNFAQVWCGTYRPEYAVNSIKTDVHSPGNFRIIG
+TLQNSAEFSEAFHCRKNSYMNPEKKCRVW
+
+# Drug_Target_1_Reaction:
+Preferential cleavage of polypeptides between hydrophobic residues, particularly with Phe or Tyr at P1' COFACTOR Zinc INHIBITOR EDTA; Phosphoramidon; (S)-N-[3-(3,4-Methylenedioxyphenyl)-2-(mercaptomethyl)-1-oxoprolyl]g lycine; (S)-N-[3-(3,4-Methylenedioxyphenyl)-2-(mercaptomethyl)-1-oxoprolyl]- (S)-alanine; (S)-N-[3-(3,4-Methylenedioxyphenyl)-2-(acetylthio)methyl-1-oxoprolyl ]glycine benzyl ester; (S)-N-[3-(3,4-Methylenedioxyphenyl)-2-(acetylthio)methyl-1-oxoprolyl ]-(S)-alanine benzyl ester; Thiorphan
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Thermolysin-like specificity, but is almost confined on acting on polypeptides of up to 30 amino acids. Biologically important in the destruction of opioid peptides such as Met- and Leu-enkephalins by cleavage of a Gly-Phe bond. Involved in the degradation of atrial natriuretic factor (ANF)
+
+# Drug_Target_1_SwissProt_ID:
+P08473
+
+# Drug_Target_1_SwissProt_Name:
+NEP_HUMAN
+
+# Drug_Target_1_Synonyms:
+Atriopeptidase
+CALLA
+CD10 antigen
+Common acute lymphocytic leukemia antigen
+EC 3.4.24.11
+Enkephalinase
+NEP
+Neutral endopeptidase
+Neutral endopeptidase 24.11
+
+# Drug_Target_1_Theoretical_pI:
+5.43
+
+# Drug_Target_1_Transmembrane_Regions:
+28-50
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+LTA4H
+
+# Drug_Target_2_GenBank_ID_Gene:
+U27293
+
+# Drug_Target_2_GenBank_ID_Protein:
+976396
+
+# Drug_Target_2_GeneCard_ID:
+LTA4H
+
+# Drug_Target_2_Gene_Name:
+LTA4H
+
+# Drug_Target_2_Gene_Sequence:
+>1836 bp
+ATGCCCGAGATAGTGGATACCTGTTCGTTGGCCTCTCCGGCTTCCGTCTGCCGGACCAAG
+CACCTGCACCTGCGCTGCAGCGTCGACTTTACTCGCCGGACGCTGACCGGGACTGCTGCT
+CTCACGGTCCAGTCTCAGGAGGACAATCTGCGCAGCCTGGTTTTGGATACAAAGGACCTT
+ACAATAGAAAAAGTAGTGATCAATGGACAAGAAGTCAAATATGCTCTTGGAGAAAGACAA
+AGTTACAAGGGATCGCCAATGGAAATCTCTCTTCCTATCGCTTTGAGCAAAAATCAAGAA
+ATTGTTATAGAAATTTCTTTTGAGACCTCTCCAAAATCTTCTGCTCTCCAGTGGCTCACT
+CCTGAACAGACTTCTGGGAAGGAACACCCATATCTCTTTAGTCAGTGCCAGGCCATCCAC
+TGCAGAGCAATCCTTCCTTGTCAGGACACTCCTTCTGTGAAATTAACCTATACTGCAGAG
+GTGTCTGTCCCTAAAGAACTGGTGGCACTTATGAGTGCTATTCGTGATGGAGAAACACCT
+GACCCAGAAGACCCAAGCAGGAAAATATACAAATTCATCCAAAAAGTTCCAATACCCTGC
+TACCTGATTGCTTTAGTTGTTGGAGCTTTAGAAAGCAGGCAAATTGGCCCAAGAACTTTG
+GTGTGGTCTGAGAAAGAGCAGGTGGAAAAGTCTGCTTATGAGTTTTCTGAGACTGAATCT
+ATGCTTAAAATAGCAGAAGATCTGGGAGGACCGTATGTATGGGGACAGTATGACCTATTG
+GTCCTGCCACCATCCTTCCCTTATGGTGGCATGGAGAATCCTTGCCTTACTTTTGTAACT
+CCTACTCTACTGGCAGGCGACAAGTCACTCTCCAATGTCATTGCACATGAAATATCTCAT
+AGCTGGACAGGGAATCTAGTGACCAACAAAACTTGGGATCACTTTTGGTTAAATGAGGGA
+CATACTGTGTACTTGGAACGCCACATTTGCGGACGATTGTTTGGTGAAAAGTTCAGACAT
+TTTAATGCTCTGGGAGGATGGGGAGAACTACAGAATTCGGTAAAGACATTTGGGGAGACA
+CATCCTTTCACCAAACTTGTGGTTGATCTGACAGATATAGACCCTGATGTAGCTTATTCT
+TCAGTTCCCTATGAGAAGGGCTTTGCTTTACTTTTTTACCTTGAACAACTGCTTGGAGGA
+CCAGAGATTTTCCTAGGATTCTTAAAAGCTTATGTTGAGAAGTTTTCCTATAAGAGCATA
+ACTACTGATGACTGGAAGGATTTCCTGTATTCCTATTTTAAAGATAAGGTTGATGTTCTC
+AATCAAGTTGATTGGAATGCCTGGCTCTACTCTCCTGGACTGCCTCCCATAAAGCCCAAT
+TATGATATGACTCTGACAAATGCTTGTATTGCCTTAAGTCAAAGATGGATTACTGCCAAA
+GAAGATGATTTAAATTCATTCAATGCCACAGACCTGAAGGATCTCTCTTCTCATCAATTG
+AATGAGTTTTTAGCACAGACGCTCCAGAGGGCACCTCTTCCATTGGGGCACATAAAGCGA
+ATGCAAGAGGTGTACAACTTCAATGCCATTAACAATTCTGAAATACGATTCAGATGGCTG
+CGGCTCTGCATTCAATCCAAGTGGGAGGACGCAATTCCTTTGGCGCTAAAGATGGCAACT
+GAACAAGGAAGAATGAAGTTTACCCGGCCCTTATTCAAGGATCTTGCTGCCTTTGACAAA
+TCCCATGATCAAGCTGTCCGAACCTACCAAGAGCACAAAGCAAGCATGCATCCCGTGACT
+GCAATGCTGGTGGGGAAAGACTTAAAAGTGGATTAA
+
+# Drug_Target_2_General_Function:
+Amino acid transport and metabolism
+
+# Drug_Target_2_General_References:
+11175901	Thunnissen MM, Nordlund P, Haeggstrom JZ: Crystal structure of human leukotriene A(4) hydrolase, a bifunctional enzyme in inflammation. Nat Struct Biol. 2001 Feb;8(2):131-5.
+11675384	Rudberg PC, Tholander F, Thunnissen MM, Haeggstrom JZ: Leukotriene A4 hydrolase/aminopeptidase. Glutamate 271 is a catalytic residue with specific roles in two distinct enzyme mechanisms. J Biol Chem. 2002 Jan 11;277(2):1398-404. Epub 2001 Oct 23.
+1357660	Wetterholm A, Medina JF, Radmark O, Shapiro R, Haeggstrom JZ, Vallee BL, Samuelsson B: Leukotriene A4 hydrolase: abrogation of the peptidase activity by mutation of glutamic acid-296. Proc Natl Acad Sci U S A. 1992 Oct 1;89(19):9141-5.
+1516710	Minami M, Bito H, Ohishi N, Tsuge H, Miyano M, Mori M, Wada H, Mutoh H, Shimada S, Izumi T, et al.: Leukotriene A4 hydrolase, a bifunctional enzyme. Distinction of leukotriene A4 hydrolase and aminopeptidase activities by site-directed mutagenesis at Glu-297. FEBS Lett. 1992 Sep 14;309(3):353-7.
+1881903	Medina JF, Wetterholm A, Radmark O, Shapiro R, Haeggstrom JZ, Vallee BL, Samuelsson B: Leukotriene A4 hydrolase: determination of the three zinc-binding ligands by site-directed mutagenesis and zinc analysis. Proc Natl Acad Sci U S A. 1991 Sep 1;88(17):7620-4.
+1897988	Odlander B, Claesson HE, Bergman T, Radmark O, Jornvall H, Haeggstrom JZ: Leukotriene A4 hydrolase in the human B-lymphocytic cell line Raji: indications of catalytically divergent forms of the enzyme. Arch Biochem Biophys. 1991 May 15;287(1):167-74.
+1975494	Toh H, Minami M, Shimizu T: Molecular evolution and zinc ion binding motif of leukotriene A4 hydrolase. Biochem Biophys Res Commun. 1990 Aug 31;171(1):216-21.
+2244921	Haeggstrom JZ, Wetterholm A, Shapiro R, Vallee BL, Samuelsson B: Leukotriene A4 hydrolase: a zinc metalloenzyme. Biochem Biophys Res Commun. 1990 Nov 15;172(3):965-70.
+2821541	Funk CD, Radmark O, Fu JY, Matsumoto T, Jornvall H, Shimizu T, Samuelsson B: Molecular cloning and amino acid sequence of leukotriene A4 hydrolase. Proc Natl Acad Sci U S A. 1987 Oct;84(19):6677-81.
+3654641	Minami M, Ohno S, Kawasaki H, Radmark O, Samuelsson B, Jornvall H, Shimizu T, Seyama Y, Suzuki K: Molecular cloning of a cDNA coding for human leukotriene A4 hydrolase. Complete primary structure of an enzyme involved in eicosanoid synthesis. J Biol Chem. 1987 Oct 15;262(29):13873-6.
+6490615	Radmark O, Shimizu T, Jornvall H, Samuelsson B: Leukotriene A4 hydrolase in human leukocytes. Purification and properties. J Biol Chem. 1984 Oct 25;259(20):12339-45.
+7628486	Mancini JA, Evans JF: Cloning and characterization of the human leukotriene A4 hydrolase gene. Eur J Biochem. 1995 Jul 1;231(1):65-71.
+8615763	Jendraschak E, Kaminski WE, Kiefl R, von Schacky C: The human leukotriene A4 hydrolase gene is expressed in two alternatively spliced mRNA forms. Biochem J. 1996 Mar 15;314 ( Pt 3):733-7.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:6710
+
+# Drug_Target_2_HPRD_ID:
+01056
+
+# Drug_Target_2_ID:
+3060
+
+# Drug_Target_2_Locus:
+12q22
+
+# Drug_Target_2_Molecular_Weight:
+69286
+
+# Drug_Target_2_Name:
+Leukotriene A-4 hydrolase
+
+# Drug_Target_2_Number_of_Residues:
+611
+
+# Drug_Target_2_PDB_ID:
+1HS6
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF01433	Peptidase_M1
+PF09127	Leuk-A4-hydro_C
+
+# Drug_Target_2_Protein_Sequence:
+>Leukotriene A-4 hydrolase
+MPEIVDTCSLASPASVCRTKHLHLRCSVDFTRRTLTGTAALTVQSQEDNLRSLVLDTKDL
+TIEKVVINGQEVKYALGERQSYKGSPMEISLPIALSKNQEIVIEISFETSPKSSALQWLT
+PEQTSGKEHPYLFSQCQAIHCRAILPCQDTPSVKLTYTAEVSVPKELVALMSAIRDGETP
+DPEDPSRKIYKFIQKVPIPCYLIALVVGALESRQIGPRTLVWSEKEQVEKSAYEFSETES
+MLKIAEDLGGPYVWGQYDLLVLPPSFPYGGMENPCLTFVTPTLLAGDKSLSNVIAHEISH
+SWTGNLVTNKTWDHFWLNEGHTVYLERHICGRLFGEKFRHFNALGGWGELQNSVKTFGET
+HPFTKLVVDLTDIDPDVAYSSVPYEKGFALLFYLEQLLGGPEIFLGFLKAYVEKFSYKSI
+TTDDWKDFLYSYFKDKVDVLNQVDWNAWLYSPGLPPIKPNYDMTLTNACIALSQRWITAK
+EDDLNSFNATDLKDLSSHQLNEFLAQTLQRAPLPLGHIKRMQEVYNFNAINNSEIRFRWL
+RLCIQSKWEDAIPLALKMATEQGRMKFTRPLFKDLAAFDKSHDQAVRTYQEHKASMHPVT
+AMLVGKDLKVD
+
+# Drug_Target_2_Reaction:
+(7E,9E,11Z,14Z)-(5S,6S)-5,6-epoxyicosa-7,9,11,14-tetraenoate + H2O = (6Z,8E,10E,14Z)-(5S,12R)-5,12-dihydroxyicosa-6,8,10,14-tetraenoate
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Hydrolyzes an epoxide moiety of leukotriene A4 (LTA-4) to form leukotriene B4 (LTB-4). The enzyme also has some peptidase activity
+
+# Drug_Target_2_SwissProt_ID:
+P09960
+
+# Drug_Target_2_SwissProt_Name:
+LKHA4_HUMAN
+
+# Drug_Target_2_Synonyms:
+EC 3.3.2.6
+LTA-4 hydrolase
+Leukotriene A(4) hydrolase
+
+# Drug_Target_2_Theoretical_pI:
+6.10
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB02062

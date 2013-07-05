@@ -1,0 +1,474 @@
+#BEGIN_DRUGCARD DB00943
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+J05AF03
+
+# Absorption:
+Bioavailability is over 80% following oral administration.
+
+# Biotransformation:
+Hepatic
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+HIVID
+
+# CAS_Registry_Number:
+7481-89-2
+
+# ChEBI_ID:
+10101
+
+# Chemical_Formula:
+C9H13N3O3
+
+# Chemical_IUPAC_Name:
+4-amino-1-[(2R,5S)-5-(hydroxymethyl)oxolan-2-yl]-1,2-dihydropyrimidin-2-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+1990896
+
+# Description:
+A dideoxynucleoside compound in which the 3'-hydroxyl group on the sugar moiety has been replaced by a hydrogen. This modification prevents the formation of 5' to 3' phosphodiester linkages, which are needed for the elongation of DNA chains, thus resulting in the termination of viral DNA growth. The compound is a potent inhibitor of HIV replication at low concentrations, acting as a chain-terminator of viral DNA by binding to reverse transcriptase. Its principal toxic side effect is axonal degeneration resulting in peripheral neuropathy. [PubChem]
+
+# Dosage_Forms:
+Tablet, film coated	Oral
+
+# Drug_Category:
+Anti-HIV Agents
+Antimetabolites
+Nucleoside and Nucleotide Reverse Transcriptase Inhibitors
+Reverse Transcriptase Inhibitors
+
+# Drug_Interactions:
+Didanosine	Additive toxicities (peripheral neuropathy)
+Lamivudine	Lamivudine may reduce the efficacy of zalcitabine. Combination therapy is not recommended.
+Pentamidine	Additive risk of pancreatitis. Concomitant therapy should be avoided.
+Ribavirin	Ribavirin may increase the hepatotoxicity of zalcitabine. May cause lactic acidosis. MOnitor for lactic acidosis during concomitant therapy.
+
+# Drug_Reference:
+7614775	Devineni D, Gallo JM: Zalcitabine. Clinical pharmacokinetics and efficacy. Clin Pharmacokinet. 1995 May;28(5):351-60.
+8097417	Shelton MJ, O'Donnell AM, Morse GD: Zalcitabine. Ann Pharmacother. 1993 Apr;27(4):480-9.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-1.30
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+7.64E+004 mg/L (at 25 °C)
+
+# Food_Interactions:
+Do not take calcium, aluminium, magnesium or iron supplements within 2 hours of taking this medication.
+Take on empty stomach: 1 hour before or 2 hours after meals.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Zalcitabine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+2 hours
+
+# InChI_Identifier:
+InChI=1S/C9H13N3O3/c10-7-3-4-12(9(14)11-7)8-2-1-6(5-13)15-8/h3-4,6,8,13H,1-2,5H2,(H2,10,11,14)/t6-,8+/m0/s1
+
+# InChI_Key:
+InChIKey=WREGKURFCTUGRC-POYBYMJQSA-N
+
+# Indication:
+For the treatment of Human immunovirus (HIV) infections in conjunction with other antivirals.
+
+# KEGG_Compound_ID:
+C07207
+
+# KEGG_Drug_ID:
+D00412
+
+# LIMS_Drug_ID:
+943
+
+# Mechanism_Of_Action:
+Zalcitabine is a nucleoside reverse transcriptase inhibitor (NRTI) with activity against Human Immunodeficiency Virus Type 1 (HIV-1). Within cells, zalcitabine is converted to its active metabolite, dideoxycytidine 5'-triphosphate (ddCTP), by the sequential action of cellular enzymes. ddCTP interferes with viral RNA-directed DNA polymerase (reverse transcriptase) by competing for utilization of the natural substrate deoxycytidine 5'-triphosphate (dCTP), as well as incorpating into viral DNA. Due to it's lack of a 3'-OH group, the formation of a 5' to 3' phosphodiester linkage that is necessary for DNA chain elongation is inhibited, thus leading to the termination of viral DNA growth.
+
+# Melting_Point:
+217-218 °C
+
+# Molecular_Weight_Avg:
+211.2178
+
+# Molecular_Weight_Mono:
+211.095691297
+
+# Organisms_Affected:
+Human Immunodeficiency Virus
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA451950
+
+# Pharmacology:
+Zalcitabine is an analog of 2'-deoxycytidine that is pharmacologically related to but structurally different from other nucleotide reverse transcriptase inhibitors (NRTIs). Zalcitabine inhibits the activity of HIV-1 reverse transcriptase (RT) both by competing with the natural substrate dGTP and by its incorporation into viral DNA.
+
+# Predicted_LogP_Hydrophobicity:
+-1.3
+
+# Predicted_LogS:
+-1.5
+
+# Predicted_Water_Solubility:
+7.05e+00 g/l
+
+# Primary_Accession_No:
+DB00943
+
+# Protein_Binding:
+Less than 4%
+
+# PubChem_Compound_ID:
+24066
+
+# PubChem_Substance_ID:
+46507879
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/zalcit.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00562
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=NC(=O)N(C=C1)[C@H]1CC[C@@H](CO)O1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+DDC
+DDCYD
+Dideoxycytidine
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Acute overdose: Inadvertent pediatric overdoses have occurred with doses up to 1.5 mg/kg zalcitabine. Chronic overdose: in an initial dose-finding study in which zalcitabine was administered at doses 25 times (0.25 mg/kg every 8 hours) the currently recommended dose, one patient discontinued zalcitabine after 1½ weeks of treatment subsequent to the development of a rash and fever.
+
+# Update_Date:
+2013-02-08 16:19:46 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Zalcitabine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A5
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4118
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A5
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A5
+MDLIPNLAVETWLLLAVSLVLLYLYGTRTHGLFKRLGIPGPTPLPLLGNVLSYRQGLWKF
+DTECYKKYGKMWGTYEGQLPVLAITDPDVIRTVLVKECYSVFTNRRSLGPVGFMKSAISL
+AEDEEWKRIRSLLSPTFTSGKLKEMFPIIAQYGDVLVRNLRREAEKGKPVTLKDIFGAYS
+MDVITGTSFGVNIDSLNNPQDPFVESTKKFLKFGFLDPLFLSIILFPFLTPVFEALNVSL
+FPKDTINFLSKSVNRMKKSRLNDKQKHRLDFLQLMIDSQNSKETESHKALSDLELAAQSI
+IFIFAGYETTSSVLSFTLYELATHPDVQQKLQKEIDAVLPNKAPPTYDAVVQMEYLDMVV
+NETLRLFPVAIRLERTCKKDVEINGVFIPKGSMVVIPTYALHHDPKYWTEPEEFRPERFS
+KKKDSIDPYIYTPFGTGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLDTQG
+LLQPEKPIVLKVDSRDGTLSGE
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P20815
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P11712
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+DCK
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+4773
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Deoxycytidine kinase
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Deoxycytidine kinase
+MATPPKRSCPSFSASSEGTRIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCN
+VQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAE
+KPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQA
+TPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNE
+DFKDKYESLVEKVKEFLSTL
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P27707
+
+# Phase_1_Metabolizing_Enzyme_6_Gene_Name:
+CYP3A43
+
+# Phase_1_Metabolizing_Enzyme_6_ID:
+6031
+
+# Phase_1_Metabolizing_Enzyme_6_Name:
+Cytochrome P450 3A43
+
+# Phase_1_Metabolizing_Enzyme_6_Protein_Sequence:
+>Cytochrome P450 3A43
+MDLIPNFAMETWVLVATSLVLLYIYGTHSHKLFKKLGIPGPTPLPFLGTILFYLRGLWNF
+DRECNEKYGEMWGLYEGQQPMLVIMDPDMIKTVLVKECYSVFTNQMPLGPMGFLKSALSF
+AEDEEWKRIRTLLSPAFTSVKFKEMVPIISQCGDMLVRSLRQEAENSKSINLKDFFGAYT
+MDVITGTLFGVNLDSLNNPQDPFLKNMKKLLKLDFLDPFLLLISLFPFLTPVFEALNIGL
+FPKDVTHFLKNSIERMKESRLKDKQKHRVDFFQQMIDSQNSKETKSHKALSDLELVAQSI
+IIIFAAYDTTSTTLPFIMYELATHPDVQQKLQEEIDAVLPNKAPVTYDALVQMEYLDMVV
+NETLRLFPVVSRVTRVCKKDIEINGVFIPKGLAVMVPIYALHHDPKYWTEPEKFCPERFS
+KKNKDSIDLYRYIPFGAGPRNCIGMRFALTNIKLAVIRALQNFSFKPCKETQIPLKLDNL
+PILQPEKPIVLKVHLRDGITSGP
+
+# Phase_1_Metabolizing_Enzyme_6_SwissProt_ID:
+Q9HB55
+
+# Phase_1_Metabolizing_Enzyme_7_Gene_Name:
+CYP3A7
+
+# Phase_1_Metabolizing_Enzyme_7_ID:
+6107
+
+# Phase_1_Metabolizing_Enzyme_7_Name:
+Cytochrome P450 3A7
+
+# Phase_1_Metabolizing_Enzyme_7_Protein_Sequence:
+>Cytochrome P450 3A7
+MDLIPNLAVETWLLLAVSLILLYLYGTRTHGLFKKLGIPGPTPLPFLGNALSFRKGYWTF
+DMECYKKYRKVWGIYDCQQPMLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKNAISI
+AEDEEWKRIRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKHVFGAYS
+MDVITSTSFGVSIDSLNNPQDPFVENTKKLLRFNPLDPFVLSIKVFPFLTPILEALNITV
+FPRKVISFLTKSVKQIKEGRLKETQKHRVDFLQLMIDSQNSKDSETHKALSDLELMAQSI
+IFIFAGYETTSSVLSFIIYELATHPDVQQKVQKEIDTVLPNKAPPTYDTVLQLEYLDMVV
+NETLRLFPVAMRLERVCKKDVEINGMFIPKGVVVMIPSYVLHHDPKYWREPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALVNMKLALVRVLQNFSFKPCKETQIPLKLRFG
+GLLLTEKPIVLKAESRDETVSGA
+
+# Phase_1_Metabolizing_Enzyme_7_SwissProt_ID:
+P24462
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+9084959	Barry M, Gibbons S, Back D, Mulcahy F: Protease inhibitors in patients with HIV disease. Clinically important pharmacokinetic considerations. Clin Pharmacokinet. 1997 Mar;32(3):194-209.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+Not Available
+
+# Drug_Target_1_General_Function:
+Not Available
+
+# Drug_Target_1_General_References:
+Not Available
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+7243
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+Not Available
+
+# Drug_Target_1_Name:
+Reverse transcriptase
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+Not Available
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+Q5DNL9
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+Not Available
+
+#END_DRUGCARD DB00943

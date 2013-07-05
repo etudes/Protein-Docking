@@ -1,0 +1,461 @@
+#BEGIN_DRUGCARD DB00006
+
+# AHFS_Codes:
+20:12.04.12
+
+# ATC_Codes:
+B01AE06
+
+# Absorption:
+Following intravenous administration, bivalirudin exhibits linear
+pharmacokinetics .  The mean steady state concentration is 12.3 +/-
+1.7mcg/mL after administration of an intravenous bolus of 1mg/kg
+followd by a 2.5mg/kg/hr intravenous infusion given over 4 hours.
+
+# Biotransformation:
+80% proteolytic cleavage
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Angiomax
+Angiox
+
+# CAS_Registry_Number:
+128270-60-0
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C98H138N24O33
+
+# Chemical_IUPAC_Name:
+Not Available
+
+# Chemical_Structure:
+>DB00006 sequence
+FPRPGGGGNGDFEEIPEEYL
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2246533
+
+# Description:
+Bivalirudin is a synthetic 20 residue peptide (thrombin inhibitor) which reversibly inhibits thrombin. Once bound to the active site, thrombin cannot activate fibrinogen into fibrin, the crucial step in the formation of thrombus. It is administered intravenously. Because it can cause blood stagnation, it is important to monitor changes in hematocrit, activated partial thromboplastin time, international normalized ratio and blood pressure.
+
+# Dosage_Forms:
+Powder, for solution	Intravenous
+
+# Drug_Category:
+Anticoagulants
+Antithrombotic Agents
+
+# Drug_Interactions:
+Deferasirox	Anticoagulants increase the risk for gastrointestinal ulceration/irritation and/or GI bleeding. If these two agents must be used, patients need to be closely monitored for signs and symptoms of GI toxicity.
+Gemcitabine	Gemcitabine may enhance the adverse/toxic effect of Bleomycin. The risk of pulmonary toxicity may be increased. Use extreme caution if using gemcitabine and bleomycin in combination. Monitor for the development of pulmonary toxicity.
+Ginkgo biloba	Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.
+Rivaroxaban	Anticoagulants may enhance the anticoagulant effect of rivaroxaban. Avoid concurrent use of rivaroxaban with other anticoagulants whenever possible, other than during transition periods, due to the possible increased for bleeding.
+Treprostinil	The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Bivalirudin. Monitor for increased bleeding during concomitant thearpy.
+
+# Drug_Reference:
+11156732	Robson R: The use of bivalirudin in patients with renal impairment. J Invasive Cardiol. 2000 Dec;12 Suppl F:33F-6.
+12851152	Gleason TG, Chengelis CP, Jackson CB, Lindstrom P: A 24-hour continuous infusion study of bivalirudin in the rat. Int J Toxicol. 2003 May-Jun;22(3):195-206.
+16466327	Seybert AL, Coons JC, Zerumsky K: Treatment of heparin-induced thrombocytopenia: is there a role for bivalirudin? Pharmacotherapy. 2006 Feb;26(2):229-41.
+16553503	Dang CH, Durkalski VL, Nappi JM: Evaluation of treatment with direct thrombin inhibitors in patients with heparin-induced thrombocytopenia. Pharmacotherapy. 2006 Apr;26(4):461-8.
+16614733	Shammas NW: Bivalirudin: pharmacology and clinical applications. Cardiovasc Drug Rev. 2005 Winter;23(4):345-60.
+17381384	Dager WE, Dougherty JA, Nguyen PH, Militello MA, Smythe MA: Heparin-induced thrombocytopenia: treatment options and special considerations. Pharmacotherapy. 2007 Apr;27(4):564-87.
+21108549	Van De Car DA, Rao SV, Ohman EM: Bivalirudin: a review of the pharmacology and clinical application. Expert Rev Cardiovasc Ther. 2010 Dec;8(12):1673-81.
+
+# Drug_Type:
+Approved
+Biotech
+Investigational
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.985
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Dan shen, dong quai, evening primrose oil, gingko, policosanol, willow bark
+Echinacea
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Bivalirudin
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+* Normal renal function: 25 min (in normal conditions)
+* Creatinine clearance 10-29mL/min: 57min
+* Dialysis-dependant patients: 3.5h
+
+# InChI_Identifier:
+Not Available
+
+# InChI_Key:
+Not Available
+
+# Indication:
+For treatment of heparin-induced thrombocytopenia and for the
+prevention of thrombosis. Bivalirudin is indicated for use in
+patients undergoing percutaneous coronary intervention (PCI), in
+patients at moderate to high risk acute coronary syndromes due to
+unstable angina or non-ST segment elevation in whom a PCI is planned.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+6
+
+# Mechanism_Of_Action:
+Inhibits the action of thrombin by binding both to its catalytic site and to its anion-binding exosite. Thrombin is a serine proteinase that plays a central role in the thrombotic process, acting to cleave fibrinogen into fibrin monomers and to activate Factor XIII to Factor XIIIa, allowing fibrin to develop a covalently cross-linked framework which stabilizes the thrombus; thrombin also activates Factors V and VIII, promoting further thrombin generation, and activates platelets, stimulating aggregation and granule release.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+2180.2853
+
+# Molecular_Weight_Mono:
+Not Available
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+2HGT
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Bivalirudin Pathway	SMP00277
+
+# PharmGKB_ID:
+PA10032
+
+# Pharmacology:
+Bivalirudin directly and reversibly inhibits thrombin by specifically binding both to the catalytic site and to the anion-binding exosite of circulating and clot-bound thrombin.  The action of bivalirudin is reversible because thrombin will slowly cleave the thrombin-bivalirudin bond which recovers the active site of thrombin.
+
+# Predicted_LogP_Hydrophobicity:
+Not Available
+
+# Predicted_LogS:
+Not Available
+
+# Predicted_Water_Solubility:
+Not Available
+
+# Primary_Accession_No:
+DB00006
+
+# Protein_Binding:
+Other than thrombin and red blood cells, bivalirudin does not bind to
+plasma proteins.
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic/angiomax.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+BIOD00076
+BTD00076
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+Not Available
+
+# State:
+liquid
+
+# Structure:
+0
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Based on a study by Gleason et al., the no-observed-adverse-effect level (NOAEL) for bivalirudin, administered to rats via intravenous infusion over a 24-hour period, was 2000 mg/kg/24 h.
+
+# Update_Date:
+2012-04-27 10:54:23 -0600
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Bivalirudin
+
+# pKa_Isoelectric_Point:
+3.91
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+MPO
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+1757
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Myeloperoxidase
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Myeloperoxidase precursor
+MGVPFFSSLRCMVDLGPCWAGGLTAEMKLLLALAGLLAILATPQPSEGAAPAVLGEVDTS
+LVLSSMEEAKQLVDKAYKERRESIKQRLRSGSASPMELLSYFKQPVAATRTAVRAADYLH
+VALDLLERKLRSLWRRPFNVTDVLTPAQLNVLSKSSGCAYQDVGVTCPEQDKYRTITGMC
+NNRRSPTLGASNRAFVRWLPAEYEDGFSLPYGWTPGVKRNGFPVALARAVSNEIVRFPTD
+QLTPDQERSLMFMQWGQLLDHDLDFTPEPAARASFVTGVNCETSCVQQPPCFPLKIPPND
+PRIKNQADCIPFFRSCPACPGSNITIRNQINALTSFVDASMVYGSEEPLARNLRNMSNQL
+GLLAVNQRFQDNGRALLPFDNLHDDPCLLTNRSARIPCFLAGDTRSSEMPELTSMHTLLL
+REHNRLATELKSLNPRWDGERLYQEARKIVGAMVQIITYRDYLPLVLGPTAMRKYLPTYR
+SYNDSVDPRIANVFTNAFRYGHTLIQPFMFRLDNRYQPMEPNPRVPLSRVFFASWRVVLE
+GGIDPILRGLMATPAKLNRQNQIAVDEIRERLFEQVMRIGLDLPALNMQRSRDHGLPGYN
+AWRRFCGLPQPETVGQLGTVLRNLKLARKLMEQYGTPNNIDIWMGGVSEPLKRKGRVGPL
+LACIIGTQFRKLRDGDRFWWENEGVFSMQQRQALAQISLPRIICDNTGITTVSKNNIFMS
+NSYPRDFVNCSTLPALNLASWREAS
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P05164
+
+# Drug_Target_1_Cellular_Location:
+Secreted protein
+extracellular space
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11060732	Scatena R: Bivalirudin: a new generation antithrombotic drug. Expert Opin Investig Drugs. 2000 May;9(5):1119-27.
+11504570	Bates ER: Bivalirudin for percutaneous coronary intervention and in acute coronary syndromes. Curr Cardiol Rep. 2001 Sep;3(5):348-54.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+11833835	Gladwell TD: Bivalirudin: a direct thrombin inhibitor. Clin Ther. 2002 Jan;24(1):38-58.
+11923794	Kleiman NS, Klem J, Fernandes LS, Rubin H, Challa S, Solomon S, Maresh K, Arora U, Klem E, Buergler J, Mathew S, Browning A, DeLao T: Pharmacodynamic profile of the direct thrombin antagonist bivalirudin given in combination with the glycoprotein IIb/IIIa antagonist eptifibatide. Am Heart J. 2002 Apr;143(4):585-93.
+11929334	Carswell CI, Plosker GL: Bivalirudin: a review of its potential place in the management of acute coronary syndromes. Drugs. 2002;62(5):841-70.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+F2
+
+# Drug_Target_1_GenBank_ID_Gene:
+M17262
+
+# Drug_Target_1_GenBank_ID_Protein:
+339641
+
+# Drug_Target_1_GeneCard_ID:
+F2
+
+# Drug_Target_1_Gene_Name:
+F2
+
+# Drug_Target_1_Gene_Sequence:
+>1869 bp
+ATGGCGCACGTCCGAGGCTTGCAGCTGCCTGGCTGCCTGGCCCTGGCTGCCCTGTGTAGC
+CTTGTGCACAGCCAGCATGTGTTCCTGGCTCCTCAGCAAGCACGGTCGCTGCTCCAGCGG
+GTCCGGCGAGCCAACACCTTCTTGGAGGAGGTGCGCAAGGGCAACCTAGAGCGAGAGTGC
+GTGGAGGAGACGTGCAGCTACGAGGAGGCCTTCGAGGCTCTGGAGTCCTCCACGGCTACG
+GATGTGTTCTGGGCCAAGTACACAGCTTGTGAGACAGCGAGGACGCCTCGAGATAAGCTT
+GCTGCATGTCTGGAAGGTAACTGTGCTGAGGGTCTGGGTACGAACTACCGAGGGCATGTG
+AACATCACCCGGTCAGGCATTGAGTGCCAGCTATGGAGGAGTCGCTACCCACATAAGCCT
+GAAATCAACTCCACTACCCATCCTGGGGCCGACCTACAGGAGAATTTCTGCCGCAACCCC
+GACAGCAGCACCACGGGACCCTGGTGCTACACTACAGACCCCACCGTGAGGAGGCAGGAA
+TGCAGCATCCCTGTCTGTGGCCAGGATCAAGTCACTGTAGCGATGACTCCACGCTCCGAA
+GGCTCCAGTGTGAATCTGTCACCTCCATTGGAGCAGTGTGTCCCTGATCGGGGGCAGCAG
+TACCAGGGGCGCCTGGCGGTGACCACACATGGGCTCCCCTGCCTGGCCTGGGCCAGCGCA
+CAGGCCAAGGCCCTGAGCAAGCACCAGGACTTCAACTCAGCTGTGCAGCTGGTGGAGAAC
+TTCTGCCGCAACCCAGACGGGGATGAGGAGGGCGTGTGGTGCTATGTGGCCGGGAAGCCT
+GGCGACTTTGGGTACTGCGACCTCAACTATTGTGAGGAGGCCGTGGAGGAGGAGACAGGA
+GATGGGCTGGATGAGGACTCAGACAGGGCCATCGAAGGGCGTACCGCCACCAGTGAGTAC
+CAGACTTTCTTCAATCCGAGGACCTTTGGCTCGGGAGAGGCAGACTGTGGGCTGCGACCT
+CTGTTCGAGAAGAAGTCGCTGGAGGACAAAACCGAAAGAGAGCTCCTGGAATCCTACATC
+GACGGGCGCATTGTGGAGGGCTCGGATGCAGAGATCGGCATGTCACCTTGGCAGGTGATG
+CTTTTCCGGAAGAGTCCCCAGGAGCTGCTGTGTGGGGCCAGCCTCATCAGTGACCGCTGG
+GTCCTCACCGCCGCCCACTGCCTCCTGTACCCGCCCTGGGACAAGAACTTCACCGAGAAT
+GACCTTCTGGTGCGCATTGGCAAGCACTCCCGCACAAGGTACGAGCGAAACATTGAAAAG
+ATATCCATGTTGGAAAAGATCTACATCCACCCCAGGTACAACTGGCGGGAGAACCTGGAC
+CGGGACATTGCCCTGATGAAGCTGAAGAAGCCTGTTGCCTTCAGTGACTACATTCACCCT
+GTGTGTCTGCCCGACAGGGAGACGGCAGCCAGCTTGCTCCAGGCTGGATACAAGGGGCGG
+GTGACAGGCTGGGGCAACCTGAAGGAGACGTGGACAGCCAACGTTGGTAAGGGGCAGCCC
+AGTGTCCTGCAGGTGGTGAACCTGCCCATTGTGGAGCGGCCGGTCTGCAAGGACTCCACC
+CGGATCCGCATCACTGACAACATGTTCTGTGCTGGTTACAAGCCTGATGAAGGGAAACGA
+GGGGATGCCTGTGAAGGTGACAGTGGGGGACCCTTTGTCATGAAGAGCCCCTTTAACAAC
+CGCTGGTATCAAATGGGCATCGTCTCATGGGGTGAAGGCTGTGACCGGGATGGGAAATAT
+GGCTTCTACACACATGTGTTCCGCCTGAAGAAGTGGATACAGAAGGTCATTGATCAGTTT
+GGAGAGTAG
+
+# Drug_Target_1_General_Function:
+Involved in blood clotting cascade
+
+# Drug_Target_1_General_References:
+10051558	Guinto ER, Caccia S, Rose T, Futterer K, Waksman G, Di Cera E: Unexpected crucial role of residue 225 in serine proteases. Proc Natl Acad Sci U S A. 1999 Mar 2;96(5):1852-7.
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+1349838	Iwahana H, Yoshimoto K, Shigekiyo T, Shirakami A, Saito S, Itakura M: Detection of a single base substitution of the gene for prothrombin Tokushima. The application of PCR-SSCP for the genetic and molecular analysis of dysprothrombinemia. Int J Hematol. 1992 Feb;55(1):93-100.
+1354985	Miyata T, Aruga R, Umeyama H, Bezeaud A, Guillin MC, Iwanaga S: Prothrombin Salakta: substitution of glutamic acid-466 by alanine reduces the fibrinogen clotting activity and the esterase activity. Biochemistry. 1992 Aug 25;31(33):7457-62.
+1421398	Morishita E, Saito M, Kumabashiri I, Asakura H, Matsuda T, Yamaguchi K: Prothrombin Himi: a compound heterozygote for two dysfunctional prothrombin molecules (Met-337-->Thr and Arg-388-->His). Blood. 1992 Nov 1;80(9):2275-80.
+2374926	Rydel TJ, Ravichandran KG, Tulinsky A, Bode W, Huber R, Roitsch C, Fenton JW 2nd: The structure of a complex of recombinant hirudin and human alpha-thrombin. Science. 1990 Jul 20;249(4966):277-80.
+2583108	Bode W, Mayr I, Baumann U, Huber R, Stone SR, Hofsteenge J: The refined 1.9 A crystal structure of human alpha-thrombin: interaction with D-Phe-Pro-Arg chloromethylketone and significance of the Tyr-Pro-Pro-Trp insertion segment. EMBO J. 1989 Nov;8(11):3467-75.
+266717	Walz DA, Hewett-Emmett D, Seegers WH: Amino acid sequence of human prothrombin fragments 1 and 2. Proc Natl Acad Sci U S A. 1977 May;74(5):1969-72.
+2719946	Henriksen RA, Mann KG: Substitution of valine for glycine-558 in the congenital dysthrombin thrombin Quick II alters primary substrate specificity. Biochemistry. 1989 Mar 7;28(5):2078-82.
+2825773	Degen SJ, Davie EW: Nucleotide sequence of the gene for human prothrombin. Biochemistry. 1987 Sep 22;26(19):6165-77.
+3242619	Henriksen RA, Mann KG: Identification of the primary structural defect in the dysthrombin thrombin Quick I: substitution of cysteine for arginine-382. Biochemistry. 1988 Dec 27;27(26):9160-5.
+3567158	Miyata T, Morita T, Inomoto T, Kawauchi S, Shirakami A, Iwanaga S: Prothrombin Tokushima, a replacement of arginine-418 by tryptophan that impairs the fibrinogen clotting activity of derived thrombin Tokushima. Biochemistry. 1987 Feb 24;26(4):1117-22.
+3759958	Rabiet MJ, Blashill A, Furie B, Furie BC: Prothrombin fragment 1 X 2 X 3, a major product of prothrombin activation in human plasma. J Biol Chem. 1986 Oct 5;261(28):13210-5.
+3771562	Rabiet MJ, Furie BC, Furie B: Molecular defect of prothrombin Barcelona. Substitution of cysteine for arginine at residue 273. J Biol Chem. 1986 Nov 15;261(32):15045-8.
+3801671	Inomoto T, Shirakami A, Kawauchi S, Shigekiyo T, Saito S, Miyoshi K, Morita T, Iwanaga S: Prothrombin Tokushima: characterization of dysfunctional thrombin derived from a variant of human prothrombin. Blood. 1987 Feb;69(2):565-9.
+6305407	Degen SJ, MacGillivray RT, Davie EW: Characterization of the complementary deoxyribonucleic acid and gene coding for human prothrombin. Biochemistry. 1983 Apr 26;22(9):2087-97.
+6405779	Board PG, Shaw DC: Determination of the amino acid substitution in human prothrombin type 3 (157 Glu leads to Lys) and the localization of a third thrombin cleavage site. Br J Haematol. 1983 Jun;54(2):245-54.
+7792730	Degen SJ, McDowell SA, Sparks LM, Scharrer I: Prothrombin Frankfurt: a dysfunctional prothrombin characterized by substitution of Glu-466 by Ala. Thromb Haemost. 1995 Feb;73(2):203-9.
+7865694	James HL, Kim DJ, Zheng DQ, Girolami A: Prothrombin Padua I: incomplete activation due to an amino acid substitution at a factor Xa cleavage site. Blood Coagul Fibrinolysis. 1994 Oct;5(5):841-4.
+8071320	Rydel TJ, Yin M, Padmanabhan KP, Blankenship DT, Cardin AD, Correa PE, Fenton JW 2nd, Tulinsky A: Crystallographic structure of human gamma-thrombin. J Biol Chem. 1994 Sep 2;269(35):22000-6.
+873923	Butkowski RJ, Elion J, Downing MR, Mann KG: Primary structure of human prethrombin 2 and alpha-thrombin. J Biol Chem. 1977 Jul 25;252(14):4942-57.
+9214615	van de Locht A, Bode W, Huber R, Le Bonniec BF, Stone SR, Esmon CT, Stubbs MT: The thrombin E192Q-BPTI complex reveals gross structural rearrangements: implications for the interaction with antithrombin and thrombomodulin. EMBO J. 1997 Jun 2;16(11):2977-84.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:3535
+
+# Drug_Target_1_HPRD_ID:
+01488
+
+# Drug_Target_1_ID:
+54
+
+# Drug_Target_1_Locus:
+11p11-q12
+
+# Drug_Target_1_Molecular_Weight:
+70037
+
+# Drug_Target_1_Name:
+Prothrombin
+
+# Drug_Target_1_Number_of_Residues:
+622
+
+# Drug_Target_1_PDB_ID:
+1HAG
+
+# Drug_Target_1_Pathway:
+Abciximab Pathway	SMP00265
+Acenocoumarol Pathway	SMP00269
+Acetylsalicylic Acid Pathway	SMP00083
+Alteplase Pathway	SMP00280
+Aminocaproic Acid Pathway	SMP00286
+Anistreplase Pathway	SMP00281
+Aprotinin Pathway	SMP00288
+Ardeparin Pathway	SMP00275
+Argatroban Pathway	SMP00276
+Bivalirudin Pathway	SMP00277
+Celecoxib Pathway	SMP00096
+Cilostazol Pathway	SMP00263
+Clopidogrel Pathway	SMP00260
+Dicumarol Pathway	SMP00270
+Dipyridamole (Antiplatelet) Pathway	SMP00264
+Enoxaparin Pathway	SMP00272
+Eptifibatide Pathway	SMP00266
+Etodolac Pathway	SMP00084
+Fondaparinux Pathway	SMP00273
+Heparin Pathway	SMP00274
+Lepirudin Pathway	SMP00278
+Meloxicam Pathway	SMP00106
+Phenprocoumon Pathway	SMP00271
+Reteplase Pathway	SMP00285
+Rofecoxib Pathway	SMP00087
+Streptokinase Pathway	SMP00282
+Tenecteplase Pathway	SMP00283
+Ticlopidine Pathway	SMP00261
+Tirofiban Pathway	SMP00267
+Tranexamic Acid Pathway	SMP00287
+Urokinase Pathway	SMP00284
+Valdecoxib Pathway	SMP00116
+Warfarin Pathway	SMP00268
+Ximelagatran Pathway	SMP00279
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00051	Kringle
+PF00089	Trypsin
+PF00594	Gla
+
+# Drug_Target_1_Protein_Sequence:
+>Prothrombin precursor
+MAHVRGLQLPGCLALAALCSLVHSQHVFLAPQQARSLLQRVRRANTFLEEVRKGNLEREC
+VEETCSYEEAFEALESSTATDVFWAKYTACETARTPRDKLAACLEGNCAEGLGTNYRGHV
+NITRSGIECQLWRSRYPHKPEINSTTHPGADLQENFCRNPDSSTTGPWCYTTDPTVRRQE
+CSIPVCGQDQVTVAMTPRSEGSSVNLSPPLEQCVPDRGQQYQGRLAVTTHGLPCLAWASA
+QAKALSKHQDFNSAVQLVENFCRNPDGDEEGVWCYVAGKPGDFGYCDLNYCEEAVEEETG
+DGLDEDSDRAIEGRTATSEYQTFFNPRTFGSGEADCGLRPLFEKKSLEDKTERELLESYI
+DGRIVEGSDAEIGMSPWQVMLFRKSPQELLCGASLISDRWVLTAAHCLLYPPWDKNFTEN
+DLLVRIGKHSRTRYERNIEKISMLEKIYIHPRYNWRENLDRDIALMKLKKPVAFSDYIHP
+VCLPDRETAASLLQAGYKGRVTGWGNLKETWTANVGKGQPSVLQVVNLPIVERPVCKDST
+RIRITDNMFCAGYKPDEGKRGDACEGDSGGPFVMKSPFNNRWYQMGIVSWGEGCDRDGKY
+GFYTHVFRLKKWIQKVIDQFGE
+
+# Drug_Target_1_Reaction:
+Selective cleavage of Arg!Gly bonds in fibrinogen to form fibrin and release fibrinopeptides A and B INHIBITOR Benzamidine; D-Phe-Pro-Arg-CH2Cl; Nalpha-(2-naphthyl-sulfonyl-glycyl)-D-p-amidinopheyl-alanylpiperadin e; Argatroban
+
+# Drug_Target_1_Signals:
+1-24
+
+# Drug_Target_1_Specific_Function:
+Thrombin, which cleaves bonds after Arg and Lys, converts fibrinogen to fibrin and activates factors V, VII, VIII, XIII, and, in complex with thrombomodulin, protein C
+
+# Drug_Target_1_SwissProt_ID:
+P00734
+
+# Drug_Target_1_SwissProt_Name:
+THRB_HUMAN
+
+# Drug_Target_1_Synonyms:
+Activated Factor II [IIa]
+Coagulation factor II
+EC 3.4.21.5
+Prothrombin precursor
+Thrombin
+
+# Drug_Target_1_Theoretical_pI:
+5.70
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00006

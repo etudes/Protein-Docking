@@ -1,0 +1,648 @@
+#BEGIN_DRUGCARD DB03271
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C9H13N5O3
+
+# Chemical_IUPAC_Name:
+2-amino-6-[(1S,2R)-1,2-dihydroxypropyl]-3,4,7,8-tetrahydropteridin-4-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+7,8-Dihydro-L-Biopterin
+
+# HET_ID:
+HBL
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C9H13N5O3/c1-3(15)6(16)4-2-11-7-5(12-4)8(17)14-9(10)13-7/h3,6,15-16H,2H2,1H3,(H4,10,11,13,14,17)/t3-,6-/m1/s1
+
+# InChI_Key:
+InChIKey=FEMXZDUTFRTWPE-AWFVSMACSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+3271
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+239.2312
+
+# Molecular_Weight_Mono:
+239.101839307
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1MLW
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-1.6
+
+# Predicted_LogS:
+-2.2
+
+# Predicted_Water_Solubility:
+1.63e+00 g/l
+
+# Primary_Accession_No:
+DB03271
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+5460203
+
+# PubChem_Substance_ID:
+46505350
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT01698
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+C[C@@H](O)[C@@H](O)C1=NC2=C(NC1)N=C(N)NC2=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:22:05 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+M55915
+
+# Drug_Target_1_GenBank_ID_Protein:
+144482
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+phhA
+
+# Drug_Target_1_Gene_Sequence:
+>891 bp
+ATGAACGACCGCGCCGACTTTGTGGTGCCCGACATCACCACCCGCAAGAATGTCGGACTG
+AGCCACGACGCCAACGACTTCACCTTGCCGCAGCCGTTGGATCGCTACTCTGCGGAAGAT
+CACGCCACCTGGGCCACGTTGTACCAGCGCCAATGCAAGCTGCTGCCCGGCCGCGCCTGC
+GACGAGTTTCTGGAAGGCCTGGAGCGCCTGGAAGTGGACGCCGACAGGGTGCCGGACTTC
+AATAAGCTCAACGAGAAGCTGATGGCCGCCACCGGCTGGAAGATCGTCGCGGTGCCGGGC
+CTGATTCCCGACGACGTGTTCTTCGAGCACCTGGCCAACCGCCGCTTCCCGGTCACCTGG
+TGGCTGCGCGAGCCGCACCAGCTCGACTACCTGCAGGAGCCGGACGTGTTCCACGACCTG
+TTCGGCCACGTGCCGCTGCTGATCAATCCGGTGTTCGCCGATTACCTGGAGGCCTACGGC
+AAGGGCGGGGTGAAGGCGAAGGCGCTGGGCGCTGCCGATGCTGGCGCGGCTGTACTGGTA
+CACGGTGGAATTCGGCCTGATCAATACTCCGGCCGGCATGCGCATCTACGGCGCCGGCAT
+CTTGTCCAGCAAGTCGGAATCCATCTACTGCCTGGACAGCGCCAGCCCCAACCGCGTCGG
+CTTCGACCTGATGCGCATCATGAACACGCGCTACCGGATCGACACCTTCCAGAAAACCTA
+CTTCGTCATCGACAGCTTCAAGCAGCTGTTCGACGCCACCGCGCCGGATTTCGCTCCGCT
+ATACTTGCAGCTGGCCGACGCGCAACCGTGGGGCGCGGCGACATCGCGCCGGACGACCTG
+GTGCTGAATGCCGGCGACCGCCAAGGATGGGCGGATACCGAAGACGTCTGA
+
+# Drug_Target_1_General_Function:
+Amino acid transport and metabolism
+
+# Drug_Target_1_General_References:
+12096915	Erlandsen H, Kim JY, Patch MG, Han A, Volner A, Abu-Omar MM, Stevens RC: Structural comparison of bacterial and human iron-dependent phenylalanine hydroxylases: similar fold, different stability and reaction rates. J Mol Biol. 2002 Jul 12;320(3):645-61.
+14500782	The complete genome sequence of Chromobacterium violaceum reveals remarkable and exploitable bacterial adaptability. Proc Natl Acad Sci U S A. 2003 Sep 30;100(20):11660-5. Epub 2003 Sep 18.
+1655752	Onishi A, Liotta LJ, Benkovic SJ: Cloning and expression of Chromobacterium violaceum phenylalanine hydroxylase in Escherichia coli and comparison of amino acid sequence with mammalian aromatic amino acid hydroxylases. J Biol Chem. 1991 Oct 5;266(28):18454-9.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+3109
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+33616
+
+# Drug_Target_1_Name:
+Phenylalanine-4-hydroxylase
+
+# Drug_Target_1_Number_of_Residues:
+297
+
+# Drug_Target_1_PDB_ID:
+1LTZ
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00351	Biopterin_H
+
+# Drug_Target_1_Protein_Sequence:
+>Phenylalanine-4-hydroxylase
+MNDRADFVVPDITTRKNVGLSHDANDFTLPQPLDRYSAEDHATWATLYQRQCKLLPGRAC
+DEFMEGLERLEVDADRVPDFNKLNQKLMAATGWKIVAVPGLIPDDVFFEHLANRRFPVTW
+WLREPHQLDYLQEPDVFHDLFGHVPLLINPVFADYLEAYGKGGVKAKALGALPMLARLYW
+YTVEFGLINTPAGMRIYGAGILSSKSESIYCLDSASPNRVGFDLMRIMNTRYRIDTFQKT
+YFVIDSFKQLFDATAPDFAPLYLQLADAQPWGAGDVAPDDLVLNAGDRQGWADTEDV
+
+# Drug_Target_1_Reaction:
+L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4a-hydroxytetrahydrobiopterin
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+L-phenylalanine + tetrahydrobiopterin + O(2) = L-tyrosine + 4a-hydroxytetrahydrobiopterin
+
+# Drug_Target_1_SwissProt_ID:
+P30967
+
+# Drug_Target_1_SwissProt_Name:
+PH4H_CHRVO
+
+# Drug_Target_1_Synonyms:
+EC 1.14.16.1
+PAH
+Phe-4- monooxygenase
+
+# Drug_Target_1_Theoretical_pI:
+4.59
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+TPH1
+
+# Drug_Target_2_GenBank_ID_Gene:
+X52836
+
+# Drug_Target_2_GenBank_ID_Protein:
+37955
+
+# Drug_Target_2_GeneCard_ID:
+TPH1
+
+# Drug_Target_2_Gene_Name:
+TPH1
+
+# Drug_Target_2_Gene_Sequence:
+>1335 bp
+ATGATTGAAGACAATAAGGAGAACAAAGACCATTCCTTAGAAAGGGGAAGAGCAAGTCTC
+ATTTTTTCCTTAAAGAATGAAGTTGGAGGACTTATAAAAGCCCTGAAAATCTTTCAGGAG
+AAGCATGTGAATCTGTTACATATCGAGTCCCGAAAATCAAAAAGAAGAAACTCAGAATTT
+GAGATTTTTGTTGACTGTGACATCAACAGAGAACAATTGAATGATATTTTTCATCTGCTG
+AAGTCTCATACCAATGTTCTCTCTGTGAATCTACCAGATAATTTTACTTTGAAGGAAGAT
+GGTATGGAAACTGTTCCTTGGTTTCCAAAGAAGATTTCTGACCTGGACCATTGTGCCAAC
+AGAGTTCTGATGTATGGATCTGAACTAGATGCAGACCATCCTGGCTTCAAAGACAATGTC
+TACCGTAAACGTCGAAAGTATTTTGCGGACTTGGCTATGAACTATAAACATGGAGACCCC
+ATTCCAAAGGTTGAATTCACTGAAGAGGAGATTAAGACCTGGGGAACCGTATTCCAAGAG
+CTCAACAAACTCTACCCAACCCATGCTTGCAGAGAGTATCTCAAAAACTTACCTTTGCTT
+TCTAAATATTGTGGATATCGGGAGGATAATATCCCACAATTGGAAGATGTCTCCAACTTT
+TTAAAAGAGCGTACAGGTTTTTCCATCCGTCCTGTGGCTGGTTACTTATCACCAAGAGAT
+TTCTTATCAGGTTTAGCCTTTCGAGTTTTTCACTGCACTCAATATGTGAGACACAGTTCA
+GATCCCTTCTATACCCCAGAGCCAGATACCTGCCATGAACTCTTAGGTCATGTCCCGCTT
+TTGGCTGAACCTAGTTTTGCCCAATTCTCCCAAGAAATTGGCTTGGCTTCTCTTGGCGCT
+TCAGAGGAGGCTGTTCAAAAACTGGCAACGTGCTACTTTTTCACTGTGGAGTTTGGTCTA
+TGTAAACAAGATGGACAGCTAAGAGTCTTTGGTGCTGGCTTACTTTCTTCTATCAGTGAA
+CTCAAACATGCACTTTCTGGACATGCCAAAGTAAAGCCCTTTGATCCCAAGATTACCTGC
+AAACAGGAATGTCTTATCACAACTTTTCAAGATGTCTACTTTGTATCTGAAAGTTTTGAA
+GATGCAAAGGAGAAGATGAGAGAATTTACCAAAACAATTAAGCGTCCATTTGGAGTGAAG
+TATAATCCATATACACGGAGTATTCAGATCCTGAAAGACACCAAGAGCATAACCAGTGCC
+ATGAATGAGCTGCAGCATGATCTCGATGTTGTCAGTGATGCCCTTGCTAAGGTCAGCAGG
+AAGCCGAGTATCTAA
+
+# Drug_Target_2_General_Function:
+Amino acid transport and metabolism
+
+# Drug_Target_2_General_References:
+12379098	Wang L, Erlandsen H, Haavik J, Knappskog PM, Stevens RC: Three-dimensional structure of human tryptophan hydroxylase and its implications for the biosynthesis of the neurotransmitters serotonin and melatonin. Biochemistry. 2002 Oct 22;41(42):12569-74.
+2377472	Boularand S, Darmon MC, Ganem Y, Launay JM, Mallet J: Complete coding sequence of human tryptophan hydroxylase. Nucleic Acids Res. 1990 Jul 25;18(14):4257.
+7986090	Tipper JP, Citron BA, Ribeiro P, Kaufman S: Cloning and expression of rabbit and human brain tryptophan hydroxylase cDNA in Escherichia coli. Arch Biochem Biophys. 1994 Dec;315(2):445-53.
+9751214	Wang GA, Coon SL, Kaufman S: Alternative splicing at the 3'-cDNA of human tryptophan hydroxylase. J Neurochem. 1998 Oct;71(4):1769-72.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:12008
+
+# Drug_Target_2_HPRD_ID:
+01846
+
+# Drug_Target_2_ID:
+134
+
+# Drug_Target_2_Locus:
+11p15.3-p14
+
+# Drug_Target_2_Molecular_Weight:
+50986
+
+# Drug_Target_2_Name:
+Tryptophan 5-hydroxylase 1
+
+# Drug_Target_2_Number_of_Residues:
+444
+
+# Drug_Target_2_PDB_ID:
+1MLW
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00351	Biopterin_H
+PF01842	ACT
+
+# Drug_Target_2_Protein_Sequence:
+>Tryptophan 5-hydroxylase 1
+MIEDNKENKDHSLERGRASLIFSLKNEVGGLIKALKIFQEKHVNLLHIESRKSKRRNSEF
+EIFVDCDINREQLNDIFHLLKSHTNVLSVNLPDNFTLKEDGMETVPWFPKKISDLDHCAN
+RVLMYGSELDADHPGFKDNVYRKRRKYFADLAMNYKHGDPIPKVEFTEEEIKTWGTVFQE
+LNKLYPTHACREYLKNLPLLSKYCGYREDNIPQLEDVSNFLKERTGFSIRPVAGYLSPRD
+FLSGLAFRVFHCTQYVRHSSDPFYTPEPDTCHELLGHVPLLAEPSFAQFSQEIGLASLGA
+SEEAVQKLATCYFFTVEFGLCKQDGQLRVFGAGLLSSISELKHALSGHAKVKPFDPKITC
+KQECLITTFQDVYFVSESFEDAKEKMREFTKTIKRPFGVKYNPYTRSIQILKDTKSITSA
+MNELQHDLDVVSDALAKVSRKPSI
+
+# Drug_Target_2_Reaction:
+L-tryptophan + tetrahydrobiopterin + O2 = 5-hydroxy-L-tryptophan + 4a-hydroxytetrahydrobiopterin
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Not Available
+
+# Drug_Target_2_SwissProt_ID:
+P17752
+
+# Drug_Target_2_SwissProt_Name:
+TPH1_HUMAN
+
+# Drug_Target_2_Synonyms:
+EC 1.14.16.4
+Tryptophan 5-monooxygenase 1
+
+# Drug_Target_2_Theoretical_pI:
+7.23
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Not Available
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+NOS2A
+
+# Drug_Target_3_GenBank_ID_Gene:
+L09210
+
+# Drug_Target_3_GenBank_ID_Protein:
+292242
+
+# Drug_Target_3_GeneCard_ID:
+NOS2A
+
+# Drug_Target_3_Gene_Name:
+NOS2
+
+# Drug_Target_3_Gene_Sequence:
+>3462 bp
+ATGGCCTGTCCTTGGAAATTTCTGTTCAAGACCAAATTCCACCAGTATGCAATGAATGGG
+GAAAAAGACATCAACAACAATGTGGAGAAAGCCCCCTGTGCCACCTCCAGTCCAGTGACA
+CAGGATGACCTTCAGTATCACAACCTCAGCAAGCAGCAGAATGAGTCCCCGCAGCCCCTC
+GTGGAGACGGGAAAGAAGTCTCCAGAATCTCTGGTCAAGCTGGATGCAACCCCATTGTCC
+TCCCCACGGCATGTGAGGATCAAAAACTGGGGCAGCGGGATGACTTTCCAAGACACACTT
+CACCATAAGGCCAAAGGGATTTTAACTTGCAGGTCCAAATCTTGCCTGGGGTCCATTATG
+ACTCCCAAAAGTTTGACCAGAGGACCCAGGGACAAGCCTACCCCTCCAGATGAGCTTCTA
+CCTCAAGCTATCGAATTTGTCAACCAATATTACGGCTCCTTCAAAGAGGCAAAAATAGAG
+GAACATCTGGCCAGGGTGGAAGCGGTAACAAAGGAGATAGAAACAACAGGAACCTACCAA
+CTGACGGGAGATGAGCTCATCTTCGCCACCAAGCAGGCCTGGCGCAATGCCCCACGCTGC
+ATTGGGAGGATCCAGTGGTCCAACCTGCAGGTCTTCGATGCCCGCAGCTGTTCCACTGCC
+CGGGAAATGTTTGAACACATCTGCAGACACGTGCGTTACTCCACCAACAATGGCAACATC
+AGGTCGGCCATCACCGTGTTCCCCCAGCGGAGTGATGGCAAGCACGACTTCCGGGTGTGG
+AATGCTCAGCTCATCCGCTATGCTGGCTACCAGATGCCAGATGGCAGCATCAGAGGGGAC
+CCTGCCAACGTGGAATTCACTCAGCTGTGCATCGACCTGGGCTGGAAGCCCAAGTACGGC
+CGCTTCGATGTGGTCCCCCTGGTCCTGCAGGCCAATGGCCGTGACCCTGAGCTCTTCGAA
+ATCCCACCTGACCTTGTGCTTGAGGTGGCCATGGAACATCCCAAATACGAGTGGTTTCGG
+GAACTGGAGCTAAAGTGGTACGCCCTGCCTGCAGTGGCCAACATGCTGCTTGAGGTGGGC
+GGCCTGGAGTTCCCAGGGTGCCCCTTCAATGGCTGGTACATGGGCACAGAGATCGGAGTC
+CGGGACTTCTGTGACGTCCAGCGCTACAACATCCTGGAGGAAGTGGGCAGGAGAATGGGC
+CTGGAAACGCACAAGCTGGCCTCGCTCTGGAAAGACCAGGCTGTCGTTGAGATCAACATT
+GCTGTGATCCATAGTTTTCAGAAGCAGAATGTGACCATCATGGACCACCACTCGGCTGCA
+GAATCCTTCATGAAGTACATGCAGAATGAATACCGGTCCCGTGGGGGCTGCCCGGCAGAC
+TGGATTTGGCTGGTCCCTCCCATGTCTGGGAGCATCACCCCCGTGTTTCACCAGGAGATG
+CTGAACTACGTCCTGTCCCCTTTCTACTACTATCAGGTAGAGGCCTGGAAAACCCATGTC
+TGGCAGGACGAGAAGCGGAGACCCAAGAGAAGAGAGATTCCATTGAAAGTCTTGGTCAAA
+GCTGTGCTCTTTGCCTGTATGCTGATGCGCAAGACAATGGCGTCCCGAGTCAGAGTCACC
+ATCCTCTTTGCGACAGAGACAGGAAAATCAGAGGCGCTGGCCTGGGACCTGGGGGCCTTA
+TTCAGCTGTGCCTTCAACCCCAAGGTTGTCTGCATGGATAAGTACAGGCTGAGCTGCCTG
+GAGGAGGAACGGCTGCTGTTGGTGGTGACCAGTACGTTTGGCAATGGAGACTGCCCTGGC
+AATGGAGAGAAACTGAAGAAATCGCTCTTCATGCTGAAAGAGCTCAACAACAAATTCAGG
+TACGCTGTGTTTGGCCTCGGCTCCAGCATGTACCCTCGGTTCTGCGCCTTTGCTCATGAC
+ATTGATCAGAAGCTGTCCCACCTGGGGGCCTCTCAGCTCACCCCGATGGGAGAAGGGGAT
+GAGCTCAGTGGGCAGGAGGACGCCTTCCGCAGCTGGGCCGTGCAAACCTTCAAGGCAGCC
+TGTGAGACGTTTGATGTCCGAGGCAAACAGCACATTCAGATCCCCAAGCTCTACACCTCC
+AATGTGACCTGGGACCCGCACCACTACAGGCTCGTGCAGGACTCACAGCCTTTGGACCTC
+AGCAAAGCCCTCAGCAGCATGCATGCCAAGAACGTGTTCACCATGAGGCTCAAATCTCGG
+CAGAATCTACAAAGTCCGACATCCAGCCGTGCCACCATCCTGGTGGAACTCTCCTGTGAG
+GATGGCCAAGGCCTGAACTACCTGCCGGGGGAGCACCTTGGGGTTTGCCCAGGCAACCAG
+CCGGCCCTGGTCCAAGGCATCCTGGAGCGAGTGGTGGATGGCCCCACACCCCACCAGACA
+GTGCGCCTGGAGGACCTGGATGAGAGTGGCAGCTACTGGGTCAGTGACAAGAGGCTGCCC
+CCCTGCTCACTCAGCCAGGCCCTCACCTACTCCCCGGACATCACCACACCCCCAACCCAG
+CTGCTGCTCCAAAAGCTGGCCCAGGTGGCCACAGAAGAGCCTGAGAGACAGAGGCTGGAG
+GCCCTGTGCCAGCCCTCAGAGTACAGCAAGTGGAAGTTCACCAACAGCCCCACATTCCTG
+GAGGTGCTAGAGGAGTTCCCGTCCCTGCGGGTGTCTGCTGGCTTCCTGCTTTCCCAGCTC
+CCCATTCTGAAGCCCAGGTTCTACTCCATCAGCTCCTCCCGGGATCACACGCCCACGGAG
+ATCCACCTGACTGTGGCCGTGGTCACCTACCACACCGGAGATGGCCAGGGTCCCCTGCAC
+CACGGTGTCTGCAGCACATGGCTCAACAGCCTGAAGCCCCAAGACCCAGTGCCCTGCTTT
+GTGCGGAATGCCAGCGCCTTCCACCTCCCCGAGGATCCCTCCCATCCTTGCATCCTCATC
+GGGCCTGGCACAGGCATCGTGCCCTTCCGCAGTTTCTGGCAGCAACGGCTCCATGACTCC
+CAGCACAAGGGAGTGCGGGGAGGCCGCATGACCTTGGTGTTTGGGTGCCGCCGCCCAGAT
+GAGGACCACATCTACCAGGAGGAGATGCTGGAGATGGCCCAGAAGGGGGTGCTGCATGCG
+GTGCACACAGCCTATTCCCGCCTGCCTGGCAAGCCCAAGGTCTATGTTCAGGACATCCTG
+CGGCAGCAGCTGGCCAGCGAGGTGCTCCGTGTGCTCCACAAGGAGCCAGGCCACCTCTAT
+GTTTGCGGGGATGTGCGCATGGCCCGGGACGTGGCCCACACCCTGAAGCAGCTGGTGGCT
+GCCAAGCTGAAATTGAATGAGGAGCAGGTCGAGGACTATTTCTTTCAGCTCAAGAGCCAG
+AAGCGCTATCACGAAGATATCTTCGGTGCTGTATTTCCTTACGAGGCGAAGAAGGACAGG
+GTGGCGGTGCAGCCCAGCAGCCTGGAGATGTCAGCGCTCTGA
+
+# Drug_Target_3_General_Function:
+Inorganic ion transport and metabolism
+
+# Drug_Target_3_General_References:
+10074942	Fischmann TO, Hruza A, Niu XD, Fossetta JD, Lunn CA, Dolphin E, Prongay AJ, Reichert P, Lundell DJ, Narula SK, Weber PC: Structural characterization of nitric oxide synthase isoforms reveals striking active-site conservation. Nat Struct Biol. 1999 Mar;6(3):233-42.
+10409685	Li H, Raman CS, Glaser CB, Blasko E, Young TA, Parkinson JF, Whitlow M, Poulos TL: Crystal structures of zinc-free and -bound heme domain of human inducible nitric-oxide synthase. Implications for dimer stability and comparison with endothelial nitric-oxide synthase. J Biol Chem. 1999 Jul 23;274(30):21276-84.
+12080081	Glynne PA, Darling KE, Picot J, Evans TJ: Epithelial inducible nitric-oxide synthase is an apical EBP50-binding protein that directs vectorial nitric oxide output. J Biol Chem. 2002 Sep 6;277(36):33132-8. Epub 2002 Jun 21.
+7504305	Charles IG, Palmer RM, Hickery MS, Bayliss MT, Chubb AP, Hall VS, Moss DW, Moncada S: Cloning, characterization, and expression of a cDNA encoding an inducible nitric oxide synthase from the human chondrocyte. Proc Natl Acad Sci U S A. 1993 Dec 1;90(23):11419-23.
+7522054	Maier R, Bilbe G, Rediske J, Lotz M: Inducible nitric oxide synthase from human articular chondrocytes: cDNA cloning and analysis of mRNA expression. Biochim Biophys Acta. 1994 Sep 21;1208(1):145-50.
+7528017	Park CS, Pardhasaradhi K, Gianotti C, Villegas E, Krishna G: Human retina expresses both constitutive and inducible isoforms of nitric oxide synthase mRNA. Biochem Biophys Res Commun. 1994 Nov 30;205(1):85-91.
+7531687	Hokari A, Zeniya M, Esumi H: Cloning and functional expression of human inducible nitric oxide synthase (NOS) cDNA from a glioblastoma cell line A-172. J Biochem (Tokyo). 1994 Sep;116(3):575-81.
+7532248	McLay JS, Chatterjee P, Nicolson AG, Jardine AG, McKay NG, Ralston SH, Grabowski P, Haites NE, MacLeod AM, Hawksworth GM: Nitric oxide production by human proximal tubular cells: a novel immunomodulatory mechanism? Kidney Int. 1994 Oct;46(4):1043-9.
+7544004	Guo FH, De Raeve HR, Rice TW, Stuehr DJ, Thunnissen FB, Erzurum SC: Continuous nitric oxide synthesis by inducible nitric oxide synthase in normal human airway epithelium in vivo. Proc Natl Acad Sci U S A. 1995 Aug 15;92(17):7809-13.
+7558036	Bloch KD, Wolfram JR, Brown DM, Roberts JD Jr, Zapol DG, Lepore JJ, Filippov G, Thomas JE, Jacob HJ, Bloch DB: Three members of the nitric oxide synthase II gene family (NOS2A, NOS2B, and NOS2C) colocalize to human chromosome 17. Genomics. 1995 Jun 10;27(3):526-30.
+7682706	Geller DA, Lowenstein CJ, Shapiro RA, Nussler AK, Di Silvio M, Wang SC, Nakayama DK, Simmons RL, Snyder SH, Billiar TR: Molecular cloning and expression of inducible nitric oxide synthase from human hepatocytes. Proc Natl Acad Sci U S A. 1993 Apr 15;90(8):3491-5.
+7692964	Sherman PA, Laubach VE, Reep BR, Wood ER: Purification and cDNA sequence of an inducible nitric oxide synthase from a human tumor cell line. Biochemistry. 1993 Nov 2;32(43):11600-5.
+9160867	Luss H, Li RK, Shapiro RA, Tzeng E, McGowan FX, Yoneyama T, Hatakeyama K, Geller DA, Mickle DA, Simmons RL, Billiar TR: Dedifferentiated human ventricular cardiac myocytes express inducible nitric oxide synthase mRNA but not protein in response to IL-1, TNF, IFNgamma, and LPS. J Mol Cell Cardiol. 1997 Apr;29(4):1153-65.
+9721329	Taylor BS, Alarcon LH, Billiar TR: Inducible nitric oxide synthase in the liver: regulation and function. Biochemistry (Mosc). 1998 Jul;63(7):766-81.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:7873
+
+# Drug_Target_3_HPRD_ID:
+01225
+
+# Drug_Target_3_ID:
+7
+
+# Drug_Target_3_Locus:
+17q11.2-q12
+
+# Drug_Target_3_Molecular_Weight:
+131119
+
+# Drug_Target_3_Name:
+Nitric oxide synthase, inducible
+
+# Drug_Target_3_Number_of_Residues:
+1153
+
+# Drug_Target_3_PDB_ID:
+2NSI
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00175	NAD_binding_1
+PF00258	Flavodoxin_1
+PF00667	FAD_binding_1
+PF02898	NO_synthase
+
+# Drug_Target_3_Protein_Sequence:
+>Nitric oxide synthase, inducible
+MACPWKFLFKTKFHQYAMNGEKDINNNVEKAPCATSSPVTQDDLQYHNLSKQQNESPQPL
+VETGKKSPESLVKLDATPLSSPRHVRIKNWGSGMTFQDTLHHKAKGILTCRSKSCLGSIM
+TPKSLTRGPRDKPTPPDELLPQAIEFVNQYYGSFKEAKIEEHLARVEAVTKEIETTGTYQ
+LTGDELIFATKQAWRNAPRCIGRIQWSNLQVFDARSCSTAREMFEHICRHVRYSTNNGNI
+RSAITVFPQRSDGKHDFRVWNAQLIRYAGYQMPDGSIRGDPANVEFTQLCIDLGWKPKYG
+RFDVVPLVLQANGRDPELFEIPPDLVLEVAMEHPKYEWFRELELKWYALPAVANMLLEVG
+GLEFPGCPFNGWYMGTEIGVRDFCDVQRYNILEEVGRRMGLETHKLASLWKDQAVVEINI
+AVLHSFQKQNVTIMDHHSAAESFMKYMQNEYRSRGGCPADWIWLVPPMSGSITPVFHQEM
+LNYVLSPFYYYQVEAWKTHVWQDEKRRPKRREIPLKVLVKAVLFACMLMRKTMASRVRVT
+ILFATETGKSEALAWDLGALFSCAFNPKVVCMDKYRLSCLEEERLLLVVTSTFGNGDCPG
+NGEKLKKSLFMLKELNNKFRYAVFGLGSSMYPRFCAFAHDIDQKLSHLGASQLTPMGEGD
+ELSGQEDAFRSWAVQTFKAACETFDVRGKQHIQIPKLYTSNVTWDPHHYRLVQDSQPLDL
+SKALSSMHAKNVFTMRLKSRQNLQSPTSSRATILVELSCEDGQGLNYLPGEHLGVCPGNQ
+PALVQGILERVVDGPTPHQTVRLEALDESGSYWVSDKRLPPCSLSQALTYFLDITTPPTQ
+LLLQKLAQVATEEPERQRLEALCQPSEYSKWKFTNSPTFLEVLEEFPSLRVSAGFLLSQL
+PILKPRFYSISSSRDHTPTEIHLTVAVVTYHTRDGQGPLHHGVCSTWLNSLKPQDPVPCF
+VRNASGFHLPEDPSHPCILIGPGTGIAPFRSFWQQRLHDSQHKGVRGGRMTLVFGCRRPD
+EDHIYQEEMLEMAQKGVLHAVHTAYSRLPGKPKVYVQDILRQQLASEVLRVLHKEPGHLY
+VCGDVRMARDVAHTLKQLVAAKLKLNEEQVEDYFFQLKSQKRYHEDIFGAVFPYEAKKDR
+VAVQPSSLEMSAL
+
+# Drug_Target_3_Reaction:
+L-arginine + n NADPH + n H+ + m O2 = citrulline + nitric oxide + n NADP+
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Produces nitric oxide (NO) which is a messenger molecule with diverse functions throughout the body. In macrophages, NO mediates tumoricidal and bactericidal actions
+
+# Drug_Target_3_SwissProt_ID:
+P35228
+
+# Drug_Target_3_SwissProt_Name:
+NOS2_HUMAN
+
+# Drug_Target_3_Synonyms:
+EC 1.14.13.39
+HEP- NOS
+Hepatocyte NOS
+Inducible NO synthase
+Inducible NOS
+NOS type II
+iNOS
+
+# Drug_Target_3_Theoretical_pI:
+8.01
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB03271

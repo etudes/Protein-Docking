@@ -1,0 +1,472 @@
+#BEGIN_DRUGCARD DB08907
+
+# AHFS_Codes:
+68:20.18
+
+# ATC_Codes:
+A10BX11
+
+# Absorption:
+The pharmacokinetics of canagliflozin is similar in healthy subjects and patients with type 2 diabetes. Plasma Cmax and AUC of canagliflozin increased in a dose-proportional manner from 50 mg to 300 mg. Accumulation in plasma has been observed following multiple  doses of 100 - 300 mg. Food does not affect the absorption of canagliflozin. 
+Tmax = 1- 2 hours; 
+Cmax = 1059 - 3148 ng/mL; 
+Time to steady state, once daily dose, 100 - 300 mg = 4-5 days;
+Absolute oral bioavailability = 65%.
+
+# Biotransformation:
+Canagliflozin is hepatically metabolized via O-glucuronidation into two inactive O-glucuronide metabolites. The enzymes that facilitate this process are UGT1A9 and UGT2B4. To a lesser extent (7%), canagliflozin also undergoes oxidative metabolism via CYP3A4. Canagliflozin weakly inhibited CYP2B6, CYP2C8, CYP2C9, and CYP3A4 based on in vitro studies with human hepatic microsomes.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Invokana
+
+# CAS_Registry_Number:
+842133-18-0
+
+# ChEBI_ID:
+73274
+
+# Chemical_Formula:
+C24H25FO5S
+
+# Chemical_IUPAC_Name:
+(2S,3R,4R,5S,6R)-2-(3-{[5-(4-fluorophenyl)thiophen-2-yl]methyl}-4-methylphenyl)-6-(hydroxymethyl)oxane-3,4,5-triol
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2013-06-17 00:21:51 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Canagliflozin belongs to a new class of anti-diabetic drugs that works by inhibiting the sodium-glucose transport protein (SGLT2). This transport protein is found in the kidney and is responsible for reabsorbing glucose that has been filtered. FDA approved on March 29, 2013.
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Antidiabetic
+
+# Drug_Interactions:
+Digoxin	When coadministered with 300 mg canagliflozin, the AUC and mean peak drug concentration of digoxin increased. Monitor concomitant therapy closely.
+Phenobarbital	Nonselective inducers of UGT enzymes may decrease levels of canagliflozin, thus decreasing efficacy. Consider increase the dose to 300 mg once daily.
+Phenytoin	Nonselective inducers of UGT enzymes may decrease levels of canagliflozin, thus decreasing efficacy. Consider increase the dose to 300 mg once daily.
+Rifampin	Nonselective inducers of UGT enzymes may decrease levels of canagliflozin, thus decreasing efficacy. Consider increase the dose to 300 mg once daily.
+Ritonavir	Nonselective inducers of UGT enzymes may decrease levels of canagliflozin, thus decreasing efficacy. Consider increase the dose to 300 mg once daily.
+
+# Drug_Reference:
+23590413	Lamos EM, Younk LM, Davis SN: Canagliflozin , an inhibitor of sodium-glucose cotransporter 2, for the treatment of type 2 diabetes mellitus. Expert Opin Drug Metab Toxicol. 2013 Jun;9(6):763-75. doi: 10.1517/17425255.2013.791282. Epub 2013 Apr 17.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Canagliflozin
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+The apparent terminal half-life (t1/2) was 10.6 hours and 13.1 hours for the 100 mg and 300 mg doses, respectively.
+
+# InChI_Identifier:
+InChI=1S/C24H25FO5S/c1-13-2-3-15(24-23(29)22(28)21(27)19(12-26)30-24)10-16(13)11-18-8-9-20(31-18)14-4-6-17(25)7-5-14/h2-10,19,21-24,26-29H,11-12H2,1H3/t19-,21-,22+,23-,24+/m1/s1
+
+# InChI_Key:
+InChIKey=XTNGUQKDFGDXSJ-ZXGKGEBGSA-N
+
+# Indication:
+Canagliflozin is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. Use in type 1 diabetes mellitus patients or in treatment of diabetic ketoacidosis is not recommended.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D09592
+
+# LIMS_Drug_ID:
+8923
+
+# Mechanism_Of_Action:
+Sodium-glucose co-transporter 2 (SGLT2), expressed in the proximal renal tubules, is responsible for the majority of the reabsorption of filtered glucose from the tubular lumen. Canagliflozin is an inhibitor of SGLT2. By inhibiting SGLT2, canagliflozin reduces reabsorption of filtered glucose and lowers the renal threshold for glucose (RTG), and thereby increases urinary glucose excretion.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+444.516
+
+# Molecular_Weight_Mono:
+444.140672805
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Canagliflozin binds to SGLT2 more potently (250-times) than SGLT1 in vitro. The 50% inhibitory concentrations (IC50) are 2.2-4.4 nmol/L and 684 - 910 nmol/L for SGLT2 and SGLT1 respectively. 
+Dose dependent decreases in renal threshold for glucose and increases in urinary glucose excretion were observed when single and multiple oral doses were administered to type 2 diabetes patients. Decreases in plasma glucose in a dose-dependent fashion were also noted as early as the first day of administration. When given to healthy and type 2 diabetic patients before a meal, a delay in intestinal glucose absorption and a reduction in postprandial glucose was observed. Canagliflozin does not prolong the QTc interval.
+
+# Predicted_LogP_Hydrophobicity:
+3.09
+
+# Predicted_LogS:
+-5
+
+# Predicted_Water_Solubility:
+4.50e-03 g/l
+
+# Primary_Accession_No:
+DB08907
+
+# Protein_Binding:
+>99% protein bound, mainly to albumin. It also binds to alpha-acid glycoprotein.  Protein binding is independent of canagliflozin plasma concentrations. Plasma protein binding is not meaningfully altered in patients with renal or hepatic impairment.
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/invokana-drug.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@]1(O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C1=CC=C(C)C(CC2=CC=C(S2)C2=CC=C(F)C=C2)=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Canagliflozin hydrate
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Most common adverse reactions associated with canagliflozin (5% or greater incidence): female genital mycotic infections, urinary tract infection, and increased urination.
+
+# Update_Date:
+2013-06-17 15:54:39 -0600
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Canagliflozin
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+UGT1A9
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+6018
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+UDP-glucuronosyltransferase 1-9
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>UDP-glucuronosyltransferase 1-9
+MACTGWTSPLPLCVCLLLTCGFAEAGKLLVVPMDGSHWFTMRSVVEKLILRGHEVVVVMP
+EVSWQLGRSLNCTVKTYSTSYTLEDLDREFKAFAHAQWKAQVRSIYSLLMGSYNDIFDLF
+FSNCRSLFKDKKLVEYLKESSFDAVFLDPFDNCGLIVAKYFSLPSVVFARGILCHYLEEG
+AQCPAPLSYVPRILLGFSDAMTFKERVRNHIMHLEEHLLCHRFFKNALEIASEILQTPVT
+EYDLYSHTSIWLLRTDFVLDYPKPVMPNMIFIGGINCHQGKPLPMEFEAYINASGEHGIV
+VFSLGSMVSEIPEKKAMAIADALGKIPQTVLWRYTGTRPSNLANNTILVKWLPQNDLLGH
+PMTRAFITHAGSHGVYESICNGVPMVMMPLFGDQMDNAKRMETKGAGVTLNVLEMTSEDL
+ENALKAVINDKSYKENIMRLSSLHKDRPVEPLDLAVFWVEFVMRHKGAPHLRPAAHDLTW
+YQYHSLDVIGFLLAVVLTVAFITFKCCAYGYRKCLGKKGRVKKAHKSKTH
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+O60656
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+UGT2B4
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+6180
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+UDP-glucuronosyltransferase 2B4
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>UDP-glucuronosyltransferase 2B4
+MSMKWTSALLLIQLSCYFSSGSCGKVLVWPTEFSHWMNIKTILDELVQRGHEVTVLASSA
+SISFDPNSPSTLKFEVYPVSLTKTEFEDIIKQLVKRWAELPKDTFWSYFSQVQEIMWTFN
+DILRKFCKDIVSNKKLMKKLQESRFDVVLADAVFPFGELLAELLKIPFVYSLRFSPGYAI
+EKHSGGLLFPPSYVPVVMSELSDQMTFIERVKNMIYVLYFEFWFQIFDMKKWDQFYSEVL
+GRPTTLSETMAKADIWLIRNYWDFQFPHPLLPNVEFVGGLHCKPAKPLPKEMEEFVQSSG
+ENGVVVFSLGSMVSNTSEERANVIASALAKIPQKVLWRFDGNKPDTLGLNTRLYKWIPQN
+DLLGHPKTRAFITHGGANGIYEAIYHGIPMVGVPLFADQPDNIAHMKAKGAAVSLDFHTM
+SSTDLLNALKTVINDPLYKENAMKLSRIHHDQPVKPLDRAVFWIEFVMRHKGAKHLRVAA
+HDLTWFQYHSLDVTGFLLACVATVIFIITKCLFCVWKFVRTGKKGKRD
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P06133
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+23590413	Lamos EM, Younk LM, Davis SN: Canagliflozin , an inhibitor of sodium-glucose cotransporter 2, for the treatment of type 2 diabetes mellitus. Expert Opin Drug Metab Toxicol. 2013 Jun;9(6):763-75. doi: 10.1517/17425255.2013.791282. Epub 2013 Apr 17.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+Not Available
+
+# Drug_Target_1_General_Function:
+Not Available
+
+# Drug_Target_1_General_References:
+Not Available
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+7305
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+Not Available
+
+# Drug_Target_1_Name:
+Sodium/glucose cotransporter 2
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+Not Available
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+P31639
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+23590413	Lamos EM, Younk LM, Davis SN: Canagliflozin , an inhibitor of sodium-glucose cotransporter 2, for the treatment of type 2 diabetes mellitus. Expert Opin Drug Metab Toxicol. 2013 Jun;9(6):763-75. doi: 10.1517/17425255.2013.791282. Epub 2013 Apr 17.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+Not Available
+
+# Drug_Target_2_Gene_Sequence:
+Not Available
+
+# Drug_Target_2_General_Function:
+Not Available
+
+# Drug_Target_2_General_References:
+Not Available
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+7306
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+Not Available
+
+# Drug_Target_2_Name:
+Sodium/glucose cotransporter 1
+
+# Drug_Target_2_Number_of_Residues:
+0
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_2_Protein_Sequence:
+Not Available
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+Not Available
+
+# Drug_Target_2_Specific_Function:
+Not Available
+
+# Drug_Target_2_SwissProt_ID:
+P13866
+
+# Drug_Target_2_SwissProt_Name:
+Not Available
+
+# Drug_Target_2_Synonyms:
+Not Available
+
+# Drug_Target_2_Theoretical_pI:
+Not Available
+
+# Drug_Target_2_Transmembrane_Regions:
+Not Available
+
+#END_DRUGCARD DB08907

@@ -1,0 +1,682 @@
+#BEGIN_DRUGCARD DB01087
+
+# AHFS_Codes:
+08:30.08
+
+# ATC_Codes:
+P01BA03
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Neo-Quipenyl
+Primachin
+
+# CAS_Registry_Number:
+90-34-6
+
+# ChEBI_ID:
+8405
+
+# Chemical_Formula:
+C15H21N3O
+
+# Chemical_IUPAC_Name:
+N-(5-aminopentan-2-yl)-6-methoxyquinolin-8-amine
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2017776
+
+# Description:
+An aminoquinoline that is given by mouth to produce a radical cure and prevent relapse of vivax and ovale malarias following treatment with a blood schizontocide. It has also been used to prevent transmission of falciparum malaria by those returning to areas where there is a potential for re-introduction of malaria. Adverse effects include anemias and GI disturbances. (From Martindale, The Extra Pharmacopeia, 30th ed, p404)
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Antimalarial Agents
+Antimalarials
+Antiprotozoal Agents
+
+# Drug_Interactions:
+Artemether	Primaquine may increase the adverse effects of artemether. Combination therapy is contraindicated unless there are no other treatment options.
+Lumefantrine	Primaquine may increase the adverse effects of lumefantrine. Combination therapy is contraindicated unless there are no other treatment options.
+Tacrine	The metabolism of Tacrine, a CYP1A2 substrate, may be reduced by strong CYP1A2 inhibitors such as Primaquine. Consider modifying therapy to avoid Tacrine toxicity. Monitor the efficacy and toxicity of Tacrine if Primaquine is initiated, discontinued or if the dose is changed.
+Thiothixene	The strong CYP1A2 inhibitor, Primaquine, may decrease the metabolism and clearance of Thiothixene, a CYP1A2 substrate. Consider alternate therapy or monitor for changes in Thiothixene therapeutic and adverse effects if Primaquine is initiated, discontinued or dose changed.
+Tizanidine	Primaquine may decrease the metabolism and clearance of Tizanidine. Consider alternate therapy or use caution during co-administration.
+
+# Drug_Reference:
+13242948	ALVING AS, ARNOLD J, HOCKWALD RS, CLAYMAN CB, DERN RJ, BEUTLER E, FLANAGAN CL: Potentiation of the curative action of primaquine in vivax malaria by quinine and chloroquine. J Lab Clin Med. 1955 Aug;46(2):301-6.
+16968913	Hill DR, Baird JK, Parise ME, Lewis LS, Ryan ET, Magill AJ: Primaquine: report from CDC expert meeting on malaria chemoprophylaxis I. Am J Trop Med Hyg. 2006 Sep;75(3):402-15.
+4027117	Mihaly GW, Ward SA, Edwards G, Nicholl DD, Orme ML, Breckenridge AM: Pharmacokinetics of primaquine in man. I. Studies of the absolute bioavailability and effects of dose size. Br J Clin Pharmacol. 1985 Jun;19(6):745-50.
+5686480	Cohen RJ, Sachs JR, Wicker DJ, Conrad ME: Methemoglobinemia provoked by malarial chemoprophylaxis in Vietnam. N Engl J Med. 1968 Nov 21;279(21):1127-31.
+8828017	Coleman MD, Coleman NA: Drug-induced methaemoglobinaemia. Treatment issues. Drug Saf. 1996 Jun;14(6):394-405.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+2.1
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Take with food to decrease dyspepsia.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Primaquine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+3.7-7.4 hours
+
+# InChI_Identifier:
+InChI=1S/C15H21N3O/c1-11(5-3-7-16)18-14-10-13(19-2)9-12-6-4-8-17-15(12)14/h4,6,8-11,18H,3,5,7,16H2,1-2H3
+
+# InChI_Key:
+InChIKey=INDBQLZJXZLFIT-UHFFFAOYSA-N
+
+# Indication:
+For the treatment of malaria.
+
+# KEGG_Compound_ID:
+C07627
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+1087
+
+# Mechanism_Of_Action:
+Primaquine's mechanism of action is not well understood. It may be acting by generating reactive oxygen species or by interfering with the electron transport in the parasite. Also, although its mechanism of action is unclear, primaquine may bind to and alter the properties of protozoal DNA.
+
+# Melting_Point:
+< 25 °C
+
+# Molecular_Weight_Avg:
+259.3467
+
+# Molecular_Weight_Mono:
+259.168462309
+
+# Organisms_Affected:
+Plasmodium
+
+# PDB_Experimental_ID:
+1Y01
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA451103
+
+# Pharmacology:
+Primaquine is an antimalarial agent and is the essential co-drug with chloroquine in treating all cases of malaria. In the blood, malaria parasites break down a part of the red blood cells known as haemoglobin. When this happens haemoglobin is divided into two parts; haem and globin. Haem is toxic to the malaria parasite. To prevent it from being damaged, the malaria parasite produces an chemical which converts the toxic haem into a non-toxic product. Primaquine acts by interfering with a part of the parasite (mitochondria) that is responsible for supplying it with energy. Without energy the parasite dies. This stops the infection from continuing and allows the person to recover. Primaquine kills the intrahepatic form of <i>Plasmodium vivax</i> and <i>Plasmodium ovale</i>, and thereby prevents the development of the erythrocytic forms that are responsible for relapses (it also kills gametocytes). Primaquine is not used in the prevention of malaria, only in the treatment. It has insignificant activity against the asexual blood forms of the parasite and therefore it is always used in conjunction with a blood schizonticide and never as a single agent. Primaquine has gametocytocidal activity against all plasmodia, including <i>P. falciparum</i>.
+
+# Predicted_LogP_Hydrophobicity:
+2.76
+
+# Predicted_LogS:
+-3.7
+
+# Predicted_Water_Solubility:
+5.64e-02 g/l
+
+# Primary_Accession_No:
+DB01087
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+4908
+
+# PubChem_Substance_ID:
+46508222
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00604
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+COC1=CC(NC(C)CCCN)=C2N=CC=CC2=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:19:54 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Primaquine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP1B1
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+1898
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 1B1
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 1B1
+MGTSLSPNDPWPLNPLSIQQTTLLLLLSVLATVHVGQRLLRQRRRQLRSAPPGPFAWPLI
+GNAAAVGQAAHLSFARLARRYGDVFQIRLGSCPIVVLNGERAIHQALVQQGSAFADRPAF
+ASFRVVSGGRSMAFGHYSEHWKVQRRAAHSMMRNFFTRQPRSRQVLEGHVLSEARELVAL
+LVRGSADGAFLDPRPLTVVAVANVMSAVCFGCRYSHDDPEFRELLSHNEEFGRTVGAGSL
+VDVMPWLQYFPNPVRTVFREFEQLNRNFSNFILDKFLRHCESLRPGAAPRDMMDAFILSA
+EKKAAGDSHGGGARLDLENVPATITDIFGASQDTLSTALQWLLLLFTRYPDVQTRVQAEL
+DQVVGRDRLPCMGDQPNLPYVLAFLYEAMRFSSFVPVTIPHATTANTSVLGYHIPKDTVV
+FVNQWSVNHDPLKWPNPENFDPARFLDKDGLINKDLTSRVMIFSVGKRRCIGEELSKMQL
+FLFISILAHQCDFRANPNEPAKMNFSYGLTIKPKSFKVNVTLRESMELLDSAVQNLQAKE
+TCQ
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+Q16678
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+CYP1A1
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+6024
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Cytochrome P450 1A1
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Cytochrome P450 1A1
+MLFPISMSATEFLLASVIFCLVFWVIRASRPQVPKGLKNPPGPWGWPLIGHMLTLGKNPH
+LALSRMSQQYGDVLQIRIGSTPVVVLSGLDTIRQALVRQGDDFKGRPDLYTFTLISNGQS
+MSFSPDSGPVWAARRRLAQNGLKSFSIASDPASSTSCYLEEHVSKEAEVLISTLQELMAG
+PGHFNPYRYVVVSVTNVICAICFGRRYDHNHQELLSLVNLNNNFGEVVGSGNPADFIPIL
+RYLPNPSLNAFKDLNEKFYSFMQKMVKEHYKTFEKGHIRDITDSLIEHCQEKQLDENANV
+QLSDEKIINIVLDLFGAGFDTVTTAISWSLMYLVMNPRVQRKIQEELDTVIGRSRRPRLS
+DRSHLPYMEAFILETFRHSSFVPFTIPHSTTRDTSLKGFYIPKGRCVFVNQWQINHDQKL
+WVNPSEFLPERFLTPDGAIDKVLSEKVIIFGMGKRKCIGETIARWEVFLFLAILLQRVEF
+SVPLGVKVDMTPIYGLTMKHACCEHFQMQLRS
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P04798
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+14967191	Fitch CD: Ferriprotoporphyrin IX, phospholipids, and the antimalarial actions of quinoline drugs. Life Sci. 2004 Mar 5;74(16):1957-72.
+9586944	Dorn A, Vippagunta SR, Matile H, Jaquet C, Vennerstrom JL, Ridley RG: An assessment of drug-haematin binding as a mechanism for inhibition of haematin polymerisation by quinoline antimalarials. Biochem Pharmacol. 1998 Mar 15;55(6):727-36.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+Not Available
+
+# Drug_Target_1_General_Function:
+Not Available
+
+# Drug_Target_1_General_References:
+Not Available
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+931
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+Not Available
+
+# Drug_Target_1_Name:
+Ferriprotoporphyrin IX
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+Not Available
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+Not Available
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+12711178	Heard CM, Monk BV, Modley AJ: Binding of primaquine to epidermal membranes and keratin. Int J Pharm. 2003 May 12;257(1-2):237-44.
+20713019	Basso LG, Rodrigues RZ, Naal RM, Costa-Filho AJ: Effects of the antimalarial drug primaquine on the dynamic structure of lipid model membranes. Biochim Biophys Acta. 2010 Aug 14.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+KRT7
+
+# Drug_Target_2_GenBank_ID_Gene:
+AJ238246
+
+# Drug_Target_2_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+KRT7
+
+# Drug_Target_2_Gene_Sequence:
+>1410 bp
+ATGTCCATCCACTTCAGCTCCCCGGTATTCACCTCGCGCTCAGCCGCCTTCTCGGGCCGC
+GGCGCCCAGGTGCGCCTGAGCTCCGCTCGCCCCGGCGGCCTTGGCAGCAGCAGCCTCTAC
+GGCCTCGGCGCCTCGCGGCCGCGCGTGGCCGTGCGCTCTGCCTATGGGGGCCCGGTGGGC
+GCCGGCATCCGCGAGGTCACCATTAACCAGAGCCTGCTGGCCCCGCTGCGGCTGGGCGCC
+GACCCCTTCTCCCAGCGGGTGCGCCAGGAGGAGAGCGAGCAGATCAAGACCCTCAACAAC
+AAGTTTGCCTCCTTCATCGACAAGGTGCGGTTTCTGGAGCAGCAGAACAAGCTGCTGGAG
+ACCAAGTGGACGCTGCTGCAGGAGCAGAAGTCGGCCAAGAGCAGCCGCCTCCCAGACATC
+TTTGAGGCCCAGATTGCTGGCCTTCGGGGTCAGCTTGAGGCAATGCAGGTGGATGGGGGC
+CGCCTGGAGCAGGGGCTGCGGACGATGCAGGATGTGGTGGAGGACTTCAAGAATAAGTAC
+GAAGATGAAATTAACCGCCGCACAGCTGCTGAGAATGAGTTTGTGGTCCTGAAGAAGGAT
+GTGGATGCTGCCTACATGAGCAAGGTGGAGCTGGAGGCCAAGGTGGATGCCCTGAATGAT
+GAGATCAACTTCCTCAGGACCCTCAATGAGACGGAGTTGACAGAGCTTCAGTCCCAGATC
+TCCGACACATCTGTGGTGCTGTCCATGGACAACAGTCGCTCCCTGGACCTGGACGGCATC
+ATCGCTGAGGTCAAGGCGCAGTATGAGGAGATGGCCAAATGCAGCCGGGCTGAGGCTGAA
+GCCTGGTACCAGACCAAGTTTGAGACCCTCCAGGCCCAGGCTGGGAAGCATGGGGACGAC
+CTCCGGAATACCCGGAATGAGATTTCAGAGATGAACCGGGCCATCCAGAGGCTGCAGGCT
+GAGATCGACAACATCAAGAACCAGCGTGCCAAGTTGGAGGCCGCCATTGCCGAGGCTGAG
+GAGCGTGGGGAGCTGGCGCTCAAGGATGCTCGTGCCAAGCAGGAGGAGCTTGAAGCCGCC
+CTGCAGCGGGCCAAGCAGGATATGGCACGGCAGCTGCGTGAGTACCAGGAACTCATGAGC
+GTGAAGCTGGCCCTGGACATCGAGATCGCCACCTACCGCAAGCTGCTGGAGGGCGAGGAG
+AGCCGGTTGGCTGGAGATGGAGTGGGAGCCGCCAATATCTCTGTGATGAATTCCACTGGT
+GGCAGCAGCAGTGGCGGTGGCATTGGGCTGACCCTCGGGGGAACCATGGGCAGCAATGCC
+CTGAGCTTCTCCAGCAGTGCGGGTCCTGGGCTCCTGAAGGCTTATTCCATCCGGACCGCA
+TCCGCCAGTCGCAGGAGTACCCGCGACTGA
+
+# Drug_Target_2_General_Function:
+Involved in structural molecule activity
+
+# Drug_Target_2_General_References:
+10492017	Kaba A, Jiang PH, Chany-Fournier F, Chany C: Sarcolectin (SCL): structure and expression of the recombinant molecule. Biochimie. 1999 Jul;81(7):709-15.
+11840567	Harris RA, Yang A, Stein RC, Lucy K, Brusten L, Herath A, Parekh R, Waterfield MD, O'Hare MJ, Neville MA, Page MJ, Zvelebil MJ: Cluster analysis of an extensive human breast cancer cell line protein expression map database. Proteomics. 2002 Feb;2(2):212-23.
+12359226	Smith FJ, Porter RM, Corden LD, Lunny DP, Lane EB, McLean WH: Cloning of human, murine, and marsupial keratin 7 and a survey of K7 expression in the mouse. Biochem Biophys Res Commun. 2002 Oct 4;297(4):818-27.
+2415537	Glass C, Kim KH, Fuchs E: Sequence and expression of a human type II mesothelial keratin. J Cell Biol. 1985 Dec;101(6):2366-73.
+2459129	Glass C, Fuchs E: Isolation, sequence, and differential expression of a human K7 gene in simple epithelial cells. J Cell Biol. 1988 Oct;107(4):1337-50.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:6445
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+4228
+
+# Drug_Target_2_Locus:
+12q12-q13
+
+# Drug_Target_2_Molecular_Weight:
+51418
+
+# Drug_Target_2_Name:
+Keratin, type II cytoskeletal 7
+
+# Drug_Target_2_Number_of_Residues:
+469
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00038	Filament
+
+# Drug_Target_2_Protein_Sequence:
+>Keratin, type II cytoskeletal 7
+MSIHFSSPVFTSRSAAFSGRGAQVRLSSARPGGLGSSSLYGLGASRPRVAVRSAYGGPVG
+AGIREVTINQSLLAPLRLDADPSLQRVRQEESEQIKTLNNKFASFIDKVRFLEQQNKLLE
+TKWTLLQEQKSAKSSRLPDIFEAQIAGLRGQLEALQVDGGRLEQGLRTMQDVVEDFKNKY
+EDEINRRTAAENEFVVLKKDVDAAYMSKVELEAKVDALNDEINFLRTLNETELTELQSQI
+SDTSVVLSMDNSRSLDLDGIIAEVKAQYEEMAKCSRAEAEAWYQTKFETLQAQAGKHGDD
+LRNTRNEISEMNRAIQRLQAEIDNIKNQRAKLEAAIAEAEERGELALKDARAKQEELEAA
+LQRAKQDMARQLREYQELMSVKLALDIEIATYRKLLEGEESRLAGDGVGAVNISVMNSTG
+GSSSGGGIGLTLGGTMGSNALSFSSSAGPGLLKAYSIRTASASRRSARD
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Not Available
+
+# Drug_Target_2_SwissProt_ID:
+P08729
+
+# Drug_Target_2_SwissProt_Name:
+K2C7_HUMAN
+
+# Drug_Target_2_Synonyms:
+CK-7
+Cytokeratin-7
+K7
+Keratin-7
+Sarcolectin
+
+# Drug_Target_2_Theoretical_pI:
+5.23
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+12435804	Graves PR, Kwiek JJ, Fadden P, Ray R, Hardeman K, Coley AM, Foley M, Haystead TA: Discovery of novel targets of quinoline drugs in the human purine binding proteome. Mol Pharmacol. 2002 Dec;62(6):1364-72.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+NQO2
+
+# Drug_Target_3_GenBank_ID_Gene:
+J02888
+
+# Drug_Target_3_GenBank_ID_Protein:
+190818
+
+# Drug_Target_3_GeneCard_ID:
+NQO2
+
+# Drug_Target_3_Gene_Name:
+NQO2
+
+# Drug_Target_3_Gene_Sequence:
+>696 bp
+ATGGCAGGTAAGAAAGTACTCATTGTCTATGCACACCAGGAACCCAAGTCTTTCAACGGA
+TCCTTGAAGAATGTGGCTGTAGATGAACTGAGCAGGCAGGGCTGCACCGTCACAGTGTCT
+GATTTGTATGCCATGAACTTTGAGCCGAGGGCCACAGACAAAGATATCACTGGTACTCTT
+TCTAATCCTGAGGTTTTCAATTATGGAGTGGAAACCCACGAAGCCTACAAGCAAAGGTCT
+CTGGCTAGCGACATCACTGATGAGCAGAAAAAGGTTCGGGAGGCTGACCTAGTGATATTT
+CAGTTCCCGCTGTACTGGTTCAGCGTGCCGGCCATCCTGAAGGGCTGGATGGATAGGGTG
+CTGTGCCAGGGCTTTGCCTTTGACATCCCAGGATTCTACGATTCCGGTTTGCTCCAGGGT
+AAACTAGCGCTCCTTTCCGTAACCACGGGAGGCACGGCCGAGATGTACACGAAGACAGGA
+GTCAATGGAGATTCTCGATACTTCCTGTGGCCACTCCAGCATGGCACATTACACTTCTGT
+GGATTTAAAGTCCTTGCCCCTCAGATCAGCTTTGCTCCTGAAATTGCATCCGAAGAAGAA
+AGAAAGGGGATGGTGGCTGCGTGGTCCCAGAGGCTGCAGACCATCTGGAAGGAAGAGCCC
+ATCCCCTGCACAGCCCACTGGCACTTCGGGCAATAA
+
+# Drug_Target_3_General_Function:
+Involved in oxidoreductase activity
+
+# Drug_Target_3_General_References:
+10433694	Foster CE, Bianchet MA, Talalay P, Zhao Q, Amzel LM: Crystal structure of human quinone reductase type 2, a metalloflavoprotein. Biochemistry. 1999 Aug 3;38(31):9881-6.
+1691923	Jaiswal AK, Burnett P, Adesnik M, McBride OW: Nucleotide and deduced amino acid sequence of a human cDNA (NQO2) corresponding to a second member of the NAD(P)H:quinone oxidoreductase gene family. Extensive polymorphism at the NQO2 gene locus on chromosome 6. Biochemistry. 1990 Feb 20;29(7):1899-906.
+8182056	Jaiswal AK: Human NAD(P)H:quinone oxidoreductase2. Gene structure, activity, and tissue-specific expression. J Biol Chem. 1994 May 20;269(20):14502-8.
+9050836	Zhao Q, Yang XL, Holtzclaw WD, Talalay P: Unexpected genetic and structural relationships of a long-forgotten flavoenzyme to NAD(P)H:quinone reductase (DT-diaphorase) Proc Natl Acad Sci U S A. 1997 Mar 4;94(5):1669-74.
+9367528	Wu K, Knox R, Sun XZ, Joseph P, Jaiswal AK, Zhang D, Deng PS, Chen S: Catalytic properties of NAD(P)H:quinone oxidoreductase-2 (NQO2), a dihydronicotinamide riboside dependent oxidoreductase. Arch Biochem Biophys. 1997 Nov 15;347(2):221-8.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:7856
+
+# Drug_Target_3_HPRD_ID:
+01190
+
+# Drug_Target_3_ID:
+243
+
+# Drug_Target_3_Locus:
+6pter-q12
+
+# Drug_Target_3_Molecular_Weight:
+25822
+
+# Drug_Target_3_Name:
+Ribosyldihydronicotinamide dehydrogenase [quinone]
+
+# Drug_Target_3_Number_of_Residues:
+230
+
+# Drug_Target_3_PDB_ID:
+1SG0
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF02525	Flavodoxin_2
+
+# Drug_Target_3_Protein_Sequence:
+>Ribosyldihydronicotinamide dehydrogenase [quinone]
+AGKKVLIVYAHQEPKSFNGSLKNVAVDELSRQGCTVTVSDLYAMNFEPRATDKDITGTLS
+NPEVFNYGVETHEAYKQRSLASDITDEQKKVREADLVIFQFPLYWFSVPAILKGWMDRVL
+CQGFAFDIPGFYDSGLLQGKLALLSVTTGGTAEMYTKTGVNGDSRYFLWPLQHGTLHFCG
+FKVLAPQISFAPEIASEEERKGMVAAWSQRLQTIWKEEPIPCTAHWHFGQ
+
+# Drug_Target_3_Reaction:
+1-(beta-D-ribofuranosyl)-1,4-dihydronicotinamide + a quinone = 1-(beta-D-ribofuranosyl)nicotinamide + a hydroquinone
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+The enzyme apparently serves as a quinone reductase in connection with conjugation reactions of hydroquinones involved in detoxification pathways as well as in biosynthetic processes such as the vitamin K-dependent gamma-carboxylation of glutamate residues in prothrombin synthesis
+
+# Drug_Target_3_SwissProt_ID:
+P16083
+
+# Drug_Target_3_SwissProt_Name:
+NQO2_HUMAN
+
+# Drug_Target_3_Synonyms:
+EC 1.10.99.2
+NRH dehydrogenase [quinone] 2
+NRH:quinone oxidoreductase 2
+QR2
+Quinone reductase 2
+
+# Drug_Target_3_Theoretical_pI:
+6.24
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB01087

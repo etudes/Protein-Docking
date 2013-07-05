@@ -1,0 +1,366 @@
+#BEGIN_DRUGCARD DB00109
+
+# AHFS_Codes:
+08:18.08.04
+
+# ATC_Codes:
+J05AX07
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Fuzeon
+Fuzeon (Roche Pharmaceuticals)
+
+# CAS_Registry_Number:
+159519-65-0
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C204H301N51O64
+
+# Chemical_IUPAC_Name:
+Not Available
+
+# Chemical_Structure:
+>DB00109 sequence
+YTSLIHSLIEESQNQQEKNEQELLELDKWASLWNWF
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2247725
+
+# Description:
+36 residue synthetic peptide that inhibits HIV-1 fusion with CD4 cells. N-terminal acetylated, C-terminal amide.
+
+# Dosage_Forms:
+Powder, for solution	Subcutaneous
+
+# Drug_Category:
+Anti-HIV Agents
+HIV Fusion Inhibitors
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+15231762	Greenberg ML, Cammack N: Resistance to enfuvirtide, the first HIV fusion inhibitor. J Antimicrob Chemother. 2004 Aug;54(2):333-40. Epub 2004 Jul 1.
+
+# Drug_Type:
+Approved
+Biotech
+Investigational
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.875
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+U12055
+
+# Generic_Name:
+Enfuvirtide
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+3.8 +/- 0.6 hrs
+
+# InChI_Identifier:
+Not Available
+
+# InChI_Key:
+Not Available
+
+# Indication:
+Enfuvirtide is an antiretroviral drug used in combination therapy for the treatment of HIV-1/AIDS.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+109
+
+# Mechanism_Of_Action:
+Enfuvirtide binds to the first heptad-repeat (HR1) in the gp41 subunit of the viral envelope glycoprotein and prevents the conformational changes required for the fusion of viral and cellular membranes. It works by disrupting the HIV-1 molecular machinery at the final stage of fusion with the target cell, preventing uninfected cells from becoming infected. Enfuvirtide is a biomimetic peptide that was rationally designed to mimic components of the HIV-1 fusion machinery and displace them, preventing normal fusion.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+4491.8760
+
+# Molecular_Weight_Mono:
+Not Available
+
+# Organisms_Affected:
+Human Immunodeficiency Virus
+
+# PDB_Experimental_ID:
+1FAV
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164744517
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+Not Available
+
+# Predicted_LogS:
+Not Available
+
+# Predicted_Water_Solubility:
+Not Available
+
+# Primary_Accession_No:
+DB00109
+
+# Protein_Binding:
+92%
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/fuzeon.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+BIOD00106
+BTD00106
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+Not Available
+
+# State:
+liquid
+
+# Structure:
+0
+
+# SwissProt_ID:
+Q70626
+
+# SwissProt_Name:
+ENV_HV1LW
+
+# Synonyms:
+Envelope polyprotein GP160 precursor [Contains: Exterior membrane glycoprotein,GP120, Transmembrane glycoprotein,GP41]
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2012-06-19 08:25:28 -0600
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Enfuvirtide
+
+# pKa_Isoelectric_Point:
+4.30
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2E1
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+6013
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2E1
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2E1
+MSALGVTVALLVWAAFLLLVSMWRQVHSSWNLPPGPFPLPIIGNLFQLELKNIPKSFTRL
+AQRFGPVFTLYVGSQRMVVMHGYKAVKEALLDYKDEFSGRGDLPAFHAHRDRGIIFNNGP
+TWKDIRRFSLTTLRNYGMGKQGNESRIQREAHFLLEALRKTQGQPFDPTFLIGCAPCNVI
+ADILFRKHFDYNDEKFLRLMYLFNENFHLLSTPWLQLYNNFPSFLHYLPGSHRKVIKNVA
+EVKEYVSERVKEHHQSLDPNCPRDLTDCLLVEMEKEKHSAERLYTMDGITVTVADLFFAG
+TETTSTTLRYGLLILMKYPEIEEKLHEEIDRVIGPSRIPAIKDRQEMPYMDAVVHEIQRF
+ITLVPSNLPHEATRDTIFRGYLIPKGTVVVPTLDSVLYDNQEFPDPEKFKPEHFLNENGK
+FKYSDYFKPFSTGKRVCAGEGLARMELFLLLCAILQHFNLKPLVDPKDIDLSPIHIGFGC
+IPPRYKLCVIPRS
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P05181
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP2C19
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+6016
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 2C19
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 2C19
+MDPFVVLVLCLSCLLLLSIWRQSSGRGKLPPGPTPLPVIGNILQIDIKDVSKSLTNLSKI
+YGPVFTLYFGLERMVVLHGYEVVKEALIDLGEEFSGRGHFPLAERANRGFGIVFSNGKRW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFQKRFDYKDQQFLNLMEKLNENIRIVSTPWIQICNNFPTIIDYFPGTHNKLLKNLAFM
+ESDILEKVKEHQESMDINNPRDFIDCFLIKMEKEKQNQQSEFTIENLVITAADLLGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVVGRNRSPCMQDRGHMPYTDAVVHEVQRYID
+LIPTSLPHAVTCDVKFRNYLIPKGTTILTSLTSVLHDNKEFPNPEMFDPRHFLDEGGNFK
+KSNYFMPFSAGKRICVGEGLARMELFLFLTFILQNFNLKSLIDPKDLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P33261
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+16160172	Mink M, Mosier SM, Janumpalli S, Davison D, Jin L, Melby T, Sista P, Erickson J, Lambert D, Stanfield-Oakley SA, Salgo M, Cammack N, Matthews T, Greenberg ML: Impact of human immunodeficiency virus type 1 gp41 amino acid substitutions selected during enfuvirtide treatment on gp41 binding and antiviral potency of enfuvirtide in vitro. J Virol. 2005 Oct;79(19):12447-54.
+16891628	Aquaro S, D'Arrigo R, Svicher V, Perri GD, Caputo SL, Visco-Comandini U, Santoro M, Bertoli A, Mazzotta F, Bonora S, Tozzi V, Bellagamba R, Zaccarelli M, Narciso P, Antinori A, Perno CF: Specific mutations in HIV-1 gp41 are associated with immunological success in HIV-1-infected patients receiving enfuvirtide treatment. J Antimicrob Chemother. 2006 Oct;58(4):714-22. Epub 2006 Aug 5.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17053353	Cabrera C, Marfil S, Garcia E, Martinez-Picado J, Bonjoch A, Bofill M, Moreno S, Ribera E, Domingo P, Clotet B, Ruiz L: Genetic evolution of gp41 reveals a highly exclusive relationship between codons 36, 38 and 43 in gp41 under long-term enfuvirtide-containing salvage regimen. AIDS. 2006 Oct 24;20(16):2075-80.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+AJ964940
+
+# Drug_Target_1_GenBank_ID_Protein:
+62732120
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+gp41
+
+# Drug_Target_1_Gene_Sequence:
+>429 bp
+ATGGGCGCAGCGTCAATAACGCTGACGGTACAGACCAGACAATTATTGTCTGGGATAGCG
+CAACAGCAAAATAATTTGCTGAGGGCTATTGAGGCGCAACAACATCTGTTGCAACTCACA
+GTCTGGGGCATCAAGCAGCTCCAGGCAAGAGTCCTGGCTCTGGAAAGATACCTATGGGAT
+CAACAGCTCCTGGGGATTTGGGGTTGCTCTGGAAAAATCATTTGCACCACTGCTGTGCCT
+TGGAATACTTCTTGGAGTAATAAATCTCTGGAGGATATTTGGAATAAAACAACCTGGATG
+AACTGGGAAAGAGAAATTGAAAATTACACAAGCTTAATATACACCTTACTTGAACAATCG
+CATGACCAACAAGAAAAGAATGAACAAGAATTATTGGCATTGGATAAATGGGCAAATTTG
+TGGAATTGG
+
+# Drug_Target_1_General_Function:
+Involved in structural molecule activity
+
+# Drug_Target_1_General_References:
+Not Available
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+442
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+16768
+
+# Drug_Target_1_Name:
+Envelope glycoprotein
+
+# Drug_Target_1_Number_of_Residues:
+143
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00517	GP41
+
+# Drug_Target_1_Protein_Sequence:
+>Envelope glycoprotein
+MGAASITLTVQTRQLLSGIAQQQNNLLRAIEAQQHLLQLTVWGIKQLQARVLALERYLWD
+QQLLGIWGCSGKIICTTAVPWNTSWSNKSLEDIWNKTTWMNWEREIENYTSLIYTLLEQS
+HDQQEKNEQELLALDKWANLWNW
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+Q53I07
+
+# Drug_Target_1_SwissProt_Name:
+Q53I07_9HIV1
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+5.14
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00109

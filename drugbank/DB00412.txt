@@ -1,0 +1,688 @@
+#BEGIN_DRUGCARD DB00412
+
+# AHFS_Codes:
+68:20.28
+
+# ATC_Codes:
+A10BG02
+
+# Absorption:
+The absolute bioavailability of rosiglitazone is 99%. Peak plasma concentrations are observed about 1 hour after dosing. Administration of rosiglitazone with food resulted in no change in overall exposure (AUC), but there was an approximately 28% decrease in C<sub>max</sub> and a delay in T<sub>max</sub> (1.75 hours). These changes are not likely to be clinically significant; therefore, rosiglitazone may be administered with or without food.
+
+# Biotransformation:
+Hepatic. Rosiglitazone is extensively metabolized in the liver to inactive metabolites via N-demethylation, hydroxylation, and conjugation with sulfate and glucuronic acid. In vitro data have shown that Cytochrome (CYP) P450 isoenzyme 2C8 (CYP2C8) and to a minor extent CYP2C9 are involved in the hepatic metabolism of rosiglitazone.
+
+# Brand_Mixtures:
+Avandamet (Metformin hydrochloride + Rosiglitazone maleate)
+Avandaryl (Glimepiride + Rosiglitazone maleate)
+
+# Brand_Names:
+Avandia
+Rosiglizole
+
+# CAS_Registry_Number:
+122320-73-4
+
+# ChEBI_ID:
+50122
+
+# Chemical_Formula:
+C18H19N3O3S
+
+# Chemical_IUPAC_Name:
+5-[(4-{2-[methyl(pyridin-2-yl)amino]ethoxy}phenyl)methyl]-1,3-thiazolidine-2,4-dione
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2241113
+
+# Description:
+Rosiglitazone is an anti-diabetic drug in the thiazolidinedione class of drugs. It is marketed by the pharmaceutical company GlaxoSmithKline as a stand-alone drug (Avandia) and in combination with metformin (Avandamet) or with glimepiride (Avandaryl).
+
+Like other thiazolidinediones, the mechanism of action of rosiglitazone is by activation of the intracellular receptor class of the peroxisome proliferator-activated receptors (PPARs), specifically PPARγ. Rosiglitazone is a selective ligand of PPARγ, and has no PPARα-binding action.
+
+Apart from its effect on insulin resistance, it appears to have an anti-inflammatory effect: nuclear factor kappa-B (NFκB) levels fall and inhibitor (IκB) levels increase in patients on rosiglitazone.
+
+Recent research has suggested that rosiglitazone may also be of benefit to a subset of patients with Alzheimer's disease not expressing the ApoE4 allele. This is the subject of a clinical trial currently underway.
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Fibrinolytic Agents
+Hypoglycemic Agents
+Thazolidinediones
+Vasodilator Agents
+
+# Drug_Interactions:
+Avanafil	Co-administration with avanafil resulted in an approximate 2.0% increase in AUC0-inf and 14% decrease in Cmax of rosiglitazone.
+Colesevelam	Bile Acid Sequestrants may decrease the absorption of Antidiabetic Agents (Thiazolidinedione). Separate the dosing of bile acid sequestrants and thiazolidinediones by at least 2 hours. Monitor for reduced effects of the antidiabetic agents.
+Gemfibrozil	Increases the effect and toxicity of rosiglitazone/pioglitazone
+Ketoconazole	Ketoconazole increases the effect of rosiglitazone
+Rifampin	Rifampin reduces levels and efficacy of rosiglitazone
+Somatropin recombinant	Somatropin may antagonize the hypoglycemic effect of rosiglitazone. Monitor for changes in fasting and postprandial blood sugars.
+Tretinoin	The moderate CYP2C8 inhibitor, Rosiglitazone, may decrease the metabolism and clearance of oral Tretinoin. Monitor for changes in Tretinoin effectiveness and adverse/toxic effects if Rosiglitazone is initiated, discontinued to dose changed.
+
+# Drug_Reference:
+15181049	Mohanty P, Aljada A, Ghanim H, Hofmeyer D, Tripathy D, Syed T, Al-Haddad W, Dhindsa S, Dandona P: Evidence for a potent antiinflammatory effect of rosiglitazone. J Clin Endocrinol Metab. 2004 Jun;89(6):2728-35.
+17145742	Kahn SE, Haffner SM, Heise MA, Herman WH, Holman RR, Jones NP, Kravitz BG, Lachin JM, O'Neill MC, Zinman B, Viberti G: Glycemic durability of rosiglitazone, metformin, or glyburide monotherapy. N Engl J Med. 2006 Dec 7;355(23):2427-43. Epub 2006 Dec 4.
+
+# Drug_Type:
+Approved
+Investigational
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+2.4
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Rosiglitazone
+
+# HET_ID:
+BRL
+
+# Half_Life:
+3-4 hours
+
+# InChI_Identifier:
+InChI=1S/C18H19N3O3S/c1-21(16-4-2-3-9-19-16)10-11-24-14-7-5-13(6-8-14)12-15-17(22)20-18(23)25-15/h2-9,15H,10-12H2,1H3,(H,20,22,23)
+
+# InChI_Key:
+InChIKey=YASAKCUCGLMORW-UHFFFAOYSA-N
+
+# Indication:
+For the treatment of Type II diabetes mellitus
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D00596
+
+# LIMS_Drug_ID:
+412
+
+# Mechanism_Of_Action:
+Rosiglitazone acts as an agonist at peroxisome proliferator activated receptors (PPAR) in target tissues for insulin action such as adipose tissue, skeletal muscle, and liver. Activation of PPAR-gamma receptors regulates the transcription of insulin-responsive genes involved in the control of glucose production, transport, and utilization. In this way, rosiglitazone enhances tissue sensitivity to insulin.
+
+# Melting_Point:
+122-123 °C
+
+# Molecular_Weight_Avg:
+357.427
+
+# Molecular_Weight_Mono:
+357.114712179
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/cx1532.shtml
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA451283
+
+# Pharmacology:
+Rosiglitazone, a member of the drug group known as the thiazolidinediones or "insulin sensitizers", is not chemically or functionally related to the alpha-glucosidase inhibitors, the biguanides, or the sulfonylureas. Rosiglitazone targets insulin resistance and, hence, is used alone or with metformine or sulfonylurea to improve glycemic control in patients with type 2 diabetes mellitus.
+
+# Predicted_LogP_Hydrophobicity:
+2.95
+
+# Predicted_LogS:
+-4
+
+# Predicted_Water_Solubility:
+3.80e-02 g/l
+
+# Primary_Accession_No:
+DB00412
+
+# Protein_Binding:
+99.8% bound to plasma proteins, primarily albumin.
+
+# PubChem_Compound_ID:
+77999
+
+# PubChem_Substance_ID:
+46504556
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/rosigl.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00403
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CN(CCOC1=CC=C(CC2SC(=O)NC2=O)C=C1)C1=CC=CC=N1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Rosigliazone maleate
+Rosiglitazone maleate
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Side effects include fluid retention, congestive heart failure (CHF), liver disease
+
+# Update_Date:
+2013-02-08 16:19:19 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Rosiglitazone
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+PTGS1
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+20
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Prostaglandin G/H synthase 1
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Prostaglandin G/H synthase 1 precursor
+MSRSLLLRFLLFLLLLPPLPVLLADPGAPTPVNPCCYYPCQHQGICVRFGLDRYQCDCTR
+TGYSGPNCTIPGLWTWLRNSLRPSPSFTHFLLTHGRWFWEFVNATFIREMLMRLVLTVRS
+NLIPSPPTYNSAHDYISWESFSNVSYYTRILPSVPKDCPTPMGTKGKKQLPDAQLLARRF
+LLRRKFIPDPQGTNLMFAFFAQHFTHQFFKTSGKMGPGFTKALGHGVDLGHIYGDNLERQ
+YQLRLFKDGKLKYQVLDGEMYPPSVEEAPVLMHYPRGIPPQSQMAVGQEVFGLLPGLMLY
+ATLWLREHNRVCDLLKAEHPTWGDEQLFQTTRLILIGETIKIVIEEYVQQLSGYFLQLKF
+DPELLFGVQFQYRNRIAMEFNHLYHWHPLMPDSFKVGSQEYSYEQFLFNTSMLVDYGVEA
+LVDAFSRQIAGRIGGGRNMDHHILHVAVDVIRESREMRLQPFNEYRKRFGMKPYTSFQEL
+VGEKEMAAELEELYGDIDALEFYPGLLLEKCHPNSIFGESMIEIGAPFSLKGLLGNPICS
+PEYWKPSTFGGEVGFNIVKTATLKKLVCLNTKTCPYVSFRVPDASQDDGPAVERPSTEL
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P23219
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P11712
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+CYP2C8
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+4924
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Cytochrome P450 2C8
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Cytochrome P450 2C8
+MEPFVVLVLCLSFMLLFSLWRQSCRRRKLPPGPTPLPIIGNMLQIDVKDICKSFTNFSKV
+YGPVFTVYFGMNPIVVFHGYEAVKEALIDNGEEFSGRGNSPISQRITKGLGIISSNGKRW
+KEIRRFSLTTLRNFGMGKRSIEDRVQEEAHCLVEELRKTKASPCDPTFILGCAPCNVICS
+VVFQKRFDYKDQNFLTLMKRFNENFRILNSPWIQVCNNFPLLIDCFPGTHNKVLKNVALT
+RSYIREKVKEHQASLDVNNPRDFIDCFLIKMEQEKDNQKSEFNIENLVGTVADLFVAGTE
+TTSTTLRYGLLLLLKHPEVTAKVQEEIDHVIGRHRSPCMQDRSHMPYTDAVVHEIQRYSD
+LVPTGVPHAVTTDTKFRNYLIPKGTTIMALLTSVLHDDKEFPNPNIFDPGHFLDKNGNFK
+KSDYFMPFSAGKRICAGEGLARMELFLFLTTILQNFNLKSVDDLKNLNTTAVTKGIVSLP
+PSYQICFIPV
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P10632
+
+# Phase_1_Metabolizing_Enzyme_6_Gene_Name:
+CYP2A6
+
+# Phase_1_Metabolizing_Enzyme_6_ID:
+5718
+
+# Phase_1_Metabolizing_Enzyme_6_Name:
+Cytochrome P450 2A6
+
+# Phase_1_Metabolizing_Enzyme_6_Protein_Sequence:
+>Cytochrome P450 2A6
+MLASGMLLVALLVCLTVMVLMSVWQQRKSKGKLPPGPTPLPFIGNYLQLNTEQMYNSLMK
+ISERYGPVFTIHLGPRRVVVLCGHDAVREALVDQAEEFSGRGEQATFDWVFKGYGVVFSN
+GERAKQLRRFSIATLRDFGVGKRGIEERIQEEAGFLIDAHRGTGGANIDPTFFLSRTVSN
+VISSIVFGDRFDYKDKEFLSLLRMMLGIFQFTSTSTGQLYEMFSSVMKHLPGPQQQAFQL
+LQGLEDFIAKKVEHNQRTLDPNSPRDFIDSFLIRMQEEEKNPNTEFYLKNLVMTTLNLFI
+GGTETVSTTLRYGFLLLMKHPEVEAKVHEEIDRVIGKNRQPKFEDRAKMPYMEAVIHEIQ
+RFGDVIPMSLARRVKKDTKFRDFFLPKGTEVYPMLGSVLRDPSFFSNPQDFNPQHFLNEK
+GQFKKSDAFVPFSIGKRNCFGEGLARMELFLFFTTVMQNFRLKSSQSPKDIDVSPKHVGF
+ATIPRNYTMSFLPR
+
+# Phase_1_Metabolizing_Enzyme_6_SwissProt_ID:
+P11509
+
+# Phase_1_Metabolizing_Enzyme_7_Gene_Name:
+CYP2C19
+
+# Phase_1_Metabolizing_Enzyme_7_ID:
+6016
+
+# Phase_1_Metabolizing_Enzyme_7_Name:
+Cytochrome P450 2C19
+
+# Phase_1_Metabolizing_Enzyme_7_Protein_Sequence:
+>Cytochrome P450 2C19
+MDPFVVLVLCLSCLLLLSIWRQSSGRGKLPPGPTPLPVIGNILQIDIKDVSKSLTNLSKI
+YGPVFTLYFGLERMVVLHGYEVVKEALIDLGEEFSGRGHFPLAERANRGFGIVFSNGKRW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFQKRFDYKDQQFLNLMEKLNENIRIVSTPWIQICNNFPTIIDYFPGTHNKLLKNLAFM
+ESDILEKVKEHQESMDINNPRDFIDCFLIKMEKEKQNQQSEFTIENLVITAADLLGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVVGRNRSPCMQDRGHMPYTDAVVHEVQRYID
+LIPTSLPHAVTCDVKFRNYLIPKGTTILTSLTSVLHDNKEFPNPEMFDPRHFLDEGGNFK
+KSNYFMPFSAGKRICVGEGLARMELFLFLTFILQNFNLKSLIDPKDLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_7_SwissProt_ID:
+P33261
+
+# Drug_Target_1_Cellular_Location:
+Nucleus
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10475242	Su JL, Winegar DA, Wisely GB, Sigel CS, Hull-Ryde EA: Use of a PPAR gamma-specific monoclonal antibody to demonstrate thiazolidinediones induce PPAR gamma receptor expression in vitro. Hybridoma. 1999 Jun;18(3):273-80.
+10548525	Rieusset J, Auwerx J, Vidal H: Regulation of gene expression by activation of the peroxisome proliferator-activated receptor gamma with rosiglitazone (BRL 49653) in human adipocytes. Biochem Biophys Res Commun. 1999 Nov;265(1):265-71.
+10707565	Kameda N, Okuya S, Oka Y: [Rosiglitazone (BRL-49653)] Nippon Rinsho. 2000 Feb;58(2):401-4.
+10764590	Johnson BA, Wilson EM, Li Y, Moller DE, Smith RG, Zhou G: Ligand-induced stabilization of PPARgamma monitored by NMR spectroscopy: implications for nuclear receptor activation. J Mol Biol. 2000 Apr 28;298(2):187-94.
+10871190	Camp HS, Li O, Wise SC, Hong YH, Frankowski CL, Shen X, Vanbogelen R, Leff T: Differential activation of peroxisome proliferator-activated receptor-gamma by troglitazone and rosiglitazone. Diabetes. 2000 Apr;49(4):539-47.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+PPARG
+
+# Drug_Target_1_GenBank_ID_Gene:
+U79012
+
+# Drug_Target_1_GenBank_ID_Protein:
+1711117
+
+# Drug_Target_1_GeneCard_ID:
+PPARG
+
+# Drug_Target_1_Gene_Name:
+PPARG
+
+# Drug_Target_1_Gene_Sequence:
+>1518 bp
+ATGGGTGAAACTCTGGGAGATTCTCCTATTGACCCAGAAAGCGATTCCTTCACTGATACA
+CTGTCTGCAAACATATCACAAGAAATGACCATGGTTGACACAGAGATGCCATTCTGGCCC
+ACCAACTTTGGGATCAGCTCCGTGGATCTCTCCGTAATGGAAGACCACTCCCACTCCTTT
+GATATCAAGCCCTTCACTACTGTTGACTTCTCCAGCATTTCTACTCCACATTACGAAGAC
+ATTCCATTCACAAGAACAGATCCAGTGGTTGCAGATTACAAGTATGACCTGAAACTTCAA
+GAGTACCAAAGTGCAATCAAAGTGGAGCCTGCATCTCCACCTTATTATTCTGAGAAGACT
+CAGCTCTACAATAAGCCTCATGAAGAGCCTTCCAACTCCCTCATGGCAATTGAATGTCGT
+GTCTGTGGAGATAAAGCTTCTGGATTTCACTATGGAGTTCATGCTTGTGAAGGATGCAAG
+GGTTTCTTCCGGAGAACAATCAGATTGAAGCTTATCTATGACAGATGTGATCTTAACTGT
+CGGATCCACAAAAAAAGTAGAAATAAATGTCAGTACTGTCGGTTTCAGAAATGCCTTGCA
+GTGGGGATGTCTCATAATGCCATCAGGTTTGGGCGGATGCCACAGGCCGAGAAGGAGAAG
+CTGTTGGCGGAGATCTCCAGTGATATCGACCAGCTGAATCCAGAGTCCGCTGACCTCCGG
+GCCCTGGCAAAACATTTGTATGACTCATACATAAAGTCCTTCCCGCTGACCAAAGCAAAG
+GCGAGGGCGATCTTGACAGGAAAGACAACAGACAAATCACCATTCGTTATCTATGACATG
+AATTCCTTAATGATGGGAGAAGATAAAATCAAGTTCAAACACATCACCCCCCTGCAGGAG
+CAGAGCAAAGAGGTGGCCATCCGCATCTTTCAGGGCTGCCAGTTTCGCTCCGTGGAGGCT
+GTGCAGGAGATCACAGAGTATGCCAAAAGCATTCCTGGTTTTGTAAATCTTGACTTGAAC
+GACCAAGTAACTCTCCTCAAATATGGAGTCCACGAGATCATTTACACAATGCTGGCCTCC
+TTGATGAATAAAGATGGGGTTCTCATATCCGAGGGCCAAGGCTTCATGACAAGGGAGTTT
+CTAAAGAGCCTGCGAAAGCCTTTTGGTGACTTTATGGAGCCCAAGTTTGAGTTTGCTGTG
+AAGTTCAATGCACTGGAATTAGATGACAGCGACTTGGCAATATTTATTGCTGTCATTATT
+CTCAGTGGAGACCGCCCAGGTTTGCTGAATGTGAAGCCCATTGAAGACATTCAAGACAAC
+CTGCTACAAGCCCTGGAGCTCCAGCTGAAGCTGAACCACCCTGAGTCCTCACAGCTGTTT
+GCCAAGCTGCTCCAGAAAATGACAGACCTCAGACAGATTGTCACGGAACACGTGCAGCTA
+CTGCAGGTGATCAAGAAGACGGAGACAGACATGAGTCTTCACCCGCTCCTGCAGGAGATC
+TACAAGGACTTGTACTAG
+
+# Drug_Target_1_General_Function:
+Involved in DNA binding
+
+# Drug_Target_1_General_References:
+10394368	Sarraf P, Mueller E, Smith WM, Wright HM, Kum JB, Aaltonen LA, de la Chapelle A, Spiegelman BM, Eng C: Loss-of-function mutations in PPAR gamma associated with human colon cancer. Mol Cell. 1999 Jun;3(6):799-804.
+10407229	Hamann A, Munzberg H, Buttron P, Busing B, Hinney A, Mayer H, Siegfried W, Hebebrand J, Greten H: Missense variants in the human peroxisome proliferator-activated receptor-gamma2 gene in lean and obese subjects. Eur J Endocrinol. 1999 Jul;141(1):90-2.
+10622252	Barroso I, Gurnell M, Crowley VE, Agostini M, Schwabe JW, Soos MA, Maslen GL, Williams TD, Lewis H, Schafer AJ, Chatterjee VK, O'Rahilly S: Dominant negative mutations in human PPARgamma associated with severe insulin resistance, diabetes mellitus and hypertension. Nature. 1999 Dec 23-30;402(6764):880-3.
+10681503	Caira F, Antonson P, Pelto-Huikko M, Treuter E, Gustafsson JA: Cloning and characterization of RAP250, a novel nuclear receptor coactivator. J Biol Chem. 2000 Feb 25;275(8):5308-17.
+10882139	Gampe RT Jr, Montana VG, Lambert MH, Miller AB, Bledsoe RK, Milburn MV, Kliewer SA, Willson TM, Xu HE: Asymmetry in the PPARgamma/RXRalpha crystal structure reveals the molecular basis of heterodimerization among nuclear receptors. Mol Cell. 2000 Mar;5(3):545-55.
+11788685	Agarwal AK, Garg A: A novel heterozygous mutation in peroxisome proliferator-activated receptor-gamma gene in a patient with familial partial lipodystrophy. J Clin Endocrinol Metab. 2002 Jan;87(1):408-11.
+11971969	Shao W, Halachmi S, Brown M: ERAP140, a conserved tissue-specific nuclear receptor coactivator. Mol Cell Biol. 2002 May;22(10):3358-72.
+7787419	Greene ME, Blumberg B, McBride OW, Yi HF, Kronquist K, Kwan K, Hsieh L, Greene G, Nimer SD: Isolation of the human peroxisome proliferator activated receptor gamma cDNA: expression in hematopoietic cells and chromosomal mapping. Gene Expr. 1995;4(4-5):281-99.
+8702406	Elbrecht A, Chen Y, Cullinan CA, Hayes N, Leibowitz M, Moller DE, Berger J: Molecular cloning, expression and characterization of human peroxisome proliferator activated receptors gamma 1 and gamma 2. Biochem Biophys Res Commun. 1996 Jul 16;224(2):431-7.
+8706692	Lambe KG, Tugwood JD: A human peroxisome-proliferator-activated receptor-gamma is activated by inducers of adipogenesis, including thiazolidinedione drugs. Eur J Biochem. 1996 Jul 1;239(1):1-7.
+9065481	Mukherjee R, Jow L, Croston GE, Paterniti JR Jr: Identification, characterization, and tissue distribution of human peroxisome proliferator-activated receptor (PPAR) isoforms PPARgamma2 versus PPARgamma1 and activation with retinoid X receptor agonists and antagonists. J Biol Chem. 1997 Mar 21;272(12):8071-6.
+9144532	Yanase T, Yashiro T, Takitani K, Kato S, Taniguchi S, Takayanagi R, Nawata H: Differential expression of PPAR gamma1 and gamma2 isoforms in human adipose tissue. Biochem Biophys Res Commun. 1997 Apr 17;233(2):320-4.
+9356045	Okazawa H, Mori H, Tamori Y, Araki S, Niki T, Masugi J, Kawanishi M, Kubota T, Shinoda H, Kasuga M: No coding mutations are detected in the peroxisome proliferator-activated receptor-gamma gene in Japanese patients with lipoatrophic diabetes. Diabetes. 1997 Nov;46(11):1904-6.
+9425261	Yen CJ, Beamer BA, Negri C, Silver K, Brown KA, Yarnall DP, Burns DK, Roth J, Shuldiner AR: Molecular scanning of the human peroxisome proliferator activated receptor gamma (hPPAR gamma) gene in diabetic Caucasians: identification of a Pro12Ala PPAR gamma 2 missense mutation. Biochem Biophys Res Commun. 1997 Dec 18;241(2):270-4.
+9753710	Ristow M, Muller-Wieland D, Pfeiffer A, Krone W, Kahn CR: Obesity associated with a mutation in a genetic regulator of adipocyte differentiation. N Engl J Med. 1998 Oct 1;339(14):953-9.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:9236
+
+# Drug_Target_1_HPRD_ID:
+03288
+
+# Drug_Target_1_ID:
+238
+
+# Drug_Target_1_Locus:
+3p25
+
+# Drug_Target_1_Molecular_Weight:
+57621
+
+# Drug_Target_1_Name:
+Peroxisome proliferator-activated receptor gamma
+
+# Drug_Target_1_Number_of_Residues:
+505
+
+# Drug_Target_1_PDB_ID:
+1I7I
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00104	Hormone_recep
+PF00105	zf-C4
+
+# Drug_Target_1_Protein_Sequence:
+>Peroxisome proliferator-activated receptor gamma
+MGETLGDSPIDPESDSFTDTLSANISQEMTMVDTEMPFWPTNFGISSVDLSVMEDHSHSF
+DIKPFTTVDFSSISTPHYEDIPFTRTDPVVADYKYDLKLQEYQSAIKVEPASPPYYSEKT
+QLYNKPHEEPSNSLMAIECRVCGDKASGFHYGVHACEGCKGFFRRTIRLKLIYDRCDLNC
+RIHKKSRNKCQYCRFQKCLAVGMSHNAIRFGRMPQAEKEKLLAEISSDIDQLNPESADLR
+ALAKHLYDSYIKSFPLTKAKARAILTGKTTDKSPFVIYDMNSLMMGEDKIKFKHITPLQE
+QSKEVAIRIFQGCQFRSVEAVQEITEYAKSIPGFVNLDLNDQVTLLKYGVHEIIYTMLAS
+LMNKDGVLISEGQGFMTREFLKSLRKPFGDFMEPKFEFAVKFNALELDDSDLAIFIAVII
+LSGDRPGLLNVKPIEDIQDNLLQALELQLKLNHPESSQLFAKLLQKMTDLRQIVTEHVQL
+LQVIKKTETDMSLHPLLQEIYKDLY
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Receptor that binds peroxisome proliferators such as hypolipidemic drugs and fatty acids. Once activated by a ligand, the receptor binds to a promoter element in the gene for acyl-CoA oxidase and activates its transcription. It therefore controls the peroxisomal beta-oxidation pathway of fatty acids. Key regulator of adipocyte differentiation and glucose homeostasis
+
+# Drug_Target_1_SwissProt_ID:
+P37231
+
+# Drug_Target_1_SwissProt_Name:
+PPARG_HUMAN
+
+# Drug_Target_1_Synonyms:
+PPAR-gamma
+
+# Drug_Target_1_Theoretical_pI:
+5.77
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Mitochondrion
+mitochondrial outer membrane
+pero
+single-pass type III membrane protein. Peroxisome
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17259370	Askari B, Kanter JE, Sherrid AM, Golej DL, Bender AT, Liu J, Hsueh WA, Beavo JA, Coleman RA, Bornfeldt KE: Rosiglitazone inhibits acyl-CoA synthetase activity and fatty acid partitioning to diacylglycerol and triacylglycerol via a peroxisome proliferator-activated receptor-gamma-independent mechanism in human arterial smooth muscle cells and macrophages. Diabetes. 2007 Apr;56(4):1143-52. Epub 2007 Jan 26.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+ACSL4
+
+# Drug_Target_2_GenBank_ID_Gene:
+AF030555
+
+# Drug_Target_2_GenBank_ID_Protein:
+3158351
+
+# Drug_Target_2_GeneCard_ID:
+ACSL4
+
+# Drug_Target_2_Gene_Name:
+ACSL4
+
+# Drug_Target_2_Gene_Sequence:
+>2013 bp
+ATGGCAAAGAGAATAAAAGCTAAGCCCACTTCAGACAAACCTGGAAGTCCATATCGCTCT
+GTCACACACTTCGACTCACTAGCTGTAATAGACATCCCTGGAGCAGATACTCTGGATAAA
+TTATTTGACCATGCTGTATCCAAGTTTGGGAAGAAGGACAGCCTTGGGACCAGGGAAATC
+CTAAGTGAAGAAAATGAAATGCAGCCAAATGGAAAAGTTTTTAAGAAGTTAATTCTTGGG
+AATTATAAATGGATGAACTATCTTGAAGTGAATCGCAGAGTGAATAACTTTGGTAGTGGA
+CTCACTGCACTGGGACTAAAACCAAAGAACACCATTGCCATCTTCTGTGAGACCAGGGCC
+GAATGGATGATTGCAGCACAGACCTGCTTTAAGTACAACTTTCCTCTTGTGACTTTATAT
+GCCACACTTGGCAAAGAAGCAGTAGTTCATGGGCTAAATGAATCTGAGGCTTCCTATCTG
+ATTACCAGTGTTGAACTTCTGGAAAGTAAACTTAAGACTGCATTGTTAGATATCAGTTGT
+GTTAAACATATCATTTATGTGGACAATAAGGCTATCAATAAAGCAGAGTACCCTGAAGGA
+TTTGAGATTCACAGCATGCAATCAGTAGAAGAGTTGGGATCTAACCCAGAAAACTTGGGC
+ATTCCTCCAAGTAGACCAACGCCTTCAGACATGGCCATTGTTATGTATACTAGTGGTTCT
+ACTGGCCGACCTAAGGGAGTGATGATGCATCATAGCAATTTGATAGCTGGAATGACAGGC
+CAGTGTGAAAGAATACCTGGACTGGGACCGAAGGACACATATATTGGCTACTTGCCTTTG
+GCTCATGTGCTAGAACTGACAGCAGAGATATCTTGCTTTACCTATGGCTGCAGGATTGGA
+TATTCTTCTCCGCTTACACTCTCTGACCAGTCCAGCAAAATTAAAAAAGGAAGCAAAGGA
+GACTGTACTGTACTGAAGCCCACACTTATGGCTGCTGTTCCGGAAATCATGGATAGAATT
+TATAAGAATGTTATGAGCAAAGTCCAAGAGATGAATTATATTCAGAAAACTCTGTTCAAG
+ATAGGGTATGATTACAAATTGGAACAGATCAAAAAGGGATATGATGCACCTCTTTGCAAT
+CTGTTACTGTTTAAAAAGGTCAAGGCCCTGCTGGGAGGGAATGTCCGCATGATGCTGTCT
+GGAGGGGCCCCGCTATCTCCTCAGACACACCGATTCATGAATGTCTGCTTCTGCTGCCCA
+ATTGGCCAGGGTTATGGACTGACAGAATCATGTGGTGCTGGGACAGTTACTGAAGTAACT
+GACTATACTACTGGCAGAGTTGGAGCACCTCTTATTTGCTGTGAAATTAAGCTAAAAGAC
+TGGCAAGAAGGCGGTTATACAATTAATGACAAGCCAAACCCCAGAGGTGAAATCGTAATT
+GGTGGACAGAACATCTCCATGGGATATTTTAAAAATGAAGAGAAAACAGCAGAAGATTAT
+TCTGTGGATGAAAATGGACAAAGGTGGTTTTGCACTGGTGATATTGGAGAATTCCATCCC
+GATGGATGTTTACAGATTATAGATCGTAAGAAAGATCTAGTGAAGTTACAAGCAGGAGAG
+TATGTATCTCTTGGGAAAGTAGAAGCTGCACTGAAGAATTGTCCACTTATTGACAACATC
+TGTGCTTTTGCCAAAAGTGATCAGTCCTATGTGATCAGTTTTGTGGTTCCTAACCAGAAA
+AGGTTGACACTTTTGGCACAACAGAAAGGGGTAGAAGGAACTTGGGTTGATATCTGCAAT
+AATCCTGCTATGGAAGCTGAAATACTGAAAGAAATTCGAGAAGCTGCAAATGCCATGAAA
+TTGGAGCGATTTGAAATTCCAATCAAGGTTCGATTAAGCCCAGAGCCATGGACCCCTGAA
+ACTGGTTTGGTAACTGATGCTTTCAAACTGAAAAGGAAGGAGCTGAGGAACCATTACCTC
+AAAGACATTGAACGAATGTATGGGGGCAAATAA
+
+# Drug_Target_2_General_Function:
+Lipid transport and metabolism
+
+# Drug_Target_2_General_References:
+11889465	Meloni I, Muscettola M, Raynaud M, Longo I, Bruttini M, Moizard MP, Gomot M, Chelly J, des Portes V, Fryns JP, Ropers HH, Magi B, Bellan C, Volpi N, Yntema HG, Lewis SE, Schaffer JE, Renieri A: FACL4, encoding fatty acid-CoA ligase 4, is mutated in nonspecific X-linked mental retardation. Nat Genet. 2002 Apr;30(4):436-40. Epub 2002 Mar 11.
+9480748	Piccini M, Vitelli F, Bruttini M, Pober BR, Jonsson JJ, Villanova M, Zollo M, Borsani G, Ballabio A, Renieri A: FACL4, a new gene encoding long-chain acyl-CoA synthetase 4, is deleted in a family with Alport syndrome, elliptocytosis, and mental retardation. Genomics. 1998 Feb 1;47(3):350-8.
+9598324	Cao Y, Traer E, Zimmerman GA, McIntyre TM, Prescott SM: Cloning, expression, and chromosomal localization of human long-chain fatty acid-CoA ligase 4 (FACL4). Genomics. 1998 Apr 15;49(2):327-30.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:3571
+
+# Drug_Target_2_HPRD_ID:
+02152
+
+# Drug_Target_2_ID:
+1457
+
+# Drug_Target_2_Locus:
+Xq22.3-q23
+
+# Drug_Target_2_Molecular_Weight:
+79189
+
+# Drug_Target_2_Name:
+Long-chain-fatty-acid--CoA ligase 4
+
+# Drug_Target_2_Number_of_Residues:
+711
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00501	AMP-binding
+
+# Drug_Target_2_Protein_Sequence:
+>Long-chain-fatty-acid--CoA ligase 4
+MKLKLNVLTIILLPVHLLITIYSALIFIPWYFLTNAKKKNAMAKRIKAKPTSDKPGSPYR
+SVTHFDSLAVIDIPGADTLDKLFDHAVSKFGKKDSLGTREILSEENEMQPNGKVFKKLIL
+GNYKWMNYLEVNRRVNNFGSGLTALGLKPKNTIAIFCETRAEWMIAAQTCFKYNFPLVTL
+YATLGKEAVVHGLNESEASYLITSVELLESKLKTALLDISCVKHIIYVDNKAINKAEYPE
+GFEIHSMQSVEELGSNPENLGIPPSRPTPSDMAIVMYTSGSTGRPKGVMMHHSNLIAGMT
+GQCERIPGLGPKDTYIGYLPLAHVLELTAEISCFTYGCRIGYSSPLTLSDQSSKIKKGSK
+GDCTVLKPTLMAAVPEIMDRIYKNVMSKVQEMNYIQKTLFKIGYDYKLEQIKKGYDAPLC
+NLLLFKKVKALLGGNVRMMLSGGAPLSPQTHRFMNVCFCCPIGQGYGLTESCGAGTVTEV
+TDYTTGRVGAPLICCEIKLKDWQEGGYTINDKPNPRGEIVIGGQNISMGYFKNEEKTAED
+YSVDENGQRWFCTGDIGEFHPDGCLQIIDRKKDLVKLQAGEYVSLGKVEAALKNCPLIDN
+ICAFAKSDQSYVISFVVPNQKRLTLLAQQKGVEGTWVDICNNPAMEAEILKEIREAANAM
+KLERFEIPIKVRLSPEPWTPETGLVTDAFKLKRKELRNHYLKDIERMYGGK
+
+# Drug_Target_2_Reaction:
+ATP + a long-chain carboxylic acid + CoA = AMP + diphosphate + an acyl-CoA
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Activation of long-chain fatty acids for both synthesis of cellular lipids, and degradation via beta-oxidation. Preferentially uses arachidonate and eicosapentaenoate as substrates
+
+# Drug_Target_2_SwissProt_ID:
+O60488
+
+# Drug_Target_2_SwissProt_Name:
+ACSL4_HUMAN
+
+# Drug_Target_2_Synonyms:
+EC 6.2.1.3
+LACS 4
+Long-chain acyl-CoA synthetase 4
+
+# Drug_Target_2_Theoretical_pI:
+8.51
+
+# Drug_Target_2_Transmembrane_Regions:
+8-28
+
+#END_DRUGCARD DB00412

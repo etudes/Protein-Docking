@@ -1,0 +1,1087 @@
+#BEGIN_DRUGCARD DB00188
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01XX32
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+In vitro studies with human liver microsomes and human cDNA-expressed cytochrome P450 isozymes indicate that bortezomib is primarily oxidatively metabolized via cytochrome P450 enzymes 3A4, 2C19, and 1A2, while bortezomib metabolism by CYP 2D6 and 2C9 enzymes is minor. The major metabolic pathway is deboronation to form 2 deboronated metabolites that subsequently undergo hydroxylation to several metabolites which are inactive as 26S proteasome inhibitors.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Velcade
+
+# CAS_Registry_Number:
+179324-69-7
+
+# ChEBI_ID:
+52717
+
+# Chemical_Formula:
+C19H25BN4O4
+
+# Chemical_IUPAC_Name:
+[(1R)-3-methyl-1-[(2S)-3-phenyl-2-(pyrazin-2-ylformamido)propanamido]butyl]boronic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2262452
+
+# Description:
+Bortezomib (originally PS-341 and marketed as Velcade by Millennium Pharmaceuticals) is the first therapeutic proteasome inhibitor to be tested in humans. It is approved in the U.S. for treating relapsed multiple myeloma and mantle cell lymphoma. In multiple myeloma, complete clinical responses have been obtained in patients with otherwise refractory or rapidly advancing disease.
+
+# Dosage_Forms:
+Powder, for solution	Intravenous
+
+# Drug_Category:
+Antineoplastic Agents
+Protease Inhibitors
+
+# Drug_Interactions:
+Clopidogrel	Moderate CYP2C19 Inhibitors like bortezomib may decrease serum concentrations of the active metabolite(s) of Clopidogrel. Avoid concurrent use of moderate CYP2C19 inhibitors with clopidogrel whenever possible. If such a combination must be used, monitor closely for evidence of reduced clinical response to clopidogrel.
+Etravirine	Bortezombib, when used concomitantly with etravirine, may experience a decrease in serum concentration. It is recommended to avoid this combination.
+Telithromycin	Telithromycin may reduce clearance of Bortezomib. Consider alternate therapy or monitor for changes in the therapeutic/adverse effects of Bortezomib if Telithromycin is initiated, discontinued or dose changed.
+Ticlopidine	Ticlopidine may decrease the metabolism and clearance of Bortezomib. Consider alternate therapy or monitor for adverse/toxic effects of Bortezomib if Ticlopidine is initiated, discontinued or dose changed.
+Voriconazole	Voriconazole, a strong CYP3A4 inhibitor, may increase the serum concentration of bortezomib by decreasing its metabolism. Monitor for changes in the therapeutic and adverse effects of bortezomib if voriconazole is initiated, discontinued or dose changed.
+
+# Drug_Reference:
+14695130	Voorhees PM, Dees EC, O'Neil B, Orlowski RZ: The proteasome as a target for cancer therapy. Clin Cancer Res. 2003 Dec 15;9(17):6316-25.
+15199612	Adams J, Kauffman M: Development of the proteasome inhibitor Velcade (Bortezomib). Cancer Invest. 2004;22(2):304-11.
+15953001	Oakervee HE, Popat R, Curry N, Smith P, Morris C, Drake M, Agrawal S, Stec J, Schenkein D, Esseltine DL, Cavenagh JD: PAD combination therapy (PS-341/bortezomib, doxorubicin and dexamethasone) for previously untreated patients with multiple myeloma. Br J Haematol. 2005 Jun;129(6):755-62.
+17268529	Bonvini P, Zorzi E, Basso G, Rosolen A: Bortezomib-mediated 26S proteasome inhibition causes cell-cycle arrest and induces apoptosis in CD-30+ anaplastic large cell lymphoma. Leukemia. 2007 Apr;21(4):838-42. Epub 2007 Feb 1.
+
+# Drug_Type:
+Approved
+Investigational
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+The solubility of bortezomib, as the monomeric boronic acid, is 3.3 to 3.8 mg/mL in a pH range of 2 to 6.5.
+
+# Food_Interactions:
+Citrus fruits - Patients should avoid taking extra vitamin C (ascorbic acid) supplements and vitamin C-containing multi-vitamins during their bortezomib therapy. Ascorbic Acid may diminish the therapeutic effect of Bortezomib.
+Green Tea - Green Tea may diminish the antineoplastic effect of Bortezomib. Avoid concurrent use of green tea extract and other green tea products during treatment with bortezomib.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Bortezomib
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+The mean elimination half-life of bortezomib after first dose ranged from 9 to 15 hours at doses ranging from 1.45 to 2.00 mg/m2 in patients with advanced malignancies.
+
+# InChI_Identifier:
+InChI=1S/C19H25BN4O4/c1-13(2)10-17(20(27)28)24-18(25)15(11-14-6-4-3-5-7-14)23-19(26)16-12-21-8-9-22-16/h3-9,12-13,15,17,27-28H,10-11H2,1-2H3,(H,23,26)(H,24,25)/t15-,17-/m0/s1
+
+# InChI_Key:
+InChIKey=GXJABQQUPOEUTA-RDJZCZTQSA-N
+
+# Indication:
+For treatment of multiple myeloma in patients who have not been successfully treated with at least two previous therapies.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+188
+
+# Mechanism_Of_Action:
+Bortezomib is a reversible inhibitor of the chymotrypsin-like activity of the 26S proteasome in mammalian cells. The 26S proteasome is a large protein complex that degrades ubiquitinated proteins. The active site of the proteasome has chymotrypsin-like, trypsin-like, and postglutamyl peptide hydrolysis activity. The 26S proteasome degrades various proteins critical to cancer cell survival, such as cyclins, tumor suppressors, BCL-2, and cyclin-dependent kinase inhibitors. Inhibition of these degradations sensitizes cells to apoptosis. Bortezomib is a potent inhibitor of 26S proteasome, which sensitizes activity in dividing multiple myeloma and leukemic cells, thus inducing apoptosis. In addition, bortezomib appears to increase the sensitivity of cancer cells to traditional anticancer agents (e.g., gemcitabine, cisplatin, paclitaxel, irinotecan, and radiation).
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+384.237
+
+# Molecular_Weight_Mono:
+384.196885774
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA10252
+
+# Pharmacology:
+Bortezomib is a drug that inhibits the mammalian 26S proteasome. The ubiquitin-proteasome pathway plays an essential role in regulating the intracellular concentration of specific proteins, thereby maintaining homeostasis within cells. Inhibition of the 26S proteasome prevents this targeted proteolysis, which can affect multiple signaling cascades within the cell. This disruption of normal homeostatic mechanisms can lead to cell death. Experiments have demonstrated that bortezomib is cytotoxic to a variety of cancer cell types in vitro. Bortezomib causes a delay in tumor growth in vivo in nonclinical tumor models, including multiple myeloma. Tumor cells, that is, rapidly dividing cells, appear to be more sensitive to proteasome inhibition.
+
+# Predicted_LogP_Hydrophobicity:
+0.89
+
+# Predicted_LogS:
+-3.9
+
+# Predicted_Water_Solubility:
+5.32e-02 g/l
+
+# Primary_Accession_No:
+DB00188
+
+# Protein_Binding:
+83% over the concentration range of 100-1000 ng/ml.
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/velcade.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00828
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CC(C)C[C@H](NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)C1=CN=CC=N1)B(O)O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Cardiovascular safety pharmacology studies in monkeys show that lethal IV doses are associated with decreases in blood pressure, increases in heart rate, increases in contractility, and ultimately terminal hypotension. In monkeys, doses of 3.0 mg/m<sup>2</sup> and greater (approximately twice the recommended clinical dose) resulted in progressive hypotension starting at 1 hour and progressing to death by 12 to 14 hours following drug administration.
+
+# Update_Date:
+2013-02-08 16:19:09 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Bortezomib
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+PTGS1
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+20
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Prostaglandin G/H synthase 1
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Prostaglandin G/H synthase 1 precursor
+MSRSLLLRFLLFLLLLPPLPVLLADPGAPTPVNPCCYYPCQHQGICVRFGLDRYQCDCTR
+TGYSGPNCTIPGLWTWLRNSLRPSPSFTHFLLTHGRWFWEFVNATFIREMLMRLVLTVRS
+NLIPSPPTYNSAHDYISWESFSNVSYYTRILPSVPKDCPTPMGTKGKKQLPDAQLLARRF
+LLRRKFIPDPQGTNLMFAFFAQHFTHQFFKTSGKMGPGFTKALGHGVDLGHIYGDNLERQ
+YQLRLFKDGKLKYQVLDGEMYPPSVEEAPVLMHYPRGIPPQSQMAVGQEVFGLLPGLMLY
+ATLWLREHNRVCDLLKAEHPTWGDEQLFQTTRLILIGETIKIVIEEYVQQLSGYFLQLKF
+DPELLFGVQFQYRNRIAMEFNHLYHWHPLMPDSFKVGSQEYSYEQFLFNTSMLVDYGVEA
+LVDAFSRQIAGRIGGGRNMDHHILHVAVDVIRESREMRLQPFNEYRKRFGMKPYTSFQEL
+VGEKEMAAELEELYGDIDALEFYPGLLLEKCHPNSIFGESMIEIGAPFSLKGLLGNPICS
+PEYWKPSTFGGEVGFNIVKTATLKKLVCLNTKTCPYVSFRVPDASQDDGPAVERPSTEL
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P23219
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P11712
+
+# Phase_1_Metabolizing_Enzyme_6_Gene_Name:
+CYP2C8
+
+# Phase_1_Metabolizing_Enzyme_6_ID:
+4924
+
+# Phase_1_Metabolizing_Enzyme_6_Name:
+Cytochrome P450 2C8
+
+# Phase_1_Metabolizing_Enzyme_6_Protein_Sequence:
+>Cytochrome P450 2C8
+MEPFVVLVLCLSFMLLFSLWRQSCRRRKLPPGPTPLPIIGNMLQIDVKDICKSFTNFSKV
+YGPVFTVYFGMNPIVVFHGYEAVKEALIDNGEEFSGRGNSPISQRITKGLGIISSNGKRW
+KEIRRFSLTTLRNFGMGKRSIEDRVQEEAHCLVEELRKTKASPCDPTFILGCAPCNVICS
+VVFQKRFDYKDQNFLTLMKRFNENFRILNSPWIQVCNNFPLLIDCFPGTHNKVLKNVALT
+RSYIREKVKEHQASLDVNNPRDFIDCFLIKMEQEKDNQKSEFNIENLVGTVADLFVAGTE
+TTSTTLRYGLLLLLKHPEVTAKVQEEIDHVIGRHRSPCMQDRSHMPYTDAVVHEIQRYSD
+LVPTGVPHAVTTDTKFRNYLIPKGTTIMALLTSVLHDDKEFPNPNIFDPGHFLDKNGNFK
+KSDYFMPFSAGKRICAGEGLARMELFLFLTTILQNFNLKSVDDLKNLNTTAVTKGIVSLP
+PSYQICFIPV
+
+# Phase_1_Metabolizing_Enzyme_6_SwissProt_ID:
+P10632
+
+# Phase_1_Metabolizing_Enzyme_7_Gene_Name:
+CYP2C19
+
+# Phase_1_Metabolizing_Enzyme_7_ID:
+6016
+
+# Phase_1_Metabolizing_Enzyme_7_Name:
+Cytochrome P450 2C19
+
+# Phase_1_Metabolizing_Enzyme_7_Protein_Sequence:
+>Cytochrome P450 2C19
+MDPFVVLVLCLSCLLLLSIWRQSSGRGKLPPGPTPLPVIGNILQIDIKDVSKSLTNLSKI
+YGPVFTLYFGLERMVVLHGYEVVKEALIDLGEEFSGRGHFPLAERANRGFGIVFSNGKRW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFQKRFDYKDQQFLNLMEKLNENIRIVSTPWIQICNNFPTIIDYFPGTHNKLLKNLAFM
+ESDILEKVKEHQESMDINNPRDFIDCFLIKMEKEKQNQQSEFTIENLVITAADLLGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVVGRNRSPCMQDRGHMPYTDAVVHEVQRYID
+LIPTSLPHAVTCDVKFRNYLIPKGTTILTSLTSVLHDNKEFPNPEMFDPRHFLDEGGNFK
+KSNYFMPFSAGKRICVGEGLARMELFLFLTFILQNFNLKSLIDPKDLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_7_SwissProt_ID:
+P33261
+
+# Phase_1_Metabolizing_Enzyme_8_Gene_Name:
+CYP1A1
+
+# Phase_1_Metabolizing_Enzyme_8_ID:
+6024
+
+# Phase_1_Metabolizing_Enzyme_8_Name:
+Cytochrome P450 1A1
+
+# Phase_1_Metabolizing_Enzyme_8_Protein_Sequence:
+>Cytochrome P450 1A1
+MLFPISMSATEFLLASVIFCLVFWVIRASRPQVPKGLKNPPGPWGWPLIGHMLTLGKNPH
+LALSRMSQQYGDVLQIRIGSTPVVVLSGLDTIRQALVRQGDDFKGRPDLYTFTLISNGQS
+MSFSPDSGPVWAARRRLAQNGLKSFSIASDPASSTSCYLEEHVSKEAEVLISTLQELMAG
+PGHFNPYRYVVVSVTNVICAICFGRRYDHNHQELLSLVNLNNNFGEVVGSGNPADFIPIL
+RYLPNPSLNAFKDLNEKFYSFMQKMVKEHYKTFEKGHIRDITDSLIEHCQEKQLDENANV
+QLSDEKIINIVLDLFGAGFDTVTTAISWSLMYLVMNPRVQRKIQEELDTVIGRSRRPRLS
+DRSHLPYMEAFILETFRHSSFVPFTIPHSTTRDTSLKGFYIPKGRCVFVNQWQINHDQKL
+WVNPSEFLPERFLTPDGAIDKVLSEKVIIFGMGKRKCIGETIARWEVFLFLAILLQRVEF
+SVPLGVKVDMTPIYGLTMKHACCEHFQMQLRS
+
+# Phase_1_Metabolizing_Enzyme_8_SwissProt_ID:
+P04798
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+19252820	von Schwarzenberg K, Held SA, Schaub A, Brauer KM, Bringmann A, Brossart P: Proteasome inhibition overcomes the resistance of renal cell carcinoma cells against the PPARgamma ligand troglitazone. Cell Mol Life Sci. 2009 Apr;66(7):1295-308.
+20501616	Marchi E, Paoluzzi L, Scotto L, Seshan VE, Zain JM, Zinzani PL, O'Connor OA: Pralatrexate is synergistic with the proteasome inhibitor bortezomib in in vitro and in vivo models of T-cell lymphoid malignancies. Clin Cancer Res. 2010 Jul 15;16(14):3648-58. Epub 2010 May 25.
+20954323	Saeki Y, Fukunaga K, Tanaka K: [Proteasome inhibitors]. Nippon Rinsho. 2010 Oct;68(10):1818-22.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+PSMD2
+
+# Drug_Target_1_GenBank_ID_Gene:
+D78151
+
+# Drug_Target_1_GenBank_ID_Protein:
+1060888
+
+# Drug_Target_1_GeneCard_ID:
+PSMD2
+
+# Drug_Target_1_Gene_Name:
+PSMD2
+
+# Drug_Target_1_Gene_Sequence:
+>2727 bp
+ATGGAGGAGGGAGGCCGGGACAAGGCGCCGGTGCAGCCCCAGCAGTCTCCAGCGGCGGCC
+CCCGGCGGCACGGACGAGAAGCCGAGCGGCAAGGAGCGGCGGGATGCCGGGGACAAGGAC
+AAAGAACAGGAGCTGTCTGAAGAGGATAAACAGCTTCAAGATGAACTGGAGATGCTCGCG
+GAACGACTAGGGGAGAAGGATACATCCCTGTATCGACCAGCGCTGGAGGAATTGCGAAGG
+CAGATTCGTTCTTCTACAACTTCCATGACTTCAGTGCCCAAGCCTCTCAAATTTCTGCGT
+CCACACTATGGCAAACTGAAGGAAATCTATGAGAACATGGCCCCTGGGGAGAATAAGCGT
+TTTGCTGCTGACATCATCTCCGTTTTGGCCATGACCATGAGTGGGGAGCGTGAGTGCCTC
+AAGTATCGGCTAGTGGGCTCCCAGGAGGAATTGGCATCATGGGGTCATGAGTATGTCAGG
+CATCTGGCAGGAGAAGTGGCTAAGGAGTGGCAGGAGCTGGATGACGCAGAGAAGGTCCAG
+CGGGAGCCTCTGCTCACTCTGGTGAAGGAAATCGTCCCCTATAACATGGCCCACAATGCA
+GAGCATGAGGCTTGCGACCTGCTTATGGAAATTGAGCAGGTGGACATGCTGGAGAAGGAC
+ATTGATGAAAATGCATATGCAAAGGTCTGCCTTTATCTCACCAGTTGTGTGAATTACGTG
+CCTGAGCCTGAGAACTCAGCCCTACTGCGTTGTGCCCTGGGTGTGTTCCGAAAGTTTAGC
+CGCTTCCCTGAAGCTCTGAGATTGGCATTGATGCTCAATGACATGGAGTTGGTAGAAGAC
+ATCTTCACCTCCTGCAAGGATGTGGTAGTACAGAAACAGATGGCATTCATGCTAGGCCGG
+CATGGGGTGTTCCTGGAGCTGAGTGAAGATGTCGAGGAGTATGAGGACCTGACAGAGATC
+ATGTCCAATGTACAGCTCAACAGCAACTTCTTGGCCTTAGCTCGGGAGCTGGACATCATG
+GAGCCCAAGGTGCCTGATGACATCTACAAAACCCACCTAGAGAACAACAGGTTTGGGGGC
+AGTGGCTCTCAGGTGGACTCTGCCCGCATGAACCTGGCCTCCTCTTTTGTGAATGGCTTT
+GTGAATGCAGCTTTTGGCCAAGACAAGCTGCTAACAGATGATGGCAACAAATGGCTTTAC
+AAGAACAAGGACCACGGAATGTTGAGTGCAGCTGCATCTCTTGCGATGATTCTGCTGTGG
+GATGTGGATGGTGGCCTCACCCAGATTGACAAGTACCTGTACTCCTCTGAGGACTACATT
+AAGTCAGGAGCTCTTCTTGCCTGTGGCATAGTGAACTCTGGGGTCCGGAATGAGTGTGAC
+CCTGCTCTGGCACTGCTCTCAGACTATGTTCTCCACAACAGCAACACCATGAGACTTGGT
+TCCATCTTTGGGCTAGGCTTGGCTTATGCTGGCTCAAATCGTGAAGATGTCCTAACACTG
+CTGCTGCCTGTGATGGGAGATTCAAAGTCCAGCATGGAGGTGGCAGGTGTCACAGCTTTA
+GCCTGTGGAATGATAGCAGTAGGGTCCTGCAATGGAGATGTAACTTCCACTATCCTTCAG
+ACCATCATGGAGAAGTCAGAGACTGAGCTCAAGGATACTTATGCTCGTTGGCTTCCTCTT
+GGACTGGGTCTCAACCACCTGGGGAAGGGTGAGGCCATCGAGGCAATCCTGGCTGCACTG
+GAGGTTGTGTCAGAGCCATTCCGCAGTTTTGCCAACACACTGGTGGATGTGTGTGCATAT
+GCAGGCTCTGGGAATGTGCTGAAGGTGCAGCAGCTGCTCCACATTTGTAGCGAACACTTT
+GACTCCAAAGAGAAGGAGGAAGACAAAGACAAGAAGGAAAAGAAAGACAAGGACAAGAAG
+GAAGCCCCTGCTGACATGGGAGCACATCAGGGAGTGGCTGTTCTGGGGATTGCCCTTATT
+GCTATGGGGGAGGAGATTGGTGCAGAGATGGCATTACGAACCTTTGGCCACTTGCTGAGA
+TATGGGGAGCCTACACTCCGGAGGGCTGTACCTTTAGCACTGGCCCTCATCTCTGTTTCA
+AATCCACGACTCAACATCCTGGATACCCTAAGCAAATTCTCTCATGATGCTGATCCAGAA
+GTTTCCTATAACTCCATTTTTGCCATGGGCATGGTGGGCAGTGGTACCAATAATGCCCGT
+CTGGCTGCAATGCTGCGCCAGTTAGCTCAATATCATGCCAAGGACCCAAACAACCTCTTC
+ATGGTGCGCTTGGCACAGGGCCTGACACATTTAGGGAAGGGCACCCTTACCCTCTGCCCC
+TACCACAGCGACCGGCAGCTTATGAGCCAGGTGGCCGTGGCTGGACTGCTCACTGTGCTT
+GTCTCTTTCCTGGATGTTCGAAACATTATTCTAGGCAAATCACACTATGTATTGTATGGG
+CTGGTGGCTGCCATGCAGCCCCGAATGCTGGTTACGTTTGATGAGGAGCTGCGGCCATTG
+CCAGTGTCTGTCCGTGTGGGCCAGGCAGTGGATGTGGTGGGCCAGGCTGGCAAGCCGAAG
+ACTATCACAGGGTTCCAGACGCATACAACCCCAGTGTTGTTGGCCCACGGGGAACGGGCA
+GAATTGGCCACTGAGGAGTTTCTTCCTGTTACCCCCATTCTGGAAGGTTTTGTTATCCTT
+CGGAAGAACCCCAATTATGATCTCTAA
+
+# Drug_Target_1_General_Function:
+Involved in protein binding
+
+# Drug_Target_1_General_References:
+7601280	Boldin MP, Mett IL, Wallach D: A protein related to a proteasomal subunit binds to the intracellular domain of the p55 TNF receptor upstream to its 'death domain'. FEBS Lett. 1995 Jun 19;367(1):39-44.
+8774743	Tsurumi C, Shimizu Y, Saeki M, Kato S, Demartino GN, Slaughter CA, Fujimuro M, Yokosawa H, Yamasaki M, Hendil KB, Toh-e A, Tanahashi N, Tanaka K: cDNA cloning and functional analysis of the p97 subunit of the 26S proteasome, a polypeptide identical to the type-1 tumor-necrosis-factor-receptor-associated protein-2/55.11. Eur J Biochem. 1996 Aug 1;239(3):912-21.
+9126987	Dunbar JD, Song HY, Guo D, Wu LW, Donner DB: Two-hybrid cloning of a gene encoding TNF receptor-associated protein 2, a protein that interacts with the intracellular domain of the type 1 TNF receptor: identity with subunit 2 of the 26S protease. J Immunol. 1997 May 1;158(9):4252-9.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:9559
+
+# Drug_Target_1_HPRD_ID:
+05870
+
+# Drug_Target_1_ID:
+522
+
+# Drug_Target_1_Locus:
+3q27.1
+
+# Drug_Target_1_Molecular_Weight:
+100201
+
+# Drug_Target_1_Name:
+26S proteasome non-ATPase regulatory subunit 2
+
+# Drug_Target_1_Number_of_Residues:
+908
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF01851	PC_rep
+
+# Drug_Target_1_Protein_Sequence:
+>26S proteasome non-ATPase regulatory subunit 2
+MEEGGRDKAPVQPQQSPAAAPGGTDEKPSGKERRDAGDKDKEQELSEEDKQLQDELEMLV
+ERLGEKDTSLYRPALEELRRQIRSSTTSMTSVPKPLKFLRPHYGKLKEIYENMAPGENKR
+FAADIISVLAMTMSGERECLKYRLVGSQEELASWGHEYVRHLAGEVAKEWQELDDAEKVQ
+REPLLTLVKEIVPYNMAHNAEHEACDLLMEIEQVDMLEKDIDENAYAKVCLYLTSCVNYV
+PEPENSALLRCALGVFRKFSRFPEALRLALMLNDMELVEDIFTSCKDVVVQKQMAFMLGR
+HGVFLELSEDVEEYEDLTEIMSNVQLNSNFLALARELDIMEPKVPDDIYKTHLENNRFGG
+SGSQVDSARMNLASSFVNGFVNAAFGQDKLLTDDGNKWLYKNKDHGMLSAAASLGMILLW
+DVDGGLTQIDKYLYSSEDYIKSGALLACGIVNSGVRNECDPALALLSDYVLHNSNTMRLG
+SIFGLGLAYAGSNREDVLTLLLPVMGDSKSSMEVAGVTALACGMIAVGSCNGDVTSTILQ
+TIMEKSETELKDTYARWLPLGLGLNHLGKGEAIEAILAALEVVSEPFRSFANTLVDVCAY
+AGSGNVLKVQQLLHICSEHFDSKEKEEDKDKKEKKDKDKKEAPADMGAHQGVAVLGIALI
+AMGEEIGAEMALRTFGHLLRYGEPTLRRAVPLALALISVSNPRLNILDTLSKFSHDADPE
+VSYNSIFAMGMVGSGTNNARLAAMLRQLAQYHAKDPNNLFMVRLAQGLTHLGKGTLTLCP
+YHSDRQLMSQVAVAGLLTVLVSFLDVRNIILGKSHYVLYGLVAAMQPRMLVTFDEELRPL
+PVSVRVGQAVDVVGQAGKPKTITGFQTHTTPVLLAHGERAELATEEFLPVTPILEGFVIL
+RKNPNYDL
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Binds to the intracellular domain of tumor necrosis factor type 1 receptor. The binding domain of TRAP1 and TRAP2 resides outside the death domain of TNFR1
+
+# Drug_Target_1_SwissProt_ID:
+Q13200
+
+# Drug_Target_1_SwissProt_Name:
+PSMD2_HUMAN
+
+# Drug_Target_1_Synonyms:
+26S proteasome regulatory subunit RPN1
+26S proteasome regulatory subunit S2
+26S proteasome subunit p97
+55.11 protein
+Tumor necrosis factor type 1 receptor- associated protein 2
+
+# Drug_Target_1_Theoretical_pI:
+4.84
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+20954323	Saeki Y, Fukunaga K, Tanaka K: [Proteasome inhibitors]. Nippon Rinsho. 2010 Oct;68(10):1818-22.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+PSMB1
+
+# Drug_Target_2_GenBank_ID_Gene:
+D00761
+
+# Drug_Target_2_GenBank_ID_Protein:
+220026
+
+# Drug_Target_2_GeneCard_ID:
+PSMB1
+
+# Drug_Target_2_Gene_Name:
+PSMB1
+
+# Drug_Target_2_Gene_Sequence:
+>726 bp
+ATGTTGTCCTCTACAGCCATGTATTCGGCTCCTGGCAGAGACTTGGGGATGGAACCGCAC
+AGAGCCGCGGGCCCTTTGCAGCTGCGATTTTCGCCCTACGTTTTCAACGGAGGTACTATA
+CTGGCAATTGCTGGAGAAGATTTTGCAATTGTTGCTTCTGATACTCGATTGAGTGAAGGG
+TTTTCAATTCATACGCGGGATAGCCCCAAATGTTACAAATTAACAGACAAAACAGTCATT
+GGATGCAGCGGTTTTCATGGAGACTGTCTTACGCTGACAAAGATTATTGAAGCAAGACTA
+AAGATGTATAAGCATTCCAATAATAAGGCCATGACTACGGGGGCAATTGCTGCAATGCTG
+TCTACAATCCTGTATTCAAGGCGCTTCTTTCCATACTATGTTTACAACATCATCGGTGGA
+CTTGATGAAGAAGGAAAGGGGGCTGTATACAGCTTTGATCCAGTAGGGTCTTACCAGAGA
+GACTCCTTCAAGGCTGGAGGCTCAGCAAGTGCCATGCTACAGCCCCTGCTTGACAACCAG
+GTTGGTTTTAAGAACATGCAGAATGTGGAGCATGTTCCGCTGTCCTTGGACAGAGCCATG
+CGGCTGGTGAAAGATGTCTTCATTTCTGCGGCTGAGAGAGATGTGTACACTGGGGACGCA
+CTCCGGATCTGCATAGTGACCAAAGAGGGCATCAGGGAGGAAACTGTTTCCTTAAGGAAG
+GACTGA
+
+# Drug_Target_2_General_Function:
+Posttranslational modification, protein turnover, chaperones
+
+# Drug_Target_2_General_References:
+14574404	Mungall AJ, Palmer SA, Sims SK, Edwards CA, Ashurst JL, Wilming L, Jones MC, Horton R, Hunt SE, Scott CE, Gilbert JG, Clamp ME, Bethel G, Milne S, Ainscough R, Almeida JP, Ambrose KD, Andrews TD, Ashwell RI, Babbage AK, Bagguley CL, Bailey J, Banerjee R, Barker DJ, Barlow KF, Bates K, Beare DM, Beasley H, Beasley O, Bird CP, Blakey S, Bray-Allen S, Brook J, Brown AJ, Brown JY, Burford DC, Burrill W, Burton J, Carder C, Carter NP, Chapman JC, Clark SY, Clark G, Clee CM, Clegg S, Cobley V, Collier RE, Collins JE, Colman LK, Corby NR, Coville GJ, Culley KM, Dhami P, Davies J, Dunn M, Earthrowl ME, Ellington AE, Evans KA, Faulkner L, Francis MD, Frankish A, Frankland J, French L, Garner P, Garnett J, Ghori MJ, Gilby LM, Gillson CJ, Glithero RJ, Grafham DV, Grant M, Gribble S, Griffiths C, Griffiths M, Hall R, Halls KS, Hammond S, Harley JL, Hart EA, Heath PD, Heathcott R, Holmes SJ, Howden PJ, Howe KL, Howell GR, Huckle E, Humphray SJ, Humphries MD, Hunt AR, Johnson CM, Joy AA, Kay M, Keenan SJ, Kimberley AM, King A, Laird GK, Langford C, Lawlor S, Leongamornlert DA, Leversha M, Lloyd CR, Lloyd DM, Loveland JE, Lovell J, Martin S, Mashreghi-Mohammadi M, Maslen GL, Matthews L, McCann OT, McLaren SJ, McLay K, McMurray A, Moore MJ, Mullikin JC, Niblett D, Nickerson T, Novik KL, Oliver K, Overton-Larty EK, Parker A, Patel R, Pearce AV, Peck AI, Phillimore B, Phillips S, Plumb RW, Porter KM, Ramsey Y, Ranby SA, Rice CM, Ross MT, Searle SM, Sehra HK, Sheridan E, Skuce CD, Smith S, Smith M, Spraggon L, Squares SL, Steward CA, Sycamore N, Tamlyn-Hall G, Tester J, Theaker AJ, Thomas DW, Thorpe A, Tracey A, Tromans A, Tubby B, Wall M, Wallis JM, West AP, White SS, Whitehead SL, Whittaker H, Wild A, Willey DJ, Wilmer TE, Wood JM, Wray PW, Wyatt JC, Young L, Younger RM, Bentley DR, Coulson A, Durbin R, Hubbard T, Sulston JE, Dunham I, Rogers J, Beck S: The DNA sequence and analysis of human chromosome 6. Nature. 2003 Oct 23;425(6960):805-11.
+2025653	Tamura T, Lee DH, Osaka F, Fujiwara T, Shin S, Chung CH, Tanaka K, Ichihara A: Molecular cloning and sequence analysis of cDNAs for five major subunits of human proteasomes (multi-catalytic proteinase complexes). Biochim Biophys Acta. 1991 May 2;1089(1):95-102.
+2306472	Lee LW, Moomaw CR, Orth K, McGuire MJ, DeMartino GN, Slaughter CA: Relationships among the subunits of the high molecular weight proteinase, macropain (proteasome). Biochim Biophys Acta. 1990 Feb 9;1037(2):178-85.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:9537
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+4101
+
+# Drug_Target_2_Locus:
+6q27
+
+# Drug_Target_2_Molecular_Weight:
+26490
+
+# Drug_Target_2_Name:
+Proteasome subunit beta type 1
+
+# Drug_Target_2_Number_of_Residues:
+241
+
+# Drug_Target_2_PDB_ID:
+1IRU
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00227	Proteasome
+
+# Drug_Target_2_Protein_Sequence:
+>Proteasome subunit beta type 1
+MLSSTAMYSAPGRDLGMEPHRAAGPLQLRFSPYVFNGGTILAIAGEDFAIVASDTRLSEG
+FSIHTRDSPKCYKLTDKTVIGCSGFHGDCLTLTKIIEARLKMYKHSNNKAMTTGAIAAML
+STILYSRRFFPYYVYNIIGGLDEEGKGAVYSFDPVGSYQRDSFKAGGSASAMLQPLLDNQ
+VGFKNMQNVEHVPLSLDRAMRLVKDVFISAAERDVYTGDALRICIVTKEGIREETVSLRK
+D
+
+# Drug_Target_2_Reaction:
+Cleavage of peptide bonds with very broad specificity INHIBITOR Mercurial reagent; Inhibitor of serine endopeptidase
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+The proteasome is a multicatalytic proteinase complex which is characterized by its ability to cleave peptides with Arg, Phe, Tyr, Leu, and Glu adjacent to the leaving group at neutral or slightly basic pH. The proteasome has an ATP-dependent proteolytic activity
+
+# Drug_Target_2_SwissProt_ID:
+P20618
+
+# Drug_Target_2_SwissProt_Name:
+PSB1_HUMAN
+
+# Drug_Target_2_Synonyms:
+EC 3.4.25.1
+Macropain subunit C5
+Multicatalytic endopeptidase complex subunit C5
+Proteasome component C5
+Proteasome gamma chain
+Proteasome subunit beta type 1 precursor
+
+# Drug_Target_2_Theoretical_pI:
+8.29
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+16081156	Politou M, Karadimitris A, Terpos E, Kotsianidis I, Apperley JF, Rahemtulla A: No evidence of mutations of the PSMB5 (beta-5 subunit of proteasome) in a case of myeloma with clinical resistance to Bortezomib. Leuk Res. 2006 Feb;30(2):240-1. Epub 2005 Aug 2.
+20954323	Saeki Y, Fukunaga K, Tanaka K: [Proteasome inhibitors]. Nippon Rinsho. 2010 Oct;68(10):1818-22.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+PSMB5
+
+# Drug_Target_3_GenBank_ID_Gene:
+D29011
+
+# Drug_Target_3_GenBank_ID_Protein:
+558526
+
+# Drug_Target_3_GeneCard_ID:
+PSMB5
+
+# Drug_Target_3_Gene_Name:
+PSMB5
+
+# Drug_Target_3_Gene_Sequence:
+>627 bp
+ATGCTTCATGGAACAACCACCCTGGCCTTCAAGTTCCGCCATGGAGTCATAGTTGCAGCT
+GACTCCAGGGCTACAGCGGGTGCTTACATTGCCTCCCAGACGGTGAAGAAGGTGATAGAG
+ATCAACCCATACCTGCTAGGCACCATGGCTGGGGGCGCAGCGGATTGCAGCTTCTGGGAA
+CGGCTGTTGGCTCGGCAATGTCGAATCTATGAGCTTCGAAATAAGGAACGCATCTCTGTA
+GCAGCTGCCTCCAAACTGCTTGCCAACATGGTGTATCAGTACAAAGGCATGGGGCTGTCC
+ATGGGCACCATGATCTGTGGCTGGGATAAGAGAGGCCCTGGCCTCTACTACGTGGACAGT
+GAAGGGAACCGGATTTCAGGGGCCACCTTCTCTGTAGGTTCTGGCTCTGTGTATGCATAT
+GGGGTCATGGATCGGGGCTATTCCTATGACCTGGAAGTGGAGCAGGCCTATGATCTGGCC
+CGTCGAGCCATCTACCAAGCCACCTACAGAGATGCCTACTCAGGAGGTGCAGTCAACCTC
+TACCACGTGCGGGAGGATGGCTGGATCCGAGTCTCCAGTGACAATGTGGCTGATCTACAT
+GAGAAGTATAGTGGCTCTACCCCCTGA
+
+# Drug_Target_3_General_Function:
+Posttranslational modification, protein turnover, chaperones
+
+# Drug_Target_3_General_References:
+2306472	Lee LW, Moomaw CR, Orth K, McGuire MJ, DeMartino GN, Slaughter CA: Relationships among the subunits of the high molecular weight proteinase, macropain (proteasome). Biochim Biophys Acta. 1990 Feb 9;1037(2):178-85.
+7820546	Belich MP, Glynne RJ, Senger G, Sheer D, Trowsdale J: Proteasome components with reciprocal expression to that of the MHC-encoded LMP proteins. Curr Biol. 1994 Sep 1;4(9):769-76.
+7864893	Kristensen P, Johnsen AH, Uerkvitz W, Tanaka K, Hendil KB: Human proteasome subunits from 2-dimensional gels identified by partial sequencing. Biochem Biophys Res Commun. 1995 Feb 27;207(3):1059.
+8066462	Akiyama K, Yokota K, Kagawa S, Shimbara N, Tamura T, Akioka H, Nothwang HG, Noda C, Tanaka K, Ichihara A: cDNA cloning and interferon gamma down-regulation of proteasomal subunits X and Y. Science. 1994 Aug 26;265(5176):1231-4.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:9542
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+4102
+
+# Drug_Target_3_Locus:
+14q11.2
+
+# Drug_Target_3_Molecular_Weight:
+22897
+
+# Drug_Target_3_Name:
+Proteasome subunit beta type 5
+
+# Drug_Target_3_Number_of_Residues:
+208
+
+# Drug_Target_3_PDB_ID:
+1IRU
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00227	Proteasome
+
+# Drug_Target_3_Protein_Sequence:
+>Proteasome subunit beta type 5
+MLHGTTTLAFKFRHGVIVAADSRATAGAYIASQTVKKVIEINPYLLGTMAGGAADCSFWE
+RLLARQCRIYELRNKERISVAAASKLLANMVYQYKGMGLSMGTMICGWDKRGPGLYYVDS
+EGNRISGATFSVGSGSVYAYGVMDRGYSYDLEVEQAYDLARRAIYQATYRDAYSGGAVNL
+YHVREDGWIRVSSDNVADLHEKYSGSTP
+
+# Drug_Target_3_Reaction:
+Cleavage of peptide bonds with very broad specificity INHIBITOR Mercurial reagent; Inhibitor of serine endopeptidase
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+The proteasome is a multicatalytic proteinase complex which is characterized by its ability to cleave peptides with Arg, Phe, Tyr, Leu, and Glu adjacent to the leaving group at neutral or slightly basic pH. The proteasome has an ATP-dependent proteolytic activity. May catalyze basal processing of intracellular antigens
+
+# Drug_Target_3_SwissProt_ID:
+P28074
+
+# Drug_Target_3_SwissProt_Name:
+PSB5_HUMAN
+
+# Drug_Target_3_Synonyms:
+EC 3.4.25.1
+Macropain epsilon chain
+Multicatalytic endopeptidase complex epsilon chain
+Proteasome chain 6
+Proteasome epsilon chain
+Proteasome subunit MB1
+Proteasome subunit X
+Proteasome subunit beta type 5 precursor
+
+# Drug_Target_3_Theoretical_pI:
+8.68
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+20954323	Saeki Y, Fukunaga K, Tanaka K: [Proteasome inhibitors]. Nippon Rinsho. 2010 Oct;68(10):1818-22.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+PSMB2
+
+# Drug_Target_4_GenBank_ID_Gene:
+D26599
+
+# Drug_Target_4_GenBank_ID_Protein:
+565649
+
+# Drug_Target_4_GeneCard_ID:
+PSMB2
+
+# Drug_Target_4_Gene_Name:
+PSMB2
+
+# Drug_Target_4_Gene_Sequence:
+>606 bp
+ATGGAGTACCTCATCGGTATCCAAGGCCCCGACTATGTTCTTGTCGCCTCCGACCGGGTG
+GCCGCCAGCAATATTGTCCAGATGAAGGACGATCATGACAAGATGTTTAAGATGAGTGAA
+AAGATATTACTCCTGTGTGTTGGAGAGGCTGGAGACACTGTACAGTTTGCAGAATATATT
+CAGAAAAACGTGCAACTTTATAAGATGCGAAATGGATATGAATTGTCTCCCACGGCAGCA
+GCTAACTTCACACGCCGAAACCTGGCTGACTGTCTTCGGAGTCGGACCCCATATCATGTG
+AACCTCCTCCTGGCTGGCTATGATGAGCATGAAGGGCCAGCGCTGTATTACATGGACTAC
+CTGGCAGCCTTGGCCAAGGCCCCTTTTGCAGCCCACGGCTATGGTGCCTTCCTGACTCTC
+AGTATCCTCGACCGATACTACACACCGACTATCTCACGTGAGAGGGCAGTGGAACTCCTT
+AGGAAATGTCTGGAGGAGCTCCAGAAACGCTTCATCCTGAATCTGCCAACCTTCAGTGTT
+CGAATCATTGACAAAAATGGCATCCATGACCTGGATAACATTTCCTTCCCCAAACAGGGC
+TCCTAA
+
+# Drug_Target_4_General_Function:
+Posttranslational modification, protein turnover, chaperones
+
+# Drug_Target_4_General_References:
+1286667	Rasmussen HH, van Damme J, Puype M, Gesser B, Celis JE, Vandekerckhove J: Microsequences of 145 proteins recorded in the two-dimensional gel protein database of normal human epidermal keratinocytes. Electrophoresis. 1992 Dec;13(12):960-9.
+7918633	Nothwang HG, Tamura T, Tanaka K, Ichihara A: Sequence analyses and inter-species comparisons of three novel human proteasomal subunits, HsN3, HsC7-I and HsC10-II, confine potential proteolytic active-site residues. Biochim Biophys Acta. 1994 Oct 18;1219(2):361-8.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:9539
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+4103
+
+# Drug_Target_4_Locus:
+1p34.2
+
+# Drug_Target_4_Molecular_Weight:
+22837
+
+# Drug_Target_4_Name:
+Proteasome subunit beta type 2
+
+# Drug_Target_4_Number_of_Residues:
+201
+
+# Drug_Target_4_PDB_ID:
+1IRU
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00227	Proteasome
+
+# Drug_Target_4_Protein_Sequence:
+>Proteasome subunit beta type 2
+MEYLIGIQGPDYVLVASDRVAASNIVQMKDDHDKMFKMSEKILLLCVGEAGDTVQFAEYI
+QKNVQLYKMRNGYELSPTAAANFTRRNLADCLRSRTPYHVNLLLAGYDEHEGPALYYMDY
+LAALAKAPFAAHGYGAFLTLSILDRYYTPTISRERAVELLRKCLEELQKRFILNLPTFSV
+RIIDKNGIHDLDNISFPKQGS
+
+# Drug_Target_4_Reaction:
+Cleavage of peptide bonds with very broad specificity INHIBITOR Mercurial reagent; Inhibitor of serine endopeptidase
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+The proteasome is a multicatalytic proteinase complex which is characterized by its ability to cleave peptides with Arg, Phe, Tyr, Leu, and Glu adjacent to the leaving group at neutral or slightly basic pH. The proteasome has an ATP-dependent proteolytic activity. This subunit has a chymotrypsin-like activity
+
+# Drug_Target_4_SwissProt_ID:
+P49721
+
+# Drug_Target_4_SwissProt_Name:
+PSB2_HUMAN
+
+# Drug_Target_4_Synonyms:
+EC 3.4.25.1
+Macropain subunit C7-I
+Multicatalytic endopeptidase complex subunit C7-I
+Proteasome component C7- I
+
+# Drug_Target_4_Theoretical_pI:
+7.04
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+# Drug_Target_5_Cellular_Location:
+Not Available
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+20954323	Saeki Y, Fukunaga K, Tanaka K: [Proteasome inhibitors]. Nippon Rinsho. 2010 Oct;68(10):1818-22.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+PSMD1
+
+# Drug_Target_5_GenBank_ID_Gene:
+D44466
+
+# Drug_Target_5_GenBank_ID_Protein:
+1808578
+
+# Drug_Target_5_GeneCard_ID:
+PSMD1
+
+# Drug_Target_5_Gene_Name:
+PSMD1
+
+# Drug_Target_5_Gene_Sequence:
+>2862 bp
+ATGATCACCTCGGCCGCTGGAATTATTTCTCTTCTGGATGAAGATGAACCACAGCTTAAG
+GAATTTGCACTACACAAATTGAATGCAGTTGTTAATGACTTCTGGGCAGAAATTTCCGAG
+TCCGTAGACAAAATAGAGGTTTTATACGAAGATGAAGGTTTCCGGAGTCGGCAGTTTGCA
+GCCTTAGTGGCATCTAAAGTATTTTATCACCTGGGGGCTTTTGAGGAGTCTCTGAATTAT
+GCTCTTGGAGCAAGGGACCTCTTCAATGTCAATGATAACTCTGAATATGTGGAAACTATT
+ATAGCAAAATGCATTGATCACTACACCAAACAATGTGTGGAAAATGCAGATTTGCCTGAA
+GGAGAAAAAAAACCAATTGACCAGAGATTGGAAGGCATCGTAAATAAAATGTTCCAGCGA
+TGTCTAGATGATCACAAGTATAAACAGGCTATTGGCATTGCTCTGGAGACACGAAGACTG
+GACGTCTTTGAAAAGACCATACTGGAGTCGAATGATGTCCCAGGAATGTTAGCTTATAGC
+CTTAAGCTCTGCATGTCTTTAATGCAGAATAAACAGTTTCGGAATAAAGTACTAAGAGTT
+CTAGTTAAAATCTACATGAACTTGGAGAAACCTGATTTCATCAATGTTTGTCAGTGCTTA
+ATTTTCTTAGATGATCCTCAGGCTGTGAGTGATATCTTAGAGAAACTGGTAAAGGAAGAC
+AACCTCCTGATGGCATATCAGATTTGTTTTGATTTGTATGAAAGTGCTAGCCAGCAGTTT
+TTGTCATCTGTAATCCAGAATCTTCGAACTGTTGGCACCCCTATTGCTTCTGTGCCTGGA
+TCCACTAATACGGGTACTGTTCCGGGATCAGAGAAAGACAGTGACTCGATGGAAACAGAA
+GAAAAGACAAGCAGTGCATTTGTAGGAAAGACACCAGAAGCCAGTCCAGAGCCTAAGGAC
+CAGACTTTGAAAATGATTAAAATTTTAAGTGGTGAAATGGCTATTGAGTTACATCTGCAG
+TTCTTAATACGAAACAATAATACAGACCTCATGATTCTAAAAAACACAAAGGATGCAGTA
+CGGAATTCTGTATGTCATACTGCAACCGTTATAGCAAACTCTTTTATGCACTGTGGGACA
+ACCAGTGACCAGTTTCTTAGAGATAATTTGGAATGGTTAGCCAGAGCCACTAACTGGGCA
+AAATTTACTGCTACAGCCAGTTTGGGTGTAATTCATAAGGGTCATGAAAAAGAAGCATTA
+CAGTTAATGGCAACATACCTTCCCAAGGATACTTCTCCAGGATCAGCCTATCAGGAAGGT
+GGAGGTCTCTATGCACTAGGTCTTATTCATGCCAATCATGGTGGTGATATAATTGACTAT
+CTGCTTAATCAGCTTAAGAACGCCAGCAATGATATCGTTAGACACGGTGGCAGTCTGGGC
+CTTGGTTTGGCAGCCATGGGAACTGCACGTCAAGATGTTTATGATTTGCTAAAAACAAAC
+CTTTATCAGGATGATGCAGTAACAGGGGAAGCAGCTGGCCTGGCCCTAGGTTTGGTTATG
+TTGGGCTCTAAAAATGCTCAGGCTATTGAGGACATGGTTGGTTATGCACAAGAAACTCAA
+CATGAGAAGATTCTGCGTGGTCTTGCAGTTGGCATAGCTTTAGTAATGTATGGGAGGATG
+GAAGAGGCTGATGCTCTCATTGAATCTCTCTGTCGTGACAAGGACCCAATTCTTCGAAGG
+TCTGGAATGTATACTGTAGCCATGGCTTATTGTGGCTCTGGTAACAACAAAGCAATTCGA
+CGCCTGCTACATGTGGCTGTAAGTGATGTGAATGATGATGTCAGGAGTGCAGCAGTAGAA
+TCACTTGGGTTCATTCTATTCAGAACCCCTGAACAGTGCCCAAGTGTTGTCTCTTTGTTG
+TCAGAGAGTTACAACCCTCATGTGCGCTACGGAGCTGCAATGGCCTTGGGGATATGCTGT
+GCTGGTACAGGAAACAAGGAAGCCATTAATTTGCTAGAACCAATGACAAACGACCCCGTG
+AACTACGTGAGGCAAGGGGCACTCATAGCTTCAGCTCTCATCATGATCCAGCAGACTGAA
+ATCACTTGTCCAAAGGTGAATCAGTTCAGACAGCTGTATTCCAAAGTCATCAATGATAAG
+CATGATGATGTCATGGCCAAGTTTGGCGCTATTCTGGCCCAGGGCATACTGGATGCAGGT
+GGTCATAATGTCACAATCTCCTTGCAGTCCAGGACTGGGCATACTCATATGCCTTCTGTG
+GTTGGCGTCCTTGTATTTACCCAGTTTTGGTTCTGGTTTCCTCTTTCACACTTCCTGTCA
+TTGGCTTATACCCCTACCTGTGTCATTGGCCTTAACAAGGACTTAAAGATGCCGAAAGTT
+CAGTATAAATCGAACTGTAAACCATCCACATTTGCATATCCTGCCCCTCTGGAAGTACCA
+AAAGAAAAAGAAAAGGAAAAGGTTTCTACTGCTGTATTATCTATAACTGCCAAGGCTAAA
+AAGAAGGAAAAAGAAAAGGAAAAAAAGGAGGAGGAGAAAATGGAAGTGGATGAGGCAGAG
+AAAAAGGAGGAAAAAGAGAAGAAAAAAGAACCTGAGCCAAACTTCCAGTTATTGGATAAC
+CCAGCCCGAGTTATGCCTGCCCAGCTTAAGGTCCTAACCATGCCGGAGACCTGTAGATAC
+CAGCCTTTCAAACCACTCTCTATTGGAGGCATCATCATTCTGAAGGATACCAGTGAAGAC
+ATTGAGGAGCTGGTGGAACCTGTGGCAGCACATGGCCCAAAAATCGAGGAGGAGGAACAA
+GAGCCAGAACCCCCAGAACCATTTGAGTATATTGATGATTAA
+
+# Drug_Target_5_General_Function:
+Translation, ribosomal structure and biogenesis
+
+# Drug_Target_5_General_References:
+8816993	Yokota K, Kagawa S, Shimizu Y, Akioka H, Tsurumi C, Noda C, Fujimuro M, Yokosawa H, Fujiwara T, Takahashi E, Ohba M, Yamasaki M, DeMartino GN, Slaughter CA, Toh-e A, Tanaka K: CDNA cloning of p112, the largest regulatory subunit of the human 26s proteasome, and functional analysis of its yeast homologue, sen3p. Mol Biol Cell. 1996 Jun;7(6):853-70.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:9554
+
+# Drug_Target_5_HPRD_ID:
+10169
+
+# Drug_Target_5_ID:
+515
+
+# Drug_Target_5_Locus:
+2q37.1
+
+# Drug_Target_5_Molecular_Weight:
+105837
+
+# Drug_Target_5_Name:
+26S proteasome non-ATPase regulatory subunit 1
+
+# Drug_Target_5_Number_of_Residues:
+953
+
+# Drug_Target_5_PDB_ID:
+Not Available
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF01851	PC_rep
+
+# Drug_Target_5_Protein_Sequence:
+>26S proteasome non-ATPase regulatory subunit 1
+MITSAAGIISLLDEDEPQLKEFALHKLNAVVNDFWAEISESVDKIEVLYEDEGFRSRQFA
+ALVASKVFYHLGAFEESLNYALGAGDLFNVNDNSEYVETIIAKCIDHYTKQCVENADLPE
+GEKKPIDQRLEGIVNKMFQRCLDDHKYKQAIGIALETRRLDVFEKTILESNDVPGMLAYS
+LKLCMSLMQNKQFRNKVLRVLVKIYMNLEKPDFINVCQCLIFLDDPQAVSDILEKLVKED
+NLLMAYQICFDLYESASQQFLSSVIQNLRTVGTPIASVPGSTNTGTVPGSEKDSDSMETE
+EKTSSAFVGKTPEASPEPKDQTLKMIKILSGEMAIELHLQFLIRNNNTDLMILKNTKDAV
+RNSVCHTATVIANSFMHCGTTSDQFLRDNLEWLARATNWAKFTATASLGVIHKGHEKEAL
+QLMATYLPKDTSPGSAYQEGGGLYALGLIHANHGGDIIDYLLNQLKNASNDIVRHGGSLG
+LGLAAMGTARQDVYDLLKTNLYQDDAVTGEAAGLALGLVMLGSKNAQAIEDMVGYAQETQ
+HEKILRGLAVGIALVMYGRMEEADALIESLCRDKDPILRRSGMYTVAMAYCGSGNNKAIR
+RLLHVAVSDVNDDVRRAAVESLGFILFRTPEQCPSVVSLLSESYNPHVRYGAAMALGICC
+AGTGNKEAINLLEPMTNDPVNYVRQGALIASALIMIQQTEITCPKVNQFRQLYSKVINDK
+HDDVMAKFGAILAQGILDAGGHNVTISLQSRTGHTHMPSVVGVLVFTQFWFWFPLSHFLS
+LAYTPTCVIGLNKDLKMPKVQYKSNCKPSTFAYPAPLEVPKEKEKEKVSTAVLSITAKAK
+KKEKEKEKKEEEKMEVDEAEKKEEKEKKKEPEPNFQLLDNPARVMPAQLKVLTMPETCRY
+QPFKPLSIGGIIILKDTSEDIEELVEPVAAHGPKIEEEEQEPEPPEPFEYIDD
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+None
+
+# Drug_Target_5_Specific_Function:
+Acts as a regulatory subunit of the 26 proteasome which is involved in the ATP-dependent degradation of ubiquitinated proteins
+
+# Drug_Target_5_SwissProt_ID:
+Q99460
+
+# Drug_Target_5_SwissProt_Name:
+PSMD1_HUMAN
+
+# Drug_Target_5_Synonyms:
+26S proteasome regulatory subunit RPN2
+26S proteasome regulatory subunit S1
+26S proteasome subunit p112
+
+# Drug_Target_5_Theoretical_pI:
+5.04
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00188

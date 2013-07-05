@@ -1,0 +1,906 @@
+#BEGIN_DRUGCARD DB00409
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+N05AL04
+
+# Absorption:
+Rapidly absorbed. Absolute bioavailability is 90%.
+
+# Biotransformation:
+No active metabolites
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+80125-14-0
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C16H23BrN2O3
+
+# Chemical_IUPAC_Name:
+3-bromo-N-{[(2S)-1-ethylpyrrolidin-2-yl]methyl}-2,6-dimethoxybenzamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+An antipsychotic agent that is specific for dopamine D2 receptors. It has been shown to be effective in the treatment of schizophrenia. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Antipsychotic Agents
+Antipsychotics
+Dopamine Antagonists
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+Withdrawn
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+2.10
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+74 mg/L
+
+# Food_Interactions:
+Take without regard to meals.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Remoxipride
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+4-7 hours
+
+# InChI_Identifier:
+InChI=1S/C16H23BrN2O3/c1-4-19-9-5-6-11(19)10-18-16(20)14-13(21-2)8-7-12(17)15(14)22-3/h7-8,11H,4-6,9-10H2,1-3H3,(H,18,20)/t11-/m0/s1
+
+# InChI_Key:
+InChIKey=GUJRSXAPGDDABA-NSHDSACASA-N
+
+# Indication:
+Remoxipride is an atypical antipsychotic once used for the treatment of schizophrenia.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+409
+
+# Mechanism_Of_Action:
+Remoxipride acts as an antagonist at the D2 dopamine receptor. It is believed that overactivity of dopamine systems in the mesolimbic pathway may contribute to the "positive symptoms" of schizophrenia (such as delusions and hallucinations), whereas problems with dopamine function in the mesocortical pathway may be responsible for the "negative symptoms", such as avolition, flat emotional response and alogia. Therefore, by decreasing the levels of dopamine in these pathways, it is thought that remoxipride is able to reduce the symptoms of schizophrenia, particularily the "positive symptoms".
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+371.269
+
+# Molecular_Weight_Mono:
+370.089205259
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164749051
+
+# Pharmacology:
+Remoxipride, a substituted benzamide, is a selective D2 receptor antagonist. It has been shown to be effective in the treatment of schizophrenia. Some antipsychotics block domapinergic receptors as well as cholinergic, noradrenergic and histaminergic receptors. Remoxipride was developed to act specifically on the dopamine D2 receptor. As a consequence, several undesired side effects can occur. Patients often feel they are not taking any antipsychotic drug. It has a potent affinity for the sigma receptor, but it is unclear whether it is a sigma agonist or antagonist. The contribution of this property to its clinical profile is unknown. Blocking the D2 dopamine receptor is known to cause relapse in patients that have achieved remission from depression, and such blocking also counteracts the effectiveness of SSRI medication.
+
+# Predicted_LogP_Hydrophobicity:
+2.94
+
+# Predicted_LogS:
+-3.5
+
+# Predicted_Water_Solubility:
+1.27e-01 g/l
+
+# Primary_Accession_No:
+DB00409
+
+# Protein_Binding:
+89-98%
+
+# PubChem_Compound_ID:
+54477
+
+# PubChem_Substance_ID:
+46508689
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00316
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CCN1CCC[C@H]1CNC(=O)C1=C(OC)C=CC(Br)=C1OC
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Remoxiprida [INN-Spanish]
+Remoxipride [Usan:Ban:Inn]
+Remoxipridum [INN-Latin]
+Romoxipride
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:19:19 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Remoxipride
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P10635
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+11873706	Seeman P: Atypical antipsychotics: mechanism of action. Can J Psychiatry. 2002 Feb;47(1):27-38.
+8665533	Lang AE, Sandor P, Duff J: Remoxipride in Parkinson's disease: differential response in patients with dyskinesias fluctuations versus psychosis. Clin Neuropharmacol. 1995 Feb;18(1):39-45.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+DRD2
+
+# Drug_Target_1_GenBank_ID_Gene:
+M30625
+
+# Drug_Target_1_GenBank_ID_Protein:
+181432
+
+# Drug_Target_1_GeneCard_ID:
+DRD2
+
+# Drug_Target_1_Gene_Name:
+DRD2
+
+# Drug_Target_1_Gene_Sequence:
+>1332 bp
+ATGGATCCACTGAATCTGTCCTGGTATGATGATGATCTGGAGAGGCAGAACTGGAGCCGG
+CCCTTCAACGGGTCAGACGGGAAGGCGGACAGACCCCACTACAACTACTATGCCACACTG
+CTCACCCTGCTCATCGCTGTCATCGTCTTCGGCAACGTGCTGGTGTGCATGGCTGTGTCC
+CGCGAGAAGGCGCTGCAGACCACCACCAACTACCTGATCGTCAGCCTCGCAGTGGCCGAC
+CTCCTCGTCGCCACACTGGTCATGCCATGGGTTGTCTACCTGGAGGTGGTAGGTGAGTGG
+AAATTCAGCAGGATTCACTGTGACATCTTCGTCACTCTGGACGTCATGATGTGCACGGCG
+AGCATCCTGAACTTGTGTGCCATCAGCATCGACAGGTACACAGCTGTGGCCATGCCCATG
+CTGTACAATACGCGCTACAGCTCCAAGCGCCGGGTCACCGTCATGATCTCCATCGTCTGG
+GTCCTGTCCTTCACCATCTCCTGCCCACTCCTCTTCGGACTCAATAACGCAGACCAGAAC
+GAGTGCATCATTGCCAACCCGGCCTTCGTGGTCTACTCCTCCATCGTCTCCTTCTACGTG
+CCCTTCATTGTCACCCTGCTGGTCTACATCAAGATCTACATTGTCCTCCGCAGACGCCGC
+AAGCGAGTCAACACCAAACGCAGCAGCCGAGCTTTCAGGGCCCACCTGAGGGCTCCACTA
+AAGGGCAACTGTACTCACCCCGAGGACATGAAACTCTGCACCGTTATCATGAAGTCTAAT
+GGGAGTTTCCCAGTGAACAGGCGGAGAGTGGAGGCTGCCCGGCGAGCCCAGGAGCTGGAG
+ATGGAGATGCTCTCCAGCACCAGCCCACCCGAGAGGACCCGGTACAGCCCCATCCCACCC
+AGCCACCACCAGCTGACTCTCCCCGACCCGTCCCACCACGGTCTCCACAGCACTCCTGAC
+AGCCCCGCCAAACCAGAGAAGAATGGGCATGCCAAAGACCACCCCAAGATTGCCAAGATC
+TTTGAGATCCAGACCATGCCCAATGGCAAAACCCGGACCTCCCTCAAGACCATGAGCCGT
+AGAAAGCTCTCCCAGCAGAAGGAGAAGAAAGCCACTCAGATGCTCGCCATTGTTCTCGGC
+GTGTTCATCATCTGCTGGCTGCCCTTCTTCATCACACACATCCTGAACATACACTGTGAC
+TGCAACATCCCGCCTGTCCTGTACAGCGCCTTCACGTGGCTGGGCTATGTCAACAGCGCC
+GTGAACCCCATCATCTACACCACCTTCAACATTGAGTTCCGCAAGGCCTTCCTGAAGATC
+CTTCACTGCTGA
+
+# Drug_Target_1_General_Function:
+Involved in dopamine receptor activity
+
+# Drug_Target_1_General_References:
+10220438	Klein C, Brin MF, Kramer P, Sena-Esteves M, de Leon D, Doheny D, Bressman S, Fahn S, Breakefield XO, Ozelius LJ: Association of a missense change in the D2 dopamine receptor with myoclonus dystonia. Proc Natl Acad Sci U S A. 1999 Apr 27;96(9):5173-6.
+10719223	Seeman P, Nam D, Ulpian C, Liu IS, Tallerico T: New dopamine receptor, D2(Longer), with unique TG splice site, in human brain. Brain Res Mol Brain Res. 2000 Mar 10;76(1):132-41.
+1363862	Araki K, Kuwano R, Morii K, Hayashi S, Minoshima S, Shimizu N, Katagiri T, Usui H, Kumanishi T, Takahashi Y: Structure and expression of human and rat D2 dopamine receptor genes. Neurochem Int. 1992 Jul;21(1):91-8.
+1835903	Dearry A, Falardeau P, Shores C, Caron MG: D2 dopamine receptors in the human retina: cloning of cDNA and localization of mRNA. Cell Mol Neurobiol. 1991 Oct;11(5):437-53.
+2137193	Stormann TM, Gdula DC, Weiner DM, Brann MR: Molecular cloning and expression of a dopamine D2 receptor from human retina. Mol Pharmacol. 1990 Jan;37(1):1-6.
+2138729	Robakis NK, Mohamadi M, Fu DY, Sambamurti K, Refolo LM: Human retina D2 receptor cDNAs have multiple polyadenylation sites and differ from a pituitary clone at the 5' non-coding region. Nucleic Acids Res. 1990 Mar 11;18(5):1299.
+2144985	Selbie LA, Hayes G, Shine J: DNA homology screening: isolation and characterization of the human D2A dopamine receptor subtype. Adv Second Messenger Phosphoprotein Res. 1990;24:9-14.
+2531656	Dal Toso R, Sommer B, Ewert M, Herb A, Pritchett DB, Bach A, Shivers BD, Seeburg PH: The dopamine D2 receptor: two molecular forms generated by alternative splicing. EMBO J. 1989 Dec 20;8(13):4025-34.
+2532362	Grandy DK, Marchionni MA, Makam H, Stofko RE, Alfano M, Frothingham L, Fischer JB, Burke-Howie KJ, Bunzow JR, Server AC, et al.: Cloning of the cDNA and gene for a human D2 dopamine receptor. Proc Natl Acad Sci U S A. 1989 Dec;86(24):9762-6.
+2533064	Selbie LA, Hayes G, Shine J: The major dopamine D2 receptor: molecular analysis of the human D2A subtype. DNA. 1989 Nov;8(9):683-9.
+7902708	Itokawa M, Arinami T, Futamura N, Hamaguchi H, Toru M: A structural polymorphism of human dopamine D2 receptor, D2(Ser311-->Cys). Biochem Biophys Res Commun. 1993 Nov 15;196(3):1369-75.
+8471125	Seeman P, Ohara K, Ulpian C, Seeman MV, Jellinger K, Van Tol HH, Niznik HB: Schizophrenia: normal sequence in the dopamine D2 receptor region that couples to G-proteins. DNA polymorphisms in D2. Neuropsychopharmacology. 1993 Feb;8(2):137-42.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:3023
+
+# Drug_Target_1_HPRD_ID:
+00539
+
+# Drug_Target_1_ID:
+831
+
+# Drug_Target_1_Locus:
+11q23
+
+# Drug_Target_1_Molecular_Weight:
+50620
+
+# Drug_Target_1_Name:
+D(2) dopamine receptor
+
+# Drug_Target_1_Number_of_Residues:
+443
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_1_Protein_Sequence:
+>D(2) dopamine receptor
+MDPLNLSWYDDDLERQNWSRPFNGSDGKADRPHYNYYATLLTLLIAVIVFGNVLVCMAVS
+REKALQTTTNYLIVSLAVADLLVATLVMPWVVYLEVVGEWKFSRIHCDIFVTLDVMMCTA
+SILNLCAISIDRYTAVAMPMLYNTRYSSKRRVTVMISIVWVLSFTISCPLLFGLNNADQN
+ECIIANPAFVVYSSIVSFYVPFIVTLLVYIKIYIVLRRRRKRVNTKRSSRAFRAHLRAPL
+KGNCTHPEDMKLCTVIMKSNGSFPVNRRRVEAARRAQELEMEMLSSTSPPERTRYSPIPP
+SHHQLTLPDPSHHGLHSTPDSPAKPEKNGHAKDHPKIAKIFEIQTMPNGKTRTSLKTMSR
+RKLSQQKEKKATQMLAIVLGVFIICWLPFFITHILNIHCDCNIPPVLYSAFTWLGYVNSA
+VNPIIYTTFNIEFRKAFLKILHC
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+This is one of the five types (D1 to D5) of receptors for dopamine. The activity of this receptor is mediated by G proteins which inhibit adenylyl cyclase
+
+# Drug_Target_1_SwissProt_ID:
+P14416
+
+# Drug_Target_1_SwissProt_Name:
+DRD2_HUMAN
+
+# Drug_Target_1_Synonyms:
+Dopamine D2 receptor
+
+# Drug_Target_1_Theoretical_pI:
+9.85
+
+# Drug_Target_1_Transmembrane_Regions:
+38-60
+72-97
+109-130
+152-174
+187-210
+374-397
+406-429
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+9015795	Seeman P, Corbett R, Van Tol HH: Atypical neuroleptics have low affinity for dopamine D2 receptors or are selective for D4 receptors. Neuropsychopharmacology. 1997 Feb;16(2):93-110; discussion 111-35.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+DRD4
+
+# Drug_Target_2_GenBank_ID_Gene:
+L12398
+
+# Drug_Target_2_GenBank_ID_Protein:
+291946
+
+# Drug_Target_2_GeneCard_ID:
+DRD4
+
+# Drug_Target_2_Gene_Name:
+DRD4
+
+# Drug_Target_2_Gene_Sequence:
+>1404 bp
+ATGGGGAACCGCAGCACCGCGGACGCGGACGGGCTGCTGGCTGGGCGCGGGCCGGCCGCG
+GGGGCATCTGCGGGGGCATCTGCGGGGCTGGCTGGGCAGGGCGCGGCGGCGCTGGTGGGG
+GGCGTGCTGCTCATCGGCGCGGTGCTCGCGGGGAACTCGCTCGTGTGCGTGAGCGTGGCC
+ACCGAGCGCGCCCTGCAGACGCCCACCAACTCCTTCATCGTGAGCCTGGCGGCCGCCGAC
+CTCCTCCTCGCTCTCCTGGTGCTGCCGCTCTTCGTCTACTCCGAGGTCCAGGGTGGCGCG
+TGGCTGCTGAGCCCCCGCCTGTGCGACGCCCTCATGGCCATGGACGTCATGCTGTGCACC
+GCCTCCATCTTCAACCTGTGCGCCATCAGCGTGGACAGGTTCGTGGCCGTGGCCGTGCCG
+CTGCGCTACAACCGGCAGGGTGGGAGCCGCCGGCAGCTGCTGCTCATCGGCGCCACGTGG
+CTGCTGTCCGCGGCGGTGGCGGCGCCCGTACTGTGCGGCCTCAACGACGTGCGCGGCCGC
+GACCCCGCCGTGTGCCGCCTGGAGGACCGCGACTACGTGGTCTACTCGTCCGTGTGCTCC
+TTCTTCCTACCCTGCCCGCTCATGCTGCTGCTCTACTGGGCCACGTTCCGCGGCCTGCAG
+CGCTGGGAGGTGGCACGTCGCGCCAAGCTGCACGGCCGCGCGCCCCGCCGACCCAGCGGC
+CCTGGCCCGCCTTCCCCCACGCCACCCGCGCCCCGCCTCCCCCAGGACCCCTGCGGCCCC
+GACTGTGCGCCCCCCGCGCCCGGCCTTCCCCGGGGTCCCTGCGGCCCCGACTGTGCGCCC
+GCCGCGCCCGGCCTCCCCCCGGACCCCTGCGGCCCCGACTGTGCGCCCCCCGCGCCCGGC
+CTCCCCCAGGACCCCTGCGGCCCCGACTGTGCGCCCCCCGCGCCCGGCCTTCCCCGGGGT
+CCCTGCGGCCCCGACTGTGCGCCCCCCGCGCCCGGCCTCCCCCAGGACCCCTGCGGCCCC
+GACTGTGCGCCCCCCGCGCCCGGCCTCCCCCCGGACCCCTGCGGCTCCAACTGTGCTCCC
+CCCGACGCCGTCAGAGCCGCCGCGCTCCCACCCCAGACTCCACCGCAGACCCGCAGGAGG
+CGGCGTGCCAAGATCACCGGCCGGGAGCGCAAGGCCATGAGGGTCCTGCCGGTGGTGGTC
+GGGGCCTTCCTGCTGTGCTGGACGCCCTTCTTCGTGGTGCACATCACGCAGGCGCTGTGT
+CCTGCCTGCTCCGTGCCCCCGCGGCTGGTCAGCGCCGTCACCTGGCTGGGCTACGTCAAC
+AGCGCCCTCAACCCCGTCATCTACACTGTCTTCAACGCCGAGTTCCGCAACGTCTTCCGC
+AAGGCCCTGCGTGCCTGCTGCTGA
+
+# Drug_Target_2_General_Function:
+Cell cycle control, cell division, chromosome partitioning
+
+# Drug_Target_2_General_References:
+1319557	Van Tol HH, Wu CM, Guan HC, Ohara K, Bunzow JR, Civelli O, Kennedy J, Seeman P, Niznik HB, Jovanovic V: Multiple dopamine D4 receptor variants in the human population. Nature. 1992 Jul 9;358(6382):149-52.
+1358063	Livingstone CD, Strange PG, Naylor LH: Molecular modelling of D2-like dopamine receptors. Biochem J. 1992 Oct 1;287 ( Pt 1):277-82.
+1840645	Van Tol HH, Bunzow JR, Guan HC, Sunahara RK, Seeman P, Niznik HB, Civelli O: Cloning of the gene for a human dopamine D4 receptor with high affinity for the antipsychotic clozapine. Nature. 1991 Apr 18;350(6319):610-4.
+7726213	Seeman P, Ulpian C, Chouinard G, Van Tol HH, Dwosh H, Lieberman JA, Siminovitch K, Liu IS, Waye J, Voruganti P, et al.: Dopamine D4 receptor variant, D4GLYCINE194, in Africans, but not in Caucasians: no association with schizophrenia. Am J Med Genet. 1994 Dec 15;54(4):384-90.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:3025
+
+# Drug_Target_2_HPRD_ID:
+00541
+
+# Drug_Target_2_ID:
+432
+
+# Drug_Target_2_Locus:
+11p15.5
+
+# Drug_Target_2_Molecular_Weight:
+48361
+
+# Drug_Target_2_Name:
+D(4) dopamine receptor
+
+# Drug_Target_2_Number_of_Residues:
+467
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_2_Protein_Sequence:
+>D(4) dopamine receptor
+MGNRSTADADGLLAGRGPAAGASAGASAGLAGQGAAALVGGVLLIGAVLAGNSLVCVSVA
+TERALQTPTNSFIVSLAAADLLLALLVLPLFVYSEVQGGAWLLSPRLCDALMAMDVMLCT
+ASIFNLCAISVDRFVAVAVPLRYNRQGGSRRQLLLIGATWLLSAAVAAPVLCGLNDVRGR
+DPAVCRLEDRDYVVYSSVCSFFLPCPLMLLLYWATFRGLQRWEVARRAKLHGRAPRRPSG
+PGPPSPTPPAPRLPQDPCGPDCAPPAPGLPRGPCGPDCAPAAPGLPPDPCGPDCAPPAPG
+LPQDPCGPDCAPPAPGLPRGPCGPDCAPPAPGLPQDPCGPDCAPPAPGLPPDPCGSNCAP
+PDAVRAAALPPQTPPQTRRRRRAKITGRERKAMRVLPVVVGAFLLCWTPFFVVHITQALC
+PACSVPPRLVSAVTWLGYVNSALNPVIYTVFNAEFRNVFRKALRACC
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+This is one of the five types (D1 to D5) of receptors for dopamine. The activity of this receptor is mediated by G proteins which inhibit adenylyl cyclase
+
+# Drug_Target_2_SwissProt_ID:
+P21917
+
+# Drug_Target_2_SwissProt_Name:
+DRD4_HUMAN
+
+# Drug_Target_2_Synonyms:
+D(2C) dopamine receptor
+Dopamine D4 receptor
+
+# Drug_Target_2_Theoretical_pI:
+8.37
+
+# Drug_Target_2_Transmembrane_Regions:
+38-60
+71-93
+110-131
+152-175
+192-213
+395-417
+427-449
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+11325388	Christian AJ, Goodwin AK, Baker LE: Antagonism of the discriminative stimulus effects of (+)-7-OH-DPAT by remoxipride but not PNU-99194A. Pharmacol Biochem Behav. 2001 Mar;68(3):371-7.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+DRD3
+
+# Drug_Target_3_GenBank_ID_Gene:
+U32499
+
+# Drug_Target_3_GenBank_ID_Protein:
+927342
+
+# Drug_Target_3_GeneCard_ID:
+DRD3
+
+# Drug_Target_3_Gene_Name:
+DRD3
+
+# Drug_Target_3_Gene_Sequence:
+>1203 bp
+ATGGCATCTCTGAGTCAGCTGAGTAGCCACCTGAACTACACCTGTGGGGCAGAGAACTCC
+ACAGGTGCCAGCCAGGCCCGCCCACATGCCTACTATGCCCTCTCCTACTGCGCGCTCATC
+CTGGCCATCGTCTTCGGCAATGGCCTGGTGTGCATGGCTGTGCTGAAGGAGCGGGCCCTG
+CAGACTACCACCAACTACTTAGTAGTGAGCCTGGCTGTGGCAGACTTGCTGGTGGCCACC
+TTGGTGATGCCCTGGGTGGTATACCTGGAGGTGACAGGTGGAGTCTGGAATTTCAGCCGC
+ATTTGCTGTGATGTTTTTGTCACCCTGGATGTCATGATGTGTACAGCCAGCATCCTTAAT
+CTCTGTGCCATCAGCATAGACAGGTACACTGCAGTGGTCATGCCCGTTCACTACCAGCAT
+GGCACGGGACAGAGCTCCTGTCGGCGCGTGGCCCTCATGATCACGGCCGTCTGGGTACTG
+GCCTTTGCTGTGTCCTGCCCTCTTCTGTTTGGCTTTAATACCACAGGGGACCCCACTGTC
+TGCTCCATCTCCAACCCTGATTTTGTCATCTACTCTTCAGTGGTGTCCTTCTACCTGCCC
+TTTGGAGTGACTGTCCTTGTCTATGCCAGAATCTATGTGGTGCTGAAACAAAGGAGACGG
+AAAAGGATCCTCACTCGACAGAACAGTCAGTGCAACAGTGTCAGGCCTGGCTTCCCCCAA
+CAAACCCTCTCTCCTGACCCGGCACATCTGGAGCTGAAGCGTTACTACAGCATCTGCCAG
+GACACTGCCTTGGGTGGACCAGGCTTCCAAGAAAGAGGAGGAGAGTTGAAAAGAGAGGAG
+AAGACTCGGAATTCCCTGAGTCCCACCATAGCGCCCAAGCTCAGCTTAGAAGTTCGAAAA
+CTCAGCAATGGCAGATTATCGACATCTTTGAAGCTGGGGCCCCTGCAACCTCGGGGAGTG
+CCACTTCGGGAGAAGAAGGCAACCCAAATGGTGGCCATTGTGCTTGGGGCCTTCATTGTC
+TGCTGGCTGCCCTTCTTCTTGACCCATGTTCTCAATACCCACTGCCAGACATGCCACGTG
+TCCCCAGAGCTTTACAGTGCCACGACATGGCTGGGCTACGTGAATAGCGCCCTCAACCCT
+GTGATCTATACCACCTTCAATATCGAGTTCCGGAAAGCCTTCCTCAAGATCCTGTCTTGC
+TGA
+
+# Drug_Target_3_General_Function:
+Involved in dopamine receptor activity
+
+# Drug_Target_3_General_References:
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+2129115	Giros B, Martres MP, Sokoloff P, Schwartz JC: [Gene cloning of human dopaminergic D3 receptor and identification of its chromosome] C R Acad Sci III. 1990;311(13):501-8.
+7961889	Liu K, Bergson C, Levenson R, Schmauss C: On the origin of mRNA encoding the truncated dopamine D3-type receptor D3nf and detection of D3nf-like immunoreactivity in human brain. J Biol Chem. 1994 Nov 18;269(46):29220-6.
+8415635	Schmauss C, Haroutunian V, Davis KL, Davidson M: Selective loss of dopamine D3-type receptor mRNA expression in parietal and motor cortices of patients with chronic schizophrenia. Proc Natl Acad Sci U S A. 1993 Oct 1;90(19):8942-6.
+9034004	Chen CH, Liu MY, Wei FC, Koong FJ, Hwu HG, Hsiao KJ: Further evidence of no association between Ser9Gly polymorphism of dopamine D3 receptor gene and schizophrenia. Am J Med Genet. 1997 Feb 21;74(1):40-3.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:3024
+
+# Drug_Target_3_HPRD_ID:
+00540
+
+# Drug_Target_3_ID:
+638
+
+# Drug_Target_3_Locus:
+3q13.3
+
+# Drug_Target_3_Molecular_Weight:
+44225
+
+# Drug_Target_3_Name:
+D(3) dopamine receptor
+
+# Drug_Target_3_Number_of_Residues:
+400
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_3_Protein_Sequence:
+>D(3) dopamine receptor
+MASLSQLSSHLNYTCGAENSTGASQARPHAYYALSYCALILAIVFGNGLVCMAVLKERAL
+QTTTNYLVVSLAVADLLVATLVMPWVVYLEVTGGVWNFSRICCDVFVTLDVMMCTASILN
+LCAISIDRYTAVVMPVHYQHGTGQSSCRRVALMITAVWVLAFAVSCPLLFGFNTTGDPTV
+CSISNPDFVIYSSVVSFYLPFGVTVLVYARIYVVLKQRRRKRILTRQNSQCNSVRPGFPQ
+QTLSPDPAHLELKRYYSICQDTALGGPGFQERGGELKREEKTRNSLSPTIAPKLSLEVRK
+LSNGRLSTSLKLGPLQPRGVPLREKKATQMVAIVLGAFIVCWLPFFLTHVLNTHCQTCHV
+SPELYSATTWLGYVNSALNPVIYTTFNIEFRKAFLKILSC
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+This is one of the five types (D1 to D5) of receptors for dopamine. The activity of this receptor is mediated by G proteins which inhibit adenylyl cyclase
+
+# Drug_Target_3_SwissProt_ID:
+P35462
+
+# Drug_Target_3_SwissProt_Name:
+DRD3_HUMAN
+
+# Drug_Target_3_Synonyms:
+Not Available
+
+# Drug_Target_3_Theoretical_pI:
+9.07
+
+# Drug_Target_3_Transmembrane_Regions:
+33-55
+67-92
+105-126
+150-172
+186-209
+330-351
+367-388
+
+# Drug_Target_4_Cellular_Location:
+Cell membrane
+multi-pass membrane protein. Localizes to the post-synaptic thickening of axo-dendrit
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+9015795	Seeman P, Corbett R, Van Tol HH: Atypical neuroleptics have low affinity for dopamine D2 receptors or are selective for D4 receptors. Neuropsychopharmacology. 1997 Feb;16(2):93-110; discussion 111-35.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+HTR2A
+
+# Drug_Target_4_GenBank_ID_Gene:
+S42168
+
+# Drug_Target_4_GenBank_ID_Protein:
+36431
+
+# Drug_Target_4_GeneCard_ID:
+HTR2A
+
+# Drug_Target_4_Gene_Name:
+HTR2A
+
+# Drug_Target_4_Gene_Sequence:
+>1416 bp
+ATGGATATTCTTTGTGAAGAAAATACTTCTTTGAGCTCAACTACGAACTCCCTAATGCAA
+TTAAATGATGACACCAGGCTCTACAGTAATGACTTTAACTCTGGAGAAGCTAACACTTCT
+GATGCATTTAACTGGACAGTCGACTCTGAAAATCGAACCAACCTTTCCTGTGAAGGGTGC
+CTCTCACCGTCGTGTCTCTCCTTACTTCATCTCCAGGAAAAAAACTGGTCTGCTTTACTG
+ACAGCCGTAGTGATTATTCTAACTATTGCTGGAAACATACTCGTCATCATGGCAGTGTCC
+CTAGAGAAAAAGCTGCAGAATGCCACCAACTATTTCCTGATGTCACTTGCCATAGCTGAT
+ATGCTGCTGGGTTTCCTTGTCATGCCCGTGTCCATGTTAACCATCCTGTATGGGTACCGG
+TGGCCTCTGCCGAGCAAGCTTTGTGCAGTCTGGATTTACCTGGACGTGCTCTTCTCCACG
+GCCTCCATCATGCACCTCTGCGCCATCTCGCTGGACCGCTACGTCGCCATCCAGAATCCC
+ATCCACCACAGCCGCTTCAACTCCAGAACTAAGGCATTTCTGAAAATCATTGCTGTTTGG
+ACCATATCAGTAGGTATATCCATGCCAATACCAGTCTTTGGGCTACAGGACGATTCGAAG
+GTCTTTAAGGAGGGGAGTTGCTTACTCGCCGATGATAACTTTGTCCTGATCGGCTCTTTT
+GTGTCATTTTTCATTCCCTTAACCATCATGGTGATCACCTACTTTCTAACTATCAAGTCA
+CTCCAGAAAGAAGCTACTTTGTGTGTAAGTGATCTTGGCACACGGGCCAAATTAGCTTCT
+TTCAGCTTCCTCCCTCAGAGTTCTTTGTCTTCAGAAAAGCTCTTCCAGCGGTCGATCCAT
+AGGGAGCCAGGGTCCTACACAGGCAGGAGGACTATGCAGTCCATCAGCAATGAGCAAAAG
+GCATGCAAGGTGCTGGGCATCGTCTTCTTCCTGTTTGTGGTGATGTGGTGCCCTTTCTTC
+ATCACAAACATCATGGCCGTCATCTGCAAAGAGTCCTGCAATGAGGATGTCATTGGGGCC
+CTGCTCAATGTGTTTGTTTGGATCGGTTATCTCTCTTCAGCAGTCAACCCACTAGTCTAC
+ACACTGTTCAACAAGACCTATAGGTCAGCCTTTTCACGGTATATTCAGTGTCAGTACAAG
+GAAAACAAAAAACCATTGCAGTTAATTTTAGTGAACACAATACCGGCTTTGGCCTACAAG
+TCTAGCCAACTTCAAATGGGACAAAAAAAGAATTCAAAGCAAGATGCCAAGACAACAGAT
+AATGACTGCTCAATGGTTGCTCTAGGAAAGCAGCATTCTGAAGAGGCTTCTAAAGACAAT
+AGCGACGGAGTGAATGAAAAGGTGAGCTGTGTGTGA
+
+# Drug_Target_4_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_4_General_References:
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+10581480	Marshall SE, Bird TG, Hart K, Welsh KI: Unified approach to the analysis of genetic variation in serotonergic pathways. Am J Med Genet. 1999 Dec 15;88(6):621-7.
+11150294	Becamel C, Figge A, Poliak S, Dumuis A, Peles E, Bockaert J, Lubbert H, Ullmer C: Interaction of serotonin 5-hydroxytryptamine type 2C receptors with PDZ10 of the multi-PDZ domain protein MUPP1. J Biol Chem. 2001 Apr 20;276(16):12974-82. Epub 2001 Jan 9.
+1323014	Chen K, Yang W, Grimsby J, Shih JC: The human 5-HT2 receptor is encoded by a multiple intron-exon gene. Brain Res Mol Brain Res. 1992 Jun;14(1-2):20-6.
+1330647	Stam NJ, Van Huizen F, Van Alebeek C, Brands J, Dijkema R, Tonnaer JA, Olijve W: Genomic organization, coding sequence and functional expression of human 5-HT2 and 5-HT1A receptor genes. Eur J Pharmacol. 1992 Oct 1;227(2):153-62.
+1722404	Saltzman AG, Morse B, Whitman MM, Ivanshchenko Y, Jaye M, Felder S: Cloning of the human serotonin 5-HT2 and 5-HT1C receptor subtypes. Biochem Biophys Res Commun. 1991 Dec 31;181(3):1469-78.
+8035173	Cook EH Jr, Fletcher KE, Wainwright M, Marks N, Yan SY, Leventhal BL: Primary structure of the human platelet serotonin 5-HT2A receptor: identify with frontal cortex serotonin 5-HT2A receptor. J Neurochem. 1994 Aug;63(2):465-9.
+8655141	Erdmann J, Shimron-Abarbanell D, Rietschel M, Albus M, Maier W, Korner J, Bondy B, Chen K, Shih JC, Knapp M, Propping P, Nothen MM: Systematic screening for mutations in the human serotonin-2A (5-HT2A) receptor gene: identification of two naturally occurring receptor variants and association analysis in schizophrenia. Hum Genet. 1996 May;97(5):614-9.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:5293
+
+# Drug_Target_4_HPRD_ID:
+01638
+
+# Drug_Target_4_ID:
+502
+
+# Drug_Target_4_Locus:
+13q14-q21
+
+# Drug_Target_4_Molecular_Weight:
+52604
+
+# Drug_Target_4_Name:
+5-hydroxytryptamine 2A receptor
+
+# Drug_Target_4_Number_of_Residues:
+471
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_4_Protein_Sequence:
+>5-hydroxytryptamine 2A receptor
+MDILCEENTSLSSTTNSLMQLNDDTRLYSNDFNSGEANTSDAFNWTVDSENRTNLSCEGC
+LSPSCLSLLHLQEKNWSALLTAVVIILTIAGNILVIMAVSLEKKLQNATNYFLMSLAIAD
+MLLGFLVMPVSMLTILYGYRWPLPSKLCAVWIYLDVLFSTASIMHLCAISLDRYVAIQNP
+IHHSRFNSRTKAFLKIIAVWTISVGISMPIPVFGLQDDSKVFKEGSCLLADDNFVLIGSF
+VSFFIPLTIMVITYFLTIKSLQKEATLCVSDLGTRAKLASFSFLPQSSLSSEKLFQRSIH
+REPGSYTGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFFITNIMAVICKESCNEDVIGA
+LLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFSRYIQCQYKENKKPLQLILVNTIPALAYK
+SSQLQMGQKKNSKQDAKTTDNDCSMVALGKQHSEEASKDNSDGVNEKVSCV
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+This is one of the several different receptors for 5- hydroxytryptamine (serotonin), a biogenic hormone that functions as a neurotransmitter, a hormone, and a mitogen. This receptor mediates its action by association with G proteins that activate a phosphatidylinositol-calcium second messenger system. This receptor is involved in tracheal smooth muscle contraction, bronchoconstriction, and control of aldosterone production
+
+# Drug_Target_4_SwissProt_ID:
+P28223
+
+# Drug_Target_4_SwissProt_Name:
+5HT2A_HUMAN
+
+# Drug_Target_4_Synonyms:
+5- HT-2
+5-HT-2A
+Serotonin receptor 2A
+
+# Drug_Target_4_Theoretical_pI:
+7.72
+
+# Drug_Target_4_Transmembrane_Regions:
+76-99
+111-132
+148-171
+192-215
+234-254
+325-346
+363-384
+
+# Drug_Target_5_Cellular_Location:
+Not Available
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+10562961	Okuyama S: [Atypical antipsychotic profiles of sigma receptor ligands] Nippon Yakurigaku Zasshi. 1999 Jul;114(1):13-23.
+7800667	Lang A, Soosaar A, Koks S, Volke V, Bourin M, Bradwejn J, Vasar E: Pharmacological comparison of antipsychotic drugs and sigma-antagonists in rodents. Pharmacol Toxicol. 1994 Sep-Oct;75(3-4):222-7.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+OPRS1
+
+# Drug_Target_5_GenBank_ID_Gene:
+U75283
+
+# Drug_Target_5_GenBank_ID_Protein:
+1783387
+
+# Drug_Target_5_GeneCard_ID:
+OPRS1
+
+# Drug_Target_5_Gene_Name:
+SIGMAR1
+
+# Drug_Target_5_Gene_Sequence:
+>672 bp
+ATGCAGTGGGCCGTGGGCCGGCGGTGGGCGTGGGCCGCGCTGCTCCTGGCTGTCGCAGCG
+GTGCTGACCCAGGTCGTCTGGCTCTGGCTGGGTACGCAGAGCTTCGTCTTCCAGCGCGAA
+GAGATAGCGCAGTTGGCGCGGCAGTACGCTGGGCTGGACCACGAGCTGGCCTTCTCTCGT
+CTGATCGTGGAGCTGCGGCGGCTGCACCCAGGCCACGTGCTGCCCGACGAGGAGCTGCAG
+TGGGTGTTCGTGAATGCGGGTGGCTGGATGGGCGCCATGTGCCTTCTGCACGCCTCGCTG
+TCCGAGTATGTGCTGCTCTTCGGCACCGCCTTGGGCTCCCGCGGCCACTCGGGGCGCTAC
+TGGGCTGAGATCTCGGATACCATCATCTCTGGCACCTTCCACCAGTGGAGAGAGGGCACC
+ACCAAAAGTGAGGTCTTCTACCCAGGGGAGACGGTAGTACACGGGCCTGGTGAGGCAACA
+GCTGTGGAGTGGGGGCCAAACACATGGATGGTGGAGTACGGCCGGGGCGTCATCCCATCC
+ACCCTGGCCTTCGCGCTGGCCGACACTGTCTTCAGCACCCAGGACTTCCTCACCCTCTTC
+TATACTCTTCGCTCCTATGCTCGGGGCCTCCGGCTTGAGCTCACCACCTACCTCTTTGGC
+CAGGACCCTTGA
+
+# Drug_Target_5_General_Function:
+Involved in C-8 sterol isomerase activity
+
+# Drug_Target_5_General_References:
+12477932	Strausberg RL, Feingold EA, Grouse LH, Derge JG, Klausner RD, Collins FS, Wagner L, Shenmen CM, Schuler GD, Altschul SF, Zeeberg B, Buetow KH, Schaefer CF, Bhat NK, Hopkins RF, Jordan H, Moore T, Max SI, Wang J, Hsieh F, Diatchenko L, Marusina K, Farmer AA, Rubin GM, Hong L, Stapleton M, Soares MB, Bonaldo MF, Casavant TL, Scheetz TE, Brownstein MJ, Usdin TB, Toshiyuki S, Carninci P, Prange C, Raha SS, Loquellano NA, Peters GJ, Abramson RD, Mullahy SJ, Bosak SA, McEwan PJ, McKernan KJ, Malek JA, Gunaratne PH, Richards S, Worley KC, Hale S, Garcia AM, Gay LJ, Hulyk SW, Villalon DK, Muzny DM, Sodergren EJ, Lu X, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madan A, Young AC, Shevchenko Y, Bouffard GG, Blakesley RW, Touchman JW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Krzywinski MI, Skalska U, Smailus DE, Schnerch A, Schein JE, Jones SJ, Marra MA: Generation and initial analysis of more than 15,000 full-length human and mouse cDNA sequences. Proc Natl Acad Sci U S A. 2002 Dec 24;99(26):16899-903. Epub 2002 Dec 11.
+8954936	Kekuda R, Prasad PD, Fei YJ, Leibach FH, Ganapathy V: Cloning and functional expression of the human type 1 sigma receptor (hSigmaR1). Biochem Biophys Res Commun. 1996 Dec 13;229(2):553-8.
+9453537	Prasad PD, Li HW, Fei YJ, Ganapathy ME, Fujita T, Plumley LH, Yang-Feng TL, Leibach FH, Ganapathy V: Exon-intron structure, analysis of promoter region, and chromosomal localization of the human type 1 sigma receptor gene. J Neurochem. 1998 Feb;70(2):443-51.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:8157
+
+# Drug_Target_5_HPRD_ID:
+Not Available
+
+# Drug_Target_5_ID:
+174
+
+# Drug_Target_5_Locus:
+9p13.3
+
+# Drug_Target_5_Molecular_Weight:
+25128
+
+# Drug_Target_5_Name:
+Sigma 1-type opioid receptor
+
+# Drug_Target_5_Number_of_Residues:
+223
+
+# Drug_Target_5_PDB_ID:
+Not Available
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF04622	ERG2_Sigma1R
+
+# Drug_Target_5_Protein_Sequence:
+>Sigma receptor
+MQWAVGRRWAWAALLLAVAAVLTQVVWLWLGTQSFVFQREEIAQLARQYAGLDHELAFSR
+LIVELRRLHPGHVLPDEELQWVFVNAGGWMGAMCLLHASLSEYVLLFGTALGSRGHSGRY
+WAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTWMVEYGRGVIPS
+TLAFALADTVFSTQDFLTLFYTLRSYARGLRLELTTYLFGQDP
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+None
+
+# Drug_Target_5_Specific_Function:
+Not Available
+
+# Drug_Target_5_SwissProt_ID:
+Q99720
+
+# Drug_Target_5_SwissProt_Name:
+SGMR1_HUMAN
+
+# Drug_Target_5_Synonyms:
+Aging-associated gene 8 protein
+SIG-1R
+SR-BP
+SR31747-binding protein
+Sigma1-receptor
+Sigma1R
+hSigmaR1
+
+# Drug_Target_5_Theoretical_pI:
+5.87
+
+# Drug_Target_5_Transmembrane_Regions:
+9-31
+
+#END_DRUGCARD DB00409

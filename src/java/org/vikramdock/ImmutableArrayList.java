@@ -10,26 +10,29 @@ import java.util.zip.*;
 import java.lang.*;
 import java.lang.reflect.*;
 
-class ImmutableArrayList {
-	ArrayList al;
-	public ImmutableArrayList(ArrayList al) {
+public class ImmutableArrayList<T> {
+	private ArrayList<T> al;
+	public ImmutableArrayList(ArrayList<T> al) {
 		this.al = al;
 	}
-	public ImmutableArrayList(ImmutableArrayList clone) {
-		al = new ArrayList();
+	public ImmutableArrayList(ImmutableArrayList<T> clone) {
+		al = new ArrayList<T>();
 		for (int i = 0; i < clone.size(); i++) {
-			Atom next = (Atom)clone.get(i);
-			Atom clonea = new Atom(next);
+			T next = clone.get(i);
+			T clonea = null;
+			if (next instanceof Atom) {
+				clonea = (T)new Atom((Atom)next);
+			}
 			al.add(clonea);
 		}
 	}
-	public Object get(int index) {
+	public T get(int index) {
 		return al.get(index);
 	}
 	public int size() {
 		return al.size();
 	}
-	public ArrayList getAL() {
+	public ArrayList<T> getAL() {
 		return al;
 	}
 }

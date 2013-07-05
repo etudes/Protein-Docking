@@ -1,0 +1,207 @@
+#BEGIN_DRUGCARD DB06717
+
+# AHFS_Codes:
+56:22.92
+
+# ATC_Codes:
+A04AD12
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Aprepitant is metabolized primarily by CYP3A4 with minor metabolism by CYP1A2 and CYP2C19. Seven metabolites of aprepitant, which are only weakly active, have been identified in human plasma.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Emend
+
+# CAS_Registry_Number:
+172673-20-0
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C23H22F7N4O6P
+
+# Chemical_IUPAC_Name:
+(3-{[(2R,3S)-2-[(1R)-1-[3,5-bis(trifluoromethyl)phenyl]ethoxy]-3-(4-fluorophenyl)morpholin-4-yl]methyl}-5-oxo-2,5-dihydro-1H-1,2,4-triazol-1-yl)phosphonic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2010-05-16 18:16:30 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Fosaprepitant is an intravenously administered antiemetic drug. It is a prodrug of Aprepitant. It aids in the prevention of acute and delayed nausea and vomiting associated with chemotherapy treatment.
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Antiemetics
+
+# Drug_Interactions:
+Corticotropin	Fosaprepitant may increase the serum concentration of Corticosteroids (Systemic). The active metabolite aprepitant is likely responsible for this effect. The manufacturer of fosaprepitant states that oral dexamethasone doses should be reduced by 50% when coadministered with a fosaprepitant/aprepitant regimen to achieve dexamethasone concentrations similar to those achieved with dexamethasone alone.1 Dexamethasone doses used in clinical chemotherapy nausea/vomiting studies with aprepitant reflect this 50% decrease. Similarly, it is recommended that in order to achieve concentrations similar to those achieved with methylprednisolone alone, the intravenous methylprednisolone dose should be reduced by 25% and the oral methylprednisolone dose should be reduced by 50% when given together with a fosaprepitant/aprepitant regimen. Monitor for increased effects of systemic corticosteroids when coadmininistered with fosaprepitant or aprepitant.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Fosaprepitant
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+9-13 hours
+
+# InChI_Identifier:
+InChI=1S/C23H22F7N4O6P/c1-12(14-8-15(22(25,26)27)10-16(9-14)23(28,29)30)40-20-19(13-2-4-17(24)5-3-13)33(6-7-39-20)11-18-31-21(35)34(32-18)41(36,37)38/h2-5,8-10,12,19-20H,6-7,11H2,1H3,(H,31,32,35)(H2,36,37,38)/t12-,19+,20-/m1/s1
+
+# InChI_Key:
+InChIKey=BARDROPHSZEBKC-OITMNORJSA-N
+
+# Indication:
+For the prevention of nausea and vomiting associated with highly emetogenic cancer chemotherapy.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D06597
+
+# LIMS_Drug_ID:
+6721
+
+# Mechanism_Of_Action:
+Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions. Animal and human Positron Emission Tomography (PET) studies with Aprepitant have shown that it crosses the blood brain barrier and occupies brain NK1 receptors. Animal and human studies show that Aprepitant augments the antiemetic activity of the 5-HT<sub>3</sub>-receptor antagonist ondansetron and the corticosteroid
+ethasone and inhibits both the acute and delayed phases of cisplatin induced emesis.
+In summary, the active form of fosaprepitant is as an NK1 antagonist which is because it blocks signals given off by NK1 receptors. This therefore decreases the likelihood of vomiting in patients experiencing.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+614.4066
+
+# Molecular_Weight_Mono:
+614.116518403
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA165958390
+
+# Pharmacology:
+Fosaprepitant is a prodrug of Aprepitant. Once biologically activated, the drug acts as a substance P/neurokinin 1 (NK1) receptor antagonist which, in combination with other antiemetic agents, is indicated for the prevention of acute and delayed nausea and vomiting associated with initial and repeat courses of highly emetogenic cancer chemotherapy. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK1) receptors. Aprepitant has little or no affinity for serotonin (5-HT<sub>3</sub>), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CI NV).
+
+# Predicted_LogP_Hydrophobicity:
+2.89
+
+# Predicted_LogS:
+-5
+
+# Predicted_Water_Solubility:
+6.32e-03 g/l
+
+# Primary_Accession_No:
+DB06717
+
+# Protein_Binding:
+95% +
+
+# PubChem_Compound_ID:
+219090
+
+# PubChem_Substance_ID:
+99443269
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Fosaprepitant dimeglumine
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+C[C@@H](O[C@H]1OCCN(CC2=NC(=O)N(N2)P(O)(O)=O)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:24:50 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Fosaprepitant
+
+# pKa_Isoelectric_Point:
+Not Available
+
+#END_DRUGCARD DB06717

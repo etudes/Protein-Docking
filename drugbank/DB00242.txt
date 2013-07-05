@@ -1,0 +1,1679 @@
+#BEGIN_DRUGCARD DB00242
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01BB04
+
+# Absorption:
+Oral bioavailability is 34 to 48%.
+
+# Biotransformation:
+Metabolized in all cells with deoxycytidine kinase activity to 2-chloro-2'-deoxyadenosine-5'-triphosphate
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Leustatin
+Mylinax
+
+# CAS_Registry_Number:
+4291-63-8
+
+# ChEBI_ID:
+567361
+
+# Chemical_Formula:
+C10H12ClN5O3
+
+# Chemical_IUPAC_Name:
+(2R,3S,5R)-5-(6-amino-2-chloro-9H-purin-9-yl)-2-(hydroxymethyl)oxolan-3-ol
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2022117
+
+# Description:
+An antineoplastic agent used in the treatment of lymphoproliferative diseases including hairy-cell leukemia. [PubChem]
+
+# Dosage_Forms:
+Solution	Intravenous
+
+# Drug_Category:
+Antineoplastic Agents
+Immunosuppressive Agents
+
+# Drug_Interactions:
+Leflunomide	Immunosuppressants such as cladribine may enhance the adverse/toxic effect of leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased. Consider eliminating the use of a leflunomide loading dose in patients who are receiving other immunosuppressants in order to reduce the risk for serious adverse events such as hematologic toxicity. Also, patients receiving both leflunomide and another immunosuppressive medication should be monitored for bone marrow suppression at least monthly throughout the duration of concurrent therapy.
+Natalizumab	Immunosuppressants such as cladribine may enhance the adverse/toxic effect of natalizumab. Specifically, the risk of concurrent infection may be increased. Patients receiving natalizumab should not use concurrent immunosuppressants, and patients receiving chronic corticosteroids prior to natalizumab should be tapered off of steroids prior to starting natalizumab.
+Pimecrolimus	Pimecrolimus may enhance the adverse/toxic effect of immunosuppressants such as cladribine. Avoid use of pimecrolimus cream in patients receiving immunosuppressants.
+Roflumilast	Roflumilast may enhance the immunosuppressive effect of immunosuppressants such as cladribine. The Canadian roflumilast product monograph recommends avoiding concurrent use of roflumilast with any immunosuppressant medications due to the antiinflammatory/immune altering effects of roflumilast and the lack of relevant clinical experience with such use. Of note, this recommendation to avoid concurrent use does not apply to either inhaled corticosteroids (which have much more limited systemic immune-suppressing actions) or short-term systemic corticosteroid use. U.S. prescribing information does not contain this warning; but it appears prudent to avoid this combination when possible.
+Tacrolimus	Tacrolimus (Topical) may enhance the adverse/toxic effect of immunosuppressants such as tacrolimus. Avoid use of tacrolimus ointment in patients receiving immunosuppressants.
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+
+# Drug_Reference:
+1261088	Khalid BA, Hamilton NT, Cauchi MN: Binding of thyroid microsomes by lymphocytes from patients with thyroid disease and normal subjects. Clin Exp Immunol. 1976 Jan;23(1):28-32.
+17852710	Kantarjian HM, Jeha S, Gandhi V, Wess M, Faderl S: Clofarabine: past, present, and future. Leuk Lymphoma. 2007 Oct;48(10):1922-30.
+19463072	Larson ML, Venugopal P: Clofarabine: a new treatment option for patients with acute myeloid leukemia. Expert Opin Pharmacother. 2009 Jun;10(8):1353-7.
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+19715446	Sampat K, Kantarjian H, Borthakur G: Clofarabine: emerging role in leukemias. Expert Opin Investig Drugs. 2009 Oct;18(10):1559-64.
+20634380	Sigal DS, Miller HJ, Schram ED, Saven A: Beyond hairy cell: the activity of cladribine in other hematologic malignancies. Blood. 2010 Jul 15.
+20689698	Warnke C, Wiendl H, Hartung HP, Stuve O, Kieseier BC: Identification of targets and new developments in the treatment of multiple sclerosis - focus on cladribine. Drug Des Devel Ther. 2010 Jul 21;4:117-26.
+
+# Drug_Type:
+Approved
+Investigational
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.1
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Echinacea should be used with caution, if at all, in patients receiving therapeutic immunosuppressants. Monitor for reduced efficacy of the immunosuppressant during concomitant use.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Cladribine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+5.4 hours
+
+# InChI_Identifier:
+InChI=1S/C10H12ClN5O3/c11-10-14-8(12)7-9(15-10)16(3-13-7)6-1-4(18)5(2-17)19-6/h3-6,17-18H,1-2H2,(H2,12,14,15)/t4-,5+,6+/m0/s1
+
+# InChI_Key:
+InChIKey=PTOAARAWEBMLNO-KVQBGUIXSA-N
+
+# Indication:
+For the treatment of active hairy cell leukemia (leukemic reticuloendotheliosis) as defined by clinically significant anemia, neutropenia, thrombocytopenia, or disease-related symptoms. Also used as an alternative agent for the treatment of chronic lymphocytic leukemia (CLL), low-grade non-Hodgkin's lymphoma, and cutaneous T-cell lymphoma.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D01370
+
+# LIMS_Drug_ID:
+242
+
+# Mechanism_Of_Action:
+Cladribine is structurally related to fludarabine and pentostatin but has a different mechanism of action. Although the exact mechanism of action has not been fully determined, evidence shows that cladribine is phosphorylated by deoxycytidine kinase to the nucleotidecladribine triphosphate (CdATP; 2-chloro-2′-deoxyadenosine 5′-triphosphate), which accumulates and is incorporated into DNA in cells such as lymphocytes that contain high levels of deoxycytidine kinase and low levels of deoxynucleotidase, resulting in DNA strand breakage and inhibition of DNA synthesis and repair. High levels of CdATP also appear to inhibit ribonucleotide reductase, which leads to an imbalance in triphosphorylated deoxynucleotide (dNTP) pools and subsequent DNA strand breaks, inhibition of DNA synthesis and repair, nicotinamide adenine dinucleotide (NAD) and ATP depletion, and cell death. Unlike other antimetabolite drugs, cladribine has cytotoxic effects on resting as well as proliferating lymphocytes. However, it does cause cells to accumulate at the G1/S phase junction, suggesting that cytotoxicity is associated with events critical to cell entry into S phase. It also binds purine nucleoside phosphorylase (PNP), however no relationship between this binding and a mechanism of action has been established.
+
+# Melting_Point:
+215 °C
+
+# Molecular_Weight_Avg:
+285.687
+
+# Molecular_Weight_Mono:
+285.062866982
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+1RT9
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA449027
+
+# Pharmacology:
+Cladribine is a synthetic purine nucleoside that acts as an antineoplastic agent with immunosuppressive effects. Cladribine differs structurally from deoxyadenosine only by the presence of a chlorine atom at position 2 of the purine ring, which results in resistance to enzymatic degradation by adenosine deaminase. Due to this resistance, cladribine exhibits a more prolonged cytotoxic effect than deoxyadenosine against resting and proliferating lymphocytes. Cladribine is one of a group of chemotherapy drugs known as the anti-metabolites.&nbsp;Anti-metabolites stop cells from making and repairing DNA, which are processes that are necessary for cancer cells to grow and multiply.
+
+# Predicted_LogP_Hydrophobicity:
+-0.12
+
+# Predicted_LogS:
+-1.6
+
+# Predicted_Water_Solubility:
+6.35e+00 g/l
+
+# Primary_Accession_No:
+DB00242
+
+# Protein_Binding:
+20%
+
+# PubChem_Compound_ID:
+20279
+
+# PubChem_Substance_ID:
+46504588
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/cladribine.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00260
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=C2N=CN([C@H]3C[C@H](O)[C@@H](CO)O3)C2=NC(Cl)=N1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+2-CdA
+2-Chloro-2'-deoxy-beta-adenosine
+2-Chloro-2'-deoxyadenosine
+2-Chlorodeoxyadenosine
+Chlorodeoxyadenosine
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Symptoms of overdose include irreversible neurologic toxicity (paraparesis/quadriparesis), acute nephrotoxicity, and severe bone marrow suppression resulting in neutropenia, anemia and thrombocytopenia.
+
+# Update_Date:
+2013-02-08 16:19:12 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Cladribine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+DCK
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4773
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Deoxycytidine kinase
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Deoxycytidine kinase
+MATPPKRSCPSFSASSEGTRIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCN
+VQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAE
+KPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQA
+TPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNE
+DFKDKYESLVEKVKEFLSTL
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P27707
+
+# Drug_Target_10_Cellular_Location:
+Not Available
+
+# Drug_Target_10_Chromosome_Location:
+Not Available
+
+# Drug_Target_10_Drug_References:
+10444166	Dumontet C, Fabianowska-Majewska K, Mantincic D, Callet Bauchu E, Tigaud I, Gandhi V, Lepoivre M, Peters GJ, Rolland MO, Wyczechowska D, Fang X, Gazzo S, Voorn DA, Vanier-Viornery A, MacKey J: Common resistance mechanisms to deoxynucleoside analogues in variants of the human erythroleukaemic line K562. Br J Haematol. 1999 Jul;106(1):78-85.
+10500836	Dumontet C, Bauchu EC, Fabianowska K, Lepoivre M, Wyczechowska D, Bodin F, Rolland MO: Common resistance mechanisms to nucleoside analogues in variants of the human erythroleukemic line K562. Adv Exp Med Biol. 1999;457:571-7.
+3260648	Takimoto T, Kubota M, Tsuruta S, Kitoh T, Tanizawa A, Akiyama Y, Kiriyama Y, Mikawa H: Changes in sensitivity to anticancer drugs during TPA-induced cellular differentiation in a human T-lymphoblastoid cell line (MOLT-4). Leukemia. 1988 Jul;2(7):443-6.
+6808516	Carson DA, Wasson DB, Lakow E, Kamatani N: Possible metabolic basis for the different immunodeficient states associated with genetic deficiencies of adenosine deaminase and purine nucleoside phosphorylase. Proc Natl Acad Sci U S A. 1982 Jun;79(12):3848-52.
+8521855	Bzowska A, Kazimierczuk Z: 2-Chloro-2'-deoxyadenosine (cladribine) and its analogues are good substrates and potent selective inhibitors of Escherichia coli purine-nucleoside phosphorylase. Eur J Biochem. 1995 Nov 1;233(3):886-90.
+
+# Drug_Target_10_Essentiality:
+Non-Essential
+
+# Drug_Target_10_GenAtlas_ID:
+NP
+
+# Drug_Target_10_GenBank_ID_Gene:
+X00737
+
+# Drug_Target_10_GenBank_ID_Protein:
+35565
+
+# Drug_Target_10_GeneCard_ID:
+NP
+
+# Drug_Target_10_Gene_Name:
+PNP
+
+# Drug_Target_10_Gene_Sequence:
+>870 bp
+ATGGAGAACGGATACACCTATGAAGATTATAAGAACACTGCAGAATGGCTTCTGTCTCAT
+ACTAAGCACCGACCTCAAGTTGCAATAATCTGTGGTTCTGGATTAGGAGGTCTGACTGAT
+AAATTAACTCAGGCCCAGATCTTTGACTACAGTGAAATCCCCAACTTTCCTCGAAGTACA
+GTGCCAGGTCATGCTGGCCGACTGGTGTTTGGGTTCCTGAATGGCAGGGCCTGTGTGATG
+ATGCAGGGCAGGTTCCACATGTATGAAGGGTACCCACTCTGGAAGGTGACATTCCCAGTG
+AGGGTTTTCCACCTTCTGGGTGTGGACACCCTGGTAGTCACCAATGCAGCAGGAGGGCTG
+AACCCCAAGTTTGAGGTTGGAGATATCATGCTGATCCGTGACCATATCAACCTACCTGGT
+TTCAGTGGTCAGAACCCTCTCAGAGGGCCCAATGATGAAAGGTTTGGAGATCGTTTCCCT
+GCCATGTCTGATGCCTACGACCGGACTATGAGGCAGAGGGCTCTCAGTACCTGGAAACAA
+ATGGGGGAGCAACGTGAGCTACAGGAAGGCACCTATGTGATGGTGGCAGGCCCCAGCTTT
+GAGACTGTGGCAGAATGTCGTGTGCTGCAGAAGCTGGGAGCAGACGCTGTTGGCATGAGT
+ACAGTACCAGAAGTTATCGTTGCACGGCACTGTGGACTTCGAGTCTTTGGCTTCTCACTC
+ATCACTAACAAGGTCATCATGGATTATGAAAGCCTGGAGAAGGCCAACCATGAAGAAGTC
+TTAGCAGCTGGCAAACAAGCTGCACAGAAATTGGAACAGTTTGTCTCCATTCTTATGGCC
+AGCATTCCACTCCCTGACAAAGCCAGTTGA
+
+# Drug_Target_10_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_10_General_References:
+12928150	Yu L, Kalla K, Guthrie E, Vidrine A, Klimecki WT: Genetic variation in genes associated with arsenic metabolism: glutathione S-transferase omega 1-1 and purine nucleoside phosphorylase polymorphisms in European and indigenous Americans. Environ Health Perspect. 2003 Aug;111(11):1421-7.
+1384322	Aust MR, Andrews LG, Barrett MJ, Norby-Slycord CJ, Markert ML: Molecular analysis of mutations in a patient with purine nucleoside phosphorylase deficiency. Am J Hum Genet. 1992 Oct;51(4):763-72.
+2104852	Ealick SE, Rule SA, Carter DC, Greenhough TJ, Babu YS, Cook WJ, Habash J, Helliwell JR, Stoeckler JD, Parks RE Jr, et al.: Three-dimensional structure of human erythrocytic purine nucleoside phosphorylase at 3.2 A resolution. J Biol Chem. 1990 Jan 25;265(3):1812-20.
+3029074	Williams SR, Gekeler V, McIvor RS, Martin DW Jr: A human purine nucleoside phosphorylase deficiency caused by a single base change. J Biol Chem. 1987 Feb 15;262(5):2332-8.
+6087295	Williams SR, Goddard JM, Martin DW Jr: Human purine nucleoside phosphorylase cDNA sequence and genomic clone characterization. Nucleic Acids Res. 1984 Jul 25;12(14):5779-87.
+8931706	Pannicke U, Tuchschmid P, Friedrich W, Bartram CR, Schwarz K: Two novel missense and frameshift mutations in exons 5 and 6 of the purine nucleoside phosphorylase (PNP) gene in a severe combined immunodeficiency (SCID) patient. Hum Genet. 1996 Dec;98(6):706-9.
+
+# Drug_Target_10_HGNC_ID:
+HGNC:7892
+
+# Drug_Target_10_HPRD_ID:
+01247
+
+# Drug_Target_10_ID:
+277
+
+# Drug_Target_10_Locus:
+14q13.1
+
+# Drug_Target_10_Molecular_Weight:
+32118
+
+# Drug_Target_10_Name:
+Purine nucleoside phosphorylase
+
+# Drug_Target_10_Number_of_Residues:
+289
+
+# Drug_Target_10_PDB_ID:
+1RT9
+
+# Drug_Target_10_Pathway:
+Not Available
+
+# Drug_Target_10_Pfam_Domain_Function:
+PF00896	Mtap_PNP
+
+# Drug_Target_10_Protein_Sequence:
+>Purine nucleoside phosphorylase
+MENGYTYEDYKNTAEWLLSHTKHRPQVAIICGSGLGGLTDKLTQAQIFDYGEIPNFPRST
+VPGHAGRLVFGFLNGRACVMMQGRFHMYEGYPLWKVTFPVRVFHLLGVDTLVVTNAAGGL
+NPKFEVGDIMLIRDHINLPGFSGQNPLRGPNDERFGDRFPAMSDAYDRTMRQRALSTWKQ
+MGEQRELQEGTYVMVAGPSFETVAECRVLQKLGADAVGMSTVPEVIVARHCGLRVFGFSL
+ITNKVIMDYESLEKANHEEVLAAGKQAAQKLEQFVSILMASIPLPDKAS
+
+# Drug_Target_10_Reaction:
+purine nucleoside + phosphate = purine + alpha-D-ribose 1-phosphate
+
+# Drug_Target_10_Signals:
+None
+
+# Drug_Target_10_Specific_Function:
+Not Available
+
+# Drug_Target_10_SwissProt_ID:
+P00491
+
+# Drug_Target_10_SwissProt_Name:
+PNPH_HUMAN
+
+# Drug_Target_10_Synonyms:
+EC 2.4.2.1
+Inosine phosphorylase
+PNP
+
+# Drug_Target_10_Theoretical_pI:
+6.95
+
+# Drug_Target_10_Transmembrane_Regions:
+None
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+16316309	Kline JP, Larson RA: Clofarabine in the treatment of acute myeloid leukaemia and acute lymphoblastic leukaemia: a review. Expert Opin Pharmacother. 2005 Dec;6(15):2711-8.
+17852710	Kantarjian HM, Jeha S, Gandhi V, Wess M, Faderl S: Clofarabine: past, present, and future. Leuk Lymphoma. 2007 Oct;48(10):1922-30.
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+19715446	Sampat K, Kantarjian H, Borthakur G: Clofarabine: emerging role in leukemias. Expert Opin Investig Drugs. 2009 Oct;18(10):1559-64.
+9923554	Takahashi T, Kanazawa J, Akinaga S, Tamaoki T, Okabe M: Antitumor activity of 2-chloro-9-(2-deoxy-2-fluoro-beta-D-arabinofuranosyl) adenine, a novel deoxyadenosine analog, against human colon tumor xenografts by oral administration. Cancer Chemother Pharmacol. 1999;43(3):233-40.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+RRM1
+
+# Drug_Target_1_GenBank_ID_Gene:
+X59543
+
+# Drug_Target_1_GenBank_ID_Protein:
+36065
+
+# Drug_Target_1_GeneCard_ID:
+RRM1
+
+# Drug_Target_1_Gene_Name:
+RRM1
+
+# Drug_Target_1_Gene_Sequence:
+>2379 bp
+ATGCATGTGATCAAGCGAGATGGCCGCCAAGAACGAGTCATGTTTGACAAAATTACATCT
+CGAATCCAGAAGCTTTGTTATGGACTCAATATGGATTTTGTTGATCCTGCTCAGATCACC
+ATGAAAGTAATCCAAGGCTTGTACAGTGGGGTCACCACAGTGGAACTAGATACTTTGGCT
+GCTGAAACAGCTGCAACCTTGACTACTAAGCACCCTGACTATGCTATCCTGGCAGCCAGG
+ATCGCTGTCTCTAACTTGCACAAAGAAACAAAGAAAGTGTTCAGTGATGTGATGGAAGAC
+CTCTATAACTACATAAATCCACATAATGGCAAACACTCTCCCATGGTGGCCAAGTCAACA
+TTGGATATTGTTCTGGCCAATAAAGATCGCCTGAATTCTGCTATTATCTATGACCGAGAT
+TTCTCTTACAATTACTTCGGCTTTAAGACGCTAGAGCGGTCTTATTTGTTGAAGATCAAT
+GGAAAAGTGGCTGAAAGACCACAACATATGTTGATGAGAGTATCTGTTGGGATCCACAAA
+GAAGACATTGATGCAGCAATTGAAACATATAATCTTCTTTCTGAGAGGTGGTTTACTCAT
+GCTTCGCCCACTCTCTTCAATGCTGGTACCAACCGCCCACAACTTTCTAGCTGTTTTCTT
+CTGAGTATGAAAGATGACAGCATTGAAGGCATTTATGACACTCTAAAGCAATGTGCATTG
+ATTTCTAAGTCTGCTGGAGGAATTGGTGTTGCTGTGAGTTGTATTCGGGCTACTGGCAGC
+TACATTGCTGGGACTAATGGCAATTCCAATGGCCTTGTACCGATGCTGAGAGTATATAAC
+AACACAGCTCGATATGTGGATCAAGGTGGGAACAAGCGTCCTGGGGCATTTGCTATTTAC
+CTGGAGCCTTGGCATTTAGACATCTTTGAATTCCTTGATTTAAAGAAGAACACAGGAAAG
+GAAGAGCAGCGTGCCAGAGATCTTTTCTTTGCTCTTTGGATTCCGGATCTCTTCATGAAA
+CGAGTGGAGACTAATCAGGACTGGTCTTTGATGTGTCCAAATGAGTGTCCTGGTCTGGAT
+GAGGTTTGGGGAGAGGAATTTGAGAAACTATATGCAAGTTATGAGAAACAAGGTCGTGTC
+CGCAAAGTTGTAAAAGCTCAGCAGCTTTGGTATGCCATCATTGAGTCTCAGACGGAAACA
+GGCACCCCGTATATGCTCTACAAAGATTCCTGTAATCGAAAGAGCAACCAGCAGAACCTG
+GGAACCATCAAATGCAGCAACCTGTGCACAGAAATAGTGGAGTACACCAGCAAAGATGAG
+GTTGCTGTTTGTAATTTGGCTTCCCTGGCCCTGAATATGTATGTCACATCAGAACACACA
+TACGACTTTAAGAAGTTGGCTGAAGTCACTAAAGTCGTTGTCCGAAACTTGAATAAAATT
+ATTGATATAAACTACTATCCTGTACCAGAGGCATGCCTATCAAATAAACGCCATCGCCCC
+ATTGGAATTGGGGTACAAGGTCTGGCAGATGCTTTTATCCTGATGAGATACCCTTTTGAG
+AGTGCAGAAGCCCAGTTACTGAATAAGCAGATCTTTGAAACTATTTATTATGGTGCTCTG
+GAAGCCAGCTGTGACCTTGCCAAGGAGCAGGGCCCATACGAAACCTATGAGGGCTCTCCA
+GTTAGCAAAGGAATTCTTCAGTATGATATGTGGAATGTTACTCCTACAGACCTATGGGAC
+TGGAAGGTTCTCAAGGAGAAGATTGCAAAGTATGGTATAAGAAACAGTTTACTTATTGCC
+CCGATGCCTACAGCTTCCACTGCTCAGATCCTGGGGAATAATGAGTCCATTGAACCTTAC
+ACCAGCAACATCTATACTCGCAGAGTCTTGTCAGGAGAATTTCAGATTGTAAATCCTCAC
+TTATTGAAAGATCTTACCGAGCGGGGCCTATGGCATGAAGAGATGAAAAACCAGATTATT
+GCATGCAATGGCTCTATTCAGAGCATACCAGAAATTCCTGATGACCTGAAGCAACTTTAT
+AAAACTGTGTGGGAAATCTCTCAGAAAACTGTTCTCAAGATGGCAGCTGAGAGAGGTGCT
+TTCATTGATCAAAGCCAATCTTTGAACATCCACATTGCTGAGCCTAACTATGGCAAACTC
+ACTAGTATGCACTTCTACGGCTGGAAGCAGGGTTTGAAGACTGGGATGTATTATTTAAGG
+ACGAGACCAGCAGCTAATCCAATCCAGTTCACTCTAAATAAGGAGAAGCTAAAAGATAAA
+GAAAAGGTATCAAAAGAGGAAGAAGAGAAGGAGAGGAACACAGCAGCCATGGTGTGCTCT
+TTGGAGAATAGAGATGAATGTCTGATGTGTGGATCCTGA
+
+# Drug_Target_1_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_1_General_References:
+1627826	Pavloff N, Rivard D, Masson S, Shen SH, Mes-Masson AM: Sequence analysis of the large and small subunits of human ribonucleotide reductase. DNA Seq. 1992;2(4):227-34.
+1840662	Parker NJ, Begley CG, Fox RM: Human M1 subunit of ribonucleotide reductase: cDNA sequence and expression in stimulated lymphocytes. Nucleic Acids Res. 1991 Jul 11;19(13):3741.
+9933563	Bepler G, O'briant KC, Kim YC, Schreiber G, Pitterle DM: A 1.4-Mb high-resolution physical map and contig of chromosome segment 11p15.5 and genes in the LOH11A metastasis suppressor region. Genomics. 1999 Jan 15;55(2):164-75.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:10451
+
+# Drug_Target_1_HPRD_ID:
+01588
+
+# Drug_Target_1_ID:
+360
+
+# Drug_Target_1_Locus:
+11p15.5
+
+# Drug_Target_1_Molecular_Weight:
+90071
+
+# Drug_Target_1_Name:
+Ribonucleoside-diphosphate reductase large subunit
+
+# Drug_Target_1_Number_of_Residues:
+792
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Gemcitabine Pathway	SMP00446
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00317	Ribonuc_red_lgN
+PF02867	Ribonuc_red_lgC
+PF03477	ATP-cone
+
+# Drug_Target_1_Protein_Sequence:
+>Ribonucleoside-diphosphate reductase large subunit
+MHVIKRDGRQERVMFDKITSRIQKLCYGLNMDFVDPAQITMKVIQGLYSGVTTVELDTLA
+AETAATLTTKHPDYAILAARIAVSNLHKETKKVFSDVMEDLYNYINPHNGKHSPMVAKST
+LDIVLANKDRLNSAIIYDRDFSYNYFGFKTLERSYLLKINGKVAERPQHMLMRVSVGIHK
+EDIDAAIETYNLLSERWFTHASPTLFNAGTNRPQLSSCFLLSMKDDSIEGIYDTLKQCAL
+ISKSAGGIGVAVSCIRATGSYIAGTNGNSNGLVPMLRVYNNTARYVDQGGNKRPGAFAIY
+LEPWHLDIFEFLDLKKNTGKEEQRARDLFFALWIPDLFMKRVETNQDWSLMCPNECPGLD
+EVWGEEFEKLYASYEKQGRVRKVVKAQQLWYAIIESQTETGTPYMLYKDSCNRKSNQQNL
+GTIKCSNLCTEIVEYTSKDEVAVCNLASLALNMYVTSEHTYDFKKLAEVTKVVVRNLNKI
+IDINYYPVPEACLSNKRHRPIGIGVQGLADAFILMRYPFESAEAQLLNKQIFETIYYGAL
+EASCDLAKEQGPYETYEGSPVSKGILQYDMWNVTPTDLWDWKVLKEKIAKYGIRNSLLIA
+PMPTASTAQILGNNESIEPYTSNIYTRRVLSGEFQIVNPHLLKDLTERGLWHEEMKNQII
+ACNGSIQSIPEIPDDLKQLYKTVWEISQKTVLKMAAERGAFIDQSQSLNIHIAEPNYGKL
+TSMHFYGWKQGLKTGMYYLRTRPAANPIQFTLNKEKLKDKEKVSKEEEEKERNTAAMVCS
+LENRDECLMCGS
+
+# Drug_Target_1_Reaction:
+2'-deoxyribonucleoside diphosphate + thioredoxin disulfide + H2O = ribonucleoside diphosphate + thioredoxin
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Provides the precursors necessary for DNA synthesis. Catalyzes the biosynthesis of deoxyribonucleotides from the corresponding ribonucleotides
+
+# Drug_Target_1_SwissProt_ID:
+P23921
+
+# Drug_Target_1_SwissProt_Name:
+RIR1_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 1.17.4.1
+Ribonucleoside-diphosphate reductase M1 subunit
+Ribonucleotide reductase large chain
+
+# Drug_Target_1_Theoretical_pI:
+7.16
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+16316309	Kline JP, Larson RA: Clofarabine in the treatment of acute myeloid leukaemia and acute lymphoblastic leukaemia: a review. Expert Opin Pharmacother. 2005 Dec;6(15):2711-8.
+17852710	Kantarjian HM, Jeha S, Gandhi V, Wess M, Faderl S: Clofarabine: past, present, and future. Leuk Lymphoma. 2007 Oct;48(10):1922-30.
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+19715446	Sampat K, Kantarjian H, Borthakur G: Clofarabine: emerging role in leukemias. Expert Opin Investig Drugs. 2009 Oct;18(10):1559-64.
+9923554	Takahashi T, Kanazawa J, Akinaga S, Tamaoki T, Okabe M: Antitumor activity of 2-chloro-9-(2-deoxy-2-fluoro-beta-D-arabinofuranosyl) adenine, a novel deoxyadenosine analog, against human colon tumor xenografts by oral administration. Cancer Chemother Pharmacol. 1999;43(3):233-40.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+RRM2
+
+# Drug_Target_2_GenBank_ID_Gene:
+X59618
+
+# Drug_Target_2_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+RRM2
+
+# Drug_Target_2_Gene_Sequence:
+>1170 bp
+ATGCTCTCCCTCCGTGTCCCGCTCGCGCCCATCACGGACCCGCAGCAGCTGCAGCTCTCG
+CCGCTGAAGGGGCTCAGCTTGGTCGACAAGGAGAACACGCCGCCGGCCCTGAGCGGGACC
+CGCGTCCTGGCCAGCAAGACCGCGAGGAGGATCTTCCAGGAGCCCACGGAGCCGAAAACT
+AAAGCAGCTGCCCCCGGCGTGGAGGATGAGCCGCTGCTGAGAGAAAACCCCCGCCGCTTT
+GTCATCTTCCCCATCGAGTACCATGATATCTGGCAGATGTATAAGAAGGCAGAGGCTTCC
+TTTTGGACCGCCGAGGAGGTTGACCTCTCCAAGGACATTCAGCACTGGGAATCCCTGAAA
+CCCGAGGAGAGATATTTTATATCCCATGTTCTGGCTTTCTTTGCAGCAAGCGATGGCATA
+GTAAATGAAAACTTGGTGGAGCGATTTAGCCAAGAAGTTCAGATTACAGAAGCCCGCTGT
+TTCTATGGCTTCCAAATTGCCATGGAAAACATACATTCTGAAATGTATAGTCTTCTTATT
+GACACTTACATAAAAGATCCCAAAGAAAGGGAATTTCTCTTCAATGCCATTGAAACGATG
+CCTTGTGTCAAGAAGAAGGCAGACTGGGCCTTGCGCTGGATTGGGGACAAAGAGGCTACC
+TATGGTGAACGTGTTGTAGCCTTTGCTGCAGTGGAAGGCATTTTCTTTTCCGGTTCTTTT
+GCGTCGATATTCTGGCTCAAGAAACGAGGACTGATGCCTGGCCTCACATTTTCTAATGAA
+CTTATTAGCAGAGATGAGGGTTTACACTGTGATTTTGCTTGCCTGATGTTCAAACACCTG
+GTACACAAACCATCGGAGGAGAGAGTAAGAGAAATAATTATCAATGCTGTTCGGATAGAA
+CAGGAGTTCCTCACTGAGGCCTTGCCTGTGAAGCTCATTGGGATGAATTGCACTCTAATG
+AAGCAATACATTGAGTTTGTGGCAGACAGACTTATGCTGGAACTGGGTTTTAGCAAGGTT
+TTCAGAGTAGAGAACCCATTTGACTTTATGGAGAATATTTCACTGGAAGGAAAGACTAAC
+TTCTTTGAGAAGAGAGTAGGCGAGTATCAGAGGATGGGAGTGATGTCAAGTCCAACAGAG
+AATTCTTTTACCTTGGATGCTGACTTCTAA
+
+# Drug_Target_2_General_Function:
+Involved in oxidoreductase activity
+
+# Drug_Target_2_General_References:
+11978970	Zhou B, Yen Y: Characterization of the human ribonucleotide reductase M2 subunit gene; genomic structure and promoter analyses. Cytogenet Cell Genet. 2001;95(1-2):52-9.
+1627826	Pavloff N, Rivard D, Masson S, Shen SH, Mes-Masson AM: Sequence analysis of the large and small subunits of human ribonucleotide reductase. DNA Seq. 1992;2(4):227-34.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:10452
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+4218
+
+# Drug_Target_2_Locus:
+2p25-p24
+
+# Drug_Target_2_Molecular_Weight:
+44878
+
+# Drug_Target_2_Name:
+Ribonucleoside-diphosphate reductase M2 subunit
+
+# Drug_Target_2_Number_of_Residues:
+389
+
+# Drug_Target_2_PDB_ID:
+1H0N
+
+# Drug_Target_2_Pathway:
+Gemcitabine Pathway	SMP00446
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00268	Ribonuc_red_sm
+
+# Drug_Target_2_Protein_Sequence:
+>Ribonucleoside-diphosphate reductase M2 subunit
+MLSLRVPLAPITDPQQLQLSPLKGLSLVDKENTPPALSGTRVLASKTARRIFQEPTEPKT
+KAAAPGVEDEPLLRENPRRFVIFPIEYHDIWQMYKKAEASFWTAEEVDLSKDIQHWESLK
+PEERYFISHVLAFFAASDGIVNENLVERFSQEVQITEARCFYGFQIAMENIHSEMYSLLI
+DTYIKDPKEREFLFNAIETMPCVKKKADWALRWIGDKEATYGERVVAFAAVEGIFFSGSF
+ASIFWLKKRGLMPGLTFSNELISRDEGLHCDFACLMFKHLVHKPSEERVREIIINAVRIE
+QEFLTEALPVKLIGMNCTLMKQYIEFVADRLMLELGFSKVFRVENPFDFMENISLEGKTN
+FFEKRVGEYQRMGVMSSPTENSFTLDADF
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Provides the precursors necessary for DNA synthesis. Catalyzes the biosynthesis of deoxyribonucleotides from the corresponding ribonucleotides
+
+# Drug_Target_2_SwissProt_ID:
+P31350
+
+# Drug_Target_2_SwissProt_Name:
+RIR2_HUMAN
+
+# Drug_Target_2_Synonyms:
+EC 1.17.4.1
+Ribonucleotide reductase small chain
+Ribonucleotide reductase small subunit
+
+# Drug_Target_2_Theoretical_pI:
+5.05
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cytoplasm. Nucleus
+
+# Drug_Target_3_Chromosome_Location:
+8
+
+# Drug_Target_3_Drug_References:
+16316309	Kline JP, Larson RA: Clofarabine in the treatment of acute myeloid leukaemia and acute lymphoblastic leukaemia: a review. Expert Opin Pharmacother. 2005 Dec;6(15):2711-8.
+17852710	Kantarjian HM, Jeha S, Gandhi V, Wess M, Faderl S: Clofarabine: past, present, and future. Leuk Lymphoma. 2007 Oct;48(10):1922-30.
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+19715446	Sampat K, Kantarjian H, Borthakur G: Clofarabine: emerging role in leukemias. Expert Opin Investig Drugs. 2009 Oct;18(10):1559-64.
+9923554	Takahashi T, Kanazawa J, Akinaga S, Tamaoki T, Okabe M: Antitumor activity of 2-chloro-9-(2-deoxy-2-fluoro-beta-D-arabinofuranosyl) adenine, a novel deoxyadenosine analog, against human colon tumor xenografts by oral administration. Cancer Chemother Pharmacol. 1999;43(3):233-40.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+AB036063
+
+# Drug_Target_3_GenBank_ID_Protein:
+7229086
+
+# Drug_Target_3_GeneCard_ID:
+RRM2B
+
+# Drug_Target_3_Gene_Name:
+RRM2B
+
+# Drug_Target_3_Gene_Sequence:
+>1056 bp
+ATGGGCGACCCGGAAAGGCCGGAAGCGGCCGGGCTGGATCAGGATGAGAGATCATCTTCA
+GACACCAACGAAAGTGAAATAAAGTCAAATGAAGAGCCACTCCTAAGAAAGAGTTCTCGC
+CGGTTTGTCATCTTTCCAATCCAGTACCCTGATATTTGGAAAATGTATAAACAGGCACAG
+GCTTCCTTCTGGACAGCAGAAGAGGTCGACTTATCAAAGGATCTCCCTCACTGGAACAAG
+CTTAAAGCAGATGAGAAGTACTTCATCTCTCACATCTTAGCCTTTTTTGCAGCCAGTGAT
+GGAATTGTAAATGAAAATTTGGTGGAGCGCTTTAGTCAGGAGGTGCAGGTTCCAGAGGCT
+CGCTGTTTCTATGGCTTTCAAATTCTCATCGAGAATGTTCACTCAGAGATGTACAGTTTG
+CTGATAGACACTTACATCAGAGATCCCAAGAAAAGGGAATTTTTATTTAATGCAATTGAA
+ACCATGCCCTATGTTAAGAAAAAAGCAGATTGGGCCTTGCGATGGATAGCAGATAGAAAA
+TCTACTTTTGGGGAAAGAGTGGTGGCCTTTGCTGCTGTAGAAGGAGTTTTCTTCTCAGGA
+TCTTTTGCTGCTATATTCTGGCTAAAGAAGAGAGGTCTTATGCCAGGACTCACTTTTTCC
+AATGAACTCATCAGCAGAGATGAAGGACTTCACTGTGACTTTGCTTGCCTGATGTTCCAA
+TACTTAGTAAATAAGCCTTCAGAAGAAAGGGTCAGGGAGATCATTGTTGATGCTGTCAAA
+ATTGAGCAGGAGTTTTTAACAGAAGCCTTGCCAGTTGGCCTCATTGGAATGAATTGCATT
+TTGATGAAACAGTACATTGAGTTTGTAGCTGACAGATTACTTGTGGAACTTGGATTCTCA
+AAGGTTTTTCAGGCAGAAAATCCTTTTGATTTTATGGAAAACATTTCTTTAGAAGGAAAA
+ACAAATTTCTTTGAGAAACGAGTTTCAGAGTATCAGCGTTTTGCAGTTATGGCAGAAACC
+ACAGATAACGTCTTCACCTTGGATGCAGATTTTTAA
+
+# Drug_Target_3_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_3_General_References:
+10716435	Tanaka H, Arakawa H, Yamaguchi T, Shiraishi K, Fukuda S, Matsui K, Takei Y, Nakamura Y: A ribonucleotide reductase gene involved in a p53-dependent cell-cycle checkpoint for DNA damage. Nature. 2000 Mar 2;404(6773):42-9.
+11517226	Guittet O, Hakansson P, Voevodskaya N, Fridd S, Graslund A, Arakawa H, Nakamura Y, Thelander L: Mammalian p53R2 protein forms an active ribonucleotide reductase in vitro with the R1 protein, which is expressed both in resting cells in response to DNA damage and in proliferating cells. J Biol Chem. 2001 Nov 2;276(44):40647-51. Epub 2001 Aug 21.
+11719458	Yamaguchi T, Matsuda K, Sagiya Y, Iwadate M, Fujino MA, Nakamura Y, Arakawa H: p53R2-dependent pathway for DNA synthesis in a p53-regulated cell cycle checkpoint. Cancer Res. 2001 Nov 15;61(22):8256-62.
+12615712	Xue L, Zhou B, Liu X, Qiu W, Jin Z, Yen Y: Wild-type p53 regulates human ribonucleotide reductase by protein-protein interaction with p53R2 as well as hRRM2 subunits. Cancer Res. 2003 Mar 1;63(5):980-6.
+14583450	Zhou B, Liu X, Mo X, Xue L, Darwish D, Qiu W, Shih J, Hwu EB, Luh F, Yen Y: The human ribonucleotide reductase subunit hRRM2 complements p53R2 in response to UV-induced DNA repair in cells with mutant p53. Cancer Res. 2003 Oct 15;63(20):6583-94.
+14702039	Ota T, Suzuki Y, Nishikawa T, Otsuki T, Sugiyama T, Irie R, Wakamatsu A, Hayashi K, Sato H, Nagai K, Kimura K, Makita H, Sekine M, Obayashi M, Nishi T, Shibahara T, Tanaka T, Ishii S, Yamamoto J, Saito K, Kawai Y, Isono Y, Nakamura Y, Nagahari K, Murakami K, Yasuda T, Iwayanagi T, Wagatsuma M, Shiratori A, Sudo H, Hosoiri T, Kaku Y, Kodaira H, Kondo H, Sugawara M, Takahashi M, Kanda K, Yokoi T, Furuya T, Kikkawa E, Omura Y, Abe K, Kamihara K, Katsuta N, Sato K, Tanikawa M, Yamazaki M, Ninomiya K, Ishibashi T, Yamashita H, Murakawa K, Fujimori K, Tanai H, Kimata M, Watanabe M, Hiraoka S, Chiba Y, Ishida S, Ono Y, Takiguchi S, Watanabe S, Yosida M, Hotuta T, Kusano J, Kanehori K, Takahashi-Fujii A, Hara H, Tanase TO, Nomura Y, Togiya S, Komai F, Hara R, Takeuchi K, Arita M, Imose N, Musashino K, Yuuki H, Oshima A, Sasaki N, Aotsuka S, Yoshikawa Y, Matsunawa H, Ichihara T, Shiohata N, Sano S, Moriya S, Momiyama H, Satoh N, Takami S, Terashima Y, Suzuki O, Nakagawa S, Senoh A, Mizoguchi H, Goto Y, Shimizu F, Wakebe H, Hishigaki H, Watanabe T, Sugiyama A, Takemoto M, Kawakami B, Yamazaki M, Watanabe K, Kumagai A, Itakura S, Fukuzumi Y, Fujimori Y, Komiyama M, Tashiro H, Tanigami A, Fujiwara T, Ono T, Yamada K, Fujii Y, Ozaki K, Hirao M, Ohmori Y, Kawabata A, Hikiji T, Kobatake N, Inagaki H, Ikema Y, Okamoto S, Okitani R, Kawakami T, Noguchi S, Itoh T, Shigeta K, Senba T, Matsumura K, Nakajima Y, Mizuno T, Morinaga M, Sasaki M, Togashi T, Oyama M, Hata H, Watanabe M, Komatsu T, Mizushima-Sugano J, Satoh T, Shirai Y, Takahashi Y, Nakagawa K, Okumura K, Nagase T, Nomura N, Kikuchi H, Masuho Y, Yamashita R, Nakai K, Yada T, Nakamura Y, Ohara O, Isogai T, Sugano S: Complete sequencing and characterization of 21,243 full-length human cDNAs. Nat Genet. 2004 Jan;36(1):40-5. Epub 2003 Dec 21.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+17974005	Bechtel S, Rosenfelder H, Duda A, Schmidt CP, Ernst U, Wellenreuther R, Mehrle A, Schuster C, Bahr A, Blocker H, Heubner D, Hoerlein A, Michel G, Wedler H, Kohrer K, Ottenwalder B, Poustka A, Wiemann S, Schupp I: The full-ORF clone resource of the German cDNA Consortium. BMC Genomics. 2007 Oct 31;8:399.
+
+# Drug_Target_3_HGNC_ID:
+GNC:17296
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+6108
+
+# Drug_Target_3_Locus:
+8q23.1
+
+# Drug_Target_3_Molecular_Weight:
+40736.1
+
+# Drug_Target_3_Name:
+Ribonucleoside-diphosphate reductase subunit M2 B
+
+# Drug_Target_3_Number_of_Residues:
+351
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00268	Ribonuc_red_sm
+
+# Drug_Target_3_Protein_Sequence:
+>Ribonucleoside-diphosphate reductase subunit M2 B
+MGDPERPEAAGLDQDERSSSDTNESEIKSNEEPLLRKSSRRFVIFPIQYPDIWKMYKQAQ
+ASFWTAEEVDLSKDLPHWNKLKADEKYFISHILAFFAASDGIVNENLVERFSQEVQVPEA
+RCFYGFQILIENVHSEMYSLLIDTYIRDPKKREFLFNAIETMPYVKKKADWALRWIADRK
+STFGERVVAFAAVEGVFFSGSFAAIFWLKKRGLMPGLTFSNELISRDEGLHCDFACLMFQ
+YLVNKPSEERVREIIVDAVKIEQEFLTEALPVGLIGMNCILMKQYIEFVADRLLVELGFS
+KVFQAENPFDFMENISLEGKTNFFEKRVSEYQRFAVMAETTDNVFTLDADF
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Plays a pivotal role in cell survival by repairing damaged DNA in a p53/TP53-dependent manner. Supplies deoxyribonucleotides for DNA repair in cells arrested at G1 or G2. Contains an iron-tyrosyl free radical center required for catalysis. Forms an active ribonucleotide reductase (RNR) complex with RRM1 which is expressed both in resting and proliferating cells in response to DNA damage
+
+# Drug_Target_3_SwissProt_ID:
+Q7LG56
+
+# Drug_Target_3_SwissProt_Name:
+RIR2B_HUMAN
+
+# Drug_Target_3_Synonyms:
+TP53-inducible ribonucleotide reductase M2 B
+p53-inducible ribonucleotide reductase small subunit 2-like protein
+p53R2
+
+# Drug_Target_3_Theoretical_pI:
+4.61
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Nucleus and mitochondria
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+14722255	Hartman WR, Hentosh P: The antileukemia drug 2-chloro-2'-deoxyadenosine: an intrinsic transcriptional antagonist. Mol Pharmacol. 2004 Jan;65(1):227-34.
+16316309	Kline JP, Larson RA: Clofarabine in the treatment of acute myeloid leukaemia and acute lymphoblastic leukaemia: a review. Expert Opin Pharmacother. 2005 Dec;6(15):2711-8.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+17852710	Kantarjian HM, Jeha S, Gandhi V, Wess M, Faderl S: Clofarabine: past, present, and future. Leuk Lymphoma. 2007 Oct;48(10):1922-30.
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+19715446	Sampat K, Kantarjian H, Borthakur G: Clofarabine: emerging role in leukemias. Expert Opin Investig Drugs. 2009 Oct;18(10):1559-64.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_4_GeneCard_ID:
+Not Available
+
+# Drug_Target_4_Gene_Name:
+Not Available
+
+# Drug_Target_4_Gene_Sequence:
+>Example: Dickerson dodecamer
+CGCGAATTCGCG
+
+# Drug_Target_4_General_Function:
+Biological information storage and information transfer
+
+# Drug_Target_4_General_References:
+1234	Nadeau D, Marchand C: Change in the kinetics of sulphacetamide tissue distribution in Walker tumor-bearing rats. Drug Metab Dispos. 1975 Nov-Dec;3(6):565-76.
+
+# Drug_Target_4_HGNC_ID:
+Not Available
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+874
+
+# Drug_Target_4_Locus:
+All loci
+
+# Drug_Target_4_Molecular_Weight:
+7656 (double strand)
+
+# Drug_Target_4_Name:
+DNA
+
+# Drug_Target_4_Number_of_Residues:
+0
+
+# Drug_Target_4_PDB_ID:
+1BNA
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_4_Protein_Sequence:
+Not Available
+
+# Drug_Target_4_Reaction:
+DNA + DNA polymerase + nNTP = 2 DNA + nNDP; DNA + RNA polymerase + NTP = mRNA + nNDP
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+DNA is the molecule of heredity, as it is responsible for the genetic propagation of most inherited traits. It is a polynucleic acid that carries genetic information on cell growth, division, and function. DNA consists of two long strands of nucleotides twisted into a double helix and held together by hydrogen bonds. The sequence of nucleotides determines hereditary characteristics. Each strand serves as the template for subsequent DNA replication and as a template for mRNA production, leading to protein synthesis via ribosomes.
+
+# Drug_Target_4_SwissProt_ID:
+Not Available
+
+# Drug_Target_4_SwissProt_Name:
+Not Available
+
+# Drug_Target_4_Synonyms:
+Deoxyribonucleic acid
+
+# Drug_Target_4_Theoretical_pI:
+Not Available
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+# Drug_Target_5_Cellular_Location:
+Nucleus
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+14722255	Hartman WR, Hentosh P: The antileukemia drug 2-chloro-2'-deoxyadenosine: an intrinsic transcriptional antagonist. Mol Pharmacol. 2004 Jan;65(1):227-34.
+16316309	Kline JP, Larson RA: Clofarabine in the treatment of acute myeloid leukaemia and acute lymphoblastic leukaemia: a review. Expert Opin Pharmacother. 2005 Dec;6(15):2711-8.
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+9923554	Takahashi T, Kanazawa J, Akinaga S, Tamaoki T, Okabe M: Antitumor activity of 2-chloro-9-(2-deoxy-2-fluoro-beta-D-arabinofuranosyl) adenine, a novel deoxyadenosine analog, against human colon tumor xenografts by oral administration. Cancer Chemother Pharmacol. 1999;43(3):233-40.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+POLA1
+
+# Drug_Target_5_GenBank_ID_Gene:
+X06745
+
+# Drug_Target_5_GenBank_ID_Protein:
+35568
+
+# Drug_Target_5_GeneCard_ID:
+POLA1
+
+# Drug_Target_5_Gene_Name:
+POLA1
+
+# Drug_Target_5_Gene_Sequence:
+>4389 bp
+ATGGCACCTGTGCACGGCGACGACTCTCTGTCAGATTCAGGGAGTTTTGTATCTTCTCGA
+GCCCGGCGAGAAAAAAAATCAAAGAAGGGGCGCCAAGAAGCCCTAGAAAGACTGAAAAAG
+GCTAAAGCTGGTGAGAAGTATAAATATGAAGTCGAGGACTTCACAGGTGTTTATGAAGAA
+GTTGATGAAGAACAGTATTCGAAGCTGGTTCAGGCACGCCAGGATGATGACTGGATTGTG
+GATGATGATGGTATTGGCTATGTGGAAGATGGCCGAGAGATTTTTGATGATGACCTTGAA
+GATGATGCCCTTGATGCTGATGAGAAAGGAAAAGATGGTAAAGCACGCAATAAAGACAAG
+AGGAATGTAAAGAAGCTCGCAGTGACAAAACCGAACAACATTAAGTCAATGTTCATTGCT
+TGTGCTGGAAAGAAAACTGCAGATAAAGCTGTAGACTTGTCCAAGGATGGTCTGCTAGGT
+GACATTCTACAGGATCTTAACACTGAGACACCTCAAATAACTCCACCACCTGTAATGATA
+CTGAAGAAGAAAAGATCCATTGGAGCTTCACCGAATCCTTTCTCTGTGCACACCGCCACG
+GCAGTTCCTTCAGGAAAAATTGCTTCCCCTGTCTCCAGAAAGGAGCCTCCATTAACTCCT
+GTTCCTCTTAAACGTGCTGAATTTGCTGGCGATGATGTACAGGTCGAGAGTACAGAAGAA
+GAGCAGGAGTCAGGGGCAATGGAGTTTGAAGATGGTGACTTTGATGAGCCCATGGAAGTT
+GAAGAGGTGGACCTGGAGCCTATGGCTGCCAAGGCTTGGGACAAAGAGAGTGAGCCAGCA
+GAGGAAGTGAAACAAGAGGCGGATTCTGGGAAAGGGACCGTGTCCTACTTAGGAAGTTTT
+CTCCCGGATGTCTCTTGTTGGGACATTGATCAAGAAGGTGATAGCAGTTTCTCAGTGCAA
+GAAGTTCAAGTGGATTCCAGTCACCTCCCATTGGTAAAAGGGGCAGATGAGGAACAAGTA
+TTCCACTTTTATTGGTTGGATGCTTATGAGGATCAGTACAACCAACCAGGTGTGGTATTT
+CTGTTTGGGAAAGTTTGGATTGAATCAGCCGAGACCCATGTGAGCTGTTGTGTCATGGTG
+AAAAATATCGAGCGAACGCTTTACTTCCTTCCCCGTGAAATGAAAATTGATCTAAATACG
+GGGAAAGAAACAGGAACTCCAATTTCAATGAAGGATGTTTATGAGGAATTTGATGAGAAA
+ATAGCAACAAAATATAAAATTATGAAGTTCAAGTCTAAGCCAGTGGAAAAGAACTATGCT
+TTTGAGATACCTGATGTTCCAGAAAAATCTGAGTACTTGGAAGTTAAATACTCGGCTGAA
+ATGCCACAGCTTCCTCAAGATTTGAAAGGAGAAACTTTTTCTCATGTATTTGGGACCAAC
+ACATCTAGCCTGGAACTGTTCTTGATGAACAGAAAGATCAAAGGACCTTGTTGGCTTGAA
+GTAAAAAAGTCCACAGCTCTTAATCAGCCAGTCAGTTGGTGTAAAGTTGAGGCAATGGCT
+TTGAAACCAGACCTGGTGAATGTAATTAAGGATGTCAGTCCACCACCGCTTGTCGTGATG
+GCTTTCAGCATGAAGACAATGCAGAATGCAAAGAACCATCAAAATGAGATTATTGCTATG
+GCAGCTTTGGTCCATCACAGTTTTGCATTGGATAAAGCAGCCCCAAAGCCTCCCTTTCAG
+TCACACTTCTGTGTTGTGTCTAAACCAAAGGACTGTATTTTTCCATATGCTTTCAAAGAA
+GTCATTGAGAAAAAGAATGTGAAGGTTGAGGTTGCTGCAACAGAAAGAACACTGCTAGGT
+TTTTTCCTTGCAAAAGTTCACAAAATTGATCCTGATATCATTGTGGGTCATAATATTTAT
+GGGTTTGAACTGGAAGTACTACTGCAGAGAATTAATGTGTGCAAAGCTCCTCACTGGTCC
+AAGATAGGTCGACTGAAGCGATCCAACATGCCAAAGCTTGGGGGCCGGAGTGGATTTGGT
+GAAAGAAATGCTACCTGTGGTCGAATGATCTGTGATGTGGAAATTTCAGCAAAGGAATTG
+ATTCGTTGTAAAAGCTACCATCTGTCTGAACTTGTTCAGCAGATTCTAAAAACTGAAAGG
+GTTGTAATCCCAATGGAAAATATACAAAATATGTACAGTGAATCTTCTCAACTGTTATAC
+CTGTTGGAACACACCTGGAAAGATGCCAAGTTCATTTTGCAGATCATGTGTGAGCTAAAT
+GTTCTTCCATTAGCATTGCAGATCACTAACATCGCTGGGAACATTATGTCCAGGACGCTG
+ATGGGTGGACGATCCGAGCGTAACGAGTTCTTGTTGCTTCATGCATTTTACGAAAACAAC
+TATATTGTGCCTGACAAGCAGATTTTCAGAAAGCCTCAGCAAAAACTGGGAGATGAAGAT
+GAAGAAATTGATGGAGATACCAATAAATACAAGAAAGGACGTAAGAAAGGAGCTTATGCT
+GGAGGCTTGGTTTTGGACCCCAAAGTTGGTTTTTATGATAAGTTCATTTTGCTTCTGGAC
+TTCAACAGTCTATATCCTTCCATCATTCAGGAATTTAACATTTGTTTTACAACAGTACAA
+AGAGTTGCTTCAGAGGCACAGAAAGTTACAGAGGATGGAGAACAAGAACAGATCCCTGAG
+TTGCCAGATCCAAGCTTAGAAATGGGCATTTTGCCCAGAGAGATCCGGAAACTGGTAGAA
+CGGAGAAAACAAGTCAAACAGCTAATGAAACAGCAAGACTTAAATCCAGACCTTATTCTT
+CAGTATGACATTCGACAGAAGGCTTTGAAGCTCACAGCGAACAGTATGTATGGTTGCCTG
+GGATTTTCCTATAGCAGATTTTACGCCAAACCACTGGCTGCCTTGGTGACATACAAAGGA
+AGGGAGATTTTGATGCATACGAAAGAGATGGTACAAAAGATGAATCTTGAAGTTATTTAT
+GGAGATACAGATTCAATTATGATAAACACCAATAGCACCAATCTGGAAGAAGTATTTAAG
+TTGGGAAACAAGGTAAAAAGTGAAGTGAATAAGTTGTACAAACTGCTTGAAATAGACATT
+GATGGGGTTTTCAAGTCTCTGCTACTGCTGAAAAAAAAGAAGTACGCTGCTCTGGTTGTT
+GAGCCAACGTCGGATGGGAATTATGTCACCAAACAGGAGCTCAAAGGATTAGATATAGTT
+AGAAGAGATTGGTGTGATCTTGCTAAAGACACTGGAAACTTTGTGATTGGCCAGATTCTT
+TCTGATCAAAGCCGGGACACTATAGTGGAAAACATTCAGAAGAGGCTGATAGAAATTGGA
+GAAAATGTGCTAAATGGCAGTGTCCCAGTGAGCCAGTTTGAAATTAACAAGGCATTGACA
+AAGGATCCCCAGGATTACCCTGATAAAAAAAGCCTACCTCATGTACATGTTGCCCTCTGG
+ATAAATTCTCAAGGAGGCAGAAAGGTGAAAGCTGGAGATACTGTGTCATATGTCATCTGT
+CAGGATGGATCAAACCTCACTGCAAGTCAGAGGGCCTATGCGCCTGAGCAGCTGCAGAAA
+CAGGATAATCTAACCATTGACACCCAGTACTACCTGGCCCAGCAGATCCACCCAGTCGTG
+GCTCGGATCTGTGAACCAATAGACGGAATTGATGCTGTCCTCATTGCAACGTGGTTGGGA
+CTTGACCCCACCCAATTTAGAGTTCATCATTATCATAAAGATGAAGAGAATGATGCTCTA
+CTTGGTGGCCCAGCACAGCTCACTGATGAAGAGAAATACAGGGACTGTGAAAGATTCAAA
+TGTCCATGCCCTACATGTGGAACTGAGAATATTTATGATAATGTCTTTGATGGTTCGGGA
+ACAGATATGGAGCCCAGCTTGTATCGTTGCAGTAACATCGATTGTAAGGCTTCACCTCTG
+ACCTTTACAGTACAACTGAGCAACAAATTGATCATGGACATTAGACGTTTCATTAAAAAG
+TACTATGATGGCTGGTTGATATGTGAAGAGCCAACCTGTCGCAATCGAACTCGTCACCTT
+CCCCTTCAATTCTCCCGAACTGGGCCTCTTTGCCCAGCCTGCATGAAAGCTACACTTCAA
+CCAGAGTATTCTGACAAGTCCCTGTACACCCAGCTGTGCTTTTACCGGTACATTTTTGAT
+GCGGAGTGTGCACTGGAGAAACTTACTACCGATCATGAGAAAGATAAATTGAAGAAGCAA
+TTTTTTACCCCCAAAGTTCTGCAGGACTACAGAAAACTCAAGAACACAGCAGAGCAATTC
+TTGTCCCGAAGTGGCTACTCCGAAGTGAATCTGAGCAAACTCTTCGCTGGTTGTGCCGTG
+AAATCCTAA
+
+# Drug_Target_5_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_5_General_References:
+14499601	Evanics F, Maurmann L, Yang WW, Bose RN: Nuclear magnetic resonance structures of the zinc finger domain of human DNA polymerase-alpha. Biochim Biophys Acta. 2003 Sep 23;1651(1-2):163-71.
+2005899	Pearson BE, Nasheuer HP, Wang TS: Human DNA polymerase alpha gene: sequences controlling expression in cycling and serum-stimulated cells. Mol Cell Biol. 1991 Apr;11(4):2081-95.
+2243771	Hsi KL, Copeland WC, Wang TS: Human DNA polymerase alpha catalytic polypeptide binds ConA and RCA and contains a specific labile site in the N-terminus. Nucleic Acids Res. 1990 Nov 11;18(21):6231-7.
+3359994	Wong SW, Wahl AF, Yuan PM, Arai N, Pearson BE, Arai K, Korn D, Hunkapiller MW, Wang TS: Human DNA polymerase alpha gene expression is cell proliferation dependent and its primary structure is similar to both prokaryotic and eukaryotic replicative DNA polymerases. EMBO J. 1988 Jan;7(1):37-47.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:9173
+
+# Drug_Target_5_HPRD_ID:
+02416
+
+# Drug_Target_5_ID:
+603
+
+# Drug_Target_5_Locus:
+Not Available
+
+# Drug_Target_5_Molecular_Weight:
+165914
+
+# Drug_Target_5_Name:
+DNA polymerase alpha catalytic subunit
+
+# Drug_Target_5_Number_of_Residues:
+1462
+
+# Drug_Target_5_PDB_ID:
+Not Available
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00136	DNA_pol_B
+PF03104	DNA_pol_B_exo
+
+# Drug_Target_5_Protein_Sequence:
+>DNA polymerase alpha catalytic subunit
+MAPVHGDDSLSDSGSFVSSRARREKKSKKGRQEALERLKKAKAGEKYKYEVEDFTGVYEE
+VDEEQYSKLVQARQDDDWIVDDDGIGYVEDGREIFDDDLEDDALDADEKGKDGKARNKDK
+RNVKKLAVTKPNNIKSMFIACAGKKTADKAVDLSKDGLLGDILQDLNTETPQITPPPVMI
+LKKKRSIGASPNPFSVHTATAVPSGKIASPVSRKEPPLTPVPLKRAEFAGDDVQVESTEE
+EQESGAMEFEDGDFDEPMEVEEVDLEPMAAKAWDKESEPAEEVKQEADSGKGTVSYLGSF
+LPDVSCWDIDQEGDSSFSVQEVQVDSSHLPLVKGADEEQVFHFYWLDAYEDQYNQPGVVF
+LFGKVWIESAETHVSCCVMVKNIERTLYFLPREMKIDLNTGKETGTPISMKDVYEEFDEK
+IATKYKIMKFKSKPVEKNYAFEIPDVPEKSEYLEVKYSAEMPQLPQDLKGETFSHVFGTN
+TSSLELFLMNRKIKGPCWLEVKSPQLLNQPVSWCKVEAMALKPDLVNVIKDVSPPPLVVM
+AFSMKTMQNAKNHQNEIIAMAALVHHSFALDKAAPKPPFQSHFCVVSKPKDCIFPYAFKE
+VIEKKNVKVEVAATERTLLGFFLAKVHKIDPDIIVGHNIYGFELEVLLQRINVCKAPHWS
+KIGRLKRSNMPKLGGRSGFGERNATCGRMICDVEISAKELIRCKSYHLSELVQQILKTER
+VVIPMENIQNMYSESSQLLYLLEHTWKDAKFILQIMCELNVLPLALQITNIAGNIMSRTL
+MGGRSERNEFLLLHAFYENNYIVPDKQIFRKPQQKLGDEDEEIDGDTNKYKKGRKKAAYA
+GGLVLDPKVGFYDKFILLLDFNSLYPSIIQEFNICFTTVQRVASEAQKVTEDGEQEQIPE
+LPDPSLEMGILPREIRKLVERRKQVKQLMKQQDLNPDLILQYDIRQKALKLTANSMYGCL
+GFSYSRFYAKPLAALVTYKGREILMHTKEMVQKMNLEVIYGDTDSIMINTNSTNLEEVFK
+LGNKVKSEVNKLYKLLEIDIDGVFKSLLLLKKKKYAALVVEPTSDGNYVTKQELKGLDIV
+RRDWCDLAKDTGNFVIGQILSDQSRDTIVENIQKRLIEIGENVLNGSVPVSQFEINKALT
+KDPQDYPDKKSLPHVHVALWINSQGGRKVKAGDTVSYVICQDGSNLTASQRAYAPEQLQK
+QDNLTIDTQYYLAQQIHPVVARICEPIDGIDAVLIATWLGLDPTQFRVHHYHKDEENDAL
+LGGPAQLTDEEKYRDCERFKCPCPTCGTENIYDNVFDGSGTDMEPSLYRCSNIDCKASPL
+TFTVQLSNKLIMDIRRFIKKYYDGWLICEEPTCRNRTRHLPLQFSRTGPLCPACMKATLQ
+PEYSDKSLYTQLCFYRYIFDAECALEKLTTDHEKDKLKKQFFTPKVLQDYRKLKNTAEQF
+LSRSGYSEVNLSKLFAGCAVKS
+
+# Drug_Target_5_Reaction:
+deoxynucleoside triphosphate + DNAn = diphosphate + DNAn+1
+
+# Drug_Target_5_Signals:
+None
+
+# Drug_Target_5_Specific_Function:
+Polymerase alpha in a complex with DNA primase is a replicative polymerase
+
+# Drug_Target_5_SwissProt_ID:
+P09884
+
+# Drug_Target_5_SwissProt_Name:
+DPOLA_HUMAN
+
+# Drug_Target_5_Synonyms:
+EC 2.7.7.7
+
+# Drug_Target_5_Theoretical_pI:
+5.59
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+# Drug_Target_6_Cellular_Location:
+Nucleus
+
+# Drug_Target_6_Chromosome_Location:
+1
+
+# Drug_Target_6_Drug_References:
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+
+# Drug_Target_6_Essentiality:
+Non-Essential
+
+# Drug_Target_6_GenAtlas_ID:
+Not Available
+
+# Drug_Target_6_GenBank_ID_Gene:
+L09561
+
+# Drug_Target_6_GenBank_ID_Protein:
+3192938
+
+# Drug_Target_6_GeneCard_ID:
+POLE
+
+# Drug_Target_6_Gene_Name:
+POLE
+
+# Drug_Target_6_Gene_Sequence:
+>6861 bp
+ATGTCTCTGAGGAGCGGCGGGCGGCGGCGCGCGGACCCAGGCGCGGATGGCGAGGCCAGC
+AGGGATGATGGCGCCACTTCCTCAGTTTCGGCACTCAAGCGCCTGGAACGGAGTCAGTGG
+ACGGATAAGATGGATTTGCGGTTTGGTTTTGAGCGGCTGAAGGAGCCTGGTGAGAAGACA
+GGCTGGCTCATTAACATGCATCCTACCGAGATTTTAGATGAAGATAAGCGCTTAGGCAGT
+GCAGTGGATTACTACTTTATTCAAGATGACGGAAGCAGATTTAAGGTGGCTTTGCCCTAT
+AAACCGTATTTCTACATTGCGACCAGAAAGGGTTGTGAGCGAGAAGTTTCATCTTTTCTC
+TCCAAGAAGTTTCAGGGCAAAATTGCAAAAGTGGAGACTGTCCCCAAAGAGGATCTGGAC
+TTGCCAAATCACTTGGTGGGTTTGAAGCGAAATTACATCAGGCTGTCCTTCCACACTGTG
+GAGGATCTTGTCAAAGTGAGGAAGGAGATCTCCCCTGCCGTGAAGAAGAACAGGGAGCAG
+GATCACGCCAGCGACGCGTACACAGCTCTGCTTTCCAGTGTTCTGCAGAGGGGCGGTGTC
+ATTACTGATGAAGAGGAAACCTCTAAGAAGATAGCTGACCAGTTGGACAACATTGTGGAC
+ATGCGCGAGTACGATGTTCCCTACCACATCCGCCTCTCCATTGACCTGAAGATCCACGTG
+GCTCATTGGTACAATGTCAGATACCGAGGAAATGCTTTTCCGGTAGAAATCACCCGCCGA
+GATGACCTTGTTGAACGACCTGACCCTGTGGTTTTGGCATTTGACATTGAGACGACCAAA
+CTGCCCCTCAAGTTTCCTGATGCTGAGACAGACCAGATTATGATGATTTCCTACATGATC
+GATGGCCAGGGCTACCTCATCACCAACAGGGAGATTGTTTCAGAAGATATTGAAGATTTT
+GAGTTCACCCCCAAGCCAGAATATGAAGGCCCCTTTTGTGTCTTCAATGAACCCGATGAG
+GCTCATCTGATCCAAAGGTGGTTTGAACACGTCCAGGAGACCAAACCCACCATCATGGTC
+ACCTACAACGGGGACTTTTTTGACTGGCCATTTGTGGAGGCCCGGGCAGCAGTCCACGGT
+CTGAGCATGCAGCAGGAGATAGGCTTCCAGAAGGACAGCCAGGGGGAGTACAAGGCGCCC
+CAGTGCATCCACATGGACTGCCTCAGGTGGGTGAAGAGGGACAGTTACCTTCCTGTGGGC
+AGTCATAATCTCAAGGCGGCCGCCAAGGCCAAGCTAGGCTATGATCCCGTGGAGCTAGAC
+CCGGAGGACATGTGCCGGATGGCCACGGAGCAGCCCCAGACTCTGGCCACGTATTCTGTG
+TCAGATGCTGTCGCCACTTACTACCTGTACATGAAGTACGTCCACCCATTCATCTTTGCT
+CTGTGCACCATTATTCCCATGGAGCCCGACGAGGTGCTGCGGAAGGGCTCTGGCACTCTG
+TGTGAGGCCTTGCTGATGGTGCAGGCCTTCCACGCCAACATCATCTTCCCCAACAAGCAA
+GAGCAGGAGTTCAATAAGCTGACGGACGACGGACACGTGCTGGACTCTGAGACCTACGTC
+GGGGGCCACGTGGAGGCCCTCGAGTCTGGGGTTTTCCGCAGCGATATCCCTTGCCGGTTT
+AGGATGAATCCTGCCGCCTTTGACTTCCTGCTGCAGCGGGTTGAGAAGACCTTGCGCCAC
+GCCCTTGAGGAAGAGGAGAAAGTGCCTGTGGAGCAAGTCACCAACTTTGAAGAGGTGTGT
+GATGAGATTAAGAGCAAGCTTGCCTCCCTGAAGGACGTTCCCAGCCGCATCGAGTGTCCA
+CTCATCTACCACCTGGACGTGGGGGCCATGTACCCCAACATCATCCTGACCAACCGCCTG
+CAGCCCTCTGCCATGGTGGACGAAGCCACCTGTGCTGCCTGTGACTTCAATAAGCCTGGA
+GCAAACTGCCAGCGGAAGATGGCCTGGCAGTGGAGGGGCGAGTTCATGCCAGCCAGTCGC
+AGCGAATACCATCGGATCCAGCACCAGCTGGAGTCAGAGAAGTTCCCCCCCTTGTTCCCA
+GAGGGGCCAGCTCGGGCCTTTCATGAACTGTCCCGCGAGGAACAGGCGAAATACGAGAAG
+AGAAGGCTGGCGGATTACTGCCGGAAAGCCTACAAGAAGATCCACATCACCAAGGTGGAA
+GAGCGTCTCACCACCATCTGCCAGCGGGAAAACTCCTTCTACGTGGACACCGTGCGTGCC
+TTCCGGGACAGGCGTTACGAGTTCAAAGGGCTCCACAAGGTGTGGAAAAAGAAGCTCTCG
+GCGGCCGTGGAGGTGGGCGACGCGGCTGAGGTGAAGCGCTGCAAGAACATGGAGGTGCTG
+TATGACTCGCTGCAGCTGGCCCACAAGTGCATCCTGAACTCCTTCTATGGCTATGTCATG
+CGCAAGGGGGCTCGCTGGTACTCCATGGAGATGGCTGGCATCGTCTGCTTCACAGGGGCC
+AACATCATCACCCAGGCACGGGAGCTGATCGAGCAGATTGGGAGGCCCTTAGAGCTGGAC
+ACAGATGGTATATGGTGCGTCCTGCCCAACAGCTTCCCAGAAAATTTTGTCTTCAAGACG
+ACCAATGTGAAGAAGCCCAAAGTGACCATCTCCTACCCAGGCGCCATGTTGAACATCATG
+GTCAAGGAAGGCTTCACCAATGACCAGTACCAGGAGCTGGCTGAGCCGTCCTCACTCACC
+TACGTCACCCGCTCAGAGAACAGCATCTTTTTTGAGGTTGATGGGCCCTACCTTGCCATG
+ATTCTTCCAGCCTCCAAGGAAGAAGGCAAGAAATTGAAGAAGAGGTATGCTGTGTTCAAT
+GAAGACGGTTCTCTGGCTGAGCTCAAGGGCTTTGAGGTCAAACGCCGCGGGGAACTGCAG
+CTGATTAAGATCTTCCAATCCTCGGTGTTTGAGGCCTTCCTCAAGGGCAGCACGCTGGAA
+GAGGTGTATGGCTCTGTAGCCAAGGTGGCTGACTACTGGCTGGACGTGCTGTACAGCAAG
+GCAGCCAACATGCCTGACTCTGAGCTATTCGAGCTCATCTCTGAGAACCGTTCCATGTCT
+CGGAAGCTGGAAGATTACGGGGAGCAGAAGTCTACATCCATCAGCACAGCAAAGCGCCTG
+GCCGAGTTCCTGGGAGACCAGATGGTCAAGGATGCAGGGCTGAGTTGCCGCTACATCATC
+TCCCGCAAGCCCGAGGGCTCCCCTGTCACGGAGAGGGCCATCCCACTTGCCATTTTCCAA
+GCAGAGCCCACGGTGAGGAAGCACTTTCTCCGGAAATGGCTCAAGAGCTCTTCCCTTCAA
+GACTTTGATATTCGAGCAATTCTGGATTGGGACTACTACATTGAGCGGCTGGGAAGCGCC
+ATCCAGAAGATCATCACCATCCCTGCGGCCCTGCAGCAGGTAAAGAACCCAGTGCCACGT
+GTCAAACACCCCGACTGGCTGCACAAAAAACTGCTGGAGAAGAATGATGTCTACAAGCAG
+AAGAAGATCAGTGAGCTCTTCACCCTGGAGGGCAGGAGACAGGTCACGATGGCCGAGGCC
+TCAGAAGACAGTCCGAGGCCAAGTGCTCCTGACATGGAGGACTTCGGCCTCGTAAAGCTG
+CCTCACCCAGCAGCCCCTGTCACTGTGAAGAGGAAGCGAGTTCTTTGGGAGAGCCAGGAG
+GAGTCCCAGGACCTCACGCCGACTGTGCCCTGGCAGGAAATCTTGGGGCAGCCTCCCGCC
+CTGGGAACCAGCCAGGAGGAATGGCTTGTCTGGCTCCGGTTCCACAAGAAGAAGTGGCAG
+CTGCAGGCCCGGCAGCGCCTCGCCCGCAGGAAGAGGCAGCGTCTGGAGTCGGCAGAGGGT
+GTGCTCAGGCCCGGGGCCATCCGGGATGGTCCTGCCACGGGGCTGGGGAGCTTCTTGCGA
+AGAACTGCCCGCAGCATCCTGGACCTTCCGTGGCAGATTGTGCAGATCAGCGAGACCAGC
+CAGGCCGGCCTGTTCAGGCTGTGGGCGCTCGTTGGCAGTGACTTGCACTGCATCAGGCTG
+AGCATCCCCCGTGTGTTCTACGTGAACCAGCGAGTCGCTAAAGCGGAGGAGGGTGCTTCG
+TATCGCAAGGTAAATCGGGTCCTTCCTCGCTCCAACATGGTCTACAATCTCTATGAGTAT
+TCAGTGCCAGAGGACATGTACCAGGAACACATCAACGAGATCAACGCTGAGCTGTCAGCG
+CCAGACATCGAGGGCGTATATGAGACTCAGGTTCCGTTACTGTTCCGGGCCCTGGTGCAC
+CTGGGCTGTGTGTGTGTGGTCAATAAACAGCTGGTGAGGCACCTTTCAGGCTGGGAAGCA
+GAGACCTTTGCTCTTGAGCACCTGGAGATGCGCTCTCTGGCCCAGTTCAGCTACCTGGAA
+CCAGGGAGTATCCGCCATATCTACCTGTACCACCACGCACAGGCCCACAAAGCGCTCTTC
+GGGATCTTCATCCCCTCACAGCGCAGGGCATCCGTCTTTGTGCTGGACACTGTGCGCAGC
+AACCAGATGCCCAGCCTTGGCGCCCTGTACTCAGCAGAGCACGGCCTCCTCCTGGAGAAG
+GTGGGCCCTGAGCTCCTGCCACCCCCCAAACACACCTTCGAAGTTCGGGCAGAAACTGAC
+CTGAAGACCATCTGCAGAGCCATCCAGCGATTCCTGCTCGCCTACAAGGAGGAGCGCCGG
+GGGCCCACACTCATCGCTGTTCAGTCCAGCTGGGAGCTGAAGAGGCTGGCCAGTGAAATT
+CCTGTCTTGGAGGAATTCCCACTGGTGCCTATCTGTGTGGCTGACAAGATCAACTATGGG
+GTCCTGGACTGGCAGCGCCATGGAGCCCGGCGCATGATCCGTCACTACCTCAACCTGGAC
+ACCTGCCTGTCGCAGGCCTTCGAGATGAGCAGGTACTTTCACATTCCCATTGGGAACCTA
+CCAGAGGACATCTCCACATTCGGCTCCGACCTCTTCTTTGCCCGCCACCTCCAGCGCCAC
+AACCACCTGCTCTGGCTGTCCCCTACAGCCCGCCCTGACCTGGGTGGAAAGGAGGCTGAT
+GACAACTGTCTTGTCATGGAGTTCGATGACCAAGCCACTGTTGAGATCAACAGTTCAGGC
+TGTTACTCCACAGTGTGTGTGGAGCTGGACCTTCAGAACCTGGCCGTCAACACCATTCTC
+CAGTCTCACCATGTCAACGACATGGAGGGGGCCGACAGCATGGGGATCAGCTTCGACGTG
+ATCCAGCAGGCCTCCCTGGAGGACATGATCACGGGTGGTCAGGCTGCCAGTGCCCCGGCC
+AGCTACGATGAGACAGCCCTGTGCTCTAACACCTTCAGGATCCTGAAGAGCATGGTCGTG
+GGCTGGGTGAAGGAGATCACCCAGTACCACAACATCTATGCAGACAACCAGGTGATGCAC
+TTCTACCGCTGGCTTCGGTCGCCATCCTCTCTGCTTCATGACCCTGCCCTGCACCGCACA
+CTCCACAACATGATGAAGAAGCTCTTCCTGCAGCTCATCGCTGAGTTCAAGCGCCTGGGG
+TCATCAGTCATCTACGCCAACTTCAACCGCATCATCCTCTGTACAAAGAAGCGCCGTGTG
+GAAGATGCCATCGCTTACGTGGAGTACATCACCAGCAGCATCCATTCAAAGGAGACCTTC
+CATTCTCTGACAATTTCTTTCTCTCGATGCTGGGAATTTCTTCTCTGGATGGATCCATCT
+AACTATGGCGGAATCAAAGGAAAAGTTTCATCTCGTATTCACTGTGGACTGCAAGACTCC
+CAGAAAGCAGGGGGAGCAGAGGATGAGCAGGAAAATGAGGACGATGAGGAGGAAAGAGAT
+GGGGAGGAGGAGGAAGAGGCGGAGGAATCCAACGTGGAGGATTTACTGGAAAACAACTGG
+AACATTTTGCAGTTTTTGCCACAGGCAGCCTCCTGCCAGAACTACTTCCTCATGATTGTT
+TCAGCGTACATCGTGGCCGTGTACCACTGCATGAAGGACGGGCTGAGGCGCAGTGCTCCA
+GGGAGCACCCCCGTGAGGAGGAGGGGGGCCAGCCAGCTCTCCCAGGAGGCCGAGGGGGCG
+GTCGGAGCCCTTCCCGGAATGATCACCTTCTCTCAGGATTATGTCGCAAATGAGCTCACT
+CAGAGCTTCTTCACCATCACTCAGAAGATTCAGAAGAAAGTCACAGGCTCTCGGAACTCC
+ACTGAGCTCTCAGAGATGTTTCCTGTCCTCCCCGGTTCCCACTTGCTGCTCAATAACCCT
+GCCCTGGAGTTCATCAAATACGTGTGCAAGGTGCTGTCCCTGGACACCAACATCACAAAC
+CAGGTGAATAAGCTGAACCGAGACCTGCTTCGCCTGGTGGATGTCGGCGAGTTCTCCGAG
+GAGGCCCAGTTCCGAGACCCCTGCCGCTCCTACGTGCTTCCTGAGGTCATCTGCCGCAGC
+TGTAACTTCTGCCGCGACCTGGACCTGTGTAAAGACTCTTCCTTCTCAGAGGATGGGGCG
+GTCCTGCCTCAGTGGCTCTGCTCCAACTGTCAGGCGCCCTACGACTCCTCTGCCATCGAG
+ATGACGCTGGTGGAAGTTCTACAGAAGAAGCTGATGGCCTTCACCCTGCAGGACCTGGTC
+TGCCTGAAGTGCCGCGGGGTGAAGGAGACCAGCATGCCTGTGTACTGCACGTGCGCGGGA
+GACTTCGCCCTCACCATCCACACCCAGGTCTTCATGGAACAGATCGGAATATTCCGGAAC
+ATTGCCCAGCACTACGGCATGTCGTACCTCCTGGAGACCCTGGAGTGGCTGCTGCAGAAG
+AACCCACAGCTGGGCCATTAG
+
+# Drug_Target_6_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_6_General_References:
+11395493	Makiniemi M, Hillukkala T, Tuusa J, Reini K, Vaara M, Huang D, Pospiech H, Majuri I, Westerling T, Makela TP, Syvaoja JE: BRCT domain-containing protein TopBP1 functions in DNA replication and damage response. J Biol Chem. 2001 Aug 10;276(32):30399-406. Epub 2001 Jun 6.
+14500819	Post SM, Tomkinson AE, Lee EY: The human checkpoint Rad protein Rad17 is chromatin-associated throughout the cell cycle, localizes to DNA replication sites, and interacts with DNA polymerase epsilon. Nucleic Acids Res. 2003 Oct 1;31(19):5568-75.
+17525332	Matsuoka S, Ballif BA, Smogorzewska A, McDonald ER 3rd, Hurov KE, Luo J, Bakalarski CE, Zhao Z, Solimini N, Lerenthal Y, Shiloh Y, Gygi SP, Elledge SJ: ATM and ATR substrate analysis reveals extensive protein networks responsive to DNA damage. Science. 2007 May 25;316(5828):1160-6.
+8486689	Kesti T, Frantti H, Syvaoja JE: Molecular cloning of the cDNA for the catalytic subunit of human DNA polymerase epsilon. J Biol Chem. 1993 May 15;268(14):10238-45.
+
+# Drug_Target_6_HGNC_ID:
+GNC:9177
+
+# Drug_Target_6_HPRD_ID:
+Not Available
+
+# Drug_Target_6_ID:
+6109
+
+# Drug_Target_6_Locus:
+12q24.3
+
+# Drug_Target_6_Molecular_Weight:
+261515.5
+
+# Drug_Target_6_Name:
+DNA polymerase epsilon catalytic subunit A
+
+# Drug_Target_6_Number_of_Residues:
+2286
+
+# Drug_Target_6_PDB_ID:
+Not Available
+
+# Drug_Target_6_Pathway:
+Not Available
+
+# Drug_Target_6_Pfam_Domain_Function:
+PF00136	DNA_pol_B
+PF03104	DNA_pol_B_exo
+PF08490	DUF1744
+
+# Drug_Target_6_Protein_Sequence:
+>DNA polymerase epsilon catalytic subunit A
+MSLRSGGRRRADPGADGEASRDDGATSSVSALKRLERSQWTDKMDLRFGFERLKEPGEKT
+GWLINMHPTEILDEDKRLGSAVDYYFIQDDGSRFKVALPYKPYFYIATRKGCEREVSSFL
+SKKFQGKIAKVETVPKEDLDLPNHLVGLKRNYIRLSFHTVEDLVKVRKEISPAVKKNREQ
+DHASDAYTALLSSVLQRGGVITDEEETSKKIADQLDNIVDMREYDVPYHIRLSIDLKIHV
+AHWYNVRYRGNAFPVEITRRDDLVERPDPVVLAFDIETTKLPLKFPDAETDQIMMISYMI
+DGQGYLITNREIVSEDIEDFEFTPKPEYEGPFCVFNEPDEAHLIQRWFEHVQETKPTIMV
+TYNGDFFDWPFVEARAAVHGLSMQQEIGFQKDSQGEYKAPQCIHMDCLRWVKRDSYLPVG
+SHNLKAAAKAKLGYDPVELDPEDMCRMATEQPQTLATYSVSDAVATYYLYMKYVHPFIFA
+LCTIIPMEPDEVLRKGSGTLCEALLMVQAFHANIIFPNKQEQEFNKLTDDGHVLDSETYV
+GGHVEALESGVFRSDIPCRFRMNPAAFDFLLQRVEKTLRHALEEEEKVPVEQVTNFEEVC
+DEIKSKLASLKDVPSRIECPLIYHLDVGAMYPNIILTNRLQPSAMVDEATCAACDFNKPG
+ANCQRKMAWQWRGEFMPASRSEYHRIQHQLESEKFPPLFPEGPARAFHELSREEQAKYEK
+RRLADYCRKAYKKIHITKVEERLTTICQRENSFYVDTVRAFRDRRYEFKGLHKVWKKKLS
+AAVEVGDAAEVKRCKNMEVLYDSLQLAHKCILNSFYGYVMRKGARWYSMEMAGIVCFTGA
+NIITQARELIEQIGRPLELDTDGIWCVLPNSFPENFVFKTTNVKKPKVTISYPGAMLNIM
+VKEGFTNDQYQELAEPSSLTYVTRSENSIFFEVDGPYLAMILPASKEEGKKLKKRYAVFN
+EDGSLAELKGFEVKRRGELQLIKIFQSSVFEAFLKGSTLEEVYGSVAKVADYWLDVLYSK
+AANMPDSELFELISENRSMSRKLEDYGEQKSTSISTAKRLAEFLGDQMVKDAGLSCRYII
+SRKPEGSPVTERAIPLAIFQAEPTVRKHFLRKWLKSSSLQDFDIRAILDWDYYIERLGSA
+IQKIITIPAALQQVKNPVPRVKHPDWLHKKLLEKNDVYKQKKISELFTLEGRRQVTMAEA
+SEDSPRPSAPDMEDFGLVKLPHPAAPVTVKRKRVLWESQEESQDLTPTVPWQEILGQPPA
+LGTSQEEWLVWLRFHKKKWQLQARQRLARRKRQRLESAEGVLRPGAIRDGPATGLGSFLR
+RTARSILDLPWQIVQISETSQAGLFRLWALVGSDLHCIRLSIPRVFYVNQRVAKAEEGAS
+YRKVNRVLPRSNMVYNLYEYSVPEDMYQEHINEINAELSAPDIEGVYETQVPLLFRALVH
+LGCVCVVNKQLVRHLSGWEAETFALEHLEMRSLAQFSYLEPGSIRHIYLYHHAQAHKALF
+GIFIPSQRRASVFVLDTVRSNQMPSLGALYSAEHGLLLEKVGPELLPPPKHTFEVRAETD
+LKTICRAIQRFLLAYKEERRGPTLIAVQSSWELKRLASEIPVLEEFPLVPICVADKINYG
+VLDWQRHGARRMIRHYLNLDTCLSQAFEMSRYFHIPIGNLPEDISTFGSDLFFARHLQRH
+NHLLWLSPTARPDLGGKEADDNCLVMEFDDQATVEINSSGCYSTVCVELDLQNLAVNTIL
+QSHHVNDMEGADSMGISFDVIQQASLEDMITGGQAASAPASYDETALCSNTFRILKSMVV
+GWVKEITQYHNIYADNQVMHFYRWLRSPSSLLHDPALHRTLHNMMKKLFLQLIAEFKRLG
+SSVIYANFNRIILCTKKRRVEDAIAYVEYITSSIHSKETFHSLTISFSRCWEFLLWMDPS
+NYGGIKGKVSSRIHCGLQDSQKAGGAEDEQENEDDEEERDGEEEEEAEESNVEDLLENNW
+NILQFLPQAASCQNYFLMIVSAYIVAVYHCMKDGLRRSAPGSTPVRRRGASQLSQEAEGA
+VGALPGMITFSQDYVANELTQSFFTITQKIQKKVTGSRNSTELSEMFPVLPGSHLLLNNP
+ALEFIKYVCKVLSLDTNITNQVNKLNRDLLRLVDVGEFSEEAQFRDPCRSYVLPEVICRS
+CNFCRDLDLCKDSSFSEDGAVLPQWLCSNCQAPYDSSAIEMTLVEVLQKKLMAFTLQDLV
+CLKCRGVKETSMPVYCSCAGDFALTIHTQVFMEQIGIFRNIAQHYGMSYLLETLEWLLQK
+NPQLGH
+
+# Drug_Target_6_Reaction:
+Not Available
+
+# Drug_Target_6_Signals:
+None
+
+# Drug_Target_6_Specific_Function:
+Participates in DNA repair and in chromosomal DNA replication
+
+# Drug_Target_6_SwissProt_ID:
+Q07864
+
+# Drug_Target_6_SwissProt_Name:
+DPOE1_HUMAN
+
+# Drug_Target_6_Synonyms:
+DNA polymerase II subunit A
+
+# Drug_Target_6_Theoretical_pI:
+6.35
+
+# Drug_Target_6_Transmembrane_Regions:
+None
+
+# Drug_Target_7_Cellular_Location:
+Nucleus
+
+# Drug_Target_7_Chromosome_Location:
+1
+
+# Drug_Target_7_Drug_References:
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+
+# Drug_Target_7_Essentiality:
+Non-Essential
+
+# Drug_Target_7_GenAtlas_ID:
+Not Available
+
+# Drug_Target_7_GenBank_ID_Gene:
+AF025840
+
+# Drug_Target_7_GenBank_ID_Protein:
+2697123
+
+# Drug_Target_7_GeneCard_ID:
+POLE2
+
+# Drug_Target_7_Gene_Name:
+POLE2
+
+# Drug_Target_7_Gene_Sequence:
+>1581 bp
+ATGGCGCCGGAGCGGCTGCGGAGCCGGGCGCCCTCCGCCTTCAAGTTGCGGGGCTTGCTG
+CTCCGTGGTGAAGCTATTAAGTACCTCACAGAAGCTCTTCAGTCTATCAGTGAATTAGAG
+CTTGAAGATAAACTGGAAAAGATAATTAATGCAGTTGAGAAGCAACCCTTGTCATCAAAC
+ATGATTGAACGATCTGTGGTGGAAGCAGCAGTCCAGGAATGCAGTCAGTCTGTTGATGAA
+ACTATAGAGCACGTTTTCAATATCATAGGAGCATTTGATATTCCACGCTTTGTGTACAAT
+TCAGAAAGAAAAAAATTTCTTCCTCTGTTAATGACCAACCACCCTGCACCAAATTTATTT
+GGAACACCAAGAGATAAAGCAGAGATGTTTCGTGAGCGATATACCATTTTGCACCAGAGG
+ACCCACAGGCATGAATTATTTACTCCTCCGGTGATAGGTTCTCACCCTGATGAAAGCGGA
+AGCAAATTCCAGCTTAAAACAATAGAAACCTTATTGGGTAGTACAACCAAAATCGGAGAT
+GCGATTGTTCTTGGAATGATAACGCAGTTAAAAGAGGGAAAATTTTTTCTGGAAGATCCT
+ACTGGAACAGTCCAACTAGACCTTAGTAAAGCTCAGTTCCATAGTGGTTTATACACAGAG
+GCATGCTTTGTCTTAGCAGAAGGTTGGTTTGAAGATCAAGTGTTTCATGTCAATGCCTTT
+GGATTTCCACCCACTGAGCCCTCTAGTACTACTAGGGCATACTATGGAAATATTAATTTT
+TTTGGAGGTCCTTCTAATACATCTGTGAAGACTTCTGCAAAACTAAAACAGCTAGAAGAG
+GAGAATAAAGATGCTATGTTTGTGTTTTTATCTGATGTTTGGTTGGACCAGGTGGAAGTA
+TTGGAAAAACTTCGCATAATGTTTGCTGGTTATTCACCAGCACCTCCAACCTGCTTTATT
+CTGTGTGGTAATTTTTCATCTGCACCATATGGAAAAAATCAAGTTCAAGCTTTGAAAGAT
+TCCCTAAAAACTTTGGCAGATATAATATGTGAATACCCAGATATTCACCAAAGTCGTTTT
+GTGTTTGTACCTGGTCCAGAGGATCCTGGATTTGGTTCCATCTTACCAAGGCCACCACTT
+GCTGAAAGCATCACTAATGAATTCAGACAAAGGGTACCATTTTCAGTTTTTACTACTAAT
+CCTTGCAGAATTCAGTACTGTACACAGGAAATTACTGTCTTCCGTGAAGACTTAGTAAAT
+AAAATGTGCAGAAACTGCGTCCGTTTTCCTAGCAGCAATTTGGCTATTCCTAATCACTTT
+GTAAAGACTATCTTATCCCAAGGACATCTGACTCCCCTACCTCTTTATGTCTGCCCAGTG
+TATTGGGCATATGACTATGCTTTGAGAGTGTATCCTGTGCCCGATCTACTTGTCATTGCA
+GACAAATATGATCCTTTCACTACGACAAATACCGAATGCCTCTGCATAAACCCTGGCTCT
+TTTCCAAGAAGTGGATTTTCATTCAAAGTTTTTTATCCTTCTAATAAGACAGTAGAAGAT
+AGCAAACTTCAAGGCTTTTGA
+
+# Drug_Target_7_General_Function:
+Involved in DNA binding
+
+# Drug_Target_7_General_References:
+11433027	Huang D, Jokela M, Tuusa J, Skog S, Poikonen K, Syvaoja JE: E2F mediates induction of the Sp1-controlled promoter of the human DNA polymerase epsilon B-subunit gene POLE2. Nucleic Acids Res. 2001 Jul 1;29(13):2810-21.
+12508121	Heilig R, Eckenberg R, Petit JL, Fonknechten N, Da Silva C, Cattolico L, Levy M, Barbe V, de Berardinis V, Ureta-Vidal A, Pelletier E, Vico V, Anthouard V, Rowen L, Madan A, Qin S, Sun H, Du H, Pepin K, Artiguenave F, Robert C, Cruaud C, Bruls T, Jaillon O, Friedlander L, Samson G, Brottier P, Cure S, Segurens B, Aniere F, Samain S, Crespeau H, Abbasi N, Aiach N, Boscus D, Dickhoff R, Dors M, Dubois I, Friedman C, Gouyvenoux M, James R, Madan A, Mairey-Estrada B, Mangenot S, Martins N, Menard M, Oztas S, Ratcliffe A, Shaffer T, Trask B, Vacherie B, Bellemere C, Belser C, Besnard-Gonnet M, Bartol-Mavel D, Boutard M, Briez-Silla S, Combette S, Dufosse-Laurent V, Ferron C, Lechaplais C, Louesse C, Muselet D, Magdelenat G, Pateau E, Petit E, Sirvain-Trukniewicz P, Trybou A, Vega-Czarny N, Bataille E, Bluet E, Bordelais I, Dubois M, Dumont C, Guerin T, Haffray S, Hammadi R, Muanga J, Pellouin V, Robert D, Wunderle E, Gauguet G, Roy A, Sainte-Marthe L, Verdier J, Verdier-Discala C, Hillier L, Fulton L, McPherson J, Matsuda F, Wilson R, Scarpelli C, Gyapay G, Wincker P, Saurin W, Quetier F, Waterston R, Hood L, Weissenbach J: The DNA sequence and analysis of human chromosome 14. Nature. 2003 Feb 6;421(6923):601-7. Epub 2003 Jan 1.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+9405441	Li Y, Asahara H, Patel VS, Zhou S, Linn S: Purification, cDNA cloning, and gene mapping of the small subunit of human DNA polymerase epsilon. J Biol Chem. 1997 Dec 19;272(51):32337-44.
+9443964	Jokela M, Makiniemi M, Lehtonen S, Szpirer C, Hellman U, Syvaoja JE: The small subunits of human and mouse DNA polymerase epsilon are homologous to the second largest subunit of the yeast Saccharomyces cerevisiae DNA polymerase epsilon. Nucleic Acids Res. 1998 Feb 1;26(3):730-4.
+
+# Drug_Target_7_HGNC_ID:
+GNC:9178
+
+# Drug_Target_7_HPRD_ID:
+Not Available
+
+# Drug_Target_7_ID:
+6110
+
+# Drug_Target_7_Locus:
+14q21-q22
+
+# Drug_Target_7_Molecular_Weight:
+59536.6
+
+# Drug_Target_7_Name:
+DNA polymerase epsilon subunit 2
+
+# Drug_Target_7_Number_of_Residues:
+527
+
+# Drug_Target_7_PDB_ID:
+Not Available
+
+# Drug_Target_7_Pathway:
+Not Available
+
+# Drug_Target_7_Pfam_Domain_Function:
+PF04042	DNA_pol_E_B
+
+# Drug_Target_7_Protein_Sequence:
+>DNA polymerase epsilon subunit 2
+MAPERLRSRALSAFKLRGLLLRGEAIKYLTEALQSISELELEDKLEKIINAVEKQPLSSN
+MIERSVVEAAVQECSQSVDETIEHVFNIIGAFDIPRFVYNSERKKFLPLLMTNHPAPNLF
+GTPRDKAEMFRERYTILHQRTHRHELFTPPVIGSHPDESGSKFQLKTIETLLGSTTKIGD
+AIVLGMITQLKEGKFFLEDPTGTVQLDLSKAQFHSGLYTEACFVLAEGWFEDQVFHVNAF
+GFPPTEPSSTTRAYYGNINFFGGPSNTSVKTSAKLKQLEEENKDAMFVFLSDVWLDQVEV
+LEKLRIMFAGYSPAPPTCFILCGNFSSAPYGKNQVQALKDSLKTLADIICEYPDIHQSSR
+FVFVPGPEDPGFGSILPRPPLAESITNEFRQRVPFSVFTTNPCRIQYCTQEITVFREDLV
+NKMCRNCVRFPSSNLAIPNHFVKTILSQGHLTPLPLYVCPVYWAYDYALRVYPVPDLLVI
+ADKYDPFTTTNTECLCINPGSFPRSGFSFKVFYPSNKTVEDSKLQGF
+
+# Drug_Target_7_Reaction:
+Not Available
+
+# Drug_Target_7_Signals:
+None
+
+# Drug_Target_7_Specific_Function:
+Participates in DNA repair and in chromosomal DNA replication
+
+# Drug_Target_7_SwissProt_ID:
+P56282
+
+# Drug_Target_7_SwissProt_Name:
+DPOE2_HUMAN
+
+# Drug_Target_7_Synonyms:
+DNA polymerase II subunit 2
+DNA polymerase epsilon subunit B
+
+# Drug_Target_7_Theoretical_pI:
+6.30
+
+# Drug_Target_7_Transmembrane_Regions:
+None
+
+# Drug_Target_8_Cellular_Location:
+Nucleus (Potential)
+
+# Drug_Target_8_Chromosome_Location:
+9
+
+# Drug_Target_8_Drug_References:
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+
+# Drug_Target_8_Essentiality:
+Non-Essential
+
+# Drug_Target_8_GenAtlas_ID:
+Not Available
+
+# Drug_Target_8_GenBank_ID_Gene:
+AF226077
+
+# Drug_Target_8_GenBank_ID_Protein:
+8100806
+
+# Drug_Target_8_GeneCard_ID:
+POLE3
+
+# Drug_Target_8_Gene_Name:
+POLE3
+
+# Drug_Target_8_Gene_Sequence:
+Not Available
+
+# Drug_Target_8_General_Function:
+Chromatin structure and dynamics
+
+# Drug_Target_8_General_References:
+10801849	Li Y, Pursell ZF, Linn S: Identification and cloning of two histone fold motif-containing subunits of HeLa DNA polymerase epsilon. J Biol Chem. 2000 Jul 28;275(30):23247-52.
+10880450	Poot RA, Dellaire G, Hulsmann BB, Grimaldi MA, Corona DF, Becker PB, Bickmore WA, Varga-Weisz PD: HuCHRAC, a human ISWI chromatin remodelling complex contains hACF1 and two novel histone-fold proteins. EMBO J. 2000 Jul 3;19(13):3377-87.
+14702039	Ota T, Suzuki Y, Nishikawa T, Otsuki T, Sugiyama T, Irie R, Wakamatsu A, Hayashi K, Sato H, Nagai K, Kimura K, Makita H, Sekine M, Obayashi M, Nishi T, Shibahara T, Tanaka T, Ishii S, Yamamoto J, Saito K, Kawai Y, Isono Y, Nakamura Y, Nagahari K, Murakami K, Yasuda T, Iwayanagi T, Wagatsuma M, Shiratori A, Sudo H, Hosoiri T, Kaku Y, Kodaira H, Kondo H, Sugawara M, Takahashi M, Kanda K, Yokoi T, Furuya T, Kikkawa E, Omura Y, Abe K, Kamihara K, Katsuta N, Sato K, Tanikawa M, Yamazaki M, Ninomiya K, Ishibashi T, Yamashita H, Murakawa K, Fujimori K, Tanai H, Kimata M, Watanabe M, Hiraoka S, Chiba Y, Ishida S, Ono Y, Takiguchi S, Watanabe S, Yosida M, Hotuta T, Kusano J, Kanehori K, Takahashi-Fujii A, Hara H, Tanase TO, Nomura Y, Togiya S, Komai F, Hara R, Takeuchi K, Arita M, Imose N, Musashino K, Yuuki H, Oshima A, Sasaki N, Aotsuka S, Yoshikawa Y, Matsunawa H, Ichihara T, Shiohata N, Sano S, Moriya S, Momiyama H, Satoh N, Takami S, Terashima Y, Suzuki O, Nakagawa S, Senoh A, Mizoguchi H, Goto Y, Shimizu F, Wakebe H, Hishigaki H, Watanabe T, Sugiyama A, Takemoto M, Kawakami B, Yamazaki M, Watanabe K, Kumagai A, Itakura S, Fukuzumi Y, Fujimori Y, Komiyama M, Tashiro H, Tanigami A, Fujiwara T, Ono T, Yamada K, Fujii Y, Ozaki K, Hirao M, Ohmori Y, Kawabata A, Hikiji T, Kobatake N, Inagaki H, Ikema Y, Okamoto S, Okitani R, Kawakami T, Noguchi S, Itoh T, Shigeta K, Senba T, Matsumura K, Nakajima Y, Mizuno T, Morinaga M, Sasaki M, Togashi T, Oyama M, Hata H, Watanabe M, Komatsu T, Mizushima-Sugano J, Satoh T, Shirai Y, Takahashi Y, Nakagawa K, Okumura K, Nagase T, Nomura N, Kikuchi H, Masuho Y, Yamashita R, Nakai K, Yada T, Nakamura Y, Ohara O, Isogai T, Sugano S: Complete sequencing and characterization of 21,243 full-length human cDNAs. Nat Genet. 2004 Jan;36(1):40-5. Epub 2003 Dec 21.
+15164053	Humphray SJ, Oliver K, Hunt AR, Plumb RW, Loveland JE, Howe KL, Andrews TD, Searle S, Hunt SE, Scott CE, Jones MC, Ainscough R, Almeida JP, Ambrose KD, Ashwell RI, Babbage AK, Babbage S, Bagguley CL, Bailey J, Banerjee R, Barker DJ, Barlow KF, Bates K, Beasley H, Beasley O, Bird CP, Bray-Allen S, Brown AJ, Brown JY, Burford D, Burrill W, Burton J, Carder C, Carter NP, Chapman JC, Chen Y, Clarke G, Clark SY, Clee CM, Clegg S, Collier RE, Corby N, Crosier M, Cummings AT, Davies J, Dhami P, Dunn M, Dutta I, Dyer LW, Earthrowl ME, Faulkner L, Fleming CJ, Frankish A, Frankland JA, French L, Fricker DG, Garner P, Garnett J, Ghori J, Gilbert JG, Glison C, Grafham DV, Gribble S, Griffiths C, Griffiths-Jones S, Grocock R, Guy J, Hall RE, Hammond S, Harley JL, Harrison ES, Hart EA, Heath PD, Henderson CD, Hopkins BL, Howard PJ, Howden PJ, Huckle E, Johnson C, Johnson D, Joy AA, Kay M, Keenan S, Kershaw JK, Kimberley AM, King A, Knights A, Laird GK, Langford C, Lawlor S, Leongamornlert DA, Leversha M, Lloyd C, Lloyd DM, Lovell J, Martin S, Mashreghi-Mohammadi M, Matthews L, McLaren S, McLay KE, McMurray A, Milne S, Nickerson T, Nisbett J, Nordsiek G, Pearce AV, Peck AI, Porter KM, Pandian R, Pelan S, Phillimore B, Povey S, Ramsey Y, Rand V, Scharfe M, Sehra HK, Shownkeen R, Sims SK, Skuce CD, Smith M, Steward CA, Swarbreck D, Sycamore N, Tester J, Thorpe A, Tracey A, Tromans A, Thomas DW, Wall M, Wallis JM, West AP, Whitehead SL, Willey DL, Williams SA, Wilming L, Wray PW, Young L, Ashurst JL, Coulson A, Blocker H, Durbin R, Sulston JE, Hubbard T, Jackson MJ, Bentley DR, Beck S, Rogers J, Dunham I: DNA sequence and analysis of human chromosome 9. Nature. 2004 May 27;429(6990):369-74.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+17081983	Olsen JV, Blagoev B, Gnad F, Macek B, Kumar C, Mortensen P, Mann M: Global, in vivo, and site-specific phosphorylation dynamics in signaling networks. Cell. 2006 Nov 3;127(3):635-48.
+18691976	Daub H, Olsen JV, Bairlein M, Gnad F, Oppermann FS, Korner R, Greff Z, Keri G, Stemmann O, Mann M: Kinase-selective enrichment enables quantitative phosphoproteomics of the kinome across the cell cycle. Mol Cell. 2008 Aug 8;31(3):438-48.
+
+# Drug_Target_8_HGNC_ID:
+GNC:13546
+
+# Drug_Target_8_HPRD_ID:
+Not Available
+
+# Drug_Target_8_ID:
+6112
+
+# Drug_Target_8_Locus:
+9q33
+
+# Drug_Target_8_Molecular_Weight:
+16859.4
+
+# Drug_Target_8_Name:
+DNA polymerase epsilon subunit 3
+
+# Drug_Target_8_Number_of_Residues:
+147
+
+# Drug_Target_8_PDB_ID:
+Not Available
+
+# Drug_Target_8_Pathway:
+Not Available
+
+# Drug_Target_8_Pfam_Domain_Function:
+PF00808	CBFD_NFYB_HMF
+
+# Drug_Target_8_Protein_Sequence:
+>DNA polymerase epsilon subunit 3
+MAERPEDLNLPNAVITRIIKEALPDGVNISKEARSAISRAASVFVLYATSCANNFAMKGK
+RKTLNASDVLSAMEEMEFQRFVTPLKEALEAYRREQKGKKEASEQKKKDKDKKTDSEEQD
+KSRDEDNDEDEERLEEEEQNEEEEVDN
+
+# Drug_Target_8_Reaction:
+Not Available
+
+# Drug_Target_8_Signals:
+None
+
+# Drug_Target_8_Specific_Function:
+Forms a complex with DNA polymerase epsilon subunit CHRAC1 and binds naked DNA, which is then incorporated into chromatin, aided by the nucleosome-remodeling activity of ISWI/SNF2H and ACF1
+
+# Drug_Target_8_SwissProt_ID:
+Q9NRF9
+
+# Drug_Target_8_SwissProt_Name:
+DPOE3_HUMAN
+
+# Drug_Target_8_Synonyms:
+Arsenic-transactivated protein
+AsTP
+CHRAC-17
+Chromatin accessibility complex 17
+DNA polymerase II subunit 3
+DNA polymerase epsilon subunit p17
+HuCHRAC17
+
+# Drug_Target_8_Theoretical_pI:
+4.38
+
+# Drug_Target_8_Transmembrane_Regions:
+None
+
+# Drug_Target_9_Cellular_Location:
+Nucleus (Potential)
+
+# Drug_Target_9_Chromosome_Location:
+2
+
+# Drug_Target_9_Drug_References:
+19576186	Zhenchuk A, Lotfi K, Juliusson G, Albertioni F: Mechanisms of anti-cancer action and pharmacology of clofarabine. Biochem Pharmacol. 2009 Dec 1;78(11):1351-9. Epub 2009 Jul 1.
+
+# Drug_Target_9_Essentiality:
+Non-Essential
+
+# Drug_Target_9_GenAtlas_ID:
+Not Available
+
+# Drug_Target_9_GenBank_ID_Gene:
+BC031331
+
+# Drug_Target_9_GenBank_ID_Protein:
+21411517
+
+# Drug_Target_9_GeneCard_ID:
+POLE4
+
+# Drug_Target_9_Gene_Name:
+POLE4
+
+# Drug_Target_9_Gene_Sequence:
+>354 bp
+ATGGCGGCGGCGGCGGCGGCAGGAAGCGGGACGCCCCGAGAGGAGGAGGTACCTGCTGGG
+GAGGCAGCGGCCTCGCAGCCCCAGGCCCCAACGAGTGTGCCTGGGGCTCGTCTCTCGAGG
+TTGCCTCTGGCGCGAGTGAAGGCCTTGGTGAAGGCAGATCCCGACGTGACGCTAGCGGGA
+CAGGAAGCCATCTTCATTCTGGCACGAGCCGCGGAACTGTTTGTGGAGACCATTGCAAAA
+GATGCCTACTGTTGCGCTCAGCAGGGAAAAAGGAAAACCCTTCAGAGGAGAGACTTGGAT
+AATGCAATAGAAGCTGTGGATGAATTTGCTTTTCTGGAAGGTACTTTAGATTGA
+
+# Drug_Target_9_General_Function:
+Involved in DNA-directed DNA polymerase activity
+
+# Drug_Target_9_General_References:
+10801849	Li Y, Pursell ZF, Linn S: Identification and cloning of two histone fold motif-containing subunits of HeLa DNA polymerase epsilon. J Biol Chem. 2000 Jul 28;275(30):23247-52.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+15815621	Hillier LW, Graves TA, Fulton RS, Fulton LA, Pepin KH, Minx P, Wagner-McPherson C, Layman D, Wylie K, Sekhon M, Becker MC, Fewell GA, Delehaunty KD, Miner TL, Nash WE, Kremitzki C, Oddy L, Du H, Sun H, Bradshaw-Cordum H, Ali J, Carter J, Cordes M, Harris A, Isak A, van Brunt A, Nguyen C, Du F, Courtney L, Kalicki J, Ozersky P, Abbott S, Armstrong J, Belter EA, Caruso L, Cedroni M, Cotton M, Davidson T, Desai A, Elliott G, Erb T, Fronick C, Gaige T, Haakenson W, Haglund K, Holmes A, Harkins R, Kim K, Kruchowski SS, Strong CM, Grewal N, Goyea E, Hou S, Levy A, Martinka S, Mead K, McLellan MD, Meyer R, Randall-Maher J, Tomlinson C, Dauphin-Kohlberg S, Kozlowicz-Reilly A, Shah N, Swearengen-Shahid S, Snider J, Strong JT, Thompson J, Yoakum M, Leonard S, Pearman C, Trani L, Radionenko M, Waligorski JE, Wang C, Rock SM, Tin-Wollam AM, Maupin R, Latreille P, Wendl MC, Yang SP, Pohl C, Wallis JW, Spieth J, Bieri TA, Berkowicz N, Nelson JO, Osborne J, Ding L, Meyer R, Sabo A, Shotland Y, Sinha P, Wohldmann PE, Cook LL, Hickenbotham MT, Eldred J, Williams D, Jones TA, She X, Ciccarelli FD, Izaurralde E, Taylor J, Schmutz J, Myers RM, Cox DR, Huang X, McPherson JD, Mardis ER, Clifton SW, Warren WC, Chinwalla AT, Eddy SR, Marra MA, Ovcharenko I, Furey TS, Miller W, Eichler EE, Bork P, Suyama M, Torrents D, Waterston RH, Wilson RK: Generation and annotation of the DNA sequences of human chromosomes 2 and 4. Nature. 2005 Apr 7;434(7034):724-31.
+17525332	Matsuoka S, Ballif BA, Smogorzewska A, McDonald ER 3rd, Hurov KE, Luo J, Bakalarski CE, Zhao Z, Solimini N, Lerenthal Y, Shiloh Y, Gygi SP, Elledge SJ: ATM and ATR substrate analysis reveals extensive protein networks responsive to DNA damage. Science. 2007 May 25;316(5828):1160-6.
+
+# Drug_Target_9_HGNC_ID:
+GNC:18755
+
+# Drug_Target_9_HPRD_ID:
+Not Available
+
+# Drug_Target_9_ID:
+6111
+
+# Drug_Target_9_Locus:
+2p12
+
+# Drug_Target_9_Molecular_Weight:
+12208.6
+
+# Drug_Target_9_Name:
+DNA polymerase epsilon subunit 4
+
+# Drug_Target_9_Number_of_Residues:
+117
+
+# Drug_Target_9_PDB_ID:
+Not Available
+
+# Drug_Target_9_Pathway:
+Not Available
+
+# Drug_Target_9_Pfam_Domain_Function:
+PF00808	CBFD_NFYB_HMF
+
+# Drug_Target_9_Protein_Sequence:
+>DNA polymerase epsilon subunit 4
+MAAAAAAGSGTPREEEGPAGEAAASQPQAPTSVPGARLSRLPLARVKALVKADPDVTLAG
+QEAIFILARAAELFVETIAKDAYCCAQQGKRKTLQRRDLDNAIEAVDEFAFLEGTLD
+
+# Drug_Target_9_Reaction:
+Not Available
+
+# Drug_Target_9_Signals:
+None
+
+# Drug_Target_9_Specific_Function:
+May play a role in allowing polymerase epsilon to carry out its replication and/or repair function
+
+# Drug_Target_9_SwissProt_ID:
+Q9NR33
+
+# Drug_Target_9_SwissProt_Name:
+DPOE4_HUMAN
+
+# Drug_Target_9_Synonyms:
+DNA polymerase II subunit 4
+DNA polymerase epsilon subunit p12
+
+# Drug_Target_9_Theoretical_pI:
+4.55
+
+# Drug_Target_9_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00242

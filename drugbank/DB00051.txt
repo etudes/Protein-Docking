@@ -1,0 +1,1766 @@
+#BEGIN_DRUGCARD DB00051
+
+# AHFS_Codes:
+92:00.00
+
+# ATC_Codes:
+L04AB04
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Most likely removed by opsonization via the reticuloendothelial system.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Humira
+Humira (Abbott Laboratories)
+Humira Pen
+
+# CAS_Registry_Number:
+331731-18-1
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C6428H9912N1694O1987S46
+
+# Chemical_IUPAC_Name:
+Not Available
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2258595
+
+# Description:
+Adalimumab is a human monoclonal antibody against TNF-alpha. It is produced by recombinant DNA technology using a mammalian cell expression system. It consists of 1330 amino acids and has a molecular weight of approximately 148 kilodaltons.
+
+# Dosage_Forms:
+Solution	Subcutaneous
+
+# Drug_Category:
+Antirheumatic Agents
+Immunomodulatory Agents
+
+# Drug_Interactions:
+Canakinumab	Increases immunosuppressive effects and risk of infection.
+Rilonacept	results in increased immunosuppressive effects; increases the risk of infection.
+Tofacitinib	Adalimumab (and other anti-TNF immunosuppressants), when used in combination with tofacitinib, may increase the risk of added immunosuppression. It is recommended to avoid concurrent therapy.
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Biotech
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.441
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+J00228
+
+# Generic_Name:
+Adalimumab
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+10-20 days.
+
+# InChI_Identifier:
+Not Available
+
+# InChI_Key:
+Not Available
+
+# Indication:
+For treatment of rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, and Crohn's disease.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+51
+
+# Mechanism_Of_Action:
+Adalimumab binds to TNF-alpha and blocks its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab also lyses surface TNF expressing cells in vitro in the presence of complement.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+144190.3000
+
+# Molecular_Weight_Mono:
+Not Available
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+1IGT
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA10004
+
+# Pharmacology:
+Used in the treatment of immune system mediated diseases, adalimumab binds specifically to TNF-alpha and blocks its general cytokine effects, thereby reducing TNF-induced inflammation and halting tissue destruction.
+
+# Predicted_LogP_Hydrophobicity:
+Not Available
+
+# Predicted_LogS:
+Not Available
+
+# Predicted_Water_Solubility:
+Not Available
+
+# Primary_Accession_No:
+DB00051
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/humira.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+BIOD00049
+BTD00049
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+Not Available
+
+# State:
+liquid
+
+# Structure:
+0
+
+# SwissProt_ID:
+P01857
+
+# SwissProt_Name:
+IGHG1_HUMAN
+
+# Synonyms:
+Ig gamma-1 chain C region
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2012-06-14 13:43:16 -0600
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Adalimumab
+
+# pKa_Isoelectric_Point:
+8.25
+
+# Drug_Target_10_Cellular_Location:
+Membrane
+
+# Drug_Target_10_Chromosome_Location:
+Not Available
+
+# Drug_Target_10_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_10_Essentiality:
+Non-Essential
+
+# Drug_Target_10_GenAtlas_ID:
+FCGR2A
+
+# Drug_Target_10_GenBank_ID_Gene:
+M31932
+
+# Drug_Target_10_GenBank_ID_Protein:
+182474
+
+# Drug_Target_10_GeneCard_ID:
+FCGR2A
+
+# Drug_Target_10_Gene_Name:
+FCGR2A
+
+# Drug_Target_10_Gene_Sequence:
+>954 bp
+ATGGCTATGGAGACCCAAATGTCTCAGAATGTATGTCCCAGAAACCTGTGGCTGCTTCAA
+CCATTGACAGTTTTGCTGCTGCTGGCTTCTGCAGACAGTCAAGCTGCAGCTCCCCCAAAG
+GCTGTGCTGAAACTTGAGCCCCCGTGGATCAACGTGCTCCAGGAGGACTCTGTGACTCTG
+ACATGCCAGGGGGCTCGCAGCCCTGAGAGCGACTCCATTCAGTGGTTCCACAATGGGAAT
+CTCATTCCCACCCACACGCAGCCCAGCTACAGGTTCAAGGCCAACAACAATGACAGCGGG
+GAGTACACGTGCCAGACTGGCCAGACCAGCCTCAGCGACCCTGTGCATCTGACTGTGCTT
+TCCGAATGGCTGGTGCTCCAGACCCCTCACCTGGAGTTCCAGGAGGGAGAAACCATCATG
+CTGAGGTGCCACAGCTGGAAGGACAAGCCTCTGGTCAAGGTCACATTCTTCCAGAATGGA
+AAATCCCAGAAATTCTCCCGTTTGGATCCCACCTTCTCCATCCCACAAGCAAACCACAGT
+CACAGTGGTGATTACCACTGCACAGGAAACATAGGCTACACGCTGTTCTCATCCAAGCCT
+GTGACCATCACTGTCCAAGTGCCCAGCATGGGCAGCTCTTCACCAATGGGGATCATTGTG
+GCTGTGGTCATTGCGACTGCTGTAGCAGCCATTGTTGCTGCTGTAGTGGCCTTGATCTAC
+TGCAGGAAAAAGCGGATTTCAGCCAATTCCACTGATCCTGTGAAGGCTGCCCAATTTGAG
+CCACCTGGACGTCAAATGATTGCCATCAGAAAGAGACAACTTGAAGAAACCAACAATGAC
+TATGAAACAGCTGACGGCGGCTACATGACTCTGAACCCCAGGGCACCTACTGACGATGAT
+AAAAACATCTACCTGACTCTTCCTCCCAACGACCATGTCAACAGTAATAACTAA
+
+# Drug_Target_10_General_Function:
+Not Available
+
+# Drug_Target_10_General_References:
+10331870	Maxwell KF, Powell MS, Hulett MD, Barton PA, McKenzie IF, Garrett TP, Hogarth PM: Crystal structure of the human leukocyte Fc receptor, Fc gammaRIIa. Nat Struct Biol. 1999 May;6(5):437-42.
+10397151	Powell MS, Barton PA, Emmanouilidis D, Wines BD, Neumann GM, Peitersz GA, Maxwell KF, Garrett TP, Hogarth PM: Biochemical analysis and crystallisation of Fc gamma RIIa, the low affinity receptor for IgG. Immunol Lett. 1999 May 3;68(1):17-23.
+2526077	Seki T: Identification of multiple isoforms of the low-affinity human IgG Fc receptor. Immunogenetics. 1989;30(1):5-12.
+2529342	Brooks DG, Qiu WQ, Luster AD, Ravetch JV: Structure and expression of human IgG FcRII(CD32). Functional heterogeneity is encoded by the alternatively spliced products of multiple genes. J Exp Med. 1989 Oct 1;170(4):1369-85.
+2824655	Stuart SG, Trounstine ML, Vaux DJ, Koch T, Martens CL, Mellman I, Moore KW: Isolation and expression of cDNA clones encoding a human receptor for IgG (Fc gamma RII). J Exp Med. 1987 Dec 1;166(6):1668-84.
+2965389	Hibbs ML, Bonadonna L, Scott BM, McKenzie IF, Hogarth PM: Molecular cloning of a human immunoglobulin G Fc receptor. Proc Natl Acad Sci U S A. 1988 Apr;85(7):2240-4.
+3402431	Stengelin S, Stamenkovic I, Seed B: Isolation of cDNAs for two distinct human Fc receptors by ligand affinity cloning. EMBO J. 1988 Apr;7(4):1053-9.
+8636449	Salmon JE, Millard S, Schachter LA, Arnett FC, Ginzler EM, Gourley MF, Ramsey-Goldman R, Peterson MG, Kimberly RP: Fc gamma RIIA alleles are heritable risk factors for lupus nephritis in African Americans. J Clin Invest. 1996 Mar 1;97(5):1348-54.
+
+# Drug_Target_10_HGNC_ID:
+HGNC:3616
+
+# Drug_Target_10_HPRD_ID:
+Not Available
+
+# Drug_Target_10_ID:
+3819
+
+# Drug_Target_10_Locus:
+1q23
+
+# Drug_Target_10_Molecular_Weight:
+34990
+
+# Drug_Target_10_Name:
+Low affinity immunoglobulin gamma Fc region receptor II-a
+
+# Drug_Target_10_Number_of_Residues:
+317
+
+# Drug_Target_10_PDB_ID:
+1H9V
+
+# Drug_Target_10_Pathway:
+Not Available
+
+# Drug_Target_10_Pfam_Domain_Function:
+PF00047	ig
+
+# Drug_Target_10_Protein_Sequence:
+>Low affinity immunoglobulin gamma Fc region receptor II-a
+MAMETQMSQNVCPRNLWLLQPLTVLLLLASADSQAAAPPKAVLKLEPPWINVLQEDSVTL
+TCQGARSPESDSIQWFHNGNLIPTHTQPSYRFKANNNDSGEYTCQTGQTSLSDPVHLTVL
+SEWLVLQTPHLEFQEGETIMLRCHSWKDKPLVKVTFFQNGKSQKFSRLDPTFSIPQANHS
+HSGDYHCTGNIGYTLFSSKPVTITVQVPSMGSSSPMGIIVAVVIATAVAAIVAAVVALIY
+CRKKRISANSTDPVKAAQFEPPGRQMIAIRKRQLEETNNDYETADGGYMTLNPRAPTDDD
+KNIYLTLPPNDHVNSNN
+
+# Drug_Target_10_Reaction:
+Not Available
+
+# Drug_Target_10_Signals:
+1-33
+
+# Drug_Target_10_Specific_Function:
+Binds to the Fc region of immunoglobulins gamma. Low affinity receptor. By binding to IgG it initiates cellular responses against pathogens and soluble antigens
+
+# Drug_Target_10_SwissProt_ID:
+P12318
+
+# Drug_Target_10_SwissProt_Name:
+FCG2A_HUMAN
+
+# Drug_Target_10_Synonyms:
+CD32 antigen
+CDw32
+Fc-gamma RII-a
+Fc-gamma-RIIa
+FcRII-a
+IgG Fc receptor II-a
+Low affinity immunoglobulin gamma Fc region receptor II-a precursor
+
+# Drug_Target_10_Theoretical_pI:
+6.78
+
+# Drug_Target_10_Transmembrane_Regions:
+218-240
+
+# Drug_Target_11_Cellular_Location:
+Membrane
+
+# Drug_Target_11_Chromosome_Location:
+Not Available
+
+# Drug_Target_11_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_11_Essentiality:
+Non-Essential
+
+# Drug_Target_11_GenAtlas_ID:
+FCGR2B
+
+# Drug_Target_11_GenBank_ID_Gene:
+U87560
+
+# Drug_Target_11_GenBank_ID_Protein:
+4099445
+
+# Drug_Target_11_GeneCard_ID:
+FCGR2B
+
+# Drug_Target_11_Gene_Name:
+FCGR2B
+
+# Drug_Target_11_Gene_Sequence:
+>930 bp
+ATGGGAATCCTGTCATTCTTACCTGTCCTTGCCACTGAGAGTGACTGGGCTGACTGCAAG
+TCCCCCCAGCCTTGGGGTCATATGCTTCTGTGGACAGCTGTGCTATTCCTGGCTCCTGTT
+GCTGGGACACCTGCAGCTCCCCCAAAGGCTGTGCTGAAACTCGAGCCCCAGTGGATCAAC
+GTGCTCCAGGAGGACTCTGTGACTCTGACATGCCGGGGGACTCACAGCCCTGAGAGCGAC
+TCCATTCAGTGGTTCCACAATGGGAATCTCATTCCCACCCACACGCAGCCCAGCTACAGG
+TTCAAGGCCAACAACAATGACAGCGGGGAGTACACGTGCCAGACTGGCCAGACCAGCCTC
+AGCGACCCTGTGCATCTGACTGTGCTTTCTGAGTGGCTGGTGCTCCAGACCCCTCACCTG
+GAGTTCCAGGAGGGAGAAACCATCGTGCTGAGGTGCCACAGCTGGAAGGACAAGCCTCTG
+GTCAAGGTCACATTCTTCCAGAATGGAAAATCCAAGAAATTTTCCCGTTCGGATCCCAAC
+TTCTCCATCCCACAAGCAAACCACAGTCACAGTGGTGATTACCACTGCACAGGAAACATA
+GGCTACACGCTGTACTCATCCAAGCCTGTGACCATCACTGTCCAAGCTCCCAGCTCTTCA
+CCGATGGGGATCATTGTGGCTGTGGTCACTGGGATTGCTGTAGCGGCCATTGTTGCTGCT
+GTAGTGGCCTTGATCTACTGCAGGAAAAAGCGGATTTCAGCTCTCCCAGGATACCCTGAG
+TGCAGGGAAATGGGAGAGACCCTCCCTGAGAAACCAGCCAATCCCACTAATCCTGATGAG
+GCTGACAAAGTTGGGGCTGAGAACACAATCACCTATTCACTTCTCATGCACCCGGATGCT
+CTGGAAGAGCCTGATGACCAGAACCGTATT
+
+# Drug_Target_11_General_Function:
+Not Available
+
+# Drug_Target_11_General_References:
+12115230	Kyogoku C, Dijstelbloem HM, Tsuchiya N, Hatta Y, Kato H, Yamaguchi A, Fukazawa T, Jansen MD, Hashimoto H, van de Winkel JG, Kallenberg CG, Tokunaga K: Fcgamma receptor gene polymorphisms in Japanese patients with systemic lupus erythematosus: contribution of FCGR2B to genetic susceptibility. Arthritis Rheum. 2002 May;46(5):1242-54.
+2142460	Engelhardt W, Geerds C, Frey J: Distribution, inducibility and biological function of the cloned and expressed human beta Fc receptor II. Eur J Immunol. 1990 Jun;20(6):1367-77.
+2529342	Brooks DG, Qiu WQ, Luster AD, Ravetch JV: Structure and expression of human IgG FcRII(CD32). Functional heterogeneity is encoded by the alternatively spliced products of multiple genes. J Exp Med. 1989 Oct 1;170(4):1369-85.
+2531080	Stuart SG, Simister NE, Clarkson SB, Kacinski BM, Shapiro M, Mellman I: Human IgG Fc receptor (hFcRII; CD32) exists as multiple isoforms in macrophages, lymphocytes and IgG-transporting placental epithelium. EMBO J. 1989 Dec 1;8(12):3657-66.
+
+# Drug_Target_11_HGNC_ID:
+HGNC:3618
+
+# Drug_Target_11_HPRD_ID:
+Not Available
+
+# Drug_Target_11_ID:
+3820
+
+# Drug_Target_11_Locus:
+1q23
+
+# Drug_Target_11_Molecular_Weight:
+34044
+
+# Drug_Target_11_Name:
+Low affinity immunoglobulin gamma Fc region receptor II-b
+
+# Drug_Target_11_Number_of_Residues:
+310
+
+# Drug_Target_11_PDB_ID:
+2FCB
+
+# Drug_Target_11_Pathway:
+Not Available
+
+# Drug_Target_11_Pfam_Domain_Function:
+PF00047	ig
+
+# Drug_Target_11_Protein_Sequence:
+>Low affinity immunoglobulin gamma Fc region receptor II-b
+MGILSFLPVLATESDWADCKSPQPWGHMLLWTAVLFLAPVAGTPAAPPKAVLKLEPQWIN
+VLQEDSVTLTCRGTHSPESDSIQWFHNGNLIPTHTQPSYRFKANNNDSGEYTCQTGQTSL
+SDPVHLTVLSEWLVLQTPHLEFQEGETIVLRCHSWKDKPLVKVTFFQNGKSKKFSRSDPN
+FSIPQANHSHSGDYHCTGNIGYTLYSSKPVTITVQAPSSSPMGIIVAVVTGIAVAAIVAA
+VVALIYCRKKRISALPGYPECREMGETLPEKPANPTNPDEADKVGAENTITYSLLMHPDA
+LEEPDDQNRI
+
+# Drug_Target_11_Reaction:
+Not Available
+
+# Drug_Target_11_Signals:
+1-42
+
+# Drug_Target_11_Specific_Function:
+Receptor for the Fc region of complexed or aggregated immunoglobulins gamma. Low affinity receptor. Involved in a variety of effector and regulatory functions such as phagocytosis of immune complexes and modulation of antibody production by B- cells. Binding to this receptor results in down-modulation of previous state of cell activation triggered via antigen receptors on B-cells (BCR), T-cells (TCR) or via another Fc receptor. Isoform IIB1 fails to mediate endocytosis or phagocytosis. Isoform IIB2 does not trigger phagocytosis
+
+# Drug_Target_11_SwissProt_ID:
+P31994
+
+# Drug_Target_11_SwissProt_Name:
+FCG2B_HUMAN
+
+# Drug_Target_11_Synonyms:
+CD32 antigen
+CDw32
+Fc-gamma RII-b
+Fc-gamma-RIIb
+FcRII-b
+IgG Fc receptor II-b
+Low affinity immunoglobulin gamma Fc region receptor II-b precursor
+
+# Drug_Target_11_Theoretical_pI:
+6.12
+
+# Drug_Target_11_Transmembrane_Regions:
+218-240
+
+# Drug_Target_12_Cellular_Location:
+Cell membrane
+
+# Drug_Target_12_Chromosome_Location:
+Not Available
+
+# Drug_Target_12_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_12_Essentiality:
+Non-Essential
+
+# Drug_Target_12_GenAtlas_ID:
+FCGR2C
+
+# Drug_Target_12_GenBank_ID_Gene:
+X17652
+
+# Drug_Target_12_GenBank_ID_Protein:
+32074
+
+# Drug_Target_12_GeneCard_ID:
+FCGR2C
+
+# Drug_Target_12_Gene_Name:
+FCGR2C
+
+# Drug_Target_12_Gene_Sequence:
+>972 bp
+ATGGGAATCCTGTCATTTTTACCTGTCCTTGCCACTGAGAGTGACTGGGCTGACTGCAAG
+TCCCCCCAGCCTTGGGGTCATATGCTTCTGTGGACAGCTGTGCTATTCCTGGCTCCTGTT
+GCTGGGACACCTGCAGCTCCCCCAAAGGCTGTGCTGAAACTCGAGCCCCAGTGGATCAAC
+GTGCTCCAGGAGGACTCTGTGACTCTGACATGCCGGGGGACTCACAGCCCTGAGAGCGAC
+TCCATTCAGTGGTTCCACAATGGGAATCTCATTCCCACCCACACGCAGCCCAGCTACAGG
+TTCAAGGCCAACAACAATGACAGCGGGGAGTACACGTGCCAGACTGGCCAGACCAGCCTC
+AGCGACCCTGTGCATCTGACAGTGCTTTCTGAGTGGCTGGTGCTCCAGACCCCTCACCTG
+GAGTTCCAGGAGGGAGAAACCATCGTGCTGAGGTGCCACAGCTGGAAGGACAAGCCTCTG
+GTCAAGGTCACATTCTTCCAGAATGGAAAATCCAAGAAATTTTCCCGTTCGGATCCCAAC
+TTCTCCATCCCACAAGCAAACCACAGTCACAGTGGTGATTACCATTGCACAGGAAACATA
+GGCTACACGCTGTACTCATCCAAGCCTGTGACCATCACTGTCCAAGCTCCCAGCTCTTCA
+CCGATGGGGATCATTGTGGCTGTGGTCACTGGGATTGCTGTAGCTGCCATTGTTGCTGCT
+GTAGTGGCCTTGATCTACTGCAGGAAAAAGCGGATTTCAGCCAATTCCACTGATCCTGTG
+AAGGCTGCCCAATTTGAGCCACCTGGACGTCAAATGATTGCCATCAGAAAGAGACAACCT
+GAAGAAACCAACAATGACTATGAAACAGCTGACGGCGGCTACATGACTCTGAACCCCAGG
+GCACCTACTGACGATGATAAAAACATCTACTTGACTCTTCCTCCCAACGACCATGTCAAC
+AGTAATAACTAA
+
+# Drug_Target_12_General_Function:
+Not Available
+
+# Drug_Target_12_General_References:
+2531080	Stuart SG, Simister NE, Clarkson SB, Kacinski BM, Shapiro M, Mellman I: Human IgG Fc receptor (hFcRII; CD32) exists as multiple isoforms in macrophages, lymphocytes and IgG-transporting placental epithelium. EMBO J. 1989 Dec 1;8(12):3657-66.
+9516136	Metes D, Ernst LK, Chambers WH, Sulica A, Herberman RB, Morel PA: Expression of functional CD32 molecules on human NK cells is determined by an allelic polymorphism of the FcgammaRIIC gene. Blood. 1998 Apr 1;91(7):2369-80.
+
+# Drug_Target_12_HGNC_ID:
+HGNC:15626
+
+# Drug_Target_12_HPRD_ID:
+Not Available
+
+# Drug_Target_12_ID:
+3821
+
+# Drug_Target_12_Locus:
+1q23.3
+
+# Drug_Target_12_Molecular_Weight:
+35578
+
+# Drug_Target_12_Name:
+Low affinity immunoglobulin gamma Fc region receptor II-c
+
+# Drug_Target_12_Number_of_Residues:
+323
+
+# Drug_Target_12_PDB_ID:
+2FCB
+
+# Drug_Target_12_Pathway:
+Not Available
+
+# Drug_Target_12_Pfam_Domain_Function:
+PF00047	ig
+
+# Drug_Target_12_Protein_Sequence:
+>Low affinity immunoglobulin gamma Fc region receptor II-c
+MGILSFLPVLATESDWADCKSPQPWGHMLLWTAVLFLAPVAGTPAAPPKAVLKLEPQWIN
+VLQEDSVTLTCRGTHSPESDSIQWFHNGNLIPTHTQPSYRFKANNNDSGEYTCQTGQTSL
+SDPVHLTVLSEWLVLQTPHLEFQEGETIVLRCHSWKDKPLVKVTFFQNGKSKKFSRSDPN
+FSIPQANHSHSGDYHCTGNIGYTLYSSKPVTITVQAPSSSPMGIIVAVVTGIAVAAIVAA
+VVALIYCRKKRISANSTDPVKAAQFEPPGRQMIAIRKRQPEETNNDYETADGGYMTLNPR
+APTDDDKNIYLTLPPNDHVNSNN
+
+# Drug_Target_12_Reaction:
+Not Available
+
+# Drug_Target_12_Signals:
+1-42
+
+# Drug_Target_12_Specific_Function:
+Receptor for the Fc region of complexed immunoglobulins gamma. Low affinity receptor. Involved in a variety of effector and regulatory functions such as phagocytosis of immune complexes and modulation of antibody production by B-cells
+
+# Drug_Target_12_SwissProt_ID:
+P31995
+
+# Drug_Target_12_SwissProt_Name:
+FCG2C_HUMAN
+
+# Drug_Target_12_Synonyms:
+CD32 antigen
+CDw32
+Fc-gamma RII-c
+Fc-gamma-RIIc
+FcRII-c
+IgG Fc receptor II-c
+Low affinity immunoglobulin gamma Fc region receptor II-c precursor
+
+# Drug_Target_12_Theoretical_pI:
+6.90
+
+# Drug_Target_12_Transmembrane_Regions:
+224-246
+
+# Drug_Target_1_Cellular_Location:
+Cell membrane
+single-pass type II membrane protein. Processed form:Secreted protein. Also exists as
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+12044041	Lorenz HM: Technology evaluation: adalimumab, Abbott laboratories. Curr Opin Mol Ther. 2002 Apr;4(2):185-90.
+14532145	Flendrie M, Creemers MC, Welsing PM, den Broeder AA, van Riel PL: Survival during treatment with tumour necrosis factor blocking agents in rheumatoid arthritis. Ann Rheum Dis. 2003 Nov;62 Suppl 2:ii30-3.
+15022409	Aguillon JC, Contreras J, Dotte A, Cruzat A, Catalan D, Salazar L, Molina MC, Guerrero J, Lopez M, Soto L, Salazar-Onfray F, Cuchacovich M: [New immunological weapons for medicine in the 21st Century: biological therapy based on the use of the latest generation monoclonal antibodies] Rev Med Chil. 2003 Dec;131(12):1445-53.
+15046527	Bang LM, Keating GM: Adalimumab: a review of its use in rheumatoid arthritis. BioDrugs. 2004;18(2):121-39.
+15200343	Klinkhoff A: Biological agents for rheumatoid arthritis: targeting both physical function and structural damage. Drugs. 2004;64(12):1267-83.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+TNF
+
+# Drug_Target_1_GenBank_ID_Gene:
+M16441
+
+# Drug_Target_1_GenBank_ID_Protein:
+339741
+
+# Drug_Target_1_GeneCard_ID:
+TNF
+
+# Drug_Target_1_Gene_Name:
+TNF
+
+# Drug_Target_1_Gene_Sequence:
+>702 bp
+ATGAGCACTGAAAGCATGATCCGGGACGTGGAGCTGGCCGAGGAGGCGCTCCCCAAGAAG
+ACAGGGGGGCCCCAGGGCTCCAGGCGGTGCTTGTTCCTCAGCCTCTTCTCCTTCCTGATC
+GTGGCAGGCGCCACCACGCTCTTCTGCCTGCTGCACTTTGGAGTGATCGGCCCCCAGAGG
+GAAGAGTTCCCCAGGGACCTCTCTCTAATCAGCCCTCTGGCCCAGGCAGTCAGATCATCT
+TCTCGAACCCCGAGTGACAAGCCTGTAGCCCATGTTGTAGCAAACCCTCAAGCTGAGGGG
+CAGCTCCAGTGGCTGAACCGCCGGGCCAATGCCCTCCTGGCCAATGGCGTGGAGCTGAGA
+GATAACCAGCTGGTGGTGCCATCAGAGGGCCTGTACCTCATCTACTCCCAGGTCCTCTTC
+AAGGGCCAAGGCTGCCCCTCCACCCATGTGCTCCTCACCCACACCATCAGCCGCATCGCC
+GTCTCCTACCAGACCAAGGTCAACCTCCTCTCTGCCATCAAGAGCCCCTGCCAGAGGGAG
+ACCCCAGAGGGGGCTGAGGCCAAGCCCTGGTATGAGCCCATCTATCTGGGAGGGGTCTTC
+CAGCTGGAGAAGGGTGACCGACTCAGCGCTGAGATCAATCGGCCCGACTATCTCGACTTT
+GCCGAGTCTGGGCAGGTCTACTTTGGGATCATTGCCCTGTGA
+
+# Drug_Target_1_General_Function:
+Involved in tumor necrosis factor receptor binding
+
+# Drug_Target_1_General_References:
+10202016	Neville MJ, Campbell RD: A new member of the Ig superfamily and a V-ATPase G subunit are among the predicted products of novel genes close to the TNF locus in the human MHC. J Immunol. 1999 Apr 15;162(8):4745-54.
+10205166	Watts AD, Hunt NH, Wanigasekara Y, Bloomfield G, Wallach D, Roufogalis BD, Chaudhri G: A casein kinase I motif present in the cytoplasmic domain of members of the tumour necrosis factor ligand family is implicated in 'reverse signalling'. EMBO J. 1999 Apr 15;18(8):2119-26.
+1402651	Stevenson FT, Bursten SL, Locksley RM, Lovett DH: Myristyl acylation of the tumor necrosis factor alpha precursor on specific lysine residues. J Exp Med. 1992 Oct 1;176(4):1053-62.
+1964681	Jones EY, Stuart DI, Walker NP: The structure of tumour necrosis factor--implications for biological function. J Cell Sci Suppl. 1990;13:11-8.
+2009860	Van Ostade X, Tavernier J, Prange T, Fiers W: Localization of the active site of human tumour necrosis factor (hTNF) by mutational analysis. EMBO J. 1991 Apr;10(4):827-36.
+2551905	Eck MJ, Sprang SR: The structure of tumor necrosis factor-alpha at 2.6 A resolution. Implications for receptor binding. J Biol Chem. 1989 Oct 15;264(29):17595-605.
+2922050	Jones EY, Stuart DI, Walker NP: Structure of tumour necrosis factor. Nature. 1989 Mar 16;338(6212):225-8.
+2995927	Nedwin GE, Naylor SL, Sakaguchi AY, Smith D, Jarrett-Nedwin J, Pennica D, Goeddel DV, Gray PW: Human lymphotoxin and tumor necrosis factor genes: structure, homology and chromosomal localization. Nucleic Acids Res. 1985 Sep 11;13(17):6361-73.
+3555974	Nedospasov SA, Shakhov AN, Turetskaya RL, Mett VA, Azizov MM, Georgiev GP, Korobko VG, Dobrynin VN, Filippov SA, Bystrov NS, et al.: Tandem arrangement of genes coding for tumor necrosis factor (TNF-alpha) and lymphotoxin (TNF-beta) in the human genome. Cold Spring Harb Symp Quant Biol. 1986;51 Pt 1:611-24.
+3856324	Wang AM, Creasey AA, Ladner MB, Lin LS, Strickler J, Van Arsdell JN, Yamamoto R, Mark DF: Molecular cloning of the complementary DNA for human tumor necrosis factor. Science. 1985 Apr 12;228(4696):149-54.
+3883195	Shirai T, Yamaguchi H, Ito H, Todd CW, Wallace RB: Cloning and expression in Escherichia coli of the gene for human tumour necrosis factor. Nature. 1985 Feb 28-Mar 6;313(6005):803-6.
+3932069	Marmenout A, Fransen L, Tavernier J, Van der Heyden J, Tizard R, Kawashima E, Shaw A, Johnson MJ, Semon D, Muller R, et al.: Molecular cloning and expression of human tumor necrosis factor and comparison with mouse tumor necrosis factor. Eur J Biochem. 1985 Nov 4;152(3):515-22.
+6392892	Pennica D, Nedwin GE, Hayflick JS, Seeburg PH, Derynck R, Palladino MA, Kohr WJ, Aggarwal BB, Goeddel DV: Human tumour necrosis factor: precursor structure, expression and homology to lymphotoxin. Nature. 1984 Dec 20-1985 Jan 2;312(5996):724-9.
+8499947	Iris FJ, Bougueleret L, Prieur S, Caterina D, Primas G, Perrot V, Jurka J, Rodriguez-Tome P, Claverie JM, Dausset J, et al.: Dense Alu clustering and a potential new member of the NF kappa B family within a 90 kilobase HLA class III segment. Nat Genet. 1993 Feb;3(2):137-45.
+8597870	Pocsik E, Duda E, Wallach D: Phosphorylation of the 26 kDa TNF precursor in monocytic cells and in transfected HeLa cells. J Inflamm. 1995;45(3):152-60.
+9034191	Moss ML, Jin SL, Milla ME, Bickett DM, Burkhart W, Carter HL, Chen WJ, Clay WC, Didsbury JR, Hassler D, Hoffman CR, Kost TA, Lambert MH, Leesnitzer MA, McCauley P, McGeehan G, Mitchell J, Moyer M, Pahel G, Rocque W, Overton LK, Schoenen F, Seaton T, Su JL, Becherer JD, et al.: Cloning of a disintegrin metalloproteinase that processes precursor tumour-necrosis factor-alpha. Nature. 1997 Feb 20;385(6618):733-6.
+9442056	Cha SS, Kim JS, Cho HS, Shin NK, Jeong W, Shin HC, Kim YJ, Hahn JH, Oh BH: High resolution crystal structure of a human tumor necrosis factor-alpha mutant with low systemic toxicity. J Biol Chem. 1998 Jan 23;273(4):2153-60.
+9488135	Reed C, Fu ZQ, Wu J, Xue YN, Harrison RW, Chen MJ, Weber IT: Crystal structure of TNF-alpha mutant R31D with greater affinity for receptor R1 compared with R2. Protein Eng. 1997 Oct;10(10):1101-7.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:11892
+
+# Drug_Target_1_HPRD_ID:
+01855
+
+# Drug_Target_1_ID:
+777
+
+# Drug_Target_1_Locus:
+6p21.3
+
+# Drug_Target_1_Molecular_Weight:
+25645
+
+# Drug_Target_1_Name:
+Tumor necrosis factor
+
+# Drug_Target_1_Number_of_Residues:
+233
+
+# Drug_Target_1_PDB_ID:
+1A8M
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00229	TNF
+
+# Drug_Target_1_Protein_Sequence:
+>Tumor necrosis factor precursor
+MSTESMIRDVELAEEALPKKTGGPQGSRRCLFLSLFSFLIVAGATTLFCLLHFGVIGPQR
+EEFPRDLSLISPLAQAVRSSSRTPSDKPVAHVVANPQAEGQLQWLNRRANALLANGVELR
+DNQLVVPSEGLYLIYSQVLFKGQGCPSTHVLLTHTISRIAVSYQTKVNLLSAIKSPCQRE
+TPEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLDFAESGQVYFGIIAL
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Cytokine that binds to TNFRSF1A/TNFR1 and TNFRSF1B/TNFBR. It is mainly secreted by macrophages and can induce cell death of certain tumor cell lines. It is potent pyrogen causing fever by direct action or by stimulation of interleukin 1 secretion and is implicated in the induction of cachexia, Under certain conditions it can stimulate cell proliferation and induce cell differentiation
+
+# Drug_Target_1_SwissProt_ID:
+P01375
+
+# Drug_Target_1_SwissProt_Name:
+TNFA_HUMAN
+
+# Drug_Target_1_Synonyms:
+Cachectin
+TNF-a
+TNF-alpha
+Tumor necrosis factor ligand superfamily member 2
+Tumor necrosis factor precursor
+
+# Drug_Target_1_Theoretical_pI:
+6.92
+
+# Drug_Target_1_Transmembrane_Regions:
+36-56
+
+# Drug_Target_2_Cellular_Location:
+Cell membrane
+GPI-anchor. Secreted protein. Note=Secreted after cleavage
+lipid-anchor
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+FCGR3B
+
+# Drug_Target_2_GenBank_ID_Gene:
+X16863
+
+# Drug_Target_2_GenBank_ID_Protein:
+31322
+
+# Drug_Target_2_GeneCard_ID:
+FCGR3B
+
+# Drug_Target_2_Gene_Name:
+FCGR3B
+
+# Drug_Target_2_Gene_Sequence:
+>702 bp
+ATGTGGCAGCTGCTCCTCCCAACTGCTCTGCTACTTCTAGTTTCAGCTGGCATGCGGACT
+GAAGATCTCCCAAAGGCTGTGGTGTTCCTGGAGCCTCAATGGTACAGCGTGCTTGAGAAG
+GACAGTGTGACTCTGAAGTGCCAGGGAGCCTACTCCCCTGAGGACAATTCCACACAGTGG
+TTTCACAATGAGAGCCTCATCTCAAGCCAGGCCTCGAGCTACTTCATTGACGCTGCCACA
+GTCAACGACAGTGGAGAGTACAGGTGCCAGACAAACCTCTCCACCCTCAGTGACCCGGTG
+CAGCTAGAAGTCCATATCGGCTGGCTGTTGCTCCAGGCCCCTCGGTGGGTGTTCAAGGAG
+GAAGACCCTATTCACCTGAGGTGTCACAGCTGGAAGAACACTGCTCTGCATAAGGTCACA
+TATTTACAGAATGGCAAAGACAGGAAGTATTTTCATCATAATTCTGACTTCCACATTCCA
+AAAGCCACACTCAAAGATAGCGGCTCCTACTTCTGCAGGGGGCTTGTTGGGAGTAAAAAT
+GTGTCTTCAGAGACTGTGAACATCACCATCACTCAAGGTTTGGCAGTGTCAACCATCTCA
+TCATTCTCTCCACCTGGGTACCAAGTCTCTTTCTGCTTGGTGATGGTACTCCTTTTTGCA
+GTGGACACAGGACTATATTTCTCTGTGAAGACAAACATTTGA
+
+# Drug_Target_2_General_Function:
+Not Available
+
+# Drug_Target_2_General_References:
+10917521	Sondermann P, Huber R, Oosthuizen V, Jacob U: The 3.2-A crystal structure of the human IgG1 Fc fragment-Fc gammaRIII complex. Nature. 2000 Jul 20;406(6793):267-73.
+11021536	Zhang Y, Boesen CC, Radaev S, Brooks AG, Fridman WH, Sautes-Fridman C, Sun PD: Crystal structure of the extracellular domain of a human Fc gamma RIII. Immunity. 2000 Sep;13(3):387-95.
+2521732	Peltz GA, Grundy HO, Lebo RV, Yssel H, Barsh GS, Moore KW: Human Fc gamma RIII: cloning, expression, and identification of the chromosomal locus of two Fc receptors for IgG. Proc Natl Acad Sci U S A. 1989 Feb;86(3):1013-7.
+2525780	Scallon BJ, Scigliano E, Freedman VH, Miedel MC, Pan YC, Unkeless JC, Kochan JP: A human immunoglobulin G receptor exists in both polypeptide-anchored and phosphatidylinositol-glycan-anchored forms. Proc Natl Acad Sci U S A. 1989 Jul;86(13):5079-83.
+2526846	Ravetch JV, Perussia B: Alternative membrane forms of Fc gamma RIII(CD16) on human natural killer cells and neutrophils. Cell type-specific expression of two genes that differ in single nucleotide substitutions. J Exp Med. 1989 Aug 1;170(2):481-97.
+2967436	Simmons D, Seed B: The Fc gamma receptor of natural killer cells is a phospholipid-linked membrane protein. Nature. 1988 Jun 9;333(6173):568-70.
+7836402	Gessner JE, Grussenmeyer T, Kolanus W, Schmidt RE: The human low affinity immunoglobulin G Fc receptor III-A and III-B genes. Molecular characterization of the promoter regions. J Biol Chem. 1995 Jan 20;270(3):1350-61.
+9028335	Bux J, Stein EL, Bierling P, Fromont P, Clay M, Stroncek D, Santoso S: Characterization of a new alloantigen (SH) on the human neutrophil Fc gamma receptor IIIb. Blood. 1997 Feb 1;89(3):1027-34.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:3620
+
+# Drug_Target_2_HPRD_ID:
+09951
+
+# Drug_Target_2_ID:
+1102
+
+# Drug_Target_2_Locus:
+1q23
+
+# Drug_Target_2_Molecular_Weight:
+26216
+
+# Drug_Target_2_Name:
+Low affinity immunoglobulin gamma Fc region receptor III-B
+
+# Drug_Target_2_Number_of_Residues:
+233
+
+# Drug_Target_2_PDB_ID:
+1E4K
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00047	ig
+
+# Drug_Target_2_Protein_Sequence:
+>Low affinity immunoglobulin gamma Fc region receptor III-B precursor
+MWQLLLPTALLLLVSAGMRTEDLPKAVVFLEPQWYSVLEKDSVTLKCQGAYSPEDNSTQW
+FHNESLISSQASSYFIDAATVNDSGEYRCQTNLSTLSDPVQLEVHIGWLLLQAPRWVFKE
+EDPIHLRCHSWKNTALHKVTYLQNGKDRKYFHHNSDFHIPKATLKDSGSYFCRGLVGSKN
+VSSETVNITITQGLAVSTISSFSPPGYQVSFCLVMVLLFAVDTGLYFSVKTNI
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+1-16
+
+# Drug_Target_2_Specific_Function:
+Receptor for the Fc region of immunoglobulins gamma. Low affinity receptor. Binds complexed or aggregated IgG and also monomeric IgG. Contrary to III-A, is not capable to mediate antibody-dependent cytotoxicity and phagocytosis. May serve as a trap for immune complexes in the peripheral circulation which does not activate neutrophils
+
+# Drug_Target_2_SwissProt_ID:
+O75015
+
+# Drug_Target_2_SwissProt_Name:
+FCG3B_HUMAN
+
+# Drug_Target_2_Synonyms:
+CD16b antigen
+Fc-gamma RIII
+Fc-gamma RIII-beta
+Fc-gamma RIIIb
+FcR-10
+FcRIII
+FcRIIIb
+IgG Fc receptor III-1
+Low affinity immunoglobulin gamma Fc region receptor III-B precursor
+
+# Drug_Target_2_Theoretical_pI:
+6.71
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+C1R
+
+# Drug_Target_3_GenBank_ID_Gene:
+X04701
+
+# Drug_Target_3_GenBank_ID_Protein:
+29539
+
+# Drug_Target_3_GeneCard_ID:
+C1R
+
+# Drug_Target_3_Gene_Name:
+C1R
+
+# Drug_Target_3_Gene_Sequence:
+>2118 bp
+ATGTGGCTCTTGTACCTCCTGGTGCCGGCCCTGTTCTGCAGGGCAGGAGGCTCCATTCCC
+ATCCCTCAGAAGTTATTTGGGGAGGTGACTTCCCCTCTGTTCCCCAAGCCTTACCCCAAC
+AACTTTGAAACAACCACTGTGATCACAGTCCCCACGGGATACAGGGTGAAGCTCGTCTTC
+CAGCAGTTTGACCTGGAGCCTTCTGAAGGCTGCTTCTATGATTATGTCAAGATCTCTGCT
+GATAAGAAAAGCCTGGGGAGGTTCTGTGGGCAACTGGGTTCTCCACTGGGCAACCCCCCG
+GGAAAGAAGGAATTTATGTCCCAAGGGAACAAGATGCTGCTGACCTTCCACACAGACTTC
+TCCAACGAGGAGAATGGGACCATCATGTTCTACAAGGGCTTCCTGGCCTACTACCAAGCT
+GTGGACCTTGATGAATGTGCTTCCCGGAGCAAATTAGGGGAGGAGGATCCCCAGCCCCAG
+TGCCAGCACCTGTGTCACAACTACGTTGGAGGCTACTTCTGTTCCTGCCGTCCAGGCTAT
+GAGCTTCAGGAAGACAGGCATTCCTGCCAGGCTGAGTGCAGCAGCGAGCTGTACACGGAG
+GCATCAGGCTACATCTCCAGCCTGGAGTACCCTCGGTCCTACCCCCCTGACCTGCGCTGC
+AACTACAGCATCCGGGTGGAGCGGGGCCTCACCCTGCACCTCAAGTTCCTGGAGCCTTTT
+GATATTGATGACCACCAGCAAGTACACTGCCCCTATGACCAGCTACAGATCTATGCCAAC
+GGGAAGAACATTGGCGAGTTCTGTGGGAAGCAAAGGCCCCCCGACCTCGACACCAGCAGC
+AATGCTGTGGATCTGCTGTTCTTCACAGATGAGTCGGGGGACAGCCGGGGCTGGAAGCTG
+CGCTACACCACCGAGATCATCAAGTGCCCCCAGCCCAAGACCCTAGACGAGTTCACCATC
+ATCCAGAACCTGCAGCCTCAGTACCAGTTCCGTGACTACTTCATTGCTACCTGCAAGCAA
+GGCTACCAGCTCATAGAGGGGAACCAGGTGCTGCATTCCTTCACAGCTGTCTGCCAGGAT
+GATGGCACGTGGCATCGTGCCATGCCCAGATGCAAGATCAAGGACTGTGGGCAGCCCCGA
+AACCTGCCTAATGGTGACTTCCGTTACACCACCACAATGGGAGTGAACACCTACAAGGCC
+CGTATCCAGTACTACTGCCATGAGCCATATTACAAGATGCAGACCAGAGCTGGCAGCAGG
+GAGTCTGAGCAAGGGGTGTACACCTGCACAGCACAGGGCATTTGGAAGAATGAACAGAAG
+GGAGAGAAGATTCCTCGGTGCTTGCCAGTGTGTGGGAAGCCCGTGAACCCCGTGGAACAG
+AGGCAGCGCATCATCGGAGGGCAAAAAGCCAAGATGGGCAACTTCCCCTGGCAGGTGTTC
+ACCAACATCCACGGGCGCGGGGGCGGGGCCCTGCTGGGCGACCGCTGGATCCTCACAGCT
+GCCCACACCCTGTATCCCAAGGAACACGAAGCGCAAAGCAACGCCTCTTTGGATGTGTTC
+CTGGGCCACACAAATGTGGAAGAGCTCATGAAGCTAGGAAATCACCCCATCCGCAGGGTC
+AGCGTCCACCCGGACTACCGTCAGGATGAGTCCTACAATTTTGAGGGGGACATCGCCCTG
+CTGGAGCTGGAAAATAGTGTCACCCTGGGTCCCAACCTCCTCCCCATCTGCCTCCCTGAC
+AACGATACCTTCTACGACCTGGGCTTGATGGGCTATGTCAGTGGCTTCGGGGTCATGGAG
+GAGAAGATTGCTCATGACCTCAGGTTTGTCCGTCTGCCCGTAGCTAATCCACAGGCCTGT
+GAGAACTGGCTCCGGGGAAAGAATAGGATGGATGTGTTCTCTCAAAACATGTTCTGTGCT
+GGACACCCATCTCTAAAGCAGGACGCCTGCCAGGGGGATAGTGGGGGCGTTTTTGCAGTA
+AGGGACCCGAACACTGATCGCTGGGTGGCCACGGGCATCGTGTCCTGGGGCATCGGGTGC
+AGCAGGGGCTATGGCTTCTACACCAAAGTGCTCAACTACGTGGACTGGATCAAGAAAGAG
+ATGGAGGAGGAGGACTGA
+
+# Drug_Target_3_General_Function:
+Not Available
+
+# Drug_Target_3_General_References:
+2820791	Arlaud GJ, Van Dorsselaer A, Bell A, Mancini M, Aude C, Gagnon J: Identification of erythro-beta-hydroxyasparagine in the EGF-like domain of human C1r. FEBS Lett. 1987 Sep 28;222(1):129-34.
+3021205	Leytus SP, Kurachi K, Sakariassen KS, Davie EW: Nucleotide sequence of the cDNA coding for human complement C1r. Biochemistry. 1986 Aug 26;25(17):4855-63.
+3030286	Journet A, Tosi M: Cloning and sequencing of full-length cDNA encoding the precursor of human complement component C1r. Biochem J. 1986 Dec 15;240(3):783-7.
+3036070	Arlaud GJ, Willis AC, Gagnon J: Complete amino acid sequence of the A chain of human complement-classical-pathway enzyme C1r. Biochem J. 1987 Feb 1;241(3):711-20.
+6303394	Arlaud GJ, Gagnon J: Complete amino acid sequence of the catalytic chain of human complement subcomponent C1-r. Biochemistry. 1983 Apr 12;22(8):1758-64.
+8635594	Pelloux S, Thielens NM, Hudry-Clergeon G, Petillot Y, Filhol O, Arlaud GJ: Identification of a cryptic protein kinase CK2 phosphorylation site in human complement protease Clr, and its use to probe intramolecular interaction. FEBS Lett. 1996 May 13;386(1):15-20.
+9477945	Bersch B, Hernandez JF, Marion D, Arlaud GJ: Solution structure of the epidermal growth factor (EGF)-like module of human complement protease C1r, an atypical member of the EGF family. Biochemistry. 1998 Feb 3;37(5):1204-14.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:1246
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+3814
+
+# Drug_Target_3_Locus:
+12p13
+
+# Drug_Target_3_Molecular_Weight:
+80174
+
+# Drug_Target_3_Name:
+Complement C1r subcomponent
+
+# Drug_Target_3_Number_of_Residues:
+705
+
+# Drug_Target_3_PDB_ID:
+1GPZ
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00084	Sushi
+PF00089	Trypsin
+PF00431	CUB
+PF07645	EGF_CA
+
+# Drug_Target_3_Protein_Sequence:
+>Complement C1r subcomponent
+MWLLYLLVPALFCRAGGSIPIPQKLFGEVTSPLFPKPYPNNFETTTVITVPTGYRVKLVF
+QQFDLEPSEGCFYDYVKISADKKSLGRFCGQLGSPLGNPPGKKEFMSQGNKMLLTFHTDF
+SNEENGTIMFYKGFLAYYQAVDLDECASRSKSGEEDPQPQCQHLCHNYVGGYFCSCRPGY
+ELQEDRHSCQAECSSELYTEASGYISSLEYPRSYPPDLRCNYSIRVERGLTLHLKFLEPF
+DIDDHQQVHCPYDQLQIYANGKNIGEFCGKQRPPDLDTSSNAVDLLFFTDESGDSRGWKL
+RYTTEIIKCPQPKTLDEFTIIQNLQPQYQFRDYFIATCKQGYQLIEGNQVLHSFTAVCQD
+DGTWHRAMPRCKIKDCGQPRNLPNGDFRYTTTMGVNTYKARIQYYCHEPYYKMQTRAGSR
+ESEQGVYTCTAQGIWKNEQKGEKIPRCLPVCGKPVNPVEQRQRIIGGQKAKMGNFPWQVF
+TNIHGRGGGALLGDRWILTAAHTLYPKEHEAQSNASLDVFLGHTNVEELMKLGNHPIRRV
+SVHPDYRQDESYNFEGDIALLELENSVTLGPNLLPICLPDNDTFYDLGLMGYVSGFGVME
+EKIAHDLRFVRLPVANPQACENWLRGKNRMDVFSQNMFCAGHPSLKQDACQGDSGGVFAV
+RDPNTDRWVATGIVSWGIGCSRGYGFYTKVLNYVDWIKKEMEEED
+
+# Drug_Target_3_Reaction:
+Selective cleavage of Lys(or Arg)!Ile bond in complement subcomponent C1s to form C_overbar_1s_ (internal_xref(ec_num(3,4,21,42)))
+
+# Drug_Target_3_Signals:
+1-17
+
+# Drug_Target_3_Specific_Function:
+C1r B chain is a serine protease that combines with C1q and C1s to form C1, the first component of the classical pathway of the complement system
+
+# Drug_Target_3_SwissProt_ID:
+P00736
+
+# Drug_Target_3_SwissProt_Name:
+C1R_HUMAN
+
+# Drug_Target_3_Synonyms:
+Complement C1r subcomponent precursor
+Complement component 1, r subcomponent
+EC 3.4.21.41
+
+# Drug_Target_3_Theoretical_pI:
+6.24
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Secreted protein
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+C1QA
+
+# Drug_Target_4_GenBank_ID_Gene:
+AF135157
+
+# Drug_Target_4_GenBank_ID_Protein:
+4894854
+
+# Drug_Target_4_GeneCard_ID:
+C1QA
+
+# Drug_Target_4_Gene_Name:
+C1QA
+
+# Drug_Target_4_Gene_Sequence:
+>738 bp
+ATGGAGGGTCCCCGGGGATGGCTGGTGCTCTGTGTGCTGGCCATATCGCTGGCCTCTATG
+GTGACCGAGGACTTGTGCCGAGCACCAGACGGGAAGAAAGGGGAGGCAGGAAGACCTGGC
+AGACGGGGGCGGCCAGGCCTCAAGGGGGAGCAAGGGGAGCCGGGGGCCCCTGGCATCCGG
+ACAGGCATCCAAGGCCTTAAAGGAGACCAGGGGGAACCTGGGCCCTCTGGAAACCCCGGC
+AAGGTGGGCTACCCAGGGCCCAGCGGCCCCCTCGGGGCCCGTGGCATCCCGGGAATTAAA
+GGCACCAAGGGCAGCCCAGGAAACATCAAGGACCAGCCGAGGCCAGCCTTCTCCGCCATT
+CGGCGGAACCCCCCAATGGGGGGCAACGTGGTCATCTTCGACACGGTCATCACCAACCAG
+GAAGAACCGTACCAGAACCACTCCGGCCGATTCGTCTGCACTGTACCCGGCTACTACTAC
+TTCACCTTCCAGGTGCTGTCCCAGTGGGAAATCTGCCTGTCCATCGTCTCCTCCTCAAGG
+GGCCAGGTCCGACGCTCCCTGGGCTTCTGTGACACCACCAACAAGGGGCTCTTCCAGGTG
+GTGTCAGGGGGCATGGTGCTTCAGCTGCAGCAGGGTGACCAGGTCTGGGTTGAAAAAGAC
+CCCAAAAAGGGTCACATTTACCAGGGCTCTGAGGCCGACAGCGTCTTCAGCGGCTTCCTC
+ATCTTCCCATCTGCCTGA
+
+# Drug_Target_4_General_Function:
+Not Available
+
+# Drug_Target_4_General_References:
+12960167	Gaboriaud C, Juanhuix J, Gruez A, Lacroix M, Darnault C, Pignol D, Verger D, Fontecilla-Camps JC, Arlaud GJ: The crystal structure of the globular head of complement protein C1q provides a basis for its versatile recognition properties. J Biol Chem. 2003 Nov 21;278(47):46974-82. Epub 2003 Sep 5.
+1706597	Sellar GC, Blake DJ, Reid KB: Characterization and organization of the genes encoding the A-, B- and C-chains of human complement subcomponent C1q. The complete derived amino acid sequence of human C1q. Biochem J. 1991 Mar 1;274 ( Pt 2):481-90.
+486087	Reid KB: Complete amino acid sequences of the three collagen-like regions present in subcomponent C1q of the first component of human complement. Biochem J. 1979 May 1;179(2):367-71.
+6981411	Reid KB, Gagnon J, Frampton J: Completion of the amino acid sequences of the A and B chains of subcomponent C1q of the first component of human complement. Biochem J. 1982 Jun 1;203(3):559-69.
+9777412	Petry F: Molecular basis of hereditary C1q deficiency. Immunobiology. 1998 Aug;199(2):286-94.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:1241
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+3815
+
+# Drug_Target_4_Locus:
+1p36.12
+
+# Drug_Target_4_Molecular_Weight:
+26017
+
+# Drug_Target_4_Name:
+Complement C1q subcomponent subunit A
+
+# Drug_Target_4_Number_of_Residues:
+245
+
+# Drug_Target_4_PDB_ID:
+1PK6
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00386	C1q
+PF01391	Collagen
+
+# Drug_Target_4_Protein_Sequence:
+>Complement C1q subcomponent subunit A
+MEGPRGWLVLCVLAISLASMVTEDLCRAPDGKKGEAGRPGRRGRPGLKGEQGEPGAPGIR
+TGIQGLKGDQGEPGPSGNPGKVGYPGPSGPLGARGIPGIKGTKGSPGNIKDQPRPAFSAI
+RRNPPMGGNVVIFDTVITNQEEPYQNHSGRFVCTVPGYYYFTFQVLSQWEICLSIVSSSR
+GQVRRSLGFCDTTNKGLFQVVSGGMVLQLQQGDQVWVEKDPKKGHIYQGSEADSVFSGFL
+IFPSA
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+1-22
+
+# Drug_Target_4_Specific_Function:
+C1q associates with the proenzymes C1r and C1s to yield C1, the first component of the serum complement system. The collagen-like regions of C1q interact with the Ca(2+)-dependent C1r(2)C1s(2) proenzyme complex, and efficient activation of C1 takes place on interaction of the globular heads of C1q with the Fc regions of IgG or IgM antibody present in immune complexes
+
+# Drug_Target_4_SwissProt_ID:
+P02745
+
+# Drug_Target_4_SwissProt_Name:
+C1QA_HUMAN
+
+# Drug_Target_4_Synonyms:
+Complement C1q subcomponent subunit A precursor
+
+# Drug_Target_4_Theoretical_pI:
+9.45
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+# Drug_Target_5_Cellular_Location:
+Secreted protein
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+C1QB
+
+# Drug_Target_5_GenBank_ID_Gene:
+X03084
+
+# Drug_Target_5_GenBank_ID_Protein:
+573114
+
+# Drug_Target_5_GeneCard_ID:
+C1QB
+
+# Drug_Target_5_Gene_Name:
+C1QB
+
+# Drug_Target_5_Gene_Sequence:
+>688 bp
+CCAGGCCCAGCTCAGCTGCACCGGGCCCCCAGCCATCCCTGGCATCCCGGGTATCCCTGG
+GACACCTGGCCCCGATGGCCAACCTGGGACCCCAGGGATAAAAGGAGAGAAAGGGCTTCC
+AGGGCTGGCTGGAGACCATGGTGAGTTCGGAGAGAAGGGAGACCCAGGGATTCCTGGGAA
+TCCAGGAAAAGTCGGCCCCAAGGGCCCCATGGGCCCTAAAGGTGGCCCAGGGGCCCCTGG
+AGCCCCAGGCCCCAAAGGTGAATCGGGAGACTACAAGGCCACCCAGAAAATCGCCTTCTC
+TGCCACAAGAACCATCAACGTCCCCCTGCGCCGGGACCAGACCATCCGCTTCGACCACGT
+GATCACCAACATGAACAACAATTATGAGCCCCGCAGTGGCAAGTTCACCTGCAAGGTGCC
+CGGTCTCTACTACTTCACCTACCACGCCAGCTCTCGAGGGAACCTGTGCGTGAACCTCAT
+GCGTGGCCGGGAGCGTGCACAGAAGGTGGTCACCTTCTGTGACTATGCCTACAACACCTT
+CCAGGTCACCACCGGTGGCATGGTCCTCAAGCTGGAGCAGGGGGAGAACGTCTTCCTGCA
+GGCCACCGACAAGAACTCACTACTGGGCATGGAGGGTGCCAACAGCATCTTTTCCGGGTT
+CCTGCTCTTTCCAGATATGGAGGCCTGA
+
+# Drug_Target_5_General_Function:
+Not Available
+
+# Drug_Target_5_General_References:
+12960167	Gaboriaud C, Juanhuix J, Gruez A, Lacroix M, Darnault C, Pignol D, Verger D, Fontecilla-Camps JC, Arlaud GJ: The crystal structure of the globular head of complement protein C1q provides a basis for its versatile recognition properties. J Biol Chem. 2003 Nov 21;278(47):46974-82. Epub 2003 Sep 5.
+3000358	Reid KB: Molecular cloning and characterization of the complementary DNA and gene coding for the B-chain of subcomponent C1q of the human complement system. Biochem J. 1985 Nov 1;231(3):729-35.
+486087	Reid KB: Complete amino acid sequences of the three collagen-like regions present in subcomponent C1q of the first component of human complement. Biochem J. 1979 May 1;179(2):367-71.
+6208566	Reid KB, Bentley DR, Wood KJ: Cloning and characterization of the complementary DNA for the B chain of normal human serum C1q. Philos Trans R Soc Lond B Biol Sci. 1984 Sep 6;306(1129):345-54.
+6981411	Reid KB, Gagnon J, Frampton J: Completion of the amino acid sequences of the A and B chains of subcomponent C1q of the first component of human complement. Biochem J. 1982 Jun 1;203(3):559-69.
+708376	Reid KB, Thompson EO: Amino acid sequence of the N-terminal 108 amino acid residues of the B chain of subcomponent C1q of the first component of human complement. Biochem J. 1978 Sep 1;173(3):863-8.
+9777412	Petry F: Molecular basis of hereditary C1q deficiency. Immunobiology. 1998 Aug;199(2):286-94.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:1242
+
+# Drug_Target_5_HPRD_ID:
+Not Available
+
+# Drug_Target_5_ID:
+3816
+
+# Drug_Target_5_Locus:
+1p36.12
+
+# Drug_Target_5_Molecular_Weight:
+26460
+
+# Drug_Target_5_Name:
+Complement C1q subcomponent subunit B
+
+# Drug_Target_5_Number_of_Residues:
+251
+
+# Drug_Target_5_PDB_ID:
+1PK6
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00386	C1q
+PF01391	Collagen
+
+# Drug_Target_5_Protein_Sequence:
+>Complement C1q subcomponent subunit B
+MKIPWGSIPVLMLLLLLGLIDISQAQLSCTGPPAIPGIPGIPGTPGPDGQPGTPGIKGEK
+GLPGLAGDHGEFGEKGDPGIPGNPGKVGPKGPMGPKGGPGAPGAPGPKGESGDYKATQKI
+AFSATRTINVPLRRDQTIRFDHVITNMNNNYEPRSGKFTCKVPGLYYFTYHASSRGNLCV
+NLMRGRERAQKVVTFCDYAYNTFQVTTGGMVLKLEQGENVFLQATDKNSLLGMEGANSIF
+SGFLLFPDMEA
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+1-25
+
+# Drug_Target_5_Specific_Function:
+C1q associates with the proenzymes C1r and C1s to yield C1, the first component of the serum complement system. The collagen-like regions of C1q interact with the Ca(2+)-dependent C1r(2)C1s(2) proenzyme complex, and efficient activation of C1 takes place on interaction of the globular heads of C1q with the Fc regions of IgG or IgM antibody present in immune complexes
+
+# Drug_Target_5_SwissProt_ID:
+P02746
+
+# Drug_Target_5_SwissProt_Name:
+C1QB_HUMAN
+
+# Drug_Target_5_Synonyms:
+Complement C1q subcomponent subunit B precursor
+
+# Drug_Target_5_Theoretical_pI:
+8.87
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+# Drug_Target_6_Cellular_Location:
+Secreted protein
+
+# Drug_Target_6_Chromosome_Location:
+Not Available
+
+# Drug_Target_6_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_6_Essentiality:
+Non-Essential
+
+# Drug_Target_6_GenAtlas_ID:
+C1QC
+
+# Drug_Target_6_GenBank_ID_Gene:
+AF087892
+
+# Drug_Target_6_GenBank_ID_Protein:
+33150626
+
+# Drug_Target_6_GeneCard_ID:
+C1QC
+
+# Drug_Target_6_Gene_Name:
+C1QC
+
+# Drug_Target_6_Gene_Sequence:
+>738 bp
+ATGGACGTGGGGCCCAGCTCCCTGCCCCACCTTGGGCTGAAGCTGCTGCTGCTCCTGCTG
+CTGCTGCCCCTCAGGGCCAAAGCCAACACAGGCTGCTACGGGATCCCAGGGATGCCCGGC
+CTGCCCGGGGCACCAGGGAAGGATGGGTACGACGGACTGCCGGGGCCCAAGGGGGAGCCA
+GGAATCCCAGCCATTCCCGGGATCCGAGGACCCAAAGGGCAGAAGGGAGAACCCGGCTTA
+CCCGGCCATCCTGGGAAAAATGGCCCCATGGGACCCCCTGGGATGCCAGGGGTGCCCGGC
+CCCATGGGATTCCCTGGAGAGCCAGGTGAGGAGGGCAGATACAAGCAGAAATTCCAGTCA
+GTGTTCACGGTCACTCGGCAGACCCACCAGCCCCCTGCACCCAACAGCCTGATCAGATTC
+AACGCGGTCCTCACCAACCCGCAGGAGGATTATGACACGAGCACTGGCAAGTTCACCTGC
+AAAGTCCCCGGCCTCTACTACTTTGTCTACCACGCGTCGCATACAGCCAACCTGTGCGTG
+CTGCTGTACCGCAGCGGCGTCAAAGTGGTCACCTTCTGTGGCCACACGTCCAAAACCAAT
+CAGGTCAACTCGGGCGGTGTGCTGCTGAGGTTGCAGGTGGGCGAGGAGGTGTGGCTGGCT
+GTCAATGACTACTACGACATGGTGGGCATCCAGGGCTCTGACAGCGTCTTCTCCGGCTTC
+CTGCTCTTCCCCGACTAG
+
+# Drug_Target_6_General_Function:
+Not Available
+
+# Drug_Target_6_General_References:
+12960167	Gaboriaud C, Juanhuix J, Gruez A, Lacroix M, Darnault C, Pignol D, Verger D, Fontecilla-Camps JC, Arlaud GJ: The crystal structure of the globular head of complement protein C1q provides a basis for its versatile recognition properties. J Biol Chem. 2003 Nov 21;278(47):46974-82. Epub 2003 Sep 5.
+1706597	Sellar GC, Blake DJ, Reid KB: Characterization and organization of the genes encoding the A-, B- and C-chains of human complement subcomponent C1q. The complete derived amino acid sequence of human C1q. Biochem J. 1991 Mar 1;274 ( Pt 2):481-90.
+486087	Reid KB: Complete amino acid sequences of the three collagen-like regions present in subcomponent C1q of the first component of human complement. Biochem J. 1979 May 1;179(2):367-71.
+9777412	Petry F: Molecular basis of hereditary C1q deficiency. Immunobiology. 1998 Aug;199(2):286-94.
+
+# Drug_Target_6_HGNC_ID:
+HGNC:1245
+
+# Drug_Target_6_HPRD_ID:
+Not Available
+
+# Drug_Target_6_ID:
+3817
+
+# Drug_Target_6_Locus:
+1p36.11
+
+# Drug_Target_6_Molecular_Weight:
+25774
+
+# Drug_Target_6_Name:
+Complement C1q subcomponent subunit C
+
+# Drug_Target_6_Number_of_Residues:
+245
+
+# Drug_Target_6_PDB_ID:
+1PK6
+
+# Drug_Target_6_Pathway:
+Not Available
+
+# Drug_Target_6_Pfam_Domain_Function:
+PF00386	C1q
+PF01391	Collagen
+
+# Drug_Target_6_Protein_Sequence:
+>Complement C1q subcomponent subunit C
+MDVGPSSLPHLGLKLLLLLLLLPLRGQANTGCYGIPGMPGLPGAPGKDGYDGLPGPKGEP
+GIPAIPGIRGPKGQKGEPGLPGHPGKNGPMGPPGMPGVPGPMGIPGEPGEEGRYKQKFQS
+VFTVTRQTHQPPAPNSLIRFNAVLTNPQGDYDTSTGKFTCKVPGLYYFVYHASHTANLCV
+LLYRSGVKVVTFCGHTSKTNQVNSGGVLLRLQVGEEVWLAVNDYYDMVGIQGSDSVFSGF
+LLFPD
+
+# Drug_Target_6_Reaction:
+Not Available
+
+# Drug_Target_6_Signals:
+1-28
+
+# Drug_Target_6_Specific_Function:
+C1q associates with the proenzymes C1r and C1s to yield C1, the first component of the serum complement system. The collagen-like regions of C1q interact with the Ca(2+)-dependent C1r(2)C1s(2) proenzyme complex, and efficient activation of C1 takes place on interaction of the globular heads of C1q with the Fc regions of IgG or IgM antibody present in immune complexes
+
+# Drug_Target_6_SwissProt_ID:
+P02747
+
+# Drug_Target_6_SwissProt_Name:
+C1QC_HUMAN
+
+# Drug_Target_6_Synonyms:
+Complement C1q subcomponent subunit C precursor
+
+# Drug_Target_6_Theoretical_pI:
+8.58
+
+# Drug_Target_6_Transmembrane_Regions:
+None
+
+# Drug_Target_7_Cellular_Location:
+Cell membrane
+
+# Drug_Target_7_Chromosome_Location:
+Not Available
+
+# Drug_Target_7_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_7_Essentiality:
+Non-Essential
+
+# Drug_Target_7_GenAtlas_ID:
+FCGR3A
+
+# Drug_Target_7_GenBank_ID_Gene:
+X52645
+
+# Drug_Target_7_GenBank_ID_Protein:
+31324
+
+# Drug_Target_7_GeneCard_ID:
+FCGR3A
+
+# Drug_Target_7_Gene_Name:
+FCGR3A
+
+# Drug_Target_7_Gene_Sequence:
+>765 bp
+ATGTGGCAGCTGCTCCTCCCAACTGCTCTGCTACTTCTAGTTTCAGCTGGCATGCGGACT
+GAAGATCTCCCAAAGGCTGTGGTGTTCCTGGAGCCTCAATGGTACAGGGTGCTCGAGAAG
+GACAGTGTGACTCTGAAGTGCCAGGGAGCCTACTCCCCTGAGGACAATTCCACACAGTGG
+TTTCACAATGAGAGCCTCATCTCAAGCCAGGCCTCGAGCTACTTCATTGACGCTGCCACA
+GTCGACGACAGTGGAGAGTACAGGTGCCAGACAAACCTCTCCACCCTCAGTGACCCGGTG
+CAGCTAGAAGTCCATATCGGCTGGCTGTTGCTCCAGGCCCCTCGGTGGGTGTTCAAGGAG
+GAAGACCCTATTCACCTGAGGTGTCACAGCTGGAAGAACACTGCTCTGCATAAGGTCACA
+TATTTACAGAATGGCAAAGGCAGGAAGTATTTTCATCATAATTCTGACTTCTACATTCCA
+AAAGCCACACTCAAAGACAGCGGCTCCTACTTCTGCAGGGGGCTTTTTGGGAGTAAAAAT
+GTGTCTTCAGAGACTGTGAACATCACCATCACTCAAGGTTTGGCAGTGTCAACCATCTCA
+TCATTCTTTCCACCTGGGTACCAAGTCTCTTTCTGCTTGGTGATGGTACTCCTTTTTGCA
+GTGGACACAGGACTATATTTCTCTGTGAAGACAAACATTCGAAGCTCAACAAGAGACTGG
+AAGGACCATAAATTTAAATGGAGAAAGGACCCTCAAGACAAATGA
+
+# Drug_Target_7_General_Function:
+Not Available
+
+# Drug_Target_7_General_References:
+2526846	Ravetch JV, Perussia B: Alternative membrane forms of Fc gamma RIII(CD16) on human natural killer cells and neutrophils. Cell type-specific expression of two genes that differ in single nucleotide substitutions. J Exp Med. 1989 Aug 1;170(2):481-97.
+7836402	Gessner JE, Grussenmeyer T, Kolanus W, Schmidt RE: The human low affinity immunoglobulin G Fc receptor III-A and III-B genes. Molecular characterization of the promoter regions. J Biol Chem. 1995 Jan 20;270(3):1350-61.
+8609432	de Haas M, Koene HR, Kleijer M, de Vries E, Simsek S, van Tol MJ, Roos D, von dem Borne AE: A triallelic Fc gamma receptor type IIIA polymorphism influences the binding of human IgG by NK cell Fc gamma RIIIa. J Immunol. 1996 Apr 15;156(8):3948-55.
+9242542	Koene HR, Kleijer M, Algra J, Roos D, von dem Borne AE, de Haas M: Fc gammaRIIIa-158V/F polymorphism influences the binding of IgG by natural killer cell Fc gammaRIIIa, independently of the Fc gammaRIIIa-48L/R/H phenotype. Blood. 1997 Aug 1;90(3):1109-14.
+9276722	Wu J, Edberg JC, Redecha PB, Bansal V, Guyre PM, Coleman K, Salmon JE, Kimberly RP: A novel polymorphism of FcgammaRIIIa (CD16) alters receptor function and predisposes to autoimmune disease. J Clin Invest. 1997 Sep 1;100(5):1059-70.
+
+# Drug_Target_7_HGNC_ID:
+HGNC:3619
+
+# Drug_Target_7_HPRD_ID:
+Not Available
+
+# Drug_Target_7_ID:
+3818
+
+# Drug_Target_7_Locus:
+1q23
+
+# Drug_Target_7_Molecular_Weight:
+29089
+
+# Drug_Target_7_Name:
+Low affinity immunoglobulin gamma Fc region receptor III-A
+
+# Drug_Target_7_Number_of_Residues:
+254
+
+# Drug_Target_7_PDB_ID:
+1E4K
+
+# Drug_Target_7_Pathway:
+Not Available
+
+# Drug_Target_7_Pfam_Domain_Function:
+PF00047	ig
+
+# Drug_Target_7_Protein_Sequence:
+>Low affinity immunoglobulin gamma Fc region receptor III-A
+MWQLLLPTALLLLVSAGMRTEDLPKAVVFLEPQWYRVLEKDSVTLKCQGAYSPEDNSTQW
+FHNESLISSQASSYFIDAATVDDSGEYRCQTNLSTLSDPVQLEVHIGWLLLQAPRWVFKE
+EDPIHLRCHSWKNTALHKVTYLQNGKGRKYFHHNSDFYIPKATLKDSGSYFCRGLFGSKN
+VSSETVNITITQGLAVSTISSFFPPGYQVSFCLVMVLLFAVDTGLYFSVKTNIRSSTRDW
+KDHKFKWRKDPQDK
+
+# Drug_Target_7_Reaction:
+Not Available
+
+# Drug_Target_7_Signals:
+1-16
+
+# Drug_Target_7_Specific_Function:
+Receptor for the Fc region of IgG. Binds complexed or aggregated IgG and also monomeric IgG. Mediates antibody-dependent cellular cytotoxicity (ADCC) and other antibody-dependent responses, such as phagocytosis
+
+# Drug_Target_7_SwissProt_ID:
+P08637
+
+# Drug_Target_7_SwissProt_Name:
+FCG3A_HUMAN
+
+# Drug_Target_7_Synonyms:
+CD16a antigen
+Fc-gamma RIII
+Fc-gamma RIII-alpha
+Fc-gamma RIIIa
+FcR-10
+FcRIII
+FcRIIIa
+IgG Fc receptor III-2
+Low affinity immunoglobulin gamma Fc region receptor III-A precursor
+
+# Drug_Target_7_Theoretical_pI:
+8.21
+
+# Drug_Target_7_Transmembrane_Regions:
+209-229
+
+# Drug_Target_8_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_8_Chromosome_Location:
+Not Available
+
+# Drug_Target_8_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_8_Essentiality:
+Non-Essential
+
+# Drug_Target_8_GenAtlas_ID:
+C1S
+
+# Drug_Target_8_GenBank_ID_Gene:
+X06596
+
+# Drug_Target_8_GenBank_ID_Protein:
+763110
+
+# Drug_Target_8_GeneCard_ID:
+C1S
+
+# Drug_Target_8_Gene_Name:
+C1S
+
+# Drug_Target_8_Gene_Sequence:
+>2067 bp
+ATGTGGTGCATTGTCCTGTTTTCACTTTTGGCATGGGTTTATGCTGAGCCTACCATGTAT
+GGGGAGATCCTGTCCCCTAACTATCCTCAGGCATATCCCAGTGAGGTAGAGAAATCTTGG
+GACATAGAAGTTCCTGAAGGGTATGGGATTCACCTCTACTTCACCCATCTGGACATTGAG
+CTGTCAGAGAACTGTGCGTATGACTCAGTGCAGATAATCTCAGGAGACACTGAAGAAGGG
+AGGCTCTGTGGACAGAGGAGCAGTAACAATCCCCACTCTCCAATTGTGGAAGAGTTCCAA
+GTCCCATACAACAAACTCCAGGTGATCTTTAAGTCAGACTTTTCCAATGAAGAGCGTTTT
+ACGGGGTTTGCTGCATACTATGTTGCCACAGACATAAATGAATGCACAGATTTTGTAGAT
+GTCCCTTGTAGCCACTTCTGCAACAATTTCATTGGTGGTTACTTCTGCTCCTGCCCCCCG
+GAATATTTCCTCCATGATGACATGAAGAATTGCGGAGTTAATTGCAGTGGGGATGTATTC
+ACTGCACTGATTGGGGAGATTGCAAGTCCCAATTATCCCAAACCATATCCAGAGAACTCA
+AGGTGTGAATACCAGATCCGGTTGGAGAAAGGGTTCCAAGTGGTGGTGACCTTGCGGAGA
+GAAGATTTTGATGTGGAAGCAGCTGACTCAGCGGGAAACTGCCTTGACAGTTTAGTTTTT
+GTTGCAGGAGATCGGCAATTTGGTCCTTACTGTGGTCATGGATTCCCTGGGCCTCTAAAT
+ATTGAAACCAAGAGTAATGCTCTTGATATCATCTTCCAAACTGATCTAACAGGGCAAAAA
+AAGGGCTGGAAACTTCGCTATCATGGAGATCCAATGCCCTGCCCTAAGGAAGACACTCCC
+AATTCTGTTTGGGAGCCTGCGAAGGCAAAATATGTCTTTAGAGATGTGGTGCAGATAACC
+TGTCTGGATGGGTTTGAAGTTGTGGAGGGACGTGTTGGTGCAACATCTTTCTATTCGACT
+TGTCAAAGCAATGGAAAGTGGAGTAATTCCAAACTGAAATGTCAACCTGTGGACTGTGGC
+ATTCCTGAATCCATTGAGAATGGTAAAGTTGAAGACCCAGAGAGCACTTTGTTTGGTTCT
+GTCATCCGCTACACTTGTGAGGAGCCATATTACTACATGGAAAATGGAGGAGGTGGGGAG
+TATCACTGTGCTGGTAACGGGAGCTGGGTGAATGAGGTGCTGGGCCCGGAGCTGCCGAAA
+TGTGTTCCAGTCTGTGGAGTCCCCAGAGAACCCTTTGAAGAAAAACAGAGGATAATTGGA
+GGATCCGATGCAGATATTAAAAACTTCCCCTGGCAAGTCTTCTTTGACAACCCATGGGCT
+GGTGGAGCGCTCATTAATGAGTACTGGGTGCTGACGGCTGCTCATGTTGTGGAGGGAAAC
+AGGGAGCCAACAATGTATGTTGGGTCCACCTCAGTGCAGACCTCACGGCTGGCAAAATCC
+AAGATGCTCACTCCTGAGCATGTGTTTATTCATCCGGGATGGAAGCTGCTGGAAGTCCCA
+GAAGGACGAACCAATTTTGATAATGACATTGCACTGGTGCGGCTGAAAGACCCAGTGAAA
+ATGGGACCCACCGTCTCTCCCATCTGCCTACCAGGCACCTCTTCCGACTACAACCTCATG
+GATGGGGACCTGGGACTGATCTCAGGCTGGGGCCGAACAGAGAAGAGAGATCGTGCTGTT
+CGCCTCAAGGCGGCAAGGTTACCTGTAGCTCCTTTAAGAAAATGCAAAGAAGTGAAAGTG
+GAGAAACCCACAGCAGATGCAGAGGCCTATGTTTTCACTCCTAACATGATCTGTGCTGGA
+GGAGAGAAGGGCATGGATAGCTGTAAAGGGGACAGTGGTGGGGCCTTTGCTGTACAGGAT
+CCCAATGACAAGACCAAATTCTACGCAGCTGGCCTGGTGTCCTGGGGGCCCCAGTGTGGG
+ACCTATGGGCTCTACACACGGGTAAAGAACTATGTTGACTGGATAATGAAGACTATGCAG
+GAAAATAGCACCCCCCGTGAGGACTAA
+
+# Drug_Target_8_General_Function:
+Involved in calcium ion binding
+
+# Drug_Target_8_General_References:
+11390518	Dragon-Durey MA, Quartier P, Fremeaux-Bacchi V, Blouin J, de Barace C, Prieur AM, Weiss L, Fridman WH: Molecular basis of a selective C1s deficiency associated with early onset multiple autoimmune diseases. J Immunol. 2001 Jun 15;166(12):7612-6.
+1854725	Illy C, Thielens NM, Gagnon J, Arlaud GJ: Effect of lactoperoxidase-catalyzed iodination on the Ca(2+)-dependent interactions of human C1s. Location of the iodination sites. Biochemistry. 1991 Jul 23;30(29):7135-41.
+2007122	Hess D, Schaller J, Rickli EE: Identification of the disulfide bonds of human complement C1s. Biochemistry. 1991 Mar 19;30(11):2827-33.
+2459702	Kusumoto H, Hirosawa S, Salier JP, Hagen FS, Kurachi K: Human genes for complement components C1r and C1s in a close tail-to-tail arrangement. Proc Natl Acad Sci U S A. 1988 Oct;85(19):7307-11.
+2553984	Tosi M, Duponchel C, Meo T, Couture-Tosi E: Complement genes C1r and C1s feature an intronless serine protease domain closely related to haptoglobin. J Mol Biol. 1989 Aug 20;208(4):709-14.
+2831944	Tosi M, Duponchel C, Meo T, Julier C: Complete cDNA sequence of human complement Cls and close physical linkage of the homologous genes Cls and Clr. Biochemistry. 1987 Dec 29;26(26):8516-24.
+3007145	Spycher SE, Nick H, Rickli EE: Human complement component C1s. Partial sequence determination of the heavy chain and identification of the peptide bond cleaved during activation. Eur J Biochem. 1986 Apr 1;156(1):49-57.
+3500856	Mackinnon CM, Carter PE, Smyth SJ, Dunbar B, Fothergill JE: Molecular cloning of cDNA for human complement component C1s. The complete amino acid sequence. Eur J Biochem. 1987 Dec 15;169(3):547-53.
+6362661	Carter PE, Dunbar B, Fothergill JE: The serine proteinase chain of human complement component C1s. Cyanogen bromide cleavage and N-terminal sequences of the fragments. Biochem J. 1983 Dec 1;215(3):565-71.
+7779774	Rossi V, Gaboriaud C, Lacroix M, Ulrich J, Fontecilla-Camps JC, Gagnon J, Arlaud GJ: Structure of the catalytic region of human complement protease C1s: study by chemical cross-linking and three-dimensional homology modeling. Biochemistry. 1995 Jun 6;34(22):7311-21.
+9794427	Endo Y, Takahashi M, Nakao M, Saiga H, Sekine H, Matsushita M, Nonaka M, Fujita T: Two lineages of mannose-binding lectin-associated serine protease (MASP) in vertebrates. J Immunol. 1998 Nov 1;161(9):4924-30.
+
+# Drug_Target_8_HGNC_ID:
+HGNC:1247
+
+# Drug_Target_8_HPRD_ID:
+00397
+
+# Drug_Target_8_ID:
+2782
+
+# Drug_Target_8_Locus:
+12p13
+
+# Drug_Target_8_Molecular_Weight:
+76685
+
+# Drug_Target_8_Name:
+Complement C1s subcomponent
+
+# Drug_Target_8_Number_of_Residues:
+688
+
+# Drug_Target_8_PDB_ID:
+1ELV
+
+# Drug_Target_8_Pathway:
+Not Available
+
+# Drug_Target_8_Pfam_Domain_Function:
+PF00008	EGF
+PF00084	Sushi
+PF00089	Trypsin
+PF00431	CUB
+
+# Drug_Target_8_Protein_Sequence:
+>Complement C1s subcomponent precursor
+MWCIVLFSLLAWVYAEPTMYGEILSPNYPQAYPSEVEKSWDIEVPEGYGIHLYFTHLDIE
+LSENCAYDSVQIISGDTEEGRLCGQRSSNNPHSPIVEEFQVPYNKLQVIFKSDFSNEERF
+TGFAAYYVATDINECTDFVDVPCSHFCNNFIGGYFCSCPPEYFLHDDMKNCGVNCSGDVF
+TALIGEIASPNYPKPYPENSRCEYQIRLEKGFQVVVTLRREDFDVEAADSAGNCLDSLVF
+VAGDRQFGPYCGHGFPGPLNIETKSNALDIIFQTDLTGQKKGWKLRYHGDPMPCPKEDTP
+NSVWEPAKAKYVFRDVVQITCLDGFEVVEGRVGATSFYSTCQSNGKWSNSKLKCQPVDCG
+IPESIENGKVEDPESTLFGSVIRYTCEEPYYYMENGGGGEYHCAGNGSWVNEVLGPELPK
+CVPVCGVPREPFEEKQRIIGGSDADIKNFPWQVFFDNPWAGGALINEYWVLTAAHVVEGN
+REPTMYVGSTSVQTSRLAKSKMLTPEHVFIHPGWKLLEVPEGRTNFDNDIALVRLKDPVK
+MGPTVSPICLPGTSSDYNLMDGDLGLISGWGRTEKRDRAVRLKAARLPVAPLRKCKEVKV
+EKPTADAEAYVFTPNMICAGGEKGMDSCKGDSGGAFAVQDPNDKTKFYAAGLVSWGPQCG
+TYGLYTRVKNYVDWIMKTMQENSTPRED
+
+# Drug_Target_8_Reaction:
+Cleavage of Arg!Ala bond in complement component C4 to form C4a and C4b, and Lys(or Arg)!Lys bond in complement component C2 to form C2a and C2b: the "classical" pathway C3 convertase
+
+# Drug_Target_8_Signals:
+1-15
+
+# Drug_Target_8_Specific_Function:
+C1s B chain is a serine protease that combines with C1q and C1s to form C1, the first component of the classical pathway of the complement system. C1r activates C1s so that it can, in turn, activate C2 and C4
+
+# Drug_Target_8_SwissProt_ID:
+P09871
+
+# Drug_Target_8_SwissProt_Name:
+C1S_HUMAN
+
+# Drug_Target_8_Synonyms:
+C1 esterase
+Complement C1s subcomponent precursor
+EC 3.4.21.42
+
+# Drug_Target_8_Theoretical_pI:
+4.59
+
+# Drug_Target_8_Transmembrane_Regions:
+None
+
+# Drug_Target_9_Cellular_Location:
+Membrane
+single-pass type I membrane protein
+
+# Drug_Target_9_Chromosome_Location:
+Not Available
+
+# Drug_Target_9_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_9_Essentiality:
+Non-Essential
+
+# Drug_Target_9_GenAtlas_ID:
+FCGR1A
+
+# Drug_Target_9_GenBank_ID_Gene:
+X14356
+
+# Drug_Target_9_GenBank_ID_Protein:
+31332
+
+# Drug_Target_9_GeneCard_ID:
+FCGR1A
+
+# Drug_Target_9_Gene_Name:
+FCGR1A
+
+# Drug_Target_9_Gene_Sequence:
+>1125 bp
+ATGTGGTTCTTGACAACTCTGCTCCTTTGGGTTCCAGTTGATGGGCAAGTGGACACCACA
+AAGGCAGTGATCTCTTTGCAGCCTCCATGGGTCAGCGTGTTCCAAGAGGAAACCGTAACC
+TTGCACTGTGAGGTGCTCCATCTGCCTGGGAGCAGCTCTACACAGTGGTTTCTCAATGGC
+ACAGCCACTCAGACCTCGACCCCCAGCTACAGAATCACCTCTGCCAGTGTCAATGACAGT
+GGTGAATACAGGTGCCAGAGAGGTCTCTCAGGGCGAAGTGACCCCATACAGCTGGAAATC
+CACAGAGGCTGGCTACTACTGCAGGTCTCCAGCAGAGTCTTCACGGAAGGAGAACCTCTG
+GCCTTGAGGTGTCATGCGTGGAAGGATAAGCTGGTGTACAATGTGCTTTACTATCGAAAT
+GGCAAAGCCTTTAAGTTTTTCCACTGGAATTCTAACCTCACCATTCTGAAAACCAACATA
+AGTCACAATGGCACCTACCATTGCTCAGGCATGGGAAAGCATCGCTACACATCAGCAGGA
+ATATCTGTCACTGTGAAAGAGCTATTTCCAGCTCCAGTGCTGAATGCATCTGTGACATCC
+CCACTCCTGGAGGGGAATCTGGTCACCCTGAGCTGTGAAACAAAGTTGCTCTTGCAGAGG
+CCTGGTTTGCAGCTTTACTTCTCCTTCTACATGGGCAGCAAGACCCTGCGAGGCAGGAAC
+ACATCCTCTGAATACCAAATACTAACTGCTAGAAGAGAAGACTCTGGGTTATACTGGTGC
+GAGGCTGCCACAGAGGATGGAAATGTCCTTAAGCGCAGCCCTGAGTTGGAGCTTCAAGTG
+CTTGGCCTCCAGTTACCAACTCCTGTCTGGTTTCATGTCCTTTTCTATCTGGCAGTGGGA
+ATAATGTTTTTAGTGAACACTGTTCTCTGGGTGACAATACGTAAAGAACTGAAAAGAAAG
+AAAAAGTGGGATTTAGAAATCTCTTTGGATTCTGGTCATGAGAAGAAGGTAACTTCCAGC
+CTTCAAGAAGACAGACATTTAGAAGAAGAGCTGAAATGTCAGGAACAAAAAGAAGAACAG
+CTGCAGGAAGGGGTGCACCGGAAGGAGCCCCAGGGGGCCACGTAG
+
+# Drug_Target_9_General_Function:
+Involved in receptor signaling protein activity
+
+# Drug_Target_9_General_References:
+1379234	Ernst LK, van de Winkel JG, Chiu IM, Anderson CL: Three genes for the human high affinity Fc receptor for IgG (Fc gamma RI) encode four distinct transcription products. J Biol Chem. 1992 Aug 5;267(22):15692-700.
+1402657	Benech PD, Sastry K, Iyer RR, Eichbaum QG, Raveh DP, Ezekowitz RA: Definition of interferon gamma-response elements in a novel human Fc gamma receptor gene (Fc gamma RIb) and characterization of the gene structure. J Exp Med. 1992 Oct 1;176(4):1115-23.
+1430234	Porges AJ, Redecha PB, Doebele R, Pan LC, Salmon JE, Kimberly RP: Novel Fc gamma receptor I family gene products in human mononuclear cells. J Clin Invest. 1992 Nov;90(5):2102-9.
+2911749	Allen JM, Seed B: Isolation and expression of functional high-affinity Fc receptor complementary DNAs. Science. 1989 Jan 20;243(4889):378-81.
+2974947	Allen JM, Seed B: Nucleotide sequence of three cDNAs for the human high affinity Fc receptor (FcRI). Nucleic Acids Res. 1988 Dec 23;16(24):11824.
+
+# Drug_Target_9_HGNC_ID:
+HGNC:3613
+
+# Drug_Target_9_HPRD_ID:
+00904
+
+# Drug_Target_9_ID:
+784
+
+# Drug_Target_9_Locus:
+1q21.2-q21.3
+
+# Drug_Target_9_Molecular_Weight:
+42632
+
+# Drug_Target_9_Name:
+High affinity immunoglobulin gamma Fc receptor I
+
+# Drug_Target_9_Number_of_Residues:
+374
+
+# Drug_Target_9_PDB_ID:
+Not Available
+
+# Drug_Target_9_Pathway:
+Not Available
+
+# Drug_Target_9_Pfam_Domain_Function:
+PF00047	ig
+
+# Drug_Target_9_Protein_Sequence:
+>High affinity immunoglobulin gamma Fc receptor I precursor
+MWFLTTLLLWVPVDGQVDTTKAVITLQPPWVSVFQEETVTLHCEVLHLPGSSSTQWFLNG
+TATQTSTPSYRITSASVNDSGEYRCQRGLSGRSDPIQLEIHRGWLLLQVSSRVFTEGEPL
+ALRCHAWKDKLVYNVLYYRNGKAFKFFHWNSNLTILKTNISHNGTYHCSGMGKHRYTSAG
+ISVTVKELFPAPVLNASVTSPLLEGNLVTLSCETKLLLQRPGLQLYFSFYMGSKTLRGRN
+TSSEYQILTARREDSGLYWCEAATEDGNVLKRSPELELQVLGLQLPTPVWFHVLFYLAVG
+IMFLVNTVLWVTIRKELKRKKKWDLEISLDSGHEKKVISSLQEDRHLEEELKCQEQKEEQ
+LQEGVHRKEPQGAT
+
+# Drug_Target_9_Reaction:
+Not Available
+
+# Drug_Target_9_Signals:
+1-15
+
+# Drug_Target_9_Specific_Function:
+Binds to the Fc region of immunoglobulins gamma. High affinity receptor
+
+# Drug_Target_9_SwissProt_ID:
+P12314
+
+# Drug_Target_9_SwissProt_Name:
+FCGR1_HUMAN
+
+# Drug_Target_9_Synonyms:
+CD64 antigen
+Fc-gamma RI
+FcRI
+High affinity immunoglobulin gamma Fc receptor I precursor
+IgG Fc receptor I
+
+# Drug_Target_9_Theoretical_pI:
+8.08
+
+# Drug_Target_9_Transmembrane_Regions:
+293-313
+
+#END_DRUGCARD DB00051

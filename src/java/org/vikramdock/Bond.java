@@ -11,10 +11,10 @@ import java.lang.*;
 import java.lang.reflect.*;
 
 public class Bond {
-	Atom first;
-	Atom second;
-	double equildist;
-	double k;
+	private Atom first;
+	private Atom second;
+	private double equildist;
+	private double k;
 	public Bond(Atom first, Atom second, double k) {
 		if (first != null && second != null) {
 			this.first = first;

@@ -1,0 +1,575 @@
+#BEGIN_DRUGCARD DB00531
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01AA01
+L01DB07
+
+# Absorption:
+90-100%
+
+# Biotransformation:
+hepatic
+
+# Brand_Mixtures:
+Procytox for Injection 2000mg Pws Iv (Cyclophosphamide + Sodium Chloride)
+
+# Brand_Names:
+ASTA
+Asta B 518
+CY
+Clafen
+Claphene
+Cyclophosphamid
+Cyclophosphamide Monohydrate
+Cyclophosphamide Sterile
+Cyclophosphamidum
+Cyclophosphan
+Cyclophosphane
+Cyclophosphoramide
+Cyclostin
+Cyklofosfamid
+Cytophosphan
+Cytoxan
+Cytoxan Lyoph
+Endoxan
+Endoxan R
+Endoxan-Asta
+Endoxana
+Endoxanal
+Endoxane
+Enduxan
+Genoxal
+Hexadrin
+Lyophilized Cytoxan
+Mitoxan
+Neosar
+Procytox
+Rcra Waste Number U058
+Revimmune
+Semdoxan
+Sendoxan
+Senduxan
+Zyklophosphamid
+
+# CAS_Registry_Number:
+6055-19-2
+
+# ChEBI_ID:
+4027
+
+# Chemical_Formula:
+C7H15Cl2N2O2P
+
+# Chemical_IUPAC_Name:
+2-[bis(2-chloroethyl)amino]-1,3,2$l^{5}-oxazaphosphinan-2-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2241797
+
+# Description:
+Precursor of an alkylating nitrogen mustard antineoplastic and immunosuppressive agent that must be activated in the liver to form the active aldophosphamide. It has been used in the treatment of lymphoma and leukemia. Its side effect, alopecia, has been used for defleecing sheep. Cyclophosphamide may also cause sterility, birth defects, mutations, and cancer. [PubChem]
+
+# Dosage_Forms:
+Powder, for solution	Intravenous
+Solution	Intravenous
+Tablet	Oral
+
+# Drug_Category:
+Antineoplastic Agents
+Antineoplastic Agents, Alkylating
+Antirheumatic Agents
+Immunosuppressive Agents
+Mutagens
+Myeloablative Agonists
+
+# Drug_Interactions:
+Acenocoumarol	The antineoplastic agent, cyclophosphamide may alter the anticoagulant effect of acenocoumarol.
+Anisindione	The antineoplastic agent, cyclophosphamide may alter the anticoagulant effect of anisindione.
+Bendamustine	Increases toxicity through pharmacodynamic synergism. Additive myelosuppression.
+Dicumarol	The antineoplastic agent, cyclophosphamide may alter the anticoagulant effect of dicumarol.
+Digoxin	The antineoplasic agent decreases the effect of digoxin
+Fluconazole	Fluconazole reduces metabolism and clearance of cyclophosphamide.
+Pentostatin	Increased toxicity of cyclophosphamide
+Succinylcholine	Cyclophosphamide may increase the effect of succinylcholine.
+Thiotepa	Thiotepa, a strong CYP2B6 inhibitor, may decrease the metabolism and clearance of Cyclophosphamide, a CYP2B6 substrate. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of Cyclophosphamide if Thiotepa is initiated, discontinued or dose changed.
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+Warfarin	The antineoplastic agent, cyclophosphamide may alter the anticoagulant effect of warfarin.
+
+# Drug_Reference:
+2491747	Brock N: Oxazaphosphorine cytostatics: past-present-future. Seventh Cain Memorial Award lecture. Cancer Res. 1989 Jan 1;49(1):1-7.
+8697402	Brock N: The history of the oxazaphosphorine cytostatics. Cancer. 1996 Aug 1;78(3):542-7.
+
+# Drug_Type:
+Approved
+Investigational
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+0.8
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Soluble. 1-5 g/100 mL at 23 °C
+
+# Food_Interactions:
+Drink liberally- 2 to 3 liters/day.
+Take with food to reduce irritation.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Cyclophosphamide
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+3-12 hours
+
+# InChI_Identifier:
+InChI=1S/C7H15Cl2N2O2P/c8-2-5-11(6-3-9)14(12)10-4-1-7-13-14/h1-7H2,(H,10,12)
+
+# InChI_Key:
+InChIKey=CMSMOCZEIVJLDB-UHFFFAOYSA-N
+
+# Indication:
+For management of malignant lymphomas, multiple myeloma,leukemias, mycosis fungoides (advanced disease), neuroblastoma (disseminated disease), adenocarcinoma of the ovary, retinoblastoma and carcinoma of the breast
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D00287
+
+# LIMS_Drug_ID:
+531
+
+# Mechanism_Of_Action:
+Alkylating agents work by three different mechanisms: 1) attachment of alkyl groups to DNA bases, resulting in the DNA being fragmented by repair enzymes in their attempts to replace the alkylated bases, preventing DNA synthesis and RNA transcription from the affected DNA, 2) DNA damage via the formation of cross-links (bonds between atoms in the DNA) which prevents DNA from being separated for synthesis or transcription, and 3) the induction of mispairing of the nucleotides leading to mutations.
+
+# Melting_Point:
+41-45 °C
+
+# Molecular_Weight_Avg:
+261.086
+
+# Molecular_Weight_Mono:
+260.02481966
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/cyt1112.shtml
+
+# Pathways:
+Cyclophosphamide Pathway	SMP00447
+
+# PharmGKB_ID:
+PA449165
+
+# Pharmacology:
+Cyclophosphamide is an antineoplastic in the class of alkylating agents and is used to treat various forms of cancer. Alkylating agents are so named because of their ability to add alkyl groups to many electronegative groups under conditions present in cells. They stop tumor growth by cross-linking guanine bases in DNA double-helix strands - directly attacking DNA. This makes the strands unable to uncoil and separate. As this is necessary in DNA replication, the cells can no longer divide. In addition, these drugs add methyl or other alkyl groups onto molecules where they do not belong which in turn inhibits their correct utilization by base pairing and causes a miscoding of DNA. Alkylating agents are cell cycle-nonspecific. Alkylating agents work by three different mechanisms all of which achieve the same end result - disruption of DNA function and cell death.
+
+# Predicted_LogP_Hydrophobicity:
+0.76
+
+# Predicted_LogS:
+-1.2
+
+# Predicted_Water_Solubility:
+1.51e+01 g/l
+
+# Primary_Accession_No:
+DB00531
+
+# Protein_Binding:
+>60%
+
+# PubChem_Compound_ID:
+2907
+
+# PubChem_Substance_ID:
+46505441
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/cyclophosphamide.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00408
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+ClCCN(CCCl)P1(=O)NCCCO1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+infection, myelosuppression, and cardiac toxicity
+
+# Update_Date:
+2013-02-08 16:19:25 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Cyclophosphamide
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P11712
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2C8
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+4924
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2C8
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2C8
+MEPFVVLVLCLSFMLLFSLWRQSCRRRKLPPGPTPLPIIGNMLQIDVKDICKSFTNFSKV
+YGPVFTVYFGMNPIVVFHGYEAVKEALIDNGEEFSGRGNSPISQRITKGLGIISSNGKRW
+KEIRRFSLTTLRNFGMGKRSIEDRVQEEAHCLVEELRKTKASPCDPTFILGCAPCNVICS
+VVFQKRFDYKDQNFLTLMKRFNENFRILNSPWIQVCNNFPLLIDCFPGTHNKVLKNVALT
+RSYIREKVKEHQASLDVNNPRDFIDCFLIKMEQEKDNQKSEFNIENLVGTVADLFVAGTE
+TTSTTLRYGLLLLLKHPEVTAKVQEEIDHVIGRHRSPCMQDRSHMPYTDAVVHEIQRYSD
+LVPTGVPHAVTTDTKFRNYLIPKGTTIMALLTSVLHDDKEFPNPNIFDPGHFLDKNGNFK
+KSDYFMPFSAGKRICAGEGLARMELFLFLTTILQNFNLKSVDDLKNLNTTAVTKGIVSLP
+PSYQICFIPV
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P10632
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+CYP2A6
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+5718
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Cytochrome P450 2A6
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Cytochrome P450 2A6
+MLASGMLLVALLVCLTVMVLMSVWQQRKSKGKLPPGPTPLPFIGNYLQLNTEQMYNSLMK
+ISERYGPVFTIHLGPRRVVVLCGHDAVREALVDQAEEFSGRGEQATFDWVFKGYGVVFSN
+GERAKQLRRFSIATLRDFGVGKRGIEERIQEEAGFLIDAHRGTGGANIDPTFFLSRTVSN
+VISSIVFGDRFDYKDKEFLSLLRMMLGIFQFTSTSTGQLYEMFSSVMKHLPGPQQQAFQL
+LQGLEDFIAKKVEHNQRTLDPNSPRDFIDSFLIRMQEEEKNPNTEFYLKNLVMTTLNLFI
+GGTETVSTTLRYGFLLLMKHPEVEAKVHEEIDRVIGKNRQPKFEDRAKMPYMEAVIHEIQ
+RFGDVIPMSLARRVKKDTKFRDFFLPKGTEVYPMLGSVLRDPSFFSNPQDFNPQHFLNEK
+GQFKKSDAFVPFSIGKRNCFGEGLARMELFLFFTTVMQNFRLKSSQSPKDIDVSPKHVGF
+ATIPRNYTMSFLPR
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P11509
+
+# Phase_1_Metabolizing_Enzyme_6_Gene_Name:
+CYP2C19
+
+# Phase_1_Metabolizing_Enzyme_6_ID:
+6016
+
+# Phase_1_Metabolizing_Enzyme_6_Name:
+Cytochrome P450 2C19
+
+# Phase_1_Metabolizing_Enzyme_6_Protein_Sequence:
+>Cytochrome P450 2C19
+MDPFVVLVLCLSCLLLLSIWRQSSGRGKLPPGPTPLPVIGNILQIDIKDVSKSLTNLSKI
+YGPVFTLYFGLERMVVLHGYEVVKEALIDLGEEFSGRGHFPLAERANRGFGIVFSNGKRW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFQKRFDYKDQQFLNLMEKLNENIRIVSTPWIQICNNFPTIIDYFPGTHNKLLKNLAFM
+ESDILEKVKEHQESMDINNPRDFIDCFLIKMEKEKQNQQSEFTIENLVITAADLLGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVVGRNRSPCMQDRGHMPYTDAVVHEVQRYID
+LIPTSLPHAVTCDVKFRNYLIPKGTTILTSLTSVLHDNKEFPNPEMFDPRHFLDEGGNFK
+KSNYFMPFSAGKRICVGEGLARMELFLFLTFILQNFNLKSLIDPKDLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_6_SwissProt_ID:
+P33261
+
+# Phase_1_Metabolizing_Enzyme_7_Gene_Name:
+CYP2B6
+
+# Phase_1_Metabolizing_Enzyme_7_ID:
+6030
+
+# Phase_1_Metabolizing_Enzyme_7_Name:
+Cytochrome P450 2B6
+
+# Phase_1_Metabolizing_Enzyme_7_Protein_Sequence:
+>Cytochrome P450 2B6
+MELSVLLFLALLTGLLLLLVQRHPNTHDRLPPGPRPLPLLGNLLQMDRRGLLKSFLRFRE
+KYGDVFTVHLGPRPVVMLCGVEAIREALVDKAEAFSGRGKIAMVDPFFRGYGVIFANGNR
+WKVLRRFSVTTMRDFGMGKRSVEERIQEEAQCLIEELRKSKGALMDPTFLFQSITANIIC
+SIVFGKRFHYQDQEFLKMLNLFYQTFSLISSVFGQLFELFSGFLKYFPGAHRQVYKNLQE
+INAYIGHSVEKHRETLDPSAPKDLIDTYLLHMEKEKSNAHSEFSHQNLNLNTLSLFFAGT
+ETTSTTLRYGFLLMLKYPHVAERVYREIEQVIGPHRPPELHDRAKMPYTEAVIYEIQRFS
+DLLPMGVPHIVTQHTSFRGYIIPKDTEVFLILSTALHDPHYFEKPDAFNPDHFLDANGAL
+KKTEAFIPFSLGKRICLGEGIARAELFLFFTTILQNFSMASPVAPEDIDLTPQECGVGKI
+PPTYQIRFLPR
+
+# Phase_1_Metabolizing_Enzyme_7_SwissProt_ID:
+P20813
+
+# Phase_1_Metabolizing_Enzyme_8_Gene_Name:
+CYP2C18
+
+# Phase_1_Metabolizing_Enzyme_8_ID:
+6106
+
+# Phase_1_Metabolizing_Enzyme_8_Name:
+Cytochrome P450 2C18
+
+# Phase_1_Metabolizing_Enzyme_8_Protein_Sequence:
+>Cytochrome P450 2C18
+MDPAVALVLCLSCLFLLSLWRQSSGRGRLPSGPTPLPIIGNILQLDVKDMSKSLTNFSKV
+YGPVFTVYFGLKPIVVLHGYEAVKEALIDHGEEFSGRGSFPVAEKVNKGLGILFSNGKRW
+KEIRRFCLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTNASPCDPTFILGCAPCNVICS
+VIFHDRFDYKDQRFLNLMEKFNENLRILSSPWIQVCNNFPALIDYLPGSHNKIAENFAYI
+KSYVLERIKEHQESLDMNSARDFIDCFLIKMEQEKHNQQSEFTVESLIATVTDMFGAGTE
+TTSTTLRYGLLLLLKYPEVTAKVQEEIECVVGRNRSPCMQDRSHMPYTDAVVHEIQRYID
+LLPTNLPHAVTCDVKFKNYLIPKGTTIITSLTSVLHNDKEFPNPEMFDPGHFLDKSGNFK
+KSDYFMPFSAGKRMCMGEGLARMELFLFLTTILQNFNLKSQVDPKDIDITPIANAFGRVP
+PLYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_8_SwissProt_ID:
+P33260
+
+# Phase_1_Metabolizing_Enzyme_9_Gene_Name:
+CYP3A7
+
+# Phase_1_Metabolizing_Enzyme_9_ID:
+6107
+
+# Phase_1_Metabolizing_Enzyme_9_Name:
+Cytochrome P450 3A7
+
+# Phase_1_Metabolizing_Enzyme_9_Protein_Sequence:
+>Cytochrome P450 3A7
+MDLIPNLAVETWLLLAVSLILLYLYGTRTHGLFKKLGIPGPTPLPFLGNALSFRKGYWTF
+DMECYKKYRKVWGIYDCQQPMLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKNAISI
+AEDEEWKRIRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKHVFGAYS
+MDVITSTSFGVSIDSLNNPQDPFVENTKKLLRFNPLDPFVLSIKVFPFLTPILEALNITV
+FPRKVISFLTKSVKQIKEGRLKETQKHRVDFLQLMIDSQNSKDSETHKALSDLELMAQSI
+IFIFAGYETTSSVLSFIIYELATHPDVQQKVQKEIDTVLPNKAPPTYDTVLQLEYLDMVV
+NETLRLFPVAMRLERVCKKDVEINGMFIPKGVVVMIPSYVLHHDPKYWREPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALVNMKLALVRVLQNFSFKPCKETQIPLKLRFG
+GLLLTEKPIVLKAESRDETVSGA
+
+# Phase_1_Metabolizing_Enzyme_9_SwissProt_ID:
+P24462
+
+# Drug_Target_1_Cellular_Location:
+Nucleus and mitochondria
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+17893968	Schmidt E, Tony HP, Brocker EB, Kneitz C: Sun-induced life-threatening lupus nephritis. Ann N Y Acad Sci. 2007 Jun;1108:35-40.
+17904265	Zhang QH, Wu CF, Duan L, Yang JY: Protective effects of total saponins from stem and leaf of Panax ginseng against cyclophosphamide-induced genotoxicity and apoptosis in mouse bone marrow cells and peripheral lymphocyte cells. Food Chem Toxicol. 2007 Aug 23;.
+17922622	Khan O, Middleton MR: The therapeutic potential of O6-alkylguanine DNA alkyltransferase inhibitors. Expert Opin Investig Drugs. 2007 Oct;16(10):1573-84.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+>Example: Dickerson dodecamer
+CGCGAATTCGCG
+
+# Drug_Target_1_General_Function:
+Biological information storage and information transfer
+
+# Drug_Target_1_General_References:
+1234	Nadeau D, Marchand C: Change in the kinetics of sulphacetamide tissue distribution in Walker tumor-bearing rats. Drug Metab Dispos. 1975 Nov-Dec;3(6):565-76.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+874
+
+# Drug_Target_1_Locus:
+All loci
+
+# Drug_Target_1_Molecular_Weight:
+7656 (double strand)
+
+# Drug_Target_1_Name:
+DNA
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+1BNA
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+DNA + DNA polymerase + nNTP = 2 DNA + nNDP; DNA + RNA polymerase + NTP = mRNA + nNDP
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+DNA is the molecule of heredity, as it is responsible for the genetic propagation of most inherited traits. It is a polynucleic acid that carries genetic information on cell growth, division, and function. DNA consists of two long strands of nucleotides twisted into a double helix and held together by hydrogen bonds. The sequence of nucleotides determines hereditary characteristics. Each strand serves as the template for subsequent DNA replication and as a template for mRNA production, leading to protein synthesis via ribosomes.
+
+# Drug_Target_1_SwissProt_ID:
+Not Available
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Deoxyribonucleic acid
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00531

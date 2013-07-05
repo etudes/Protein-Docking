@@ -11,17 +11,17 @@ import java.lang.*;
 import java.lang.reflect.*;
 
 public class PsuedoTestCase {
-	PsuedoProteinStruct ps1;
-	PsuedoProteinStruct ps2;
-	PsuedoProteinStruct newps1;
-	PsuedoProteinStruct newps2;
-	ArrayList<Atom> ps1struct;
-	ArrayList<Atom> ps2struct;
-	ArrayList<Atom> surfacebya;
-	ArrayList<PsuedoProteinStruct> surfacebyps;
-	double score;
-	double[][][] ps1newsizes;
-	double[][][] ps2newsizes;
+	private PsuedoProteinStruct ps1;
+	private PsuedoProteinStruct ps2;
+	private PsuedoProteinStruct newps1;
+	private PsuedoProteinStruct newps2;
+	private ArrayList<Atom> ps1struct;
+	private ArrayList<Atom> ps2struct;
+	private ArrayList<Atom> surfacebya;
+	private ArrayList<PsuedoProteinStruct> surfacebyps;
+	private double score;
+	private double[][][] ps1newsizes;
+	private double[][][] ps2newsizes;
 	public PsuedoTestCase(PsuedoProteinStruct ps1, PsuedoProteinStruct ps2) {
 		surfacebya = new ArrayList<Atom>();
 		surfacebyps = new ArrayList<PsuedoProteinStruct>();
@@ -192,7 +192,7 @@ public class PsuedoTestCase {
 			solvEtot += solvE;
 		}
 		//bond stretching
-		ArrayList ps1bonds = newps1.getSurfaceBonds();
+		ArrayList<Bond> ps1bonds = newps1.getSurfaceBonds();
 		for (int i = 0; i < ps1bonds.size(); i++) {
 			double bStretchE = 0;
 			Bond current = (Bond)ps1bonds.get(i);
@@ -205,7 +205,7 @@ public class PsuedoTestCase {
 			}
 			bStretchEtot += bStretchE;
 		}
-		ArrayList ps2bonds = newps2.getSurfaceBonds();
+		ArrayList<Bond> ps2bonds = newps2.getSurfaceBonds();
 		for (int i = 0; i < ps2bonds.size(); i++) {
 			double bStretchE = 0;
 			Bond current = (Bond)ps2bonds.get(i);
@@ -219,7 +219,7 @@ public class PsuedoTestCase {
 			bStretchEtot += bStretchE;
 		}
 		//angle bending
-		ArrayList ps1backbone = newps1.getSurfaceBackbone();
+		ArrayList<Atom> ps1backbone = newps1.getSurfaceBackbone();
 		for (int i = 1; i < ps1backbone.size() - 1; i++) {
 			double aBendE = 0;
 			Atom current = (Atom)ps1backbone.get(i);
@@ -237,7 +237,7 @@ public class PsuedoTestCase {
 				aBendEtot += aBendE;
 			}
 		}
-		ArrayList ps2backbone = newps2.getSurfaceBackbone();
+		ArrayList<Atom> ps2backbone = newps2.getSurfaceBackbone();
 		for (int i = 1; i < ps2backbone.size() - 1; i++) {
 			double aBendE = 0;
 			Atom current = (Atom)ps2backbone.get(i);
@@ -256,7 +256,7 @@ public class PsuedoTestCase {
 			}
 		}
 		//torsion
-		ArrayList ps1backbonebonds = newps1.getSurfaceBackboneBonds();
+		ArrayList<Bond> ps1backbonebonds = newps1.getSurfaceBackboneBonds();
 		for (int i = 1; i < ps1backbonebonds.size() - 1; i++) {
 			double torsE = 0;
 			Bond current = (Bond)ps1backbonebonds.get(i);
@@ -273,7 +273,7 @@ public class PsuedoTestCase {
 				torsEtot += torsE;
 			}
 		}
-		ArrayList ps2backbonebonds = newps2.getSurfaceBackboneBonds();
+		ArrayList<Bond> ps2backbonebonds = newps2.getSurfaceBackboneBonds();
 		for (int i = 1; i < ps2backbonebonds.size() - 1; i++) {
 			double torsE = 0;
 			Bond current = (Bond)ps2backbonebonds.get(i);
@@ -305,10 +305,10 @@ public class PsuedoTestCase {
 	public PsuedoProteinStruct getNewPS2() {
 		return newps2;
 	}
-	public ArrayList getSurfacebya() {
+	public ArrayList<Atom> getSurfacebya() {
 		return surfacebya;
 	}
-	public ArrayList getSurfacebyps() {
+	public ArrayList<PsuedoProteinStruct> getSurfacebyps() {
 		return surfacebyps;
 	}
 	public double getScore() {

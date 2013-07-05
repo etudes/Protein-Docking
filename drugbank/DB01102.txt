@@ -1,0 +1,658 @@
+#BEGIN_DRUGCARD DB01102
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+C01CA22
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Primarily metabolized to methoxyarbutamine. Another possible metabolite is ketoarbutamine. The metabolites of arbutamine appear to have less pharmacological activity and a longer half-life and than the parental drug.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+GenESA
+
+# CAS_Registry_Number:
+128470-16-6
+
+# ChEBI_ID:
+50580
+
+# Chemical_Formula:
+C18H23NO4
+
+# Chemical_IUPAC_Name:
+4-[(1R)-1-hydroxy-2-{[4-(4-hydroxyphenyl)butyl]amino}ethyl]benzene-1,2-diol
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Arbutamine, administered through a closed-loop, computer-controlled drug-delivery system, is indicated to elicit acute cardiovascular responses, similar to those produced by exercise, in order to aid in diagnosing the presence or absence of coronary artery disease in patients who cannot exercise adequately .
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Adrenergic beta-Agonists
+Cardiotonic Agents
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+2.9
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Arbutamine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Elimination half-life is approximately 8 minutes.
+
+# InChI_Identifier:
+InChI=1S/C18H23NO4/c20-15-7-4-13(5-8-15)3-1-2-10-19-12-18(23)14-6-9-16(21)17(22)11-14/h4-9,11,18-23H,1-3,10,12H2/t18-/m0/s1
+
+# InChI_Key:
+InChIKey=IIRWWTKISYTTBL-SFHVURJKSA-N
+
+# Indication:
+Used to elicit acute cardiovascular responses (cardiac stumulant), similar to those produced by exercise, in order to aid in diagnosing the presence or absence of coronary artery disease (CAD) in patients who cannot exercise adequately.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+1102
+
+# Mechanism_Of_Action:
+Arbutamine is a synthetic catecholamine with positive chronotropic and inotropic properties. The chronotropic (increase in heart rate) and inotropic (increase in force of contraction) effects of arbutamine serve to mimic exercise by increasing cardiac work (producing stress) and provoke myocardial ischemia in patients with compromised coronary arteries. The increase in heart rate caused by arbutamine is thought to limit regional subendocardial perfusion, thereby limiting tissue oxygenation. In functional assays, arbutamine is more selective for beta-adrenergic receptors than for alpha-adrenergic receptors. The beta-agonist activity of arbutamine provides cardiac stress by increasing heart rate, cardiac contractility, and systolic blood pressure. The degree of hypotension that occurs for a given chronotropic activity is less with arbutamine than, for example, with isoproterenol because alpha receptor activity is retained.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+317.3795
+
+# Molecular_Weight_Mono:
+317.162708229
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164747979
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+2.08
+
+# Predicted_LogS:
+-3.6
+
+# Predicted_Water_Solubility:
+8.42e-02 g/l
+
+# Primary_Accession_No:
+DB01102
+
+# Protein_Binding:
+58%
+
+# PubChem_Compound_ID:
+60789
+
+# PubChem_Substance_ID:
+46509010
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00802
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+O[C@@H](CNCCCCC1=CC=C(O)C=C1)C1=CC(O)=C(O)C=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:19:54 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cell membrane
+multi-pass membrane protein. Localized at the plasma membrane. Found in the Golgi upo
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+8723169	Abou-Mohamed G, Nagarajan R, Ibrahim TM, Caldwell RW: Characterization of the adrenergic activity of arbutamine, a novel agent for pharmacological stress testing. Cardiovasc Drugs Ther. 1996 Mar;10(1):39-47.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+ADRB1
+
+# Drug_Target_1_GenBank_ID_Gene:
+J03019
+
+# Drug_Target_1_GenBank_ID_Protein:
+178200
+
+# Drug_Target_1_GeneCard_ID:
+ADRB1
+
+# Drug_Target_1_Gene_Name:
+ADRB1
+
+# Drug_Target_1_Gene_Sequence:
+>1434 bp
+ATGGGCGCGGGGGTGCTCGTCCTGGGCGCCTCCGAGCCCGGTAACCTGTCGTCGGCCGCA
+CCGCTCCCCGACGGCGCGGCCACCGCGGCGCGGCTGCTGGTGCCCGCGTCGCCGCCCGCC
+TCGTTGCTGCCTCCCGCCAGCGAAAGCCCCGAGCCGCTGTCTCAGCAGTGGACAGCGGGC
+ATGGGTCTGCTGATGGCGCTCATCGTGCTGCTCATCGTGGCGGGCAATGTGCTGGTGATC
+GTGGCCATCGCCAAGACGCCGCGGCTGCAGACGCTCACCAACCTCTTCATCATGTCCCTG
+GCCAGCGCCGACCTGGTCATGGGGCTGCTGGTGGTGCCGTTCGGGGCCACCATCGTGGTG
+TGGGGCCGCTGGGAGTACGGCTCCTTCTTCTGCGAGCTGTGGACCTCAGTGGACGTGCTG
+TGCGTGACGGCCAGCATCGAGACCCTGTGTGTCATTGCCCTGGACCGCTACCTCGCCATC
+ACCTCGCCCTTCCGCTACCAGAGCCTGCTGACGCGCGCGCGGGCGCGGGGCCTCGTGTGC
+ACCGTGTGGGCCATCTCGGCCCTGGTGTCCTTCCTGCCCATCCTCATGCACTGGTGGCGG
+GCGGAGAGCGACGAGGCGCGCCGCTGCTACAACGACCCCAAGTGCTGCGACTTCGTCACC
+AACCGGGCCTACGCCATCGCCTCGTCCGTAGTCTCCTTCTACGTGCCCCTGTGCATCATG
+GCCTTCGTGTACCTGCGGGTGTTCCGCGAGGCCCAGAAGCAGGTGAAGAAGATCGACAGC
+TGCGAGCGCCGTTTCCTCGGCGGCCCAGCGCGGCCGCCCTCGCCCTCGCCCTCGCCCGTC
+CCCGCGCCCGCGCCGCCGCCCGGACCCCCGCGCCCCGCCGCCGCCGCCGCCACCGCCCCG
+CTGGCCAACGGGCGTGCGGGTAAGCGGCGGCCCTCGCGCCTCGTGGCCCTACGCGAGCAG
+AAGGCGCTCAAGACGCTGGGCATCATCATGGGCGTCTTCACGCTCTGCTGGCTGCCCTTC
+TTCCTGGCCAACGTGGTGAAGGCCTTCCACCGCGAGCTGGTGCCCGACCGCCTCTTCGTC
+TTCTTCAACTGGCTGGGCTACGCCAACTCGGCCTTCAACCCCATCATCTACTGCCGCAGC
+CCCGACTTCCGCAAGGCCTTCCAGGGACTGCTCTGCTGCGCGCGCAGGGCTGCCCGCCGG
+CGCCACGCGACCCACGGAGACCGGCCGCGCGCCTCGGGCTGTCTGGCCCGGCCCGGACCC
+CCGCCATCGCCCGGGGCCGCCTCGGACGACGACGACGACGATGTCGTCGGGGCCACGCCG
+CCCGCGCGCCTGCTGGAGCCCTGGGCCGGCTGCAACGGCGGGGCGGCGGCGGACAGCGAC
+TCGAGCCTGGACGAGCCGTGCCGCCCCGGCTTCGCCTCGGAATCCAAGGTGTAG
+
+# Drug_Target_1_General_Function:
+Involved in beta1-adrenergic receptor activity
+
+# Drug_Target_1_General_References:
+10212248	Mason DA, Moore JD, Green SA, Liggett SB: A gain-of-function polymorphism in a G-protein coupling domain of the human beta1-adrenergic receptor. J Biol Chem. 1999 Apr 30;274(18):12670-4.
+10477438	Moore JD, Mason DA, Green SA, Hsu J, Liggett SB: Racial differences in the frequencies of cardiac beta(1)-adrenergic receptor polymorphisms: analysis of c145A>G and c1165G>C. Hum Mutat. 1999 Sep 19;14(3):271.
+11052857	Borjesson M, Magnusson Y, Hjalmarson A, Andersson B: A novel polymorphism in the gene coding for the beta(1)-adrenergic receptor associated with survival in patients with heart failure. Eur Heart J. 2000 Nov;21(22):1853-8.
+11854867	Ranade K, Jorgenson E, Sheu WH, Pei D, Hsiung CA, Chiang FT, Chen YD, Pratt R, Olshen RA, Curb D, Cox DR, Botstein D, Risch N: A polymorphism in the beta1 adrenergic receptor is associated with resting heart rate. Am J Hum Genet. 2002 Apr;70(4):935-42. Epub 2002 Feb 18.
+2825170	Frielle T, Collins S, Daniel KW, Caron MG, Lefkowitz RJ, Kobilka BK: Cloning of the cDNA for the human beta 1-adrenergic receptor. Proc Natl Acad Sci U S A. 1987 Nov;84(22):7920-4.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:285
+
+# Drug_Target_1_HPRD_ID:
+00181
+
+# Drug_Target_1_ID:
+193
+
+# Drug_Target_1_Locus:
+10q24-q26
+
+# Drug_Target_1_Molecular_Weight:
+51323
+
+# Drug_Target_1_Name:
+Beta-1 adrenergic receptor
+
+# Drug_Target_1_Number_of_Residues:
+477
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Acebutolol Pathway	SMP00296
+Alprenolol Pathway	SMP00297
+Atenolol Pathway	SMP00298
+Betaxolol Pathway	SMP00299
+Bisoprolol Pathway	SMP00300
+Carvedilol Pathway	SMP00367
+Diltiazem Pathway	SMP00359
+Esmolol Pathway	SMP00301
+Labetalol Pathway	SMP00368
+Metoprolol Pathway	SMP00302
+Nadolol Pathway	SMP00303
+Nebivolol Pathway	SMP00366
+Oxprenolol Pathway	SMP00304
+Penbutolol Pathway	SMP00305
+Pindolol Pathway	SMP00306
+Propranolol Pathway	SMP00307
+Verapamil Pathway	SMP00375
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_1_Protein_Sequence:
+>Beta-1 adrenergic receptor
+MGAGVLVLGASEPGNLSSAAPLPDGAATAARLLVPASPPASLLPPASESPEPLSQQWTAG
+MGLLMALIVLLIVAGNVLVIVAIAKTPRLQTLTNLFIMSLASADLVMGLLVVPFGATIVV
+WGRWEYGSFFCELWTSVDVLCVTASIETLCVIALDRYLAITSPFRYQSLLTRARARGLVC
+TVWAISALVSFLPILMHWWRAESDEARRCYNDPKCCDFVTNRAYAIASSVVSFYVPLCIM
+AFVYLRVFREAQKQVKKIDSCERRFLGGPARPPSPSPSPVPAPAPPPGPPRPAAAAATAP
+LANGRAGKRRPSRLVALREQKALKTLGIIMGVFTLCWLPFFLANVVKAFHRELVPDRLFV
+FFNWLGYANSAFNPIIYCRSPDFRKAFQRLLCCARRAARRRHATHGDRPRASGCLARPGP
+PPSPGAASDDDDDDVVGATPPARLLEPWAGCNGGAAADSDSSLDEPCRPGFASESKV
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Beta-adrenergic receptors mediate the catecholamine- induced activation of adenylate cyclase through the action of G proteins. This receptor binds epinephrine and norepinephrine with approximately equal affinity
+
+# Drug_Target_1_SwissProt_ID:
+P08588
+
+# Drug_Target_1_SwissProt_Name:
+ADRB1_HUMAN
+
+# Drug_Target_1_Synonyms:
+Beta-1 adrenoceptor
+Beta-1 adrenoreceptor
+
+# Drug_Target_1_Theoretical_pI:
+9.03
+
+# Drug_Target_1_Transmembrane_Regions:
+60-83
+97-120
+132-155
+176-199
+222-245
+326-349
+357-380
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+8723169	Abou-Mohamed G, Nagarajan R, Ibrahim TM, Caldwell RW: Characterization of the adrenergic activity of arbutamine, a novel agent for pharmacological stress testing. Cardiovasc Drugs Ther. 1996 Mar;10(1):39-47.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+ADRB2
+
+# Drug_Target_2_GenBank_ID_Gene:
+Y00106
+
+# Drug_Target_2_GenBank_ID_Protein:
+29371
+
+# Drug_Target_2_GeneCard_ID:
+ADRB2
+
+# Drug_Target_2_Gene_Name:
+ADRB2
+
+# Drug_Target_2_Gene_Sequence:
+>1242 bp
+ATGGGGCAACCCGGGAACGGCAGCGCCTTCTTGCTGGCACCCAATAGAAGCCATGCGCCG
+GACCACGACGTCACGCAGCAAAGGGACGAGGTGTGGGTGGTGGGCATGGGCATCGTCATG
+TCTCTCATCGTCCTGGCCATCGTGTTTGGCAATGTGCTGGTCATCACAGCCATTGCCAAG
+TTCGAGCGTCTGCAGACGGTCACCAACTACTTCATCACTTCACTGGCCTGTGCTGATCTG
+GTCATGGGCCTGGCAGTGGTGCCCTTTGGGGCCGCCCATATTCTTATGAAAATGTGGACT
+TTTGGCAACTTCTGGTGCGAGTTTTGGACTTCCATTGATGTGCTGTGCGTCACGGCCAGC
+ATTGAGACCCTGTGCGTGATCGCAGTGGATCGCTACTTTGCCATTACTTCACCTTTCAAG
+TACCAGAGCCTGCTGACCAAGAATAAGGCCCGGGTGATCATTCTGATGGTGTGGATTGTG
+TCAGGCCTTACCTCCTTCTTGCCCATTCAGATGCACTGGTACCGGGCCACCCACCAGGAA
+GCCATCAACTGCTATGCCAATGAGACCTGCTGTGACTTCTTCACGAACCAAGCCTATGCC
+ATTGCCTCTTCCATCGTGTCCTTCTACGTTCCCCTGGTGATCATGGTCTTCGTCTACTCC
+AGGGTCTTTCAGGAGGCCAAAAGGCAGCTCCAGAAGATTGACAAATCTGAGGGCCGCTTC
+CATGTCCAGAACCTTAGCCAGGTGGAGCAGGATGGGCGGACGGGGCATGGACTCCGCAGA
+TCTTCCAAGTTCTGCTTGAAGGAGCACAAAGCCCTCAAGACGTTAGGCATCATCATGGGC
+ACTTTCACCCTCTGCTGGCTGCCCTTCTTCATCGTTAACATTGTGCATGTGATCCAGGAT
+AACCTCATCCGTAAGGAAGTTTACATCCTCCTAAATTGGATAGGCTATGTCAATTCTGGT
+TTCAATCCCCTTATCTACTGCCGGAGCCCAGATTTCAGGATTGCCTTCCAGGAGCTTCTG
+TGCCTGCGCAGGTCTTCTTTGAAGGCCTATGGGAATGGCTACTCCAGCAACGGCAACACA
+GGGGAGCAGAGTGGATATCACGTGGAACAGGAGAAAGAAAATAAACTGCTGTGTGAAGAC
+CTCCCAGGCACGGAAGACTTTGTGGGCCATCAAGGTACTGTGCCTAGCGATAACATTGAT
+TCACAAGGGAGGAATTGTAGTACAAATGACTCACTGCTGTAA
+
+# Drug_Target_2_General_Function:
+Involved in beta2-adrenergic receptor activity
+
+# Drug_Target_2_General_References:
+10499588	Cao TT, Deacon HW, Reczek D, Bretscher A, von Zastrow M: A kinase-regulated PDZ-domain interaction controls endocytic sorting of the beta2-adrenergic receptor. Nature. 1999 Sep 16;401(6750):286-90.
+11146000	Moffett S, Rousseau G, Lagace M, Bouvier M: The palmitoylation state of the beta(2)-adrenergic receptor regulates the synergistic action of cyclic AMP-dependent protein kinase and beta-adrenergic receptor kinase involved in its phosphorylation and desensitization. J Neurochem. 2001 Jan;76(1):269-79.
+2540197	O'Dowd BF, Hnatowich M, Caron MG, Lefkowitz RJ, Bouvier M: Palmitoylation of the human beta 2-adrenergic receptor. Mutation of Cys341 in the carboxyl tail leads to an uncoupled nonpalmitoylated form of the receptor. J Biol Chem. 1989 May 5;264(13):7564-9.
+2823249	Emorine LJ, Marullo S, Delavier-Klutchko C, Kaveri SV, Durieu-Trautmann O, Strosberg AD: Structure of the gene for human beta 2-adrenergic receptor: expression and promoter characterization. Proc Natl Acad Sci U S A. 1987 Oct;84(20):6995-9.
+2831218	Chung FZ, Wang CD, Potter PC, Venter JC, Fraser CM: Site-directed mutagenesis and continuous expression of human beta-adrenergic receptors. Identification of a conserved aspartate residue involved in agonist binding and receptor activation. J Biol Chem. 1988 Mar 25;263(9):4052-5.
+3025863	Kobilka BK, Dixon RA, Frielle T, Dohlman HG, Bolanowski MA, Sigal IS, Yang-Feng TL, Francke U, Caron MG, Lefkowitz RJ: cDNA for the human beta 2-adrenergic receptor: a protein with multiple membrane-spanning domains and encoded by a gene whose chromosomal location is shared with that of the receptor for platelet-derived growth factor. Proc Natl Acad Sci U S A. 1987 Jan;84(1):46-50.
+3026848	Chung FZ, Lentes KU, Gocayne J, Fitzgerald M, Robinson D, Kerlavage AR, Fraser CM, Venter JC: Cloning and sequence analysis of the human brain beta-adrenergic receptor. Evolutionary relationship to rodent and avian beta-receptors and porcine muscarinic receptors. FEBS Lett. 1987 Jan 26;211(2):200-6.
+3033609	Schofield PR, Rhee LM, Peralta EG: Primary structure of the human beta-adrenergic receptor gene. Nucleic Acids Res. 1987 Apr 24;15(8):3636.
+3034889	Kobilka BK, Frielle T, Dohlman HG, Bolanowski MA, Dixon RA, Keller P, Caron MG, Lefkowitz RJ: Delineation of the intronless nature of the genes for the human and hamster beta 2-adrenergic receptor and their putative promoter regions. J Biol Chem. 1987 May 25;262(15):7321-7.
+7706471	Turki J, Pak J, Green SA, Martin RJ, Liggett SB: Genetic polymorphisms of the beta 2-adrenergic receptor in nocturnal and nonnocturnal asthma. Evidence that Gly16 correlates with the nocturnal phenotype. J Clin Invest. 1995 Apr;95(4):1635-41.
+7915137	Green SA, Turki J, Innis M, Liggett SB: Amino-terminal polymorphisms of the human beta 2-adrenergic receptor impart distinct agonist-promoted regulatory properties. Biochemistry. 1994 Aug 16;33(32):9414-9.
+8383511	Reihsaus E, Innis M, MacIntyre N, Liggett SB: Mutations in the gene encoding for the beta 2-adrenergic receptor in normal and asthmatic subjects. Am J Respir Cell Mol Biol. 1993 Mar;8(3):334-9.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:286
+
+# Drug_Target_2_HPRD_ID:
+00187
+
+# Drug_Target_2_ID:
+766
+
+# Drug_Target_2_Locus:
+5q31-q32
+
+# Drug_Target_2_Molecular_Weight:
+46557
+
+# Drug_Target_2_Name:
+Beta-2 adrenergic receptor
+
+# Drug_Target_2_Number_of_Residues:
+413
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Amlodipine Pathway	SMP00376
+Benazepril Pathway	SMP00145
+Captopril Pathway	SMP00146
+Cilazapril Pathway	SMP00147
+Diltiazem Pathway	SMP00359
+Enalapril Pathway	SMP00148
+Felodipine Pathway	SMP00377
+Fosinopril Pathway	SMP00149
+Isradipine Pathway	SMP00378
+Lisinopril Pathway	SMP00150
+Moexipril Pathway	SMP00151
+Nifedipine Pathway	SMP00379
+Nimodipine Pathway	SMP00380
+Nisoldipine Pathway	SMP00381
+Nitrendipine Pathway	SMP00382
+Perindopril Pathway	SMP00152
+Quinapril Pathway	SMP00153
+Ramipril Pathway	SMP00154
+Rescinnamine Pathway	SMP00155
+Spirapril Pathway	SMP00156
+Trandolapril Pathway	SMP00157
+Verapamil Pathway	SMP00375
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_2_Protein_Sequence:
+>Beta-2 adrenergic receptor
+MGQPGNGSAFLLAPNRSHAPDHDVTQQRDEVWVVGMGIVMSLIVLAIVFGNVLVITAIAK
+FERLQTVTNYFITSLACADLVMGLAVVPFGAAHILMKMWTFGNFWCEFWTSIDVLCVTAS
+IETLCVIAVDRYFAITSPFKYQSLLTKNKARVIILMVWIVSGLTSFLPIQMHWYRATHQE
+AINCYANETCCDFFTNQAYAIASSIVSFYVPLVIMVFVYSRVFQEAKRQLQKIDKSEGRF
+HVQNLSQVEQDGRTGHGLRRSSKFCLKEHKALKTLGIIMGTFTLCWLPFFIVNIVHVIQD
+NLIRKEVYILLNWIGYVNSGFNPLIYCRSPDFRIAFQELLCLRRSSLKAYGNGYSSNGNT
+GEQSGYHVEQEKENKLLCEDLPGTEDFVGHQGTVPSDNIDSQGRNCSTNDSLL
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Beta-adrenergic receptors mediate the catecholamine- induced activation of adenylate cyclase through the action of G proteins. The beta-2-adrenergic receptor binds epinephrine with an approximately 30-fold greater affinity than it does norepinephrine
+
+# Drug_Target_2_SwissProt_ID:
+P07550
+
+# Drug_Target_2_SwissProt_Name:
+ADRB2_HUMAN
+
+# Drug_Target_2_Synonyms:
+Beta-2 adrenoceptor
+Beta-2 adrenoreceptor
+
+# Drug_Target_2_Theoretical_pI:
+7.44
+
+# Drug_Target_2_Transmembrane_Regions:
+35-58
+72-95
+107-129
+151-174
+197-220
+275-298
+306-329
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+8723169	Abou-Mohamed G, Nagarajan R, Ibrahim TM, Caldwell RW: Characterization of the adrenergic activity of arbutamine, a novel agent for pharmacological stress testing. Cardiovasc Drugs Ther. 1996 Mar;10(1):39-47.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+ADRB3
+
+# Drug_Target_3_GenBank_ID_Gene:
+M29932
+
+# Drug_Target_3_GenBank_ID_Protein:
+178896
+
+# Drug_Target_3_GeneCard_ID:
+ADRB3
+
+# Drug_Target_3_Gene_Name:
+ADRB3
+
+# Drug_Target_3_Gene_Sequence:
+>1209 bp
+ATGGCTCCGTGGCCTCACGAGAACAGCTCTCTTGCCCCATGGCCGGACCTCCCCACCCTG
+GCGCCCAATACCGCCAACACCAGTGGGCTGCCAGGGGTTCCGTGGGAGGCGGCCCTAGCC
+GGGGCCCTGCTGGCGCTGGCGGTGCTGGCCACCGTGGGAGGCAACCTGCTGGTCATCGTG
+GCCATCGCCTGGACTCCGAGACTCCAGACCATGACCAACGTGTTCGTGACTTCGCTGGCC
+GCAGCCGACCTGGTGATGGGACTCCTGGTGGTGCCGCCGGCGGCCACCTTGGCGCTGACT
+GGCCACTGGCCGTTGGGCGCCACTGGCTGCGAGCTGTGGACCTCGGTGGACGTGCTGTGT
+GTGACCGCCAGCATCGAAACCCTGTGCGCCCTGGCCGTGGACCGCTACCTGGCTGTGACC
+AACCCGCTGCGTTACGGCGCACTGGTCACCAAGCGCTGCGCCCGGACAGCTGTGGTCCTG
+GTGTGGGTCGTGTCGGCCGCGGTGTCGTTTGCGCCCATCATGAGCCAGTGGTGGCGCGTA
+GGGGCCGACGCCGAGGCGCAGCGCTGCCACTCCAACCCGCGCTGCTGTGCCTTCGCCTCC
+AACATGCCCTACGTGCTGCTGTCCTCCTCCGTCTCCTTCTACCTTCCTCTTCTCGTGATG
+CTCTTCGTCTACGCGCGGGTTTTCGTGGTGGCTACGCGCCAGCTGCGCTTGCTGCGCGGG
+GAGCTGGGCCGCTTTCCGCCCGAGGAGTCTCCGCCGGCGCCGTCGCGCTCTCTGGCCCCG
+GCCCCGGTGGGGACGTGCGCTCCGCCCGAAGGGGTGCCCGCCTGCGGCCGGCGGCCCGCG
+CGCCTCCTGCCTCTCCGGGAACACCGGGCCCTGTGCACCTTGGGTCTCATCATGGGCACC
+TTCACTCTCTGCTGGTTGCCCTTCTTTCTGGCCAACGTGCTGCGCGCCCTGGGGGGCCCC
+TCTCTAGTCCCGGGCCCGGCTTTCCTTGCCCTGAACTGGCTAGGTTATGCCAATTCTGCC
+TTCAACCCGCTCATCTACTGCCGCAGCCCGGACTTTCGCAGCGCCTTCCGCCGTCTTCTG
+TGCCGCTGCGGCCGTCGCCTGCCTCCGGAGCCCTGCGCCGCCGCCCGCCCGGCCCTCTTC
+CCCTCGGGCGTTCCTGCGGCCCGGAGCAGCCCAGCGCAGCCCAGGCTTTGCCAACGGCTC
+GACGGGTAG
+
+# Drug_Target_3_General_Function:
+Involved in beta-adrenergic receptor activity
+
+# Drug_Target_3_General_References:
+10391210	Halushka MK, Fan JB, Bentley K, Hsie L, Shen N, Weder A, Cooper R, Lipshutz R, Chakravarti A: Patterns of single-nucleotide polymorphisms in candidate genes for blood-pressure homeostasis. Nat Genet. 1999 Jul;22(3):239-47.
+1336117	Granneman JG, Lahners KN, Rao DD: Rodent and human beta 3-adrenergic receptor genes contain an intron within the protein-coding block. Mol Pharmacol. 1992 Dec;42(6):964-70.
+2570461	Emorine LJ, Marullo S, Briend-Sutren MM, Patey G, Tate K, Delavier-Klutchko C, Strosberg AD: Molecular characterization of the human beta 3-adrenergic receptor. Science. 1989 Sep 8;245(4922):1118-21.
+7609752	Clement K, Vaisse C, Manning BS, Basdevant A, Guy-Grand B, Ruiz J, Silver KD, Shuldiner AR, Froguel P, Strosberg AD: Genetic variation in the beta 3-adrenergic receptor and an increased capacity to gain weight in patients with morbid obesity. N Engl J Med. 1995 Aug 10;333(6):352-4.
+8389293	van Spronsen A, Nahmias C, Krief S, Briend-Sutren MM, Strosberg AD, Emorine LJ: The promoter and intron/exon structure of the human and mouse beta 3-adrenergic-receptor genes. Eur J Biochem. 1993 May 1;213(3):1117-24.
+8389717	Lelias JM, Kaghad M, Rodriguez M, Chalon P, Bonnin J, Dupre I, Delpech B, Bensaid M, LeFur G, Ferrara P, et al.: Molecular cloning of a human beta 3-adrenergic receptor cDNA. FEBS Lett. 1993 Jun 14;324(2):127-30.
+8641219	Candelore MR, Deng L, Tota LM, Kelly LJ, Cascieri MA, Strader CD: Pharmacological characterization of a recently described human beta 3-adrenergic receptor mutant. Endocrinology. 1996 Jun;137(6):2638-41.
+8721782	Fujisawa T, Ikegami H, Yamato E, Takekawa K, Nakagawa Y, Hamada Y, Oga T, Ueda H, Shintani M, Fukuda M, Ogihara T: Association of Trp64Arg mutation of the beta3-adrenergic-receptor with NIDDM and body weight gain. Diabetologia. 1996 Mar;39(3):349-52.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:288
+
+# Drug_Target_3_HPRD_ID:
+00188
+
+# Drug_Target_3_ID:
+1517
+
+# Drug_Target_3_Locus:
+8p12-p11.2
+
+# Drug_Target_3_Molecular_Weight:
+43520
+
+# Drug_Target_3_Name:
+Beta-3 adrenergic receptor
+
+# Drug_Target_3_Number_of_Residues:
+408
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_3_Protein_Sequence:
+>Beta-3 adrenergic receptor
+MAPWPHENSSLAPWPDLPTLAPNTANTSGLPGVPWEAALAGALLALAVLATVGGNLLVIV
+AIAWTPRLQTMTNVFVTSLAAADLVMGLLVVPPAATLALTGHWPLGATGCELWTSVDVLC
+VTASIETLCALAVDRYLAVTNPLRYGALVTKRCARTAVVLVWVVSAAVSFAPIMSQWWRV
+GADAEAQRCHSNPRCCAFASNMPYVLLSSSVSFYLPLLVMLFVYARVFVVATRQLRLLRG
+ELGRFPPEESPPAPSRSLAPAPVGTCAPPEGVPACGRRPARLLPLREHRALCTLGLIMGT
+FTLCWLPFFLANVLRALGGPSLVPGPAFLALNWLGYANSAFNPLIYCRSPDFRSAFRRLL
+CRCGRRLPPEPCAAARPALFPSGVPAARSSPAQPRLCQRLDGASWGVS
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Beta-adrenergic receptors mediate the catecholamine- induced activation of adenylate cyclase through the action of G proteins. Beta-3 is involved in the regulation of lipolysis and thermogenesis
+
+# Drug_Target_3_SwissProt_ID:
+P13945
+
+# Drug_Target_3_SwissProt_Name:
+ADRB3_HUMAN
+
+# Drug_Target_3_Synonyms:
+Beta-3 adrenoceptor
+Beta-3 adrenoreceptor
+
+# Drug_Target_3_Theoretical_pI:
+9.07
+
+# Drug_Target_3_Transmembrane_Regions:
+37-63
+73-91
+112-133
+156-178
+204-225
+293-314
+327-347
+
+#END_DRUGCARD DB01102

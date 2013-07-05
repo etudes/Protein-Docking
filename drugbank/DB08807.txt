@@ -1,0 +1,954 @@
+#BEGIN_DRUGCARD DB08807
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+C07AA17
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Sandonorm
+
+# CAS_Registry_Number:
+69010-88-4
+
+# ChEBI_ID:
+355377
+
+# Chemical_Formula:
+C23H28N2O3
+
+# Chemical_IUPAC_Name:
+1-(tert-butylamino)-3-[(2-methyl-1H-indol-4-yl)oxy]propan-2-yl benzoate
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2010-10-20 15:16:51 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Bopindolol (INN) is a beta blocker. It is an ester which acts as a prodrug for "pindolol":http://drugbank.ca/drugs/DB00960.
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Adrenergic beta-Antagonists
+Antihypertensive Agents
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+3.3 mg/ml (malonate salt)
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Bopindolol
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C23H28N2O3/c1-16-13-19-20(25-16)11-8-12-21(19)27-15-18(14-24-23(2,3)4)28-22(26)17-9-6-5-7-10-17/h5-13,18,24-25H,14-15H2,1-4H3
+
+# InChI_Key:
+InChIKey=UUOJIACWOAYWEZ-UHFFFAOYSA-N
+
+# Indication:
+For the management of hypertension, edema, ventricular tachycardias, and atrial fibrillation.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D07537
+
+# LIMS_Drug_ID:
+8814
+
+# Mechanism_Of_Action:
+Bopindolol (as pindolol) non-selectively blocks beta-1 adrenergic receptors mainly in the heart, inhibiting the effects of epinephrine and norepinephrine resulting in a decrease in heart rate and blood pressure. By binding beta-2 receptors in the juxtaglomerular apparatus, Pindolol inhibits the production of renin, thereby inhibiting angiotensin II and aldosterone production and therefore inhibits the vasoconstriction and water retention due to angiotensin II and aldosterone, respectively.
+
+# Melting_Point:
+152–153 [malonate salt]
+
+# Molecular_Weight_Avg:
+380.48
+
+# Molecular_Weight_Mono:
+380.209992772
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA165958425
+
+# Pharmacology:
+Bopindolol is a prodrug of pindolol. Pindolol is a non-selective beta-adrenergic antagonist (beta-blocker) which possesses intrinsic sympathomimetic activity (ISA) in therapeutic dosage ranges but does not possess quinidine-like membrane stabilizing activity. Pindolol impairs AV node conduction and decreases sinus rate and may also increase plasma triglycerides and decrease HDL-cholesterol levels. Pindolol is nonpolar and hydrophobic, with low to moderate lipid solubility. Pindolol has little to no intrinsic sympathomimetic activity and, unlike some other beta-adrenergic blocking agents, pindolol has little direct myocardial depressant activity and does not have an anesthetic-like membrane-stabilizing action.
+
+# Predicted_LogP_Hydrophobicity:
+4.45
+
+# Predicted_LogS:
+-5.4
+
+# Predicted_Water_Solubility:
+1.60e-03 g/l
+
+# Primary_Accession_No:
+DB08807
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CC1=CC2=C(N1)C=CC=C2OCC(CNC(C)(C)C)OC(=O)C1=CC=CC=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:27:17 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Bopindolol
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cell membrane
+multi-pass membrane protein. Localized at the plasma membrane. Found in the Golgi upo
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+14608456	Joseph SS, Lynham JA, Molenaar P, Grace AA, Colledge WH, Kaumann AJ: Intrinsic sympathomimetic activity of (-)-pindolol mediated through a (-)-propranolol-resistant site of the beta1-adrenoceptor in human atrium and recombinant receptors. Naunyn Schmiedebergs Arch Pharmacol. 2003 Dec;368(6):496-503. Epub 2003 Nov 8.
+1687398	Doggrell SA: Effects of (+/-)- (+)- and (-)-metoprolol, (+/-)- (+)- and (-)-pindolol, (+/-)-mepindolol and (+/-)-bopindolol on the rat left atria and portal vein. Gen Pharmacol. 1991;22(6):1169-77.
+2148726	Berendsen HH, Broekkamp CL, Van Delft AM: Antagonism of 8-OH-DPAT-induced behaviour in rats. Eur J Pharmacol. 1990 Oct 2;187(1):97-103.
+2907348	Brodde OE, Michel MC, Wang XL, Zerkowski HR: Chronic beta-adrenoceptor antagonist treatment modulates human cardiac and vascular beta-adrenoceptor density in a subtype-selective fashion. J Hypertens Suppl. 1988 Dec;6(4):S497-500.
+8884690	Watkins DJ, Lawrence AJ, Lewis SJ, Jarrott B: Loss of [125I]-pindolol binding to beta-adrenoceptors on rat nodose ganglion after chronic isoprenaline treatment. J Auton Nerv Syst. 1996 Aug 27;60(1-2):12-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+ADRB1
+
+# Drug_Target_1_GenBank_ID_Gene:
+J03019
+
+# Drug_Target_1_GenBank_ID_Protein:
+178200
+
+# Drug_Target_1_GeneCard_ID:
+ADRB1
+
+# Drug_Target_1_Gene_Name:
+ADRB1
+
+# Drug_Target_1_Gene_Sequence:
+>1434 bp
+ATGGGCGCGGGGGTGCTCGTCCTGGGCGCCTCCGAGCCCGGTAACCTGTCGTCGGCCGCA
+CCGCTCCCCGACGGCGCGGCCACCGCGGCGCGGCTGCTGGTGCCCGCGTCGCCGCCCGCC
+TCGTTGCTGCCTCCCGCCAGCGAAAGCCCCGAGCCGCTGTCTCAGCAGTGGACAGCGGGC
+ATGGGTCTGCTGATGGCGCTCATCGTGCTGCTCATCGTGGCGGGCAATGTGCTGGTGATC
+GTGGCCATCGCCAAGACGCCGCGGCTGCAGACGCTCACCAACCTCTTCATCATGTCCCTG
+GCCAGCGCCGACCTGGTCATGGGGCTGCTGGTGGTGCCGTTCGGGGCCACCATCGTGGTG
+TGGGGCCGCTGGGAGTACGGCTCCTTCTTCTGCGAGCTGTGGACCTCAGTGGACGTGCTG
+TGCGTGACGGCCAGCATCGAGACCCTGTGTGTCATTGCCCTGGACCGCTACCTCGCCATC
+ACCTCGCCCTTCCGCTACCAGAGCCTGCTGACGCGCGCGCGGGCGCGGGGCCTCGTGTGC
+ACCGTGTGGGCCATCTCGGCCCTGGTGTCCTTCCTGCCCATCCTCATGCACTGGTGGCGG
+GCGGAGAGCGACGAGGCGCGCCGCTGCTACAACGACCCCAAGTGCTGCGACTTCGTCACC
+AACCGGGCCTACGCCATCGCCTCGTCCGTAGTCTCCTTCTACGTGCCCCTGTGCATCATG
+GCCTTCGTGTACCTGCGGGTGTTCCGCGAGGCCCAGAAGCAGGTGAAGAAGATCGACAGC
+TGCGAGCGCCGTTTCCTCGGCGGCCCAGCGCGGCCGCCCTCGCCCTCGCCCTCGCCCGTC
+CCCGCGCCCGCGCCGCCGCCCGGACCCCCGCGCCCCGCCGCCGCCGCCGCCACCGCCCCG
+CTGGCCAACGGGCGTGCGGGTAAGCGGCGGCCCTCGCGCCTCGTGGCCCTACGCGAGCAG
+AAGGCGCTCAAGACGCTGGGCATCATCATGGGCGTCTTCACGCTCTGCTGGCTGCCCTTC
+TTCCTGGCCAACGTGGTGAAGGCCTTCCACCGCGAGCTGGTGCCCGACCGCCTCTTCGTC
+TTCTTCAACTGGCTGGGCTACGCCAACTCGGCCTTCAACCCCATCATCTACTGCCGCAGC
+CCCGACTTCCGCAAGGCCTTCCAGGGACTGCTCTGCTGCGCGCGCAGGGCTGCCCGCCGG
+CGCCACGCGACCCACGGAGACCGGCCGCGCGCCTCGGGCTGTCTGGCCCGGCCCGGACCC
+CCGCCATCGCCCGGGGCCGCCTCGGACGACGACGACGACGATGTCGTCGGGGCCACGCCG
+CCCGCGCGCCTGCTGGAGCCCTGGGCCGGCTGCAACGGCGGGGCGGCGGCGGACAGCGAC
+TCGAGCCTGGACGAGCCGTGCCGCCCCGGCTTCGCCTCGGAATCCAAGGTGTAG
+
+# Drug_Target_1_General_Function:
+Involved in beta1-adrenergic receptor activity
+
+# Drug_Target_1_General_References:
+10212248	Mason DA, Moore JD, Green SA, Liggett SB: A gain-of-function polymorphism in a G-protein coupling domain of the human beta1-adrenergic receptor. J Biol Chem. 1999 Apr 30;274(18):12670-4.
+10477438	Moore JD, Mason DA, Green SA, Hsu J, Liggett SB: Racial differences in the frequencies of cardiac beta(1)-adrenergic receptor polymorphisms: analysis of c145A>G and c1165G>C. Hum Mutat. 1999 Sep 19;14(3):271.
+11052857	Borjesson M, Magnusson Y, Hjalmarson A, Andersson B: A novel polymorphism in the gene coding for the beta(1)-adrenergic receptor associated with survival in patients with heart failure. Eur Heart J. 2000 Nov;21(22):1853-8.
+11854867	Ranade K, Jorgenson E, Sheu WH, Pei D, Hsiung CA, Chiang FT, Chen YD, Pratt R, Olshen RA, Curb D, Cox DR, Botstein D, Risch N: A polymorphism in the beta1 adrenergic receptor is associated with resting heart rate. Am J Hum Genet. 2002 Apr;70(4):935-42. Epub 2002 Feb 18.
+2825170	Frielle T, Collins S, Daniel KW, Caron MG, Lefkowitz RJ, Kobilka BK: Cloning of the cDNA for the human beta 1-adrenergic receptor. Proc Natl Acad Sci U S A. 1987 Nov;84(22):7920-4.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:285
+
+# Drug_Target_1_HPRD_ID:
+00181
+
+# Drug_Target_1_ID:
+193
+
+# Drug_Target_1_Locus:
+10q24-q26
+
+# Drug_Target_1_Molecular_Weight:
+51323
+
+# Drug_Target_1_Name:
+Beta-1 adrenergic receptor
+
+# Drug_Target_1_Number_of_Residues:
+477
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Acebutolol Pathway	SMP00296
+Alprenolol Pathway	SMP00297
+Atenolol Pathway	SMP00298
+Betaxolol Pathway	SMP00299
+Bisoprolol Pathway	SMP00300
+Carvedilol Pathway	SMP00367
+Diltiazem Pathway	SMP00359
+Esmolol Pathway	SMP00301
+Labetalol Pathway	SMP00368
+Metoprolol Pathway	SMP00302
+Nadolol Pathway	SMP00303
+Nebivolol Pathway	SMP00366
+Oxprenolol Pathway	SMP00304
+Penbutolol Pathway	SMP00305
+Pindolol Pathway	SMP00306
+Propranolol Pathway	SMP00307
+Verapamil Pathway	SMP00375
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_1_Protein_Sequence:
+>Beta-1 adrenergic receptor
+MGAGVLVLGASEPGNLSSAAPLPDGAATAARLLVPASPPASLLPPASESPEPLSQQWTAG
+MGLLMALIVLLIVAGNVLVIVAIAKTPRLQTLTNLFIMSLASADLVMGLLVVPFGATIVV
+WGRWEYGSFFCELWTSVDVLCVTASIETLCVIALDRYLAITSPFRYQSLLTRARARGLVC
+TVWAISALVSFLPILMHWWRAESDEARRCYNDPKCCDFVTNRAYAIASSVVSFYVPLCIM
+AFVYLRVFREAQKQVKKIDSCERRFLGGPARPPSPSPSPVPAPAPPPGPPRPAAAAATAP
+LANGRAGKRRPSRLVALREQKALKTLGIIMGVFTLCWLPFFLANVVKAFHRELVPDRLFV
+FFNWLGYANSAFNPIIYCRSPDFRKAFQRLLCCARRAARRRHATHGDRPRASGCLARPGP
+PPSPGAASDDDDDDVVGATPPARLLEPWAGCNGGAAADSDSSLDEPCRPGFASESKV
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Beta-adrenergic receptors mediate the catecholamine- induced activation of adenylate cyclase through the action of G proteins. This receptor binds epinephrine and norepinephrine with approximately equal affinity
+
+# Drug_Target_1_SwissProt_ID:
+P08588
+
+# Drug_Target_1_SwissProt_Name:
+ADRB1_HUMAN
+
+# Drug_Target_1_Synonyms:
+Beta-1 adrenoceptor
+Beta-1 adrenoreceptor
+
+# Drug_Target_1_Theoretical_pI:
+9.03
+
+# Drug_Target_1_Transmembrane_Regions:
+60-83
+97-120
+132-155
+176-199
+222-245
+326-349
+357-380
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+16574446	Rubenstein LA, Zauhar RJ, Lanzara RG: Molecular dynamics of a biophysical model for beta2-adrenergic and G protein-coupled receptor activation. J Mol Graph Model. 2006 Dec;25(4):396-409. Epub 2006 Mar 30.
+1666931	Dejgaard A, Liggett SB, Christensen NJ, Cryer PE, Hilsted J: Adrenergic receptors are a fallible index of adrenergic denervation hypersensitivity. Scand J Clin Lab Invest. 1991 Dec;51(8):659-66.
+1678274	Wheeldon NM, Newnham DM, Fraser GC, McDevitt DG, Lipworth BJ: The effect of pindolol on creatine kinase is not due to beta 2-adrenoceptor partial agonist activity. Br J Clin Pharmacol. 1991 Jun;31(6):723-4.
+1687398	Doggrell SA: Effects of (+/-)- (+)- and (-)-metoprolol, (+/-)- (+)- and (-)-pindolol, (+/-)-mepindolol and (+/-)-bopindolol on the rat left atria and portal vein. Gen Pharmacol. 1991;22(6):1169-77.
+1979630	Doggrell SA: Relaxant and beta 2-adrenoceptor blocking activities of (+/- )-, (+)- and (-)-pindolol on the rat isolated aorta. J Pharm Pharmacol. 1990 Jun;42(6):444-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+ADRB2
+
+# Drug_Target_2_GenBank_ID_Gene:
+Y00106
+
+# Drug_Target_2_GenBank_ID_Protein:
+29371
+
+# Drug_Target_2_GeneCard_ID:
+ADRB2
+
+# Drug_Target_2_Gene_Name:
+ADRB2
+
+# Drug_Target_2_Gene_Sequence:
+>1242 bp
+ATGGGGCAACCCGGGAACGGCAGCGCCTTCTTGCTGGCACCCAATAGAAGCCATGCGCCG
+GACCACGACGTCACGCAGCAAAGGGACGAGGTGTGGGTGGTGGGCATGGGCATCGTCATG
+TCTCTCATCGTCCTGGCCATCGTGTTTGGCAATGTGCTGGTCATCACAGCCATTGCCAAG
+TTCGAGCGTCTGCAGACGGTCACCAACTACTTCATCACTTCACTGGCCTGTGCTGATCTG
+GTCATGGGCCTGGCAGTGGTGCCCTTTGGGGCCGCCCATATTCTTATGAAAATGTGGACT
+TTTGGCAACTTCTGGTGCGAGTTTTGGACTTCCATTGATGTGCTGTGCGTCACGGCCAGC
+ATTGAGACCCTGTGCGTGATCGCAGTGGATCGCTACTTTGCCATTACTTCACCTTTCAAG
+TACCAGAGCCTGCTGACCAAGAATAAGGCCCGGGTGATCATTCTGATGGTGTGGATTGTG
+TCAGGCCTTACCTCCTTCTTGCCCATTCAGATGCACTGGTACCGGGCCACCCACCAGGAA
+GCCATCAACTGCTATGCCAATGAGACCTGCTGTGACTTCTTCACGAACCAAGCCTATGCC
+ATTGCCTCTTCCATCGTGTCCTTCTACGTTCCCCTGGTGATCATGGTCTTCGTCTACTCC
+AGGGTCTTTCAGGAGGCCAAAAGGCAGCTCCAGAAGATTGACAAATCTGAGGGCCGCTTC
+CATGTCCAGAACCTTAGCCAGGTGGAGCAGGATGGGCGGACGGGGCATGGACTCCGCAGA
+TCTTCCAAGTTCTGCTTGAAGGAGCACAAAGCCCTCAAGACGTTAGGCATCATCATGGGC
+ACTTTCACCCTCTGCTGGCTGCCCTTCTTCATCGTTAACATTGTGCATGTGATCCAGGAT
+AACCTCATCCGTAAGGAAGTTTACATCCTCCTAAATTGGATAGGCTATGTCAATTCTGGT
+TTCAATCCCCTTATCTACTGCCGGAGCCCAGATTTCAGGATTGCCTTCCAGGAGCTTCTG
+TGCCTGCGCAGGTCTTCTTTGAAGGCCTATGGGAATGGCTACTCCAGCAACGGCAACACA
+GGGGAGCAGAGTGGATATCACGTGGAACAGGAGAAAGAAAATAAACTGCTGTGTGAAGAC
+CTCCCAGGCACGGAAGACTTTGTGGGCCATCAAGGTACTGTGCCTAGCGATAACATTGAT
+TCACAAGGGAGGAATTGTAGTACAAATGACTCACTGCTGTAA
+
+# Drug_Target_2_General_Function:
+Involved in beta2-adrenergic receptor activity
+
+# Drug_Target_2_General_References:
+10499588	Cao TT, Deacon HW, Reczek D, Bretscher A, von Zastrow M: A kinase-regulated PDZ-domain interaction controls endocytic sorting of the beta2-adrenergic receptor. Nature. 1999 Sep 16;401(6750):286-90.
+11146000	Moffett S, Rousseau G, Lagace M, Bouvier M: The palmitoylation state of the beta(2)-adrenergic receptor regulates the synergistic action of cyclic AMP-dependent protein kinase and beta-adrenergic receptor kinase involved in its phosphorylation and desensitization. J Neurochem. 2001 Jan;76(1):269-79.
+2540197	O'Dowd BF, Hnatowich M, Caron MG, Lefkowitz RJ, Bouvier M: Palmitoylation of the human beta 2-adrenergic receptor. Mutation of Cys341 in the carboxyl tail leads to an uncoupled nonpalmitoylated form of the receptor. J Biol Chem. 1989 May 5;264(13):7564-9.
+2823249	Emorine LJ, Marullo S, Delavier-Klutchko C, Kaveri SV, Durieu-Trautmann O, Strosberg AD: Structure of the gene for human beta 2-adrenergic receptor: expression and promoter characterization. Proc Natl Acad Sci U S A. 1987 Oct;84(20):6995-9.
+2831218	Chung FZ, Wang CD, Potter PC, Venter JC, Fraser CM: Site-directed mutagenesis and continuous expression of human beta-adrenergic receptors. Identification of a conserved aspartate residue involved in agonist binding and receptor activation. J Biol Chem. 1988 Mar 25;263(9):4052-5.
+3025863	Kobilka BK, Dixon RA, Frielle T, Dohlman HG, Bolanowski MA, Sigal IS, Yang-Feng TL, Francke U, Caron MG, Lefkowitz RJ: cDNA for the human beta 2-adrenergic receptor: a protein with multiple membrane-spanning domains and encoded by a gene whose chromosomal location is shared with that of the receptor for platelet-derived growth factor. Proc Natl Acad Sci U S A. 1987 Jan;84(1):46-50.
+3026848	Chung FZ, Lentes KU, Gocayne J, Fitzgerald M, Robinson D, Kerlavage AR, Fraser CM, Venter JC: Cloning and sequence analysis of the human brain beta-adrenergic receptor. Evolutionary relationship to rodent and avian beta-receptors and porcine muscarinic receptors. FEBS Lett. 1987 Jan 26;211(2):200-6.
+3033609	Schofield PR, Rhee LM, Peralta EG: Primary structure of the human beta-adrenergic receptor gene. Nucleic Acids Res. 1987 Apr 24;15(8):3636.
+3034889	Kobilka BK, Frielle T, Dohlman HG, Bolanowski MA, Dixon RA, Keller P, Caron MG, Lefkowitz RJ: Delineation of the intronless nature of the genes for the human and hamster beta 2-adrenergic receptor and their putative promoter regions. J Biol Chem. 1987 May 25;262(15):7321-7.
+7706471	Turki J, Pak J, Green SA, Martin RJ, Liggett SB: Genetic polymorphisms of the beta 2-adrenergic receptor in nocturnal and nonnocturnal asthma. Evidence that Gly16 correlates with the nocturnal phenotype. J Clin Invest. 1995 Apr;95(4):1635-41.
+7915137	Green SA, Turki J, Innis M, Liggett SB: Amino-terminal polymorphisms of the human beta 2-adrenergic receptor impart distinct agonist-promoted regulatory properties. Biochemistry. 1994 Aug 16;33(32):9414-9.
+8383511	Reihsaus E, Innis M, MacIntyre N, Liggett SB: Mutations in the gene encoding for the beta 2-adrenergic receptor in normal and asthmatic subjects. Am J Respir Cell Mol Biol. 1993 Mar;8(3):334-9.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:286
+
+# Drug_Target_2_HPRD_ID:
+00187
+
+# Drug_Target_2_ID:
+766
+
+# Drug_Target_2_Locus:
+5q31-q32
+
+# Drug_Target_2_Molecular_Weight:
+46557
+
+# Drug_Target_2_Name:
+Beta-2 adrenergic receptor
+
+# Drug_Target_2_Number_of_Residues:
+413
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Amlodipine Pathway	SMP00376
+Benazepril Pathway	SMP00145
+Captopril Pathway	SMP00146
+Cilazapril Pathway	SMP00147
+Diltiazem Pathway	SMP00359
+Enalapril Pathway	SMP00148
+Felodipine Pathway	SMP00377
+Fosinopril Pathway	SMP00149
+Isradipine Pathway	SMP00378
+Lisinopril Pathway	SMP00150
+Moexipril Pathway	SMP00151
+Nifedipine Pathway	SMP00379
+Nimodipine Pathway	SMP00380
+Nisoldipine Pathway	SMP00381
+Nitrendipine Pathway	SMP00382
+Perindopril Pathway	SMP00152
+Quinapril Pathway	SMP00153
+Ramipril Pathway	SMP00154
+Rescinnamine Pathway	SMP00155
+Spirapril Pathway	SMP00156
+Trandolapril Pathway	SMP00157
+Verapamil Pathway	SMP00375
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_2_Protein_Sequence:
+>Beta-2 adrenergic receptor
+MGQPGNGSAFLLAPNRSHAPDHDVTQQRDEVWVVGMGIVMSLIVLAIVFGNVLVITAIAK
+FERLQTVTNYFITSLACADLVMGLAVVPFGAAHILMKMWTFGNFWCEFWTSIDVLCVTAS
+IETLCVIAVDRYFAITSPFKYQSLLTKNKARVIILMVWIVSGLTSFLPIQMHWYRATHQE
+AINCYANETCCDFFTNQAYAIASSIVSFYVPLVIMVFVYSRVFQEAKRQLQKIDKSEGRF
+HVQNLSQVEQDGRTGHGLRRSSKFCLKEHKALKTLGIIMGTFTLCWLPFFIVNIVHVIQD
+NLIRKEVYILLNWIGYVNSGFNPLIYCRSPDFRIAFQELLCLRRSSLKAYGNGYSSNGNT
+GEQSGYHVEQEKENKLLCEDLPGTEDFVGHQGTVPSDNIDSQGRNCSTNDSLL
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Beta-adrenergic receptors mediate the catecholamine- induced activation of adenylate cyclase through the action of G proteins. The beta-2-adrenergic receptor binds epinephrine with an approximately 30-fold greater affinity than it does norepinephrine
+
+# Drug_Target_2_SwissProt_ID:
+P07550
+
+# Drug_Target_2_SwissProt_Name:
+ADRB2_HUMAN
+
+# Drug_Target_2_Synonyms:
+Beta-2 adrenoceptor
+Beta-2 adrenoreceptor
+
+# Drug_Target_2_Theoretical_pI:
+7.44
+
+# Drug_Target_2_Transmembrane_Regions:
+35-58
+72-95
+107-129
+151-174
+197-220
+275-298
+306-329
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+10088139	Smeraldi E, Benedetti F, Barbini B, Campori E, Colombo C: Sustained antidepressant effect of sleep deprivation combined with pindolol in bipolar depression. A placebo-controlled trial. Neuropsychopharmacology. 1999 Apr;20(4):380-5.
+10331108	Haddjeri N, de Montigny C, Blier P: Modulation of the firing activity of rat serotonin and noradrenaline neurons by (+/-)pindolol. Biol Psychiatry. 1999 May 1;45(9):1163-9.
+10432475	Gobert A, Millan MJ: Modulation of dialysate levels of dopamine, noradrenaline, and serotonin (5-HT) in the frontal cortex of freely-moving rats by (-)-pindolol alone and in association with 5-HT reuptake inhibitors: comparative roles of beta-adrenergic, 5-HT1A, and 5-HT1B receptors. Neuropsychopharmacology. 1999 Aug;21(2):268-84.
+10435400	Andree B, Thorberg SO, Halldin C, Farde L: Pindolol binding to 5-HT1A receptors in the human brain confirmed with positron emission tomography. Psychopharmacology (Berl). 1999 Jun;144(3):303-5.
+10490909	Fornal CA, Martin FJ, Metzler CW, Jacobs BL: Pindolol suppresses serotonergic neuronal activity and does not block the inhibition of serotonergic neurons produced by 8-hydroxy-2-(di-n-propylamino)tetralin in awake cats. J Pharmacol Exp Ther. 1999 Oct;291(1):229-38.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+HTR1A
+
+# Drug_Target_3_GenBank_ID_Gene:
+M28269
+
+# Drug_Target_3_GenBank_ID_Protein:
+189928
+
+# Drug_Target_3_GeneCard_ID:
+HTR1A
+
+# Drug_Target_3_Gene_Name:
+HTR1A
+
+# Drug_Target_3_Gene_Sequence:
+>1266 bp
+ATGGATGTGCTCAGCCCTGGTCAGGGCAACAACACCACATCACCACCGGCTCCCTTTGAG
+ACCGGCGGCAACACTACTGGTATCTCCGACGTGACCGTCAGCTACCAAGTGATCACCTCT
+CTGCTGCTGGGCACGCTCATCTTCTGCGCGGTGCTGGGCAATGCGTGCGTGGTGGCTGCC
+ATCGCCTTGGAGCGCTCCCTGCAGAACGTGGCCAATTATCTTATTGGCTCTTTGGCGGTC
+ACCGACCTCATGGTGTCGGTGTTGGTGCTGCCCATGGCCGCGCTGTATCAGGTGCTCAAC
+AAGTGGACACTGGGCCAGGTAACCTGCGACCTGTTCATCGCCCTCGACGTGCTGTGCTGC
+ACCTCATCCATCTTGCACCTGTGCGCCATCGCGCTGGACAGGTACTGGGCCATCACGGAC
+CCCATCGACTACGTGAACAAGAGGACGCCCCGGCCGCGTGCGCTCATCTCGCTCACTTGG
+CTTATTGGCTTCCTCATCTCTATCCCGCCCATCCTGGGCTGGCGCACCCCGGAAGACCGC
+TCGGACCCCGACGCATGCACCATTAGCAAGGATCATGGCTACACTATCTATTCCACCTTT
+GGAGCTTTCTACATCCCGCTGCTGCTCATGCTGGTTCTCTATGGGCGCATATTCCGAGCT
+GCGCGCTTCCGCATCCGCAAGACGGTCAAAAAGGTGGAGAAGACCGGAGCGGACACCCGC
+CATGGAGCATCTCCCGCCCCGCAGCCCAAGAAGAGTGTGAATGGAGAGTCGGGGAGCAGG
+AACTGGAGGCTGGGCGTGGAGAGCAAGGCTGGGGGTGCTCTGTGCGCCAATGGCGCGGTG
+AGGCAAGGTGACGATGGCGCCGCCCTGGAGGTGATCGAGGTGCACCGAGTGGGCAACTCC
+AAAGAGCACTTGCCTCTGCCCAGCGAGGCTGGTCCTACCCCTTGTGCCCCCGCCTCTTTC
+GAGAGGAAAAATGAGCGCAACGCCGAGGCGAAGCGCAAGATGGCCCTGGCCCGAGAGAGG
+AAGACAGTGAAGACGCTGGGCATCATCATGGGCACCTTCATCCTCTGCTGGCTGCCCTTC
+TTCATCGTGGCTCTTGTTCTGCCCTTCTGCGAGAGCAGCTGCCACATGCCCACCCTGTTG
+GGCGCCATAATCAATTGGCTGGGCTACTCCAACTCTCTGCTTAACCCCGTCATTTACGCA
+TACTTCAACAAGGACTTTCAAAACGCGTTTAAGAAGATCATTAAGTGTAACTTCTGCCGC
+CAGTGA
+
+# Drug_Target_3_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_3_General_References:
+1766875	Parks CL, Chang LS, Shenk T: A polymerase chain reaction mediated by a single primer: cloning of genomic sequences adjacent to a serotonin receptor protein coding region. Nucleic Acids Res. 1991 Dec;19(25):7155-60.
+3041227	Kobilka BK, Frielle T, Collins S, Yang-Feng T, Kobilka TS, Francke U, Lefkowitz RJ, Caron MG: An intronless gene encoding a potential member of the family of receptors coupled to guanine nucleotide regulatory proteins. Nature. 1987 Sep 3-9;329(6134):75-9.
+3138543	Fargin A, Raymond JR, Lohse MJ, Kobilka BK, Caron MG, Lefkowitz RJ: The genomic clone G-21 which resembles a beta-adrenergic receptor sequence encodes the 5-HT1A receptor. Nature. 1988 Sep 22;335(6188):358-60.
+7755630	Nakhai B, Nielsen DA, Linnoila M, Goldman D: Two naturally occurring amino acid substitutions in the human 5-HT1A receptor: glycine 22 to serine 22 and isoleucine 28 to valine 28. Biochem Biophys Res Commun. 1995 May 16;210(2):530-6.
+8393041	Aune TM, McGrath KM, Sarr T, Bombara MP, Kelley KA: Expression of 5HT1a receptors on activated human T cells. Regulation of cyclic AMP levels and T cell proliferation by 5-hydroxytryptamine. J Immunol. 1993 Aug 1;151(3):1175-83.
+9754630	Kawanishi Y, Harada S, Tachikawa H, Okubo T, Shiraishi H: Novel mutations in the promoter and coding region of the human 5-HT1A receptor gene and association analysis in schizophrenia. Am J Med Genet. 1998 Sep 7;81(5):434-9.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:5286
+
+# Drug_Target_3_HPRD_ID:
+00190
+
+# Drug_Target_3_ID:
+320
+
+# Drug_Target_3_Locus:
+5q11.2-q13
+
+# Drug_Target_3_Molecular_Weight:
+46107
+
+# Drug_Target_3_Name:
+5-hydroxytryptamine 1A receptor
+
+# Drug_Target_3_Number_of_Residues:
+422
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_3_Protein_Sequence:
+>5-hydroxytryptamine 1A receptor
+MDVLSPGQGNNTTSPPAPFETGGNTTGISDVTVSYQVITSLLLGTLIFCAVLGNACVVAA
+IALERSLQNVANYLIGSLAVTDLMVSVLVLPMAALYQVLNKWTLGQVTCDLFIALDVLCC
+TSSILHLCAIALDRYWAITDPIDYVNKRTPRRAAALISLTWLIGFLISIPPMLGWRTPED
+RSDPDACTISKDHGYTIYSTFGAFYIPLLLMLVLYGRIFRAARFRIRKTVKKVEKTGADT
+RHGASPAPQPKKSVNGESGSRNWRLGVESKAGGALCANGAVRQGDDGAALEVIEVHRVGN
+SKEHLPLPSEAGPTPCAPASFERKNERNAEAKRKMALARERKTVKTLGIIMGTFILCWLP
+FFIVALVLPFCESSCHMPTLLGAIINWLGYSNSLLNPVIYAYFNKDFQNAFKKIIKCKFC
+RQ
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+This is one of the several different receptors for 5- hydroxytryptamine (serotonin), a biogenic hormone that functions as a neurotransmitter, a hormone, and a mitogen. The activity of this receptor is mediated by G proteins that inhibit adenylate cyclase activity
+
+# Drug_Target_3_SwissProt_ID:
+P08908
+
+# Drug_Target_3_SwissProt_Name:
+5HT1A_HUMAN
+
+# Drug_Target_3_Synonyms:
+5- HT1A
+5-HT-1A
+G-21
+Serotonin receptor 1A
+
+# Drug_Target_3_Theoretical_pI:
+9.05
+
+# Drug_Target_3_Transmembrane_Regions:
+37-62
+74-98
+110-132
+153-178
+192-217
+346-367
+379-403
+
+# Drug_Target_4_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+10727715	Dawson LA, Nguyen HQ: The role of 5-HT(1A) and 5-HT(1B/1D) receptors on the modulation of acute fluoxetine-induced changes in extracellular 5-HT: the mechanism of action of (+/-)pindolol. Neuropharmacology. 2000 Apr 3;39(6):1044-52.
+2512511	Ariani K, Hamblin MW, Tan GL, Stratford CA, Ciaranello RD: G protein dependent alterations in [125I]iodocyanopindolol and +/- cyanopindolol binding at 5-HT1B binding sites in rat brain membranes. Neurochem Res. 1989 Sep;14(9):835-43.
+2664084	Leonhardt S, Herrick-Davis K, Titeler M: Detection of a novel serotonin receptor subtype (5-HT1E) in human brain: interaction with a GTP-binding protein. J Neurochem. 1989 Aug;53(2):465-71.
+3141589	Herrick-Davis K, Titeler M, Leonhardt S, Struble R, Price D: Serotonin 5-HT1D receptors in human prefrontal cortex and caudate: interaction with a GTP binding protein. J Neurochem. 1988 Dec;51(6):1906-12.
+7944828	Terron JA, Lopez-Munoz FJ, Hong E, Villalon CM: 2-(2-Aminoethyl)-quinoline (D-1997): a novel agonist at 5-hydroxytryptamine1-like receptors in the canine basilar artery. Arch Int Pharmacodyn Ther. 1994 Jan-Feb;327(1):56-68.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+HTR1B
+
+# Drug_Target_4_GenBank_ID_Gene:
+D10995
+
+# Drug_Target_4_GenBank_ID_Protein:
+219679
+
+# Drug_Target_4_GeneCard_ID:
+HTR1B
+
+# Drug_Target_4_Gene_Name:
+HTR1B
+
+# Drug_Target_4_Gene_Sequence:
+>1173 bp
+ATGGAGGAACCGGGTGCTCAGTGCGCTCCACCGCCGCCCGCGGGCTCCGAGACCTGGGTT
+CCTCAAGCCAACTTATCCTCTGCTCCCTCCCAAAACTGCAGCGCCAAGGACTACATTTAC
+CAGGACTCCATCTCCCTACCCTGGAAAGTACTGCTGGTTATGCTATTGGCGCTCATCACC
+TTGGCCACCACGCTCTCCAATGCCTTTGTGATTGCCACAGTGTACCGGACCCGGAAACTG
+CACACCCCGGCTAACTACCTGATCGCCTCTCTGGCGGTCACCGACCTGCTTGTGTCCATC
+CTGGTGATGCCCATCAGCACCATGTACACTGTCACCGGCCGCTGGACACTGGGCCAGGTG
+GTCTGTGACTTCTGGCTGTCGTCGGACATCACTTGTTGCACTGCCTCCATCCTGCACCTC
+TGTGTCATCGCCCTGGACCGCTACTGGGCCATCACGGACGCCGTGGAGTACTCAGCTAAA
+AGGACTCCCAAGAGGGCGGCGGTCATGATCGCGCTGGTGTGGGTCTTCTCCATCTCTATC
+TCGCTGCCGCCCTTCTTCTGGCGTCAGGCTAAGGCCGAAGAGGAGGTGTCGGAATGCGTG
+GTGAACACCGACCACATCCTCTACACGGTCTACTCCACGGTGGGTGCTTTCTACTTCCCC
+ACCCTGCTCCTCATCGCCCTCTATGGCCGCATCTACGTAGAAGCCCGCTCCCGGATTTTG
+AAACAGACGCCCAACAGGACCGGCAAGCGCTTGACCCGAGCCCAGCTGATAACCGACTCC
+CCCGGGTCCACGTCCTCGGTCACCTCTATTAACTCGCGGGTTCCCGACGTGCCCAGCGAA
+TCCGGATCTCCTGTGTATGTGAACCAAGTCAAAGTGCGAGTCTCCGACGCCCTGCTGGAA
+AAGAAGAAACTCATGGCCGCTAGGGAGCGCAAAGCCACCAAGACCCTAGGGATCATTTTG
+GGAGCCTTTATTGTGTGTTGGCTACCCTTCTTCATCATCTCCCTAGTGATGCCTATCTGC
+AAAGATGCCTGCTGGTTCCACCTAGCCATCTTTGACTTCTTCACATGGCTGGGCTATCTC
+AACTCCCTCATCAACCCCATAATCTATACCATGTCCAATGAGGACTTTAAACAAGCATTC
+CATAAACTGATACGTTTTAAGTGCACAAGTTGA
+
+# Drug_Target_4_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_4_General_References:
+1315531	Hamblin MW, Metcalf MA, McGuffin RW, Karpells S: Molecular cloning and functional characterization of a human 5-HT1B serotonin receptor: a homologue of the rat 5-HT1B receptor with 5-HT1D-like pharmacological specificity. Biochem Biophys Res Commun. 1992 Apr 30;184(2):752-9.
+1328844	Veldman SA, Bienkowski MJ: Cloning and pharmacological characterization of a novel human 5-hydroxytryptamine1D receptor subtype. Mol Pharmacol. 1992 Sep;42(3):439-44.
+1348246	Jin H, Oksenberg D, Ashkenazi A, Peroutka SJ, Duncan AM, Rozmahel R, Yang Y, Mengod G, Palacios JM, O'Dowd BF: Characterization of the human 5-hydroxytryptamine1B receptor. J Biol Chem. 1992 Mar 25;267(9):5735-8.
+1351684	Demchyshyn L, Sunahara RK, Miller K, Teitler M, Hoffman BJ, Kennedy JL, Seeman P, Van Tol HH, Niznik HB: A human serotonin 1D receptor variant (5HT1D beta) encoded by an intronless gene on chromosome 6. Proc Natl Acad Sci U S A. 1992 Jun 15;89(12):5522-6.
+14574404	Mungall AJ, Palmer SA, Sims SK, Edwards CA, Ashurst JL, Wilming L, Jones MC, Horton R, Hunt SE, Scott CE, Gilbert JG, Clamp ME, Bethel G, Milne S, Ainscough R, Almeida JP, Ambrose KD, Andrews TD, Ashwell RI, Babbage AK, Bagguley CL, Bailey J, Banerjee R, Barker DJ, Barlow KF, Bates K, Beare DM, Beasley H, Beasley O, Bird CP, Blakey S, Bray-Allen S, Brook J, Brown AJ, Brown JY, Burford DC, Burrill W, Burton J, Carder C, Carter NP, Chapman JC, Clark SY, Clark G, Clee CM, Clegg S, Cobley V, Collier RE, Collins JE, Colman LK, Corby NR, Coville GJ, Culley KM, Dhami P, Davies J, Dunn M, Earthrowl ME, Ellington AE, Evans KA, Faulkner L, Francis MD, Frankish A, Frankland J, French L, Garner P, Garnett J, Ghori MJ, Gilby LM, Gillson CJ, Glithero RJ, Grafham DV, Grant M, Gribble S, Griffiths C, Griffiths M, Hall R, Halls KS, Hammond S, Harley JL, Hart EA, Heath PD, Heathcott R, Holmes SJ, Howden PJ, Howe KL, Howell GR, Huckle E, Humphray SJ, Humphries MD, Hunt AR, Johnson CM, Joy AA, Kay M, Keenan SJ, Kimberley AM, King A, Laird GK, Langford C, Lawlor S, Leongamornlert DA, Leversha M, Lloyd CR, Lloyd DM, Loveland JE, Lovell J, Martin S, Mashreghi-Mohammadi M, Maslen GL, Matthews L, McCann OT, McLaren SJ, McLay K, McMurray A, Moore MJ, Mullikin JC, Niblett D, Nickerson T, Novik KL, Oliver K, Overton-Larty EK, Parker A, Patel R, Pearce AV, Peck AI, Phillimore B, Phillips S, Plumb RW, Porter KM, Ramsey Y, Ranby SA, Rice CM, Ross MT, Searle SM, Sehra HK, Sheridan E, Skuce CD, Smith S, Smith M, Spraggon L, Squares SL, Steward CA, Sycamore N, Tamlyn-Hall G, Tester J, Theaker AJ, Thomas DW, Thorpe A, Tracey A, Tromans A, Tubby B, Wall M, Wallis JM, West AP, White SS, Whitehead SL, Whittaker H, Wild A, Willey DJ, Wilmer TE, Wood JM, Wray PW, Wyatt JC, Young L, Younger RM, Bentley DR, Coulson A, Durbin R, Hubbard T, Sulston JE, Dunham I, Rogers J, Beck S: The DNA sequence and analysis of human chromosome 6. Nature. 2003 Oct 23;425(6960):805-11.
+1559993	Levy FO, Gudermann T, Perez-Reyes E, Birnbaumer M, Kaumann AJ, Birnbaumer L: Molecular cloning of a human serotonin receptor (S12) with a pharmacological profile resembling that of the 5-HT1D subtype. J Biol Chem. 1992 Apr 15;267(11):7553-62.
+1565658	Weinshank RL, Zgombick JM, Macchi MJ, Branchek TA, Hartig PR: Human serotonin 1D receptor is encoded by a subfamily of two distinct genes: 5-HT1D alpha and 5-HT1D beta. Proc Natl Acad Sci U S A. 1992 Apr 15;89(8):3630-4.
+1610347	Mochizuki D, Yuyama Y, Tsujita R, Komaki H, Sagai H: Cloning and expression of the human 5-HT1B-type receptor gene. Biochem Biophys Res Commun. 1992 Jun 15;185(2):517-23.
+7802650	Nothen MM, Erdmann J, Shimron-Abarbanell D, Propping P: Identification of genetic variation in the human serotonin 1D beta receptor gene. Biochem Biophys Res Commun. 1994 Dec 15;205(2):1194-200.
+8218242	Ng GY, George SR, Zastawny RL, Caron M, Bouvier M, Dennis M, O'Dowd BF: Human serotonin1B receptor expression in Sf9 cells: phosphorylation, palmitoylation, and adenylyl cyclase inhibition. Biochemistry. 1993 Nov 2;32(43):11727-33.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:5287
+
+# Drug_Target_4_HPRD_ID:
+01634
+
+# Drug_Target_4_ID:
+885
+
+# Drug_Target_4_Locus:
+6q13
+
+# Drug_Target_4_Molecular_Weight:
+43568
+
+# Drug_Target_4_Name:
+5-hydroxytryptamine 1B receptor
+
+# Drug_Target_4_Number_of_Residues:
+390
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_4_Protein_Sequence:
+>5-hydroxytryptamine 1B receptor
+MEEPGAQCAPPPPAGSETWVPQANLSSAPSQNCSAKDYIYQDSISLPWKVLLVMLLALIT
+LATTLSNAFVIATVYRTRKLHTPANYLIASLAVTDLLVSILVMPISTMYTVTGRWTLGQV
+VCDFWLSSDITCCTASILHLCVIALDRYWAITDAVEYSAKRTPKRAAVMIALVWVFSISI
+SLPPFFWRQAKAEEEVSECVVNTDHILYTVYSTVGAFYFPTLLLIALYGRIYVEARSRIL
+KQTPNRTGKRLTRAQLITDSPGSTSSVTSINSRVPDVPSESGSPVYVNQVKVRVSDALLE
+KKKLMAARERKATKTLGIILGAFIVCWLPFFIISLVMPICKDACWFHLAIFDFFTWLGYL
+NSLINPIIYTMSNEDFKQAFHKLIRFKCTS
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+This is one of the several different receptors for 5- hydroxytryptamine (serotonin), a biogenic hormone that functions as a neurotransmitter, a hormone, and a mitogen. The activity of this receptor is mediated by G proteins that inhibit adenylate cyclase activity
+
+# Drug_Target_4_SwissProt_ID:
+P28222
+
+# Drug_Target_4_SwissProt_Name:
+5HT1B_HUMAN
+
+# Drug_Target_4_Synonyms:
+5- HT1B
+5-HT-1B
+5-HT-1D-beta
+S12
+Serotonin 1D beta receptor
+Serotonin receptor 1B
+
+# Drug_Target_4_Theoretical_pI:
+8.82
+
+# Drug_Target_4_Transmembrane_Regions:
+50-73
+87-109
+120-145
+166-187
+206-229
+316-340
+348-373
+
+# Drug_Target_5_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+ADRB3
+
+# Drug_Target_5_GenBank_ID_Gene:
+M29932
+
+# Drug_Target_5_GenBank_ID_Protein:
+178896
+
+# Drug_Target_5_GeneCard_ID:
+ADRB3
+
+# Drug_Target_5_Gene_Name:
+ADRB3
+
+# Drug_Target_5_Gene_Sequence:
+>1209 bp
+ATGGCTCCGTGGCCTCACGAGAACAGCTCTCTTGCCCCATGGCCGGACCTCCCCACCCTG
+GCGCCCAATACCGCCAACACCAGTGGGCTGCCAGGGGTTCCGTGGGAGGCGGCCCTAGCC
+GGGGCCCTGCTGGCGCTGGCGGTGCTGGCCACCGTGGGAGGCAACCTGCTGGTCATCGTG
+GCCATCGCCTGGACTCCGAGACTCCAGACCATGACCAACGTGTTCGTGACTTCGCTGGCC
+GCAGCCGACCTGGTGATGGGACTCCTGGTGGTGCCGCCGGCGGCCACCTTGGCGCTGACT
+GGCCACTGGCCGTTGGGCGCCACTGGCTGCGAGCTGTGGACCTCGGTGGACGTGCTGTGT
+GTGACCGCCAGCATCGAAACCCTGTGCGCCCTGGCCGTGGACCGCTACCTGGCTGTGACC
+AACCCGCTGCGTTACGGCGCACTGGTCACCAAGCGCTGCGCCCGGACAGCTGTGGTCCTG
+GTGTGGGTCGTGTCGGCCGCGGTGTCGTTTGCGCCCATCATGAGCCAGTGGTGGCGCGTA
+GGGGCCGACGCCGAGGCGCAGCGCTGCCACTCCAACCCGCGCTGCTGTGCCTTCGCCTCC
+AACATGCCCTACGTGCTGCTGTCCTCCTCCGTCTCCTTCTACCTTCCTCTTCTCGTGATG
+CTCTTCGTCTACGCGCGGGTTTTCGTGGTGGCTACGCGCCAGCTGCGCTTGCTGCGCGGG
+GAGCTGGGCCGCTTTCCGCCCGAGGAGTCTCCGCCGGCGCCGTCGCGCTCTCTGGCCCCG
+GCCCCGGTGGGGACGTGCGCTCCGCCCGAAGGGGTGCCCGCCTGCGGCCGGCGGCCCGCG
+CGCCTCCTGCCTCTCCGGGAACACCGGGCCCTGTGCACCTTGGGTCTCATCATGGGCACC
+TTCACTCTCTGCTGGTTGCCCTTCTTTCTGGCCAACGTGCTGCGCGCCCTGGGGGGCCCC
+TCTCTAGTCCCGGGCCCGGCTTTCCTTGCCCTGAACTGGCTAGGTTATGCCAATTCTGCC
+TTCAACCCGCTCATCTACTGCCGCAGCCCGGACTTTCGCAGCGCCTTCCGCCGTCTTCTG
+TGCCGCTGCGGCCGTCGCCTGCCTCCGGAGCCCTGCGCCGCCGCCCGCCCGGCCCTCTTC
+CCCTCGGGCGTTCCTGCGGCCCGGAGCAGCCCAGCGCAGCCCAGGCTTTGCCAACGGCTC
+GACGGGTAG
+
+# Drug_Target_5_General_Function:
+Involved in beta-adrenergic receptor activity
+
+# Drug_Target_5_General_References:
+10391210	Halushka MK, Fan JB, Bentley K, Hsie L, Shen N, Weder A, Cooper R, Lipshutz R, Chakravarti A: Patterns of single-nucleotide polymorphisms in candidate genes for blood-pressure homeostasis. Nat Genet. 1999 Jul;22(3):239-47.
+1336117	Granneman JG, Lahners KN, Rao DD: Rodent and human beta 3-adrenergic receptor genes contain an intron within the protein-coding block. Mol Pharmacol. 1992 Dec;42(6):964-70.
+2570461	Emorine LJ, Marullo S, Briend-Sutren MM, Patey G, Tate K, Delavier-Klutchko C, Strosberg AD: Molecular characterization of the human beta 3-adrenergic receptor. Science. 1989 Sep 8;245(4922):1118-21.
+7609752	Clement K, Vaisse C, Manning BS, Basdevant A, Guy-Grand B, Ruiz J, Silver KD, Shuldiner AR, Froguel P, Strosberg AD: Genetic variation in the beta 3-adrenergic receptor and an increased capacity to gain weight in patients with morbid obesity. N Engl J Med. 1995 Aug 10;333(6):352-4.
+8389293	van Spronsen A, Nahmias C, Krief S, Briend-Sutren MM, Strosberg AD, Emorine LJ: The promoter and intron/exon structure of the human and mouse beta 3-adrenergic-receptor genes. Eur J Biochem. 1993 May 1;213(3):1117-24.
+8389717	Lelias JM, Kaghad M, Rodriguez M, Chalon P, Bonnin J, Dupre I, Delpech B, Bensaid M, LeFur G, Ferrara P, et al.: Molecular cloning of a human beta 3-adrenergic receptor cDNA. FEBS Lett. 1993 Jun 14;324(2):127-30.
+8641219	Candelore MR, Deng L, Tota LM, Kelly LJ, Cascieri MA, Strader CD: Pharmacological characterization of a recently described human beta 3-adrenergic receptor mutant. Endocrinology. 1996 Jun;137(6):2638-41.
+8721782	Fujisawa T, Ikegami H, Yamato E, Takekawa K, Nakagawa Y, Hamada Y, Oga T, Ueda H, Shintani M, Fukuda M, Ogihara T: Association of Trp64Arg mutation of the beta3-adrenergic-receptor with NIDDM and body weight gain. Diabetologia. 1996 Mar;39(3):349-52.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:288
+
+# Drug_Target_5_HPRD_ID:
+00188
+
+# Drug_Target_5_ID:
+1517
+
+# Drug_Target_5_Locus:
+8p12-p11.2
+
+# Drug_Target_5_Molecular_Weight:
+43520
+
+# Drug_Target_5_Name:
+Beta-3 adrenergic receptor
+
+# Drug_Target_5_Number_of_Residues:
+408
+
+# Drug_Target_5_PDB_ID:
+Not Available
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_5_Protein_Sequence:
+>Beta-3 adrenergic receptor
+MAPWPHENSSLAPWPDLPTLAPNTANTSGLPGVPWEAALAGALLALAVLATVGGNLLVIV
+AIAWTPRLQTMTNVFVTSLAAADLVMGLLVVPPAATLALTGHWPLGATGCELWTSVDVLC
+VTASIETLCALAVDRYLAVTNPLRYGALVTKRCARTAVVLVWVVSAAVSFAPIMSQWWRV
+GADAEAQRCHSNPRCCAFASNMPYVLLSSSVSFYLPLLVMLFVYARVFVVATRQLRLLRG
+ELGRFPPEESPPAPSRSLAPAPVGTCAPPEGVPACGRRPARLLPLREHRALCTLGLIMGT
+FTLCWLPFFLANVLRALGGPSLVPGPAFLALNWLGYANSAFNPLIYCRSPDFRSAFRRLL
+CRCGRRLPPEPCAAARPALFPSGVPAARSSPAQPRLCQRLDGASWGVS
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+None
+
+# Drug_Target_5_Specific_Function:
+Beta-adrenergic receptors mediate the catecholamine- induced activation of adenylate cyclase through the action of G proteins. Beta-3 is involved in the regulation of lipolysis and thermogenesis
+
+# Drug_Target_5_SwissProt_ID:
+P13945
+
+# Drug_Target_5_SwissProt_Name:
+ADRB3_HUMAN
+
+# Drug_Target_5_Synonyms:
+Beta-3 adrenoceptor
+Beta-3 adrenoreceptor
+
+# Drug_Target_5_Theoretical_pI:
+9.07
+
+# Drug_Target_5_Transmembrane_Regions:
+37-63
+73-91
+112-133
+156-178
+204-225
+293-314
+327-347
+
+#END_DRUGCARD DB08807

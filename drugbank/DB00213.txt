@@ -1,0 +1,514 @@
+#BEGIN_DRUGCARD DB00213
+
+# AHFS_Codes:
+56:28.36
+
+# ATC_Codes:
+A02BC02
+
+# Absorption:
+Pantoprazole is well absorbed. It undergoes little first-pass metabolism resulting in an absolute bioavailability of approximately 77%.
+
+# Biotransformation:
+Pantoprazole is extensively metabolized in the liver through the cytochrome P450 (CYP) system. The main metabolic pathway is demethylation, by CYP2C19, with subsequent sulfation; other metabolic pathways include oxidation by CYP3A4. There is no evidence that any of the pantoprazole metabolites have significant pharmacologic activity.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Astropan
+Pantoloc
+Pantor
+Pantozol
+Protium
+Protonix
+Protonix IV
+
+# CAS_Registry_Number:
+102625-70-7
+
+# ChEBI_ID:
+7915
+
+# Chemical_Formula:
+C16H15F2N3O4S
+
+# Chemical_IUPAC_Name:
+6-(difluoromethoxy)-2-{[(3,4-dimethoxypyridin-2-yl)methane]sulfinyl}-1H-1,3-benzodiazole
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2241804
+
+# Description:
+Pantoprazole is a proton pump inhibitor drug used for short-term treatment of erosion and ulceration of the esophagus caused by gastroesophageal reflux disease.
+
+# Dosage_Forms:
+Powder, for solution	Intravenous
+Tablet, coated	Oral
+
+# Drug_Category:
+Anti-Ulcer Agents
+Proton-pump Inhibitors
+
+# Drug_Interactions:
+Atazanavir	This gastric pH modifier decreases the levels/effects of atazanavir
+Cefditoren	Proton pump inhibitors such as pantoprazole may decrease the serum concentration of cefditoren. If possible, avoid use of cefditoren with proton pump inhibitors (PPIs). Consider alternative methods to minimize/control acid reflux (eg, diet modification) or alternative antimicrobial therapy if use of PPIs can not be avoided.
+Clopidogrel	Pantoprazole may decrease serum concentrations of the active metabolite(s) of clopidogrel. Due to the possible risk for impaired clopidogrel effectiveness with this combination, clinicians should carefully consider the need for concurrent pantoprazole therapy in patients receiving clopidogrel. Monitor response to clopidogrel closely when using clopidogrel with pantoprazole. Whether there are differences among individual proton pump inhibitors is unclear. Other acid-lowering therapies (e.g., H2-receptor antagonists, antacids, etc.) do not appear to share this interaction with clopidogrel.
+Dabigatran etexilate	Proton pump inhibitors may decrease the bioavailability of dabigatran by 28% and increase inter-patient pharmacokinetic variability, especially in females. However, dose adjustment is not required.
+Dasatinib	Pantoprazole may decrease the serum level of dasatinib.
+Enoxacin	Pantoprazole may decrease the absorption of enoxacin.
+Indinavir	Omeprazole decreases the absorption of indinavir
+Itraconazole	The proton pump inhibitor, pantoprazole, may decrease the absorption of itraconazole.
+Ketoconazole	The proton pump inhibitor, pantoprazole, may decrease the absorption of ketoconazole.
+Rilpivirine	Proton-pump inhibitors increase gastric pH which causes a decrease in the exposure of rilpivirine thus reducing efficacy.
+Topotecan	The BCRP/ABCG2 inhibitor, Pantaprazole, may increase the bioavailability and serum concentration of oral Topotecan. Monitor for change in the therapeutic and adverse effects of Topotecan if Pantaprazole is initiated, discontinued or dose changed.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+0.5
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Freely soluble in water.
+
+# Food_Interactions:
+Take without regard to meals.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Pantoprazole
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+1 hour
+
+# InChI_Identifier:
+InChI=1S/C16H15F2N3O4S/c1-23-13-5-6-19-12(14(13)24-2)8-26(22)16-20-10-4-3-9(25-15(17)18)7-11(10)21-16/h3-7,15H,8H2,1-2H3,(H,20,21)
+
+# InChI_Key:
+InChIKey=IQPSEEYGBUAQFF-UHFFFAOYSA-N
+
+# Indication:
+Short-term (up to 16 weeks) treatment of erosive esophagitis.
+
+# KEGG_Compound_ID:
+C11806
+
+# KEGG_Drug_ID:
+D05353
+
+# LIMS_Drug_ID:
+213
+
+# Mechanism_Of_Action:
+Pantoprazole is a proton pump inhibitor (PPI) that suppresses the final step in gastric acid production by forming a covalent bond to two sites of the (H<sup>+</sup>,K<sup>+</sup> )- ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect is dose- related and leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus.
+
+# Melting_Point:
+Because of gradual degradation of pantoprazole sodium during heating, the melting point cannot be determined.
+
+# Molecular_Weight_Avg:
+383.37
+
+# Molecular_Weight_Mono:
+383.075133083
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Pantoprazole Pathway	SMP00228
+
+# PharmGKB_ID:
+PA450774
+
+# Pharmacology:
+Pantoprazole is a substituted benzimidazole indicated for the short-term treatment (up to 16 weeks) in the healing and symptomatic relief of erosive esophagitis. Pantoprazole is a proton pump inhibitor (PPI) that suppresses the final step in gastric acid production.
+
+# Predicted_LogP_Hydrophobicity:
+2.11
+
+# Predicted_LogS:
+-2.9
+
+# Predicted_Water_Solubility:
+4.95e-01 g/l
+
+# Primary_Accession_No:
+DB00213
+
+# Protein_Binding:
+98%
+
+# PubChem_Compound_ID:
+4679
+
+# PubChem_Substance_ID:
+46504622
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/protonix.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00073
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+COC1=C(OC)C(CS(=O)C2=NC3=C(N2)C=C(OC(F)F)C=C3)=NC=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Pantoprazol [INN-Spanish]
+Pantoprazole Na
+Pantoprazole Sodium
+Pantoprazolum [INN-Latin]
+Pantoprozole
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Single intravenous doses of pantoprazole at 378, 230, and 266 mg/kg (38, 46, and 177 times the recommended human dose based on body surface area) were lethal to mice, rats and dogs, respectively. The symptoms of toxicity included hypoactivity, ataxia, hunched sitting, limb-splay, lateral position, segregation, absence of ear reflex, and tremor. There is limited experience regarding cases of human overdosage, and treatment should be symptomatic and supportive.
+
+# Update_Date:
+2013-02-08 16:19:10 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Pantoprazole
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P11712
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2C19
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+6016
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2C19
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2C19
+MDPFVVLVLCLSCLLLLSIWRQSSGRGKLPPGPTPLPVIGNILQIDIKDVSKSLTNLSKI
+YGPVFTLYFGLERMVVLHGYEVVKEALIDLGEEFSGRGHFPLAERANRGFGIVFSNGKRW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFQKRFDYKDQQFLNLMEKLNENIRIVSTPWIQICNNFPTIIDYFPGTHNKLLKNLAFM
+ESDILEKVKEHQESMDINNPRDFIDCFLIKMEKEKQNQQSEFTIENLVITAADLLGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVVGRNRSPCMQDRGHMPYTDAVVHEVQRYID
+LIPTSLPHAVTCDVKFRNYLIPKGTTILTSLTSVLHDNKEFPNPEMFDPRHFLDEGGNFK
+KSNYFMPFSAGKRICVGEGLARMELFLFLTFILQNFNLKSLIDPKDLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P33261
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+12487624	Cheer SM, Prakash A, Faulds D, Lamb HM: Pantoprazole: an update of its pharmacological properties and therapeutic use in the management of acid-related disorders. Drugs. 2003;63(1):101-33.
+19938880	Moreira Dias L: Pantoprazole: a proton pump inhibitor. Clin Drug Investig. 2009;29 Suppl 2:3-12.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+ATP4A
+
+# Drug_Target_1_GenBank_ID_Gene:
+J05451
+
+# Drug_Target_1_GenBank_ID_Protein:
+561634
+
+# Drug_Target_1_GeneCard_ID:
+ATP4A
+
+# Drug_Target_1_Gene_Name:
+ATP4A
+
+# Drug_Target_1_Gene_Sequence:
+>3108 bp
+ATGGGGAAGGCCGAGAACTATGAGCTCTACTCGGTGGAGCTGGGTCCTGGCCCTGGCGGG
+GACATGGCTGCCAAGATGAGCAAGAAGAAGAAGGCGGGTGGCGGGGGTGGCAAGAGGAAG
+GAGAAGCTGGAGAACATGAAGAAGGAGATGGAGATTAACGACCACCAGCTGTCAGTGGCG
+GAGCTGGAACAGAAATACCAGACCAGTGCCACCAAGGGCCTCTCTGCGAGCCTGGCTGCT
+GAGCTGCTGCTGCGGGATGGGCCCAACGCACTGCGGCCACCACGGGGCACCCCAGAGTAC
+GTCAAGTTCGCGAGGCAGCTGGCCGGGGGCCTGCAGTGCCTCATGTGGGTTGCCGCCGCC
+ATCTGCCTCATCGCCTTTGCCATCCAGGCTAGTGAGGGGGACCTCACCACCGACGACAAT
+CTGTACCTGGCAATCGCTCTCATTGCTGTGGTTGTCGTCACCGGCTGCTTTGGCTACTAC
+CAGGAATTCAAGAGCACCAACATCATCGCCAGCTTTAAGAACCTTGTGCCACAGCAAGCC
+ACTGTCATCCGCGATGGAGACAAATTCCAGATCAACGCTGACCAACTGGTGGTGGGCGAC
+CTGGTGGAGATGAAAGGTGGGGACAGAGTGCCCGCCGACATCCGCATCCTGGCGGCCCAG
+GGCTGCAAGGTGGACAACTCCTCGCTGACAGGGGAGTCTGAGCCACAGACCCGCTCACCC
+GAGTGCACGCACGAGAGCCCTCTGGAGACCCGCAACATCGCCTTCTTCTCCACCATGTGC
+CTTGAGGGCACCGCGCAGGGCCTGGTGGTGAACACGGGCGACCGCACCATCATTGGGCGC
+ATCGCATCGCTGGCGTCGGGGGTGGAAAACGAGAAGACACCCATCGCTATCGAGATCGAG
+CATTTTGTGGACATCATCGCGGGCCTGGCCATTCTCTTCGGTGCCACATTTTTTATTGTG
+GCCATGTGCATTGGCTACACCTTCCTGCGGGCCATGGTCTTCTTCATGGCCATCGTGGTG
+GCCTATGTGCCTGAGGGGCTGCTGGCCACTGTCACAGTCTGCCTGTCCCTGACAGCCAAG
+CGCCTGGCCAGTAAGAACTGCGTGGTCAAGAACCTGGAGGCGGTGGAGACATTGGGCTCC
+ACTTCGGTGATCTGCTCGGACAAGACAGGGACTCTCACTCAGAACCGCATGACTGTGTCC
+CATCTTTGGTTTGACAACCACATCCACACAGCTGACACCACGGAAGACCAGTCAGGGCAG
+ACGTTTGACCAGTCCTCGGAGACGTGGCGGGCGCTGTGCCGGGTGCTCACCCTGTGCAAC
+CGCGCCGCCTTCAAGTCCGGCCAGGATGCAGTGCCTGTGCCCAAGCGCATCGTGATTGGA
+GACGCATCGGAGACGGCGCTGCTCAAGTTCTCGGAGCTGACGCTGGGCAACGCCATGGGC
+TACCGGGACCGCTTCCCAAAAGTCTGCGAGATACCCTTCAACTCCACCAACAAGTTCCAG
+CTGTCCATACATACGCTGGAGGACCCGCGGGACCCGCGACACTTGCTGGTGATGAAGGGC
+GCCCCCGAGCGCGTGCTGGAGCGCTGCAGCTCCATCCTTATCAAGGGCCAGGAGCTGCCG
+CTGGACGAGCAGTGGCGCGAGGCCTTCCAGACCGCCTACCTCAGCCTGGGAGGCCTGGGC
+GAACGCGTGCTCGGCTTCTGCCAGCTCTACCTGAATGAGAAGGACTACCCGCCTGGCTAT
+GCCTTCGACGTAGAGGCCATGAACTTTCCATCTAGCGGCCTCTGCTTTGCGGGACTTGTA
+TCCATGATTGACCCACCCCGGGCCACCGTCCCTGATGCTGTGCTCAAGTGTCGCACCGCA
+GGCATCCGGGTGATCATGGTAACGGGTGACCACCCCATCACCGCCAAGGCCATTGCAGCC
+AGTGTGGGCATCATCTCGGAAGGCAGCGAGACAGTGGAGGACATCGCTGCCCGCCTCCGT
+GTGCCCGTAGACCAGGTTAATCGCAAGGATGCCCGTGCCTGTGTGATCAATGGCATGCAG
+CTGAAGGACATGGACCCATCGGAACTGGTCGAGGCCCTGCGCACCCACCCCGAGATGGTG
+TTTGCGCGCACCAGCCCCCAGCAGAAGCTGGTGATCGTGGAGAGCTGCCAGCGGCTGGGT
+GCGATTGTGGCCGTCACGGGGGATGGTGTGAATGACTCCCCAGCTCTGAAGAAGGCAGAC
+ATCGGAGTAGCCATGGGCATCGCTGGCTCAGATGCTGCCAAAAATGCAGCTGACATGATC
+CTGCTGGATGACAACTTTGCCTCCATTGTGACAGGCGTGGAGCAGGGTCGACTGATCTTC
+GACAACCTGAAGAAGTCTATTGCCTACACATTGACCAAGAACATCCCAGAGCTGACACCC
+TACCTCATCTACATCACCGTCAGCGTGCCCCTGCCCCTCGGGTGCATCACCATCCTCTTC
+ATCGAACTCTGCACTGACATTTTCCCATCTGTGTCCCTGGCATATGAAAAGGCCGAGAGT
+GACATCATGCACCTGCGTCCACGCAACCCAAAGCGTGACAGATTGGTCAACGAGCCCCTG
+GCTGCCTACTCCTACTTCCAGATTGGTGCCATTCAGTCCTTTGCTGGCTTCACTGACTAC
+TTCACGGCAATGGCCCAGGAGGGCTGGTTCCCACTGCTGTGCGTGGGGCTGCGGGCGCAG
+TGGGAGGACCACCACCTACAAGATCTGCAGGACAGCTACGGCCAGGAGTGGACATTCGGG
+CAGCGCCTGTACCAGCAGTACACCTGCTACACCGTGTTCTTCATCAGCATTGAGGTGTGC
+CAGATCGCCGATGTCCTCATCCGCAAGACGCGCCGTCTCTCTGCCTTCCAGCAAGGCTTC
+TTCAGGAATAAGATCCTGGTGATCGCCATCGTGTTCCAGGTCTGCATCGGCTGCTTCCTG
+TGCTACTGCCCCGGCATGCCCAACATCTTCAACTTCATGCCCATTCGGTTCCAGTGGTGG
+CTGGTCCCCCTGCCCTACGGCATCCTCATCTTCGTCTATGATGAGATCCGGAAGCTTGGA
+GTTCGCTGTTGCCCAGGGAGCTGGTGGGACCAGGAACTCTACTATTAG
+
+# Drug_Target_1_General_Function:
+Inorganic ion transport and metabolism
+
+# Drug_Target_1_General_References:
+2160952	Maeda M, Oshiman K, Tamura S, Futai M: Human gastric (H+ + K+)-ATPase gene. Similarity to (Na+ + K+)-ATPase genes in exon/intron organization but difference in control region. J Biol Chem. 1990 Jun 5;265(16):9027-32.
+2176086	Newman PR, Greeb J, Keeton TP, Reyes AA, Shull GE: Structure of the human gastric H,K-ATPase gene and comparison of the 5'-flanking sequences of the human and rat genes. DNA Cell Biol. 1990 Dec;9(10):749-62.
+3036582	Sverdlov ED, Monastyrskaya GS, Broude NE, Ushkaryov YuA, Allikmets RL, Melkov AM, Smirnov YuV, Malyshev IV, Dulobova IE, Petrukhin KE, et al.: The family of human Na+,K+-ATPase genes. No less than five genes and/or pseudogenes related to the alpha-subunit. FEBS Lett. 1987 Jun 15;217(2):275-8.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:819
+
+# Drug_Target_1_HPRD_ID:
+00668
+
+# Drug_Target_1_ID:
+385
+
+# Drug_Target_1_Locus:
+19q13.1
+
+# Drug_Target_1_Molecular_Weight:
+113961
+
+# Drug_Target_1_Name:
+Potassium-transporting ATPase alpha chain 1
+
+# Drug_Target_1_Number_of_Residues:
+1034
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Cimetidine Pathway	SMP00232
+Esomeprazole Pathway	SMP00225
+Famotidine Pathway	SMP00231
+Lansoprazole Pathway	SMP00227
+Nizatidine Pathway	SMP00233
+Omeprazole Pathway	SMP00226
+Pantoprazole Pathway	SMP00228
+Pirenzepine Pathway	SMP00246
+Rabeprazole Pathway	SMP00229
+Ranitidine Pathway	SMP00230
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00122	E1-E2_ATPase
+PF00689	Cation_ATPase_C
+PF00690	Cation_ATPase_N
+PF00702	Hydrolase
+
+# Drug_Target_1_Protein_Sequence:
+>Potassium-transporting ATPase alpha chain 1
+GKAENYELYSVELGPGPGGDMAAKMSKKKKAGGGGGKRKEKLENMKKEMEINDHQLSVAE
+LEQKYQTSATKGLSASLAAELLLRDGPNALRPPRGTPEYVKFARQLAGGLQCLMWVAAAI
+CLIAFAIQASEGDLTTDDNLYLAIALIAVVVVTGCFGYYQEFKSTNIIASFKNLVPQQAT
+VIRDGDKFQINADQLVVGDLVEMKGGDRVPADIRILAAQGCKVDNSSLTGESEPQTRSPE
+CTHESPLETRNIAFFSTMCLEGTAQGLVVNTGDRTIIGRIASLASGVENEKTPIAIEIEH
+FVDIIAGLAILFGATFFIVAMCIGYTFLRAMVFFMAIVVAYVPEGLLATVTVCLSLTAKR
+LASKNCVVKNLEAVETLGSTSVICSDKTGTLTQNRMTVSHLWFDNHIHTADTTEDQSGQT
+FDQSSETWRALCRVLTLCNRAAFKSGQDAVPVPKRIVIGDASETALLKFSELTLGNAMGY
+RDRFPKVCEIPFNSTNKFQLSIHTLEDPRDPRHLLVMKGAPERVLERCSSILIKGQELPL
+DEQWREAFQTAYLSLGGLGERVLGFCQLYLNEKDYPPGYAFDVEAMNFPSSGLCFAGLVS
+MIDPPRATVPDAVLKCRTAGIRVIMVTGDHPITAKAIAASVGIISEGSETVEDIAARLRV
+PVDQVNRKDARACVINGMQLKDMDPSELVEALRTHPEMVFARTSPQQKLVIVESCQRLGA
+IVAVTGDGVNDSPALKKADIGVAMGIAGSDAAKNAADMILLDDNFASIVTGVEQGRLIFD
+NLKKSIAYTLTKNIPELTPYLIYITVSVPLPLGCITILFIELCTDIFPSVSLAYEKAESD
+IMHLRPRNPKRDRLVNEPLAAYSYFQIGAIQSFAGFTDYFTAMAQEGWFPLLCVGLRAQW
+EDHHLQDLQDSYGQEWTFGQRLYQQYTCYTVFFISIEVCQIADVLIRKTRRLSAFQQGFF
+RNKILVIAIVFQVCIGCFLCYCPGMPNIFNFMPIRFQWWLVPLPYGILIFVYDEIRKLGV
+RCCPGSWWDQELYY
+
+# Drug_Target_1_Reaction:
+ATP + H2O + H+in + K+out = ADP + phosphate + H+out + K+in
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Catalyzes the hydrolysis of ATP coupled with the exchange of H(+) and K(+) ions across the plasma membrane. Responsible for acid production in the stomach
+
+# Drug_Target_1_SwissProt_ID:
+P20648
+
+# Drug_Target_1_SwissProt_Name:
+ATP4A_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 3.6.3.10
+Gastric H(+)/K(+) ATPase subunit alpha
+Proton pump
+
+# Drug_Target_1_Theoretical_pI:
+5.54
+
+# Drug_Target_1_Transmembrane_Regions:
+98-118
+142-162
+299-318
+331-348
+783-802
+813-833
+854-876
+929-948
+963-981
+997-1017
+
+#END_DRUGCARD DB00213

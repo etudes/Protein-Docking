@@ -1,0 +1,352 @@
+#BEGIN_DRUGCARD DB03395
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+ENALKIREN
+
+# CAS_Registry_Number:
+113082-98-7
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C35H56N6O6
+
+# Chemical_IUPAC_Name:
+3-amino-N-[(1S)-1-{[(1S)-1-{[(2S,3R,4S)-1-cyclohexyl-3,4-dihydroxy-6-methylheptan-2-yl]carbamoyl}-2-(1H-imidazol-5-yl)ethyl]carbamoyl}-2-(4-methoxyphenyl)ethyl]-3-methylbutanamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Antihypertensive Agents
+Protease Inhibitors
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Enalkiren
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C35H56N6O6/c1-22(2)15-30(42)32(44)27(16-23-9-7-6-8-10-23)40-34(46)29(18-25-20-37-21-38-25)41-33(45)28(39-31(43)19-35(3,4)36)17-24-11-13-26(47-5)14-12-24/h11-14,20-23,27-30,32,42,44H,6-10,15-19,36H2,1-5H3,(H,37,38)(H,39,43)(H,40,46)(H,41,45)/t27-,28-,29-,30-,32+/m0/s1
+
+# InChI_Key:
+InChIKey=KQXVERRYBYGQJZ-WRPDIKACSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+C07466
+
+# KEGG_Drug_ID:
+D03738
+
+# LIMS_Drug_ID:
+3395
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+656.8557
+
+# Molecular_Weight_Mono:
+656.426133554
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1BBS
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+2.47
+
+# Predicted_LogS:
+-4.7
+
+# Predicted_Water_Solubility:
+1.22e-02 g/l
+
+# Primary_Accession_No:
+DB03395
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+60594
+
+# PubChem_Substance_ID:
+46505948
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT03298
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+COC1=CC=C(C[C@H](NC(=O)CC(C)(C)N)C(=O)N[C@@H](CC2=CN=CN2)C(=O)N[C@@H](CC2CCCCC2)[C@@H](O)[C@@H](O)CC(C)C)C=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:22:12 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Secreted protein. Membrane. Associated to membranes via binding to ATP6AP2
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+REN
+
+# Drug_Target_1_GenBank_ID_Gene:
+L00073
+
+# Drug_Target_1_GenBank_ID_Protein:
+190994
+
+# Drug_Target_1_GeneCard_ID:
+REN
+
+# Drug_Target_1_Gene_Name:
+REN
+
+# Drug_Target_1_Gene_Sequence:
+>1221 bp
+ATGGATGGATGGAGAAGGATGCCTCGCTGGGGACTGCTGCTGCTGCTCTGGGGCTCCTGT
+ACCTTTGGTCTCCCGACAGACACCACCACCTTTAAACGGATCTTCCTCAAGAGAATGCCC
+TCAATCCGAGAAAGCCTGAAGGAACGAGGTGTGGACATGGCCAGGCTTGGTCCCGAGTGG
+AGCCAACCCATGAAGAGGCTGACACTTGGCAACACCACCTCCTCCGTGATCCTCACCAAC
+TACATGGACACCCAGTACTATGGCGAGATTGGCATCGGCACCCCACCCCAGACCTTCAAA
+GTCGTCTTTGACACTGGTTCGTCCAATGTTTGGGTGCCCTCCTCCAAGTGCAGCCGTCTC
+TACACTGCCTGTGTGTATCACAAGCTCTTCGATGCTTCGGATTCCTCCAGCTACAAGCAC
+AATGGAACAGAACTCACCCTCCGCTATTCAACAGGGACAGTCAGTGGCTTTCTCAGCCAG
+GACATCATCACCGTGGGTGGAATCACGGTGACACAGATGTTTGGAGAGGTCACGGAGATG
+CCCGCCTTACCCTTCATGCTGGCCGAGTTTGATGGGGTTGTGGGCATGGGCTTCATTGAA
+CAGGCCATTGGCAGGGTCACCCCTATCTTCGACAACATCATCTCCCAAGGGGTGCTAAAA
+GAGGACGTCTTCTCTTTCTACTACAACAGAGATTCCGAGAATTCCCAATCGCTGGGAGGA
+CAGATTGTGCTGGGAGGCAGCGACCCCCAGCATTACGAAGGGAATTTCCACTATATCAAC
+CTCATCAAGACTGGTGTCTGGCAGATTCAAATGAAGGGGGTGTCTGTGGGGTCATCCACC
+TTGCTCTGTGAAGACGGCTGCCTGGCATTGGTAGACACCGGTGCATCCTACATCTCAGGT
+TCTACCAGCTCCATAGAGAAGCTCATGGAGGCCTTGGGAGCCAAGAAGAGGCTGTTTGAT
+TATGTCGTGAAGTGTAACGAGGGCCCTACACTCCCCGACATCTCTTTCCACCTGGGAGGC
+AAAGAATACACGCTCACCAGCGCGGACTATGTATTTCAGGAATCCTACAGTAGTAAAAAG
+CTGTGCACACTGGCCATCCACGCCATGGATATCCCGCCACCCACTGGACCCACCTGGGCC
+CTGGGGGCCACCTTCATCCGAAAGTTCTACACAGAGTTTGATCGGCGTAACAACCGCATT
+GGCTTCGCCTTGGCCCGCTGA
+
+# Drug_Target_1_General_Function:
+Involved in aspartic-type endopeptidase activity
+
+# Drug_Target_1_General_References:
+12045255	Nguyen G, Delarue F, Burckle C, Bouzhir L, Giller T, Sraer JD: Pivotal role of the renin/prorenin receptor in angiotensin II production and cellular responses to renin. J Clin Invest. 2002 Jun;109(11):1417-27.
+1608447	Dhanaraj V, Dealwis CG, Frazao C, Badasso M, Sibanda BL, Tickle IJ, Cooper JB, Driessen HP, Newman M, Aguilar C, et al.: X-ray analyses of peptide-inhibitor complexes define the structural basis of specificity for human and mouse renins. Nature. 1992 Jun 11;357(6378):466-72.
+2016271	Ishizuka Y, Shoda A, Yoshida S, Kawamura Y, Haraguchi K, Murakami K: Isolation and characterization of recombinant human prorenin in Chinese hamster ovary cells. J Biochem (Tokyo). 1991 Jan;109(1):30-5.
+2493678	Sielecki AR, Hayakawa K, Fujinaga M, Murphy ME, Fraser M, Muir AK, Carilli CT, Lewicki JA, Baxter JD, James MN: Structure of recombinant human renin, a target for cardiovascular-active drugs, at 2.5 A resolution. Science. 1989 Mar 10;243(4896):1346-51.
+2540188	Burt DW, Nakamura N, Kelley P, Dzau VJ: Identification of negative and positive regulatory elements in the human renin gene. J Biol Chem. 1989 May 5;264(13):7357-62.
+3032746	Fukamizu A, Nishi K, Nishimatsu S, Miyazaki H, Hirose S, Murakami K: Human renin gene of renin-secreting tumor. Gene. 1986;49(1):139-45.
+3516796	Soubrier F, Panthier JJ, Houot AM, Rougeon F, Corvol P: Segmental homology between the promoter region of the human renin gene and the mouse ren1 and ren2 promoter regions. Gene. 1986;41(1):85-92.
+3530608	Morris BJ: New possibilities for intracellular renin and inactive renin now that the structure of the human renin gene has been elucidated. Clin Sci (Lond). 1986 Oct;71(4):345-55.
+6138751	Soubrier F, Panthier JJ, Corvol P, Rougeon F: Molecular cloning and nucleotide sequence of a human renin cDNA fragment. Nucleic Acids Res. 1983 Oct 25;11(20):7181-90.
+6324167	Imai T, Miyazaki H, Hirose S, Hori H, Hayashi T, Kageyama R, Ohkubo H, Nakanishi S, Murakami K: Cloning and sequence analysis of cDNA for human renin precursor. Proc Natl Acad Sci U S A. 1983 Dec;80(24):7405-9.
+6391881	Hardman JA, Hort YJ, Catanzaro DF, Tellam JT, Baxter JD, Morris BJ, Shine J: Primary structure of the human renin gene. DNA. 1984 Dec;3(6):457-68.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:9958
+
+# Drug_Target_1_HPRD_ID:
+01564
+
+# Drug_Target_1_ID:
+298
+
+# Drug_Target_1_Locus:
+1q32
+
+# Drug_Target_1_Molecular_Weight:
+45058
+
+# Drug_Target_1_Name:
+Renin
+
+# Drug_Target_1_Number_of_Residues:
+406
+
+# Drug_Target_1_PDB_ID:
+1BBS
+
+# Drug_Target_1_Pathway:
+Benazepril Pathway	SMP00145
+Captopril Pathway	SMP00146
+Cilazapril Pathway	SMP00147
+Enalapril Pathway	SMP00148
+Fosinopril Pathway	SMP00149
+Lisinopril Pathway	SMP00150
+Moexipril Pathway	SMP00151
+Perindopril Pathway	SMP00152
+Quinapril Pathway	SMP00153
+Ramipril Pathway	SMP00154
+Rescinnamine Pathway	SMP00155
+Spirapril Pathway	SMP00156
+Trandolapril Pathway	SMP00157
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00026	Asp
+PF07966	A1_Propeptide
+
+# Drug_Target_1_Protein_Sequence:
+>Renin precursor
+MDGWRRMPRWGLLLLLWGSCTFGLPTDTTTFKRIFLKRMPSIRESLKERGVDMARLGPEW
+SQPMKRLTLGNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRL
+YTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITVTQMFGEVTEM
+PALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDSENSQSLGG
+QIVLGGSDPQHYEGNFHYINLIKTGVWQIQMKGVSVGSSTLLCEDGCLALVDTGASYISG
+STSSIEKLMEALGAKKRLFDYVVKCNEGPTLPDISFHLGGKEYTLTSADYVFQESYSSKK
+LCTLAIHAMDIPPPTGPTWALGATFIRKFYTEFDRRNNRIGFALAR
+
+# Drug_Target_1_Reaction:
+Cleavage of Leu! bond in angiotensinogen to generate angiotensin I
+
+# Drug_Target_1_Signals:
+1-23
+
+# Drug_Target_1_Specific_Function:
+Renin is a highly specific endopeptidase, whose only known function is to generate angiotensin I from angiotensinogen in the plasma, initiating a cascade of reactions that produce an elevation of blood pressure and increased sodium retention by the kidney
+
+# Drug_Target_1_SwissProt_ID:
+P00797
+
+# Drug_Target_1_SwissProt_Name:
+RENI_HUMAN
+
+# Drug_Target_1_Synonyms:
+Angiotensinogenase
+EC 3.4.23.15
+Renin precursor
+
+# Drug_Target_1_Theoretical_pI:
+7.07
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB03395

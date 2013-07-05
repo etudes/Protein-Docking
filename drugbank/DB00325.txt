@@ -1,0 +1,440 @@
+#BEGIN_DRUGCARD DB00325
+
+# AHFS_Codes:
+24:08.20
+
+# ATC_Codes:
+C02DD01
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Metabolized by reaction with hemoglobin to produce cyanmethemoglobin and cynide ions
+
+# Brand_Mixtures:
+Cora-Bosan B43 (Potassium Carbonate + Sodium Nitroprusside + Squill)
+
+# Brand_Names:
+Nipride
+Nitropress
+
+# CAS_Registry_Number:
+15078-28-1
+
+# ChEBI_ID:
+7596
+
+# Chemical_Formula:
+C5FeN6O
+
+# Chemical_IUPAC_Name:
+pentacyano(nitroso)irondiuide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+336459
+
+# Description:
+Nitroprusside serves as a source of nitric oxide, a potent peripheral vasodilator that affects both arterioles and venules (venules more than arterioles). Nitroprusside is often administered intravenously to patients who are experiencing a hypertensive emergency. [Wikipedia]
+
+# Dosage_Forms:
+Powder, for solution	Intravenous
+
+# Drug_Category:
+Antihypertensive Agents
+Indicators and Reagents
+Nitric Oxide Donors
+Vasodilator Agents
+
+# Drug_Interactions:
+Treprostinil	Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Nitroprusside
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Approximately 2 minutes
+
+# InChI_Identifier:
+InChI=1S/5CN.Fe.NO/c5*1-2;;1-2/q;;;;;2*-1
+
+# InChI_Key:
+InChIKey=ASPOIVQEUUCDQT-UHFFFAOYSA-N
+
+# Indication:
+For immediate reduction of blood pressure of patients in hypertensive crises, reduce bleeding during surgery, and for the treatment of acute congestive heart failure
+
+# KEGG_Compound_ID:
+C07269
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+325
+
+# Mechanism_Of_Action:
+One molecule of sodium nitroprusside is metabolized by combination with hemoglobin to produce one molecule of cyanmethemoglobin and four CN- ions; methemoglobin, obtained from hemoglobin, can sequester cyanide as cyanmethemoglobin; thiosulfate reacts with cyanide to produce thiocyanate; thiocyanate is eliminated in the urine; cyanide not otherwise removed binds to cytochromes. Cyanide ion is normally found in serum; it is derived from dietary substrates and from tobacco smoke. Cyanide binds avidly (but reversibly) to ferric ion (Fe+++), most body stores of which are found in erythrocyte methemoglobin (metHgb) and in mitochondrial cytochromes. When CN is infused or generated within the bloodstream, essentially all of it is bound to methemoglobin until intraerythrocytic methemoglobin has been saturated.
+Once activated to NO, it activates guanylate cyclase in vascular smooth muscle and increases intracellular production of cGMP. cGMP stimulates calcium movement from the cytoplasm to the endoplasmic reticulum and reduces calcium available to bind with calmodulin. This eventually leads to vascular smooth muscle relaxation and vessel dilatation.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+215.938
+
+# Molecular_Weight_Mono:
+215.948300785
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA451406
+
+# Pharmacology:
+Nitroprusside a powerful vasodilator relaxes the vascular smooth muscle and produce consequent dilatation of peripheral arteries and veins. Other smooth muscle (e.g., uterus, duodenum) is not affected. Sodium nitroprusside is more active on veins than on arteries.
+
+# Predicted_LogP_Hydrophobicity:
+0
+
+# Predicted_LogS:
+0
+
+# Predicted_Water_Solubility:
+Not Available
+
+# Primary_Accession_No:
+DB00325
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+11963622
+
+# PubChem_Substance_ID:
+46508965
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/nitroprusside.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD01143
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+O=N[Fe--](C#N)(C#N)(C#N)(C#N)C#N
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Disodium nitroprusside dihydrate
+Sodium Nitroprusside
+Sodium nitroferricyanide dihydrate
+Sodium nitroprusside dihydrate
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Overdosage of nitroprusside can be manifested as excessive hypotension or cyanide toxicity or as thiocyanate toxicity. The acute intravenous mean lethal doses (LD<sub>50</sub>) of nitroprusside in rabbits, dogs, mice, and rats are 2.8, 5.0, 8.4, and 11.2 mg/kg, respectively.
+
+# Update_Date:
+2013-02-08 16:19:15 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Nitroprusside
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP1A1
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+6024
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 1A1
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 1A1
+MLFPISMSATEFLLASVIFCLVFWVIRASRPQVPKGLKNPPGPWGWPLIGHMLTLGKNPH
+LALSRMSQQYGDVLQIRIGSTPVVVLSGLDTIRQALVRQGDDFKGRPDLYTFTLISNGQS
+MSFSPDSGPVWAARRRLAQNGLKSFSIASDPASSTSCYLEEHVSKEAEVLISTLQELMAG
+PGHFNPYRYVVVSVTNVICAICFGRRYDHNHQELLSLVNLNNNFGEVVGSGNPADFIPIL
+RYLPNPSLNAFKDLNEKFYSFMQKMVKEHYKTFEKGHIRDITDSLIEHCQEKQLDENANV
+QLSDEKIINIVLDLFGAGFDTVTTAISWSLMYLVMNPRVQRKIQEELDTVIGRSRRPRLS
+DRSHLPYMEAFILETFRHSSFVPFTIPHSTTRDTSLKGFYIPKGRCVFVNQWQINHDQKL
+WVNPSEFLPERFLTPDGAIDKVLSEKVIIFGMGKRKCIGETIARWEVFLFLAILLQRVEF
+SVPLGVKVDMTPIYGLTMKHACCEHFQMQLRS
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P04798
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+single-pass type I membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+15093694	Steinmetz M, Potthast R, Sabrane K, Kuhn M: Diverging vasorelaxing effects of C-type natriuretic peptide in renal resistance arteries and aortas of GC-A-deficient mice. Regul Pept. 2004 Jun 15;119(1-2):31-7.
+16902599	Fortin Y, De Lean A: Role of cyclic GMP and calcineurin in homologous and heterologous desensitization of natriuretic peptide receptor-A. Can J Physiol Pharmacol. 2006 May;84(5):539-46.
+17016498	Madhani M, Okorie M, Hobbs AJ, MacAllister RJ: Reciprocal regulation of human soluble and particulate guanylate cyclases in vivo. Br J Pharmacol. 2006 Nov;149(6):797-801. Epub 2006 Oct 3.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+NPR1
+
+# Drug_Target_1_GenBank_ID_Gene:
+X15357
+
+# Drug_Target_1_GenBank_ID_Protein:
+28230
+
+# Drug_Target_1_GeneCard_ID:
+NPR1
+
+# Drug_Target_1_Gene_Name:
+NPR1
+
+# Drug_Target_1_Gene_Sequence:
+>3186 bp
+ATGCCGGGGCCCCGGCGCCCCGCTGGCTCCCGCCTGCGCCTGCTCCTGCTCCTGCTGCTG
+CCGCCGCTGCTGCTGCTGCTCCGGGGCAGCCACGCGGGCAACCTGACGGTAGCCGTGGTA
+CTGCCGCTGGCCAATACCTCGTACCCCTGGTCGTGGGCGCGCGTGGGACCCGCCGTGGAG
+CTGGCCCTGGCCCAGGTGAAGGCGCGCCCCGACTTGCTGCCGGGCTGGACGGTCCGCACG
+GTGCTGGGCAGCAGCGAAAACGCGCTGGGCGTCTGCTCCGACACCGCAGCGCCCCTGGCC
+GCGGTGGACCTCAAGTGGGAGCACAACCCCGCTGTGTTCCTGGGCCCCGGCTGCGTGTAC
+GCCGCCGCCCCAGTGGGGCGCTTCACCGCGCACTGGCGGGTCCCGCTGCTGACCGCCGGC
+GCCCCGGCGCTGGGCTTCGGTGTCAAGGACGAGTATGCGCTGACCACCCGCGCGGGGCCC
+AGCTACGCCAAGCTGGGGGACTTCGTGGCGGCGCTGCACCGACGGCTGGGCTGGGAGCGC
+CAAGCGCTCATGCTCTACGCCTACCGGCCGGGTGACGAAGAGCACTGCTTCTTCCTCGTG
+GAGGGGCTGTTCATGCGGGTCCGCGACCGCCTCAATATTACGGTGGACCACCTGGAGTTC
+GCCGAGGACGACCTCAGCCACTACACCAGGCTGCTGCGGACCATGCCGCGCAAAGGCCGA
+GTTATCTACATCTGCAGCTCCCCTGATGCCTTCAGAACCCTCATGCTCCTGGCCCTGGAA
+GCTGGCTTGTGTGGGGAGGACTACGTTTTCTTCCACCTGGATATCTTTGGGCAAAGCCTG
+CAAGGTGGACAGGGCCCTGCTCCCCGCAGGCCCTGGGAGAGAGGGGATGGGCAGGATGTC
+AGTGCCCGCCAGGCCTTTCAGGCTGCCAAAATCATTACATATAAAGACCCAGATAATCCC
+GAGTACTTGGAATTCCTGAAGCAGTTAAAACACCTGGCCTATGAGCAGTTCAACTTCACC
+ATGGAGGATGGCCTGGTGAACACCATCCCAGCATCCTTCCACGACGGGCTCCTGCTCTAT
+ATCCAGGCAGTGACGGAGACTCTGGCACATGGGGGAACTGTTACTGATGGGGAGAACATC
+ACTCAGCGGATGTGGAACCGAAGCTTTCAAGGTGTGACAGGATACCTGAAAATTGATAGC
+AGTGGCGATCGGGAAACAGACTTCTCCCTCTGGGATATGGATCCCGAGAATGGTGCCTTC
+AGGGTTGTACTGAACTACAATGGGACTTCCCAAGAGCTGGTGGCTGTGTCGGGGCGCAAA
+CTGAACTGGCCCCTGGGGTACCCTCCTCCTGACATCCCCAAATGTGGCTTTGACAACGAA
+GACCCAGCATGCAACCAAGATCACCTTTCCACCCTGGAGGTGCTGGCTTTGGTGGGCAGC
+CTCTCCTTGCTCGGCATTCTGATTGTCTCCTTCTTCATATACAGGAAGATGCAGCTGGAG
+AAGGAACTGGCCTCGGAGCTGTGGCGGGTGCGCTGGGAGGACGTTGAGCCCAGTAGCCTT
+GAGAGGCACCTGCGGAGTGCAGGCAGCCGGCTGACCCTGAGCGGGAGAGGCTCCAATTAC
+GGCTCCCTGCTAACCACAGAGGGCCAGTTCCAAGTCTTTGCCAAGACAGCATATTATAAG
+GGCAACCTCGTGGCTGTGAAACGTGTGAACCGTAAACGCATTGAGCTGACACGAAAAGTC
+CTGTTTGAACTGAAGCATATGCGGGATGTGCAGAATGAACACCTGACCAGGTTTGTGGGA
+GCCTGCACCGACCCCCCCAATATCTGCATCCTCACAGAGTACTGTCCCCGTGGGAGCCTG
+CAGGACATTCTGGAGAATGAGAGCATCACCCTGGACTGGATGTTCCGGTACTCACTCACC
+AATGACATCGTCAAGGGCATGCTGTTTCTACACAATGGGGCTATCTGTTCCCATGGGAAC
+CTCAAGTCATCCAACTGCGTGGTAGATGGGCGCTTTGTGCTCAAGATCACCGACTATGGG
+CTGGAGAGCTTCAGGGACCTGGACCCAGAGCAAGGACACACCGTTTATGCCAAAAAGCTG
+TGGACGGCCCCTGAGCTCCTGCGAATGGCTTCACCCCCTGTGCGGGGCTCCCAGGCTGGT
+GACGTATACAGCTTTGGGATCATCCTTCAGGAGATTGCCCTGAGGAGTGGGGTCTTCCAC
+GTGGAAGGTTTGGACCTGAGCCCCAAAGAGATCATCGAGCGGGTGACTCGGGGTGAGCAG
+CCCCCCTTCCGGCCCTCCCTGGCCCTGCAGAGTCACCTGGAGGAGTTGGGGCTGCTCATG
+CAGCGGTGCTGGGCTGAGGACCCACAGGAGAGGCCACCATTCCAGCAGATCCGCCTGACG
+TTGCGCAAATTTAACAGGGAGAACAGCAGCAACATCCTGGACAACCTGCTGTCCCGCATG
+GAGCAGTACGCGAACAATCTGGAGGAACTGGTGGAGGAGCGGACCCAGGCATACCTGGAG
+GAGAAGCGCAAGGCTGAGGCCCTGCTCTACCAGATCCTGCCTCACTCAGTGGCTGAGCAG
+CTGAAGCGTGGGGAGACGGTGCAGGCCGAAGCCTTTGACAGTGTTACCATCTACTTCAGT
+GACATTGTGGGTTTCACAGCGCTGTCGGCGGAGAGCACACCCATGCAGGTGGTGACCCTG
+CTCAATGACCTGTACACTTGCTTTGATGCTGTCATAGACAACTTTGATGTGTACAAGGTG
+GAGACAATTGGCGATGCCTACATGGTGGTGTCAGGGCTCCCTGTGCGGAACGGGCGGCTA
+CACGCCTGCGAGGTAGCCCGCATGGCCCTGGCACTGCTGGATGCTGTGCGCTCCTTCCGA
+ATCCGCCACCGGCCCCAGGAGCAGCTGCGCTTGCGCATTGGCATCCACACAGGACCTGTG
+TGTGCTGGAGTGGTGGGACTGAAGATGCCCCGTTACTGTCTCTTTGGGGATACAGTCAAC
+ACAGCCTCAAGAATGGAGTCTAATGGGGAAGCCCTGAAGATCCACTTGTCTTCTGAGACC
+AAGGCTGTCCTGGAGGAGTTTGGTGGTTTCGAGCTGGAGCTTCGAGGGGATGTAGAAATG
+AAGGGCAAAGGCAAGGTTCGGACCTACTGGCTCCTTGGGGAGAGGGGGAGTAGCACCCGA
+GGCTGA
+
+# Drug_Target_1_General_Function:
+Signal transduction mechanisms
+
+# Drug_Target_1_General_References:
+2569967	Lowe DG, Chang MS, Hellmiss R, Chen E, Singh S, Garbers DL, Goeddel DV: Human atrial natriuretic peptide receptor defines a new paradigm for second messenger signal transduction. EMBO J. 1989 May;8(5):1377-84.
+7954658	Pardhasaradhi K, Kutty RK, Gentleman S, Krishna G: Expression of mRNA for atrial natriuretic peptide receptor guanylate cyclase (ANPRA) in human retina. Cell Mol Neurobiol. 1994 Feb;14(1):1-7.
+9618281	Takahashi Y, Nakayama T, Soma M, Izumi Y, Kanmatsuse K: Organization of the human natriuretic peptide receptor A gene. Biochem Biophys Res Commun. 1998 May 29;246(3):736-9.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:7943
+
+# Drug_Target_1_HPRD_ID:
+00165
+
+# Drug_Target_1_ID:
+613
+
+# Drug_Target_1_Locus:
+1q21-q22
+
+# Drug_Target_1_Molecular_Weight:
+118921
+
+# Drug_Target_1_Name:
+Atrial natriuretic peptide receptor A
+
+# Drug_Target_1_Number_of_Residues:
+1061
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00211	Guanylate_cyc
+PF01094	ANF_receptor
+PF07714	Pkinase_Tyr
+
+# Drug_Target_1_Protein_Sequence:
+>Atrial natriuretic peptide receptor A precursor
+MPGPRRPAGSRLRLLLLLLLPPLLLLLRGSHAGNLTVAVVLPLANTSYPWSWARVGPAVE
+LALAQVKARPDLLPGWTVRTVLGSSENALGVCSDTAAPLAAVDLKWEHNPAVFLGPGCVY
+AAAPVGRFTAHWRVPLLTAGAPALGFGVKDEYALTTRAGPSYAKLGDFVAALHRRLGWER
+QALMLYAYRPGDEEHCFFLVEGLFMRVRDRLNITVDHLEFAEDDLSHYTRLLRTMPRKGR
+VIYICSSPDAFRTLMLLALEAGLCGEDYVFFHLDIFGQSLQGGQGPAPRRPWERGDGQDV
+SARQAFQAAKIITYKDPDNPEYLEFLKQLKHLAYEQFNFTMEDGLVNTIPASFHDGLLLY
+IQAVTETLAHGGTVTDGENITQRMWNRSFQGVTGYLKIDSSGDRETDFSLWDMDPENGAF
+RVVLNYNGTSQELVAVSGRKLNWPLGYPPPDIPKCGFDNEDPACNQDHLSTLEVLALVGS
+LSLLGILIVSFFIYRKMQLEKELASELWRVRWEDVEPSSLERHLRSAGSRLTLSGRGSNY
+GSLLTTEGQFQVFAKTAYYKGNLVAVKRVNRKRIELTRKVLFELKHMRDVQNEHLTRFVG
+ACTDPPNICILTEYCPRGSLQDILENESITLDWMFRYSLTNDIVKGMLFLHNGAICSHGN
+LKSSNCVVDGRFVLKITDYGLESFRDLDPEQGHTVYAKKLWTAPELLRMASPPVRGSQAG
+DVYSFGIILQEIALRSGVFHVEGLDLSPKEIIERVTRGEQPPFRPSLALQSHLEELGLLM
+QRCWAEDPQERPPFQQIRLTLRKFNRENSSNILDNLLSRMEQYANNLEELVEERTQAYLE
+EKRKAEALLYQILPHSVAEQLKRGETVQAEAFDSVTIYFSDIVGFTALSAESTPMQVVTL
+LNDLYTCFDAVIDNFDVYKVETIGDAYMVVSGLPVRNGRLHACEVARMALALLDAVRSFR
+IRHRPQEQLRLRIGIHTGPVCAGVVGLKMPRYCLFGDTVNTASRMESNGEALKIHLSSET
+KAVLEEFGGFELELRGDVEMKGKGKVRTYWLLGERGSSTRG
+
+# Drug_Target_1_Reaction:
+GTP = 3',5'-cyclic GMP + diphosphate
+
+# Drug_Target_1_Signals:
+1-32
+
+# Drug_Target_1_Specific_Function:
+Receptor for atrial natriuretic peptide. Has guanylate cyclase activity on binding of ANF
+
+# Drug_Target_1_SwissProt_ID:
+P16066
+
+# Drug_Target_1_SwissProt_Name:
+ANPRA_HUMAN
+
+# Drug_Target_1_Synonyms:
+ANP-A
+ANPRA
+Atrial natriuretic peptide A-type receptor
+Atrial natriuretic peptide receptor A precursor
+EC 4.6.1.2
+GC-A
+Guanylate cyclase
+NPR-A
+
+# Drug_Target_1_Theoretical_pI:
+6.61
+
+# Drug_Target_1_Transmembrane_Regions:
+474-494
+
+#END_DRUGCARD DB00325

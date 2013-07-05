@@ -1,0 +1,595 @@
+#BEGIN_DRUGCARD DB02857
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+118-00-3
+
+# ChEBI_ID:
+16750
+
+# Chemical_Formula:
+C10H13N5O5
+
+# Chemical_IUPAC_Name:
+2-amino-9-[(2R,3R,4R,5S)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-6,9-dihydro-1H-purin-6-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Guanosine is a nucleoside comprising guanine attached to a ribose (ribofuranose) ring via a β-N9-glycosidic bond. Guanosine can be phosphorylated to become GMP (guanosine monophosphate), cGMP (cyclic guanosine monophosphate), GDP (guanosine diphosphate) and GTP (guanosine triphosphate). [Wikipedia]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-1.90
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+700 mg/L (at 18 °C)
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Guanosine
+
+# HET_ID:
+GMP
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C10H13N5O5/c11-10-13-7-4(8(19)14-10)12-2-15(7)9-6(18)5(17)3(1-16)20-9/h2-3,5-6,9,16-18H,1H2,(H3,11,13,14,19)/t3-,5-,6+,9+/m0/s1
+
+# InChI_Key:
+InChIKey=NYHBQMYGNKIUIF-BZKDHIKHSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+C00387
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+2857
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+239 dec °C
+
+# Molecular_Weight_Avg:
+283.2407
+
+# Molecular_Weight_Mono:
+283.091668551
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1IH7
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-2.1
+
+# Predicted_LogS:
+-1.3
+
+# Predicted_Water_Solubility:
+1.53e+01 g/l
+
+# Primary_Accession_No:
+DB02857
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+453549
+
+# PubChem_Substance_ID:
+46505099
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT01622
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=NC2=C(N=CN2[C@@H]2O[C@@H](CO)[C@H](O)[C@H]2O)C(=O)N1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:21:33 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Guanosine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+U34036
+
+# Drug_Target_1_GenBank_ID_Protein:
+1237126
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+43
+
+# Drug_Target_1_Gene_Sequence:
+>2712 bp
+ATGAAAGAATTTTACTTAACGGTTGAACAGATTGGTGATTCAATTTTTGAACGTTACATC
+GATTCTAATGGCCGTGAACGTACTCGTGAAGTAGAATATAAACCATCACTGTTTGCTCAT
+TGTCCAGAAAGTCAGGCTACGAAATATTTCGATATCTACGGTAAACCGTGTACTCGTAAG
+TTGTTCGCTAATATGCGTGATGCCTCCCAATGGATTAAACGCATGGAAGATATCGGACTT
+GAAGCACTTGGCATGGACGATTTCAAATTGGCGTATTTGTCTGACACTTATAACTATGAA
+ATCAAATACGACCATACAAAAATTCGTGTGGCTAACTTCGACATCGAAGTAACATCTCCG
+GATGGGTTCCCTGAGCCGTCACAAGCAAAACATCCGATTGATGCTATCACCCATTATGAC
+TCAATTGACGACAGGTTCTACGTATTTGATCTATTGAATTCTCCATATGGTAATGTAGAA
+GAATGGTCTATTGAAATCGCTGCTAAGCTTCAAGAACAAGGTGGTGATGAAGTTCCATCT
+GAAATTATTGATAAAATCATTTATATGCCGTTCGATAACGAAAAAGAATTGTTGATGGAA
+TATCTCAACTTCTGGCAACAGAAAACTCCTGTCATTTTGACTGGATGGAACGTTGAGTCA
+TTTGATATTCCGTACGTGTATAACCGAATCAAGAATATTTTTGGCGAATCAACTGCGAAA
+CGTTTATCACCACATCGTAAAACTCGTGTTAAAGTTATCGAAAACATGTATGGTTCTCGT
+GAAATCATTACATTGTTCGGTATCTCTGTTCTTGATTACATTGACCTTTACAAAAAATTC
+TCTTTTACCAATCAACCGTCGTATTCTCTGGATTACATTTCAGAATTTGAATTGAACGTT
+GGTAAACTGAAATATGACGGCCCTATTTCTAAGCTTCGTGAAAGCAATCACCAACGATAT
+ATTTCTTATAACATTATCGACGTGTATCGTGTATTGCAAATTGATGCTAAGCGTCAGTTC
+ATCAACTTGAGTTTGGACATGGGTTATTATGCTAAGATACAGATTCAATCTGTGTTTAGC
+CCAATTAAAACATGGGATGCTATTATTTTTAATAGCCTTAAAGAGCAGAACAAGGTGATT
+CCACAAGGTCGTTCTCACCCGGTTCAACCTTATCCCGGCGCTTTTGTTAAGGAACCTATT
+CCAAATCGATACAAATATGTAATGAGTTTCGACCTTACATCTCTATATCCAAGTATTATT
+CGCCAAGTGAATATTAGCCCAGAAACAATAGCAGGAACGTTTAAAGTAGCTCCATTGCAT
+GATTATATTAACGCTGTTGCTGAACGTCCTTCTGATGTGTACAGTTGTTCTCCTAACGGC
+ATGATGTATTATAAAGACCGTGATGGTGTAGTTCCAACTGAAATCACTAAGGTCTTTAAT
+CAACGTAAAGAACATAAAGGTTACATGCTTGCAGCTCAACGTAATGGTGAAATAATTAAA
+GAGGCATTGCATAATCCTAATCTTTCTGTTGACGAACCATTAGATGTTGATTATCGTTTC
+GACTTCAGCGATGAGATTAAAGAAAAGATTAAAAAGTTGTCTGCTAAATCTCTTAATGAA
+ATGTTGTTTAGAGCTCAACGTACTGAAGTTGCAGGTATGACTGCACAAATTAACCGTAAA
+TTGCTTATCAACTCACTTTATGGTGCACTTGGCAACGTTTGGTTCCGTTATTATGATTTG
+CGTAATGCTACTGCAATCACAACATTCGGGCAAATGGCTTTACAGTGGATTGAACGTAAA
+GTTAATGAATATCTGAATGAAGTTTGTGGTACAGAAGGTGAAGCTTTCGTTCTTTATGGT
+GATACAGACTCTATTTACGTATCTGCTGATAAAATTATCGATAAGGTTGGTGAATCTAAA
+TTCCGTGATACCAACCATTGGGTAGACTTCTTAGATAAGTTTGCACGTGAACGTATGGAA
+CCAGCTATTGATAGAGGTTTCCGTGAAATGTGTGAATACATGAACAATAAACAACACTTA
+ATGTTCATGGACCGAGAAGCTATCGCTGGGCCTCCGCTTGGTTCTAAAGGTATTGGCGGA
+TTTTGGACTGGTAAGAAACGTTATGCATTAAACGTGTGGGATATGGAAGGTACTCGTTAC
+GCTGAGCCTAAACTCAAAATCATGGGTCTAGAGACTCAGAAATCTTCGACTCCTAAAGCA
+GTACAGAAAGCTCTTAAAGAATGTATTCGTCGTATGCTTCAAGAAGGTGAAGAATCATTA
+CAAGAATATTTTAAAGAGTTTGAAAAAGAATTCCGTCAATTGAATTATATTAGCATCGCG
+TCGGTATCTTCTGCGAATAACATTGCTAAATATGACGTAGGTGGATTCCCTGGTCCCAAA
+TGCCCGTTCCATATTCGTGGAATTCTGACATATAACCGAGCTATCAAAGGTAATATTGAT
+GCACCACAAGTTGTAGAAGGTGAAAAAGTATATGTTCTGCCTTTACGTGAAGGAAACCCA
+TTCGGTGATAAATGTATCGCATGGCCTTCTGGTACTGAAATCACAGATTTAATTAAAGAC
+GACGTACTTCATTGGATGGACTACACTGTTCTCCTTGAGAAGACATTTATTAAACCACTT
+GAAGGATTCACATCAGCAGCGAAACTCGATTACGAGAAGAAAGCATCTCTGTTCGATATG
+TTCGATTTTTGA
+
+# Drug_Target_1_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_1_General_References:
+10535734	Shamoo Y, Steitz TA: Building a replisome from interacting pieces: sliding clamp complexed to a peptide from DNA polymerase and a polymerase editing complex. Cell. 1999 Oct 15;99(2):155-66.
+7592876	Wang CC, Yeh LS, Karam JD: Modular organization of T4 DNA polymerase. Evidence from phylogenetics. J Biol Chem. 1995 Nov 3;270(44):26558-64.
+9215631	Wang J, Sattar AK, Wang CC, Karam JD, Konigsberg WH, Steitz TA: Crystal structure of a pol alpha family replication DNA polymerase from bacteriophage RB69. Cell. 1997 Jun 27;89(7):1087-99.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+2482
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+104614
+
+# Drug_Target_1_Name:
+DNA polymerase
+
+# Drug_Target_1_Number_of_Residues:
+903
+
+# Drug_Target_1_PDB_ID:
+1IH7
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00136	DNA_pol_B
+PF03104	DNA_pol_B_exo
+
+# Drug_Target_1_Protein_Sequence:
+>DNA polymerase
+MKEFYLTVEQIGDSIFERYIDSNGRERTREVEYKPSLFAHCPESQATKYFDIYGKPCTRK
+LFANMRDASQWIKRMEDIGLEALGMDDFKLAYLSDTYNYEIKYDHTKIRVANFDIEVTSP
+DGFPEPSQAKHPIDAITHYDSIDDRFYVFDLLNSPYGNVEEWSIEIAAKLQEQGGDEVPS
+EIIDKIIYMPFDNEKELLMEYLNFWQQKTPVILTGWNVESFDIPYVYNRIKNIFGESTAK
+RLSPHRKTRVKVIENMYGSREIITLFGISVLDYIDLYKKFSFTNQPSYSLDYISEFELNV
+GKLKYDGPISKLRESNHQRYISYNIIDVYRVLQIDAKRQFINLSLDMGYYAKIQIQSVFS
+PIKTWDAIIFNSLKEQNKVIPQGRSHPVQPYPGAFVKEPIPNRYKYVMSFDLTSLYPSII
+RQVNISPETIAGTFKVAPLHDYINAVAERPSDVYSCSPNGMMYYKDRDGVVPTEITKVFN
+QRKEHKGYMLAAQRNGEIIKEALHNPNLSVDEPLDVDYRFDFSDEIKEKIKKLSAKSLNE
+MLFRAQRTEVAGMTAQINRKLLINSLYGALGNVWFRYYDLRNATAITTFGQMALQWIERK
+VNEYLNEVCGTEGEAFVLYGDTDSIYVSADKIIDKVGESKFRDTNHWVDFLDKFARERME
+PAIDRGFREMCEYMNNKQHLMFMDREAIAGPPLGSKGIGGFWTGKKRYALNVWDMEGTRY
+AEPKLKIMGLETQKSSTPKAVQKALKECIRRMLQEGEESLQEYFKEFEKEFRQLNYISIA
+SVSSANNIAKYDVGGFPGPKCPFHIRGILTYNRAIKGNIDAPQVVEGEKVYVLPLREGNP
+FGDKCIAWPSGTEITDLIKDDVLHWMDYTVLLEKTFIKPLEGFTSAAKLDYEKKASLFDM
+FDF
+
+# Drug_Target_1_Reaction:
+deoxynucleoside triphosphate + DNAn = diphosphate + DNAn+1
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+This polymerase possesses two enzymatic activities:DNA synthesis (polymerase) and an exonucleolytic activity that degrades single stranded DNA in the 3'- to 5'-direction
+
+# Drug_Target_1_SwissProt_ID:
+Q38087
+
+# Drug_Target_1_SwissProt_Name:
+DPOL_BPR69
+
+# Drug_Target_1_Synonyms:
+EC 2.7.7.7
+Gp43
+
+# Drug_Target_1_Theoretical_pI:
+5.88
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+NP
+
+# Drug_Target_2_GenBank_ID_Gene:
+X00737
+
+# Drug_Target_2_GenBank_ID_Protein:
+35565
+
+# Drug_Target_2_GeneCard_ID:
+NP
+
+# Drug_Target_2_Gene_Name:
+PNP
+
+# Drug_Target_2_Gene_Sequence:
+>870 bp
+ATGGAGAACGGATACACCTATGAAGATTATAAGAACACTGCAGAATGGCTTCTGTCTCAT
+ACTAAGCACCGACCTCAAGTTGCAATAATCTGTGGTTCTGGATTAGGAGGTCTGACTGAT
+AAATTAACTCAGGCCCAGATCTTTGACTACAGTGAAATCCCCAACTTTCCTCGAAGTACA
+GTGCCAGGTCATGCTGGCCGACTGGTGTTTGGGTTCCTGAATGGCAGGGCCTGTGTGATG
+ATGCAGGGCAGGTTCCACATGTATGAAGGGTACCCACTCTGGAAGGTGACATTCCCAGTG
+AGGGTTTTCCACCTTCTGGGTGTGGACACCCTGGTAGTCACCAATGCAGCAGGAGGGCTG
+AACCCCAAGTTTGAGGTTGGAGATATCATGCTGATCCGTGACCATATCAACCTACCTGGT
+TTCAGTGGTCAGAACCCTCTCAGAGGGCCCAATGATGAAAGGTTTGGAGATCGTTTCCCT
+GCCATGTCTGATGCCTACGACCGGACTATGAGGCAGAGGGCTCTCAGTACCTGGAAACAA
+ATGGGGGAGCAACGTGAGCTACAGGAAGGCACCTATGTGATGGTGGCAGGCCCCAGCTTT
+GAGACTGTGGCAGAATGTCGTGTGCTGCAGAAGCTGGGAGCAGACGCTGTTGGCATGAGT
+ACAGTACCAGAAGTTATCGTTGCACGGCACTGTGGACTTCGAGTCTTTGGCTTCTCACTC
+ATCACTAACAAGGTCATCATGGATTATGAAAGCCTGGAGAAGGCCAACCATGAAGAAGTC
+TTAGCAGCTGGCAAACAAGCTGCACAGAAATTGGAACAGTTTGTCTCCATTCTTATGGCC
+AGCATTCCACTCCCTGACAAAGCCAGTTGA
+
+# Drug_Target_2_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_2_General_References:
+12928150	Yu L, Kalla K, Guthrie E, Vidrine A, Klimecki WT: Genetic variation in genes associated with arsenic metabolism: glutathione S-transferase omega 1-1 and purine nucleoside phosphorylase polymorphisms in European and indigenous Americans. Environ Health Perspect. 2003 Aug;111(11):1421-7.
+1384322	Aust MR, Andrews LG, Barrett MJ, Norby-Slycord CJ, Markert ML: Molecular analysis of mutations in a patient with purine nucleoside phosphorylase deficiency. Am J Hum Genet. 1992 Oct;51(4):763-72.
+2104852	Ealick SE, Rule SA, Carter DC, Greenhough TJ, Babu YS, Cook WJ, Habash J, Helliwell JR, Stoeckler JD, Parks RE Jr, et al.: Three-dimensional structure of human erythrocytic purine nucleoside phosphorylase at 3.2 A resolution. J Biol Chem. 1990 Jan 25;265(3):1812-20.
+3029074	Williams SR, Gekeler V, McIvor RS, Martin DW Jr: A human purine nucleoside phosphorylase deficiency caused by a single base change. J Biol Chem. 1987 Feb 15;262(5):2332-8.
+6087295	Williams SR, Goddard JM, Martin DW Jr: Human purine nucleoside phosphorylase cDNA sequence and genomic clone characterization. Nucleic Acids Res. 1984 Jul 25;12(14):5779-87.
+8931706	Pannicke U, Tuchschmid P, Friedrich W, Bartram CR, Schwarz K: Two novel missense and frameshift mutations in exons 5 and 6 of the purine nucleoside phosphorylase (PNP) gene in a severe combined immunodeficiency (SCID) patient. Hum Genet. 1996 Dec;98(6):706-9.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:7892
+
+# Drug_Target_2_HPRD_ID:
+01247
+
+# Drug_Target_2_ID:
+277
+
+# Drug_Target_2_Locus:
+14q13.1
+
+# Drug_Target_2_Molecular_Weight:
+32118
+
+# Drug_Target_2_Name:
+Purine nucleoside phosphorylase
+
+# Drug_Target_2_Number_of_Residues:
+289
+
+# Drug_Target_2_PDB_ID:
+1RT9
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00896	Mtap_PNP
+
+# Drug_Target_2_Protein_Sequence:
+>Purine nucleoside phosphorylase
+MENGYTYEDYKNTAEWLLSHTKHRPQVAIICGSGLGGLTDKLTQAQIFDYGEIPNFPRST
+VPGHAGRLVFGFLNGRACVMMQGRFHMYEGYPLWKVTFPVRVFHLLGVDTLVVTNAAGGL
+NPKFEVGDIMLIRDHINLPGFSGQNPLRGPNDERFGDRFPAMSDAYDRTMRQRALSTWKQ
+MGEQRELQEGTYVMVAGPSFETVAECRVLQKLGADAVGMSTVPEVIVARHCGLRVFGFSL
+ITNKVIMDYESLEKANHEEVLAAGKQAAQKLEQFVSILMASIPLPDKAS
+
+# Drug_Target_2_Reaction:
+purine nucleoside + phosphate = purine + alpha-D-ribose 1-phosphate
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Not Available
+
+# Drug_Target_2_SwissProt_ID:
+P00491
+
+# Drug_Target_2_SwissProt_Name:
+PNPH_HUMAN
+
+# Drug_Target_2_Synonyms:
+EC 2.4.2.1
+Inosine phosphorylase
+PNP
+
+# Drug_Target_2_Theoretical_pI:
+6.95
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Not Available
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+Not Available
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+AP008226
+
+# Drug_Target_3_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_3_GeneCard_ID:
+Not Available
+
+# Drug_Target_3_Gene_Name:
+TTHA1435
+
+# Drug_Target_3_Gene_Sequence:
+>708 bp
+TCAAACCTCCAGGACGGCCTCGAGGGCCACCTCCACCATACGCCGAACGCCCTCTTGGAG
+CACCTCAGGGGGAGCGAGCTCCGGATCGCCGATGCGGTTGGAGACGGCCAGGATGGCCCC
+CGTCCGCACCCCCCGCATCCTTCCGAGGAGGAAGAGGGCGCTGGCCTCCATCTCAAAGGC
+GAGGACGCCGTAGCGGGCCCAGGCCCGGGCCTCCTCGGGGGTGGTGGCGTAGAAGGCGTC
+CTCGCTGGCCACGAGCCCCACCCGGTGGGGGTAGCCCAAGGCCTCCGCCCGGCGCCAGAG
+GGCCCGGAAGACCTCGGGGTCGGGCACCGGGGCGTAGGGGCGCCCCTCCAGGTACTGCCG
+GGTGGTGCCGTCCAAGGGCACGGCCCCCTGGGCCACGATGAGCTCCCCCGGGGCGAGGTC
+CGAAGAAGCGGCCCCCGCCGTCCCCACCCGGACGAGGACCCGGGCGCCAAGCCGGACCAG
+CTCCTCCACCACGATGGCCGCCGAGGGGGTGCCCATCCCCGTGGTCTGGACGGAGACGGG
+CACGCCCTTGTAAAGGCCCGTGTACCCCCAAAGCCCCCGGTGGTCGTTGTACCGCCTGGG
+GTTTTGCAAAAAGGTCTTGGCGATCCACTCGGCCCGGCCCGGATCCCCGGGAAGAAGGAC
+GCGCTCCGCCACGTCCCCGGGGTGGGCGCGCACGTGGATGGGGCTCAT
+
+# Drug_Target_3_General_Function:
+Involved in catalytic activity
+
+# Drug_Target_3_General_References:
+Not Available
+
+# Drug_Target_3_HGNC_ID:
+Not Available
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+4825
+
+# Drug_Target_3_Locus:
+Not Available
+
+# Drug_Target_3_Molecular_Weight:
+25415
+
+# Drug_Target_3_Name:
+Purine nucleoside phosphorylase
+
+# Drug_Target_3_Number_of_Residues:
+235
+
+# Drug_Target_3_PDB_ID:
+1ODL
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF01048	PNP_UDP_1
+
+# Drug_Target_3_Protein_Sequence:
+>Purine nucleoside phosphorylase
+MSPIHVRAHPGDVAERVLLPGDPGRAEWIAKTFLQNPRRYNDHRGLWGYTGLYKGVPVSV
+QTTGMGTPSAAIVVEELVRLGARVLVRVGTAGAASSDLAPGELIVAQGAVPLDGTTRQYL
+EGRPYAPVPDPEVFRALWRRAEALGYPHRVGLVASEDAFYATTPEEARAWARYGVLAFEM
+EASALFLLGRMRGVRTGAILAVSNRIGDPELAPPEVLQEGVRRMVEVALEAVLEV
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Not Available
+
+# Drug_Target_3_SwissProt_ID:
+Q5SID9
+
+# Drug_Target_3_SwissProt_Name:
+Q5SID9_THET8
+
+# Drug_Target_3_Synonyms:
+Not Available
+
+# Drug_Target_3_Theoretical_pI:
+6.53
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB02857

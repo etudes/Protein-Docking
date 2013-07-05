@@ -1,0 +1,506 @@
+#BEGIN_DRUGCARD DB00580
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+M01AH03
+
+# Absorption:
+Oral bioavailability is 83%.
+
+# Biotransformation:
+Hepatic (involves CYP3A4 and 2C9)
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Bextra
+
+# CAS_Registry_Number:
+181695-72-7
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C16H14N2O3S
+
+# Chemical_IUPAC_Name:
+4-(5-methyl-3-phenyl-1,2-oxazol-4-yl)benzene-1-sulfonamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2246622
+
+# Description:
+Valdecoxib was removed from the Canadian, U.S., and E.U. markets in 2005 due to concerns about possible increased risk of heart attack and stroke.
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Anti-inflammatory Agents
+Cyclooxygenase Inhibitors
+Nonsteroidal Anti-inflammatory Agents (NSAIAs)
+
+# Drug_Interactions:
+Fluconazole	Fluconazole may increase the effect and toxicity of valdecoxib.
+Ketoconazole	Ketoconazole may increase the effect and toxicity of valdecoxib.
+Lithium	The COX-2 inhibitor increases serum levels of lithium
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Investigational
+Small Molecule
+Withdrawn
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+3.2
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Valdecoxib
+
+# HET_ID:
+COX
+
+# Half_Life:
+8-11 hours
+
+# InChI_Identifier:
+InChI=1S/C16H14N2O3S/c1-11-15(12-7-9-14(10-8-12)22(17,19)20)16(18-21-11)13-5-3-2-4-6-13/h2-10H,1H3,(H2,17,19,20)
+
+# InChI_Key:
+InChIKey=LNPDTQAFDNKSHK-UHFFFAOYSA-N
+
+# Indication:
+For the treatment of osteoarthritis and dysmenorrhoea
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+580
+
+# Mechanism_Of_Action:
+Both COX-1 and COX-2 catalyze the conversion of arachidonic acid to prostaglandin (PG) H2, the precursor of PGs and thromboxane. Valdecoxib selectively inhibits the cyclooxygenase-2 (COX-2) enzyme, important for the mediation of inflammation and pain. Unlike non-selective NSAIDs, valdecoxib does not inhibit platelet aggregation.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+314.359
+
+# Molecular_Weight_Mono:
+314.072513014
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Valdecoxib Pathway	SMP00116
+
+# PharmGKB_ID:
+PA10226
+
+# Pharmacology:
+Valdecoxib, a selective cyclooxygenase-2 (COX-2) inhibitor, is classified as a nonsteroidal anti-inflammatory drug (NSAID). Valdecoxib is used for its anti-inflammatory, analgesic, and antipyretic activities in the management of osteoarthritis (OA) and for the treatment of dysmenorrhea or acute pain. Unlike celecoxib, valdecoxib lacks a sulfonamide chain and does not require CYP450 enzymes for metabolism.
+
+# Predicted_LogP_Hydrophobicity:
+3.32
+
+# Predicted_LogS:
+-4
+
+# Predicted_Water_Solubility:
+3.48e-02 g/l
+
+# Primary_Accession_No:
+DB00580
+
+# Protein_Binding:
+98%
+
+# PubChem_Compound_ID:
+119607
+
+# PubChem_Substance_ID:
+46506229
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic/bextra.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00183
+DB07576
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CC1=C(C(=NO1)C1=CC=CC=C1)C1=CC=C(C=C1)S(N)(=O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Symptoms following acute NSAID overdoses are usually limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which are generally reversible with supportive care. Gastrointestinal bleeding can occur. Hypertension, acute renal failure, respiratory depression and coma may occur, but are rare.
+
+# Update_Date:
+2013-02-08 16:19:28 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Valdecoxib
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+PTGS1
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+20
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Prostaglandin G/H synthase 1
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Prostaglandin G/H synthase 1 precursor
+MSRSLLLRFLLFLLLLPPLPVLLADPGAPTPVNPCCYYPCQHQGICVRFGLDRYQCDCTR
+TGYSGPNCTIPGLWTWLRNSLRPSPSFTHFLLTHGRWFWEFVNATFIREMLMRLVLTVRS
+NLIPSPPTYNSAHDYISWESFSNVSYYTRILPSVPKDCPTPMGTKGKKQLPDAQLLARRF
+LLRRKFIPDPQGTNLMFAFFAQHFTHQFFKTSGKMGPGFTKALGHGVDLGHIYGDNLERQ
+YQLRLFKDGKLKYQVLDGEMYPPSVEEAPVLMHYPRGIPPQSQMAVGQEVFGLLPGLMLY
+ATLWLREHNRVCDLLKAEHPTWGDEQLFQTTRLILIGETIKIVIEEYVQQLSGYFLQLKF
+DPELLFGVQFQYRNRIAMEFNHLYHWHPLMPDSFKVGSQEYSYEQFLFNTSMLVDYGVEA
+LVDAFSRQIAGRIGGGRNMDHHILHVAVDVIRESREMRLQPFNEYRKRFGMKPYTSFQEL
+VGEKEMAAELEELYGDIDALEFYPGLLLEKCHPNSIFGESMIEIGAPFSLKGLLGNPICS
+PEYWKPSTFGGEVGFNIVKTATLKKLVCLNTKTCPYVSFRVPDASQDDGPAVERPSTEL
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P23219
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P11712
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2C19
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+6016
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2C19
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2C19
+MDPFVVLVLCLSCLLLLSIWRQSSGRGKLPPGPTPLPVIGNILQIDIKDVSKSLTNLSKI
+YGPVFTLYFGLERMVVLHGYEVVKEALIDLGEEFSGRGHFPLAERANRGFGIVFSNGKRW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFQKRFDYKDQQFLNLMEKLNENIRIVSTPWIQICNNFPTIIDYFPGTHNKLLKNLAFM
+ESDILEKVKEHQESMDINNPRDFIDCFLIKMEKEKQNQQSEFTIENLVITAADLLGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVVGRNRSPCMQDRGHMPYTDAVVHEVQRYID
+LIPTSLPHAVTCDVKFRNYLIPKGTTILTSLTSVLHDNKEFPNPEMFDPRHFLDEGGNFK
+KSNYFMPFSAGKRICVGEGLARMELFLFLTFILQNFNLKSLIDPKDLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P33261
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+UGT1A9
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+6018
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+UDP-glucuronosyltransferase 1-9
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>UDP-glucuronosyltransferase 1-9
+MACTGWTSPLPLCVCLLLTCGFAEAGKLLVVPMDGSHWFTMRSVVEKLILRGHEVVVVMP
+EVSWQLGRSLNCTVKTYSTSYTLEDLDREFKAFAHAQWKAQVRSIYSLLMGSYNDIFDLF
+FSNCRSLFKDKKLVEYLKESSFDAVFLDPFDNCGLIVAKYFSLPSVVFARGILCHYLEEG
+AQCPAPLSYVPRILLGFSDAMTFKERVRNHIMHLEEHLLCHRFFKNALEIASEILQTPVT
+EYDLYSHTSIWLLRTDFVLDYPKPVMPNMIFIGGINCHQGKPLPMEFEAYINASGEHGIV
+VFSLGSMVSEIPEKKAMAIADALGKIPQTVLWRYTGTRPSNLANNTILVKWLPQNDLLGH
+PMTRAFITHAGSHGVYESICNGVPMVMMPLFGDQMDNAKRMETKGAGVTLNVLEMTSEDL
+ENALKAVINDKSYKENIMRLSSLHKDRPVEPLDLAVFWVEFVMRHKGAPHLRPAAHDLTW
+YQYHSLDVIGFLLAVVLTVAFITFKCCAYGYRKCLGKKGRVKKAHKSKTH
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+O60656
+
+# Drug_Target_1_Cellular_Location:
+Microsome
+microsomal membrane
+peripheral membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10715145	Talley JJ, Brown DL, Carter JS, Graneto MJ, Koboldt CM, Masferrer JL, Perkins WE, Rogers RS, Shaffer AF, Zhang YY, Zweifel BS, Seibert K: 4-[5-Methyl-3-phenylisoxazol-4-yl]- benzenesulfonamide, valdecoxib: a potent and selective inhibitor of COX-2. J Med Chem. 2000 Mar 9;43(5):775-7.
+11060833	Jain KK: Evaluation of intravenous parecoxib for the relief of acute post-surgical pain. Expert Opin Investig Drugs. 2000 Nov;9(11):2717-23.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+12167567	Yuan JJ, Yang DC, Zhang JY, Bible R Jr, Karim A, Findlay JW: Disposition of a specific cyclooxygenase-2 inhibitor, valdecoxib, in human. Drug Metab Dispos. 2002 Sep;30(9):1013-21.
+12564662	Tacconelli S, Capone ML, Sciulli MG, Ricciotti E, Patrignani P: The biochemical selectivity of novel COX-2 inhibitors in whole blood assays of COX-isozyme activity. Curr Med Res Opin. 2002;18(8):503-11.
+12644588	Hood WF, Gierse JK, Isakson PC, Kiefer JR, Kurumbail RG, Seibert K, Monahan JB: Characterization of celecoxib and valdecoxib binding to cyclooxygenase. Mol Pharmacol. 2003 Apr;63(4):870-7.
+15494548	Gierse JK, Zhang Y, Hood WF, Walker MC, Trigg JS, Maziasz TJ, Koboldt CM, Muhammad JL, Zweifel BS, Masferrer JL, Isakson PC, Seibert K: Valdecoxib: assessment of cyclooxygenase-2 potency and selectivity. J Pharmacol Exp Ther. 2005 Mar;312(3):1206-12. Epub 2004 Oct 19.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+PTGS2
+
+# Drug_Target_1_GenBank_ID_Gene:
+L15326
+
+# Drug_Target_1_GenBank_ID_Protein:
+291988
+
+# Drug_Target_1_GeneCard_ID:
+PTGS2
+
+# Drug_Target_1_Gene_Name:
+PTGS2
+
+# Drug_Target_1_Gene_Sequence:
+>1815 bp
+ATGCTCGCCCGCGCCCTGCTGCTGTGCGCGGTCCTGGCGCTCAGCCATACAGCAAATCCT
+TGCTGTTCCCACCCATGTCAAAACCGAGGTGTATGTATGAGTGTGGGATTTGACCAGTAT
+AAGTGCGATTGTACCCGGACAGGATTCTATGGAGAAAACTGCTCAACACCGGAATTTTTG
+ACAAGAATAAAATTATTTCTGAAACCCACTCCAAACACAGTGCACTACATACTTACCCAC
+TTCAAGGGATTTTGGAACGTTGTGAATAACATTCCCTTCCTTCGAAATGCAATTATGAGT
+TATGTGTTGACATCCAGATCACATTTGATTGACAGTCCACCAACTTACAATGCTGACTAT
+GGCTACAAAAGCTGGGAAGCCTTCTCTAACCTCTCCTATTATACTAGAGCCCTTCCTCCT
+GTGCCTGATGATTGCCCGACTCCCTTGGGTGTCAAAGGTAAAAAGCAGCTTCCTGATTCA
+AATGAGATTGTGGAAAAATTGCTTCTAAGAAGAAAGTTCATCCCTGATCCCCAGGGCTCA
+AACATGATGTTTGCATTCTTTGCCCAGCACTTCACGCATCAGTTTTTCAAGACAGATCAT
+AAGCGAGGGCCAGCTTTCACCAACGGGCTGGGCCATGGGGTGGACTTAAATCATATTTAC
+GGTGAAACTCTGGCTAGACAGCGTAAACTGCGCCTTTTCAAGGATGGAAAAATGAAATAT
+CAGATAATTGATGGAGAGATGTATCCTCCCACAGTCAAAGATACTCAGGCAGAGATGATC
+TACCCTCCTCAAGTCCCTGAGCATCTACGGTTTGCTGTGGGGCAGGAGGTCTTTGGTCTG
+GTGCCTGGTCTGATGATGTATGCCACAATCTGGCTGCGGGAACACAACAGAGTATGCGAT
+GTGCTTAAACAGGAGCATCCTGAATGGGGTGATGAGCAGTTGTTCCAGACAAGCAGGCTA
+ATACTGATAGGAGAGACTATTAAGATTGTGATTGAAGATTATGTGCAACACTTGAGTGGC
+TATCACTTCAAACTGAAATTTGACCCAGAACTACTTTTCAACAAACAATTCCAGTACCAA
+AATCGTATTGCTGCTGAATTTAACACCCTCTATCACTGGCATCCCCTTCTGCCTGACACC
+TTTCAAATTCATGACCAGAAATACAACTATCAACAGTTTATCTACAACAACTCTATATTG
+CTGGAACATGGAATTACCCAGTTTGTTGAATCATTCACCAGGCAAATTGCTGGCAGGGTT
+GCTGGTGGTAGGAATGTTCCACCCGCAGTACAGAAAGTATCACAGGCTTCCACTGACCAG
+AGCAGGCAGATGAAATACCAGTCTTTTAATGAGTACCGCAAACGCTTTATGCTGAAGCCC
+TATGAATCATTTGAAGAACTTACAGGAGAAAAGGAAATGTCTGCAGAGTTGGAAGCACTC
+TATGGTGACATCGATGCTGTGGAGCTGTATCCTGCCCTTCTGGTAGAAAAGCCTCGGCCA
+GATGCCATCTTTGGTGAAACCATGGTAGAAGTTGGAGCACCATTCTCCTTGAAAGGACTT
+ATGGGTAATGTTATATGTTCTCCTGCCTACTGGAAGCCAAGCACTTTTGGTGGAGAAGTG
+GGTTTTCAAATCATCAACACTGCCTCAATTCAGTCTCTCATCTGCAATAACGTGAAGGGC
+TGTCCCTTTACTTCATTCAGTGTTCCAGATCCAGAGCTCATTAAAACAGTCACCATCAAT
+GCAAGTTCTTCCCGCTCCGGACTAGATGATATCAATCCCACAGTACTACTAAAAGAACGT
+TCGACTGAACTGTAG
+
+# Drug_Target_1_General_Function:
+Involved in peroxidase activity
+
+# Drug_Target_1_General_References:
+1380156	Hla T, Neilson K: Human cyclooxygenase-2 cDNA. Proc Natl Acad Sci U S A. 1992 Aug 15;89(16):7384-8.
+7945196	Appleby SB, Ristimaki A, Neilson K, Narko K, Hla T: Structure of the human cyclo-oxygenase-2 gene. Biochem J. 1994 Sep 15;302 ( Pt 3):723-7.
+8181472	Kosaka T, Miyata A, Ihara H, Hara S, Sugimoto T, Takeda O, Takahashi E, Tanabe T: Characterization of the human gene (PTGS2) encoding prostaglandin-endoperoxide synthase 2. Eur J Biochem. 1994 May 1;221(3):889-97.
+8473346	Jones DA, Carlton DP, McIntyre TM, Zimmerman GA, Prescott SM: Molecular cloning of human prostaglandin endoperoxide synthase type II and demonstration of expression in response to cytokines. J Biol Chem. 1993 Apr 25;268(12):9049-54.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:9605
+
+# Drug_Target_1_HPRD_ID:
+02599
+
+# Drug_Target_1_ID:
+290
+
+# Drug_Target_1_Locus:
+1q25.2-q25.3
+
+# Drug_Target_1_Molecular_Weight:
+68997
+
+# Drug_Target_1_Name:
+Prostaglandin G/H synthase 2
+
+# Drug_Target_1_Number_of_Residues:
+604
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Acetylsalicylic Acid Pathway	SMP00083
+Bromfenac Pathway	SMP00102
+Celecoxib Pathway	SMP00096
+Diclofenac Pathway	SMP00093
+Diflunisal Pathway	SMP00289
+Etodolac Pathway	SMP00084
+Ibuprofen Pathway	SMP00086
+Indomethacin Pathway	SMP00104
+Ketoprofen Pathway	SMP00085
+Ketorolac Pathway	SMP00098
+Mefanamic Acid Pathway	SMP00109
+Meloxicam Pathway	SMP00106
+Nabumetone Pathway	SMP00114
+Naproxen Pathway	SMP00120
+Oxaprozin Pathway	SMP00113
+Piroxicam Pathway	SMP00077
+Rofecoxib Pathway	SMP00087
+Sulindac Pathway	SMP00094
+Suprofen Pathway	SMP00101
+Valdecoxib Pathway	SMP00116
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00008	EGF
+PF03098	An_peroxidase
+
+# Drug_Target_1_Protein_Sequence:
+>Prostaglandin G/H synthase 2 precursor
+MLARALLLCAVLALSHTANPCCSHPCQNRGVCMSVGFDQYKCDCTRTGFYGENCSTPEFL
+TRIKLFLKPTPNTVHYILTHFKGFWNVVNNIPFLRNAIMSYVLTSRSHLIDSPPTYNADY
+GYKSWEAFSNLSYYTRALPPVPDDCPTPLGVKGKKQLPDSNEIVEKLLLRRKFIPDPQGS
+NMMFAFFAQHFTHQFFKTDHKRGPAFTNGLGHGVDLNHIYGETLARQRKLRLFKDGKMKY
+QIIDGEMYPPTVKDTQAEMIYPPQVPEHLRFAVGQEVFGLVPGLMMYATIWLREHNRVCD
+VLKQEHPEWGDEQLFQTSRLILIGETIKIVIEDYVQHLSGYHFKLKFDPELLFNKQFQYQ
+NRIAAEFNTLYHWHPLLPDTFQIHDQKYNYQQFIYNNSILLEHGITQFVESFTRQIAGRV
+AGGRNVPPAVQKVSQASIDQSRQMKYQSFNEYRKRFMLKPYESFEELTGEKEMSAELEAL
+YGDIDAVELYPALLVEKPRPDAIFGETMVEVGAPFSLKGLMGNVICSPAYWKPSTFGGEV
+GFQIINTASIQSLICNNVKGCPFTSFSVPDPELIKTVTINASSSRSGLDDINPTVLLKER
+STEL
+
+# Drug_Target_1_Reaction:
+arachidonate + AH2 + 2 O2 = prostaglandin H2 + A + H2O
+
+# Drug_Target_1_Signals:
+1-17
+
+# Drug_Target_1_Specific_Function:
+May have a role as a major mediator of inflammation and/or a role for prostanoid signaling in activity-dependent plasticity
+
+# Drug_Target_1_SwissProt_ID:
+P35354
+
+# Drug_Target_1_SwissProt_Name:
+PGH2_HUMAN
+
+# Drug_Target_1_Synonyms:
+COX-2
+Cyclooxygenase- 2
+EC 1.14.99.1
+PGH synthase 2
+PGHS-2
+PHS II
+Prostaglandin G/H synthase 2 precursor
+Prostaglandin H2 synthase 2
+Prostaglandin-endoperoxide synthase 2
+
+# Drug_Target_1_Theoretical_pI:
+7.41
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00580

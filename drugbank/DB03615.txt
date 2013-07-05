@@ -1,0 +1,705 @@
+#BEGIN_DRUGCARD DB03615
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+J01GB10
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+25546-65-0
+
+# ChEBI_ID:
+10003
+
+# Chemical_Formula:
+C17H34N4O10
+
+# Chemical_IUPAC_Name:
+(2S,3R,4S,5S,6R)-5-amino-2-(aminomethyl)-6-{[(1S,2S,3R,4S,6R)-4,6-diamino-2-{[(2S,3R,4R,5S)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy}-3-hydroxycyclohexyl]oxy}oxane-3,4-diol
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+A broad-spectrum antimicrobial isolated from <i>Streptomyces ribosifidicus</i>. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Aminoglycosides
+Anti-Bacterial Agents
+Antibacterial Agents
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Ribostamycin
+
+# HET_ID:
+RIO
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C17H34N4O10/c18-2-6-10(24)12(26)8(21)16(28-6)30-14-5(20)1-4(19)9(23)15(14)31-17-13(27)11(25)7(3-22)29-17/h4-17,22-27H,1-3,18-21H2/t4-,5+,6-,7-,8-,9+,10-,11-,12-,13+,14-,15-,16+,17-/m0/s1
+
+# InChI_Key:
+InChIKey=NSKGQURZWSPSBC-NLZFXWNVSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+C01759
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+3615
+
+# Mechanism_Of_Action:
+Aminoglycosides work by binding to the bacterial 30S ribosomal subunit (some work by binding to the 50S subunit), inhibiting the translocation of the peptidyl-tRNA from the A-site to the P-site and also causing misreading of mRNA, leaving the bacterium unable to synthesize proteins vital to its growth. However, their exact mechanism of action is not fully known.
+
+# Melting_Point:
+193.5 °C
+
+# Molecular_Weight_Avg:
+454.4727
+
+# Molecular_Weight_Mono:
+454.227493328
+
+# Organisms_Affected:
+Enteric bacteria and other eubacteria
+Humans and other mammals
+
+# PDB_Experimental_ID:
+1S3Z
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-2.9
+
+# Predicted_LogS:
+-0.71
+
+# Predicted_Water_Solubility:
+8.87e+01 g/l
+
+# Primary_Accession_No:
+DB03615
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+46936732
+
+# PubChem_Substance_ID:
+46505351
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT02786
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC[C@@H]1O[C@H](O[C@H]2[C@H](N)C[C@H](N)[C@@H](O)[C@@H]2O[C@@H]2O[C@@H](CO)[C@H](O)[C@H]2O)[C@@H](N)[C@H](O)[C@H]1O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+5-Amino-2-Aminomethyl-6-[4,6-Diamino-2-(3,4-Dihydroxy-5-Hydroxymethyl-Tetrahydro-Furan-2-Yloxy)-3-Hydroxy-Cyclohexyloxy]-Tetrahydro-Pyran-3,4-Diol
+Antibiotic SF 733
+RIO
+Ribastamin
+SF-733
+Vistamycin
+Xylostacin
+Xylostasin
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:22:26 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+7.7
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+aac
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4388
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Aminoglycoside 2'-N-acetyltransferase
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Aminoglycoside 2'-N-acetyltransferase
+MHTQVHTARLVHTADLDSETRQDIRQMVTGAFAGDFTETDWEHTLGGMHALIWHHGAIIA
+HAAVIQRRLIYRGNALRCGYVEGVAVRADWRGQRLVSALLDAVEQVMRGAYQLGALSSSA
+RARRLYASRGWLPWHGPTSVLAPTGPVRTPDDDGTVFVLPIDISLDTSAELMCDWRAGDV
+W
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P0A5N0
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+Not Available
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+AF144881
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+aac(6')-Iy
+
+# Drug_Target_1_Gene_Sequence:
+>438 bp
+ATGGACATCAGGCAAATGAACAAAACCCATCTGGAGCACTGGCGCGGATTGCGAAAACAG
+CTCTGGCCTGGTCACCCGGATGACGCCCATCTGGCGGACGGCGAAGAAATTCTGCAAGCC
+GATCATCTGGCATCATTTATTGCGATGGCAGACGGGGTGGCGATTGGCTTTGCGGATGCC
+TCAATCCGCCACGATTATGTCAATGGCTGTGACAGTTCGCCCGTGGTTTTCCTTGAAGGT
+ATTTTTGTTCTCCCCTCATTCCGTCAACGCGGCGTAGCGAAACAATTGATTGCAGCGGTG
+CAACGATGGGGAACGAATAAAGGGTGTCGGGAAATGGCCTCCGATACCTCGCCGGAAAAT
+ACAATTTCCCAGAAAGTTCATCAGGCGTTAGGATTTGAGGAAACAGAGCGCGTCATTTTC
+TACCGAAAGCGTTGTTGA
+
+# Drug_Target_1_General_Function:
+Involved in N-acetyltransferase activity
+
+# Drug_Target_1_General_References:
+10542165	Magnet S, Courvalin P, Lambert T: Activation of the cryptic aac(6')-Iy aminoglycoside resistance gene of Salmonella by a chromosomal deletion generating a transcriptional fusion. J Bacteriol. 1999 Nov;181(21):6650-5.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+4565
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+16362
+
+# Drug_Target_1_Name:
+Aminoglycoside 6'-N-acetyltransferase
+
+# Drug_Target_1_Number_of_Residues:
+145
+
+# Drug_Target_1_PDB_ID:
+1S60
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00583	Acetyltransf_1
+
+# Drug_Target_1_Protein_Sequence:
+>Aminoglycoside 6'-N-acetyltransferase
+MDIRQMNKTHLEHWRGLRKQLWPGHPDDAHLADGEEILQADHLASFIAMADGVAIGFADA
+SIRHDYVNGCDSSPVVFLEGIFVLPSFRQRGVAKQLIAAVQRWGTNKGCREMASDTSPEN
+TISQKVHQALGFEETERVIFYRKRC
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+Q9R381
+
+# Drug_Target_1_SwissProt_Name:
+Q9R381_SALEN
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+6.88
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+Not Available
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+U72714
+
+# Drug_Target_2_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+aac
+
+# Drug_Target_2_Gene_Sequence:
+>546 bp
+GTGCACACCCAGGTACACACGGCCCGCCTGGTCCACACCGCCGATCTTGACAGCGAGACC
+CGCCAGGACATCCGTCAGATGGTCACCGGCGCGTTTGCCGGTGACTTCACCGAGACCGAC
+TGGGAGCACACGCTGGGTGGGATGCACGCCCTGATCTGGCATCACGGGGCGATCATCGCG
+CATGCCGCGGTGATCCAGCGGCGACTGATCTACCGCGGCAACGCGCTGCGCTGCGGGTAC
+GTCGAAGGCGTTGCGGTGCGGGCGGACTGGCGGGGCCAACGCCTGGTGAGCGCGCTGTTG
+GACGCCGTCGAGCAGGTGATGCGCGGCGCTTACCAGCTCGGAGCGCTCAGTTCCTCGGCG
+CGGGCCCGCAGACTGTACGCCTCACGCGGCTGGCTGCCCTGGCACGGCCCGACATCGGTA
+CTGGCACCAACCGGTCCAGTCCGTACACCCGATGACGACGGAACGGTGTTCGTCCTGCCC
+ATCGACATCAGCCTGGACACCTCGGCGGAGCTGATGTGCGATTGGCGCGCGGGCGACGTC
+TGGTAA
+
+# Drug_Target_2_General_Function:
+Involved in N-acetyltransferase activity
+
+# Drug_Target_2_General_References:
+12161746	Vetting MW, Hegde SS, Javid-Majd F, Blanchard JS, Roderick SL: Aminoglycoside 2'-N-acetyltransferase from Mycobacterium tuberculosis in complex with coenzyme A and aminoglycoside substrates. Nat Struct Biol. 2002 Sep;9(9):653-8.
+12218036	Fleischmann RD, Alland D, Eisen JA, Carpenter L, White O, Peterson J, DeBoy R, Dodson R, Gwinn M, Haft D, Hickey E, Kolonay JF, Nelson WC, Umayam LA, Ermolaeva M, Salzberg SL, Delcher A, Utterback T, Weidman J, Khouri H, Gill J, Mikula A, Bishai W, Jacobs Jr WR Jr, Venter JC, Fraser CM: Whole-genome comparison of Mycobacterium tuberculosis clinical and laboratory strains. J Bacteriol. 2002 Oct;184(19):5479-90.
+9159528	Ainsa JA, Perez E, Pelicic V, Berthet FX, Gicquel B, Martin C: Aminoglycoside 2'-N-acetyltransferase genes are universally present in mycobacteria: characterization of the aac(2')-Ic gene from Mycobacterium tuberculosis and the aac(2')-Id gene from Mycobacterium smegmatis. Mol Microbiol. 1997 Apr;24(2):431-41.
+9634230	Cole ST, Brosch R, Parkhill J, Garnier T, Churcher C, Harris D, Gordon SV, Eiglmeier K, Gas S, Barry CE 3rd, Tekaia F, Badcock K, Basham D, Brown D, Chillingworth T, Connor R, Davies R, Devlin K, Feltwell T, Gentles S, Hamlin N, Holroyd S, Hornsby T, Jagels K, Krogh A, McLean J, Moule S, Murphy L, Oliver K, Osborne J, Quail MA, Rajandream MA, Rogers J, Rutter S, Seeger K, Skelton J, Squares R, Squares S, Sulston JE, Taylor K, Whitehead S, Barrell BG: Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence. Nature. 1998 Jun 11;393(6685):537-44.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+4388
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+20038
+
+# Drug_Target_2_Name:
+Aminoglycoside 2'-N-acetyltransferase
+
+# Drug_Target_2_Number_of_Residues:
+181
+
+# Drug_Target_2_PDB_ID:
+1M4I
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00583	Acetyltransf_1
+
+# Drug_Target_2_Protein_Sequence:
+>Aminoglycoside 2'-N-acetyltransferase
+MHTQVHTARLVHTADLDSETRQDIRQMVTGAFAGDFTETDWEHTLGGMHALIWHHGAIIA
+HAAVIQRRLIYRGNALRCGYVEGVAVRADWRGQRLVSALLDAVEQVMRGAYQLGALSSSA
+RARRLYASRGWLPWHGPTSVLAPTGPVRTPDDDGTVFVLPIDISLDTSAELMCDWRAGDV
+W
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Catalyzes the coenzyme A-dependent acetylation of the 2' hydroxyl or amino group of a broad spectrum of aminoglycosides. It confers resistance to aminoglycosides
+
+# Drug_Target_2_SwissProt_ID:
+P0A5N0
+
+# Drug_Target_2_SwissProt_Name:
+AAC2_MYCTU
+
+# Drug_Target_2_Synonyms:
+AAC(2')-Ic
+EC 2.3.1.-
+
+# Drug_Target_2_Theoretical_pI:
+6.80
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Endoplasmic reticulum
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+11741285	Horibe T, Nagai H, Sakakibara K, Hagiwara Y, Kikuchi M: Ribostamycin inhibits the chaperone activity of protein disulfide isomerase. Biochem Biophys Res Commun. 2001 Dec 21;289(5):967-72.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+P4HB
+
+# Drug_Target_3_GenBank_ID_Gene:
+X05130
+
+# Drug_Target_3_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_3_GeneCard_ID:
+Not Available
+
+# Drug_Target_3_Gene_Name:
+P4HB
+
+# Drug_Target_3_Gene_Sequence:
+>1527 bp
+ATGCTGCGCCGCGCTCTGCTGTGCCTGCCGTGGNCCGCCCTGGTGCGCGCCGACGCCCCC
+GAGGAGGAGGACCACGTCTTGGTGCTGCGGAAAAGCAACTTCGCGGAGGCGCTGGCGGCC
+CACAAGTACCCGCCGGTGGAGTTCCATGCCCCCTGGTGTGGCCACTGCAAGGCTCTGGCC
+CCTGAGTATGCCAAAGCCGCTGGGAAGCTGAAGGCAGAAGGTTCCGAGATCAGGTTGGCC
+AAGGTGGACGCCACGGAGGAGTCTGACCTAGCCCAGCAGTACGGCGTGCGCGGCTATCCC
+ACCATCAAGTTCTTCAGGAATGGAGACACGGCTTCCCCCAAGGAATATACAGCTGGCAGA
+GAGGCTGATGACATCGTGAACTGGCTGAAGAAGCGCACGGGCCCGGCTGCCACCACCCTG
+CCTGACGGCGCAGCTGCAGAGTCCTTGGTGGAGTCCAGCGAGGTGGCCGTCATCGGCTTC
+TTCAAGGACGTGGAGTCGGACTCTGCCAAGCAGTTTTTGCAGGCAGCAGAGGCCATCGAT
+GACATACCATTTGGGATCACTTCCAACAGTGACGTGTTCTCCAAATACCAGCTCGACAAA
+GATGGGGTTGTCCTCTTTAAGAAGTTTGATGAAGGCCGGAACAACTTTGAAGGGGAGGTC
+ACCAAGGAGAACCTGCTGGACTTTATCAAACACAACCAGCTGCCCCTTGTCATCGAGTTC
+ACCGAGCAGACAGCCCCGAAGATTTTTGGAGGTGAAATCAAGACTCACATCCTGCTGTTC
+TTGCCCAAGAGTGTGTCTGACTATGACGGCAAACTGAGCAACTTCAAAACAGCAGCCGAG
+AGCTTCAAGGGCAAGATCCTGTTCATCTTCATCGACAGCGACCACACCGACAACCAGCGC
+ATCCTCGAGTTCTTTGGCCTGAAGAAGGAAGAGTGCCCGGCCGTGCGCCTCATCACCTTG
+GAGGAGGAGATGACCAAGTACAAGCCCGAATCGGAGGAGCTGACGGCAGAGAGGATCACA
+GAGTTCTGCCACCGCTTCCTGGAGGGCAAAATCAAGCCCCACCTGATGAGCCAGGAGCTG
+CCGGAGGACTGGGACAAGCAGCCTGTCAAGGTGCTTGTTGGGAAGAACTTTGAAGACGTG
+GCTTTTGATGAGAAAAAAAACGTCTTTGTGGAGTTCTATGCCCCATGGTGTGGTCACTGC
+AAACAGTTGGCTCCCATTTGGGATAAACTGGGAGAGACGTACAAGGACCATGAGAACATC
+GTCATCGCCAAGATGGACTCGACTGCCAACGAGGTGGAGGCCGTCAAAGTGCACGGCTTC
+CCCACACTCGGGTTCTTTCCTGCCAGTGCCGACAGGACGGTCATTGATTACAACGGGGAA
+CGCACGCTGGATGGTTTTAAGAAATTCCTAGAGAGCGGTGGCCAAGATGGGGCAGGGGAT
+GTTGACGACCTCGAGGACCTCGAAGAAGCAGAGGAGCCAGACATGGAGGAAGACGATGAC
+CAGAAAGCTGTGAAAGATGAACTGTAA
+
+# Drug_Target_3_General_Function:
+Involved in isomerase activity
+
+# Drug_Target_3_General_References:
+12665801	Gevaert K, Goethals M, Martens L, Van Damme J, Staes A, Thomas GR, Vandekerckhove J: Exploring proteomes and analyzing protein processing by mass spectrometric identification of sorted N-terminal peptides. Nat Biotechnol. 2003 May;21(5):566-9. Epub 2003 Mar 31.
+1286669	Hochstrasser DF, Frutiger S, Paquet N, Bairoch A, Ravier F, Pasquali C, Sanchez JC, Tissot JD, Bjellqvist B, Vargas R, et al.: Human liver protein map: a reference database established by microsequencing and gel comparison. Electrophoresis. 1992 Dec;13(12):992-1001.
+1597478	Tasanen K, Oikarinen J, Kivirikko KI, Pihlajaniemi T: Promoter of the gene for the multifunctional protein disulfide isomerase polypeptide. Functional significance of the six CCAAT boxes and other promoter elements. J Biol Chem. 1992 Jun 5;267(16):11513-9.
+2079031	Ward LD, Hong J, Whitehead RH, Simpson RJ: Development of a database of amino acid sequences for human colon carcinoma proteins separated by two-dimensional polyacrylamide gel electrophoresis. Electrophoresis. 1990 Oct;11(10):883-91.
+2846539	Tasanen K, Parkkonen T, Chow LT, Kivirikko KI, Pihlajaniemi T: Characterization of the human gene for a polypeptide that acts both as the beta subunit of prolyl 4-hydroxylase and as protein disulfide isomerase. J Biol Chem. 1988 Nov 5;263(31):16218-24.
+3034602	Pihlajaniemi T, Helaakoski T, Tasanen K, Myllyla R, Huhtala ML, Koivu J, Kivirikko KI: Molecular cloning of the beta-subunit of human prolyl 4-hydroxylase. This subunit and protein disulphide isomerase are products of the same gene. EMBO J. 1987 Mar;6(3):643-9.
+3611107	Cheng SY, Gong QH, Parkison C, Robinson EA, Appella E, Merlino GT, Pastan I: The nucleotide sequence of a human cellular thyroid hormone binding protein present in endoplasmic reticulum. J Biol Chem. 1987 Aug 15;262(23):11221-7.
+9150948	Ji H, Reid GE, Moritz RL, Eddes JS, Burgess AW, Simpson RJ: A two-dimensional gel database of human colon carcinoma proteins. Electrophoresis. 1997 Mar-Apr;18(3-4):605-13.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:8548
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+4240
+
+# Drug_Target_3_Locus:
+17q25
+
+# Drug_Target_3_Molecular_Weight:
+57117
+
+# Drug_Target_3_Name:
+Protein disulfide-isomerase
+
+# Drug_Target_3_Number_of_Residues:
+508
+
+# Drug_Target_3_PDB_ID:
+1MEK
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00085	Thioredoxin
+
+# Drug_Target_3_Protein_Sequence:
+>Protein disulfide-isomerase
+MLRRALLCLAVAALVRADAPEEEDHVLVLRKSNFAEALAAHKYLLVEFYAPWCGHCKALA
+PEYAKAAGKLKAEGSEIRLAKVDATEESDLAQQYGVRGYPTIKFFRNGDTASPKEYTAGR
+EADDIVNWLKKRTGPAATTLPDGAAAESLVESSEVAVIGFFKDVESDSAKQFLQAAEAID
+DIPFGITSNSDVFSKYQLDKDGVVLFKKFDEGRNNFEGEVTKENLLDFIKHNQLPLVIEF
+TEQTAPKIFGGEIKTHILLFLPKSVSDYDGKLSNFKTAAESFKGKILFIFIDSDHTDNQR
+ILEFFGLKKEECPAVRLITLEEEMTKYKPESEELTAERITEFCHRFLEGKIKPHLMSQEL
+PEDWDKQPVKVLVGKNFEDVAFDEKKNVFVEFYAPWCGHCKQLAPIWDKLGETYKDHENI
+VIAKMDSTANEVEAVKVHSFPTLKFFPASADRTVIDYNGERTLDGFKKFLESGGQDGAGD
+DDDLEDLEEAEEPDMEEDDDQKAVKDEL
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+1-17
+
+# Drug_Target_3_Specific_Function:
+This multifunctional protein catalyzes the formation, breakage and rearrangement of disulfide bonds. At the cell surface, seems to act as a reductase that cleaves disulfide bonds of proteins attached to the cell. May therefore cause structural modifications of exofacial proteins. Inside the cell, seems to form/rearrange disulfide bonds of nascent proteins. At high concentrations, functions as a chaperone that inhibits aggregation of misfolded proteins. At low concentrations, facilitates aggregation (anti-chaperone activity). May be involved with other chaperones in the structural modification of the TG precursor in hormone biogenesis. Also acts a structural subunit of various enzymes such as prolyl 4-hydroxylase and microsomal triacylglycerol transfer protein MTTP
+
+# Drug_Target_3_SwissProt_ID:
+P07237
+
+# Drug_Target_3_SwissProt_Name:
+PDIA1_HUMAN
+
+# Drug_Target_3_Synonyms:
+Cellular thyroid hormone-binding protein
+EC 5.3.4.1
+PDI
+Prolyl 4- hydroxylase subunit beta
+Protein disulfide-isomerase precursor
+p55
+
+# Drug_Target_3_Theoretical_pI:
+4.49
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+Not Available
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Gene:
+V00355
+
+# Drug_Target_4_GenBank_ID_Protein:
+43010
+
+# Drug_Target_4_GeneCard_ID:
+Not Available
+
+# Drug_Target_4_Gene_Name:
+rpsL
+
+# Drug_Target_4_Gene_Sequence:
+>375 bp
+ATGGCAACAGTTAACCAGCTGGTACGCAAACCACGTGCTCGCAAAGTTGCGAAAAGCAAC
+GTGCCTGCGCTGGAAGCATGCCCGCAAAAACGTGGCGTATGTACTCGTGTATATACTACC
+ACTCCTAAAAAACCGAACTCCGCGCTGCGTAAAGTATGCCGTGTTCGTCTGACTAACGGT
+TTCGAAGTGACTTCCTACATCGGTGGTGAAGGTCACAACCTGCAGGAGCACTCCGTGATC
+CTGATCCGTGGCGGTCGTGTTAAAGACCTCCCGGGTGTTCGTTACCACACCGTACGTGGT
+GCGCTTGACTGCTCCGGCGTTAAAGACCGTAAGCAGGCTCGTTCCAAGTATGGCGTGAAG
+CGTCCTAAGGCTTAA
+
+# Drug_Target_4_General_Function:
+Translation, ribosomal structure and biogenesis
+
+# Drug_Target_4_General_References:
+10094780	Arnold RJ, Reilly JP: Observation of Escherichia coli ribosomal proteins and their posttranslational modifications by mass spectrometry. Anal Biochem. 1999 Apr 10;269(1):105-12.
+10209746	Toivonen JM, Boocock MR, Jacobs HT: Modelling in Escherichia coli of mutations in mitoribosomal protein S12: novel mutant phenotypes of rpsL. Mol Microbiol. 1999 Mar;31(6):1735-46.
+12093756	Valle M, Sengupta J, Swami NK, Grassucci RA, Burkhardt N, Nierhaus KH, Agrawal RK, Frank J: Cryo-EM reveals an active role for aminoacyl-tRNA in the accommodation process. EMBO J. 2002 Jul 1;21(13):3557-67.
+12244297	Tung CS, Joseph S, Sanbonmatsu KY: All-atom homology model of the Escherichia coli 30S ribosomal subunit. Nat Struct Biol. 2002 Oct;9(10):750-5.
+12379845	Stark H, Rodnina MV, Wieden HJ, Zemlin F, Wintermeyer W, van Heel M: Ribosome interactions of aminoacyl-tRNA and elongation factor Tu in the codon-recognition complex. Nat Struct Biol. 2002 Nov;9(11):849-54.
+12809609	Gao H, Sengupta J, Valle M, Korostelev A, Eswar N, Stagg SM, Van Roey P, Agrawal RK, Harvey SC, Sali A, Chapman MS, Frank J: Study of the structural dynamics of the E coli 70S ribosome using real-space refinement. Cell. 2003 Jun 13;113(6):789-801.
+151587	Post LE, Arfsten AE, Reusser F, Nomura M: DNA sequences of promoter regions for the str and spc ribosomal protein operons in E. coli. Cell. 1978 Sep;15(1):215-29.
+1552908	Timms AR, Steingrimsdottir H, Lehmann AR, Bridges BA: Mutant sequences in the rpsL gene of Escherichia coli B/r: mechanistic implications for spontaneous and ultraviolet light mutagenesis. Mol Gen Genet. 1992 Mar;232(1):89-96.
+2477554	Allen PN, Noller HF: Mutations in ribosomal proteins S4 and S12 influence the higher order structure of 16 S ribosomal RNA. J Mol Biol. 1989 Aug 5;208(3):457-68.
+320034	Funatsu G, Yaguchi M, Wittmann-Liebold B: Primary stucture of protein S12 from the small Escherichia coli ribosomal subunit. FEBS Lett. 1977 Jan 15;73(1):12-7.
+6989816	Post LE, Nomura M: DNA sequences from the str operon of Escherichia coli. J Biol Chem. 1980 May 25;255(10):4660-6.
+7556101	Urlaub H, Kruft V, Bischof O, Muller EC, Wittmann-Liebold B: Protein-rRNA binding features and their structural and functional implications in ribosomes as determined by cross-linking studies. EMBO J. 1995 Sep 15;14(18):4578-88.
+8844851	Kowalak JA, Walsh KA: Beta-methylthio-aspartic acid: identification of a novel posttranslational modification in ribosomal protein S12 from Escherichia coli. Protein Sci. 1996 Aug;5(8):1625-32.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+
+# Drug_Target_4_HGNC_ID:
+Not Available
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+308
+
+# Drug_Target_4_Locus:
+Not Available
+
+# Drug_Target_4_Molecular_Weight:
+13606
+
+# Drug_Target_4_Name:
+30S ribosomal protein S12
+
+# Drug_Target_4_Number_of_Residues:
+123
+
+# Drug_Target_4_PDB_ID:
+1P87
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00164	Ribosomal_S12
+
+# Drug_Target_4_Protein_Sequence:
+>30S ribosomal protein S12
+ATVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGF
+EVTSYIGGEGHNLQEHSVILIRGGRVKDLPGVRYHTVRGALDCSGVKDRKQARSKYGVKR
+PKA
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+Cryo-EM studies suggest that S12 contacts the EF-Tu bound tRNA in the A-site during codon-recognition. This contact is most likely broken as the aminoacyl-tRNA moves into the peptidyl transferase center in the 50S subunit
+
+# Drug_Target_4_SwissProt_ID:
+P0A7S3
+
+# Drug_Target_4_SwissProt_Name:
+RS12_ECOLI
+
+# Drug_Target_4_Synonyms:
+Not Available
+
+# Drug_Target_4_Theoretical_pI:
+11.49
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB03615

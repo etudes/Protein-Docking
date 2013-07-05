@@ -1,0 +1,794 @@
+#BEGIN_DRUGCARD DB00379
+
+# AHFS_Codes:
+24:04.04.08
+
+# ATC_Codes:
+C01BB02
+
+# Absorption:
+Well absorbed (bioavailability 90%) from the gastrointenstinal tract.
+
+# Biotransformation:
+Primarily hepatic (85%) via CYP2D6 and CYP1A2 (primarily CYP2D6).
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Mexitil
+
+# CAS_Registry_Number:
+31828-71-4
+
+# ChEBI_ID:
+6916
+
+# Chemical_Formula:
+C11H17NO
+
+# Chemical_IUPAC_Name:
+2-(2-aminopropoxy)-1,3-dimethylbenzene
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2230359
+
+# Description:
+Antiarrhythmic agent pharmacologically similar to lidocaine. It may have some anticonvulsant properties. [PubChem]
+
+# Dosage_Forms:
+Capsule	Oral
+
+# Drug_Category:
+Anti-Arrhythmia Agents
+
+# Drug_Interactions:
+Aminophylline	Mexiletine increases the effect and toxicity of theophylline
+Bendamustine	Affects hepatic CYP1A2 metabolism, thus increasing bendamustine levels. Concentration of active metabolites may be decreased due to decreased conversion.
+Dyphylline	Mexiletine increases the effect and toxicity of theophylline
+Eltrombopag	Affects hepatic CYP1A2 metabolism, increases Eltrombopag level or affect.
+Ethotoin	The hydantoin decreases the effect of mexiletine
+Etravirine	Mexiletine, when used concomitantly with etravirine (a strong CYP3A4 inducer), may experience a decrease in serum concentration. It is recommended to monitor mexiletine therapy for reduced effectiveness.
+Fluvoxamine	Fluvoxamine may increase the therapeutic and adverse effects of mexiletine.
+Fosphenytoin	The hydantoin decreases the effect of mexiletine
+Mephenytoin	The hydantoin decreases the effect of mexiletine
+Oxtriphylline	Mexiletine increases the effect and toxicity of theophylline
+Phenytoin	The hydantoin decreases the effect of mexiletine
+Propafenone	Propafenone may increase the effect and toxicity of mexilitine.
+Ramelteon	Mexiletine increases levels/toxicity of ramelteon
+Rifampin	Rifampin decreases the effect of mexiletine
+Tacrine	The metabolism of Tacrine, a CYP1A2 substrate, may be reduced by strong CYP1A2 inhibitors such as Mexiletine. Consider modifying therapy to avoid Tacrine toxicity. Monitor the efficacy and toxicity of Tacrine if Mexiletine is initiated, discontinued or if the dose is changed.
+Terbinafine	Terbinafine may reduce the metabolism and clearance of Mexiletine. Consider alternate therapy or monitor for therapeutic/adverse effects of Mexiletine if Terbinafine is initiated, discontinued or dose changed.
+Terfenadine	Increased risk of cardiotoxicity and arrhythmias
+Theophylline	Mexiletine increases the effect and toxicity of theophylline
+Thiothixene	The strong CYP1A2 inhibitor, Mexiletine, may decrease the metabolism and clearance of Thiothixene, a CYP1A2 substrate. Consider alternate therapy or monitor for changes in Thiothixene therapeutic and adverse effects if Mexiletine is initiated, discontinued or dose changed.
+Tizanidine	Mexilitene may decrease the metabolism and clearance of Tizanidine. Consider alternate therapy or use caution during co-administration.
+Vilazodone	Monitor for increased serum concentrations/toxic effects of mexiletine if a selective serotonin reuptake inhibitor (SSRI) is initiated/dose increased, or decreased concentrations/effects if an SSRI is discontinued/dose decreased.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+2.15
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+8.25 mg/mL
+
+# Food_Interactions:
+Take with food to reduce irritation.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Mexiletine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+10-12 hours
+
+# InChI_Identifier:
+InChI=1S/C11H17NO/c1-8-5-4-6-9(2)11(8)13-7-10(3)12/h4-6,10H,7,12H2,1-3H3
+
+# InChI_Key:
+InChIKey=VLPIATFUUWWMKC-UHFFFAOYSA-N
+
+# Indication:
+For the treatment of ventricular tachycardia and symptomatic premature ventricular beats, and prevention of ventricular fibrillation.
+
+# KEGG_Compound_ID:
+C07220
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+379
+
+# Mechanism_Of_Action:
+Mexiletine, like lidocaine, inhibits the inward sodium current required for the initiation and conduction of impulses, thus reducing the rate of rise of the action potential, Phase 0. It achieves this reduced sodium current by inhibiting sodium channels. Mexiletine decreases the effective refractory period (ERP) in Purkinje fibers in the heart. The decrease in ERP is of lesser magnitude than the decrease in action potential duration (APD), which results in an increase in the ERP/APD ratio. It does not significantly affect resting membrane potential or sinus node automaticity, left ventricular function, systolic arterial blood pressure, atrioventricular (AV) conduction velocity, or QRS or QT intervals
+
+# Melting_Point:
+203-205 °C
+
+# Molecular_Weight_Avg:
+179.2588
+
+# Molecular_Weight_Mono:
+179.131014171
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/mex1261.shtml
+
+# Pathways:
+Mexiletine Pathway	SMP00329
+
+# PharmGKB_ID:
+PA450488
+
+# Pharmacology:
+Mexiletine is a local anesthetic, antiarrhythmic agent (Class Ib), structurally similar to lidocaine, but orally active. Mexiletine has fast onset and offset kinetics, meaning that they have little or no effect at slower heart rates, and more effects at faster heart rates. It shortens the action potential duration, reduces refractoriness, and decreases Vmax in partially depolarized cells with fast response action potentials. Mexiletine either does not change the action potential duration, or decreases the action potential duration.
+
+# Predicted_LogP_Hydrophobicity:
+2.17
+
+# Predicted_LogS:
+-2.5
+
+# Predicted_Water_Solubility:
+5.38e-01 g/l
+
+# Primary_Accession_No:
+DB00379
+
+# Protein_Binding:
+50-60%
+
+# PubChem_Compound_ID:
+4178
+
+# PubChem_Substance_ID:
+46505491
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/mexiletine.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00242
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CC(N)COC1=C(C)C=CC=C1C
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Mexiletina [INN-Spanish]
+Mexiletine HCL
+Mexiletinum [INN-Latin]
+Mexilitine
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Symptoms of overdose include nausea, hypotension, sinus bradycardia, paresthesia, seizures, bundle branch block, AV heart block, asystole, ventricular tachyarrythmia, including ventricular fibrillation, cardiovascular collapse, and coma.
+
+# Update_Date:
+2013-02-08 16:19:18 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Mexiletine
+
+# pKa_Isoelectric_Point:
+9.2
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP2E1
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+6013
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 2E1
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 2E1
+MSALGVTVALLVWAAFLLLVSMWRQVHSSWNLPPGPFPLPIIGNLFQLELKNIPKSFTRL
+AQRFGPVFTLYVGSQRMVVMHGYKAVKEALLDYKDEFSGRGDLPAFHAHRDRGIIFNNGP
+TWKDIRRFSLTTLRNYGMGKQGNESRIQREAHFLLEALRKTQGQPFDPTFLIGCAPCNVI
+ADILFRKHFDYNDEKFLRLMYLFNENFHLLSTPWLQLYNNFPSFLHYLPGSHRKVIKNVA
+EVKEYVSERVKEHHQSLDPNCPRDLTDCLLVEMEKEKHSAERLYTMDGITVTVADLFFAG
+TETTSTTLRYGLLILMKYPEIEEKLHEEIDRVIGPSRIPAIKDRQEMPYMDAVVHEIQRF
+ITLVPSNLPHEATRDTIFRGYLIPKGTVVVPTLDSVLYDNQEFPDPEKFKPEHFLNENGK
+FKYSDYFKPFSTGKRVCAGEGLARMELFLLLCAILQHFNLKPLVDPKDIDLSPIHIGFGC
+IPPRYKLCVIPRS
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P05181
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+CYP2B6
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+6030
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+Cytochrome P450 2B6
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>Cytochrome P450 2B6
+MELSVLLFLALLTGLLLLLVQRHPNTHDRLPPGPRPLPLLGNLLQMDRRGLLKSFLRFRE
+KYGDVFTVHLGPRPVVMLCGVEAIREALVDKAEAFSGRGKIAMVDPFFRGYGVIFANGNR
+WKVLRRFSVTTMRDFGMGKRSVEERIQEEAQCLIEELRKSKGALMDPTFLFQSITANIIC
+SIVFGKRFHYQDQEFLKMLNLFYQTFSLISSVFGQLFELFSGFLKYFPGAHRQVYKNLQE
+INAYIGHSVEKHRETLDPSAPKDLIDTYLLHMEKEKSNAHSEFSHQNLNLNTLSLFFAGT
+ETTSTTLRYGFLLMLKYPHVAERVYREIEQVIGPHRPPELHDRAKMPYTEAVIYEIQRFS
+DLLPMGVPHIVTQHTSFRGYIIPKDTEVFLILSTALHDPHYFEKPDAFNPDHFLDANGAL
+KKTEAFIPFSLGKRICLGEGIARAELFLFFTTILQNFSMASPVAPEDIDLTPQECGVGKI
+PPTYQIRFLPR
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P20813
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11196553	Shimizu W, Antzelevitch C, Suyama K, Kurita T, Taguchi A, Aihara N, Takaki H, Sunagawa K, Kamakura S: Effect of sodium channel blockers on ST segment, QRS duration, and corrected QT interval in patients with Brugada syndrome. J Cardiovasc Electrophysiol. 2000 Dec;11(12):1320-9.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+12123767	Valdivia CR, Ackerman MJ, Tester DJ, Wada T, McCormack J, Ye B, Makielski JC: A novel SCN5A arrhythmia mutation, M1766L, with expression defect rescued by mexiletine. Cardiovasc Res. 2002 Aug 1;55(2):279-89.
+12604879	Chinushi M, Tagawa M, Sugiura H, Komura S, Hosaka Y, Washizuka T, Aizawa Y: Ventricular tachyarrhythmias in a canine model of LQT3: arrhythmogenic effects of sympathetic activity and therapeutic effects of mexiletine. Circ J. 2003 Mar;67(3):263-8.
+12650887	Fabritz L, Kirchhof P, Franz MR, Nuyens D, Rossenbacker T, Ottenhof A, Haverkamp W, Breithardt G, Carmeliet E, Carmeliet P: Effect of pacing and mexiletine on dispersion of repolarisation and arrhythmias in DeltaKPQ SCN5A (long QT3) mice. Cardiovasc Res. 2003 Mar 15;57(4):1085-93.
+12676070	Wang HW, Zheng YQ, Yang ZF, Li CZ, Liu YM: Effect of mexiletine on long QT syndrome model. Acta Pharmacol Sin. 2003 Apr;24(4):316-20.
+16168489	Napolitano C, Bloise R, Priori SG: Gene-specific therapy for inherited arrhythmogenic diseases. Pharmacol Ther. 2006 Apr;110(1):1-13. Epub 2005 Sep 15.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+SCN5A
+
+# Drug_Target_1_GenBank_ID_Gene:
+M77235
+
+# Drug_Target_1_GenBank_ID_Protein:
+184039
+
+# Drug_Target_1_GeneCard_ID:
+SCN5A
+
+# Drug_Target_1_Gene_Name:
+SCN5A
+
+# Drug_Target_1_Gene_Sequence:
+>6051 bp
+ATGGCAAACTTCCTATTACCTCGGGGCACCAGCAGCTTCCGCAGGTTCACACGGGAGTCC
+CTGGCAGCCATCGAGAAGCGCATGGCGGAGAAGCAAGCCCGCGGCTCAACCACCTTGCAG
+GAGAGCCGAGAGGGGCTGCCCGAGGAGGAGGCTCCCCGGCCCCAGCTGGACCTGCAGGCC
+TCCAAAAAGCTGCCAGATCTCTATGGCAATCCACCCCAAGAGCTCATCGGAGAGCCCCTG
+GAGGACCTGGACCCCTTCTATAGCACCCAAAAGACTTTCATCGTACTGAATAAAGGCAAG
+ACCATCTTCCGGTTCAGTGCCACCAACGCCTTGTATGTCCTCAGTCCCTTCCACCCAGTT
+CGGAGAGCGGCTGTGAAGATTCTGGTTCACTCGCTCTTCAACATGCTCATCATGTGCACC
+ATCCTCACCAACTGCGTGTTCATGGCCCAGCACGACCCTCCACCCTGGACCAAGTATGTC
+GAGTACACCTTCACCGCCATTTACACCTTTGAGTCTCTGGTCAAGATTCTGGCTCGAGCT
+TTCTGCCTGCACGCGTTCACTTTCCTTCGGGACCCATGGAACTGGCTGGACTTTAGTGTG
+ATTATCATGGCATACACAACTGAATTTGTGGACCTGGGCAATGTCTCAGCCTTACGCACC
+TTCCGAGTCCTCCGGGCCCTGAAAACTATATCAGTCATTTCAGGGCTGAAGACCATCGTG
+GGGGCCCTGATCCAGTCTGTGAAGAAGCTGGCTGATGTGATGGTCCTCACAGTCTTCTGC
+CTCAGCGTCTTTGCCCTCATCGGCCTGCAGCTCTTCATGGGCAACCTAAGGCACAAGTGT
+GTGCGCAACTTCACAGCGCTCAACGGCACCAACGGCTCCGTGGAGGCCGACGGCTTGGTC
+TGGGAATCCCTGGACCTTTACCTCAGTGATCCAGAAAATTACCTGCTCAAGAACGGCACC
+TCTGATGTGTTACTGTGTGGGAACAGCTCTGACGCTGGGACATGTCCGGAGGGCTACCGG
+TGCCTAAAGGCAGGCGAGAACCCCGACCACGGCTACACCAGCTTCGATTCCTTTGCCTGG
+GCCTTTCTTGCACTCTTCCGCCTGATGACGCAGGACTGCTGGGAGCGCCTCTATCAGCAG
+ACCCTCAGGTCCGCAGGGAAGATCTACATGATCTTCTTCATGCTTGTCATCTTCCTGGGG
+TCCTTCTACCTGGTGAACCTGATCCTGGCCGTGGTCGCAATGGCCTATGAGGAGCAAAAC
+CAAGCCACCATCGCTGAGACCGAGGAGAAGGAAAAGCGCTTCCAGGAGGCCATGGAAATG
+CTCAAGAAAGAACACGAGGCCCTCACCATCAGGGGTGTGGATACCGTGTCCCGTAGCTCC
+TTGGAGATGTCCCCTTTGGCCCCAGTAAACAGCCATGAGAGAAGAAGCAAGAGGAGAAAA
+CGGATGTCTTCAGGAACTGAGGAGTGTGGGGAGGACAGGCTCCCCAAGTCTGACTCAGAA
+GATGGTCCCAGAGCAATGAATCATCTCAGCCTCACCCGTGGCCTCAGCAGGACTTCTATG
+AAGCCACGTTCCAGCCGCGGGAGCATTTTCACCTTTCGCAGGCGAGACCTGGGTTCTGAA
+GCAGATTTTGCAGATGATGAAAACAGCACAGCGCGGGAGAGCGAGAGCCACCACACATCA
+CTGCTGGTGCCCTGGCCCCTGCGCCGGACCAGTGCCCAGGGACAGCCCAGTCCCGGAACC
+TCGGCTCCTGGCCACGCCCTCCATGGCAAAAAGAACAGCACTGTGGACTGCAATGGGGTG
+GTCTCATTACTGGGGGCAGGCGACCCAGAGGCCACATCCCCAGGAAGCCACCTCCTCCGC
+CCTGTGATGCTAGAGCACCCGCCAGACACGACCACGCCATCGGAGGAGCCAGGCGGCCCC
+CAGATGCTGACCTCCCAGGCTCCGTGTGTAGATGGCTTCGAGGAGCCAGGAGCACGGCAG
+CGGGCCCTCAGCGCAGTCAGCGTCCTCACAAGCGCACTGGAAGAGTTAGAGGAGTCTCGC
+CACAAGTGTCCACCATGCTGGAACCGTCTCGCCCAGCGCTACCTGATCTGGGAGTGCTGC
+CCGCTGTGGATGTCCATCAAGCAGGGAGTGAAGTTGGTGGTCATGGACCCGTTTACTGAC
+CTCACCATCACTATGTGCATCGTACTCAACACACTCTTCATGGCGCTGGAGCACTACAAC
+ATGACAAGTGAATTCGAGGAGATGCTGCAGGTCGGAAACCTGGTCTTCACAGGGATTTTC
+ACAGCAGAGATGACCTTCAAGATCATTGCCCTCGACCCCTACTACTACTTCCAACAGGGC
+TGGAACATCTTCGACAGCATCATCGTCATCCTTAGCCTCATGGAGCTGGGCCTGTCCCGC
+ATGAGCAACTTGTCGGTGCTGCGCTCCTTCCGCCTGCTGCGGGTCTTCAAGCTGGCCAAA
+TCATGGCCCACCCTGAACACACTCATCAAGATCATCGGGAACTCAGTGGGGGCACTGGGG
+AACCTGACACTGGTGCTAGCCATCATCGTGTTCATCTTTGCTGTGGTGGGCATGCAGCTC
+TTTGGCAAGAACTACTCGGAGCTGAGGGACAGCGACTCAGGCCTGCTGCCTCGCTGGCAC
+ATGATGGACTTCTTTCATGCCTTCCTAATCATCTTCCGCATCCTCTGTGGAGAGTGGATC
+GAGACCATGTGGGACTGCATGGAGGTGTCGGGGCAGTCATTATGCCTGCTGGTCTTCTTG
+CTTGTTATGGTCATTGGCAACCTTGTGGTCCTGAATCTCTTCCTGGCCTTGCTGCTCAGC
+TCCTTCAGTGCAGACAACCTCACAGCCCCTGATGAGGACAGAGAGATGAACAACCTCCAG
+CTGGCCCTGGCCCGCATCCAGAGGGGCCTGCGCTTTGTCAAGCGGACCACCTGGGATTTC
+TGCTGTGGTCTCCTGCGGCACCGGCCTCAGAAGCCCGCAGCCCTTGCCGCCCAGGGCCAG
+CTGCCCAGCTGCATTGCCACCCCCTACTCCCCGCCACCCCCAGAGACGGAGAAGGTGCCT
+CCCACCCGCAAGGAAACACAGTTTGAGGAAGGCGAGCAACCAGGCCAGGGCACCCCCGGG
+GATCCAGAGCCCGTGTGTGTGCCCATCGCTGTGGCCGAGTCAGACACAGATGACCAAGAA
+GAGGATGAGGAGAACAGCCTGGGCACGGAGGAGGAGTCCAGCAAGCAGCAGGAATCCCAG
+CCTGTGTCCGGCTGGCCCAGAGGCCCTCCGGATTCCAGGACCTGGAGCCAGGTGTCAGCG
+ACTGCCTCCTCTGAGGCCGAGGCCAGTGCATCTCAGGCCGACTGGCGGCAGCAGTGGAAA
+GCGGAACCCCAGGCCCCAGGGTGCGGTGAGACCCCAGAGGACAGTTGCTCCGAGGGCAGC
+ACAGCAGACATGACCAACACCGCTGAGCTCCTGGAGCAGATCCCTGACCTCGGCCAGGAT
+GTCAAGGACCCAGAGGACTGCTTCACTGAAGGCTGTGTCCGGCGCTGTCCCTGCTGTGCG
+GTGGACACCACACAGGCCCCAGGGAAGGTCTGGTGGCGGTTGCGCAAGACCTGCTACCAC
+ATCGTGGAGCACAGCTGGTTCGAGACATTCATCATCTTCATGATCCTACTCAGCAGTGGA
+GCGCTGGCCTTCGAGGACATCTACCTAGAGGAGCGGAAGACCATCAAGGTTCTGCTTGAG
+TATGCCGACAAGATGTTCACATATGTCTTCGTGCTGGAGATGCTGCTCAAGTGGGTGGCC
+TACGGCTTCAAGAAGTACTTCACCAATGCCTGGTGCTGGCTCGACTTCCTCATCGTAGAC
+GTCTCTCTGGTCAGCCTGGTGGCCAACACCCTGGGCTTTGCCGAGATGGGCCCCATCAAG
+TCACTGCGGACGCTGCGTGCACTCCGTCCTCTGAGAGCTCTGTCACGATTTGAGGGCATG
+AGGGTGGTGGTCAATGCCCTGGTGGGCGCCATCCCGTCCATCATGAACGTCCTCCTCGTC
+TGCCTCATCTTCTGGCTCATCTTCAGCATCATGGGCGTGAACCTCTTTGCGGGGAAGTTT
+GGGAGGTGCATCAACCAGACAGAGGGAGACTTGCCTTTGAACTACACCATCGTGAACAAC
+AAGAGCCAGTGTGAGTCCTTGAACTTGACCGGAGAATTGTACTGGACCAAGGTGAAAGTC
+AACTTTGACAACGTGGGGGCCGGGTACCTGGCCCTTCTGCAGGTGGCAACATTTAAAGGC
+TGGATGGACATTATGTATGCAGCTGTGGACTCCAGGGGGTATGAAGAGCAGCCTCAGTGG
+GAATACAACCTCTACATGTACATCTATTTTGTCATTTTCATCATCTTTGGGTCTTTCTTC
+ACCCTGAACCTCTTTATTGGTGTCATCATTGACAACTTCAACCAACAGAAGAAAAAGTTA
+GGGGGCCAGGACATCTTCATGACAGAGGAGCAGAAGAAGTACTACAATGCCATGAAGAAG
+CTGGGCTCCAAGAAGCCCCAGAAGCCCATCCCACGGCCCCTGAACAAGTACCAGGGCTTC
+ATATTCGACATTGTGACCAAGCAGGCCTTTGACGTCACCATCATGTTTCTGATCTGCTTG
+AATATGGTGACCATGATGGTGGAGACAGATGACCAAAGTCCTGAGAAAATCAACATCTTG
+GCCAAGATCAACCTGCTCTTTGTGGCCATCTTCACAGGCGAGTGTATTGTCAAGCTGGCT
+GCCCTGCGCCACTACTACTTCACCAACAGCTGGAATATCTTCGACTTCGTGGTTGTCATC
+CTCTCCATCGTGGGCACTGTGCTCTCGGACATCATCCAGAAGTACTTCTTCTCCCCGACG
+CTCTTCCGAGTCATCCGCCTGGCCCGAATAGGCCGCATCCTCAGACTGATCCGAGGGGCC
+AAGGGGATCCGCACGCTGCTCTTTGCCCTCATGATGTCCCTGCCTGCCCTCTTCAACATC
+GGGCTGCTGCTCTTCCTCGTCATGTTCATCTACTCCATCTTTGGCATGGCCAACTTCGCT
+TATGTCAAGTGGGAGGCTGGCATCGACGACATGTTCAACTTCCAGACCTTCGCCAACAGC
+ATGCTGTGCCTCTTCCAGATCACCACGTCGGCCGGCTGGGATGGCCTCCTCAGCCCCATC
+CTCAACACTGGGCCGCCCTACTGCGACCCCACTCTGCCCAACAGCAATGGCTCTCGGGGG
+GACTGCGGGAGCCCAGCCGTGGGCATCCTCTTCTTCACCACCTACATCATCATCTCCTTC
+CTCATCGTGGTCAACATGTACATTGCCATCATCCTGGAGAACTTCAGCGTGGCCACGGAG
+GAGAGCACCGAGCCCCTGAGTGAGGACGACTTCGATATGTTCTATGAGATCTGGGAGAAA
+TTTGACCCAGAGGCCACTCAGTTTATTGAGTATTCGGTCCTGTCTGACTTTGCCGACGCC
+CTGTCTGAGCCACTCCGTATCGCCAAGCCCAACCAGATAAGCCTCATCAACATGGACCTG
+CCCATGGTGAGTGGGGACCGCATCCATTGCATGGACATTCTCTTTGCCTTCACCAAAAGG
+GTCCTGGGGGAGTCTGGGGAGATGGACGCCCTGAAGATCCAGATGGAGGAGAAGTTCATG
+GCAGCCAACCCATCCAAGATCTCCTACGAGCCCATCACCACCACACTCCGGCGCAAGCAC
+GAAGAGGTGTCGGCCATGGTTATCCAGAGAGCCTTCCGCAGGCACCTGCTGCAACGCTCT
+TTGAAGCATGCCTCCTTCCTCTTCCGTCAGCAGGCGGGCAGCGGCCTCTCCGAAGAGGAT
+GCCCCTGAGCGAGAGGGCCTCATCGCCTACGTGATGAGTGAGAACTTCTCCCGACCCCTT
+GGCCCACCCTCCAGCTCCTCCATCTCCTCCACTTCCTTCCCACCCTCCTATGACAGTGTC
+ACTAGAGCCACCAGCGATAACCTCCAGGTGCGGGGGTCTGACTACAGCCACAGTGAAGAT
+CTCGCCGACTTCCCCCCTTCTCCGGACAGGGACCGTGAGTCCATCGTGTGA
+
+# Drug_Target_1_General_Function:
+Involved in ion channel activity
+
+# Drug_Target_1_General_References:
+10377081	Wei J, Wang DW, Alings M, Fish F, Wathen M, Roden DM, George AL Jr: Congenital long-QT syndrome caused by a novel mutation in a conserved acidic domain of the cardiac Na+ channel. Circulation. 1999 Jun 22;99(24):3165-71.
+10508990	Wattanasirichaigoon D, Vesely MR, Duggal P, Levine JC, Blume ED, Wolff GS, Edwards SB, Beggs AH: Sodium channel abnormalities are infrequent in patients with long QT syndrome: identification of two novel SCN5A mutations. Am J Med Genet. 1999 Oct 29;86(5):470-6.
+10973849	Splawski I, Shen J, Timothy KW, Lehmann MH, Priori S, Robinson JL, Moss AJ, Schwartz PJ, Towbin JA, Vincent GM, Keating MT: Spectrum of mutations in long-QT syndrome genes. KVLQT1, HERG, SCN5A, KCNE1, and KCNE2. Circulation. 2000 Sep 5;102(10):1178-85.
+12673799	Wehrens XH, Rossenbacker T, Jongbloed RJ, Gewillig M, Heidbuchel H, Doevendans PA, Vos MA, Wellens HJ, Kass RS: A novel mutation L619F in the cardiac Na+ channel SCN5A associated with long-QT syndrome (LQT3): a role for the I-II linker in inactivation gating. Hum Mutat. 2003 May;21(5):552.
+1309946	Gellens ME, George AL Jr, Chen LQ, Chahine M, Horn R, Barchi RL, Kallen RG: Primary structure and functional expression of the human cardiac tetrodotoxin-insensitive voltage-dependent sodium channel. Proc Natl Acad Sci U S A. 1992 Jan 15;89(2):554-8.
+7651517	Bennett PB, Yazawa K, Makita N, George AL Jr: Molecular mechanism for an inherited cardiac arrhythmia. Nature. 1995 Aug 24;376(6542):683-5.
+7889574	Wang Q, Shen J, Splawski I, Atkinson D, Li Z, Robinson JL, Moss AJ, Towbin JA, Keating MT: SCN5A mutations associated with an inherited cardiac arrhythmia, long QT syndrome. Cell. 1995 Mar 10;80(5):805-11.
+8541846	Wang Q, Shen J, Li Z, Timothy K, Vincent GM, Priori SG, Schwartz PJ, Keating MT: Cardiac sodium channel mutations in patients with long QT syndrome, an inherited cardiac arrhythmia. Hum Mol Genet. 1995 Sep;4(9):1603-7.
+9506831	Makita N, Shirai N, Nagashima M, Matsuoka R, Yamada Y, Tohse N, Kitabatake A: A de novo missense mutation of human cardiac Na+ channel exhibiting novel molecular mechanisms of long QT syndrome. FEBS Lett. 1998 Feb 13;423(1):5-9.
+9686753	An RH, Wang XL, Kerem B, Benhorin J, Medina A, Goldmit M, Kass RS: Novel LQT-3 mutation affects Na+ channel activity through interactions between alpha- and beta1-subunits. Circ Res. 1998 Jul 27;83(2):141-6.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:10593
+
+# Drug_Target_1_HPRD_ID:
+02543
+
+# Drug_Target_1_ID:
+220
+
+# Drug_Target_1_Locus:
+3p21
+
+# Drug_Target_1_Molecular_Weight:
+227165
+
+# Drug_Target_1_Name:
+Sodium channel protein type 5 subunit alpha
+
+# Drug_Target_1_Number_of_Residues:
+2016
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Diltiazem Pathway	SMP00359
+Disopyramide Pathway	SMP00325
+Flecainide Pathway	SMP00331
+Fosphenytoin (Antiarrhythmic) Pathway	SMP00326
+Ibutilide Pathway	SMP00332
+Lidocaine (Antiarrhythmic) Pathway	SMP00328
+Mexiletine Pathway	SMP00329
+Phenytoin (Antiarrhythmic) Pathway	SMP00327
+Procainamide (Antiarrhythmic) Pathway	SMP00324
+Quinidine Pathway	SMP00323
+Tocainide Pathway	SMP00330
+Verapamil Pathway	SMP00375
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00520	Ion_trans
+PF00612	IQ
+PF06512	Na_trans_assoc
+
+# Drug_Target_1_Protein_Sequence:
+>Sodium channel protein type 5 subunit alpha
+MANFLLPRGTSSFRRFTRESLAAIEKRMAEKQARGSTTLQESREGLPEEEAPRPQLDLQA
+SKKLPDLYGNPPQELIGEPLEDLDPFYSTQKTFIVLNKGKTIFRFSATNALYVLSPFHPV
+RRAAVKILVHSLFNMLIMCTILTNCVFMAQHDPPPWTKYVEYTFTAIYTFESLVKILARA
+FCLHAFTFLRDPWNWLDFSVIIMAYTTEFVDLGNVSALRTFRVLRALKTISVISGLKTIV
+GALIQSVKKLADVMVLTVFCLSVFALIGLQLFMGNLRHKCVRNFTALNGTNGSVEADGLV
+WESLDLYLSDPENYLLKNGTSDVLLCGNSSDAGTCPEGYRCLKAGENPDHGYTSFDSFAW
+AFLALFRLMTQDCWERLYQQTLRSAGKIYMIFFMLVIFLGSFYLVNLILAVVAMAYEEQN
+QATIAETEEKEKRFQEAMEMLKKEHEALTIRGVDTVSRSSLEMSPLAPVNSHERRSKRRK
+RMSSGTEECGEDRLPKSDSEDGPRAMNHLSLTRGLSRTSMKPRSSRGSIFTFRRRDLGSE
+ADFADDENSTARESESHHTSLLVPWPLRRTSAQGQPSPGTSAPGHALHGKKNSTVDCNGV
+VSLLGAGDPEATSPGSHLLRPVMLEHPPDTTTPSEEPGGPQMLTSQAPCVDGFEEPGARQ
+RALSAVSVLTSALEELEESRHKCPPCWNRLAQRYLIWECCPLWMSIKQGVKLVVMDPFTD
+LTITMCIVLNTLFMALEHYNMTSEFEEMLQVGNLVFTGIFTAEMTFKIIALDPYYYFQQG
+WNIFDSIIVILSLMELGLSRMSNLSVLRSFRLLRVFKLAKSWPTLNTLIKIIGNSVGALG
+NLTLVLAIIVFIFAVVGMQLFGKNYSELRDSDSGLLPRWHMMDFFHAFLIIFRILCGEWI
+ETMWDCMEVSGQSLCLLVFLLVMVIGNLVVLNLFLALLLSSFSADNLTAPDEDREMNNLQ
+LALARIQRGLRFVKRTTWDFCCGLLRHRPQKPAALAAQGQLPSCIATPYSPPPPETEKVP
+PTRKETQFEEGEQPGQGTPGDPEPVCVPIAVAESDTDDQEEDEENSLGTEEESSKQQESQ
+PVSGWPRGPPDSRTWSQVSATASSEAEASASQADWRQQWKAEPQAPGCGETPEDSCSEGS
+TADMTNTAELLEQIPDLGQDVKDPEDCFTEGCVRRCPCCAVDTTQAPGKVWWRLRKTCYH
+IVEHSWFETFIIFMILLSSGALAFEDIYLEERKTIKVLLEYADKMFTYVFVLEMLLKWVA
+YGFKKYFTNAWCWLDFLIVDVSLVSLVANTLGFAEMGPIKSLRTLRALRPLRALSRFEGM
+RVVVNALVGAIPSIMNVLLVCLIFWLIFSIMGVNLFAGKFGRCINQTEGDLPLNYTIVNN
+KSQCESLNLTGELYWTKVKVNFDNVGAGYLALLQVATFKGWMDIMYAAVDSRGYEEQPQW
+EYNLYMYIYFVIFIIFGSFFTLNLFIGVIIDNFNQQKKKLGGQDIFMTEEQKKYYNAMKK
+LGSKKPQKPIPRPLNKYQGFIFDIVTKQAFDVTIMFLICLNMVTMMVETDDQSPEKINIL
+AKINLLFVAIFTGECIVKLAALRHYYFTNSWNIFDFVVVILSIVGTVLSDIIQKYFFSPT
+LFRVIRLARIGRILRLIRGAKGIRTLLFALMMSLPALFNIGLLLFLVMFIYSIFGMANFA
+YVKWEAGIDDMFNFQTFANSMLCLFQITTSAGWDGLLSPILNTGPPYCDPTLPNSNGSRG
+DCGSPAVGILFFTTYIIISFLIVVNMYIAIILENFSVATEESTEPLSEDDFDMFYEIWEK
+FDPEATQFIEYSVLSDFADALSEPLRIAKPNQISLINMDLPMVSGDRIHCMDILFAFTKR
+VLGESGEMDALKIQMEEKFMAANPSKISYEPITTTLRRKHEEVSAMVIQRAFRRHLLQRS
+LKHASFLFRQQAGSGLSEEDAPEREGLIAYVMSENFSRPLGPPSSSSISSTSFPPSYDSV
+TRATSDNLQVRGSDYSHSEDLADFPPSPDRDRESIV
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+This protein mediates the voltage-dependent sodium ion permeability of excitable membranes. Assuming opened or closed conformations in response to the voltage difference across the membrane, the protein forms a sodium-selective channel through which Na(+) ions may pass in accordance with their electrochemical gradient. It is a tetrodotoxin-resistant Na(+) channel isoform. This channel is responsible for the initial upstroke of the action potential in the electrocardiogram
+
+# Drug_Target_1_SwissProt_ID:
+Q14524
+
+# Drug_Target_1_SwissProt_Name:
+SCN5A_HUMAN
+
+# Drug_Target_1_Synonyms:
+HH1
+Sodium channel protein type V subunit alpha
+Sodium channel protein, cardiac muscle alpha-subunit
+Voltage-gated sodium channel subunit alpha Nav1.5
+
+# Drug_Target_1_Theoretical_pI:
+5.23
+
+# Drug_Target_1_Transmembrane_Regions:
+127-150
+159-178
+192-210
+217-236
+253-276
+390-415
+712-736
+748-771
+780-799
+806-825
+842-862
+914-939
+1201-1224
+1238-1263
+1270-1291
+1296-1317
+1337-1359
+1444-1470
+1524-1547
+1559-1582
+1589-1612
+1623-1644
+1660-1682
+1748-1772
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasm. Nucleus
+
+# Drug_Target_2_Chromosome_Location:
+7
+
+# Drug_Target_2_Drug_References:
+17327465	Hu W, Sorrentino C, Denison MS, Kolaja K, Fielden MR: Induction of cyp1a1 is a nonspecific biomarker of aryl hydrocarbon receptor activation: results of large scale screening of pharmaceuticals and toxicants in vivo and in vitro. Mol Pharmacol. 2007 Jun;71(6):1475-86. Epub 2007 Feb 27.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+D16354
+
+# Drug_Target_2_GenBank_ID_Protein:
+533324
+
+# Drug_Target_2_GeneCard_ID:
+AHR
+
+# Drug_Target_2_Gene_Name:
+AHR
+
+# Drug_Target_2_Gene_Sequence:
+>2427 bp
+ATGAACAGCAGCAGCGCCAACATCACCTACGCCAGTCGCAAGCGGCGGAAGCCGGTGCAG
+AAAACAGTAAAGCCAATCCCAGCTGAAGGAATCAAGTCAAATCCTTCCAAGCGGCATAGA
+GACCGACTTAATACAGAGTTGGACCGTTTGGCTAGCCTGCTGCCTTTCCCACAAGATGTT
+ATTAATAAGTTGGACAAACTTTCAGTTCTTAGGCTCAGCGTCAGTTACCTGAGAGCCAAG
+AGCTTCTTTGATGTTGCATTAAAATCCTCCCCTACTGAAAGAAACGGAGGCCAGGATAAC
+TGTAGAGCAGCAAATTTCAGAGAAGGCCTGAACTTACAAGAAGGAGAATTCTTATTACAG
+GCTCTGAATGGCTTTGTATTAGTTGTCACTACAGATGCTTTGGTCTTTTATGCTTCTTCT
+ACTATACAAGATTATCTAGGGTTTCAGCAGTCTGATGTCATACATCAGAGTGTATATGAA
+CTTATCCATACCGAAGACCGAGCTGAATTTCAGCGTCAGCTACACTGGGCATTAAATCCT
+TCTCAGTGTACAGAGTCTGGACAAGGAATTGAAGAAGCCACTGGTCTCCCCCAGACAGTA
+GTCTGTTATAACCCAGACCAGATTCCTCCAGAAAACTCTCCTTTAATGGAGAGGTGCTTC
+ATATGTCGTCTAAGGTGTCTGCTGGATAATTCATCTGGTTTTCTGGCAATGAATTTCCAA
+GGGAAGTTAAAGTATCTTCATGGACAGAAAAAGAAAGGGAAAGATGGATCAATACTTCCA
+CCTCAGTTGGCTTTGTTTGCGATAGCTACTCCACTTCAGCCACCATCCATACTTGAAATC
+CGGACCAAAAATTTTATCTTTAGAACCAAACACAAACTAGACTTCACACCTATTGGTTGT
+GATGCCAAAGGAAGAATTGTTTTAGGATATACTGAAGCAGAGCTGTGCACGAGAGGCTCA
+GGTTATCAGTTTATTCATGCAGCTGATATGCTTTATTGTGCCGAGTCCCATATCCGAATG
+ATTAAGACTGGAGAAAGTGGCATGATAGTTTTCCGGCTTCTTACAAAAAACAACCGATGG
+ACTTGGGTCCAGTCTAATGCACGCCTGCTTTATAAAAATGGAAGACCAGATTATATCATT
+GTAACTCAGAGACCACTAACAGATGAGGAAGGAACAGAGCATTTACGAAAACGAAATACG
+AAGTTGCCTTTTATGTTTACCACTGGAGAAGCTGTGTTGTATGAGGCAACCAACCCTTTT
+CCTGCCATAATGGATCCCTTACCACTAAGGACTAAAAATGGCACTAGTGGAAAAGACTCT
+GCTACCACATCCACTCTAAGCAAGGACTCTCTCAATCCTAGTTCCCTCCTGGCTGCCATG
+ATGCAACAAGATGAGTCTATTTATCTCTATCCTGCTTCAAGTACTTCAAGTACTGCACCT
+TTTGAAAACAACTTTTTCAACGAATCTATGAATGAATGCAGAAATTGGCAAGATAATACT
+GCACCGATGGGAAATGATACTATCCTGAAACATGAGCAAATTGACCAGCCTCAGGATGTG
+AACTCATTTGCTGGAGGTCACCCAGGGCTCTTTCAAGATAGTAAAAACAGTGACTTGTAC
+AGCATAATGAAAAACCTAGGCATTGATTTTGAAGACATCAGACACATGCAGAATGAAAAA
+TTTTTCAGAAATGATTTTTCTGGTGAGGTTGACTTCAGAGACATTGACTTAACGGATGAA
+ATCCTGACGTATGTCCAAGATTCTTTAAGTAAGTCTCCCTTCATACCTTCAGATTATCAA
+CAGCAACAGTCCTTGGCTCTGAACTCAAGCTGTATGGTACAGGAACACCTACATCTAGAA
+CAGCAACAGCAACATCACCAAAAGCAAGTAGTAGTGGAGCCACAGCAACAGCTGTGTCAG
+AAGATGAAGCACATGCAAGTTAATGGCATGTTTGAAAATTGGAACTCTAACCAATTCGTG
+CCTTTCAATTGTCCACAGCAAGACCCACAACAATATAATGTCTTTACAGACTTACATGGG
+ATCAGTCAAGAGTTCCCCTACAAATCTGAAATGGATTCTATGCCTTATACACAGAACTTT
+ATTTCCTGTAATCAGCCTGTATTACCACAACATTCCAAATGTACAGAGCTGGACTACCCT
+ATGGGGAGTTTTGAACCATCCCCATACCCCACTACTTCTAGTTTAGAAGATTTTGTCACT
+TGTTTACAACTTCCTGAAAACCAAAAGCATGGATTAAATCCACAGTCAGCCATAATAACT
+CCTCAGACATGTTATGCTGGGGCCGTGTCGATGTATCAGTGCCAGCCAGAACCTCAGCAC
+ACCCACGTGGGTCAGATGCAGTACAATCCAGTACTGCCAGGCCAACAGGCATTTTTAAAC
+AAGTTTCAGAATGGAGTTTTTAAATGA
+
+# Drug_Target_2_General_Function:
+Involved in Hsp90 protein binding
+
+# Drug_Target_2_General_References:
+10395741	Nguyen TA, Hoivik D, Lee JE, Safe S: Interactions of nuclear receptor coactivator/corepressor proteins with the aryl hydrocarbon receptor complex. Arch Biochem Biophys. 1999 Jul 15;367(2):250-7.
+11259615	Wolff S, Harper PA, Wong JM, Mostert V, Wang Y, Abel J: Cell-specific regulation of human aryl hydrocarbon receptor expression by transforming growth factor-beta(1). Mol Pharmacol. 2001 Apr;59(4):716-24.
+12853948	Hillier LW, Fulton RS, Fulton LA, Graves TA, Pepin KH, Wagner-McPherson C, Layman D, Maas J, Jaeger S, Walker R, Wylie K, Sekhon M, Becker MC, O'Laughlin MD, Schaller ME, Fewell GA, Delehaunty KD, Miner TL, Nash WE, Cordes M, Du H, Sun H, Edwards J, Bradshaw-Cordum H, Ali J, Andrews S, Isak A, Vanbrunt A, Nguyen C, Du F, Lamar B, Courtney L, Kalicki J, Ozersky P, Bielicki L, Scott K, Holmes A, Harkins R, Harris A, Strong CM, Hou S, Tomlinson C, Dauphin-Kohlberg S, Kozlowicz-Reilly A, Leonard S, Rohlfing T, Rock SM, Tin-Wollam AM, Abbott A, Minx P, Maupin R, Strowmatt C, Latreille P, Miller N, Johnson D, Murray J, Woessner JP, Wendl MC, Yang SP, Schultz BR, Wallis JW, Spieth J, Bieri TA, Nelson JO, Berkowicz N, Wohldmann PE, Cook LL, Hickenbotham MT, Eldred J, Williams D, Bedell JA, Mardis ER, Clifton SW, Chissoe SL, Marra MA, Raymond C, Haugen E, Gillett W, Zhou Y, James R, Phelps K, Iadanoto S, Bubb K, Simms E, Levy R, Clendenning J, Kaul R, Kent WJ, Furey TS, Baertsch RA, Brent MR, Keibler E, Flicek P, Bork P, Suyama M, Bailey JA, Portnoy ME, Torrents D, Chinwalla AT, Gish WR, Eddy SR, McPherson JD, Olson MV, Eichler EE, Green ED, Waterston RH, Wilson RK: The DNA sequence of human chromosome 7. Nature. 2003 Jul 10;424(6945):157-64.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+16696038	Bennett P, Ramsden DB, Williams AC: Complete structural characterisation of the human aryl hydrocarbon receptor gene. Clin Mol Pathol. 1996 Feb;49(1):M12-6.
+7515333	Hayashi S, Watanabe J, Nakachi K, Eguchi H, Gotoh O, Kawajiri K: Interindividual difference in expression of human Ah receptor and related P450 genes. Carcinogenesis. 1994 May;15(5):801-6.
+7883760	Ema M, Matsushita N, Sogawa K, Ariyama T, Inazawa J, Nemoto T, Ota M, Oshimura M, Fujii-Kuriyama Y: Human arylhydrocarbon receptor: functional expression and chromosomal assignment to 7p21. J Biochem. 1994 Oct;116(4):845-51.
+7961644	Ema M, Ohe N, Suzuki M, Mimura J, Sogawa K, Ikawa S, Fujii-Kuriyama Y: Dioxin binding activities of polymorphic forms of mouse and human arylhydrocarbon receptors. J Biol Chem. 1994 Nov 4;269(44):27337-43.
+8246913	Dolwick KM, Schmidt JV, Carver LA, Swanson HI, Bradfield CA: Cloning and expression of a human Ah receptor cDNA. Mol Pharmacol. 1993 Nov;44(5):911-7.
+8393992	Itoh S, Kamataki T: Human Ah receptor cDNA: analysis for highly conserved sequences. Nucleic Acids Res. 1993 Jul 25;21(15):3578.
+
+# Drug_Target_2_HGNC_ID:
+GNC:348
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+6220
+
+# Drug_Target_2_Locus:
+7p15
+
+# Drug_Target_2_Molecular_Weight:
+96146.7
+
+# Drug_Target_2_Name:
+Aryl hydrocarbon receptor
+
+# Drug_Target_2_Number_of_Residues:
+848
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00010	HLH
+PF00989	PAS
+PF08447	PAS_3
+
+# Drug_Target_2_Protein_Sequence:
+>Aryl hydrocarbon receptor
+MNSSSANITYASRKRRKPVQKTVKPIPAEGIKSNPSKRHRDRLNTELDRLASLLPFPQDV
+INKLDKLSVLRLSVSYLRAKSFFDVALKSSPTERNGGQDNCRAANFREGLNLQEGEFLLQ
+ALNGFVLVVTTDALVFYASSTIQDYLGFQQSDVIHQSVYELIHTEDRAEFQRQLHWALNP
+SQCTESGQGIEEATGLPQTVVCYNPDQIPPENSPLMERCFICRLRCLLDNSSGFLAMNFQ
+GKLKYLHGQKKKGKDGSILPPQLALFAIATPLQPPSILEIRTKNFIFRTKHKLDFTPIGC
+DAKGRIVLGYTEAELCTRGSGYQFIHAADMLYCAESHIRMIKTGESGMIVFRLLTKNNRW
+TWVQSNARLLYKNGRPDYIIVTQRPLTDEEGTEHLRKRNTKLPFMFTTGEAVLYEATNPF
+PAIMDPLPLRTKNGTSGKDSATTSTLSKDSLNPSSLLAAMMQQDESIYLYPASSTSSTAP
+FENNFFNESMNECRNWQDNTAPMGNDTILKHEQIDQPQDVNSFAGGHPGLFQDSKNSDLY
+SIMKNLGIDFEDIRHMQNEKFFRNDFSGEVDFRDIDLTDEILTYVQDSLSKSPFIPSDYQ
+QQQSLALNSSCMVQEHLHLEQQQQHHQKQVVVEPQQQLCQKMKHMQVNGMFENWNSNQFV
+PFNCPQQDPQQYNVFTDLHGISQEFPYKSEMDSMPYTQNFISCNQPVLPQHSKCTELDYP
+MGSFEPSPYPTTSSLEDFVTCLQLPENQKHGLNPQSAIITPQTCYAGAVSMYQCQPEPQH
+THVGQMQYNPVLPGQQAFLNKFQNGVLNETYPAELNNINNTQTTTHLQPLHHPSEARPFP
+DLTSSGFL
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Ligand-activated transcriptional activator. Binds to the XRE promoter region of genes it activates. Activates the expression of multiple phase I and II xenobiotic chemical metabolizing enzyme genes (such as the CYP1A1 gene). Mediates biochemical and toxic effects of halogenated aromatic hydrocarbons. Involved in cell-cycle regulation. Likely to play an important role in the development and maturation of many tissues
+
+# Drug_Target_2_SwissProt_ID:
+P35869
+
+# Drug_Target_2_SwissProt_Name:
+AHR_HUMAN
+
+# Drug_Target_2_Synonyms:
+Ah receptor
+AhR
+Class E basic helix-loop-helix protein 76
+bHLHe76
+
+# Drug_Target_2_Theoretical_pI:
+6.34
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00379

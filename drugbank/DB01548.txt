@@ -1,0 +1,749 @@
+#BEGIN_DRUGCARD DB01548
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+14357-78-9
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C26H35NO4
+
+# Chemical_IUPAC_Name:
+(1S,2R,6S)-3-(cyclopropylmethyl)-16-(2-hydroxypropan-2-yl)-15-methoxy-13-oxa-3-azahexacyclo[13.2.2.1^{2,8}.0^{1,6}.0^{6,14}.0^{7,12}]icosa-7,9,11-trien-11-ol
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2007-07-31 07:10:24 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+A narcotic antagonist similar in action to naloxone. It is used to remobilize animals after etorphine neuroleptanalgesia and is considered a specific antagonist to etorphine. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Narcotic Antagonists
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Illicit
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Diprenorphine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C26H35NO4/c1-23(2,29)18-13-24-8-9-26(18,30-3)22-25(24)10-11-27(14-15-4-5-15)19(24)12-16-6-7-17(28)21(31-22)20(16)25/h6-7,15,18-19,22,28-29H,4-5,8-14H2,1-3H3/t18?,19-,22?,24-,25+,26?/m1/s1
+
+# InChI_Key:
+InChIKey=OIJXLIIMXHRJJH-USQHPYHMSA-N
+
+# Indication:
+Diprenorphine is used to reverse the effects of the super-potent opioid analgesics such as etorphine and carfentanil that are used for tranquilizing large animals in veterinary medicine. Not used in humans.
+
+# KEGG_Compound_ID:
+C11794
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+1548
+
+# Mechanism_Of_Action:
+Diprenorphine binds approximately equally to the three subtypes of opioid receptorsand antagonizes them.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+425.5604
+
+# Molecular_Weight_Mono:
+425.256608613
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+3.52
+
+# Predicted_LogS:
+-3.6
+
+# Predicted_Water_Solubility:
+1.04e-01 g/l
+
+# Primary_Accession_No:
+DB01548
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+26644
+
+# PubChem_Substance_ID:
+46506559
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@]12CC3=C4C(OC5[C@@]4(CCN1CC1CC1)[C@@]21CCC5(OC)C(C1)C(C)(C)O)=C(O)C=C3
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:20:16 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Diprenorphine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+20641600	Leung K: [6-O-methyl-11C]Diprenorphine
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+OPRM1
+
+# Drug_Target_1_GenBank_ID_Gene:
+L25119
+
+# Drug_Target_1_GenBank_ID_Protein:
+452073
+
+# Drug_Target_1_GeneCard_ID:
+OPRM1
+
+# Drug_Target_1_Gene_Name:
+OPRM1
+
+# Drug_Target_1_Gene_Sequence:
+>1203 bp
+ATGGACAGCAGCGCTGCCCCCACGAACGCCAGCAATTGCACTGATGCCTTGGCGTACTCA
+AGTTGCTCCCCAGCACCCAGCCCCGGTTCCTGGGTCAACTTGTCCCACTTAGATGGCAAC
+CTGTCCGACCCATGCGGTCCGAACCGCACCAACCTGGGCGGGAGAGACAGCCTGTGCCCT
+CCGACCGGCAGTCCCTCCATGATCACGGCCATCACGATCATGGCCCTCTACTCCATCGTG
+TGCGTGGTGGGGCTCTTCGGAAACTTCCTGGTCATGTATGTGATTGTCAGATACACCAAG
+ATGAAGACTGCCACCAACATCTACATTTTCAACCTTGCTCTGGCAGATGCCTTAGCCACC
+AGTACCCTGCCCTTCCAGAGTGTGAATTACCTAATGGGAACATGGCCATTTGGAACCATC
+CTTTGCAAGATAGTGATCTCCATAGATTACTATAACATGTTCACCAGCATATTCACCCTC
+TGCACCATGAGTGTTGATCGATACATTGCAGTCTGCCACCCTGTCAAGGCCTTAGATTTC
+CGTACTCCCCGAAATGCCAAAATTATCAATGTCTGCAACTGGATCCTCTCTTCAGCCATT
+GGTCTTCCTGTAATGTTCATGGCTACAACAAAATACAGGCAAGGTTCCATAGATTGTACA
+CTAACATTCTCTCATCCAACCTGGTACTGGGAAAACCTCGTGAAGATCTGTGTTTTCATC
+TTCGCCTTCATTATGCCAGTGCTCATCATTACCGTGTGCTATGGACTGATGATCTTGCGC
+CTCAAGAGTGTCCGCATGCTCTCTGGCTCCAAAGAAAAGGACAGGAATCTTCGAAGGATC
+ACCAGGATGGTGCTGGTGGTGGTGGCTGTGTTCATCGTCTGCTGGACTCCCATTCACATT
+TACGTCATCATTAAAGCCTTGGTTACAATCCCAGAAACTACGTTCCAGACTGTTTCTTGG
+CACTTCTGCATTGCTCTAGGTTACACAAACAGCTGCCTCAACCCAGTCCTTTATGCATTT
+CTGGATGAAAACTTCAAACGATGCTTCAGAGAGTTCTGTATCCCAACCTCTTCCAACATT
+GAGCAACAAAACTCCACTCGAATTCGTCAGAACACTAGAGACCACCCCTCCACGGCCAAT
+ACAGTGGATAGAACTAATCATCAGCTAGAAAATCTGGAAGCAGAAACTGCTCCGTTGCCC
+TAA
+
+# Drug_Target_1_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_1_General_References:
+10393893	Uhl GR, Sora I, Wang Z: The mu opiate receptor as a candidate gene for pain: polymorphisms, variations in expression, nociception, and opiate responses. Proc Natl Acad Sci U S A. 1999 Jul 6;96(14):7752-5.
+7488213	Chuang TK, Killam KF Jr, Chuang LF, Kung HF, Sheng WS, Chao CC, Yu L, Chuang RY: Mu opioid receptor gene expression in immune cells. Biochem Biophys Res Commun. 1995 Nov 22;216(3):922-30.
+7891175	Mestek A, Hurley JH, Bye LS, Campbell AD, Chen Y, Tian M, Liu J, Schulman H, Yu L: The human mu opioid receptor: modulation of functional desensitization by calcium/calmodulin-dependent protein kinase and protein kinase C. J Neurosci. 1995 Mar;15(3 Pt 2):2396-406.
+7905839	Wang JB, Johnson PS, Persico AM, Hawkins AL, Griffin CA, Uhl GR: Human mu opiate receptor. cDNA and genomic clones, pharmacologic characterization and chromosomal assignment. FEBS Lett. 1994 Jan 31;338(2):217-22.
+7957926	Bare LA, Mansson E, Yang D: Expression of two variants of the human mu opioid receptor mRNA in SK-N-SH cells and human brain. FEBS Lett. 1994 Nov 7;354(2):213-6.
+9399694	Bergen AW, Kokoszka J, Peterson R, Long JC, Virkkunen M, Linnoila M, Goldman D: Mu opioid receptor gene variants: lack of association with alcohol dependence. Mol Psychiatry. 1997 Oct-Nov;2(6):490-4.
+9689128	Bond C, LaForge KS, Tian M, Melia D, Zhang S, Borg L, Gong J, Schluger J, Strong JA, Leal SM, Tischfield JA, Kreek MJ, Yu L: Single-nucleotide polymorphism in the human mu opioid receptor gene alters beta-endorphin binding and activity: possible implications for opiate addiction. Proc Natl Acad Sci U S A. 1998 Aug 4;95(16):9608-13.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:8156
+
+# Drug_Target_1_HPRD_ID:
+02484
+
+# Drug_Target_1_ID:
+847
+
+# Drug_Target_1_Locus:
+6q24-q25
+
+# Drug_Target_1_Molecular_Weight:
+44780
+
+# Drug_Target_1_Name:
+Mu-type opioid receptor
+
+# Drug_Target_1_Number_of_Residues:
+400
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Alfentanil Pathway	SMP00413
+Carfentanil Pathway	SMP00414
+Codeine Pathway	SMP00405
+Fentanyl Pathway	SMP00415
+Heroin Pathway	SMP00407
+Hydrocodone Pathway	SMP00411
+Hydromorphone Pathway	SMP00410
+Methadone Pathway	SMP00408
+Morphine Pathway	SMP00406
+Oxycodone Pathway	SMP00409
+Oxymorphone Pathway	SMP00412
+Remifentanil Pathway	SMP00416
+Sufentanil Pathway	SMP00417
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_1_Protein_Sequence:
+>Mu-type opioid receptor
+MDSSAAPTNASNCTDALAYSSCSPAPSPGSWVNLSHLDGNLSDPCGPNRTDLGGRDSLCP
+PTGSPSMITAITIMALYSIVCVVGLFGNFLVMYVIVRYTKMKTATNIYIFNLALADALAT
+STLPFQSVNYLMGTWPFGTILCKIVISIDYYNMFTSIFTLCTMSVDRYIAVCHPVKALDF
+RTPRNAKIINVCNWILSSAIGLPVMFMATTKYRQGSIDCTLTFSHPTWYWENLLKICVFI
+FAFIMPVLIITVCYGLMILRLKSVRMLSGSKEKDRNLRRITRMVLVVVAVFIVCWTPIHI
+YVIIKALVTIPETTFQTVSWHFCIALGYTNSCLNPVLYAFLDENFKRCFREFCIPTSSNI
+EQQNSTRIRQNTRDHPSTANTVDRTNHQLENLEAETAPLP
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Inhibits neurotransmitter release by reducing calcium ion currents and increasing potassium ion conductance. Receptor for beta-endorphin
+
+# Drug_Target_1_SwissProt_ID:
+P35372
+
+# Drug_Target_1_SwissProt_Name:
+OPRM_HUMAN
+
+# Drug_Target_1_Synonyms:
+MOR-1
+
+# Drug_Target_1_Theoretical_pI:
+8.29
+
+# Drug_Target_1_Transmembrane_Regions:
+67-96
+106-123
+146-165
+196-211
+237-259
+283-305
+314-330
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+10319982	Willoch F, Tolle TR, Wester HJ, Munz F, Petzold A, Schwaiger M, Conrad B, Bartenstein P: Central pain after pontine infarction is associated with changes in opioid receptor binding: a PET study with 11C-diprenorphine. AJNR Am J Neuroradiol. 1999 Apr;20(4):686-90.
+10413036	Jones AK, Kitchen ND, Watabe H, Cunningham VJ, Jones T, Luthra SK, Thomas DG: Measurement of changes in opioid receptor binding in vivo during trigeminal neuralgic pain using [11C] diprenorphine and positron emission tomography. J Cereb Blood Flow Metab. 1999 Jul;19(7):803-8.
+11526449	Kampa M, Hatzoglou A, Notas G, Niniraki M, Kouroumalis E, Castanas E: Opioids are non-competitive inhibitors of nitric oxide synthase in T47D human breast cancer cells. Cell Death Differ. 2001 Sep;8(9):943-52.
+12672796	Marie N, Lecoq I, Jauzac P, Allouche S: Differential sorting of human delta-opioid receptors after internalization by peptide and alkaloid agonists. J Biol Chem. 2003 Jun 20;278(25):22795-804. Epub 2003 Apr 2.
+12909189	Webster JM, Bentley MT, Wojcikiewicz RJ: N,N,N',N'-tetrakis(2-pyridylmethyl)ethylenediamine inhibits ligand binding to certain G protein-coupled receptors. Eur J Pharmacol. 2003 Aug 1;474(1):1-5.
+20641600	Leung K: [6-O-methyl-11C]Diprenorphine
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+OPRD1
+
+# Drug_Target_2_GenBank_ID_Gene:
+U07882
+
+# Drug_Target_2_GenBank_ID_Protein:
+27545517
+
+# Drug_Target_2_GeneCard_ID:
+OPRD1
+
+# Drug_Target_2_Gene_Name:
+OPRD1
+
+# Drug_Target_2_Gene_Sequence:
+>1119 bp
+ATGGAACCGGCCCCCTCCGCCGGCGCCGAGCTGCAGCCCCCGCTCTTCGCCAACGCCTCG
+GACGCCTACCCTAGCGCCTTCCCCAGCGCTGGCGCCAATGCGTCGGGGCCGCCAGGCGCG
+CGGAGCGCCTCGTCCCTCGCCCTGGCAATCGCCATCACCGCGCTCTACTCGGCCGTGTGC
+GCCGTGGGGCTGCTGGGCAACGTGCTTGTCATGTTCGGCATCGTCCGGTACACTAAGATG
+AAGACGGCCACCAACATCTACATCTTCAACCTGGCCTTAGCCGATGCGCTGGCCACCAGC
+ACGCTGCCTTTCCAGAGTGCCAAGTACCTGATGGAGACGTGGCCCTTCGGCGAGCTGCTC
+TGCAAGGCTGTGCTCTCCATCGACTACTACAATATGTTCACCAGCATCTTCACGCTCACC
+ATGATGAGTGTTGACCGCTACATCGCTGTCTGCCACCCTGTCAAGGCCCTGGACTTCCGC
+ACGCCTGCCAAGGCCAAGCTGATCAACATCTGTATCTGGGTCCTGGCCTCAGGCGTTGGC
+GTGCCCATCATGGTCATGGCTGTGACCCGTCCCCGGGACGGGGCAGTGGTGTGCATGCTC
+CAGTTCCCCAGCCCCAGCTGGTACTGGGACACGGTGACCAAGATCTGCGTGTTCCTCTTC
+GCCTTCGTGGTGCCCATCCTCATCATCACCGTGTGCTATGGCCTCATGCTGCTGCGCCTG
+CGCAGTGTGCGCCTGCTGTCGGGCTCCAAGGAGAAGGACCGCAGCCTGCGGCGCATCACG
+CGCATGGTGCTGGTGGTTGTGGGCGCCTTCGTGGTGTGTTGGGCGCCCATCCACATCTTC
+GTCATCGTCTGGACGCTGGTGGACATCGACCGGCGCGACCCGCTGGTGGTGGCTGCGCTG
+CACCTGTGCATCGCGCTGGGCTACGCCAATAGCAGCCTCAACCCCGTGCTCTACGCTTTC
+CTCGACGAGAACTTCAAGCGCTGCTTCCGCCAGCTCTGCCGCAAGCCCTGCGGCCGCCCA
+GACCCCAGCAGCTTCAGCCGCGCCCGCGAAGCCACGGCCCGCGAGCGTGTCACCGCCTGC
+ACCCCGTCCGATGGTCCCGGCGGTGGCGCTGCCGCCTGA
+
+# Drug_Target_2_General_Function:
+Involved in delta-opioid receptor activity
+
+# Drug_Target_2_General_References:
+10982041	Gelernter J, Kranzler HR: Variant detection at the delta opioid receptor (OPRD1) locus and population genetics of a novel variant affecting protein sequence. Hum Genet. 2000 Jul;107(1):86-8.
+7808419	Simonin F, Befort K, Gaveriaux-Ruff C, Matthes H, Nappey V, Lannes B, Micheletti G, Kieffer B: The human delta-opioid receptor: genomic organization, cDNA cloning, functional expression, and distribution in human brain. Mol Pharmacol. 1994 Dec;46(6):1015-21.
+8201839	Knapp RJ, Malatynska E, Fang L, Li X, Babin E, Nguyen M, Santoro G, Varga EV, Hruby VJ, Roeske WR, et al.: Identification of a human delta opioid receptor: cloning and expression. Life Sci. 1994;54(25):PL463-9.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:8153
+
+# Drug_Target_2_HPRD_ID:
+01308
+
+# Drug_Target_2_ID:
+467
+
+# Drug_Target_2_Locus:
+1p36.1-p34.3
+
+# Drug_Target_2_Molecular_Weight:
+40413
+
+# Drug_Target_2_Name:
+Delta-type opioid receptor
+
+# Drug_Target_2_Number_of_Residues:
+372
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_2_Protein_Sequence:
+>Delta-type opioid receptor
+MEPAPSAGAELQPPLFANASDAYPSAFPSAGANASGPPGARSASSLALAIAITALYSAVC
+AVGLLGNVLVMFGIVRYTKMKTATNIYIFNLALADALATSTLPFQSAKYLMETWPFGELL
+CKAVLSIDYYNMFTSIFTLTMMSVDRYIAVCHPVKALDFRTPAKAKLINICIWVLASGVG
+VPIMVMAVTRPRDGAVVCMLQFPSPSWYWDTVTKICVFLFAFVVPILIITVCYGLMLLRL
+RSVRLLSGSKEKDRSLRRITRMVLVVVGAFVVCWAPIHIFVIVWTLVDIDRRDPLVVAAL
+HLCIALGYANSSLNPVLYAFLDENFKRCFRQLCRKPCGRPDPSSFSRAREATARERVTAC
+TPSDGPGGGAAA
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Inhibits neurotransmitter release by reducing calcium ion currents and increasing potassium ion conductance. Highly stereoselective. receptor for enkephalins
+
+# Drug_Target_2_SwissProt_ID:
+P41143
+
+# Drug_Target_2_SwissProt_Name:
+OPRD_HUMAN
+
+# Drug_Target_2_Synonyms:
+DOR-1
+
+# Drug_Target_2_Theoretical_pI:
+9.17
+
+# Drug_Target_2_Transmembrane_Regions:
+46-75
+85-102
+125-144
+175-190
+216-238
+262-284
+294-310
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+20641600	Leung K: [6-O-methyl-11C]Diprenorphine
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+OPRK1
+
+# Drug_Target_3_GenBank_ID_Gene:
+U11053
+
+# Drug_Target_3_GenBank_ID_Protein:
+532060
+
+# Drug_Target_3_GeneCard_ID:
+OPRK1
+
+# Drug_Target_3_Gene_Name:
+OPRK1
+
+# Drug_Target_3_Gene_Sequence:
+>1143 bp
+ATGGAATCCCCGATTCAGATCTTCCGCGGGGAGCCTGGCCCTACCTGCGCCCCGAGCGCC
+TGCCTGCCCCCCAACAGCAGCGCCTGGTTTCCCGGCTGGGCCGAGCCCGACAGCAACGGC
+AGCGCCGGCTCGGAGGACGCGCAGCTGGAGCCCGCGCACATCTCCCCGGCCATCCCGGTC
+ATCATCACGGCGGTCTACTCCGTAGTGTTCGTCGTGGGCTTGGTGGGCAACTCGCTGGTC
+ATGTTCGTGATCATCCGATACACAAAGATGAAGACAGCAACCAACATTTACATATTTAAC
+CTGGCTTTGGCAGATGCTTTAGTTACTACAACCATGCCCTTTCAGAGTACGGTCTACTTG
+ATGAATTCCTGGCCTTTTGGGGATGTGCTGTGCAAGATAGTAATTTCCATTGATTACTAC
+AACATGTTCACCAGCATCTTCACCTTGACCATGATGAGCGTGGACCGCTACATTGCCGTG
+TGCCACCCCGTGAAGGCTTTGGACTTCCGCACACCCTTGAAGGCAAAGATCATCAATATC
+TGCATCTGGCTGCTGTCGTCATCTGTTGGCATCTCTGCAATAGTCCTTGGAGGCACCAAA
+GTCAGGGAAGACGTCGATGTCATTGAGTGCTCCTTGCAGTTCCCAGATGATGACTACTCC
+TGGTGGGACCTCTTCATGAAGATCTGCGTCTTCATCTTTGCCTTCGTGATCCCTGTCCTC
+ATCATCATCGTCTGCTACACCCTGATGATCCTGCGTCTCAAGAGCGTCCGGCTCCTTTCT
+GGCTCCCGAGAGAAAGATCGCAACCTGCGTAGGATCACCAGACTGGTCCTGGTGGTGGTG
+GCGGTTTTCGTCGTCTGCTGGACTCCCATTCACATATTCATCCTGGTGGAGGCTCTGGGG
+AGCACCTCCCACAGCACAGCTGCTCTCTCCAGCTATTACTTCTGCATCGCCTTAGGCTAT
+ACCAACAGTAGCCTGAATCCCATTCTCTACGCCTTTCTTGATGAAAACTTCAAGCGGTGT
+TTCCGGGACTTCTGCTTTCCACTGAAGATGAGGATGGAGCGGCAGAGCACTAGCAGAGTC
+CGAAATACAGTTCAGGATCCTGCTTACCTGAGGGACATCGATGGGATGAATAAACCAGTA
+TGA
+
+# Drug_Target_3_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_3_General_References:
+12004055	Li JG, Chen C, Liu-Chen LY: Ezrin-radixin-moesin-binding phosphoprotein-50/Na+/H+ exchanger regulatory factor (EBP50/NHERF) blocks U50,488H-induced down-regulation of the human kappa opioid receptor by enhancing its recycling rate. J Biol Chem. 2002 Jul 26;277(30):27545-52. Epub 2002 May 9.
+7624359	Simonin F, Gaveriaux-Ruff C, Befort K, Matthes H, Lannes B, Micheletti G, Mattei MG, Charron G, Bloch B, Kieffer B: kappa-Opioid receptor in humans: cDNA and genomic cloning, chromosomal assignment, functional expression, pharmacology, and expression pattern in the central nervous system. Proc Natl Acad Sci U S A. 1995 Jul 18;92(15):7006-10.
+7869844	Zhu J, Chen C, Xue JC, Kunapuli S, DeRiel JK, Liu-Chen LY: Cloning of a human kappa opioid receptor from the brain. Life Sci. 1995;56(9):PL201-7.
+7929306	Wang JB, Johnson PS, Wu JM, Wang WF, Uhl GR: Human kappa opiate receptor second extracellular loop elevates dynorphin's affinity for human mu/kappa chimeras. J Biol Chem. 1994 Oct 21;269(42):25966-9.
+8060324	Mansson E, Bare L, Yang D: Isolation of a human kappa opioid receptor cDNA from placenta. Biochem Biophys Res Commun. 1994 Aug 15;202(3):1431-7.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:8154
+
+# Drug_Target_3_HPRD_ID:
+01309
+
+# Drug_Target_3_ID:
+696
+
+# Drug_Target_3_Locus:
+8q11.2
+
+# Drug_Target_3_Molecular_Weight:
+42646
+
+# Drug_Target_3_Name:
+Kappa-type opioid receptor
+
+# Drug_Target_3_Number_of_Residues:
+380
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_3_Protein_Sequence:
+>Kappa-type opioid receptor
+MDSPIQIFRGEPGPTCAPSACLPPNSSAWFPGWAEPDSNGSAGSEDAQLEPAHISPAIPV
+IITAVYSVVFVVGLVGNSLVMFVIIRYTKMKTATNIYIFNLALADALVTTTMPFQSTVYL
+MNSWPFGDVLCKIVISIDYYNMFTSIFTLTMMSVDRYIAVCHPVKALDFRTPLKAKIINI
+CIWLLSSSVGISAIVLGGTKVREDVDVIECSLQFPDDDYSWWDLFMKICVFIFAFVIPVL
+IIIVCYTLMILRLKSVRLLSGSREKDRNLRRITRLVLVVVAVFVVCWTPIHIFILVEALG
+STSHSTAALSSYYFCIALGYTNSSLNPILYAFLDENFKRCFRDFCFPLKMRMERQSTSRV
+RNTVQDPAYLRDIDGMNKPV
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Inhibits neurotransmitter release by reducing calcium ion currents and increasing potassium ion conductance. Receptor for dynorphins. May play a role in arousal and regulation of autonomic and neuroendocrine functions
+
+# Drug_Target_3_SwissProt_ID:
+P41145
+
+# Drug_Target_3_SwissProt_Name:
+OPRK_HUMAN
+
+# Drug_Target_3_Synonyms:
+KOR-1
+
+# Drug_Target_3_Theoretical_pI:
+7.79
+
+# Drug_Target_3_Transmembrane_Regions:
+59-85
+96-117
+133-154
+174-196
+223-247
+276-299
+312-333
+
+# Drug_Target_4_Cellular_Location:
+Not Available
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+2982865	Law PY, Hom DS, Loh HH: Multiple affinity states of opiate receptor in neuroblastoma x glioma NG108-15 hybrid cells. Opiate agonist association rate is a function of receptor occupancy. J Biol Chem. 1985 Mar 25;260(6):3561-9.
+6124875	Pfeiffer A, Herz A: Discrimination of three opiate receptor binding sites with the use of a computerized curve-fitting technique. Mol Pharmacol. 1982 Mar;21(2):266-71.
+6270660	Chang KJ, Hazum E, Cuatrecasas P: Novel opiate binding sites selective for benzomorphan drugs. Proc Natl Acad Sci U S A. 1981 Jul;78(7):4141-5.
+6287305	Pfeiffer A, Herz A: Enhancement of delta- but not mu-opiate agonist binding by calcium. Naunyn Schmiedebergs Arch Pharmacol. 1982 May;319(2):147-53.
+8626742	Cvejic S, Trapaidze N, Cyr C, Devi LA: Thr353, located within the COOH-terminal tail of the delta opiate receptor, is involved in receptor down-regulation. J Biol Chem. 1996 Feb 23;271(8):4073-6.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+TRIM13
+
+# Drug_Target_4_GenBank_ID_Gene:
+AJ224819
+
+# Drug_Target_4_GenBank_ID_Protein:
+3133092
+
+# Drug_Target_4_GeneCard_ID:
+TRIM13
+
+# Drug_Target_4_Gene_Name:
+TRIM13
+
+# Drug_Target_4_Gene_Sequence:
+>1224 bp
+ATGGAGCTGCTTGAAGAAGATCTCACATGCCCTATTTGTTGTAGTCTGTTTGATGATCCA
+CGGGTTTTGCCTTGCTCCCACAACTTCTGCAAAAAATGCTTAGAAGGTATCTTAGAAGGG
+AGTGTGCGGAATTCCTTGTGGAGACCAGCTCCATTCAAGTGTCCTACATGCCGTAAGGAA
+ACTTCAGCTACTGGAATTAATAGCCTGCAGGTTAATTACTCCCTGAAGGGTATTGTGGAA
+AAGTATAACAAGATCAAGATCTCTCCCAAAATGCCAGTATGCAAAGGACACTTGGGGCAG
+CCTCTCAACATTTTCTGCCTGACTGATATGCAGCTGATTTGTGGGATCTGTGCTACTCGT
+GGGGAGCACACCAAACATGTCTTCTGTTCTATTGAAGATGCCTATGCTCAGGAAAGGGAT
+GCCTTTGAGTCCCTCTTCCAGAGCTTTGAGACCTGGCGTCGGGGAGATGCTCTTTCTCGC
+TTGGATACCTTGGAAACTAGTAAGAGGAAATCCCTACAGTTACTGACTAAAGATTCAGAT
+AAAGTGAAGGAATTTTTTGAGAAGTTACAACACACACTGGATCAAAAGAAGAATGAAATT
+CTGTCTGACTTTGAGACCATGAAACTTGCTGTTATGCAAGCATATGACCCAGAGATCAAC
+AAACTCAACACCATCTTGCAGGAGCAACGGATGGCCTTTAACATTGCTGAGGCTTTCAAA
+GATGTGTCAGAACCCATTGTATTTCTGCAACAGATGCAGGAGTTTAGAGAGAAAATCAAA
+GTAATCAAGGAAACTCCTTTACCTCCCTCTAATTTGCCTGCAAGCCCTTTAATGAAGAAC
+TTTGATACCAGTCAGTGGGAAGACATAAAACTAGTCGATGTGGATAAACTTTCTTTGCCT
+CAAGACACTGGCACATTCATTAGCAAGATTCCCTGGAGCTTTTATAAGTTATTTTTGCTA
+ATCCTTCTGCTTGGCCTTGTCATTGTCTTTGGTCCTACCATGTTCCTAGAATGGTCATTA
+TTTGATGACCTGGCAACTTGGAAAGGCTGTCTTTCAAACTTCACTTCCTATCTGACTAAA
+ACAGCCGATTTCATAGAACAATCAGTTTTTTACTGGGAACAGGTGACAGATGGGTTTTTC
+ATTTTCAATGAAAGATTCAAGAATTTTACTTTGGTGGTACTGAACAATGTGGCAGAATTT
+GTGTGCAAATATAAACTATTATAA
+
+# Drug_Target_4_General_Function:
+Involved in zinc ion binding
+
+# Drug_Target_4_General_References:
+11161783	Kapanadze B, Makeeva N, Corcoran M, Jareborg N, Hammarsund M, Baranova A, Zabarovsky E, Vorontsova O, Merup M, Gahrton G, Jansson M, Yankovsky N, Einhorn S, Oscier D, Grander D, Sangfelt O: Comparative sequence analysis of a region on human chromosome 13q14, frequently deleted in B-cell chronic lymphocytic leukemia, and its homologous region on mouse chromosome 14. Genomics. 2000 Dec 15;70(3):327-34.
+11264177	Migliazza A, Bosch F, Komatsu H, Cayanis E, Martinotti S, Toniato E, Guccione E, Qu X, Chien M, Murty VV, Gaidano G, Inghirami G, Zhang P, Fischer S, Kalachikov SM, Russo J, Edelman I, Efstratiadis A, Dalla-Favera R: Nucleotide sequence, transcription map, and mutation analysis of the 13q14 chromosomal region deleted in B-cell chronic lymphocytic leukemia. Blood. 2001 Apr 1;97(7):2098-104.
+11331580	Reymond A, Meroni G, Fantozzi A, Merla G, Cairo S, Luzi L, Riganelli D, Zanaria E, Messali S, Cainarca S, Guffanti A, Minucci S, Pelicci PG, Ballabio A: The tripartite motif family identifies cell compartments. EMBO J. 2001 May 1;20(9):2140-51.
+9599022	Kapanadze B, Kashuba V, Baranova A, Rasool O, van Everdink W, Liu Y, Syomov A, Corcoran M, Poltaraus A, Brodyansky V, Syomova N, Kazakov A, Ibbotson R, van den Berg A, Gizatullin R, Fedorova L, Sulimova G, Zelenin A, Deaven L, Lehrach H, Grander D, Buys C, Oscier D, Zabarovsky ER, Einhorn S, Yankovsky N: A cosmid and cDNA fine physical map of a human chromosome 13q14 region frequently lost in B-cell chronic lymphocytic leukemia and identification of a new putative tumor suppressor gene, Leu5. FEBS Lett. 1998 Apr 17;426(2):266-70.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:9976
+
+# Drug_Target_4_HPRD_ID:
+10414
+
+# Drug_Target_4_ID:
+1716
+
+# Drug_Target_4_Locus:
+13q14
+
+# Drug_Target_4_Molecular_Weight:
+46988
+
+# Drug_Target_4_Name:
+Tripartite motif-containing protein 13
+
+# Drug_Target_4_Number_of_Residues:
+407
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00097	zf-C3HC4
+PF00643	zf-B_box
+
+# Drug_Target_4_Protein_Sequence:
+>Tripartite motif-containing protein 13
+MELLEEDLTCPICCSLFDDPRVLPCSHNFCKKCLEGILEGSVRNSLWRPAPFKCPTCRKE
+TSATGINSLQVNYSLKGIVEKYNKIKISPKMPVCKGHLGQPLNIFCLTDMQLICGICATR
+GEHTKHVFCSIEDAYAQERDAFESLFQSFETWRRGDALSRLDTLETSKRKSLQLLTKDSD
+KVKEFFEKLQHTLDQKKNEILSDFETMKLAVMQAYDPEINKLNTILQEQRMAFNIAEAFK
+DVSEPIVFLQQMQEFREKIKVIKETPLPPSNLPASPLMKNFDTSQWEDIKLVDVDKLSLP
+QDTGTFISKIPWSFYKLFLLILLLGLVIVFGPTMFLEWSLFDDLATWKGCLSNFSSYLTK
+TADFIEQSVFYWEQVTDGFFIFNERFKNFTLVVLNNVAEFVCKYKLL
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+May act as a tumor suppressor
+
+# Drug_Target_4_SwissProt_ID:
+O60858
+
+# Drug_Target_4_SwissProt_Name:
+TRI13_HUMAN
+
+# Drug_Target_4_Synonyms:
+B- cell chronic lymphocytic leukemia tumor suppressor Leu5
+Leukemia-associated protein 5
+Putative tumor suppressor RFP2
+RING finger protein 77
+Ret finger protein 2
+
+# Drug_Target_4_Theoretical_pI:
+5.80
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB01548

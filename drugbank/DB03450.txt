@@ -1,0 +1,455 @@
+#BEGIN_DRUGCARD DB03450
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C16H18N2O6S2
+
+# Chemical_IUPAC_Name:
+(2R)-5-(2-methoxy-2-oxoethyl)-2-[(1R)-2-oxo-1-[2-(thiophen-2-yl)acetamido]ethyl]-3,6-dihydro-2H-1,3-thiazine-4-carboxylic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Gentamicin	Increased risk of nephrotoxicity
+Netilmicin	Increased risk of nephrotoxicity
+Probenecid	Probenecid may increase the serum level of cephalothin.
+Tobramycin	Increased risk of nephrotoxicity
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Cephalothin Group
+
+# HET_ID:
+CEP
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C16H18N2O6S2/c1-24-13(21)5-9-8-26-15(18-14(9)16(22)23)11(7-19)17-12(20)6-10-3-2-4-25-10/h2-4,7,11,15,18H,5-6,8H2,1H3,(H,17,20)(H,22,23)/t11-,15-/m1/s1
+
+# InChI_Key:
+InChIKey=UUWFGEKEQSCSMB-IAQYHMDHSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+3450
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+398.454
+
+# Molecular_Weight_Mono:
+398.060627698
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1IYP
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+0.77
+
+# Predicted_LogS:
+-4.2
+
+# Predicted_Water_Solubility:
+2.79e-02 g/l
+
+# Primary_Accession_No:
+DB03450
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+46936680
+
+# PubChem_Substance_ID:
+46506959
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT00891
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@@](NC(=O)CC1=CC=CS1)(C=O)[C@]1([H])NC(C(O)=O)=C(CC(=O)OC)CS1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:22:16 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+D37830
+
+# Drug_Target_1_GenBank_ID_Protein:
+1037162
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+bla
+
+# Drug_Target_1_Gene_Sequence:
+>876 bp
+ATGATGACTCAGAGCATTCGCCGCTCAATGTTAACGGTGATGGCGACGCTACCCCTGCTA
+TTTAGCAGCGCAACGCTGCATGCGCAGGCGAACAGCGTGCAACAGCAGCTGGAAGCCCTG
+GAGAAAAGTTCGGGAGGTCGGCTTGGCGTTGCGCTGATTAACACCGCCGATAATTCGCAG
+ATTCTCTACCGTGCCGATGAACGTTTTGCGATGTGCAGTACCAGTAAGGTGATGGCGGCC
+GCGGCGGTGCTTAAACAGAGCGAGAGCGATAAGCACCTGCTAAATCAGCGCGTTGAAATC
+AAGAAGAGCGACCTGGTTAACTACAATCCCATTGCGGAGAAACACGTTAACGGCACGATG
+ACGCTGGCTGAGCTTGGCGCAGCGGCGCTGCAGTATAGCGACAATACTGCCATGAATAAG
+CTGATTGCCCATCTGGGTGGTCCCGATAAAGTGACGGCGTTTGCTCGCTCGTTGGGTGAT
+GAGACCTTCCGTCTGGACAGAACCGAGCCCACGCTCAATACCGCCATTCCAGGCGACCCG
+CGTGATACCACCACGCCGCTCGCGATGGCGCAGACCCTGAAAAATCTGACGCTGGGTAAA
+GCGCTGGCGGAAACTCAGCGGGCACAGTTGGTGACGTGGCTTAAGGGCAATACTACCGGT
+AGCGCGAGCATTCGGGCGGGTCTGCCGAAATCATGGGTAGTGGGCGATAAAACCGGCAGC
+GGAGATTATGGCACCACCAACGATATCGCGGTTATCTGGCCGGAAAACCACGCACCGCTG
+GTTCTGGTGACCTACTTTACCCAACCGGAGCAGAAGGCGGAAAGGCGTCGGGATATTCTG
+GCTGCGGCGGCGAAAATCGTAACCCACGGTTTCTGA
+
+# Drug_Target_1_General_Function:
+Defense mechanisms and antibiotic degradation
+
+# Drug_Target_1_General_References:
+8619581	Ishii Y, Ohno A, Taguchi H, Imajo S, Ishiguro M, Matsuzawa H: Cloning and sequence of the gene encoding a cefotaxime-hydrolyzing class A beta-lactamase isolated from Escherichia coli. Antimicrob Agents Chemother. 1995 Oct;39(10):2269-75.
+9925786	Ibuka A, Taguchi A, Ishiguro M, Fushinobu S, Ishii Y, Kamitori S, Okuyama K, Yamaguchi K, Konno M, Matsuzawa H: Crystal structure of the E166A mutant of extended-spectrum beta-lactamase Toho-1 at 1.8 A resolution. J Mol Biol. 1999 Feb 5;285(5):2079-87.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+3195
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+31447
+
+# Drug_Target_1_Name:
+Beta-lactamase Toho-1
+
+# Drug_Target_1_Number_of_Residues:
+291
+
+# Drug_Target_1_PDB_ID:
+1IYS
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00144	Beta-lactamase
+
+# Drug_Target_1_Protein_Sequence:
+>Beta-lactamase Toho-1 precursor
+MMTQSIRRSMLTVMATLPLLFSSATLHAQANSVQQQLEALEKSSGGRLGVALINTADNSQ
+ILYRADERFAMCSTSKVMAAAAVLKQSESDKHLLNQRVEIKKSDLVNYNPIAEKHVNGTM
+TLAELGAAALQYSDNTAMNKLIAHLGGPDKVTAFARSLGDETFRLDRTEPTLNTAIPGDP
+RDTTTPLAMAQTLKNLTLGKALAETQRAQLVTWLKGNTTGSASIRAGLPKSWVVGDKTGS
+GDYGTTNDIAVIWPENHAPLVLVTYFTQPEQKAERRRDILAAAAKIVTHGF
+
+# Drug_Target_1_Reaction:
+a beta-lactam + H2O = a substituted beta-amino acid
+
+# Drug_Target_1_Signals:
+1-29
+
+# Drug_Target_1_Specific_Function:
+Has strong cefotaxime-hydrolyzing activity
+
+# Drug_Target_1_SwissProt_ID:
+Q47066
+
+# Drug_Target_1_SwissProt_Name:
+BLT1_ECOLX
+
+# Drug_Target_1_Synonyms:
+Beta-lactamase Toho-1 precursor
+EC 3.5.2.6
+
+# Drug_Target_1_Theoretical_pI:
+9.60
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Secreted protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+X05109
+
+# Drug_Target_2_GenBank_ID_Protein:
+515050
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+Not Available
+
+# Drug_Target_2_Gene_Sequence:
+>1221 bp
+ATGGTCTCAGGAACGGTGGGCAGAGGTACGGCGCTGGGCGCGGTGCTGTTGGCCCTCCTC
+GCAGTCCCCGCACAGGCCGGCACCGCCGCGGCCGCGGATCTGCCGGCACCCGACGACACC
+GGTCTGCAGGCGGTGCTGCACACGGCCCTTTCCCAGGGAGCCCCCGGTGCGATGGTGCGG
+GTCGACGACAACGGCACGATCCACCAGTTGTCGGAGGGAGTCGCCGACCGGGCCACCGGG
+CGTGCGATCACCACGACCGACCGGTTCCGCGTCGGCAGCGTCACCAAGAGCTTCTCCGCC
+GTGGTCCTGCTGCAACTGGTGGACGAGGGCAAGCTCGACCTGGACGCTTCGGTGAACACC
+TATCTGCCCGGGCTGCTGCCCGACGACCGGATCACCGTGCGTCAGGTGATGAGCCACCGC
+AGTGGGCTGTACGACTACACCAACGACATGTTCGCGCAGACGGTCCCGGGCTTCGAGTCC
+GTCCGCAACAAGGTCTTCAGCTACCAGGACCTGATCACCCTGTCCCTCAAGCACGGGGTC
+ACCAACGCACCGGGCGCGGCCTATTCATACTCCAACACGAACTTCGTCGTCGCGGGCATG
+CTCATCGAGAAGCTCACCGGCCACTCCGTGGCCACGGAGTACCAGAACCGCATCTTCACG
+CCGCTGAACCTGACCGACACCTTCTACGTGCACCCCGACACCGTCATCCCGGGCACCCAC
+GCCAACGGCTACCTCACGCCGGACGAGGCCGGTGGGGCCCTGGTCGACTCCACCGAGCAG
+ACGGTGTCGTGGGCGCAGAGCGCGGGCGCGGTCATCTCCAGCACGCAGGACCTGGACACG
+TTCTTCTCCGCGTTGATGAGCGGGCAGCTCATGTCCGCCGCGCAGCTCGCGCAGATGCAG
+CAGTGGACGACGGTCAACAGCACCCAGGGGTACGGCCTCGGCCTGCGCCGCCGTGACCTG
+TCCTGCGGTATCTCGGTGTACGGCCACACGGGCACCGTGCAGGGCTACTACACGTACGCC
+TTCGCCTCGAAGGACGGCAAGCGCAGCGTCACCGCGCTCGCCAACACCTCGAACAACGTG
+AACGTGCTGAACACGATGGCCCGCACGCTGGAATCCGCGTTCTGCGGCAAGCCGACGACC
+GCGAAGCTGCGCAGCGCGACCTCCTCGGCGACCACCGTGGAGCGCCACGAGGACATCGCG
+CCGGGTATCGCCCGCGACTGA
+
+# Drug_Target_2_General_Function:
+Involved in cell wall peptidoglycan synthesis
+
+# Drug_Target_2_General_References:
+2175384	Piron-Fraipont C, Lenzini MV, Dusart J, Ghuysen JM: Transcriptional analysis of the DD-peptidase/penicillin-binding protein-encoding dac gene of Streptomyces R61: use of the promoter and signal sequences in a secretion vector. Mol Gen Genet. 1990 Aug;223(1):114-20.
+2386365	Knox JR, Pratt RF: Different modes of vancomycin and D-alanyl-D-alanine peptidase binding to cell wall peptide and a possible role for the vancomycin resistance protein. Antimicrob Agents Chemother. 1990 Jul;34(7):1342-7.
+3030739	Joris B, Jacques P, Frere JM, Ghuysen JM, Van Beeumen J: Primary structure of the Streptomyces R61 extracellular DD-peptidase. 2. Amino acid sequence data. Eur J Biochem. 1987 Feb 2;162(3):519-24.
+3830154	Duez C, Piron-Fraipont C, Joris B, Dusart J, Urdea MS, Martial JA, Frere JM, Ghuysen JM: Primary structure of the Streptomyces R61 extracellular DD-peptidase. 1. Cloning into Streptomyces lividans and nucleotide sequence of the gene. Eur J Biochem. 1987 Feb 2;162(3):509-18.
+3997832	Kelly JA, Knox JR, Moews PC, Hite GJ, Bartolone JB, Zhao H, Joris B, Frere JM, Ghuysen JM: 2.8-A Structure of penicillin-sensitive D-alanyl carboxypeptidase-transpeptidase from Streptomyces R61 and complexes with beta-lactams. J Biol Chem. 1985 May 25;260(10):6449-58.
+7490745	Kelly JA, Kuzin AP: The refined crystallographic structure of a DD-peptidase penicillin-target enzyme at 1.6 A resolution. J Mol Biol. 1995 Nov 24;254(2):223-36.
+7925404	Duez C, Piron-Fraipont C, Joris B, Dusart J, Urdea MS, Martial JA, Frere JM, Ghuysen JM: Primary structure of the Streptomyces R61 extracellular DD-peptidase. 1. Cloning into Streptomyces lividans and nucleotide sequence of the gene. Eur J Biochem. 1994 Sep 15;224(3):1079.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+2461
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+42917
+
+# Drug_Target_2_Name:
+D-alanyl-D-alanine carboxypeptidase
+
+# Drug_Target_2_Number_of_Residues:
+406
+
+# Drug_Target_2_PDB_ID:
+1PWG
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00144	Beta-lactamase
+
+# Drug_Target_2_Protein_Sequence:
+>D-alanyl-D-alanine carboxypeptidase precursor
+MVSGTVGRGTALGAVLLALLAVPAQAGTAAAADLPAPDDTGLQAVLHTALSQGAPGAMVR
+VDDNGTIHQLSEGVADRATGRAITTTDRFRVGSVTKSFSAVVLLQLVDEGKLDLDASVNT
+YLPGLLPDDRITVRQVMSHRSGLYDYTNDMFAQTVPGFESVRNKVFSYQDLITLSLKHGV
+TNAPGAAYSYSNTNFVVAGMLIEKLTGHSVATEYQNRIFTPLNLTDTFYVHPDTVIPGTH
+ANGYLTPDEAGGALVDSTEQTVSWAQSAGAVISSTQDLDTFFSALMSGQLMSAAQLAQMQ
+QWTTVNSTQGYGLGLRRRDLSCGISVYGHTGTVQGYYTYAFASKDGKRSVTALANTSNNV
+NVLNTMARTLESAFCGKPTTAKLRSATSSATTVERHEDIAPGIARD
+
+# Drug_Target_2_Reaction:
+Preferential cleavage: (Ac)2-L-Lys-D-Ala!D-Ala. Also transpeptidation of peptidyl-alanyl moieties that are N-acyl substituents of D-alanine INHIBITOR Penicillin; beta-Lactam antibiotics
+
+# Drug_Target_2_Signals:
+1-31
+
+# Drug_Target_2_Specific_Function:
+Catalyzes distinct carboxypeptidation and transpeptidation reactions during the last stages of wall peptidoglycan synthesis. Mistaking a beta-lactam antibiotic molecule for a normal substrate (i.e., a D-alanyl-D-alanine- terminated peptide), it becomes immobilized in the form of a long- lived, serine-ester-linked acyl enzyme and thus behave as penicillin-binding protein (PBP)
+
+# Drug_Target_2_SwissProt_ID:
+P15555
+
+# Drug_Target_2_SwissProt_Name:
+DAC_STRSR
+
+# Drug_Target_2_Synonyms:
+D-alanyl-D-alanine carboxypeptidase precursor
+DD- peptidase
+DD-carboxypeptidase
+EC 3.4.16.4
+
+# Drug_Target_2_Theoretical_pI:
+6.03
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB03450

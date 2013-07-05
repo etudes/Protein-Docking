@@ -1,0 +1,857 @@
+#BEGIN_DRUGCARD DB00975
+
+# AHFS_Codes:
+24:12.92
+
+# ATC_Codes:
+B01AC07
+C01DX20
+
+# Absorption:
+70%
+
+# Biotransformation:
+hepatic
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Aggrenox
+Agilease
+Anginal
+Apo-Dipyridamole Fc
+Apo-Dipyridamole Sc
+Apricor
+Cardioflux
+Cardoxil
+Chilcolan
+Cleridium
+Cleridium 150
+Coribon
+Coridil
+Coronarine
+Corosan
+Coroxin
+Curantyl
+Dipyridan
+Gulliostin
+IV Persantine
+Justpertin
+Kurantil
+Natyl
+Novo-Dipiradol
+Peridamol
+Permiltin
+Persantin
+Persantine
+Piroan
+Prandiol
+Prandiol 75
+Protangix
+RA 8
+RA-8
+Stenocardil
+Stenocardiol
+Stimolcardio
+
+# CAS_Registry_Number:
+58-32-2
+
+# ChEBI_ID:
+4653
+
+# Chemical_Formula:
+C24H40N8O4
+
+# Chemical_IUPAC_Name:
+2-({6-[bis(2-hydroxyethyl)amino]-4,8-bis(piperidin-1-yl)pyrimido[5,4-d][1,3]diazin-2-yl}(2-hydroxyethyl)amino)ethan-1-ol
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2244475
+
+# Description:
+A phosphodiesterase inhibitor that blocks uptake and metabolism of adenosine by erythrocytes and vascular endothelial cells. Dipyridamole also potentiates the antiaggregating action of prostacyclin. (From AMA Drug Evaluations Annual, 1994, p752)
+
+# Dosage_Forms:
+Liquid	Intravenous
+Solution	Intravenous
+Tablet	Oral
+
+# Drug_Category:
+Phosphodiesterase Inhibitors
+Platelet Aggregation Inhibitors
+Vasodilator Agents
+
+# Drug_Interactions:
+Adenosine	Dipyridamole may increase the effect/toxicity of adenosine.
+Fludarabine	Dipyridamole may decrease the effect of fludarabine.
+Ginkgo biloba	Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.
+Regadenoson	Dipyridamole may change the effects of regadenoson. When possible, withhold dipyridamole for at least two days prior to regadenoson administration.
+Topotecan	The p-glycoprotein inhibitor, Dipyridamole, may increase the bioavailability of oral Topotecan. A clinically significant effect is also expected with IV Topotecan. Concomitant therapy should be avoided.
+Treprostinil	The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Dipyridamole. Monitor for increased bleeding during concomitant thearpy. Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use.
+
+# Drug_Reference:
+8981292	Diener HC, Cunha L, Forbes C, Sivenius J, Smets P, Lowenthal A: European Stroke Prevention Study. 2. Dipyridamole and acetylsalicylic acid in the secondary prevention of stroke. J Neurol Sci. 1996 Nov;143(1-2):1-13.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+1.5
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Slightly
+
+# Food_Interactions:
+Coffee and tea can decrease the effect of dipyridamole.
+Take with food to reduce irritation.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Dipyridamole
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+40 minutes
+
+# InChI_Identifier:
+InChI=1S/C24H40N8O4/c33-15-11-31(12-16-34)23-26-20-19(21(27-23)29-7-3-1-4-8-29)25-24(32(13-17-35)14-18-36)28-22(20)30-9-5-2-6-10-30/h33-36H,1-18H2
+
+# InChI_Key:
+InChIKey=IZEKFCXSFNUWAM-UHFFFAOYSA-N
+
+# Indication:
+For as an adjunct to coumarin anticoagulants in the prevention of postoperative thromboembolic complications of cardiac valve replacement and also used in prevention of angina.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D00302
+
+# LIMS_Drug_ID:
+975
+
+# Mechanism_Of_Action:
+Dipyridamole likely inhibits both adenosine deaminase and phosphodiesterase, preventing the degradation of cAMP, an inhibitor of platelet function. This elevation in cAMP blocks the release of arachidonic acid from membrane phospholipids and reduces thromboxane A2 activity. Dipyridamole also directly stimulates the release of prostacyclin, which induces adenylate cyclase activity, thereby raising the intraplatelet concentration of cAMP and further inhibiting platelet aggregation.
+
+# Melting_Point:
+163 °C
+
+# Molecular_Weight_Avg:
+504.6256
+
+# Molecular_Weight_Mono:
+504.317251808
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Dipyridamole (Antiplatelet) Pathway	SMP00264
+
+# PharmGKB_ID:
+PA449367
+
+# Pharmacology:
+Dipyridamole, a non-nitrate coronary vasodilator that also inhibits platelet aggregation, is combined with other anticoagulant drugs, such as warfarin, to prevent thrombosis in patients with valvular or vascular disorders. Dipyridamole is also used in myocardial perfusion imaging, as an antiplatelet agent, and in combination with aspirin for stroke prophylaxis.
+
+# Predicted_LogP_Hydrophobicity:
+1.52
+
+# Predicted_LogS:
+-2.7
+
+# Predicted_Water_Solubility:
+9.22e-01 g/l
+
+# Primary_Accession_No:
+DB00975
+
+# Protein_Binding:
+99%
+
+# PubChem_Compound_ID:
+3108
+
+# PubChem_Substance_ID:
+46506292
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/dipyrid.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00360
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+OCCN(CCO)C1=NC2=C(N=C(N=C2N2CCCCC2)N(CCO)CCO)C(=N1)N1CCCCC1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Dipiridamol
+Dipyridamine
+Dipyridamol
+Dipyudamine
+Dypyridamol
+Usaf Ge-12
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Hypotension, if it occurs, is likely to be of short duration, but a vasopressor drug may be used if necessary. The oral LD<sub>50</sub> in rats is greater than 6,000 mg/kg while in the dogs, the oral LD<sub>50</sub> is approximately 400 mg/kg. LD<sub>50</sub>=8.4g/kg (orally in rat)
+
+# Update_Date:
+2013-02-08 16:19:48 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Dipyridamole
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Located mostly to soluble cellular fractions
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10373451	Fujishige K, Kotera J, Michibata H, Yuasa K, Takebayashi S, Okumura K, Omori K: Cloning and characterization of a novel human phosphodiesterase that hydrolyzes both cAMP and cGMP (PDE10A). J Biol Chem. 1999 Jun 25;274(26):18438-45.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+PDE10A
+
+# Drug_Target_1_GenBank_ID_Gene:
+AB020593
+
+# Drug_Target_1_GenBank_ID_Protein:
+4958858
+
+# Drug_Target_1_GeneCard_ID:
+PDE10A
+
+# Drug_Target_1_Gene_Name:
+PDE10A
+
+# Drug_Target_1_Gene_Sequence:
+>2340 bp
+ATGAGGATAGAAGAGAGGAAATCCCAACATTTAACAGGTTTGACAGATGAAAAAGTGAAG
+GCATATCTTTCTCTTCACCCCCAGGTATTAGATGAATTTGTATCTGAAAGTGTTAGTGCA
+GAGACAGTAGAGAAATGGCTGAAGAGGAAGAACAACAAATCAGAAGATGAATCAGCTCCT
+AAGGAAGTCAGCAGGTACCAAGATACGAATATGCAGGGAGTTGTATATGAACTAAACAGC
+TATATAGAACAACGGTTGGACACAGGAGGAGACAACCAGCTACTCCTCTATGAACTGAGC
+AGCATCATTAAAATAGCCACAAAAGCCGATGGATTTGCACTGTATTTCCTTGGAGAGTGC
+AATAATAGCCTGTGTATATTCACGCCACCTGGGATAAAGGAAGGAAAACCCCGCCTCATC
+CCTGCTGGGCCCATCACTCAGGGCACCACCGTCTCTGCTTATGTGGCCAAGTCCAGGAAA
+ACACTGCTAGTAGAAGACATCCTTGGAGATGAACGATTTCCAAGAGGTACTGGACTGGAA
+TCAGGGACTCGTATCCAGTCTGTTCTTTGCTTACCAATTGTCACTGCAATTGGTGACTTG
+ATTGGTATTCTCGAGCTGTATCGGCACTGGGGCAAAGAAGCCTTCTGTCTTAGTCACCAG
+GAGGTTGCAACAGCAAATCTTGCCTGGGCTTCAGTAGCAATACATCAGGTGCAGGTATGC
+AGAGGCCTTGCCAAACAGACAGAATTGAATGACTTCCTACTCGACGTATCAAAAACATAT
+TTTGATAACATAGTTGCAATAGATTCTCTACTTGAACACATAATGATATATGCAAAAAAC
+CTGGTGAATGCCGATCGTTGTGCGCTTTTCCAGGTGGACCATAAGAACAAGGAGTTATAT
+TCAGACCTTTTTGATATTGGAGAGGAAAAGGAAGGAAAACCTGTCTTCAAGAAGACCAAA
+GAGATAAGATTTTCAATTGAGAAAGGAATTGCTGGCCAAGTAGCAAGAACAGGGGAAGTC
+CTGAACATTCCAGATGCCTATGCAGACCCACGCTTTAACAGAGAAGTAGACTTGTACACA
+GGCTACACCACGCGGAACATCCTGTGCATGCCCATCGTCAGCCGAGGCAGCGTGATAGGT
+GTGGTGCAGATGGTCAACAAAATCAGTGGCAGTGCCTTCTCTAAAACAGATGAAAACAAC
+TTCAAAATGTTTGCCGTCTTTTGTGCTTTAGCCTTACACTGTGCTAATATGTATCATAGA
+ATTCGCCACTCAGAGTGCATTTACCGGGTAACGATGGAAAAGCTGTCCTACCATAGCATT
+TGTACTTCAGAAGAGTGGCAAGGTCTCATGCAATTCACCCTTCCCGTGCGTCTCTGCAAA
+GAAATTGAATTATTCCACTTTGACATTGGTCCTTTTGAAAACATGTGGCCTGGAATTTTT
+GTCTACATGGTTCATCGGTCCTGTGGGACATCCTGCTTTGAGCTTGAAAAGTTGTGTCGT
+TTTATTATGTCTGTGAAGAAGAACTATCGGCGGGTTCCTTATCACAACTGGAAGCATGCG
+GTCACTGTAGCACACTGCATGTATGCCATACTTCAGAACAATCACACGCTTTTCACAGAC
+CTTGAGCGCAAAGGACTGCTGATTGCGTGTCTGTGTCATGACCTGGACCACAGGGGCTTC
+AGTAACAGCTACCTGCAGAAGTTCGACCACCCTCTGGCCGCTCTCTACTCCACTTCCACC
+ATGGAGCAGCACCACTTCTCCCAGACTGTGTCCATCCTTCAGTTGGAAGGGCACAATATC
+TTCTCCACTCTGAGCTCCAGTGAATATGAGCAGGTGCTTGAGATCATCCGCAAAGCCATC
+ATTGCCACAGACCTTGCTTTATACTTTGGAAACAGGAAGCAGTTGGAAGAGATGTACCAG
+ACCGGATCACTAAACCTTAATAATCAATCACATAGAGACCGTGTAATTGGTTTGATGATG
+ACTGCCTGTGACCTTTGTTCTGTGACAAAACTGTGGCCCGTTACAAAATTGACGGCAAAT
+GATATATATGCAGAATTCTGGGCTGAGGGTGATGAAATGAAGAAATTGGGAATACAGCCT
+ATTCCTATGATGGACAGAGACAAGAAGGATGAAGTCCCCCAAGGCCAGCTTGGGTTCTAC
+AATGCCGTGGCCATTCCCTGCTATACAACCCTTACCCAGATCCTCCCTCCCACGGAGCCT
+CTTCTGAAAGCATGCAGGGATAATCTCAGTCAGTGGGAGAAGGTGATTCGAGGGGAGGAG
+ACTGCAACCTGGATTTCATCCCCATCCGTGGCTCAGAAGGCAGCTGCATCTGAAGATTGA
+
+# Drug_Target_1_General_Function:
+Involved in cAMP phosphodiesterasec activity
+
+# Drug_Target_1_General_References:
+10373451	Fujishige K, Kotera J, Michibata H, Yuasa K, Takebayashi S, Okumura K, Omori K: Cloning and characterization of a novel human phosphodiesterase that hydrolyzes both cAMP and cGMP (PDE10A). J Biol Chem. 1999 Jun 25;274(26):18438-45.
+10393245	Loughney K, Snyder PB, Uher L, Rosman GJ, Ferguson K, Florio VA: Isolation and characterization of PDE10A, a novel human 3', 5'-cyclic nucleotide phosphodiesterase. Gene. 1999 Jun 24;234(1):109-17.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:8772
+
+# Drug_Target_1_HPRD_ID:
+17828
+
+# Drug_Target_1_ID:
+695
+
+# Drug_Target_1_Locus:
+6q26
+
+# Drug_Target_1_Molecular_Weight:
+88413
+
+# Drug_Target_1_Name:
+cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A
+
+# Drug_Target_1_Number_of_Residues:
+779
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00233	PDEase_I
+PF01590	GAF
+
+# Drug_Target_1_Protein_Sequence:
+>cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A
+MRIEERKSQHLTGLTDEKVKAYLSLHPQVLDEFVSESVSAETVEKWLKRKNNKSEDESAP
+KEVSRYQDTNMQGVVYELNSYIEQRLDTGGDNQLLLYELSSIIKIATKADGFALYFLGEC
+NNSLCIFTPPGIKEGKPRLIPAGPITQGTTVSAYVAKSRKTLLVEDILGDERFPRGTGLE
+SGTRIQSVLCLPIVTAIGDLIGILELYRHWGKEAFCLSHQEVATANLAWASVAIHQVQVC
+RGLAKQTELNDFLLDVSKTYFDNIVAIDSLLEHIMIYAKNLVNADRCALFQVDHKNKELY
+SDLFDIGEEKEGKPVFKKTKEIRFSIEKGIAGQVARTGEVLNIPDAYADPRFNREVDLYT
+GYTTRNILCMPIVSRGSVIGVVQMVNKISGSAFSKTDENNFKMFAVFCALALHCANMYHR
+IRHSECIYRVTMEKLSYHSICTSEEWQGLMQFTLPVRLCKEIELFHFDIGPFENMWPGIF
+VYMVHRSCGTSCFELEKLCRFIMSVKKNYRRVPYHNWKHAVTVAHCMYAILQNNHTLFTD
+LERKGLLIACLCHDLDHRGFSNSYLQKFDHPLAALYSTSTMEQHHFSQTVSILQLEGHNI
+FSTLSSSEYEQVLEIIRKAIIATDLALYFGNRKQLEEMYQTGSLNLNNQSHRDRVIGLMM
+TACDLCSVTKLWPVTKLTANDIYAEFWAEGDEMKKLGIQPIPMMDRDKKDEVPQGQLGFY
+NAVAIPCYTTLTQILPPTEPLLKACRDNLSQWEKVIRGEETATWISSPSVAQKAAASED
+
+# Drug_Target_1_Reaction:
+nucleoside 3',5'-cyclic phosphate + H2O = nucleoside 5'-phosphate
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Plays a role in signal transduction by regulating the intracellular concentration of cyclic nucleotides. This enzyme can hydrolyze both cAMP and cGMP, having a higher affinity for cAMP
+
+# Drug_Target_1_SwissProt_ID:
+Q9Y233
+
+# Drug_Target_1_SwissProt_Name:
+PDE10_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 3.1.4.17
+
+# Drug_Target_1_Theoretical_pI:
+6.57
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+ADA
+
+# Drug_Target_2_GenBank_ID_Gene:
+X02994
+
+# Drug_Target_2_GenBank_ID_Protein:
+28380
+
+# Drug_Target_2_GeneCard_ID:
+ADA
+
+# Drug_Target_2_Gene_Name:
+ADA
+
+# Drug_Target_2_Gene_Sequence:
+>1092 bp
+ATGGCCCAGACGCCCGCCTTCGACAAGCCCAAAGTAGAACTGCATGTCCACCTAGACGGA
+TCCATCAAGCCTGAAACCATCTTATACTATGGCAGGAGGAGAGGGATCGCCCTCCCAGCT
+AACACAGCAGAGGGGCTGCTGAACGTCATTGGCATGGACAAGCCGCTCACCCTTCCAGAC
+TTCCTGGCCAAGTTTGACTACTACATGCCTGCTATCGCGGGCTGCCGGGAGGCTATCAAA
+AGGATCGCCTATGAGTTTGTAGAGATGAAGGCCAAAGAGGGCGTGGTGTATGTGGAGGTG
+CGGTACAGTCCGCACCTGCTGGCCAACTCCAAAGTGGAGCCAATCCCCTGGAACCAGGCT
+GAAGGGGACCTCACCCCAGACGAGGTGGTGGCCCTAGTGGGCCAGGGCCTGCAGGAGGGG
+GAGCGAGACTTCGGGGTCAAGGCCCGGTCCATCCTGTGCTGCATGCGCCACCAGCCCAAC
+TGGTCCCCCAAGGTGGTGGAGCTGTGTAAGAAGTACCAGCAGCAGACCGTGGTGGCCATT
+GACCTGGCTGGAGATGAGACCATCCCAGGAAGCAGCCTCTTGCCTGGACATGTCCAGGCC
+TACCAGGAGGCTGTGAAGAGCGGCATTCACCGTACTGTCCACGCCGGGGAGGTGGGCTCG
+GCCGAAGTAGTAAAAGAGGCTGTGGACATACTCAAGACAGAGCGGCTGGGACACGGCTAC
+CACACCCTGGAAGACCAGGCCCTTTATAACAGGCTGCGGCAGGAAAACATGCACTTCGAG
+ATCTGCCCCTGGTCCAGCTACCTCACTGGTGCCTGGAAGCCGGACACGGAGCATGCAGTC
+ATTCGGCTCAAAAATGACCAGGCTAACTACTCGCTCAACACAGATGACCCGCTCATCTTC
+AAGTCCACCCTGGACACTGATTACCAGATGACCAAACGGGACATGGGCTTTACTGAAGAG
+GAGTTTAAAAGGCTGAACATCAATGCGGCCAAATCTAGTTTCCTCCCAGAAGATGAAAAG
+AGGGAGCTTCTCGACCTGCTCTATAAAGCCTATGGGATGCCACCTTCAGCCTCTGCAGGG
+CAGAACCTCTGA
+
+# Drug_Target_2_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_2_General_References:
+11780052	Deloukas P, Matthews LH, Ashurst J, Burton J, Gilbert JG, Jones M, Stavrides G, Almeida JP, Babbage AK, Bagguley CL, Bailey J, Barlow KF, Bates KN, Beard LM, Beare DM, Beasley OP, Bird CP, Blakey SE, Bridgeman AM, Brown AJ, Buck D, Burrill W, Butler AP, Carder C, Carter NP, Chapman JC, Clamp M, Clark G, Clark LN, Clark SY, Clee CM, Clegg S, Cobley VE, Collier RE, Connor R, Corby NR, Coulson A, Coville GJ, Deadman R, Dhami P, Dunn M, Ellington AG, Frankland JA, Fraser A, French L, Garner P, Grafham DV, Griffiths C, Griffiths MN, Gwilliam R, Hall RE, Hammond S, Harley JL, Heath PD, Ho S, Holden JL, Howden PJ, Huckle E, Hunt AR, Hunt SE, Jekosch K, Johnson CM, Johnson D, Kay MP, Kimberley AM, King A, Knights A, Laird GK, Lawlor S, Lehvaslaiho MH, Leversha M, Lloyd C, Lloyd DM, Lovell JD, Marsh VL, Martin SL, McConnachie LJ, McLay K, McMurray AA, Milne S, Mistry D, Moore MJ, Mullikin JC, Nickerson T, Oliver K, Parker A, Patel R, Pearce TA, Peck AI, Phillimore BJ, Prathalingam SR, Plumb RW, Ramsay H, Rice CM, Ross MT, Scott CE, Sehra HK, Shownkeen R, Sims S, Skuce CD, Smith ML, Soderlund C, Steward CA, Sulston JE, Swann M, Sycamore N, Taylor R, Tee L, Thomas DW, Thorpe A, Tracey A, Tromans AC, Vaudin M, Wall M, Wallis JM, Whitehead SL, Whittaker P, Willey DL, Williams L, Williams SA, Wilming L, Wray PW, Hubbard T, Durbin RM, Bentley DR, Beck S, Rogers J: The DNA sequence and comparative analysis of human chromosome 20. Nature. 2001 Dec 20-27;414(6866):865-71.
+3028473	Wiginton DA, Kaplan DJ, States JC, Akeson AL, Perme CM, Bilyk IJ, Vaughn AJ, Lattier DL, Hutton JJ: Complete sequence and structure of the gene for human adenosine deaminase. Biochemistry. 1986 Dec 16;25(25):8234-44.
+3839456	Valerio D, Duyvesteyn MG, Dekker BM, Weeda G, Berkvens TM, van der Voorn L, van Ormondt H, van der Eb AJ: Adenosine deaminase: characterization and expression of a gene with a remarkable promoter. EMBO J. 1985 Feb;4(2):437-43.
+6090454	Daddona PE, Shewach DS, Kelley WN, Argos P, Markham AF, Orkin SH: Human adenosine deaminase. cDNA and complete primary amino acid sequence. J Biol Chem. 1984 Oct 10;259(19):12101-6.
+6546794	Wiginton DA, Adrian GS, Hutton JJ: Sequence of human adenosine deaminase cDNA including the coding region and a small intron. Nucleic Acids Res. 1984 Mar 12;12(5):2439-46.
+6688808	Orkin SH, Daddona PE, Shewach DS, Markham AF, Bruns GA, Goff SC, Kelley WN: Molecular cloning of human adenosine deaminase gene sequences. J Biol Chem. 1983 Nov 10;258(21):12753-6.
+8031011	Hirschhorn R, Yang DR, Israni A: An Asp8Asn substitution results in the adenosine deaminase (ADA) genetic polymorphism (ADA 2 allozyme): occurrence on different chromosomal backgrounds and apparent intragenic crossover. Ann Hum Genet. 1994 Jan;58(Pt 1):1-9.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:186
+
+# Drug_Target_2_HPRD_ID:
+00038
+
+# Drug_Target_2_ID:
+3957
+
+# Drug_Target_2_Locus:
+20q12-q13.11
+
+# Drug_Target_2_Molecular_Weight:
+40765
+
+# Drug_Target_2_Name:
+Adenosine deaminase
+
+# Drug_Target_2_Number_of_Residues:
+363
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Azathioprine Pathway	SMP00427
+Mercaptopurine Pathway	SMP00428
+Thioguanine Pathway	SMP00430
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00962	A_deaminase
+
+# Drug_Target_2_Protein_Sequence:
+>Adenosine deaminase
+MAQTPAFDKPKVELHVHLDGSIKPETILYYGRRRGIALPANTAEGLLNVIGMDKPLTLPD
+FLAKFDYYMPAIAGCREAIKRIAYEFVEMKAKEGVVYVEVRYSPHLLANSKVEPIPWNQA
+EGDLTPDEVVALVGQGLQEGERDFGVKARSILCCMRHQPNWSPKVVELCKKYQQQTVVAI
+DLAGDETIPGSSLLPGHVQAYQEAVKSGIHRTVHAGEVGSAEVVKEAVDILKTERLGHGY
+HTLEDQALYNRLRQENMHFEICPWSSYLTGAWKPDTEHAVIRLKNDQANYSLNTDDPLIF
+KSTLDTDYQMTKRDMGFTEEEFKRLNINAAKSSFLPEDEKRELLDLLYKAYGMPPSASAG
+QNL
+
+# Drug_Target_2_Reaction:
+adenosine + H2O = inosine + NH3
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Adenosine + H(2)O = inosine + NH(3)
+
+# Drug_Target_2_SwissProt_ID:
+P00813
+
+# Drug_Target_2_SwissProt_Name:
+ADA_HUMAN
+
+# Drug_Target_2_Synonyms:
+Adenosine aminohydrolase
+EC 3.5.4.4
+
+# Drug_Target_2_Theoretical_pI:
+5.80
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+15672122	Kulkarni SK, Patil CS: Phosphodiesterase 5 enzyme and its inhibitors: update on pharmacological and therapeutical aspects. Methods Find Exp Clin Pharmacol. 2004 Dec;26(10):789-99.
+16080974	Santini F, Casali G, Franchi G, Auriemma S, Lusini M, Barozzi L, Favaro A, Messina A, Mazzucco A: Hemodynamic effects of inhaled nitric oxide and phosphodiesterase inhibitor (dipyridamole) on secondary pulmonary hypertension following heart valve surgery in adults. Int J Cardiol. 2005 Aug 18;103(2):156-63.
+16886928	Kruuse C, Lassen LH, Iversen HK, Oestergaard S, Olesen J: Dipyridamole may induce migraine in patients with migraine without aura. Cephalalgia. 2006 Aug;26(8):925-33.
+17308037	Jackson EK, Ren J, Zacharia LC, Mi Z: Characterization of renal ecto-phosphodiesterase. J Pharmacol Exp Ther. 2007 May;321(2):810-5. Epub 2007 Feb 16.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+PDE5A
+
+# Drug_Target_3_GenBank_ID_Gene:
+AF043731
+
+# Drug_Target_3_GenBank_ID_Protein:
+3420185
+
+# Drug_Target_3_GeneCard_ID:
+PDE5A
+
+# Drug_Target_3_Gene_Name:
+PDE5A
+
+# Drug_Target_3_Gene_Sequence:
+>2628 bp
+ATGGAGCGGGCCGGCCCCAGCTTCGGGCAGCAGCGACAGCAGCAGCAGCCCCAGCAGCAG
+AAGCAGCAGCAGAGGGATCAGGACTCGGTCGAAGCATGGCTGGACGATCACTGGGACTTT
+ACCTTCTCATACTTTGTTAGAAAAGCCACCAGAGAAATGGTCAATGCATGGTTTGCTGAG
+AGAGTTCACACCATCCCTGTGTGCAAGGAAGGTATCAGAGGCCACACCGAATCTTGCTCT
+TGTCCCTTGCAGCAGAGTCCTCGTGCAGATAACAGTGTCCCTGGAACACCAACCAGGAAA
+ATCTCTGCCTCTGAATTTGACCGGCCTCTTAGACCCATTGTTGTCAAGGATTCTGAGGGA
+ACTGTGAGCTTCCTCTCTGACTCAGAAAAGAAGGAACAGATGCCTCTAACCCCTCCAAGG
+TTTGATCATGATGAAGGGGACCAGTGCTCAAGACTCTTGGAATTAGTGAAGGATATTTCT
+AGTCATTTGGATGTCACAGCCTTATGTCACAAAATTTTCTTGCATATCCATGGACTGATA
+TCTGCTGACCGCTATTCCCTGTTCCTTGTCTGTGAAGACAGCTCCAATGACAAGTTTCTT
+ATCAGCCGCCTCTTTGATGTTGCTGAAGGTTCAACACTGGAAGAAGTTTCAAATAACTGT
+ATCCGCTTAGAATGGAACAAAGGCATTGTGGGACATGTGGCAGCGCTTGGTGAGCCCTTG
+AACATCAAAGATGCATATGAGGATCCTCGGTTCAATGCAGAAGTTGACCAAATTACAGGC
+TACAAGACACAAAGCATTCTTTGTATGCCAATTAAGAATCATAGGGAAGAGGTTGTTGGT
+GTAGCCCAGGCCATCAACAAGAAATCAGGAAACGGTGGGACATTTACTGAAAAAGATGAA
+AAGGACTTTGCTGCTTATTTGGCATTTTGTGGTATTGTTCTTCATAATGCTCAGCTCTAT
+GAGACTTCACTGCTGGAGAACAAGAGAAATCAGGTGCTGCTTGACCTTGCTAGTTTAATT
+TTTGAAGAACAACAATCATTAGAAGTAATTTTGAAGAAAATAGCTGCCACTATTATCTCT
+TTCATGCAAGTGCAGAAATGCACCATTTTCATAGTGGATGAAGATTGCTCCGATTCTTTT
+TCTAGTGTGTTTCACATGGAGTGTGAGGAATTAGAAAAATCATCTGATACATTAACAAGG
+GAACATGATGCAAACAAAATCAATTACATGTATGCTCAGTATGTCAAAAATACTATGGAA
+CCACTTAATATCCCAGATGTCAGTAAGGATAAAAGATTTCCCTGGACAACTGAAAATACA
+GGAAATGTAAACCAGCAGTGCATTAGAAGTTTGCTTTGTACACCTATAAAAAATGGAAAG
+AAGAATAAAGTTATAGGGGTTTGCCAACTTGTTAATAAGATGGAGGAGAATACTGGCAAG
+GTTAAGCCTTTCAACCGAAATGACGAACAGTTTCTGGAAGCTTTTGTCATCTTTTGTGGC
+TTGGGGATCCAGAACACGCAGATGTATGAAGCAGTGGAGAGAGCCATGGCCAAGCAAATG
+GTCACATTGGAGGTTCTGTCGTATCATGCTTCAGCAGCAGAGGAAGAAACAAGAGAGCTA
+CAGTCGTTAGCGGCTGCTGTGGTGCCATCTGCCCAGACCCTTAAAATTACTGACTTTAGC
+TTCAGTGACTTTGAGCTGTCTGATCTGGAAACAGCACTGTGTACAATTCGGATGTTTACT
+GACCTCAACCTTGTGCAGAACTTCCAGATGAAACATGAGGTTCTTTGCAGATGGATTTTA
+AGTGTTAAGAAGAATTATCGGAAGAATGTTGCCTATCATAATTGGAGACATGCCTTTAAT
+ACAGCTCAGTGCATGTTTGCTGCTCTAAAAGCAGGCAAAATTCAGAACAAGCTGACTGAC
+CTGGAGATACTTGCATTGCTGATTGCTGCACTAAGCCACGATTTGGATCACCGTGGTGTG
+AATAACTCTTACATACAGCGAAGTGAACATCCACTTGCCCAGCTTTACTGCCATTCAATC
+ATGGAACACCATCATTTTGACCAGTGCCTGATGATTCTTAATAGTCCAGGCAATCAGATT
+CTCAGTGGCCTCTCCATTGAAGAATATAAGACCACGTTGAAAATAATCAAGCAAGCTATT
+TTAGCTACAGACCTAGCACTGTACATTAAGAGGCGAGGAGAATTTTTTGAACTTATAAGA
+AAAAATCAATTCAATTTGGAAGATCCTCATCAAAAGGAGTTGTTTTTGGCAATGCTGATG
+ACAGCTTGTGATCTTTCTGCAATTACAAAACCCTGGCCTATTCAACAACGGATAGCAGAA
+CTTGTAGCAACTGAATTTTTTGATCAAGGAGACAGAGAGAGAAAAGAACTCAACATAGAA
+CCCACTGATCTAATGAACAGGGAGAAGAAAAACAAAATCCCAAGTATGCAAGTTGGGTTC
+ATAGATGCCATCTGCTTGCAACTGTATGAGGCCCTGACCCACGTGTCAGAGGACTGTTTC
+CCTTTGCTAGATGGCTGCAGAAAGAACAGGCAGAAATGGCAGGCCCTTGCAGAACAGCAG
+GAGAAGATGCTGATTAATGGGGAAAGCGGCCAGGCCAAGCGGAACTGA
+
+# Drug_Target_3_General_Function:
+Involved in catalytic activity
+
+# Drug_Target_3_General_References:
+10393044	Zhou L, Thompson WJ, Potter DE: Multiple cyclic nucleotide phosphodiesterases in human trabecular meshwork cells. Invest Ophthalmol Vis Sci. 1999 Jul;40(8):1745-52.
+12955149	Sung BJ, Hwang KY, Jeon YH, Lee JI, Heo YS, Kim JH, Moon J, Yoon JM, Hyun YL, Kim E, Eum SJ, Park SY, Lee JO, Lee TG, Ro S, Cho JM: Structure of the catalytic domain of human phosphodiesterase 5 with bound drug molecules. Nature. 2003 Sep 4;425(6953):98-102.
+9642111	Stacey P, Rulten S, Dapling A, Phillips SC: Molecular cloning and expression of human cGMP-binding cGMP-specific phosphodiesterase (PDE5). Biochem Biophys Res Commun. 1998 Jun 18;247(2):249-54.
+9714779	Loughney K, Hill TR, Florio VA, Uher L, Rosman GJ, Wolda SL, Jones BA, Howard ML, McAllister-Lucas LM, Sonnenburg WK, Francis SH, Corbin JD, Beavo JA, Ferguson K: Isolation and characterization of cDNAs encoding PDE5A, a human cGMP-binding, cGMP-specific 3',5'-cyclic nucleotide phosphodiesterase. Gene. 1998 Aug 17;216(1):139-47.
+9716380	Yanaka N, Kotera J, Ohtsuka A, Akatsuka H, Imai Y, Michibata H, Fujishige K, Kawai E, Takebayashi S, Okumura K, Omori K: Expression, structure and chromosomal localization of the human cGMP-binding cGMP-specific phosphodiesterase PDE5A gene. Eur J Biochem. 1998 Jul 15;255(2):391-9.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:8784
+
+# Drug_Target_3_HPRD_ID:
+04497
+
+# Drug_Target_3_ID:
+204
+
+# Drug_Target_3_Locus:
+4q25-q27
+
+# Drug_Target_3_Molecular_Weight:
+100014
+
+# Drug_Target_3_Name:
+cGMP-specific 3',5'-cyclic phosphodiesterase
+
+# Drug_Target_3_Number_of_Residues:
+875
+
+# Drug_Target_3_PDB_ID:
+1T9R
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00233	PDEase_I
+PF01590	GAF
+
+# Drug_Target_3_Protein_Sequence:
+>cGMP-specific 3',5'-cyclic phosphodiesterase
+MERAGPSFGQQRQQQQPQQQKQQQRDQDSVEAWLDDHWDFTFSYFVRKATREMVNAWFAE
+RVHTIPVCKEGIRGHTESCSCPLQQSPRADNSVPGTPTRKISASEFDRPLRPIVVKDSEG
+TVSFLSDSEKKEQMPLTPPRFDHDEGDQCSRLLELVKDISSHLDVTALCHKIFLHIHGLI
+SADRYSLFLVCEDSSNDKFLISRLFDVAEGSTLEEVSNNCIRLEWNKGIVGHVAALGEPL
+NIKDAYEDPRFNAEVDQITGYKTQSILCMPIKNHREEVVGVAQAINKKSGNGGTFTEKDE
+KDFAAYLAFCGIVLHNAQLYETSLLENKRNQVLLDLASLIFEEQQSLEVILKKIAATIIS
+FMQVQKCTIFIVDEDCSDSFSSVFHMECEELEKSSDTLTREHDANKINYMYAQYVKNTME
+PLNIPDVSKDKRFPWTTENTGNVNQQCIRSLLCTPIKNGKKNKVIGVCQLVNKMEENTGK
+VKPFNRNDEQFLEAFVIFCGLGIQNTQMYEAVERAMAKQMVTLEVLSYHASAAEEETREL
+QSLAAAVVPSAQTLKITDFSFSDFELSDLETALCTIRMFTDLNLVQNFQMKHEVLCRWIL
+SVKKNYRKNVAYHNWRHAFNTAQCMFAALKAGKIQNKLTDLEILALLIAALSHDLDHRGV
+NNSYIQRSEHPLAQLYCHSIMEHHHFDQCLMILNSPGNQILSGLSIEEYKTTLKIIKQAI
+LATDLALYIKRRGEFFELIRKNQFNLEDPHQKELFLAMLMTACDLSAITKPWPIQQRIAE
+LVATEFFDQGDRERKELNIEPTDLMNREKKNKIPSMQVGFIDAICLQLYEALTHVSEDCF
+PLLDGCRKNRQKWQALAEQQEKMLINGESGQAKRN
+
+# Drug_Target_3_Reaction:
+guanosine 3',5'-cyclic phosphate + H2O = guanosine 5'-phosphate
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Plays a role in signal transduction by regulating the intracellular concentration of cyclic nucleotides. This phosphodiesterase catalyzes the specific hydrolysis of cGMP to 5'- GMP
+
+# Drug_Target_3_SwissProt_ID:
+O76074
+
+# Drug_Target_3_SwissProt_Name:
+PDE5A_HUMAN
+
+# Drug_Target_3_Synonyms:
+CGB-PDE
+EC 3.1.4.35
+cGMP-binding cGMP-specific phosphodiesterase
+
+# Drug_Target_3_Theoretical_pI:
+6.00
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Isoform 4:Membrane
+peripheral membrane protein. Note=Isoform 4 has propensity for association with
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+PDE4A
+
+# Drug_Target_4_GenBank_ID_Gene:
+L20965
+
+# Drug_Target_4_GenBank_ID_Protein:
+347120
+
+# Drug_Target_4_GeneCard_ID:
+PDE4A
+
+# Drug_Target_4_Gene_Name:
+PDE4A
+
+# Drug_Target_4_Gene_Sequence:
+>2661 bp
+ATGGAACCCCCGACCGTCCCCTCGGAAAGGAGCCTGTCTCTGTCACTGCCCGGGCCCCGG
+GAGGGCCAGGCCACCCTGAAGCCTCCCCCGCAGCACCTGTGGCGGCAGCCTCGGACCCCC
+ATCCGTATCCAGCAGCGCGGCTACTCCGACAGCGCGGAGCGCGCCGAGCGGGAGCGGCAG
+CCGCACCGGCCCATAGAGCGCGCCGATGCCATGGACACCAGCGACCGGCCCGGCCTGCGC
+ACGACCCGCATGTCCTGGCCCTCGTCCTTCCATGGCACTGGCACCGGCAGCGGCGGCGCG
+GGCGGAGGCAGCAGCAGGCGCTTCGAGGCAGAGAATGGGCCGACACCATCTCCTGGCCGC
+AGCCCCCTGGACTCGCAGGCGAGCCCAGGACTCGTGCTGCACGCCGGGGCGGCCACCAGC
+CAGCGCCGGGAGTCCTTCCTGTACCGCTCAGACAGCGACTATGACATGTCACCCAAGACC
+ATGTCCCGGAACTCATCGGTCACCAGCGAGGCGCACGCTGAAGACCTCATCGTAACACCA
+TTTGCTCAGGTGCTGGCCAGCCTCCGGAGCGTCCGTAGCAACTTCTCACTCCTGACCAAT
+GTGCCCGTTCCCAGTAACAAGCGGTCCCCGCTGGGCGGCCCCACCCCTGTCTGCAAGGCC
+ACGCTGTCAGAAGAAACGTGTCAGCAGTTGGCCCGGGAGACTCTGGAGGAGCTGGACTGG
+TGTCTGGAGCAGCTGGAGACCATGCAGACCTATCGCTCTGTCAGCGAGATGGCCTCGCAC
+AAGTTCAAAAGGATGTTGAACCGTGAGCTCACACACCTGTCAGAAATGAGCAGGTCCGGA
+AACCAGGTCTCAGAGTACATTTCCACAACATTCCTGGACAAACAGAATGAAGTGGAGATC
+CCATCACCCACGATGAAGGAACGAGAAAAACAGCAAGCGCCGCGACCAAGACCCTCCCAG
+CCGCCCCCGCCCCCTGTACCACACTTACAGCCCATGTCCCAAATCACAGGGTTGAAAAAG
+TTGATGCATAGTAACAGCCTGAACAACTCTAACATTCCCCGATTTGGGGTGAAGACCGAT
+CAAGAAGAGCTCCTGGCCCAAGAACTGGAGAACCTGAACAAGTGGGGCCTGAACATCTTT
+TGCGTGTCGGATTACGCTGGAGGCCGCTCACTCACCTGCATCATGTACATGATATTCCAG
+GAGCGGGACCTGCTGAAGAAATTCCGCATCCCGGTGGACACGATGGTGACATACATGCTG
+ACGCTGGAGGATCACTACCACGCTGACGTGGCCTACCATAACAGCCTGCACGCAGCTGAC
+GTGCTGCAGTCCACCCACGTACTGCTGGCCACGCCTGCACTAGATGCAGTGTTCACGGAC
+CTGGAGATTCTCGCCGCCCTCTTCGCGGCTGCCATCCACGATGTGGATCACCCTGGGGTC
+TCCAACCAGTTCCTCATCAACACCAATTCGGAGCTGGCGCTCATGTACAACGATGAGTCG
+GTGCTCGAGAATCACCACCTGGCCGTGGGCTTCAAGCTGCTGCAGGAGGACAACTGCGAC
+ATCTTCCAGAACCTCAGCAAGCGCCAGCGGCAGAGCCTACGCAAGATGGTCATCGACATG
+GTGCTGGCCACGGACATGTCCAAGCACATGACCCTCCTGGCTGACCTGAAGACCATGGTG
+GAGACCAAGAAAGTGACCAGCTCAGGGGTCCTCCTGCTAGATAACTACTCCGACCGCATC
+CAGGTCCTCCGGAACATGGTGCACTGTGCCGACCTCAGCAACCCCACCAAGCCGCTGGAG
+CTGTACCGCCAGTGGACAGACCGCATCATGGCCGAGTTCTTCCAGCAGGGTGACCGAGAG
+CGCGAGCGTGGCATGGAAATCAGCCCCATGTGTGACAAGCACACTGCCTCCGTGGAGAAG
+TCTCAGGTGGGTTTTATTGACTACATTGTGCACCCATTGTGGGAGACCTGGGCGGACCTT
+GTCCACCCAGATGCCCAGGAGATCTTGGACACTTTGGAGGACAACCGGGACTGGTACTAC
+AGCGCCATCCGGCAGAGCCCATCTCCGCCACCCGAGGAGGAGTCAAGGGGGCCAGGCCAC
+CCACCCCTGCCTGACAAGTTCCAGTTTGAGCTGACGCTGGAGGAGGAAGAGGAGGAAGAA
+ATATCAATGGCCCAGATACCGTGCACAGCCCAAGAGGCATTGACTGCGCAGGGATTGTCA
+GGAGTCGAGGAAGCTCTGGATGCAACCATAGCCTGGGAGGCATCCCCGGCCCAGGAGTCG
+TTGGAAGTTATGGCACAGGAAGCATCCCTGGAGGCCGAGCTGGAGGCAGTGTATTTGACA
+CAGCAGGCACAGTCCACAGGCAGTGCACCTGTGGCTCCGGATGAGTTCTCGTCCCGGGAG
+GAATTCGTGGTTGCTGTAAGCCACAGCAGCCCCTCTGCCCTGGCTCTTCAAAGCCCCCTT
+CTCCCTGCTTGGAGGACCCTGTCTGTTTCAGAGCATGCCCCGGGCCTCCCGGGCCTCCCC
+TCCACGGCGGCCGAGGTGGAGGCCCAACGAGAGCACCAGGCTGCCAAGAGGGCTTGCAGT
+GCCTGCGCAGGGACATTTGGGGAGGACACATCCGCACTCCCAGCTCCTGGTGGCGGGGGG
+TCAGGTGGAGACCCTACCTGA
+
+# Drug_Target_4_General_Function:
+Involved in cAMP phosphodiesterase activity
+
+# Drug_Target_4_General_References:
+2160582	Livi GP, Kmetz P, McHale MM, Cieslinski LB, Sathe GM, Taylor DP, Davis RL, Torphy TJ, Balcarek JM: Cloning and expression of cDNA for a human low-Km, rolipram-sensitive cyclic AMP phosphodiesterase. Mol Cell Biol. 1990 Jun;10(6):2678-86.
+7772058	Horton YM, Sullivan M, Houslay MD: Molecular cloning of a novel splice variant of human type IVA (PDE-IVA) cyclic AMP phosphodiesterase and localization of the gene to the p13.2-q12 region of human chromosome 19 [corrected] Biochem J. 1995 Jun 1;308 ( Pt 2):683-91.
+7888306	Sullivan M, Egerton M, Shakur Y, Marquardsen A, Houslay MD: Molecular cloning and expression, in both COS-1 cells and S. cerevisiae, of a human cytosolic type-IVA, cyclic AMP specific phosphodiesterase (hPDE-IVA-h6.1). Cell Signal. 1994 Sep;6(7):793-812.
+8413254	Bolger G, Michaeli T, Martins T, St John T, Steiner B, Rodgers L, Riggs M, Wigler M, Ferguson K: A family of human phosphodiesterases homologous to the dunce learning and memory gene product of Drosophila melanogaster are potential targets for antidepressant drugs. Mol Cell Biol. 1993 Oct;13(10):6558-71.
+9677330	Sullivan M, Rena G, Begg F, Gordon L, Olsen AS, Houslay MD: Identification and characterization of the human homologue of the short PDE4A cAMP-specific phosphodiesterase RD1 (PDE4A1) by analysis of the human HSPDE4A gene locus located at chromosome 19p13.2. Biochem J. 1998 Aug 1;333 ( Pt 3):693-703.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:8780
+
+# Drug_Target_4_HPRD_ID:
+02527
+
+# Drug_Target_4_ID:
+1971
+
+# Drug_Target_4_Locus:
+19p13.2
+
+# Drug_Target_4_Molecular_Weight:
+98144
+
+# Drug_Target_4_Name:
+cAMP-specific 3',5'-cyclic phosphodiesterase 4A
+
+# Drug_Target_4_Number_of_Residues:
+886
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00233	PDEase_I
+
+# Drug_Target_4_Protein_Sequence:
+>cAMP-specific 3',5'-cyclic phosphodiesterase 4A
+MEPPTVPSERSLSLSLPGPREGQATLKPPPQHLWRQPRTPIRIQQRGYSDSAERAERERQ
+PHRPIERADAMDTSDRPGLRTTRMSWPSSFHGTGTGSGGAGGGSSRRFEAENGPTPSPGR
+SPLDSQASPGLVLHAGAATSQRRESFLYRSDSDYDMSPKTMSRNSSVTSEAHAEDLIVTP
+FAQVLASLRSVRSNFSLLTNVPVPSNKRSPLGGPTPVCKATLSEETCQQLARETLEELDW
+CLEQLETMQTYRSVSEMASHKFKRMLNRELTHLSEMSRSGNQVSEYISTTFLDKQNEVEI
+PSPTMKEREKQQAPRPRPSQPPPPPVPHLQPMSQITGLKKLMHSNSLNNSNIPRFGVKTD
+QEELLAQELENLNKWGLNIFCVSDYAGGRSLTCIMYMIFQERDLLKKFRIPVDTMVTYML
+TLEDHYHADVAYHNSLHAADVLQSTHVLLATPALDAVFTDLEILAALFAAAIHDVDHPGV
+SNQFLINTNSELALMYNDESVLENHHLAVGFKLLQEDNCDIFQNLSKRQRQSLRKMVIDM
+VLATDMSKHMTLLADLKTMVETKKVTSSGVLLLDNYSDRIQVLRNMVHCADLSNPTKPLE
+LYRQWTDRIMAEFFQQGDRERERGMEISPMCDKHTASVEKSQVGFIDYIVHPLWETWADL
+VHPDAQEILDTLEDNRDWYYSAIRQSPSPPPEEESRGPGHPPLPDKFQFELTLEEEEEEE
+ISMAQIPCTAQEALTAQGLSGVEEALDATIAWEASPAQESLEVMAQEASLEAELEAVYLT
+QQAQSTGSAPVAPDEFSSREEFVVAVSHSSPSALALQSPLLPAWRTLSVSEHAPGLPGLP
+STAAEVEAQREHQAAKRACSACAGTFGEDTSALPAPGGGGSGGDPT
+
+# Drug_Target_4_Reaction:
+nucleoside 3',5'-cyclic phosphate + H2O = nucleoside 5'-phosphate
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+Adenosine 3',5'-cyclic phosphate + H(2)O = adenosine 5'-phosphate
+
+# Drug_Target_4_SwissProt_ID:
+P27815
+
+# Drug_Target_4_SwissProt_Name:
+PDE4A_HUMAN
+
+# Drug_Target_4_Synonyms:
+DPDE2
+EC 3.1.4.17
+PDE46
+
+# Drug_Target_4_Theoretical_pI:
+4.87
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00975

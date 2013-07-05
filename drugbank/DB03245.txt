@@ -1,0 +1,339 @@
+#BEGIN_DRUGCARD DB03245
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C25H42N8O19P3S
+
+# Chemical_IUPAC_Name:
+{4-[(2-{3-[(2R)-3-[({[({[(2S,3R,4R,5R)-5-(6-amino-9H-purin-9-yl)-4-hydroxy-3-(phosphonooxy)oxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy](hydroxy)phosphoryl}oxy)methyl]-2-hydroxy-3-methylbutanamido]propanamido}ethyl)sulfanyl]-4-oxobutyl}(hydroxy)nitroso
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+S-4-Nitrobutyryl-Coa
+
+# HET_ID:
+NBC
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C25H42N8O19P3S/c1-25(2,20(37)23(38)28-6-5-15(34)27-7-9-56-16(35)4-3-8-33(39)40)11-49-55(46,47)52-54(44,45)48-10-14-19(51-53(41,42)43)18(36)24(50-14)32-13-31-17-21(26)29-12-30-22(17)32/h12-14,18-20,24,36-37H,3-11H2,1-2H3,(H,27,34)(H,28,38)(H,39,40)(H,44,45)(H,46,47)(H2,26,29,30)(H2,41,42,43)/t14-,18+,19-,20-,24+/m0/s1
+
+# InChI_Key:
+InChIKey=LXDJZADOCCLHJS-NEQUNHHKSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+3245
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+883.629
+
+# Molecular_Weight_Mono:
+883.149976428
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1SIR
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+1.84
+
+# Predicted_LogS:
+-2.4
+
+# Predicted_Water_Solubility:
+3.64e+00 g/l
+
+# Primary_Accession_No:
+DB03245
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+46505726
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT02298
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CC(C)(CO[P@](O)(=O)O[P@@](O)(=O)OC[C@@H]1O[C@H]([C@H](O)[C@H]1OP(O)(O)=O)N1C=NC2=C1N=CN=C2N)[C@@H](O)C(=O)NCCC(=O)NCCSC(=O)CCC[N](O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:22:04 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Mitochondrion
+mitochondrial matrix
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+GCDH
+
+# Drug_Target_1_GenBank_ID_Gene:
+U69141
+
+# Drug_Target_1_GenBank_ID_Protein:
+1549327
+
+# Drug_Target_1_GeneCard_ID:
+GCDH
+
+# Drug_Target_1_Gene_Name:
+GCDH
+
+# Drug_Target_1_Gene_Sequence:
+>1317 bp
+ATGGCCCTGAGAGGCGTCTCCGTGCGGCTGCTGAGCCGCGGACCCGGCCTGCACGTCCTT
+CGCACGTGGGTCTCGTCGGCGGCGCAGACCGAGAAAGGCGGGAGAACACAGAGCCAACTG
+GCTAAGTCCTCGCGTCCCGAGTTTGACTGGCAGGACCCGCTGGTGCTGGAGGAGCAGCTG
+ACCACAGATGAGATCCTCATCAGGGACACCTTCCGCACCTACTGCCAGGAGAGACTCATG
+CCTCGCATCCTGTTGGCCAATCGCAACGAAGTTTTTCATCGGGAGATCATTTCGGAGATG
+GGGGAGTTGGGTGTGCTGGGCCCCACCATCAAAGGATATGGCTGTGCTGGGGTTTCGTCT
+GTGGCCTATGGGCTCCTGGCCCGAGAGCTGGAGCGGGTGGACAGTGGCTACAGGTCGGCG
+ATGAGTGTCCAGTCCTCCCTCGTCATGCACCCTATCTATGCCTATGGCAGCGAGGAACAG
+CGGCAGAAGTACCTGCCCCAGCTGGCCAAGGGGGAGCTCCTGGGCTGCTTCGGGCTCACA
+GAGCCCAACAGCGGAAGTGACCCCAGCAGCATGGAGACCAGAGCCCACTACAACTCATCC
+AACAAGAGCTACACCCTCAATGGGACCAAGACCTGGATCACGAACTCGCCTATGGCCGAT
+CTGTTTGTAGTGTGGGCTCGGTGTGAAGATGGCTGCATTCGGGGCTTCCTGCTGGAGAAG
+GGGATGCGGGGTCTCTCGGCCCCCAGGATCCAGGGCAAGTTCTCGCTGCGGGCCTCAGCC
+ACAGGCATGATCATCATGGACGGTGTGGAGGTGCCAGAGGAGAATGTGCTCCCTGGTGCA
+TCCAGCCTGGGGGGTCCCTTCGGCTGCCTGAACAACGCCCGGTACGGCATCGCGTGGGGC
+GTGCTTGGAGCTTCGGAGTTCTGCTTGCACACAGCCCGGCAGTACGCCCTCGACAGGATG
+CAGTTTGGTGTCCCACTGGCCAGGAACCAGCTGATTCAGAAGAAGCTGGCAGACATGCTC
+ACTGAGATTACCCTGGGCCTTCACGCCTGCCTGCAGCTCGGCCGCTTGAAGGACCAGGAC
+AAGGCTGCCCCCGAGATGGTTTCTCTGCTGAAGAGGAATAACTGTGGGAAAGCCCTGGAC
+ATCGCCCGCCAGGCCCGAGACATGCTGGGGGGGAATGGGATTTCTGACGAGTATCACGTG
+ATCCGGCACGCCATGAACCTGGAGGCCGTGAACACCTACGAAGGTACACATGACATTCAC
+GCCCTGATCCTTGGGAGAGCTATCACGGGAATCCAGGCGTTCACGGCCAGCAAGTGA
+
+# Drug_Target_1_General_Function:
+Lipid transport and metabolism
+
+# Drug_Target_1_General_References:
+1438360	Goodman SI, Kratz LE, Frerman FE: Pork and human cDNAs encoding glutaryl-CoA dehydrogenase. Prog Clin Biol Res. 1992;375:169-73.
+8541831	Goodman SI, Kratz LE, DiGiulio KA, Biery BJ, Goodman KE, Isaya G, Frerman FE: Cloning of glutaryl-CoA dehydrogenase cDNA, and expression of wild type and mutant enzymes in Escherichia coli. Hum Mol Genet. 1995 Sep;4(9):1493-8.
+8900227	Biery BJ, Stein DE, Morton DH, Goodman SI: Gene structure and mutations of glutaryl-coenzyme A dehydrogenase: impaired association of enzyme subunits that is due to an A421V substitution causes glutaric acidemia type I in the Amish. Am J Hum Genet. 1996 Nov;59(5):1006-11.
+8900228	Anikster Y, Shaag A, Joseph A, Mandel H, Ben-Zeev B, Christensen E, Elpeleg ON: Glutaric aciduria type I in the Arab and Jewish communities in Israel. Am J Hum Genet. 1996 Nov;59(5):1012-8.
+9600243	Schwartz M, Christensen E, Superti-Furga A, Brandt NJ: The human glutaryl-CoA dehydrogenase gene: report of intronic sequences and of 13 novel mutations causing glutaric aciduria type I. Hum Genet. 1998 Apr;102(4):452-8.
+9711871	Goodman SI, Stein DE, Schlesinger S, Christensen E, Schwartz M, Greenberg CR, Elpeleg ON: Glutaryl-CoA dehydrogenase mutations in glutaric acidemia (type I): review and report of thirty novel mutations. Hum Mutat. 1998;12(3):141-4.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:4189
+
+# Drug_Target_1_HPRD_ID:
+01977
+
+# Drug_Target_1_ID:
+3506
+
+# Drug_Target_1_Locus:
+19p13.2
+
+# Drug_Target_1_Molecular_Weight:
+48128
+
+# Drug_Target_1_Name:
+Glutaryl-CoA dehydrogenase, mitochondrial
+
+# Drug_Target_1_Number_of_Residues:
+438
+
+# Drug_Target_1_PDB_ID:
+1SIR
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00441	Acyl-CoA_dh_1
+PF02770	Acyl-CoA_dh_M
+PF02771	Acyl-CoA_dh_N
+
+# Drug_Target_1_Protein_Sequence:
+>Glutaryl-CoA dehydrogenase, mitochondrial precursor
+MALRGVSVRLLSRGPGLHVLRTWVSSAAQTEKGGRTQSQLAKSSRPEFDWQDPLVLEEQL
+TTDEILIRDTFRTYCQERLMPRILLANRNEVFHREIISEMGELGVLGPTIKGYGCAGVSS
+VAYGLLARELERVDSGYRSAMSVQSSLVMHPIYAYGSEEQRQKYLPQLAKGELLGCFGLT
+EPNSGSDPSSMETRAHYNSSNKSYTLNGTKTWITNSPMADLFVVWARCEDGCIRGFLLEK
+GMRGLSAPRIQGKFSLRASATGMIIMDGVEVPEENVLPGASSLGGPFGCLNNARYGIAWG
+VLGASEFCLHTARQYALDRMQFGVPLARNQLIQKKLADMLTEITLGLHACLQLGRLKDQD
+KAAPEMVSLLKRNNCGKALDIARQARDMLGGNGISDEYHVIRHAMNLEAVNTYEGTHDIH
+ALILGRAITGIQAFTASK
+
+# Drug_Target_1_Reaction:
+glutaryl-CoA + acceptor = crotonoyl-CoA + CO2 + reduced acceptor
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Catalyzes the oxidative decarboxylation of glutaryl-CoA to crotonyl-CoA and CO(2) in the degradative pathway of L-lysine, L-hydroxylysine, and L-tryptophan metabolism. It uses electron transfer flavoprotein as its electron acceptor. The short isoform is inactive
+
+# Drug_Target_1_SwissProt_ID:
+Q92947
+
+# Drug_Target_1_SwissProt_Name:
+GCDH_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 1.3.99.7
+GCD
+Glutaryl-CoA dehydrogenase, mitochondrial precursor
+
+# Drug_Target_1_Theoretical_pI:
+8.15
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB03245

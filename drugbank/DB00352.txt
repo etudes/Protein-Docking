@@ -1,0 +1,343 @@
+#BEGIN_DRUGCARD DB00352
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01BB03
+
+# Absorption:
+Absorption of an oral dose is incomplete and variable, averaging approximately 30% of the administered dose (range: 14% to 46%)
+
+# Biotransformation:
+Hepatic. First converted to 6-thioguanilyic acid (TGMP). TGMP is further converted to the di- and tri-phosphates, thioguanosine diphosphate (TGDP) and thioguanosine triphosphate (TGTP) by the same enzymes that metabolize guanine nucleotides.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Lanvis
+Tabloid
+Wellcome U3B
+
+# CAS_Registry_Number:
+154-42-7
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C5H5N5S
+
+# Chemical_IUPAC_Name:
+2-amino-6,7-dihydro-3H-purine-6-thione
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+282081
+
+# Description:
+An antineoplastic compound which also has antimetabolite action. The drug is used in the therapy of acute leukemia. [PubChem]
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Antimetabolites, Antineoplastic
+
+# Drug_Interactions:
+Aminosalicylic Acid	Aminosalicylic acid may increase the toxicity of thiopurine, thioguanine.
+Busulfan	Busulfan increases the hepatoxicity of Thioguanine during long-term concomitant therapy.
+Mercaptopurine	Complete cross resistance may occur.
+Mesalazine	Mesalazine may increase the toxicity of thiopurine, thioguanine.
+Natalizumab	The immunosuppressant, Thioguanine, may increase the adverse effects of Natalizumab. Increased risk of Progressive Multifocal Leukoencephalopathy (PML) and other infections. Concurrent therapy should be avoided.
+Olsalazine	Olsalazine may increase the toxicity of thiopurine, thioguanine.
+Sulfasalazine	Sulfasalazine may increase the toxicity of thiopurine, thioguanine.
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.07
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+36.3 mg/mL
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Thioguanine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+80 minutes (range 25-240 minutes)
+
+# InChI_Identifier:
+InChI=1S/C5H5N5S/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11)
+
+# InChI_Key:
+InChIKey=WYWHKKSPHMUBEB-UHFFFAOYSA-N
+
+# Indication:
+For remission induction and remission consolidation treatment of acute nonlymphocytic leukemias.
+
+# KEGG_Compound_ID:
+C07648
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+352
+
+# Mechanism_Of_Action:
+Thioguanine competes with hypoxanthine and guanine for the enzyme hypoxanthine-guanine phosphoribosyltransferase (HGPRTase) and is itself converted to 6-thioguanilyic acid (TGMP), which reaches high intracellular concentrations at therapeutic doses. TGMP interferes with the synthesis of guanine nucleotides by its inhibition of purine biosynthesis by pseudofeedback inhibition of glutamine-5-phosphoribosylpyrophosphate amidotransferase, the first enzyme unique to the de novo pathway of purine ribonucleotide synthesis. TGMP also inhibits the conversion of inosinic acid (IMP) to xanthylic acid (XMP) by competition for the enzyme IMP dehydrogenase. Thioguanine nucleotides are incorporated into both the DNA and the RNA by phosphodiester linkages, and some studies have shown that incorporation of such false bases contributes to the cytotoxicity of thioguanine. Its tumor inhibitory properties may be due to one or more of its effects on feedback inhibition of de novo purine synthesis; inhibition of purine nucleotide interconversions; or incorporation into the DNA and RNA. The overall result of its action is a sequential blockade of the utilization and synthesis of the purine nucleotides.
+
+# Melting_Point:
+>360 °C
+
+# Molecular_Weight_Avg:
+167.192
+
+# Molecular_Weight_Mono:
+167.026565875
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+1BZY
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Thioguanine Pathway	SMP00430
+
+# PharmGKB_ID:
+PA451663
+
+# Pharmacology:
+Thioguanine is an antineoplastic anti-metabolite used in the treatment of several forms of leukemia including acute nonlymphocytic leukemia. Anti-metabolites masquerade as purine or pyrimidine - which become the building blocks of DNA. They prevent these substances becoming incorporated in to DNA during the "S" phase (of the cell cycle), stopping normal development and division. Thioguanine was first synthesized and entered into clinical trial more than 30 years ago. It is a 6-thiopurine analogue of the naturally occurring purine bases hypoxanthine and guanine. Intracellular activation results in incorporation into DNA as a false purine base. An additional cytotoxic effect is related to its incorporation into RNA. Thioguanine is cross-resistant with mercaptopurine. Cytotoxicity is cell cycle phase-specific (S-phase).
+
+# Predicted_LogP_Hydrophobicity:
+-0.36
+
+# Predicted_LogS:
+-2.3
+
+# Predicted_Water_Solubility:
+8.34e-01 g/l
+
+# Primary_Accession_No:
+DB00352
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+2723601
+
+# PubChem_Substance_ID:
+46508170
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/thioguanine.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00290
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=NC(=S)C2=C(N1)N=CN2
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+2-Amino 6MP
+2-Amino-6-mercaptopurine
+2-Amino-6-merkaptopurin
+2-Amino-6-purinethiol
+2-Aminopurin-6-thiol
+2-Aminopurine-6(1H)-thione
+2-Aminopurine-6-thiol
+6-Mercapto-2-aminopurine
+6-Mercaptoguanine
+6-Thioguanine
+TG
+ThG
+Tioguanin
+Tioguanine
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Oral, mouse: LD<sub>50</sub> = 160 mg/kg. Symptoms of overdose include nausea, vomiting, malaise, hypotension, and diaphoresis.
+
+# Update_Date:
+2013-02-08 16:19:16 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Thioguanine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+HPRT1
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+87
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Hypoxanthine-guanine phosphoribosyltransferase
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Hypoxanthine-guanine phosphoribosyltransferase
+ATRSPGVVISDDEPGYDLDLFCIPNHYAEDLERVFIPHGLIMDRTERLARDVMKEMGGHH
+IVALCVLKGGYKFFADLLDYIKALNRNSDRSIPMTVDFIRLKSYCNDQSTGDIKVIGGDD
+LSTLTGKNVLIVEDIIDTGKTMQTLLSLVRQYNPKMVKVASLLVKRTPRSVGYKPDFVGF
+EIPDKFVVGYALDYNEYFRDLNHVCVISETGKAKYKA
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P00492
+
+# Drug_Target_1_Cellular_Location:
+Nucleus and mitochondria
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+16267626	Coulthard S, Hogarth L: The thiopurines: an update. Invest New Drugs. 2005 Dec;23(6):523-32.
+18506437	Sahasranaman S, Howard D, Roy S: Clinical pharmacology and pharmacogenetics of thiopurines. Eur J Clin Pharmacol. 2008 Aug;64(8):753-67. Epub 2008 May 28.
+2676034	Riscoe MK, Brouns MC, Fitchen JH: Purine metabolism as a target for leukemia chemotherapy. Blood Rev. 1989 Sep;3(3):162-73.
+6400065	Schwartz EL, Ishiguro K, Sartorelli AC: Induction of leukemia cell differentiation by chemotherapeutic agents. Adv Enzyme Regul. 1983;21:3-20.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+>Example: Dickerson dodecamer
+CGCGAATTCGCG
+
+# Drug_Target_1_General_Function:
+Biological information storage and information transfer
+
+# Drug_Target_1_General_References:
+1234	Nadeau D, Marchand C: Change in the kinetics of sulphacetamide tissue distribution in Walker tumor-bearing rats. Drug Metab Dispos. 1975 Nov-Dec;3(6):565-76.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+874
+
+# Drug_Target_1_Locus:
+All loci
+
+# Drug_Target_1_Molecular_Weight:
+7656 (double strand)
+
+# Drug_Target_1_Name:
+DNA
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+1BNA
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+DNA + DNA polymerase + nNTP = 2 DNA + nNDP; DNA + RNA polymerase + NTP = mRNA + nNDP
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+DNA is the molecule of heredity, as it is responsible for the genetic propagation of most inherited traits. It is a polynucleic acid that carries genetic information on cell growth, division, and function. DNA consists of two long strands of nucleotides twisted into a double helix and held together by hydrogen bonds. The sequence of nucleotides determines hereditary characteristics. Each strand serves as the template for subsequent DNA replication and as a template for mRNA production, leading to protein synthesis via ribosomes.
+
+# Drug_Target_1_SwissProt_ID:
+Not Available
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Deoxyribonucleic acid
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00352

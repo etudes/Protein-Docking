@@ -1,0 +1,649 @@
+#BEGIN_DRUGCARD DB00851
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01AX04
+
+# Absorption:
+Erratic, slow and incomplete
+
+# Biotransformation:
+Hepatic
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Deticene
+
+# CAS_Registry_Number:
+4342-03-4
+
+# ChEBI_ID:
+4305
+
+# Chemical_Formula:
+C6H10N6O
+
+# Chemical_IUPAC_Name:
+5-(dimethyltriaz-1-en-1-yl)-1H-imidazole-4-carboxamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2241445
+
+# Description:
+An antineoplastic agent. It has significant activity against melanomas. (from Martindale, The Extra Pharmacopoeia, 31st ed, p564)
+
+# Dosage_Forms:
+Powder, for solution	Intravenous
+
+# Drug_Category:
+Antineoplastic Agents
+Antineoplastic Agents, Alkylating
+
+# Drug_Interactions:
+Bendamustine	Increases toxicity through pharmacodynamic synergism. Additive myelosuppression.
+Thiabendazole	The strong CYP1A2 inhibitor, Thiabendazole, may increase the effects and toxicity of Dacarbazine by decreasing Dacarbazine metabolism and clearance. Monitor for changes in the therapeutic and adverse effects of Dacarbazine if Thiabendazole is initiated, discontinued or dose changed.
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.24
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+4220 mg/L
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Dacarbazine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+5 hours
+
+# InChI_Identifier:
+InChI=1S/C6H10N6O/c1-12(2)11-10-6-4(5(7)13)8-3-9-6/h3H,1-2H3,(H2,7,13)(H,8,9)
+
+# InChI_Key:
+InChIKey=FDKXTQMXEQVLRF-UHFFFAOYSA-N
+
+# Indication:
+For the treatment of metastatic malignant melanoma. In addition, dacarbazine is also indicated for Hodgkin's disease as a secondary-line therapy when used in combination with other antineoplastic agents.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D00288
+
+# LIMS_Drug_ID:
+851
+
+# Mechanism_Of_Action:
+The mechanism of action is not known, but appears to exert cytotoxic effects via its action as an alkylating agent. Other theories include DNA synthesis inhibition by its action as a purine analog, and interaction with SH groups. Dacarbazine is not cell cycle-phase specific.
+
+# Melting_Point:
+205 °C
+
+# Molecular_Weight_Avg:
+182.1832
+
+# Molecular_Weight_Mono:
+182.091608972
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA449197
+
+# Pharmacology:
+Dacarbazine is a synthetic analog of naturally occurring purine precursor 5-amino-1H-imidazole-4-carboxamide (AIC). After intravenous administration of dacarbazine, the volume of distribution exceeds total body water content suggesting localization in some body tissue, probably the liver. Its disappearance from the plasma is biphasic with initial half-life of 19 minutes and a terminal half-life of 5 hours. 1 In a patient with renal and hepatic dysfunctions, the half-lives were lengthened to 55 minutes and 7.2 hours. 1 The average cumulative excretion of unchanged DTIC in the urine is 40% of the injected dose in 6 hours. 1 DTIC is subject to renal tubular secretion rather than glomerular filtration. At therapeutic concentrations dacarbazine is not appreciably bound to human plasma protein.
+
+# Predicted_LogP_Hydrophobicity:
+-0.32
+
+# Predicted_LogS:
+-2.1
+
+# Predicted_Water_Solubility:
+1.36e+00 g/l
+
+# Primary_Accession_No:
+DB00851
+
+# Protein_Binding:
+Less than 5%
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/dacarbazine.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00331
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CN(C)N=NC1=C(N=CN1)C(N)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Biocarbazine R
+DTIC
+DTIE
+Dacarbazino [INN-Spanish]
+Dacarbazinum [INN-Latin]
+Dtic-Dome
+ICDMT
+ICDT
+Imidazole Carboxamide
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+LD<sub>50</sub>=350mg/kg (orally in mice)
+
+# Update_Date:
+2013-02-08 16:19:41 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Dacarbazine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP2E1
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+6013
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 2E1
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 2E1
+MSALGVTVALLVWAAFLLLVSMWRQVHSSWNLPPGPFPLPIIGNLFQLELKNIPKSFTRL
+AQRFGPVFTLYVGSQRMVVMHGYKAVKEALLDYKDEFSGRGDLPAFHAHRDRGIIFNNGP
+TWKDIRRFSLTTLRNYGMGKQGNESRIQREAHFLLEALRKTQGQPFDPTFLIGCAPCNVI
+ADILFRKHFDYNDEKFLRLMYLFNENFHLLSTPWLQLYNNFPSFLHYLPGSHRKVIKNVA
+EVKEYVSERVKEHHQSLDPNCPRDLTDCLLVEMEKEKHSAERLYTMDGITVTVADLFFAG
+TETTSTTLRYGLLILMKYPEIEEKLHEEIDRVIGPSRIPAIKDRQEMPYMDAVVHEIQRF
+ITLVPSNLPHEATRDTIFRGYLIPKGTVVVPTLDSVLYDNQEFPDPEKFKPEHFLNENGK
+FKYSDYFKPFSTGKRVCAGEGLARMELFLLLCAILQHFNLKPLVDPKDIDLSPIHIGFGC
+IPPRYKLCVIPRS
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P05181
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP1A1
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+6024
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 1A1
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 1A1
+MLFPISMSATEFLLASVIFCLVFWVIRASRPQVPKGLKNPPGPWGWPLIGHMLTLGKNPH
+LALSRMSQQYGDVLQIRIGSTPVVVLSGLDTIRQALVRQGDDFKGRPDLYTFTLISNGQS
+MSFSPDSGPVWAARRRLAQNGLKSFSIASDPASSTSCYLEEHVSKEAEVLISTLQELMAG
+PGHFNPYRYVVVSVTNVICAICFGRRYDHNHQELLSLVNLNNNFGEVVGSGNPADFIPIL
+RYLPNPSLNAFKDLNEKFYSFMQKMVKEHYKTFEKGHIRDITDSLIEHCQEKQLDENANV
+QLSDEKIINIVLDLFGAGFDTVTTAISWSLMYLVMNPRVQRKIQEELDTVIGRSRRPRLS
+DRSHLPYMEAFILETFRHSSFVPFTIPHSTTRDTSLKGFYIPKGRCVFVNQWQINHDQKL
+WVNPSEFLPERFLTPDGAIDKVLSEKVIIFGMGKRKCIGETIARWEVFLFLAILLQRVEF
+SVPLGVKVDMTPIYGLTMKHACCEHFQMQLRS
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P04798
+
+# Drug_Target_1_Cellular_Location:
+Nucleus and mitochondria
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+3098406	Lonn U, Lohn S: Prevention of dacarbazine damage of human neoplastic cell DNA by aphidicolin. Cancer Res. 1987 Jan 1;47(1):26-30.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+>Example: Dickerson dodecamer
+CGCGAATTCGCG
+
+# Drug_Target_1_General_Function:
+Biological information storage and information transfer
+
+# Drug_Target_1_General_References:
+1234	Nadeau D, Marchand C: Change in the kinetics of sulphacetamide tissue distribution in Walker tumor-bearing rats. Drug Metab Dispos. 1975 Nov-Dec;3(6):565-76.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+874
+
+# Drug_Target_1_Locus:
+All loci
+
+# Drug_Target_1_Molecular_Weight:
+7656 (double strand)
+
+# Drug_Target_1_Name:
+DNA
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+1BNA
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+DNA + DNA polymerase + nNTP = 2 DNA + nNDP; DNA + RNA polymerase + NTP = mRNA + nNDP
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+DNA is the molecule of heredity, as it is responsible for the genetic propagation of most inherited traits. It is a polynucleic acid that carries genetic information on cell growth, division, and function. DNA consists of two long strands of nucleotides twisted into a double helix and held together by hydrogen bonds. The sequence of nucleotides determines hereditary characteristics. Each strand serves as the template for subsequent DNA replication and as a template for mRNA production, leading to protein synthesis via ribosomes.
+
+# Drug_Target_1_SwissProt_ID:
+Not Available
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Deoxyribonucleic acid
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Nucleus
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+3098406	Lonn U, Lohn S: Prevention of dacarbazine damage of human neoplastic cell DNA by aphidicolin. Cancer Res. 1987 Jan 1;47(1):26-30.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+POLA2
+
+# Drug_Target_2_GenBank_ID_Gene:
+L24559
+
+# Drug_Target_2_GenBank_ID_Protein:
+439601
+
+# Drug_Target_2_GeneCard_ID:
+POLA2
+
+# Drug_Target_2_Gene_Name:
+POLA2
+
+# Drug_Target_2_Gene_Sequence:
+>1797 bp
+ATGTCCGCATCCGCCCAGCAGCTGGCGGAGGAGCTGCAGATCTTCGGCCTAGACTGCGAG
+GAGGCTCTAATTGAGAAATTGGTAGAGCTTTGTGTTCAGTATGGACAGAATGAGGAGGGA
+ATGGTAGGCGAGCTTATAGCCTTCTGCACCAGCACACATAAAGTTGGCCTTACCTCAGAG
+ATCCTGAACTCTTTTGAGCATGAGTTTCTGAGCAAAAGATTATCGAAAGCCAGGCATAGT
+ACCTGCAAGGACAGTGGCCATGCAGGAGCTAGAGACATTGTTTCCATTCAAGAGCTAATT
+GAAGTGGAAGAAGAAGAGGAAATCCTCTTGAACTCTTACACCACACCTTCAAAGGGTTCT
+CAGAAGCGAGCTATCTCTACCCCAGAAACCCCCCTAACAAAAAGGAGTGTGTCAACTCGT
+AGCCCCCATCAGCTACTCTCACCGTCAAGTTTCTCTCCAAGTGCTACTCCCTCCCAGAAA
+TACAACTCACGAAGTAACCGAGGAGAAGTGGTTACCTCCTTCGGCTTAGCACAGGGAGTA
+TCTTGGTCTGGGAGAGGAGGAGCTGGAAACATCAGCCTGAAGGTCTTGGGATGTCCAGAG
+GCACTAACTGGGAGCTACAAATCCATGTTTCAGAAGCTCCCAGACATTCGAGAAGTTCTG
+ACCTGTAAGATAGAAGAACTTGGCAGCGAACTCAAGGAACATTACAAGATTGAAGCTTTC
+ACTCCTTTGCTAGCCCCAGCACAGGAGCCTGTCACTCTGCTGGGCCAGATTGGCTGTGAT
+AGCAACGGGAAGCTGAACAACAAGTCAGTGATTCTCGAGGGAGACCGGGAACATTCCTCG
+GGTGCTCAAATTCCAGTGGATTTATCTGAGCTTAAGGAATATTCTCTGTTTCCTGGACAG
+GTTGTAATTATGGAAGGAATCAACACCACTGGTAGGAAACTTGTTGCCACCAAACTCTAC
+GAGGGTGTGCCACTTCCATTTTATCAGCCCACTGAAGAGGATGCAGACTTTGAGCAAAGC
+ATGGTCCTGGTTGCCTGTGGACCATACACCACATCTGACAGCATCACGTATGACCCCCTG
+CTTGACCTGATTGCTGTCATCAACCATGACCGGCCAGATGTCTGCATCCTGTTTGGCCCT
+TTCCTGGAGTCTAAGCATGAACAGGTGGAGAATTGTCTACTGACAAGTCCATTTGAAGAC
+ATTTTCAAGCAGTGTCTACGAACAATTATTGAAGGCACAAGAAGCTCCGGCTCCCACCTT
+GTCTTTGTCCCGTCATTGAGAGATGTGCACCATGAGCCTGTGTACCCCCAGCCGCCTTTC
+AGCTACTCCGATCTGTCTCGAGAGGACAAAAAGCAAGTACAGTTTGTGTCCGAGCCCTGC
+AGCCTCTCCATAAACGGAGTGATCTTCGGCTTGACATCCACAGATCTGCTTTTCCACCTG
+GGGGCCGAGGAGATCAGTAGTTCTTCCGGAACTTCAGACAGATTCAGCCGAATACTCAAG
+CACATCTTGACCCAGAGGAGCTACTACCCACTCTACCCGCCCCAAGAAGACATGGCCATT
+GACTATGAGTCGTTCTATGTTTACGCACAGCTGCCTGTCACCCCAGATGTCCTCATCATC
+CCGTCAGAGCTGAGGTACTTCGTGAAGGATGTCCTCGGCTGTGTCTGTGTGAACCCTGGG
+CGCCTTACCAAAGGGCAGGTGGGAGGCACCTTCGCCCGACTCTACCTTAGGAGGCCGGCA
+GCGGACGGGGCAGAGAGGCAGAGCCCATGCATTGCTGTGCAGGTCGTCAGGATCTGA
+
+# Drug_Target_2_General_Function:
+Involved in DNA binding
+
+# Drug_Target_2_General_References:
+1902230	Nasheuer HP, Moore A, Wahl AF, Wang TS: Cell cycle-dependent phosphorylation of human DNA polymerase alpha. J Biol Chem. 1991 Apr 25;266(12):7893-903.
+8223465	Collins KL, Russo AA, Tseng BY, Kelly TJ: The role of the 70 kDa subunit of human DNA polymerase alpha in DNA replication. EMBO J. 1993 Dec;12(12):4555-66.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:30073
+
+# Drug_Target_2_HPRD_ID:
+10160
+
+# Drug_Target_2_ID:
+790
+
+# Drug_Target_2_Locus:
+11q13.1
+
+# Drug_Target_2_Molecular_Weight:
+65948
+
+# Drug_Target_2_Name:
+DNA polymerase subunit alpha B
+
+# Drug_Target_2_Number_of_Residues:
+598
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF04042	DNA_pol_E_B
+PF08418	Pol_alpha_B_N
+
+# Drug_Target_2_Protein_Sequence:
+>DNA polymerase subunit alpha B
+MSASAQQLAEELQIFGLDCEEALIEKLVELCVQYGQNEEGMVGELIAFCTSTHKVGLTSE
+ILNSFEHEFLSKRLSKARHSTCKDSGHAGARDIVSIQELIEVEEEEEILLNSYTTPSKGS
+QKRAISTPETPLTKRSVSTRSPHQLLSPSSFSPSATPSQKYNSRSNRGEVVTSFGLAQGV
+SWSGRGGAGNISLKVLGCPEALTGSYKSMFQKLPDIREVLTCKIEELGSELKEHYKIEAF
+TPLLAPAQEPVTLLGQIGCDSNGKLNNKSVILEGDREHSSGAQIPVDLSELKEYSLFPGQ
+VVIMEGINTTGRKLVATKLYEGVPLPFYQPTEEDADFEQSMVLVACGPYTTSDSITYDPL
+LDLIAVINHDRPDVCILFGPFLDAKHEQVENCLLTSPFEDIFKQCLRTIIEGTRSSGSHL
+VFVPSLRDVHHEPVYPQPPFSYSDLSREDKKQVQFVSEPCSLSINGVIFGLTSTDLLFHL
+GAEEISSSSGTSDRFSRILKHILTQRSYYPLYPPQEDMAIDYESFYVYAQLPVTPDVLII
+PSELRYFVKDVLGCVCVNPGRLTKGQVGGTFARLYLRRPAADGAERQSPCIAVQVVRI
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+May play an essential role at the early stage of chromosomal DNA replication by coupling the polymerase alpha/primase complex to the cellular replication machinery
+
+# Drug_Target_2_SwissProt_ID:
+Q14181
+
+# Drug_Target_2_SwissProt_Name:
+DPOA2_HUMAN
+
+# Drug_Target_2_Synonyms:
+DNA polymerase alpha 70 kDa subunit
+
+# Drug_Target_2_Theoretical_pI:
+4.90
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cytoplasm (By similarity)
+
+# Drug_Target_3_Chromosome_Location:
+1
+
+# Drug_Target_3_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+20235752	Akkemik E, Budak H, Ciftci M: Effects of some drugs on human erythrocyte 6-phosphogluconate dehydrogenase: an in vitro study. J Enzyme Inhib Med Chem. 2010 Mar 17.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+U30255
+
+# Drug_Target_3_GenBank_ID_Protein:
+984325
+
+# Drug_Target_3_GeneCard_ID:
+PGD
+
+# Drug_Target_3_Gene_Name:
+PGD
+
+# Drug_Target_3_Gene_Sequence:
+>1452 bp
+ATGGCCCAAGCTGACATCGCGCTGATCGGATTGGCCGTCATGGGCCAGAACTTAATTCTG
+AACATGAATGACCACGGCTTTGTGGTCTGTGCTTTTAATAGGACTGTCTCCAAAGTTGAC
+GATTTCTTGGCCAATGAGGCAAAGGGAACCAAAGTGGTGGGTGCCCAGTCCCTGAAAGAG
+ATGGTCTCCAAGCTGAAGAAGCCCCGGCGGATCATCCTCCTGGTGAAGGCTGGGCAAGCT
+GTGGATGATTTCATCGAGAAATTGGTACCATTGTTGGATACTGGTGACATCATCATTGAC
+GGAGGAAATTCTGAATATAGGGACACCACAAGACGGTGCCGAGACCTCAAAGGCAAGGGA
+ATTTTATTTGTGGGGAGCGGAGTCAGTGGTGGAGAGGAAGGGCCCCGGTATGGCCCATCG
+CTCATGCCAGGAGGGAACAAAGAAGCGTGGCCCCACATCAAGACCATCTTCCAAGGCATT
+GCTGCAAAAGTGGGAACTGGAGAACCCTGCTGTGACTGGGTGGGAGATGAGGGAGCAGGC
+CACTTTGTGAAGATGGTGCACAACGGGATAGAGTATGGGGACATGCAGCTGATCTGTGAG
+GCATACCACCTGATGAAAGACGTGCTGGGCATGGCGCAGGACGAGATGGCCCAGGCCTTT
+GAGGATTGGAATAAGACAGAGCTAGACTCATTCCTGATTGAAATCACAGCCAATATTCTC
+AAGTTCCAAGACACCGATGGCAAACACCTGCTGCCAAAGATCAGGGACAGCGCGGGGCAG
+AAGGGCACAGGGAAGTGGACCGCCATCTCCGCCCTGGAATACGGCGTACCCGTCACCCTC
+ATTGGAGAAGCTGTCTTTGCTCGGTGCTTATCATCTCTGAAGGATGAGAGAATTCAAGCT
+AGCAAAAAGCTGAAGGGTCCCCAGAAGTTCCAGTTTGATGGTGATAAGAAATCATTCCTG
+GAGGACATTCGGAAGGCACTCTACGCTTCCAAGATCATCTCTTACGCTCAAGGCTTTATG
+CTGCTAAGGCAGGCAGCCACCGAGTTTGGCTGGACTCTCAATTATGGTGGCATCGCCCTG
+ATGTGGAGAGGGGGCTGCATCATTAGAAGTGTATTCCTAGGAAAGATAAAGGATGCATTT
+GATCGAAACCCGGAACTTCAGAACCTCCTACTGGACGACTTCTTTAAGTCAGCTGTTGAA
+AACTGCCAGGACTCCTGGCGGCGGGCAGTCAGCACTGGGGTCCAGGCTGGCATTCCCATG
+CCCTGTTTTACCACTGCCCTCTCCTTCTATGACGGGTACAGACATGAGATGCTTCCAGCC
+AGCCTCATCCAGGCTCAGCGGGATTACTTCGGGGCTCACACCTATGAACTCTTGGCCAAA
+CCAGGGCAGTTTATCCACACCAACTGGACAGGCCATGGTGGCACCGTGTCATCCTCGTCA
+TACAATGCCTGA
+
+# Drug_Target_3_General_Function:
+Carbohydrate transport and metabolism
+
+# Drug_Target_3_General_References:
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+8978909	Tsui SK, Chan JY, Waye MM, Fung KP, Lee CY: Identification of a cDNA encoding 6-phosphogluconate dehydrogenase from a human heart cDNA library. Biochem Genet. 1996 Oct;34(9-10):367-73.
+
+# Drug_Target_3_HGNC_ID:
+GNC:8891
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+6040
+
+# Drug_Target_3_Locus:
+1p36.3-p36.13
+
+# Drug_Target_3_Molecular_Weight:
+53139.6
+
+# Drug_Target_3_Name:
+6-phosphogluconate dehydrogenase, decarboxylating
+
+# Drug_Target_3_Number_of_Residues:
+483
+
+# Drug_Target_3_PDB_ID:
+2PGD
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00393	6PGD
+PF03446	NAD_binding_2
+
+# Drug_Target_3_Protein_Sequence:
+>6-phosphogluconate dehydrogenase, decarboxylating
+MAQADIALIGLAVMGQNLILNMNDHGFVVCAFNRTVSKVDDFLANEAKGTKVVGAQSLKE
+MVSKLKKPRRIILLVKAGQAVDDFIEKLVPLLDTGDIIIDGGNSEYRDTTRRCRDLKAKG
+ILFVGSGVSGGEEGARYGPSLMPGGNKEAWPHIKTIFQGIAAKVGTGEPCCDWVGDEGAG
+HFVKMVHNGIEYGDMQLICEAYHLMKDVLGMAQDEMAQAFEDWNKTELDSFLIEITANIL
+KFQDTDGKHLLPKIRDSAGQKGTGKWTAISALEYGVPVTLIGEAVFARCLSSLKDERIQA
+SKKLKGPQKFQFDGDKKSFLEDIRKALYASKIISYAQGFMLLRQAATEFGWTLNYGGIAL
+MWRGGCIIRSVFLGKIKDAFDRNPELQNLLLDDFFKSAVENCQDSWRRAVSTGVQAGIPM
+PCFTTALSFYDGYRHEMLPASLIQAQRDYFGAHTYELLAKPGQFIHTNWTGHGGTVSSSS
+YNA
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+6-phospho-D-gluconate + NADP(+) = D-ribulose 5-phosphate + CO(2) + NADPH
+
+# Drug_Target_3_SwissProt_ID:
+P52209
+
+# Drug_Target_3_SwissProt_Name:
+6PGD_HUMAN
+
+# Drug_Target_3_Synonyms:
+Not Available
+
+# Drug_Target_3_Theoretical_pI:
+7.25
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00851

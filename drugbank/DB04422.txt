@@ -1,0 +1,611 @@
+#BEGIN_DRUGCARD DB04422
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+17588
+
+# Chemical_Formula:
+C4H9NO2S
+
+# Chemical_IUPAC_Name:
+(2S)-2-amino-4-sulfanylbutanoic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+A thiol-containing amino acid formed by a demethylation of METHIONINE. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+2-Amino-4-Mercapto-Butyric Acid
+
+# HET_ID:
+HCS
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C4H9NO2S/c5-3(1-2-8)4(6)7/h3,8H,1-2,5H2,(H,6,7)/t3-/m0/s1
+
+# InChI_Key:
+InChIKey=FFFHZYDWPBMWHY-VKHMYHEASA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+4422
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+135.185
+
+# Molecular_Weight_Mono:
+135.035399227
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1JQW
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-2.3
+
+# Predicted_LogS:
+-0.96
+
+# Predicted_Water_Solubility:
+1.48e+01 g/l
+
+# Primary_Accession_No:
+DB04422
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+91552
+
+# PubChem_Substance_ID:
+46507349
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT01710
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+N[C@@H](CCS)C(O)=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:23:18 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+AE000512
+
+# Drug_Target_1_GenBank_ID_Protein:
+4981844
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+metE
+
+# Drug_Target_1_Gene_Sequence:
+>2205 bp
+TCAACTTTCAAATTTTTCCCTCATCTCCTTTGCAAGCGCTACCATGTTTCTGAGCGATGG
+AATTACTTCGTCCCAGTTTCTCGTCTTGAGACCGCAGTCGGGATTAATCCAGATCAGCTC
+CTTAGGCAGTACCCTGAGAACTCTTTCGACTATTTCCCTCATTTCGTTGATGGAGGGAAC
+AGCAGGAGAGTGGATGTCCCAAACACCAACACCGATCTGCTTGATCCATCCCTTGAAATT
+TTCAAAGGCAGAAATGATCTCACCTTTACTCCTCGAAGCCTCAATGCTGATCACGTCGAA
+CTCCAGCTGGTGGATGTACTCAATTATTTCGTTGAAATCCGAGTAGCACATGTGGGCGTG
+GATCTGTGTTTCCGGTCTCGCGTTGGCCGCCAGGTTGAAGGCGTTTATCGCCCATTCGAA
+GTACTCAGGCCATTTACTCTTTTTGATGGGTGCTTTTTCTCTGAACGCGGGCTCGTCGAT
+CTGCACGATTTTTATTCCCGCCTCTTCCAGATCCTTCACTTCTTCGTTTATCGCAAGGGC
+TATCTGGTAGGCTATTTCTCTCTCTGGGATGTCTTCCCTGTAGTAGCTCCAGCTCATGAT
+GGTGACGGGTCCTGTGAGCATTCCTTTGACGGGCTTTTCCGTGAGAGACTGAGCGTAGGT
+GATTTCTTTGAGCGTCATGGGTTCTGGTCGTGTGACGGTGCCGTATATGATTGGTGGGCG
+ATAACACCTCGAACCGTAGGAGAGAACCCAGCCGTTCTGAGTAGTGGCGATGCCGTTCAA
+CTTCTCAGCGAAGAACTCAACCATGTCGGTTCTTTCAAACTCACCGTGCACAAGAACGTC
+GAGTCCTATTTCTTCCTGAAGTTCTATAGCCTTTTTTATCTGTTCCTTTATGAAAGCTTC
+ATATTCTTCTTTGGAAATTTCTCCCTTTCTGTATTTTGATCTCATCTTTCTCACTTCAGG
+AGTCTGCGGGAAAGAGCCAATGGTCGTTGTTGGAAAGAGTGGAAGGTTCAGTCTTTCTCT
+TTGGATTCTGTCGCGCTCGGTGTATTCTTTCTCCCTTCTGAACGAATCTTCTGGAAGATT
+TCTTACCCTCTCAACAGCTTGGAGGTCCACCGCGAAATCTTCAAAAGACACGTTAGGAAG
+GTCAAATGTTTTGCCTTCCAGGAAATCTTTCAACATTTTTAGCTCTTCGAGCTTTTCTTT
+TGCAAAGGCAAGTTTTTCCTTCAATCCGCCTGGCAGATTGTTTTCCAGTTCCAGAGTCAC
+TGGAAGATGAAAGAGTGGGCAGGAATTTGAGATGGCACTCGCACCGAGTTTTTCTACCAG
+CGATGCCACCTTTCTGAGATCCACTTTCCAGGGCTGGCGGCCGTTTATCACACCAGCCAC
+GAGTTTTTTGTCTTCCGGGAACCCGTGTTTTTCGAGATTTTTCAGATTTTCTTCGTTCGA
+AACGAAATCGAAGTGAAGTCTCTTCACCGGAAGGGAGACGCACGCTTCGTAGTCGGAAAC
+GCTGTCGTAATAGGTGAAAACAGTCAGTGGAAATTCTGAAAGCTCACGGTACACGTTCAG
+TATCAGATCCCAGTGGGCCTTTTCAAGATCGCAGACGAAAGCGGGTTCGTTCACGAGAAT
+CTCCTTACAGCCATTTTCCACGAGCTTTTCGAATACTTCTTTGTAAACAGAAACGAGGCT
+TTCCAGCAGTTTTTCCATTTGATTTGGTCTTCTGATCCACTCGCCGTTTCTTTTGGAAAG
+GTACAGGAAAGTGAAAGGACCTATCACCCACGGTGCTGTTTCTATTCCCTTCGATTTGAA
+GAACAGATAATCCTCAAGAGGTTTGTTTTCGAGAAGATAGAACTCTTCGGTTTCTATTTC
+CGGAACGAGGTAGTGATAGTTGGTATTGAAGAATTTGGTCATTTCCAGAGCCTTTCCACC
+GCGCGCCATATCGAAGTACGTTGAAAGTCCTCTGTACTCACCGAACCTCTCCGGAACTGC
+CCCCACCATCACCGCTGTGTCGAGCACAAAGTCGTAGTAGGAAAGTTCGTTTGAAGGAAT
+CACATCGACGTTCTTTCTGTAGTTTTCCACCATGTACATTCTGAGTTTGTTCATCTCTTC
+CTCGAACTGTTCTTCCGTGATCTTTCCCTTCCAGAAATCCTCCAGAGCCTTTTTGAATTC
+CCTCTTTTCTCCTATCTTCGGAAAACCGAACGCGTAAGCCTTCAA
+
+# Drug_Target_1_General_Function:
+Cell wall/membrane/envelope biogenesis
+
+# Drug_Target_1_General_References:
+10360571	Nelson KE, Clayton RA, Gill SR, Gwinn ML, Dodson RJ, Haft DH, Hickey EK, Peterson JD, Nelson WC, Ketchum KA, McDonald L, Utterback TR, Malek JA, Linher KD, Garrett MM, Stewart AM, Cotton MD, Pratt MS, Phillips CA, Richardson D, Heidelberg J, Sutton GG, Fleischmann RD, Eisen JA, White O, Salzberg SL, Smith HO, Venter JC, Fraser CM: Evidence for lateral gene transfer between Archaea and bacteria from genome sequence of Thermotoga maritima. Nature. 1999 May 27;399(6734):323-9.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+2941
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+85572
+
+# Drug_Target_1_Name:
+5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase
+
+# Drug_Target_1_Number_of_Residues:
+734
+
+# Drug_Target_1_PDB_ID:
+1XR2
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF01717	Meth_synt_2
+PF08267	Meth_synt_1
+
+# Drug_Target_1_Protein_Sequence:
+>5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase
+MKAYAFGFPKIGEKREFKKALEDFWKGKITEEQFEEEMNKLRMYMVENYRKNVDVIPSNE
+LSYYDFVLDTAVMVGAVPERFGEYRGLSTYFDMARGGKALEMTKFFNTNYHYLVPEIETE
+EFYLLENKPLEDYLFFKSKGIETAPWVIGPFTFLYLSKRNGEWIRRPNQMEKLLESLVSV
+YKEVFEKLVENGCKEILVNEPAFVCDLEKAHWDLILNVYRELSEFPLTVFTYYDSVSDYE
+ACVSLPVKRLHFDFVSNEENLKNLEKHGFPEDKKLVAGVINGRQPWKVDLRKVASLVEKL
+GASAISNSCPLFHLPVTLELENNLPGGLKEKLAFAKEKLEELKMLKDFLEGKTFDLPNVS
+FEDFAVDLQAVERVRNLPEDSFRREKEYTERDRIQRERLNLPLFPTTTIGSFPQTPEVRK
+MRSKYRKGEISKEEYEAFIKEQIKKAIELQEEIGLDVLVHGEFERTDMVEFFAEKLNGIA
+TTQNGWVLSYGSRCYRPPIIYGTVTRPEPMTLKEITYAQSLTEKPVKGMLTGPVTIMSWS
+YYREDIPEREIAYQIALAINEEVKDLEEAGIKIVQIDEPAFREKAPIKKSKWPEYFEWAI
+NAFNLAANARPETQIHAHMCYSDFNEIIEYIHQLEFDVISIEASRSKGEIISAFENFKGW
+IKQIGVGVWDIHSPAVPSINEMREIVERVLRVLPKELIWINPDCGLKTRNWDEVIPSLRN
+MVALAKEMREKFES
+
+# Drug_Target_1_Reaction:
+5-methyltetrahydropteroyltri-L-glutamate + L-homocysteine = tetrahydropteroyltri-L-glutamate + L-methionine
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Catalyzes the transfer of a methyl group from 5- methyltetrahydrofolate to homocysteine resulting in methionine formation
+
+# Drug_Target_1_SwissProt_ID:
+Q9X112
+
+# Drug_Target_1_SwissProt_Name:
+METE_THEMA
+
+# Drug_Target_1_Synonyms:
+Cobalamin-independent methionine synthase
+EC 2.1.1.14
+Methionine synthase, vitamin-B12 independent isozyme
+
+# Drug_Target_1_Theoretical_pI:
+4.97
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+Not Available
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+AE000512
+
+# Drug_Target_2_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+TM_0268
+
+# Drug_Target_2_Gene_Sequence:
+>2307 bp
+TCATCTCCCAAGAGATTTCAATATTTTTACCGCTTCGGAAGCATTCTTTGCGTAATAGTC
+CGCTCCAAGCTCTTTTGCTAGTTTTTCGTTCAGGGAAGCACCACCCACTATGACAGGGAT
+TTTCAGGTTCTTTTCTTTGAGCTTTTCCACAACTTCCTTTATTCTGCCGACGGTGGTTGT
+CATCATTGCAGACAGACCGAGTGCAACGGGTCTTTCTTTTTCCACGGCTTCCACTATTTC
+CGATGTGTCCACGTCTTTTCCAAGGTCCACCACGCGGTACCCGCTGCTTCTGATGACAGA
+TGCCACTATGTTCTTTCCTATGTCGTGCACATCACCCTTGACTGTTGCAATGACGAACGT
+TTCACCCTGACTGTCTGATGGAAGCATCGATGTCAGTTTGTCGAACACGGGTTTCACCGT
+TTGAGCGGCGAGGATGAGTTGCGGCAGAAAGATCTTTCCCTTATCGTAGAGTTCTCCAAT
+ACGTTCCATCGCTGGCCTCAGGTGTTCTTCTATGACGGAAAGAGGATCTTTTTCCTTCAG
+AAAATCCTCCACAAGCTTCTCGAGTTCCGACCGGTTCCCGGAGAGTATGATTTCAACCAG
+TTTTTCTTCCTTCACTTCAGCCCTGGGAAGTTCCTTCTTTTCAAGTATCACAAGTGTAGC
+GTTCAAGGTCTTCATTAGTGTTTCGTCGAGGGGATTCATGATGGCAGAGCTCAGGCCTTT
+AGATATTCCAAGAACGAGAAAAGCGGTGTTGTAATAACTTCTGTCAGGAAGTCCGAAAGA
+CAGGTTGGAAAGACCAACAGTTGTGTTGAAACCCTTGCTTGAGATGAATTCTATGGTCTT
+CAGTACTTCTACCGGTTTTCCTTCTGCACCGAGGGGCAGAACTCCTGGATCGAAGATCAC
+CCTGTCTGAGAAATCGTGTCTCTCCAGGATTTTCAAAGCCTTTTCGAAGTACTCTTTTCT
+CTCTTCGAAGCTTTTTGGAACGTCTTTTCCCATCAATAGTACGATGAGTGTACCTCCGTA
+TTTCTTCAACAGGTTTATTTTCATTTCGAGTTCTTCTTCATCCACCTTGGCCGAGTTGAA
+AAGAGATCTTCCCGGATAGGCTCTGAGCGCTCTCTCTGTGAGGTCGACGTTCTGGATGTC
+CAAGGAAAGAGGAACGTTCGAAACATACGGAAGTGTTTGAACGATCTTTTCCACGTATCG
+TACGTCTATCTGAGATTCTATCCCGAAGTTCACATCAAGCACTTCCGCGCCTTTTTCCAC
+CTGTGTTTTCGCTTCCTTGATCACAATTTCTTCGTTTCCTTTCTGCATCTCCGCCCATAG
+CTTCTTTCTACCTGCCGGGTTTATCCTCTCTCCTATGACGACGAAATGATCGAACGTCAC
+GAGTTTTGAAGGAGAAGAGACAGCGAATATTCTCTTTTTCTTTCTTTGAAGAGGCTTTCT
+GTTTCCGAGAACTTTTCTGAAGAGCTTCACGTGTTCAGGGGTGGTTCCGCAGCAGCCTCC
+GAATATGTTCACGCCGAGTTCGTAATAGGAGTCTATGTGAACGGCAAAATCGTGTGGTTT
+TAAAGGATACACAGTTTTCCCGTTCTCCACGATGGGCTTTCCCGCGTTAGGTTCCACTAC
+GAGAAACTTGTCTGTGTACTGGGACAGTTCCTGAAAAATGGGAAGGATCTCTTCGGGCCC
+GAGTGAACAGTTTATACCGAGGGCATCGATATCCAGTTCATCGAACGTGATGGCAAAGTT
+TGCGGGATCTGTCCCTGTAAGACTTCTTCCCTTCTCATCGAATGTCATGTGGGCAATCAG
+GAAAACATCCCGGGATACTTCCCTTGCCGCAAGCACAGCGGCTTTCAGCTCGAGAATGTC
+CGAGAACGTCTCAAAGATGATTCCGTCCACACCTTCTTCGACCATTATCTCCACGGTTTC
+TCTGAAGTTCTCGTAGAATTCCTCGAACAAAGTGCTTCCGAGTGGATAGGGAAGTTCTCC
+CGTCGGTCCGATATCTCCAAAAACAAGCTTTTCTCCAGCTGCTCTTCTTGCGATTCTCAC
+AGCGTTTCTCACAATAGGGTCCAGTTTGTCCTCCAGCCCGTGTTTTCTCAGTTTCATCCT
+TGTGGCACCGAACGTGTTCGTCAGAATGACATCCGATCCACTCTCTATGTAACTTCTATG
+AACTTTCAGCACCACATCGGGTGCTTTTATATTCAGCTCTTCGGGAAGGTCATCGTATCC
+GTACTTCATGAATTCTGTTCCGTAAGCACCATCTAGGAGCAACACCCTTTCTGAAAGCAA
+TTTTGAAACCTCACGTCTGTTTCTCAT
+
+# Drug_Target_2_General_Function:
+Involved in calcium ion binding
+
+# Drug_Target_2_General_References:
+10360571	Nelson KE, Clayton RA, Gill SR, Gwinn ML, Dodson RJ, Haft DH, Hickey EK, Peterson JD, Nelson WC, Ketchum KA, McDonald L, Utterback TR, Malek JA, Linher KD, Garrett MM, Stewart AM, Cotton MD, Pratt MS, Phillips CA, Richardson D, Heidelberg J, Sutton GG, Fleischmann RD, Eisen JA, White O, Salzberg SL, Smith HO, Venter JC, Fraser CM: Evidence for lateral gene transfer between Archaea and bacteria from genome sequence of Thermotoga maritima. Nature. 1999 May 27;399(6734):323-9.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+5668
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+85705
+
+# Drug_Target_2_Name:
+5-methyltetrahydrofolate S-homocysteine methyltransferase
+
+# Drug_Target_2_Number_of_Residues:
+768
+
+# Drug_Target_2_PDB_ID:
+1Q8J
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00809	Pterin_bind
+PF02310	B12-binding
+PF02574	S-methyl_trans
+PF02607	B12-binding_2
+
+# Drug_Target_2_Protein_Sequence:
+>5-methyltetrahydrofolate S-homocysteine methyltransferase
+MRNRREVSKLLSERVLLLDGAYGTEFMKYGYDDLPEELNIKAPDVVLKVHRSYIESGSDV
+ILTNTFGATRMKLRKHGLEDKLDPIVRNAVRIARRAAGEKLVFGDIGPTGELPYPLGSTL
+FEEFYENFRETVEIMVEEGVDGIIFETFSDILELKAAVLAAREVSRDVFLIAHMTFDEKG
+RSLTGTDPANFAITFDELDIDALGINCSLGPEEILPIFQELSQYTDKFLVVEPNAGKPIV
+ENGKTVYPLKPHDFAVHIDSYYELGVNIFGGCCGTTPEHVKLFRKVLGNRKPLQRKKKRI
+FAVSSPSKLVTFDHFVVIGERINPAGRKKLWAEMQKGNEEIVIKEAKTQVEKGAEVLDVN
+FGIESQIDVRYVEKIVQTLPYVSNVPLSLDIQNVDLTERALRAYPGRSLFNSAKVDEEEL
+EMKINLLKKYGGTLIVLLMGKDVPKSFEERKEYFEKALKILERHDFSDRVIFDPGVLPLG
+AEGKPVEVLKTIEFISSKGFNTTVGLSNLSFGLPDRSYYNTAFLVLGISKGLSSAIMNPL
+DETLMKTLNATLVILEKKELPRAEVKEEKLVEIILSGNRSELEKLVEDFLKEKDPLSVIE
+EHLRPAMERIGELYDKGKIFLPQLILAAQTVKPVFDKLTSMLPSDSQGETFVIATVKGDV
+HDIGKNIVASVIRSSGYRVVDLGKDVDTSEIVEAVEKERPVALGLSAMMTTTVGRIKEVV
+EKLKEKNLKIPVIVGGASLNEKLAKELGADYYAKNASEAVKILKSLGR
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Not Available
+
+# Drug_Target_2_SwissProt_ID:
+Q9WYA5
+
+# Drug_Target_2_SwissProt_Name:
+Q9WYA5_THEMA
+
+# Drug_Target_2_Synonyms:
+Not Available
+
+# Drug_Target_2_Theoretical_pI:
+5.50
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Not Available
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+AF008220
+
+# Drug_Target_3_GenBank_ID_Protein:
+2293157
+
+# Drug_Target_3_GeneCard_ID:
+Not Available
+
+# Drug_Target_3_Gene_Name:
+luxS
+
+# Drug_Target_3_Gene_Sequence:
+>474 bp
+ATGCCTTCAGTAGAAAGTTTTGAGCTTGATCATAATGCGGTTGTTGCTCCATATGTAAGA
+CATTGCGGCGTGCATAAAGTGGGAACAGACGGCGTTGTAAATAAATTTGACATTCGTTTT
+TGCCAGCCAAATAAACAGGCGATGAAGCCTGACACCATTCACACACTCGAGCATTTGCTC
+GCGTTTACGATTCGTTCTCACGCTGAGAAATACGATCATTTTGATATCATTGATATTTCT
+CCAATGGGCTGCCAGACAGGCTATTATCTAGTTGTGAGCGGAGAGCCGACATCAGCGGAA
+ATCGTTGATCTGCTTGAAGACACAATGAAGGAAGCGGTAGAGATTACAGAAATACCTGCT
+GCGAATGAAAAGCAGTGCGGCCAAGCGAAGCTTCATGATCTGGAAGGCGCTAAACGTTTA
+ATGCGTTTCTGGCTTTCACAGGATAAAGAAGAATTGCTAAAAGTATTTGGCTAA
+
+# Drug_Target_3_General_Function:
+Signal transduction mechanisms
+
+# Drug_Target_3_General_References:
+11553770	Hilgers MT, Ludwig ML: Crystal structure of the quorum-sensing protein LuxS reveals a catalytic metal site. Proc Natl Acad Sci U S A. 2001 Sep 25;98(20):11169-74. Epub 2001 Sep 11.
+11601850	Ruzheinikov SN, Das SK, Sedelnikova SE, Hartley A, Foster SJ, Horsburgh MJ, Cox AG, McCleod CW, Mekhalfia A, Blackburn GM, Rice DW, Baker PJ: The 1.2 A structure of a novel quorum-sensing protein, Bacillus subtilis LuxS. J Mol Biol. 2001 Oct 12;313(1):111-22.
+12705835	Zhu J, Dizin E, Hu X, Wavreille AS, Park J, Pei D: S-Ribosylhomocysteinase (LuxS) is a mononuclear iron protein. Biochemistry. 2003 Apr 29;42(16):4717-26.
+9384377	Kunst F, Ogasawara N, Moszer I, Albertini AM, Alloni G, Azevedo V, Bertero MG, Bessieres P, Bolotin A, Borchert S, Borriss R, Boursier L, Brans A, Braun M, Brignell SC, Bron S, Brouillet S, Bruschi CV, Caldwell B, Capuano V, Carter NM, Choi SK, Codani JJ, Connerton IF, Danchin A, et al.: The complete genome sequence of the gram-positive bacterium Bacillus subtilis. Nature. 1997 Nov 20;390(6657):249-56.
+9387221	Lapidus A, Galleron N, Sorokin A, Ehrlich SD: Sequencing and functional annotation of the Bacillus subtilis genes in the 200 kb rrnB-dnaB region. Microbiology. 1997 Nov;143 ( Pt 11):3431-41.
+
+# Drug_Target_3_HGNC_ID:
+Not Available
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+2725
+
+# Drug_Target_3_Locus:
+Not Available
+
+# Drug_Target_3_Molecular_Weight:
+17714
+
+# Drug_Target_3_Name:
+S-ribosylhomocysteine lyase
+
+# Drug_Target_3_Number_of_Residues:
+157
+
+# Drug_Target_3_PDB_ID:
+1IE0
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF02664	LuxS
+
+# Drug_Target_3_Protein_Sequence:
+>S-ribosylhomocysteine lyase
+MPSVESFELDHNAVVAPYVRHCGVHKVGTDGVVNKFDIRFCQPNKQAMKPDTIHTLEHLL
+AFTIRSHAEKYDHFDIIDISPMGCQTGYYLVVSGEPTSAEIVDLLEDTMKEAVEITEIPA
+ANEKQCGQAKLHDLEGAKRLMRFWLSQDKEELLKVFG
+
+# Drug_Target_3_Reaction:
+S-(5-deoxy-D-ribos-5-yl)-L-homocysteine = L-homocysteine + (4S)-4,5-dihydroxypentan-2,3-dione
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Involved in the synthesis of autoinducer 2 (AI-2) which is secreted by bacteria and is used to communicate both the cell density and the metabolic potential of the environment. The regulation of gene expression in response to changes in cell density is called quorum sensing. Catalyzes the transformation of S-ribosylhomocysteine (RHC) to homocysteine (HC) and 4,5- dihydroxy-2,3-pentadione (DPD)
+
+# Drug_Target_3_SwissProt_ID:
+O34667
+
+# Drug_Target_3_SwissProt_Name:
+LUXS_BACSU
+
+# Drug_Target_3_Synonyms:
+AI-2 synthesis protein
+Autoinducer-2 production protein luxS
+EC 4.4.1.21
+
+# Drug_Target_3_Theoretical_pI:
+5.25
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB04422

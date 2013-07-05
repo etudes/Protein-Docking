@@ -11,16 +11,16 @@ import java.lang.*;
 import java.lang.reflect.*;
 
 public class TestCaseGenerator implements Runnable {
-	ProteinDockPredict pdp;
-	ProteinStruct ps1;
-	ProteinStruct ps2;
-	double alphamin;
-	double alphamax;
-	int num;
+	private ProteinDockPredict pdp;
+	private ProteinStruct ps1;
+	private ProteinStruct ps2;
+	private double alphamin;
+	private double alphamax;
+	private int num;
 	public TestCaseGenerator(ProteinDockPredict pdp, double alphamin, double alphamax, int num) throws Exception {
 		this.pdp = pdp;
-		this.ps1 = new ProteinStruct(pdp.ps1);
-		this.ps2 = new ProteinStruct(pdp.ps2);
+		this.ps1 = new ProteinStruct(pdp.getPS1());
+		this.ps2 = new ProteinStruct(pdp.getPS2());
 		this.alphamin = alphamin;
 		this.alphamax = alphamax;
 		this.num = num;

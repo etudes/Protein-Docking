@@ -1,0 +1,712 @@
+#BEGIN_DRUGCARD DB00762
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01XX19
+
+# Absorption:
+100%
+
+# Biotransformation:
+Hepatic
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+CP0
+Camptosar
+IRINOTECAN, CPT-11
+
+# CAS_Registry_Number:
+100286-90-6
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C33H38N4O6
+
+# Chemical_IUPAC_Name:
+(19S)-10,19-diethyl-19-hydroxy-14,18-dioxo-17-oxa-3,13-diazapentacyclo[11.8.0.0^{2,11}.0^{4,9}.0^{15,20}]henicosa-1(21),2(11),3,5,7,9,15(20)-heptaen-7-yl 4-(piperidin-1-yl)piperidine-1-carboxylate
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2231622
+
+# Description:
+Irinotecan is an antineoplastic enzyme inhibitor primarily used in the treatment of colorectal cancer. It is a derivative of camptothecin that inhibits the action of topoisomerase I. Irinotecan prevents religation of the DNA strand by binding to topoisomerase I-DNA complex, and causes double-strand DNA breakage and cell death.
+
+# Dosage_Forms:
+Solution	Intravenous
+
+# Drug_Category:
+Antineoplastic Agents
+Antineoplastic Agents, Phytogenic
+Enzyme Inhibitors
+Parasympathomimetics
+Prodrugs
+Radiation-Sensitizing Agents
+
+# Drug_Interactions:
+Aprepitant	Aprepitant may change levels of the chemotherapy agent, irinotecan.
+Atazanavir	Increases levels/effect of irinotecan
+Fosphenytoin	The hydantoin decreases the effect of irinotecan
+Ketoconazole	Ketoconazole increases the effect and toxicity of irinotecan
+Pazopanib	Irinotecan is an uridine diphosphate glucuronosyltransferase 1A1 (UGT1A1) substrate and serum concentrations may increase if administered concurrently with pazopanib, an UGT1A1 inhibitor.
+Phenytoin	The hydantoin decreases the effect of irinotecan
+Regorafenib	Regorafenib may increase levels of irinotecan, a UGT1A1 substrate.
+Telithromycin	Telithromycin may reduce clearance of Irinotecan. Consider alternate therapy or monitor for changes in the therapeutic/adverse effects of Irinotecan if Telithromycin is initiated, discontinued or dose changed.
+Thiotepa	Thiotepa, a strong CYP2B6 inhibitor, may decrease the metabolism and clearance of Irinotecan, a CYP2B6 substrate. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of Irinotecan if Thiotepa is initiated, discontinued or dose changed.
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+Voriconazole	Voriconazole, a strong CYP3A4 inhibitor, may increase the serum concentration of irinotecan by decreasing its metabolism. Monitor for changes in the therapeutic and adverse effects of irinotecan if voriconazole is initiated, discontinued or dose changed.
+
+# Drug_Reference:
+15007088	Innocenti F, Undevia SD, Iyer L, Chen PX, Das S, Kocherginsky M, Karrison T, Janisch L, Ramirez J, Rudin CM, Vokes EE, Ratain MJ: Genetic variants in the UDP-glucuronosyltransferase 1A1 gene predict the risk of severe neutropenia of irinotecan. J Clin Oncol. 2004 Apr 15;22(8):1382-8. Epub 2004 Mar 8.
+17008691	O'Dwyer PJ, Catalano RB: Uridine diphosphate glucuronosyltransferase (UGT) 1A1 and irinotecan: practical pharmacogenomics arrives in cancer therapy. J Clin Oncol. 2006 Oct 1;24(28):4534-8.
+19852077	Ramesh M, Ahlawat P, Srinivas NR: Irinotecan and its active metabolite, SN-38: review of bioanalytical methods and recent update from clinical pharmacology perspectives. Biomed Chromatogr. 2010 Jan;24(1):104-23.
+9342501	Chabot GG: Clinical pharmacokinetics of irinotecan. Clin Pharmacokinet. 1997 Oct;33(4):245-59.
+
+# Drug_Type:
+Approved
+Investigational
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+3.2
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Soluble
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Irinotecan
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+6-12 hours
+
+# InChI_Identifier:
+InChI=1S/C33H38N4O6/c1-3-22-23-16-21(43-32(40)36-14-10-20(11-15-36)35-12-6-5-7-13-35)8-9-27(23)34-29-24(22)18-37-28(29)17-26-25(30(37)38)19-42-31(39)33(26,41)4-2/h8-9,16-17,20,41H,3-7,10-15,18-19H2,1-2H3/t33-/m0/s1
+
+# InChI_Key:
+InChIKey=UWKQSNNFCGGAFS-XIFFEERXSA-N
+
+# Indication:
+For the treatment of metastatic colorectal cancer (first-line therapy when administered with 5-fluorouracil and leucovorin). Also used in combination with cisplatin for the treatment of extensive small cell lung cancer. Irinotecan is currently under investigation for the treatment of metastatic or recurrent cervical cancer.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D08086
+
+# LIMS_Drug_ID:
+762
+
+# Mechanism_Of_Action:
+Irinotecan inhibits the action of topoisomerase I. Irinotecan prevents religation of the DNA strand by binding to topoisomerase I-DNA complex. The formation of this ternary complex interferes with the moving replication fork, which induces replication arrest and lethal double-stranded breaks in DNA. As a result, DNA damage is not efficiently repaired and apoptosis (programmed cell death) occurs.
+
+# Melting_Point:
+222-223 °C
+
+# Molecular_Weight_Avg:
+586.678
+
+# Molecular_Weight_Mono:
+586.279134968
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Irinotecan Pathway	SMP00433
+
+# PharmGKB_ID:
+PA450085
+
+# Pharmacology:
+Irinotecan is an antineoplastic enzyme inhibitor primarily used in the treatment of colorectal cancer. Irinotecan is a semisynthetic derivative of camptothecin. Camptothecins interact specifically with topoisomerase I, an enzyme in the cell nucleus that regulates DNA topology and facilitates nuclear processes such as DNA replication, recombination, and repair. During these processes, topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks, allowing single DNA strands to pass through the break. The 3'-DNA terminus of the broken DNA strands bind covalently with the topoisomerase enzyme to form a catalytic intermediate called a cleavable complex. After the DNA is sufficiently relaxed and the strand passage reaction is complete, DNA topoisomerase reattaches the broken DNA strands to form the chemically unaltered topoisomers that allow transcription to proceed. Irinotecan and its active metabolite SN-38 bind to the topoisomerase I-DNA complex and prevent religation of these single-strand breaks. Current research suggests that the cytotoxicity of irinotecan is due to double-strand DNA damage produced during DNA synthesis when replication enzymes interact with the ternary complex formed by topoisomerase I, DNA, and either Irinotecan or SN-38. Mammalian cells cannot efficiently repair these double-strand breaks. The precise contribution of SN-38 to the activity of irinotecan in humans is not known. Irinotecan is cell cycle phase-specific (S-phase).
+
+# Predicted_LogP_Hydrophobicity:
+3.94
+
+# Predicted_LogS:
+-3.7
+
+# Predicted_Water_Solubility:
+1.07e-01 g/l
+
+# Primary_Accession_No:
+DB00762
+
+# Protein_Binding:
+30%-68%
+
+# PubChem_Compound_ID:
+60838
+
+# PubChem_Substance_ID:
+46505871
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/irinot.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00579
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CCC1=C2CN3C(=CC4=C(COC(=O)[C@]4(O)CC)C3=O)C2=NC2=C1C=C(OC(=O)N1CCC(CC1)N1CCCCC1)C=C2
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Irinotecan Hcl
+Irinotecan Hydrochloride
+Irinotecan Hydrochloride Trihydrate
+Irinotecanum [INN-Latin]
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Gastrointestinal complications, such as nausea, vomiting, abdominal cramping, diarrhea, and infection.
+
+# Update_Date:
+2013-02-08 16:19:37 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Irinotecan
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A5
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4118
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A5
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A5
+MDLIPNLAVETWLLLAVSLVLLYLYGTRTHGLFKRLGIPGPTPLPLLGNVLSYRQGLWKF
+DTECYKKYGKMWGTYEGQLPVLAITDPDVIRTVLVKECYSVFTNRRSLGPVGFMKSAISL
+AEDEEWKRIRSLLSPTFTSGKLKEMFPIIAQYGDVLVRNLRREAEKGKPVTLKDIFGAYS
+MDVITGTSFGVNIDSLNNPQDPFVESTKKFLKFGFLDPLFLSIILFPFLTPVFEALNVSL
+FPKDTINFLSKSVNRMKKSRLNDKQKHRLDFLQLMIDSQNSKETESHKALSDLELAAQSI
+IFIFAGYETTSSVLSFTLYELATHPDVQQKLQKEIDAVLPNKAPPTYDAVVQMEYLDMVV
+NETLRLFPVAIRLERTCKKDVEINGVFIPKGSMVVIPTYALHHDPKYWTEPEEFRPERFS
+KKKDSIDPYIYTPFGTGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLDTQG
+LLQPEKPIVLKVDSRDGTLSGE
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P20815
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CES1
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4604
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Liver carboxylesterase 1
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Liver carboxylesterase 1
+MWLRAFILATLSASAAWGHPSSPPVVDTVHGKVLGKFVSLEGFAQPVAIFLGIPFAKPPL
+GPLRFTPPQPAEPWSFVKNATSYPPMCTQDPKAGQLLSELFTNRKENIPLKLSEDCLYLN
+IYTPADLTKKNRLPVMVWIHGGGLMVGAASTYDGLALAAHENVVVVTIQYRLGIWGFFST
+GDEHSRGNWGHLDQVAALRWVQDNIASFGGNPGSVTIFGESAGGESVSVLVLSPLAKNLF
+HRAISESGVALTSVLVKKGDVKPLAEQIAITAGCKTTTSAVMVHCLRQKTEEELLETTLK
+MKFLSLDLQGDPRESQPLLGTVIDGMLLLKTPEELQAERNFHTVPYMVGINKQEFGWLIP
+MQLMSYPLSEGQLDQKTAMSLLWKSYPLVCIAKELIPEATEKYLGGTDDTVKKKDLFLDL
+IADVMFGVPSVIVARNHRDAGAPTYMYEFQYRPSFSSDMKPKTVIGDHGDELFSVFGAPF
+LKEGASEEEIRLSKMVMKFWANFARNGNPNGEGLPHWPEYNQKEGYLQIGANTQAAQKLK
+DKEVAFWTNLFAKKAVEKPPQTEHIEL
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P23141
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+UGT1A9
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+6018
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+UDP-glucuronosyltransferase 1-9
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>UDP-glucuronosyltransferase 1-9
+MACTGWTSPLPLCVCLLLTCGFAEAGKLLVVPMDGSHWFTMRSVVEKLILRGHEVVVVMP
+EVSWQLGRSLNCTVKTYSTSYTLEDLDREFKAFAHAQWKAQVRSIYSLLMGSYNDIFDLF
+FSNCRSLFKDKKLVEYLKESSFDAVFLDPFDNCGLIVAKYFSLPSVVFARGILCHYLEEG
+AQCPAPLSYVPRILLGFSDAMTFKERVRNHIMHLEEHLLCHRFFKNALEIASEILQTPVT
+EYDLYSHTSIWLLRTDFVLDYPKPVMPNMIFIGGINCHQGKPLPMEFEAYINASGEHGIV
+VFSLGSMVSEIPEKKAMAIADALGKIPQTVLWRYTGTRPSNLANNTILVKWLPQNDLLGH
+PMTRAFITHAGSHGVYESICNGVPMVMMPLFGDQMDNAKRMETKGAGVTLNVLEMTSEDL
+ENALKAVINDKSYKENIMRLSSLHKDRPVEPLDLAVFWVEFVMRHKGAPHLRPAAHDLTW
+YQYHSLDVIGFLLAVVLTVAFITFKCCAYGYRKCLGKKGRVKKAHKSKTH
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+O60656
+
+# Phase_1_Metabolizing_Enzyme_5_Gene_Name:
+UGT1A1
+
+# Phase_1_Metabolizing_Enzyme_5_ID:
+6022
+
+# Phase_1_Metabolizing_Enzyme_5_Name:
+UDP-glucuronosyltransferase 1-1
+
+# Phase_1_Metabolizing_Enzyme_5_Protein_Sequence:
+>UDP-glucuronosyltransferase 1-1
+MAVESQGGRPLVLGLLLCVLGPVVSHAGKILLIPVDGSHWLSMLGAIQQLQQRGHEIVVL
+APDASLYIRDGAFYTLKTYPVPFQREDVKESFVSLGHNVFENDSFLQRVIKTYKKIKKDS
+AMLLSGCSHLLHNKELMASLAESSFDVMLTDPFLPCSPIVAQYLSLPTVFFLHALPCSLE
+FEATQCPNPFSYVPRPLSSHSDHMTFLQRVKNMLIAFSQNFLCDVVYSPYATLASEFLQR
+EVTVQDLLSSASVWLFRSDFVKDYPRPIMPNMVFVGGINCLHQNPLSQEFEAYINASGEH
+GIVVFSLGSMVSEIPEKKAMAIADALGKIPQTVLWRYTGTRPSNLANNTILVKWLPQNDL
+LGHPMTRAFITHAGSHGVYESICNGVPMVMMPLFGDQMDNAKRMETKGAGVTLNVLEMTS
+EDLENALKAVINDKSYKENIMRLSSLHKDRPVEPLDLAVFWVEFVMRHKGAPHLRPAAHD
+LTWYQYHSLDVIGFLLAVVLTVAFITFKCCAYGYRKCLGKKGRVKKAHKSKTH
+
+# Phase_1_Metabolizing_Enzyme_5_SwissProt_ID:
+P22309
+
+# Phase_1_Metabolizing_Enzyme_6_Gene_Name:
+CYP2B6
+
+# Phase_1_Metabolizing_Enzyme_6_ID:
+6030
+
+# Phase_1_Metabolizing_Enzyme_6_Name:
+Cytochrome P450 2B6
+
+# Phase_1_Metabolizing_Enzyme_6_Protein_Sequence:
+>Cytochrome P450 2B6
+MELSVLLFLALLTGLLLLLVQRHPNTHDRLPPGPRPLPLLGNLLQMDRRGLLKSFLRFRE
+KYGDVFTVHLGPRPVVMLCGVEAIREALVDKAEAFSGRGKIAMVDPFFRGYGVIFANGNR
+WKVLRRFSVTTMRDFGMGKRSVEERIQEEAQCLIEELRKSKGALMDPTFLFQSITANIIC
+SIVFGKRFHYQDQEFLKMLNLFYQTFSLISSVFGQLFELFSGFLKYFPGAHRQVYKNLQE
+INAYIGHSVEKHRETLDPSAPKDLIDTYLLHMEKEKSNAHSEFSHQNLNLNTLSLFFAGT
+ETTSTTLRYGFLLMLKYPHVAERVYREIEQVIGPHRPPELHDRAKMPYTEAVIYEIQRFS
+DLLPMGVPHIVTQHTSFRGYIIPKDTEVFLILSTALHDPHYFEKPDAFNPDHFLDANGAL
+KKTEAFIPFSLGKRICLGEGIARAELFLFFTTILQNFSMASPVAPEDIDLTPQECGVGKI
+PPTYQIRFLPR
+
+# Phase_1_Metabolizing_Enzyme_6_SwissProt_ID:
+P20813
+
+# Phase_1_Metabolizing_Enzyme_7_Gene_Name:
+CYP3A7
+
+# Phase_1_Metabolizing_Enzyme_7_ID:
+6107
+
+# Phase_1_Metabolizing_Enzyme_7_Name:
+Cytochrome P450 3A7
+
+# Phase_1_Metabolizing_Enzyme_7_Protein_Sequence:
+>Cytochrome P450 3A7
+MDLIPNLAVETWLLLAVSLILLYLYGTRTHGLFKKLGIPGPTPLPFLGNALSFRKGYWTF
+DMECYKKYRKVWGIYDCQQPMLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKNAISI
+AEDEEWKRIRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKHVFGAYS
+MDVITSTSFGVSIDSLNNPQDPFVENTKKLLRFNPLDPFVLSIKVFPFLTPILEALNITV
+FPRKVISFLTKSVKQIKEGRLKETQKHRVDFLQLMIDSQNSKDSETHKALSDLELMAQSI
+IFIFAGYETTSSVLSFIIYELATHPDVQQKVQKEIDTVLPNKAPPTYDTVLQLEYLDMVV
+NETLRLFPVAMRLERVCKKDVEINGMFIPKGVVVMIPSYVLHHDPKYWREPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALVNMKLALVRVLQNFSFKPCKETQIPLKLRFG
+GLLLTEKPIVLKAESRDETVSGA
+
+# Phase_1_Metabolizing_Enzyme_7_SwissProt_ID:
+P24462
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+15170677	Yoshikawa M, Ikegami Y, Hayasaka S, Ishii K, Ito A, Sano K, Suzuki T, Togawa T, Yoshida H, Soda H, Oka M, Kohno S, Sawada S, Ishikawa T, Tanabe S: Novel camptothecin analogues that circumvent ABCG2-associated drug resistance in human tumor cells. Int J Cancer. 2004 Jul 20;110(6):921-7.
+15255290	Yoshikawa M, Ikegami Y, Sano K, Yoshida H, Mitomo H, Sawada S, Ishikawa T: Transport of SN-38 by the wild type of human ABC transporter ABCG2 and its inhibition by quercetin, a natural flavonoid. J Exp Ther Oncol. 2004 Apr;4(1):25-35.
+15975002	Yang X, Hu Z, Chan SY, Chan E, Goh BC, Duan W, Zhou S: Novel agents that potentially inhibit irinotecan-induced diarrhea. Curr Med Chem. 2005;12(11):1343-58.
+16309825	Nakagawa H, Saito H, Ikegami Y, Aida-Hyugaji S, Sawada S, Ishikawa T: Molecular modeling of new camptothecin analogues to circumvent ABCG2-mediated drug resistance in cancer. Cancer Lett. 2006 Mar 8;234(1):81-9. Epub 2005 Nov 23.
+16454746	Ishikawa T, Ikegami Y, Sano K, Nakagawa H, Sawada S: Transport mechanism-based drug molecular design: novel camptothecin analogues to circumvent ABCG2-associated drug resistance of human tumor cells. Curr Pharm Des. 2006;12(3):313-25.
+19852077	Ramesh M, Ahlawat P, Srinivas NR: Irinotecan and its active metabolite, SN-38: review of bioanalytical methods and recent update from clinical pharmacology perspectives. Biomed Chromatogr. 2010 Jan;24(1):104-23.
+9342501	Chabot GG: Clinical pharmacokinetics of irinotecan. Clin Pharmacokinet. 1997 Oct;33(4):245-59.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+TOP1
+
+# Drug_Target_1_GenBank_ID_Gene:
+J03250
+
+# Drug_Target_1_GenBank_ID_Protein:
+339806
+
+# Drug_Target_1_GeneCard_ID:
+TOP1
+
+# Drug_Target_1_Gene_Name:
+TOP1
+
+# Drug_Target_1_Gene_Sequence:
+>2298 bp
+ATGAGTGGGGACCACCTCCACAACGATTCCCAGATCGAAGCGGATTTCCGATTGAATGAT
+TCTCATAAACACAAAGATAAACACAAAGATCGAGAACACCGGCACAAAGAACACAAGAAG
+GAGAAGGACCGGGAAAAGTCCAAGCATAGCAACAGTGAACATAAAGATTCTGAAAAGAAA
+CACAAAGAGAAGGAGAAGACCAAACACAAAGATGGAAGCTCAGAAAAGCATAAAGACAAA
+CATAAAGACAGAGACAAGGAAAAACGAAAAGAGGAAAAGGTTCGAGCCTCTGGGGATGCA
+AAAATAAAGAAGGAGAAGGAAAATGGCTTCTCTAGTCCACCACAAATTAAAGATGAACCT
+GAAGATGATGGCTATTTTGTTCCTCCTAAAGAGGATATAAAGCCATTAAAGAGACCTCGA
+GATGAGGATGATGTTGATTATAAACCTAAGAAAATTAAAACAGAAGATACCAAGAAGGAG
+AAGAAAAGAAAACTAGAAGAAGAAGAGGATGGTAAATTGAAAAAACCCAAGAATAAAGAT
+AAAGATAAAAAAGTTCCTGAGCCAGATAACAAGAAAAAGAAGCCGAAGAAAGAAGAGGAA
+CAGAAGTGGAAATGGTGGGAAGAAGAGCGCTATCCTGAAGGCATCAAGTGGAAATTCCTA
+GAACATAAAGGTCCAGTATTTGCCCCACCATATGAGCCTCTTCCAGAGAATGTCAAGTTT
+TATTATGATGGTAAAGTCATGAAGCTGAGCCCCAAAGCAGAGGAAGTAGCTACGTTCTTT
+GCAAAAATGCTCGACCATGAATATACTACCAAGGAAATATTTAGGAAAAATTTCTTTAAA
+GACTGGAGAAAGGAAATGACTAATGAAGAGAAGAATATTATCACCAACCTAAGCAAATGT
+GATTTTACCCAGATGAGCCAGTATTTCAAAGCCCAGACGGAAGCTCGGAAACAGATGAGC
+AAGGAAGAGAAACTGAAAATCAAAGAGGAGAATGAAAAATTACTGAAAGAATATGGATTC
+TGTATTATGGATAACCACAAAGAGAGGATTGCTAACTTCAAGATAGAGCCTCCTGGACTT
+TTCCGTGGCCGCGGCAACCACCCCAAGATGGGCATGCTGAAGAGACGAATCATGCCCGAG
+GATATAATCATCAACTGTAGCAAAGATGCCAAGGTTCCTTCTCCTCCTCCAGGACATAAG
+TGGAAAGAAGTCCGGCATGATAACAAGGTTACTTGGCTGGTTTCCTGGACAGAGAACATC
+CAAGGTTCCATTAAATACATCATGCTTAACCCTAGTTCACGAATCAAGGGTGAGAAGGAC
+TGGCAGAAATACGAGACTGCTCGGCGGCTGAAAAAATGTGTGGACAAGATCCGGAACCAG
+TATCGAGAAGACTGGAAGTCCAAAGAGATGAAAGTCCGGCAGAGAGCTGTAGCCCTGTAC
+TTCATCGACAAGCTTGCTCTGAGAGCAGGCAATGAAAAGGAGGAAGGAGAAACAGCGGAC
+ACTGTGGGCTGCTGCTCACTTCGTGTGGAGCACATCAATCTACACCCAGAGTTGGATGGT
+CAGGAATATGTGGTAGAGTTTGACTTCCTCGGGAAGGACTCCATCAGATACTATAACAAG
+GTCCCTGTTGAGAAACGAGTTTTTAAGAACCTACAACTATTTATGGAGAACAAGCAGCCC
+GAGGATGATCTTTTTGATAGACTCAATACTGGTATTCTGAATAAGCATCTTCAGGATCTC
+ATGGAGGGCTTGACAGCCAAGGTATTCCGTACGTACAATGCCTCCATCACGCTACAGCAG
+CAGCTAAAAGAACTGACAGCCCCGGATGAGAACATCCCAGCGAAGATCCTTTCTTATAAC
+CGTGCCAATCGAGCTGTTGCAATTCTTTGTAACCATCAGAGGGCACCACCAAAAACTTTT
+GAGAAGTCTATGATGAACTTGCAAACTAAGATTGATGCCAAGAAGGAACAGCTAGCAGAT
+GCCCGGAGAGACCTGAAAAGTGCTAAGGCTGATGCCAAGGTCATGAAGGATGCAAAGACG
+AAGAAGGTAGTAGAGTCAAAGAAGAAGGCTGTTCAGAGACTGGAGGAACAGTTGATGAAG
+CTGGAAGTTCAAGCCACAGACCGAGAGGAAAATAAACAGATTGCCCTGGGAACCTCCAAA
+CTCAATTATCTGGACCCTAGGATCACAGTGGCTTGGTGCAAGAAGTGGGGTGTCCCAATT
+GAGAAGATTTACAACAAAACCCAGCGGGAGAAGTTTGCCTGGGCCATTGACATGGCTGAT
+GAAGACTATGAGTTTTAG
+
+# Drug_Target_1_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_1_General_References:
+10556215	Ahuja HG, Felix CA, Aplan PD: The t(11;20)(p15;q11) chromosomal translocation associated with therapy-related myelodysplastic syndrome results in an NUP98-TOP1 fusion. Blood. 1999 Nov 1;94(9):3258-61.
+10841763	Redinbo MR, Champoux JJ, Hol WG: Novel insights into catalytic mechanism from a crystal structure of human topoisomerase I in complex with DNA. Biochemistry. 2000 Jun 13;39(23):6832-40.
+11780052	Deloukas P, Matthews LH, Ashurst J, Burton J, Gilbert JG, Jones M, Stavrides G, Almeida JP, Babbage AK, Bagguley CL, Bailey J, Barlow KF, Bates KN, Beard LM, Beare DM, Beasley OP, Bird CP, Blakey SE, Bridgeman AM, Brown AJ, Buck D, Burrill W, Butler AP, Carder C, Carter NP, Chapman JC, Clamp M, Clark G, Clark LN, Clark SY, Clee CM, Clegg S, Cobley VE, Collier RE, Connor R, Corby NR, Coulson A, Coville GJ, Deadman R, Dhami P, Dunn M, Ellington AG, Frankland JA, Fraser A, French L, Garner P, Grafham DV, Griffiths C, Griffiths MN, Gwilliam R, Hall RE, Hammond S, Harley JL, Heath PD, Ho S, Holden JL, Howden PJ, Huckle E, Hunt AR, Hunt SE, Jekosch K, Johnson CM, Johnson D, Kay MP, Kimberley AM, King A, Knights A, Laird GK, Lawlor S, Lehvaslaiho MH, Leversha M, Lloyd C, Lloyd DM, Lovell JD, Marsh VL, Martin SL, McConnachie LJ, McLay K, McMurray AA, Milne S, Mistry D, Moore MJ, Mullikin JC, Nickerson T, Oliver K, Parker A, Patel R, Pearce TA, Peck AI, Phillimore BJ, Prathalingam SR, Plumb RW, Ramsay H, Rice CM, Ross MT, Scott CE, Sehra HK, Shownkeen R, Sims S, Skuce CD, Smith ML, Soderlund C, Steward CA, Sulston JE, Swann M, Sycamore N, Taylor R, Tee L, Thomas DW, Thorpe A, Tracey A, Tromans AC, Vaudin M, Wall M, Wallis JM, Whitehead SL, Whittaker P, Willey DL, Williams L, Williams SA, Wilming L, Wray PW, Hubbard T, Durbin RM, Bentley DR, Beck S, Rogers J: The DNA sequence and comparative analysis of human chromosome 20. Nature. 2001 Dec 20-27;414(6866):865-71.
+1332703	Kubota N, Kanzawa F, Nishio K, Takeda Y, Ohmori T, Fujiwara Y, Terashima Y, Saijo N: Detection of topoisomerase I gene point mutation in CPT-11 resistant lung cancer cell line. Biochem Biophys Res Commun. 1992 Oct 30;188(2):571-7.
+1849260	Tamura H, Kohchi C, Yamada R, Ikeda T, Koiwai O, Patterson E, Keene JD, Okada K, Kjeldsen E, Nishikawa K, et al.: Molecular cloning of a cDNA of a camptothecin-resistant human DNA topoisomerase I and identification of mutation sites. Nucleic Acids Res. 1991 Jan 11;19(1):69-75.
+1851751	Kunze N, Yang GC, Dolberg M, Sundarp R, Knippers R, Richter A: Structure of the human type I DNA topoisomerase gene. J Biol Chem. 1991 May 25;266(15):9610-6.
+2176592	Kunze N, Klein M, Richter A, Knippers R: Structural characterization of the human DNA topoisomerase I gene promoter. Eur J Biochem. 1990 Dec 12;194(2):323-30.
+2461859	Oddou P, Schmidt U, Knippers R, Richter A: Monoclonal antibodies neutralizing mammalian DNA topoisomerase I activity. Eur J Biochem. 1988 Nov 15;177(3):523-9.
+2479024	Maul GG, Jimenez SA, Riggs E, Ziemnicka-Kotula D: Determination of an epitope of the diffuse systemic sclerosis marker antigen DNA topoisomerase I: sequence similarity with retroviral p30gag protein suggests a possible cause for autoimmunity in systemic sclerosis. Proc Natl Acad Sci U S A. 1989 Nov;86(21):8492-6.
+2544263	Zhou BS, Bastow KF, Cheng YC: Characterization of the 3' region of the human DNA topoisomerase I gene. Cancer Res. 1989 Jul 15;49(14):3922-7.
+2833744	D'Arpa P, Machlin PS, Ratrie H 3rd, Rothfield NF, Cleveland DW, Earnshaw WC: cDNA cloning of human DNA topoisomerase I: catalytic activity of a 67.7-kDa carboxyl-terminal fragment. Proc Natl Acad Sci U S A. 1988 Apr;85(8):2543-7.
+7882333	Fujimori A, Harker WG, Kohlhagen G, Hoki Y, Pommier Y: Mutation at the catalytic site of topoisomerase I in CEM/C2, a human leukemia cell line resistant to camptothecin. Cancer Res. 1995 Mar 15;55(6):1339-46.
+9488644	Redinbo MR, Stewart L, Kuhn P, Champoux JJ, Hol WG: Crystal structures of human topoisomerase I in covalent and noncovalent complexes with DNA. Science. 1998 Mar 6;279(5356):1504-13.
+9488652	Stewart L, Redinbo MR, Qiu X, Hol WG, Champoux JJ: A model for the mechanism of human topoisomerase I. Science. 1998 Mar 6;279(5356):1534-41.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:11986
+
+# Drug_Target_1_HPRD_ID:
+00535
+
+# Drug_Target_1_ID:
+1353
+
+# Drug_Target_1_Locus:
+20q12-q13.1
+
+# Drug_Target_1_Molecular_Weight:
+90726
+
+# Drug_Target_1_Name:
+DNA topoisomerase 1
+
+# Drug_Target_1_Number_of_Residues:
+765
+
+# Drug_Target_1_PDB_ID:
+1A36
+
+# Drug_Target_1_Pathway:
+Irinotecan Pathway	SMP00433
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF01028	Topoisom_I
+PF02919	Topoisom_I_N
+
+# Drug_Target_1_Protein_Sequence:
+>DNA topoisomerase 1
+MSGDHLHNDSQIEADFRLNDSHKHKDKHKDREHRHKEHKKEKDREKSKHSNSEHKDSEKK
+HKEKEKTKHKDGSSEKHKDKHKDRDKEKRKEEKVRASGDAKIKKEKENGFSSPPQIKDEP
+EDDGYFVPPKEDIKPLKRPRDEDDADYKPKKIKTEDTKKEKKRKLEEEEDGKLKKPKNKD
+KDKKVPEPDNKKKKPKKEEEQKWKWWEEERYPEGIKWKFLEHKGPVFAPPYEPLPENVKF
+YYDGKVMKLSPKAEEVATFFAKMLDHEYTTKEIFRKNFFKDWRKEMTNEEKNIITNLSKC
+DFTQMSQYFKAQTEARKQMSKEEKLKIKEENEKLLKEYGFCIMDNHKERIANFKIEPPGL
+FRGRGNHPKMGMLKRRIMPEDIIINCSKDAKVPSPPPGHKWKEVRHDNKVTWLVSWTENI
+QGSIKYIMLNPSSRIKGEKDWQKYETARRLKKCVDKIRNQYREDWKSKEMKVRQRAVALY
+FIDKLALRAGNEKEEGETADTVGCCSLRVEHINLHPELDGQEYVVEFDFLGKDSIRYYNK
+VPVEKRVFKNLQLFMENKQPEDDLFDRLNTGILNKHLQDLMEGLTAKVFRTYNASITLQQ
+QLKELTAPDENIPAKILSYNRANRAVAILCNHQRAPPKTFEKSMMNLQTKIDAKKEQLAD
+ARRDLKSAKADAKVMKDAKTKKVVESKKKAVQRLEEQLMKLEVQATDREENKQIALGTSK
+LNYLDPRITVAWCKKWGVPIEKIYNKTQREKFAWAIDMADEDYEF
+
+# Drug_Target_1_Reaction:
+ATP-independent breakage of single-stranded DNA, followed by passage and rejoining INHIBITOR Camptothecin
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+The reaction catalyzed by topoisomerases leads to the conversion of one topological isomer of DNA to another
+
+# Drug_Target_1_SwissProt_ID:
+P11387
+
+# Drug_Target_1_SwissProt_Name:
+TOP1_HUMAN
+
+# Drug_Target_1_Synonyms:
+DNA topoisomerase I
+EC 5.99.1.2
+
+# Drug_Target_1_Theoretical_pI:
+9.95
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Mitochondrion
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+15170677	Yoshikawa M, Ikegami Y, Hayasaka S, Ishii K, Ito A, Sano K, Suzuki T, Togawa T, Yoshida H, Soda H, Oka M, Kohno S, Sawada S, Ishikawa T, Tanabe S: Novel camptothecin analogues that circumvent ABCG2-associated drug resistance in human tumor cells. Int J Cancer. 2004 Jul 20;110(6):921-7.
+15255290	Yoshikawa M, Ikegami Y, Sano K, Yoshida H, Mitomo H, Sawada S, Ishikawa T: Transport of SN-38 by the wild type of human ABC transporter ABCG2 and its inhibition by quercetin, a natural flavonoid. J Exp Ther Oncol. 2004 Apr;4(1):25-35.
+15975002	Yang X, Hu Z, Chan SY, Chan E, Goh BC, Duan W, Zhou S: Novel agents that potentially inhibit irinotecan-induced diarrhea. Curr Med Chem. 2005;12(11):1343-58.
+16309825	Nakagawa H, Saito H, Ikegami Y, Aida-Hyugaji S, Sawada S, Ishikawa T: Molecular modeling of new camptothecin analogues to circumvent ABCG2-mediated drug resistance in cancer. Cancer Lett. 2006 Mar 8;234(1):81-9. Epub 2005 Nov 23.
+16454746	Ishikawa T, Ikegami Y, Sano K, Nakagawa H, Sawada S: Transport mechanism-based drug molecular design: novel camptothecin analogues to circumvent ABCG2-associated drug resistance of human tumor cells. Curr Pharm Des. 2006;12(3):313-25.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+19852077	Ramesh M, Ahlawat P, Srinivas NR: Irinotecan and its active metabolite, SN-38: review of bioanalytical methods and recent update from clinical pharmacology perspectives. Biomed Chromatogr. 2010 Jan;24(1):104-23.
+9342501	Chabot GG: Clinical pharmacokinetics of irinotecan. Clin Pharmacokinet. 1997 Oct;33(4):245-59.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+TOP1MT
+
+# Drug_Target_2_GenBank_ID_Gene:
+AF349031
+
+# Drug_Target_2_GenBank_ID_Protein:
+15919359
+
+# Drug_Target_2_GeneCard_ID:
+TOP1MT
+
+# Drug_Target_2_Gene_Name:
+TOP1MT
+
+# Drug_Target_2_Gene_Sequence:
+>1806 bp
+ATGCGCGTGGTGCGGCTGCTGCGGCTCCGGGCGGCTCTGACGCTGCTCGGGGAGGTCCCC
+CGCCGCCCGGCCTCCCGGGGTGTCCCGGGCTCGCGCAGGACGCAGAAGGGCAGTGGAGCC
+AGGTGGGAGAAGGAGAAGCACGAAGACGGGGTGAAGTGGAGACAGCTGGAGCACAAGGGC
+CCGTACTTCGCACCCCCATACGAGCCCCTTCCCGACGGAGTGCGTTTCTTCTATGAAGGA
+AGGCCTGTGAGATTGAGCGTGGCAGCGGAGGAGGTCGCCACTTTTTATGGGAGGATGTTA
+GATCATGAATACACAACAAAGGAGGTTTTCCGGAAGAACTTCTTCAATGACTGGCGAAAG
+GAAATGGCGGTGGAAGAGAGGGAAGTCATCAAGAGCCTGGACAAGTGTGACTTCACGGAG
+ATCCACAGATACTTTGTGGACAAGGCCGCAGCCCGGAAAGTCCTGAGCAGGGAGGAGAAG
+CAGAAGCTAAAAGAAGAGGCAGAAAAACTTCAGCAAGAGTTCGGCTACTGTATTTTAGAT
+GGTCACCAAGAAAAAATAGGCAACTTCAAGATTGAGCCGCCTGGCTTGTTCCGTGGCCGT
+GGCGACCATCCCAAGATGGGGATGCTGAAGAGAAGGATCACGCCAGAGGATGTGGTTATC
+AACTGCAGCAGGGACTCGAAGATCCCCGAGCCGCCGGCGGGGCACCAGTGGAAGGAGGTG
+CGCTCCGATAACACCGTCACGTGGCTGGCAGCTTGGACCGAGAGCGTTCAGAACTCCATC
+AAGTACATCATGCTGAACCCTTGCTCGAAGCTGAAGGGGGAGACAGCTTGGCAGAAGTTT
+GAAACAGCTCGACGCCTGCGGGGATTTGTGGACGAGATCCGCTCCCAGTACCGGGCTGAC
+TGGAAGTCTCGGGAAATGAAGACGAGACAGCGGGCGGTGGCCCTGTATTTCATCGATAAG
+CTGGCACTGAGAGCAGGAAATGAGAAGGAGGACGGTGAGGCGGCCGACACCGTGGGCTGC
+TGTTCCCTCCGCGTGGAGCACGTCCAGCTGCACCCGGAGGCCGATGGCTGCCAACACGTG
+GTGGAATTTGACTTCCTGGGGAAGGACTGCATCCGCTACTACAACAGAGTGCCGGTGGAG
+AAGCCGGTGTACAAGAACTTACAGCTCTTTATGGAGAACAAGGACCCCCGGGACGACCTC
+TTCGACAGGCTGACCACGACCAGCCTGAACAAGCACCTCCAGGAGCTGATGGACGGGCTG
+ACGGCCAAGGTGTTCCGGACCTACAACGCCTCCATCACTCTGCAGGAGCAGCTGCGGGCC
+CTGACGCGCGCCGAGGACAGCATAGCAGCTAAGATCTTATCCTACAACCGAGCCAACCGA
+GTCGTGGCCATTCTCTGCAACCATCAGCGAGCAACCCCCAGTACGTTCGAGAAGTCGATG
+CAGAATCTCCAGACGAAGATCCAGGCAAAGAAGGAGCAGGTGGCTGAGGCCAGGGCAGAG
+CTGAGGAGGGCGAGGGCTGAGCACAAAGCCCAAGGGGATGGCAAGTCCAGGAGTGTCCTG
+GAGAAGAAGAGGCGGCTCCTGGAGAAGCTGCAGGAGCAGCTGGCGCAGCTGAGTGTGCAG
+GCCACGGACAAGGAGGAGAACAAGCAGGTGGCCCTGGGCACGTCCAAGCTCAACTACCTG
+GACCCCAGGATCAGCATTGCCTGGTGCAAGCGGTTCAGGGTGCCAGTGGAGAAGATCTAC
+AGCAAAACACAGCGGGAGAGGTTCGCCTGGGCTCTCGCCATGGCAGGAGAAGACTTTGAA
+TTCTAA
+
+# Drug_Target_2_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_2_General_References:
+11526219	Zhang H, Barcelo JM, Lee B, Kohlhagen G, Zimonjic DB, Popescu NC, Pommier Y: Human mitochondrial topoisomerase I. Proc Natl Acad Sci U S A. 2001 Sep 11;98(19):10608-13. Epub 2001 Aug 28.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:29787
+
+# Drug_Target_2_HPRD_ID:
+16214
+
+# Drug_Target_2_ID:
+102
+
+# Drug_Target_2_Locus:
+8q24.3
+
+# Drug_Target_2_Molecular_Weight:
+69873
+
+# Drug_Target_2_Name:
+DNA topoisomerase I, mitochondrial
+
+# Drug_Target_2_Number_of_Residues:
+601
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF01028	Topoisom_I
+PF02919	Topoisom_I_N
+
+# Drug_Target_2_Protein_Sequence:
+>DNA topoisomerase I, mitochondrial precursor
+MRVVRLLRLRAALTLLGEVPRRPASRGVPGSRRTQKGSGARWEKEKHEDGVKWRQLEHKG
+PYFAPPYEPLPDGVRFFYEGRPVRLSVAAEEVATFYGRMLDHEYTTKEVFRKNFFNDWRK
+EMAVEEREVIKSLDKCDFTEIHRYFVDKAAARKVLSREEKQKLKEEAEKLQQEFGYCILD
+GHQEKIGNFKIEPPGLFRGRGDHPKMGMLKRRITPEDVVINCSRDSKIPEPPAGHQWKEV
+RSDNTVTWLAAWTESVQNSIKYIMLNPCSKLKGETAWQKFETARRLRGFVDEIRSQYRAD
+WKSREMKTRQRAVALYFIDKLALRAGNEKEDGEAADTVGCCSLRVEHVQLHPEADGCQHV
+VEFDFLGKDCIRYYNRVPVEKPVYKNLQLFMENKDPRDDLFDRLTTTSLNKHLQELMDGL
+TAKVFRTYNASITLQEQLRALTRAEDSIAAKILSYNRANRVVAILCNHQRATPSTFEKSM
+QNLQTKIQAKKEQVAEARAELRRARAEHKAQGDGKSRSVLEKKRRLLEKLQEQLAQLSVQ
+ATDKEENKQVALGTSKLNYLDPRISIAWCKRFRVPVEKIYSKTQRERFAWALAMAGEDFE
+F
+
+# Drug_Target_2_Reaction:
+ATP-independent breakage of single-stranded DNA, followed by passage and rejoining INHIBITOR Camptothecin
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Relieves DNA strain that arise during duplication of mitochondrial DNA
+
+# Drug_Target_2_SwissProt_ID:
+Q969P6
+
+# Drug_Target_2_SwissProt_Name:
+TOP1M_HUMAN
+
+# Drug_Target_2_Synonyms:
+DNA topoisomerase I, mitochondrial precursor
+EC 5.99.1.2
+TOP1mt
+
+# Drug_Target_2_Theoretical_pI:
+9.94
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00762

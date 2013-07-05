@@ -1,0 +1,978 @@
+#BEGIN_DRUGCARD DB00431
+
+# AHFS_Codes:
+84:04.12
+84:04.92
+
+# ATC_Codes:
+D08AE01
+P03AB02
+
+# Absorption:
+Lindane is absorbed significantly through the skin. A mean peak blood concentration of 28 nanograms per mL occurred in infants and children 6 hours after total body application of lindane lotion for scabies.
+
+# Biotransformation:
+Primarily hepatic through dechlorination leading to 2-chlorophenol, 0-chlorophenol, chlorocyclohexane, chlorocyclohexanol.
+
+# Brand_Mixtures:
+Dermadex CRM (Benzoic Acid + Benzyl Benzoate + Lindane + Salicylic Acid + Zinc Oxide + Zinc Undecylenate)
+
+# Brand_Names:
+Aalindan
+Aficide
+Agrocide
+Agrocide III
+Agrocide WP
+Ameisentod
+Aparasin
+Aphtiria
+Aplidal
+Arbitex
+Atlas steward
+Ben-Hex
+Bentox 10
+Bexol
+Celanex
+Chloresene
+Codechine
+Devoran
+Entomoxan
+Esoderm
+Gamacid
+Gamene
+Gammalin
+Gammalin 20
+Gammasan
+Gammaterr
+Gammexane
+Gexane
+Heclotox
+Hexa
+Hexatox
+Hexaverm
+Hexicide
+Hexit
+Hexyclan
+Hortex
+Indane
+Isotox
+Jacutin
+Kokotine
+Kwell
+Lendine
+Lentox
+Lidenal
+Lindafor
+Lindatox
+Lindex
+Lindosep
+Lintox
+Linvur
+Lorexane
+Milbol 49
+Mszycol
+Neo-Scabicidol
+New kotol
+Nexen FB
+Nexit
+Nexit-Stark
+Nexol-E
+Nicochloran
+Omnitox
+Ovadziak
+Owadziak
+Pedraczak
+Pflanzol
+Quellada
+Scabene
+Scabene lotion
+Spritz-Rapidin
+Spruehpflanzol
+Streunex
+Thionex
+Tri-6
+Viton
+
+# CAS_Registry_Number:
+58-89-9
+
+# ChEBI_ID:
+32888
+
+# Chemical_Formula:
+C6H6Cl6
+
+# Chemical_IUPAC_Name:
+(1R,2S,3r,4R,5S,6r)-1,2,3,4,5,6-hexachlorocyclohexane
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+703605
+
+# Description:
+An organochlorine insecticide that has been used as a pediculicide and a scabicide. Lindane has been banned in California, United Kingdom, Australia, and many western countries due to concerns about neurotoxicity and adverse effects on the environment. In Canada, Lindane is not recommmended as a first-line therapy due to reports of resistance, neurotoxicity, and bone marrow suppression, but has been approved by the FDA as a second-line therapy for topical treatment of pediculosis capitis (head lice), pediculosis pubis (pubic lice), or scabies in patients greater than two years of age who cannot tolerate or have failed first-line treatment.
+
+# Dosage_Forms:
+Emulsion	Topical
+Lotion	Topical
+Shampoo	Topical
+
+# Drug_Category:
+Antiscabies Agent
+Insecticides
+Scabicide
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+17636630	Strong M, Johnstone PW: Interventions for treating scabies. Cochrane Database Syst Rev. 2007 Jul 18;(3):CD000320.
+18335087	Brown VJ: Life after lindane in California. Environ Health Perspect. 2008 Mar;116(3):A128.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+3.72
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+7.3 mg/L (at 25 °C)
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Lindane
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+18 hours
+
+# InChI_Identifier:
+InChI=1S/C6H6Cl6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-6H/t1-,2-,3-,4+,5+,6+
+
+# InChI_Key:
+InChIKey=JLYXXMFPNIAWKQ-GNIYUCBRSA-N
+
+# Indication:
+For the treatment of patients infested with Sarcoptes scabiei or pediculosis capitis who have either failed to respond to adequate doses, or are intolerant of other approved therapies.
+
+# KEGG_Compound_ID:
+C07075
+
+# KEGG_Drug_ID:
+D00360
+
+# LIMS_Drug_ID:
+431
+
+# Mechanism_Of_Action:
+Lindane is an organochloride insecticide that has similar neurotoxic protperties to DDT. It exerts its parasiticidal action by being directly absorbed through the parasite's exoskeleton (primarily lice, or scabies) and their ova. The gamma-aminobutyric acid (GABA(1)) receptor/chloride ionophore complex is the primary site of action for lindane, and other insecticides such as endosulfan, and fipronil. Blockage of the GABA-gated chloride channel reduces neuronal inhibition, which leads to hyperexcitation of the central nervous system. This results in paralysis, convulsions, and death. Lindane has very low ovicidal activity.
+
+# Melting_Point:
+112.5 °C
+
+# Molecular_Weight_Avg:
+290.83
+
+# Molecular_Weight_Mono:
+287.860066434
+
+# Organisms_Affected:
+Scabies (Sarcoptes scabei) and other insects
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164754914
+
+# Pharmacology:
+Scabies is a common, highly pruritic infestation of the skin caused by Sarcoptes scabiei (lice). It is a very contagious condition with specific lesions, such as burrows, and nonspecific lesions, such as papules, vesicles and excoriations. The typical areas of the body it affects are finger webs, scalp (hair), wrists, axillary folds, abdomen, buttocks, inframammary folds and genitalia (males). It is characterized by intense night-time itching. Scabies is spread through close personal contact (relatives, sexual partners, schoolchildren, chronically ill patients and crowded communities). Scabies infestations and the corresponding symptoms can be eliminated by killing the scabies with topical insecticides or scabicides. Lindane is a scabicide that is essentially an organochloride insecticide.
+
+# Predicted_LogP_Hydrophobicity:
+3.94
+
+# Predicted_LogS:
+-4.7
+
+# Predicted_Water_Solubility:
+5.47e-03 g/l
+
+# Primary_Accession_No:
+DB00431
+
+# Protein_Binding:
+91%
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/lindane.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD01072
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H]1Cl
+
+# State:
+liquid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Benzene hexachloride
+Lindan
+gamma-BHC
+gamma-HCH
+gamma-Hexachlorocyclohexane
+γ-BHC
+γ-HCH
+γ-Hexachlorzyklohexan
+γ-benzene hexachloride
+γ-hexachlorocyclohexane
+γ-lindane
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Lindane is a moderately toxic compound via oral exposure, with a reported oral LD<sub>50</sub> of 88 to 190 mg/kg in rats. Gamma-HCH (which constitutes 99% of lindane) is generally considered to be the most acutely toxic of the isomers following single administration. It is moderately toxic via the dermal route as well, with reported dermal LD<sub>50</sub> values of 500 to 1000 mg/kg in rats, 300 mg/kg in mice, 400 mg/kg in guinea pigs, and 300 mg/kg in rabbits. Acute exposure to lindane may lead to central nervous system stimulation (usually developing within 1 hour), mental/motor impairment, excitation, clonic (intermittent) and tonic (continuous) convulsion. Other adverse reactions include central nervous system toxicity, as well as skin and gastrointestinal changes.
+
+# Update_Date:
+2013-02-08 16:19:20 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Lindane
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+12614680	Vale C, Fonfria E, Bujons J, Messeguer A, Rodriguez-Farre E, Sunol C: The organochlorine pesticides gamma-hexachlorocyclohexane (lindane), alpha-endosulfan and dieldrin differentially interact with GABA(A) and glycine-gated chloride channels in primary cultures of cerebellar granule cells. Neuroscience. 2003;117(2):397-403.
+12645305	Sauviat MP, Pages N: [Cardiotoxicity of lindane, a gamma isomer of hexachlorocyclohexane] J Soc Biol. 2002;196(4):339-48.
+14635176	Bloomquist JR: Chloride channels as tools for developing selective insecticides. Arch Insect Biochem Physiol. 2003 Dec;54(4):145-56.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+20600211	Heusinkveld HJ, Thomas GO, Lamot I, van den Berg M, Kroese AB, Westerink RH: Dual actions of lindane (gamma-hexachlorocyclohexane) on calcium homeostasis and exocytosis in rat PC12 cells. Toxicol Appl Pharmacol. 2010 Oct 1;248(1):12-9. Epub 2010 Jun 21.
+7566682	Joy RM, Walby WF, Stark LG, Albertson TE: Lindane blocks GABAA-mediated inhibition and modulates pyramidal cell excitability in the rat hippocampal slice. Neurotoxicology. 1995 Summer;16(2):217-28.
+7885191	Cole LM, Roush RT, Casida JE: Drosophila GABA-gated chloride channel: modified [3H]EBOB binding site associated with Ala-->Ser or Gly mutants of Rdl subunit. Life Sci. 1995;56(10):757-65.
+8841090	Narahashi T: Neuronal ion channels as the target sites of insecticides. Pharmacol Toxicol. 1996 Jul;79(1):1-14.
+9530529	Anand M, Agrawal AK, Rehmani BN, Gupta GS, Rana MD, Seth PK: Role of GABA receptor complex in low dose lindane (HCH) induced neurotoxicity: neurobehavioural, neurochemical and electrophysiological studies. Drug Chem Toxicol. 1998 Feb;21(1):35-46.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+GABRB1
+
+# Drug_Target_1_GenBank_ID_Gene:
+X14767
+
+# Drug_Target_1_GenBank_ID_Protein:
+31635
+
+# Drug_Target_1_GeneCard_ID:
+GABRB1
+
+# Drug_Target_1_Gene_Name:
+GABRB1
+
+# Drug_Target_1_Gene_Sequence:
+>1425 bp
+ATGTGGACAGTACAAAATCGAGAGAGTCTGGGGCTTCTCTCTTTCCCTGTGATGATTACC
+ATGGTCTGTTGTGCACACAGCACCAATGAACCCAGCAACATGCCATACGTGAAAGAGACA
+GTGGACAGATTGCTCAAAGGATATGACATTCGCTTGCGGCCGGACTTCGGAGGGCCCCCC
+GTCGACGTTGGGATGCGGATCGATGTCGCCAGCATAGACATGGTCTCCGAAGTGAATATG
+GATTATACACTCACCATGTATTTCCAGCAGTCTTGGAAAGACAAAAGGCTTTCTTATTCT
+GGAATCCCACTGAACCTCACCCTAGACAATAGGGTAGCTGACCAACTCTGGGTACCAGAC
+ACCTACTTTCTGAATGACAAGAAATCATTTGTGCATGGGGTCACAGTGAAAAATCGAATG
+ATTCGACTGCATCCTGATGGAACAGTTCTCTATGGACTCCGAATCACAACCACAGCTGCA
+TGTATGATGGATCTTCGAAGATATCCACTGGATGAGCAGAACTGCACCCTGGAGATCGAA
+AGTTATGGCTATACCACTGATGACATTGAATTTTACTGGAATGGAGGAGAAGGGGCAGTC
+ACTGGTGTTAATAAAATCGAACTTCCTCAATTTTCAATTGTTGACTACAAGATGGTGTCT
+AAGAAGGTGGAGTTCACAACAGGAGCGTATCCACGACTGTCACTAAGTTTTCGTCTAAAG
+AGAAACATTGGTTACTTCATTTTGCAAACCTACATGCCTTCTACACTGATTACAATTCTG
+TCCTGGGTGTCTTTTTGGATCAACTATGATGCATCTGCAGCCAGAGTCGCACTAGGAATC
+ACGACGGTGCTTACAATGACAACCATCAGCACCCACCTCAGGGAGACCCTGCCAAAGATC
+CCTTATGTCAAAGCGATTGATATTTATCTGATGGGTTGCTTTGTGTTTGTGTTCCTGGCT
+CTGCTGGAGTATGCCTTTGTAAATTACATCTTCTTTGGGAAAGGCCCTCAGAAAAAGGGA
+GCTAGCAAACAAGACCAGAGTGCCAATGAGAAGAATAAACTGGAGATGAATAAAGTCCAG
+GTCGACGCCCACGGTAACATTCTCCTCAGCACCCTGGAAATCCGGAATGAGACGAGTGGC
+TCGGAAGTGCTCACGAGCGTGAGCGACCCCAAGGCCACCATGTACTCCTATGACAGCGCC
+AGCATCCAGTACCGCAAGCCCCTGAGCAGCCGCGAGGCCTACGGGCGCGCCCTGGACCGG
+CACGGGGTACCCAGCAAGGGGCGCATCCGCAGGCGTGCCTCCCAGCTCAAAGTCAAGATC
+CCCGACTTGACTGATGTGAATTCCATAGACAAGTGGTCCCGAATGTTTTTCCCCATCACC
+TTTTCTCTTTTTAATGTCGTCTATTGGCTTTACTATGTACACTGA
+
+# Drug_Target_1_General_Function:
+Not Available
+
+# Drug_Target_1_General_References:
+1655634	Kirkness EF, Kusiak JW, Fleming JT, Menninger J, Gocayne JD, Ward DC, Venter JC: Isolation, characterization, and localization of human genomic DNA encoding the beta 1 subunit of the GABAA receptor (GABRB1). Genomics. 1991 Aug;10(4):985-95.
+2160058	Garrett KM, Saito N, Duman RS, Abel MS, Ashton RA, Fujimori S, Beer B, Tallman JF, Vitek MP, Blume AJ: Differential expression of gamma-aminobutyric acidA receptor subunits. Mol Pharmacol. 1990 May;37(5):652-7.
+2465923	Schofield PR, Pritchett DB, Sontheimer H, Kettenmann H, Seeburg PH: Sequence and expression of human GABAA receptor alpha 1 and beta 1 subunits. FEBS Lett. 1989 Feb 27;244(2):361-4.
+8178835	Coon H, Sobell J, Heston L, Sommer S, Hoff M, Holik J, Umar F, Robertson M, Reimherr F, Wender P, et al.: Search for mutations in the beta 1 GABAA receptor subunit gene in patients with schizophrenia. Am J Med Genet. 1994 Mar 15;54(1):12-20.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:4081
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+4098
+
+# Drug_Target_1_Locus:
+4p12
+
+# Drug_Target_1_Molecular_Weight:
+54235
+
+# Drug_Target_1_Name:
+Gamma-aminobutyric-acid receptor subunit beta-1
+
+# Drug_Target_1_Number_of_Residues:
+474
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF02931	Neur_chan_LBD
+PF02932	Neur_chan_memb
+
+# Drug_Target_1_Protein_Sequence:
+>Gamma-aminobutyric-acid receptor subunit beta-1
+MWTVQNRESLGLLSFPVMITMVCCAHSTNEPSNMSYVKETVDRLLKGYDIRLRPDFGGPP
+VDVGMRIDVASIDMVSEVNMDYTLTMYFQQSWKDKRLSYSGIPLNLTLDNRVADQLWVPD
+TYFLNDKKSFVHGVTVKNRMIRLHPDGTVLYGLRITTTAACMMDLRRYPLDEQNCTLEIE
+SYGYTTDDIEFYWNGGEGAVTGVNKIELPQFSIVDYKMVSKKVEFTTGAYPRLSLSFRLK
+RNIGYFILQTYMPSTLITILSWVSFWINYDASAARVALGITTVLTMTTISTHLRETLPKI
+PYVKAIDIYLMGCFVFVFLALLEYAFVNYIFFGKGPQKKGASKQDQSANEKNKLEMNKVQ
+VDAHGNILLSTLEIRNETSGSEVLTSVSDPKATMYSYDSASIQYRKPLSSREAYGRALDR
+HGVPSKGRIRRRASQLKVKIPDLTDVNSIDKWSRMFFPITFSLFNVVYWLYYVH
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+1-25
+
+# Drug_Target_1_Specific_Function:
+GABA, the major inhibitory neurotransmitter in the vertebrate brain, mediates neuronal inhibition by binding to the GABA/benzodiazepine receptor and opening an integral chloride channel
+
+# Drug_Target_1_SwissProt_ID:
+P18505
+
+# Drug_Target_1_SwissProt_Name:
+GBRB1_HUMAN
+
+# Drug_Target_1_Synonyms:
+GABA(A
+Gamma-aminobutyric-acid receptor subunit beta-1 precursor
+
+# Drug_Target_1_Theoretical_pI:
+9.01
+
+# Drug_Target_1_Transmembrane_Regions:
+246-267
+271-293
+305-327
+452-473
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+12614680	Vale C, Fonfria E, Bujons J, Messeguer A, Rodriguez-Farre E, Sunol C: The organochlorine pesticides gamma-hexachlorocyclohexane (lindane), alpha-endosulfan and dieldrin differentially interact with GABA(A) and glycine-gated chloride channels in primary cultures of cerebellar granule cells. Neuroscience. 2003;117(2):397-403.
+20600211	Heusinkveld HJ, Thomas GO, Lamot I, van den Berg M, Kroese AB, Westerink RH: Dual actions of lindane (gamma-hexachlorocyclohexane) on calcium homeostasis and exocytosis in rat PC12 cells. Toxicol Appl Pharmacol. 2010 Oct 1;248(1):12-9. Epub 2010 Jun 21.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+GLRA1
+
+# Drug_Target_2_GenBank_ID_Gene:
+X52009
+
+# Drug_Target_2_GenBank_ID_Protein:
+31851
+
+# Drug_Target_2_GeneCard_ID:
+GLRA1
+
+# Drug_Target_2_Gene_Name:
+GLRA1
+
+# Drug_Target_2_Gene_Sequence:
+>1350 bp
+ATGTACAGCTTCAATACTCTTCGACTCTACCTTTCGGGAGCCATTGTATTCTTCAGCCTT
+GCTGCTTCTAAGGAGGCTGAAGCTGCTCGCTCCGCAACCAAGCCTATGTCACCCTCGGAT
+TTCCTGGATAAGCTAATGGGGAGAACCTCCGGATATGATGCCAGGATCAGGCCCAATTTT
+AAAGGTCCCCCAGTGAACGTGAGCTGCAACATTTTCATCAACAGCTTTGGTTCCATTGCT
+GAGACAACCATGGACTATAGGGTCAACATCTTCCTGCGGCAGCAATGGAACGACCCCCGC
+CTGGCCTATAATGAATACCCTGACGACTCTCTGGACCTGGACCCATCCATGCTGGACTCC
+ATCTGGAAACCTGACCTGTTCTTTGCCAACGAGAAGGGGGCCCACTTCCATGAGATCACC
+ACAGACAACAAATTGCTAAGGATCTCCCGGAATGGGAATGTCCTCTACAGCATCAGAATC
+ACCCTGACACTGGCCTGCCCCATGGACTTGAAGAATTTCCCCATGGATGTCCAGACATGT
+ATCATGCAACTGGAAAGCTTTGGATATACGATGAATGACCTCATCTTTGAGTGGCAGGAA
+CAGGGAGCCGTGCAGGTAGCAGATGGACTAACTCTGCCCCAGTTTATCTTGAAGGAAGAG
+AAGGACTTGAGATACTGCACCAAGCACTACAACACAGGTAAATTCACCTGCATTGAGGCC
+CGGTTCCACCTGGAGCGGCAGATGGGTTACTACCTGATTCAGATGTATATTCCCAGCCTG
+CTCATTGTCATCCTCTCATGGATCTCCTTCTGGATCAACATGGATGCTGCACCTGCTCGT
+GTGGGCCTAGGCATCACCACTGTGCTCACCATGACCACCCAGAGCTCCGGCTCTCGAGCA
+TCTCTGCCCAAGGTGTCCTATGTGAAAGCCATTGACATTTGGATGGCAGTTTGCCTGCTC
+TTTGTGTTCTCAGCCCTATTAGAATATGCTGCCGTTAACTTTGTGTCTCGGCAACATAAG
+GAGCTGCTCCGATTCAGGAGGAAGCGGAGACATCACAAGGAGGATGAAGCTGGAGAAGGC
+CGCTTTAACTTCTCTGCCTATGGGATGGGCCCAGCCTGTCTACAGGCCAAGGATGGCATC
+TCAGTCAAGGGCGCCAACAACAGTAACACCACCAACCCCCCTCCTGCACCATCTAAGTCC
+CCAGAGGAGATGCGAAAACTCTTCATCCAGAGGGCCAAGAAGATCGACAAAATATCCCGC
+ATTGGCTTCCCCATGGCCTTCCTCATTTTCAACATGTTCTACTGGATCATCTACAAGATT
+GTCCGTAGAGAGGACGTCCACAACCAGTGA
+
+# Drug_Target_2_General_Function:
+Involved in GABA-A receptor activity
+
+# Drug_Target_2_General_References:
+10514101	Vergouwe MN, Tijssen MA, Peters AC, Wielaard R, Frants RR: Hyperekplexia phenotype due to compound heterozygosity for GLRA1 gene mutations. Ann Neurol. 1999 Oct;46(4):634-8.
+2155780	Grenningloh G, Schmieden V, Schofield PR, Seeburg PH, Siddique T, Mohandas TK, Becker CM, Betz H: Alpha subunit variants of the human glycine receptor: primary structures, functional expression and chromosomal localization of the corresponding genes. EMBO J. 1990 Mar;9(3):771-6.
+7611730	Shiang R, Ryan SG, Zhu YZ, Fielder TJ, Allen RJ, Fryer A, Yamashita S, O'Connell P, Wasmuth JJ: Mutational analysis of familial and sporadic hyperekplexia. Ann Neurol. 1995 Jul;38(1):85-91.
+7881416	Rees MI, Andrew M, Jawad S, Owen MJ: Evidence for recessive as well as dominant forms of startle disease (hyperekplexia) caused by mutations in the alpha 1 subunit of the inhibitory glycine receptor. Hum Mol Genet. 1994 Dec;3(12):2175-9.
+7925268	Langosch D, Laube B, Rundstrom N, Schmieden V, Bormann J, Betz H: Decreased agonist affinity and chloride conductance of mutant glycine receptors associated with human hereditary hyperekplexia. EMBO J. 1994 Sep 15;13(18):4223-8.
+7981700	Schorderet DF, Pescia G, Bernasconi A, Regli F: An additional family with Startle disease and a G1192A mutation at the alpha 1 subunit of the inhibitory glycine receptor gene. Hum Mol Genet. 1994 Jul;3(7):1201.
+8298642	Shiang R, Ryan SG, Zhu YZ, Hahn AF, O'Connell P, Wasmuth JJ: Mutations in the alpha 1 subunit of the inhibitory glycine receptor cause the dominant neurologic disorder, hyperekplexia. Nat Genet. 1993 Dec;5(4):351-8.
+8571969	Milani N, Dalpra L, del Prete A, Zanini R, Larizza L: A novel mutation (Gln266-->His) in the alpha 1 subunit of the inhibitory glycine-receptor gene (GLRA1) in hereditary hyperekplexia. Am J Hum Genet. 1996 Feb;58(2):420-2.
+8733061	Elmslie FV, Hutchings SM, Spencer V, Curtis A, Covanis T, Gardiner RM, Rees M: Analysis of GLRA1 in hereditary and sporadic hyperekplexia: a novel mutation in a family cosegregating for hyperekplexia and spastic paraparesis. J Med Genet. 1996 May;33(5):435-6.
+9067762	Seri M, Bolino A, Galietta LJ, Lerone M, Silengo M, Romeo G: Startle disease in an Italian family by mutation (K276E): The alpha-subunit of the inhibiting glycine receptor. Hum Mutat. 1997;9(2):185-7.
+9920650	Saul B, Kuner T, Sobetzko D, Brune W, Hanefeld F, Meinck HM, Becker CM: Novel GLRA1 missense mutation (P250T) in dominant hyperekplexia defines an intracellular determinant of glycine receptor channel gating. J Neurosci. 1999 Feb 1;19(3):869-77.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:4326
+
+# Drug_Target_2_HPRD_ID:
+00719
+
+# Drug_Target_2_ID:
+482
+
+# Drug_Target_2_Locus:
+5q32
+
+# Drug_Target_2_Molecular_Weight:
+52625
+
+# Drug_Target_2_Name:
+Glycine receptor subunit alpha-1
+
+# Drug_Target_2_Number_of_Residues:
+457
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF02931	Neur_chan_LBD
+PF02932	Neur_chan_memb
+
+# Drug_Target_2_Protein_Sequence:
+>Glycine receptor subunit alpha-1 precursor
+MYSFNTLRLYLWETIVFFSLAASKEAEAARSAPKPMSPSDFLDKLMGRTSGYDARIRPNF
+KGPPVNVSCNIFINSFGSIAETTMDYRVNIFLRQQWNDPRLAYNEYPDDSLDLDPSMLDS
+IWKPDLFFANEKGAHFHEITTDNKLLRISRNGNVLYSIRITLTLACPMDLKNFPMDVQTC
+IMQLESFGYTMNDLIFEWQEQGAVQVADGLTLPQFILKEEKDLRYCTKHYNTGKFTCIEA
+RFHLERQMGYYLIQMYIPSLLIVILSWISFWINMDAAPARVGLGITTVLTMTTQSSGSRA
+SLPKVSYVKAIDIWMAVCLLFVFSALLEYAAVNFVSRQHKELLRFRRKRRHHKSPMLNLF
+QEDEAGEGRFNFSAYGMGPACLQAKDGISVKGANNSNTTNPPPAPSKSPEEMRKLFIQRA
+KKIDKISRIGFPMAFLIFNMFYWIIYKIVRREDVHNQ
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+1-28
+
+# Drug_Target_2_Specific_Function:
+The glycine receptor is a neurotransmitter-gated ion channel. Binding of glycine to its receptor increases the chloride conductance and thus produces hyperpolarization (inhibition of neuronal firing)
+
+# Drug_Target_2_SwissProt_ID:
+P23415
+
+# Drug_Target_2_SwissProt_Name:
+GLRA1_HUMAN
+
+# Drug_Target_2_Synonyms:
+Glycine receptor 48 kDa subunit
+Glycine receptor strychnine-binding subunit
+Glycine receptor subunit alpha-1 precursor
+
+# Drug_Target_2_Theoretical_pI:
+9.04
+
+# Drug_Target_2_Transmembrane_Regions:
+248-274
+281-298
+313-336
+429-446
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+12614680	Vale C, Fonfria E, Bujons J, Messeguer A, Rodriguez-Farre E, Sunol C: The organochlorine pesticides gamma-hexachlorocyclohexane (lindane), alpha-endosulfan and dieldrin differentially interact with GABA(A) and glycine-gated chloride channels in primary cultures of cerebellar granule cells. Neuroscience. 2003;117(2):397-403.
+20600211	Heusinkveld HJ, Thomas GO, Lamot I, van den Berg M, Kroese AB, Westerink RH: Dual actions of lindane (gamma-hexachlorocyclohexane) on calcium homeostasis and exocytosis in rat PC12 cells. Toxicol Appl Pharmacol. 2010 Oct 1;248(1):12-9. Epub 2010 Jun 21.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+GLRA2
+
+# Drug_Target_3_GenBank_ID_Gene:
+X52008
+
+# Drug_Target_3_GenBank_ID_Protein:
+31849
+
+# Drug_Target_3_GeneCard_ID:
+GLRA2
+
+# Drug_Target_3_Gene_Name:
+GLRA2
+
+# Drug_Target_3_Gene_Sequence:
+>1359 bp
+ATGAACCGGCAGCTAGTGAACATTTTGACAGCCTTGTTTGCATTTTTCTTAGAGACAAAC
+CACTTCAGGACGGCTTTCTGCAAAGACCATGACTCCAGGTCTGGAAAACAACCTTCACAG
+ACCCTATCTCCTTCAGATTTCTTGGACAAGTTAATGGGAAGGACATCAGGATATGATGCA
+AGAATCAGGCCAAATTTTAAAGGTCCTCCAGTAAACGTTACTTGCAATATTTTTATCAAC
+AGTTTTGGATCAGTCACAGAAACGACCATGGACTACCGAGTGAATATTTTTCTGAGACAA
+CAGTGGAATGATTCACGGCTGGCGTACAGTGAGTACCCAGATGACTCCCTGGACTTGGAC
+CCATCCATGCTAGACTCCATTTGGAAACCAGATTTGTTCTTTGCCAATGAGAAGGGTGCC
+AACTTCCACGATGTCACCACTGACAACAAATTGCTACGGATTTCGAAAAATGGCAAAGTG
+CTCTACAGTATCAGACTCACCTTGACCTTATCCTGTCCCATGGACTTGAAGAACTTTCCG
+ATGGATGTCCAGACCTGTACAATGCAGCTGGAGAGTTTTGGGTACACGATGAATGACCTG
+ATATTTGAGTGGTTAAGTGATGGTCCAGTGCAAGTTGCTGAAGGATTGACCCTGCCCCAG
+TTTATTTTGAAAGAAGAGAAGGAACTTGGCTACTGTACAAAGCACTACAACACTGGAAAG
+TTTACCTGCATTGAGGTCAAGTTTCACCTGGAACGCCAAATGGGATATTATTTGATCCAG
+ATGTACATCCCAAGCCTGCTTATAGTAATTTTGTCCTGGGTTTCCTTTTGGATAAATATG
+GATGCAGCCCCTGCCAGGGTCGCACTGGGCATCACCACAGTCTTAACGATGACCACCCAG
+AGTTCAGGCTCCAGGGCATCTCTGCCAAAGGTCTCCTATGTAAAAGCGATTGACATCTGG
+ATGGCGGTGTGCCTTCTGTTTGTGTTTGCTGCCTTACTGGAATACGCAGCGGTGAACTTC
+GTCTCCAGGCAACACAAGGAGTTCCTGCGCCTCCGAAGAAGACAGAAGAGGCAGAATAAG
+GAAGAAGACGTTACTCGTGAAAGTCGTTTTAATTTTAGCGGTTATGGGATGGGTCACTGC
+CTCCAAGTGAAAGATGGAACAGCTGTCAAGGCCACACCTGCCAACCCACTCCCACAACCG
+CCAAAAGATGGAGATGCTATCAAGAAGAAGTTTGTGGACCGGGCAAAAAGGATTGACACG
+ATATCTCGAGCTGCCTTCCCATTGGCCTTCCTCATTTTCAACATCTTTTACTGGATCACA
+TACAAGATCATTCGGCATGAAGATGTCCACAAGAAATAG
+
+# Drug_Target_3_General_Function:
+Involved in GABA-A receptor activity
+
+# Drug_Target_3_General_References:
+2155780	Grenningloh G, Schmieden V, Schofield PR, Seeburg PH, Siddique T, Mohandas TK, Becker CM, Betz H: Alpha subunit variants of the human glycine receptor: primary structures, functional expression and chromosomal localization of the corresponding genes. EMBO J. 1990 Mar;9(3):771-6.
+8973915	Monani U, Burghes AH: Structure of the human alpha 2 subunit gene of the glycine receptor--use of vectorette and Alu-exon PCR. Genome Res. 1996 Dec;6(12):1200-6.
+9674912	Cummings CJ, Dahle EJ, Zoghbi HY: Analysis of the genomic structure of the human glycine receptor alpha2 subunit gene and exclusion of this gene as a candidate for Rett syndrome. Am J Med Genet. 1998 Jun 30;78(2):176-8.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:4327
+
+# Drug_Target_3_HPRD_ID:
+02379
+
+# Drug_Target_3_ID:
+820
+
+# Drug_Target_3_Locus:
+Xp22.1-p21.3
+
+# Drug_Target_3_Molecular_Weight:
+52003
+
+# Drug_Target_3_Name:
+Glycine receptor subunit alpha-2
+
+# Drug_Target_3_Number_of_Residues:
+452
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF02931	Neur_chan_LBD
+PF02932	Neur_chan_memb
+
+# Drug_Target_3_Protein_Sequence:
+>Glycine receptor subunit alpha-2 precursor
+MNRQLVNILTALFAFFLETNHFRTAFCKDHDSRSGKQPSQTLSPSDFLDKLMGRTSGYDA
+RIRPNFKGPPVNVTCNIFINSFGSVTETTMDYRVNIFLRQQWNDSRLAYSEYPDDSLDLD
+PSMLDSIWKPDLFFANEKGANFHDVTTDNKLLRISKNGKVLYSIRLTLTLSCPMDLKNFP
+MDVQTCTMQLESFGYTMNDLIFEWLSDGPVQVAEGLTLPQFILKEEKELGYCTKHYNTGK
+FTCIEVKFHLERQMGYYLIQMYIPSLLIVILSWVSFWINMDAAPARVALGITTVLTMTTQ
+SSGSRASLPKVSYVKAIDIWMAVCLLFVFAALLEYAAVNFVSRQHKEFLRLRRRQKRQNK
+EEDVTRESRFNFSGYGMGHCLQVKDGTAVKATPANPLPQPPKDGDAIKKKFVDRAKRIDT
+ISRAAFPLAFLIFNIFYWITYKIIRHEDVHKK
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+1-27
+
+# Drug_Target_3_Specific_Function:
+The glycine receptor is a neurotransmitter-gated ion channel. Binding of glycine to its receptor increases the chloride conductance and thus produces hyperpolarization (inhibition of neuronal firing)
+
+# Drug_Target_3_SwissProt_ID:
+P23416
+
+# Drug_Target_3_SwissProt_Name:
+GLRA2_HUMAN
+
+# Drug_Target_3_Synonyms:
+Glycine receptor subunit alpha-2 precursor
+
+# Drug_Target_3_Theoretical_pI:
+9.20
+
+# Drug_Target_3_Transmembrane_Regions:
+254-280
+287-304
+319-342
+424-441
+
+# Drug_Target_4_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+12614680	Vale C, Fonfria E, Bujons J, Messeguer A, Rodriguez-Farre E, Sunol C: The organochlorine pesticides gamma-hexachlorocyclohexane (lindane), alpha-endosulfan and dieldrin differentially interact with GABA(A) and glycine-gated chloride channels in primary cultures of cerebellar granule cells. Neuroscience. 2003;117(2):397-403.
+20600211	Heusinkveld HJ, Thomas GO, Lamot I, van den Berg M, Kroese AB, Westerink RH: Dual actions of lindane (gamma-hexachlorocyclohexane) on calcium homeostasis and exocytosis in rat PC12 cells. Toxicol Appl Pharmacol. 2010 Oct 1;248(1):12-9. Epub 2010 Jun 21.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+GLRA3
+
+# Drug_Target_4_GenBank_ID_Gene:
+AF017724
+
+# Drug_Target_4_GenBank_ID_Protein:
+3342792
+
+# Drug_Target_4_GeneCard_ID:
+GLRA3
+
+# Drug_Target_4_Gene_Name:
+GLRA3
+
+# Drug_Target_4_Gene_Sequence:
+>1398 bp
+ATGGCCCACGTGAGACACTTTCGGACATTAGTTTCGGGATTTTACTTCTGGGAAGCAGCA
+CTGTTACTCAGTTTGGTTGCCACAAAGGAAACAGACAGTGCAAGATCTCGAAGTGCTCCA
+ATGTCACCTTCTGATTTTCTGGATAAATTAATGGGCAGGACATCAGGATATGATGCAAGA
+ATCAGACCCAATTTTAAAGGCCCTCCAGTTAATGTCACATGCAACATATTCATCAACAGT
+TTCGGCTCTATCGCAGAGACGACCATGGATTACAGAGTGAATATCTTTCTTCGTCAGAAA
+TGGAATGATCCCCGCCTCGCGTACAGTGAATATCCTGACGACTCTTTAGACCTCGACCCC
+TCCATGTTGGACTCCATTTGGAAACCTGATTTGTTCTTTGCCAATGAAAAGGGTGCCAAC
+TTTCATGAAGTCACTACAGACAACAAATTGCTAAGAATTTTCAAAAATGGAAATGTTCTT
+TATTCAATAAGATTAACATTAACACTTTCCTGTCCAATGGATCTCAAGAATTTTCCCATG
+GATGTACAAACATGTATAATGCAACTGGAAAGCTTTGGGTACACAATGAATGATCTCATT
+TTTGAATGGCAAGATGAGGCACCCGTACAAGTGGCAGAAGGACTCACTTTGCCCCAGTTT
+CTGTTGAAAGAAGAAAAAGATTTACGATACTGCACTAAACATTACAATACAGGAAAGTTT
+ACGTGTATAGAAGTGCGATTCCATCTGGAGCGACAAATGGGATACTATCTGATCCAGATG
+TACATTCCCAGTCTCCTGATTGTTATTCTATCCTGGGTTTCGTTCTGGATCAACATGGAT
+GCAGCACCGGCCAGGGTAGCTCTGGGGATAACCACCGTGCTAACGATGACTACACAGAGT
+TCAGGATCACGAGCTTCCTTGCCAAAAGTTTCATATGTCAAAGCTATTGATATTTGGATG
+GCAGTATGCCTCCTTTTTGTGTTTTCAGCACTTCTGGAGTATGCAGCTGTAAATTTTGTA
+TCAAGACAACACAAAGAACTTCTGAGATTTCGACGAAAGAGAAAGAATAAGACAGAAGCT
+TTTGCACTGGAGAAGTTTTACCGTTTCTCAGATATGGATGATGAGGTAAGGGAAAGCCGA
+TTCAGCTTCACAGCCTATGGAATGGGACCATGTCTACAAGCAAAGGATGGCATGACTCCA
+AAGGGCCCCAACCACCCTGTCCAGGTAATGCCAAAAAGTCCTGATGAAATGAGGAAGGTC
+TTTATCGACCGGGCCAAGAAGATTGATACCATCTCCCGAGCCTGCTTCCCATTAGCTTTT
+TTGATTTTTAATATTTTCTACTGGGTTATCTATAAAATTCTTAGGCATGAGGATATTCAT
+CATCAGCAGCAAGATTAA
+
+# Drug_Target_4_General_Function:
+Involved in GABA-A receptor activity
+
+# Drug_Target_4_General_References:
+9677400	Nikolic Z, Laube B, Weber RG, Lichter P, Kioschis P, Poustka A, Mulhardt C, Becker CM: The human glycine receptor subunit alpha3. Glra3 gene structure, chromosomal localization, and functional characterization of alternative transcripts. J Biol Chem. 1998 Jul 31;273(31):19708-14.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:4328
+
+# Drug_Target_4_HPRD_ID:
+02688
+
+# Drug_Target_4_ID:
+461
+
+# Drug_Target_4_Locus:
+4q33-q34
+
+# Drug_Target_4_Molecular_Weight:
+53801
+
+# Drug_Target_4_Name:
+Glycine receptor subunit alpha-3
+
+# Drug_Target_4_Number_of_Residues:
+464
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF02931	Neur_chan_LBD
+PF02932	Neur_chan_memb
+
+# Drug_Target_4_Protein_Sequence:
+>Glycine receptor subunit alpha-3 precursor
+MAHVRHFRTLVSGFYFWEAALLLSLVATKETDSARSRSAPMSPSDFLDKLMGRTSGYDAR
+IRPNFKGPPVNVTCNIFINSFGSIAETTMDYRVNIFLRQKWNDPRLAYSEYPDDSLDLDP
+SMLDSIWKPDLFFANEKGANFHEVTTDNKLLRIFKNGNVLYSIRLTLTLSCPMDLKNFPM
+DVQTCIMQLESFGYTMNDLIFEWQDEAPVQVAEGLTLPQFLLKEEKDLRYCTKHYNTGKF
+TCIEVRFHLERQMGYYLIQMYIPSLLIVILSWVSFWINMDAAPARVALGITTVLTMTTQS
+SGSRASLPKVSYVKAIDIWMAVCLLFVFSALLEYAAVNFVSRQHKELLRFRRKRKNKTEA
+FALEKFYRFSDMDDEVRESRFSFTAYGMGPCLQAKDGMTPKGPNHPVQVMPKSPDEMRKV
+FIDRAKKIDTISRACFPLAFLIFNIFYWVIYKILRHEDIHQQQD
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+1-33
+
+# Drug_Target_4_Specific_Function:
+The glycine receptor is a neurotransmitter-gated ion channel. Binding of glycine to its receptor increases the chloride conductance and thus produces hyperpolarization (inhibition of neuronal firing)
+
+# Drug_Target_4_SwissProt_ID:
+O75311
+
+# Drug_Target_4_SwissProt_Name:
+GLRA3_HUMAN
+
+# Drug_Target_4_Synonyms:
+Glycine receptor subunit alpha-3 precursor
+
+# Drug_Target_4_Theoretical_pI:
+8.51
+
+# Drug_Target_4_Transmembrane_Regions:
+253-279
+286-303
+315-341
+434-451
+
+# Drug_Target_5_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+12614680	Vale C, Fonfria E, Bujons J, Messeguer A, Rodriguez-Farre E, Sunol C: The organochlorine pesticides gamma-hexachlorocyclohexane (lindane), alpha-endosulfan and dieldrin differentially interact with GABA(A) and glycine-gated chloride channels in primary cultures of cerebellar granule cells. Neuroscience. 2003;117(2):397-403.
+20600211	Heusinkveld HJ, Thomas GO, Lamot I, van den Berg M, Kroese AB, Westerink RH: Dual actions of lindane (gamma-hexachlorocyclohexane) on calcium homeostasis and exocytosis in rat PC12 cells. Toxicol Appl Pharmacol. 2010 Oct 1;248(1):12-9. Epub 2010 Jun 21.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+GLRB
+
+# Drug_Target_5_GenBank_ID_Gene:
+U33267
+
+# Drug_Target_5_GenBank_ID_Protein:
+992687
+
+# Drug_Target_5_GeneCard_ID:
+GLRB
+
+# Drug_Target_5_Gene_Name:
+GLRB
+
+# Drug_Target_5_Gene_Sequence:
+>1494 bp
+ATGAAGTTTTTATTGACAACTGCCTTTTTAATTTTAATTTCCTTGTGGGTGGAAGAAGCC
+TATTCTAAGGAAAAGTCTTCAAAGAAAGGGAAGGGGAAAAAGAAGCAGTATCTATGCCCA
+TCTCAGCAGTCAGCAGAGGACCTTGCCCGAGTACCTGCCAACTCCACTAGCAATATCTTG
+AACAGGTTATTGGTCAGTTATGATCCCAGGATAAGACCAAACTTCAAAGGCATTCCTGTT
+GATGTAGTAGTCAACATTTTTATTAACAGTTTTGGATCCATTCAAGAAACAACAATGGAC
+TATAGAGTTAACATCTTCCTGAGACAAAAATGGAATGACCCCAGGCTGAAGCTCCCCAGT
+GATTTTAGGGGTTCAGATGCACTGACAGTGGATCCAACAATGTACAAGTGTTTATGGAAA
+CCTGATTTATTTTTTGCAAATGAAAAAAGTGCCAATTTTCATGATGTGACCCAGGAAAAC
+ATCCTCCTCTTTATTTTTCGTGATGGAGATGTCCTTGTCAGCATGAGGTTATCTATTACT
+CTTTCATGCCCTTTGGACTTGACATTGTTTCCCATGGATACACAACGTTGCAAGATGCAA
+CTGGAGAGCTTTGGTTACACAACTGATGATTTACGATTTATCTGGCAGTCAGGAGATCCT
+GTGCAATTAGAAAAAATTGCCTTGCCTCAATTTGATATCAAAAAGGAAGATATTGAATAT
+GGTAACTGTACAAAATACTATAAAGGCACGGGCTACTACACATGCGTGGAAGTCATCTTC
+ACCCTGAGGAGGCAGGTCGGCTTTTACATGATGGGGGTCTACGCCCCAACCCTGCTCATT
+GTTGTTCTCTCCTGGCTTTCCTTCTGGATCAACCCGGACGCGAGTGCTGCCAGAGTGCCC
+CTGGGTATCTTCTCAGTCCTCAGCTTGGCCTCTGAGTGCACAACCCTTGCCGCTGAGCTT
+CCCAAAGTTTCCTATGTGAAGGCTCTTGATGTTTGGCTTATTGCTTGCCTTCTCTTTGGG
+TTTGCTTCCCTGGTGGAGTATGCAGTTGTCCAGGTGATGCTGAACAACCCCAAAAGGGTT
+GAAGCTGAAAAAGCCAGAATTGCTAAGGCTGAGCAAGCAGATGGAAAAGGTGGAAATGTG
+GCTAAAAAGAATACTGTGAATGGAACAGGGACTCCTGTTCATATTAGCACTTTGCAGGTT
+GGTGAGACCAGATGCAAAAAAGTTTGTACTTCTAAGTCTGATCTGAGATCTAATGACTTC
+AGCATTGTTGGAAGCTTACCAAGAGATTTTGAACTATCCAATTATGACTGCTATGGAAAA
+CCCATTGAAGTTAACAACGGACTTGGGAAATCTCAGGCTAAGAACAACAAGAAGCCTCCC
+CCTGCGAAACCTGTTATTCCAACAGCAGCAAAGCGAATTGATCTTTATGCAAGAGCATTG
+TTTCCTTTCTGCTTCTTGTTCTTCAATGTTATATATTGGTCTATATATTTATGA
+
+# Drug_Target_5_General_Function:
+Involved in extracellular-glycine-gated chloride channel activity
+
+# Drug_Target_5_General_References:
+8717357	Handford CA, Lynch JW, Baker E, Webb GC, Ford JH, Sutherland GR, Schofield PR: The human glycine receptor beta subunit: primary structure, functional characterisation and chromosomal localisation of the human and murine genes. Brain Res Mol Brain Res. 1996 Jan;35(1-2):211-9.
+9676428	Milani N, Mulhardt C, Weber RG, Lichter P, Kioschis P, Poustka A, Becker CM: The human glycine receptor beta subunit gene (GLRB): structure, refined chromosomal localization, and population polymorphism. Genomics. 1998 Jun 15;50(3):341-5.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:4329
+
+# Drug_Target_5_HPRD_ID:
+11751
+
+# Drug_Target_5_ID:
+62
+
+# Drug_Target_5_Locus:
+4q31.3
+
+# Drug_Target_5_Molecular_Weight:
+56123
+
+# Drug_Target_5_Name:
+Glycine receptor subunit beta
+
+# Drug_Target_5_Number_of_Residues:
+497
+
+# Drug_Target_5_PDB_ID:
+1T3E
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF02931	Neur_chan_LBD
+PF02932	Neur_chan_memb
+
+# Drug_Target_5_Protein_Sequence:
+>Glycine receptor subunit beta precursor
+MKFLLTTAFLILISLWVEEAYSKEKSSKKGKGKKKQYLCPSQQSAEDLARVPANSTSNIL
+NRLLVSYDPRIRPNFKGIPVDVVVNIFINSFGSIQETTMDYRVNIFLRQKWNDPRLKLPS
+DFRGSDALTVDPTMYKCLWKPDLFFANEKSANFHDVTQENILLFIFRDGDVLVSMRLSIT
+LSCPLDLTLFPMDTQRCKMQLESFGYTTDDLRFIWQSGDPVQLEKIALPQFDIKKEDIEY
+GNCTKYYKGTGYYTCVEVIFTLRRQVGFYMMGVYAPTLLIVVLSWLSFWINPDASAARVP
+LGIFSVLSLASECTTLAAELPKVSYVKALDVWLIACLLFGFASLVEYAVVQVMLNNPKRV
+EAEKARIAKAEQADGKGGNVAKKNTVNGTGTPVHISTLQVGETRCKKVCTSKSDLRSNDF
+SIVGSLPRDFELSNYDCYGKPIEVNNGLGKSQAKNNKKPPPAKPVIPTAAKRIDLYARAL
+FPFCFLFFNVIYWSIYL
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+1-22
+
+# Drug_Target_5_Specific_Function:
+The glycine receptor is a neurotransmitter-gated ion channel. Binding of glycine to its receptor increases the chloride conductance and thus produces hyperpolarization (inhibition of neuronal firing)
+
+# Drug_Target_5_SwissProt_ID:
+P48167
+
+# Drug_Target_5_SwissProt_Name:
+GLRB_HUMAN
+
+# Drug_Target_5_Synonyms:
+Glycine receptor 58 kDa subunit
+Glycine receptor subunit beta precursor
+
+# Drug_Target_5_Theoretical_pI:
+9.11
+
+# Drug_Target_5_Transmembrane_Regions:
+266-290
+299-316
+331-354
+479-496
+
+#END_DRUGCARD DB00431

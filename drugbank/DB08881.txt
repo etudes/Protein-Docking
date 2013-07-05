@@ -1,0 +1,459 @@
+#BEGIN_DRUGCARD DB08881
+
+# AHFS_Codes:
+10:00
+
+# ATC_Codes:
+L01XE15
+
+# Absorption:
+After oral administration of vemurafenib, it is well absorbed. Bioavailability is unknown. Peak concentrations are reached in 3 hours when an oral dose of 960 mg twice daily for 15 days has been given to patients. Exposure is highly variable between different patients. Gastrointestinal fluid content, pH, volumes, motility, transition time and bile composition may be factors affecting exposure. It is unknown how food affects the absorption of vemurafenib. 
+Time to steady state = 15 - 22 days
+
+# Biotransformation:
+Vemurafenib is metabolized by CYP3A4 and the metabolites make up 5% of the components in plasma. The parent compound makes up for the remaining 95%.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Zelboraf
+
+# CAS_Registry_Number:
+918504-65-1
+
+# ChEBI_ID:
+63637
+
+# Chemical_Formula:
+C23H18ClF2N3O3S
+
+# Chemical_IUPAC_Name:
+N-{3-[5-(4-chlorophenyl)-1H-pyrrolo[2,3-b]pyridine-3-carbonyl]-2,4-difluorophenyl}propane-1-sulfonamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2013-05-20 00:41:09 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Vemurafenib is a BRAF enzyme inhibitor developed by Plexxikon and Genentech for the treatment of late-stage melanoma. [Wikipedia] The cobas® 4800 BRAF B600 mutation test provided by Roche Molecular Systems is the diagnostic test to confirm eligibility for treatment. FDA approved on August 17, 2011 under the company Hoffmann La Roche.
+
+# Dosage_Forms:
+Tablet	Oral
+
+# Drug_Category:
+Antineoplastic Agents
+
+# Drug_Interactions:
+Atazanavir	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Caffeine	Vemurafenib increases the AUC of caffeine (CYP1A2 substrate) 2.6-fold.
+Carbamazepine	Strong CYP3A4 inducers may decrease levels of vemurafenib. Monitor concomitant therapy closely.
+Clarithromycin	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Dextromethorphan	Vemurafenib increases the AUC (CYP2D6 substrate) by 47% .
+Indinavir	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Itraconazole	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Ketoconazole	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Midazolam	Vemurafenib decreases the AUC (CYP3A4 substrate) by 39%.
+Nefazodone	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Nelfinavir	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Phenobarbital	Strong CYP3A4 inducers may decrease levels of vemurafenib. Monitor concomitant therapy closely.
+Phenytoin	Strong CYP3A4 inducers may decrease levels of vemurafenib. Monitor concomitant therapy closely.
+Rifabutin	Strong CYP3A4 inducers may decrease levels of vemurafenib. Monitor concomitant therapy closely.
+Rifampin	Strong CYP3A4 inducers may decrease levels of vemurafenib. Monitor concomitant therapy closely.
+Rifapentine	Strong CYP3A4 inducers may decrease levels of vemurafenib. Monitor concomitant therapy closely.
+Ritonavir	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Saquinavir	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Telithromycin	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Voriconazole	Strong CYP3A4 inhibitors may increase levels of vemurafenib. Monitor concomitant therapy closely.
+Warfarin	Vemurafenib increases the AUC of S-warfarin (CYP2C9 substrate). Monitor concomitant therapy closely.
+
+# Drug_Reference:
+23094782	Jordan EJ, Kelly CM: Vemurafenib for the treatment of melanoma. Expert Opin Pharmacother. 2012 Dec;13(17):2533-43. doi: 10.1517/14656566.2012.737780. Epub 2012 Oct 24.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+5.1
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+<1 mg/mL
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Vemurafenib
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Elimination half-life = 57 hours (range of 30-120 hours)
+
+# InChI_Identifier:
+InChI=1/C23H18ClF2N3O3S/c1-2-9-33(31,32)29-19-8-7-18(25)20(21(19)26)22(30)17-12-28-23-16(17)10-14(11-27-23)13-3-5-15(24)6-4-13/h3-8,10-12,29H,2,9H2,1H3,(H,27,28)
+
+# InChI_Key:
+InChIKey=GPXBXXGIAQBQNI-UHFFFAOYNA-N
+
+# Indication:
+Treatment of unresectable or metastatic melanoma in patients with the BRAF-V600 mutation.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D09996
+
+# LIMS_Drug_ID:
+8894
+
+# Mechanism_Of_Action:
+Vemurafenib is an orally available inhibitor of mutated BRAF-serine-threonine kinase. It is especially potent against the BRAF V600E mutation. This mutation involves the substitution of glutamic acid for valine at codon 600. The BRAF oncogene, most of which have the V600E mutation, activates mitogen-activated kinase (MAPK) pathway which results in cell growth, proliferation, and metastasis. Vemurafenib blocks these downstream processes to inhibit tumour growth and eventually trigger apoptosis. Vemurafenib does not have antitumour effects against melanoma cell lines with the wild-type BRAF mutation.
+
+# Melting_Point:
+272°C
+
+# Molecular_Weight_Avg:
+489.922
+
+# Molecular_Weight_Mono:
+489.072546264
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA165946873
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+4.95
+
+# Predicted_LogS:
+-6.1
+
+# Predicted_Water_Solubility:
+3.62e-04 g/l
+
+# Primary_Accession_No:
+DB08881
+
+# Protein_Binding:
+>99% protein bound to serum albumin and alpha-1 acid glycoprotein.
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/zelboraf-drug.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CCCS(=O)(=O)NC1=C(F)C(C(=O)C2=CNC3=NC=C(C=C23)C2=CC=C(Cl)C=C2)=C(F)C=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+BRAF(V600E) Kinase Inhibitor RO5185426
+PLX4032
+RG7204
+RO5185426
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-05-21 01:51:24 -0600
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Vemurafenib
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP1A2
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4200
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 1A2
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 1A2
+MALSQSVPFSATELLLASAIFCLVFWVLKGLRPRVPKGLKSPPEPWGWPLLGHVLTLGKN
+PHLALSRMSQRYGDVLQIRIGSTPVLVLSRLDTIRQALVRQGDDFKGRPDLYTSTLITDG
+QSLTFSTDSGPVWAARRRLAQNALNTFSIASDPASSSSCYLEEHVSKEAKALISRLQELM
+AGPGHFDPYNQVVVSVANVIGAMCFGQHFPESSDEMLSLVKNTHEFVETASSGNPLDFFP
+ILRYLPNPALQRFKAFNQRFLWFLQKTVQEHYQDFDKNSVRDITGALFKHSKKGPRASGN
+LIPQEKIVNLVNDIFGAGFDTVTTAISWSLMYLVTKPEIQRKIQKELDTVIGRERRPRLS
+DRPQLPYLEAFILETFRHSSFLPFTIPHSTTRDTTLNGFYIPKKCCVFVNQWQVNHDPEL
+WEDPSEFRPERFLTADGTAINKPLSEKMMLFGMGKRRCIGEVLAKWEIFLFLAILLQQLE
+FSVPPGVKVDLTPIYGLTMKHARCEHVQARRFSIN
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P05177
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P08684
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+23094782	Jordan EJ, Kelly CM: Vemurafenib for the treatment of melanoma. Expert Opin Pharmacother. 2012 Dec;13(17):2533-43. doi: 10.1517/14656566.2012.737780. Epub 2012 Oct 24.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+BRAF
+
+# Drug_Target_1_GenBank_ID_Gene:
+M95712
+
+# Drug_Target_1_GenBank_ID_Protein:
+41387220
+
+# Drug_Target_1_GeneCard_ID:
+BRAF
+
+# Drug_Target_1_Gene_Name:
+BRAF
+
+# Drug_Target_1_Gene_Sequence:
+>2301 bp
+ATGGCGGCGCTGAGCGGTGGCGGTGGTGGCGGCGCGGAGCCGGGCCAGGCTCTGTTCAAC
+GGGGACATGGAGCCCGAGGCCGGCGCCGGCGCCGGCGCCGCGGCCTCTTCGGCTGCGGAC
+CCTGCCATTCCGGAGGAGGTGTGGAATATCAAACAAATGATTAAGTTGACACAGGAACAT
+ATAGAGGCCCTATTGGACAAATTTGGTGGGGAGCATAATCCACCATCAATATATCTGGAG
+GCCTATGAAGAATACACCAGCAAGCTAGATGCACTCCAACAAAGAGAACAACAGTTATTG
+GAATCTCTGGGGAACGGAACTGATTTTTCTGTTTCTAGCTCTGCATCAATGGATACCGTT
+ACATCTTCTTCCTCTTCTAGCCTTTCAGTGCTACCTTCATCTCTTTCAGTTTTTCAAAAT
+CCCACAGATGTGGCACGGAGCAACCCCAAGTCACCACAAAAACCTATCGTTAGAGTCTTC
+CTGCCCAACAAACAGAGGACAGTGGTACCTGCAAGGTGTGGAGTTACAGTCCGAGACAGT
+CTAAAGAAAGCACTGATGATGAGAGGTCTAATCCCAGAGTGCTGTGCTGTTTACAGAATT
+CAGGATGGAGAGAAGAAACCAATTGGTTGGGACACTGATATTTCCTGGCTTACTGGAGAA
+GAATTGCATGTGGAAGTGTTGGAGAATGTTCCACTTACAACACACAACTTTGTACGAAAA
+ACGTTTTTCACCTTAGCATTTTGTGACTTTTGTCGAAAGCTGCTTTTCCAGGGTTTCCGC
+TGTCAAACATGTGGTTATAAATTTCACCAGCGTTGTAGTACAGAAGTTCCACTGATGTGT
+GTTAATTATGACCAACTTGATTTGCTGTTTGTCTCCAAGTTCTTTGAACACCACCCAATA
+CCACAGGAAGAGGCGTCCTTAGCAGAGACTGCCCTAACATCTGGATCATCCCCTTCCGCA
+CCCGCCTCGGACTCTATTGGGCCCCAAATTCTCACCAGTCCGTCTCCTTCAAAATCCATT
+CCAATTCCACAGCCCTTCCGACCAGCAGATGAAGATCATCGAAATCAATTTGGGCAACGA
+GACCGATCCTCATCAGCTCCCAATGTGCATATAAACACAATAGAACCTGTCAATATTGAT
+GACTTGATTAGAGACCAAGGATTTCGTGGTGATGGAGGATCAACCACAGGTTTGTCTGCT
+ACCCCCCCTGCCTCATTACCTGGCTCACTAACTAACGTGAAAGCCTTACAGAAATCTCCA
+GGACCTCAGCGAGAAAGGAAGTCATCTTCATCCTCAGAAGACAGGAATCGAATGAAAACA
+CTTGGTAGACGGGACTCGAGTGATGATTGGGAGATTCCTGATGGGCAGATTACAGTGGGA
+CAAAGAATTGGATCTGGATCATTTGGAACAGTCTACAAGGGAAAGTGGCATGGTGATGTG
+GCAGTGAAAATGTTGAATGTGACAGCACCTACACCTCAGCAGTTACAAGCCTTCAAAAAT
+GAAGTAGGAGTACTCAGGAAAACACGACATGTGAATATCCTACTCTTCATGGGCTATTCC
+ACAAAGCCACAACTGGCTATTGTTACCCAGTGGTGTGAGGGCTCCAGCTTGTATCACCAT
+CTCCATATCATTGAGACCAAATTTGAGATGATCAAACTTATAGATATTGCACGACAGACT
+GCACAGGGCATGGATTACTTACACGCCAAGTCAATCATCCACAGAGACCTCAAGAGTAAT
+AATATATTTCTTCATGAAGACCTCACAGTAAAAATAGGTGATTTTGGTCTAGCTACAGTG
+AAATCTCGATGGAGTGGGTCCCATCAGTTTGAACAGTTGTCTGGATCCATTTTGTGGATG
+GCACCAGAAGTCATCAGAATGCAAGATAAAAATCCATACAGCTTTCAGTCAGATGTATAT
+GCATTTGGGATTGTTCTGTATGAATTGATGACTGGACAGTTACCTTATTCAAACATCAAC
+AACAGGGACCAGATAATTTTTATGGTGGGACGAGGATACCTGTCTCCAGATCTCAGTAAG
+GTACGGAGTAACTGTCCAAAAGCCATGAAGAGATTAATGGCAGAGTGCCTCAAAAAGAAA
+AGAGATGAGAGACCACTCTTTCCCCAAATTCTCGCCTCTATTGAGCTGCTGGCCCGCTCA
+TTGCCAAAAATTCACCGCAGTGCATCAGAACCCTCCTTGAATCGGGCTGGTTTCCAAACA
+GAGGATTTTAGTCTATATGCTTGTGCTTCTCCAAAAACACCCATCCAGGCAGGGGGATAT
+GGTGCGTTTCCTGTCCACTGA
+
+# Drug_Target_1_General_Function:
+Involved in protein kinase activity
+
+# Drug_Target_1_General_References:
+12068308	Davies H, Bignell GR, Cox C, Stephens P, Edkins S, Clegg S, Teague J, Woffendin H, Garnett MJ, Bottomley W, Davis N, Dicks E, Ewing R, Floyd Y, Gray K, Hall S, Hawes R, Hughes J, Kosmidou V, Menzies A, Mould C, Parker A, Stevens C, Watt S, Hooper S, Wilson R, Jayatilake H, Gusterson BA, Cooper C, Shipley J, Hargrave D, Pritchard-Jones K, Maitland N, Chenevix-Trench G, Riggins GJ, Bigner DD, Palmieri G, Cossu A, Flanagan A, Nicholson A, Ho JW, Leung SY, Yuen ST, Weber BL, Seigler HF, Darrow TL, Paterson H, Marais R, Marshall CJ, Wooster R, Stratton MR, Futreal PA: Mutations of the BRAF gene in human cancer. Nature. 2002 Jun 27;417(6892):949-54. Epub 2002 Jun 9.
+12198537	Rajagopalan H, Bardelli A, Lengauer C, Kinzler KW, Vogelstein B, Velculescu VE: Tumorigenesis: RAF/RAS oncogenes and mismatch-repair status. Nature. 2002 Aug 29;418(6901):934.
+12460919	Naoki K, Chen TH, Richards WG, Sugarbaker DJ, Meyerson M: Missense mutations of the BRAF gene in human lung adenocarcinoma. Cancer Res. 2002 Dec 1;62(23):7001-3.
+12853948	Hillier LW, Fulton RS, Fulton LA, Graves TA, Pepin KH, Wagner-McPherson C, Layman D, Maas J, Jaeger S, Walker R, Wylie K, Sekhon M, Becker MC, O'Laughlin MD, Schaller ME, Fewell GA, Delehaunty KD, Miner TL, Nash WE, Cordes M, Du H, Sun H, Edwards J, Bradshaw-Cordum H, Ali J, Andrews S, Isak A, Vanbrunt A, Nguyen C, Du F, Lamar B, Courtney L, Kalicki J, Ozersky P, Bielicki L, Scott K, Holmes A, Harkins R, Harris A, Strong CM, Hou S, Tomlinson C, Dauphin-Kohlberg S, Kozlowicz-Reilly A, Leonard S, Rohlfing T, Rock SM, Tin-Wollam AM, Abbott A, Minx P, Maupin R, Strowmatt C, Latreille P, Miller N, Johnson D, Murray J, Woessner JP, Wendl MC, Yang SP, Schultz BR, Wallis JW, Spieth J, Bieri TA, Nelson JO, Berkowicz N, Wohldmann PE, Cook LL, Hickenbotham MT, Eldred J, Williams D, Bedell JA, Mardis ER, Clifton SW, Chissoe SL, Marra MA, Raymond C, Haugen E, Gillett W, Zhou Y, James R, Phelps K, Iadanoto S, Bubb K, Simms E, Levy R, Clendenning J, Kaul R, Kent WJ, Furey TS, Baertsch RA, Brent MR, Keibler E, Flicek P, Bork P, Suyama M, Bailey JA, Portnoy ME, Torrents D, Chinwalla AT, Gish WR, Eddy SR, McPherson JD, Olson MV, Eichler EE, Green ED, Waterston RH, Wilson RK: The DNA sequence of human chromosome 7. Nature. 2003 Jul 10;424(6945):157-64.
+14500344	Hingorani SR, Jacobetz MA, Robertson GP, Herlyn M, Tuveson DA: Suppression of BRAF(V599E) in human melanoma abrogates transformation. Cancer Res. 2003 Sep 1;63(17):5198-202.
+14612909	Lee JW, Yoo NJ, Soung YH, Kim HS, Park WS, Kim SY, Lee JH, Park JY, Cho YG, Kim CJ, Ko YH, Kim SH, Nam SW, Lee JY, Lee SH: BRAF mutations in non-Hodgkin's lymphoma. Br J Cancer. 2003 Nov 17;89(10):1958-60.
+1508179	Stephens RM, Sithanandam G, Copeland TD, Kaplan DR, Rapp UR, Morrison DK: 95-kilodalton B-Raf serine/threonine kinase: identification of the protein and its major autophosphorylation site. Mol Cell Biol. 1992 Sep;12(9):3733-42.
+1630826	Eychene A, Barnier JV, Apiou F, Dutrillaux B, Calothy G: Chromosomal assignment of two human B-raf(Rmil) proto-oncogene loci: B-raf-1 encoding the p94Braf/Rmil and B-raf-2, a processed pseudogene. Oncogene. 1992 Aug;7(8):1657-60.
+2284096	Sithanandam G, Kolch W, Duh FM, Rapp UR: Complete coding sequence of a human B-raf cDNA and detection of B-raf protein kinase with isozyme specific antibodies. Oncogene. 1990 Dec;5(12):1775-80.
+3043188	Ikawa S, Fukui M, Ueyama Y, Tamaoki N, Yamamoto T, Toyoshima K: B-raf, a new member of the raf family, is activated by DNA rearrangement. Mol Cell Biol. 1988 Jun;8(6):2651-4.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:1097
+
+# Drug_Target_1_HPRD_ID:
+01264
+
+# Drug_Target_1_ID:
+698
+
+# Drug_Target_1_Locus:
+7q34
+
+# Drug_Target_1_Molecular_Weight:
+84438
+
+# Drug_Target_1_Name:
+B-Raf proto-oncogene serine/threonine-protein kinase
+
+# Drug_Target_1_Number_of_Residues:
+766
+
+# Drug_Target_1_PDB_ID:
+1UWJ
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00069	Pkinase
+PF00130	C1_1
+PF02196	RBD
+
+# Drug_Target_1_Protein_Sequence:
+>B-Raf proto-oncogene serine/threonine-protein kinase
+MAALSGGGGGGAEPGQALFNGDMEPEAGAGAGAAASSAADPAIPEEVWNIKQMIKLTQEH
+IEALLDKFGGEHNPPSIYLEAYEEYTSKLDALQQREQQLLESLGNGTDFSVSSSASMDTV
+TSSSSSSLSVLPSSLSVFQNPTDVARSNPKSPQKPIVRVFLPNKQRTVVPARCGVTVRDS
+LKKALMMRGLIPECCAVYRIQDGEKKPIGWDTDISWLTGEELHVEVLENVPLTTHNFVRK
+TFFTLAFCDFCRKLLFQGFRCQTCGYKFHQRCSTEVPLMCVNYDQLDLLFVSKFFEHHPI
+PQEEASLAETALTSGSSPSAPASDSIGPQILTSPSPSKSIPIPQPFRPADEDHRNQFGQR
+DRSSSAPNVHINTIEPVNIDDLIRDQGFRGDGGSTTGLSATPPASLPGSLTNVKALQKSP
+GPQRERKSSSSSEDRNRMKTLGRRDSSDDWEIPDGQITVGQRIGSGSFGTVYKGKWHGDV
+AVKMLNVTAPTPQQLQAFKNEVGVLRKTRHVNILLFMGYSTKPQLAIVTQWCEGSSLYHH
+LHIIETKFEMIKLIDIARQTAQGMDYLHAKSIIHRDLKSNNIFLHEDLTVKIGDFGLATV
+KSRWSGSHQFEQLSGSILWMAPEVIRMQDKNPYSFQSDVYAFGIVLYELMTGQLPYSNIN
+NRDQIIFMVGRGYLSPDLSKVRSNCPKAMKRLMAECLKKKRDERPLFPQILASIELLARS
+LPKIHRSASEPSLNRAGFQTEDFSLYACASPKTPIQAGGYGAFPVH
+
+# Drug_Target_1_Reaction:
+ATP + a protein = ADP + a phosphoprotein
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Involved in the transduction of mitogenic signals from the cell membrane to the nucleus. May play a role in the postsynaptic responses of hippocampal neuron
+
+# Drug_Target_1_SwissProt_ID:
+P15056
+
+# Drug_Target_1_SwissProt_Name:
+BRAF_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 2.7.11.1
+p94
+v-Raf murine sarcoma viral oncogene homolog B1
+
+# Drug_Target_1_Theoretical_pI:
+7.58
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB08881

@@ -1,0 +1,6025 @@
+#BEGIN_DRUGCARD DB04315
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+146-91-8
+
+# ChEBI_ID:
+17552
+
+# Chemical_Formula:
+C10H15N5O11P2
+
+# Chemical_IUPAC_Name:
+[({[(2S,3R,4R,5R)-5-(2-amino-6-oxo-6,9-dihydro-1H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy}(hydroxy)phosphoryl)oxy]phosphonic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+A guanine nucleotide containing two phosphate groups esterified to the sugar moiety. [PubChem]
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Guanosine-5'-Diphosphate
+
+# HET_ID:
+GDP
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C10H15N5O11P2/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(25-9)1-24-28(22,23)26-27(19,20)21/h2-3,5-6,9,16-17H,1H2,(H,22,23)(H2,19,20,21)(H3,11,13,14,18)/t3-,5-,6+,9+/m0/s1
+
+# InChI_Key:
+InChIKey=QGWNDRXFNXRZMB-BZKDHIKHSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+C00035
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+4315
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+443.2005
+
+# Molecular_Weight_Mono:
+443.024329371
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1T2A
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-1.5
+
+# Predicted_LogS:
+-2
+
+# Predicted_Water_Solubility:
+4.44e+00 g/l
+
+# Primary_Accession_No:
+DB04315
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+6453837
+
+# PubChem_Substance_ID:
+46508144
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT01573
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=NC2=C(N=CN2[C@@H]2O[C@@H](CO[P@](O)(=O)OP(O)(O)=O)[C@H](O)[C@H]2O)C(=O)N1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:23:12 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_10_Cellular_Location:
+Not Available
+
+# Drug_Target_10_Chromosome_Location:
+3
+
+# Drug_Target_10_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_10_Essentiality:
+Non-Essential
+
+# Drug_Target_10_GenAtlas_ID:
+Not Available
+
+# Drug_Target_10_GenBank_ID_Gene:
+X15088
+
+# Drug_Target_10_GenBank_ID_Protein:
+31865
+
+# Drug_Target_10_GeneCard_ID:
+GNAT1
+
+# Drug_Target_10_Gene_Name:
+GNAT1
+
+# Drug_Target_10_Gene_Sequence:
+>1053 bp
+ATGGGGGCTGGGGCCAGTGCTGAGGAGAAGCACTCCAGGGAGCTGGAAAAGAAGCTGAAA
+GAGGACGCTGAGAAGGATGCTCGAACCGTGAAGCTGCTGCTTCTGGGTGCCGGTGAGTCC
+GGGAAGAGCACCATCGTCAAGCAGATGAAGATTATCCACCAGGACGGGTACTCGCTGGAA
+GAGTGCCTCGAGTTTATCGCCATCATCTACGGCAACACGTTGCAGTCCATCCTGGCCATC
+GTACGCGCCATGACCACACTCAACATCCAGTACGGAGACTCTGCACGCCAGGACGACGCC
+CGGAAGCTGATGCACATGGCAGACACTATCGAGGAGGGCACGATGCCCAAGGAGATGTCG
+GACATCATCCAGCGGCTGTGGAAGGACTCCGGTATCCAGGCCTGTTTTGAGCGCGCCTCG
+GAGTACCAGCTCAACGACTCGGCGGGCTACTACCTCTCCGACCTGGAGCGCCTGGTAACC
+CCGGGCTACGTGCCCACCGAGCAGGACGTGCTGCGCTCGCGAGTCAAGACCACTGGCATC
+ATCGAGACGCAGTTCTCCTTCAAGGATCTCAACTTCCGGATGTTCGATGTGGGCGGGCAG
+CGCTCGGAGCCGAAGAAGTGGATCCACTGCTTCGAGGGCGTGACCTGCATCATCTTCATC
+GCGGCGCTGACCGCGTACGACATGGTGCTAGTGGAGGACGACGAAGTGAACCGCATGCAC
+GAGAGCCTGCACCTGTTCAACAGCATCTGCAACCACCGCTACTTCGCCACGACGTCCATC
+GTGCTCTTCCTTAACAAGAAGGACGTCTTCTTCGAGAAGGTCAAGAAGGCGCACCTCAGC
+ATCTGTTTCCCGGACTACGATGGACCCAACACCTACGAGGACGCCGGCAACTACATCAAG
+GTGCAGTTCCTCGAGCTCAACATGCGGCGCGACGTGAAGGAGATCTATTCCCACATGACG
+TGCGCCACCGACACGCAGAACGTCAAATTCTGCTTCGACGCTGTCACCGACATCATCATC
+AAGGAGAACCTCAAAGACTGTGGCCTCTTCTGA
+
+# Drug_Target_10_General_Function:
+Involved in acyl binding
+
+# Drug_Target_10_General_References:
+11032890	Bell MW, Desai N, Guo XX, Ghalayini AJ: Tyrosine phosphorylation of the alpha subunit of transducin and its association with Src in photoreceptor rod outer segments. J Neurochem. 2000 Nov;75(5):2006-19.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+1614872	Fong SL: Characterization of the human rod transducin alpha-subunit gene. Nucleic Acids Res. 1992 Jun 11;20(11):2865-70.
+16641997	Muzny DM, Scherer SE, Kaul R, Wang J, Yu J, Sudbrak R, Buhay CJ, Chen R, Cree A, Ding Y, Dugan-Rocha S, Gill R, Gunaratne P, Harris RA, Hawes AC, Hernandez J, Hodgson AV, Hume J, Jackson A, Khan ZM, Kovar-Smith C, Lewis LR, Lozado RJ, Metzker ML, Milosavljevic A, Miner GR, Morgan MB, Nazareth LV, Scott G, Sodergren E, Song XZ, Steffen D, Wei S, Wheeler DA, Wright MW, Worley KC, Yuan Y, Zhang Z, Adams CQ, Ansari-Lari MA, Ayele M, Brown MJ, Chen G, Chen Z, Clendenning J, Clerc-Blankenburg KP, Chen R, Chen Z, Davis C, Delgado O, Dinh HH, Dong W, Draper H, Ernst S, Fu G, Gonzalez-Garay ML, Garcia DK, Gillett W, Gu J, Hao B, Haugen E, Havlak P, He X, Hennig S, Hu S, Huang W, Jackson LR, Jacob LS, Kelly SH, Kube M, Levy R, Li Z, Liu B, Liu J, Liu W, Lu J, Maheshwari M, Nguyen BV, Okwuonu GO, Palmeiri A, Pasternak S, Perez LM, Phelps KA, Plopper FJ, Qiang B, Raymond C, Rodriguez R, Saenphimmachak C, Santibanez J, Shen H, Shen Y, Subramanian S, Tabor PE, Verduzco D, Waldron L, Wang J, Wang J, Wang Q, Williams GA, Wong GK, Yao Z, Zhang J, Zhang X, Zhao G, Zhou J, Zhou Y, Nelson D, Lehrach H, Reinhardt R, Naylor SL, Yang H, Olson M, Weinstock G, Gibbs RA: The DNA sequence, annotation and analysis of human chromosome 3. Nature. 2006 Apr 27;440(7088):1194-8.
+2534964	Lerea CL, Bunt-Milam AH, Hurley JB: Alpha transducin is present in blue-, green-, and red-sensitive cone photoreceptors in the human retina. Neuron. 1989 Sep;3(3):367-76.
+2748346	Van Dop C, Medynski DC, Apone LM: Nucleotide sequence for a cDNA encoding the alpha subunit of retinal transducin (GNAT1) isolated from the human eye. Nucleic Acids Res. 1989 Jun 26;17(12):4887.
+8673138	Dryja TP, Hahn LB, Reboul T, Arnaud B: Missense mutation in the gene encoding the alpha subunit of rod transducin in the Nougaret form of congenital stationary night blindness. Nat Genet. 1996 Jul;13(3):358-60.
+
+# Drug_Target_10_HGNC_ID:
+GNC:4393
+
+# Drug_Target_10_HPRD_ID:
+Not Available
+
+# Drug_Target_10_ID:
+6447
+
+# Drug_Target_10_Locus:
+3p21
+
+# Drug_Target_10_Molecular_Weight:
+40040.4
+
+# Drug_Target_10_Name:
+Guanine nucleotide-binding protein G(t) subunit alpha-1
+
+# Drug_Target_10_Number_of_Residues:
+350
+
+# Drug_Target_10_PDB_ID:
+1TND
+
+# Drug_Target_10_Pathway:
+Not Available
+
+# Drug_Target_10_Pfam_Domain_Function:
+PF00503	G-alpha
+
+# Drug_Target_10_Protein_Sequence:
+>Guanine nucleotide-binding protein G(t) subunit alpha-1
+MGAGASAEEKHSRELEKKLKEDAEKDARTVKLLLLGAGESGKSTIVKQMKIIHQDGYSLE
+ECLEFIAIIYGNTLQSILAIVRAMTTLNIQYGDSARQDDARKLMHMADTIEEGTMPKEMS
+DIIQRLWKDSGIQACFERASEYQLNDSAGYYLSDLERLVTPGYVPTEQDVLRSRVKTTGI
+IETQFSFKDLNFRMFDVGGQRSERKKWIHCFEGVTCIIFIAALSAYDMVLVEDDEVNRMH
+ESLHLFNSICNHRYFATTSIVLFLNKKDVFFEKIKKAHLSICFPDYDGPNTYEDAGNYIK
+VQFLELNMRRDVKEIYSHMTCATDTQNVKFVFDAVTDIIIKENLKDCGLF
+
+# Drug_Target_10_Reaction:
+Not Available
+
+# Drug_Target_10_Signals:
+None
+
+# Drug_Target_10_Specific_Function:
+Guanine nucleotide-binding proteins (G proteins) are involved as modulators or transducers in various transmembrane signaling systems. Transducin is an amplifier and one of the transducers of a visual impulse that performs the coupling between rhodopsin and cGMP-phosphodiesterase
+
+# Drug_Target_10_SwissProt_ID:
+P11488
+
+# Drug_Target_10_SwissProt_Name:
+GNAT1_HUMAN
+
+# Drug_Target_10_Synonyms:
+Transducin alpha-1 chain
+
+# Drug_Target_10_Theoretical_pI:
+5.32
+
+# Drug_Target_10_Transmembrane_Regions:
+None
+
+# Drug_Target_11_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_11_Chromosome_Location:
+Not Available
+
+# Drug_Target_11_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_11_Essentiality:
+Non-Essential
+
+# Drug_Target_11_GenAtlas_ID:
+Not Available
+
+# Drug_Target_11_GenBank_ID_Gene:
+X61957
+
+# Drug_Target_11_GenBank_ID_Protein:
+312960
+
+# Drug_Target_11_GeneCard_ID:
+Not Available
+
+# Drug_Target_11_Gene_Name:
+tufB
+
+# Drug_Target_11_Gene_Sequence:
+>1221 bp
+ATGGCGAAGGGCGAGTTTATTCGGACGAAGCCTCACGTGAACGTGGGGACGATTGGGCAC
+GTGGACCACGGGAAGACGACGCTGACGGCGGCGTTGACGTTTGTGACGGCGGCGGAGAAT
+CCGAATGTAGAGGTTAAGGACTACGGGGACATTGACAAGGCGCCGGAGGAGCGTGCGCGG
+GGGATTACGATCAACACGGCGCACGTGGAGTACGAGACGGCGAAGCGGCACTATTCCCAC
+GTGGACTGTCCTGGGCACGCGGACTACATCAAGAACATGATCACGGGTGCCGCGCAGATG
+GACGGGGCGATCCTTGTGGTGTCGGCGGCGGACGGGCCGATGCCGCAGACGCGGGAGCAC
+ATTTTGCTGGCGCGGCAGGTGGGGGTGCCGTACATTGTGGTGTTCATGAACAAGGTGGAC
+ATGGTGGACGACCCCGAGTTGCTGGACCTGGTGGAGATGGAGGTGCGGGACCTTTTGAAC
+CAGTACGAGTTTCCTGGGGACGAGGTTCCGGTGATTCGGGGGAGTGCGCTTTTGGCGCTT
+GAGCAGATGCACAGGAACCCGAAGACGAGGCGTGGGGAGAACGAGTGGGTGGACAAGATT
+TGGGAGCTGTTGGACGCGATTGACGAGTACATTCCCACGCCGGTGCGGGACGTGGACAAG
+CCGTTCTTGATGCCGGTGGAGGACGTGTTTACGATCACGGGTCGTGGGACGGTGGCCACG
+GGTCGGATTGAGCGGGGCAAGGTGAAGGTTGGGGACGAGGTGGAGATTGTGGGCCTTGCT
+CCGGAGACGCGGAAGACGGTGGTGACGGGTGTGGAGATGCACCGGAAGACCTTGCAGGAG
+GGGATTGCTGGGGACAATGTGGGGGTGCTCCTGCGGGGTGTGAGCCGGGAGGAGGTGGAG
+CGGGGGCAGGTGCTGGCGAAGCCTGGGAGCATTACGCCGCACACGAAGTTTGAGGCCTCG
+GTGTACGTGTTGAAGAAGGAGGAGGGTGGACGGCACACGGGGTTTTTTTCGGGGTACCGT
+CCGCAGTTTTACTTTCGGACGACGGACGTGACGGGGGTGGTGCAGTTGCCTCCGGGCGTG
+GAGATGGTGATGCCTGGGGACAACGTGACGTTTACGGTGGAGCTGATCAAGCCGGTGGCG
+CTGGAGGAGGGTTTGCGGTTTGCCATCCGTGAGGGTGGGCGGACCGTGGGCGCCGGCGTC
+GTCACCAAGATCCTGGAGTAA
+
+# Drug_Target_11_General_Function:
+Translation, ribosomal structure and biogenesis
+
+# Drug_Target_11_General_References:
+1908798	Satoh M, Tanaka T, Kushiro A, Hakoshima T, Tomita K: Molecular cloning, nucleotide sequence and expression of the tufB gene encoding elongation factor Tu from Thermus thermophilus HB8. FEBS Lett. 1991 Aug 19;288(1-2):98-100.
+
+# Drug_Target_11_HGNC_ID:
+Not Available
+
+# Drug_Target_11_HPRD_ID:
+Not Available
+
+# Drug_Target_11_ID:
+3170
+
+# Drug_Target_11_Locus:
+Not Available
+
+# Drug_Target_11_Molecular_Weight:
+44783
+
+# Drug_Target_11_Name:
+Elongation factor Tu-B
+
+# Drug_Target_11_Number_of_Residues:
+406
+
+# Drug_Target_11_PDB_ID:
+1HA3
+
+# Drug_Target_11_Pathway:
+Not Available
+
+# Drug_Target_11_Pfam_Domain_Function:
+PF00009	GTP_EFTU
+PF03143	GTP_EFTU_D3
+PF03144	GTP_EFTU_D2
+
+# Drug_Target_11_Protein_Sequence:
+>Elongation factor Tu-B
+MAKGEFIRTKPHVNVGTIGHVDHGKTTLTAALTFVTAAENPNVEVKDYGDIDKAPEERAR
+GITINTAHVEYETAKRHYSHVDCPGHADYIKNMITGAAQMDGAILVVSAADGPMPQTREH
+ILLARQVGVPYIVVFMNKVDMVDDPELLDLVEMEVRDLLNQYEFPGDEVPVIRGSALLAL
+EQMHRNPKTRRGENEWVDKIWELLDAIDEYIPTPVRDVDKPFLMPVEDVFTITGRGTVAT
+GRIERGKVKVGDEVEIVGLAPETRKTVVTGVEMHRKTLQEGIAGDNVGVLLRGVSREEVE
+RGQVLAKPGSITPHTKFEASVYVLKKEEGGRHTGFFSGYRPQFYFRTTDVTGVVQLPPGV
+EMVMPGDNVTFTVELIKPVALEEGLRFAIREGGRTVGAGVVTKILE
+
+# Drug_Target_11_Reaction:
+Not Available
+
+# Drug_Target_11_Signals:
+None
+
+# Drug_Target_11_Specific_Function:
+This protein promotes the GTP-dependent binding of aminoacyl-tRNA to the A-site of ribosomes during protein biosynthesis
+
+# Drug_Target_11_SwissProt_ID:
+P60339
+
+# Drug_Target_11_SwissProt_Name:
+EFTU2_THET8
+
+# Drug_Target_11_Synonyms:
+EF-Tu-B
+
+# Drug_Target_11_Theoretical_pI:
+5.35
+
+# Drug_Target_11_Transmembrane_Regions:
+None
+
+# Drug_Target_12_Cellular_Location:
+Cell membrane
+cytoplasmic side (Potential)
+lipid-anchor
+
+# Drug_Target_12_Chromosome_Location:
+Not Available
+
+# Drug_Target_12_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_12_Essentiality:
+Non-Essential
+
+# Drug_Target_12_GenAtlas_ID:
+RAB9
+
+# Drug_Target_12_GenBank_ID_Gene:
+U44103
+
+# Drug_Target_12_GenBank_ID_Protein:
+1174147
+
+# Drug_Target_12_GeneCard_ID:
+RAB9
+
+# Drug_Target_12_Gene_Name:
+RAB9A
+
+# Drug_Target_12_Gene_Sequence:
+>606 bp
+ATGGCAGGAAAATCTTCACTTTTTAAAGTAATTCTCCTTGGAGATGGTGGAGTTGGGAAG
+AGTTCACTTATGAACAGATATGTAACTAATAAGTTTGATACCCAGCTCTTCCATACAATA
+GGTGTGGAATTTTTAAATAAAGATTTGGAAGTGGATGGACATTTTGTTACCATGCAGATT
+TGGGACACGGCAGGTCAGGAGCGATTCCGAAGCCTGAGGACACCATTTTACAGAGGTTCT
+GACTGCTGCCTGCTTACTTTTAGTGTCGATGATTCACAAAGCTTCCAGAACTTAAGTAAC
+TGGAAGAAAGAATTCATATATTATGCAGATGTGAAAGAGCCTGAGAGCTTTCCTTTTGTG
+ATTCTGGGTAACAAGATTGACATAAGCGAACGGCAGGTGTCTACAGAAGAAGCCCAAGCT
+TGGTGCAGGGACAACGGCGACTATCCTTATTTTGAAACAAGTGCAAAAGATGCCACAAAT
+GTGGCAGCAGCCTTTGAGGAAGCGGTTCGAAGAGTTCTTGCTACCGAGGATAGGTCAGAT
+CATTTGATTCAGACAGACACAGTCAATCTTCACCGAAAGCCCAAGCCTAGCTCATCTTGC
+TGTTGA
+
+# Drug_Target_12_General_Function:
+Involved in GTP binding
+
+# Drug_Target_12_General_References:
+9126495	Davies JP, Cotter PD, Ioannou YA: Cloning and mapping of human Rab7 and Rab9 cDNA sequences and identification of a Rab9 pseudogene. Genomics. 1997 Apr 1;41(1):131-4.
+
+# Drug_Target_12_HGNC_ID:
+HGNC:9792
+
+# Drug_Target_12_HPRD_ID:
+02236
+
+# Drug_Target_12_ID:
+3115
+
+# Drug_Target_12_Locus:
+Xp22.2
+
+# Drug_Target_12_Molecular_Weight:
+22838
+
+# Drug_Target_12_Name:
+Ras-related protein Rab-9
+
+# Drug_Target_12_Number_of_Residues:
+201
+
+# Drug_Target_12_PDB_ID:
+1WMS
+
+# Drug_Target_12_Pathway:
+Not Available
+
+# Drug_Target_12_Pfam_Domain_Function:
+PF00071	Ras
+
+# Drug_Target_12_Protein_Sequence:
+>Ras-related protein Rab-9
+MAGKSSLFKVILLGDGGVGKSSLMNRYVTNKFDTQLFHTIGVEFLNKDLEVDGHFVTMQI
+WDTAGQERFRSLRTPFYRGSDCCLLTFSVDDSQSFQNLSNWKKEFIYYADVKEPESFPFV
+ILGNKIDISERQVSTEEAQAWCRDNGDYPYFETSAKDATNVAAAFEEAVRRVLATEDRSD
+HLIQTDTVNLHRKPKPSSSCC
+
+# Drug_Target_12_Reaction:
+Not Available
+
+# Drug_Target_12_Signals:
+None
+
+# Drug_Target_12_Specific_Function:
+Involved in the transport of proteins between the endosomes and the trans Golgi network
+
+# Drug_Target_12_SwissProt_ID:
+P51151
+
+# Drug_Target_12_SwissProt_Name:
+RAB9A_HUMAN
+
+# Drug_Target_12_Synonyms:
+Rab-9A
+
+# Drug_Target_12_Theoretical_pI:
+5.10
+
+# Drug_Target_12_Transmembrane_Regions:
+None
+
+# Drug_Target_13_Cellular_Location:
+Cytoplasm. Nucleus
+
+# Drug_Target_13_Chromosome_Location:
+Not Available
+
+# Drug_Target_13_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_13_Essentiality:
+Non-Essential
+
+# Drug_Target_13_GenAtlas_ID:
+NME1
+
+# Drug_Target_13_GenBank_ID_Gene:
+X75598
+
+# Drug_Target_13_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_13_GeneCard_ID:
+Not Available
+
+# Drug_Target_13_Gene_Name:
+NME1
+
+# Drug_Target_13_Gene_Sequence:
+>459 bp
+ATGGCCAACTGTGAGCGTACCTTCATTGCGATCAAACCAGATGGGGTCCAGCGGGGTCTT
+GTGGGAGAGATTATCAAGCGTTTTGAGCAGAAAGGATTCCGCCTTGTTGGTCTGAAATTC
+ATGCAAGCTTCCGAAGATCTTCTCAAGGAACACTACGTTGACCTGAAGGACCGTCCATTC
+TTTGCCGGCCTGGTGAAATACATGCACTCAGGGCCGGTAGTTGCCATGGTCTGGGAGGGG
+CTGAATGTGGTGAAGACGGGCCGAGTCATGCTCGGGGAGACCAACCCTGCAGACTCCAAG
+CCTGGGACCATCCGTGGAGACTTCTGCATACAAGTTGGCAGGAACATTATACATGGCAGT
+GATTCTGTGGAGAGTGCAGAGAAGGAGATCGGCTTGTGGTTTCACCCTGAGGAACTGGTA
+GATTACACGAGCTGTGCTCAGAACTGGATCTATGAATGA
+
+# Drug_Target_13_General_Function:
+Involved in nucleoside diphosphate kinase activity
+
+# Drug_Target_13_General_References:
+10512675	Manda R, Kohno T, Matsuno Y, Takenoshita S, Kuwano H, Yokota J: Identification of genes (SPON2 and C20orf2) differentially expressed between cancerous and noncancerous lung cells by mRNA differential display. Genomics. 1999 Oct 1;61(1):5-14.
+11835509	Min K, Song HK, Chang C, Kim SY, Lee KJ, Suh SW: Crystal structure of human nucleoside diphosphate kinase A, a metastasis suppressor. Proteins. 2002 Feb 15;46(3):340-2.
+12628186	Fan Z, Beresford PJ, Oh DY, Zhang D, Lieberman J: Tumor suppressor NM23-H1 is a granzyme A-activated DNase during CTL-mediated apoptosis, and the nucleosome assembly protein SET is its inhibitor. Cell. 2003 Mar 7;112(5):659-72.
+12972261	Chen Y, Gallois-Montbrun S, Schneider B, Veron M, Morera S, Deville-Bonne D, Janin J: Nucleotide binding to nucleoside diphosphate kinases: X-ray structure of human NDPK-A in complex with ADP and comparison to protein kinases. J Mol Biol. 2003 Sep 26;332(4):915-26.
+1851158	Gilles AM, Presecan E, Vonica A, Lascu I: Nucleoside diphosphate kinase from human erythrocytes. Structural characterization of the two polypeptide chains responsible for heterogeneity of the hexameric enzyme. J Biol Chem. 1991 May 15;266(14):8784-9.
+2056128	Hailat N, Keim DR, Melhem RF, Zhu XX, Eckerskorn C, Brodeur GM, Reynolds CP, Seeger RC, Lottspeich F, Strahler JR, et al.: High levels of p19/nm23 protein in neuroblastoma are associated with advanced stage disease and with N-myc gene amplification. J Clin Invest. 1991 Jul;88(1):341-5.
+2509941	Rosengard AM, Krutzsch HC, Shearn A, Biggs JR, Barker E, Margulies IM, King CR, Liotta LA, Steeg PS: Reduced Nm23/Awd protein in tumour metastasis and aberrant Drosophila development. Nature. 1989 Nov 9;342(6246):177-80.
+7916650	Wang L, Patel U, Ghosh L, Chen HC, Banerjee S: Mutation in the nm23 gene is associated with metastasis in colorectal cancer. Cancer Res. 1993 Feb 15;53(4):717-20.
+8270257	Dooley S, Seib T, Engel M, Theisinger B, Janz H, Piontek K, Zang KD, Welter C: Isolation and characterization of the human genomic locus coding for the putative metastasis control gene nm23-H1. Hum Genet. 1994 Jan;93(1):63-6.
+
+# Drug_Target_13_HGNC_ID:
+HGNC:7849
+
+# Drug_Target_13_HPRD_ID:
+Not Available
+
+# Drug_Target_13_ID:
+5294
+
+# Drug_Target_13_Locus:
+17q21.3
+
+# Drug_Target_13_Molecular_Weight:
+17149
+
+# Drug_Target_13_Name:
+Nucleoside diphosphate kinase A
+
+# Drug_Target_13_Number_of_Residues:
+152
+
+# Drug_Target_13_PDB_ID:
+1JXV
+
+# Drug_Target_13_Pathway:
+Adefovir Dipivoxil Pathway	SMP00418
+Gemcitabine Pathway	SMP00446
+Methotrexate Pathway	SMP00432
+Tenofovir Pathway	SMP00419
+
+# Drug_Target_13_Pfam_Domain_Function:
+PF00334	NDK
+
+# Drug_Target_13_Protein_Sequence:
+>Nucleoside diphosphate kinase A
+MANCERTFIAIKPDGVQRGLVGEIIKRFEQKGFRLVGLKFMQASEDLLKEHYVDLKDRPF
+FAGLVKYMHSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIHGS
+DSVESAEKEIGLWFHPEELVDYTSCAQNWIYE
+
+# Drug_Target_13_Reaction:
+Not Available
+
+# Drug_Target_13_Signals:
+None
+
+# Drug_Target_13_Specific_Function:
+Major role in the synthesis of nucleoside triphosphates other than ATP
+
+# Drug_Target_13_SwissProt_ID:
+P15531
+
+# Drug_Target_13_SwissProt_Name:
+NDKA_HUMAN
+
+# Drug_Target_13_Synonyms:
+EC 2.7.4.6
+GAAD
+Granzyme A-activated DNase
+Metastasis inhibition factor nm23
+NDK A
+NDP kinase A
+Tumor metastatic process-associated protein
+nm23-H1
+
+# Drug_Target_13_Theoretical_pI:
+6.11
+
+# Drug_Target_13_Transmembrane_Regions:
+None
+
+# Drug_Target_14_Cellular_Location:
+Not Available
+
+# Drug_Target_14_Chromosome_Location:
+Not Available
+
+# Drug_Target_14_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_14_Essentiality:
+Non-Essential
+
+# Drug_Target_14_GenAtlas_ID:
+Not Available
+
+# Drug_Target_14_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_14_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_14_GeneCard_ID:
+Not Available
+
+# Drug_Target_14_Gene_Name:
+RHEB
+
+# Drug_Target_14_Gene_Sequence:
+Not Available
+
+# Drug_Target_14_General_Function:
+Not Available
+
+# Drug_Target_14_General_References:
+Not Available
+
+# Drug_Target_14_HGNC_ID:
+Not Available
+
+# Drug_Target_14_HPRD_ID:
+Not Available
+
+# Drug_Target_14_ID:
+7104
+
+# Drug_Target_14_Locus:
+Not Available
+
+# Drug_Target_14_Molecular_Weight:
+Not Available
+
+# Drug_Target_14_Name:
+GTP-binding protein Rheb
+
+# Drug_Target_14_Number_of_Residues:
+0
+
+# Drug_Target_14_PDB_ID:
+Not Available
+
+# Drug_Target_14_Pathway:
+Not Available
+
+# Drug_Target_14_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_14_Protein_Sequence:
+Not Available
+
+# Drug_Target_14_Reaction:
+Not Available
+
+# Drug_Target_14_Signals:
+Not Available
+
+# Drug_Target_14_Specific_Function:
+Not Available
+
+# Drug_Target_14_SwissProt_ID:
+Q15382
+
+# Drug_Target_14_SwissProt_Name:
+RHEB_HUMAN
+
+# Drug_Target_14_Synonyms:
+Not Available
+
+# Drug_Target_14_Theoretical_pI:
+Not Available
+
+# Drug_Target_14_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_15_Cellular_Location:
+Not Available
+
+# Drug_Target_15_Chromosome_Location:
+Not Available
+
+# Drug_Target_15_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_15_Essentiality:
+Non-Essential
+
+# Drug_Target_15_GenAtlas_ID:
+Not Available
+
+# Drug_Target_15_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_15_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_15_GeneCard_ID:
+Not Available
+
+# Drug_Target_15_Gene_Name:
+CDC42
+
+# Drug_Target_15_Gene_Sequence:
+Not Available
+
+# Drug_Target_15_General_Function:
+Not Available
+
+# Drug_Target_15_General_References:
+Not Available
+
+# Drug_Target_15_HGNC_ID:
+Not Available
+
+# Drug_Target_15_HPRD_ID:
+Not Available
+
+# Drug_Target_15_ID:
+7128
+
+# Drug_Target_15_Locus:
+Not Available
+
+# Drug_Target_15_Molecular_Weight:
+Not Available
+
+# Drug_Target_15_Name:
+Cell division control protein 42 homolog
+
+# Drug_Target_15_Number_of_Residues:
+0
+
+# Drug_Target_15_PDB_ID:
+Not Available
+
+# Drug_Target_15_Pathway:
+Not Available
+
+# Drug_Target_15_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_15_Protein_Sequence:
+Not Available
+
+# Drug_Target_15_Reaction:
+Not Available
+
+# Drug_Target_15_Signals:
+Not Available
+
+# Drug_Target_15_Specific_Function:
+Not Available
+
+# Drug_Target_15_SwissProt_ID:
+P60953
+
+# Drug_Target_15_SwissProt_Name:
+CDC42_HUMAN
+
+# Drug_Target_15_Synonyms:
+Not Available
+
+# Drug_Target_15_Theoretical_pI:
+Not Available
+
+# Drug_Target_15_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_16_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_16_Chromosome_Location:
+Not Available
+
+# Drug_Target_16_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_16_Essentiality:
+Non-Essential
+
+# Drug_Target_16_GenAtlas_ID:
+Not Available
+
+# Drug_Target_16_GenBank_ID_Gene:
+AE005674
+
+# Drug_Target_16_GenBank_ID_Protein:
+24053801
+
+# Drug_Target_16_GeneCard_ID:
+Not Available
+
+# Drug_Target_16_Gene_Name:
+tufA
+
+# Drug_Target_16_Gene_Sequence:
+>1230 bp
+TTAGCCCAGAACTTTAGCAACAACGCCCGCGCCAACGGTACGGCCGCCTTCACGGATTGC
+GAAACGCAGACCGTCGTCCATCGCGATCGGGTGGATCAGGGTAACAACCATTTTGATGTT
+GTCGCCCGGCATTACCATCTCTACGCCTTCCGGCAGTTCGATGGTACCAGTCACGTCAGT
+AGTACGGAAGTAGAACTGCGGACGGTAGCCTTTGAAGAACGGAGTATGACGGCCGCCTTC
+ATCTTTGGACAGAATGTACACTTCAGATTCGAACTTGGTGTGCGGCTTGATGGTGCCCGG
+CTTAGCCAGTACCTGACCACGTTCGATTTCTTCACGTTTGATACCACGCAGCAGAACACC
+TACGTTCTCACCAGCACGGCCTTCGTCCAGCAGTTTGCGGAACATTTCAACGCCAGTACA
+GGTAGACTTCTGAGTCTCTTTGATACCAACGATTTCAACTTCTTCACCAACTTTGATGAT
+ACCGCGTTCTACACGACCGGTAACAACGGTACCACGACCGGAGATGGAGAATACGTCTTC
+GATCGGCAGCAGGAACGGCTTGTCAATCGCACGCTCTGGTTCCGGAATATAAGAATCCAG
+GAAGCCAGCCAGTTCCAGGATTTTCGCTTCCCACTCTGCGTCGCCTTCCAGCGCTTTCAG
+AGCAGAACCACGAACGATCGGAGTGTCGTCGCCCGGGAAGTCGTACTGAGACAGAAGTTC
+ACGAACTTCCATTTCAACCAGTTCCAGCAGCTCTTCGTCATCAACCATGTCGCATTTGTT
+CAGGAACACGATGATGTACGGAACGCCTACCTGACGACCCAGCAGGATGTGCTCACGAGT
+CTGCGGCATCGGGCCGTCAGTCGCAGCAACTACCAGGATCGCGCCGTCCATCTGAGCAGC
+ACCGGTGATCATGTTTTTAACATAGTCGGCGTGCCCCGGGCAGTCTACGTGTGCGTAGTG
+ACGGGTCGGGGTGTCGTATTCAACGTGAGAAGTGTTGATGGTGATACCACGAGCTTTTTC
+TTCCGGCGCGTTATCGATCTGGTCGAATGCGCGAGCAGCACCGCCGTAGGTTTTAGCCAG
+TACGGTAGTGATTGCAGCGGTCAGCGTTGTTTTACCATGGTCAACGTGGCCGATAGTACC
+GACGTTAACGTGCGGTTTTGTACGTTCAAACTTTTCTTTAGACACGGCTATATTCCTTAC
+TATAGTGCTCTCCCCTTCAGGAGAGAGCAC
+
+# Drug_Target_16_General_Function:
+Translation, ribosomal structure and biogenesis
+
+# Drug_Target_16_General_References:
+12384590	Jin Q, Yuan Z, Xu J, Wang Y, Shen Y, Lu W, Wang J, Liu H, Yang J, Yang F, Zhang X, Zhang J, Yang G, Wu H, Qu D, Dong J, Sun L, Xue Y, Zhao A, Gao Y, Zhu J, Kan B, Ding K, Chen S, Cheng H, Yao Z, He B, Chen R, Ma D, Qiang B, Wen Y, Hou Y, Yu J: Genome sequence of Shigella flexneri 2a: insights into pathogenicity through comparison with genomes of Escherichia coli K12 and O157. Nucleic Acids Res. 2002 Oct 15;30(20):4432-41.
+12704152	Wei J, Goldberg MB, Burland V, Venkatesan MM, Deng W, Fournier G, Mayhew GF, Plunkett G 3rd, Rose DJ, Darling A, Mau B, Perna NT, Payne SM, Runyen-Janecky LJ, Zhou S, Schwartz DC, Blattner FR: Complete genome sequence and comparative genomics of Shigella flexneri serotype 2a strain 2457T. Infect Immun. 2003 May;71(5):2775-86.
+
+# Drug_Target_16_HGNC_ID:
+Not Available
+
+# Drug_Target_16_HPRD_ID:
+Not Available
+
+# Drug_Target_16_ID:
+3396
+
+# Drug_Target_16_Locus:
+Not Available
+
+# Drug_Target_16_Molecular_Weight:
+43284
+
+# Drug_Target_16_Name:
+Elongation factor Tu
+
+# Drug_Target_16_Number_of_Residues:
+394
+
+# Drug_Target_16_PDB_ID:
+1D8T
+
+# Drug_Target_16_Pathway:
+Not Available
+
+# Drug_Target_16_Pfam_Domain_Function:
+PF00009	GTP_EFTU
+PF03143	GTP_EFTU_D3
+PF03144	GTP_EFTU_D2
+
+# Drug_Target_16_Protein_Sequence:
+>Elongation factor Tu
+MSKEKFERTKPHVNVGTIGHVDHGKTTLTAAITTVLAKTYGGAARAFDQIDNAPEEKARG
+ITINTSHVEYDTPTRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHI
+LLGRQVGVPYIIVFLNKCDMVDDEELLELVEMEVRELLSQYDFPGDDTPIVRGSALKALE
+GDAEWEAKILELAGFLDSYIPEPERAIDKPFLLPIEDVFSISGRGTVVTGRVERGIIKVG
+EEVEIVGIKETQKSTCTGVEMFRKLLDEGRAGENVGVLLRGIKREEIERGQVLAKPGTIK
+PHTKFESEVYILSKDEGGRHTPFFKGYRPQFYFRTTDVTGTIELPEGVEMVMPGDNIKMV
+VTLIHPIAMDDGLRFAIREGGRTVGAGVVAKVLG
+
+# Drug_Target_16_Reaction:
+Not Available
+
+# Drug_Target_16_Signals:
+None
+
+# Drug_Target_16_Specific_Function:
+This protein promotes the GTP-dependent binding of aminoacyl-tRNA to the A-site of ribosomes during protein biosynthesis
+
+# Drug_Target_16_SwissProt_ID:
+Q83JC4
+
+# Drug_Target_16_SwissProt_Name:
+EFTU_SHIFL
+
+# Drug_Target_16_Synonyms:
+EF-Tu
+
+# Drug_Target_16_Theoretical_pI:
+5.14
+
+# Drug_Target_16_Transmembrane_Regions:
+None
+
+# Drug_Target_17_Cellular_Location:
+Golgi apparatus. Cytoplasm, perinuclear region
+
+# Drug_Target_17_Chromosome_Location:
+1
+
+# Drug_Target_17_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_17_Essentiality:
+Non-Essential
+
+# Drug_Target_17_GenAtlas_ID:
+Not Available
+
+# Drug_Target_17_GenBank_ID_Gene:
+M36340
+
+# Drug_Target_17_GenBank_ID_Protein:
+178983
+
+# Drug_Target_17_GeneCard_ID:
+ARF1
+
+# Drug_Target_17_Gene_Name:
+ARF1
+
+# Drug_Target_17_Gene_Sequence:
+>546 bp
+ATGGGGAACATCTTCGCCAACCTCTTCAAGGGCCTTTTTGGCAAAAAAGAAATGCGCATC
+CTCATGGTGGGCCTGGATGCTGCAGGGAAGACCACGATCCTCTACAAGCTTAAGCTGGGT
+GAGATCGTGACCACCATTCCCACCATAGGCTTCAACGTGGAAACCGTGGAGTACAAGAAC
+ATCAGCTTCACTGTGTGGGACGTGGGTGGCCAGGACAAGATCCGGCCCCTGTGGCGCCAC
+TACTTCCAGAACACACAAGGCCTGATCTTCGTGGTGGACAGCAATGACAGAGAGCGTGTG
+AACGAGGCCCGTGAGGAGCTCATGAGGATGCTGGCCGAGGACGAGCTCCGGGATGCTGTC
+CTCCTGGTGTTCGCCAACAAGCAGGACCTCCCCAACGCCATGAATGCGGCCGAGATCACA
+GACAAGCTGGGGCTGCACTCACTACGCCACAGGAACTGGTACATTCAGGCCACCTGCGCC
+ACCAGCGGCGACGGGCTCTATGAAGGACTGGACTGGCTGTCCAATCAGCTCCGGAACCAG
+AAGTGA
+
+# Drug_Target_17_General_Function:
+Involved in GTP binding
+
+# Drug_Target_17_General_References:
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+1577740	Lee CM, Haun RS, Tsai SC, Moss J, Vaughan M: Characterization of the human gene encoding ADP-ribosylation factor 1, a guanine nucleotide-binding activator of cholera toxin. J Biol Chem. 1992 May 5;267(13):9028-34.
+16710414	Gregory SG, Barlow KF, McLay KE, Kaul R, Swarbreck D, Dunham A, Scott CE, Howe KL, Woodfine K, Spencer CC, Jones MC, Gillson C, Searle S, Zhou Y, Kokocinski F, McDonald L, Evans R, Phillips K, Atkinson A, Cooper R, Jones C, Hall RE, Andrews TD, Lloyd C, Ainscough R, Almeida JP, Ambrose KD, Anderson F, Andrew RW, Ashwell RI, Aubin K, Babbage AK, Bagguley CL, Bailey J, Beasley H, Bethel G, Bird CP, Bray-Allen S, Brown JY, Brown AJ, Buckley D, Burton J, Bye J, Carder C, Chapman JC, Clark SY, Clarke G, Clee C, Cobley V, Collier RE, Corby N, Coville GJ, Davies J, Deadman R, Dunn M, Earthrowl M, Ellington AG, Errington H, Frankish A, Frankland J, French L, Garner P, Garnett J, Gay L, Ghori MR, Gibson R, Gilby LM, Gillett W, Glithero RJ, Grafham DV, Griffiths C, Griffiths-Jones S, Grocock R, Hammond S, Harrison ES, Hart E, Haugen E, Heath PD, Holmes S, Holt K, Howden PJ, Hunt AR, Hunt SE, Hunter G, Isherwood J, James R, Johnson C, Johnson D, Joy A, Kay M, Kershaw JK, Kibukawa M, Kimberley AM, King A, Knights AJ, Lad H, Laird G, Lawlor S, Leongamornlert DA, Lloyd DM, Loveland J, Lovell J, Lush MJ, Lyne R, Martin S, Mashreghi-Mohammadi M, Matthews L, Matthews NS, McLaren S, Milne S, Mistry S, Moore MJ, Nickerson T, O'Dell CN, Oliver K, Palmeiri A, Palmer SA, Parker A, Patel D, Pearce AV, Peck AI, Pelan S, Phelps K, Phillimore BJ, Plumb R, Rajan J, Raymond C, Rouse G, Saenphimmachak C, Sehra HK, Sheridan E, Shownkeen R, Sims S, Skuce CD, Smith M, Steward C, Subramanian S, Sycamore N, Tracey A, Tromans A, Van Helmond Z, Wall M, Wallis JM, White S, Whitehead SL, Wilkinson JE, Willey DL, Williams H, Wilming L, Wray PW, Wu Z, Coulson A, Vaudin M, Sulston JE, Durbin R, Hubbard T, Wooster R, Dunham I, Carter NP, McVean G, Ross MT, Harrow J, Olson MV, Beck S, Rogers J, Bentley DR, Banerjee R, Bryant SP, Burford DC, Burrill WD, Clegg SM, Dhami P, Dovey O, Faulkner LM, Gribble SM, Langford CF, Pandian RD, Porter KM, Prigmore E: The DNA sequence and biological annotation of human chromosome 1. Nature. 2006 May 18;441(7091):315-21.
+1899243	Kahn RA, Kern FG, Clark J, Gelmann EP, Rulka C: Human ADP-ribosylation factors. A functionally conserved family of GTP-binding proteins. J Biol Chem. 1991 Feb 5;266(4):2606-14.
+2474826	Bobak DA, Nightingale MS, Murtagh JJ, Price SR, Moss J, Vaughan M: Molecular cloning, characterization, and expression of human ADP-ribosylation factors: two guanine nucleotide-dependent activators of cholera toxin. Proc Natl Acad Sci U S A. 1989 Aug;86(16):6101-5.
+8861955	Rosa JL, Casaroli-Marano RP, Buckler AJ, Vilaro S, Barbacid M: p619, a giant protein related to the chromosome condensation regulator RCC1, stimulates guanine nucleotide exchange on ARF1 and Rab proteins. EMBO J. 1996 Aug 15;15(16):4262-73.
+9110174	Yu W, Andersson B, Worley KC, Muzny DM, Ding Y, Liu W, Ricafrente JY, Wentland MA, Lennon G, Gibbs RA: Large-scale concatenation cDNA sequencing. Genome Res. 1997 Apr;7(4):353-8.
+
+# Drug_Target_17_HGNC_ID:
+GNC:652
+
+# Drug_Target_17_HPRD_ID:
+Not Available
+
+# Drug_Target_17_ID:
+6316
+
+# Drug_Target_17_Locus:
+1q42
+
+# Drug_Target_17_Molecular_Weight:
+20696.6
+
+# Drug_Target_17_Name:
+ADP-ribosylation factor 1
+
+# Drug_Target_17_Number_of_Residues:
+181
+
+# Drug_Target_17_PDB_ID:
+1R8Q
+
+# Drug_Target_17_Pathway:
+Not Available
+
+# Drug_Target_17_Pfam_Domain_Function:
+PF00025	Arf
+
+# Drug_Target_17_Protein_Sequence:
+>ADP-ribosylation factor 1
+MGNIFANLFKGLFGKKEMRILMVGLDAAGKTTILYKLKLGEIVTTIPTIGFNVETVEYKN
+ISFTVWDVGGQDKIRPLWRHYFQNTQGLIFVVDSNDRERVNEAREELMRMLAEDELRDAV
+LLVFANKQDLPNAMNAAEITDKLGLHSLRHRNWYIQATCATSGDGLYEGLDWLSNQLRNQ
+K
+
+# Drug_Target_17_Reaction:
+Not Available
+
+# Drug_Target_17_Signals:
+None
+
+# Drug_Target_17_Specific_Function:
+GTP-binding protein that functions as an allosteric activator of the cholera toxin catalytic subunit, an ADP- ribosyltransferase. Involved in protein trafficking among different compartments. Modulates vesicle budding and uncoating within the Golgi complex. Deactivation induces the redistribution of the entire Golgi complex to the endoplasmic reticulum, suggesting a crucial role in protein trafficking. In its GTP-bound form, its triggers the association with coat proteins with the Golgi membrane. The hydrolysis of ARF1-bound GTP, which is mediated by ARFGAPs proteins, is required for dissociation of coat proteins from Golgi membranes and vesicles
+
+# Drug_Target_17_SwissProt_ID:
+P84077
+
+# Drug_Target_17_SwissProt_Name:
+ARF1_HUMAN
+
+# Drug_Target_17_Synonyms:
+Not Available
+
+# Drug_Target_17_Theoretical_pI:
+6.80
+
+# Drug_Target_17_Transmembrane_Regions:
+None
+
+# Drug_Target_18_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_18_Chromosome_Location:
+1
+
+# Drug_Target_18_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_18_Essentiality:
+Non-Essential
+
+# Drug_Target_18_GenAtlas_ID:
+Not Available
+
+# Drug_Target_18_GenBank_ID_Gene:
+X51466
+
+# Drug_Target_18_GenBank_ID_Protein:
+31106
+
+# Drug_Target_18_GeneCard_ID:
+EEF2
+
+# Drug_Target_18_Gene_Name:
+EEF2
+
+# Drug_Target_18_Gene_Sequence:
+>2577 bp
+ATGGTTAATTTTACGGTGGATCAGATCCGCGCCATCATGGACAAGAAGGCCAACATCCGC
+AACATGTCTGTCATCGCCCACGTGGACCATGGCAAGTCCACGCTGACAGACTCCCTGGTG
+TGCAAGGCGGGCATCATCGCCTCGGCCCGGGCCGGGGAGACACGCTTCACTGATACCCGG
+AAGGACGAGCAGGAGCGTTGCATCACCATCAAGTCAACTGCCATCTCCCTCTTCTACGAG
+CTCTCGGAGAATGACTTGAACTTCATCAAGCAGAGCAAGGACGGTGCCGGCTTCCTCATC
+AACCTCATTGACTCCCCCGGGCATGTCGACTTCTCCTCGGAGGTGACTGCTGCCCTCCGA
+GTCACCGATGGCGCATTGGTGGTGGTGGACTGCGTGTCAGGCGTGTGCGTGCAGACGGAG
+ACAGTGCTGCGGCAGGCCATTGCCGAGCGCATCAAGCCTGTGCTGATGATGAACAAGATG
+GACCGCGCCCTGCTGGAGCTGCAGCTGGAGCCCGAGGAGCTCTACCAGACTTTCCAGCGC
+ATCGTGGAGAACGTGAACGTCATCATCTCCACCTACGGCGAGGGCGAGAGCGGCCCCATG
+GGCAACATCATGATCGATCCTGTCCTCGGTACCGTGGGCTTTGGGTCTGGCCTCCACGGG
+TGGGCCTTCACCCTGAAGCAGTTTGCCGAGATGTATGTGGCCAAGTTCGCCGCCAAGGGG
+GAGGGCCAGTTGGGGCCTGCCGAGCGGGCCAAGAAAGTAGAGGACATGATGAAGAAGCTG
+TGGGGTGACAGGTACTTTGACCCAGCCAACGGCAAGTTCAGCAAGTCAGCCACCAGCCCC
+GAAGGGAAGAAGCTGCCACGCACCTTCTGCCAGCTGATCCTGGACCCCATCTTCAAGGTG
+TTTGATGCGATCATGAATTTCAAGAAAGAGGAGACAGCAAAACTGATAGAGAAACTGGAC
+ATCAAACTGGACAGCGAGGACAAGGACAAAGAAGGCAAACCCCTGCTGAAGGCTGTGATG
+CGCCGCTGGCTGCCTGCCGGAGACGCCTTGTTGCAGATGATCACCATCCACCTGCCCTCC
+CCTGTGACGGCCCAGAAGTACCGCTGCGAGCTCCTGTACGAGGGGCCCCCGGACGACGAG
+GCTGCCATGGGCATTAAAAGCTGTGACCCCAAAGGCCCTCTTATGATGTATATTTCCAAA
+ATGGTGCCAACCTCCGACAAAGGTCGGTTCTACGCCTTTGGACGAGTCTTCTCGGGGCTG
+GTCTCCACTGGCCTGAAGGTCAGGATCATGGGGCCCAACTATACCCCTGGGAAGAAGGAG
+GACCTCTACCTGAAGCCAATCCAGAGAACAATCTTGATGATGGGCCGCTACGTGGAGCCC
+ATCGAGGATGTGCCTTGTGGGAACATTGTGGGCCTCGTGGGCGTGGACCAGTTCCTGGTG
+AAGACGGGCACCATCACCACCTTCGAGCACGCGCACAACATGCGGGTGATGAAGTTCAGC
+GTCAGCCCTGTTGTCAGAGTGGCCGTGGAGGCCAAGAACCCGGCTGACCTGCCCAAGCTG
+GTGGAGGGGCTGAAGCGGCTGGCCAAGTCCGACCCCATGGTGCAGTGCATCATCGAGGAG
+TCGGGAGAGCATATCATCGCGGGCGCCGGCGAGCTGCACCTGGAGATCTGCCTGAAGGAC
+CTGGAGGAGGACCACGCCTGCATCCCCATCAAGAAATCTGACCCGGTCGTCTCGTACCGC
+GAGACGGTCAGTGAAGAGTCGAACGTGCTCTGCCTCTCCAAGTCCCCCAACAAGCACAAC
+CGGCTGTACATGAAGGCGCGGCCCTTCCCCGACGGCCTGGCCGAGGACATCGATAAAGGC
+GAGGTGTCCGCCCGTCAGGAGCTCAAGCAGCGGGCGCGCTACCTGGCCGAGAAGTACGAG
+TGGGACGTGGCTGAGGCCCGCAAGATCTGGTGCTTTGGGCCCGACGGCACCGGCCCCAAC
+ATCCTCACCGACATCACCAAGGGTGTGCAGTACCTCAACGAGATCAAGGACAGTGTGGTG
+GCCGGCTTCCAGTGGGCCACCAAGGAGGGCGCACTGTGTGAGGAGAACATGCGGGGTGTG
+CGCTTCGACGTCCACGACGTCACCCTGCACGCCGACGCCATCCACCGCGGAGGGGGCCAG
+ATCATCCCCACAGCACGGCGCTGCCTCTATGCCAGTGTGCTGACCGCCCAGCCACGCCTC
+ATGGAGCCCATCTACCTTGTGGAGATCCAGTGTCCAGAGCAGGTGGTCGGTGGCATCTAC
+GGGGTTTTGAACAGGAAGCGGGGCCACGTGTTCGAGGAGTCCCAGGTGGCCGGCACCCCC
+ATGTTTGTGGTCAAGGCCTATCTGCCCGTCAACGAGTCCTTTGGCTTCACCGCTGACCTG
+AGGTCCAACACGGGCGGCCAGGCGTTCCCCCAGTGTGTGTTTGACCACTGGCAGATCCTG
+CCCGGAGACCCCTTCGACAACAGCAGCCGCCCCAGCCAGGTGGTGGCGGAGACCCGCAAG
+CGCAAGGGCCTGAAAGAAGGCATCCCTGCCCTGGACAACTTCCTGGACAAATTGTAG
+
+# Drug_Target_18_General_Function:
+Translation, ribosomal structure and biogenesis
+
+# Drug_Target_18_General_References:
+15302935	Beausoleil SA, Jedrychowski M, Schwartz D, Elias JE, Villen J, Li J, Cohn MA, Cantley LC, Gygi SP: Large-scale characterization of HeLa cell nuclear phosphoproteins. Proc Natl Acad Sci U S A. 2004 Aug 17;101(33):12130-5. Epub 2004 Aug 9.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+1596361	Hanes J, Freudenstein J, Rapp G, Scheit KH: Construction of a plasmid containing the complete coding region of human elongation factor 2. Biol Chem Hoppe Seyler. 1992 Apr;373(4):201-4.
+16083285	Kim JE, Tannenbaum SR, White FM: Global phosphoproteome of HT-29 human colon adenocarcinoma cells. J Proteome Res. 2005 Jul-Aug;4(4):1339-46.
+16097034	Gevaert K, Staes A, Van Damme J, De Groot S, Hugelier K, Demol H, Martens L, Goethals M, Vandekerckhove J: Global phosphoproteome analysis on human HepG2 hepatocytes using reversed-phase diagonal LC. Proteomics. 2005 Sep;5(14):3589-99.
+2610926	Rapp G, Klaudiny J, Hagendorff G, Luck MR, Scheit KH: Complete sequence of the coding region of human elongation factor 2 (EF-2) by enzymatic amplification of cDNA from human ovarian granulosa cells. Biol Chem Hoppe Seyler. 1989 Oct;370(10):1071-5.
+2840927	Rapp G, Mucha J, Einspanier R, Luck M, Scheit KH: Cloning and sequence analysis of a cDNA from human ovarian granulosa cells encoding the C-terminal part of human elongation factor 2. Biol Chem Hoppe Seyler. 1988 Apr;369(4):247-50.
+
+# Drug_Target_18_HGNC_ID:
+GNC:3214
+
+# Drug_Target_18_HPRD_ID:
+Not Available
+
+# Drug_Target_18_ID:
+6790
+
+# Drug_Target_18_Locus:
+19pter-q12
+
+# Drug_Target_18_Molecular_Weight:
+95337.4
+
+# Drug_Target_18_Name:
+Elongation factor 2
+
+# Drug_Target_18_Number_of_Residues:
+858
+
+# Drug_Target_18_PDB_ID:
+Not Available
+
+# Drug_Target_18_Pathway:
+Not Available
+
+# Drug_Target_18_Pfam_Domain_Function:
+PF00009	GTP_EFTU
+PF00679	EFG_C
+PF03144	GTP_EFTU_D2
+PF03764	EFG_IV
+
+# Drug_Target_18_Protein_Sequence:
+>Elongation factor 2
+MVNFTVDQIRAIMDKKANIRNMSVIAHVDHGKSTLTDSLVCKAGIIASARAGETRFTDTR
+KDEQERCITIKSTAISLFYELSENDLNFIKQSKDGAGFLINLIDSPGHVDFSSEVTAALR
+VTDGALVVVDCVSGVCVQTETVLRQAIAERIKPVLMMNKMDRALLELQLEPEELYQTFQR
+IVENVNVIISTYGEGESGPMGNIMIDPVLGTVGFGSGLHGWAFTLKQFAEMYVAKFAAKG
+EGQLGPAERAKKVEDMMKKLWGDRYFDPANGKFSKSATSPEGKKLPRTFCQLILDPIFKV
+FDAIMNFKKEETAKLIEKLDIKLDSEDKDKEGKPLLKAVMRRWLPAGDALLQMITIHLPS
+PVTAQKYRCELLYEGPPDDEAAMGIKSCDPKGPLMMYISKMVPTSDKGRFYAFGRVFSGL
+VSTGLKVRIMGPNYTPGKKEDLYLKPIQRTILMMGRYVEPIEDVPCGNIVGLVGVDQFLV
+KTGTITTFEHAHNMRVMKFSVSPVVRVAVEAKNPADLPKLVEGLKRLAKSDPMVQCIIEE
+SGEHIIAGAGELHLEICLKDLEEDHACIPIKKSDPVVSYRETVSEESNVLCLSKSPNKHN
+RLYMKARPFPDGLAEDIDKGEVSARQELKQRARYLAEKYEWDVAEARKIWCFGPDGTGPN
+ILTDITKGVQYLNEIKDSVVAGFQWATKEGALCEENMRGVRFDVHDVTLHADAIHRGGGQ
+IIPTARRCLYASVLTAQPRLMEPIYLVEIQCPEQVVGGIYGVLNRKRGHVFEESQVAGTP
+MFVVKAYLPVNESFGFTADLRSNTGGQAFPQCVFDHWQILPGDPFDNSSRPSQVVAETRK
+RKGLKEGIPALDNFLDKL
+
+# Drug_Target_18_Reaction:
+Not Available
+
+# Drug_Target_18_Signals:
+None
+
+# Drug_Target_18_Specific_Function:
+This protein promotes the GTP-dependent translocation of the nascent protein chain from the A-site to the P-site of the ribosome
+
+# Drug_Target_18_SwissProt_ID:
+P13639
+
+# Drug_Target_18_SwissProt_Name:
+EF2_HUMAN
+
+# Drug_Target_18_Synonyms:
+EF-2
+
+# Drug_Target_18_Theoretical_pI:
+6.82
+
+# Drug_Target_18_Transmembrane_Regions:
+None
+
+# Drug_Target_19_Cellular_Location:
+Not Available
+
+# Drug_Target_19_Chromosome_Location:
+Not Available
+
+# Drug_Target_19_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_19_Essentiality:
+Non-Essential
+
+# Drug_Target_19_GenAtlas_ID:
+Not Available
+
+# Drug_Target_19_GenBank_ID_Gene:
+X72832
+
+# Drug_Target_19_GenBank_ID_Protein:
+407881
+
+# Drug_Target_19_GeneCard_ID:
+Not Available
+
+# Drug_Target_19_Gene_Name:
+relA
+
+# Drug_Target_19_Gene_Sequence:
+>2220 bp
+TTAGCCATTGGTCCGCTTCACGCTATAAACATCTGGAACTGCCTTAATTTTTTCGACAAC
+AGTTGTCAGATGCGTCAGATTTGGAATGCCAAAGCTCACGTGAATATTCGCAAACTTCAT
+GTCCTTGGTTGGCTGGGCATTAACGGTGGAAATACTCTTGGTAGAATTAGACAAAATCTG
+GAGGACGTCATTGAGAAGGCCTCTACGATTGAGCCCATAAATATCAATTTCAGCTTGGTA
+ATCTTTGCTGGAGTTATCCAAATCCCATTCCACCTCGATGAGACGCTCTTGGTAGCCATC
+TTGACTCTTGATGTTATTACAATCCGCACGGTGGATGGCAATGCCTCGACCCTTGGTAAT
+ATAGCCTTCAATGGGATCCCCAGGTACAGGATTACAACATTTAGCAATCCGCATCAAGAG
+TCCTGAAGCCCCTTGGATAATAACCCCATTTTCACTGCGAACCTTGAGAACATCCTTGTT
+TTCGTGCTTGATTTCGCCACCGTTAACCAATTCTTCTGCTTCTGCCTTAGCCTTGGCTCT
+TTCCTCTTCACGGCGTTCTTTTTCAGTTAATTTATTAAAGACACTAACAGGACTAATGTC
+GCCAAAACCGACCGCTGCGTAGAGAGATTCTTCGCTCTTCACACTGACTTTTGGAAGAAT
+AGCTTCTATGCGTTTTTTATCAAGGTATTTATTGGCAACATAGCCCTGCTCTTGGAAATA
+AGAAACCAGCATGTCACGGCCTTTATTCACTGACAACTCTTTGTCTTGGTTTTTAAAGAA
+CTGACGAATCTTGTTGCGAGCTTTATTGGTTTTTACCAACTTAATCCAGTCACGGCTTGG
+CCCAAAAGAGTTAGGGTTGGTGACGATTTCCACCACATCTCCTGTTTTTAATTTGGCTGT
+TAGGGGAACCATACGGCCATTAACCTTGGCCCCTATCGCTTTTTCACCCACTTGCGTGTG
+GATGGCATAGGCAAAGTCAATTGGTCCCGAGTCCTTTGGCAATTCCTGCACAGCACCTGT
+CGGTGTAAAGACGTAAATACGTTCTGAGAAAATGTCTTCTTTGACCGAGTCCACAAAGTC
+CACTGCATCGCCATTTGACGCATCTTGTAACTCCACAAGCTCTTTGATCCAGTTCATGCC
+AACCTTTTGTTCGGCCTGATTAACCTTGCCGCGGACGCCTTTTTTATAAGCCCAGTGAGC
+AGCTACCCCGTACTCAGCCACTTGGTGCATTTCCTTGGTGCGGATTTGAATCTCAATCGG
+ACCTTTAGGGCCATACACGGTGGTATGAATAGACTGGTAACCATTAGCTTTAGGCGCGGC
+AATATAATCTTTGAAGCGGCCTGGCATTGGACGCCACAACTCGTGAATGTAACCGACCAT
+AGCATAAACATCGCTCTGCGTTTCCATGACACAACGGATAGCAATCAAATCAAAAATCTG
+ATCAAAGCGTTTTTTCTTGTCCCGCATTTTCCGATAAATGGAATAAATGTGTTTTGGTCG
+ACCATAAACATCACCAAACAAGCCTTGCTCAGTGGTATAAGACTTGATTTTGGTAACAAT
+ATCATCCACCAAAGCTTCACGCTCGCGACGTTTTTCATTCATCATATGGGAAATCTTATA
+AAACTCCGTTTCGTTCAGGTAACGGAAAGCCAGATCTTCTAATTCCCATTTGATACGACT
+AATCCCCAAGCGGTGCGCCAAGGGAGCATAAATTTCCATGGTTTCGCGCGAAATACGCTC
+TTGCTTATCCTTACGCAGATGCTTGAGGGTCCGCATATTATGTAAACGGTCCGCCAATTT
+CACCAAAATCACTCGAATGTCTTTGGACATGGCCATCAACATTTTACGGTGATTTTCAGC
+TAACTGTTCTTCGTGCGATTTGTACTCTACCTTACCTAACTTGGTTACCCCATCAACAAT
+ATCACGGACATCTTTGCCAAAATCAAATTCAATGTTATCTAGAGTAATATCAGTATCTTC
+TACCACGTCATGCAAAAAACCACAGGCAACCGTCACAGCATCCAAATGCAAATCTGCCAG
+AATCCCCGCCACTTGAATCGGATGCACAATGTAAGGCTCTCCTGACTTTCGCACTTGATA
+AAAATGAGCAGCCGTTGCATAATCCAAAGCTTTTTTCACAAAGGCCGCATCGGTCTCATT
+CATGTATTTGGCTGCTAAGGCAACAACTTCTTCTCCTGTTAAATTGATTTCTTTTGCCAT
+
+# Drug_Target_19_General_Function:
+Signal transduction mechanisms
+
+# Drug_Target_19_General_References:
+8232196	Mechold U, Steiner K, Vettermann S, Malke H: Genetic organization of the streptokinase region of the Streptococcus equisimilis H46A chromosome. Mol Gen Genet. 1993 Oct;241(1-2):129-40.
+
+# Drug_Target_19_HGNC_ID:
+Not Available
+
+# Drug_Target_19_HPRD_ID:
+Not Available
+
+# Drug_Target_19_ID:
+3107
+
+# Drug_Target_19_Locus:
+Not Available
+
+# Drug_Target_19_Molecular_Weight:
+83914
+
+# Drug_Target_19_Name:
+Putative GTP pyrophosphokinase
+
+# Drug_Target_19_Number_of_Residues:
+739
+
+# Drug_Target_19_PDB_ID:
+1VJ7
+
+# Drug_Target_19_Pathway:
+Not Available
+
+# Drug_Target_19_Pfam_Domain_Function:
+PF01842	ACT
+PF01966	HD
+PF02824	TGS
+PF04607	RelA_SpoT
+
+# Drug_Target_19_Protein_Sequence:
+>Putative GTP pyrophosphokinase
+MAKEINLTGEEVVALAAKYMNETDAAFVKKALDYATAAHFYQVRKSGEPYIVHPIQVAGI
+LADLHLDAVTVACGFLHDVVEDTDITLDNIEFDFGKDVRDIVDGVTKLGKVEYKSHEEQL
+AENHRKMLMAMSKDIRVILVKLADRLHNMRTLKHLRKDKQERISRETMEIYAPLAHRLGI
+SRIKWELEDLAFRYLNETEFYKISHMMNEKRREREALVDDIVTKIKSYTTEQGLFGDVYG
+RPKHIYSIYRKMRDKKKRFDQIFDLIAIRCVMETQSDVYAMVGYIHELWRPMPGRFKDYI
+AAPKANGYQSIHTTVYGPKGPIEIQIRTKEMHQVAEYGVAAHWAYKKGVRGKVNQAEQKV
+GMNWIKELVELQDASNGDAVDFVDSVKEDIFSERIYVFTPTGAVQELPKDSGPIDFAYAI
+HTQVGEKAIGAKVNGRMVPLTAKLKTGDVVEIVTNPNSFGPSRDWIKLVKTNKARNKIRQ
+FFKNQDKELSVNKGRDMLVSYFQEQGYVANKYLDKKRIEAILPKVSVKSEESLYAAVGFG
+DISPVSVFNKLTEKERREEERAKAKAEAEELVNGGEIKHENKDVLKVRSENGVIIQGASG
+LLMRIAKCCNPVPGDPIEGYITKGRGIAIHRADCNNIKSQDGYQERLIEVEWDLDNSSKD
+YQAEIDIYGLNRRGLLNDVLQILSNSTKSISTVNAQPTKDMKFANIHVSFGIPNLTHLTT
+VVEKIKAVPDVYSVKRTNG
+
+# Drug_Target_19_Reaction:
+ATP + GTP = AMP + guanosine 3'-diphosphate 5'-triphosphate
+
+# Drug_Target_19_Signals:
+None
+
+# Drug_Target_19_Specific_Function:
+In eubacteria ppGpp (guanosine 3'-diphosphate 5-' diphosphate) is a mediator of the stringent response that coordinates a variety of cellular activities in response to changes in nutritional abundance. This enzyme catalyzes the formation of pppGpp which is then hydrolyzed to form ppGpp
+
+# Drug_Target_19_SwissProt_ID:
+Q54089
+
+# Drug_Target_19_SwissProt_Name:
+RELA_STREQ
+
+# Drug_Target_19_Synonyms:
+(P)ppGpp synthetase
+ATP:GTP 3'- pyrophosphotransferase
+EC 2.7.6.5
+Stringent response-like protein
+ppGpp synthetase I
+
+# Drug_Target_19_Theoretical_pI:
+8.80
+
+# Drug_Target_19_Transmembrane_Regions:
+None
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+ADSSL1
+
+# Drug_Target_1_GenBank_ID_Gene:
+AY037159
+
+# Drug_Target_1_GenBank_ID_Protein:
+21303413
+
+# Drug_Target_1_GeneCard_ID:
+ADSSL1
+
+# Drug_Target_1_Gene_Name:
+ADSSL1
+
+# Drug_Target_1_Gene_Sequence:
+>1374 bp
+ATGTCGGGGACCCGAGCCTCCAACGACCGGCCCCCCGGCGCAGGCGGCGTCAAGCGGGGG
+CGGCTGCAGCAGGAGGCGGCGGCGACCGGCTCCCGCGTGACGGTGGTGCTGGGCGCGCAG
+TGGGGGGACGAGGGCAAAGGCAAGGTGGTGGACCTGCTGGCCACGGACGCCGACATCATC
+AGCCGCTGCCAGGGGGGCAACAACGCCGGCCACACGGTGGTGGTGGATGGGAAAGAGTAC
+GACTTCCACCTGCTGCCCAGCGGCATCATCAACACCAAGGCCGTGTCCTTCATTGGCAAC
+GGGGTGGTCATCCACTTGCCAGGCTTGTTTGAGGAAGCAGAGAAGAATGAAAAGAAAGGC
+CTGAAGGACTGGGAGAAGAGGCTCATCATCTCTGACAGAGCCCACCTTGTGTTTGATTTT
+CACCAGGCTGTCGACGGACTTCAGGAAGTGCAGCGCCAGGCACAAGAGGGGAAGAATATA
+GGCACCACCAAGAAGGGAATCGGACCAACCTACTCTTCCAAAGCTGCCCGGACAGGCCTC
+CGCATCTGCGACCTCCTGTCAGATTTTGATGAGTTTTCCTCCAGATTCAAGAACCTGGCC
+CACCAGCACCAGTCGATGTTCCCCACCCTGGAAATAGACATTGAAGGCCAACTCAAAAGG
+CTCAAGGGCTTTGCTGAGCGGATCAGACCCATGGTCCGAGATGGTGTTTACTTTATGTAT
+GAGGCACTCCACGGCCCCCCCAAGAAGATCCTGGTGGAGGGTGCCAACGCCGCCCTCCTC
+GACATTGACTTCGGGACCTACCCCTTTGTGACTTCATCCAACTGCACCGTGGGCGGTGTG
+TGCACGGGCCTGGGCATCCCCCCGCAGAACATAGGTGACGTGTATGGCGTGGTGAAAGCC
+TATACCACACGTGTGGGCATCGGGGCCTTCCCCACCGAGCAGATCAACGAGATTGGAGGC
+CTGCTGCAGACCCGCGGCCACGAGTGGGGAGTGACCACAGGCAGGAAGAGGCGCTGCGGC
+TGGCTCGACCTGATGATTCTAAGATATGCTCACATGGTCAACGGATTCACTGCGCTGGCC
+CTGACGAAGCTGGACATCCTGGACGTACTGGGTGAGGTTAAAGTCGGTGTCTCATACAAG
+CTGAACGGGAAAAGGATTCCCTATTTCCCAGCTAACCAGGAGATGCTTCAGAAGGTCGAA
+GTTGAGTATGAAACGCTGCCTGGGTGGAAAGCAGACACCACAGGCGCCAGGAGGTGGGAG
+GACCTGCCCCCACAGGCCCAGAACTACATCCGCTTTGTGGAGAATCACGTGGGAGTCGCA
+GTCAAATGGGTTGGTGTTGGCAAGTCAAGAGAGTCGATGATCCAGCTGTTTTAG
+
+# Drug_Target_1_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_1_General_References:
+Not Available
+
+# Drug_Target_1_HGNC_ID:
+HGNC:20093
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+3978
+
+# Drug_Target_1_Locus:
+14q32.33
+
+# Drug_Target_1_Molecular_Weight:
+50209
+
+# Drug_Target_1_Name:
+Adenylosuccinate synthetase isozyme 1
+
+# Drug_Target_1_Number_of_Residues:
+457
+
+# Drug_Target_1_PDB_ID:
+1MF1
+
+# Drug_Target_1_Pathway:
+Azathioprine Pathway	SMP00427
+Mercaptopurine Pathway	SMP00428
+Thioguanine Pathway	SMP00430
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00709	Adenylsucc_synt
+
+# Drug_Target_1_Protein_Sequence:
+>Adenylosuccinate synthetase isozyme 1
+MSGTRASNDRPPGAGGVKRGRLQQEAAATGSRVTVVLGAQWGDEGKGKVVDLLATDADII
+SRCQGGNNAGHTVVVDGKEYDFHLLPSGIINTKAVSFIGNGVVIHLPGLFEEAEKNEKKG
+LKDWEKRLIISDRAHLVFDFHQAVDGLQEVQRQAQEGKNIGTTKKGIGPTYSSKAARTGL
+RICDLLSDFDEFSSRFKNLAHQHQSMFPTLEIDIEGQLKRLKGFAERIRPMVRDGVYFMY
+EALHGPPKKILVEGANAALLDIDFGTYPFVTSSNCTVGGVCTGLGIPPQNIGDVYGVVKA
+YTTRVGIGAFPTEQINEIGGLLQTRGHEWGVTTGRKRRCGWLDLMILRYAHMVNGFTALA
+LTKLDILDVLGEVKVGVSYKLNGKRIPYFPANQEMLQKVEVEYETLPGWKADTTGARRWE
+DLPPQAQNYIRFVENHVGVAVKWVGVGKSRESMIQLF
+
+# Drug_Target_1_Reaction:
+GTP + IMP + L-aspartate = GDP + phosphate + N6-(1,2-dicarboxyethyl)-AMP
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Plays an important role in the de novo pathway of purine nucleotide biosynthesis
+
+# Drug_Target_1_SwissProt_ID:
+Q8N142
+
+# Drug_Target_1_SwissProt_Name:
+PURA1_HUMAN
+
+# Drug_Target_1_Synonyms:
+AMPSase 1
+AdSS 1
+EC 6.3.4.4
+IMP--aspartate ligase 1
+
+# Drug_Target_1_Theoretical_pI:
+8.85
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_20_Cellular_Location:
+Cell membrane
+cytoplasmic side (Potential)
+lipid-anchor
+
+# Drug_Target_20_Chromosome_Location:
+Not Available
+
+# Drug_Target_20_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_20_Essentiality:
+Non-Essential
+
+# Drug_Target_20_GenAtlas_ID:
+RAP2A
+
+# Drug_Target_20_GenBank_ID_Gene:
+X12534
+
+# Drug_Target_20_GenBank_ID_Protein:
+35861
+
+# Drug_Target_20_GeneCard_ID:
+RAP2A
+
+# Drug_Target_20_Gene_Name:
+RAP2A
+
+# Drug_Target_20_Gene_Sequence:
+>552 bp
+ATGCGCGAGTACAAAGTGGTGGTGCTGGGCTCGGGCGGGGTAGGCAAATCCGCCCTGACC
+GTGCAGTTCGTGACCGGCACCTTCATCGAGAAATACGACCCCACCATCGAGGACTTCTAC
+CGCAAGGAGATCGAGGTGGATTCGTCGCCGTCGGTGCTGGAGATCCTGGACACGGCGGGC
+ACCGAGCAGTTCGCGTCCATGCGGGACCTGTACATCAAGAACGGCCAGGGCTTCATCCTC
+GTCTACAGCCTCGTCAACCAGCAGAGCTTCCAGGACATCAAGCCCATGCGGGACCAGATC
+ATCCGCGTGAAGCGGTATGAGAAAGTGCCAGTCATCTTGGTTGGGAACAAAGTGGACCTG
+GAAAGTGAGAGAGAAGTATCGTCCAGCGAAGGCAGAGCCCTTGCTGAAGAGTGGGGCTGC
+CCCTTTATGGAAACTTCCGCTAAGAGTAAAACAATGGTGGACGAACTCTTTGCAGAAATT
+GTGAGGCAGATGAACTATGCTGCTCAGCCTGACAAAGATGACCCATGCTGTTCTGCATGT
+AACATACAATAG
+
+# Drug_Target_20_General_Function:
+Involved in GTP binding
+
+# Drug_Target_20_General_References:
+10591105	Menetrey J, Cherfils J: Structure of the small G protein Rap2 in a non-catalytic complex with GTP. Proteins. 1999 Nov 15;37(3):465-73.
+1900290	Lerosey I, Chardin P, de Gunzburg J, Tavitian A: The product of the rap2 gene, member of the ras superfamily. Biochemical characterization and site-directed mutagenesis. J Biol Chem. 1991 Mar 5;266(7):4315-21.
+3045729	Pizon V, Chardin P, Lerosey I, Olofsson B, Tavitian A: Human cDNAs rap1 and rap2 homologous to the Drosophila gene Dras3 encode proteins closely related to ras in the 'effector' region. Oncogene. 1988 Aug;3(2):201-4.
+8424780	Farrell FX, Yamamoto K, Lapetina EG: Prenyl group identification of rap2 proteins: a ras superfamily member other than ras that is farnesylated. Biochem J. 1993 Jan 15;289 ( Pt 2):349-55.
+9312017	Cherfils J, Menetrey J, Le Bras G, Janoueix-Lerosey I, de Gunzburg J, Garel JR, Auzat I: Crystal structures of the small G protein Rap2A in complex with its substrate GTP, with GDP and with GTPgammaS. EMBO J. 1997 Sep 15;16(18):5582-91.
+
+# Drug_Target_20_HGNC_ID:
+HGNC:9861
+
+# Drug_Target_20_HPRD_ID:
+01547
+
+# Drug_Target_20_ID:
+3354
+
+# Drug_Target_20_Locus:
+13q34
+
+# Drug_Target_20_Molecular_Weight:
+20616
+
+# Drug_Target_20_Name:
+Ras-related protein Rap-2a
+
+# Drug_Target_20_Number_of_Residues:
+183
+
+# Drug_Target_20_PDB_ID:
+3RAP
+
+# Drug_Target_20_Pathway:
+Not Available
+
+# Drug_Target_20_Pfam_Domain_Function:
+PF00071	Ras
+
+# Drug_Target_20_Protein_Sequence:
+>Ras-related protein Rap-2a precursor
+MREYKVVVLGSGGVGKSALTVQFVTGTFIEKYDPTIEDFYRKEIEVDSSPSVLEILDTAG
+TEQFASMRDLYIKNGQGFILVYSLVNQQSFQDIKPMRDQIIRVKRYEKVPVILVGNKVDL
+ESEREVSSSEGRALAEEWGCPFMETSAKSKTMVDELFAEIVRQMNYAAQPDKDDPCCSAC
+NIQ
+
+# Drug_Target_20_Reaction:
+Not Available
+
+# Drug_Target_20_Signals:
+None
+
+# Drug_Target_20_Specific_Function:
+Not Available
+
+# Drug_Target_20_SwissProt_ID:
+P10114
+
+# Drug_Target_20_SwissProt_Name:
+RAP2A_HUMAN
+
+# Drug_Target_20_Synonyms:
+Ras-related protein Rap-2a precursor
+RbBP-30
+
+# Drug_Target_20_Theoretical_pI:
+4.45
+
+# Drug_Target_20_Transmembrane_Regions:
+None
+
+# Drug_Target_21_Cellular_Location:
+Not Available
+
+# Drug_Target_21_Chromosome_Location:
+1
+
+# Drug_Target_21_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_21_Essentiality:
+Non-Essential
+
+# Drug_Target_21_GenAtlas_ID:
+Not Available
+
+# Drug_Target_21_GenBank_ID_Gene:
+AK023181
+
+# Drug_Target_21_GenBank_ID_Protein:
+10434992
+
+# Drug_Target_21_GeneCard_ID:
+EFTUD1
+
+# Drug_Target_21_Gene_Name:
+EFTUD1
+
+# Drug_Target_21_Gene_Sequence:
+>2574 bp
+ATGAAAACCTTGTGGGGAGATTACTATATAAATATGAAGGCTAAAAAGATCATGAAGGGT
+GATCAGGCCAAAGGAAAGAAACCTTTATTTGTACAGTTGATCCTGGAAAATATATGGAGT
+TTGTATGATGCTGTTTTGAAAAAGGACAAAGACAAAATTGATAAAATAGTGACTTCTTTA
+GGATTAAAAATTGGAGCCCGGGAGGCACGACATTCAGACCCTAAAGTTCAGATCAACGCC
+ATTTGCAGTCAGTGGCTACCCATATCCCATGCTGTTCTTGCTATGGTGTGTCAGAAACTT
+CCTAGTCCCCTTGATATTACAGCTGAGAGAGTGGAGAGACTGATGTGCACAGGATCACAA
+ACTTTTGACTCTTTTCCACCAGAAACTCAAGCACTGAAAGCAGCTTTTATGAAATGTGGA
+AGTGAGGACACTGCTCCAGTTATTATATTTGTTTCCAAAATGTTTGCAGTTGATGCTAAG
+GCCTTGCCTCAGAATAAGCCAAGGCCTCTCACTCAAGAAGAAATTGCTCAGAGACGTGAG
+CGTGCAAGACAAAGGCATGCAGAGAAGCTTGCAGCAGCACAGGGACAGGCACCCTTGGAG
+CCCACCCAAGATGGGAGTGCCATTGAAACATGTCCAAAAGGAGACGAGCCAAGAGGTGAC
+GAGCAACAGGTGGAAAGTATGACCCCTAAACCTGTGCTCCAGGAAGAAAACAACCAAGAG
+TCTTTTATTGCATTTGCTCGGGTGTTCAGTGGTGTGGCTCGAAGAGGAAAGAAAATTTTT
+GTCTTGGGGCCCAAATACAGTCCTCTTGAGTTTTTACGAAGGGTACCATTAGGCTTCTCA
+GCTCCACCAGATGGCCTCCCCCAAGTCCCCCACATGGCATACTGTGCTCTGGAAAACCTG
+TATCTTCTGATGGGAAGGGAACTGGAATATCTAGAGGAGGTACCTCCAGGAAATGTGCTA
+GGAATAGGAGGCCTTCAAGATTTTGTGCTGAAATCTGCAACACTGTGTAGCCTGCCATCC
+TGCCCACCATTTATACCACTCAACTTCGAAGCCACTCCTATTGTGAGAGTTGCTGTTGAA
+CCAAAACATCCAAGTGAAATGCCTCGGCTCGTAAAAGGAATGAAACTGTTAAACCAGGCT
+GATCCCTGTGTCCAGATTTTAATTCAGGAAACGGGAGAGCACGTTTTAGTCACAGCAGGA
+GAAGTCCACCTTCAGCGATGCCTGGATGACTTAAAAGAAAGGTTTGCAAAGATTCATATC
+AGTGTATCTGAACCTATTATTCCATTCAGAGAAACAATCACAAAACCCCCAAAAGTTGAC
+ATGGTCAATGAAGAAATAGGCAAACAGCAAAAAGTTGCAGTCATACACCAAATGAAAGAA
+GATCAAAGCAAAATCCCTGAAGGAATCCAAGTTGACTCTGACGGGCTAATCACCATAACA
+ACTCCCAATAAACTTGCCACGCTCAGTGTTCGAGCCATGCCCCTTCCAGAAGAAGTCACC
+CAGATTCTGGAAGAAAATAGTGATTTGATTCGTTCTATGGAGCAGTTGACATCCTCTTTG
+AATGAGGGCGAAAATACTCACATGATTCATCAGAAGACCCAAGAGAAAATTTGGGAATTC
+AAAGGAAAACTGGAGCAACACCTAACAGGGAGAAGATGGAGGAACATTGTTGACCAAATC
+TGGTCATTTGGCCCAAGAAAATGTGGGCCCAACATACTAGTCAATAAAAGTGAAGATTTT
+CAGAACTCAGTATGGACAGGTCCAGCTGACAAAGCTTCAAAAGAAGCCAGTAGATACCGA
+GATTTGGGCAATAGCATTGTGAGTGGCTTCCAACTAGCAACCCTCTCTGGCCCCATGTGT
+GAGGAGCCTCTCATGGGTGTCTGTTTTGTTCTGGAAAAATGGGACCTAAGTAAATTTGAG
+GAACAAGGAGCAAGTGATCTGGCAAAAGAGGGACAGGAGGAAAATGAAACCTGTTCTGGT
+GGAAATGAAAACCAAGAGCTACAAGATGGCTGCTCTGAGGCCTTTGAGAAGAGGACATCA
+CAGAAAGGAGAATCTCCACTCACTGACTGCTATGGACCTTTCTCAGGACAGCTAATTGCC
+ACCATGAAAGAAGCATGTCGCTATGCACTGCAAGTGAAACCTCAGCGCCTGATGGCAGCT
+ATGTACACATGTGACATCATGGCCACTGGTGATGTTCTCGGTCGAGTCTATGCTGTCTTG
+TCAAAGAGAGAAGGTCGGGTACTTCAAGAAGAAATGAAAGAAGGGACAGACATGTTCATC
+ATCAAGGCTGTGCTGCCTGTTGCTGAAAGCTTTGGTTTTGCTGATGAAATCAGGAAGAGG
+ACAAGTGGCCTGGCCAGCCCACAACTAGTATTCAGCCATTGGGAGATCATTCCCAGTGAC
+CCCTTCTGGGTGCCAACTACTGAGGAGGAATACTTGCACTTTGGGGAGAAGGCTGACTCT
+GAGAACCAAGCCCGGAAGTACATGAACGCAGTACGAAAGCGGAAGGGGCTTTATGTGGAA
+GAAAAGATTGTGGAGCATGCAGAAAAGCAGAGGACACTCAGCAAAAATAAGTAG
+
+# Drug_Target_21_General_Function:
+Translation, ribosomal structure and biogenesis
+
+# Drug_Target_21_General_References:
+14702039	Ota T, Suzuki Y, Nishikawa T, Otsuki T, Sugiyama T, Irie R, Wakamatsu A, Hayashi K, Sato H, Nagai K, Kimura K, Makita H, Sekine M, Obayashi M, Nishi T, Shibahara T, Tanaka T, Ishii S, Yamamoto J, Saito K, Kawai Y, Isono Y, Nakamura Y, Nagahari K, Murakami K, Yasuda T, Iwayanagi T, Wagatsuma M, Shiratori A, Sudo H, Hosoiri T, Kaku Y, Kodaira H, Kondo H, Sugawara M, Takahashi M, Kanda K, Yokoi T, Furuya T, Kikkawa E, Omura Y, Abe K, Kamihara K, Katsuta N, Sato K, Tanikawa M, Yamazaki M, Ninomiya K, Ishibashi T, Yamashita H, Murakawa K, Fujimori K, Tanai H, Kimata M, Watanabe M, Hiraoka S, Chiba Y, Ishida S, Ono Y, Takiguchi S, Watanabe S, Yosida M, Hotuta T, Kusano J, Kanehori K, Takahashi-Fujii A, Hara H, Tanase TO, Nomura Y, Togiya S, Komai F, Hara R, Takeuchi K, Arita M, Imose N, Musashino K, Yuuki H, Oshima A, Sasaki N, Aotsuka S, Yoshikawa Y, Matsunawa H, Ichihara T, Shiohata N, Sano S, Moriya S, Momiyama H, Satoh N, Takami S, Terashima Y, Suzuki O, Nakagawa S, Senoh A, Mizoguchi H, Goto Y, Shimizu F, Wakebe H, Hishigaki H, Watanabe T, Sugiyama A, Takemoto M, Kawakami B, Yamazaki M, Watanabe K, Kumagai A, Itakura S, Fukuzumi Y, Fujimori Y, Komiyama M, Tashiro H, Tanigami A, Fujiwara T, Ono T, Yamada K, Fujii Y, Ozaki K, Hirao M, Ohmori Y, Kawabata A, Hikiji T, Kobatake N, Inagaki H, Ikema Y, Okamoto S, Okitani R, Kawakami T, Noguchi S, Itoh T, Shigeta K, Senba T, Matsumura K, Nakajima Y, Mizuno T, Morinaga M, Sasaki M, Togashi T, Oyama M, Hata H, Watanabe M, Komatsu T, Mizushima-Sugano J, Satoh T, Shirai Y, Takahashi Y, Nakagawa K, Okumura K, Nagase T, Nomura N, Kikuchi H, Masuho Y, Yamashita R, Nakai K, Yada T, Nakamura Y, Ohara O, Isogai T, Sugano S: Complete sequencing and characterization of 21,243 full-length human cDNAs. Nat Genet. 2004 Jan;36(1):40-5. Epub 2003 Dec 21.
+16572171	Zody MC, Garber M, Sharpe T, Young SK, Rowen L, O'Neill K, Whittaker CA, Kamal M, Chang JL, Cuomo CA, Dewar K, FitzGerald MG, Kodira CD, Madan A, Qin S, Yang X, Abbasi N, Abouelleil A, Arachchi HM, Baradarani L, Birditt B, Bloom S, Bloom T, Borowsky ML, Burke J, Butler J, Cook A, DeArellano K, DeCaprio D, Dorris L 3rd, Dors M, Eichler EE, Engels R, Fahey J, Fleetwood P, Friedman C, Gearin G, Hall JL, Hensley G, Johnson E, Jones C, Kamat A, Kaur A, Locke DP, Madan A, Munson G, Jaffe DB, Lui A, Macdonald P, Mauceli E, Naylor JW, Nesbitt R, Nicol R, O'Leary SB, Ratcliffe A, Rounsley S, She X, Sneddon KM, Stewart S, Sougnez C, Stone SM, Topham K, Vincent D, Wang S, Zimmer AR, Birren BW, Hood L, Lander ES, Nusbaum C: Analysis of the DNA sequence and duplication history of human chromosome 15. Nature. 2006 Mar 30;440(7084):671-5.
+17974005	Bechtel S, Rosenfelder H, Duda A, Schmidt CP, Ernst U, Wellenreuther R, Mehrle A, Schuster C, Bahr A, Blocker H, Heubner D, Hoerlein A, Michel G, Wedler H, Kohrer K, Ottenwalder B, Poustka A, Wiemann S, Schupp I: The full-ORF clone resource of the German cDNA Consortium. BMC Genomics. 2007 Oct 31;8:399.
+
+# Drug_Target_21_HGNC_ID:
+GNC:25789
+
+# Drug_Target_21_HPRD_ID:
+Not Available
+
+# Drug_Target_21_ID:
+6556
+
+# Drug_Target_21_Locus:
+15q25.2
+
+# Drug_Target_21_Molecular_Weight:
+125428.7
+
+# Drug_Target_21_Name:
+Elongation factor Tu GTP-binding domain-containing protein 1
+
+# Drug_Target_21_Number_of_Residues:
+1120
+
+# Drug_Target_21_PDB_ID:
+Not Available
+
+# Drug_Target_21_Pathway:
+Not Available
+
+# Drug_Target_21_Pfam_Domain_Function:
+PF00009	GTP_EFTU
+PF00679	EFG_C
+PF03764	EFG_IV
+
+# Drug_Target_21_Protein_Sequence:
+>Elongation factor Tu GTP-binding domain-containing protein 1
+MVLNSLDKMIQLQKNTANIRNICVLAHVDHGKTTLADCLISSNGIISSRLAGKLRYMDSR
+EDEQIRGITMKSSAISLHYATGNEEYLINLIDSPGHVDFSSEVSTAVRICDGCIIVVDAV
+EGVCPQTQAVLRQAWLENIRPVLVINKIDRLIVELKFTPQEAYSHLKNILEQINALTGTL
+FTSKVLEERAERETESQVNPNSEQGEQVYDWSTGLEDTDDSHLYFSPEQGNVVFTSAIDG
+WGFGIEHFARIYSQKIGIKKEVLMKTLWGDYYINMKAKKIMKGDQAKGKKPLFVQLILEN
+IWSLYDAVLKKDKDKIDKIVTSLGLKIGAREARHSDPKVQINAICSQWLPISHAVLAMVC
+QKLPSPLDITAERVERLMCTGSQTFDSFPPETQALKAAFMKCGSEDTAPVIIFVSKMFAV
+DAKALPQNKPRPLTQEEIAQRRERARQRHAEKLAAAQGQAPLEPTQDGSAIETCPKGEEP
+RGDEQQVESMTPKPVLQEENNQESFIAFARVFSGVARRGKKIFVLGPKYSPLEFLRRVPL
+GFSAPPDGLPQVPHMAYCALENLYLLMGRELEYLEEVPPGNVLGIGGLQDFVLKSATLCS
+LPSCPPFIPLNFEATPIVRVAVEPKHPSEMPQLVKGMKLLNQADPCVQILIQETGEHVLV
+TAGEVHLQRCLDDLKERFAKIHISVSEPIIPFRETITKPPKVDMVNEEIGKQQKVAVIHQ
+MKEDQSKIPEGIQVDSDGLITITTPNKLATLSVRAMPLPEEVTQILEENSDLIRSMEQLT
+SSLNEGENTHMIHQKTQEKIWEFKGKLEQHLTGRRWRNIVDQIWSFGPRKCGPNILVNKS
+EDFQNSVWTGPADKASKEASRYRDLGNSIVSGFQLATLSGPMCEEPLMGVCFVLEKWDLS
+KFEEQGASDLAKEGQEENETCSGGNENQELQDGCSEAFEKRTSQKGESPLTDCYGPFSGQ
+LIATMKEACRYALQVKPQRLMAAMYTCDIMATGDVLGRVYAVLSKREGRVLQEEMKEGTD
+MFIIKAVLPVAESFGFADEIRKRTSGLASPQLVFSHWEIIPSDPFWVPTTEEEYLHFGEK
+ADSENQARKYMNAVRKRKGLYVEEKIVEHAEKQRTLSKNK
+
+# Drug_Target_21_Reaction:
+Not Available
+
+# Drug_Target_21_Signals:
+None
+
+# Drug_Target_21_Specific_Function:
+Not Available
+
+# Drug_Target_21_SwissProt_ID:
+Q7Z2Z2
+
+# Drug_Target_21_SwissProt_Name:
+ETUD1_HUMAN
+
+# Drug_Target_21_Synonyms:
+Not Available
+
+# Drug_Target_21_Theoretical_pI:
+5.72
+
+# Drug_Target_21_Transmembrane_Regions:
+None
+
+# Drug_Target_22_Cellular_Location:
+Not Available
+
+# Drug_Target_22_Chromosome_Location:
+Not Available
+
+# Drug_Target_22_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_22_Essentiality:
+Non-Essential
+
+# Drug_Target_22_GenAtlas_ID:
+Not Available
+
+# Drug_Target_22_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_22_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_22_GeneCard_ID:
+Not Available
+
+# Drug_Target_22_Gene_Name:
+ARL1
+
+# Drug_Target_22_Gene_Sequence:
+Not Available
+
+# Drug_Target_22_General_Function:
+Not Available
+
+# Drug_Target_22_General_References:
+Not Available
+
+# Drug_Target_22_HGNC_ID:
+Not Available
+
+# Drug_Target_22_HPRD_ID:
+Not Available
+
+# Drug_Target_22_ID:
+7045
+
+# Drug_Target_22_Locus:
+Not Available
+
+# Drug_Target_22_Molecular_Weight:
+Not Available
+
+# Drug_Target_22_Name:
+ADP-ribosylation factor-like protein 1
+
+# Drug_Target_22_Number_of_Residues:
+0
+
+# Drug_Target_22_PDB_ID:
+Not Available
+
+# Drug_Target_22_Pathway:
+Not Available
+
+# Drug_Target_22_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_22_Protein_Sequence:
+Not Available
+
+# Drug_Target_22_Reaction:
+Not Available
+
+# Drug_Target_22_Signals:
+Not Available
+
+# Drug_Target_22_Specific_Function:
+Not Available
+
+# Drug_Target_22_SwissProt_ID:
+P40616
+
+# Drug_Target_22_SwissProt_Name:
+ARL1_HUMAN
+
+# Drug_Target_22_Synonyms:
+Not Available
+
+# Drug_Target_22_Theoretical_pI:
+Not Available
+
+# Drug_Target_22_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_23_Cellular_Location:
+Not Available
+
+# Drug_Target_23_Chromosome_Location:
+Not Available
+
+# Drug_Target_23_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_23_Essentiality:
+Non-Essential
+
+# Drug_Target_23_GenAtlas_ID:
+Not Available
+
+# Drug_Target_23_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_23_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_23_GeneCard_ID:
+Not Available
+
+# Drug_Target_23_Gene_Name:
+RAN
+
+# Drug_Target_23_Gene_Sequence:
+Not Available
+
+# Drug_Target_23_General_Function:
+Not Available
+
+# Drug_Target_23_General_References:
+Not Available
+
+# Drug_Target_23_HGNC_ID:
+Not Available
+
+# Drug_Target_23_HPRD_ID:
+Not Available
+
+# Drug_Target_23_ID:
+7069
+
+# Drug_Target_23_Locus:
+Not Available
+
+# Drug_Target_23_Molecular_Weight:
+Not Available
+
+# Drug_Target_23_Name:
+GTP-binding nuclear protein Ran
+
+# Drug_Target_23_Number_of_Residues:
+0
+
+# Drug_Target_23_PDB_ID:
+Not Available
+
+# Drug_Target_23_Pathway:
+Not Available
+
+# Drug_Target_23_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_23_Protein_Sequence:
+Not Available
+
+# Drug_Target_23_Reaction:
+Not Available
+
+# Drug_Target_23_Signals:
+Not Available
+
+# Drug_Target_23_Specific_Function:
+Not Available
+
+# Drug_Target_23_SwissProt_ID:
+P62826
+
+# Drug_Target_23_SwissProt_Name:
+RAN_HUMAN
+
+# Drug_Target_23_Synonyms:
+Not Available
+
+# Drug_Target_23_Theoretical_pI:
+Not Available
+
+# Drug_Target_23_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_24_Cellular_Location:
+Not Available
+
+# Drug_Target_24_Chromosome_Location:
+Not Available
+
+# Drug_Target_24_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_24_Essentiality:
+Non-Essential
+
+# Drug_Target_24_GenAtlas_ID:
+Not Available
+
+# Drug_Target_24_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_24_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_24_GeneCard_ID:
+Not Available
+
+# Drug_Target_24_Gene_Name:
+RAB7A
+
+# Drug_Target_24_Gene_Sequence:
+Not Available
+
+# Drug_Target_24_General_Function:
+Not Available
+
+# Drug_Target_24_General_References:
+Not Available
+
+# Drug_Target_24_HGNC_ID:
+Not Available
+
+# Drug_Target_24_HPRD_ID:
+Not Available
+
+# Drug_Target_24_ID:
+6995
+
+# Drug_Target_24_Locus:
+Not Available
+
+# Drug_Target_24_Molecular_Weight:
+Not Available
+
+# Drug_Target_24_Name:
+Ras-related protein Rab-7a
+
+# Drug_Target_24_Number_of_Residues:
+0
+
+# Drug_Target_24_PDB_ID:
+Not Available
+
+# Drug_Target_24_Pathway:
+Not Available
+
+# Drug_Target_24_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_24_Protein_Sequence:
+Not Available
+
+# Drug_Target_24_Reaction:
+Not Available
+
+# Drug_Target_24_Signals:
+Not Available
+
+# Drug_Target_24_Specific_Function:
+Not Available
+
+# Drug_Target_24_SwissProt_ID:
+P51149
+
+# Drug_Target_24_SwissProt_Name:
+RAB7A_HUMAN
+
+# Drug_Target_24_Synonyms:
+Not Available
+
+# Drug_Target_24_Theoretical_pI:
+Not Available
+
+# Drug_Target_24_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_25_Cellular_Location:
+Not Available
+
+# Drug_Target_25_Chromosome_Location:
+Not Available
+
+# Drug_Target_25_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_25_Essentiality:
+Non-Essential
+
+# Drug_Target_25_GenAtlas_ID:
+Not Available
+
+# Drug_Target_25_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_25_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_25_GeneCard_ID:
+Not Available
+
+# Drug_Target_25_Gene_Name:
+IRGC
+
+# Drug_Target_25_Gene_Sequence:
+Not Available
+
+# Drug_Target_25_General_Function:
+Not Available
+
+# Drug_Target_25_General_References:
+Not Available
+
+# Drug_Target_25_HGNC_ID:
+Not Available
+
+# Drug_Target_25_HPRD_ID:
+Not Available
+
+# Drug_Target_25_ID:
+7144
+
+# Drug_Target_25_Locus:
+Not Available
+
+# Drug_Target_25_Molecular_Weight:
+Not Available
+
+# Drug_Target_25_Name:
+Interferon-inducible GTPase 5
+
+# Drug_Target_25_Number_of_Residues:
+0
+
+# Drug_Target_25_PDB_ID:
+Not Available
+
+# Drug_Target_25_Pathway:
+Not Available
+
+# Drug_Target_25_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_25_Protein_Sequence:
+Not Available
+
+# Drug_Target_25_Reaction:
+Not Available
+
+# Drug_Target_25_Signals:
+Not Available
+
+# Drug_Target_25_Specific_Function:
+Not Available
+
+# Drug_Target_25_SwissProt_ID:
+Q6NXR0
+
+# Drug_Target_25_SwissProt_Name:
+IIGP5_HUMAN
+
+# Drug_Target_25_Synonyms:
+Not Available
+
+# Drug_Target_25_Theoretical_pI:
+Not Available
+
+# Drug_Target_25_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_26_Cellular_Location:
+Not Available
+
+# Drug_Target_26_Chromosome_Location:
+Not Available
+
+# Drug_Target_26_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_26_Essentiality:
+Non-Essential
+
+# Drug_Target_26_GenAtlas_ID:
+Not Available
+
+# Drug_Target_26_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_26_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_26_GeneCard_ID:
+Not Available
+
+# Drug_Target_26_Gene_Name:
+GSPT1
+
+# Drug_Target_26_Gene_Sequence:
+Not Available
+
+# Drug_Target_26_General_Function:
+Not Available
+
+# Drug_Target_26_General_References:
+Not Available
+
+# Drug_Target_26_HGNC_ID:
+Not Available
+
+# Drug_Target_26_HPRD_ID:
+Not Available
+
+# Drug_Target_26_ID:
+6958
+
+# Drug_Target_26_Locus:
+Not Available
+
+# Drug_Target_26_Molecular_Weight:
+Not Available
+
+# Drug_Target_26_Name:
+Eukaryotic peptide chain release factor GTP-binding subunit ERF3A
+
+# Drug_Target_26_Number_of_Residues:
+0
+
+# Drug_Target_26_PDB_ID:
+Not Available
+
+# Drug_Target_26_Pathway:
+Not Available
+
+# Drug_Target_26_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_26_Protein_Sequence:
+Not Available
+
+# Drug_Target_26_Reaction:
+Not Available
+
+# Drug_Target_26_Signals:
+Not Available
+
+# Drug_Target_26_Specific_Function:
+Not Available
+
+# Drug_Target_26_SwissProt_ID:
+P15170
+
+# Drug_Target_26_SwissProt_Name:
+ERF3A_HUMAN
+
+# Drug_Target_26_Synonyms:
+Not Available
+
+# Drug_Target_26_Theoretical_pI:
+Not Available
+
+# Drug_Target_26_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_27_Cellular_Location:
+Not Available
+
+# Drug_Target_27_Chromosome_Location:
+Not Available
+
+# Drug_Target_27_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_27_Essentiality:
+Non-Essential
+
+# Drug_Target_27_GenAtlas_ID:
+Not Available
+
+# Drug_Target_27_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_27_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_27_GeneCard_ID:
+Not Available
+
+# Drug_Target_27_Gene_Name:
+RAB5A
+
+# Drug_Target_27_Gene_Sequence:
+Not Available
+
+# Drug_Target_27_General_Function:
+Not Available
+
+# Drug_Target_27_General_References:
+Not Available
+
+# Drug_Target_27_HGNC_ID:
+Not Available
+
+# Drug_Target_27_HPRD_ID:
+Not Available
+
+# Drug_Target_27_ID:
+7043
+
+# Drug_Target_27_Locus:
+Not Available
+
+# Drug_Target_27_Molecular_Weight:
+Not Available
+
+# Drug_Target_27_Name:
+Ras-related protein Rab-5A
+
+# Drug_Target_27_Number_of_Residues:
+0
+
+# Drug_Target_27_PDB_ID:
+Not Available
+
+# Drug_Target_27_Pathway:
+Not Available
+
+# Drug_Target_27_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_27_Protein_Sequence:
+Not Available
+
+# Drug_Target_27_Reaction:
+Not Available
+
+# Drug_Target_27_Signals:
+Not Available
+
+# Drug_Target_27_Specific_Function:
+Not Available
+
+# Drug_Target_27_SwissProt_ID:
+P20339
+
+# Drug_Target_27_SwissProt_Name:
+RAB5A_HUMAN
+
+# Drug_Target_27_Synonyms:
+Not Available
+
+# Drug_Target_27_Theoretical_pI:
+Not Available
+
+# Drug_Target_27_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_28_Cellular_Location:
+Cell membrane
+Golgi apparatus membrane
+cytoplasmic side. Golgi apparatus
+lipid-anch
+lipid-anchor
+
+# Drug_Target_28_Chromosome_Location:
+Not Available
+
+# Drug_Target_28_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_28_Essentiality:
+Non-Essential
+
+# Drug_Target_28_GenAtlas_ID:
+HRAS
+
+# Drug_Target_28_GenBank_ID_Gene:
+J00277
+
+# Drug_Target_28_GenBank_ID_Protein:
+190891
+
+# Drug_Target_28_GeneCard_ID:
+HRAS
+
+# Drug_Target_28_Gene_Name:
+HRAS
+
+# Drug_Target_28_Gene_Sequence:
+>570 bp
+ATGACGGAATATAAGCTGGTGGTGGTGGGCGCCGGCGGTGTGGGCAAGAGTGCGCTGACC
+ATCCAGCTGATCCAGAACCATTTTGTGGACGAATACGACCCCACTATAGAGGATTCCTAC
+CGGAAGCAGGTGGTCATTGATGGGGAGACGTGCCTGTTGGACATCCTGGATACCGCCGGC
+CAGGAGGAGTACAGCGCCATGCGGGACCAGTACATGCGCACCGGGGAGGGCTTCCTGTGT
+GTGTTTGCCATCAACAACACCAAGTCTTTTGAGGACATCCACCAGTACAGGGAGCAGATC
+AAACGGGTGAAGGACTCGGATGACGTGCCCATGGTGCTGGTGGGGAACAAGTGTGACCTG
+GCTGCACGCACTGTGGAATCTCGGCAGGCTCAGGACCTCGCCCGAAGCTACGGCATCCCC
+TACATCGAGACCTCGGCCAAGACCCGGCAGGGAGTGGAGGATGCCTTCTACACGTTGGTG
+CGTGAGATCCGGCAGCACAAGCTGCGGAAGCTGAACCCTCCTGATGAGAGTGGCCCCGGC
+TGCATGAGCTGCAAGTGTGTGCTCTCCTGA
+
+# Drug_Target_28_General_Function:
+Involved in GTP binding
+
+# Drug_Target_28_General_References:
+10574788	Scheidig AJ, Burmester C, Goody RS: The pre-hydrolysis state of p21(ras) in complex with GTP: new insights into the role of water molecules in the GTP hydrolysis reaction of ras-like proteins. Structure. 1999 Nov 15;7(11):1311-24.
+11022048	Song C, Hu CD, Masago M, Kariyai K, Yamawaki-Kataoka Y, Shibatohge M, Wu D, Satoh T, Kataoka T: Regulation of a novel human phospholipase C, PLCepsilon, through membrane targeting by Ras. J Biol Chem. 2001 Jan 26;276(4):2752-7. Epub 2000 Oct 5.
+1459726	Sakai E, Rikimaru K, Ueda M, Matsumoto Y, Ishii N, Enomoto S, Yamamoto H, Tsuchida N: The p53 tumor-suppressor gene and ras oncogene mutations in oral squamous-cell carcinoma. Int J Cancer. 1992 Dec 2;52(6):867-72.
+1899707	Tong LA, de Vos AM, Milburn MV, Kim SH: Crystal structures at 2.2 A resolution of the catalytic domains of normal ras protein and an oncogenic mutant complexed with GDP. J Mol Biol. 1991 Feb 5;217(3):503-16.
+2196171	Pai EF, Krengel U, Petsko GA, Goody RS, Kabsch W, Wittinghofer A: Refined crystal structure of the triphosphate conformation of H-ras p21 at 1.35 A resolution: implications for the mechanism of GTP hydrolysis. EMBO J. 1990 Aug;9(8):2351-9.
+2448879	de Vos AM, Tong L, Milburn MV, Matias PM, Jancarik J, Noguchi S, Nishimura S, Miura K, Ohtsuka E, Kim SH: Three-dimensional structure of an oncogene protein: catalytic domain of human c-H-ras p21. Science. 1988 Feb 19;239(4842):888-93.
+2476675	Pai EF, Kabsch W, Krengel U, Holmes KC, John J, Wittinghofer A: Structure of the guanine-nucleotide-binding domain of the Ha-ras oncogene product p21 in the triphosphate conformation. Nature. 1989 Sep 21;341(6239):209-14.
+2661017	Hancock JF, Magee AI, Childs JE, Marshall CJ: All ras proteins are polyisoprenylated but only some are palmitoylated. Cell. 1989 Jun 30;57(7):1167-77.
+3011420	Lacal JC, Anderson PS, Aaronson SA: Deletion mutants of Harvey ras p21 protein reveal the absolute requirement of at least two distant regions for GTP-binding and transforming activities. EMBO J. 1986 Apr;5(4):679-87.
+3088563	Feig LA, Pan BT, Roberts TM, Cooper GM: Isolation of ras GTP-binding mutants using an in situ colony-binding assay. Proc Natl Acad Sci U S A. 1986 Jul;83(13):4607-11.
+3670300	Honkawa H, Masahashi W, Hashimoto S, Hashimoto-Gotoh T: Identification of the principal promoter sequence of the c-H-ras transforming oncogene: deletion analysis of the 5'-flanking region by focus formation assay. Mol Cell Biol. 1987 Aug;7(8):2933-40.
+6087347	Sekiya T, Fushimi M, Hori H, Hirohashi S, Nishimura S, Sugimura T: Molecular cloning and the total nucleotide sequence of the human c-Ha-ras-1 gene activated in a melanoma from a Japanese patient. Proc Natl Acad Sci U S A. 1984 Aug;81(15):4771-5.
+6290897	Tabin CJ, Bradley SM, Bargmann CI, Weinberg RA, Papageorge AG, Scolnick EM, Dhar R, Lowy DR, Chang EH: Mechanism of activation of a human oncogene. Nature. 1982 Nov 11;300(5888):143-9.
+6298635	Capon DJ, Chen EY, Levinson AD, Seeburg PH, Goeddel DV: Complete nucleotide sequences of the T24 human bladder carcinoma oncogene and its normal homologue. Nature. 1983 Mar 3;302(5903):33-7.
+6844927	Reddy EP: Nucleotide sequence analysis of the T24 human bladder carcinoma oncogene. Science. 1983 Jun 3;220(4601):1061-3.
+8142349	Kraulis PJ, Domaille PJ, Campbell-Burk SL, Van Aken T, Laue ED: Solution structure and dynamics of ras p21.GDP determined by heteronuclear three- and four-dimensional NMR spectroscopy. Biochemistry. 1994 Mar 29;33(12):3515-31.
+8626715	Dudler T, Gelb MH: Palmitoylation of Ha-Ras facilitates membrane binding, activation of downstream effectors, and meiotic maturation in Xenopus oocytes. J Biol Chem. 1996 May 10;271(19):11541-7.
+9219684	Scheffzek K, Ahmadian MR, Kabsch W, Wiesmuller L, Lautwein A, Schmitz F, Wittinghofer A: The Ras-RasGAP complex: structural basis for GTPase activation and its loss in oncogenic Ras mutants. Science. 1997 Jul 18;277(5324):333-8.
+
+# Drug_Target_28_HGNC_ID:
+HGNC:5173
+
+# Drug_Target_28_HPRD_ID:
+01813
+
+# Drug_Target_28_ID:
+1758
+
+# Drug_Target_28_Locus:
+11p15.5
+
+# Drug_Target_28_Molecular_Weight:
+21298
+
+# Drug_Target_28_Name:
+GTPase HRas
+
+# Drug_Target_28_Number_of_Residues:
+189
+
+# Drug_Target_28_PDB_ID:
+4Q21
+
+# Drug_Target_28_Pathway:
+Not Available
+
+# Drug_Target_28_Pfam_Domain_Function:
+PF00071	Ras
+
+# Drug_Target_28_Protein_Sequence:
+>GTPase HRas precursor
+MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAG
+QEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDL
+AARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQHKLRKLNPPDESGPG
+CMSCKCVLS
+
+# Drug_Target_28_Reaction:
+Not Available
+
+# Drug_Target_28_Signals:
+None
+
+# Drug_Target_28_Specific_Function:
+Ras proteins bind GDP/GTP and possess intrinsic GTPase activity
+
+# Drug_Target_28_SwissProt_ID:
+P01112
+
+# Drug_Target_28_SwissProt_Name:
+RASH_HUMAN
+
+# Drug_Target_28_Synonyms:
+GTPase HRas precursor
+H-Ras-1
+Ha-Ras
+Transforming protein p21
+c-H-ras
+p21ras
+
+# Drug_Target_28_Theoretical_pI:
+4.94
+
+# Drug_Target_28_Transmembrane_Regions:
+None
+
+# Drug_Target_29_Cellular_Location:
+Not Available
+
+# Drug_Target_29_Chromosome_Location:
+Not Available
+
+# Drug_Target_29_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_29_Essentiality:
+Non-Essential
+
+# Drug_Target_29_GenAtlas_ID:
+Not Available
+
+# Drug_Target_29_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_29_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_29_GeneCard_ID:
+Not Available
+
+# Drug_Target_29_Gene_Name:
+EEF1A1
+
+# Drug_Target_29_Gene_Sequence:
+Not Available
+
+# Drug_Target_29_General_Function:
+Not Available
+
+# Drug_Target_29_General_References:
+Not Available
+
+# Drug_Target_29_HGNC_ID:
+Not Available
+
+# Drug_Target_29_HPRD_ID:
+Not Available
+
+# Drug_Target_29_ID:
+7038
+
+# Drug_Target_29_Locus:
+Not Available
+
+# Drug_Target_29_Molecular_Weight:
+Not Available
+
+# Drug_Target_29_Name:
+Elongation factor 1-alpha 1
+
+# Drug_Target_29_Number_of_Residues:
+0
+
+# Drug_Target_29_PDB_ID:
+Not Available
+
+# Drug_Target_29_Pathway:
+Not Available
+
+# Drug_Target_29_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_29_Protein_Sequence:
+Not Available
+
+# Drug_Target_29_Reaction:
+Not Available
+
+# Drug_Target_29_Signals:
+Not Available
+
+# Drug_Target_29_Specific_Function:
+Not Available
+
+# Drug_Target_29_SwissProt_ID:
+P68104
+
+# Drug_Target_29_SwissProt_Name:
+EF1A1_HUMAN
+
+# Drug_Target_29_Synonyms:
+Not Available
+
+# Drug_Target_29_Theoretical_pI:
+Not Available
+
+# Drug_Target_29_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+fusA
+
+# Drug_Target_2_Gene_Sequence:
+Not Available
+
+# Drug_Target_2_General_Function:
+Translation, ribosomal structure and biogenesis
+
+# Drug_Target_2_General_References:
+11054294	Laurberg M, Kristensen O, Martemyanov K, Gudkov AT, Nagaev I, Hughes D, Liljas A: Structure of a mutant EF-G reveals domain III and possibly the fusidic acid binding site. J Mol Biol. 2000 Nov 3;303(4):593-603.
+8736554	al-Karadaghi S, Aevarsson A, Garber M, Zheltonosova J, Liljas A: The structure of elongation factor G in complex with GDP: conformational flexibility and nucleotide exchange. Structure. 1996 May 15;4(5):555-65.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+3270
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+76880
+
+# Drug_Target_2_Name:
+Elongation factor G
+
+# Drug_Target_2_Number_of_Residues:
+691
+
+# Drug_Target_2_PDB_ID:
+1KTV
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00009	GTP_EFTU
+PF00679	EFG_C
+PF03144	GTP_EFTU_D2
+PF03764	EFG_IV
+
+# Drug_Target_2_Protein_Sequence:
+>Elongation factor G
+MAVKVEYDLKRLRNIGIAAHIDAGKTTTTERILYYTGRIHKIGEVHEGAATMDFMEQERE
+RGITITAAVTTCFWKDHRINIIDTPGHVDFTIEVERSMRVLDGAIVVFDSSQGVEPQSET
+VWRQAEKYKVPRIAFANKMDKTGADLWLVIRTMQERLGARPVVMQLPIGREDTFSGIIDV
+LRMKAYTYGNDLGTDIREIPIPEEYLDQAREYHEKLVEVAADFDENIMLKYLEGEEPTEE
+ELVAAIRKGTIDLKITPVFLGSALKNKGVQLLLDAVVDYLPSPLDIPPIKGTTPEGEVVE
+IHPDPNGPLAALAFKIMADPYVGRLTFIRVYSGTLTSGSYVYNTTKGRKERVARLLRMHA
+NHREEVEELKAGDLGAVVGLKETITGDTLVGEDAPRVILESIEVPEPVIDVAIEPKTKAD
+QEKLSQALARLAEEDPTFRVSTHPETGQTIISGMGELHLEIIVDRLKREFKVDANVGKPQ
+VAYRETITKPVDVEGKFIRQTGGRGQYGHVKIKVEPLPRGSGFEFVNAIVGGVIPKEYIP
+AVQKGIEEAMQSGPLIGFPVVDIKVTLYDGSYHEVDSSEMAFKIAGSMAIKEAVQKGDPV
+ILEPIMRVEVTTPEEYMGDVIGDLNARRGQILGMEPRGNAQVIRAFVPLAEMFGYATDLR
+SKTQGRGSFVMFFDHYQEVPKQVQEKLIKGQ
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+This protein promotes the GTP-dependent translocation of the nascent protein chain from the A-site to the P-site of the ribosome
+
+# Drug_Target_2_SwissProt_ID:
+P13551
+
+# Drug_Target_2_SwissProt_Name:
+EFG_THETH
+
+# Drug_Target_2_Synonyms:
+EF-G
+
+# Drug_Target_2_Theoretical_pI:
+5.09
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_30_Cellular_Location:
+Membrane
+lipid-anchor
+
+# Drug_Target_30_Chromosome_Location:
+Not Available
+
+# Drug_Target_30_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_30_Essentiality:
+Non-Essential
+
+# Drug_Target_30_GenAtlas_ID:
+RHOA
+
+# Drug_Target_30_GenBank_ID_Gene:
+X05026
+
+# Drug_Target_30_GenBank_ID_Protein:
+36030
+
+# Drug_Target_30_GeneCard_ID:
+RHOA
+
+# Drug_Target_30_Gene_Name:
+RHOA
+
+# Drug_Target_30_Gene_Sequence:
+>582 bp
+ATGGCTGCCATCCGGAAGAAACTGGTGATTGTTGGTGATGGAGCCTGTGGAAAGACATGC
+TTGCTCATAGTCTTCAGCAAGGACCAGTTCCCAGAGGTGTATGTGCCCACAGTGTTTGAG
+AACTATGTGGCAGATATCGAGGTGGATGGAAAGCAGGTAGAGTTGGCTTTGTGGGACACA
+GCTGGGCAGGAAGATTATGATCGCCTGAGGCCCCTCTCCTACCCAGATACCGATGTTATA
+CTGATGTGTTTTTCCATCGACAGCCCTGATAGTTTAGAAAACATCCCAGAAAAGTGGACC
+CCAGAAGTCAAGCATTTCTGTCCCAACGTGCCCATCATCCTGGTTGGGAATAAGAAGGAT
+CTTCGGAATGATGAGCACACAAGGCGGGAGCTAGCCAAGATGAAGCAGGAGCCGGTGAAA
+CCTGAAGAAGGCAGAGATATGGCAAACAGGATTGGCGCTTTTGGGTACATGGAGTGTTCA
+GCAAAGACCAAAGATGGAGTGAGAGAGGTTTTTGAAATGGCTACGAGAGCTGCTCTGCAA
+GCTAGACGTGGGAAGAAAAAATCTGGTTGCCTTGTCTTGTGA
+
+# Drug_Target_30_General_Function:
+Involved in GTP binding
+
+# Drug_Target_30_General_References:
+10940294	Reynaud C, Fabre S, Jalinot P: The PDZ protein TIP-1 interacts with the Rho effector rhotekin and is involved in Rho signaling to the serum response element. J Biol Chem. 2000 Oct 27;275(43):33962-8.
+11696353	Klussmann E, Edemir B, Pepperle B, Tamma G, Henn V, Klauschenz E, Hundsrucker C, Maric K, Rosenthal W: Ht31: the first protein kinase A anchoring protein to integrate protein kinase A and Rho signaling. FEBS Lett. 2001 Nov 2;507(3):264-8.
+12062101	Shao F, Merritt PM, Bao Z, Innes RW, Dixon JE: A Yersinia effector and a Pseudomonas avirulence protein define a family of cysteine proteases functioning in bacterial pathogenesis. Cell. 2002 May 31;109(5):575-88.
+12538863	Shao F, Vacratsis PO, Bao Z, Bowers KE, Fierke CA, Dixon JE: Biochemical characterization of the Yersinia YopT protease: cleavage site and recognition elements in Rho GTPases. Proc Natl Acad Sci U S A. 2003 Feb 4;100(3):904-9. Epub 2003 Jan 21.
+1556108	Moscow JA, Morrow CS, He R, Mullenbach GT, Cowan KH: Structure and function of the 5'-flanking sequence of the human cytosolic selenium-dependent glutathione peroxidase gene (hgpx1). J Biol Chem. 1992 Mar 25;267(9):5949-58.
+3822842	Yeramian P, Chardin P, Madaule P, Tavitian A: Nucleotide sequence of human rho cDNA clone 12. Nucleic Acids Res. 1987 Feb 25;15(4):1869.
+8039707	Moscow JA, He R, Gudas JM, Cowan KH: Utilization of multiple polyadenylation signals in the human RHOA protooncogene. Gene. 1994 Jul 8;144(2):229-36.
+8617235	Ishizaki T, Maekawa M, Fujisawa K, Okawa K, Iwamatsu A, Fujita A, Watanabe N, Saito Y, Kakizuka A, Morii N, Narumiya S: The small GTP-binding protein Rho binds to and activates a 160 kDa Ser/Thr protein kinase homologous to myotonic dystrophy kinase. EMBO J. 1996 Apr 15;15(8):1885-93.
+8641286	Matsui T, Amano M, Yamamoto T, Chihara K, Nakafuku M, Ito M, Nakano T, Okawa K, Iwamatsu A, Kaibuchi K: Rho-associated kinase, a novel serine/threonine kinase, as a putative target for small GTP binding protein Rho. EMBO J. 1996 May 1;15(9):2208-16.
+9302995	Wei Y, Zhang Y, Derewenda U, Liu X, Minor W, Nakamoto RK, Somlyo AV, Somlyo AP, Derewenda ZS: Crystal structure of RhoA-GDP and its functional implications. Nat Struct Biol. 1997 Sep;4(9):699-703.
+9545299	Ihara K, Muraguchi S, Kato M, Shimizu T, Shirakawa M, Kuroda S, Kaibuchi K, Hakoshima T: Crystal structure of human RhoA in a dominantly active form complexed with a GTP analogue. J Biol Chem. 1998 Apr 17;273(16):9656-66.
+
+# Drug_Target_30_HGNC_ID:
+HGNC:667
+
+# Drug_Target_30_HPRD_ID:
+01323
+
+# Drug_Target_30_ID:
+2170
+
+# Drug_Target_30_Locus:
+3p21.3
+
+# Drug_Target_30_Molecular_Weight:
+21768
+
+# Drug_Target_30_Name:
+Transforming protein RhoA
+
+# Drug_Target_30_Number_of_Residues:
+193
+
+# Drug_Target_30_PDB_ID:
+1X86
+
+# Drug_Target_30_Pathway:
+Not Available
+
+# Drug_Target_30_Pfam_Domain_Function:
+PF00071	Ras
+
+# Drug_Target_30_Protein_Sequence:
+>Transforming protein RhoA precursor
+MAAIRKKLVIVGDGACGKTCLLIVFSKDQFPEVYVPTVFENYVADIEVDGKQVELALWDT
+AGQEDYDRLRPLSYPDTDVILMCFSIDSPDSLENIPEKWTPEVKHFCPNVPIILVGNKKD
+LRNDEHTRRELAKMKQEPVKPEEGRDMANRIGAFGYMECSAKTKDGVREVFEMATRAALQ
+ARRGKKKSGCLVL
+
+# Drug_Target_30_Reaction:
+Not Available
+
+# Drug_Target_30_Signals:
+None
+
+# Drug_Target_30_Specific_Function:
+Regulates a signal transduction pathway linking plasma membrane receptors to the assembly of focal adhesions and actin stress fibers. Serves as a target for the yopT cysteine peptidase from Yersinia pestis, vector of the plague, and Yersinia pseudotuberculosis, which causes gastrointestinal disorders. May be an activator of PLCE1
+
+# Drug_Target_30_SwissProt_ID:
+P61586
+
+# Drug_Target_30_SwissProt_Name:
+RHOA_HUMAN
+
+# Drug_Target_30_Synonyms:
+H12
+Transforming protein RhoA precursor
+
+# Drug_Target_30_Theoretical_pI:
+5.89
+
+# Drug_Target_30_Transmembrane_Regions:
+None
+
+# Drug_Target_31_Cellular_Location:
+Not Available
+
+# Drug_Target_31_Chromosome_Location:
+Not Available
+
+# Drug_Target_31_Drug_References:
+Not Available
+
+# Drug_Target_31_Essentiality:
+Non-Essential
+
+# Drug_Target_31_GenAtlas_ID:
+ARF4
+
+# Drug_Target_31_GenBank_ID_Gene:
+M36341
+
+# Drug_Target_31_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_31_GeneCard_ID:
+Not Available
+
+# Drug_Target_31_Gene_Name:
+ARF4
+
+# Drug_Target_31_Gene_Sequence:
+>543 bp
+ATGGGCCTCACTATCTCCTCCCTCTTCTCCCGACTATTTGGCAAGAAGCAGATGCGCATT
+TTGATGGTTGGATTGGATGCTGCTGGCAAGACAACCATTCTGTATAAACTGAAGTTAGGG
+GAGATAGTCACCACCATTCCTACCATTGGTTTTAATGTGGAAACAGTAGAATATAAGAAC
+ATTTGTTTCACAGTATGGGATGTTGGTGGTCAAGATAGAATTAGGCCTCTCTGGAAGCAT
+TACTTCCAGAATACCCAGGGTCTTATTTTTGTGGTAGATAGCAACGATCGTGAAAGAATT
+CAGGAAGTAGCAGATGAGCTGCAGAAAATGCTTCTGGTAGATGAATTGAGAGATGCAGTG
+CTGCTACTTTTTGCAAACAAACAGGATTTGCCAAATGCTATGGCCATCAGTGAAATGACA
+GATAAACTAGGGCTTCAGTCTCTTCGTAACAGAACATGGTATGTTCAAGCCACTTGTGCA
+ACACAAGGAACTGGTCTGTATGAAGGACTTGACTGGCTGTCAAATGAGCTTTCAAAACGT
+TAA
+
+# Drug_Target_31_General_Function:
+Involved in GTP binding
+
+# Drug_Target_31_General_References:
+10524252	Lebeda RA, Haun RS: Cloning and characterization of the human ADP-ribosylation factor 4 gene. Gene. 1999 Sep 3;237(1):209-14.
+1899243	Kahn RA, Kern FG, Clark J, Gelmann EP, Rulka C: Human ADP-ribosylation factors. A functionally conserved family of GTP-binding proteins. J Biol Chem. 1991 Feb 5;266(4):2606-14.
+2107548	Monaco L, Murtagh JJ, Newman KB, Tsai SC, Moss J, Vaughan M: Selective amplification of an mRNA and related pseudogene for a human ADP-ribosylation factor, a guanine nucleotide-dependent protein activator of cholera toxin. Proc Natl Acad Sci U S A. 1990 Mar;87(6):2206-10.
+
+# Drug_Target_31_HGNC_ID:
+HGNC:655
+
+# Drug_Target_31_HPRD_ID:
+Not Available
+
+# Drug_Target_31_ID:
+5618
+
+# Drug_Target_31_Locus:
+3p21.2-p21.1
+
+# Drug_Target_31_Molecular_Weight:
+20511
+
+# Drug_Target_31_Name:
+ADP-ribosylation factor 4
+
+# Drug_Target_31_Number_of_Residues:
+180
+
+# Drug_Target_31_PDB_ID:
+1Z6X
+
+# Drug_Target_31_Pathway:
+Not Available
+
+# Drug_Target_31_Pfam_Domain_Function:
+PF00025	Arf
+
+# Drug_Target_31_Protein_Sequence:
+>ADP-ribosylation factor 4
+MGLTISSLFSRLFGKKQMRILMVGLDAAGKTTILYKLKLGEIVTTIPTIGFNVETVEYKN
+ICFTVWDVGGQDRIRPLWKHYFQNTQGLIFVVDSNDRERIQEVADELQKMLLVDELRDAV
+LLLFANKQDLPNAMAISEMTDKLGLQSLRNRTWYVQATCATQGTGLYEGLDWLSNELSKR
+
+# Drug_Target_31_Reaction:
+Not Available
+
+# Drug_Target_31_Signals:
+None
+
+# Drug_Target_31_Specific_Function:
+GTP-binding protein that functions as an allosteric activator of the cholera toxin catalytic subunit, an ADP- ribosyltransferase. Involved in protein trafficking; may modulate vesicle budding and uncoating within the Golgi apparatus
+
+# Drug_Target_31_SwissProt_ID:
+P18085
+
+# Drug_Target_31_SwissProt_Name:
+ARF4_HUMAN
+
+# Drug_Target_31_Synonyms:
+Not Available
+
+# Drug_Target_31_Theoretical_pI:
+7.25
+
+# Drug_Target_31_Transmembrane_Regions:
+None
+
+# Drug_Target_32_Cellular_Location:
+Not Available
+
+# Drug_Target_32_Chromosome_Location:
+Not Available
+
+# Drug_Target_32_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_32_Essentiality:
+Non-Essential
+
+# Drug_Target_32_GenAtlas_ID:
+TGM2
+
+# Drug_Target_32_GenBank_ID_Gene:
+M55153
+
+# Drug_Target_32_GenBank_ID_Protein:
+339521
+
+# Drug_Target_32_GeneCard_ID:
+TGM2
+
+# Drug_Target_32_Gene_Name:
+TGM2
+
+# Drug_Target_32_Gene_Sequence:
+>2064 bp
+ATGGCCGAGGAGCTGGTCTTAGAGAGGTGTGATCTGGAGCTGGAGACCAATGGCCGAGAC
+CACCACACGGCCGACCTGTGCCGGGAGAAGCTGGTGGTGCGACGGGGCCAGCCCTTCTGG
+CTGACCCTGCACTTTGAGGGCCGCAACTACCAGGCCAGTGTAGACAGTCTCACCTTCAGT
+GTCGTGACCGGCCCAGCCCCTAGCCAGGAGGCCGGGACCAAGGCCCGTTTTCCACTAAGA
+GATGCTGTGGAGGAGGGTGACTGGACAGCCACCGTGGTGGACCAGCAAGACTGCACCCTC
+TCGCTGCAGCTCACCACCCCGGCCAACGCCCCCATCGGCCTGTATCGCCTCAGCCTGGAG
+GCCTCCACTGGCTACCAGGGATCCAGCTTTGTGCTGGGCCACTTCATTTTGCTCTTCAAC
+GCCTGGTGCCCAGCGGATGCTGTGTACCTGGACTCGGAAGAGGAGCGGCAGGAGTATGTC
+CTCACCCAGCAGGGCTTTATCTACCAGGGCTCGGCCAAGTTCATCAAGAACATACCTTGG
+AATTTTGGGCAGTTTCAAGATGGGATCCTAGACATCTGCCTGATCCTTCTAGATGTCAAC
+CCCAAGTTCCTGAAGAACGCCGGCCGTGACTGCTCCCGGCGCAGCAGCCCCGTCTACGTG
+GGCCGGGTGGGTAGTGGCATGGTCAACTGCAACGATGACCAGGGTGTGCTGCTGGGACGC
+TGGGACAACAACTACGGGGACGGCGTCAGCCCCATGTCCTGGATCGGCAGCGTGGACATC
+CTGCGGCGCTGGAAGAACCACGGCTGCCAGCGCGTCAAGTATGGCCAGTGCTGGGTCTTC
+GCCGCCGTGGCCTGCACAGTGCTGAGGTGCCTAGGCATCCCTACCCGCGTCGTGACCAAC
+TACAACTCGGCCCATGACCAGAACAGCAACCTTCTCATCGAGTACTTCCGCAATGAGTTT
+GGGGAGATCCAGGGTGACAAGAGCGAGATGATCTGGAACTTCCACTGCTGGGTGGAGTCG
+TGGATGACCAGGCCGGACCTGCAGCCGGGGTACGAGGGCTGGCAGGCCCTGGACCCAACG
+CCCCAGGAGAAGAGCGAAGGAACGTACTGCTGTGGCCCAGTTCCAGTTCGTGCCATCAAG
+GAGGGCGACCTGAGCACCAAGTACGATGCGCCCTTTGTCTTTGCGGAGGTCAATGCCGAC
+GTGGTAGACTGGATCCAGCAGGACGATGGGTCTGTGCACAAATCCATCAACCGTTCCCTG
+ATCGTTGGGCTGAAGATCAGCACTAAGAGCGTGGGCCGAGACGAGCGGGAGGATATCACC
+CACACCTACAAATACCCAGAGGGGTCCTCAGAGGAGAGGGAGGCCTTCACAAGGGCGAAC
+CACCTGAACAAACTGGCCGAGAAGGAGGAGACAGGGATGGCCATGCGGATCCGTGTGGGC
+CAGAGCATGAACATGGGCAGTGACTTTGACGTCTTTGCCCACATCACCAACAACACCGCT
+GAGGAGTACGTCTGCCGCCTCCTGCTCTGTGCCCGCACCGTCAGCTACAATGGGATCTTG
+GGGCCCGAGTGTGGCACCAAGTACCTGCTCAACCTAACCCTGGAGCCTTTCTCTGAGAAG
+AGCGTTCCTCTTTGCATCCTCTATGAGAAATACCGTGACTGCCTTACGGAGTCCAACCTC
+ATCAAGGTGCGGGCCCTCCTCGTGGAGCCAGTTATCAACAGCTACCTGCTGGCTGAGAGG
+GACCTCTACCTGGAGAATCCAGAAATCAAGATCCGGATCCTTGGGGAGCCCAAGCAGAAA
+CGCAAGCTGGTGGCTGAGGTGTCCCTGCAGAACCCGCTCCCTGTGGCCCTGGAAGGCTGC
+ACCTTCACTGTGGAGGGGGCCGGCCTGACTGAGGAGCAGAAGACGGTGGAGATCCCAGAC
+CCCGTGGAGGCAGGGGAGGAAGTTAAGGTGAGAATGGACCTCGTGCCGCTCCACATGGGC
+CTCCACAAGCTGGTGGTGAACTTCGAGAGCGACAAGCTGAAGGCTGTGAAGGGCTTCCGG
+AATGTCATCATTGGCCCCGCCTAA
+
+# Drug_Target_32_General_Function:
+Involved in protein-glutamine gamma-glutamyltransferase activity
+
+# Drug_Target_32_General_References:
+11780052	Deloukas P, Matthews LH, Ashurst J, Burton J, Gilbert JG, Jones M, Stavrides G, Almeida JP, Babbage AK, Bagguley CL, Bailey J, Barlow KF, Bates KN, Beard LM, Beare DM, Beasley OP, Bird CP, Blakey SE, Bridgeman AM, Brown AJ, Buck D, Burrill W, Butler AP, Carder C, Carter NP, Chapman JC, Clamp M, Clark G, Clark LN, Clark SY, Clee CM, Clegg S, Cobley VE, Collier RE, Connor R, Corby NR, Coulson A, Coville GJ, Deadman R, Dhami P, Dunn M, Ellington AG, Frankland JA, Fraser A, French L, Garner P, Grafham DV, Griffiths C, Griffiths MN, Gwilliam R, Hall RE, Hammond S, Harley JL, Heath PD, Ho S, Holden JL, Howden PJ, Huckle E, Hunt AR, Hunt SE, Jekosch K, Johnson CM, Johnson D, Kay MP, Kimberley AM, King A, Knights A, Laird GK, Lawlor S, Lehvaslaiho MH, Leversha M, Lloyd C, Lloyd DM, Lovell JD, Marsh VL, Martin SL, McConnachie LJ, McLay K, McMurray AA, Milne S, Mistry D, Moore MJ, Mullikin JC, Nickerson T, Oliver K, Parker A, Patel R, Pearce TA, Peck AI, Phillimore BJ, Prathalingam SR, Plumb RW, Ramsay H, Rice CM, Ross MT, Scott CE, Sehra HK, Shownkeen R, Sims S, Skuce CD, Smith ML, Soderlund C, Steward CA, Sulston JE, Swann M, Sycamore N, Taylor R, Tee L, Thomas DW, Thorpe A, Tracey A, Tromans AC, Vaudin M, Wall M, Wallis JM, Whitehead SL, Whittaker P, Willey DL, Williams L, Williams SA, Wilming L, Wray PW, Hubbard T, Durbin RM, Bentley DR, Beck S, Rogers J: The DNA sequence and comparative analysis of human chromosome 20. Nature. 2001 Dec 20-27;414(6866):865-71.
+1358880	Fraij BM, Birckbichler PJ, Patterson MK Jr, Lee KN, Gonzales RA: A retinoic acid-inducible mRNA from human erythroleukemia cells encodes a novel tissue transglutaminase homologue. J Biol Chem. 1992 Nov 5;267(31):22616-23.
+1670766	Gentile V, Saydak M, Chiocca EA, Akande O, Birckbichler PJ, Lee KN, Stein JP, Davies PJ: Isolation and characterization of cDNA clones to mouse macrophage and human endothelial cell tissue transglutaminases. J Biol Chem. 1991 Jan 5;266(1):478-83.
+8611626	Fraij BM, Gonzales RA: A third human tissue transglutaminase homologue as a result of alternative gene transcripts. Biochim Biophys Acta. 1996 Apr 10;1306(1):63-74.
+
+# Drug_Target_32_HGNC_ID:
+HGNC:11778
+
+# Drug_Target_32_HPRD_ID:
+01825
+
+# Drug_Target_32_ID:
+1596
+
+# Drug_Target_32_Locus:
+20q12
+
+# Drug_Target_32_Molecular_Weight:
+77330
+
+# Drug_Target_32_Name:
+Protein-glutamine gamma-glutamyltransferase 2
+
+# Drug_Target_32_Number_of_Residues:
+687
+
+# Drug_Target_32_PDB_ID:
+1KV3
+
+# Drug_Target_32_Pathway:
+Not Available
+
+# Drug_Target_32_Pfam_Domain_Function:
+PF00868	Transglut_N
+PF00927	Transglut_C
+PF01841	Transglut_core
+
+# Drug_Target_32_Protein_Sequence:
+>Protein-glutamine gamma-glutamyltransferase 2
+MAEELVLERCDLELETNGRDHHTADLCREKLVVRRGQPFWLTLHFEGRNYEASVDSLTFS
+VVTGPAPSQEAGTKARFPLRDAVEEGDWTATVVDQQDCTLSLQLTTPANAPIGLYRLSLE
+ASTGYQGSSFVLGHFILLFNAWCPADAVYLDSEEERQEYVLTQQGFIYQGSAKFIKNIPW
+NFGQFEDGILDICLILLDVNPKFLKNAGRDCSRRSSPVYVGRVVSGMVNCNDDQGVLLGR
+WDNNYGDGVSPMSWIGSVDILRRWKNHGCQRVKYGQCWVFAAVACTVLRCLGIPTRVVTN
+YNSAHDQNSNLLIEYFRNEFGEIQGDKSEMIWNFHCWVESWMTRPDLQPGYEGWQALDPT
+PQEKSEGTYCCGPVPVRAIKEGDLSTKYDAPFVFAEVNADVVDWIQQDDGSVHKSINRSL
+IVGLKISTKSVGRDEREDITHTYKYPEGSSEEREAFTRANHLNKLAEKEETGMAMRIRVG
+QSMNMGSDFDVFAHITNNTAEEYVCRLLLCARTVSYNGILGPECGTKYLLNLNLEPFSEK
+SVPLCILYEKYRDCLTESNLIKVRALLVEPVINSYLLAERDLYLENPEIKIRILGEPKQK
+RKLVAEVSLQNPLPVALEGCTFTVEGAGLTEEQKTVEIPDPVEAGEEVKVRMDLLPLHMG
+LHKLVVNFESDKLKAVKGFRNVIIGPA
+
+# Drug_Target_32_Reaction:
+protein glutamine + alkylamine = protein N5-alkylglutamine + NH3
+
+# Drug_Target_32_Signals:
+None
+
+# Drug_Target_32_Specific_Function:
+Catalyzes the cross-linking of proteins and the conjugation of polyamines to proteins
+
+# Drug_Target_32_SwissProt_ID:
+P21980
+
+# Drug_Target_32_SwissProt_Name:
+TGM2_HUMAN
+
+# Drug_Target_32_Synonyms:
+EC 2.3.2.13
+TG(C)
+TGC
+TGase C
+TGase- H
+Tissue transglutaminase
+Transglutaminase-2
+
+# Drug_Target_32_Theoretical_pI:
+4.86
+
+# Drug_Target_32_Transmembrane_Regions:
+None
+
+# Drug_Target_33_Cellular_Location:
+Not Available
+
+# Drug_Target_33_Chromosome_Location:
+Not Available
+
+# Drug_Target_33_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_33_Essentiality:
+Non-Essential
+
+# Drug_Target_33_GenAtlas_ID:
+GMDS
+
+# Drug_Target_33_GenBank_ID_Gene:
+AF042377
+
+# Drug_Target_33_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_33_GeneCard_ID:
+Not Available
+
+# Drug_Target_33_Gene_Name:
+GMDS
+
+# Drug_Target_33_Gene_Sequence:
+>1119 bp
+ATGGCACACGCACCGGCACGCTGCCCCAGCGCCCGGGGCTCCGGGGACGGCGAGATGGGC
+AAGCCCAGGAACGTGGCGCTCATCACCGGTATCACAGGCCAGGATGGTTCCTACCTGGCT
+GAGTTCCTGCTGGAGAAAGGCTATGAGGTCCATGGAATTGTACGGCGGTCCAGTTCATTT
+AATACGGGTCGAATTGAGCATCTGTATAAGAATCCCCAGGCTCACATTGAAGGAAACATG
+AAGTTGCACTATGGCGATCTCACTGACAGTACCTGCCTTGTGAAGATCATTAATGAAGTA
+AAGCCCACAGAGATCTACAACCTTGGAGCCCAGAGCCACGTCAAAATTTCCTTTGACCTC
+GCTGAGTACACTGCGGACGTTGACGGAGTTGGCACTCTACGACTTCTAGATGCAGTTAAG
+ACTTGTGGCCTTATCAACTCTGTGAAGTTCTACCAAGCCTCAACAAGTGAACTTTATGGG
+AAAGTGCAGGAAATACCCCAGAAGGAGACCACCCCTTTCTATCCCCGGTCACCCTATGGG
+GCAGCAAAACTCTATGCCTATTGGATTGTGGTGAACTTCCGTGAGGCGTATAATCTCTTT
+GCAGTGAACGGCATTCTCTTCAATCATGAGAGTCCCAGAAGAGGAGCTAATTTCGTTACT
+CGAAAAATTAGCCGGTCAGTAGCTAAGATTTACCTTGGACAACTGGAATGTTTCAGTTTG
+GGAAATCTGGATGCCAAACGAGATTGGGGCCATGCCAAGGACTATGTGGAGGCTATGTGG
+TTGATGTTGCAGAATGATGAGCCGGAGGACTTCGTTATAGCTACTGGGGAGGTCCATAGT
+GTCCGGGAATTTGTCGAGAAATCATTCTTGCACATTGGAAAAACCATTGTGTGGGAAGGA
+AAGAATGAAAATGAAGTGGGCAGATGTAAAGAGACCGGCAAAGTTCACGTGACTGTGGAT
+CTCAAGTACTACCGGCCAACTGAAGTGGACTTTCTGCAGGGCGACTGCACCAAAGCGAAA
+CAGAAGCTGAACTGGAAGCCCCGGGTCGCTTTCGATGAGCTGGTGAGGGAGATGGTGCAC
+GCCGACGTGGAGCTCATGAGGACAAACCCCAATGCCTGA
+
+# Drug_Target_33_General_Function:
+Involved in catalytic activity
+
+# Drug_Target_33_General_References:
+14574404	Mungall AJ, Palmer SA, Sims SK, Edwards CA, Ashurst JL, Wilming L, Jones MC, Horton R, Hunt SE, Scott CE, Gilbert JG, Clamp ME, Bethel G, Milne S, Ainscough R, Almeida JP, Ambrose KD, Andrews TD, Ashwell RI, Babbage AK, Bagguley CL, Bailey J, Banerjee R, Barker DJ, Barlow KF, Bates K, Beare DM, Beasley H, Beasley O, Bird CP, Blakey S, Bray-Allen S, Brook J, Brown AJ, Brown JY, Burford DC, Burrill W, Burton J, Carder C, Carter NP, Chapman JC, Clark SY, Clark G, Clee CM, Clegg S, Cobley V, Collier RE, Collins JE, Colman LK, Corby NR, Coville GJ, Culley KM, Dhami P, Davies J, Dunn M, Earthrowl ME, Ellington AE, Evans KA, Faulkner L, Francis MD, Frankish A, Frankland J, French L, Garner P, Garnett J, Ghori MJ, Gilby LM, Gillson CJ, Glithero RJ, Grafham DV, Grant M, Gribble S, Griffiths C, Griffiths M, Hall R, Halls KS, Hammond S, Harley JL, Hart EA, Heath PD, Heathcott R, Holmes SJ, Howden PJ, Howe KL, Howell GR, Huckle E, Humphray SJ, Humphries MD, Hunt AR, Johnson CM, Joy AA, Kay M, Keenan SJ, Kimberley AM, King A, Laird GK, Langford C, Lawlor S, Leongamornlert DA, Leversha M, Lloyd CR, Lloyd DM, Loveland JE, Lovell J, Martin S, Mashreghi-Mohammadi M, Maslen GL, Matthews L, McCann OT, McLaren SJ, McLay K, McMurray A, Moore MJ, Mullikin JC, Niblett D, Nickerson T, Novik KL, Oliver K, Overton-Larty EK, Parker A, Patel R, Pearce AV, Peck AI, Phillimore B, Phillips S, Plumb RW, Porter KM, Ramsey Y, Ranby SA, Rice CM, Ross MT, Searle SM, Sehra HK, Sheridan E, Skuce CD, Smith S, Smith M, Spraggon L, Squares SL, Steward CA, Sycamore N, Tamlyn-Hall G, Tester J, Theaker AJ, Thomas DW, Thorpe A, Tracey A, Tromans A, Tubby B, Wall M, Wallis JM, West AP, White SS, Whitehead SL, Whittaker H, Wild A, Willey DJ, Wilmer TE, Wood JM, Wray PW, Wyatt JC, Young L, Younger RM, Bentley DR, Coulson A, Durbin R, Hubbard T, Sulston JE, Dunham I, Rogers J, Beck S: The DNA sequence and analysis of human chromosome 6. Nature. 2003 Oct 23;425(6960):805-11.
+9525924	Sullivan FX, Kumar R, Kriz R, Stahl M, Xu GY, Rouse J, Chang XJ, Boodhoo A, Potvin B, Cumming DA: Molecular cloning of human GDP-mannose 4,6-dehydratase and reconstitution of GDP-fucose biosynthesis in vitro. J Biol Chem. 1998 Apr 3;273(14):8193-202.
+9603974	Ohyama C, Smith PL, Angata K, Fukuda MN, Lowe JB, Fukuda M: Molecular cloning and expression of GDP-D-mannose-4,6-dehydratase, a key enzyme for fucose metabolism defective in Lec13 cells. J Biol Chem. 1998 Jun 5;273(23):14582-7.
+
+# Drug_Target_33_HGNC_ID:
+HGNC:4369
+
+# Drug_Target_33_HPRD_ID:
+Not Available
+
+# Drug_Target_33_ID:
+5619
+
+# Drug_Target_33_Locus:
+6p25
+
+# Drug_Target_33_Molecular_Weight:
+41950
+
+# Drug_Target_33_Name:
+GDP-mannose 4,6 dehydratase
+
+# Drug_Target_33_Number_of_Residues:
+372
+
+# Drug_Target_33_PDB_ID:
+1T2A
+
+# Drug_Target_33_Pathway:
+Not Available
+
+# Drug_Target_33_Pfam_Domain_Function:
+PF01370	Epimerase
+
+# Drug_Target_33_Protein_Sequence:
+>GDP-mannose 4,6 dehydratase
+MAHAPARCPSARGSGDGEMGKPRNVALITGITGQDGSYLAEFLLEKGYEVHGIVRRSSSF
+NTGRIEHLYKNPQAHIEGNMKLHYGDLTDSTCLVKIINEVKPTEIYNLGAQSHVKISFDL
+AEYTADVDGVGTLRLLDAVKTCGLINSVKFYQASTSELYGKVQEIPQKETTPFYPRSPYG
+AAKLYAYWIVVNFREAYNLFAVNGILFNHESPRRGANFVTRKISRSVAKIYLGQLECFSL
+GNLDAKRDWGHAKDYVEAMWLMLQNDEPEDFVIATGEVHSVREFVEKSFLHIGKTIVWEG
+KNENEVGRCKETGKVHVTVDLKYYRPTEVDFLQGDCTKAKQKLNWKPRVAFDELVREMVH
+ADVELMRTNPNA
+
+# Drug_Target_33_Reaction:
+Not Available
+
+# Drug_Target_33_Signals:
+None
+
+# Drug_Target_33_Specific_Function:
+Conversion of GDP-D-mannose to GDP-4-keto-6-D- deoxymannose
+
+# Drug_Target_33_SwissProt_ID:
+O60547
+
+# Drug_Target_33_SwissProt_Name:
+GMDS_HUMAN
+
+# Drug_Target_33_Synonyms:
+EC 4.2.1.47
+GDP-D-mannose dehydratase
+GMD
+
+# Drug_Target_33_Theoretical_pI:
+7.35
+
+# Drug_Target_33_Transmembrane_Regions:
+None
+
+# Drug_Target_34_Cellular_Location:
+Not Available
+
+# Drug_Target_34_Chromosome_Location:
+Not Available
+
+# Drug_Target_34_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_34_Essentiality:
+Non-Essential
+
+# Drug_Target_34_GenAtlas_ID:
+Not Available
+
+# Drug_Target_34_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_34_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_34_GeneCard_ID:
+Not Available
+
+# Drug_Target_34_Gene_Name:
+RAB11A
+
+# Drug_Target_34_Gene_Sequence:
+Not Available
+
+# Drug_Target_34_General_Function:
+Not Available
+
+# Drug_Target_34_General_References:
+Not Available
+
+# Drug_Target_34_HGNC_ID:
+Not Available
+
+# Drug_Target_34_HPRD_ID:
+Not Available
+
+# Drug_Target_34_ID:
+7068
+
+# Drug_Target_34_Locus:
+Not Available
+
+# Drug_Target_34_Molecular_Weight:
+Not Available
+
+# Drug_Target_34_Name:
+Ras-related protein Rab-11A
+
+# Drug_Target_34_Number_of_Residues:
+0
+
+# Drug_Target_34_PDB_ID:
+Not Available
+
+# Drug_Target_34_Pathway:
+Not Available
+
+# Drug_Target_34_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_34_Protein_Sequence:
+Not Available
+
+# Drug_Target_34_Reaction:
+Not Available
+
+# Drug_Target_34_Signals:
+Not Available
+
+# Drug_Target_34_Specific_Function:
+Not Available
+
+# Drug_Target_34_SwissProt_ID:
+P62491
+
+# Drug_Target_34_SwissProt_Name:
+RB11A_HUMAN
+
+# Drug_Target_34_Synonyms:
+Not Available
+
+# Drug_Target_34_Theoretical_pI:
+Not Available
+
+# Drug_Target_34_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_35_Cellular_Location:
+Not Available
+
+# Drug_Target_35_Chromosome_Location:
+Not Available
+
+# Drug_Target_35_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_35_Essentiality:
+Non-Essential
+
+# Drug_Target_35_GenAtlas_ID:
+Not Available
+
+# Drug_Target_35_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_35_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_35_GeneCard_ID:
+Not Available
+
+# Drug_Target_35_Gene_Name:
+RALA
+
+# Drug_Target_35_Gene_Sequence:
+Not Available
+
+# Drug_Target_35_General_Function:
+Not Available
+
+# Drug_Target_35_General_References:
+Not Available
+
+# Drug_Target_35_HGNC_ID:
+Not Available
+
+# Drug_Target_35_HPRD_ID:
+Not Available
+
+# Drug_Target_35_ID:
+7072
+
+# Drug_Target_35_Locus:
+Not Available
+
+# Drug_Target_35_Molecular_Weight:
+Not Available
+
+# Drug_Target_35_Name:
+Ras-related protein Ral-A
+
+# Drug_Target_35_Number_of_Residues:
+0
+
+# Drug_Target_35_PDB_ID:
+Not Available
+
+# Drug_Target_35_Pathway:
+Not Available
+
+# Drug_Target_35_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_35_Protein_Sequence:
+Not Available
+
+# Drug_Target_35_Reaction:
+Not Available
+
+# Drug_Target_35_Signals:
+Not Available
+
+# Drug_Target_35_Specific_Function:
+Not Available
+
+# Drug_Target_35_SwissProt_ID:
+P11233
+
+# Drug_Target_35_SwissProt_Name:
+RALA_HUMAN
+
+# Drug_Target_35_Synonyms:
+Not Available
+
+# Drug_Target_35_Theoretical_pI:
+Not Available
+
+# Drug_Target_35_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_36_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_36_Chromosome_Location:
+Not Available
+
+# Drug_Target_36_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_36_Essentiality:
+Non-Essential
+
+# Drug_Target_36_GenAtlas_ID:
+Not Available
+
+# Drug_Target_36_GenBank_ID_Gene:
+J04199
+
+# Drug_Target_36_GenBank_ID_Protein:
+147406
+
+# Drug_Target_36_GeneCard_ID:
+Not Available
+
+# Drug_Target_36_Gene_Name:
+purA
+
+# Drug_Target_36_Gene_Sequence:
+>1299 bp
+ATGGGTAACAACGTCGTCGTACTGGGCACCCAATGGGGTGACGAAGGTAAAGGTAAGATC
+GTCGATCTTCTGACTGAACGGGCTAAATATGTTGTACGCTACCAGGGCGGTCACAACGCA
+GGCCATACTCTCGTAATCAACGGTGAAAAAACCGTTCTCCATCTTATTCCATCAGGTATT
+CTCCGCGAGAATGTAACCAGCATCATCGGTAACGGTGTTGTGCTGTCTCCGGCCGCGCTG
+ATGAAAGAGATGAAAGAACTGGAAGACCGTGGCATCCCCGTTCGTGAGCGTCTGCTGCTG
+TCTGAAGCATGTCCGCTGATCCTTGATTATCACGTTGCGCTGGATAACGCGCGTGAGAAA
+GCGCGTGGCGCGAAAGCGATCGGCACCACCGGTCGTGGTATCGGGCCTGCTTATGAAGAT
+AAAGTAGCACGTCGCGGTCTGCGTGTTGGCGACCTTTTCGACAAAGAAACCTTCGCTGAA
+AAACTGAAAGAAGTGATGGAATATCACAACTTCCAGTTGGTTAACTACTACAAAGCTGAA
+GCGGTTGATTACCAGAAAGTTCTGGATGATACGATGGCTGTTGCCGACATCCTGACTTCT
+ATGGTGGTTGACGTTTCTGACCTGCTCGACCAGGCGCGTCAGCGTGGCGATTTCGTCATG
+TTTGAAGGTGCGCAGGGTACGCTGCTGGATATCGACCACGGTACTTATCCGTACGTAACT
+TCTTCCAACACCACTGCTGGTGGCGTGGCGACCGGTTCCGGCCTGGGCCCGCGTTATGTT
+GATTACGTTCTGGGTATCCTCAAAGCTTACTCCACTCGTGTAGGTGCAGGTCCGTTCCCG
+ACCGAACTGTTTGATGAAACTGGCGAGTTCCTCTGCAAGCAGGGTAACGAATTCGGCGCA
+ACTACGGGGCGTCGTCGTCGTACCGGCTGGCTGGACACCGTTGCCGTTCGTCGTGCGGTA
+CAGCTGAACTCCCTGTCTGGCTTCTGCCTGACTAAACTGGACGTTCTGGATGGCCTGAAA
+GAGGTTAAACTCTGCGTGGCTTACCGTATGCCGGATGGTCGCGAAGTGACTACCACTCCG
+CTGGCAGCTGACGACTGGAAAGGTGTAGAGCCGATTTACGAAACCATGCCGGGCTGGTCT
+GAATCCACCTTCGGCGTGAAAGATCGTAGCGGCCTGCCGCAGGCGGCGCTGAACTATATC
+AAGCGTATTGAAGAGCTGACTGGTGTGCCGATCGATATCATCTCTACCGATCCGGATCGT
+ACTGAAACCATGATTCTGCGCGACCCGTTCGACGCGTAA
+
+# Drug_Target_36_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_36_General_References:
+10346917	Choe JY, Poland BW, Fromm HJ, Honzatko RB: Mechanistic implications from crystalline complexes of wild-type and mutant adenylosuccinate synthetases from Escherichia coli. Biochemistry. 1999 May 25;38(21):6953-61.
+10364182	Hou Z, Cashel M, Fromm HJ, Honzatko RB: Effectors of the stringent response target the active site of Escherichia coli adenylosuccinate synthetase. J Biol Chem. 1999 Jun 18;274(25):17505-10.
+1733940	Liu F, Dong Q, Fromm HJ: Site-directed mutagenesis of the phosphate-binding consensus sequence in Escherichia coli adenylosuccinate synthetase. J Biol Chem. 1992 Feb 5;267(4):2388-92.
+2061308	Dong Q, Liu F, Myers AM, Fromm HJ: Evidence for an arginine residue at the substrate binding site of Escherichia coli adenylosuccinate synthetase as studied by chemical modification and site-directed mutagenesis. J Biol Chem. 1991 Jul 5;266(19):12228-33.
+2108156	Dong Q, Fromm HJ: Chemical modification of adenylosuccinate synthetase from Escherichia coli by pyridoxal 5'-phosphate. Identification of an active site lysyl residue. J Biol Chem. 1990 Apr 15;265(11):6235-40.
+3058695	Wolfe SA, Smith JM: Nucleotide sequence and analysis of the purA gene encoding adenylosuccinate synthetase of Escherichia coli K12. J Biol Chem. 1988 Dec 15;263(35):19147-53.
+7490761	Silva MM, Poland BW, Hoffman CR, Fromm HJ, Honzatko RB: Refined crystal structures of unligated adenylosuccinate synthetase from Escherichia coli. J Mol Biol. 1995 Dec 1;254(3):431-46.
+7610040	Burland V, Plunkett G 3rd, Sofia HJ, Daniels DL, Blattner FR: Analysis of the Escherichia coli genome VI: DNA sequence of the region from 92.8 through 100 minutes. Nucleic Acids Res. 1995 Jun 25;23(12):2105-19.
+8961938	Poland BW, Lee SF, Subramanian MV, Siehl DL, Anderson RJ, Fromm HJ, Honzatko RB: Refined crystal structure of adenylosuccinate synthetase from Escherichia coli complexed with hydantocidin 5'-phosphate, GDP, HPO4(2-), Mg2+, and hadacidin. Biochemistry. 1996 Dec 10;35(49):15753-9.
+9000627	Poland BW, Fromm HJ, Honzatko RB: Crystal structures of adenylosuccinate synthetase from Escherichia coli complexed with GDP, IMP hadacidin, NO3-, and Mg2+. J Mol Biol. 1996 Dec 20;264(5):1013-27.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+9298646	Link AJ, Robison K, Church GM: Comparing the predicted and observed properties of proteins encoded in the genome of Escherichia coli K-12. Electrophoresis. 1997 Aug;18(8):1259-313.
+
+# Drug_Target_36_HGNC_ID:
+Not Available
+
+# Drug_Target_36_HPRD_ID:
+Not Available
+
+# Drug_Target_36_ID:
+2632
+
+# Drug_Target_36_Locus:
+Not Available
+
+# Drug_Target_36_Molecular_Weight:
+47346
+
+# Drug_Target_36_Name:
+Adenylosuccinate synthetase
+
+# Drug_Target_36_Number_of_Residues:
+432
+
+# Drug_Target_36_PDB_ID:
+1KKF
+
+# Drug_Target_36_Pathway:
+Not Available
+
+# Drug_Target_36_Pfam_Domain_Function:
+PF00709	Adenylsucc_synt
+
+# Drug_Target_36_Protein_Sequence:
+>Adenylosuccinate synthetase
+MGNNVVVLGTQWGDEGKGKIVDLLTERAKYVVRYQGGHNAGHTLVINGEKTVLHLIPSGI
+LRENVTSIIGNGVVLSPAALMKEMKELEDRGIPVRERLLLSEACPLILDYHVALDNAREK
+ARGAKAIGTTGRGIGPAYEDKVARRGLRVGDLFDKETFAEKLKEVMEYHNFQLVNYYKAE
+AVDYQKVLDDTMAVADILTSMVVDVSDLLDQARQRGDFVMFEGAQGTLLDIDHGTYPYVT
+SSNTTAGGVATGSGLGPRYVDYVLGILKAYSTRVGAGPFPTELFDETGEFLCKQGNEFGA
+TTGRRRRTGWLDTVAVRRAVQLNSLSGFCLTKLDVLDGLKEVKLCVAYRMPDGREVTTTP
+LAADDWKGVEPIYETMPGWSESTFGVKDRSGLPQAALNYIKRIEELTGVPIDIISTGPDR
+TETMILRDPFDA
+
+# Drug_Target_36_Reaction:
+GTP + IMP + L-aspartate = GDP + phosphate + N6-(1,2-dicarboxyethyl)-AMP
+
+# Drug_Target_36_Signals:
+None
+
+# Drug_Target_36_Specific_Function:
+Plays an important role in the de novo pathway of purine nucleotide biosynthesis
+
+# Drug_Target_36_SwissProt_ID:
+P0A7D4
+
+# Drug_Target_36_SwissProt_Name:
+PURA_ECOLI
+
+# Drug_Target_36_Synonyms:
+AMPSase
+AdSS
+EC 6.3.4.4
+IMP--aspartate ligase
+
+# Drug_Target_36_Theoretical_pI:
+5.13
+
+# Drug_Target_36_Transmembrane_Regions:
+None
+
+# Drug_Target_37_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_37_Chromosome_Location:
+Not Available
+
+# Drug_Target_37_Drug_References:
+Not Available
+
+# Drug_Target_37_Essentiality:
+Non-Essential
+
+# Drug_Target_37_GenAtlas_ID:
+Not Available
+
+# Drug_Target_37_GenBank_ID_Gene:
+X66322
+
+# Drug_Target_37_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_37_GeneCard_ID:
+Not Available
+
+# Drug_Target_37_Gene_Name:
+tuf
+
+# Drug_Target_37_Gene_Sequence:
+>1221 bp
+ATGGCGAAGGGCGAGTTTATCCGGACGAAGCCCCACGTGAACGTGGGGACGATTGGGCAC
+GTGGACCACGGGAAGACGACGTTGACGGCGGCCTTGACCTATGTGGCGGCGGCGGAGAAC
+CCGAATGTGGAGGTGAAGGACTACGGGGACATTGACAAGGCGCCGGAGGAGCGGGCGCGG
+GGGATCACGATTAACACGGCGCACGTGGAGTACGAGACGGCGAAGCGGCACTATTCCCAC
+GTGGACTGCCCGGGGCACGCCGACTACATCAAGAACATGATCACCGGGGCGGCGCAGATG
+GACGGGGCGATCCTGGTGGTTTCTGCGGCGGACGGTCCTATGCCGCAGACCCGGGAGCAC
+ATTCTTTTGGCCCGCCAGGTGGGGGTGCCGTACATCGTGGTGTTCATGAACAAGGTGGAC
+ATGGTGGACGACCCGGAGCTCTTGGACCTGGTGGAGATGGAGGTGAGGGACCTCCTGAAC
+CAGTACGAGTTTCCTGGGGACGAGGTGCCGGTGATCCGGGGTAGCGCCCTGCTTGCGTTG
+GAAGAGATGCACAAGAACCCGAAGACCAAGCGGGGCGAGAACGAGTGGGTGGACAAGATC
+TGGGAGCTTTTGGACGCCATTGACGAGTACATTCCCACGCCGGTGCGGGACGTGGACAAG
+CCTTTCCTGATGCCGGTGGAGGACGTGTTTACGATTACCGGGCGTGGGACGGTGGCCACC
+GGGCGGATTGAGCGGGGCAAGGTGAAGGTTGGGGACGAGGTGGAGATCGTGGGCCTGGCT
+CCGGAGACGCGGAAGACGGTGGTCACGGGTGTGGAGATGCACCGGAAGACGTTGCAGGAG
+GGGATCGCTGGGGACAACGTGGGTCTTCTTCTGCGGGGCGTGAGCCGGGAGGAGGTGGAG
+CGGGGGCAGGTATTGGCCAAGCCTGGGAGCATCACGCCGCACACCAAGTTTGAGGCCTCG
+GTGTACATCCTGAAGAAGGAGGAGGGCGGGCGGCACACGGGGTTTTTCACGGGGTACCGG
+CCGCAGTTTTACTTCCGGACGACGGACGTGACGGGGGTGGTGCGGTTGCCCCAGGGGGTG
+GAGATGGTGATGCCTGGGGACAACGTGACCTTCACGGTGGAGCTCATCAAGCCGGTGGCG
+CTGGAGGAGGGTTTGCGGTTTGCCATCCGGGAGGGTGGGCGGACCGTGGGCGCCGGCGTG
+GTCACCAAGATCCTGGAGTGA
+
+# Drug_Target_37_General_Function:
+Involved in GTPase activity
+
+# Drug_Target_37_General_References:
+1499561	Voss RH, Hartmann RK, Lippmann C, Alexander C, Jahn O, Erdmann VA: Sequence of the tufA gene encoding elongation factor EF-Tu from Thermus aquaticus and overproduction of the protein in Escherichia coli. Eur J Biochem. 1992 Aug 1;207(3):839-46.
+7491491	Nissen P, Kjeldgaard M, Thirup S, Polekhina G, Reshetnikova L, Clark BF, Nyborg J: Crystal structure of the ternary complex of Phe-tRNAPhe, EF-Tu, and a GTP analog. Science. 1995 Dec 1;270(5241):1464-72.
+8069622	Kjeldgaard M, Nissen P, Thirup S, Nyborg J: The crystal structure of elongation factor EF-Tu from Thermus aquaticus in the GTP conformation. Structure. 1993 Sep 15;1(1):35-50.
+8939739	Polekhina G, Thirup S, Kjeldgaard M, Nissen P, Lippmann C, Nyborg J: Helix unwinding in the effector region of elongation factor EF-Tu-GDP. Structure. 1996 Oct 15;4(10):1141-51.
+
+# Drug_Target_37_HGNC_ID:
+Not Available
+
+# Drug_Target_37_HPRD_ID:
+Not Available
+
+# Drug_Target_37_ID:
+5621
+
+# Drug_Target_37_Locus:
+Not Available
+
+# Drug_Target_37_Molecular_Weight:
+44815
+
+# Drug_Target_37_Name:
+Elongation factor Tu
+
+# Drug_Target_37_Number_of_Residues:
+406
+
+# Drug_Target_37_PDB_ID:
+1ZC8
+
+# Drug_Target_37_Pathway:
+Not Available
+
+# Drug_Target_37_Pfam_Domain_Function:
+PF00009	GTP_EFTU
+PF03143	GTP_EFTU_D3
+PF03144	GTP_EFTU_D2
+
+# Drug_Target_37_Protein_Sequence:
+>Elongation factor Tu
+MAKGEFIRTKPHVNVGTIGHVDHGKTTLTAALTYVAAAENPNVEVKDYGDIDKAPEERAR
+GITINTAHVEYETAKRHYSHVDCPGHADYIKNMITGAAQMDGAILVVSAADGPMPQTREH
+ILLARQVGVPYIVVFMNKVDMVDDPELLDLVEMEVRDLLNQYEFPGDEVPVIRGSALLAL
+EEMHKNPKTKRGENEWVDKIWELLDAIDEYIPTPVRDVDKPFLMPVEDVFTITGRGTVAT
+GRIERGKVKVGDEVEIVGLAPETRKTVVTGVEMHRKTLQEGIAGDNVGLLLRGVSREEVE
+RGQVLAKPGSITPHTKFEASVYILKKEEGGRHTGFFTGYRPQFYFRTTDVTGVVRLPQGV
+EMVMPGDNVTFTVELIKPVALEEGLRFAIREGGRTVGAGVVTKILE
+
+# Drug_Target_37_Reaction:
+Not Available
+
+# Drug_Target_37_Signals:
+None
+
+# Drug_Target_37_Specific_Function:
+This protein promotes the GTP-dependent binding of aminoacyl-tRNA to the A-site of ribosomes during protein biosynthesis
+
+# Drug_Target_37_SwissProt_ID:
+Q01698
+
+# Drug_Target_37_SwissProt_Name:
+EFTU_THEAQ
+
+# Drug_Target_37_Synonyms:
+EF-Tu
+
+# Drug_Target_37_Theoretical_pI:
+5.36
+
+# Drug_Target_37_Transmembrane_Regions:
+None
+
+# Drug_Target_38_Cellular_Location:
+Not Available
+
+# Drug_Target_38_Chromosome_Location:
+Not Available
+
+# Drug_Target_38_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_38_Essentiality:
+Non-Essential
+
+# Drug_Target_38_GenAtlas_ID:
+Not Available
+
+# Drug_Target_38_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_38_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_38_GeneCard_ID:
+Not Available
+
+# Drug_Target_38_Gene_Name:
+ARL5B
+
+# Drug_Target_38_Gene_Sequence:
+Not Available
+
+# Drug_Target_38_General_Function:
+Not Available
+
+# Drug_Target_38_General_References:
+Not Available
+
+# Drug_Target_38_HGNC_ID:
+Not Available
+
+# Drug_Target_38_HPRD_ID:
+Not Available
+
+# Drug_Target_38_ID:
+7137
+
+# Drug_Target_38_Locus:
+Not Available
+
+# Drug_Target_38_Molecular_Weight:
+Not Available
+
+# Drug_Target_38_Name:
+ADP-ribosylation factor-like protein 5B
+
+# Drug_Target_38_Number_of_Residues:
+0
+
+# Drug_Target_38_PDB_ID:
+Not Available
+
+# Drug_Target_38_Pathway:
+Not Available
+
+# Drug_Target_38_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_38_Protein_Sequence:
+Not Available
+
+# Drug_Target_38_Reaction:
+Not Available
+
+# Drug_Target_38_Signals:
+Not Available
+
+# Drug_Target_38_Specific_Function:
+Not Available
+
+# Drug_Target_38_SwissProt_ID:
+Q96KC2
+
+# Drug_Target_38_SwissProt_Name:
+ARL5B_HUMAN
+
+# Drug_Target_38_Synonyms:
+Not Available
+
+# Drug_Target_38_Theoretical_pI:
+Not Available
+
+# Drug_Target_38_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_39_Cellular_Location:
+Cytoplasm. Note=Assembles at the inner surface of the cytoplasmic membrane (By similarity)
+
+# Drug_Target_39_Chromosome_Location:
+Not Available
+
+# Drug_Target_39_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_39_Essentiality:
+Non-Essential
+
+# Drug_Target_39_GenAtlas_ID:
+Not Available
+
+# Drug_Target_39_GenBank_ID_Gene:
+BX842578
+
+# Drug_Target_39_GenBank_ID_Protein:
+2104328
+
+# Drug_Target_39_GeneCard_ID:
+Not Available
+
+# Drug_Target_39_Gene_Name:
+ftsZ
+
+# Drug_Target_39_Gene_Sequence:
+>1140 bp
+TCAGCGGCGCATGAAGGGCGGCACGTCGACATCGTCGTCATCACCGCCGATGCTCAGGGT
+TGCGCCGTTGGTGTGCAACGGCACGCTGACGGCGTCGACCGGCTCGAACAAGGTCGAGGT
+GAGCTTGCCTGCCTTGGCTGACTCGATCCGGTGGGCGCCGCCGGTCTCGCCCATCACCGG
+CTTGCGGCCGGGACCGCTGACGTCGAAGCCGGCCGCGATCACGGTCACCCGCACCTCGTC
+ACCGAGCGAATCGTCGATGACGGTGCCGAAGATGATGTTGGCATCGGGGTGAGCGGCGTC
+TTGTACCAACGAGGCCGCCTCGTTGATCTCGAACAAGCCCAAGTCGCTGCCGCCGGCGAT
+CGACATCAGCACGCCTTGCGCGCCCTCCATCGAGGCTTCCAGCAACGGCGAGTTGATGGC
+GATCTCGGCCGCTTTGAGCGACCGGCCTTCGCCCCGGGCCGAGCCGATGCCCATCAGTGC
+GGTGCCGGCACCGGACATGATGCCCTTGACGTCGGCGAAGTCGACGTTGATTAGACCCGG
+GGTGGTAATCAGGTCGGTGATGCCCTGCACGCCGTTGAGCAGCACCTCGTCGGCGCTACG
+GAAAGCATCCATCAGCGATACCGCGGCATCTCCCATCTGCAGCAACCGGTCGTTGGGAAT
+CACGATGAGGGTGTCGCAACTCTCCCGCAGCGCCGCGATGCCATTTTCGGCCTGATTGCT
+GCGTCGCTTGCCCTCGAACGAGAACGGCCGGGTGACCACACCGACGGTCAACGCGCCCAG
+CTTGCGGGCGATGCTGGCGACGACGGGTGCCCCCCCGGTGCCGGTTCCGCCCCCCTCGCC
+GGCGGTGACAAACACCATGTCGGCACCGCGCAGCAGCTCTTCGATCTCGTCCTTGGCGTC
+CTCGGCGGCCTTACGGCCGACCTCCGGATCGGCGCCGGCGCCCAGCCCGCGGGTGGAGTC
+GCGGCCGACGTCGAGTTTGACGTCGGCATCGCTCATCAACAACGCCTGGGCGTCGGTGTT
+GATCGCGATGAATTCCACGCCTTTGAGGCCCTGCTCGATCATTCGGTTGACGGCGTTGAC
+ACCGCCACCACCGATACCCACGACCTTGATGACGGCCAGGTAGTTGTGCGGGGGGGTCAT
+
+# Drug_Target_39_General_Function:
+Cell cycle control, cell division, chromosome partitioning
+
+# Drug_Target_39_General_References:
+12218036	Fleischmann RD, Alland D, Eisen JA, Carpenter L, White O, Peterson J, DeBoy R, Dodson R, Gwinn M, Haft D, Hickey E, Kolonay JF, Nelson WC, Umayam LA, Ermolaeva M, Salzberg SL, Delcher A, Utterback T, Weidman J, Khouri H, Gill J, Mikula A, Bishai W, Jacobs Jr WR Jr, Venter JC, Fraser CM: Whole-genome comparison of Mycobacterium tuberculosis clinical and laboratory strains. J Bacteriol. 2002 Oct;184(19):5479-90.
+9634230	Cole ST, Brosch R, Parkhill J, Garnier T, Churcher C, Harris D, Gordon SV, Eiglmeier K, Gas S, Barry CE 3rd, Tekaia F, Badcock K, Basham D, Brown D, Chillingworth T, Connor R, Davies R, Devlin K, Feltwell T, Gentles S, Hamlin N, Holroyd S, Hornsby T, Jagels K, Krogh A, McLean J, Moule S, Murphy L, Oliver K, Osborne J, Quail MA, Rajandream MA, Rogers J, Rutter S, Seeger K, Skelton J, Squares R, Squares S, Sulston JE, Taylor K, Whitehead S, Barrell BG: Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence. Nature. 1998 Jun 11;393(6685):537-44.
+
+# Drug_Target_39_HGNC_ID:
+Not Available
+
+# Drug_Target_39_HPRD_ID:
+Not Available
+
+# Drug_Target_39_ID:
+2521
+
+# Drug_Target_39_Locus:
+Not Available
+
+# Drug_Target_39_Molecular_Weight:
+38756
+
+# Drug_Target_39_Name:
+Cell division protein ftsZ
+
+# Drug_Target_39_Number_of_Residues:
+379
+
+# Drug_Target_39_PDB_ID:
+1RQ7
+
+# Drug_Target_39_Pathway:
+Not Available
+
+# Drug_Target_39_Pfam_Domain_Function:
+PF00091	Tubulin
+PF03953	Tubulin_C
+
+# Drug_Target_39_Protein_Sequence:
+>Cell division protein ftsZ
+MTPPHNYLAVIKVVGIGGGGVNAVNRMIEQGLKGVEFIAINTDAQALLMSDADVKLDVGR
+DSTRGLGAGADPEVGRKAAEDAKDEIEELLRGADMVFVTAGEGGGTGTGGAPVVASIARK
+LGALTVGVVTRPFSFEGKRRSNQAENGIAALRESCDTLIVIPNDRLLQMGDAAVSLMDAF
+RSADEVLLNGVQGITDLITTPGLINVDFADVKGIMSGAGTALMGIGSARGEGRSLKAAEI
+AINSPLLEASMEGAQGVLMSIAGGSDLGLFEINEAASLVQDAAHPDANIIFGTVIDDSLG
+DEVRVTVIAAGFDVSGPGRKPVMGETGGAHRIESAKAGKLTSTLFEPVDAVSVPLHTNGA
+TLSIGGDDDDVDVPPFMRR
+
+# Drug_Target_39_Reaction:
+Not Available
+
+# Drug_Target_39_Signals:
+None
+
+# Drug_Target_39_Specific_Function:
+This protein is essential to the cell-division process. It seems to assemble into a dynamic ring on the inner surface of the cytoplasmic membrane at the place where division will occur, and the formation of the ring is the signal for septation to begin. Binds to and hydrolyzes GTP
+
+# Drug_Target_39_SwissProt_ID:
+P64170
+
+# Drug_Target_39_SwissProt_Name:
+FTSZ_MYCTU
+
+# Drug_Target_39_Synonyms:
+Not Available
+
+# Drug_Target_39_Theoretical_pI:
+4.31
+
+# Drug_Target_39_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Not Available
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_3_GeneCard_ID:
+Not Available
+
+# Drug_Target_3_Gene_Name:
+TUFM
+
+# Drug_Target_3_Gene_Sequence:
+Not Available
+
+# Drug_Target_3_General_Function:
+Not Available
+
+# Drug_Target_3_General_References:
+Not Available
+
+# Drug_Target_3_HGNC_ID:
+Not Available
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+7052
+
+# Drug_Target_3_Locus:
+Not Available
+
+# Drug_Target_3_Molecular_Weight:
+Not Available
+
+# Drug_Target_3_Name:
+Elongation factor Tu, mitochondrial
+
+# Drug_Target_3_Number_of_Residues:
+0
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_3_Protein_Sequence:
+Not Available
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+Not Available
+
+# Drug_Target_3_Specific_Function:
+Not Available
+
+# Drug_Target_3_SwissProt_ID:
+P49411
+
+# Drug_Target_3_SwissProt_Name:
+EFTU_HUMAN
+
+# Drug_Target_3_Synonyms:
+Not Available
+
+# Drug_Target_3_Theoretical_pI:
+Not Available
+
+# Drug_Target_3_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_40_Cellular_Location:
+Not Available
+
+# Drug_Target_40_Chromosome_Location:
+Not Available
+
+# Drug_Target_40_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_40_Essentiality:
+Non-Essential
+
+# Drug_Target_40_GenAtlas_ID:
+TGM3
+
+# Drug_Target_40_GenBank_ID_Gene:
+L10386
+
+# Drug_Target_40_GenBank_ID_Protein:
+307504
+
+# Drug_Target_40_GeneCard_ID:
+TGM3
+
+# Drug_Target_40_Gene_Name:
+TGM3
+
+# Drug_Target_40_Gene_Sequence:
+>2082 bp
+ATGGCTGCTCTAGGAGTCCAGAGTATCAACTGGCAGAAGGCCTTCAACCGACAAGCGCAT
+CACACAGACAAGTTCTCCAGCCAGGAGCTCATCTTGCGGAGAGGCCAAAACTTCCAGGTC
+TTAATGATCATGAACAAAGGCCTTGGCTCTAACGAAAGACTGGAGTTCATTGACACCACA
+GGGCCTTACCCCTCAGAGTCGGCCATGACGAAGGCTGTGTTTCCACTCTCCAATGGCAGT
+AGTGGTGGCTGGAGTGCGGTGCTTCAGGCCAGCAATGGCAATACTCTGACTATCAGCATC
+TCCAGTCCTGCCAGCGCACCCATAGGACGGTACACAATGGCCCTCCAGATCTTCTCCCAG
+GGCGGCATCTCCTCTGTGAAACTTGGGACGTTCATACTGCTTTTTAACCCCTGGCTGAAT
+GTGGATAGCGTCTTTATGGGTAACCATGCTGAGAGAGAAGAGTATGTTCAGGAAGATGCC
+GGCATCATCTTTGTGGGAAGCACAAACCGAATTGGCATGATTGGCTGGAACTTTGGACAG
+TTTGAAGAAGACATTCTCAGCATCTGCCTCTCAATCTTGGATAGGAGTCTGAATTTCCGC
+CGTGACGCTGCTACTGATGTGGCCAGCAGAAATGACCCCAAATACGTTGGCCGGGTGCTG
+AGTGCCATGATCAATAGCAATGATGACAATGGTGTGCTTGCTGGGAATTGGAGCGGCACT
+TACACCGGTGGCCGGGACCCAAGGAGCTGGGACGGCAGCGTGGAGATCCTCAAAAATTGG
+AAAAAATCTGGCTTCAGCCCAGTCCGATATGGCCAGTGCTGGGTCTTTGCTGGGACCCTC
+AACACAGCGCTGCGGTCTTTGGGGATTCCTTCCCGGGTGATCACCAACTTCAACTCAGCT
+CATGACACAGACCGAAATCTCAGTGTGGATGTGTACTACGACCCCATGGGAAACCCCCTG
+GACAAGGGTAGTGATAGCGTATGGAATTTCCATGTCTGGAATGAAGGCTGGTTTGTGAGG
+TCTGACCTGGGCCCCCCGTACGGTGGATGGCAGGTGTTGGATGCTACCCCGCAGGAAAGA
+AGCCAAGGGGTGTTCCAGTGCGGCCCCGCTTCGGTCATTGGTGTTCGAGAGGGTGATGTG
+CAGCTGAACTTCGACATGCCCTTTATCTTCGCGGAGGTTAATGCCGACCGCATCACCTGG
+CTGTACGACAACACCACTGGCAAACAGTGGAAGAATTCCGTGAACAGTCACACCATTGGC
+AGGTACATCAGCACCAAGGCGGTGGGCAGCAATGCTCGCATGGACGTCACGGACAAGTAC
+AAGTACCCAGAAGGCTCTGACCAGGAAAGACAAGTGTTCCAAAAGGCTTTGGGGAAACTT
+AAACCCAACACGCCATTTGCCGCGACGTCTTCGATGGGTTTGGAAACAGAGGAACAGGAG
+CCCAGCATCATCGGGAAGCTGAAGGTCGCTGGCATGCTGGCAGTAGGCAAAGAAGTCAAC
+CTGGTCCTACTGCTCAAAAACCTGAGCAGGGATACGAAGACAGTGACAGTGAACATGACA
+GCCTGGACCATCATCTACAACGGCACGCTTGTACATGAAGTGTGGAAGGACTCTGCCACA
+ATGTCCCTGGACCCTGAGGAAGAGGCAGAACATCCCATAAAGATCTCGTACGCTCAGTAT
+GAGAGGTACCTGAAGTCAGACAACATGATCCGGATCACAGCGGTGTGCAAGGTCCCAGAT
+GAGTCTGAGGTGGTGGTGGAGCGGGACATCATCCTGGACAACCCCACCTTGACCCTGGAG
+GTGCTGAACGAGGCTCGTGTGCGGAAGCCTGTGAACGTGCAGATGCTCTTCTCCAATCCA
+CTGGATGAGCCGGTGAGGGACTGCGTGCTGATGGTGGAGGGAAGCGGCCTGCTGTTGGGT
+AACCTGAAGATCGACGTGCCGACCCTAGGGCCCAAGGAGCGGTCCCGGGTCCGTTTTGAT
+ATCCTGCCCTCCCGGAGTGGCACCAAGCAACTGCTCGCCGACTTCTCCTGCAACAAGTTC
+CCTGCAATCAAGGCCATGTTGTCCATCGACGTAGCCGAATGA
+
+# Drug_Target_40_General_Function:
+Involved in protein-glutamine gamma-glutamyltransferase activity
+
+# Drug_Target_40_General_References:
+11780052	Deloukas P, Matthews LH, Ashurst J, Burton J, Gilbert JG, Jones M, Stavrides G, Almeida JP, Babbage AK, Bagguley CL, Bailey J, Barlow KF, Bates KN, Beard LM, Beare DM, Beasley OP, Bird CP, Blakey SE, Bridgeman AM, Brown AJ, Buck D, Burrill W, Butler AP, Carder C, Carter NP, Chapman JC, Clamp M, Clark G, Clark LN, Clark SY, Clee CM, Clegg S, Cobley VE, Collier RE, Connor R, Corby NR, Coulson A, Coville GJ, Deadman R, Dhami P, Dunn M, Ellington AG, Frankland JA, Fraser A, French L, Garner P, Grafham DV, Griffiths C, Griffiths MN, Gwilliam R, Hall RE, Hammond S, Harley JL, Heath PD, Ho S, Holden JL, Howden PJ, Huckle E, Hunt AR, Hunt SE, Jekosch K, Johnson CM, Johnson D, Kay MP, Kimberley AM, King A, Knights A, Laird GK, Lawlor S, Lehvaslaiho MH, Leversha M, Lloyd C, Lloyd DM, Lovell JD, Marsh VL, Martin SL, McConnachie LJ, McLay K, McMurray AA, Milne S, Mistry D, Moore MJ, Mullikin JC, Nickerson T, Oliver K, Parker A, Patel R, Pearce TA, Peck AI, Phillimore BJ, Prathalingam SR, Plumb RW, Ramsay H, Rice CM, Ross MT, Scott CE, Sehra HK, Shownkeen R, Sims S, Skuce CD, Smith ML, Soderlund C, Steward CA, Sulston JE, Swann M, Sycamore N, Taylor R, Tee L, Thomas DW, Thorpe A, Tracey A, Tromans AC, Vaudin M, Wall M, Wallis JM, Whitehead SL, Whittaker P, Willey DL, Williams L, Williams SA, Wilming L, Wray PW, Hubbard T, Durbin RM, Bentley DR, Beck S, Rogers J: The DNA sequence and comparative analysis of human chromosome 20. Nature. 2001 Dec 20-27;414(6866):865-71.
+8099584	Kim IG, Gorman JJ, Park SC, Chung SI, Steinert PM: The deduced sequence of the novel protransglutaminase E (TGase3) of human and mouse. J Biol Chem. 1993 Jun 15;268(17):12682-90.
+
+# Drug_Target_40_HGNC_ID:
+HGNC:11779
+
+# Drug_Target_40_HPRD_ID:
+02584
+
+# Drug_Target_40_ID:
+2339
+
+# Drug_Target_40_Locus:
+20q11.2
+
+# Drug_Target_40_Molecular_Weight:
+76633
+
+# Drug_Target_40_Name:
+Protein-glutamine gamma-glutamyltransferase E
+
+# Drug_Target_40_Number_of_Residues:
+693
+
+# Drug_Target_40_PDB_ID:
+1SGX
+
+# Drug_Target_40_Pathway:
+Not Available
+
+# Drug_Target_40_Pfam_Domain_Function:
+PF00868	Transglut_N
+PF00927	Transglut_C
+PF01841	Transglut_core
+
+# Drug_Target_40_Protein_Sequence:
+>Protein-glutamine gamma-glutamyltransferase E precursor
+MAALGVQSINWQTAFNRQAHHTDKFSSQELILRRGQNFQVLMIMNKGLGSNERLEFIVST
+GPYPSESAMTKAVFPLSNGSSGGWSAVLQASNGNTLTISISSPASAPIGRYTMALQIFSQ
+GGISSVKLGTFILLFNPWLNVDSVFMGNHAEREEYVQEDAGIIFVGSTNRIGMIGWNFGQ
+FEEDILSICLSILDRSLNFRRDAATDVASRNDPKYVGRVLSAMINSNDDNGVLAGNWSGT
+YTGGRDPRSWNGSVEILKNWKKSGFSPVRYGQCWVFAGTLNTALRSLGIPSRVITNFNSA
+HDTDRNLSVDVYYDPMGNPLDKGSDSVWNFHVWNEGWFVRSDLGPSYGGWQVLDATPQER
+SQGVFQCGPASVIGVREGDVQLNFDMPFIFAEVNADRITWLYDNTTGKQWKNSVNSHTIG
+RYISTKAVGSNARMDVTDKYKYPEGSDQERQVFQKALGKLKPNTPFAATSSMGLETEEQE
+PSIIGKLKVAGMLAVGKEVNLVLLLKNLSRDTKTVTVNMTAWTIIYNGTLVHEVWKDSAT
+MSLDPEEEAEHPIKISYAQYEKYLKSDNMIRITAVCKVPDESEVVVERDIILDNPTLTLE
+VLNEARVRKPVNVQMLFSNPLDEPVRDCVLMVEGSGLLLGNLKIDVPTLGPKEGSRVRFD
+ILPSRSGTKQLLADFSCNKFPAIKAMLSIDVAE
+
+# Drug_Target_40_Reaction:
+protein glutamine + alkylamine = protein N5-alkylglutamine + NH3
+
+# Drug_Target_40_Signals:
+None
+
+# Drug_Target_40_Specific_Function:
+Catalyzes the cross-linking of proteins and the conjugation of polyamines to proteins. It is responsible for the later stages of cell envelope formation in the epidermis and the hair follicle
+
+# Drug_Target_40_SwissProt_ID:
+Q08188
+
+# Drug_Target_40_SwissProt_Name:
+TGM3_HUMAN
+
+# Drug_Target_40_Synonyms:
+EC 2.3.2.13
+Protein-glutamine gamma-glutamyltransferase E precursor
+TG(E)
+TGE
+TGase E
+Transglutaminase-3
+
+# Drug_Target_40_Theoretical_pI:
+5.60
+
+# Drug_Target_40_Transmembrane_Regions:
+None
+
+# Drug_Target_41_Cellular_Location:
+Cell membrane
+
+# Drug_Target_41_Chromosome_Location:
+Not Available
+
+# Drug_Target_41_Drug_References:
+Not Available
+
+# Drug_Target_41_Essentiality:
+Non-Essential
+
+# Drug_Target_41_GenAtlas_ID:
+Not Available
+
+# Drug_Target_41_GenBank_ID_Gene:
+X92977
+
+# Drug_Target_41_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_41_GeneCard_ID:
+Not Available
+
+# Drug_Target_41_Gene_Name:
+rab6
+
+# Drug_Target_41_Gene_Sequence:
+>624 bp
+ATGGATGAATTTCAAAACTCGGGACTAAATAAATACAAACTTGTTTTCTTAGGAGAACAA
+GCTGTTGGTAAAACATCTATAATTACAAGATTCATGTATGATACCTTTGATAATAATTAC
+CAATCGACTATTGGTATAGATTTTTTGAGTAAGACATTATATTTGGATGAAGGTCCTGTA
+CGCTTACAATTGTGGGACACTGCAGGTCAGGAAAGATTTCGAAGTTTAATTCCAAGTTAT
+ATTAGGGACTCCGCAGCAGCAATTGTTGTATATGATATTACTAATAGACAATCCTTTGAA
+AATACCACAAAATGGATACAGGATATTTTGAATGAGAGAGGAAAAGATGTTATAATTGCT
+TTAGTAGGAAATAAAACAGATTTAGGTGATCTTAGAAAAGTTACATATGAAGAAGGAATG
+CAAAAAGCTCAAGAATATAATACCATGTTTCATGAAACGAGTGCTAAAGCTGGACATAAT
+ATAAAAGTTTTGTTTAAAAAAACTGCATCAAAATTACCAAATTTAGATAATACAAATAAT
+AATGAAGCCAATGTTGTAGATATACAATTAACTAATAATTCAAATAAAAATGACAAAAAT
+ATGTTAAGTAAATGTTTATGTTAA
+
+# Drug_Target_41_General_Function:
+Involved in GTP binding
+
+# Drug_Target_41_General_References:
+10944329	Chattopadhyay D, Langsley G, Carson M, Recacha R, DeLucas L, Smith C: Structure of the nucleotide-binding domain of Plasmodium falciparum rab6 in the GDP-bound form. Acta Crystallogr D Biol Crystallogr. 2000 Aug;56(Pt 8):937-44.
+8885224	de Castro FA, Ward GE, Jambou R, Attal G, Mayau V, Jaureguiberry G, Braun-Breton C, Chakrabarti D, Langsley G: Identification of a family of Rab G-proteins in Plasmodium falciparum and a detailed characterisation of pfrab6. Mol Biochem Parasitol. 1996 Sep;80(1):77-88.
+
+# Drug_Target_41_HGNC_ID:
+Not Available
+
+# Drug_Target_41_HPRD_ID:
+Not Available
+
+# Drug_Target_41_ID:
+5624
+
+# Drug_Target_41_Locus:
+Not Available
+
+# Drug_Target_41_Molecular_Weight:
+23598
+
+# Drug_Target_41_Name:
+GTPase
+
+# Drug_Target_41_Number_of_Residues:
+207
+
+# Drug_Target_41_PDB_ID:
+1D5C
+
+# Drug_Target_41_Pathway:
+Not Available
+
+# Drug_Target_41_Pfam_Domain_Function:
+PF00071	Ras
+
+# Drug_Target_41_Protein_Sequence:
+>GTPase
+MDEFQNSGLNKYKLVFLGEQAVGKTSIITRFMYDTFDNNYQSTIGIDFLSKTLYLDEGPV
+RLQLWDTAGQERFRSLIPSYIRDSAAAIVVYDITNRQSFENTTKWIQDILNERGKDVIIA
+LVGNKTDLGDLRKVTYEEGMQKAQEYNTMFHETSAKAGHNIKVLFKKTASKLPNLDNTNN
+NEANVVDIQLTNNSNKNDKNMLSKCLC
+
+# Drug_Target_41_Reaction:
+Not Available
+
+# Drug_Target_41_Signals:
+None
+
+# Drug_Target_41_Specific_Function:
+Not Available
+
+# Drug_Target_41_SwissProt_ID:
+Q26000
+
+# Drug_Target_41_SwissProt_Name:
+Q26000_PLAFA
+
+# Drug_Target_41_Synonyms:
+Rab6
+
+# Drug_Target_41_Theoretical_pI:
+6.54
+
+# Drug_Target_41_Transmembrane_Regions:
+None
+
+# Drug_Target_42_Cellular_Location:
+Not Available
+
+# Drug_Target_42_Chromosome_Location:
+Not Available
+
+# Drug_Target_42_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_42_Essentiality:
+Non-Essential
+
+# Drug_Target_42_GenAtlas_ID:
+Not Available
+
+# Drug_Target_42_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_42_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_42_GeneCard_ID:
+Not Available
+
+# Drug_Target_42_Gene_Name:
+RAB8B
+
+# Drug_Target_42_Gene_Sequence:
+Not Available
+
+# Drug_Target_42_General_Function:
+Not Available
+
+# Drug_Target_42_General_References:
+Not Available
+
+# Drug_Target_42_HGNC_ID:
+Not Available
+
+# Drug_Target_42_HPRD_ID:
+Not Available
+
+# Drug_Target_42_ID:
+6988
+
+# Drug_Target_42_Locus:
+Not Available
+
+# Drug_Target_42_Molecular_Weight:
+Not Available
+
+# Drug_Target_42_Name:
+Ras-related protein Rab-8B
+
+# Drug_Target_42_Number_of_Residues:
+0
+
+# Drug_Target_42_PDB_ID:
+Not Available
+
+# Drug_Target_42_Pathway:
+Not Available
+
+# Drug_Target_42_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_42_Protein_Sequence:
+Not Available
+
+# Drug_Target_42_Reaction:
+Not Available
+
+# Drug_Target_42_Signals:
+Not Available
+
+# Drug_Target_42_Specific_Function:
+Not Available
+
+# Drug_Target_42_SwissProt_ID:
+Q92930
+
+# Drug_Target_42_SwissProt_Name:
+RAB8B_HUMAN
+
+# Drug_Target_42_Synonyms:
+Not Available
+
+# Drug_Target_42_Theoretical_pI:
+Not Available
+
+# Drug_Target_42_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_43_Cellular_Location:
+Golgi apparatus. Cell membrane
+
+# Drug_Target_43_Chromosome_Location:
+1
+
+# Drug_Target_43_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_43_Essentiality:
+Non-Essential
+
+# Drug_Target_43_GenAtlas_ID:
+Not Available
+
+# Drug_Target_43_GenBank_ID_Gene:
+M57763
+
+# Drug_Target_43_GenBank_ID_Protein:
+178989
+
+# Drug_Target_43_GeneCard_ID:
+ARF6
+
+# Drug_Target_43_Gene_Name:
+ARF6
+
+# Drug_Target_43_Gene_Sequence:
+>528 bp
+ATGGGGAAGGTGCTATCCAAAATCTTCGGGAACAAGGAAATGCGGATCCTCATGTTGGGC
+CTGGACGCGGCCGGCAAGACAACAATCCTGTACAAGTTGAAGCTGGGCCAGTCGGTGACC
+ACCATTCCCACTGTGGGTTTCAACGTGGAGACGGTGACTTACAAAAATGTCAAGTTCAAC
+GTATGGGATGTGGGCGGCCAGGACAAGATCCGGCCGCTCTGGCGGCATTACTACACTGGG
+ACCCAAGGTCTCATCTTCGTAGTGGACTGCGCCGACCGCGACCGCATCGATGAGGCTCGC
+CAGGAGCTGCACCGCATTATCAATGACCGGGAGATGAGGGACGCCATAATCCTCATCTTC
+GCCAACAAGCAGGACCTGCCCGATGCCATGAAACCCCACGAGATCCAGGAGAAACTGGGC
+CTGACCCGGATTCGGGACAGGAACTGGTATGTGCAGCCCTCCTGTGCCACCTCAGGGGAC
+GGACTCTATGAGGGGCTCACATGGTTAACCTCTAACTACAAATCTTAA
+
+# Drug_Target_43_General_Function:
+Involved in GTP binding
+
+# Drug_Target_43_General_References:
+12847086	Krauss M, Kinuta M, Wenk MR, De Camilli P, Takei K, Haucke V: ARF6 stimulates clathrin/AP-2 recruitment to synaptic membranes by activating phosphatidylinositol phosphate kinase type Igamma. J Cell Biol. 2003 Jul 7;162(1):113-24.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+15642342	Garcia-Gonzalo FR, Bartrons R, Ventura F, Rosa JL: Requirement of phosphatidylinositol-4,5-bisphosphate for HERC1-mediated guanine nucleotide release from ARF proteins. FEBS Lett. 2005 Jan 17;579(2):343-8.
+15793564	Dubois T, Paleotti O, Mironov AA, Fraisier V, Stradal TE, De Matteis MA, Franco M, Chavrier P: Golgi-localized GAP for Cdc42 functions downstream of ARF1 to control Arp2/3 complex and F-actin dynamics. Nat Cell Biol. 2005 Apr;7(4):353-64. Epub 2005 Mar 27.
+17555535	Haynes LP, Sherwood MW, Dolman NJ, Burgoyne RD: Specificity, promiscuity and localization of ARF protein interactions with NCS-1 and phosphatidylinositol-4 kinase-III beta. Traffic. 2007 Aug;8(8):1080-92. Epub 2007 Jun 6.
+1993656	Tsuchiya M, Price SR, Tsai SC, Moss J, Vaughan M: Molecular identification of ADP-ribosylation factor mRNAs and their expression in mammalian cells. J Biol Chem. 1991 Feb 15;266(5):2772-7.
+7589240	D'Souza-Schorey C, Stahl PD: Myristoylation is required for the intracellular localization and endocytic function of ARF6. Exp Cell Res. 1995 Nov;221(1):153-9.
+9653160	Mao M, Fu G, Wu JS, Zhang QH, Zhou J, Kan LX, Huang QH, He KL, Gu BW, Han ZG, Shen Y, Gu J, Yu YP, Xu SH, Wang YX, Chen SJ, Chen Z: Identification of genes expressed in human CD34(+) hematopoietic stem/progenitor cells by expressed sequence tags and efficient full-length cDNA cloning. Proc Natl Acad Sci U S A. 1998 Jul 7;95(14):8175-80.
+
+# Drug_Target_43_HGNC_ID:
+GNC:659
+
+# Drug_Target_43_HPRD_ID:
+Not Available
+
+# Drug_Target_43_ID:
+6750
+
+# Drug_Target_43_Locus:
+14q21.3
+
+# Drug_Target_43_Molecular_Weight:
+20082.0
+
+# Drug_Target_43_Name:
+ADP-ribosylation factor 6
+
+# Drug_Target_43_Number_of_Residues:
+175
+
+# Drug_Target_43_PDB_ID:
+1E0S
+
+# Drug_Target_43_Pathway:
+Not Available
+
+# Drug_Target_43_Pfam_Domain_Function:
+PF00025	Arf
+
+# Drug_Target_43_Protein_Sequence:
+>ADP-ribosylation factor 6
+MGKVLSKIFGNKEMRILMLGLDAAGKTTILYKLKLGQSVTTIPTVGFNVETVTYKNVKFN
+VWDVGGQDKIRPLWRHYYTGTQGLIFVVDCADRDRIDEARQELHRIINDREMRDAIILIF
+ANKQDLPDAMKPHEIQEKLGLTRIRDRNWYVQPSCATSGDGLYEGLTWLTSNYKS
+
+# Drug_Target_43_Reaction:
+Not Available
+
+# Drug_Target_43_Signals:
+None
+
+# Drug_Target_43_Specific_Function:
+GTP-binding protein that functions as an allosteric activator of the cholera toxin catalytic subunit, an ADP- ribosyltransferase. Involved in protein trafficking; may modulate vesicle budding and uncoating within the Golgi apparatus
+
+# Drug_Target_43_SwissProt_ID:
+P62330
+
+# Drug_Target_43_SwissProt_Name:
+ARF6_HUMAN
+
+# Drug_Target_43_Synonyms:
+Not Available
+
+# Drug_Target_43_Theoretical_pI:
+9.32
+
+# Drug_Target_43_Transmembrane_Regions:
+None
+
+# Drug_Target_44_Cellular_Location:
+Not Available
+
+# Drug_Target_44_Chromosome_Location:
+Not Available
+
+# Drug_Target_44_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_44_Essentiality:
+Non-Essential
+
+# Drug_Target_44_GenAtlas_ID:
+Not Available
+
+# Drug_Target_44_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_44_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_44_GeneCard_ID:
+Not Available
+
+# Drug_Target_44_Gene_Name:
+ARL3
+
+# Drug_Target_44_Gene_Sequence:
+Not Available
+
+# Drug_Target_44_General_Function:
+Not Available
+
+# Drug_Target_44_General_References:
+Not Available
+
+# Drug_Target_44_HGNC_ID:
+Not Available
+
+# Drug_Target_44_HPRD_ID:
+Not Available
+
+# Drug_Target_44_ID:
+7148
+
+# Drug_Target_44_Locus:
+Not Available
+
+# Drug_Target_44_Molecular_Weight:
+Not Available
+
+# Drug_Target_44_Name:
+ADP-ribosylation factor-like protein 3
+
+# Drug_Target_44_Number_of_Residues:
+0
+
+# Drug_Target_44_PDB_ID:
+Not Available
+
+# Drug_Target_44_Pathway:
+Not Available
+
+# Drug_Target_44_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_44_Protein_Sequence:
+Not Available
+
+# Drug_Target_44_Reaction:
+Not Available
+
+# Drug_Target_44_Signals:
+Not Available
+
+# Drug_Target_44_Specific_Function:
+Not Available
+
+# Drug_Target_44_SwissProt_ID:
+P36405
+
+# Drug_Target_44_SwissProt_Name:
+ARL3_HUMAN
+
+# Drug_Target_44_Synonyms:
+Not Available
+
+# Drug_Target_44_Theoretical_pI:
+Not Available
+
+# Drug_Target_44_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_45_Cellular_Location:
+Cytoplasm. Nucleus
+
+# Drug_Target_45_Chromosome_Location:
+Not Available
+
+# Drug_Target_45_Drug_References:
+Not Available
+
+# Drug_Target_45_Essentiality:
+Non-Essential
+
+# Drug_Target_45_GenAtlas_ID:
+NME2
+
+# Drug_Target_45_GenBank_ID_Gene:
+X58965
+
+# Drug_Target_45_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_45_GeneCard_ID:
+Not Available
+
+# Drug_Target_45_Gene_Name:
+NME2
+
+# Drug_Target_45_Gene_Sequence:
+>459 bp
+ATGGCCAACCTGGAGCGCACCTTCATCGCCATCAAGCCGGACGGCGTGCAGCGCGGCCTG
+GTGGGCGAGATCATCAAGCGCTTCGAGCAGAAGGGATTCCGCCTCGTGGCCATGAAGTTC
+CTCCGGGCCTCTGAAGAACACCTGAAGCAGCACTACATTGACCTGAAAGACCGACCATTC
+TTCCCTGGGCTGGTGAAGTACATGAACTCAGGGCCGGTTGTGGCCATGGTCTGGGAGGGG
+CTGAACGTGGTGAAGACAGGCCGAGTGATGCTTGGGGAGACCAATCCAGCAGATTCAAAG
+CCAGGCACCATTCGTGGGGACTTCTGCATTCAGGTTGGCAGGAACATCATTCATGGCAGT
+GATTCAGTAAAAAGTGCTGAAAAAGAAATCAGCCTATGGTTTAAGCCTGAAGAACTGGTT
+GACTACAAGTCTTGTGCTCATGACTGGGTCTATGAATAA
+
+# Drug_Target_45_General_Function:
+Involved in nucleoside diphosphate kinase activity
+
+# Drug_Target_45_General_References:
+1851158	Gilles AM, Presecan E, Vonica A, Lascu I: Nucleoside diphosphate kinase from human erythrocytes. Structural characterization of the two polypeptide chains responsible for heterogeneity of the hexameric enzyme. J Biol Chem. 1991 May 15;266(14):8784-9.
+1988104	Stahl JA, Leone A, Rosengard AM, Porter L, King CR, Steeg PS: Identification of a second human nm23 gene, nm23-H2. Cancer Res. 1991 Jan 1;51(1):445-9.
+7658474	Webb PA, Perisic O, Mendola CE, Backer JM, Williams RL: The crystal structure of a human nucleoside diphosphate kinase, NM23-H2. J Mol Biol. 1995 Aug 25;251(4):574-87.
+8392752	Postel EH, Berberich SJ, Flint SJ, Ferrone CA: Human c-myc transcription factor PuF identified as nm23-H2 nucleoside diphosphate kinase, a candidate suppressor of tumor metastasis. Science. 1993 Jul 23;261(5120):478-80.
+8747457	Morera S, Lacombe ML, Xu Y, LeBras G, Janin J: X-ray structure of human nucleoside diphosphate kinase B complexed with GDP at 2 A resolution. Structure. 1995 Dec 15;3(12):1307-14.
+
+# Drug_Target_45_HGNC_ID:
+HGNC:7850
+
+# Drug_Target_45_HPRD_ID:
+Not Available
+
+# Drug_Target_45_ID:
+5626
+
+# Drug_Target_45_Locus:
+17q21.3
+
+# Drug_Target_45_Molecular_Weight:
+17298
+
+# Drug_Target_45_Name:
+Nucleoside diphosphate kinase B
+
+# Drug_Target_45_Number_of_Residues:
+152
+
+# Drug_Target_45_PDB_ID:
+1NSK
+
+# Drug_Target_45_Pathway:
+Adefovir Dipivoxil Pathway	SMP00418
+Tenofovir Pathway	SMP00419
+
+# Drug_Target_45_Pfam_Domain_Function:
+PF00334	NDK
+
+# Drug_Target_45_Protein_Sequence:
+>Nucleoside diphosphate kinase B
+MANLERTFIAIKPDGVQRGLVGEIIKRFEQKGFRLVAMKFLRASEEHLKQHYIDLKDRPF
+FPGLVKYMNSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIHGS
+DSVKSAEKEISLWFKPEELVDYKSCAHDWVYE
+
+# Drug_Target_45_Reaction:
+Not Available
+
+# Drug_Target_45_Signals:
+None
+
+# Drug_Target_45_Specific_Function:
+Acts as a transcriptional activator of the c-Myc gene; binds DNA nonspecifically (Ref.3)
+
+# Drug_Target_45_SwissProt_ID:
+P22392
+
+# Drug_Target_45_SwissProt_Name:
+NDKB_HUMAN
+
+# Drug_Target_45_Synonyms:
+C-myc purine-binding transcription factor PUF
+EC 2.7.4.6
+NDK B
+NDP kinase B
+nm23-H2
+
+# Drug_Target_45_Theoretical_pI:
+8.69
+
+# Drug_Target_45_Transmembrane_Regions:
+None
+
+# Drug_Target_46_Cellular_Location:
+Not Available
+
+# Drug_Target_46_Chromosome_Location:
+Not Available
+
+# Drug_Target_46_Drug_References:
+Not Available
+
+# Drug_Target_46_Essentiality:
+Non-Essential
+
+# Drug_Target_46_GenAtlas_ID:
+Not Available
+
+# Drug_Target_46_GenBank_ID_Gene:
+U18320
+
+# Drug_Target_46_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_46_GeneCard_ID:
+Not Available
+
+# Drug_Target_46_Gene_Name:
+gca
+
+# Drug_Target_46_Gene_Sequence:
+>972 bp
+ATGACAAGAAGTGCACTGGTAACTGGGATCACCGGTCAGGACGGAGCGTACCTGGCCAAG
+CTGCTGCTGGAGAAGGGCTACCGGGTCCACGGCCTGGTGGCGCGGCGCAGCAGCGACACG
+CGCTGGCGCCTGCGCGAACTGGGGATCGAAGGCGATATCCAGTACGAGGACGGCGACATG
+GCCGATGCCTGTTCGGTGCAGCGCGCGGTGATCAAGGCGCAGCCGCAGGAGGTCTACAAC
+CTGGCGGCACAGAGCTTCGTCGGGGCCTCCTGGAACCAGCCGGTGACCACCGGCGTCGTC
+GACGGCCTGGGCGTGACCCACCTGCTCGAGGCGATCCGCCAGTTCAGCCCGGAAACGCGC
+TTCTACCAGGCTTCCACCAGCGAGATGTTCGGCCTGATCCAGGCCGAGCGCCAGGACGAG
+AACACGCCGTTCTACCCGCGCAGCCCCTACGGCGTGGTCAAGCTCTATGGCCACTGGATC
+ACCGTCAACTATCGCGAGAACTTCGGCCTGCACGCCTCCAGCGGCATCCTGTTCAACCAC
+GAATCGCCGCTGCGCGGCATCGAGTTCGTCACGCGCAAGGTTACCGACGCGGTGGCCCGC
+ATCAAGCTCGGCAAGCAGCAGGAATTGCGCCTGGGCAACGTCGACGTCAAGCGCGACTGG
+GGCTTTGGCGGGGACTACGTCGAAGCCATGTGGCTGATGTTGCAGCAGGACAAGGCCGAC
+GACTACGTGGTGGCCACCGTTGTCACTACCACCGTGCGCGACATGTGCCAGATCGCTTTC
+GAGCATGTGGGCCTGGACTACCGCGACTTCCTCAAGATCGACCCGGCGTTCTTCCGGCCC
+GCCGAGGTCGACGTGCTGCTGGGTAATCCGGCCAAGGCCCAGCGTGTGCTCGGCTGGAAG
+CCCAGGACCAGCCTGGACGAGCTGATCCGGATGATGGTCGAGGCGGACCTGCGACGCGTT
+TCCCGGGAGTAG
+
+# Drug_Target_46_General_Function:
+Involved in catalytic activity
+
+# Drug_Target_46_General_References:
+10984043	Stover CK, Pham XQ, Erwin AL, Mizoguchi SD, Warrener P, Hickey MJ, Brinkman FS, Hufnagle WO, Kowalik DJ, Lagrou M, Garber RL, Goltry L, Tolentino E, Westbrock-Wadman S, Yuan Y, Brody LL, Coulter SN, Folger KR, Kas A, Larbig K, Lim R, Smith K, Spencer D, Wong GK, Wu Z, Paulsen IT, Reizer J, Saier MH, Hancock RE, Lory S, Olson MV: Complete genome sequence of Pseudomonas aeruginosa PA01, an opportunistic pathogen. Nature. 2000 Aug 31;406(6799):959-64.
+8548534	Currie HL, Lightfoot J, Lam JS: Prevalence of gca, a gene involved in synthesis of A-band common antigen polysaccharide in Pseudomonas aeruginosa. Clin Diagn Lab Immunol. 1995 Sep;2(5):554-62.
+
+# Drug_Target_46_HGNC_ID:
+Not Available
+
+# Drug_Target_46_HPRD_ID:
+Not Available
+
+# Drug_Target_46_ID:
+5627
+
+# Drug_Target_46_Locus:
+Not Available
+
+# Drug_Target_46_Molecular_Weight:
+36400
+
+# Drug_Target_46_Name:
+GDP-mannose 4,6-dehydratase
+
+# Drug_Target_46_Number_of_Residues:
+323
+
+# Drug_Target_46_PDB_ID:
+1RPN
+
+# Drug_Target_46_Pathway:
+Not Available
+
+# Drug_Target_46_Pfam_Domain_Function:
+PF01370	Epimerase
+
+# Drug_Target_46_Protein_Sequence:
+>GDP-mannose 4,6-dehydratase
+MTRSALVTGITGQDGAYLAKLLLEKGYRVHGLVARRSSDTRWRLRELGIEGDIQYEDGDM
+ADACSVQRAVIKAQPQEVYNLAAQSFVGASWNQPVTTGVVDGLGVTHLLEAIRQFSPETR
+FYQASTSEMFGLIQAERQDENTPFYPRSPYGVAKLYGHWITVNYRESFGLHASSGILFNH
+ESPLRGIEFVTRKVTDAVARIKLGKQQELRLGNVDAKRDWGFAGDYVEAMWLMLQQDKAD
+DYVVATGVTTTVRDMCQIAFEHVGLDYRDFLKIDPAFFRPAEVDVLLGNPAKAQRVLGWK
+PRTSLDELIRMMVEADLRRVSRE
+
+# Drug_Target_46_Reaction:
+Not Available
+
+# Drug_Target_46_Signals:
+None
+
+# Drug_Target_46_Specific_Function:
+GDP-mannose = GDP-4-dehydro-6-deoxy-D-mannose + H(2)O
+
+# Drug_Target_46_SwissProt_ID:
+Q51366
+
+# Drug_Target_46_SwissProt_Name:
+GM4D_PSEAE
+
+# Drug_Target_46_Synonyms:
+EC 4.2.1.47
+GDP-D-mannose dehydratase
+
+# Drug_Target_46_Theoretical_pI:
+6.53
+
+# Drug_Target_46_Transmembrane_Regions:
+None
+
+# Drug_Target_47_Cellular_Location:
+Cell membrane
+cytoplasmic side. Melanosome. Note=Inner surface of plasma membrane pos
+lipid-anchor
+
+# Drug_Target_47_Chromosome_Location:
+Not Available
+
+# Drug_Target_47_Drug_References:
+Not Available
+
+# Drug_Target_47_Essentiality:
+Non-Essential
+
+# Drug_Target_47_GenAtlas_ID:
+RAC1
+
+# Drug_Target_47_GenBank_ID_Gene:
+M29870
+
+# Drug_Target_47_GenBank_ID_Protein:
+190824
+
+# Drug_Target_47_GeneCard_ID:
+RAC1
+
+# Drug_Target_47_Gene_Name:
+RAC1
+
+# Drug_Target_47_Gene_Sequence:
+>579 bp
+ATGCAGGCCATCAAGTGTGTGGTGGTGGGAGACGGAGCTGTAGGTAAAACTTGCCTACTG
+ATCAGTTACACAACCAATGCATTTCCTGGAGAATATATCCCTACTGTCTTTGACAATTAT
+TCTGCCAATGTTATGGTAGATGGAAAACCGGTGAATCTGGGCTTATGGGATACAGCTGGA
+CAAGAAGATTATGACAGATTACGCCCCCTATCCTATCCGCAAACAGATGTGTTCTTAATT
+TGCTTTTCCCTTGTGAGTCCTGCATCATTTGAAAATGTCCGTGCAAAGTGGTATCCTGAG
+GTGCGGCACCACTGTCCCAACACTCCCATCATCCTAGTGGGAACTAAACTTGATCTTAGG
+GATGATAAAGACACGATCGAGAAACTGAAGGAGAAGAAGCTGACTCCCATCACCTATCCG
+CAGGGTCTAGCCATGGCTAAGGAGATTGGTGCTGTAAAATACCTGGAGTGCTCGGCGCTC
+ACACAGCGAGGCCTCAAGACAGTGTTTGACGAAGCGATCCGAGCAGTCCTCTGCCCGCCT
+CCCGTGAAGAAGAGGAAGAGAAAATGCCTGCTGTTGTAA
+
+# Drug_Target_47_General_Function:
+Involved in GTP binding
+
+# Drug_Target_47_General_References:
+10559471	Nishihara H, Kobayashi S, Hashimoto Y, Ohba F, Mochizuki N, Kurata T, Nagashima K, Matsuda M: Non-adherent cell-specific expression of DOCK2, a member of the human CDM-family proteins. Biochim Biophys Acta. 1999 Nov 11;1452(2):179-87.
+10597294	Jordan P, Brazao R, Boavida MG, Gespach C, Chastre E: Cloning of a novel human Rac1b splice variant with increased expression in colorectal tumors. Oncogene. 1999 Nov 18;18(48):6835-9.
+10954424	Johansson A, Driessens M, Aspenstrom P: The mammalian homologue of the Caenorhabditis elegans polarity protein PAR-6 is a binding partner for the Rho GTPases Cdc42 and Rac1. J Cell Sci. 2000 Sep;113 ( Pt 18):3267-75.
+11035813	Vikis HG, Li W, He Z, Guan KL: The semaphorin receptor plexin-B1 specifically interacts with active Rac in a ligand-dependent manner. Proc Natl Acad Sci U S A. 2000 Nov 7;97(23):12457-62.
+11062023	Matos P, Skaug J, Marques B, Beck S, Verissimo F, Gespach C, Boavida MG, Scherer SW, Jordan P: Small GTPase Rac1: structure, localization, and expression of the human gene. Biochem Biophys Res Commun. 2000 Nov 2;277(3):741-51.
+11090627	Lapouge K, Smith SJ, Walker PA, Gamblin SJ, Smerdon SJ, Rittinger K: Structure of the TPR domain of p67phox in complex with Rac.GTP. Mol Cell. 2000 Oct;6(4):899-907.
+11130063	Worthylake DK, Rossman KL, Sondek J: Crystal structure of Rac1 in complex with the guanine nucleotide exchange region of Tiam1. Nature. 2000 Dec 7;408(6813):682-8.
+11135665	Wurtele M, Wolf E, Pederson KJ, Buchwald G, Ahmadian MR, Barbieri JT, Wittinghofer A: How the Pseudomonas aeruginosa ExoS toxin downregulates Rac. Nat Struct Biol. 2001 Jan;8(1):23-6.
+11163217	Stebbins CE, Galan JE: Modulation of host signaling by a bacterial mimic: structure of the Salmonella effector SptP bound to Rac1. Mol Cell. 2000 Dec;6(6):1449-60.
+11260256	Noda Y, Takeya R, Ohno S, Naito S, Ito T, Sumimoto H: Human homologues of the Caenorhabditis elegans cell polarity protein PAR6 as an adaptor that links the small GTPases Rac and Cdc42 to atypical protein kinase C. Genes Cells. 2001 Feb;6(2):107-19.
+11346801	Tarricone C, Xiao B, Justin N, Walker PA, Rittinger K, Gamblin SJ, Smerdon SJ: The structural basis of Arfaptin-mediated cross-talk between Rac and Arf signalling pathways. Nature. 2001 May 10;411(6834):215-9.
+11513578	Grizot S, Faure J, Fieschi F, Vignais PV, Dagher MC, Pebay-Peyroula E: Crystal structure of the Rac1-RhoGDI complex involved in nadph oxidase activation. Biochemistry. 2001 Aug 28;40(34):10007-13.
+11955434	Welch HC, Coadwell WJ, Ellson CD, Ferguson GJ, Andrews SR, Erdjument-Bromage H, Tempst P, Hawkins PT, Stephens LR: P-Rex1, a PtdIns(3,4,5)P3- and Gbetagamma-regulated guanine-nucleotide exchange factor for Rac. Cell. 2002 Mar 22;108(6):809-21.
+12134158	Brugnera E, Haney L, Grimsley C, Lu M, Walk SF, Tosello-Trampont AC, Macara IG, Madhani H, Fink GR, Ravichandran KS: Unconventional Rac-GEF activity is mediated through the Dock180-ELMO complex. Nat Cell Biol. 2002 Aug;4(8):574-82.
+12853948	Hillier LW, Fulton RS, Fulton LA, Graves TA, Pepin KH, Wagner-McPherson C, Layman D, Maas J, Jaeger S, Walker R, Wylie K, Sekhon M, Becker MC, O'Laughlin MD, Schaller ME, Fewell GA, Delehaunty KD, Miner TL, Nash WE, Cordes M, Du H, Sun H, Edwards J, Bradshaw-Cordum H, Ali J, Andrews S, Isak A, Vanbrunt A, Nguyen C, Du F, Lamar B, Courtney L, Kalicki J, Ozersky P, Bielicki L, Scott K, Holmes A, Harkins R, Harris A, Strong CM, Hou S, Tomlinson C, Dauphin-Kohlberg S, Kozlowicz-Reilly A, Leonard S, Rohlfing T, Rock SM, Tin-Wollam AM, Abbott A, Minx P, Maupin R, Strowmatt C, Latreille P, Miller N, Johnson D, Murray J, Woessner JP, Wendl MC, Yang SP, Schultz BR, Wallis JW, Spieth J, Bieri TA, Nelson JO, Berkowicz N, Wohldmann PE, Cook LL, Hickenbotham MT, Eldred J, Williams D, Bedell JA, Mardis ER, Clifton SW, Chissoe SL, Marra MA, Raymond C, Haugen E, Gillett W, Zhou Y, James R, Phelps K, Iadanoto S, Bubb K, Simms E, Levy R, Clendenning J, Kaul R, Kent WJ, Furey TS, Baertsch RA, Brent MR, Keibler E, Flicek P, Bork P, Suyama M, Bailey JA, Portnoy ME, Torrents D, Chinwalla AT, Gish WR, Eddy SR, McPherson JD, Olson MV, Eichler EE, Green ED, Waterston RH, Wilson RK: The DNA sequence of human chromosome 7. Nature. 2003 Jul 10;424(6945):157-64.
+1903399	Kinsella BT, Erdman RA, Maltese WA: Carboxyl-terminal isoprenylation of ras-related GTP-binding proteins encoded by rac1, rac2, and ralA. J Biol Chem. 1991 May 25;266(15):9786-94.
+2108320	Drivas GT, Shih A, Coutavas E, Rush MG, D'Eustachio P: Characterization of four novel ras-like genes expressed in a human teratocarcinoma cell line. Mol Cell Biol. 1990 Apr;10(4):1793-8.
+2674130	Didsbury J, Weber RF, Bokoch GM, Evans T, Snyderman R: rac, a novel ras-related family of proteins that are botulinum toxin substrates. J Biol Chem. 1989 Oct 5;264(28):16378-82.
+7673236	Jullien-Flores V, Dorseuil O, Romero F, Letourneur F, Saragosti S, Berger R, Tavitian A, Gacon G, Camonis JH: Bridging Ral GTPase to Rho pathways. RLIP76, a Ral effector with CDC42/Rac GTPase-activating protein activity. J Biol Chem. 1995 Sep 22;270(38):22473-7.
+9033596	Hirshberg M, Stockley RW, Dodson G, Webb MR: The crystal structure of human rac1, a member of the rho-family complexed with a GTP analogue. Nat Struct Biol. 1997 Feb;4(2):147-52.
+
+# Drug_Target_47_HGNC_ID:
+HGNC:9801
+
+# Drug_Target_47_HPRD_ID:
+03627
+
+# Drug_Target_47_ID:
+1882
+
+# Drug_Target_47_Locus:
+7p22
+
+# Drug_Target_47_Molecular_Weight:
+21450
+
+# Drug_Target_47_Name:
+Ras-related C3 botulinum toxin substrate 1
+
+# Drug_Target_47_Number_of_Residues:
+192
+
+# Drug_Target_47_PDB_ID:
+1I4L
+
+# Drug_Target_47_Pathway:
+Azathioprine Pathway	SMP00427
+Mercaptopurine Pathway	SMP00428
+Thioguanine Pathway	SMP00430
+
+# Drug_Target_47_Pfam_Domain_Function:
+PF00071	Ras
+
+# Drug_Target_47_Protein_Sequence:
+>Ras-related C3 botulinum toxin substrate 1 precursor
+MQAIKCVVVGDGAVGKTCLLISYTTNAFPGEYIPTVFDNYSANVMVDGKPVNLGLWDTAG
+QEDYDRLRPLSYPQTDVFLICFSLVSPASFENVRAKWYPEVRHHCPNTPIILVGTKLDLR
+DDKDTIEKLKEKKLTPITYPQGLAMAKEIGAVKYLECSALTQRGLKTVFDEAIRAVLCPP
+PVKKRKRKCLLL
+
+# Drug_Target_47_Reaction:
+Not Available
+
+# Drug_Target_47_Signals:
+None
+
+# Drug_Target_47_Specific_Function:
+Isoform B has an accelerated GEF-independent GDP/GTP exchange and an impaired GTP hydrolysis, which is restored partially by GTPase-activating proteins. It is able to bind to the GTPase-binding domain of PAK but not full-length PAK in a GTP- dependent manner, suggesting that the insertion does not completely abolish effector interaction
+
+# Drug_Target_47_SwissProt_ID:
+P63000
+
+# Drug_Target_47_SwissProt_Name:
+RAC1_HUMAN
+
+# Drug_Target_47_Synonyms:
+Cell migration-inducing gene 5 protein
+Ras- like protein TC25
+Ras-related C3 botulinum toxin substrate 1 precursor
+p21-Rac1
+
+# Drug_Target_47_Theoretical_pI:
+8.65
+
+# Drug_Target_47_Transmembrane_Regions:
+None
+
+# Drug_Target_48_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_48_Chromosome_Location:
+Not Available
+
+# Drug_Target_48_Drug_References:
+Not Available
+
+# Drug_Target_48_Essentiality:
+Non-Essential
+
+# Drug_Target_48_GenAtlas_ID:
+Not Available
+
+# Drug_Target_48_GenBank_ID_Gene:
+AE000512
+
+# Drug_Target_48_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_48_GeneCard_ID:
+Not Available
+
+# Drug_Target_48_Gene_Name:
+rsgA
+
+# Drug_Target_48_Gene_Sequence:
+>888 bp
+ATGAACTTGAGAAGAAGAGGAATAGTGGTGAGTTTTCACTCGAACATGGTCACGGTCGAA
+GACGAGGAAACTGGTGAAAGAATCCTCTGCAAACTGAGGGGGAAATTTCGCCTGCAGAAT
+CTCAAGATATACGTTGGAGACAGGGTGGAGTACACACCGGATGAAACAGGATCCGGAGTC
+ATAGAGAACGTGCTACACAGGAAAAATCTACTCACCAAACCTCACGTCGCCAATGTGGAT
+CAAGTGATTCTCGTGGTAACGGTGAAAATGCCGGAAACTTCGACCTACATAATCGATAAA
+TTTCTTGTTCTCGCTGAAAAGAACGAACTGGAAACGGTGATGGTCATCAACAAGATGGAC
+CTCTACGATGAAGACGATCTGAGGAAGGTAAGAGAGCTGGAAGAGATCTATTCTGGACTC
+TATCCAATCGTGAAAACCAGTGCGAAAACCGGAATGGGAATCGAAGAGCTCAAGGAATAT
+CTGAAGGGAAAGATCAGCACGATGGCCGGACTCTCCGGAGTTGGAAAAAGTAGCTTGCTC
+AACGCCATAAATCCCGGTTTGAAATTACGGGTGAGCGAAGTTTCAGAGAAACTCCAAAGG
+GGAAGGCATACTACAACAACTGCCCAGCTCTTGAAATTCGATTTCGGAGGTTACGTAGTC
+GATACTCCGGGTTTCGCAAATCTGGAGATCAACGACATAGAACCCGAGGAACTGAAACAC
+TACTTCAAGGAATTTGGAGACAAACAGTGTTTCTTCTCGGACTGCAACCACGTGGATGAA
+CCGGAGTGTGGAGTGAAAGAAGCCGTGGAGAACGGAGAAATCGCAGAAAGTCGATACGAA
+AACTACGTGAAGATGTTTTACGAGCTTCTGGGAAGGAGGAAAAAGTAA
+
+# Drug_Target_48_General_Function:
+Involved in GTPase activity
+
+# Drug_Target_48_General_References:
+10360571	Nelson KE, Clayton RA, Gill SR, Gwinn ML, Dodson RJ, Haft DH, Hickey EK, Peterson JD, Nelson WC, Ketchum KA, McDonald L, Utterback TR, Malek JA, Linher KD, Garrett MM, Stewart AM, Cotton MD, Pratt MS, Phillips CA, Richardson D, Heidelberg J, Sutton GG, Fleischmann RD, Eisen JA, White O, Salzberg SL, Smith HO, Venter JC, Fraser CM: Evidence for lateral gene transfer between Archaea and bacteria from genome sequence of Thermotoga maritima. Nature. 1999 May 27;399(6734):323-9.
+
+# Drug_Target_48_HGNC_ID:
+Not Available
+
+# Drug_Target_48_HPRD_ID:
+Not Available
+
+# Drug_Target_48_ID:
+5628
+
+# Drug_Target_48_Locus:
+Not Available
+
+# Drug_Target_48_Molecular_Weight:
+33642
+
+# Drug_Target_48_Name:
+Probable GTPase engC
+
+# Drug_Target_48_Number_of_Residues:
+295
+
+# Drug_Target_48_PDB_ID:
+1U0L
+
+# Drug_Target_48_Pathway:
+Not Available
+
+# Drug_Target_48_Pfam_Domain_Function:
+PF03193	DUF258
+
+# Drug_Target_48_Protein_Sequence:
+>Probable GTPase engC
+MNLRRRGIVVSFHSNMVTVEDEETGERILCKLRGKFRLQNLKIYVGDRVEYTPDETGSGV
+IENVLHRKNLLTKPHVANVDQVILVVTVKMPETSTYIIDKFLVLAEKNELETVMVINKMD
+LYDEDDLRKVRELEEIYSGLYPIVKTSAKTGMGIEELKEYLKGKISTMAGLSGVGKSSLL
+NAINPGLKLRVSEVSEKLQRGRHTTTTAQLLKFDFGGYVVDTPGFANLEINDIEPEELKH
+YFKEFGDKQCFFSDCNHVDEPECGVKEAVENGEIAESRYENYVKMFYELLGRRKK
+
+# Drug_Target_48_Reaction:
+Not Available
+
+# Drug_Target_48_Signals:
+None
+
+# Drug_Target_48_Specific_Function:
+Unusual circulary permuted GTPase that catalyzes rapid hydrolysis of GTP with a slow catalytic turnover (By similarity)
+
+# Drug_Target_48_SwissProt_ID:
+Q9X242
+
+# Drug_Target_48_SwissProt_Name:
+RSGA_THEMA
+
+# Drug_Target_48_Synonyms:
+EC 3.6.1.-
+
+# Drug_Target_48_Theoretical_pI:
+5.76
+
+# Drug_Target_48_Transmembrane_Regions:
+None
+
+# Drug_Target_49_Cellular_Location:
+Not Available
+
+# Drug_Target_49_Chromosome_Location:
+Not Available
+
+# Drug_Target_49_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_49_Essentiality:
+Non-Essential
+
+# Drug_Target_49_GenAtlas_ID:
+Not Available
+
+# Drug_Target_49_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_49_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_49_GeneCard_ID:
+Not Available
+
+# Drug_Target_49_Gene_Name:
+SAR1B
+
+# Drug_Target_49_Gene_Sequence:
+Not Available
+
+# Drug_Target_49_General_Function:
+Not Available
+
+# Drug_Target_49_General_References:
+Not Available
+
+# Drug_Target_49_HGNC_ID:
+Not Available
+
+# Drug_Target_49_HPRD_ID:
+Not Available
+
+# Drug_Target_49_ID:
+7143
+
+# Drug_Target_49_Locus:
+Not Available
+
+# Drug_Target_49_Molecular_Weight:
+Not Available
+
+# Drug_Target_49_Name:
+GTP-binding protein SAR1b
+
+# Drug_Target_49_Number_of_Residues:
+0
+
+# Drug_Target_49_PDB_ID:
+Not Available
+
+# Drug_Target_49_Pathway:
+Not Available
+
+# Drug_Target_49_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_49_Protein_Sequence:
+Not Available
+
+# Drug_Target_49_Reaction:
+Not Available
+
+# Drug_Target_49_Signals:
+Not Available
+
+# Drug_Target_49_Specific_Function:
+Not Available
+
+# Drug_Target_49_SwissProt_ID:
+Q9Y6B6
+
+# Drug_Target_49_SwissProt_Name:
+SAR1B_HUMAN
+
+# Drug_Target_49_Synonyms:
+Not Available
+
+# Drug_Target_49_Theoretical_pI:
+Not Available
+
+# Drug_Target_49_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_4_Cellular_Location:
+Not Available
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Gene:
+AE000512
+
+# Drug_Target_4_GenBank_ID_Protein:
+4982010
+
+# Drug_Target_4_GeneCard_ID:
+Not Available
+
+# Drug_Target_4_Gene_Name:
+der
+
+# Drug_Target_4_Gene_Sequence:
+>1320 bp
+ATGGCGACGGTTCTGATAGTTGGTAGACCAAACGTTGGAAAGTCTACTCTGTTCAACAAG
+CTGGTAAAGAAGAAAAAGGCTATTGTCGAAGACGAAGAAGGGGTCACCCGTGACCCCGTT
+CAAGATACTGTAGAGTGGTACGGGAAAACCTTTAAACTCGTGGACACCTGTGGAGTCTTC
+GACAATCCACAGGACATCATTTCCCAAAAGATGAAGGAAGTTACCCTGAACATGATCAGA
+GAAGCTGATCTCGTTCTGTTCGTTGTCGATGGAAAAAGAGGAATTACAAAAGAAGACGAA
+TCGCTTGCCGATTTTCTCAGGAAATCCACCGTTGATACTATCCTTGTGGCGAACAAAGCG
+GAAAATCTCAGAGAGTTCGAAAGAGAAGTGAAGCCGGAGCTTTACAGTTTAGGATTTGGA
+GAACCAATACCCGTTTCTGCAGAGCACAACATAAATCTCGATACTCTCCTGGAGACGATC
+ATCAAAAAGCTCGAAGAAAAAGGGCTGGATTTAGAATCAAAGCCCGAAATCACCGACGCA
+ATAAAAGTTGCCATCGTTGGCCGACCGAACGTGGGAAAATCCACACTCTTCAACGCTATA
+TTGAACAAAGAACGAGCTCTTGTGTCACCGATACCTGGAACAACGAGGGATCCCGTTGAC
+GACGAAGTGTTTATAGACGGAAGAAAATACGTATTCGTTGACACGGCTGGTTTGAGGAGA
+AAATCCAGGGTCGAACCCAGGACTGTTGAAAAATACAGCAACTACAGGGTTGTGGACAGC
+ATAGAAAAAGCGGACGTTGTTGTGATAGTTCTTGATGCAACTCAGGGTATCACAAGACAG
+GACCAGAGAATAGCCGGCCTTGTGGAAAGACGAGGGAGAGCCAGCGTCGTTGTTTTCAAC
+AAATGGGATCTCGTTGAACACCGTGAAAAAAGGTACGACGAATTCACCAAATTATTCAGA
+GAGAAGCTCTATTTCATCGATTACAGTCCGCTTATCTTTACCTCCGCTGACAAAGGCTGG
+AACATAGACAGAGTGATAGACGCTATCAATTTAGCGTACGCTTCTTACACAACGAAAGTG
+CCGTCCAGTGCCATTAATTCGGCTCTTCAGAAAGTGCTCGCGTTCACGAATCTCCCTCGT
+GGTCTCAAGATCTTTTTCGGTCTTCAGGTGGACATAAAACCGCCTACTTTTCTCTTCTTT
+GTGAACAGCATAGAAAAGGTAAAAAATCCACAAAAGATTTTCCTCAGAAAACTGATCAGG
+GACTACGTTTTTCCGTTCGAGGGATCTCCTATATTCTTGAAGTTCAAGAGGAGCAGGTGA
+
+# Drug_Target_4_General_Function:
+Posttranslational modification, protein turnover, chaperones
+
+# Drug_Target_4_General_References:
+10360571	Nelson KE, Clayton RA, Gill SR, Gwinn ML, Dodson RJ, Haft DH, Hickey EK, Peterson JD, Nelson WC, Ketchum KA, McDonald L, Utterback TR, Malek JA, Linher KD, Garrett MM, Stewart AM, Cotton MD, Pratt MS, Phillips CA, Richardson D, Heidelberg J, Sutton GG, Fleischmann RD, Eisen JA, White O, Salzberg SL, Smith HO, Venter JC, Fraser CM: Evidence for lateral gene transfer between Archaea and bacteria from genome sequence of Thermotoga maritima. Nature. 1999 May 27;399(6734):323-9.
+11387344	Hwang J, Inouye M: An essential GTPase, der, containing double GTP-binding domains from Escherichia coli and Thermotoga maritima. J Biol Chem. 2001 Aug 17;276(33):31415-21. Epub 2001 May 31.
+12467572	Robinson VL, Hwang J, Fox E, Inouye M, Stock AM: Domain arrangement of Der, a switch protein containing two GTPase domains. Structure. 2002 Dec;10(12):1649-58.
+
+# Drug_Target_4_HGNC_ID:
+Not Available
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+3366
+
+# Drug_Target_4_Locus:
+Not Available
+
+# Drug_Target_4_Molecular_Weight:
+50015
+
+# Drug_Target_4_Name:
+GTP-binding protein engA
+
+# Drug_Target_4_Number_of_Residues:
+439
+
+# Drug_Target_4_PDB_ID:
+1MKY
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF01926	MMR_HSR1
+
+# Drug_Target_4_Protein_Sequence:
+>GTP-binding protein engA
+MATVLIVGRPNVGKSTLFNKLVKKKKAIVEDEEGVTRDPVQDTVEWYGKTFKLVDTCGVF
+DNPQDIISQKMKEVTLNMIREADLVLFVVDGKRGITKEDESLADFLRKSTVDTILVANKA
+ENLREFEREVKPELYSLGFGEPIPVSAEHNINLDTLLETIIKKLEEKGLDLESKPEITDA
+IKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRR
+KSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRIAGLVERRGRASVVVFN
+KWDLVEHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRVIDAINLAYASYTTKV
+PSSAINSALQKVLAFTNLPRGLKIFFGLQVDIKPPTFLFFVNSIEKVKNPQKIFLRKLIR
+DYVFPFEGSPIFLKFKRSR
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+GTPase of unknown physiological role. Has GTPase activity but no ATPase activity. GTP, GDP, and dGTP but not GMP, ATP, CTP, and UTP compete for GTP binding
+
+# Drug_Target_4_SwissProt_ID:
+Q9X1F8
+
+# Drug_Target_4_SwissProt_Name:
+DER_THEMA
+
+# Drug_Target_4_Synonyms:
+Double era-like domain protein
+
+# Drug_Target_4_Theoretical_pI:
+9.69
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+# Drug_Target_50_Cellular_Location:
+Not Available
+
+# Drug_Target_50_Chromosome_Location:
+Not Available
+
+# Drug_Target_50_Drug_References:
+Not Available
+
+# Drug_Target_50_Essentiality:
+Non-Essential
+
+# Drug_Target_50_GenAtlas_ID:
+Not Available
+
+# Drug_Target_50_GenBank_ID_Gene:
+AF095282
+
+# Drug_Target_50_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_50_GeneCard_ID:
+Not Available
+
+# Drug_Target_50_Gene_Name:
+Adss
+
+# Drug_Target_50_Gene_Sequence:
+>1323 bp
+ATATTTGATCATCAAATAAAAAATGTGGATAAAGGGAATGTAGTTGCAATATTAGGTGCA
+CAATGGGGTGATGAAGGGAAAGGAAAAATAATTGATATGTTATCAGAATATTCTGATATT
+ACTTGTAGATTTAATGGAGGTGCTAATGCAGGACATACGATATCAGTAAATGATAAGAAA
+TATGCTTTACATTTATTACCATGTGGTGTATTATATGATAATAATATAAGTGTATTAGGA
+AACGGAATGGTAATACATGTAAAATCATTAATGGAAGAAATTGAATCAGTTGGGGGAAAG
+TTGTTAGATAGATTATATTTATCAAATAAAGCACATATATTATTTGATATTCATCAAATT
+ATTGATTCAATCCAAGAAACGAAAAAATTGAAAGAAGGAAAACAAATAGGTACAACAAAA
+AGAGGTATTGGACCATGTTATTCTACTAAAGCTTCCAGAATAGGTATAAGATTAGGAACT
+TTAAAAAATTTTGAAAATTTTAAAAATATGTATAGTAAATTAATAGACCACTTAATGGAT
+TTATATAATATAACAGAATATGACAAAGAAAAAGAACTCAACTTATTTTATAATTATCAC
+ATAAAGTTAAGAGATAGAATAGTTGATGTTATTTCCTTTATGAATACAAATTTAGAAAAC
+AACAAAAAAGTATTAATTGAAGGTGCTAATGCAGCTATGTTAGATATTGATTTTGGAACA
+TATCCATATGTAACTAGTAGCTGTACAACAGTTGGTGGGGTTTTCTCAGGACTTGGAATT
+CATCATAAAAAACTGAATTTAGTTGTAGGTGTAGTTAAAAGTTACTTAACCAGAGTTGGA
+TGTGGCCCTTTCTTAACTGAATTAAATAATGACGTTGGTCAATATTTAAGAGAAAAAGGT
+CATGAATATGGAACGACTACCAAGAGACCAAGAAGGTGTGGATGGCTCGACATACCAATG
+TTATTATATGTTAAGTGCATTAATAGTATTGATATGATAAACTTAACAAAATTGGATGTT
+TTATCTGGATTAGAGGAAATATTATTGTGTGTCAATTTTAAAAATAAAAAAACAGGAGAA
+CTGCTTGAAAAGGGTTGCTACCCTGTTGAAGAAGAAATATCAGAAGAATATGAACCTGTT
+TATGAAAAATTCAGTGGATGGAAAGAAGACATCTCAACTTGTAATGAATTTGATGAATTA
+CCAGAAAATGCAAAAAAATATATTTTAGCTATAGAGAAATATTTAAAAACTCCAATAGTT
+TGGATTGGTGTAGGTCCTAATAGAAAAAATATGATAGTTAAAAAGAATTTTAACCTAAAC
+TAA
+
+# Drug_Target_50_General_Function:
+Involved in adenylosuccinate synthase activity
+
+# Drug_Target_50_General_References:
+Not Available
+
+# Drug_Target_50_HGNC_ID:
+Not Available
+
+# Drug_Target_50_HPRD_ID:
+Not Available
+
+# Drug_Target_50_ID:
+4598
+
+# Drug_Target_50_Locus:
+Not Available
+
+# Drug_Target_50_Molecular_Weight:
+49820
+
+# Drug_Target_50_Name:
+Adenylosuccinate synthetase
+
+# Drug_Target_50_Number_of_Residues:
+440
+
+# Drug_Target_50_PDB_ID:
+1P9B
+
+# Drug_Target_50_Pathway:
+Not Available
+
+# Drug_Target_50_Pfam_Domain_Function:
+PF00709	Adenylsucc_synt
+
+# Drug_Target_50_Protein_Sequence:
+>Adenylosuccinate synthetase
+IFDHQIKNVDKGNVVAILGAQWGDEGKGKIIDMLSEYSDITCRFNGGANAGHTISVNDKK
+YALHLLPCGVLYDNNISVLGNGMVIHVKSLMEEIESVGGKLLDRLYLSNKAHILFDIHQI
+IDSIQETKKLKEGKQIGTTKRGIGPCYSTKASRIGIRLGTLKNFENFKNMYSKLIDHLMD
+LYNITEYDKEKELNLFYNYHIKLRDRIVDVISFMNTNLENNKKVLIEGANAAMLDIDFGT
+YPYVTSSCTTVGGVFSGLGIHHKKLNLVVGVVKSYLTRVGCGPFLTELNNDVGQYLREKG
+HEYGTTTKRPRRCGWLDIPMLLYVKCINSIDMINLTKLDVLSGLEEILLCVNFKNKKTGE
+LLEKGCYPVEEEISEEYEPVYEKFSGWKEDISTCNEFDELPENAKKYILAIEKYLKTPIV
+WIGVGPNRKNMIVKKNFNLN
+
+# Drug_Target_50_Reaction:
+Not Available
+
+# Drug_Target_50_Signals:
+None
+
+# Drug_Target_50_Specific_Function:
+Plays an important role in the de novo pathway of purine nucleotide biosynthesis (By similarity)
+
+# Drug_Target_50_SwissProt_ID:
+Q9U8D3
+
+# Drug_Target_50_SwissProt_Name:
+PURA_PLAFA
+
+# Drug_Target_50_Synonyms:
+EC 6.3.4.4
+
+# Drug_Target_50_Theoretical_pI:
+7.71
+
+# Drug_Target_50_Transmembrane_Regions:
+None
+
+# Drug_Target_51_Cellular_Location:
+Not Available
+
+# Drug_Target_51_Chromosome_Location:
+Not Available
+
+# Drug_Target_51_Drug_References:
+Not Available
+
+# Drug_Target_51_Essentiality:
+Non-Essential
+
+# Drug_Target_51_GenAtlas_ID:
+ARL5A
+
+# Drug_Target_51_GenBank_ID_Gene:
+AF087889
+
+# Drug_Target_51_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_51_GeneCard_ID:
+Not Available
+
+# Drug_Target_51_Gene_Name:
+ARL5A
+
+# Drug_Target_51_Gene_Sequence:
+>540 bp
+ATGGGAATTCTCTTCACTAGAATATGGAGACTGTTCAATCACCAGGAGCACAAAGTTATC
+ATTGTTGGGCTGGATAATGCAGGGAAAACTACCATTCTTTACCAATTTTCTATGAATGAA
+GTTGTACATACATCTCCTACAATAGGAAGTAATGTAGAAGAGATAGTGATTAATAATACA
+CGTTTCCTAATGTGGGATATTGGTGGCCAAGAATCTCTTCGTTCTTCCTGGAACACTTAC
+TATACTAACACAGAGTTTGTAATAGTTGTTGTGGACAGTACAGACAGAGAGAGGATTTCT
+GTAACTAGAGAAGAACTCTATAAAATGTTAGCGCATGAGGACCTAAGAAAAGCTGGATTG
+CTGATTTTTGCTAATAAACAAGATGTTAAAGAATGCATGACTGTAGCAGAAATCTCCCAG
+TTTTTGAAGCTAACTTCTATTAAAGATCACCAGTGGCATATCCAGGCATGCTGTGCTCTA
+ACTGGCGAGGGATTGTGCCAAGGACTTGAATGGATGATGTCACGACTTAAGATTAGATGA
+
+# Drug_Target_51_General_Function:
+Involved in GTP binding
+
+# Drug_Target_51_General_References:
+10931946	Hu RM, Han ZG, Song HD, Peng YD, Huang QH, Ren SX, Gu YJ, Huang CH, Li YB, Jiang CL, Fu G, Zhang QH, Gu BW, Dai M, Mao YF, Gao GF, Rong R, Ye M, Zhou J, Xu SH, Gu J, Shi JX, Jin WR, Zhang CK, Wu TM, Huang GY, Chen Z, Chen MD, Chen JL: Gene expression profiling in the human hypothalamus-pituitary-adrenal axis and full-length cDNA cloning. Proc Natl Acad Sci U S A. 2000 Aug 15;97(17):9543-8.
+
+# Drug_Target_51_HGNC_ID:
+HGNC:696
+
+# Drug_Target_51_HPRD_ID:
+Not Available
+
+# Drug_Target_51_ID:
+5630
+
+# Drug_Target_51_Locus:
+2q23.3
+
+# Drug_Target_51_Molecular_Weight:
+20728
+
+# Drug_Target_51_Name:
+ADP-ribosylation factor-like protein 5A
+
+# Drug_Target_51_Number_of_Residues:
+179
+
+# Drug_Target_51_PDB_ID:
+1Z6Y
+
+# Drug_Target_51_Pathway:
+Not Available
+
+# Drug_Target_51_Pfam_Domain_Function:
+PF00025	Arf
+
+# Drug_Target_51_Protein_Sequence:
+>ADP-ribosylation factor-like protein 5A
+MGILFTRIWRLFNHQEHKVIIVGLDNAGKTTILYQFSMNEVVHTSPTIGSNVEEIVINNT
+RFLMWDIGGQESLRSSWNTYYTNTEFVIVVVDSTDRERISVTREELYKMLAHEDLRKAGL
+LIFANKQDVKECMTVAEISQFLKLTSIKDHQWHIQACCALTGEGLCQGLEWMMSRLKIR
+
+# Drug_Target_51_Reaction:
+Not Available
+
+# Drug_Target_51_Signals:
+None
+
+# Drug_Target_51_Specific_Function:
+Lacks ADP-ribosylation enhancing activity (By similarity)
+
+# Drug_Target_51_SwissProt_ID:
+Q9Y689
+
+# Drug_Target_51_SwissProt_Name:
+ARL5A_HUMAN
+
+# Drug_Target_51_Synonyms:
+Not Available
+
+# Drug_Target_51_Theoretical_pI:
+6.78
+
+# Drug_Target_51_Transmembrane_Regions:
+None
+
+# Drug_Target_5_Cellular_Location:
+Not Available
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+Not Available
+
+# Drug_Target_5_GenBank_ID_Gene:
+U38473
+
+# Drug_Target_5_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_5_GeneCard_ID:
+Not Available
+
+# Drug_Target_5_Gene_Name:
+nudD
+
+# Drug_Target_5_Gene_Sequence:
+>483 bp
+ATGATGTTTTTACGTCAGGAAGACTTTGCCACGGTAGTGCGCTCCACTCCGCTTGTCTCT
+CTCGACTTTATTGTCGAGAACAGTCGCGGCGAGTTTCTGCTTGGCAAAAGAACCAACCGC
+CCGGCGCAGGGTTACTGGTTTGTGCCGGGAGGGCGCGTGCAGAAAGACGAAACGCTGGAA
+GCCGCATTTGAGCGGCTGACGATGGCGGAACTGGGGCTGCGTTTGCCGATAACAGCAGGC
+CAGTTTTACGGTGTCTGGCAGCACTTTTATGACGATAACTTCTCTGGCACGGATTTCACC
+ACTCACTATGTGGTGCTCGGTTTTCGCTTCAGAGTATCGGAAGAAGAGCTGTTACTGCCG
+GATGAGCAGCATGACGATTACCGCTGGCTGACGTCGGACGCGCTGCTCGCCAGTGATAAT
+GTTCATGCTAACAGCCGCGCCTATTTTCTCGCTGAGAAGCGTACCGGAGTACCCGGATTA
+TGA
+
+# Drug_Target_5_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_5_General_References:
+10913267	Legler PM, Massiah MA, Bessman MJ, Mildvan AS: GDP-mannose mannosyl hydrolase catalyzes nucleophilic substitution at carbon, unlike all other Nudix hydrolases. Biochemistry. 2000 Jul 25;39(29):8603-8.
+7592609	Frick DN, Townsend BD, Bessman MJ: A novel GDP-mannose mannosyl hydrolase shares homology with the MutT family of enzymes. J Biol Chem. 1995 Oct 13;270(41):24086-91.
+7815923	Aoyama K, Haase AM, Reeves PR: Evidence for effect of random genetic drift on G+C content after lateral transfer of fucose pathway genes to Escherichia coli K-12. Mol Biol Evol. 1994 Nov;11(6):829-38.
+8759852	Stevenson G, Andrianopoulos K, Hobbs M, Reeves PR: Organization of the Escherichia coli K-12 gene cluster responsible for production of the extracellular polysaccharide colanic acid. J Bacteriol. 1996 Aug;178(16):4885-93.
+9097040	Itoh T, Aiba H, Baba T, Hayashi K, Inada T, Isono K, Kasai H, Kimura S, Kitakawa M, Kitagawa M, Makino K, Miki T, Mizobuchi K, Mori H, Mori T, Motomura K, Nakade S, Nakamura Y, Nashimoto H, Nishio Y, Oshima T, Saito N, Sampei G, Seki Y, Horiuchi T, et al.: A 460-kb DNA sequence of the Escherichia coli K-12 genome corresponding to the 40.1-50.0 min region on the linkage map. DNA Res. 1996 Dec 31;3(6):379-92.
+9278503	Blattner FR, Plunkett G 3rd, Bloch CA, Perna NT, Burland V, Riley M, Collado-Vides J, Glasner JD, Rode CK, Mayhew GF, Gregor J, Davis NW, Kirkpatrick HA, Goeden MA, Rose DJ, Mau B, Shao Y: The complete genome sequence of Escherichia coli K-12. Science. 1997 Sep 5;277(5331):1453-74.
+
+# Drug_Target_5_HGNC_ID:
+Not Available
+
+# Drug_Target_5_HPRD_ID:
+Not Available
+
+# Drug_Target_5_ID:
+3197
+
+# Drug_Target_5_Locus:
+Not Available
+
+# Drug_Target_5_Molecular_Weight:
+18274
+
+# Drug_Target_5_Name:
+GDP-mannose mannosyl hydrolase
+
+# Drug_Target_5_Number_of_Residues:
+159
+
+# Drug_Target_5_PDB_ID:
+1RYA
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00293	NUDIX
+
+# Drug_Target_5_Protein_Sequence:
+>GDP-mannose mannosyl hydrolase
+MFLRQEDFATVVRSTPLVSLDFIVENSRGEFLLGKRTNRPAQGYWFVPGGRVQKDETLEA
+AFERLTMAELGLRLPITAGQFYGVWQHFYDDNFSGTDFTTHYVVLGFRFRVSEEELLLPD
+EQHDDYRWLTSDALLASDNVHANSRAYFLAEKRTGVPGL
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+None
+
+# Drug_Target_5_Specific_Function:
+Could participate in the regulation of cell wall biosynthesis by influencing the concentration of GDP-mannose or GDP-glucose in the cell. May be involved in the degradation of GDP-mannose and GDP-glucose, diverting the GDP to the synthesis of GDP-fucose as required. Might also be involved in the biosynthesis of the slime polysaccharide colanic acid
+
+# Drug_Target_5_SwissProt_ID:
+P32056
+
+# Drug_Target_5_SwissProt_Name:
+NUDD_ECOLI
+
+# Drug_Target_5_Synonyms:
+Colanic acid biosynthesis protein wcaH
+EC 3.6.1.-
+GDPMH
+
+# Drug_Target_5_Theoretical_pI:
+4.83
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+# Drug_Target_6_Cellular_Location:
+Not Available
+
+# Drug_Target_6_Chromosome_Location:
+Not Available
+
+# Drug_Target_6_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_6_Essentiality:
+Non-Essential
+
+# Drug_Target_6_GenAtlas_ID:
+Not Available
+
+# Drug_Target_6_GenBank_ID_Gene:
+X76424
+
+# Drug_Target_6_GenBank_ID_Protein:
+496557
+
+# Drug_Target_6_GeneCard_ID:
+Not Available
+
+# Drug_Target_6_Gene_Name:
+engB
+
+# Drug_Target_6_Gene_Sequence:
+>588 bp
+ATGAAAGTCACAAAGTCAGAAATCGTGATCAGTGCAGTAAAACCGGAACAGTACCCTGAA
+GGGGGGCTTCCGGAAATCGCATTGGCCGGAAGATCGAACGTAGGAAAATCGTCTTTTATC
+AATTCATTAATCAATCGCAAAAATCTTGCGAGAACGTCATCAAAGCCGGGAAAAACACAA
+ACGCTTAATTTCTACATTATCAATGATGAGCTGCATTTTGTGGATGTGCCGGGCTACGGT
+TTTGCCAAAGTGTCAAAGTCTGAGCGTGAAGCATGGGGCAGAATGATTGAAACCTATATC
+ACGACACGCGAGGAATTAAAAGCTGTGGTGCAGATCGTTGATTTGCGGCATGCGCCATCT
+AATGATGATGTACAGATGTATGAATTTTTAAAGTATTACGGCATTCCTGTTATTGTTATC
+GCTACAAAGGCGGATAAGATCCCGAAAGGTAAATGGGACAAACACGCGAAGGTTGTCCGA
+CAAACATTAAATATTGATCCGGAAGACGAGCTGATCCTCTTTTCTTCAGAAACGAAAAAG
+GGAAAAGACGAAGCTTGGGGAGCGATCAAAAAAATGATAAACCGGTAG
+
+# Drug_Target_6_General_Function:
+Involved in GTP binding
+
+# Drug_Target_6_General_References:
+7961402	Riethdorf S, Volker U, Gerth U, Winkler A, Engelmann S, Hecker M: Cloning, nucleotide sequence, and expression of the Bacillus subtilis lon gene. J Bacteriol. 1994 Nov;176(21):6518-27.
+8969504	Wipat A, Carter N, Brignell SC, Guy BJ, Piper K, Sanders J, Emmerson PT, Harwood CR: The dnaB-pheA (256 degrees-240 degrees) region of the Bacillus subtilis chromosome containing genes responsible for stress responses, the utilization of plant cell walls and primary metabolism. Microbiology. 1996 Nov;142 ( Pt 11):3067-78.
+9384377	Kunst F, Ogasawara N, Moszer I, Albertini AM, Alloni G, Azevedo V, Bertero MG, Bessieres P, Bolotin A, Borchert S, Borriss R, Boursier L, Brans A, Braun M, Brignell SC, Bron S, Brouillet S, Bruschi CV, Caldwell B, Capuano V, Carter NM, Choi SK, Codani JJ, Connerton IF, Danchin A, et al.: The complete genome sequence of the gram-positive bacterium Bacillus subtilis. Nature. 1997 Nov 20;390(6657):249-56.
+
+# Drug_Target_6_HGNC_ID:
+Not Available
+
+# Drug_Target_6_HPRD_ID:
+Not Available
+
+# Drug_Target_6_ID:
+3335
+
+# Drug_Target_6_Locus:
+Not Available
+
+# Drug_Target_6_Molecular_Weight:
+22027
+
+# Drug_Target_6_Name:
+Probable GTP-binding protein engB
+
+# Drug_Target_6_Number_of_Residues:
+195
+
+# Drug_Target_6_PDB_ID:
+1SVW
+
+# Drug_Target_6_Pathway:
+Not Available
+
+# Drug_Target_6_Pfam_Domain_Function:
+PF01926	MMR_HSR1
+
+# Drug_Target_6_Protein_Sequence:
+>Probable GTP-binding protein engB
+MKVTKSEIVISAVKPEQYPEGGLPEIALAGRSNVGKSSFINSLINRKNLARTSSKPGKTQ
+TLNFYIINDELHFVDVPGYGFAKVSKSEREAWGRMIETYITTREELKAVVQIVDLRHAPS
+NDDVQMYEFLKYYGIPVIVIATKADKIPKGKWDKHAKVVRQTLNIDPEDELILFSSETKK
+GKDEAWGAIKKMINR
+
+# Drug_Target_6_Reaction:
+Not Available
+
+# Drug_Target_6_Signals:
+None
+
+# Drug_Target_6_Specific_Function:
+Necessary for normal cell division and for the maintenance of normal septation
+
+# Drug_Target_6_SwissProt_ID:
+P38424
+
+# Drug_Target_6_SwissProt_Name:
+ENGB_BACSU
+
+# Drug_Target_6_Synonyms:
+Not Available
+
+# Drug_Target_6_Theoretical_pI:
+9.88
+
+# Drug_Target_6_Transmembrane_Regions:
+None
+
+# Drug_Target_7_Cellular_Location:
+Not Available
+
+# Drug_Target_7_Chromosome_Location:
+Not Available
+
+# Drug_Target_7_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_7_Essentiality:
+Non-Essential
+
+# Drug_Target_7_GenAtlas_ID:
+Not Available
+
+# Drug_Target_7_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_7_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_7_GeneCard_ID:
+Not Available
+
+# Drug_Target_7_Gene_Name:
+EIF2S3
+
+# Drug_Target_7_Gene_Sequence:
+Not Available
+
+# Drug_Target_7_General_Function:
+Not Available
+
+# Drug_Target_7_General_References:
+Not Available
+
+# Drug_Target_7_HGNC_ID:
+Not Available
+
+# Drug_Target_7_HPRD_ID:
+Not Available
+
+# Drug_Target_7_ID:
+7146
+
+# Drug_Target_7_Locus:
+Not Available
+
+# Drug_Target_7_Molecular_Weight:
+Not Available
+
+# Drug_Target_7_Name:
+Eukaryotic translation initiation factor 2 subunit 3
+
+# Drug_Target_7_Number_of_Residues:
+0
+
+# Drug_Target_7_PDB_ID:
+Not Available
+
+# Drug_Target_7_Pathway:
+Not Available
+
+# Drug_Target_7_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_7_Protein_Sequence:
+Not Available
+
+# Drug_Target_7_Reaction:
+Not Available
+
+# Drug_Target_7_Signals:
+Not Available
+
+# Drug_Target_7_Specific_Function:
+Not Available
+
+# Drug_Target_7_SwissProt_ID:
+P41091
+
+# Drug_Target_7_SwissProt_Name:
+IF2G_HUMAN
+
+# Drug_Target_7_Synonyms:
+Not Available
+
+# Drug_Target_7_Theoretical_pI:
+Not Available
+
+# Drug_Target_7_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_8_Cellular_Location:
+Not Available
+
+# Drug_Target_8_Chromosome_Location:
+Not Available
+
+# Drug_Target_8_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_8_Essentiality:
+Non-Essential
+
+# Drug_Target_8_GenAtlas_ID:
+Not Available
+
+# Drug_Target_8_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_8_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_8_GeneCard_ID:
+Not Available
+
+# Drug_Target_8_Gene_Name:
+GNAI1
+
+# Drug_Target_8_Gene_Sequence:
+Not Available
+
+# Drug_Target_8_General_Function:
+Not Available
+
+# Drug_Target_8_General_References:
+Not Available
+
+# Drug_Target_8_HGNC_ID:
+Not Available
+
+# Drug_Target_8_HPRD_ID:
+Not Available
+
+# Drug_Target_8_ID:
+7001
+
+# Drug_Target_8_Locus:
+Not Available
+
+# Drug_Target_8_Molecular_Weight:
+Not Available
+
+# Drug_Target_8_Name:
+Guanine nucleotide-binding protein G(i) subunit alpha-1
+
+# Drug_Target_8_Number_of_Residues:
+0
+
+# Drug_Target_8_PDB_ID:
+Not Available
+
+# Drug_Target_8_Pathway:
+Not Available
+
+# Drug_Target_8_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_8_Protein_Sequence:
+Not Available
+
+# Drug_Target_8_Reaction:
+Not Available
+
+# Drug_Target_8_Signals:
+Not Available
+
+# Drug_Target_8_Specific_Function:
+Not Available
+
+# Drug_Target_8_SwissProt_ID:
+P63096
+
+# Drug_Target_8_SwissProt_Name:
+GNAI1_HUMAN
+
+# Drug_Target_8_Synonyms:
+Not Available
+
+# Drug_Target_8_Theoretical_pI:
+Not Available
+
+# Drug_Target_8_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_9_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_9_Chromosome_Location:
+Not Available
+
+# Drug_Target_9_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_9_Essentiality:
+Non-Essential
+
+# Drug_Target_9_GenAtlas_ID:
+Not Available
+
+# Drug_Target_9_GenBank_ID_Gene:
+U82109
+
+# Drug_Target_9_GenBank_ID_Protein:
+2149137
+
+# Drug_Target_9_GeneCard_ID:
+Not Available
+
+# Drug_Target_9_Gene_Name:
+ffh
+
+# Drug_Target_9_Gene_Sequence:
+>1293 bp
+ATGTTCCAACAGCTTTCGGCGCGACTGCAAGAGGCCATCGGCCGCCTTAGGGGGCGGGGC
+CGGATCACCGAGGAGGACCTGAAGGCCACCCTCAGGGAGATCCGCCGGGCCCTCATGGAC
+GCCGATGTCAACCTGGAGGTGGCCCGGGACTTCGTGGAGCGGGTGCGGGAGGAGGCCTTG
+GGGAAGCAGGTCCTGGAGAGCCTCACCCCCGCCGAGGTGATCCTGGCCACCGTCTACGAG
+GCCCTCAAGGAGGCCCTGGGGGGCGAGGCCAGGCTCCCTGTCCTCAAGGACAGGAACCTC
+TGGTTCCTGGTGGGCCTCCAGGGCTCCGGCAAGACCACCACCGCCGCCAAGCTGGCCCTC
+TACTACAAGGGCAAGGGGAGGAGGCCCCTCTTGGTGGCCGCCGACACCCAGAGGCCCGCC
+GCCAGGGAGCAACTAAGGCTTCTGGGCGAGAAGGTGGGCGTGCCCGTGCTGGAGGTGATG
+GACGGGGAGTCCCCTGAGTCCATCCGCCGCCGGGTGGAGGAGAAGGCCCGCCTCGAGGCC
+CGGGACCTGATCCTGGTGGACACCGCCGGCCGCCTGCAGATTGACGAGCCCCTCATGGGG
+GAGCTGGCCCGCCTCAAGGAGGTCCTTGGCCCGGACGAGGTTCTCCTGGTCCTGGACGCC
+ATGACCGGGCAGGAAGCCCTTTCCGTGGCCAGGGCCTTTGACGAGAAGGTGGGGGTCACG
+GGCCTCGTCCTCACCAAGCTGGACGGGGATGCCCGGGGCGGGGCGGCCCTTTCCGCCCGC
+CACGTGACGGGCAAGCCCATCTACTTCGCCGGGGTTTCCGAGAAGCCGGAGGGCCTGGAG
+CCCTTCTACCCCGAGCGCCTGGCGGGCCGCATCCTGGGCATGGGGGACGTGGCCAGCCTG
+GCGGAGAAGGTGCGGGCGGCGGGGCTGGAGGCGGAGGCGCCCAAGTCCGCCAAGGAGCTT
+TCCCTGGAGGACTTCCTCAAGCAGATGCAGAACCTCAAGCGCCTGGGCCCCTTCTCCGAG
+ATCCTGGGCCTCCTGCCCGGGGTTCCCCAGGGGCTTAAGGTGGACGAGAAGGCCATAAAG
+CGCCTGGAGGCCATCGTCCTCTCCATGACCCCCGAGGAGCGCAAAGACCCCCGCATCCTA
+AACGGTTCCCGGCGCAAGCGCATCGCCAAGGGAAGCGGGACCTCGGTCCAGGAGGTCAAC
+CGCTTCATCAAGGCATTTGAGGAGATGAAGGCCCTAATGAAGTCCCTGGAGAAGAAGAAG
+GGCCGGGGACTCATGGGAATGTTCAGGAGGTAA
+
+# Drug_Target_9_General_Function:
+Intracellular trafficking, secretion, and vesicular transport
+
+# Drug_Target_9_General_References:
+10426959	Freymann DM, Keenan RJ, Stroud RM, Walter P: Functional changes in the structure of the SRP GTPase on binding GDP and Mg2+GDP. Nat Struct Biol. 1999 Aug;6(8):793-801.
+9002524	Freymann DM, Keenan RJ, Stroud RM, Walter P: Structure of the conserved GTPase domain of the signal recognition particle. Nature. 1997 Jan 23;385(6614):361-4.
+9695947	Keenan RJ, Freymann DM, Walter P, Stroud RM: Crystal structure of the signal sequence binding subunit of the signal recognition particle. Cell. 1998 Jul 24;94(2):181-91.
+
+# Drug_Target_9_HGNC_ID:
+Not Available
+
+# Drug_Target_9_HPRD_ID:
+Not Available
+
+# Drug_Target_9_ID:
+3261
+
+# Drug_Target_9_Locus:
+Not Available
+
+# Drug_Target_9_Molecular_Weight:
+47357
+
+# Drug_Target_9_Name:
+Signal recognition particle protein
+
+# Drug_Target_9_Number_of_Residues:
+430
+
+# Drug_Target_9_PDB_ID:
+2FFH
+
+# Drug_Target_9_Pathway:
+Not Available
+
+# Drug_Target_9_Pfam_Domain_Function:
+PF00448	SRP54
+PF02881	SRP54_N
+PF02978	SRP_SPB
+
+# Drug_Target_9_Protein_Sequence:
+>Signal recognition particle protein
+MFQQLSARLQEAIGRLRGRGRITEEDLKATLREIRRALMDADVNLEVARDFVERVREEAL
+GKQVLESLTPAEVILATVYEALKEALGGEARLPVLKDRNLWFLVGLQGSGKTTTAAKLAL
+YYKGKGRRPLLVAADTQRPAAREQLRLLGEKVGVPVLEVMDGESPESIRRRVEEKARLEA
+RDLILVDTAGRLQIDEPLMGELARLKEVLGPDEVLLVLDAMTGQEALSVARAFDEKVGVT
+GLVLTKLDGDARGGAALSARHVTGKPIYFAGVSEKPEGLEPFYPERLAGRILGMGDVASL
+AEKVRAAGLEAEAPKSAKELSLEDFLKQMQNLKRLGPFSEILGLLPGVPQGLKVDEKAIK
+RLEAIVLSMTPEERKDPRILNGSRRKRIAKGSGTSVQEVNRFIKAFEEMKALMKSLEKKK
+GRGLMGMFRR
+
+# Drug_Target_9_Reaction:
+Not Available
+
+# Drug_Target_9_Signals:
+None
+
+# Drug_Target_9_Specific_Function:
+Necessary for efficient export of extracytoplasmic proteins. Binds to the signal sequence when it emerges from the ribosomes
+
+# Drug_Target_9_SwissProt_ID:
+O07347
+
+# Drug_Target_9_SwissProt_Name:
+SRP54_THEAQ
+
+# Drug_Target_9_Synonyms:
+Fifty-four homolog
+
+# Drug_Target_9_Theoretical_pI:
+10.17
+
+# Drug_Target_9_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB04315

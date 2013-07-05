@@ -1,0 +1,837 @@
+#BEGIN_DRUGCARD DB00480
+
+# AHFS_Codes:
+10:00
+
+# ATC_Codes:
+L04AX04
+
+# Absorption:
+Rapidly absorbed following oral administration, with maximum plasma concentrations occurring between 0.625 and 1.5 hours post-dose. Co-administration with food does not alter the extent of absorption (AUC) but does reduce the maximal plasma concentration (C<sub>max</sub>) by 36%. The pharmacokinetic disposition of lenalidomide is linear.
+
+# Biotransformation:
+Lenalidomide -undergoes limited metabolism. Unchanged lenalidomide is the predominant circulating component in humans. Two identified metabolites are hydroxy-lenalidomide and N-acetyl-lenalidomide; each constitutes less than 5% of parent levels in circulation. The cytochrome P450 enzyme system is not involved with the metabolism of lenalidomide.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Ladevina
+Lenangio
+Revlimid
+
+# CAS_Registry_Number:
+191732-72-6
+
+# ChEBI_ID:
+63791
+
+# Chemical_Formula:
+C13H13N3O3
+
+# Chemical_IUPAC_Name:
+3-(4-amino-1-oxo-2,3-dihydro-1H-isoindol-2-yl)piperidine-2,6-dione
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Lenalidomide (initially known as CC-5013 and marketed as Revlimid® by Celgene) is a derivative of thalidomide introduced in 2004. It was initially intended as a treatment for multiple myeloma, for which thalidomide is an accepted therapeutic modality, but has also shown efficacy in the hematological disorders known as the myelodysplastic syndromes. [Wikipedia] FDA approved on December 27, 2005.
+
+# Dosage_Forms:
+Capsule	Oral
+
+# Drug_Category:
+Antineoplastic Agents
+
+# Drug_Interactions:
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+
+# Drug_Reference:
+15703420	List A, Kurtin S, Roe DJ, Buresh A, Mahadevan D, Fuchs D, Rimsza L, Heaton R, Knight R, Zeldis JB: Efficacy of lenalidomide in myelodysplastic syndromes. N Engl J Med. 2005 Feb 10;352(6):549-57.
+16344099	Anderson KC: Lenalidomide and thalidomide: mechanisms of action--similarities and differences. Semin Hematol. 2005 Oct;42(4 Suppl 4):S3-8.
+16569772	Chang DH, Liu N, Klimek V, Hassoun H, Mazumder A, Nimer SD, Jagannath S, Dhodapkar MV: Enhancement of ligand-dependent activation of human natural killer T cells by lenalidomide: therapeutic implications. Blood. 2006 Jul 15;108(2):618-21. Epub 2006 Mar 28.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.4
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Soluble in organic solvent/water mixtures, and buffered aqueous solvents. Lenalidomide is more soluble in organic solvents and low pH solutions. Solubility was significantly lower in less acidic buffers, ranging from about 0.4 to 0.5 mg/mL.
+
+# Food_Interactions:
+When given with a fatty meal, the extent of absorption is reduced.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Lenalidomide
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Healthy subjects = 3 hours;
+Multiple myeloma or MDS patients = 3 - 5 hours.
+
+# InChI_Identifier:
+InChI=1S/C13H13N3O3/c14-9-3-1-2-7-8(9)6-16(13(7)19)10-4-5-11(17)15-12(10)18/h1-3,10H,4-6,14H2,(H,15,17,18)
+
+# InChI_Key:
+InChIKey=GOTYRUGSSMKFNF-UHFFFAOYSA-N
+
+# Indication:
+Lenalidomide is indicated for the treatment of multiple myeloma in combination with dexamethasone. It is also indicated for the treatment of patients with transfusion-dependent anemia due to low- or intermediate- risk myelodysplastic syndromes (MDS) associated with a deletion 5q cytogenetic abnormality with or without additional cytogenetic abnormalities.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D04687
+
+# LIMS_Drug_ID:
+480
+
+# Mechanism_Of_Action:
+The mechanism of action of lenalidomide remains to be fully characterized, however it has been demonstrated that lenalidomide inhibits the expression of cyclooxygenase-2 (COX-2), but not COX-1, in vitro. In vivo it induces tumor cell apoptosis directly and indirectly by inhibition of bone marrow stromal cell support, by anti-angiogenic and anti-osteoclastogenic effects, and by immunomodulatory activity
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+259.2606
+
+# Molecular_Weight_Mono:
+259.095691297
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA162363968
+
+# Pharmacology:
+Lenalidomide, a thalidomide analogue, is an immunomodulatory agent possessing immunomodulatory and antiangiogenic properties. Lenalidomide inhibits the secretion of pro-inflammatory cytokines and increases the secretion of anti-inflammatory cytokines from peripheral blood mononuclear cells. Lenalidomide inhibits cell proliferation with varying effectiveness (IC50s) in some but not all cell lines. Lenalidomide is effective in inhibiting growth of Namalwa cells (a human B cell lymphoma cell line with a deletion of one chromosome 5) but is much less effective in inhibiting growth of KG-1 cells (human myeloblastic cell line, also with a deletion of one chromosome 5) and other cell lines without chromosome 5 deletions. Lenalidomide does not prolong the QTc interval.
+
+# Predicted_LogP_Hydrophobicity:
+-0.43
+
+# Predicted_LogS:
+-2
+
+# Predicted_Water_Solubility:
+2.33e+00 g/l
+
+# Primary_Accession_No:
+DB00480
+
+# Protein_Binding:
+30% protein bound.
+
+# PubChem_Compound_ID:
+216326
+
+# PubChem_Substance_ID:
+46505725
+
+# RxList_Link:
+http://www.rxlist.com/revlimid-drug.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD01303
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=CC=CC2=C1CN(C1CCC(=O)NC1=O)C2=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+CC-5013
+CDC 501
+IMiD3
+IMid-1
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+The most frequently reported adverse events were related to blood and lymphatic system disorders, skin and subcutaneous tissue disorders, gastrointestinal disorders, and general disorders and administrative site conditions.
+
+# Update_Date:
+2013-06-21 01:08:15 -0600
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Lenalidomide
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+22966948	Zhu YX, Kortuem KM, Stewart AK: Molecular mechanism of action of immune-modulatory drugs thalidomide, lenalidomide and pomalidomide in multiple myeloma. Leuk Lymphoma. 2013 Apr;54(4):683-7. doi: 10.3109/10428194.2012.728597. Epub 2012 Sep 28.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+Not Available
+
+# Drug_Target_1_General_Function:
+Not Available
+
+# Drug_Target_1_General_References:
+Not Available
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+7308
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+Not Available
+
+# Drug_Target_1_Name:
+Protein cereblon
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+Not Available
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+Q96SW2
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_2_Cellular_Location:
+Processed isoform 1:Secreted (By similarity)
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17369076	Melchert M, List A: The thalidomide saga. Int J Biochem Cell Biol. 2007;39(7-8):1489-99. Epub 2007 Jan 30.
+19370685	Akobeng AK, Stokkers PC: Thalidomide and thalidomide analogues for maintenance of remission in Crohn's disease. Cochrane Database Syst Rev. 2009 Apr 15;(2):CD007351.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+TNFSF11
+
+# Drug_Target_2_GenBank_ID_Gene:
+AF013171
+
+# Drug_Target_2_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+TNFSF11
+
+# Drug_Target_2_Gene_Sequence:
+Not Available
+
+# Drug_Target_2_General_Function:
+Not Available
+
+# Drug_Target_2_General_References:
+10708588	Nagai M, Kyakumoto S, Sato N: Cancer cells responsible for humoral hypercalcemia express mRNA encoding a secreted form of ODF/TRANCE that induces osteoclast formation. Biochem Biophys Res Commun. 2000 Mar 16;269(2):532-6.
+9312132	Wong BR, Rho J, Arron J, Robinson E, Orlinick J, Chao M, Kalachikov S, Cayani E, Bartlett FS 3rd, Frankel WN, Lee SY, Choi Y: TRANCE is a novel ligand of the tumor necrosis factor receptor family that activates c-Jun N-terminal kinase in T cells. J Biol Chem. 1997 Oct 3;272(40):25190-4.
+9367155	Anderson DM, Maraskovsky E, Billingsley WL, Dougall WC, Tometsko ME, Roux ER, Teepe MC, DuBose RF, Cosman D, Galibert L: A homologue of the TNF receptor and its ligand enhance T-cell growth and dendritic-cell function. Nature. 1997 Nov 13;390(6656):175-9.
+9568710	Lacey DL, Timms E, Tan HL, Kelley MJ, Dunstan CR, Burgess T, Elliott R, Colombero A, Elliott G, Scully S, Hsu H, Sullivan J, Hawkins N, Davy E, Capparelli C, Eli A, Qian YX, Kaufman S, Sarosi I, Shalhoub V, Senaldi G, Guo J, Delaney J, Boyle WJ: Osteoprotegerin ligand is a cytokine that regulates osteoclast differentiation and activation. Cell. 1998 Apr 17;93(2):165-76.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:11926
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+5997
+
+# Drug_Target_2_Locus:
+Not Available
+
+# Drug_Target_2_Molecular_Weight:
+35478
+
+# Drug_Target_2_Name:
+Tumor necrosis factor ligand superfamily member 11
+
+# Drug_Target_2_Number_of_Residues:
+317
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00229	TNF
+
+# Drug_Target_2_Protein_Sequence:
+>Tumor necrosis factor ligand superfamily member 11
+MRRASRDYTKYLRGSEEMGGGPGAPHEGPLHAPPPPAPHQPPAASRSMFVALLGLGLGQV
+VCSVALFFYFRAQMDPNRISEDGTHCIYRILRLHENADFQDTTLESQDTKLIPDSCRRIK
+QAFQGAVQKELQHIVGSQHIRAEKAMVDGSWLDLAKRSKLEAQPFAHLTINATDIPSGSH
+KVSLSSWYHDRGWAKISNMTFSNGKLIVNQDGFYYLYANICFRHHETSGDLATEYLQLMV
+YVTKTSIKIPSSHTLMKGGSTKYWSGNSEFHFYSINVGGFFKLRSGEEISIEVSNPSLLD
+PDQDATYFGAFKVRDID
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Cytokine that binds to TNFRSF11B/OPG and to TNFRSF11A/RANK. Osteoclast differentiation and activation factor. Augments the ability of dendritic cells to stimulate naive T-cell proliferation. May be an important regulator of interactions between T-cells and dendritic cells and may play a role in the regulation of the T-cell-dependent immune response. May also play an important role in enhanced bone-resorption in humoral hypercalcemia of malignancy
+
+# Drug_Target_2_SwissProt_ID:
+O14788
+
+# Drug_Target_2_SwissProt_Name:
+TNF11_HUMAN
+
+# Drug_Target_2_Synonyms:
+CD254 antigen
+ODF
+OPGL
+Osteoclast differentiation factor
+Osteoprotegerin ligand
+RANKL
+Receptor activator of nuclear factor kappa B ligand
+TNF-related activation- induced cytokine
+TRANCE
+
+# Drug_Target_2_Theoretical_pI:
+7.74
+
+# Drug_Target_2_Transmembrane_Regions:
+48-68
+
+# Drug_Target_3_Cellular_Location:
+Cell junction. Cell membrane
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+18805433	Lu L, Payvandi F, Wu L, Zhang LH, Hariri RJ, Man HW, Chen RS, Muller GW, Hughes CC, Stirling DI, Schafer PH, Bartlett JB: The anti-cancer drug lenalidomide inhibits angiogenesis and metastasis via multiple inhibitory effects on endothelial cell function in normoxic and hypoxic conditions. Microvasc Res. 2009 Mar;77(2):78-86. Epub 2008 Sep 4.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+CDH5
+
+# Drug_Target_3_GenBank_ID_Gene:
+X79981
+
+# Drug_Target_3_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_3_GeneCard_ID:
+Not Available
+
+# Drug_Target_3_Gene_Name:
+CDH5
+
+# Drug_Target_3_Gene_Sequence:
+>2355 bp
+ATGCAGAGGCTCATGATGCTCCTCGCCACATCGGGCGCCTGCCTGGGCCTGCTGGCAGTG
+GCAGCAGTGGCAGCAGCAGGTGCTAACCCTGCCCAACGGGACACCCACAGCCTGCTGCCC
+ACCCACCGGCGCCAAAAGAGAGATTGGATTTGGAACCAGATGCACATTGATGAAGAGAAA
+AACACCTCACTTCCCCATCATGTAGGCAAGATCAAGTCAAGCGTGAGTCGCAAGAATGCC
+AAGTACCTGCTCAAAGGAGAATATGTGGGCAAGGTCTTCCGGGTCGATGCAGAGACAGGA
+GACGTGTTCGCCATTGAGAGGCTGGACCGGGAGAATATCTCAGAGTACCACCTCACTGCT
+GTCATTGTGGACAAGGACACTGGTGAAAACCTGGAGACTCCTTCCAGCTTCACCATCAAA
+GTTCATGACGTGAACGACAACTGGCCTGTGTTCACGCATCGGTTGTTCAATGCGTCCGTG
+CCTGAGTCGTCGGCTGTGGGGACCTCAGTCATCTCTGTGACAGCAGTGGATGCAGACGAC
+CCCACTGTGGGAGACCACGCCTCTGTCATGTACCAAATCCTGAAGGGGAAAGAGTATTTT
+GCCATCGATAATTCTGGACGTATTATCACAATAACGAAAAGCTTGGACCGAGAGAAGCAG
+GCCAGGTATGAGATCGTGGTGGAAGCGCGAGATGCCCAGGGCCTCCGGGGGGACTCGGGC
+ACGGCCACCGTGCTGGTCACTCTGCAAGACATCAATGACAACTTCCCCTTCTTCACCCAG
+ACCAAGTACACATTTGTCGTGCCTGAAGACACCCGTGTGGGCACCTCTGTGGGCTCTCTG
+TTTGTTGAGGACCCAGATGAGCCCCAGAACCGGATGACCAAGTACAGCATCTTGCGGGGC
+GACTACCAGGACGCTTTCACCATTGAGACAAACCCCGCCCACAACGAGGGCATCATCAAG
+CCCATGAAGCCTCTGGATTATGAATACATCCAGCAATACAGCTTCATCGTCGAGGCCACA
+GACCCCACCATCGACCTCCGATACATGAGCCCTCCCGCGGGAAACAGAGCCCAGGTCATT
+ATCAACATCACAGATGTGGACGAGCCCCCCATTTTCCAGCAGCCTTTCTACCACTTCCAG
+CTGAAGGAAAACCAGAAGAAGCCTCTGATTGGCACAGTGCTGGCCATGGACCCTGATGCG
+GCTAGGCATAGCATTGGATACTCCATCCGCAGGACCAGTGACAAGGGCCAGTTCTTCCGA
+GTCACAAAAAAGGGGGACATTTACAATGAGAAAGAACTGGACAGAGAAGTCTACCCCTGG
+TATAACCTGACTGTGGAGGCCAAAGAACTGGATTCCACTGGAACCCCCACAGGAAAAGAA
+TCCATTGTGCAAGTCCACATTGAAGTTTTGGATGAGAATGACAATGCCCCGGAGTTTGCC
+AAGCCCTACCAGCCCAAAGTGTGTGAGAACGCTGTCCATGGCCAGCTGGTCCTGCAGATC
+TCCGCAATAGACAAGGACATAACACCACGAAACGTGAAGTTCAAATTCACCTTGAATACT
+GAGAACAACTTTACCCTCACGGATAATCACGATAACACGGCCAACATCACAGTCAAGTAT
+GGGCAGTTTGACCGGGAGCATACCAAGGTCCACTTCCTACCCGTGGTCATCTCAGACAAT
+GGGATGCCAAGTCGCACGGGCACCAGCACGCTGACCGTGGCCGTGTGCAAGTGCAACGAG
+CAGGGCGAGTTCACCTTCTGCGAGGATATGGCCGCCCAGGTGGGCGTGAGCATCCAGGCA
+GTGGTAGCCATCTTACTCTGCATCCTCACCATCACAGTGATCACCCTGCTCATCTTCCTG
+CGGCGGCGGCTCCGGAAGCAGGCCCGCGCGCACGGCAAGAGCGTGCCGGAGATCCACGAG
+CAGCTGGTCACCTACGACGAGGAGGGCGGCGGCGAGATGGACACCACCAGCTACGATGTG
+TCGGTGCTCAACTCGGTGCGCCGCGGCGGGGCCAAGCCCCCGCGGCCCGCGCTGGACGCC
+CGGCCTTCCCTCTATGCGCAGGTGCAGAAGCCACCGAGGCACGCGCCTGGGGCACACGGA
+GGGCCCGGGGAGATGGCAGCCATGATCGAGGTGAAGAAGGACGAGGCGGACCACGACGGC
+GACGGCCCCCCCTACGACACGCTGCACATCTACGGCTACGAGGGCTCCGAGTCCATAGCC
+GAGTCCCTCAGCTCCCTGGGCACCGACTCATCCGACTCTGACGTGGATTACGACTTCCTT
+AACGACTGGGGACCCAGGTTTAAGATGCTGGCTGAGCTGTACGGCTCGGACCCCCGGGAG
+GAGCTGCTGTATTAG
+
+# Drug_Target_3_General_Function:
+Involved in calcium ion binding
+
+# Drug_Target_3_General_References:
+1522121	Lampugnani MG, Resnati M, Raiteri M, Pigott R, Pisacane A, Houen G, Ruco LP, Dejana E: A novel endothelial-specific membrane protein is a marker of cell-cell contacts. J Cell Biol. 1992 Sep;118(6):1511-22.
+2059658	Suzuki S, Sano K, Tanihara H: Diversity of the cadherin family: evidence for eight new cadherins in nervous tissue. Cell Regul. 1991 Apr;2(4):261-70.
+7627717	Breviario F, Caveda L, Corada M, Martin-Padura I, Navarro P, Golay J, Introna M, Gulino D, Lampugnani MG, Dejana E: Functional properties of human vascular endothelial cadherin (7B4/cadherin-5), an endothelium-specific cadherin. Arterioscler Thromb Vasc Biol. 1995 Aug;15(8):1229-39.
+9219219	Ali J, Liao F, Martens E, Muller WA: Vascular endothelial cadherin (VE-cadherin): cloning and role in endothelial cell-cell adhesion. Microcirculation. 1997 Jun;4(2):267-77.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:1764
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+5816
+
+# Drug_Target_3_Locus:
+16q22.1
+
+# Drug_Target_3_Molecular_Weight:
+87517
+
+# Drug_Target_3_Name:
+Cadherin-5
+
+# Drug_Target_3_Number_of_Residues:
+784
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00028	Cadherin
+PF01049	Cadherin_C
+
+# Drug_Target_3_Protein_Sequence:
+>Cadherin-5
+MQRLMMLLATSGACLGLLAVAAVAAAGANPAQRDTHSLLPTHRRQKRDWIWNQMHIDEEK
+NTSLPHHVGKIKSSVSRKNAKYLLKGEYVGKVFRVDAETGDVFAIERLDRENISEYHLTA
+VIVDKDTGENLETPSSFTIKVHDVNDNWPVFTHRLFNASVPESSAVGTSVISVTAVDADD
+PTVGDHASVMYQILKGKEYFAIDNSGRIITITKSLDREKQARYEIVVEARDAQGLRGDSG
+TATVLVTLQDINDNFPFFTQTKYTFVVPEDTRVGTSVGSLFVEDPDEPQNRMTKYSILRG
+DYQDAFTIETNPAHNEGIIKPMKPLDYEYIQQYSFIVEATDPTIDLRYMSPPAGNRAQVI
+INITDVDEPPIFQQPFYHFQLKENQKKPLIGTVLAMDPDAARHSIGYSIRRTSDKGQFFR
+VTKKGDIYNEKELDREVYPWYNLTVEAKELDSTGTPTGKESIVQVHIEVLDENDNAPEFA
+KPYQPKVCENAVHGQLVLQISAIDKDITPRNVKFKFTLNTENNFTLTDNHDNTANITVKY
+GQFDREHTKVHFLPVVISDNGMPSRTGTSTLTVAVCKCNEQGEFTFCEDMAAQVGVSIQA
+VVAILLCILTITVITLLIFLRRRLRKQARAHGKSVPEIHEQLVTYDEEGGGEMDTTSYDV
+SVLNSVRRGGAKPPRPALDARPSLYAQVQKPPRHAPGAHGGPGEMAAMIEVKKDEADHDG
+DGPPYDTLHIYGYEGSESIAESLSSLGTDSSDSDVDYDFLNDWGPRFKMLAELYGSDPRE
+ELLY
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+1-25
+
+# Drug_Target_3_Specific_Function:
+Cadherins are calcium dependent cell adhesion proteins. They preferentially interact with themselves in a homophilic manner in connecting cells; cadherins may thus contribute to the sorting of heterogeneous cell types. This cadherin may play a important role in endothelial cell biology through control of the cohesion and organization of the intercellular junctions. It associates with alpha-catenin forming a link to the cytoskeleton
+
+# Drug_Target_3_SwissProt_ID:
+P33151
+
+# Drug_Target_3_SwissProt_Name:
+CADH5_HUMAN
+
+# Drug_Target_3_Synonyms:
+7B4 antigen
+CD144 antigen
+Cadherin-5 precursor
+VE-cadherin
+Vascular endothelial cadherin
+
+# Drug_Target_3_Theoretical_pI:
+5.07
+
+# Drug_Target_3_Transmembrane_Regions:
+600-620
+
+# Drug_Target_4_Cellular_Location:
+Not Available
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+18805433	Lu L, Payvandi F, Wu L, Zhang LH, Hariri RJ, Man HW, Chen RS, Muller GW, Hughes CC, Stirling DI, Schafer PH, Bartlett JB: The anti-cancer drug lenalidomide inhibits angiogenesis and metastasis via multiple inhibitory effects on endothelial cell function in normoxic and hypoxic conditions. Microvasc Res. 2009 Mar;77(2):78-86. Epub 2008 Sep 4.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+Not Available
+
+# Drug_Target_4_GenBank_ID_Gene:
+AL136131
+
+# Drug_Target_4_GenBank_ID_Protein:
+11989978
+
+# Drug_Target_4_GeneCard_ID:
+VEGF
+
+# Drug_Target_4_Gene_Name:
+VEGF
+
+# Drug_Target_4_Gene_Sequence:
+Not Available
+
+# Drug_Target_4_General_Function:
+Involved in growth factor activity
+
+# Drug_Target_4_General_References:
+Not Available
+
+# Drug_Target_4_HGNC_ID:
+GNC:12680
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+4221
+
+# Drug_Target_4_Locus:
+Not Available
+
+# Drug_Target_4_Molecular_Weight:
+18997.6
+
+# Drug_Target_4_Name:
+Vascular endothelial growth factor
+
+# Drug_Target_4_Number_of_Residues:
+163
+
+# Drug_Target_4_PDB_ID:
+1TZI
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00341	PDGF
+
+# Drug_Target_4_Protein_Sequence:
+>Vascular endothelial growth factor
+MAEGGGQNHHEVVKFMDVYQRSYCHPIETLVDIFQEYPDEIEYIFKPSCVPLMRCGGCCN
+DEGLECVPTEESNITMQIMRIKPHQGQHIGEMSFLQHNKCECRPKKDRARQENPCGPCSE
+RRKHLFVQDPQTCKCSCKNTDSRCKARQLELNERTCRCDKPRR
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+Not Available
+
+# Drug_Target_4_SwissProt_ID:
+A2A2V4
+
+# Drug_Target_4_SwissProt_Name:
+A2A2V4_HUMAN
+
+# Drug_Target_4_Synonyms:
+Not Available
+
+# Drug_Target_4_Theoretical_pI:
+7.52
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+# Drug_Target_5_Cellular_Location:
+Microsome
+microsomal membrane
+peripheral membrane protein
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+12720152	Zeldis JB, Schafer PH, Bennett BL, Mercurio F, Stirling DI: Potential new therapeutics for Waldenstrom's macroglobulinemia. Semin Oncol. 2003 Apr;30(2):275-81.
+15598423	Payvandi F, Wu L, Haley M, Schafer PH, Zhang LH, Chen RS, Muller GW, Stirling DI: Immunomodulatory drugs inhibit expression of cyclooxygenase-2 from TNF-alpha, IL-1beta, and LPS-stimulated human PBMC in a partially IL-10-dependent manner. Cell Immunol. 2004 Aug;230(2):81-8.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+PTGS2
+
+# Drug_Target_5_GenBank_ID_Gene:
+L15326
+
+# Drug_Target_5_GenBank_ID_Protein:
+291988
+
+# Drug_Target_5_GeneCard_ID:
+PTGS2
+
+# Drug_Target_5_Gene_Name:
+PTGS2
+
+# Drug_Target_5_Gene_Sequence:
+>1815 bp
+ATGCTCGCCCGCGCCCTGCTGCTGTGCGCGGTCCTGGCGCTCAGCCATACAGCAAATCCT
+TGCTGTTCCCACCCATGTCAAAACCGAGGTGTATGTATGAGTGTGGGATTTGACCAGTAT
+AAGTGCGATTGTACCCGGACAGGATTCTATGGAGAAAACTGCTCAACACCGGAATTTTTG
+ACAAGAATAAAATTATTTCTGAAACCCACTCCAAACACAGTGCACTACATACTTACCCAC
+TTCAAGGGATTTTGGAACGTTGTGAATAACATTCCCTTCCTTCGAAATGCAATTATGAGT
+TATGTGTTGACATCCAGATCACATTTGATTGACAGTCCACCAACTTACAATGCTGACTAT
+GGCTACAAAAGCTGGGAAGCCTTCTCTAACCTCTCCTATTATACTAGAGCCCTTCCTCCT
+GTGCCTGATGATTGCCCGACTCCCTTGGGTGTCAAAGGTAAAAAGCAGCTTCCTGATTCA
+AATGAGATTGTGGAAAAATTGCTTCTAAGAAGAAAGTTCATCCCTGATCCCCAGGGCTCA
+AACATGATGTTTGCATTCTTTGCCCAGCACTTCACGCATCAGTTTTTCAAGACAGATCAT
+AAGCGAGGGCCAGCTTTCACCAACGGGCTGGGCCATGGGGTGGACTTAAATCATATTTAC
+GGTGAAACTCTGGCTAGACAGCGTAAACTGCGCCTTTTCAAGGATGGAAAAATGAAATAT
+CAGATAATTGATGGAGAGATGTATCCTCCCACAGTCAAAGATACTCAGGCAGAGATGATC
+TACCCTCCTCAAGTCCCTGAGCATCTACGGTTTGCTGTGGGGCAGGAGGTCTTTGGTCTG
+GTGCCTGGTCTGATGATGTATGCCACAATCTGGCTGCGGGAACACAACAGAGTATGCGAT
+GTGCTTAAACAGGAGCATCCTGAATGGGGTGATGAGCAGTTGTTCCAGACAAGCAGGCTA
+ATACTGATAGGAGAGACTATTAAGATTGTGATTGAAGATTATGTGCAACACTTGAGTGGC
+TATCACTTCAAACTGAAATTTGACCCAGAACTACTTTTCAACAAACAATTCCAGTACCAA
+AATCGTATTGCTGCTGAATTTAACACCCTCTATCACTGGCATCCCCTTCTGCCTGACACC
+TTTCAAATTCATGACCAGAAATACAACTATCAACAGTTTATCTACAACAACTCTATATTG
+CTGGAACATGGAATTACCCAGTTTGTTGAATCATTCACCAGGCAAATTGCTGGCAGGGTT
+GCTGGTGGTAGGAATGTTCCACCCGCAGTACAGAAAGTATCACAGGCTTCCACTGACCAG
+AGCAGGCAGATGAAATACCAGTCTTTTAATGAGTACCGCAAACGCTTTATGCTGAAGCCC
+TATGAATCATTTGAAGAACTTACAGGAGAAAAGGAAATGTCTGCAGAGTTGGAAGCACTC
+TATGGTGACATCGATGCTGTGGAGCTGTATCCTGCCCTTCTGGTAGAAAAGCCTCGGCCA
+GATGCCATCTTTGGTGAAACCATGGTAGAAGTTGGAGCACCATTCTCCTTGAAAGGACTT
+ATGGGTAATGTTATATGTTCTCCTGCCTACTGGAAGCCAAGCACTTTTGGTGGAGAAGTG
+GGTTTTCAAATCATCAACACTGCCTCAATTCAGTCTCTCATCTGCAATAACGTGAAGGGC
+TGTCCCTTTACTTCATTCAGTGTTCCAGATCCAGAGCTCATTAAAACAGTCACCATCAAT
+GCAAGTTCTTCCCGCTCCGGACTAGATGATATCAATCCCACAGTACTACTAAAAGAACGT
+TCGACTGAACTGTAG
+
+# Drug_Target_5_General_Function:
+Involved in peroxidase activity
+
+# Drug_Target_5_General_References:
+1380156	Hla T, Neilson K: Human cyclooxygenase-2 cDNA. Proc Natl Acad Sci U S A. 1992 Aug 15;89(16):7384-8.
+7945196	Appleby SB, Ristimaki A, Neilson K, Narko K, Hla T: Structure of the human cyclo-oxygenase-2 gene. Biochem J. 1994 Sep 15;302 ( Pt 3):723-7.
+8181472	Kosaka T, Miyata A, Ihara H, Hara S, Sugimoto T, Takeda O, Takahashi E, Tanabe T: Characterization of the human gene (PTGS2) encoding prostaglandin-endoperoxide synthase 2. Eur J Biochem. 1994 May 1;221(3):889-97.
+8473346	Jones DA, Carlton DP, McIntyre TM, Zimmerman GA, Prescott SM: Molecular cloning of human prostaglandin endoperoxide synthase type II and demonstration of expression in response to cytokines. J Biol Chem. 1993 Apr 25;268(12):9049-54.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:9605
+
+# Drug_Target_5_HPRD_ID:
+02599
+
+# Drug_Target_5_ID:
+290
+
+# Drug_Target_5_Locus:
+1q25.2-q25.3
+
+# Drug_Target_5_Molecular_Weight:
+68997
+
+# Drug_Target_5_Name:
+Prostaglandin G/H synthase 2
+
+# Drug_Target_5_Number_of_Residues:
+604
+
+# Drug_Target_5_PDB_ID:
+Not Available
+
+# Drug_Target_5_Pathway:
+Acetylsalicylic Acid Pathway	SMP00083
+Bromfenac Pathway	SMP00102
+Celecoxib Pathway	SMP00096
+Diclofenac Pathway	SMP00093
+Diflunisal Pathway	SMP00289
+Etodolac Pathway	SMP00084
+Ibuprofen Pathway	SMP00086
+Indomethacin Pathway	SMP00104
+Ketoprofen Pathway	SMP00085
+Ketorolac Pathway	SMP00098
+Mefanamic Acid Pathway	SMP00109
+Meloxicam Pathway	SMP00106
+Nabumetone Pathway	SMP00114
+Naproxen Pathway	SMP00120
+Oxaprozin Pathway	SMP00113
+Piroxicam Pathway	SMP00077
+Rofecoxib Pathway	SMP00087
+Sulindac Pathway	SMP00094
+Suprofen Pathway	SMP00101
+Valdecoxib Pathway	SMP00116
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00008	EGF
+PF03098	An_peroxidase
+
+# Drug_Target_5_Protein_Sequence:
+>Prostaglandin G/H synthase 2 precursor
+MLARALLLCAVLALSHTANPCCSHPCQNRGVCMSVGFDQYKCDCTRTGFYGENCSTPEFL
+TRIKLFLKPTPNTVHYILTHFKGFWNVVNNIPFLRNAIMSYVLTSRSHLIDSPPTYNADY
+GYKSWEAFSNLSYYTRALPPVPDDCPTPLGVKGKKQLPDSNEIVEKLLLRRKFIPDPQGS
+NMMFAFFAQHFTHQFFKTDHKRGPAFTNGLGHGVDLNHIYGETLARQRKLRLFKDGKMKY
+QIIDGEMYPPTVKDTQAEMIYPPQVPEHLRFAVGQEVFGLVPGLMMYATIWLREHNRVCD
+VLKQEHPEWGDEQLFQTSRLILIGETIKIVIEDYVQHLSGYHFKLKFDPELLFNKQFQYQ
+NRIAAEFNTLYHWHPLLPDTFQIHDQKYNYQQFIYNNSILLEHGITQFVESFTRQIAGRV
+AGGRNVPPAVQKVSQASIDQSRQMKYQSFNEYRKRFMLKPYESFEELTGEKEMSAELEAL
+YGDIDAVELYPALLVEKPRPDAIFGETMVEVGAPFSLKGLMGNVICSPAYWKPSTFGGEV
+GFQIINTASIQSLICNNVKGCPFTSFSVPDPELIKTVTINASSSRSGLDDINPTVLLKER
+STEL
+
+# Drug_Target_5_Reaction:
+arachidonate + AH2 + 2 O2 = prostaglandin H2 + A + H2O
+
+# Drug_Target_5_Signals:
+1-17
+
+# Drug_Target_5_Specific_Function:
+May have a role as a major mediator of inflammation and/or a role for prostanoid signaling in activity-dependent plasticity
+
+# Drug_Target_5_SwissProt_ID:
+P35354
+
+# Drug_Target_5_SwissProt_Name:
+PGH2_HUMAN
+
+# Drug_Target_5_Synonyms:
+COX-2
+Cyclooxygenase- 2
+EC 1.14.99.1
+PGH synthase 2
+PGHS-2
+PHS II
+Prostaglandin G/H synthase 2 precursor
+Prostaglandin H2 synthase 2
+Prostaglandin-endoperoxide synthase 2
+
+# Drug_Target_5_Theoretical_pI:
+7.41
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00480

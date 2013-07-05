@@ -10,7 +10,7 @@ import java.util.zip.*;
 import java.lang.*;
 import java.lang.reflect.*;
 
-public class Constants {
+interface Constants {
 	public static final int NUMCASES = 20;
 	public static final double FPPRECISION = Math.pow(10,-9);
 	public static final double ALPHAINC = Math.PI/180*15;
@@ -34,7 +34,7 @@ public class Constants {
 	public static final double BSTRETCHSCALE = 1;
 	public static final double ABENDSCALE = 1;
 	public static final double TORSSCALE = 1;
-	public static final double INTERFACE = 1;
+	public static final double INTERFACE = 2;
 	public static final double C12_C_C = 17496035.82;
 	public static final double C12_C_N = 8329315.983;
 	public static final double C12_C_O = 5705834.105;

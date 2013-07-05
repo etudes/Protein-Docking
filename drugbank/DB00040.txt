@@ -1,0 +1,643 @@
+#BEGIN_DRUGCARD DB00040
+
+# AHFS_Codes:
+68:22.12
+
+# ATC_Codes:
+H04AA01
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+GlucaGen (Novo Nordisk)
+Glucagon (Eli Lilly)
+
+# CAS_Registry_Number:
+9007-92-5
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C165H249N49O51S1
+
+# Chemical_IUPAC_Name:
+Not Available
+
+# Chemical_Structure:
+>DB00040 sequence
+HSQGTFTSDYSKYLDSRRAQDFVQWLMNTKR
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2243297
+
+# Description:
+29 residue peptide hormone. Glucagon is synthesized in a special non- pathogenic laboratory strain of Escherichia coli bacteria that has been genetically altered by the addition of the gene for glucagons
+
+# Dosage_Forms:
+Kit	Subcutaneous
+
+# Drug_Category:
+Antihypoglycemic Agents
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+10234590	White CM: A review of potential cardiovascular uses of intravenous glucagon administration. J Clin Pharmacol. 1999 May;39(5):442-7.
+
+# Drug_Type:
+Approved
+Biotech
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-1.197
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+AF529185
+
+# Generic_Name:
+Glucagon recombinant
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+Not Available
+
+# InChI_Key:
+Not Available
+
+# Indication:
+For treatment of severe hypoglycemia, also used in gastrointestinal imaging
+
+# KEGG_Compound_ID:
+C01501
+
+# KEGG_Drug_ID:
+D00116
+
+# LIMS_Drug_ID:
+40
+
+# Mechanism_Of_Action:
+Glucagon binds the glucagon receptor, a G protein-coupled receptor located in the plasma membrane, which then initiates a dual signaling pathway using both adenylate cyclase activation and increased intracellular calcium. Adenylate cyclase manufactures cAMP (cyclic AMP), which activates protein kinase A (cAMP-dependent protein kinase). This enzyme, in turn, activates phosphorylase kinase, which, in turn, phosphorylates glycogen phosphorylase, converting into the active form called phosphorylase A. Phosphorylase A is the enzyme responsible for the release of glucose-1-phosphate from glycogen polymers. This yields glucose molecules to be released into the blood. Glucagon receptors are found in the liver, kidney, brain and pancreatic islet cells. The glucagon mediated signals lead to an increase in insulin excretion
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+3767.1000
+
+# Molecular_Weight_Mono:
+Not Available
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+1GCN
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164779052
+
+# Pharmacology:
+Used in the treatment of hypoglycemia and in gastric imaging, glucagon increases blood glucose concentration and is used in the treatment of hypoglycemia. Glucagon acts only on liver glycogen, converting it to glucose through the release of insulin. It also relaxes the smooth muscles of the gastrointestinal tract.
+
+# Predicted_LogP_Hydrophobicity:
+Not Available
+
+# Predicted_LogS:
+Not Available
+
+# Predicted_Water_Solubility:
+Not Available
+
+# Primary_Accession_No:
+DB00040
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/gluca.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+BIOD00057
+BTD00057
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+Not Available
+
+# State:
+liquid
+
+# Structure:
+0
+
+# SwissProt_ID:
+Q8MJ25
+
+# SwissProt_Name:
+GLUC_SHEEP
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2011-02-24 08:43:19 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Glucagon_recombinant
+
+# pKa_Isoelectric_Point:
+9.52
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+12529935	Brubaker PL, Drucker DJ: Structure-function of the glucagon receptor family of G protein-coupled receptors: the glucagon, GIP, GLP-1, and GLP-2 receptors. Receptors Channels. 2002;8(3-4):179-88.
+17462598	Katayama T, Shimamoto S, Oda H, Nakahara K, Kangawa K, Murakami N: Glucagon receptor expression and glucagon stimulation of ghrelin secretion in rat stomach. Biochem Biophys Res Commun. 2007 Jun 15;357(4):865-70. Epub 2007 Apr 9.
+17479245	Winzell MS, Brand CL, Wierup N, Sidelmann UG, Sundler F, Nishimura E, Ahren B: Glucagon receptor antagonism improves islet function in mice with insulin resistance induced by a high-fat diet. Diabetologia. 2007 Jul;50(7):1453-62. Epub 2007 May 4.
+17534934	Fischer AJ, Stanke JJ, Ghai K, Scott M, Omar G: Development of bullwhip neurons in the embryonic chicken retina. J Comp Neurol. 2007 Aug 1;503(4):538-49.
+17620721	Li P, Rogers T, Smiley D, DiMarchi RD, Zhang F: Design, synthesis and crystallization of a novel glucagon analog as a therapeutic agent. Acta Crystallogr Sect F Struct Biol Cryst Commun. 2007 Jul 1;63(Pt 7):599-601. Epub 2007 Jun 15.
+17623014	Li XC, Zhuo JL: Targeting glucagon receptor signalling in treating metabolic syndrome and renal injury in Type 2 diabetes: theory versus promise. Clin Sci (Lond). 2007 Aug;113(4):183-93.
+8020989	Menzel S, Stoffel M, Espinosa R 3rd, Fernald AA, Le Beau MM, Bell GI: Localization of the glucagon receptor gene to human chromosome band 17q25. Genomics. 1994 Mar 15;20(2):327-8.
+8144028	Lok S, Kuijper JL, Jelinek LJ, Kramer JM, Whitmore TE, Sprecher CA, Mathewes S, Grant FJ, Biggs SH, Rosenberg GB, et al.: The human glucagon receptor encoding gene: structure, cDNA sequence and chromosomal localization. Gene. 1994 Mar 25;140(2):203-9.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+GCGR
+
+# Drug_Target_1_GenBank_ID_Gene:
+U03469
+
+# Drug_Target_1_GenBank_ID_Protein:
+439690
+
+# Drug_Target_1_GeneCard_ID:
+GCGR
+
+# Drug_Target_1_Gene_Name:
+GCGR
+
+# Drug_Target_1_Gene_Sequence:
+>1434 bp
+ATGCCCCCCTGCCAGCCACAGCGACCCCTGCTGCTGTTGCTGCTGCTGCTGGCCTGCCAG
+CCACAGGTCCCCTCCGCTCAGGTGATGGACTTCCTGTTTGAGAAGTGGAAGCTCTACGGT
+GACCAGTGTCACCACAACCTGAGCCTGCTGCCCCCTCCCACGGAGCTGGTGTGCAACAGA
+ACCTTCGACAAGTATTCCTGCTGGCCGGACACCCCCGCCAATACCACGGCCAACATCTCC
+TGCCCCTGGTACCTGCCTTGGCACCACAAAGTGCAACACCGCTTCGTGTTCAAGAGATGC
+GGGCCCGACGGTCAGTGGGTGCGTGGACCCCGGGGGCAGCCTTGGCGTGATGCCTCCCAG
+TGCCAGATGGATGGCGAGGAGATTGAGGTCCAGAAGGAGGTGGCCAAGATGTACAGCAGC
+TTCCAGGTGATGTACACAGTGGGCTACAGCCTGTCCCTGGGGGCGCTGCTCCTCGCCTTG
+GCCATCCTGGGGGGCCTCAGCAAGCTGCACTGCACCCGCAATGCCATCCACGCGAATCTG
+TTTGCGTCCTTCGTGCTGAAAGCCAGCTCCGTGCTGGTCATTGATGGGCTGCTCAGGACC
+CGCTACAGCCAGAAAATTGGCGACGACCTCAGTGTCAGCACCTGGCTCAGTGATGGAGCG
+GTGGCTGGCTGCCGTGTGGCCGCGGTGTTCATGCAATATGGCATCGTGGCCAACTACTGC
+TGGCTGCTGGTGGAGGGCCTGTACCTGCACAACCTGCTGGGCCTGGCCACCCTCCCCGAG
+AGGAGCTTCTTCAGCCTCTACCTGGGCATCGGCTGGGGTGCCCCCATGCTGTTCGTCGTC
+CCCTGGGCAGTGGTCAAGTGTCTGTTCGAGAACGTCCAGTGCTGGACCAGCAATGACAAC
+ATGGGCTTCTGGTGGATCCTGCGGTTCCCCGTCTTCCTGGCCATCCTGATCAACTTCTTC
+ATCTTCGTCCGCATCGTTCAGCTGCTCGTGGCCAAGCTGCGGGCACGGCAGATGCACCAC
+ACAGACTACAAGTTCCGGCTGGCCAAGTCCACGCTGACCCTCATCCCTCTGCTGGGCGTC
+CACGAAGTGGTCTTCGCCTTCGTGACGGACGAGCACGCCCAGGGCACCCTGCGCTCCGCC
+AAGCTCTTCTTCGACCTCTTCCTCAGCTCCTTCCAGGGCCTGCTGGTGGCTGTCCTCTAC
+TGCTTCCTCAACAAGGAGGTGCAGTCGGAGCTGCGGCGGCGTTGGCACCGCTGGCGCCTG
+GGCAAAGTGCTATGGGAGGAGCGGAACACCAGCAACCACAGGGCCTCATCTTCGCCCGGC
+CACGGCCCTCCCAGCAAGGAGCTGCAGTTTGGGAGGGGTGGTGGCAGCCAGGATTCATCT
+GCGGAGACCCCCTTGGCTGGTGGCCTCCCTAGATTGGCTGAGAGCCCCTTCTGA
+
+# Drug_Target_1_General_Function:
+Involved in glucagon receptor activity
+
+# Drug_Target_1_General_References:
+7507321	MacNeil DJ, Occi JL, Hey PJ, Strader CD, Graziano MP: Cloning and expression of a human glucagon receptor. Biochem Biophys Res Commun. 1994 Jan 14;198(1):328-34.
+7589886	Fujisawa T, Ikegami H, Yamato E, Takekawa K, Nakagawa Y, Hamada Y, Ueda H, Fukuda M, Ogihara T: A mutation in the glucagon receptor gene (Gly40Ser): heterogeneity in the association with diabetes mellitus. Diabetologia. 1995 Aug;38(8):983-5.
+8020989	Menzel S, Stoffel M, Espinosa R 3rd, Fernald AA, Le Beau MM, Bell GI: Localization of the glucagon receptor gene to human chromosome band 17q25. Genomics. 1994 Mar 15;20(2):327-8.
+8144028	Lok S, Kuijper JL, Jelinek LJ, Kramer JM, Whitmore TE, Sprecher CA, Mathewes S, Grant FJ, Biggs SH, Rosenberg GB, et al.: The human glucagon receptor encoding gene: structure, cDNA sequence and chromosomal localization. Gene. 1994 Mar 25;140(2):203-9.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:4192
+
+# Drug_Target_1_HPRD_ID:
+00678
+
+# Drug_Target_1_ID:
+584
+
+# Drug_Target_1_Locus:
+17q25
+
+# Drug_Target_1_Molecular_Weight:
+54009
+
+# Drug_Target_1_Name:
+Glucagon receptor
+
+# Drug_Target_1_Number_of_Residues:
+477
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00002	7tm_2
+PF02793	HRM
+
+# Drug_Target_1_Protein_Sequence:
+>Glucagon receptor precursor
+MPPCQPQRPLLLLLLLLACQPQVPSAQVMDFLFEKWKLYGDQCHHNLSLLPPPTELVCNR
+TFDKYSCWPDTPANTTANISCPWYLPWHHKVQHRFVFKRCGPDGQWVRGPRGQPWRDASQ
+CQMDGEEIEVQKEVAKMYSSFQVMYTVGYSLSLGALLLALAILGGLSKLHCTRNAIHANL
+FASFVLKASSVLVIDGLLRTRYSQKIGDDLSVSTWLSDGAVAGCRVAAVFMQYGIVANYC
+WLLVEGLYLHNLLGLATLPERSFFSLYLGIGWGAPMLFVVPWAVVKCLFENVQCWTSNDN
+MGFWWILRFPVFLAILINFFIFVRIVQLLVAKLRARQMHHTDYKFRLAKSTLTLIPLLGV
+HEVVFAFVTDEHAQGTLRSAKLFFDLFLSSFQGLLVAVLYCFLNKEVQSELRRRWHRWRL
+GKVLWEERNTSNHRASSSPGHGPPSKELQFGRGGGSQDSSAETPLAGGLPRLAESPF
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+1-25
+
+# Drug_Target_1_Specific_Function:
+This is a receptor for glucagon which plays a central role in regulating the level of blood glucose by controlling the rate of hepatic glucose production and insulin secretion. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase and also a phosphatidylinositol-calcium second messenger system
+
+# Drug_Target_1_SwissProt_ID:
+P47871
+
+# Drug_Target_1_SwissProt_Name:
+GLR_HUMAN
+
+# Drug_Target_1_Synonyms:
+GL-R
+Glucagon receptor precursor
+
+# Drug_Target_1_Theoretical_pI:
+8.83
+
+# Drug_Target_1_Transmembrane_Regions:
+143-166
+174-193
+226-249
+264-285
+304-326
+351-369
+382-404
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+11212269	Boushey RP, Yusta B, Drucker DJ: Glucagon-like peptide (GLP)-2 reduces chemotherapy-associated mortality and enhances cell survival in cells expressing a transfected GLP-2 receptor. Cancer Res. 2001 Jan 15;61(2):687-93.
+12529935	Brubaker PL, Drucker DJ: Structure-function of the glucagon receptor family of G protein-coupled receptors: the glucagon, GIP, GLP-1, and GLP-2 receptors. Receptors Channels. 2002;8(3-4):179-88.
+15817468	Estall JL, Koehler JA, Yusta B, Drucker DJ: The glucagon-like peptide-2 receptor C terminus modulates beta-arrestin-2 association but is dispensable for ligand-induced desensitization, endocytosis, and G-protein-dependent effector activation. J Biol Chem. 2005 Jun 10;280(23):22124-34. Epub 2005 Apr 6.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+9990065	Munroe DG, Gupta AK, Kooshesh F, Vyas TB, Rizkalla G, Wang H, Demchyshyn L, Yang ZJ, Kamboj RK, Chen H, McCallum K, Sumner-Smith M, Drucker DJ, Crivici A: Prototypic G protein-coupled receptor for the intestinotrophic factor glucagon-like peptide 2. Proc Natl Acad Sci U S A. 1999 Feb 16;96(4):1569-73.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+GLP2R
+
+# Drug_Target_2_GenBank_ID_Gene:
+AF105367
+
+# Drug_Target_2_GenBank_ID_Protein:
+4324491
+
+# Drug_Target_2_GeneCard_ID:
+GLP2R
+
+# Drug_Target_2_Gene_Name:
+GLP2R
+
+# Drug_Target_2_Gene_Sequence:
+>1662 bp
+ATGAAGCTGGGATCGAGCAGGGCAGGGCCTGGGAGAGGAAGCGCGGGACTCCTGCCTGGC
+GTCCACGAGCTGCCCATGGGCATCCCTGCCCCCTGGGGGACCAGTCCTCTCTCCTTCCAC
+AGGAAGTGCTCTCTCTGGGCCCCTGGGAGGCCCTTCCTCACTCTGGTCCTGCTGGTTTCC
+ATCAAGCAAGTTACAGGATCCCTCCTTGAGGAAACGACTCGGAAGTGGGCTCAGTACAAA
+CAGGCATGTCTGAGAGACTTACTCAAGGAACCTTCTGGCATATTTTGTAACGGGACATTT
+GATCAGTACGTGTGTTGGCCTCATTCTTCTCCTGGAAATGTCTCTGTACCCTGCCCTTCA
+TACTTACCTTGGTGGAGTGAAGAGAGCTCAGGAAGGGCCTACAGACACTGCTTGGCTCAG
+GGGACTTGGCAGACGATAGAGAACGCCACGGATATTTGGCAGGATGACTCCGAATGCTCC
+GAGAACCACAGCTTCAAGCAAAACGTGGACCGTTATGCCTTGCTGTCAACCTTGCAGCTG
+ATGTACACCGTGGGATACTCCTTCTCTCTTATCTCCCTCTTCCTGGCTCTCACCCTCCTC
+TTGTTTCTTCGAAAACTCCACTGCACGCGCAACTACATCCACATGAACTTGTTTGCTTCT
+TTCATCCTGAGAACCCTGGCTGTACTGGTGAAGGACGTCGTCTTCTACAACTCTTACTCC
+AAGAGGCCTGACAATGAGAATGGGTGGATGTCCTACCTGTCAGAGATGTCCACCTCCTGC
+CGCTCAGTCCAGGTTCTCTTGCATTACTTTGTGGGTGCCAATTACTTATGGCTGCTGGTT
+GAAGGCCTCTACCTCCACACGCTGCTGGAGCCCACAGTGCTTCCTGAGAGGCGGCTGTGG
+CCCAGATACCTGCTGTTGGGTTGGGCCTTCCCTGTGCTATTTGTTGTACCCTGGGGTTTC
+GCCCGTGCACACCTGGAGAACACAGGGTGCTGGACAACAAATGGGAATAAGAAAATCTGG
+TGGATCATCCGAGGACCCATGATGCTCTGTGTAACAGTCAATTTCTTCATCTTCCTGAAA
+ATTCTCAAGCTTCTCATTTCTAAGCTCAAAGCTCATCAAATGTGCTTCAGAGATTATAAA
+TACAGATTGGCAAAATCAACACTGGTCCTCATTCCTTTATTGGGCGTTCATGAGATCCTC
+TTCTCTTTCATCACTGATGATCAAGTTGAAGGATTTGCAAAACTTATACGACTTTTCATT
+CAGTTGACACTGAGCTCCTTTCATGGGTTCCTGGTGGCCTTGCAGTATGGTTTTGCCAAT
+GGAGAAGTGAAGGCTGAGCTGCGGAAATACTGGGTCCGCTTCTTGCTAGCCCGCCACTCA
+GGCTGCAGAGCCTGTGTCCTGGGGAAGGACTTCCGGTTCCTAGGAAAATGTCCCAAGAAG
+CTCTCGGAAGGAGATGGCGCTGAGAAGCTTCGGAAGCTGCAGCCCTCACTTAACAGTGGG
+CGGCTCCTACATCTAGCCATGCGAGGTCTTGGGGAGCTGGGCGCCCAGCCCCAACAGGAC
+CATGCACGCTGGCCCCGGGGCAGCAGCCTGTCCGAGTGCAGTGAGGGGGATGTCACCATG
+GCCAACACCATGGAGGAGATTCTGGAAGAGAGTGAGATCTAG
+
+# Drug_Target_2_General_Function:
+Not Available
+
+# Drug_Target_2_General_References:
+9990065	Munroe DG, Gupta AK, Kooshesh F, Vyas TB, Rizkalla G, Wang H, Demchyshyn L, Yang ZJ, Kamboj RK, Chen H, McCallum K, Sumner-Smith M, Drucker DJ, Crivici A: Prototypic G protein-coupled receptor for the intestinotrophic factor glucagon-like peptide 2. Proc Natl Acad Sci U S A. 1999 Feb 16;96(4):1569-73.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:4325
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+3857
+
+# Drug_Target_2_Locus:
+17p13.3
+
+# Drug_Target_2_Molecular_Weight:
+63002
+
+# Drug_Target_2_Name:
+Glucagon-like peptide 2 receptor
+
+# Drug_Target_2_Number_of_Residues:
+553
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00002	7tm_2
+PF02793	HRM
+
+# Drug_Target_2_Protein_Sequence:
+>Glucagon-like peptide 2 receptor
+MKLGSSRAGPGRGSAGLLPGVHELPMGIPAPWGTSPLSFHRKCSLWAPGRPFLTLVLLVS
+IKQVTGSLLEETTRKWAQYKQACLRDLLKEPSGIFCNGTFDQYVCWPHSSPGNVSVPCPS
+YLPWWSEESSGRAYRHCLAQGTWQTIENATDIWQDDSECSENHSFKQNVDRYALLSTLQL
+MYTVGYSFSLISLFLALTLLLFLRKLHCTRNYIHMNLFASFILRTLAVLVKDVVFYNSYS
+KRPDNENGWMSYLSEMSTSCRSVQVLLHYFVGANYLWLLVEGLYLHTLLEPTVLPERRLW
+PRYLLLGWAFPVLFVVPWGFARAHLENTGCWTTNGNKKIWWIIRGPMMLCVTVNFFIFLK
+ILKLLISKLKAHQMCFRDYKYRLAKSTLVLIPLLGVHEILFSFITDDQVEGFAKLIRLFI
+QLTLSSFHGFLVALQYGFANGEVKAELRKYWVRFLLARHSGCRACVLGKDFRFLGKCPKK
+LSEGDGAEKLRKLQPSLNSGRLLHLAMRGLGELGAQPQQDHARWPRGSSLSECSEGDVTM
+ANTMEEILEESEI
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+This is a receptor for glucagon-like peptide 2. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase
+
+# Drug_Target_2_SwissProt_ID:
+O95838
+
+# Drug_Target_2_SwissProt_Name:
+GLP2R_HUMAN
+
+# Drug_Target_2_Synonyms:
+GLP-2 receptor
+GLP-2-R
+GLP-2R
+Glucagon-like peptide 2 receptor precursor
+
+# Drug_Target_2_Theoretical_pI:
+9.03
+
+# Drug_Target_2_Transmembrane_Regions:
+180-202
+211-230
+262-286
+299-322
+338-363
+386-406
+422-442
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+12529935	Brubaker PL, Drucker DJ: Structure-function of the glucagon receptor family of G protein-coupled receptors: the glucagon, GIP, GLP-1, and GLP-2 receptors. Receptors Channels. 2002;8(3-4):179-88.
+17475961	Korner M, Stockli M, Waser B, Reubi JC: GLP-1 receptor expression in human tumors and human normal tissues: potential for in vivo targeting. J Nucl Med. 2007 May;48(5):736-43.
+17498508	Baggio LL, Drucker DJ: Biology of incretins: GLP-1 and GIP. Gastroenterology. 2007 May;132(6):2131-57.
+17534934	Fischer AJ, Stanke JJ, Ghai K, Scott M, Omar G: Development of bullwhip neurons in the embryonic chicken retina. J Comp Neurol. 2007 Aug 1;503(4):538-49.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+GLP1R
+
+# Drug_Target_3_GenBank_ID_Gene:
+U01104
+
+# Drug_Target_3_GenBank_ID_Protein:
+405082
+
+# Drug_Target_3_GeneCard_ID:
+GLP1R
+
+# Drug_Target_3_Gene_Name:
+GLP1R
+
+# Drug_Target_3_Gene_Sequence:
+>1392 bp
+ATGGCCGGCGCCCCCGGCCCGCTGCGCCTTGCCGTGCTGCTGCTCGGGATGGTGGGCAGG
+GCCGGCCCCCGCCCCCAGGGTGCCACTGTGTCCCTCTGGGAGACGGTGCAGAAATGGCGA
+GAATACCGACGCCAGTGCCAGCGCTCCCTGACTGAGGATCCACCTCCTGCCACAGACTTG
+TTCTGCAACCGGACCTTCGATGAATACGCCTGCTGGCCAGATGGGGAGCCAGGCTCGTTC
+GTGAATGTCAGCTGCCCCTGGTACCTGCCCTGGGCCAGCAGTGTGCCGCAGGGCCACGTG
+TACCGGTTCTGCACAGCTGAAGGCCTCTGGCTGCAGAAGGACAACTCCAGCCTGCCCTGG
+AGGGACTTGTCGGAGTGCGAGGAGTCCAAGCGAGGGGAGAGAAGCTGGGGGGAGGAGCAG
+CTCCTGTTCCTCTACATCATCTACACGGTGGCGTACGCACTCTCCTTCTCTGCTCTGGTT
+ATCGCCTCTGCGATCCTCCTCGGCTTCAGACACCTGCACTGCACCAGGAACTACATCCAC
+CTGAACCTGTTTGCATCCTTCATCCTGCGAGCATTGTCCGTCTTCATCAAGGACGCAGCC
+CTGAAGTGGATGTATAGCACAGCCGCCCAGCAGCACCAGTGGGATGGGCTCCTCTCCTAC
+CAGGACTCTCTGAGCTGCCGCCTGGTGTTTCTGCTCATGCAGTACTGTGTGGCGGCCAAT
+TACTACTGGCTCTTGGTGGAGGGCGTGTACCTGTACACACTGCTGGCCTTCTCGGTCTTC
+TCTGAGCAATGGATCTTCAGGCTCTACGTGAGCATAGGCTGGGGTGTTCCCCTGCTGTTT
+GTTGTCCCCTGGGGCATTGTCAAGATCCTCTATGAGGACGAGGGCTGCTGGACCAGGAAC
+TCCAACATGAACTACTGGCTCATTATCCGGCTGCCCATTCTCTTTGCCATTGGGGTGAAC
+TTCCTCATCTTTGTTCGGGTCATCTGCATCGTGGTATCCAAACTGAAGGCCAATCTCATG
+TGCAAGACAGACATCAAATGCAGACTTGCCAAGTCCACGCTGACACTCATCCCCCTGCTG
+GGGACTCATGAGGTCATCTTTGCCTTTGTGATGGACGAGCACGCCCGGGGGACCCTGCGC
+TTCATCAAGCTGTTTACAGAGCTCTCCTTCACCTCCTTCCAGGGGCTGATGGTGGCCATC
+TTATACTGCTTTGTCAACAATGAGGTCCAGCTGGAATTTCGGAAGAGCTGGGAGCGCTGG
+CGGCTTGAGCACTTGCACATCCAGAGGGACAGCAGCATGAAGCCCCTCAAGTGTCCCACC
+AGCAGCCTGAGCAGTGGAGCCACGGCGGGCAGCAGCATGTACACAGCCACTTGCCAGGCC
+TCCTGCAGCTGA
+
+# Drug_Target_3_General_Function:
+Involved in peptide receptor activity, G-protein coupled
+
+# Drug_Target_3_General_References:
+14574404	Mungall AJ, Palmer SA, Sims SK, Edwards CA, Ashurst JL, Wilming L, Jones MC, Horton R, Hunt SE, Scott CE, Gilbert JG, Clamp ME, Bethel G, Milne S, Ainscough R, Almeida JP, Ambrose KD, Andrews TD, Ashwell RI, Babbage AK, Bagguley CL, Bailey J, Banerjee R, Barker DJ, Barlow KF, Bates K, Beare DM, Beasley H, Beasley O, Bird CP, Blakey S, Bray-Allen S, Brook J, Brown AJ, Brown JY, Burford DC, Burrill W, Burton J, Carder C, Carter NP, Chapman JC, Clark SY, Clark G, Clee CM, Clegg S, Cobley V, Collier RE, Collins JE, Colman LK, Corby NR, Coville GJ, Culley KM, Dhami P, Davies J, Dunn M, Earthrowl ME, Ellington AE, Evans KA, Faulkner L, Francis MD, Frankish A, Frankland J, French L, Garner P, Garnett J, Ghori MJ, Gilby LM, Gillson CJ, Glithero RJ, Grafham DV, Grant M, Gribble S, Griffiths C, Griffiths M, Hall R, Halls KS, Hammond S, Harley JL, Hart EA, Heath PD, Heathcott R, Holmes SJ, Howden PJ, Howe KL, Howell GR, Huckle E, Humphray SJ, Humphries MD, Hunt AR, Johnson CM, Joy AA, Kay M, Keenan SJ, Kimberley AM, King A, Laird GK, Langford C, Lawlor S, Leongamornlert DA, Leversha M, Lloyd CR, Lloyd DM, Loveland JE, Lovell J, Martin S, Mashreghi-Mohammadi M, Maslen GL, Matthews L, McCann OT, McLaren SJ, McLay K, McMurray A, Moore MJ, Mullikin JC, Niblett D, Nickerson T, Novik KL, Oliver K, Overton-Larty EK, Parker A, Patel R, Pearce AV, Peck AI, Phillimore B, Phillips S, Plumb RW, Porter KM, Ramsey Y, Ranby SA, Rice CM, Ross MT, Searle SM, Sehra HK, Sheridan E, Skuce CD, Smith S, Smith M, Spraggon L, Squares SL, Steward CA, Sycamore N, Tamlyn-Hall G, Tester J, Theaker AJ, Thomas DW, Thorpe A, Tracey A, Tromans A, Tubby B, Wall M, Wallis JM, West AP, White SS, Whitehead SL, Whittaker H, Wild A, Willey DJ, Wilmer TE, Wood JM, Wray PW, Wyatt JC, Young L, Younger RM, Bentley DR, Coulson A, Durbin R, Hubbard T, Sulston JE, Dunham I, Rogers J, Beck S: The DNA sequence and analysis of human chromosome 6. Nature. 2003 Oct 23;425(6960):805-11.
+7517895	van Eyll B, Lankat-Buttgereit B, Bode HP, Goke R, Goke B: Signal transduction of the GLP-1-receptor cloned from a human insulinoma. FEBS Lett. 1994 Jul 4;348(1):7-13.
+7843404	Wei Y, Mojsov S: Tissue-specific expression of the human receptor for glucagon-like peptide-I: brain, heart and pancreatic forms have the same deduced amino acid sequences. FEBS Lett. 1995 Jan 30;358(3):219-24.
+8216285	Graziano MP, Hey PJ, Borkowski D, Chicchi GG, Strader CD: Cloning and functional expression of a human glucagon-like peptide-1 receptor. Biochem Biophys Res Commun. 1993 Oct 15;196(1):141-6.
+8404634	Dillon JS, Tanizawa Y, Wheeler MB, Leng XH, Ligon BB, Rabin DU, Yoo-Warren H, Permutt MA, Boyd AE 3rd: Cloning and functional expression of the human glucagon-like peptide-1 (GLP-1) receptor. Endocrinology. 1993 Oct;133(4):1907-10.
+8405712	Thorens B, Porret A, Buhler L, Deng SP, Morel P, Widmann C: Cloning and functional expression of the human islet GLP-1 receptor. Demonstration that exendin-4 is an agonist and exendin-(9-39) an antagonist of the receptor. Diabetes. 1993 Nov;42(11):1678-82.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:4324
+
+# Drug_Target_3_HPRD_ID:
+00677
+
+# Drug_Target_3_ID:
+957
+
+# Drug_Target_3_Locus:
+6p21
+
+# Drug_Target_3_Molecular_Weight:
+53060
+
+# Drug_Target_3_Name:
+Glucagon-like peptide 1 receptor
+
+# Drug_Target_3_Number_of_Residues:
+463
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00002	7tm_2
+PF02793	HRM
+
+# Drug_Target_3_Protein_Sequence:
+>Glucagon-like peptide 1 receptor precursor
+MAGAPGPLRLALLLLGMVGRAGPRPQGATVSLWETVQKWREYRRQCQRSLTEDPPPATDL
+FCNRTFDEYACWPDGEPGSFVNVSCPWYLPWASSVPQGHVYRFCTAEGLWLQKDNSSLPW
+RDLSECEESKRGERSSPEEQLLFLYIIYTVGYALSFSALVIASAILLGFRHLHCTRNYIH
+LNLFASFILRALSVFIKDAALKWMYSTAAQQHQWDGLLSYQDSLSCRLVFLLMQYCVAAN
+YYWLLVEGVYLYTLLAFSVFSEQWIFRLYVSIGWGVPLLFVVPWGIVKYLYEDEGCWTRN
+SNMNYWLIIRLPILFAIGVNFLIFVRVICIVVSKLKANLMCKTDIKCRLAKSTLTLIPLL
+GTHEVIFAFVMDEHARGTLRFIKLFTELSFTSFQGLMVAILYCFVNNEVQLEFRKSWERW
+RLEHLHIQRDSSMKPLKCPTSSLSSGATAGSSMYTATCQASCS
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+1-23
+
+# Drug_Target_3_Specific_Function:
+This is a receptor for glucagon-like peptide 1. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase
+
+# Drug_Target_3_SwissProt_ID:
+P43220
+
+# Drug_Target_3_SwissProt_Name:
+GLP1R_HUMAN
+
+# Drug_Target_3_Synonyms:
+GLP-1 receptor
+GLP-1-R
+GLP-1R
+Glucagon-like peptide 1 receptor precursor
+
+# Drug_Target_3_Theoretical_pI:
+8.19
+
+# Drug_Target_3_Transmembrane_Regions:
+146-168
+177-196
+228-252
+265-288
+304-329
+352-372
+388-408
+
+#END_DRUGCARD DB00040

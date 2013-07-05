@@ -1,0 +1,329 @@
+#BEGIN_DRUGCARD DB03103
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+18075
+
+# Chemical_Formula:
+C10H16N2O11P2
+
+# Chemical_IUPAC_Name:
+{[hydroxy({[(2S,3R,5R)-3-hydroxy-5-(5-methyl-2,4-dioxo-1,2,3,4-tetrahydropyrimidin-1-yl)oxolan-2-yl]methoxy})phosphoryl]oxy}phosphonic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Thymidine-5'- Diphosphate
+
+# HET_ID:
+TYD
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C10H16N2O11P2/c1-5-3-12(10(15)11-9(5)14)8-2-6(13)7(22-8)4-21-25(19,20)23-24(16,17)18/h3,6-8,13H,2,4H2,1H3,(H,19,20)(H,11,14,15)(H2,16,17,18)/t6-,7+,8-/m1/s1
+
+# InChI_Key:
+InChIKey=UJLXYODCHAELLY-GJMOJQLCSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+3103
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+402.1884
+
+# Molecular_Weight_Mono:
+402.022932388
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+1NDC
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+-0.87
+
+# Predicted_LogS:
+-1.8
+
+# Predicted_Water_Solubility:
+6.94e+00 g/l
+
+# Primary_Accession_No:
+DB03103
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+46936575
+
+# PubChem_Substance_ID:
+46505634
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+EXPT03136
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CC1=CN([C@H]2C[C@@H](O)[C@H](CO[P@](O)(=O)OP(O)(O)=O)O2)C(=O)NC1=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:21:55 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cytoplasm. Nucleus
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+NME1
+
+# Drug_Target_1_GenBank_ID_Gene:
+X75598
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+NME1
+
+# Drug_Target_1_Gene_Sequence:
+>459 bp
+ATGGCCAACTGTGAGCGTACCTTCATTGCGATCAAACCAGATGGGGTCCAGCGGGGTCTT
+GTGGGAGAGATTATCAAGCGTTTTGAGCAGAAAGGATTCCGCCTTGTTGGTCTGAAATTC
+ATGCAAGCTTCCGAAGATCTTCTCAAGGAACACTACGTTGACCTGAAGGACCGTCCATTC
+TTTGCCGGCCTGGTGAAATACATGCACTCAGGGCCGGTAGTTGCCATGGTCTGGGAGGGG
+CTGAATGTGGTGAAGACGGGCCGAGTCATGCTCGGGGAGACCAACCCTGCAGACTCCAAG
+CCTGGGACCATCCGTGGAGACTTCTGCATACAAGTTGGCAGGAACATTATACATGGCAGT
+GATTCTGTGGAGAGTGCAGAGAAGGAGATCGGCTTGTGGTTTCACCCTGAGGAACTGGTA
+GATTACACGAGCTGTGCTCAGAACTGGATCTATGAATGA
+
+# Drug_Target_1_General_Function:
+Involved in nucleoside diphosphate kinase activity
+
+# Drug_Target_1_General_References:
+10512675	Manda R, Kohno T, Matsuno Y, Takenoshita S, Kuwano H, Yokota J: Identification of genes (SPON2 and C20orf2) differentially expressed between cancerous and noncancerous lung cells by mRNA differential display. Genomics. 1999 Oct 1;61(1):5-14.
+11835509	Min K, Song HK, Chang C, Kim SY, Lee KJ, Suh SW: Crystal structure of human nucleoside diphosphate kinase A, a metastasis suppressor. Proteins. 2002 Feb 15;46(3):340-2.
+12628186	Fan Z, Beresford PJ, Oh DY, Zhang D, Lieberman J: Tumor suppressor NM23-H1 is a granzyme A-activated DNase during CTL-mediated apoptosis, and the nucleosome assembly protein SET is its inhibitor. Cell. 2003 Mar 7;112(5):659-72.
+12972261	Chen Y, Gallois-Montbrun S, Schneider B, Veron M, Morera S, Deville-Bonne D, Janin J: Nucleotide binding to nucleoside diphosphate kinases: X-ray structure of human NDPK-A in complex with ADP and comparison to protein kinases. J Mol Biol. 2003 Sep 26;332(4):915-26.
+1851158	Gilles AM, Presecan E, Vonica A, Lascu I: Nucleoside diphosphate kinase from human erythrocytes. Structural characterization of the two polypeptide chains responsible for heterogeneity of the hexameric enzyme. J Biol Chem. 1991 May 15;266(14):8784-9.
+2056128	Hailat N, Keim DR, Melhem RF, Zhu XX, Eckerskorn C, Brodeur GM, Reynolds CP, Seeger RC, Lottspeich F, Strahler JR, et al.: High levels of p19/nm23 protein in neuroblastoma are associated with advanced stage disease and with N-myc gene amplification. J Clin Invest. 1991 Jul;88(1):341-5.
+2509941	Rosengard AM, Krutzsch HC, Shearn A, Biggs JR, Barker E, Margulies IM, King CR, Liotta LA, Steeg PS: Reduced Nm23/Awd protein in tumour metastasis and aberrant Drosophila development. Nature. 1989 Nov 9;342(6246):177-80.
+7916650	Wang L, Patel U, Ghosh L, Chen HC, Banerjee S: Mutation in the nm23 gene is associated with metastasis in colorectal cancer. Cancer Res. 1993 Feb 15;53(4):717-20.
+8270257	Dooley S, Seib T, Engel M, Theisinger B, Janz H, Piontek K, Zang KD, Welter C: Isolation and characterization of the human genomic locus coding for the putative metastasis control gene nm23-H1. Hum Genet. 1994 Jan;93(1):63-6.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:7849
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+5294
+
+# Drug_Target_1_Locus:
+17q21.3
+
+# Drug_Target_1_Molecular_Weight:
+17149
+
+# Drug_Target_1_Name:
+Nucleoside diphosphate kinase A
+
+# Drug_Target_1_Number_of_Residues:
+152
+
+# Drug_Target_1_PDB_ID:
+1JXV
+
+# Drug_Target_1_Pathway:
+Adefovir Dipivoxil Pathway	SMP00418
+Gemcitabine Pathway	SMP00446
+Methotrexate Pathway	SMP00432
+Tenofovir Pathway	SMP00419
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00334	NDK
+
+# Drug_Target_1_Protein_Sequence:
+>Nucleoside diphosphate kinase A
+MANCERTFIAIKPDGVQRGLVGEIIKRFEQKGFRLVGLKFMQASEDLLKEHYVDLKDRPF
+FAGLVKYMHSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIHGS
+DSVESAEKEIGLWFHPEELVDYTSCAQNWIYE
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Major role in the synthesis of nucleoside triphosphates other than ATP
+
+# Drug_Target_1_SwissProt_ID:
+P15531
+
+# Drug_Target_1_SwissProt_Name:
+NDKA_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 2.7.4.6
+GAAD
+Granzyme A-activated DNase
+Metastasis inhibition factor nm23
+NDK A
+NDP kinase A
+Tumor metastatic process-associated protein
+nm23-H1
+
+# Drug_Target_1_Theoretical_pI:
+6.11
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB03103

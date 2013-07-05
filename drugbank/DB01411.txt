@@ -1,0 +1,1386 @@
+#BEGIN_DRUGCARD DB01411
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+R03DC02
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Hepatic
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+103177-37-3
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C27H23N5O4
+
+# Chemical_IUPAC_Name:
+N-[4-oxo-2-(2H-1,2,3,4-tetrazol-5-yl)-4H-chromen-7-yl]-4-(4-phenylbutoxy)benzamide
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2007-07-17 06:39:39 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Pranlukast is a cysteinyl leukotriene receptor-1 antagonist. It antagonizes or reduces bronchospasm caused, principally in asthmatics, by an allergic reaction to accidentally or inadvertently encountered allergens.
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Anti-Asthmatic Agents
+Leukotriene Antagonists
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+16702733	Nakade S, Ueda S, Ohno T, Nakayama K, Miyata Y, Yukawa E, Higuchi S: Population pharmacokinetics of pranlukast hydrate dry syrup in children with allergic rhinitis and bronchial asthma. Drug Metab Pharmacokinet. 2006 Apr;21(2):133-9.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Pranlukast
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C27H23N5O4/c33-23-17-25(26-29-31-32-30-26)36-24-16-20(11-14-22(23)24)28-27(34)19-9-12-21(13-10-19)35-15-5-4-8-18-6-2-1-3-7-18/h1-3,6-7,9-14,16-17H,4-5,8,15H2,(H,28,34)(H,29,30,31,32)
+
+# InChI_Key:
+InChIKey=UAJUXJSXCLUTNU-UHFFFAOYSA-N
+
+# Indication:
+Used as an adjunct to the standard therapy of inhaled steroids with inhaled long- and/or short-acting beta-agonists.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+1411
+
+# Mechanism_Of_Action:
+Pranlukast selectively antagonizes leukotriene D<sub>4</sub> (LTD<sub>4</sub>) at the cysteinyl leukotriene receptor, CysLT<sub>1</sub>, in the human airway. Pranlukast inhibits the actions of LTD<sub>4</sub> at the CysLT<sub>1</sub> receptor, preventing airway edema, smooth muscle contraction, and enhanced secretion of thick, viscous mucus.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+481.5026
+
+# Molecular_Weight_Mono:
+481.175004249
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA134698661
+
+# Pharmacology:
+Pranlukast is a cysteinyl leukotriene receptor-1 antagonist.
+
+# Predicted_LogP_Hydrophobicity:
+4.84
+
+# Predicted_LogS:
+-5.2
+
+# Predicted_Water_Solubility:
+3.00e-03 g/l
+
+# Primary_Accession_No:
+DB01411
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+115100
+
+# PubChem_Substance_ID:
+46508129
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+O=C(NC1=CC2=C(C=C1)C(=O)C=C(O2)C1=NNN=N1)C1=CC=C(OCCCCC2=CC=CC=C2)C=C1
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+ONO-RS 411
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Side effects include headache, abdominal or stomach pain, cough, dental pain, dizziness, fever, heartburn, skin rash, stuffy nose, weakness or unusual tiredness.
+
+# Update_Date:
+2013-02-08 16:20:08 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Pranlukast
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP2C9
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4757
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 2C9
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 2C9
+MDSLVVLVLCLSCLLLLSLWRQSSGRGKLPPGPTPLPVIGNILQIGIKDISKSLTNLSKV
+YGPVFTLYFGLKPIVVLHGYEAVKEALIDLGEEFSGRGIFPLAERANRGFGIVFSNGKKW
+KEIRRFSLMTLRNFGMGKRSIEDRVQEEARCLVEELRKTKASPCDPTFILGCAPCNVICS
+IIFHKRFDYKDQQFLNLMEKLNENIKILSSPWIQICNNFSPIIDYFPGTHNKLLKNVAFM
+KSYILEKVKEHQESMDMNNPQDFIDCFLMKMEKEKHNQPSEFTIESLENTAVDLFGAGTE
+TTSTTLRYALLLLLKHPEVTAKVQEEIERVIGRNRSPCMQDRSHMPYTDAVVHEVQRYID
+LLPTSLPHAVTCDIKFRNYLIPKGTTILISLTSVLHDNKEFPNPEMFDPHHFLDEGGNFK
+KSKYFMPFSAGKRICVGEALAGMELFLFLTSILQNFNLKSLVDPKNLDTTPVVNGFASVP
+PFYQLCFIPV
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P11712
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11264758	Yoo SH, Park SH, Song JS, Kang KH, Park CS, Yoo JH, Choi BW, Hahn MH: Clinical effects of pranlukast, an oral leukotriene receptor antagonist, in mild-to-moderate asthma: a 4 week randomized multicentre controlled trial. Respirology. 2001 Mar;6(1):15-21.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+11854273	Ogasawara H, Ishii S, Yokomizo T, Kakinuma T, Komine M, Tamaki K, Shimizu T, Izumi T: Characterization of mouse cysteinyl leukotriene receptors mCysLT1 and mCysLT2: differential pharmacological properties and tissue distribution. J Biol Chem. 2002 May 24;277(21):18763-8. Epub 2002 Feb 19.
+15475658	Ishinaga H, Takeuchi K, Kishioka C, Suzuki S, Basbaum C, Majima Y: Pranlukast inhibits NF-kappaB activation and MUC2 gene expression in cultured human epithelial cells. Pharmacology. 2005 Feb;73(2):89-96. Epub 2004 Oct 5.
+16864492	Shirasaki H, Kanaizumi E, Seki N, Kikuchi M, Watanabe K, Konno N, Himi T: Distribution of specific binding sites for cysteinyl leukotriene 1 receptor antagonist in human nasal mucosa. Acta Otolaryngol. 2006 Sep;126(9):948-51.
+17112405	Ding Q, Wei EQ, Zhang YJ, Zhang WP, Chen Z: Cysteinyl leukotriene receptor 1 is involved in N-methyl-D-aspartate-mediated neuronal injury in mice. Acta Pharmacol Sin. 2006 Dec;27(12):1526-36.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+CYSLTR1
+
+# Drug_Target_1_GenBank_ID_Gene:
+AF119711
+
+# Drug_Target_1_GenBank_ID_Protein:
+5353887
+
+# Drug_Target_1_GeneCard_ID:
+CYSLTR1
+
+# Drug_Target_1_Gene_Name:
+CYSLTR1
+
+# Drug_Target_1_Gene_Sequence:
+>1014 bp
+ATGGATGAAACAGGAAATCTGACAGTATCTTCTGCCACATGCCATGACACTATTGATGAC
+TTCCGCAATCAAGTGTATTCCACCTTGTACTCTATGATCTCTGTTGTAGGCTTCTTTGGC
+AATGGCTTTGTGCTCTATGTCCTCATAAAAACCTATCACAAGAAGTCAGCCTTCCAAGTA
+TACATGATTAATTTAGCAGTAGCAGATCTACTTTGTGTGTGCACACTGCCTCTCCGTGTG
+GTCTATTATGTTCACAAAGGCATTTGGCTCTTTGGTGACTTCTTGTGCCGCCTCAGCACC
+TATGCTTTGTATGTCAACCTCTATTGTAGCATCTTCTTTATGACAGCCATGAGCTTTTTC
+CGGTGCATTGCAATTGTTTTTCCAGTCCAGAACATTAATTTGGTTACACAGAAAAAAGCC
+AGGTTTGTGTGTGTAGGTATTTGGATTTTTGTGATTTTGACCAGTTCTCCATTTCTAATG
+GCCAAACCACAAAAAGATGAGAAAAATAATACCAAGTGCTTTGAGCCCCCACAAGACAAT
+CAAACTAAAAATCATGTTTTGGTCTTGCATTATGTGTCATTGTTTGTTGGCTTTATCATC
+CCTTTTGTTATTATAATTGTCTGTTACACAATGATCATTTTGACCTTACTAAAAAAATCA
+ATGAAAAAAAATCTGTCAAGTCATAAAAAGGCTATAGGAATGATCATGGTCGTGACCGCT
+GCCTTTTTAGTCAGTTTCATGCCATATCATATTCAACGTACCATTCACCTTCATTTTTTA
+CACAATGAAACTAAACCCTGTGATTCTGTCCTTAGAATGCAGAAGTCCGTGGTCATAACC
+TTGTCTCTGGCTGCATCCAATTGTTGCTTTGACCCTCTCCTATATTTCTTTTCTGGGGGT
+AACTTTAGGAAAAGGCTGTCTACATTTAGAAAGCATTCTTTGTCCAGCGTGACTTATGTA
+CCCAGAAAGAAGGCCTCTTTGCCAGAAAAAGGAGAAGAAATATGTAAAGTATAG
+
+# Drug_Target_1_General_Function:
+Involved in leukotriene receptor activity
+
+# Drug_Target_1_General_References:
+10391245	Lynch KR, O'Neill GP, Liu Q, Im DS, Sawyer N, Metters KM, Coulombe N, Abramovitz M, Figueroa DJ, Zeng Z, Connolly BM, Bai C, Austin CP, Chateauneuf A, Stocco R, Greig GM, Kargman S, Hooks SB, Hosfield E, Williams DL Jr, Ford-Hutchinson AW, Caskey CT, Evans JF: Characterization of the human cysteinyl leukotriene CysLT1 receptor. Nature. 1999 Jun 24;399(6738):789-93.
+10462554	Sarau HM, Ames RS, Chambers J, Ellis C, Elshourbagy N, Foley JJ, Schmidt DB, Muccitelli RM, Jenkins O, Murdock PR, Herrity NC, Halsey W, Sathe G, Muir AI, Nuthulaganti P, Dytko GM, Buckley PT, Wilson S, Bergsma DJ, Hay DW: Identification, molecular cloning, expression, and characterization of a cysteinyl leukotriene receptor. Mol Pharmacol. 1999 Sep;56(3):657-63.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:17451
+
+# Drug_Target_1_HPRD_ID:
+02188
+
+# Drug_Target_1_ID:
+778
+
+# Drug_Target_1_Locus:
+Xq13.2-21.1
+
+# Drug_Target_1_Molecular_Weight:
+38541
+
+# Drug_Target_1_Name:
+Cysteinyl leukotriene receptor 1
+
+# Drug_Target_1_Number_of_Residues:
+337
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_1_Protein_Sequence:
+>Cysteinyl leukotriene receptor 1
+MDETGNLTVSSATCHDTIDDFRNQVYSTLYSMISVVGFFGNGFVLYVLIKTYHKKSAFQV
+YMINLAVADLLCVCTLPLRVVYYVHKGIWLFGDFLCRLSTYALYVNLYCSIFFMTAMSFF
+RCIAIVFPVQNINLVTQKKARFVCVGIWIFVILTSSPFLMAKPQKDEKNNTKCFEPPQDN
+QTKNHVLVLHYVSLFVGFIIPFVIIIVCYTMIILTLLKKSMKKNLSSHKKAIGMIMVVTA
+AFLVSFMPYHIQRTIHLHFLHNETKPCDSVLRMQKSVVITLSLAASNCCFDPLLYFFSGG
+NFRKRLSTFRKHSLSSVTYVPRKKASLPEKGEEICKV
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Receptor for cysteinyl leukotrienes mediating bronchoconstriction of individuals with and without asthma. Stimulation by LTD4 results in the contraction and proliferation of smooth muscle, edema, eosinophil migration and damage to the mucus layer in the lung. This response is mediated via a G-protein that activates a phosphatidylinositol-calcium second messenger system. The rank order of affinities for the leukotrienes is LTD4 >> LTE4 = LTC4 >> LTB4
+
+# Drug_Target_1_SwissProt_ID:
+Q9Y271
+
+# Drug_Target_1_SwissProt_Name:
+CLTR1_HUMAN
+
+# Drug_Target_1_Synonyms:
+CysLTR1
+Cysteinyl leukotriene D4 receptor
+HG55
+HMTMF81
+LTD4 receptor
+
+# Drug_Target_1_Theoretical_pI:
+9.68
+
+# Drug_Target_1_Transmembrane_Regions:
+29-49
+58-78
+107-127
+142-162
+194-214
+231-251
+277-297
+
+# Drug_Target_2_Cellular_Location:
+Cell membrane
+single-pass type II membrane protein. Processed form:Secreted protein. Also exists as
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+12801315	Tomari S, Matsuse H, Machida I, Kondo Y, Kawano T, Obase Y, Fukushima C, Shimoda T, Kohno S: Pranlukast, a cysteinyl leukotriene receptor 1 antagonist, attenuates allergen-specific tumour necrosis factor alpha production and nuclear factor kappa B nuclear translocation in peripheral blood monocytes from atopic asthmatics. Clin Exp Allergy. 2003 Jun;33(6):795-801.
+12801316	Ichiyama T, Hasegawa S, Umeda M, Terai K, Matsubara T, Furukawa S: Pranlukast inhibits NF-kappa B activation in human monocytes/macrophages and T cells. Clin Exp Allergy. 2003 Jun;33(6):802-7.
+17430359	Ichiyama T, Kajimoto M, Hasegawa M, Hashimoto K, Matsubara T, Furukawa S: Cysteinyl leukotrienes enhance tumour necrosis factor-alpha-induced matrix metalloproteinase-9 in human monocytes/macrophages. Clin Exp Allergy. 2007 Apr;37(4):608-14.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+TNF
+
+# Drug_Target_2_GenBank_ID_Gene:
+M16441
+
+# Drug_Target_2_GenBank_ID_Protein:
+339741
+
+# Drug_Target_2_GeneCard_ID:
+TNF
+
+# Drug_Target_2_Gene_Name:
+TNF
+
+# Drug_Target_2_Gene_Sequence:
+>702 bp
+ATGAGCACTGAAAGCATGATCCGGGACGTGGAGCTGGCCGAGGAGGCGCTCCCCAAGAAG
+ACAGGGGGGCCCCAGGGCTCCAGGCGGTGCTTGTTCCTCAGCCTCTTCTCCTTCCTGATC
+GTGGCAGGCGCCACCACGCTCTTCTGCCTGCTGCACTTTGGAGTGATCGGCCCCCAGAGG
+GAAGAGTTCCCCAGGGACCTCTCTCTAATCAGCCCTCTGGCCCAGGCAGTCAGATCATCT
+TCTCGAACCCCGAGTGACAAGCCTGTAGCCCATGTTGTAGCAAACCCTCAAGCTGAGGGG
+CAGCTCCAGTGGCTGAACCGCCGGGCCAATGCCCTCCTGGCCAATGGCGTGGAGCTGAGA
+GATAACCAGCTGGTGGTGCCATCAGAGGGCCTGTACCTCATCTACTCCCAGGTCCTCTTC
+AAGGGCCAAGGCTGCCCCTCCACCCATGTGCTCCTCACCCACACCATCAGCCGCATCGCC
+GTCTCCTACCAGACCAAGGTCAACCTCCTCTCTGCCATCAAGAGCCCCTGCCAGAGGGAG
+ACCCCAGAGGGGGCTGAGGCCAAGCCCTGGTATGAGCCCATCTATCTGGGAGGGGTCTTC
+CAGCTGGAGAAGGGTGACCGACTCAGCGCTGAGATCAATCGGCCCGACTATCTCGACTTT
+GCCGAGTCTGGGCAGGTCTACTTTGGGATCATTGCCCTGTGA
+
+# Drug_Target_2_General_Function:
+Involved in tumor necrosis factor receptor binding
+
+# Drug_Target_2_General_References:
+10202016	Neville MJ, Campbell RD: A new member of the Ig superfamily and a V-ATPase G subunit are among the predicted products of novel genes close to the TNF locus in the human MHC. J Immunol. 1999 Apr 15;162(8):4745-54.
+10205166	Watts AD, Hunt NH, Wanigasekara Y, Bloomfield G, Wallach D, Roufogalis BD, Chaudhri G: A casein kinase I motif present in the cytoplasmic domain of members of the tumour necrosis factor ligand family is implicated in 'reverse signalling'. EMBO J. 1999 Apr 15;18(8):2119-26.
+1402651	Stevenson FT, Bursten SL, Locksley RM, Lovett DH: Myristyl acylation of the tumor necrosis factor alpha precursor on specific lysine residues. J Exp Med. 1992 Oct 1;176(4):1053-62.
+1964681	Jones EY, Stuart DI, Walker NP: The structure of tumour necrosis factor--implications for biological function. J Cell Sci Suppl. 1990;13:11-8.
+2009860	Van Ostade X, Tavernier J, Prange T, Fiers W: Localization of the active site of human tumour necrosis factor (hTNF) by mutational analysis. EMBO J. 1991 Apr;10(4):827-36.
+2551905	Eck MJ, Sprang SR: The structure of tumor necrosis factor-alpha at 2.6 A resolution. Implications for receptor binding. J Biol Chem. 1989 Oct 15;264(29):17595-605.
+2922050	Jones EY, Stuart DI, Walker NP: Structure of tumour necrosis factor. Nature. 1989 Mar 16;338(6212):225-8.
+2995927	Nedwin GE, Naylor SL, Sakaguchi AY, Smith D, Jarrett-Nedwin J, Pennica D, Goeddel DV, Gray PW: Human lymphotoxin and tumor necrosis factor genes: structure, homology and chromosomal localization. Nucleic Acids Res. 1985 Sep 11;13(17):6361-73.
+3555974	Nedospasov SA, Shakhov AN, Turetskaya RL, Mett VA, Azizov MM, Georgiev GP, Korobko VG, Dobrynin VN, Filippov SA, Bystrov NS, et al.: Tandem arrangement of genes coding for tumor necrosis factor (TNF-alpha) and lymphotoxin (TNF-beta) in the human genome. Cold Spring Harb Symp Quant Biol. 1986;51 Pt 1:611-24.
+3856324	Wang AM, Creasey AA, Ladner MB, Lin LS, Strickler J, Van Arsdell JN, Yamamoto R, Mark DF: Molecular cloning of the complementary DNA for human tumor necrosis factor. Science. 1985 Apr 12;228(4696):149-54.
+3883195	Shirai T, Yamaguchi H, Ito H, Todd CW, Wallace RB: Cloning and expression in Escherichia coli of the gene for human tumour necrosis factor. Nature. 1985 Feb 28-Mar 6;313(6005):803-6.
+3932069	Marmenout A, Fransen L, Tavernier J, Van der Heyden J, Tizard R, Kawashima E, Shaw A, Johnson MJ, Semon D, Muller R, et al.: Molecular cloning and expression of human tumor necrosis factor and comparison with mouse tumor necrosis factor. Eur J Biochem. 1985 Nov 4;152(3):515-22.
+6392892	Pennica D, Nedwin GE, Hayflick JS, Seeburg PH, Derynck R, Palladino MA, Kohr WJ, Aggarwal BB, Goeddel DV: Human tumour necrosis factor: precursor structure, expression and homology to lymphotoxin. Nature. 1984 Dec 20-1985 Jan 2;312(5996):724-9.
+8499947	Iris FJ, Bougueleret L, Prieur S, Caterina D, Primas G, Perrot V, Jurka J, Rodriguez-Tome P, Claverie JM, Dausset J, et al.: Dense Alu clustering and a potential new member of the NF kappa B family within a 90 kilobase HLA class III segment. Nat Genet. 1993 Feb;3(2):137-45.
+8597870	Pocsik E, Duda E, Wallach D: Phosphorylation of the 26 kDa TNF precursor in monocytic cells and in transfected HeLa cells. J Inflamm. 1995;45(3):152-60.
+9034191	Moss ML, Jin SL, Milla ME, Bickett DM, Burkhart W, Carter HL, Chen WJ, Clay WC, Didsbury JR, Hassler D, Hoffman CR, Kost TA, Lambert MH, Leesnitzer MA, McCauley P, McGeehan G, Mitchell J, Moyer M, Pahel G, Rocque W, Overton LK, Schoenen F, Seaton T, Su JL, Becherer JD, et al.: Cloning of a disintegrin metalloproteinase that processes precursor tumour-necrosis factor-alpha. Nature. 1997 Feb 20;385(6618):733-6.
+9442056	Cha SS, Kim JS, Cho HS, Shin NK, Jeong W, Shin HC, Kim YJ, Hahn JH, Oh BH: High resolution crystal structure of a human tumor necrosis factor-alpha mutant with low systemic toxicity. J Biol Chem. 1998 Jan 23;273(4):2153-60.
+9488135	Reed C, Fu ZQ, Wu J, Xue YN, Harrison RW, Chen MJ, Weber IT: Crystal structure of TNF-alpha mutant R31D with greater affinity for receptor R1 compared with R2. Protein Eng. 1997 Oct;10(10):1101-7.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:11892
+
+# Drug_Target_2_HPRD_ID:
+01855
+
+# Drug_Target_2_ID:
+777
+
+# Drug_Target_2_Locus:
+6p21.3
+
+# Drug_Target_2_Molecular_Weight:
+25645
+
+# Drug_Target_2_Name:
+Tumor necrosis factor
+
+# Drug_Target_2_Number_of_Residues:
+233
+
+# Drug_Target_2_PDB_ID:
+1A8M
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00229	TNF
+
+# Drug_Target_2_Protein_Sequence:
+>Tumor necrosis factor precursor
+MSTESMIRDVELAEEALPKKTGGPQGSRRCLFLSLFSFLIVAGATTLFCLLHFGVIGPQR
+EEFPRDLSLISPLAQAVRSSSRTPSDKPVAHVVANPQAEGQLQWLNRRANALLANGVELR
+DNQLVVPSEGLYLIYSQVLFKGQGCPSTHVLLTHTISRIAVSYQTKVNLLSAIKSPCQRE
+TPEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLDFAESGQVYFGIIAL
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Cytokine that binds to TNFRSF1A/TNFR1 and TNFRSF1B/TNFBR. It is mainly secreted by macrophages and can induce cell death of certain tumor cell lines. It is potent pyrogen causing fever by direct action or by stimulation of interleukin 1 secretion and is implicated in the induction of cachexia, Under certain conditions it can stimulate cell proliferation and induce cell differentiation
+
+# Drug_Target_2_SwissProt_ID:
+P01375
+
+# Drug_Target_2_SwissProt_Name:
+TNFA_HUMAN
+
+# Drug_Target_2_Synonyms:
+Cachectin
+TNF-a
+TNF-alpha
+Tumor necrosis factor ligand superfamily member 2
+Tumor necrosis factor precursor
+
+# Drug_Target_2_Theoretical_pI:
+6.92
+
+# Drug_Target_2_Transmembrane_Regions:
+36-56
+
+# Drug_Target_3_Cellular_Location:
+Secreted protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+10773010	Hojo M, Suzuki M, Maghni K, Hamid Q, Powell WS, Martin JG: Role of cysteinyl leukotrienes in CD4(+) T cell-driven late allergic airway responses. J Pharmacol Exp Ther. 2000 May;293(2):410-6.
+11972613	Nabe T, Yamashita K, Miura M, Kawai T, Kohno S: Cysteinyl leukotriene-dependent interleukin-5 production leading to eosinophilia during late asthmatic response in guinea-pigs. Clin Exp Allergy. 2002 Apr;32(4):633-40.
+12692940	Nogimura M, Nagata M, Sutani A, Saito K, Sakamoto Y: [Study on the effect of cysteinyl leukotriene antagonist, pranlukast hydrate, on adhesive interaction between eosinophils and pulmonary endothelial cells] Nihon Kokyuki Gakkai Zasshi. 2002 Dec;40(12):919-24.
+15650315	Fukushima C, Matsuse H, Hishikawa Y, Kondo Y, Machida I, Saeki S, Kawano T, Tomari S, Obase Y, Shimoda T, Koji T, Kohno S: Pranlukast, a leukotriene receptor antagonist, inhibits interleukin-5 production via a mechanism distinct from leukotriene receptor antagonism. Int Arch Allergy Immunol. 2005 Feb;136(2):165-72. Epub 2005 Jan 12.
+16892782	Matsuse H, Kondo Y, Machida I, Kawano T, Saeki S, Tomari S, Obase Y, Fukushima C, Mizuta Y, Kohno S: Effects of anti-inflammatory therapies on recurrent and low-grade respiratory syncytial virus infections in a murine model of asthma. Ann Allergy Asthma Immunol. 2006 Jul;97(1):55-60.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+IL5
+
+# Drug_Target_3_GenBank_ID_Gene:
+X04688
+
+# Drug_Target_3_GenBank_ID_Protein:
+33836
+
+# Drug_Target_3_GeneCard_ID:
+IL5
+
+# Drug_Target_3_Gene_Name:
+IL5
+
+# Drug_Target_3_Gene_Sequence:
+>405 bp
+ATGAGGATGCTTCTGCATTTGAGTTTGCTAGCTCTTGGAGCTGCCTACGTGTATGCCATC
+CCCACAGAAATTCCCACAAGTGCATTGGTGAAAGAGACCTTGGCACTGCTTTCTACTCAT
+CGAACTCTGCTGATAGCCAATGAGACTCTGAGGATTCCTGTTCCTGTACATAAAAATCAC
+CAACTGTGCACTGAAGAAATCTTTCAGGGAATAGGCACACTGGAGAGTCAAACTGTGCAA
+GGGGGTACTGTGGAAAGACTATTCAAAAACTTGTCCTTAATAAAGAAATACATTGACGGC
+CAAAAAAAAAAGTGTGGAGAAGAAAGACGGAGAGTAAACCAATTCCTAGACTACCTGCAA
+GAGTTTCTTGGTGTAATGAACACCGAGTGGATAATAGAAAGTTGA
+
+# Drug_Target_3_General_Function:
+Involved in interleukin-5 receptor binding
+
+# Drug_Target_3_General_References:
+2037074	Proudfoot AE, Davies JG, Turcatti G, Wingfield PT: Human interleukin-5 expressed in Escherichia coli: assignment of the disulfide bridges of the purified unglycosylated protein. FEBS Lett. 1991 May 20;283(1):61-4.
+2361960	Minamitake Y, Kodama S, Katayama T, Adachi H, Tanaka S, Tsujimoto M: Structure of recombinant human interleukin 5 produced by Chinese hamster ovary cells. J Biochem (Tokyo). 1990 Feb;107(2):292-7.
+2823259	Yokota T, Coffman RL, Hagiwara H, Rennick DM, Takebe Y, Yokota K, Gemmell L, Shrader B, Yang G, Meyerson P, et al.: Isolation and characterization of lymphokine cDNA clones encoding mouse and human IgA-enhancing factor and eosinophil colony-stimulating factor activities: relationship to interleukin 5. Proc Natl Acad Sci U S A. 1987 Nov;84(21):7388-92.
+2824500	Tanabe T, Konishi M, Mizuta T, Noma T, Honjo T: Molecular cloning and structure of the human interleukin-5 gene. J Biol Chem. 1987 Dec 5;262(34):16580-4.
+3024129	Azuma C, Tanabe T, Konishi M, Kinashi T, Noma T, Matsuda F, Yaoita Y, Takatsu K, Hammarstrom L, Smith CI, et al.: Cloning of cDNA for human T-cell replacing factor (interleukin-5) and comparison with the murine homologue. Nucleic Acids Res. 1986 Nov 25;14(22):9149-58.
+3498940	Campbell HD, Tucker WQ, Hort Y, Martinson ME, Mayo G, Clutterbuck EJ, Sanderson CJ, Young IG: Molecular cloning, nucleotide sequence, and expression of the gene encoding human eosinophil differentiation factor (interleukin 5). Proc Natl Acad Sci U S A. 1987 Oct;84(19):6629-33.
+8483502	Milburn MV, Hassell AM, Lambert MH, Jordan SR, Proudfoot AE, Graber P, Wells TN: A novel dimer configuration revealed by the crystal structure at 2.4 A resolution of human interleukin-5. Nature. 1993 May 13;363(6425):172-6.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:6016
+
+# Drug_Target_3_HPRD_ID:
+00997
+
+# Drug_Target_3_ID:
+2232
+
+# Drug_Target_3_Locus:
+5q31.1
+
+# Drug_Target_3_Molecular_Weight:
+15238
+
+# Drug_Target_3_Name:
+Interleukin-5
+
+# Drug_Target_3_Number_of_Residues:
+134
+
+# Drug_Target_3_PDB_ID:
+1HUL
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF02025	IL5
+
+# Drug_Target_3_Protein_Sequence:
+>Interleukin-5 precursor
+MRMLLHLSLLALGAAYVYAIPTEIPTSALVKETLALLSTHRTLLIANETLRIPVPVHKNH
+QLCTEEIFQGIGTLESQTVQGGTVERLFKNLSLIKKYIDGQKKKCGEERRRVNQFLDYLQ
+EFLGVMNTEWIIES
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+1-19
+
+# Drug_Target_3_Specific_Function:
+Factor that induces terminal differentiation of late- developing B-cells to immunoglobulin secreting cells
+
+# Drug_Target_3_SwissProt_ID:
+P05113
+
+# Drug_Target_3_SwissProt_Name:
+IL5_HUMAN
+
+# Drug_Target_3_Synonyms:
+B cell differentiation factor I
+Eosinophil differentiation factor
+IL-5
+Interleukin-5 precursor
+T-cell replacing factor
+TRF
+
+# Drug_Target_3_Theoretical_pI:
+8.23
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Cytoplasmic granule. Note=Matrix of eosinophil's large specific granule
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+10028377	Horiguchi T, Tachikawa S, Kasahara J, Doi M, Shiga M: Effects of pranlukast hydrate on serum eosinophil cationic protein levels in patients with adult bronchial asthma. Arzneimittelforschung. 1999 Jan;49(1):35-7.
+10804983	Ishioka S, Hozawa S, Haruta Y, Hiyama K, Maeda A, Yamakido M: Pranlukast, a cysteinyl leukotriene antagonist, reduces serum eosinophil cationic protein levels in patients with asthma. Hiroshima J Med Sci. 1999 Dec;48(4):105-10.
+11476469	Obase Y, Shimoda T, Tomari S, Mitsuta K, Fukushima C, Kawano T, Matsuse H, Kohno S: Effects of pranlukast on aspirin-induced bronchoconstriction: differences in chemical mediators between aspirin-intolerant and tolerant asthmatic patients. Ann Allergy Asthma Immunol. 2001 Jul;87(1):74-9.
+15136379	Kanazawa H, Yoshikawa T, Hirata K, Yoshikawa J: Effects of pranlukast administration on vascular endothelial growth factor levels in asthmatic patients. Chest. 2004 May;125(5):1700-5.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+RNASE3
+
+# Drug_Target_4_GenBank_ID_Gene:
+X15161
+
+# Drug_Target_4_GenBank_ID_Protein:
+31077
+
+# Drug_Target_4_GeneCard_ID:
+RNASE3
+
+# Drug_Target_4_Gene_Name:
+RNASE3
+
+# Drug_Target_4_Gene_Sequence:
+>483 bp
+ATGGTTCCAAAACTGTTCACTTCCCAAATTTGTCTGCTTCTTCTGTTGGGGCTTATGGGT
+GTGGAGGGCTCACTCCATGCCAGACCCCCACAGTTTACGAGGGCTCAGTGGTTTGCCATC
+CAGCACATCAGTCTGAACCCCCCTCGATGCACCATTGCAATGCGGGCAATTAACAATTAT
+CGATGGCGTTGCAAAAACCAAAATACTTTTCTTCGTACAACTTTTGCTAATGTAGTTAAT
+GTTTGTGGTAACCAAAGTATACGCTGCCCTCATAACAGAACTCTCAACAATTGTCATCGG
+AGTAGATTCCGGGTGCCTTTACTCCACTGTGACCTCATAAATCCAGGTGCACAGAATATT
+TCAAACTGCAGGTATGCAGACAGACCAGGAAGGAGGTTCTATGTAGTTGCATGTGACAAC
+AGAGATCCACGGGATTCTCCACGGTATCCTGTGGTTCCAGTTCACCTGGATACCACCATC
+TAA
+
+# Drug_Target_4_General_Function:
+Involved in nucleic acid binding
+
+# Drug_Target_4_General_References:
+10606511	Boix E, Leonidas DD, Nikolovski Z, Nogues MV, Cuchillo CM, Acharya KR: Crystal structure of eosinophil cationic protein at 2.4 A resolution. Biochemistry. 1999 Dec 21;38(51):16794-801.
+10903870	Mallorqui-Fernandez G, Pous J, Peracaula R, Aymami J, Maeda T, Tada H, Yamada H, Seno M, de Llorens R, Gomis-Ruth FX, Coll M: Three-dimensional crystal structure of human eosinophil cationic protein (RNase 3) at 1.75 A resolution. J Mol Biol. 2000 Jul 28;300(5):1297-307.
+11102386	Zhang J, Rosenberg HF: Sequence variation at two eosinophil-associated ribonuclease loci in humans. Genetics. 2000 Dec;156(4):1949-58.
+12356310	Mohan CG, Boix E, Evans HR, Nikolovski Z, Nogues MV, Cuchillo CM, Acharya KR: The crystal structure of eosinophil cationic protein in complex with 2',5'-ADP at 2.0 A resolution reveals the details of the ribonucleolytic active site. Biochemistry. 2002 Oct 8;41(40):12100-6.
+12508121	Heilig R, Eckenberg R, Petit JL, Fonknechten N, Da Silva C, Cattolico L, Levy M, Barbe V, de Berardinis V, Ureta-Vidal A, Pelletier E, Vico V, Anthouard V, Rowen L, Madan A, Qin S, Sun H, Du H, Pepin K, Artiguenave F, Robert C, Cruaud C, Bruls T, Jaillon O, Friedlander L, Samson G, Brottier P, Cure S, Segurens B, Aniere F, Samain S, Crespeau H, Abbasi N, Aiach N, Boscus D, Dickhoff R, Dors M, Dubois I, Friedman C, Gouyvenoux M, James R, Madan A, Mairey-Estrada B, Mangenot S, Martins N, Menard M, Oztas S, Ratcliffe A, Shaffer T, Trask B, Vacherie B, Bellemere C, Belser C, Besnard-Gonnet M, Bartol-Mavel D, Boutard M, Briez-Silla S, Combette S, Dufosse-Laurent V, Ferron C, Lechaplais C, Louesse C, Muselet D, Magdelenat G, Pateau E, Petit E, Sirvain-Trukniewicz P, Trybou A, Vega-Czarny N, Bataille E, Bluet E, Bordelais I, Dubois M, Dumont C, Guerin T, Haffray S, Hammadi R, Muanga J, Pellouin V, Robert D, Wunderle E, Gauguet G, Roy A, Sainte-Marthe L, Verdier J, Verdier-Discala C, Hillier L, Fulton L, McPherson J, Matsuda F, Wilson R, Scarpelli C, Gyapay G, Wincker P, Saurin W, Quetier F, Waterston R, Hood L, Weissenbach J: The DNA sequence and analysis of human chromosome 14. Nature. 2003 Feb 6;421(6923):601-7. Epub 2003 Jan 1.
+2387583	Hamann KJ, Ten RM, Loegering DA, Jenkins RB, Heise MT, Schad CR, Pease LR, Gleich GJ, Barker RL: Structure and chromosome localization of the human eosinophil-derived neurotoxin and eosinophil cationic protein genes: evidence for intronless coding sequences in the ribonuclease gene superfamily. Genomics. 1990 Aug;7(4):535-46.
+2473157	Rosenberg HF, Ackerman SJ, Tenen DG: Human eosinophil cationic protein. Molecular cloning of a cytotoxin and helminthotoxin with ribonuclease activity. J Exp Med. 1989 Jul 1;170(1):163-76.
+2501794	Gabay JE, Scott RW, Campanelli D, Griffith J, Wilde C, Marra MN, Seeger M, Nathan CF: Antibiotic proteins of human polymorphonuclear leukocytes. Proc Natl Acad Sci U S A. 1989 Jul;86(14):5610-4.
+2745977	Barker RL, Loegering DA, Ten RM, Hamann KJ, Pease LR, Gleich GJ: Eosinophil cationic protein cDNA. Comparison with other toxic cationic proteins and ribonucleases. J Immunol. 1989 Aug 1;143(3):952-5.
+3458170	Gleich GJ, Loegering DA, Bell MP, Checkel JL, Ackerman SJ, McKean DJ: Biochemical and functional similarities between human eosinophil-derived neurotoxin and eosinophil cationic protein: homology with ribonuclease. Proc Natl Acad Sci U S A. 1986 May;83(10):3146-50.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:10046
+
+# Drug_Target_4_HPRD_ID:
+00575
+
+# Drug_Target_4_ID:
+1123
+
+# Drug_Target_4_Locus:
+14q24-q31
+
+# Drug_Target_4_Molecular_Weight:
+18386
+
+# Drug_Target_4_Name:
+Eosinophil cationic protein
+
+# Drug_Target_4_Number_of_Residues:
+160
+
+# Drug_Target_4_PDB_ID:
+1DYT
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00074	RnaseA
+
+# Drug_Target_4_Protein_Sequence:
+>Eosinophil cationic protein precursor
+MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTRAQWFAIQHISLNPPRCTIAMRAINNY
+RWRCKNQNTFLRTTFANVVNVCGNQSIRCPHNRTLNNCHRSRFRVPLLHCDLINPGAQNI
+SNCTYADRPGRRFYVVACDNRDPRDSPRYPVVPVHLDTTI
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+1-27
+
+# Drug_Target_4_Specific_Function:
+Cytotoxin and helminthotoxin with low-efficiency ribonuclease activity. Possesses a wide variety of biological activities. Exhibits antibacterial activity
+
+# Drug_Target_4_SwissProt_ID:
+P12724
+
+# Drug_Target_4_SwissProt_Name:
+ECP_HUMAN
+
+# Drug_Target_4_Synonyms:
+EC 3.1.27.-
+ECP
+Eosinophil cationic protein precursor
+RNase 3
+Ribonuclease 3
+
+# Drug_Target_4_Theoretical_pI:
+10.33
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+# Drug_Target_5_Cellular_Location:
+Nucleus. Cytoplasm. Note=Nuclear, but also found in the cytoplasm in an inactive form complexed to a
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+12801315	Tomari S, Matsuse H, Machida I, Kondo Y, Kawano T, Obase Y, Fukushima C, Shimoda T, Kohno S: Pranlukast, a cysteinyl leukotriene receptor 1 antagonist, attenuates allergen-specific tumour necrosis factor alpha production and nuclear factor kappa B nuclear translocation in peripheral blood monocytes from atopic asthmatics. Clin Exp Allergy. 2003 Jun;33(6):795-801.
+12801316	Ichiyama T, Hasegawa S, Umeda M, Terai K, Matsubara T, Furukawa S: Pranlukast inhibits NF-kappa B activation in human monocytes/macrophages and T cells. Clin Exp Allergy. 2003 Jun;33(6):802-7.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+NFKB1
+
+# Drug_Target_5_GenBank_ID_Gene:
+M55643
+
+# Drug_Target_5_GenBank_ID_Protein:
+189180
+
+# Drug_Target_5_GeneCard_ID:
+NFKB1
+
+# Drug_Target_5_Gene_Name:
+NFKB1
+
+# Drug_Target_5_Gene_Sequence:
+>2910 bp
+ATGGCAGAAGATGATCCATATTTGGGAAGGCCTGAACAAATGTTTCATTTGGATCCTTCT
+TTGACTCATACAATATTTAATCCAGAAGTATTTCAACCACAGATGGCACTGCCAACAGCA
+GATGGCCCATACCTTCAAATATTAGAGCAACCTAAACAGAGAGGATTTCGTTTCCGTTAT
+GTATGTGAAGGCCCATCCCATGGTGGACTACCTGGTGCCTCTAGTGAAAAGAACAAGAAG
+TCTTACCCTCAGGTCAAAATCTGCAACTATGTGGGACCAGCAAAGGTTATTGTTCAGTTG
+GTCACAAATGGAAAAAATATCCACCTGCATGCCCACAGCCTGGTGGGAAAACACTGTGAG
+GATGGGATCTGCACTGTAACTGCTGGACCCAAGGACATGGTGGTCGGCTTCGCAAACCTG
+GGTATACTTCATGTGACAAAGAAAAAAGTATTTGAAACACTGGAAGCACGAATGACAGAG
+GCGTGTATAAGGGGCTATAATCCTGGACTCTTGGTGCACCCTGACCTTGCCTATTTGCAA
+GCAGAAGGTGGAGGGGACCGGCAGCTGGGAGATCGGGAAAAAGAGCTAATCCGCCAAGCA
+GCTCTGCAGCAGACCAAGGAGATGGACCTCAGCGTGGTGCGGCTCATGTTTACAGCTTTT
+CTTCCGGATAGCACTGGCAGCTTCACAAGGCGCCTGGAACCCGTGGTATCAGACGCCATC
+TATGACAGTAAAGCCCCCAATGCATCCAACTTGAAAATTGTAAGAATGGACAGGACAGCT
+GGATGTGTGACTGGAGGGGAGGAAATTTATCTTCTTTGTGACAAAGTTCAGAAAGATGAC
+ATCCAGATTCGATTTTATGAAGAGGAAGAAAATGGTGGAGTCTGGGAAGGATTTGGAGAT
+TTTTCCCCCACAGATGTTCATAGACAATTTGCCATTGTCTTCAAAACTCCAAAGTATAAA
+GATATTAATATTACAAAACCAGCCTCTGTGTTTGTCCAGCTTCGGAGGAAATCTGACTTG
+GAAACTAGTGAACCAAAACCTTTCCTCTACTATCCTGAAATCAAAGATAAAGAAGAAGTG
+CAGAGGAAACGTCAGAAGCTCATGCCCAATTTTTCGGATAGTTTCGGCGGTGGTAGTGGT
+GCCGGAGCTGGAGGCGGAGGCATGTTTGGTAGTGGCGGTGGAGGAGGGGGCACTGGAAGT
+ACAGGTCCAGGGTATAGCTTCCCACACTATGGATTTCCTACTTATGGTGGGATTACTTTC
+CATCCTGGAACTACTAAATCTAATGCTGGGATGAAGCATGGAACCATGGACACTGAATCT
+AAAAAGGACCCTGAAGGTTGTGACAAAAGTGATGACAAAAACACTGTAAACCTCTTTGGG
+AAAGTTATTGAAACCACAGAGCAAGATCAGGAGCCCAGCGAGGCCACCGTTGGGAATGGT
+GAGGTCACTCTAACGTATGCAACAGGAACAAAAGAAGAGAGTGCTGGAGTTCAGGATAAC
+CTCTTTCTAGAGAAGGCTATGCAGCTTGCAAAGAGGCATGCCAATGCCCTTTTCGACTAC
+GCGGTGACAGGAGACGTGAAGATGCTGCTGGCCGTCCAGCGCCATCTCACTGCTGTGCAG
+GATGAGAATGGGGACAGTGTCTTACACTTAGCAATCATCCACCTTCATTCTCAACTTGTG
+AGGGATCTACTAGAAGTCACATCTGGTTTGATTTCTGATGACATTATCAACATGAGAAAT
+GATCTGTACCAGACGCCCTTGCACTTGGCAGTGATCACTAAGCAGGAAGATGTGGTGGAG
+GATTTGCTGAGGGCTGGGGCCGACCTGAGCCTTCTGGACCGCTTGGGTAACTCTGTTTTG
+CACCTAGCTGCCAAAGAAGGACATGATAAAGTTCTCAGTATCTTACTCAAGCACAAAAAG
+GCAGCACTACTTCTTGACCACCCCAACGGGGACGGTCTGAATGCCATTCATCTAGCCATG
+ATGAGCAATAGCCTGCCATGTTTGCTGCTGCTGGTGGCCGCTGGGGCTGACGTCAATGCT
+CAGGAGCAGAAGTCCGGGCGCACAGCACTGCACCTGGCTGTGGAGCACGACAACATCTCA
+TTGGCAGGCTGCCTGCTCCTGGAGGGTGATGCCCATGTGGACAGTACTACCTACGATGGA
+ACCACACCCCTGCATATAGCAGCTGGGAGAGGGTCCACCAGGCTGGCAGCTCTTCTCAAA
+GCAGCAGGAGCAGATCCCCTGGTGGAGAACTTTGAGCCTCTCTATGACCTGGATGACTCT
+TGGGAAAATGCAGGAGAGGATGAAGGAGTTGTGCCTGGAACCACGCCTCTAGATATGGCC
+ACCAGCTGGCAGGTATTTGACATATTAAATGGGAAACCATATGAGCCAGAGTTTACATCT
+GATGATTTACTAGCACAAGGAGACATGAAACAGCTGGCTGAAGATGTGAAGCTGCAGCTG
+TATAAGTTACTAGAAATTCCTGATCCAGACAAAAACTGGGCTACTCTGGCGCAGAAATTA
+GGTCTGGGGATACTTAATAATGCCTTCCGGCTGAGTCCTGCTCCTTCCAAAACACTTATG
+GACAACTATGAGGTCTCTGGGGGTACAGTCAGAGAGCTGGTGGAGGCCCTGAGACAAATG
+GGCTACACCGAAGCAATTGAAGTGATCCAGGCAGCCTCCAGCCCAGTGAAGACCACCTCT
+CAGGCCCACTCGCTGCCTCTCTCGCCTGCCTCCACAAGGCAGCAAATAGACGAGCTCCGA
+GACAGTGACAGTGTCTGCGACACGGGCGTGGAGACATCCTTCCGCAAACTCAGCTTTACC
+GAGTCTCTGACCAGTGGTGCCTCACTGCTAACTCTCAACAAAATGCCCCATGATTATGGG
+CAGGAAGGACCTCTAGAAGGCAAAATTTAG
+
+# Drug_Target_5_General_Function:
+Involved in transcription factor activity
+
+# Drug_Target_5_General_References:
+10469655	Heissmeyer V, Krappmann D, Wulczyn FG, Scheidereit C: NF-kappaB p105 is a target of IkappaB kinases and controls signal induction of Bcl-3-p50 complexes. EMBO J. 1999 Sep 1;18(17):4766-78.
+10970863	Lin L, DeMartino GN, Greene WC: Cotranslational dimerization of the Rel homology domain of NF-kappaB1 generates p50-p105 heterodimers and is required for effective p50 production. EMBO J. 2000 Sep 1;19(17):4712-22.
+11094166	Werbajh S, Nojek I, Lanz R, Costas MA: RAC-3 is a NF-kappa B coactivator. FEBS Lett. 2000 Nov 24;485(2-3):195-9.
+11297557	Salmeron A, Janzen J, Soneji Y, Bump N, Kamens J, Allen H, Ley SC: Direct phosphorylation of NF-kappaB1 p105 by the IkappaB kinase complex on serine 927 is essential for signal-induced p105 proteolysis. J Biol Chem. 2001 Jun 22;276(25):22215-22. Epub 2001 Apr 10.
+11468175	Ayroldi E, Migliorati G, Bruscoli S, Marchetti C, Zollo O, Cannarile L, D'Adamio F, Riccardi C: Modulation of T-cell activation by the glucocorticoid-induced leucine zipper factor via inhibition of nuclear factor kappaB. Blood. 2001 Aug 1;98(3):743-53.
+12393603	Berrebi D, Bruscoli S, Cohen N, Foussat A, Migliorati G, Bouchet-Delbos L, Maillot MC, Portier A, Couderc J, Galanaud P, Peuchmaur M, Riccardi C, Emilie D: Synthesis of glucocorticoid-induced leucine zipper (GILZ) by macrophages: an anti-inflammatory and immunosuppressive mechanism shared by glucocorticoids and IL-10. Blood. 2003 Jan 15;101(2):729-38. Epub 2002 Sep 12.
+1992489	Meyer R, Hatada EN, Hohmann HP, Haiker M, Bartsch C, Rothlisberger U, Lahm HW, Schlaeger EJ, van Loon AP, Scheidereit C: Cloning of the DNA-binding subunit of human nuclear factor kappa B: the level of its mRNA is strongly regulated by phorbol ester or tumor necrosis factor alpha. Proc Natl Acad Sci U S A. 1991 Feb 1;88(3):966-70.
+2203531	Kieran M, Blank V, Logeat F, Vandekerckhove J, Lottspeich F, Le Bail O, Urban MB, Kourilsky P, Baeuerle PA, Israel A: The DNA binding subunit of NF-kappa B is identical to factor KBF1 and homologous to the rel oncogene product. Cell. 1990 Sep 7;62(5):1007-18.
+2234062	Bours V, Villalobos J, Burd PR, Kelly K, Siebenlist U: Cloning of a mitogen-inducible gene encoding a kappa B DNA-binding protein with homology to the rel oncogene and to cell-cycle motifs. Nature. 1990 Nov 1;348(6296):76-80.
+7830764	Muller CW, Rey FA, Sodeoka M, Verdine GL, Harrison SC: Structure of the NF-kappa B p50 homodimer bound to DNA. Nature. 1995 Jan 26;373(6512):311-7.
+8087845	Palombella VJ, Rando OJ, Goldberg AL, Maniatis T: The ubiquitin-proteasome pathway is required for processing the NF-kappa B1 precursor protein and the activation of NF-kappa B. Cell. 1994 Sep 9;78(5):773-85.
+8628291	Lin L, Ghosh S: A glycine-rich region in NF-kappaB p105 functions as a processing signal for the generation of the p50 subunit. Mol Cell Biol. 1996 May;16(5):2248-54.
+8825636	Heron E, Deloukas P, van Loon AP: The complete exon-intron structure of the 156-kb human gene NFKB1, which encodes the p105 and p50 proteins of transcription factors NF-kappa B and I kappa B-gamma: implications for NF-kappa B-mediated signal transduction. Genomics. 1995 Dec 10;30(3):493-505.
+9529257	Lin L, DeMartino GN, Greene WC: Cotranslational biogenesis of NF-kappaB p50 by the 26S proteasome. Cell. 1998 Mar 20;92(6):819-28.
+9865693	Jacobs MD, Harrison SC: Structure of an IkappaBalpha/NF-kappaB complex. Cell. 1998 Dec 11;95(6):749-58.
+9950430	Belich MP, Salmeron A, Johnston LH, Ley SC: TPL-2 kinase regulates the proteolysis of the NF-kappaB-inhibitory protein NF-kappaB1 p105. Nature. 1999 Jan 28;397(6717):363-8.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:7794
+
+# Drug_Target_5_HPRD_ID:
+01238
+
+# Drug_Target_5_ID:
+1787
+
+# Drug_Target_5_Locus:
+4q24
+
+# Drug_Target_5_Molecular_Weight:
+105357
+
+# Drug_Target_5_Name:
+Nuclear factor NF-kappa-B p105 subunit
+
+# Drug_Target_5_Number_of_Residues:
+968
+
+# Drug_Target_5_PDB_ID:
+1SVC
+
+# Drug_Target_5_Pathway:
+Prednisolone Pathway	SMP00441
+Prednisone Pathway	SMP00440
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00023	Ank
+PF00531	Death
+PF00554	RHD
+PF01833	TIG
+
+# Drug_Target_5_Protein_Sequence:
+>Nuclear factor NF-kappa-B p105 subunit
+MAEDDPYLGRPEQMFHLDPSLTHTIFNPEVFQPQMALPTDGPYLQILEQPKQRGFRFRYV
+CEGPSHGGLPGASSEKNKKSYPQVKICNYVGPAKVIVQLVTNGKNIHLHAHSLVGKHCED
+GICTVTAGPKDMVVGFANLGILHVTKKKVFETLEARMTEACIRGYNPGLLVHPDLAYLQA
+EGGGDRQLGDREKELIRQAALQQTKEMDLSVVRLMFTAFLPDSTGSFTRRLEPVVSDAIY
+DSKAPNASNLKIVRMDRTAGCVTGGEEIYLLCDKVQKDDIQIRFYEEEENGGVWEGFGDF
+SPTDVHRQFAIVFKTPKYKDINITKPASVFVQLRRKSDLETSEPKPFLYYPEIKDKEEVQ
+RKRQKLMPNFSDSFGGGSGAGAGGGGMFGSGGGGGGTGSTGPGYSFPHYGFPTYGGITFH
+PGTTKSNAGMKHGTMDTESKKDPEGCDKSDDKNTVNLFGKVIETTEQDQEPSEATVGNGE
+VTLTYATGTKEESAGVQDNLFLEKAMQLAKRHANALFDYAVTGDVKMLLAVQRHLTAVQD
+ENGDSVLHLAIIHLHSQLVRDLLEVTSGLISDDIINMRNDLYQTPLHLAVITKQEDVVED
+LLRAGADLSLLDRLGNSVLHLAAKEGHDKVLSILLKHKKAALLLDHPNGDGLNAIHLAMM
+SNSLPCLLLLVAAGADVNAQEQKSGRTALHLAVEHDNISLAGCLLLEGDAHVDSTTYDGT
+TPLHIAAGRGSTRLAALLKAAGADPLVENFEPLYDLDDSWENAGEDEGVVPGTTPLDMAT
+SWQVFDILNGKPYEPEFTSDDLLAQGDMKQLAEDVKLQLYKLLEIPDPDKNWATLAQKLG
+LGILNNAFRLSPAPSKTLMDNYEVSGGTVRELVEALRQMGYTEAIEVIQAASSPVKTTSQ
+AHSLPLSPASTRQQIDELRDSDSVCDSGVETSFRKLSFTESLTSGASLLTLNKMPHDYGQ
+EGPLEGKI
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+None
+
+# Drug_Target_5_Specific_Function:
+Appears to have dual functions such as cytoplasmic retention of attached NF-kappa-B proteins and generation of p50 by a cotranslational processing. The proteasome-mediated process ensures the production of both p50 and p105 and preserves their independent function, although processing of NFKB1/p105 also appears to occur posttranslationally. p50 binds to the kappa-B consensus sequence 5'-GGRNNYYCC-3', located in the enhancer region of genes involved in immune response and acute phase reactions. Plays a role in the regulation of apoptosis
+
+# Drug_Target_5_SwissProt_ID:
+P19838
+
+# Drug_Target_5_SwissProt_Name:
+NFKB1_HUMAN
+
+# Drug_Target_5_Synonyms:
+DNA-binding factor KBF1
+EBP- 1
+
+# Drug_Target_5_Theoretical_pI:
+5.05
+
+# Drug_Target_5_Transmembrane_Regions:
+None
+
+# Drug_Target_6_Cellular_Location:
+Secreted protein
+
+# Drug_Target_6_Chromosome_Location:
+Not Available
+
+# Drug_Target_6_Drug_References:
+15475658	Ishinaga H, Takeuchi K, Kishioka C, Suzuki S, Basbaum C, Majima Y: Pranlukast inhibits NF-kappaB activation and MUC2 gene expression in cultured human epithelial cells. Pharmacology. 2005 Feb;73(2):89-96. Epub 2004 Oct 5.
+17223000	Bai CH, Song SY, Kim YD: The inhibitory effect of the leukotriene receptor antagonist on leukotriene D4-induced MUC2/5AC gene expression and mucin secretion in human airway epithelial cells. Auris Nasus Larynx. 2007 Jun;34(2):203-6. Epub 2007 Jan 12.
+
+# Drug_Target_6_Essentiality:
+Non-Essential
+
+# Drug_Target_6_GenAtlas_ID:
+MUC2
+
+# Drug_Target_6_GenBank_ID_Gene:
+L21998
+
+# Drug_Target_6_GenBank_ID_Protein:
+454154
+
+# Drug_Target_6_GeneCard_ID:
+MUC2
+
+# Drug_Target_6_Gene_Name:
+MUC2
+
+# Drug_Target_6_Gene_Sequence:
+>15540 bp
+ATGGGGCTGCCACTAGCCCGCCTGGCGGCTGTGTGCCTGGCCCTGTCTTTGGCAGGGGGC
+TCGGAGCTCCAGACAGAGGGCAGAACCCGATACCACGGCCGCAACGTCTGCAGCACCTGG
+GGCAACTTCCACTACAAGACCTTCGACGGGGACGTCTTCCGCTTCCCCGGCCTCTGCGAC
+TACAACTTCGCCTCCGACTGCCGAGGCTCCTACAAGGAATTTGCTGTGCACCTGAAGCGG
+GGTCCGGGCCAGGCTGAGGCCCCCGCCGGGGTGGAGTCCATCCTGCTGACCATCAAGGAT
+GACACCATCTACCTCACCCGCCACCTGGCTGTGCTTAACGGGGCCGTGGTCAGCACCCCG
+CACTACAGCCCCGGGCTGCTCATTGAGAAGAGCGATGCCTACACCAAAGTCTACTCCCGC
+GCCGGCCTCACCCTCATGTGGAACCGGGAGGATGCACTCATGCTGGAGCTGGACACTAAG
+TTCCGGAACCACACCTGTGGCCTCTGCGGGGACTACAACGGCCTGCAGAGCTATTCAGAA
+TTCCTCTCTGACGGCGTGCTCTTCAGTCCCCTGGAGTTTGGGAACATGCAGAAGATCAAC
+CAGCCCGATGTGGTGTGTGAGGATCCCGAGGAGGAGGTGGCCCCCGCATCCTGCTCCGAG
+CACCGCGCCGAGTGTGAGAGGCTGCTGACCGCCGAGGCCTTCGCGGACTGTCAGGACCTG
+GTGCCGCTGGAGCCGTATCTGCGCGCCTGCCAGCAGGACCGCTGCCGGTGCCCGGGCGGT
+GACACCTGCGTCTGCAGCACCGTGGCCGAGTTCTCCCGCCAGTGCTCCCACGCCGGCGGC
+CGGCCCGGGAACTGGAGGACCGCCACGCTCTGCCCCAAGACCTGCCCCGGGAACCTGGTG
+TACCTGGAGAGCGGCTCGCCCTGCATGGACACCTGCTCACACCTGGAGGTGAGCAGCCTG
+TGCGAGGAGCACCGCATGGACGGCTGTTTCTGCCCAGAAGGCACCGTATATGACGACATC
+GGGGACAGTGGCTGCGTTCCTGTGAGCCAGTGCCACTGCAGGCTGCACGGACACCTGTAC
+ACACCGGGCCAGGAGATCACCAATGACTGCGAGCAGTGTGTCTGTAACGCTGGCCGCTGG
+GTGTGCAAAGACCTGCCCTGCCCCGGCACCTGTGCCCTGGAAGGCGGCTCCCACATCACC
+ACCTTCGATGGGAAGACGTACACCTTCCACGGGGACTGCTACTATGTCCTGGCCAAGGGT
+GACCACAACGATTCCTACGCTCTCCTGGGCGAGCTGGCCCCCTGTGGCTCCACAGACAAG
+CAGACCTGCCTGAAGACGGTGGTGCTGCTGGCTGACAAGAAGAAGAATGCGGTGGTCTTC
+AAGTCCGATGGCAGTGTACTGCTCAACCAGCTGCAGGTGAACCTGCCCCACGTGACCGCG
+AGCTTCTCTGTCTTCCGCCCGTCTTCCTACCACATCATGGTGAGCATGGCCATTGGCGTC
+CGGCTGCAGGTGCAGCTGGCCCCAGTCATGCAACTCTTTGTGACACTGGACCAGGCCTCC
+CAGGGGCAGGTGCAGGGCCTCTGCGGGAACTTCAACGGCCTGGAAGGTGACGACTTCAAG
+ACGGCCAGCGGGCTGGTGGAGGCCACGGGGGCCGGCTTTGCCAACACCTGGAAGGCACAG
+TCAACCTGCCATGACAAGCTGGACTGGTTGGACGATCCCTGCTCCCTGAACATCGAGAGC
+GCCAACTACGCCGAGCACTGGTGCTCCCTCCTGAAGAAGACAGAGACCCCCTTTGGCAGG
+TGCCACTCGGCTGTGGACCCTGCTGAGTATTACAAGAGGTGCAAATATGACACGTGTAAC
+TGTCAGAACAATGAGGACTGCCTGTGCGCCGCCCTGTCCTCCTACGCGCGCGCCTGCACC
+GCCAAGGGCGTCATGCTGTGGGGCTGGCGGGAGCATGTCTGCAACAAGGATGTGGGCTCC
+TGCCCCAACTCGCAGGTCTTCCTGTACAACCTGACCACCTGCCAGCAGACCTGCCGCTCC
+CTCTCCGAGGCCGACAGCCACTGTCTCGAGGGCTTTGCGCCTGTGGACGGCTGCGGCTGC
+CCTGACCACACCTTCCTGGACGAGAAGGGCCGCTGCGTACCCCTGGCCAAGTGCTCCTGT
+TACCACCGCGGTCTCTACCTGGAGGCGGGGGATGTGGTCGTCAGGCAGGAAGAACGATGT
+GTGTGCCGGGATGGGCGGCTGCACTGTAGGCAGATCCGGCTGATCGGCCAGAGCTGCACG
+GCCCCAAAGATCCACATGGACTGCAGCAACCTGACTGCACTGGCCACCTCGAAGCCCCGA
+GCCCTCAGCTGCCAGACGCTGGCCGCCGGCTATTACCACACAGAGTGTGTCAGTGGCTGT
+GTGTGCCCCGACGGGCTGATGGATGACGGCCGGGGTGGCTGCGTGGTGGAGAAGGAATGC
+CCTTGCGTCCATAACAACGACCTGTATTCTTCCGGCGCCAAGATCAAGGTGGACTGCAAT
+ACCTGCACCTGCAAGAGAGGACGCTGGGTGTGCACCCAGGCTGTGTGCCATGGCACCTGC
+TCCATTTACGGGAGTGGCCACTACATCACCTTTGATGGGAAGTACTACGACTTTGACGGA
+CACTGCTCCTACGTGGCTGTTCAGGACTACTGCGGCCAGAACTCCTCACTGGGCTCATTC
+AGCATCATCACCGAGAACGTCCCCTGTGGCACTACGGGCGTCACCTGCTCCAAGGCCATC
+AAGATCTTCATGGGGAGGACGGAGCTGAAGTTGGAAGACAAGCACCGTGTGGTGATCCAG
+CGTGATGAGGGTCACCACGTGGCCTACACCACGCGGGAGGTGGGCCAGTACCTGGTGGTG
+GAGTCCAGCACGGGCATCATCGTCATCTGGGACAAGAGGACCACCGTGTTCATCAAGCTG
+GCTCCCTCCTACAAGGGCACCGTGTGTGGCCTGTGTGGGAACTTTGACCACCGCTCCAAC
+AACGACTTCACCACGCGGGACCACATGGTGGTGAGCAGCGAGCTGGACTTCGGGAACAGC
+TGGAAGGAGGCCCCCACCTGCCCAGATGTGAGCACCAACCCCGAGCCCTGCAGCCTGAAC
+CCGCACCGCCGCTCCTGGGCCGAGAAGCAGTGCAGCATCCTCAAAAGCAGCGTGTTCAGC
+ATCTGCCACAGCAAGGTGGACCCCAAGCCCTTCTACGAGGCCTGTGTGCACGACTCGTGC
+TCCTGTGACACGGGTGGGGACTGTGAGTGCTTCTGCTCTGCCGTGGCCTCCTACGCCCAG
+GAGTGTACCAAAGAGGGGGCCTGCGTGTTCTGGAGGACGCCGGACCTGTGCCCCATATTC
+TGCGACTACTACAACCCTCCGCATGAGTGTGAGTGGCACTATGAGCCATGTGGGAACCGG
+AGCTTCGAGACCTGCAGGACCATCAACGGCATCCACTCCAACATCTCCGTGTCCTACCTG
+GAGGGCTGCTACCCCCGGTGCCCCAAGGACAGGCCCATCTATGAGGAGGATCTGAAGAAG
+TGTGTCACTGCAGACAAGTGTGGCTGCTATGTCGAGGACACCCACTACCCACCTGGAGCA
+TCGGTTCCCACCGAGGAGACCTGCAAGTCCTGCGTGTGTACCAACTCCTCCCAAGTCGTC
+TGCAGGCCGGAGGAAGGAAAGATTCTTAACCAGACCCAGGATGGCGCCTTCTGCTACTGG
+GAGATCTGTGGCCCCAACGGGACGGTGGAGAAGCACTTCAACATCTGTTCCATTACGACA
+CGCCCGTCCACCCTGACCACCTTCACCACCATCACCCTCCCCACCACCCCCACCTCCTTC
+ACCACTACCACCACCACCACCACCCCGACCTCCAGCACAGTTTTATCAACAACTCCGAAG
+CTGTGCTGCCTCTGGTCTGACTGGATCAATGAGGACCACCCCAGCAGTGGCAGCGACGAC
+GGTGACCGAGAACCATTTGATGGGGTCTGCGGGGCCCCTGAGGACATCGAGTGCAGGTCG
+GTCAAGGATCCCCACCTCAGCTTGGAGCAGCATGGCCAGAAGGTGCAGTGTGATGTCTCT
+GTTGGGTTCATTTGCAAGAATGAAGACCAGTTTGGAAATGGACCATTTGGACTGTGTTAC
+GACTACAAGATACGTGTCAATTGTTGCTGGCCCATGGATAAGTGTATCACCACTCCCAGC
+CCTCCAACTACCACTCCCAGCCCTCCACCAACCACGACGACCACCCTTCCACCAACCACC
+ACCCCCAGCCCTCCAACCACCACCACAACCACCCCTCCACCAACCACCACCCCCAGCCCT
+CCAATAACCACCACGACCACCCCTCTACCAACCACCACTCCCAGCCCTCCAATAAGCACC
+ACAACCACCCCTCCACCAACCACCACTCCCAGCCCTCCAACCACCACTCCCAGCCCTCCA
+ACCACCACTCCCAGCCCTCCAACAACCACCACAACCACCCCTCCACCAACCACCACTCCC
+AGCCCTCCAATGACTACGCCCATCACTCCACCAGCCAGCACTACCACCCTTCCACCAACC
+ACCACTCCCAGCCCTCCAACAACCACCACAACCACCCCTCCACCAACCACCACTCCCAGT
+CCTCCAACGACTACGCCCATCACTCCACCAACCAGCACTACTACCCTTCCACCAACCACC
+ACTCCCAGCCCTCCACCAACCACCACAACCACCCCTCCACCAACCACCACTCCCAGCCCT
+CCAACAACCACCACTCCCAGTCCTCCAACAATCACCACAACCACCCCTCCACCAACCACC
+ACTCCCAGCCCTCCAACAACGACCACAACCACCCCTCCACCAACCACCACTCCCAGCCCT
+CCAACGACTACACCCATCACTCCACCAACCAGCACTACCACCCTTCCACCAACCACCACT
+CCCAGCCCTCCACCAACCACCACAACCACCCCTCCACCAACCACCACTCCCAGCCCTCCA
+ACAACCACCACTCCCAGCCCTCCAATAACCACCACAACCACCCCTCCACCAACCACCACT
+CCCAGCTCTCCAATAACCACCACTCCCAGCCCTCCAACAACCACCATGACCACCCCTTCA
+CCAACCACCACCCCCAGCTCTCCAATAACCACCACAACCACCCCTTCCTCAACTACCACT
+CCCAGCCCTCCACCAACCACCATGACCACCCCTTCACCAACCACCACTCCCAGCCCTCCA
+ACAACCACCATGACCACCCTTCCACCAACCACCACTTCCAGCCCTCTAACAACTACTCCT
+CTACCTCCATCAATAACTCCTCCTACATTTTCACCATTCTCAACGACAACCCCTACTACC
+CCATGCGTGCCTCTCTGCAATTGGACTGGCTGGCTGGATTCTGGAAAACCCAACTTTCAC
+AAACCAGGTGGAGACACAGAATTGATTGGAGACGTCTGTGGACCAGGCTGGGCAGCTAAC
+ATCTCTTGCAGAGCCACCATGTATCCTGATGTTCCCATTGGACAGCTTGGACAAACAGTG
+GTGTGTGATGTCTCTGTGGGGCTGATATGCAAAAATGAAGACCAAAAGCCAGGTGGGGTC
+ATCCCTATGGCCTTCTGCCTCAACTACGAGATCAACGTTCAGTGCTGTGAGTGTGTCACC
+CAACCCACCACCATGACAACCACCACCACAGAGAACCCAACTCCGCCAACCACGACACCC
+ATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACC
+ACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAG
+ACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACC
+GGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCA
+ACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACC
+CCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACT
+ACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACC
+ACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACA
+CCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCA
+ACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACA
+CAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCC
+ACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACC
+CCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTG
+ACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACC
+ACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATC
+ACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACG
+ACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACC
+CCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGC
+ACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACA
+CCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCA
+ACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACG
+GTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACC
+ACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCC
+ATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACC
+ACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAG
+ACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACC
+GGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCA
+ACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACC
+CCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACT
+ACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACC
+ACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACA
+CCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCA
+ACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACA
+CAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCC
+ACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACC
+CCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTG
+ACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACC
+ACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATC
+ACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACG
+ACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACC
+CCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGC
+ACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACA
+CCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCA
+ACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACG
+GTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACC
+ACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCC
+ATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACC
+ACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAG
+ACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACC
+GGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCA
+ACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACC
+CCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACT
+ACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACC
+ACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACA
+CCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCA
+ACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACA
+CAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCC
+ACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACC
+CCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTG
+ACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACC
+ACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATC
+ACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACG
+ACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACC
+CCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGC
+ACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACA
+CCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCA
+ACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACG
+GTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACC
+ACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCC
+ATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACC
+ACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAG
+ACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACC
+GGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCA
+ACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACC
+CCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACT
+ACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACC
+ACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACA
+CCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCA
+ACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACA
+CAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCC
+ACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACC
+CCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTG
+ACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACC
+ACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATC
+ACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACG
+ACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACC
+CCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGC
+ACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACA
+CCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCA
+ACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACG
+GTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACC
+ACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCC
+ATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACC
+ACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAG
+ACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACC
+GGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCA
+ACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACC
+CCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACT
+ACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACC
+ACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACA
+CCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCA
+ACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACA
+CAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCC
+ACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACC
+CCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTG
+ACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACC
+ACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATC
+ACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACG
+ACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACC
+CCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACACCCACCGGC
+ACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCAACCCCAACA
+CCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACGGTGACCCCA
+ACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACCACCACTACG
+GTGACCCCAACCCCAACACCCACCGGCACACAGACCCCAACCACGACACCCATCACCACC
+ACCACTACGGTGACCCCAACCCCAACACCCACCGGCACACAGACCGGGCCCCCCACCCAC
+ACAAGCACAGCACCGATTGCTGAGTTGACCACATCCAATCCTCCGCCTGAGTCCTCAACC
+CCTCAGACCTCTCGGTCCACCTCTTCCCCTCTCACGGAGTCAACCACCCTTCTGAGTACC
+CTACCACCTGCCATTGAGATGACCAGCACGGCCCCACCCTCCACACCCACGGCACCCACG
+ACCACGAGCGGAGGCCACACACTGTCTCCACCGCCCAGCACCACCACGTCCCCTCCAGGC
+ACCCCCACTCGCGGTACCACGACCGGGTCATCTTCAGCCCCCACCCCCAGCACTGTGCAG
+ACGACCACCACCAGTGCCTGGACCCCAACGCCGACCCCACTCTCCACACCCAGCATCATC
+AGGACCACAGGCCTGAGGCCCTACCCTTCCTCTGTGCTTATCTGCTGTGTCCTGAACGAC
+ACCTACTACGCACCAGGTGAGGAGGTGTACAACGGCACATACGGAGACACCTGTTATTTC
+GTCAACTGCTCACTGAGCTGTACGTTGGAGTTCTATAACTGGTCCTGCCCATCCACGCCC
+TCCCCAACACCCACGCCCTCCAAGTCGACGCCCACGCCTTCCAAGCCATCGTCCACGCCC
+TCCAAGCCGACGCCCGGCACCAAGCCCCCCGAGTGCCCAGACTTTGATCCTCCCAGACAG
+GAGAACGAGACTTGGTGGCTGTGCGACTGCTTCATGGCCACGTGCAAGTACAACAACACG
+GTGGAGATCGTGAAGGTGGAGTGTGAGCCGCCGCCCATGCCCACCTGCTCCAACGGCCTC
+CAACCCGTGCGCGTCGAGGACCCCGACGGCTGCTGCTGGCACTGGGAGTGCGACTGCTAC
+TGCACGGGCTGGGGCGACCCGCACTATGTCACCTTCGACGGACTCTACTACAGCTACCAG
+GGCAACTGCACCTACGTGCTGGTGGAGGAGATCAGCCCCTCCGTGGACAACTTCGGAGTT
+TACATCGACAACTACCACTGCGATCCCAACGACAAGGTGTCCTGTCCCCGCACCCTCATC
+GTGCGCCACGAGACCCAGGAGGTGCTGATCAAGACCGTGCATATGATGCCCATGCAGGTG
+CAGGTGCAGGTGAACAGGCAGGCGGTGGCACTGCCCTACAAGAAGTACGGGCTGGAGGTG
+TACCAGTCTGGCATCAACTACGTGGTGGACATCCCCGAGCTGGGTGTCCTCGTCTCCTAC
+AATGGCCTGTCCTTCTCCGTCAGGCTGCCCTACCACCGGTTTGGCAACAACACCAAGGGC
+CAGTGTGGCACCTGCACCAACACCACCTCCGACGACTGCATTCTGCCCAGCGGGGAGATC
+GTCTCCAACTGTGAGGCTGCGGCTGACCAGTGGCTGGTGAACGACCCCTCCAAGCCACAC
+TGCCCCCACAGCAGCTCCACGACCAAGCGCCCGGCCGTCACTGTGCCCGGGGGCGGTAAA
+ACGACCCCACACAAGGACTGCACCCCATCTCCCCTCTGCCAGCTCATCAAGGACAGCCTG
+TTTGCCCAGTGCCACGCACTGGTGCCCCCGCAGCACTACTACGATGCCTGCGTGTTCGAC
+AGCTGCTTCATGCCGGGCTCGAGCCTGGAGTGCGCCAGTCTGCAGGCCTACGCAGCCCTC
+TGTGCCCAGCAGAACATCTGCCTCGACTGGCGGAACCACACGCATGGGGCCTGCTTGGTG
+GAGTGCCCATCTCACAGGGAGTACCAGGCCTGTGGCCCTGCAGAAGAGCCCACGTGCAAA
+TCCAGCTCCTCCCAGCAGAACAACACAGTCCTGGTGGAAGGCTGCTTCTGTCCTGAGGGC
+ACCATGAACTACGCTCCTGGCTTTGATGTCTGCGTGAAGACCTGCGGCTGTGTGGGACCT
+GACAATGTGCCCAGAGAGTTTGGGGAGCACTTCGAGTTCGACTGCAAGAACTGTGTCTGC
+CTGGAGGGTGGAAGTGGCATCATCTGCCAACCCAAGAGGTGCAGCCAGAAGCCCGTTACC
+CACTGCGTGGAAGACGGCACCTACCTCGCCACGGAGGTCAACCCTGCCGACACCTGCTGC
+AACATTACCGTCTGCAAGTGCAACACCAGCCTGTGCAAAGAGAAGCCCTCCGTGTGCCCG
+CTGGGATTCGAAGTGAAGAGCAAGATGGTGCCTGGAAGGTGCTGTCCCTTCTACTGGTGT
+GAGTCCAAGGGGGTGTGTGTTCACGGGAATGCTGAGTACCAGCCCGGTTCTCCAGTTTAT
+TCCTCCAAGTGCCAGGACTGCGTGTGCACGGACAAGGTGGACAACAACACCCTGCTCAAC
+GTCATCGCCTGCACCCACGTGCCCTGCAACACCTCCTGCAGCCCTGGCTTCGAACTCATG
+GAGGCCCCCGGGGAGTGCTGTAAGAAGTGTGAACAGACGCACTGTATCATCAAACGGCCC
+GACAACCAGCACGTCATCCTGAAGCCCGGGGACTTCAAGAGCGACCCGAAGAACAACTGC
+ACATTCTTCAGCTGCGTGAAGATCCACAACCAGCTCATCTCGTCCGTCTCCAACATCACC
+TGCCCCAACTTTGATGCCAGCATTTGCATCCCGGGCTCCATCACATTCATGCCCAATGGA
+TGCTGCAAGACCTGCACCCCTCGCAATGAGACCAGGGTGCCCTGCTCCACCGTCCCCGTC
+ACCACGGAGGTTTCGTACGCCGGCTGCACCAAGACCGTCCTCATGAATCATTGCTCCGGG
+TCCTGCGGGACATTTGTCATGTACTCGGCCAAGGCCCAGGCCCTGGACCACAGCTGCTCC
+TGCTGCAAAGAGGAGAAAACCAGCCAGCGTGAGGTGGTCCTGAGCTGCCCCAATGGCGGC
+TCGCTGACACACACCTACACCCACATCGAGAGCTGCCAGTGCCAGGACACCGTCTGCGGG
+CTCCCCACCGGCACCTCCCGCCGGGCCCGGCGCTCCCCTAGGCATCTGGGGAGCGGGTGA
+
+# Drug_Target_6_General_Function:
+Not Available
+
+# Drug_Target_6_General_References:
+1400449	Gum JR Jr, Hicks JW, Toribara NW, Rothe EM, Lagace RE, Kim YS: The human MUC2 intestinal mucin has cysteine-rich subdomains located both upstream and downstream of its central repetitive region. J Biol Chem. 1992 Oct 25;267(30):21375-83.
+1550588	Xu G, Huan L, Khatri I, Sajjan US, McCool D, Wang D, Jones C, Forstner G, Forstner J: Human intestinal mucin-like protein (MLP) is homologous with rat MLP in the C-terminal region, and is encoded by a gene on chromosome 11 p 15.5. Biochem Biophys Res Commun. 1992 Mar 16;183(2):821-8.
+1885763	Toribara NW, Gum JR Jr, Culhane PJ, Lagace RE, Hicks JW, Petersen GM, Kim YS: MUC-2 human small intestinal mucin gene structure. Repeated arrays and polymorphism. J Clin Invest. 1991 Sep;88(3):1005-13.
+8300571	Gum JR Jr, Hicks JW, Toribara NW, Siddiki B, Kim YS: Molecular cloning of human intestinal mucin (MUC2) cDNA. Identification of the amino terminus and overall sequence similarity to prepro-von Willebrand factor. J Biol Chem. 1994 Jan 28;269(4):2440-6.
+
+# Drug_Target_6_HGNC_ID:
+HGNC:7512
+
+# Drug_Target_6_HPRD_ID:
+11828
+
+# Drug_Target_6_ID:
+1593
+
+# Drug_Target_6_Locus:
+11p15.5
+
+# Drug_Target_6_Molecular_Weight:
+540301
+
+# Drug_Target_6_Name:
+Mucin-2
+
+# Drug_Target_6_Number_of_Residues:
+5179
+
+# Drug_Target_6_PDB_ID:
+Not Available
+
+# Drug_Target_6_Pathway:
+Not Available
+
+# Drug_Target_6_Pfam_Domain_Function:
+PF00007	Cys_knot
+PF00093	VWC
+PF00094	VWD
+PF08742	DUF1787
+
+# Drug_Target_6_Protein_Sequence:
+>Mucin-2 precursor
+MGLPLARLAAVCLALSLAGGSELQTEGRTRYHGRNVCSTWGNFHYKTFDGDVFRFPGLCD
+YNFASDCRGSYKEFAVHLKRGPGQAEAPAGVESILLTIKDDTIYLTRHLAVLNGAVVSTP
+HYSPGLLIEKSDAYTKVYSRAGLTLMWNREDALMLELDTKFRNHTCGLCGDYNGLQSYSE
+FLSDGVLFSPLEFGNMQKINQPDVVCEDPEEEVAPASCSEHRAECERLLTAEAFADCQDL
+VPLEPYLRACQQDRCRCPGGDTCVCSTVAEFSRQCSHAGGRPGNWRTATLCPKTCPGNLV
+YLESGSPCMDTCSHLEVSSLCEEHRMDGCFCPEGTVYDDIGDSGCVPVSQCHCRLHGHLY
+TPGQEITNDCEQCVCNAGRWVCKDLPCPGTCALEGGSHITTFDGKTYTFHGDCYYVLAKG
+DHNDSYALLGELAPCGSTDKQTCLKTVVLLADKKKNAVVFKSDGSVLLNQLQVNLPHVTA
+SFSVFRPSSYHIMVSMAIGVRLQVQLAPVMQLFVTLDQASQGQVQGLCGNFNGLEGDDFK
+TASGLVEATGAGFANTWKAQSTCHDKLDWLDDPCSLNIESANYAEHWCSLLKKTETPFGR
+CHSAVDPAEYYKRCKYDTCNCQNNEDCLCAALSSYARACTAKGVMLWGWREHVCNKDVGS
+CPNSQVFLYNLTTCQQTCRSLSEADSHCLEGFAPVDGCGCPDHTFLDEKGRCVPLAKCSC
+YHRGLYLEAGDVVVRQEERCVCRDGRLHCRQIRLIGQSCTAPKIHMDCSNLTALATSKPR
+ALSCQTLAAGYYHTECVSGCVCPDGLMDDGRGGCVVEKECPCVHNNDLYSSGAKIKVDCN
+TCTCKRGRWVCTQAVCHGTCSIYGSGHYITFDGKYYDFDGHCSYVAVQDYCGQNSSLGSF
+SIITENVPCGTTGVTCSKAIKIFMGRTELKLEDKHRVVIQRDEGHHVAYTTREVGQYLVV
+ESSTGIIVIWDKRTTVFIKLAPSYKGTVCGLCGNFDHRSNNDFTTRDHMVVSSELDFGNS
+WKEAPTCPDVSTNPEPCSLNPHRRSWAEKQCSILKSSVFSICHSKVDPKPFYEACVHDSC
+SCDTGGDCECFCSAVASYAQECTKEGACVFWRTPDLCPIFCDYYNPPHECEWHYEPCGNR
+SFETCRTINGIHSNISVSYLEGCYPRCPKDRPIYEEDLKKCVTADKCGCYVEDTHYPPGA
+SVPTEETCKSCVCTNSSQVVCRPEEGKILNQTQDGAFCYWEICGPNGTVEKHFNICSITT
+RPSTLTTFTTITLPTTPTSFTTTTTTTTPTSSTVLSTTPKLCCLWSDWINEDHPSSGSDD
+GDREPFDGVCGAPEDIECRSVKDPHLSLEQHGQKVQCDVSVGFICKNEDQFGNGPFGLCY
+DYKIRVNCCWPMDKCITTPSPPTTTPSPPPTTTTTLPPTTTPSPPTTTTTTPPPTTTPSP
+PITTTTTPLPTTTPSPPISTTTTPPPTTTPSPPTTTPSPPTTTPSPPTTTTTTPPPTTTP
+SPPMTTPITPPASTTTLPPTTTPSPPTTTTTTPPPTTTPSPPTTTPITPPTSTTTLPPTT
+TPSPPPTTTTTPPPTTTPSPPTTTTPSPPTITTTTPPPTTTPSPPTTTTTTPPPTTTPSP
+PTTTPITPPTSTTTLPPTTTPSPPPTTTTTPPPTTTPSPPTTTTPSPPITTTTTPPPTTT
+PSSPITTTPSPPTTTMTTPSPTTTPSSPITTTTTPSSTTTPSPPPTTMTTPSPTTTPSPP
+TTTMTTLPPTTTSSPLTTTPLPPSITPPTFSPFSTTTPTTPCVPLCNWTGWLDSGKPNFH
+KPGGDTELIGDVCGPGWAANISCRATMYPDVPIGQLGQTVVCDVSVGLICKNEDQKPGGV
+IPMAFCLNYEINVQCCECVTQPTTMTTTTTENPTPPTTTPITTTTTVTPTPTPTGTQTPT
+TTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTP
+TPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPIT
+TTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGT
+QTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTV
+TPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTT
+TPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPT
+PTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITT
+TTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQ
+TPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVT
+PTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTT
+PITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTP
+TGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTT
+TTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQT
+PTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTP
+TPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTP
+ITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPT
+GTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTT
+TVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTP
+TTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPT
+PTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPI
+TTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTG
+TQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTT
+VTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPT
+TTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTP
+TPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPIT
+TTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGT
+QTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTV
+TPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTT
+TPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPT
+PTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITT
+TTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQ
+TPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVT
+PTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTT
+PITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTP
+TGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTT
+TTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQT
+PTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTP
+TPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTPTTTPITTTTTVTPTPTPTGTQTGPPTH
+TSTAPIAELTTSNPPPESSTPQTSRSTSSPLTESTTLLSTLPPAIEMTSTAPPSTPTAPT
+TTSGGHTLSPPPSTTTSPPGTPTRGTTTGSSSAPTPSTVQTTTTSAWTPTPTPLSTPSII
+RTTGLRPYPSSVLICCVLNDTYYAPGEEVYNGTYGDTCYFVNCSLSCTLEFYNWSCPSTP
+SPTPTPSKSTPTPSKPSSTPSKPTPGTKPPECPDFDPPRQENETWWLCDCFMATCKYNNT
+VEIVKVECEPPPMPTCSNGLQPVRVEDPDGCCWHWECDCYCTGWGDPHYVTFDGLYYSYQ
+GNCTYVLVEEISPSVDNFGVYIDNYHCDPNDKVSCPRTLIVRHETQEVLIKTVHMMPMQV
+QVQVNRQAVALPYKKYGLEVYQSGINYVVDIPELGVLVSYNGLSFSVRLPYHRFGNNTKG
+QCGTCTNTTSDDCILPSGEIVSNCEAAADQWLVNDPSKPHCPHSSSTTKRPAVTVPGGGK
+TTPHKDCTPSPLCQLIKDSLFAQCHALVPPQHYYDACVFDSCFMPGSSLECASLQAYAAL
+CAQQNICLDWRNHTHGACLVECPSHREYQACGPAEEPTCKSSSSQQNNTVLVEGCFCPEG
+TMNYAPGFDVCVKTCGCVGPDNVPREFGEHFEFDCKNCVCLEGGSGIICQPKRCSQKPVT
+HCVEDGTYLATEVNPADTCCNITVCKCNTSLCKEKPSVCPLGFEVKSKMVPGRCCPFYWC
+ESKGVCVHGNAEYQPGSPVYSSKCQDCVCTDKVDNNTLLNVIACTHVPCNTSCSPGFELM
+EAPGECCKKCEQTHCIIKRPDNQHVILKPGDFKSDPKNNCTFFSCVKIHNQLISSVSNIT
+CPNFDASICIPGSITFMPNGCCKTCTPRNETRVPCSTVPVTTEVSYAGCTKTVLMNHCSG
+SCGTFVMYSAKAQALDHSCSCCKEEKTSQREVVLSCPNGGSLTHTYTHIESCQCQDTVCG
+LPTGTSRRARRSPRHLGSG
+
+# Drug_Target_6_Reaction:
+Not Available
+
+# Drug_Target_6_Signals:
+1-20
+
+# Drug_Target_6_Specific_Function:
+Coats the epithelia of the intestines, airways, and other mucus membrane-containing organs. Thought to provide a protective, lubricating barrier against particles and infectious agents at mucosal surfaces
+
+# Drug_Target_6_SwissProt_ID:
+Q02817
+
+# Drug_Target_6_SwissProt_Name:
+MUC2_HUMAN
+
+# Drug_Target_6_Synonyms:
+Intestinal mucin-2
+Mucin-2 precursor
+
+# Drug_Target_6_Theoretical_pI:
+5.63
+
+# Drug_Target_6_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB01411

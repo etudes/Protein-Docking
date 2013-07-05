@@ -1,0 +1,429 @@
+#BEGIN_DRUGCARD DB00024
+
+# AHFS_Codes:
+36:60.00
+
+# ATC_Codes:
+V04CJ01
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Thyrogen (Genzyme Inc)
+
+# CAS_Registry_Number:
+9002-71-5
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C975H1513N267O304S26
+
+# Chemical_IUPAC_Name:
+Not Available
+
+# Chemical_Structure:
+>Alpha chain
+APDVQDCPECTLQENPFFSQPGAPILQCMGCCFSRAYPTPLRSKKTMLVQKNVTSESTCC
+VAKSYNRVTVMGGFKVENHTACHCSTCYYHKS
+>Beta chain
+NSCELTNITIAIEKEECRFCISINTTWCAGYCYTRDLVYKDPARPKIQKTCTFKELVYET
+VRVPGCAHHADSLYTYPVATQCHCGKCDSDSTDCTVRGLGPSYCSFGEMKE
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2246016
+
+# Description:
+Thyrotropin alfa is a heterodimeric glycoprotein comprised of two non-covalently linked subunits, an alpha subunit of 92 amino acid residues containing two N-linked glycosylation sites and a beta subunit of 118 residues containing one N-linked glycosylation site. The amino acid sequence of thyrotropin alfa is identical to that of human pituitary thyroid stimulating hormone.
+
+# Dosage_Forms:
+Powder, for solution	Intramuscular
+
+# Drug_Category:
+Diagnostic Agents
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Biotech
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-0.330
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+M16647
+
+# Generic_Name:
+Thyrotropin Alfa
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+5 +/- 10 hrs
+
+# InChI_Identifier:
+Not Available
+
+# InChI_Key:
+Not Available
+
+# Indication:
+For detection of residueal or recurrent thyroid cancer
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+24
+
+# Mechanism_Of_Action:
+Thyrotropin Alfa binds to the thyrotropin receptors found on any residual thyroid cells or tissues. This stimulates radioactive iodine uptake for better radiodiagnostic imaging.
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+22672.9000
+
+# Molecular_Weight_Mono:
+Not Available
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+1FL7
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164746560
+
+# Pharmacology:
+Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification. Thyrogen is an exogenous source of human TSH that offers an additional diagnostic tool in the follow-up of patients with a history of well-differentiated thyroid cancer.
+
+# Predicted_LogP_Hydrophobicity:
+Not Available
+
+# Predicted_LogS:
+Not Available
+
+# Predicted_Water_Solubility:
+Not Available
+
+# Primary_Accession_No:
+DB00024
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic2/thyrotropin.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+BIOD00020
+BTD00020
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+Not Available
+
+# State:
+liquid
+
+# Structure:
+0
+
+# SwissProt_ID:
+P01225
+
+# SwissProt_Name:
+FSHB_HUMAN
+
+# Synonyms:
+FSH-B
+FSH-beta
+Follicle-stimulating hormone beta subunit
+Follitropin beta chain precursor
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2011-09-03 17:17:49 -0600
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+7.50
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+15571461	Szkudlinski MW: Recombinant human thyrotropins of the twenty-first century. Expert Opin Pharmacother. 2004 Dec;5(12):2435-40.
+9039330	Conway GS: Clinical manifestations of genetic defects affecting gonadotrophins and their receptors. Clin Endocrinol (Oxf). 1996 Dec;45(6):657-63.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+TSHR
+
+# Drug_Target_1_GenBank_ID_Gene:
+M73747
+
+# Drug_Target_1_GenBank_ID_Protein:
+903760
+
+# Drug_Target_1_GeneCard_ID:
+TSHR
+
+# Drug_Target_1_Gene_Name:
+TSHR
+
+# Drug_Target_1_Gene_Sequence:
+>2292 bp
+ATGAGGCCGGCGGACTTGCTGCAGCTGGTGCTGCTGCTCGACCTGCCCAGGGACCTGGGC
+GGAATGGGGTGTTCGTCTCCACCCTGCGAGTGCCATCAGGAGGAGGACTTCAGAGTCACC
+TGCAAGGATATTCAACGCATCCCCAGCTTACCGCCCAGTACGCAGACTCTGAAGCTTATT
+GAGACTCACCTGAGAACTATTCCAAGTCATGCATTTTCTAATCTGCCCAATATTTCCAGA
+ATCTACGTATCTATAGATGTGACTCTGCAGCAGCTGGAATCACACTCCTTCTACAATTTG
+AGTAAAGTGACTCACATAGAAATTCGGAATACCAGGAACTTAACTTACATAGACCCTGAT
+GCCCTCAAAGAGCTCCCCCTCCTAAAGTCCTTGGCATTTTCAAACACTGGACTTAAAATG
+TTCCCTGACCTGACCAAAGTTTATTCCACTGATATATTCTTTATACTTGAAATTACAGAC
+AACCCTTACATGACGTCAATCCCTGTGAATGCTTTTCAGGGACTATGCAATGAAACCTTG
+ACACTGAAGCTGTACAACAATGGCTTTACTTCAGTCCAAGGATATGATTTCTTTGGGACA
+AAGCTGGATGCTGTTTACCTAAACAAGAATAAATACCTGACAGTTATTGACAAAGATGCA
+TTTGGAGGAGTATACAGTGGACCAAGCTTGCTGGACGTGTCTCAAACCAGTGTCACTGCC
+CTTCCATCCAAAGGCCTGGAGCACCTGAAGGAACTGATAGCAAGAAACAGCTGGACTCTT
+AAGAAACTTGCACTTTCCTTGAGTTTCCTTCACCTCACACGGGCTGACCTTTCTTACCCA
+AGCCACTGCTGTGCTTTTAAGAATCAGAAGAAAATCAGAGGAATCCTTGAGTCCTTGATG
+TGTAATGAGAGCAGTATCGAGACGTTGCGCCAGAGAAAATCTGTGAATGCCTTGAATAGC
+CCCCTCCACCAGGAATATGAAGAGAATCTGGGTGACAGCATTGTTGGGTACAAGGAAAAG
+TCCAAGTTCCAGGATACTCATAACAACGCTCATTATTACGTCTTCTTTGAAGAACAAGAG
+GATGAGATCATTGGTTTTGGCCAGGAGCTCAAAAACCCCCAGGAAGAGACTCTACAAGCT
+TTTGACAGCCATTATGACTACACCATATGTGGGGACAGTGAAGACATGGTGTGTACCCCC
+AAGTCCGATGAGTTCAACCCGTGTGAAGACATAATGGGCTACAAGTTCCTGAGAATTGTG
+GTGTGGTTCGTTAGTCTGCTGGCTCTCCTGGGCAATGTCTTTGTCCTGCTTATTCTCCTC
+ACCAGCCACTACAAACTGAACGTCCCCCGCTTTCTCATGTGCAACCTGGCCTTTGCGGAT
+TTCTGCATGGGGATGTACCTGCTCCTCATCGCCTCTGTAGACCTCTACACTCACTCTGAG
+TACTACAACCATGCCATCGACTGGCAGACAGGCCCTGGGTGCAACACGGCTGGTTTCTTC
+ACTGTCTTTGCAAGCGAGTTATCGGTGTATACGCTGACGGTCATCACCCTGGAGCGCTGG
+TATGCCATCACCTTCGCCATGGCCCTGGACCGGAAGATCCGCCTCAGGCACGCATGTGCC
+ATCATGGTTGGGGGCTGGGTTTGCTGCTTCCTTCTCGCCCTGCTTCCTTTGGTGGGAATA
+AGTAGCTATGCCAAAGTCAGTATCTGCCTGCCCATGGACACCGAGACCCCTCTTGCTCTG
+GCATATATTGTTTTTGTTCTGACGCTCAACATAGTTGCCTTCGTCATCGTCTGCTGCTGT
+TATGTGAAGATCTACATCACAGTCCGAAATCCGCACAACCCAGGGGACAAAGATACCAAA
+ATTGCCAAGAGGATGGCTGTGTTGATCTTCACCGACTTCACGTGCATGGCCCCAATCTCA
+TTCTATGCTGTGTCAGCAATTCTGAACAAGCCTCTCATCACTGTTAGCAACTCCAAAATC
+TTGCTGGTACTCTTCTATCCAATTAACTCCTGTGCCAATCCATTCCTCTATGCTATTTTC
+ACCAAGGCCTTCCAGAGGGATGTGTTCATCCTACTCAGCAAGTTTGGCATCTGTAAACGC
+CAGGCTCAGGCATACCGGGGGCAGAGGGTTCCTCCAAAGAACAGCACTGATATTCAGGTT
+CAAAAGGTTACCCACGACATGAGGCAGGGTCTCCACAACATGGAAGATGTCTATGAACTG
+ATTGAAAACTCCCATCTAACCCCAAAGAAGCAAGGCCAAATCTCAGAAGAGTATATGCAA
+ACGGTTTTGTAA
+
+# Drug_Target_1_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_1_General_References:
+10037070	Russo D, Wong MG, Costante G, Chiefari E, Treseler PA, Arturi F, Filetti S, Clark OH: A Val 677 activating mutation of the thyrotropin receptor in a Hurthle cell thyroid carcinoma associated with thyrotoxicosis. Thyroid. 1999 Jan;9(1):13-7.
+10199795	Khoo DH, Parma J, Rajasoorya C, Ho SC, Vassart G: A germline mutation of the thyrotropin receptor gene associated with thyrotoxicosis and mitral valve prolapse in a Chinese family. J Clin Endocrinol Metab. 1999 Apr;84(4):1459-62.
+10487707	Gabriel EM, Bergert ER, Grant CS, van Heerden JA, Thompson GB, Morris JC: Germline polymorphism of codon 727 of human thyroid-stimulating hormone receptor is associated with toxic multinodular goiter. J Clin Endocrinol Metab. 1999 Sep;84(9):3328-35.
+10560955	Esapa CT, Duprez L, Ludgate M, Mustafa MS, Kendall-Taylor P, Vassart G, Harris PE: A novel thyrotropin receptor mutation in an infant with severe thyrotoxicosis. Thyroid. 1999 Oct;9(10):1005-10.
+10651846	Kaczur V, Takacs M, Szalai C, Falus A, Nagy Z, Berencsi G, Balazs C: Analysis of the genetic variability of the 1st (CCC/ACC, P52T) and the 10th exons (bp 1012-1704) of the TSH receptor gene in Graves' disease. Eur J Immunogenet. 2000 Feb;27(1):17-23.
+10720030	Tonacchera M, Agretti P, Pinchera A, Rosellini V, Perri A, Collecchi P, Vitti P, Chiovato L: Congenital hypothyroidism with impaired thyroid response to thyrotropin (TSH) and absent circulating thyroglobulin: evidence for a new inactivating mutation of the TSH receptor gene. J Clin Endocrinol Metab. 2000 Mar;85(3):1001-8.
+10852462	Tonacchera M, Agretti P, Chiovato L, Rosellini V, Ceccarini G, Perri A, Viacava P, Naccarato AG, Miccoli P, Pinchera A, Vitti P: Activating thyrotropin receptor mutations are present in nonadenomatous hyperfunctioning nodules of toxic or autonomous multinodular goiter. J Clin Endocrinol Metab. 2000 Jun;85(6):2270-4.
+10870027	Farid NR, Kascur V, Balazs C: The human thyrotropin receptor is highly mutable: a review of gain-of-function mutations. Eur J Endocrinol. 2000 Jul;143(1):25-30.
+10946859	Muhlberg T, Herrmann K, Joba W, Kirchberger M, Heberling HJ, Heufelder AE: Lack of association of nonautoimmune hyperfunctioning thyroid disorders and a germline polymorphism of codon 727 of the human thyrotropin receptor in a European Caucasian population. J Clin Endocrinol Metab. 2000 Aug;85(8):2640-3.
+11022192	Kosugi S, Hai N, Okamoto H, Sugawa H, Mori T: A novel activating mutation in the thyrotropin receptor gene in an autonomously functioning thyroid nodule developed by a Japanese patient. Eur J Endocrinol. 2000 Oct;143(4):471-7.
+11081252	Tonacchera M, Agretti P, Rosellini V, Ceccarini G, Perri A, Zampolli M, Longhi R, Larizza D, Pinchera A, Vitti P, Chiovato L: Sporadic nonautoimmune congenital hyperthyroidism due to a strong activating mutation of the thyrotropin receptor gene. Thyroid. 2000 Oct;10(10):859-63.
+11095460	Russo D, Betterle C, Arturi F, Chiefari E, Girelli ME, Filetti S: A novel mutation in the thyrotropin (TSH) receptor gene causing loss of TSH binding but constitutive receptor activation in a family with resistance to TSH. J Clin Endocrinol Metab. 2000 Nov;85(11):4238-42.
+11127522	Biebermann H, Schoneberg T, Krude H, Gudermann T, Gruters A: Constitutively activating TSH-receptor mutations as a molecular cause of non-autoimmune hyperthyroidism in childhood. Langenbecks Arch Surg. 2000 Oct;385(6):390-2.
+11128715	Camacho P, Gordon D, Chiefari E, Yong S, DeJong S, Pitale S, Russo D, Filetti S: A Phe 486 thyrotropin receptor mutation in an autonomously functioning follicular carcinoma that was causing hyperthyroidism. Thyroid. 2000 Nov;10(11):1009-12.
+11201847	Fuhrer D, Warner J, Sequeira M, Paschke R, Gregory J, Ludgate M: Novel TSHR germline mutation (Met463Val) masquerading as Graves' disease in a large Welsh kindred with hyperthyroidism. Thyroid. 2000 Dec;10(12):1035-41.
+11434721	Trulzsch B, Krohn K, Wonerow P, Chey S, Holzapfel HP, Ackermann F, Fuhrer D, Paschke R: Detection of thyroid-stimulating hormone receptor and Gsalpha mutations: in 75 toxic thyroid nodules by denaturing gradient gel electrophoresis. J Mol Med. 2001;78(12):684-91.
+11442002	Nagashima T, Murakami M, Onigata K, Morimura T, Nagashima K, Mori M, Morikawa A: Novel inactivating missense mutations in the thyrotropin receptor gene in Japanese children with resistance to thyrotropin. Thyroid. 2001 Jun;11(6):551-9.
+11502179	Cornelis S, Uttenweiler-Joseph S, Panneels V, Vassart G, Costagliola S: Purification and characterization of a soluble bioactive amino-terminal extracellular domain of the human thyrotropin receptor. Biochemistry. 2001 Aug 21;40(33):9860-9.
+11517004	Alberti L, Proverbio MC, Costagliola S, Weber G, Beck-Peccoz P, Chiumello G, Persani L: A novel germline mutation in the TSH receptor gene causes non-autoimmune autosomal dominant hyperthyroidism. Eur J Endocrinol. 2001 Sep;145(3):249-54.
+11549687	Biebermann H, Schoneberg T, Hess C, Germak J, Gudermann T, Gruters A: The first activating TSH receptor mutation in transmembrane domain 1 identified in a family with nonautoimmune hyperthyroidism. J Clin Endocrinol Metab. 2001 Sep;86(9):4429-33.
+11887032	Chistiakov DA, Savost'anov KV, Turakulov RI, Petunina N, Balabolkin MI, Nosikov VV: Further studies of genetic susceptibility to Graves' disease in a Russian population. Med Sci Monit. 2002 Mar;8(3):CR180-4.
+12045258	Nakabayashi K, Matsumi H, Bhalla A, Bae J, Mosselman S, Hsu SY, Hsueh AJ: Thyrostimulin, a heterodimer of two new human glycoprotein hormone subunits, activates the thyroid-stimulating hormone receptor. J Clin Invest. 2002 Jun;109(11):1445-52.
+12050212	Alberti L, Proverbio MC, Costagliola S, Romoli R, Boldrighini B, Vigone MC, Weber G, Chiumello G, Beck-Peccoz P, Persani L: Germline mutations of TSH receptor gene as cause of nonautoimmune subclinical hypothyroidism. J Clin Endocrinol Metab. 2002 Jun;87(6):2549-55.
+12213664	Vanvooren V, Uchino S, Duprez L, Costa MJ, Vandekerckhove J, Parma J, Vassart G, Dumont JE, Van Sande J, Noguchi S: Oncogenic mutations in the thyrotropin receptor of autonomously functioning thyroid nodules in the Japanese population. Eur J Endocrinol. 2002 Sep;147(3):287-91.
+12589819	Sykiotis GP, Neumann S, Georgopoulos NA, Sgourou A, Papachatzopoulou A, Markou KB, Kyriazopoulou V, Paschke R, Vagenakis AG, Papavassiliou AG: Functional significance of the thyrotropin receptor germline polymorphism D727E. Biochem Biophys Res Commun. 2003 Feb 21;301(4):1051-6.
+12593721	Ban Y, Greenberg DA, Concepcion ES, Tomer Y: A germline single nucleotide polymorphism at the intracellular domain of the human thyrotropin receptor does not have a major effect on the development of Graves' disease. Thyroid. 2002 Dec;12(12):1079-83.
+12788902	Peeters RP, van Toor H, Klootwijk W, de Rijke YB, Kuiper GG, Uitterlinden AG, Visser TJ: Polymorphisms in thyroid hormone pathway genes are associated with plasma TSH and iodothyronine levels in healthy subjects. J Clin Endocrinol Metab. 2003 Jun;88(6):2880-8.
+12930595	Ho SC, Goh SS, Khoo DH: Association of Graves' disease with intragenic polymorphism of the thyrotropin receptor gene in a cohort of Singapore patients of multi-ethnic origins. Thyroid. 2003 Jun;13(6):523-8.
+1530609	Graves PN, Tomer Y, Davies TF: Cloning and sequencing of a 1.3 KB variant of human thyrotropin receptor mRNA lacking the transmembrane domain. Biochem Biophys Res Commun. 1992 Sep 16;187(2):1135-43.
+1955520	Heldin NE, Gustavsson B, Westermark K, Westermark B: A somatic point mutation in a putative ligand binding domain of the TSH receptor in a patient with autoimmune hyperthyroidism. J Clin Endocrinol Metab. 1991 Dec;73(6):1374-6.
+2293030	Frazier AL, Robbins LS, Stork PJ, Sprengel R, Segaloff DL, Cone RD: Isolation of TSH and LH/CG receptor cDNAs from human thyroid: regulation by tissue specific splicing. Mol Endocrinol. 1990 Aug;4(8):1264-76.
+2302212	Misrahi M, Loosfelt H, Atger M, Sar S, Guiochon-Mantel A, Milgrom E: Cloning, sequencing and expression of human TSH receptor. Biochem Biophys Res Commun. 1990 Jan 15;166(1):394-403.
+2558651	Nagayama Y, Kaufman KD, Seto P, Rapoport B: Molecular cloning, sequence and functional expression of the cDNA for the human thyrotropin receptor. Biochem Biophys Res Commun. 1989 Dec 29;165(3):1184-90.
+2610690	Libert F, Lefort A, Gerard C, Parmentier M, Perret J, Ludgate M, Dumont JE, Vassart G: Cloning, sequencing and expression of the human thyrotropin (TSH) receptor: evidence for binding of autoantibodies. Biochem Biophys Res Commun. 1989 Dec 29;165(3):1250-5.
+7488864	Cuddihy RM, Bryant WP, Bahn RS: Normal function in vivo of a homozygotic polymorphism in the human thyrotropin receptor. Thyroid. 1995 Aug;5(4):255-7.
+7508946	Bahn RS, Dutton CM, Heufelder AE, Sarkar G: A genomic point mutation in the extracellular domain of the thyrotropin receptor in patients with Graves' ophthalmopathy. J Clin Endocrinol Metab. 1994 Feb;78(2):256-60.
+7528344	Sunthornthepvarakui T, Gottschalk ME, Hayashi Y, Refetoff S: Brief report: resistance to thyrotropin caused by mutations in the thyrotropin-receptor gene. N Engl J Med. 1995 Jan 19;332(3):155-60.
+7556878	Gustavsson B, Eklof C, Westermark K, Westermark B, Heldin NE: Functional analysis of a variant of the thyrotropin receptor gene in a family with Graves' disease. Mol Cell Endocrinol. 1995 Jun;111(2):167-73.
+7647578	Ohno M, Endo T, Ohta K, Gunji K, Onaya T: Point mutations in the thyrotropin receptor in human thyroid tumors. Thyroid. 1995 Apr;5(2):97-100.
+7800007	Kopp P, van Sande J, Parma J, Duprez L, Gerber H, Joss E, Jameson JL, Dumont JE, Vassart G: Brief report: congenital hyperthyroidism caused by a mutation in the thyrotropin-receptor gene. N Engl J Med. 1995 Jan 19;332(3):150-4.
+7920658	Duprez L, Parma J, Van Sande J, Allgeier A, Leclere J, Schvartz C, Delisle MJ, Decoulx M, Orgiazzi J, Dumont J, et al.: Germline mutations in the thyrotropin receptor gene cause non-autoimmune autosomal dominant hyperthyroidism. Nat Genet. 1994 Jul;7(3):396-401.
+7989485	Paschke R, Tonacchera M, Van Sande J, Parma J, Vassart G: Identification and functional characterization of two new somatic mutations causing constitutive activation of the thyrotropin receptor in hyperfunctioning autonomous adenomas of the thyroid. J Clin Endocrinol Metab. 1994 Dec;79(6):1785-9.
+8045989	Porcellini A, Ciullo I, Laviola L, Amabile G, Fenzi G, Avvedimento VE: Novel mutations of thyrotropin receptor gene in thyroid hyperfunctioning adenomas. Rapid identification by fine needle aspiration biopsy. J Clin Endocrinol Metab. 1994 Aug;79(2):657-61.
+8413627	Parma J, Duprez L, Van Sande J, Cochaux P, Gervy C, Mockel J, Dumont J, Vassart G: Somatic mutations in the thyrotropin receptor gene cause hyperfunctioning thyroid adenomas. Nature. 1993 Oct 14;365(6447):649-51.
+8636266	Tonacchera M, Van Sande J, Cetani F, Swillens S, Schvartz C, Winiszewski P, Portmann L, Dumont JE, Vassart G, Parma J: Functional characteristics of three new germline mutations of the thyrotropin receptor gene causing autosomal dominant toxic thyroid hyperplasia. J Clin Endocrinol Metab. 1996 Feb;81(2):547-54.
+8747461	Jiang X, Dreano M, Buckler DR, Cheng S, Ythier A, Wu H, Hendrickson WA, el Tayar N: Structural predictions for the ligand-binding region of glycoprotein hormone receptors and the nature of hormone-receptor interactions. Structure. 1995 Dec 15;3(12):1341-53.
+8954020	de Roux N, Misrahi M, Brauner R, Houang M, Carel JC, Granier M, Le Bouc Y, Ghinea N, Boumedienne A, Toublanc JE, Milgrom E: Four families with loss of function mutations of the thyrotropin receptor. J Clin Endocrinol Metab. 1996 Dec;81(12):4229-35.
+8964822	de Roux N, Polak M, Couet J, Leger J, Czernichow P, Milgrom E, Misrahi M: A neomutation of the thyroid-stimulating hormone receptor in a severe neonatal hyperthyroidism. J Clin Endocrinol Metab. 1996 Jun;81(6):2023-6.
+9062474	Russo D, Tumino S, Arturi F, Vigneri P, Grasso G, Pontecorvi A, Filetti S, Belfiore A: Detection of an activating mutation of the thyrotropin receptor in a case of an autonomously hyperfunctioning thyroid insular carcinoma. J Clin Endocrinol Metab. 1997 Mar;82(3):735-8.
+9100579	Clifton-Bligh RJ, Gregory JW, Ludgate M, John R, Persani L, Asteria C, Beck-Peccoz P, Chatterjee VK: Two novel mutations in the thyrotropin (TSH) receptor gene in a child with resistance to TSH. J Clin Endocrinol Metab. 1997 Apr;82(4):1094-100.
+9185526	Abramowicz MJ, Duprez L, Parma J, Vassart G, Heinrichs C: Familial congenital hypothyroidism due to inactivating mutation of the thyrotropin receptor causing profound hypoplasia of the thyroid gland. J Clin Invest. 1997 Jun 15;99(12):3018-24.
+9253356	Parma J, Duprez L, Van Sande J, Hermans J, Rocmans P, Van Vliet G, Costagliola S, Rodien P, Dumont JE, Vassart G: Diversity and prevalence of somatic mutations in the thyrotropin receptor and Gs alpha genes as a cause of toxic thyroid adenomas. J Clin Endocrinol Metab. 1997 Aug;82(8):2695-701.
+9294132	Kopp P, Muirhead S, Jourdain N, Gu WX, Jameson JL, Rodd C: Congenital hyperthyroidism caused by a solitary toxic adenoma harboring a novel somatic mutation (serine281-->isoleucine) in the extracellular domain of the thyrotropin receptor. J Clin Invest. 1997 Sep 15;100(6):1634-9.
+9329388	Biebermann H, Schoneberg T, Krude H, Schultz G, Gudermann T, Gruters A: Mutations of the human thyrotropin receptor gene causing thyroid hypoplasia and persistent congenital hypothyroidism. J Clin Endocrinol Metab. 1997 Oct;82(10):3471-80.
+9349581	Kopp P, Jameson JL, Roe TF: Congenital nonautoimmune hyperthyroidism in a nonidentical twin caused by a sporadic germline mutation in the thyrotropin receptor gene. Thyroid. 1997 Oct;7(5):765-70.
+9360555	Holzapfel HP, Wonerow P, von Petrykowski W, Henschen M, Scherbaum WA, Paschke R: Sporadic congenital hyperthyroidism due to a spontaneous germline mutation in the thyrotropin receptor gene. J Clin Endocrinol Metab. 1997 Nov;82(11):3879-84.
+9398746	Fuhrer D, Wonerow P, Willgerodt H, Paschke R: Identification of a new thyrotropin receptor germline mutation (Leu629Phe) in a family with neonatal onset of autosomal dominant nonautoimmune hyperthyroidism. J Clin Endocrinol Metab. 1997 Dec;82(12):4234-8.
+9589634	Gruters A, Schoneberg T, Biebermann H, Krude H, Krohn HP, Dralle H, Gudermann T: Severe congenital hyperthyroidism caused by a germ-line neo mutation in the extracellular portion of the thyrotropin receptor. J Clin Endocrinol Metab. 1998 May;83(5):1431-6.
+9854118	Rodien P, Bremont C, Sanson ML, Parma J, Van Sande J, Costagliola S, Luton JP, Vassart G, Duprez L: Familial gestational hyperthyroidism caused by a mutant thyrotropin receptor hypersensitive to human chorionic gonadotropin. N Engl J Med. 1998 Dec 17;339(25):1823-6.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:12373
+
+# Drug_Target_1_HPRD_ID:
+04537
+
+# Drug_Target_1_ID:
+545
+
+# Drug_Target_1_Locus:
+14q31
+
+# Drug_Target_1_Molecular_Weight:
+86831
+
+# Drug_Target_1_Name:
+Thyrotropin receptor
+
+# Drug_Target_1_Number_of_Residues:
+764
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+PF00560	LRR_1
+
+# Drug_Target_1_Protein_Sequence:
+>Thyrotropin receptor precursor
+MRPADLLQLVLLLDLPRDLGGMGCSSPPCECHQEEDFRVTCKDIQRIPSLPPSTQTLKLI
+ETHLRTIPSHAFSNLPNISRIYVSIDVTLQQLESHSFYNLSKVTHIEIRNTRNLTYIDPD
+ALKELPLLKFLGIFNTGLKMFPDLTKVYSTDIFFILEITDNPYMTSIPVNAFQGLCNETL
+TLKLYNNGFTSVQGYAFNGTKLDAVYLNKNKYLTVIDKDAFGGVYSGPSLLDVSQTSVTA
+LPSKGLEHLKELIARNTWTLKKLPLSLSFLHLTRADLSYPSHCCAFKNQKKIRGILESLM
+CNESSMQSLRQRKSVNALNSPLHQEYEENLGDSIVGYKEKSKFQDTHNNAHYYVFFEEQE
+DEIIGFGQELKNPQEETLQAFDSHYDYTICGDSEDMVCTPKSDEFNPCEDIMGYKFLRIV
+VWFVSLLALLGNVFVLLILLTSHYKLNVPRFLMCNLAFADFCMGMYLLLIASVDLYTHSE
+YYNHAIDWQTGPGCNTAGFFTVFASELSVYTLTVITLERWYAITFAMRLDRKIRLRHACA
+IMVGGWVCCFLLALLPLVGISSYAKVSICLPMDTETPLALAYIVFVLTLNIVAFVIVCCC
+YVKIYITVRNPQYNPGDKDTKIAKRMAVLIFTDFICMAPISFYALSAILNKPLITVSNSK
+ILLVLFYPLNSCANPFLYAIFTKAFQRDVFILLSKFGICKRQAQAYRGQRVPPKNSTDIQ
+VQKVTHDMRQGLHNMEDVYELIENSHLTPKKQGQISEEYMQTVL
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+1-20
+
+# Drug_Target_1_Specific_Function:
+Receptor for thyrothropin. Plays a central role in controlling thyroid cell metabolism. The activity of this receptor is mediated by G proteins which activate adenylate cyclase. Also acts as a receptor for thyrostimulin (GPA2+GPB5)
+
+# Drug_Target_1_SwissProt_ID:
+P16473
+
+# Drug_Target_1_SwissProt_Name:
+TSHR_HUMAN
+
+# Drug_Target_1_Synonyms:
+TSH-R
+Thyroid-stimulating hormone receptor
+Thyrotropin receptor precursor
+
+# Drug_Target_1_Theoretical_pI:
+6.98
+
+# Drug_Target_1_Transmembrane_Regions:
+414-441
+451-473
+495-517
+538-560
+581-602
+626-649
+661-682
+
+#END_DRUGCARD DB00024

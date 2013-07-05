@@ -1,0 +1,778 @@
+#BEGIN_DRUGCARD DB00441
+
+# AHFS_Codes:
+10:00.00
+
+# ATC_Codes:
+L01BC05
+
+# Absorption:
+100%
+
+# Biotransformation:
+Transformed via nucleoside kinases to two active metabolites, gemcitabine diphosphate and gemcitabine triphosphate. Can also undergo deamination via cytidine deaminase to an inactive uracil metabolite (dFdU).
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+DDFC
+DFDC
+GEO
+Gemcin
+Gemcitabina [INN-Spanish]
+Gemcitabine HCl
+Gemcitabine hydrochloride
+Gemcitabinum [INN-Latin]
+Gemtro
+Gemzar
+
+# CAS_Registry_Number:
+95058-81-4
+
+# ChEBI_ID:
+175901
+
+# Chemical_Formula:
+C9H11F2N3O4
+
+# Chemical_IUPAC_Name:
+4-amino-1-[(2R,4R,5R)-3,3-difluoro-4-hydroxy-5-(hydroxymethyl)oxolan-2-yl]-1,2-dihydropyrimidin-2-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2230309
+
+# Description:
+Gemcitabine is a nucleoside analog used as chemotherapy. It is marketed as Gemzar® by Eli Lilly and Company. As with fluorouracil and other analogues of pyrimidines, the drug replaces one of the building blocks of nucleic acids, in this case cytidine, during DNA replication. The process arrests tumor growth, as new nucleosides cannot be attached to the "faulty" nucleoside, resulting in apoptosis (cellular "suicide").
+Gemcitabine is used in various carcinomas: non-small cell lung cancer, pancreatic cancer, bladder cancer and breast cancer. It is being investigated for use in oesophageal cancer, and is used experimentally in lymphomas and various other tumor types.
+
+# Dosage_Forms:
+Powder, for solution	Intravenous
+
+# Drug_Category:
+Antimetabolites
+Antimetabolites, Antineoplastic
+Antineoplastic Agents
+Antiviral Agents
+Enzyme Inhibitors
+Immunosuppressive Agents
+Radiation-Sensitizing Agents
+
+# Drug_Interactions:
+Acenocoumarol	Gemcitabine may increase the anticoagulant effect of acenocoumarol.
+Anisindione	Gemcitabine may increase the anticoagulant effect of anisindione.
+Bivalirudin	Gemcitabine may enhance the adverse/toxic effect of Bleomycin. The risk of pulmonary toxicity may be increased. Use extreme caution if using gemcitabine and bleomycin in combination. Monitor for the development of pulmonary toxicity.
+Dicumarol	Gemcitabine may increase the anticoagulant effect of dicumarol.
+Paclitaxel	Paclitaxel increases the effect/toxicity of gemcitabine
+Temsirolimus	Co-administration of Temsirolimus and Gemcitabine may result in serious adverse drug reactions.
+Trastuzumab	Trastuzumab may increase the risk of neutropenia and anemia. Monitor closely for signs and symptoms of adverse events.
+Warfarin	Gemcitabine may increase the anticoagulant effect of warfarin.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-1.4
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Soluble
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Gemcitabine
+
+# HET_ID:
+GEO
+
+# Half_Life:
+Short infusions ranged from 32 to 94 minutes, and the value for long infusions vary from 245 to 638 minutes, depending on age and gender.
+
+# InChI_Identifier:
+InChI=1S/C9H11F2N3O4/c10-9(11)6(16)4(3-15)18-7(9)14-2-1-5(12)13-8(14)17/h1-2,4,6-7,15-16H,3H2,(H2,12,13,17)/t4-,6-,7-/m1/s1
+
+# InChI_Key:
+InChIKey=SDUQYLNIPVEERB-QPPQHZFASA-N
+
+# Indication:
+For the first-line treatment of patients with metastatic breast cancer, locally advanced (Stage IIIA or IIIB), or metastatic (Stage IV) non-small cell lung cancer and as first-line treatment for patients with adenocarcinoma of the pancreas.
+
+# KEGG_Compound_ID:
+C07650
+
+# KEGG_Drug_ID:
+D02368
+
+# LIMS_Drug_ID:
+441
+
+# Mechanism_Of_Action:
+Gemcitabine inhibits thymidylate synthetase, leading to inhibition of DNA synthesis and cell death. Gemcitabine is a prodrug so activity occurs as a result of intracellular conversion to two active metabolites, gemcitabine diphosphate and gemcitabine triphosphate by deoxycitidine kinase. Gemcitabine diphosphate also inhibits ribonucleotide reductase, the enzyme responsible for catalyzing synthesis of deoxynucleoside triphosphates required for DNA synthesis. Finally, Gemcitabine triphosphate (diflurorodeoxycytidine triphosphate) competes with endogenous deoxynucleoside triphosphates for incorporation into DNA.
+
+# Melting_Point:
+168.64 °C
+
+# Molecular_Weight_Avg:
+263.1981
+
+# Molecular_Weight_Mono:
+263.071762265
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Gemcitabine Pathway	SMP00446
+
+# PharmGKB_ID:
+PA449748
+
+# Pharmacology:
+Gemcitabine is an antineoplastic anti-metabolite. Anti-metabolites masquerade as purine or pyrimidine - which become the building blocks of DNA. They prevent these substances becoming incorporated in to DNA during the "S" phase (or DNA synthesis phase of the cell cycle), stopping normal development and division. Gemcitabine blocks an enzyme which converts the cytosine nucleotide into the deoxy derivative. In addition, DNA synthesis is further inhibited because Gemcitabine blocks the incorporation of the thymidine nucleotide into the DNA strand.
+
+# Predicted_LogP_Hydrophobicity:
+0.14
+
+# Predicted_LogS:
+-1.1
+
+# Predicted_Water_Solubility:
+2.23e+01 g/l
+
+# Primary_Accession_No:
+DB00441
+
+# Protein_Binding:
+Plasma protein binding is negligible (<10%)
+
+# PubChem_Compound_ID:
+60750
+
+# PubChem_Substance_ID:
+46506425
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic/gemcitab.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00201
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=NC(=O)N(C=C1)[C@@H]1O[C@H](CO)[C@@H](O)C1(F)F
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Myelosuppression, paresthesias, and severe rash were the principal toxicities, LD<sub>50</sub>=500 mg/kg (orally in mice and rats)
+
+# Update_Date:
+2013-02-08 16:19:21 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Gemcitabine
+
+# pKa_Isoelectric_Point:
+3.6
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CDA
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4211
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytidine deaminase
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytidine deaminase
+MAQKRPACTLKPECVQQLLVCSQEAKKSAYCPYSHFPVGAALLTQEGRIFKGCNIENACY
+PLGICAERTAIQKAVSEGYKDFRAIAIASDMQDDFISPCGACRQVMREFGTNWPVYMTKP
+DGTYIVMTVQELLPSSFGPEDLQKTQ
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P32320
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+DCK
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4773
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Deoxycytidine kinase
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Deoxycytidine kinase
+MATPPKRSCPSFSASSEGTRIKKISIEGNIAAGKSTFVNILKQLCEDWEVVPEPVARWCN
+VQSTQDEFEELTMSQKNGGNVLQMMYEKPERWSFTFQTYACLSRIRAQLASLNGKLKDAE
+KPVLFFERSVYSDRYIFASNLYESECMNETEWTIYQDWHDWMNNQFGQSLELDGIIYLQA
+TPETCLHRIYLRGRNEEQGIPLEYLEKLHYKHESWLLHRTLKTNFDYLQEVPILTLDVNE
+DFKDKYESLVEKVKEFLSTL
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P27707
+
+# Drug_Target_1_Cellular_Location:
+Nucleus and mitochondria
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+20348107	Garcia-Diaz M, Murray MS, Kunkel TA, Chou KM: Interaction between DNA Polymerase lambda and anticancer nucleoside analogs. J Biol Chem. 2010 May 28;285(22):16874-9. Epub 2010 Mar 26.
+20719935	Ledermann JA, Gabra H, Jayson GC, Spanswick VJ, Rustin GJ, Jitlal M, James L, Hartley JA: Inhibition of carboplatin-induced DNA interstrand crosslink repair by gemcitabine in patients receiving these drugs for 'platinum-resistant' ovarian cancer. Clin Cancer Res. 2010 Aug 18.
+20798217	Hastak K, Alli E, Ford JM: Synergistic chemosensitivity of triple-negative breast cancer cell lines to PARP inhibition, gemcitabine and cisplatin. Cancer Res. 2010 Aug 26.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+>Example: Dickerson dodecamer
+CGCGAATTCGCG
+
+# Drug_Target_1_General_Function:
+Biological information storage and information transfer
+
+# Drug_Target_1_General_References:
+1234	Nadeau D, Marchand C: Change in the kinetics of sulphacetamide tissue distribution in Walker tumor-bearing rats. Drug Metab Dispos. 1975 Nov-Dec;3(6):565-76.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+874
+
+# Drug_Target_1_Locus:
+All loci
+
+# Drug_Target_1_Molecular_Weight:
+7656 (double strand)
+
+# Drug_Target_1_Name:
+DNA
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+1BNA
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+DNA + DNA polymerase + nNTP = 2 DNA + nNDP; DNA + RNA polymerase + NTP = mRNA + nNDP
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+DNA is the molecule of heredity, as it is responsible for the genetic propagation of most inherited traits. It is a polynucleic acid that carries genetic information on cell growth, division, and function. DNA consists of two long strands of nucleotides twisted into a double helix and held together by hydrogen bonds. The sequence of nucleotides determines hereditary characteristics. Each strand serves as the template for subsequent DNA replication and as a template for mRNA production, leading to protein synthesis via ribosomes.
+
+# Drug_Target_1_SwissProt_ID:
+Not Available
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Deoxyribonucleic acid
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Cytoplasm
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+16708051	Kwon WS, Rha SY, Choi YH, Lee JO, Park KH, Jung JJ, Kim TS, Jeung HC, Chung HC: Ribonucleotide reductase M1 (RRM1) 2464G>A polymorphism shows an association with gemcitabine chemosensitivity in cancer cell lines. Pharmacogenet Genomics. 2006 Jun;16(6):429-38.
+16807441	Rosell R, Cobo M, Isla D, Camps C, Massuti B: Pharmacogenomics and gemcitabine. Ann Oncol. 2006 May;17 Suppl 5:v13-v16.
+16966686	Bepler G, Kusmartseva I, Sharma S, Gautam A, Cantor A, Sharma A, Simon G: RRM1 modulated in vitro and in vivo efficacy of gemcitabine and platinum in non-small-cell lung cancer. J Clin Oncol. 2006 Oct 10;24(29):4731-7. Epub 2006 Sep 11.
+17065054	Smid K, Bergman AM, Eijk PP, Veerman G, van Haperen VW, van den Ijssel P, Ylstra B, Peters GJ: Micro-array analysis of resistance for gemcitabine results in increased expression of ribonucleotide reductase subunits. Nucleosides Nucleotides Nucleic Acids. 2006;25(9-11):1001-7.
+17131328	Nakahira S, Nakamori S, Tsujie M, Takahashi Y, Okami J, Yoshioka S, Yamasaki M, Marubashi S, Takemasa I, Miyamoto A, Takeda Y, Nagano H, Dono K, Umeshita K, Sakon M, Monden M: Involvement of ribonucleotide reductase M1 subunit overexpression in gemcitabine resistance of human pancreatic cancer. Int J Cancer. 2007 Mar 15;120(6):1355-63.
+17636467	Cerqueira NM, Fernandes PA, Ramos MJ: Understanding ribonucleotide reductase inactivation by gemcitabine. Chemistry. 2007;13(30):8507-15.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+RRM1
+
+# Drug_Target_2_GenBank_ID_Gene:
+X59543
+
+# Drug_Target_2_GenBank_ID_Protein:
+36065
+
+# Drug_Target_2_GeneCard_ID:
+RRM1
+
+# Drug_Target_2_Gene_Name:
+RRM1
+
+# Drug_Target_2_Gene_Sequence:
+>2379 bp
+ATGCATGTGATCAAGCGAGATGGCCGCCAAGAACGAGTCATGTTTGACAAAATTACATCT
+CGAATCCAGAAGCTTTGTTATGGACTCAATATGGATTTTGTTGATCCTGCTCAGATCACC
+ATGAAAGTAATCCAAGGCTTGTACAGTGGGGTCACCACAGTGGAACTAGATACTTTGGCT
+GCTGAAACAGCTGCAACCTTGACTACTAAGCACCCTGACTATGCTATCCTGGCAGCCAGG
+ATCGCTGTCTCTAACTTGCACAAAGAAACAAAGAAAGTGTTCAGTGATGTGATGGAAGAC
+CTCTATAACTACATAAATCCACATAATGGCAAACACTCTCCCATGGTGGCCAAGTCAACA
+TTGGATATTGTTCTGGCCAATAAAGATCGCCTGAATTCTGCTATTATCTATGACCGAGAT
+TTCTCTTACAATTACTTCGGCTTTAAGACGCTAGAGCGGTCTTATTTGTTGAAGATCAAT
+GGAAAAGTGGCTGAAAGACCACAACATATGTTGATGAGAGTATCTGTTGGGATCCACAAA
+GAAGACATTGATGCAGCAATTGAAACATATAATCTTCTTTCTGAGAGGTGGTTTACTCAT
+GCTTCGCCCACTCTCTTCAATGCTGGTACCAACCGCCCACAACTTTCTAGCTGTTTTCTT
+CTGAGTATGAAAGATGACAGCATTGAAGGCATTTATGACACTCTAAAGCAATGTGCATTG
+ATTTCTAAGTCTGCTGGAGGAATTGGTGTTGCTGTGAGTTGTATTCGGGCTACTGGCAGC
+TACATTGCTGGGACTAATGGCAATTCCAATGGCCTTGTACCGATGCTGAGAGTATATAAC
+AACACAGCTCGATATGTGGATCAAGGTGGGAACAAGCGTCCTGGGGCATTTGCTATTTAC
+CTGGAGCCTTGGCATTTAGACATCTTTGAATTCCTTGATTTAAAGAAGAACACAGGAAAG
+GAAGAGCAGCGTGCCAGAGATCTTTTCTTTGCTCTTTGGATTCCGGATCTCTTCATGAAA
+CGAGTGGAGACTAATCAGGACTGGTCTTTGATGTGTCCAAATGAGTGTCCTGGTCTGGAT
+GAGGTTTGGGGAGAGGAATTTGAGAAACTATATGCAAGTTATGAGAAACAAGGTCGTGTC
+CGCAAAGTTGTAAAAGCTCAGCAGCTTTGGTATGCCATCATTGAGTCTCAGACGGAAACA
+GGCACCCCGTATATGCTCTACAAAGATTCCTGTAATCGAAAGAGCAACCAGCAGAACCTG
+GGAACCATCAAATGCAGCAACCTGTGCACAGAAATAGTGGAGTACACCAGCAAAGATGAG
+GTTGCTGTTTGTAATTTGGCTTCCCTGGCCCTGAATATGTATGTCACATCAGAACACACA
+TACGACTTTAAGAAGTTGGCTGAAGTCACTAAAGTCGTTGTCCGAAACTTGAATAAAATT
+ATTGATATAAACTACTATCCTGTACCAGAGGCATGCCTATCAAATAAACGCCATCGCCCC
+ATTGGAATTGGGGTACAAGGTCTGGCAGATGCTTTTATCCTGATGAGATACCCTTTTGAG
+AGTGCAGAAGCCCAGTTACTGAATAAGCAGATCTTTGAAACTATTTATTATGGTGCTCTG
+GAAGCCAGCTGTGACCTTGCCAAGGAGCAGGGCCCATACGAAACCTATGAGGGCTCTCCA
+GTTAGCAAAGGAATTCTTCAGTATGATATGTGGAATGTTACTCCTACAGACCTATGGGAC
+TGGAAGGTTCTCAAGGAGAAGATTGCAAAGTATGGTATAAGAAACAGTTTACTTATTGCC
+CCGATGCCTACAGCTTCCACTGCTCAGATCCTGGGGAATAATGAGTCCATTGAACCTTAC
+ACCAGCAACATCTATACTCGCAGAGTCTTGTCAGGAGAATTTCAGATTGTAAATCCTCAC
+TTATTGAAAGATCTTACCGAGCGGGGCCTATGGCATGAAGAGATGAAAAACCAGATTATT
+GCATGCAATGGCTCTATTCAGAGCATACCAGAAATTCCTGATGACCTGAAGCAACTTTAT
+AAAACTGTGTGGGAAATCTCTCAGAAAACTGTTCTCAAGATGGCAGCTGAGAGAGGTGCT
+TTCATTGATCAAAGCCAATCTTTGAACATCCACATTGCTGAGCCTAACTATGGCAAACTC
+ACTAGTATGCACTTCTACGGCTGGAAGCAGGGTTTGAAGACTGGGATGTATTATTTAAGG
+ACGAGACCAGCAGCTAATCCAATCCAGTTCACTCTAAATAAGGAGAAGCTAAAAGATAAA
+GAAAAGGTATCAAAAGAGGAAGAAGAGAAGGAGAGGAACACAGCAGCCATGGTGTGCTCT
+TTGGAGAATAGAGATGAATGTCTGATGTGTGGATCCTGA
+
+# Drug_Target_2_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_2_General_References:
+1627826	Pavloff N, Rivard D, Masson S, Shen SH, Mes-Masson AM: Sequence analysis of the large and small subunits of human ribonucleotide reductase. DNA Seq. 1992;2(4):227-34.
+1840662	Parker NJ, Begley CG, Fox RM: Human M1 subunit of ribonucleotide reductase: cDNA sequence and expression in stimulated lymphocytes. Nucleic Acids Res. 1991 Jul 11;19(13):3741.
+9933563	Bepler G, O'briant KC, Kim YC, Schreiber G, Pitterle DM: A 1.4-Mb high-resolution physical map and contig of chromosome segment 11p15.5 and genes in the LOH11A metastasis suppressor region. Genomics. 1999 Jan 15;55(2):164-75.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:10451
+
+# Drug_Target_2_HPRD_ID:
+01588
+
+# Drug_Target_2_ID:
+360
+
+# Drug_Target_2_Locus:
+11p15.5
+
+# Drug_Target_2_Molecular_Weight:
+90071
+
+# Drug_Target_2_Name:
+Ribonucleoside-diphosphate reductase large subunit
+
+# Drug_Target_2_Number_of_Residues:
+792
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Gemcitabine Pathway	SMP00446
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00317	Ribonuc_red_lgN
+PF02867	Ribonuc_red_lgC
+PF03477	ATP-cone
+
+# Drug_Target_2_Protein_Sequence:
+>Ribonucleoside-diphosphate reductase large subunit
+MHVIKRDGRQERVMFDKITSRIQKLCYGLNMDFVDPAQITMKVIQGLYSGVTTVELDTLA
+AETAATLTTKHPDYAILAARIAVSNLHKETKKVFSDVMEDLYNYINPHNGKHSPMVAKST
+LDIVLANKDRLNSAIIYDRDFSYNYFGFKTLERSYLLKINGKVAERPQHMLMRVSVGIHK
+EDIDAAIETYNLLSERWFTHASPTLFNAGTNRPQLSSCFLLSMKDDSIEGIYDTLKQCAL
+ISKSAGGIGVAVSCIRATGSYIAGTNGNSNGLVPMLRVYNNTARYVDQGGNKRPGAFAIY
+LEPWHLDIFEFLDLKKNTGKEEQRARDLFFALWIPDLFMKRVETNQDWSLMCPNECPGLD
+EVWGEEFEKLYASYEKQGRVRKVVKAQQLWYAIIESQTETGTPYMLYKDSCNRKSNQQNL
+GTIKCSNLCTEIVEYTSKDEVAVCNLASLALNMYVTSEHTYDFKKLAEVTKVVVRNLNKI
+IDINYYPVPEACLSNKRHRPIGIGVQGLADAFILMRYPFESAEAQLLNKQIFETIYYGAL
+EASCDLAKEQGPYETYEGSPVSKGILQYDMWNVTPTDLWDWKVLKEKIAKYGIRNSLLIA
+PMPTASTAQILGNNESIEPYTSNIYTRRVLSGEFQIVNPHLLKDLTERGLWHEEMKNQII
+ACNGSIQSIPEIPDDLKQLYKTVWEISQKTVLKMAAERGAFIDQSQSLNIHIAEPNYGKL
+TSMHFYGWKQGLKTGMYYLRTRPAANPIQFTLNKEKLKDKEKVSKEEEEKERNTAAMVCS
+LENRDECLMCGS
+
+# Drug_Target_2_Reaction:
+2'-deoxyribonucleoside diphosphate + thioredoxin disulfide + H2O = ribonucleoside diphosphate + thioredoxin
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Provides the precursors necessary for DNA synthesis. Catalyzes the biosynthesis of deoxyribonucleotides from the corresponding ribonucleotides
+
+# Drug_Target_2_SwissProt_ID:
+P23921
+
+# Drug_Target_2_SwissProt_Name:
+RIR1_HUMAN
+
+# Drug_Target_2_Synonyms:
+EC 1.17.4.1
+Ribonucleoside-diphosphate reductase M1 subunit
+Ribonucleotide reductase large chain
+
+# Drug_Target_2_Theoretical_pI:
+7.16
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Not Available
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+15655942	Rosell R, Taron M, Sanchez JM, Moran T, Reguart N, Besse B, Isla D, Massuti B, Alberola V, Sanchez JJ: The promise of pharmacogenomics: gemcitabine and pemetrexed. Oncology (Williston Park). 2004 Nov;18(13 Suppl 8):70-6.
+15795320	Giovannetti E, Mey V, Nannizzi S, Pasqualetti G, Marini L, Del Tacca M, Danesi R: Cellular and pharmacogenetics foundation of synergistic interaction of pemetrexed and gemcitabine in human non-small-cell lung cancer cells. Mol Pharmacol. 2005 Jul;68(1):110-8. Epub 2005 Mar 28.
+16563096	Huang CL, Yokomise H, Fukushima M, Kinoshita M: Tailor-made chemotherapy for non-small cell lung cancer patients. Future Oncol. 2006 Apr;2(2):289-99.
+16818276	Marce S, Molina-Arcas M, Villamor N, Casado FJ, Campo E, Pastor-Anglada M, Colomer D: Expression of human equilibrative nucleoside transporter 1 (hENT1) and its correlation with gemcitabine uptake and cytotoxicity in mantle cell lymphoma. Haematologica. 2006 Jul;91(7):895-902.
+16818276	Marce S, Molina-Arcas M, Villamor N, Casado FJ, Campo E, Pastor-Anglada M, Colomer D: Expression of human equilibrative nucleoside transporter 1 (hENT1) and its correlation with gemcitabine uptake and cytotoxicity in mantle cell lymphoma. Haematologica. 2006 Jul;91(7):895-902.
+16818276	Marce S, Molina-Arcas M, Villamor N, Casado FJ, Campo E, Pastor-Anglada M, Colomer D: Expression of human equilibrative nucleoside transporter 1 (hENT1) and its correlation with gemcitabine uptake and cytotoxicity in mantle cell lymphoma. Haematologica. 2006 Jul;91(7):895-902.
+16818276	Marce S, Molina-Arcas M, Villamor N, Casado FJ, Campo E, Pastor-Anglada M, Colomer D: Expression of human equilibrative nucleoside transporter 1 (hENT1) and its correlation with gemcitabine uptake and cytotoxicity in mantle cell lymphoma. Haematologica. 2006 Jul;91(7):895-902.
+16818276	Marce S, Molina-Arcas M, Villamor N, Casado FJ, Campo E, Pastor-Anglada M, Colomer D: Expression of human equilibrative nucleoside transporter 1 (hENT1) and its correlation with gemcitabine uptake and cytotoxicity in mantle cell lymphoma. Haematologica. 2006 Jul;91(7):895-902.
+16818496	Giovannetti E, Mey V, Nannizzi S, Pasqualetti G, Del Tacca M, Danesi R: Pharmacogenetics of anticancer drug sensitivity in pancreatic cancer. Mol Cancer Ther. 2006 Jun;5(6):1387-95.
+17166391	Zhao XD, Zhang Y: [Routine chemotherapeutic drug treatment effectiveness predictive molecules and chemotherapeutic drug selection] Ai Zheng. 2006 Dec;25(12):1577-80.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+TYMS
+
+# Drug_Target_3_GenBank_ID_Gene:
+X02308
+
+# Drug_Target_3_GenBank_ID_Protein:
+37479
+
+# Drug_Target_3_GeneCard_ID:
+TYMS
+
+# Drug_Target_3_Gene_Name:
+TYMS
+
+# Drug_Target_3_Gene_Sequence:
+>942 bp
+ATGCCTGTGGCCGGCTCGGAGCTGCCGCGCCGGCCCTTGCCCCCCGCCGCACAGGAGCGG
+GACGCCGAGCCGCGTCCGCCGCACGGGGAGCTGCAGTACCTGGGGCAGATCCAACACATC
+CTCCGCTGCGGCGTCAGGAAGGACGACCGCACGGGCACCGGCACCCTGTCGGTATTCGGC
+ATGCAGGCGCGCTACAGCCTGAGAGATGAATTCCCTCTGCTGACAACCAAACGTGTGTTC
+TGGAAGGGTGTTTTGGAGGAGTTGCTGTGGTTTATCAAGGGATCCACAAATGCTAAAGAG
+CTGTCTTCCAAGGGAGTGAAAATCTGGGATGCCAATGGATCCCGAGACTTTTTGGACAGC
+CTGGGATTCTCCACCAGAGAAGAAGGGGACTTGGGCCCAGTTTATGGCTTCCAGTGGAGG
+CATTTTGGGGCAGAATACAGAGATATGGAATCAGATTATTCAGGACAGGGAGTTGACCAA
+CTGCAAAGAGTGATTGACACCATCAAAACCAACCCTGACGACAGAAGAATCATCATGTGC
+GCTTGGAATCCAAGAGATCTTCCTCTGATGGCGCTGCCTCCATGCCATGCCCTCTGCCAG
+TTCTATGTGGTGAACAGTGAGCTGTCCTGCCAGCTGTACCAGAGATCGGGAGACATGGGC
+CTCGGTGTGCCTTTCAACATCGCCAGCTACGCCCTGCTCACGTACATGATTGCGCACATC
+ACGGGCCTGAAGCCAGGTGACTTTATACACACTTTGGGAGATGCACATATTTACCTGAAT
+CACATCGAGCCACTGAAAATTCAGCTTCAGCGAGAACCCAGACCTTTCCCAAAGCTCAGG
+ATTCTTCGAAAAGTTGAGAAAATTGATGACTTCAAAGCTGAAGACTTTCAGATTGAAGGG
+TACAATCCGCATCCAACTATTAAAATGGAAATGGCTGTTTAG
+
+# Drug_Target_3_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_3_General_References:
+11278511	Phan J, Steadman DJ, Koli S, Ding WC, Minor W, Dunlap RB, Berger SH, Lebioda L: Structure of human thymidylate synthase suggests advantages of chemotherapy with noncompetitive inhibitors. J Biol Chem. 2001 Apr 27;276(17):14170-7. Epub 2001 Jan 24.
+11329255	Phan J, Koli S, Minor W, Dunlap RB, Berger SH, Lebioda L: Human thymidylate synthase is in the closed conformation when complexed with dUMP and raltitrexed, an antifolate drug. Biochemistry. 2001 Feb 20;40(7):1897-902.
+2243092	Kaneda S, Nalbantoglu J, Takeishi K, Shimizu K, Gotoh O, Seno T, Ayusawa D: Structural and functional analysis of the human thymidylate synthase gene. J Biol Chem. 1990 Nov 25;265(33):20277-84.
+2532645	Takeishi K, Kaneda S, Ayusawa D, Shimizu K, Gotoh O, Seno T: Human thymidylate synthase gene: isolation of phage clones which cover a functionally active gene and structural analysis of the region upstream from the translation initiation codon. J Biochem (Tokyo). 1989 Oct;106(4):575-83.
+2656695	Davisson VJ, Sirawaraporn W, Santi DV: Expression of human thymidylate synthase in Escherichia coli. J Biol Chem. 1989 Jun 5;264(16):9145-8.
+2987839	Takeishi K, Kaneda S, Ayusawa D, Shimizu K, Gotoh O, Seno T: Nucleotide sequence of a functional cDNA for human thymidylate synthase. Nucleic Acids Res. 1985 Mar 25;13(6):2035-43.
+3839505	Shimizu K, Ayusawa D, Takeishi K, Seno T: Purification and NH2-terminal amino acid sequence of human thymidylate synthase in an overproducing transformant of mouse FM3A cells. J Biochem (Tokyo). 1985 Mar;97(3):845-50.
+8845352	Schiffer CA, Clifton IJ, Davisson VJ, Santi DV, Stroud RM: Crystal structure of human thymidylate synthase: a structural mechanism for guiding substrates into the active site. Biochemistry. 1995 Dec 19;34(50):16279-87.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:12441
+
+# Drug_Target_3_HPRD_ID:
+01774
+
+# Drug_Target_3_ID:
+359
+
+# Drug_Target_3_Locus:
+18p11.32
+
+# Drug_Target_3_Molecular_Weight:
+35585
+
+# Drug_Target_3_Name:
+Thymidylate synthase
+
+# Drug_Target_3_Number_of_Residues:
+312
+
+# Drug_Target_3_PDB_ID:
+1JUJ
+
+# Drug_Target_3_Pathway:
+Capecitabine Pathway	SMP00469
+Fluorouracil Pathway	SMP00470
+Gemcitabine Pathway	SMP00446
+Methotrexate Pathway	SMP00432
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00303	Thymidylat_synt
+
+# Drug_Target_3_Protein_Sequence:
+>Thymidylate synthase
+PVAGSELPRRPLPPAAQERDAEPRPPHGELQYLGQIQHILRCGVRKDDRTGTGTLSVFGM
+QARYSLRDEFPLLTTKRVFWKGVLEELLWFIKGSTNAKELSSKGVKIWDANGSRDFLDSL
+GFSTREEGDLGPVYGFQWRHFGAEYRDMESDYSGQGVDQLQRVIDTIKTNPDDRRIIMCA
+WNPRDLPLMALPPCHALCQFYVVNSELSCQLYQRSGDMGLGVPFNIASYALLTYMIAHIT
+GLKPGDFIHTLGDAHIYLNHIEPLKIQLQREPRPFPKLRILRKVEKIDDFKAEDFQIEGY
+NPHPTIKMEMAV
+
+# Drug_Target_3_Reaction:
+5,10-methylenetetrahydrofolate + dUMP = dihydrofolate + dTMP
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Not Available
+
+# Drug_Target_3_SwissProt_ID:
+P04818
+
+# Drug_Target_3_SwissProt_Name:
+TYSY_HUMAN
+
+# Drug_Target_3_Synonyms:
+EC 2.1.1.45
+TS
+TSase
+
+# Drug_Target_3_Theoretical_pI:
+7.00
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Nucleus. Mainly nuclear. Cytoplasm
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+15550676	Hsu CH, Liou JY, Dutschman GE, Cheng YC: Phosphorylation of Cytidine, Deoxycytidine, and Their Analog Monophosphates by Human UMP/CMP Kinase Is Differentially Regulated by ATP and Magnesium. Mol Pharmacol. 2005 Mar;67(3):806-14. Epub 2004 Nov 18.
+16041392	Maring JG, Groen HJ, Wachters FM, Uges DR, de Vries EG: Genetic factors influencing pyrimidine-antagonist chemotherapy. Pharmacogenomics J. 2005;5(4):226-43.
+17000136	Vernejoul F, Ghenassia L, Souque A, Lulka H, Drocourt D, Cordelier P, Pradayrol L, Pyronnet S, Buscail L, Tiraby G: Gene therapy based on gemcitabine chemosensitization suppresses pancreatic tumor growth. Mol Ther. 2006 Dec;14(6):758-67. Epub 2006 Sep 25.
+17565005	Lam W, Leung CH, Bussom S, Cheng YC: The impact of hypoxic treatment on the expression of phosphoglycerate kinase and the cytotoxicity of troxacitabine and gemcitabine. Mol Pharmacol. 2007 Sep;72(3):536-44. Epub 2007 Jun 12.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+CMPK
+
+# Drug_Target_4_GenBank_ID_Gene:
+AF070416
+
+# Drug_Target_4_GenBank_ID_Protein:
+6578133
+
+# Drug_Target_4_GeneCard_ID:
+CMPK
+
+# Drug_Target_4_Gene_Name:
+CMPK1
+
+# Drug_Target_4_Gene_Sequence:
+>687 bp
+ATGCTGAGCCGCTGCCGCAGCGGGCTGCTCCACGTCCTGGGCCTTAGCTTCCTGCTGCAG
+ACCCGCCGGCCGATTCTCCTCTGCTCTCCACGTCTCATGAAGCCGCTGGTCGTGTTCGTC
+CTCGGCGGCCCCGGCGCCGGCAAGGGGACCCAGTGCGCCCGCATCGTCGAGAAATATGGC
+TACACACACCTTTCTGCAGGAGAGCTGCTTCGTGATGAAAGGAAGAACCCAGATTCACAG
+TATGGTGAACTTATTGAAAAGTACATTAAAGAAGGAAAGATTGTACCAGTTGAGATAACC
+ATCAGTTTATTAAAGAGGGAAATGGATCAGACAATGGCTGCCAATGCTCAGAAGAATAAA
+TTCTTGATTGATGGGTTTCCAAGAAATCAAGACAACCTTCAAGGATGGAACAAGACCATG
+GATGGGAAGGCAGATGTATCTTTCGTTCTCTTTTTTGACTGTAATAATGAGATTTGTATT
+GAACGATGTCTTGAGAGGGGAAAGAGTAGTGGTAGGAGTGATGACAACAGAGAGAGCTTG
+GAAAAGAGAATTCAGACCTACCTTCAGTCAACAAAGCCAATTATTGACTTATATGAAGAA
+ATGGGGAAAGTCAAGAAAATAGATGCTTCTAAATCTGTTGATGAAGTTTTTGATGAAGTT
+GTGCAGATTTTTGACAAGGAAGGCTAA
+
+# Drug_Target_4_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_4_General_References:
+10931946	Hu RM, Han ZG, Song HD, Peng YD, Huang QH, Ren SX, Gu YJ, Huang CH, Li YB, Jiang CL, Fu G, Zhang QH, Gu BW, Dai M, Mao YF, Gao GF, Rong R, Ye M, Zhou J, Xu SH, Gu J, Shi JX, Jin WR, Zhang CK, Wu TM, Huang GY, Chen Z, Chen MD, Chen JL: Gene expression profiling in the human hypothalamus-pituitary-adrenal axis and full-length cDNA cloning. Proc Natl Acad Sci U S A. 2000 Aug 15;97(17):9543-8.
+1286669	Hochstrasser DF, Frutiger S, Paquet N, Bairoch A, Ravier F, Pasquali C, Sanchez JC, Tissot JD, Bjellqvist B, Vargas R, et al.: Human liver protein map: a reference database established by microsequencing and gel comparison. Electrophoresis. 1992 Dec;13(12):992-1001.
+8313870	Hughes GJ, Frutiger S, Paquet N, Pasquali C, Sanchez JC, Tissot JD, Bairoch A, Appel RD, Hochstrasser DF: Human liver protein map: update 1993. Electrophoresis. 1993 Nov;14(11):1216-22.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:18170
+
+# Drug_Target_4_HPRD_ID:
+18258
+
+# Drug_Target_4_ID:
+702
+
+# Drug_Target_4_Locus:
+1p32
+
+# Drug_Target_4_Molecular_Weight:
+22223
+
+# Drug_Target_4_Name:
+UMP-CMP kinase
+
+# Drug_Target_4_Number_of_Residues:
+196
+
+# Drug_Target_4_PDB_ID:
+1TEV
+
+# Drug_Target_4_Pathway:
+Gemcitabine Pathway	SMP00446
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00406	ADK
+
+# Drug_Target_4_Protein_Sequence:
+>UMP-CMP kinase
+MKPLVVFVLGGPGAGKGTQCARIVEKYGYTHLSAGELLRDERKNPDSQYGELIEKYIKEG
+KIVPVEITISLLKREMDQTMAANAQKNKFLIDGFPRNQDNLQGWNKTMDGKADVSFVLFF
+DCNNEICIERCLERGKSSGRSDDNRESLEKRIQTYLQSTKPIIDLYEEMGKVKKIDASKS
+VDEVFDEVVQIFDKEG
+
+# Drug_Target_4_Reaction:
+ATP + (d)CMP = ADP + (d)CDP
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+Catalyzes specific phosphoryl transfer from ATP to UMP and CMP
+
+# Drug_Target_4_SwissProt_ID:
+P30085
+
+# Drug_Target_4_SwissProt_Name:
+KCY_HUMAN
+
+# Drug_Target_4_Synonyms:
+Cytidine monophosphate kinase
+Cytidylate kinase
+Deoxycytidylate kinase
+EC 2.7.4.14
+UMP/CMP kinase
+UMP/CMPK
+Uridine monophosphate kinase
+Uridine monophosphate/cytidine monophosphate kinase
+
+# Drug_Target_4_Theoretical_pI:
+5.20
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00441

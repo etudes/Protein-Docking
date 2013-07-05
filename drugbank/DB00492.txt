@@ -1,0 +1,433 @@
+#BEGIN_DRUGCARD DB00492
+
+# AHFS_Codes:
+24:32.04
+
+# ATC_Codes:
+C09AA09
+
+# Absorption:
+Average absolute absorption is 36%. The primary site of absorption is the proximal small intestine (duodenum/jejunum). Food slows the rate of absorption with no effect on the extent of absorption.
+
+# Biotransformation:
+Since fosinoprilat is not biotransformed after intravenous administration, fosinopril, not fosinoprilat, appears to be the precursor for the glucuronide and p-hydroxy metabolites.
+
+# Brand_Mixtures:
+Monopril-HCT (fosinopril sodium + hydrochlorothiazide)
+
+# Brand_Names:
+Acecor
+Monopril
+Staril
+
+# CAS_Registry_Number:
+98048-97-6
+
+# ChEBI_ID:
+5163
+
+# Chemical_Formula:
+C30H46NO7P
+
+# Chemical_IUPAC_Name:
+(2S,4S)-4-cyclohexyl-1-(2-{[2-methyl-1-(propanoyloxy)propoxy](4-phenylbutyl)phosphoryl}acetyl)pyrrolidine-2-carboxylic acid
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2262428
+
+# Description:
+Fosinopril is a phosphinic acid-containing ester prodrug that belongs to the angiotensin-converting enzyme (ACE) inhibitor class of medications. It is rapidly hydrolyzed to fosinoprilat, its principle active metabolite. Fosinoprilat inhibits ACE, the enzyme responsible for the conversion of angiotensin I (ATI) to angiotensin II (ATII). ATII regulates blood pressure and is a key component of the renin-angiotensin-aldosterone system (RAAS). Fosinopril may be used to treat mild to moderate hypertension, as an adjunct in the treatment of congestive heart failure, and to slow the rate of progression of renal disease in hypertensive individuals with diabetes mellitus and microalbuminuria or overt nephropathy.
+
+# Dosage_Forms:
+Tablet	Oral
+Tablet	Oral
+Tablet	Oral
+
+# Drug_Category:
+Angiotensin-converting Enzyme Inhibitors
+Antihypertensive Agents
+
+# Drug_Interactions:
+Amiloride	Increased risk of hyperkalemia
+Azilsartan medoxomil	Pharmacodynamic synergism: dual blockade of renin-angiotensin system. Increases risks of hypotension, hyperkalemia, renal impairment.
+Drospirenone	Increased risk of hyperkalemia
+Icatibant	Icatibant may attenuate the antihypertensive effect of ACE inhibitors by pharmacodynamic antagonism. Monitor concomitant therapy closely.
+Lithium	The ACE inhibitor increases serum levels of lithium
+Potassium	Increased risk of hyperkalemia
+Spironolactone	Increased risk of hyperkalemia
+Tizanidine	Tizanidine increases the risk of hypotension with the ACE inhibitor
+Tobramycin	Increased risk of nephrotoxicity
+Treprostinil	Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use.
+Triamterene	Increased risk of hyperkalemia
+
+# Drug_Reference:
+11329095	Sharma S, Deitchman D, Eni JS, Gelperin K, Ilgenfritz JP, Blumenthal M: The hemodynamic effects of long-term ACE inhibition with fosinopril in patients with heart failure. Fosinopril Hemodynamics Study Group. Am J Ther. 1999 Jul;6(4):181-9.
+11854791	David D, Jallad N, Germino FW, Willett MS, de Silva J, Weidner SM, Mills DJ: A Comparison of the Cough Profile of Fosinopril and Enalapril in Hypertensive Patients with a History of ACE Inhibitor-Associated Cough. Am J Ther. 1995 Oct;2(10):806-813.
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+6.3
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Insoluble
+
+# Food_Interactions:
+Do not take calcium, aluminum, magnesium or iron supplements, or antacids within 2 hours of taking this medication.
+Fosinopril may decrease the excretion of potassium. Salt substitutes containing potassium may increase the risk of hyperkalemia.
+Herbs that may attenuate the antihypertensive effect of fosinopril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice.
+High salt intake may attenuate the antihypertensive effect of fosinopril.
+Take without regard to meals.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Fosinopril
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+12 hours
+
+# InChI_Identifier:
+InChI=1S/C30H46NO7P/c1-4-28(33)37-30(22(2)3)38-39(36,18-12-11-15-23-13-7-5-8-14-23)21-27(32)31-20-25(19-26(31)29(34)35)24-16-9-6-10-17-24/h5,7-8,13-14,22,24-26,30H,4,6,9-12,15-21H2,1-3H3,(H,34,35)/t25-,26+,30?,39?/m1/s1
+
+# InChI_Key:
+InChIKey=BIDNLKIUORFRQP-FKDWWROVSA-N
+
+# Indication:
+For treating mild to moderate hypertension, use as an adjunct in treating congestive heart failure, and may be used to slow the rate of progression of renal disease in hypertensive individuals with diabetes mellitus and microalbuminuria or overt nephropathy.
+
+# KEGG_Compound_ID:
+C07016
+
+# KEGG_Drug_ID:
+D00622
+
+# LIMS_Drug_ID:
+492
+
+# Mechanism_Of_Action:
+There are two isoforms of ACE: the somatic isoform, which exists as a glycoprotein comprised of a single polypeptide chain of 1277; and the testicular isoform, which has a lower molecular mass and is thought to play a role in sperm maturation and binding of sperm to the oviduct epithelium. Somatic ACE has two functionally active domains, N and C, which arise from tandem gene duplication. Although the two domains have high sequence similarity, they play distinct physiological roles. The C-domain is predominantly involved in blood pressure regulation while the N-domain plays a role in hematopoietic stem cell differentiation and proliferation. ACE inhibitors bind to and inhibit the activity of both domains, but have much greater affinity for and inhibitory activity against the C-domain. Fosinoprilat, the active metabolite of fosinopril, competes with ATI for binding to ACE and inhibits and enzymatic proteolysis of ATI to ATII. Decreasing ATII levels in the body decreases blood pressure by inhibiting the pressor effects of ATII as described in the Pharmacology section above. Fosinoprilat also causes an increase in plasma renin activity likely due to a loss of feedback inhibition mediated by ATII on the release of renin and/or stimulation of reflex mechanisms via baroreceptors.
+
+# Melting_Point:
+149-153 °C
+
+# Molecular_Weight_Avg:
+563.6625
+
+# Molecular_Weight_Mono:
+563.301189343
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+1UZF
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+http://www.pdrhealth.com/drugs/rx/rx-mono.aspx?contentFileName=Mon1274.html&contentName=Monopril&contentId=
+
+# Pathways:
+Fosinopril Pathway	SMP00149
+
+# PharmGKB_ID:
+PA449710
+
+# Pharmacology:
+Following oral administration, fosinopril is rapidly and completely hydrolyzed to its principle active metabolite, fosinoprilat. Hydrolysis is thought to occur in the gastrointestinal mucosa and liver. Fosinoprilat is a competitive inhibitor of ACE, a peptidyl dipeptidase that is part of the RAAS. The RAAS is a homeostatic mechanism for regulating hemodynamics, water and electrolyte balance. During sympathetic stimulation or when renal blood pressure or blood flow is reduced, renin is released from the granular cells of the juxtaglomerular apparatus in the kidneys. In the blood stream, renin cleaves circulating angiotensinogen to ATI, which is subsequently cleaved to ATII by ACE. ATII increases blood pressure using a number of mechanisms. First, it stimulates the secretion of aldosterone from the adrenal cortex. Aldosterone travels to the distal convoluted tubule (DCT) and collecting tubule of nephrons where it increases sodium and water reabsorption by increasing the number of sodium channels and sodium-potassium ATPases on cell membranes. Second, ATII stimulates the secretion of vasopressin (also known as antidiuretic hormone or ADH) from the posterior pituitary gland. ADH stimulates further water reabsorption from the kidneys via insertion of aquaporin-2 channels on the apical surface of cells of the DCT and collecting tubules. Third, ATII increases blood pressure through direct arterial vasoconstriction. Stimulation of the Type 1 ATII receptor on vascular smooth muscle cells leads to a cascade of events resulting in myocyte contraction and vasoconstriction. In addition to these major effects, ATII induces the thirst response via stimulation of hypothalamic neurons. ACE inhibitors inhibit the rapid conversion of ATI to ATII and antagonize RAAS-induced increases in blood pressure. ACE (also known as kininase II) is also involved in the enzymatic deactivation of bradykinin, a vasodilator. Inhibiting the deactivation of bradykinin increases bradykinin levels and may further sustain the effects of fosinoprilat by causing increased vasodilation and decreased blood pressure.
+
+# Predicted_LogP_Hydrophobicity:
+4.71
+
+# Predicted_LogS:
+-5.8
+
+# Predicted_Water_Solubility:
+1.01e-03 g/l
+
+# Primary_Accession_No:
+DB00492
+
+# Protein_Binding:
+Fosinoprilat is &ge;95% protein bound
+
+# PubChem_Compound_ID:
+55891
+
+# PubChem_Substance_ID:
+46506495
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic/fosinop.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00526
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+CCC(=O)OC(OP(=O)(CCCCC1=CC=CC=C1)CC(=O)N1C[C@@H](C[C@H]1C(O)=O)C1CCCCC1)C(C)C
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Fosinopril Sodium
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Human overdoses of fosinopril have not been reported, but the most common manifestation of human fosinopril overdosage is likely to be hypotension. Oral doses of fosinopril at 2600 mg/kg in rats were associated with significant lethality. The most common adverse effects include dizzines, cough, fatigue, and headache.
+
+# Update_Date:
+2013-02-08 16:19:23 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Fosinopril
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Cell membrane
+single-pass type I membrane protein. Processed form:Secreted protein. A soluble form
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11030016	Piepho RW: Overview of the angiotensin-converting-enzyme inhibitors. Am J Health Syst Pharm. 2000 Oct 1;57 Suppl 1:S3-7.
+11329095	Sharma S, Deitchman D, Eni JS, Gelperin K, Ilgenfritz JP, Blumenthal M: The hemodynamic effects of long-term ACE inhibition with fosinopril in patients with heart failure. Fosinopril Hemodynamics Study Group. Am J Ther. 1999 Jul;6(4):181-9.
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+2836111	Ondetti MA: Structural relationships of angiotensin converting-enzyme inhibitors to pharmacologic activity. Circulation. 1988 Jun;77(6 Pt 2):I74-8.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+ACE
+
+# Drug_Target_1_GenBank_ID_Gene:
+J04144
+
+# Drug_Target_1_GenBank_ID_Protein:
+178286
+
+# Drug_Target_1_GeneCard_ID:
+ACE
+
+# Drug_Target_1_Gene_Name:
+ACE
+
+# Drug_Target_1_Gene_Sequence:
+>3921 bp
+ATGGGGGCCGCCTCGGGCCGCCGGGGGCCGGGGCTGCTGCTGCCGCTGCCGCTGCTGTTG
+CTGCTGCCGCCGCAGCCCGCCCTGGCGTTGGACCCCGGGCTGCAGCCCGGCAACTTTTCT
+GCTGACGAGGCCGGGGCGCAGCTCTTCGCGCAGAGCTACAACTCCAGCGCCGAACAGGTG
+CTGTTCCAGAGCGTGGCCGCCAGCTGGGCGCACGACACCAACATCACCGCGGAGAATGCA
+AGGCGCCAGGAGGAAGCAGCCCTGCTCAGCCAGGAGTTTGCGGAGGCCTGGGGCCAGAAG
+GCCAAGGAGCTGTATGAACCGATCTGGCAGAACTTCACGGACCCGCAGCTGCGCAGGATC
+ATCGGAGCTGTGCGAACCCTGGGCTCTGCCAACCTGCCCCTGGCTAAGCGGCAGCAGTAC
+AACGCCCTGCTAAGCAACATGAGCAGGATCTACTCCACCGCCAAGGTCTGCCTCCCCAAC
+AAGACTGCCACCTGCTGGTCCCTGGACCCAGATCTCACCAACATCCTGGCTTCCTCGCGA
+AGCTACGCCATGCTCCTGTTTGCCTGGGAGGGCTGGCACAACGCTGCGGGCATCCCGCTG
+AAACCGCTGTACGAGGATTTCACTGCCCTCAGCAATGAAGCCTACAAGCAGGACGGCTTC
+ACAGACACGGGGGCCTACTGGCGCTCCTGGTACAACTCCCCCACCTTCGAGGACGATCTG
+GAACACCTCTACCAACAGCTAGAGCCCCTCTACCTGAACCTCCATGCCTTCGTCCGCCGC
+GCACTGCATCGCCGATACGGAGACAGATACATCAACCTCAGGGGACCCATCCCTGCTCAT
+CTGCTGGGAGACATGTGGGCCCAGAGCTGGGAAAACATCTACGACATGGTGGTGCCTTTC
+CCAGACAAGCCCAACCTCGATGTCACCAGTACTATGCTGCAGCAGGGCTGGAACGCCACG
+CACATGTTCCGGGTGGCAGAGGAGTTCTTCACCTCCCTGGAGCTCTCCCCCATGCCTCCC
+GAGTTCTGGGAAGGGTCGATGCTGGAGAAGCCGGCCGACGGGCGGGAAGTGGTGTGCCAC
+GCCTCGGCTTGGGACTTCTACAACAGGAAAGACTTCAGGATCAAGCAGTGCACACGGGTC
+ACGATGGACCAGCTCTCCACAGTGCACCATGAGATGGGCCATATACAGTACTACCTGCAG
+TACAAGGATCTGCCCGTCTCCCTGCGTCGGGGGGCCAACCCCGGCTTCCATGAGGCCATT
+GGGGACGTGCTGGCGCTCTCGGTCTCCACTCCTGAACATCTGCACAAAATCGGCCTGCTG
+GACCGTGTCACCAATGACACGGAAAGTGACATCAATTACTTGCTAAAAATGGCACTGGAA
+AAAATTGCCTTCCTGCCCTTTGGCTACTTGGTGGACCAGTGGCGCTGGGGGGTCTTTAGT
+GGGCGTACCCCCCCTTCCCGCTACAACTTCGACTGGTGGTATCTTCGAACCAAGTATCAG
+GGGATCTGTCCTCCTGTTACCCGAAACGAAACCCACTTTGATGCTGGAGCTAAGTTTCAT
+GTTCCAAATGTGACACCATACATCAGGTACTTTGTGAGTTTTGTCCTGCAGTTCCAGTTC
+CATGAAGCCCTGTGCAAGGAGGCAGGCTATGAGGGCCCACTGCACCAGTGTGACATCTAC
+CGGTCCACCAAGGCAGGGGCCAAGCTCCGGAAGGTGCTGCAGGCTGGCTCCTCCAGGCCC
+TGGCAGGAGGTGCTGAAGGACATGGTCGGCTTAGATGCCCTGGATGCCCAGCCGCTGCTC
+AAGTACTTCCAGCCAGTCACCCAGTGGCTGCAGGAGCAGAACCAGCAGAACGGCGAGGTC
+CTGGGCTGGCCCGAGTACCAGTGGCACCCGCCGTTGCCTGACAACTACCCGGAGGGCATA
+GACCTGGTGACTGATGAGGCTGAGGCCAGCAAGTTTGTGGAGGAATATGACCGGACATCC
+CAGGTGGTGTGGAACGAGTATGCCGAGGCCAACTGGAACTACAACACCAACATCACCACA
+GAGACCAGCAAGATTCTGCTGCAGAAGAACATGCAAATAGCCAACCACACCCTGAAGTAC
+GGCACCCAGGCCAGGAAGTTTGATGTGAACCAGTTGCAGAACACCACTATCAAGCGGATC
+ATAAAGAAGGTTCAGGACCTAGAACGGGCAGCGCTGCCTGCCCAGGAGCTGGAGGAGTAC
+AACAAGATCCTGTTGGATATGGAAACCACCTACAGCGTGGCCACTGTGTGCCACCCGAAT
+GGCAGCTGCCTGCAGCTCGAGCCAGATCTGACGAATGTGATGGCCACATCCCGGAAATAT
+GAAGACCTGTTATGGGCATGGGAGGGCTGGCGAGACAAGGCGGGGAGAGCCATCCTCCAG
+TTTTACCCGAAATACGTGGAACTCATCAACCAGGCTGCCCGGCTCAATGGCTATGTAGAT
+GCAGGGGACTCGTGGAGGTCTATGTACGAGACACCATCCCTGGAGCAAGACCTGGAGCGG
+CTCTTCCAGGAGCTGCAGCCACTCTACCTCAACCTGCATGCCTACGTGCGCCGGGCCCTG
+CACCGTCACTACGGGGCCCAGCACATCAACCTGGAGGGGCCCATTCCTGCTCACCTGCTG
+GGGAACATGTGGGCGCAGACCTGGTCCAACATCTATGACTTGGTGGTGCCCTTCCCTTCA
+GCCCCCTCGATGGACACCACAGAGGCTATGCTAAAGCAGGGCTGGACGCCCAGGAGGATG
+TTTAAGGAGGCTGATGATTTCTTCACCTCCCTGGGGCTGCTGCCCGTGCCTCCTGAGTTC
+TGGAACAAGTCGATGCTGGAGAAGCCAACCGACGGGCGGGAGGTGGTCTGCCACGCCTCG
+GCCTGGGACTTCTACAACGGCAAGGACTTCCGGATCAAGCAGTGCACCACCGTGAACTTG
+GAGGACCTGGTGGTGGCCCACCACGAAATGGGCCACATCCAGTATTTCATGCAGTACAAA
+GACTTACCTGTGGCCTTGAGGGAGGGTGCCAACCCCGGCTTCCATGAGGCCATTGGGGAC
+GTGCTAGCCCTCTCAGTGTCTACGCCCAAGCACCTGCACAGTCTCAACCTGCTGAGCAGT
+GAGGGTGGCAGCGACGAGCATGACATCAACTTTCTGATGAAGATGGCCCTTGACAAGATC
+GCCTTTATCCCCTTCAGCTACCTCGTCGATCAGTGGCGCTGGAGGGTATTTGATGGAAGC
+ATCACCAAGGAGAACTATAACCAGGAGTGGTGGAGCCTCAGGCTGAAGTACCAGGGCCTC
+TGCCCCCCAGTGCCCAGGACTCAAGGTGACTTTGACCCAGGGGCCAAGTTCCACATTCCT
+TCTAGCGTGCCTTACATCAGGTACTTTGTCAGCTTCATCATCCAGTTCCAGTTCCACGAG
+GCACTGTGCCAGGCAGCTGGCCACACGGGCCCCCTGCACAAGTGTGACATCTACCAGTCC
+AAGGAGGCCGGGCAGCGCCTGGCGACCGCCATGAAGCTGGGCTTCAGTAGGCCGTGGCCG
+GAAGCCATGCAGCTGATCACGGGCCAGCCCAACATGAGCGCCTCGGCCATGTTGAGCTAC
+TTCAAGCCGCTGCTGGACTGGCTCCGCACGGAGAACGAGCTGCATGGGGAGAAGCTGGGC
+TGGCCGCAGTACAACTGGACGCCGAACTCCGCTCGCTCAGAAGGGCCCCTCCCAGACAGC
+GGCCGCGTCAGCTTCCTGGGCCTGGACCTGGATGCGCAGCAGGCCCGCGTGGGCCAGTGG
+CTGCTGCTCTTCCTGGGCATCGCCCTGCTGGTAGCCACCCTGGGCCTCAGCCAGCGGCTC
+TTCAGCATCCGCCACCGCAGCCTCCACCGGCACTCCCACGGGCCCCAGTTCGGCTCCGAG
+GTGGAGCTGAGACACTCCTGA
+
+# Drug_Target_1_General_Function:
+Involved in metallopeptidase activity
+
+# Drug_Target_1_General_References:
+10319862	Rieder MJ, Taylor SL, Clark AG, Nickerson DA: Sequence variation in the human angiotensin converting enzyme. Nat Genet. 1999 May;22(1):59-62.
+10391210	Halushka MK, Fan JB, Bentley K, Hsie L, Shen N, Weder A, Cooper R, Lipshutz R, Chakravarti A: Patterns of single-nucleotide polymorphisms in candidate genes for blood-pressure homeostasis. Nat Genet. 1999 Jul;22(3):239-47.
+10924499	Tipnis SR, Hooper NM, Hyde R, Karran E, Christie G, Turner AJ: A human homolog of angiotensin-converting enzyme. Cloning and functional expression as a captopril-insensitive carboxypeptidase. J Biol Chem. 2000 Oct 27;275(43):33238-43.
+10969042	Donoghue M, Hsieh F, Baronas E, Godbout K, Gosselin M, Stagliano N, Donovan M, Woolf B, Robison K, Jeyaseelan R, Breitbart RE, Acton S: A novel angiotensin-converting enzyme-related carboxypeptidase (ACE2) converts angiotensin I to angiotensin 1-9. Circ Res. 2000 Sep 1;87(5):E1-9.
+12459472	Harmer D, Gilbert M, Borman R, Clark KL: Quantitative mRNA expression profiling of ACE 2, a novel homologue of angiotensin converting enzyme. FEBS Lett. 2002 Dec 4;532(1-2):107-10.
+1649623	Ehlers MR, Riordan JF: Angiotensin-converting enzyme: zinc- and inhibitor-binding stoichiometries of the somatic and testis isozymes. Biochemistry. 1991 Jul 23;30(29):7118-26.
+2558109	Takeuchi K, Shimizu T, Ohishi N, Seyama Y, Takaku F, Yotsumoto H: Purification of human lung angiotensin-converting enzyme by high-performance liquid chromatography: properties and N-terminal amino acid sequence. J Biochem (Tokyo). 1989 Sep;106(3):442-5.
+2849100	Soubrier F, Alhenc-Gelas F, Hubert C, Allegrini J, John M, Tregear G, Corvol P: Two putative active centers in human angiotensin I-converting enzyme revealed by molecular cloning. Proc Natl Acad Sci U S A. 1988 Dec;85(24):9386-90.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:2707
+
+# Drug_Target_1_HPRD_ID:
+00108
+
+# Drug_Target_1_ID:
+244
+
+# Drug_Target_1_Locus:
+17q23.3
+
+# Drug_Target_1_Molecular_Weight:
+149716
+
+# Drug_Target_1_Name:
+Angiotensin-converting enzyme
+
+# Drug_Target_1_Number_of_Residues:
+1306
+
+# Drug_Target_1_PDB_ID:
+1UZF
+
+# Drug_Target_1_Pathway:
+Benazepril Pathway	SMP00145
+Captopril Pathway	SMP00146
+Cilazapril Pathway	SMP00147
+Enalapril Pathway	SMP00148
+Fosinopril Pathway	SMP00149
+Lisinopril Pathway	SMP00150
+Moexipril Pathway	SMP00151
+Perindopril Pathway	SMP00152
+Quinapril Pathway	SMP00153
+Ramipril Pathway	SMP00154
+Rescinnamine Pathway	SMP00155
+Spirapril Pathway	SMP00156
+Trandolapril Pathway	SMP00157
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF01401	Peptidase_M2
+
+# Drug_Target_1_Protein_Sequence:
+>Angiotensin-converting enzyme, somatic isoform precursor
+MGAASGRRGPGLLLPLPLLLLLPPQPALALDPGLQPGNFSADEAGAQLFAQSYNSSAEQV
+LFQSVAASWAHDTNITAENARRQEEAALLSQEFAEAWGQKAKELYEPIWQNFTDPQLRRI
+IGAVRTLGSANLPLAKRQQYNALLSNMSRIYSTAKVCLPNKTATCWSLDPDLTNILASSR
+SYAMLLFAWEGWHNAAGIPLKPLYEDFTALSNEAYKQDGFTDTGAYWRSWYNSPTFEDDL
+EHLYQQLEPLYLNLHAFVRRALHRRYGDRYINLRGPIPAHLLGDMWAQSWENIYDMVVPF
+PDKPNLDVTSTMLQQGWNATHMFRVAEEFFTSLELSPMPPEFWEGSMLEKPADGREVVCH
+ASAWDFYNRKDFRIKQCTRVTMDQLSTVHHEMGHIQYYLQYKDLPVSLRRGANPGFHEAI
+GDVLALSVSTPEHLHKIGLLDRVTNDTESDINYLLKMALEKIAFLPFGYLVDQWRWGVFS
+GRTPPSRYNFDWWYLRTKYQGICPPVTRNETHFDAGAKFHVPNVTPYIRYFVSFVLQFQF
+HEALCKEAGYEGPLHQCDIYRSTKAGAKLRKVLQAGSSRPWQEVLKDMVGLDALDAQPLL
+KYFQPVTQWLQEQNQQNGEVLGWPEYQWHPPLPDNYPEGIDLVTDEAEASKFVEEYDRTS
+QVVWNEYAEANWNYNTNITTETSKILLQKNMQIANHTLKYGTQARKFDVNQLQNTTIKRI
+IKKVQDLERAALPAQELEEYNKILLDMETTYSVATVCHPNGSCLQLEPDLTNVMATSRKY
+EDLLWAWEGWRDKAGRAILQFYPKYVELINQAARLNGYVDAGDSWRSMYETPSLEQDLER
+LFQELQPLYLNLHAYVRRALHRHYGAQHINLEGPIPAHLLGNMWAQTWSNIYDLVVPFPS
+APSMDTTEAMLKQGWTPRRMFKEADDFFTSLGLLPVPPEFWNKSMLEKPTDGREVVCHAS
+AWDFYNGKDFRIKQCTTVNLEDLVVAHHEMGHIQYFMQYKDLPVALREGANPGFHEAIGD
+VLALSVSTPKHLHSLNLLSSEGGSDEHDINFLMKMALDKIAFIPFSYLVDQWRWRVFDGS
+ITKENYNQEWWSLRLKYQGLCPPVPRTQGDFDPGAKFHIPSSVPYIRYFVSFIIQFQFHE
+ALCQAAGHTGPLHKCDIYQSKEAGQRLATAMKLGFSRPWPEAMQLITGQPNMSASAMLSY
+FKPLLDWLRTENELHGEKLGWPQYNWTPNSARSEGPLPDSGRVSFLGLDLDAQQARVGQW
+LLLFLGIALLVATLGLSQRLFSIRHRSLHRHSHGPQFGSEVELRHS
+
+# Drug_Target_1_Reaction:
+Release of a C-terminal dipeptide, oligopeptide!Xaa-Yaa, when Xaa is not Pro, and Yaa is neither Asp nor Glu. Thus, conversion of angiotensin I to angiotensin II, with increase in vasoconstrictor activity, but no action on angiotensin II COFACTOR Zinc INHIBITOR (S)-N-[3-(3,4-Methylenedioxyphenyl)-2-(mercaptomethyl)-1-oxoprolyl]g lycine; (S)-N-[3-(3,4-Methylenedioxyphenyl)-2-(mercaptomethyl)-1-oxoprolyl]- (S)-alanine; (S)-N-[3-(3,4-Methylenedioxyphenyl)-2-(acetylthio)methyl-1-oxoprolyl ]glycine benzyl ester; (S)-N-[3-(3,4-Methylenedioxyphenyl)-2-(acetylthio)methyl-1-oxoprolyl ]-(S)-alanine benzyl ester EFFECTOR Chloride
+
+# Drug_Target_1_Signals:
+1-29
+
+# Drug_Target_1_Specific_Function:
+Converts angiotensin I to angiotensin II by release of the terminal His-Leu, this results in an increase of the vasoconstrictor activity of angiotensin. Also able to inactivate bradykinin, a potent vasodilator
+
+# Drug_Target_1_SwissProt_ID:
+P12821
+
+# Drug_Target_1_SwissProt_Name:
+ACE_HUMAN
+
+# Drug_Target_1_Synonyms:
+Angiotensin-converting enzyme, somatic isoform precursor
+CD143 antigen
+Dipeptidyl carboxypeptidase I
+EC 3.4.15.1
+Kininase II
+
+# Drug_Target_1_Theoretical_pI:
+6.36
+
+# Drug_Target_1_Transmembrane_Regions:
+1260-1276
+
+#END_DRUGCARD DB00492

@@ -1,0 +1,440 @@
+#BEGIN_DRUGCARD DB00900
+
+# AHFS_Codes:
+08:18.08.20
+
+# ATC_Codes:
+J05AF02
+
+# Absorption:
+Rapidly absorbed (bioavailability 30-40%) with peak plasma concentrations appearing within 0.5 and 1.5 hrs.
+
+# Biotransformation:
+Rapidly metabolized intracellularly to its active moiety, 2,3-dideoxyadenosine-5-triphosphate (ddA-TP). It is then further metabolized hepatically to yield hypoxanthine, xanthine, and uric acid.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Videx
+Videx EC
+
+# CAS_Registry_Number:
+69655-05-6
+
+# ChEBI_ID:
+490877
+
+# Chemical_Formula:
+C10H12N4O3
+
+# Chemical_IUPAC_Name:
+9-[(2R,5S)-5-(hydroxymethyl)oxolan-2-yl]-6,9-dihydro-3H-purin-6-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2244596
+
+# Description:
+A dideoxynucleoside compound in which the 3&#39;-hydroxy group on the sugar moiety has been replaced by a hydrogen. This modification prevents the formation of phosphodiester linkages which are needed for the completion of nucleic acid chains. Didanosine is a potent inhibitor of HIV replication, acting as a chain-terminator of viral DNA by binding to reverse transcriptase; ddI is then metabolized to dideoxyadenosine triphosphate, its putative active metabolite. [PubChem]
+
+# Dosage_Forms:
+Capsule, coated	Oral
+Powder, for solution	Oral
+Tablet	Oral
+
+# Drug_Category:
+Anti-HIV Agents
+Antimetabolites
+Purine Nucleoside Phosphorylase inhibitor
+Reverse Transcriptase Inhibitors
+
+# Drug_Interactions:
+Ganciclovir	The antiviral agent, ganciclovir, may increase the effect and toxicity of didanosine.
+Tenofovir	Tenofovir may decrease the therapeutic effects and increase the adverse effects of Didanosine. Monitor for changes in virologic response and Didanosine toxicity during concomitant therapy.
+Tipranavir	Tipranavir may decrease the concentration of Didanosine.
+Tobramycin	Increased risk of nephrotoxicity
+Trovafloxacin	Didanosine may decrease the absorption of orally administered Trovafloxacin. The Didanosine formulation contains magnesium and aluminum ions that intefere with Trovafloxacin absorption. Administer Trovafloxacin 2 hours before or 6 hours after the Didanosine dose to minimize the interaction. This interaction is not observed with enteric coated Didanosine.
+Valganciclovir	The adverse/toxic effects of Didanosine, a reverse transcriptase inhibitor (nucleoside), may be enhanced by Valganciclovir. There is a significant risk of hematologic toxicity. Concomitant therapy should be avoided.
+Voriconazole	Didanosine may interfere with the absorption of orally administered voriconazole. Enteric coated didanosine does not exert this effect. Didanosine buffered formulations should be administered at least 2 hours from oral voriconazole administration.
+Zalcitabine	Additive toxicities (peripheral neuropathy)
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+-1.24
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+15.8 mg/mL
+
+# Food_Interactions:
+Avoid alcohol.
+Take on empty stomach: 1 hour before or 2 hours after meals.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Didanosine
+
+# HET_ID:
+2DI
+
+# Half_Life:
+30 minutes in plasma and more than 12 hours in intracellular environment.
+
+# InChI_Identifier:
+InChI=1S/C10H12N4O3/c15-3-6-1-2-7(17-6)14-5-13-8-9(14)11-4-12-10(8)16/h4-7,15H,1-3H2,(H,11,12,16)/t6-,7+/m0/s1
+
+# InChI_Key:
+InChIKey=BXZVVICBKDXVGW-NKWVEPMBSA-N
+
+# Indication:
+For use, in combination with other antiretroviral agents, in the treatment of HIV-1 infection in adults.
+
+# KEGG_Compound_ID:
+C06953
+
+# KEGG_Drug_ID:
+D00296
+
+# LIMS_Drug_ID:
+900
+
+# Mechanism_Of_Action:
+Didanosine (ddI) is metabolized intracellularly by a series of cellular enzymes to its active moiety, dideoxyadenosine triphosphate (ddATP), which inhibits the HIV reverse transcriptase enzyme competitively by competing with natural dATP. It also acts as a chain terminator by its incorporation into viral DNA as the lack of a 3'-OH group in the incorporated nucleoside analogue prevents the formation of the 5' to 3' phosphodiester linkage essential for DNA chain elongation, and therefore, the viral DNA growth is terminated.
+
+# Melting_Point:
+160-163 °C
+
+# Molecular_Weight_Avg:
+236.2273
+
+# Molecular_Weight_Mono:
+236.09094027
+
+# Organisms_Affected:
+Human Immunodeficiency Virus
+
+# PDB_Experimental_ID:
+1V3Q
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/vid1482.shtml
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA449301
+
+# Pharmacology:
+Didanosine is a nucleoside reverse transcriptase inhibitor (NRTI) with activity against Human Immunodeficiency Virus Type 1 (HIV-1). Didanosine differs from other nucleoside analogues, as it does not have any of the regular bases, instead it has hypoxanthine attached to the sugar ring. Didanosine is phosphorylated to active metabolites that compete for incorporation into viral DNA. They inhibit the HIV reverse transcriptase enzyme competitively and act as a chain terminator of DNA synthesis. Didanosine is effective against HIV, and usually used in combination with other antiviral therapy. Switching from long term AZT treatment to didanosine has been shown to be beneficial. Didanosine has weak acid stability and therefore, it is often combined with an antacid.
+
+# Predicted_LogP_Hydrophobicity:
+-0.99
+
+# Predicted_LogS:
+-1.6
+
+# Predicted_Water_Solubility:
+6.58e+00 g/l
+
+# Primary_Accession_No:
+DB00900
+
+# Protein_Binding:
+Low (<5%)
+
+# PubChem_Compound_ID:
+50599
+
+# PubChem_Substance_ID:
+46506255
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic3/didanosine.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00240
+DB02392
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+OC[C@@H]1CC[C@@H](O1)N1C=NC2=C1NC=NC2=O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+DDI
+Dideoxyinosine
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Side effects include pancreatitis, peripheral neuropathy, diarrhea, hyperuricemia and hepatic dysfunction
+
+# Update_Date:
+2013-02-08 16:19:44 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Didanosine
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+15980333	Frankel FA, Marchand B, Turner D, Gotte M, Wainberg MA: Impaired rescue of chain-terminated DNA synthesis associated with the L74V mutation in human immunodeficiency virus type 1 reverse transcriptase. Antimicrob Agents Chemother. 2005 Jul;49(7):2657-64.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+17620375	Hazen R, Harvey R, Ferris R, Craig C, Yates P, Griffin P, Miller J, Kaldor I, Ray J, Samano V, Furfine E, Spaltenstein A, Hale M, Tung R, St Clair M, Hanlon M, Boone L: In vitro antiviral activity of the novel, tyrosyl-based human immunodeficiency virus (HIV) type 1 protease inhibitor brecanavir (GW640385) in combination with other antiretrovirals and against a panel of protease inhibitor-resistant HIV. Antimicrob Agents Chemother. 2007 Sep;51(9):3147-54. Epub 2007 Jul 9.
+21222147	Idzik KR, Cywinski PJ, Cranfield CG, Mohr GJ, Beckert R: Molecular Recognition of the Antiretroviral Drug Abacavir: Towards the Development of a Novel Carbazole-Based Fluorosensor. J Fluoresc. 2011 Jan 11.
+9084959	Barry M, Gibbons S, Back D, Mulcahy F: Protease inhibitors in patients with HIV disease. Clinically important pharmacokinetic considerations. Clin Pharmacokinet. 1997 Mar;32(3):194-209.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+Not Available
+
+# Drug_Target_1_Gene_Sequence:
+Not Available
+
+# Drug_Target_1_General_Function:
+Not Available
+
+# Drug_Target_1_General_References:
+Not Available
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+7243
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+Not Available
+
+# Drug_Target_1_Name:
+Reverse transcriptase
+
+# Drug_Target_1_Number_of_Residues:
+0
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_1_Protein_Sequence:
+Not Available
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+Not Available
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+Q5DNL9
+
+# Drug_Target_1_SwissProt_Name:
+Not Available
+
+# Drug_Target_1_Synonyms:
+Not Available
+
+# Drug_Target_1_Theoretical_pI:
+Not Available
+
+# Drug_Target_1_Transmembrane_Regions:
+Not Available
+
+# Drug_Target_2_Cellular_Location:
+Not Available
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+NP
+
+# Drug_Target_2_GenBank_ID_Gene:
+X00737
+
+# Drug_Target_2_GenBank_ID_Protein:
+35565
+
+# Drug_Target_2_GeneCard_ID:
+NP
+
+# Drug_Target_2_Gene_Name:
+PNP
+
+# Drug_Target_2_Gene_Sequence:
+>870 bp
+ATGGAGAACGGATACACCTATGAAGATTATAAGAACACTGCAGAATGGCTTCTGTCTCAT
+ACTAAGCACCGACCTCAAGTTGCAATAATCTGTGGTTCTGGATTAGGAGGTCTGACTGAT
+AAATTAACTCAGGCCCAGATCTTTGACTACAGTGAAATCCCCAACTTTCCTCGAAGTACA
+GTGCCAGGTCATGCTGGCCGACTGGTGTTTGGGTTCCTGAATGGCAGGGCCTGTGTGATG
+ATGCAGGGCAGGTTCCACATGTATGAAGGGTACCCACTCTGGAAGGTGACATTCCCAGTG
+AGGGTTTTCCACCTTCTGGGTGTGGACACCCTGGTAGTCACCAATGCAGCAGGAGGGCTG
+AACCCCAAGTTTGAGGTTGGAGATATCATGCTGATCCGTGACCATATCAACCTACCTGGT
+TTCAGTGGTCAGAACCCTCTCAGAGGGCCCAATGATGAAAGGTTTGGAGATCGTTTCCCT
+GCCATGTCTGATGCCTACGACCGGACTATGAGGCAGAGGGCTCTCAGTACCTGGAAACAA
+ATGGGGGAGCAACGTGAGCTACAGGAAGGCACCTATGTGATGGTGGCAGGCCCCAGCTTT
+GAGACTGTGGCAGAATGTCGTGTGCTGCAGAAGCTGGGAGCAGACGCTGTTGGCATGAGT
+ACAGTACCAGAAGTTATCGTTGCACGGCACTGTGGACTTCGAGTCTTTGGCTTCTCACTC
+ATCACTAACAAGGTCATCATGGATTATGAAAGCCTGGAGAAGGCCAACCATGAAGAAGTC
+TTAGCAGCTGGCAAACAAGCTGCACAGAAATTGGAACAGTTTGTCTCCATTCTTATGGCC
+AGCATTCCACTCCCTGACAAAGCCAGTTGA
+
+# Drug_Target_2_General_Function:
+Nucleotide transport and metabolism
+
+# Drug_Target_2_General_References:
+12928150	Yu L, Kalla K, Guthrie E, Vidrine A, Klimecki WT: Genetic variation in genes associated with arsenic metabolism: glutathione S-transferase omega 1-1 and purine nucleoside phosphorylase polymorphisms in European and indigenous Americans. Environ Health Perspect. 2003 Aug;111(11):1421-7.
+1384322	Aust MR, Andrews LG, Barrett MJ, Norby-Slycord CJ, Markert ML: Molecular analysis of mutations in a patient with purine nucleoside phosphorylase deficiency. Am J Hum Genet. 1992 Oct;51(4):763-72.
+2104852	Ealick SE, Rule SA, Carter DC, Greenhough TJ, Babu YS, Cook WJ, Habash J, Helliwell JR, Stoeckler JD, Parks RE Jr, et al.: Three-dimensional structure of human erythrocytic purine nucleoside phosphorylase at 3.2 A resolution. J Biol Chem. 1990 Jan 25;265(3):1812-20.
+3029074	Williams SR, Gekeler V, McIvor RS, Martin DW Jr: A human purine nucleoside phosphorylase deficiency caused by a single base change. J Biol Chem. 1987 Feb 15;262(5):2332-8.
+6087295	Williams SR, Goddard JM, Martin DW Jr: Human purine nucleoside phosphorylase cDNA sequence and genomic clone characterization. Nucleic Acids Res. 1984 Jul 25;12(14):5779-87.
+8931706	Pannicke U, Tuchschmid P, Friedrich W, Bartram CR, Schwarz K: Two novel missense and frameshift mutations in exons 5 and 6 of the purine nucleoside phosphorylase (PNP) gene in a severe combined immunodeficiency (SCID) patient. Hum Genet. 1996 Dec;98(6):706-9.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:7892
+
+# Drug_Target_2_HPRD_ID:
+01247
+
+# Drug_Target_2_ID:
+277
+
+# Drug_Target_2_Locus:
+14q13.1
+
+# Drug_Target_2_Molecular_Weight:
+32118
+
+# Drug_Target_2_Name:
+Purine nucleoside phosphorylase
+
+# Drug_Target_2_Number_of_Residues:
+289
+
+# Drug_Target_2_PDB_ID:
+1RT9
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00896	Mtap_PNP
+
+# Drug_Target_2_Protein_Sequence:
+>Purine nucleoside phosphorylase
+MENGYTYEDYKNTAEWLLSHTKHRPQVAIICGSGLGGLTDKLTQAQIFDYGEIPNFPRST
+VPGHAGRLVFGFLNGRACVMMQGRFHMYEGYPLWKVTFPVRVFHLLGVDTLVVTNAAGGL
+NPKFEVGDIMLIRDHINLPGFSGQNPLRGPNDERFGDRFPAMSDAYDRTMRQRALSTWKQ
+MGEQRELQEGTYVMVAGPSFETVAECRVLQKLGADAVGMSTVPEVIVARHCGLRVFGFSL
+ITNKVIMDYESLEKANHEEVLAAGKQAAQKLEQFVSILMASIPLPDKAS
+
+# Drug_Target_2_Reaction:
+purine nucleoside + phosphate = purine + alpha-D-ribose 1-phosphate
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Not Available
+
+# Drug_Target_2_SwissProt_ID:
+P00491
+
+# Drug_Target_2_SwissProt_Name:
+PNPH_HUMAN
+
+# Drug_Target_2_Synonyms:
+EC 2.4.2.1
+Inosine phosphorylase
+PNP
+
+# Drug_Target_2_Theoretical_pI:
+6.95
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB00900

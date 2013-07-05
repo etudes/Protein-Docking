@@ -1,0 +1,746 @@
+#BEGIN_DRUGCARD DB00318
+
+# AHFS_Codes:
+28:08.08
+48:08.00
+
+# ATC_Codes:
+N02AA08
+R05DA04
+R05DA12
+
+# Absorption:
+Well absorbed following oral administration with a bioavailability of approximately 90%.
+
+# Biotransformation:
+Hepatic. Codeine is a prodrug, itself inactive, but demethylated to the active morphine by the liver enzyme CYP2D6.
+
+# Brand_Mixtures:
+Co-codamol (codeine + acetaminophen)
+
+# Brand_Names:
+Codicept
+Coducept
+
+# CAS_Registry_Number:
+76-57-3
+
+# ChEBI_ID:
+16714
+
+# Chemical_Formula:
+C18H21NO3
+
+# Chemical_IUPAC_Name:
+(1S,5R,13R,14S,17R)-10-methoxy-4-methyl-12-oxa-4-azapentacyclo[9.6.1.0^{1,13}.0^{5,17}.0^{7,18}]octadeca-7(18),8,10,15-tetraen-14-ol
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+593451
+
+# Description:
+An opioid analgesic related to morphine but with less potent analgesic properties and mild sedative effects. It also acts centrally to suppress cough. [PubChem]
+
+# Dosage_Forms:
+Liquid	Intramuscular
+Liquid	Oral
+Solution	Intramuscular
+Syrup	Oral
+Tablet	Oral
+
+# Drug_Category:
+Analgesics
+Analgesics, Opioid
+Antitussive Agents
+Antitussives
+Narcotics
+Opiate Agonists
+
+# Drug_Interactions:
+Alvimopan	Increases levels by receptor binding competition. Discontinue opioid administration at least 7 days prior to administrating Alvimopan.
+Cimetidine	Cimetidine may decrease the therapeutic effect of codeine by decreasing its metabolism to its active metabolite, morphine. Monitor for changes in the therapeutic effect of codeine if cimetidine is initiated, discontinued or dose changed.
+Dihydroquinidine barbiturate	Quinidine decreases the analgesic effect of codeine
+Quinidine	Quinidine decreases the analgesic effect of codeine
+Quinidine barbiturate	Quinidine decreases the analgesic effect of codeine
+Terbinafine	Terbinafine may decrease the efficacy of Codeine by inhibiting active metabolite production. Consider an alternate analgesic or monitor for effectiveness of Codeine.
+Triprolidine	The CNS depressants, Triprolidine and Codeine, may increase adverse/toxic effects due to additivity. Monitor for increased CNS depressant effects during concomitant therapy.
+
+# Drug_Reference:
+11092114	Vree TB, van Dongen RT, Koopman-Kimenai PM: Codeine analgesia is due to codeine-6-glucuronide, not morphine. Int J Clin Pract. 2000 Jul-Aug;54(6):395-8.
+15102399	Srinivasan V, Wielbo D, Tebbett IR: Analgesic effects of codeine-6-glucuronide after intravenous administration. Eur J Pain. 1997;1(3):185-90.
+15495019	Schroeder K, Fahey T: Over-the-counter medications for acute cough in children and adults in ambulatory settings. Cochrane Database Syst Rev. 2004 Oct 18;(4):CD001831.
+
+# Drug_Type:
+Approved
+Illicit
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+1.19
+
+# Experimental_Logs:
+-1.52
+
+# Experimental_Water_Solubility:
+9000 mg/L (at 20 °C)
+
+# Food_Interactions:
+Avoid alcohol.
+Take with food, food reduces irritation.
+To avoid constipation: increase your daily intake of fiber (beans, whole grains, vegetables).
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Codeine
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+2-4 hours
+
+# InChI_Identifier:
+InChI=1S/C18H21NO3/c1-19-8-7-18-11-4-5-13(20)17(18)22-16-14(21-2)6-3-10(15(16)18)9-12(11)19/h3-6,11-13,17,20H,7-9H2,1-2H3/t11-,12+,13-,17-,18-/m0/s1
+
+# InChI_Key:
+InChIKey=OROGSEYTTFOCAN-DNJOTXNNSA-N
+
+# Indication:
+For treatment and management of pain (Systemic), also used as an Antidiarrheal and as a cough suppressant.
+
+# KEGG_Compound_ID:
+C06174
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+318
+
+# Mechanism_Of_Action:
+Opiate receptors are coupled with G-protein receptors and function as both positive and negative regulators of synaptic transmission via G-proteins that activate effector proteins. Binding of the opiate stimulates the exchange of GTP for GDP on the G-protein complex. As the effector system is adenylate cyclase and cAMP located at the inner surface of the plasma membrane, opioids decrease intracellular cAMP by inhibiting adenylate cyclase. Subsequently, the release of nociceptive neurotransmitters such as substance P, GABA, dopamine, acetylcholine and noradrenaline is inhibited. Opioids also inhibit the release of vasopressin, somatostatin, insulin and glucagon. Codeine's analgesic activity is, most likely, due to its conversion to morphine. Opioids close N-type voltage-operated calcium channels (OP2-receptor agonist) and open calcium-dependent inwardly rectifying potassium channels (OP3 and OP1 receptor agonist). This results in hyperpolarization and reduced neuronal excitability.
+
+# Melting_Point:
+157.5 °C
+
+# Molecular_Weight_Avg:
+299.3642
+
+# Molecular_Weight_Mono:
+299.152143543
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Codeine Pathway	SMP00405
+
+# PharmGKB_ID:
+PA449088
+
+# Pharmacology:
+Codeine, an opiate agonist in the CNS, is similar to other phenanthrene derivatives such as morphine. Codeine, in combination with guaifenesin or iodinated glycerol, is used as a cough suppressant and, as a single agent or in combination with acetaminophen or other products, is used for pain control and as an antidiarrheal agent.
+
+# Predicted_LogP_Hydrophobicity:
+1.2
+
+# Predicted_LogS:
+-2.7
+
+# Predicted_Water_Solubility:
+5.77e-01 g/l
+
+# Primary_Accession_No:
+DB00318
+
+# Protein_Binding:
+7-25%
+
+# PubChem_Compound_ID:
+5284371
+
+# PubChem_Substance_ID:
+46507764
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic/codphos.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00120
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@@]12OC3=C(OC)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])C=C[C@@H]2O
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Codeine anhydrous
+L-Codeine
+Methylmorphine
+Morphine monomethyl ether
+Norcodeine, N-Methyl
+Norcodine, N-Methyl
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Respiratory depression, sedation and miosis and common symptoms of overdose. Other symptoms include nausea, vomiting, skeletal muscle flaccidity, bradycardia, hypotension, and cool, clammy skin. Apnea and death may ensue.
+
+# Update_Date:
+2013-02-08 16:19:15 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Codeine
+
+# pKa_Isoelectric_Point:
+8.21 (at 25 °C)
+
+# Phase_1_Metabolizing_Enzyme_1_Gene_Name:
+CYP3A5
+
+# Phase_1_Metabolizing_Enzyme_1_ID:
+4118
+
+# Phase_1_Metabolizing_Enzyme_1_Name:
+Cytochrome P450 3A5
+
+# Phase_1_Metabolizing_Enzyme_1_Protein_Sequence:
+>Cytochrome P450 3A5
+MDLIPNLAVETWLLLAVSLVLLYLYGTRTHGLFKRLGIPGPTPLPLLGNVLSYRQGLWKF
+DTECYKKYGKMWGTYEGQLPVLAITDPDVIRTVLVKECYSVFTNRRSLGPVGFMKSAISL
+AEDEEWKRIRSLLSPTFTSGKLKEMFPIIAQYGDVLVRNLRREAEKGKPVTLKDIFGAYS
+MDVITGTSFGVNIDSLNNPQDPFVESTKKFLKFGFLDPLFLSIILFPFLTPVFEALNVSL
+FPKDTINFLSKSVNRMKKSRLNDKQKHRLDFLQLMIDSQNSKETESHKALSDLELAAQSI
+IFIFAGYETTSSVLSFTLYELATHPDVQQKLQKEIDAVLPNKAPPTYDAVVQMEYLDMVV
+NETLRLFPVAIRLERTCKKDVEINGVFIPKGSMVVIPTYALHHDPKYWTEPEEFRPERFS
+KKKDSIDPYIYTPFGTGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLDTQG
+LLQPEKPIVLKVDSRDGTLSGE
+
+# Phase_1_Metabolizing_Enzyme_1_SwissProt_ID:
+P20815
+
+# Phase_1_Metabolizing_Enzyme_2_Gene_Name:
+CYP2D6
+
+# Phase_1_Metabolizing_Enzyme_2_ID:
+4119
+
+# Phase_1_Metabolizing_Enzyme_2_Name:
+Cytochrome P450 2D6
+
+# Phase_1_Metabolizing_Enzyme_2_Protein_Sequence:
+>Cytochrome P450 2D6
+MGLEALVPLAVIVAIFLLLVDLMHRRQRWAARYPPGPLPLPGLGNLLHVDFQNTPYCFDQ
+LRRRFGDVFSLQLAWTPVVVLNGLAAVREALVTHGEDTADRPPVPITQILGFGPRSQGVF
+LARYGPAWREQRRFSVSTLRNLGLGKKSLEQWVTEEAACLCAAFANHSGRPFRPNGLLDK
+AVSNVIASLTCGRRFEYDDPRFLRLLDLAQEGLKEESGFLREVLNAVPVLLHIPALAGKV
+LRFQKAFLTQLDELLTEHRMTWDPAQPPRDLTEAFLAEMEKAKGNPESSFNDENLRIVVA
+DLFSAGMVTTSTTLAWGLLLMILHPDVQRRVQQEIDDVIGQVRRPEMGDQAHMPYTTAVI
+HEVQRFGDIVPLGVTHMTSRDIEVQGFRIPKGTTLITNLSSVLKDEAVWEKPFRFHPEHF
+LDAQGHFVKPEAFLPFSAGRRACLGEPLARMELFLFFTSLLQHFSFSVPTGQPRPSHHGV
+FAFLVSPSPYELCAVPR
+
+# Phase_1_Metabolizing_Enzyme_2_SwissProt_ID:
+P10635
+
+# Phase_1_Metabolizing_Enzyme_3_Gene_Name:
+CYP3A4
+
+# Phase_1_Metabolizing_Enzyme_3_ID:
+4512
+
+# Phase_1_Metabolizing_Enzyme_3_Name:
+Cytochrome P450 3A4
+
+# Phase_1_Metabolizing_Enzyme_3_Protein_Sequence:
+>Cytochrome P450 3A4
+MALIPDLAMETWLLLAVSLVLLYLYGTHSHGLFKKLGIPGPTPLPFLGNILSYHKGFCMF
+DMECHKKYGKVWGFYDGQQPVLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKSAISI
+AEDEEWKRLRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKDVFGAYS
+MDVITSTSFGVNIDSLNNPQDPFVENTKKLLRFDFLDPFFLSITVFPFLIPILEVLNICV
+FPREVTNFLRKSVKRMKESRLEDTQKHRVDFLQLMIDSQNSKETESHKALSDLELVAQSI
+IFIFAGYETTSSVLSFIMYELATHPDVQQKLQEEIDAVLPNKAPPTYDTVLQMEYLDMVV
+NETLRLFPIAMRLERVCKKDVEINGMFIPKGVVVMIPSYALHRDPKYWTEPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALMNMKLALIRVLQNFSFKPCKETQIPLKLSLG
+GLLQPEKPVVLKVESRDGTVSGA
+
+# Phase_1_Metabolizing_Enzyme_3_SwissProt_ID:
+P08684
+
+# Phase_1_Metabolizing_Enzyme_4_Gene_Name:
+CYP3A7
+
+# Phase_1_Metabolizing_Enzyme_4_ID:
+6107
+
+# Phase_1_Metabolizing_Enzyme_4_Name:
+Cytochrome P450 3A7
+
+# Phase_1_Metabolizing_Enzyme_4_Protein_Sequence:
+>Cytochrome P450 3A7
+MDLIPNLAVETWLLLAVSLILLYLYGTRTHGLFKKLGIPGPTPLPFLGNALSFRKGYWTF
+DMECYKKYRKVWGIYDCQQPMLAITDPDMIKTVLVKECYSVFTNRRPFGPVGFMKNAISI
+AEDEEWKRIRSLLSPTFTSGKLKEMVPIIAQYGDVLVRNLRREAETGKPVTLKHVFGAYS
+MDVITSTSFGVSIDSLNNPQDPFVENTKKLLRFNPLDPFVLSIKVFPFLTPILEALNITV
+FPRKVISFLTKSVKQIKEGRLKETQKHRVDFLQLMIDSQNSKDSETHKALSDLELMAQSI
+IFIFAGYETTSSVLSFIIYELATHPDVQQKVQKEIDTVLPNKAPPTYDTVLQLEYLDMVV
+NETLRLFPVAMRLERVCKKDVEINGMFIPKGVVVMIPSYVLHHDPKYWREPEKFLPERFS
+KKNKDNIDPYIYTPFGSGPRNCIGMRFALVNMKLALVRVLQNFSFKPCKETQIPLKLRFG
+GLLLTEKPIVLKAESRDETVSGA
+
+# Phase_1_Metabolizing_Enzyme_4_SwissProt_ID:
+P24462
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+15509185	Grond S, Sablotzki A: Clinical pharmacology of tramadol. Clin Pharmacokinet. 2004;43(13):879-923.
+17620111	Takahama K, Shirasaki T: Central and peripheral mechanisms of narcotic antitussives: codeine-sensitive and -resistant coughs. Cough. 2007 Jul 9;3:8.
+8306082	Freissmuth M, Beindl W, Kratzel M: Binding and structure-activity-relation of benzo[f]isoquinoline- and norcodeinone-derivatives at mu-opioid receptors in the rat cerebral cortex. Br J Pharmacol. 1993 Dec;110(4):1429-36.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+OPRM1
+
+# Drug_Target_1_GenBank_ID_Gene:
+L25119
+
+# Drug_Target_1_GenBank_ID_Protein:
+452073
+
+# Drug_Target_1_GeneCard_ID:
+OPRM1
+
+# Drug_Target_1_Gene_Name:
+OPRM1
+
+# Drug_Target_1_Gene_Sequence:
+>1203 bp
+ATGGACAGCAGCGCTGCCCCCACGAACGCCAGCAATTGCACTGATGCCTTGGCGTACTCA
+AGTTGCTCCCCAGCACCCAGCCCCGGTTCCTGGGTCAACTTGTCCCACTTAGATGGCAAC
+CTGTCCGACCCATGCGGTCCGAACCGCACCAACCTGGGCGGGAGAGACAGCCTGTGCCCT
+CCGACCGGCAGTCCCTCCATGATCACGGCCATCACGATCATGGCCCTCTACTCCATCGTG
+TGCGTGGTGGGGCTCTTCGGAAACTTCCTGGTCATGTATGTGATTGTCAGATACACCAAG
+ATGAAGACTGCCACCAACATCTACATTTTCAACCTTGCTCTGGCAGATGCCTTAGCCACC
+AGTACCCTGCCCTTCCAGAGTGTGAATTACCTAATGGGAACATGGCCATTTGGAACCATC
+CTTTGCAAGATAGTGATCTCCATAGATTACTATAACATGTTCACCAGCATATTCACCCTC
+TGCACCATGAGTGTTGATCGATACATTGCAGTCTGCCACCCTGTCAAGGCCTTAGATTTC
+CGTACTCCCCGAAATGCCAAAATTATCAATGTCTGCAACTGGATCCTCTCTTCAGCCATT
+GGTCTTCCTGTAATGTTCATGGCTACAACAAAATACAGGCAAGGTTCCATAGATTGTACA
+CTAACATTCTCTCATCCAACCTGGTACTGGGAAAACCTCGTGAAGATCTGTGTTTTCATC
+TTCGCCTTCATTATGCCAGTGCTCATCATTACCGTGTGCTATGGACTGATGATCTTGCGC
+CTCAAGAGTGTCCGCATGCTCTCTGGCTCCAAAGAAAAGGACAGGAATCTTCGAAGGATC
+ACCAGGATGGTGCTGGTGGTGGTGGCTGTGTTCATCGTCTGCTGGACTCCCATTCACATT
+TACGTCATCATTAAAGCCTTGGTTACAATCCCAGAAACTACGTTCCAGACTGTTTCTTGG
+CACTTCTGCATTGCTCTAGGTTACACAAACAGCTGCCTCAACCCAGTCCTTTATGCATTT
+CTGGATGAAAACTTCAAACGATGCTTCAGAGAGTTCTGTATCCCAACCTCTTCCAACATT
+GAGCAACAAAACTCCACTCGAATTCGTCAGAACACTAGAGACCACCCCTCCACGGCCAAT
+ACAGTGGATAGAACTAATCATCAGCTAGAAAATCTGGAAGCAGAAACTGCTCCGTTGCCC
+TAA
+
+# Drug_Target_1_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_1_General_References:
+10393893	Uhl GR, Sora I, Wang Z: The mu opiate receptor as a candidate gene for pain: polymorphisms, variations in expression, nociception, and opiate responses. Proc Natl Acad Sci U S A. 1999 Jul 6;96(14):7752-5.
+7488213	Chuang TK, Killam KF Jr, Chuang LF, Kung HF, Sheng WS, Chao CC, Yu L, Chuang RY: Mu opioid receptor gene expression in immune cells. Biochem Biophys Res Commun. 1995 Nov 22;216(3):922-30.
+7891175	Mestek A, Hurley JH, Bye LS, Campbell AD, Chen Y, Tian M, Liu J, Schulman H, Yu L: The human mu opioid receptor: modulation of functional desensitization by calcium/calmodulin-dependent protein kinase and protein kinase C. J Neurosci. 1995 Mar;15(3 Pt 2):2396-406.
+7905839	Wang JB, Johnson PS, Persico AM, Hawkins AL, Griffin CA, Uhl GR: Human mu opiate receptor. cDNA and genomic clones, pharmacologic characterization and chromosomal assignment. FEBS Lett. 1994 Jan 31;338(2):217-22.
+7957926	Bare LA, Mansson E, Yang D: Expression of two variants of the human mu opioid receptor mRNA in SK-N-SH cells and human brain. FEBS Lett. 1994 Nov 7;354(2):213-6.
+9399694	Bergen AW, Kokoszka J, Peterson R, Long JC, Virkkunen M, Linnoila M, Goldman D: Mu opioid receptor gene variants: lack of association with alcohol dependence. Mol Psychiatry. 1997 Oct-Nov;2(6):490-4.
+9689128	Bond C, LaForge KS, Tian M, Melia D, Zhang S, Borg L, Gong J, Schluger J, Strong JA, Leal SM, Tischfield JA, Kreek MJ, Yu L: Single-nucleotide polymorphism in the human mu opioid receptor gene alters beta-endorphin binding and activity: possible implications for opiate addiction. Proc Natl Acad Sci U S A. 1998 Aug 4;95(16):9608-13.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:8156
+
+# Drug_Target_1_HPRD_ID:
+02484
+
+# Drug_Target_1_ID:
+847
+
+# Drug_Target_1_Locus:
+6q24-q25
+
+# Drug_Target_1_Molecular_Weight:
+44780
+
+# Drug_Target_1_Name:
+Mu-type opioid receptor
+
+# Drug_Target_1_Number_of_Residues:
+400
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Alfentanil Pathway	SMP00413
+Carfentanil Pathway	SMP00414
+Codeine Pathway	SMP00405
+Fentanyl Pathway	SMP00415
+Heroin Pathway	SMP00407
+Hydrocodone Pathway	SMP00411
+Hydromorphone Pathway	SMP00410
+Methadone Pathway	SMP00408
+Morphine Pathway	SMP00406
+Oxycodone Pathway	SMP00409
+Oxymorphone Pathway	SMP00412
+Remifentanil Pathway	SMP00416
+Sufentanil Pathway	SMP00417
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_1_Protein_Sequence:
+>Mu-type opioid receptor
+MDSSAAPTNASNCTDALAYSSCSPAPSPGSWVNLSHLDGNLSDPCGPNRTDLGGRDSLCP
+PTGSPSMITAITIMALYSIVCVVGLFGNFLVMYVIVRYTKMKTATNIYIFNLALADALAT
+STLPFQSVNYLMGTWPFGTILCKIVISIDYYNMFTSIFTLCTMSVDRYIAVCHPVKALDF
+RTPRNAKIINVCNWILSSAIGLPVMFMATTKYRQGSIDCTLTFSHPTWYWENLLKICVFI
+FAFIMPVLIITVCYGLMILRLKSVRMLSGSKEKDRNLRRITRMVLVVVAVFIVCWTPIHI
+YVIIKALVTIPETTFQTVSWHFCIALGYTNSCLNPVLYAFLDENFKRCFREFCIPTSSNI
+EQQNSTRIRQNTRDHPSTANTVDRTNHQLENLEAETAPLP
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Inhibits neurotransmitter release by reducing calcium ion currents and increasing potassium ion conductance. Receptor for beta-endorphin
+
+# Drug_Target_1_SwissProt_ID:
+P35372
+
+# Drug_Target_1_SwissProt_Name:
+OPRM_HUMAN
+
+# Drug_Target_1_Synonyms:
+MOR-1
+
+# Drug_Target_1_Theoretical_pI:
+8.29
+
+# Drug_Target_1_Transmembrane_Regions:
+67-96
+106-123
+146-165
+196-211
+237-259
+283-305
+314-330
+
+# Drug_Target_2_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+17620111	Takahama K, Shirasaki T: Central and peripheral mechanisms of narcotic antitussives: codeine-sensitive and -resistant coughs. Cough. 2007 Jul 9;3:8.
+7885194	Mignat C, Wille U, Ziegler A: Affinity profiles of morphine, codeine, dihydrocodeine and their glucuronides at opioid receptor subtypes. Life Sci. 1995;56(10):793-9.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+OPRK1
+
+# Drug_Target_2_GenBank_ID_Gene:
+U11053
+
+# Drug_Target_2_GenBank_ID_Protein:
+532060
+
+# Drug_Target_2_GeneCard_ID:
+OPRK1
+
+# Drug_Target_2_Gene_Name:
+OPRK1
+
+# Drug_Target_2_Gene_Sequence:
+>1143 bp
+ATGGAATCCCCGATTCAGATCTTCCGCGGGGAGCCTGGCCCTACCTGCGCCCCGAGCGCC
+TGCCTGCCCCCCAACAGCAGCGCCTGGTTTCCCGGCTGGGCCGAGCCCGACAGCAACGGC
+AGCGCCGGCTCGGAGGACGCGCAGCTGGAGCCCGCGCACATCTCCCCGGCCATCCCGGTC
+ATCATCACGGCGGTCTACTCCGTAGTGTTCGTCGTGGGCTTGGTGGGCAACTCGCTGGTC
+ATGTTCGTGATCATCCGATACACAAAGATGAAGACAGCAACCAACATTTACATATTTAAC
+CTGGCTTTGGCAGATGCTTTAGTTACTACAACCATGCCCTTTCAGAGTACGGTCTACTTG
+ATGAATTCCTGGCCTTTTGGGGATGTGCTGTGCAAGATAGTAATTTCCATTGATTACTAC
+AACATGTTCACCAGCATCTTCACCTTGACCATGATGAGCGTGGACCGCTACATTGCCGTG
+TGCCACCCCGTGAAGGCTTTGGACTTCCGCACACCCTTGAAGGCAAAGATCATCAATATC
+TGCATCTGGCTGCTGTCGTCATCTGTTGGCATCTCTGCAATAGTCCTTGGAGGCACCAAA
+GTCAGGGAAGACGTCGATGTCATTGAGTGCTCCTTGCAGTTCCCAGATGATGACTACTCC
+TGGTGGGACCTCTTCATGAAGATCTGCGTCTTCATCTTTGCCTTCGTGATCCCTGTCCTC
+ATCATCATCGTCTGCTACACCCTGATGATCCTGCGTCTCAAGAGCGTCCGGCTCCTTTCT
+GGCTCCCGAGAGAAAGATCGCAACCTGCGTAGGATCACCAGACTGGTCCTGGTGGTGGTG
+GCGGTTTTCGTCGTCTGCTGGACTCCCATTCACATATTCATCCTGGTGGAGGCTCTGGGG
+AGCACCTCCCACAGCACAGCTGCTCTCTCCAGCTATTACTTCTGCATCGCCTTAGGCTAT
+ACCAACAGTAGCCTGAATCCCATTCTCTACGCCTTTCTTGATGAAAACTTCAAGCGGTGT
+TTCCGGGACTTCTGCTTTCCACTGAAGATGAGGATGGAGCGGCAGAGCACTAGCAGAGTC
+CGAAATACAGTTCAGGATCCTGCTTACCTGAGGGACATCGATGGGATGAATAAACCAGTA
+TGA
+
+# Drug_Target_2_General_Function:
+Involved in rhodopsin-like receptor activity
+
+# Drug_Target_2_General_References:
+12004055	Li JG, Chen C, Liu-Chen LY: Ezrin-radixin-moesin-binding phosphoprotein-50/Na+/H+ exchanger regulatory factor (EBP50/NHERF) blocks U50,488H-induced down-regulation of the human kappa opioid receptor by enhancing its recycling rate. J Biol Chem. 2002 Jul 26;277(30):27545-52. Epub 2002 May 9.
+7624359	Simonin F, Gaveriaux-Ruff C, Befort K, Matthes H, Lannes B, Micheletti G, Mattei MG, Charron G, Bloch B, Kieffer B: kappa-Opioid receptor in humans: cDNA and genomic cloning, chromosomal assignment, functional expression, pharmacology, and expression pattern in the central nervous system. Proc Natl Acad Sci U S A. 1995 Jul 18;92(15):7006-10.
+7869844	Zhu J, Chen C, Xue JC, Kunapuli S, DeRiel JK, Liu-Chen LY: Cloning of a human kappa opioid receptor from the brain. Life Sci. 1995;56(9):PL201-7.
+7929306	Wang JB, Johnson PS, Wu JM, Wang WF, Uhl GR: Human kappa opiate receptor second extracellular loop elevates dynorphin's affinity for human mu/kappa chimeras. J Biol Chem. 1994 Oct 21;269(42):25966-9.
+8060324	Mansson E, Bare L, Yang D: Isolation of a human kappa opioid receptor cDNA from placenta. Biochem Biophys Res Commun. 1994 Aug 15;202(3):1431-7.
+
+# Drug_Target_2_HGNC_ID:
+HGNC:8154
+
+# Drug_Target_2_HPRD_ID:
+01309
+
+# Drug_Target_2_ID:
+696
+
+# Drug_Target_2_Locus:
+8q11.2
+
+# Drug_Target_2_Molecular_Weight:
+42646
+
+# Drug_Target_2_Name:
+Kappa-type opioid receptor
+
+# Drug_Target_2_Number_of_Residues:
+380
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_2_Protein_Sequence:
+>Kappa-type opioid receptor
+MDSPIQIFRGEPGPTCAPSACLPPNSSAWFPGWAEPDSNGSAGSEDAQLEPAHISPAIPV
+IITAVYSVVFVVGLVGNSLVMFVIIRYTKMKTATNIYIFNLALADALVTTTMPFQSTVYL
+MNSWPFGDVLCKIVISIDYYNMFTSIFTLTMMSVDRYIAVCHPVKALDFRTPLKAKIINI
+CIWLLSSSVGISAIVLGGTKVREDVDVIECSLQFPDDDYSWWDLFMKICVFIFAFVIPVL
+IIIVCYTLMILRLKSVRLLSGSREKDRNLRRITRLVLVVVAVFVVCWTPIHIFILVEALG
+STSHSTAALSSYYFCIALGYTNSSLNPILYAFLDENFKRCFRDFCFPLKMRMERQSTSRV
+RNTVQDPAYLRDIDGMNKPV
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Inhibits neurotransmitter release by reducing calcium ion currents and increasing potassium ion conductance. Receptor for dynorphins. May play a role in arousal and regulation of autonomic and neuroendocrine functions
+
+# Drug_Target_2_SwissProt_ID:
+P41145
+
+# Drug_Target_2_SwissProt_Name:
+OPRK_HUMAN
+
+# Drug_Target_2_Synonyms:
+KOR-1
+
+# Drug_Target_2_Theoretical_pI:
+7.79
+
+# Drug_Target_2_Transmembrane_Regions:
+59-85
+96-117
+133-154
+174-196
+223-247
+276-299
+312-333
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+multi-pass membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+12067475	Loghin F, Popa DS, Socaciu C: Influence of glutethimide on rat brain mononucleotides by sub-chronic codeine treatment. J Cell Mol Med. 2001 Oct-Dec;5(4):409-16.
+16386786	Ortiz MI, Castro-Olguin J, Pena-Samaniego N, Castaneda-Hernandez G: Probable activation of the opioid receptor-nitric oxide-cyclic GMP-K+ channels pathway by codeine. Pharmacol Biochem Behav. 2005 Dec;82(4):695-703. Epub 2006 Jan 4.
+2156065	Karlsson JA, Lanner AS, Persson CG: Airway opioid receptors mediate inhibition of cough and reflex bronchoconstriction in guinea pigs. J Pharmacol Exp Ther. 1990 Feb;252(2):863-8.
+7885194	Mignat C, Wille U, Ziegler A: Affinity profiles of morphine, codeine, dihydrocodeine and their glucuronides at opioid receptor subtypes. Life Sci. 1995;56(10):793-9.
+8119316	Advenier C, Girard V, Naline E, Vilain P, Emonds-Alt X: Antitussive effect of SR 48968, a non-peptide tachykinin NK2 receptor antagonist. Eur J Pharmacol. 1993 Nov 30;250(1):169-71.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+OPRD1
+
+# Drug_Target_3_GenBank_ID_Gene:
+U07882
+
+# Drug_Target_3_GenBank_ID_Protein:
+27545517
+
+# Drug_Target_3_GeneCard_ID:
+OPRD1
+
+# Drug_Target_3_Gene_Name:
+OPRD1
+
+# Drug_Target_3_Gene_Sequence:
+>1119 bp
+ATGGAACCGGCCCCCTCCGCCGGCGCCGAGCTGCAGCCCCCGCTCTTCGCCAACGCCTCG
+GACGCCTACCCTAGCGCCTTCCCCAGCGCTGGCGCCAATGCGTCGGGGCCGCCAGGCGCG
+CGGAGCGCCTCGTCCCTCGCCCTGGCAATCGCCATCACCGCGCTCTACTCGGCCGTGTGC
+GCCGTGGGGCTGCTGGGCAACGTGCTTGTCATGTTCGGCATCGTCCGGTACACTAAGATG
+AAGACGGCCACCAACATCTACATCTTCAACCTGGCCTTAGCCGATGCGCTGGCCACCAGC
+ACGCTGCCTTTCCAGAGTGCCAAGTACCTGATGGAGACGTGGCCCTTCGGCGAGCTGCTC
+TGCAAGGCTGTGCTCTCCATCGACTACTACAATATGTTCACCAGCATCTTCACGCTCACC
+ATGATGAGTGTTGACCGCTACATCGCTGTCTGCCACCCTGTCAAGGCCCTGGACTTCCGC
+ACGCCTGCCAAGGCCAAGCTGATCAACATCTGTATCTGGGTCCTGGCCTCAGGCGTTGGC
+GTGCCCATCATGGTCATGGCTGTGACCCGTCCCCGGGACGGGGCAGTGGTGTGCATGCTC
+CAGTTCCCCAGCCCCAGCTGGTACTGGGACACGGTGACCAAGATCTGCGTGTTCCTCTTC
+GCCTTCGTGGTGCCCATCCTCATCATCACCGTGTGCTATGGCCTCATGCTGCTGCGCCTG
+CGCAGTGTGCGCCTGCTGTCGGGCTCCAAGGAGAAGGACCGCAGCCTGCGGCGCATCACG
+CGCATGGTGCTGGTGGTTGTGGGCGCCTTCGTGGTGTGTTGGGCGCCCATCCACATCTTC
+GTCATCGTCTGGACGCTGGTGGACATCGACCGGCGCGACCCGCTGGTGGTGGCTGCGCTG
+CACCTGTGCATCGCGCTGGGCTACGCCAATAGCAGCCTCAACCCCGTGCTCTACGCTTTC
+CTCGACGAGAACTTCAAGCGCTGCTTCCGCCAGCTCTGCCGCAAGCCCTGCGGCCGCCCA
+GACCCCAGCAGCTTCAGCCGCGCCCGCGAAGCCACGGCCCGCGAGCGTGTCACCGCCTGC
+ACCCCGTCCGATGGTCCCGGCGGTGGCGCTGCCGCCTGA
+
+# Drug_Target_3_General_Function:
+Involved in delta-opioid receptor activity
+
+# Drug_Target_3_General_References:
+10982041	Gelernter J, Kranzler HR: Variant detection at the delta opioid receptor (OPRD1) locus and population genetics of a novel variant affecting protein sequence. Hum Genet. 2000 Jul;107(1):86-8.
+7808419	Simonin F, Befort K, Gaveriaux-Ruff C, Matthes H, Nappey V, Lannes B, Micheletti G, Kieffer B: The human delta-opioid receptor: genomic organization, cDNA cloning, functional expression, and distribution in human brain. Mol Pharmacol. 1994 Dec;46(6):1015-21.
+8201839	Knapp RJ, Malatynska E, Fang L, Li X, Babin E, Nguyen M, Santoro G, Varga EV, Hruby VJ, Roeske WR, et al.: Identification of a human delta opioid receptor: cloning and expression. Life Sci. 1994;54(25):PL463-9.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:8153
+
+# Drug_Target_3_HPRD_ID:
+01308
+
+# Drug_Target_3_ID:
+467
+
+# Drug_Target_3_Locus:
+1p36.1-p34.3
+
+# Drug_Target_3_Molecular_Weight:
+40413
+
+# Drug_Target_3_Name:
+Delta-type opioid receptor
+
+# Drug_Target_3_Number_of_Residues:
+372
+
+# Drug_Target_3_PDB_ID:
+Not Available
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00001	7tm_1
+
+# Drug_Target_3_Protein_Sequence:
+>Delta-type opioid receptor
+MEPAPSAGAELQPPLFANASDAYPSAFPSAGANASGPPGARSASSLALAIAITALYSAVC
+AVGLLGNVLVMFGIVRYTKMKTATNIYIFNLALADALATSTLPFQSAKYLMETWPFGELL
+CKAVLSIDYYNMFTSIFTLTMMSVDRYIAVCHPVKALDFRTPAKAKLINICIWVLASGVG
+VPIMVMAVTRPRDGAVVCMLQFPSPSWYWDTVTKICVFLFAFVVPILIITVCYGLMLLRL
+RSVRLLSGSKEKDRSLRRITRMVLVVVGAFVVCWAPIHIFVIVWTLVDIDRRDPLVVAAL
+HLCIALGYANSSLNPVLYAFLDENFKRCFRQLCRKPCGRPDPSSFSRAREATARERVTAC
+TPSDGPGGGAAA
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Inhibits neurotransmitter release by reducing calcium ion currents and increasing potassium ion conductance. Highly stereoselective. receptor for enkephalins
+
+# Drug_Target_3_SwissProt_ID:
+P41143
+
+# Drug_Target_3_SwissProt_Name:
+OPRD_HUMAN
+
+# Drug_Target_3_Synonyms:
+DOR-1
+
+# Drug_Target_3_Theoretical_pI:
+9.17
+
+# Drug_Target_3_Transmembrane_Regions:
+46-75
+85-102
+125-144
+175-190
+216-238
+262-284
+294-310
+
+#END_DRUGCARD DB00318

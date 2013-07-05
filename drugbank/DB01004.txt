@@ -1,0 +1,622 @@
+#BEGIN_DRUGCARD DB01004
+
+# AHFS_Codes:
+08:18.32
+
+# ATC_Codes:
+J05AB06
+J05AB14
+S01AD09
+
+# Absorption:
+Poorly absorbed systemically following oral administration. Bioavailability under fasting conditions is approximately 5%, and when administered with food, 6 to 9% (about 30% with a fatty meal).
+
+# Biotransformation:
+Little to no metabolism, about 90% of plasma ganciclovir is eliminated unchanged in the urine.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Cytovene
+Cytovene IV
+Cytovene-IV
+Vitrasert
+
+# CAS_Registry_Number:
+82410-32-0
+
+# ChEBI_ID:
+465284
+
+# Chemical_Formula:
+C9H13N5O4
+
+# Chemical_IUPAC_Name:
+2-amino-9-{[(1,3-dihydroxypropan-2-yl)oxy]methyl}-6,9-dihydro-3H-purin-6-one
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2240362
+
+# Description:
+An acyclovir analog that is a potent inhibitor of the Herpesvirus family including cytomegalovirus. Ganciclovir is used to treat complications from AIDS-associated cytomegalovirus infections. [PubChem]
+
+# Dosage_Forms:
+Capsule	Oral
+Implant	Intravitreal
+Powder, for solution	Intravenous
+
+# Drug_Category:
+Antiviral Agents
+
+# Drug_Interactions:
+Abacavir	The adverse/toxic effects of reverse transcriptase inhibitors (nucleoside), such as Abacavir, may be enhanced by Ganciclovir. There is a risk of hematologic toxicity. Diligent monitoring during concomitant therapy is required.
+Didanosine	The antiviral agent, ganciclovir, may increase the effect and toxicity of didanosine.
+Probenecid	Probenecid increases the effect and toxicity of ganciclovir/valganciclovir
+Zidovudine	Increased risk of hematologic toxicity. Concomitant therapy should be avoided.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Investigational
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+-6.27
+
+# Experimental_LogP_Hydrophobicity:
+-1.66
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+4300 mg/L (at 25 °C)
+
+# Food_Interactions:
+Take with food, food increases bioavailability.
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Ganciclovir
+
+# HET_ID:
+GA2
+
+# Half_Life:
+2.5 to 3.6 hours (mean 2.9 hours) when administered intravenously in adults. 3.1 to 5.5 hours when administered orally in adults. Renal function impairment causes a marked increase in half life (9 to 30 hours intravenously, 15.7 to 18.2 hours orally).
+
+# InChI_Identifier:
+InChI=1S/C9H13N5O4/c10-9-12-7-6(8(17)13-9)11-3-14(7)4-18-5(1-15)2-16/h3,5,15-16H,1-2,4H2,(H3,10,12,13,17)
+
+# InChI_Key:
+InChIKey=IRSCQMHQWWYFCW-UHFFFAOYSA-N
+
+# Indication:
+For induction and maintenance in the treatment of cytomegalovirus (CMV) retinitis in immunocompromised patients, including patients with acquired immunodeficiency syndrome (AIDS). Also used in the treatment of severe cytomegalovirus (CMV) disease, including CMV pneumonia, CMV gastrointestinal disease, and disseminated CMV infections, in immunocompromised patients.
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+D00333
+
+# LIMS_Drug_ID:
+1004
+
+# Mechanism_Of_Action:
+Ganciclovir's antiviral activity inhibits virus replication. This inhibitory action is highly selective as the drug must be converted to the active form by a virus-encoded cellular enzyme, thymidine kinase (TK). TK catalyzes phosphorylation of ganciclovir to the monophosphate, which is then subsequently converted into the diphosphate by cellular guanylate kinase and into the triphosphate by a number of cellular enzymes. <i>In vitro</i>, ganciclovir triphosphate stops replication of herpes viral DNA. When used as a substrate for viral DNA polymerase, ganciclovir triphosphate competitively inhibits dATP leading to the formation of 'faulty' DNA. This is where ganciclovir triphosphate is incorporated into the DNA strand replacing many of the adenosine bases. This results in the prevention of DNA synthesis, as phosphodiester bridges can longer to be built, destabilizing the strand. Ganciclovir inhibits viral DNA polymerases more effectively than it does cellular polymerase, and chain elongation resumes when ganciclovir is removed.
+
+# Melting_Point:
+250 dec °C
+
+# Molecular_Weight_Avg:
+255.2306
+
+# Molecular_Weight_Mono:
+255.096753929
+
+# Organisms_Affected:
+Human Herpes Virus
+
+# PDB_Experimental_ID:
+1KI2
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA449733
+
+# Pharmacology:
+Ganciclovir is a synthetic nucleoside analogue of 2'-deoxyguanosine that inhibits replication of herpes viruses both <i>in vitro</i> and <i>in vivo</i>. Sensitive human viruses include cytomegalovirus (CMV), herpes simplex virus -1 and -2 (HSV-1, HSV-2), Epstein-Barr virus (EBV) and varicella zoster virus (VZV), however clinical studies have been limited to assessment of efficacy in patients with CMV infection. Ganciclovir is a prodrug that is structurally similar to acyclovir. It inhibits virus replication by its encorporation into viral DNA. This encorporation inhibits dATP and leads to defective DNA, ceasing or retarding the viral machinery required to spread the virus to other cells.
+
+# Predicted_LogP_Hydrophobicity:
+-1.3
+
+# Predicted_LogS:
+-1.3
+
+# Predicted_Water_Solubility:
+1.16e+01 g/l
+
+# Primary_Accession_No:
+DB01004
+
+# Protein_Binding:
+1 to 2%
+
+# PubChem_Compound_ID:
+3454
+
+# PubChem_Substance_ID:
+46507294
+
+# RxList_Link:
+http://www.rxlist.com/cgi/generic/vitrasert.htm
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+APRD00263
+EXPT01540
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+NC1=NC(=O)C2=C(N1)N(COC(CO)CO)C=N2
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+GA2
+Ganciclovir Sodium
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Oral, mouse LD<sub>50</sub>: > 2g/kg. Intravenous, dog LD<sub>50</sub>: > 150mg/kg. Symptoms of overdose include irreversible pancytopenia, worsening GI symptoms, and acute renal failure. Suspected cancer agent.
+
+# Update_Date:
+2013-02-08 16:19:49 -0700
+
+# Wikipedia_Link:
+http://en.wikipedia.org/wiki/Ganciclovir
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Nucleus
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+16173018	Boivin G, Goyette N, Gilbert C, Covington E: Analysis of cytomegalovirus DNA polymerase (UL54) mutations in solid organ transplant patients receiving valganciclovir or ganciclovir prophylaxis. J Med Virol. 2005 Nov;77(3):425-9.
+16298966	Wang JT, Yang PW, Lee CP, Han CH, Tsai CH, Chen MR: Detection of Epstein-Barr virus BGLF4 protein kinase in virus replication compartments and virus particles. J Gen Virol. 2005 Dec;86(Pt 12):3215-25.
+16705640	Shi R, Azzi A, Gilbert C, Boivin G, Lin SX: Three-dimensional modeling of cytomegalovirus DNA polymerase and preliminary analysis of drug resistance. Proteins. 2006 Aug 1;64(2):301-7.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+Not Available
+
+# Drug_Target_1_GenBank_ID_Gene:
+X14112
+
+# Drug_Target_1_GenBank_ID_Protein:
+59530
+
+# Drug_Target_1_GeneCard_ID:
+Not Available
+
+# Drug_Target_1_Gene_Name:
+UL30
+
+# Drug_Target_1_Gene_Sequence:
+>3708 bp
+ATGTTTTCCGGTGGCGGCGGCCCGCTGTCCCCCGGAGGAAAGTCGGCGGCCAGGGCGGCG
+TCCGGGTTTTTTGCGCCCGCCGGCCCTCGCGGAGCCAGCCGGGGACCCCCGCCTTGTTTG
+AGGCAAAACTTTTACAACCCCTACCTCGCCCCAGTCGGGACGCAACAGAAGCCGACCGGG
+CCAACCCAGCGCCATACGTACTATAGCGAATGCGATGAATTTCGATTCATCGCCCCGCGG
+GTGCTGGACGAGGATGCCCCCCCGGAGAAGCGCGCCGGGGTGCACGACGGTCACCTCAAG
+CGCGCCCCCAAGGTGTACTGCGGGGGGGACGAGCGCGACGTCCTCCGCGTCGGGTCGGGC
+GGCTTCTGGCCGCGGCGCTCGCGCCTGTGGGGCGGCGTGGACCACGCCCCGGCGGGGTTC
+AACCCCACCGTCACCGTCTTTCACGTGTACGACATCCTGGAGAACGTGGAGCACGCGTAC
+GGCATGCGCGCGGCCCAGTTCCACGCGCGGTTTATGGACGCCATCACACCGACGGGGACC
+GTCATCACGCTCCTGGGCCTGACTCCGGAAGGCCACCGGGTGGCCGTTCACGTTTACGGC
+ACGCGGCAGTACTTTTACATGAACAAGGAGGAGGTCGACAGGCACCTACAATGCCGCGCC
+CCACGAGATCTCTGCGAGCGCATGGCCGCGGCCCTGCGCGAGTCCCCGGGCGCGTCGTTC
+CGCGGCATCTCCGCGGACCACTTCGAGGCGGAGGTGGTGGAGCGCACCGACGTGTACTAC
+TACGAGACGCGCCCCGCTCTGTTTTACCGCGTCTACGTCCGAAGCGGGCGTGTGCTGTCG
+TACCTGTGCGACAACTTCTGCCCGGCCATCAAGAAGTACGAGGGTGGGGTCGACGCCACC
+ACCCGGTTCATCCTGGACAACCCCGGGTTCGTCACCTTCGGCTGGTACCGTCTCAAACCG
+GGCCGGAACAACACGCTAGCCCAGCCGGCGGCCCCGATGGCCTTCGGGACATCCAGCGAC
+GTCGAGTTTAACTGTACGGCGGACAACCTGGCCATCGAGGGGGGCATGAGCGACCTACCG
+GCATACAAGCTCATGTGCTTCGATATCGAATGCAAGGCGGGGGGGGAGGACGAGCTGGCC
+TTTCCGGTGGCCGGGCACCCGGAGGACCTGGTCATCCAGATATCCTGTCTGCTCTACGAC
+CTGTCCACCACCGCCCTGGAGCACGTCCTCCTGTTTTCGCTCGGTTCCTGCGACCTCCCC
+GAATCCCACCTGAACGAGCTGGCGGCCAGGGGCCTGCCCACGCCCGTGGTTCTGGAATTC
+GACAGCGAATTCGAGATGCTGTTGGCCTTCATGACCCTTGTGAAACAGTACGGCCCCGAG
+TTCGTGACCGGGTACAACATCATCAACTTCGACTGGCCCTTCTTGCTGGCCAAGCTGACG
+GACATTTACAAGGTCCCCCTGGACGGGTACGGCCGCATGAACGGCCGGGGCGTGTTTCGC
+GTGTGGGACATAGGCCAGAGCCACTTCCAGAAGCGCAGCAAGATAAAGGTGAACGGCATG
+GTGAACATCGACATGTACGGGATTATAACCGACAAGATCAAGCTCTCGAGCTACAAGCTC
+AACGCCGTGGCCGAAGCCGTCCTGAAGGACAAGAAGAAGGACCTGAGCTATCGCGACATC
+CCCGCCTACTACGCCGCCGGGCCCGCGCAACGCGGGGTGATCGGCGAGTACTGCATACAG
+GATTCCCTGCTGGTGGGCCAGCTGTTTTTTAAGTTTTTGCCCCATCTGGAGCTCTCGGCC
+GTCGCGCGCTTGGCGGGTATTAACATCACCCGCACCATCTACGACGGCCAGCAGATCCGC
+GTCTTTACGTGCCTGCTGCGCCTGGCCGACCAGAAGGGCTTTATTCTGCCGGACACCCAG
+GGGCGATTTAGGGGCGCCGGGGGGGAGGCGCCCAAGCGTCCGGCCGCAGCCCGGGAGGAC
+GAGGAGCGGCCAGAGGAGGAGGGGGAGGACGAGGACGAACGCGAGGAGGGCGGGGGCGAG
+CGGGAGCCGGAGGGCGCGCGGGAGACCGCCGGCAGGCACGTGGGGTACCAGGGGGCCAGG
+GTCCTTGACCCCACTTCCGGGTTTCACGTGAACCCCGTGGTGGTGTTCGACTTTGCCAGC
+CTGTACCCCAGCATCATCCAGGCCCACAACCTGTGCTTCAGCACGCTCTCCCTGAGGGCC
+GACGCAGTGGCGCACCTGGAGGCGGGCAAGGACTACCTGGAGATCGAGGTGGGGGGGCGA
+CGGCTGTTCTTCGTCAAGGCTCACGTGCGAGAGAGCCTCCTCAGCATCCTCCTGCGGGAC
+TGGCTCGCCATGCGAAAGCAGATCCGCTCGCGGATTCCCCAGAGCAGCCCCGAGGAGGCC
+GTGCTCCTGGACAAGCAGCAGGCCGCCATCAAGGTCGTGTGTAACTCGGTGTACGGGTTC
+ACGGGAGTGCAGCACGGACTCCTGCCGTGCCTGCACGTTGCCGCGACGGTGACGACCATC
+GGCCGCGAGATGCTGCTCGCGACCCGCGAGTACGTCCACGCGCGCTGGGCGGCCTTCGAA
+CAGCTCCTGGCCGATTTCCCGGAGGCGGCCGACATGCGCGCCCCCGGGCCCTATTCCATG
+CGCATCATCTACGGGGACACGGACTCCATCTTTGTGCTGTGCCGCGGCCTCACGGCCGCC
+GGGCTGACGGCCGTGGGCGACAAGATGGCGAGCCACATCTCGCGCGCGCTGTTTCTGCCC
+CCCATCAAACTCGAGTGCGAAAAGACGTTCACCAAGCTGCTGCTGATCGCCAAGAAAAAG
+TACATCGGCGTCATCTACGGGGGTAAGATGCTCATCAAGGGCGTGGATCTGGTGCGCAAA
+AACAACTGCGCGTTTATCAACCGCACCTCCAGGGCCCTGGTCGACCTGCTGTTTTACGAC
+GATACCGTCTCCGGAGCGGCCGCCGCGTTAGCCGAGCGCCCCGCGGAGGAGTGGCTGGCG
+CGACCCCTGCCCGAGGGACTGCAGGCGTTCGGGGCCGTCCTCGTAGACGCCCATCGGCGC
+ATCACCGACCCGGAGAGGGACATCCAGGACTTTGTCCTCACCGCCGAACTGAGCAGACAC
+CCGCGCGCGTACACCAACAAGCGCCTGGCCCACCTGACGGTGTATTACAAGCTCATGGCC
+CGCCGCGCGCAGGTCCCGTCCATCAAGGACCGGATCCCGTACGTGATCGTGGCCCAGACC
+CGCGAGGTAGAGGAGACGGTCGCGCGGCTGGCCGCCCTCCGCGAGCTAGACGCCGCCGCC
+CCAGGGGACGAGCCCGCCCCCCCCGCGGCCCTGCCCTCCCCGGCCAAGCGCCCCCGGGAG
+ACGCCGTCGCCTGCCGACCCCCCGGGAGGCGCGTCCAAGCCCCGCAAGCTGCTGGTGTCC
+GAGCTGGCCGAGGATCCCGCATACGCCATTGCCCACGGCGTCGCCCTGAACACGGACTAT
+TACTTCTCCCACCTGTTGGGGGCGGCGTGCGTGACATTCAAGGCCCTGTTTGGGAATAAC
+GCCAAGATCACCGAGAGTCTGTTAAAAAGGTTTATTCCCGAAGTGTGGCACCCCCCGGAC
+GACGTGGCCGCGCGGCTCCGGACCGCAGGGTTCGGGGCGGTGGGTGCCGGCGCTACGGCG
+GAGGAAACTCGTCGAATGTTGCATAGAGCCTTTGATACTCTAGCATGA
+
+# Drug_Target_1_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_1_General_References:
+2839594	McGeoch DJ, Dalrymple MA, Davison AJ, Dolan A, Frame MC, McNab D, Perry LJ, Scott JE, Taylor P: The complete DNA sequence of the long unique region in the genome of herpes simplex virus type 1. J Gen Virol. 1988 Jul;69 ( Pt 7):1531-74.
+2999714	Quinn JP, McGeoch DJ: DNA sequence of the region in the genome of herpes simplex virus type 1 containing the genes for DNA polymerase and the major DNA binding protein. Nucleic Acids Res. 1985 Nov 25;13(22):8143-63.
+
+# Drug_Target_1_HGNC_ID:
+Not Available
+
+# Drug_Target_1_HPRD_ID:
+Not Available
+
+# Drug_Target_1_ID:
+338
+
+# Drug_Target_1_Locus:
+Not Available
+
+# Drug_Target_1_Molecular_Weight:
+136422
+
+# Drug_Target_1_Name:
+DNA polymerase
+
+# Drug_Target_1_Number_of_Residues:
+1235
+
+# Drug_Target_1_PDB_ID:
+Not Available
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00136	DNA_pol_B
+PF03104	DNA_pol_B_exo
+
+# Drug_Target_1_Protein_Sequence:
+>DNA polymerase
+MFSGGGGPLSPGGKSAARAASGFFAPAGPRGASRGPPPCLRQNFYNPYLAPVGTQQKPTG
+PTQRHTYYSECDEFRFIAPRVLDEDAPPEKRAGVHDGHLKRAPKVYCGGDERDVLRVGSG
+GFWPRRSRLWGGVDHAPAGFNPTVTVFHVYDILENVEHAYGMRAAQFHARFMDAITPTGT
+VITLLGLTPEGHRVAVHVYGTRQYFYMNKEEVDRHLQCRAPRDLCERMAAALRESPGASF
+RGISADHFEAEVVERTDVYYYETRPALFYRVYVRSGRVLSYLCDNFCPAIKKYEGGVDAT
+TRFILDNPGFVTFGWYRLKPGRNNTLAQPAAPMAFGTSSDVEFNCTADNLAIEGGMSDLP
+AYKLMCFDIECKAGGEDELAFPVAGHPEDLVIQISCLLYDLSTTALEHVLLFSLGSCDLP
+ESHLNELAARGLPTPVVLEFDSEFEMLLAFMTLVKQYGPEFVTGYNIINFDWPFLLAKLT
+DIYKVPLDGYGRMNGRGVFRVWDIGQSHFQKRSKIKVNGMVNIDMYGIITDKIKLSSYKL
+NAVAEAVLKDKKKDLSYRDIPAYYAAGPAQRGVIGEYCIQDSLLVGQLFFKFLPHLELSA
+VARLAGINITRTIYDGQQIRVFTCLLRLADQKGFILPDTQGRFRGAGGEAPKRPAAARED
+EERPEEEGEDEDEREEGGGEREPEGARETAGRHVGYQGARVLDPTSGFHVNPVVVFDFAS
+LYPSIIQAHNLCFSTLSLRADAVAHLEAGKDYLEIEVGGRRLFFVKAHVRESLLSILLRD
+WLAMRKQIRSRIPQSSPEEAVLLDKQQAAIKVVCNSVYGFTGVQHGLLPCLHVAATVTTI
+GREMLLATREYVHARWAAFEQLLADFPEAADMRAPGPYSMRIIYGDTDSIFVLCRGLTAA
+GLTAVGDKMASHISRALFLPPIKLECEKTFTKLLLIAKKKYIGVIYGGKMLIKGVDLVRK
+NNCAFINRTSRALVDLLFYDDTVSGAAAALAERPAEEWLARPLPEGLQAFGAVLVDAHRR
+ITDPERDIQDFVLTAELSRHPRAYTNKRLAHLTVYYKLMARRAQVPSIKDRIPYVIVAQT
+REVEETVARLAALRELDAAAPGDEPAPPAALPSPAKRPRETPSPADPPGGASKPRKLLVS
+ELAEDPAYAIAHGVALNTDYYFSHLLGAACVTFKALFGNNAKITESLLKRFIPEVWHPPD
+DVAARLRTAGFGAVGAGATAEETRRMLHRAFDTLA
+
+# Drug_Target_1_Reaction:
+deoxynucleoside triphosphate + DNAn = diphosphate + DNAn+1
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+Not Available
+
+# Drug_Target_1_SwissProt_ID:
+P04293
+
+# Drug_Target_1_SwissProt_Name:
+DPOL_HHV11
+
+# Drug_Target_1_Synonyms:
+EC 2.7.7.7
+
+# Drug_Target_1_Theoretical_pI:
+7.31
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Nucleus and mitochondria
+
+# Drug_Target_2_Chromosome_Location:
+Not Available
+
+# Drug_Target_2_Drug_References:
+16173018	Boivin G, Goyette N, Gilbert C, Covington E: Analysis of cytomegalovirus DNA polymerase (UL54) mutations in solid organ transplant patients receiving valganciclovir or ganciclovir prophylaxis. J Med Virol. 2005 Nov;77(3):425-9.
+16906040	Potena L, Holweg CT, Chin C, Luikart H, Weisshaar D, Narasimhan B, Fearon WF, Lewis DB, Cooke JP, Mocarski ES, Valantine HA: Acute rejection and cardiac allograft vascular disease is reduced by suppression of subclinical cytomegalovirus infection. Transplantation. 2006 Aug 15;82(3):398-405.
+17157554	Marfori JE, Exner MM, Marousek GI, Chou S, Drew WL: Development of new cytomegalovirus UL97 and DNA polymerase mutations conferring drug resistance after valganciclovir therapy in allogeneic stem cell recipients. J Clin Virol. 2007 Feb;38(2):120-5. Epub 2006 Dec 8.
+20587851	Martin M, Azzi A, Lin SX, Boivin G: Opposite effect of two cytomegalovirus DNA polymerase mutations on replicative capacity and polymerase activity. Antivir Ther. 2010;15(4):579-86.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_2_GeneCard_ID:
+Not Available
+
+# Drug_Target_2_Gene_Name:
+Not Available
+
+# Drug_Target_2_Gene_Sequence:
+>Example: Dickerson dodecamer
+CGCGAATTCGCG
+
+# Drug_Target_2_General_Function:
+Biological information storage and information transfer
+
+# Drug_Target_2_General_References:
+1234	Nadeau D, Marchand C: Change in the kinetics of sulphacetamide tissue distribution in Walker tumor-bearing rats. Drug Metab Dispos. 1975 Nov-Dec;3(6):565-76.
+
+# Drug_Target_2_HGNC_ID:
+Not Available
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+874
+
+# Drug_Target_2_Locus:
+All loci
+
+# Drug_Target_2_Molecular_Weight:
+7656 (double strand)
+
+# Drug_Target_2_Name:
+DNA
+
+# Drug_Target_2_Number_of_Residues:
+0
+
+# Drug_Target_2_PDB_ID:
+1BNA
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+Not Available
+
+# Drug_Target_2_Protein_Sequence:
+Not Available
+
+# Drug_Target_2_Reaction:
+DNA + DNA polymerase + nNTP = 2 DNA + nNDP; DNA + RNA polymerase + NTP = mRNA + nNDP
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+DNA is the molecule of heredity, as it is responsible for the genetic propagation of most inherited traits. It is a polynucleic acid that carries genetic information on cell growth, division, and function. DNA consists of two long strands of nucleotides twisted into a double helix and held together by hydrogen bonds. The sequence of nucleotides determines hereditary characteristics. Each strand serves as the template for subsequent DNA replication and as a template for mRNA production, leading to protein synthesis via ribosomes.
+
+# Drug_Target_2_SwissProt_ID:
+Not Available
+
+# Drug_Target_2_SwissProt_Name:
+Not Available
+
+# Drug_Target_2_Synonyms:
+Deoxyribonucleic acid
+
+# Drug_Target_2_Theoretical_pI:
+Not Available
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Not Available
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+9715911	Champness JN, Bennett MS, Wien F, Visse R, Summers WC, Herdewijn P, de Clerq E, Ostrowski T, Jarvest RL, Sanderson MR: Exploring the active site of herpes simplex virus type-1 thymidine kinase by X-ray crystallography of complexes with aciclovir and other ligands. Proteins. 1998 Aug 15;32(3):350-61.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+Not Available
+
+# Drug_Target_3_GenBank_ID_Gene:
+X14112
+
+# Drug_Target_3_GenBank_ID_Protein:
+59524
+
+# Drug_Target_3_GeneCard_ID:
+Not Available
+
+# Drug_Target_3_Gene_Name:
+TK
+
+# Drug_Target_3_Gene_Sequence:
+>1131 bp
+TCAGTTAGCCTCCCCCATCTCCCGGGCAAACGTGCGCGCCAGGTCGCAGATCGTCGGTAT
+GGAGCCTGGGGTGGTGACGTGGGTCTGGACCATCCCGGAGGTAAGTTGCAGCAGGGCGTC
+CCGGCAGCCGGCGGGCGATTGGTCGTAATCCAGGATAAAGACATGCATGGGACGGAGGCG
+TTTGGCCAAGACGTCCAAAGCCCAGGCAAACACGTTATACAGGTCGCCGTTGGGGGCCAG
+CAACTCGGGGGCCCGAAACAGGGTAAATAACGTGTCCCCGATATGGGGTCGTGGGCCCGC
+GTTGCTCTGGGGCTCGGCACCCTGGGGCGGCACGGCCGCCCCCGAAAGCTGTCCCCAATC
+CTCCCGCCACGACCCGCCGCCCTGCAGATACCGCACCGTATTGGCAAGCAGCCCATAAAC
+GCGGCGAATCGCGGCCAGCATAGCCAGGTCAAGCCGCTCGCCGGGGCGCTGGCGTTTGGC
+CAGGCGGTCGATGTGTCTGTCCTCCGGAAGGGCCCCCAACACGATGTTTGTGCCGGGCAA
+GGTCGGCGGGATGAGGGCCACGAACGCCAGCACGGCCTGGGGGGTCATGCTGCCCATAAG
+GTATCGCGCGGCCGGGTAGCACAGGAGGGCGGCGATGGGATGGCGGTCGAAGATGAGGGT
+GAGGGCCGGGGGCGGGGCATGTGAGCTCCCAGCCTCCCCCCCGATATGAGGAGCCAGAAC
+GGCGTCGGTCACGGCATAAGGCATGCCCATTGTTATCTGGGCGCTTGTCATTACCACCGC
+CGCGTCCCCGGCCGATATCTCACCCTGGTCGAGGCGGTGTTGTGTGGTGTAGATGTTCGC
+GATTGTCTCGGAAGCCCCCAACACCCGCCAGTAAGTCATCGGCTCGGGTACGTAGACGAT
+ATCGTCGCGCGAACCCAGGGCCACCAGCAGTTGCGTGGTGGTGGTTTTCCCCATCCCGTG
+GGGACCGTCTATATAAACCCGCAGTAGCGTGGGCATTTTCTGCTCCAGGCGGACTTCCGT
+GGCTTTTTGTTGCCGGCGAGGGCGCAACGCCGTACGTCGGTTGTTATGGCCGCGAGAACG
+CGCAGCCTGGTCGAACGCAGACGCGTGTTGATGGCAGGGGTACGAAGCCAT
+
+# Drug_Target_3_General_Function:
+Involved in thymidine kinase activity
+
+# Drug_Target_3_General_References:
+2839594	McGeoch DJ, Dalrymple MA, Davison AJ, Dolan A, Frame MC, McNab D, Perry LJ, Scott JE, Taylor P: The complete DNA sequence of the long unique region in the genome of herpes simplex virus type 1. J Gen Virol. 1988 Jul;69 ( Pt 7):1531-74.
+6258156	McKnight SL: The nucleotide sequence and transcript map of the herpes simplex virus thymidine kinase gene. Nucleic Acids Res. 1980 Dec 20;8(24):5949-64.
+7552712	Brown DG, Visse R, Sandhu G, Davies A, Rizkallah PJ, Melitz C, Summers WC, Sanderson MR: Crystal structures of the thymidine kinase from herpes simplex virus type-1 in complex with deoxythymidine and ganciclovir. Nat Struct Biol. 1995 Oct;2(10):876-81.
+7628623	Wild K, Bohner T, Aubry A, Folkers G, Schulz GE: The three-dimensional structure of thymidine kinase from herpes simplex virus type 1. FEBS Lett. 1995 Jul 17;368(2):289-92.
+9336833	Wild K, Bohner T, Folkers G, Schulz GE: The structures of thymidine kinase from herpes simplex virus type 1 in complex with substrates and a substrate analogue. Protein Sci. 1997 Oct;6(10):2097-106.
+9715911	Champness JN, Bennett MS, Wien F, Visse R, Summers WC, Herdewijn P, de Clerq E, Ostrowski T, Jarvest RL, Sanderson MR: Exploring the active site of herpes simplex virus type-1 thymidine kinase by X-ray crystallography of complexes with aciclovir and other ligands. Proteins. 1998 Aug 15;32(3):350-61.
+9989588	Bennett MS, Wien F, Champness JN, Batuwangala T, Rutherford T, Summers WC, Sun H, Wright G, Sanderson MR: Structure to 1.9 A resolution of a complex with herpes simplex virus type-1 thymidine kinase of a novel, non-substrate inhibitor: X-ray crystallographic comparison with binding of aciclovir. FEBS Lett. 1999 Jan 25;443(2):121-5.
+
+# Drug_Target_3_HGNC_ID:
+Not Available
+
+# Drug_Target_3_HPRD_ID:
+Not Available
+
+# Drug_Target_3_ID:
+2559
+
+# Drug_Target_3_Locus:
+-
+
+# Drug_Target_3_Molecular_Weight:
+40973
+
+# Drug_Target_3_Name:
+Thymidine kinase
+
+# Drug_Target_3_Number_of_Residues:
+376
+
+# Drug_Target_3_PDB_ID:
+1OF1
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00693	Herpes_TK
+
+# Drug_Target_3_Protein_Sequence:
+>Thymidine kinase
+MASYPCHQHASAFDQAARSRGHNNRRTALRPRRQQEATEVRPEQKMPTLLRVYIDGPHGM
+GKTTTTQLLVALGSRDDIVYVPEPMTYWRVLGASETIANIYTTQHRLDQGEISAGDAAVV
+MTSAQITMGMPYAVTDAVLAPHIGGEAGSSHAPPPALTLIFDRHPIAALLCYPAARYLMG
+SMTPQAVLAFVALIPPTLPGTNIVLGALPEDRHIDRLAKRQRPGERLDLAMLAAIRRVYG
+LLANTVRYLQCGGSWREDWGQLSGTAVPPQGAEPQSNAGPRPHIGDTLFTLFRAPELLAP
+NGDLYNVFAWALDVLAKRLRSMHVFILDYDQSPAGCRDALLQLTSGMVQTHVTTPGSIPT
+ICDLARTFAREMGEAN
+
+# Drug_Target_3_Reaction:
+ATP + thymidine = ADP + thymidine 5'-phosphate
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+In latent infection, may allow the virus to be reactivated and to grow in cells lacking a high concentration of phosphorylated nucleic acid precursors, such as nerve cells that do not replicate their genome
+
+# Drug_Target_3_SwissProt_ID:
+P03176
+
+# Drug_Target_3_SwissProt_Name:
+KITH_HHV11
+
+# Drug_Target_3_Synonyms:
+EC 2.7.1.21
+
+# Drug_Target_3_Theoretical_pI:
+7.96
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB01004

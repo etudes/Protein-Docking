@@ -10,7 +10,7 @@ import java.util.zip.*;
 import java.lang.*;
 import java.lang.reflect.*;
 
-public class Constants {
+interface Constants {
 	public static final int NUMCASES = 20;
 	public static final double FPPRECISION = Math.pow(10,-9);
 	public static final double ALPHAINC = Math.PI/180*15;
@@ -128,4 +128,6 @@ public class Constants {
 	public static final double Vdw_Rad_S = 1.80;
 	public static final double Vdw_Rad_H = 1.09;
 	public static final double Solv_Corr = 3.5;
+	public static final double Boltzmann = 1.3806488e-23;
+	public static final double Temp = 310.;
 }

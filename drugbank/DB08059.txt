@@ -1,0 +1,837 @@
+#BEGIN_DRUGCARD DB08059
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Not Available
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+Not Available
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+C23H24O8
+
+# Chemical_IUPAC_Name:
+(1R,3R,5S,9R,18S)-18-(methoxymethyl)-1,5-dimethyl-6,11,16-trioxo-13,17-dioxapentacyclo[10.6.1.0^{2,10}.0^{5,9}.0^{15,19}]nonadeca-2(10),12(19),14-trien-3-yl acetate
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2010-09-15 15:28:05 -0600
+
+# DPD_Drug_ID_Number:
+Not Available
+
+# Description:
+Not Available
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Not Available
+
+# Drug_Interactions:
+Not Available
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Experimental
+Small Molecule
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+(1S,6BR,9AS,11R,11BR)-9A,11B-DIMETHYL-1-[(METHYLOXY)METHYL]-3,6,9-TRIOXO-1,6,6B,7,8,9,9A,10,11,11B-DECAHYDRO-3H-FURO[4,3,2-DE]INDENO[4,5-H][2]BENZOPYRAN-11-YL ACETATE
+
+# HET_ID:
+KWT
+
+# Half_Life:
+Not Available
+
+# InChI_Identifier:
+InChI=1S/C23H24O8/c1-10(24)30-13-7-22(2)12(5-6-14(22)25)16-18(13)23(3)15(9-28-4)31-21(27)11-8-29-20(17(11)23)19(16)26/h8,12-13,15H,5-7,9H2,1-4H3/t12-,13+,15+,22-,23-/m0/s1
+
+# InChI_Key:
+InChIKey=QDLHCMPXEPAAMD-QAIWCSMKSA-N
+
+# Indication:
+Not Available
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+8065
+
+# Mechanism_Of_Action:
+Not Available
+
+# Melting_Point:
+Not Available
+
+# Molecular_Weight_Avg:
+428.4319
+
+# Molecular_Weight_Mono:
+428.147117744
+
+# Organisms_Affected:
+Not Available
+
+# PDB_Experimental_ID:
+Not Available
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+Not Available
+
+# Pharmacology:
+Not Available
+
+# Predicted_LogP_Hydrophobicity:
+2.31
+
+# Predicted_LogS:
+-3.5
+
+# Predicted_Water_Solubility:
+1.21e-01 g/l
+
+# Primary_Accession_No:
+DB08059
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+312145
+
+# PubChem_Substance_ID:
+99444530
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+Not Available
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+[H][C@@]12CCC(=O)[C@@]1(C)C[C@@]([H])(OC(C)=O)C1=C2C(=O)C2=C3C(=CO2)C(=O)O[C@]([H])(COC)[C@]13C
+
+# State:
+solid
+
+# Structure:
+1
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Not Available
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2013-02-08 16:26:22 -0700
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Not Available
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+PIK3CG
+
+# Drug_Target_1_GenBank_ID_Gene:
+X83368
+
+# Drug_Target_1_GenBank_ID_Protein:
+1507822
+
+# Drug_Target_1_GeneCard_ID:
+PIK3CG
+
+# Drug_Target_1_Gene_Name:
+PIK3CG
+
+# Drug_Target_1_Gene_Sequence:
+>3306 bp
+ATGGAGCTGGAGAACTATAAACAGCCCGTGGTGCTGAGAGAGGACAACTGCCGAAGGCGC
+CGGAGGATGAAGCCGCGCAGTGCTGCCAGCCTGTCCTCCATGGAGCTCATCCCCATCGAG
+TTCGTGCTGCCCACCAGCCAGCGCAAATGCAAGAGCCCCGAAACGGCGCTGCTGCACGTG
+GCCGGCCACGGCAACGTGGAGCAGATGAAGGCCCAGGTGTGGCTGCGAGCGCTGGAGACC
+AGCGTGGCGGCGGACTTCTACCACCGGCTGGGACCGCATCACTTCCTCCTGCTCTATCAG
+AAGAAGGGGCAGTGGTACGAGATCTACGACAAGTACCAGGTGGTGCAGACTCTGGACTGC
+CTGCGCTACTGGAAGGCCACGCACCGGAGCCCGGGCCAGATCCACCTGGTGCAGCGGCAC
+CCGCCCTCCGAGGAGTCCCAAGCCTTCCAGCGGCAGCTCACGGCGCTGATTGGCTATGAC
+GTCACTGACGTCAGCAACGTGCACGACGATGAGCTGGAGTTCACGCGCCGTGGCTTGGTG
+ACCCCGCGCATGGCGGAGGTGGCCAGCCGCGACCCCAAGCTCTACGCCATGCACCCGTGG
+GTGACGTCCAAGCCCCTCCCGGAGTACCTGTGGAAGAAGATTGCCAACAACTGCATCTTC
+ATCGTCATTCACCGCAGCACCACCAGCCAGACCATTAAGGTCTCACCCGACGACACCCCC
+GGCGCCATCCTGCAGAGCTTCTTCACCAAGATGGCCAAGAAGAAATCTCTGATGGATATT
+CCCGAAAGCCAAAGCGAACAGGATTTTGTGCTGCGCGTCTGTGGCCGGGATGAGTACCTG
+GTGGGCGAAACGCCCATCAAAAACTTCCAGTGGGTGAGGCACTGCCTCAAGAACGGAGAA
+GAGATTCACGTGGTACTGGACACGCCTCCAGACCCGGCCCTAGACGAGGTGAGGAAGGAA
+GAGTGGCCGCTGGTGGACGACTGCACGGGAGTCACCGGCTACCATGAGCAGCTTACCATC
+CACGGCAAGGACCACGAGAGTGTGTTCACCGTGTCCCTGTGGGACTGCGACCGCAAGTTC
+AGGGTCAAGATCAGAGGCATTGATATCCCCGTCCTGCCTCGGAACACCGACCTCACAGTT
+TTTGTAGAGGCAAACATCCAGCATGGGCAACAAGTCCTTTGCCAAAGGAGAACCAGCCCC
+AAACCCTTCACAGAGGAGGTGCTGTGGAATGTGTGGCTTGAGTTCAGTATCAAAATCAAA
+GACTTGCCCAAAGGGGCTCTACTGAACCTCCAGATCTACTGCGGTAAAGCTCCAGCACTG
+TCCAGCAAGGCCTCTGCAGAGTCCCCCAGTTCTGAGTCCAAGGGCAAAGTTCGGCTTCTC
+TATTATGTGAACCTGCTGCTGATAGACCACCGTTTCCTCCTGCGCCGTGGAGAATACGTC
+CTCCACATGTGGCAGATATCTGGGAAGGGAGAAGACCAAGGAAGCTTCAATGCTGACAAA
+CTCACGTCTGCAACTAACCCAGACAAGGAGAACTCAATGTCCATCTCCATTCTTCTGGAC
+AATTACTGCCACCCGATAGCCCTGCCTAAGCATCAGCCCACCCCTGACCCGGAAGGGGAC
+CGGGTTCGAGCAGAAATGCCCAACCAGCTTCGCAAGCAATTGGAGGCGATCATAGCCACT
+GATCCACTTAACCCTCTCACAGCAGAGGACAAAGAATTGCTCTGGCATTTTAGATACGAA
+AGCCTTAAGCACCCAAAAGCATATCCTAAGCTATTTAGTTCAGTGAAATGGGGACAGCAA
+GAAATTGTGGCCAAAACATACCAATTGTTGGCCAGAAGGGAAGTCTGGGATCAAAGTGCT
+TTGGATGTTGGGTTAACAATGCAGCTCCTGGACTGCAACTTCTCAGATGAAAATGTAAGA
+GCCATTGCAGTTCAGAAACTGGAGAGCTTGGAGGACGATGATGTTCTGCATTACCTTCTA
+CAATTGGTCCAGGCTGTGAAATTTGAACCATACCATGATAGCGCCCTTGCCAGATTTCTG
+CTGAAGCGTGGTTTAAGAAACAAAAGAATTGGTCACTTTTTGTTTTGGTTCTTGAGAAGT
+GAGATAGCCCAGTCCAGACACTATCAGCAGAGGTTCGCTGTGATTCTGGAAGCCTATCTG
+AGGGGCTGTGGCACAGCCATGCTGCACGACTTTACCCAACAAGTCCAAGTAATCGAGATG
+TTACAAAAAGTCACCCTTGATATTAAATCGCTCTCTGCTGAAAAGTATGACGTCAGTTCC
+CAAGTTATTTCACAACTTAAACAAAAGCTTGAAAACCTGCAGAATTCTCAACTCCCCGAA
+AGCTTTAGAGTTCCATATGATCCTGGACTGAAAGCAGGAGCGCTGGCAATTGAAAAATGT
+AAAGTAATGGCCTCCAAGAAAAAACCACTATGGCTTGAGTTTAAATGTGCCGATCCTACA
+GCCCTATCAAATGAAACAATTGGAATTATCTTTAAACATGGTGATGATCTGCGCCAAGAC
+ATGCTTATTTTACAGATTCTACGAATCATGGAGTCTATTTGGGAGACTGAATCTTTGGAT
+CTATGCCTCCTGCCATATGGTTGCATTTCAACTGGTGACAAAATAGGAATGATCGAGATT
+GTGAAAGACGCCACGACAATTGCCAAAATTCAGCAAAGCACAGTGGGCAACACGGGAGCA
+TTTAAAGATGAAGTCCTGAATCACTGGCTCAAAGAAAAATCCCCTACTGAAGAAAAGTTT
+CAGGCAGCAGTGGAGAGATTTGTTTATTCCTGTGCAGGCTACTGTGTGGCAACCTTTGTT
+CTTGGAATAGGCGACAGACACAATGACAATATTATGATCACCGAGACAGGAAACCTATTT
+CATATTGACTTCGGGCACATTCTTGGGAATTACAAAAGTTTCCTGGGCATTAATAAAGAG
+AGAGTGCCATTTGTGCTAACCCCTGACTTCCTCTTTGTGATGGGAACTTCTGGAAAGAAG
+ACAAGCCCACACTTCCAGAAATTTCAGGACATCTGTGTTAAGGCTTATCTAGCCCTTCGT
+CATCACACAAACCTACTGATCATCCTGTTCTCCATGATGCTGATGACAGGAATGCCCCAG
+TTAACAAGCAAAGAAGACATTGAATATATCCGGGATGCCCTCACAGTGGGGAAAAATGAG
+GAGGATGCTAAAAAGTATTTTCTTGATCAGATCGAAGTTTGCAGAGACAAAGGATGGACT
+GTGCAGTTTAATTGGTTTCTACATCTTGTTCTTGGCATCAAACAAGGAGAGAAACATTCA
+GCCTAA
+
+# Drug_Target_1_General_Function:
+Involved in phosphotransferase activity, alcohol group as acceptor
+
+# Drug_Target_1_General_References:
+12853948	Hillier LW, Fulton RS, Fulton LA, Graves TA, Pepin KH, Wagner-McPherson C, Layman D, Maas J, Jaeger S, Walker R, Wylie K, Sekhon M, Becker MC, O'Laughlin MD, Schaller ME, Fewell GA, Delehaunty KD, Miner TL, Nash WE, Cordes M, Du H, Sun H, Edwards J, Bradshaw-Cordum H, Ali J, Andrews S, Isak A, Vanbrunt A, Nguyen C, Du F, Lamar B, Courtney L, Kalicki J, Ozersky P, Bielicki L, Scott K, Holmes A, Harkins R, Harris A, Strong CM, Hou S, Tomlinson C, Dauphin-Kohlberg S, Kozlowicz-Reilly A, Leonard S, Rohlfing T, Rock SM, Tin-Wollam AM, Abbott A, Minx P, Maupin R, Strowmatt C, Latreille P, Miller N, Johnson D, Murray J, Woessner JP, Wendl MC, Yang SP, Schultz BR, Wallis JW, Spieth J, Bieri TA, Nelson JO, Berkowicz N, Wohldmann PE, Cook LL, Hickenbotham MT, Eldred J, Williams D, Bedell JA, Mardis ER, Clifton SW, Chissoe SL, Marra MA, Raymond C, Haugen E, Gillett W, Zhou Y, James R, Phelps K, Iadanoto S, Bubb K, Simms E, Levy R, Clendenning J, Kaul R, Kent WJ, Furey TS, Baertsch RA, Brent MR, Keibler E, Flicek P, Bork P, Suyama M, Bailey JA, Portnoy ME, Torrents D, Chinwalla AT, Gish WR, Eddy SR, McPherson JD, Olson MV, Eichler EE, Green ED, Waterston RH, Wilson RK: The DNA sequence of human chromosome 7. Nature. 2003 Jul 10;424(6945):157-64.
+7624799	Stoyanov B, Volinia S, Hanck T, Rubio I, Loubtchenkov M, Malek D, Stoyanova S, Vanhaesebroeck B, Dhand R, Nurnberg B, et al.: Cloning and characterization of a G protein-activated human phosphoinositide-3 kinase. Science. 1995 Aug 4;269(5224):690-3.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:8978
+
+# Drug_Target_1_HPRD_ID:
+03135
+
+# Drug_Target_1_ID:
+2404
+
+# Drug_Target_1_Locus:
+7q22.3
+
+# Drug_Target_1_Molecular_Weight:
+126455
+
+# Drug_Target_1_Name:
+Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+
+# Drug_Target_1_Number_of_Residues:
+1102
+
+# Drug_Target_1_PDB_ID:
+1E8Z
+
+# Drug_Target_1_Pathway:
+Bevacizumab Pathway	SMP00420
+Vatalanib Pathway	SMP00421
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00454	PI3_PI4_kinase
+PF00613	PI3Ka
+PF00792	PI3K_C2
+PF00794	PI3K_rbd
+
+# Drug_Target_1_Protein_Sequence:
+>Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma isoform
+MELENYKQPVVLREDNCRRRRRMKPRSAAASLSSMELIPIEFVLPTSQRKCKSPETALLH
+VAGHGNVEQMKAQVWLRALETSVAADFYHRLGPHHFLLLYQKKGQWYEIYDKYQVVQTLD
+CLRYWKATHRSPGQIHLVQRHPPSEESQAFQRQLTALIGYDVTDVSNVHDDELEFTRRGL
+VTPRMAEVASRDPKLYAMHPWVTSKPLPEYLWKKIANNCIFIVIHRSTTSQTIKVSPDDT
+PGAILQSFFTKMAKKKSLMDIPESQSEQDFVLRVCGRDEYLVGETPIKNFQWVRHCLKNG
+EEIHVVLDTPPDPALDEVRKEEWPLVDDCTGVTGYHEQLTIHGKDHESVFTVSLWDCDRK
+FRVKIRGIDIPVLPRNTDLTVFVEANIQHGQQVLCQRRTSPKPFTEEVLWNVWLEFSIKI
+KDLPKGALLNLQIYCGKAPALSSKASAESPSSESKGKVQLLYYVNLLLIDHRFLLRRGEY
+VLHMWQISGKGEDQGSFNADKLTSATNPDKENSMSISILLDNYCHPIALPKHQPTPDPEG
+DRVRAEMPNQLRKQLEAIIATDPLNPLTAEDKELLWHFRYESLKHPKAYPKLFSSVKWGQ
+QEIVAKTYQLLARREVWDQSALDVGLTMQLLDCNFSDENVRAIAVQKLESLEDDDVLHYL
+LQLVQAVKFEPYHDSALARFLLKRGLRNKRIGHFLFWFLRSEIAQSRHYQQRFAVILEAY
+LRGCGTAMLHDFTQQVQVIEMLQKVTLDIKSLSAEKYDVSSQVISQLKQKLENLQNSQLP
+ESFRVPYDPGLKAGALAIEKCKVMASKKKPLWLEFKCADPTALSNETIGIIFKHGDDLRQ
+DMLILQILRIMESIWETESLDLCLLPYGCISTGDKIGMIEIVKDATTIAKIQQSTVGNTG
+AFKDEVLNHWLKEKSPTEEKFQAAVERFVYSCAGYCVATFVLGIGDRHNDNIMITETGNL
+FHIDFGHILGNYKSFLGINKERVPFVLTPDFLFVMGTSGKKTSPHFQKFQDICVKAYLAL
+RHHTNLLIILFSMMLMTGMPQLTSKEDIEYIRDALTVGKNEEDAKKYFLDQIEVCRDKGW
+TVQFNWFLHLVLGIKQGEKHSA
+
+# Drug_Target_1_Reaction:
+ATP + 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate = ADP + 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate
+
+# Drug_Target_1_Signals:
+None
+
+# Drug_Target_1_Specific_Function:
+3-phosphorylates the cellular phosphoinositide PtdIns- 4,5-biphosphate (PtdIns(4,5)P2) to produce PtdIns-3, 4,5- triiphosphate (PtdIns(3,4,5)P3). Links G-protein coupled receptor activation to the secondary messenger PtdIns(3,4,5)P3 production
+
+# Drug_Target_1_SwissProt_ID:
+P48736
+
+# Drug_Target_1_SwissProt_Name:
+PK3CG_HUMAN
+
+# Drug_Target_1_Synonyms:
+EC 2.7.1.153
+PI3-kinase p110 subunit gamma
+PI3K
+PI3Kgamma
+PtdIns-3- kinase subunit p110
+p120-PI3K
+
+# Drug_Target_1_Theoretical_pI:
+7.53
+
+# Drug_Target_1_Transmembrane_Regions:
+None
+
+# Drug_Target_2_Cellular_Location:
+Nucleus
+
+# Drug_Target_2_Chromosome_Location:
+1
+
+# Drug_Target_2_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+U01038
+
+# Drug_Target_2_GenBank_ID_Protein:
+393017
+
+# Drug_Target_2_GeneCard_ID:
+PLK1
+
+# Drug_Target_2_Gene_Name:
+PLK1
+
+# Drug_Target_2_Gene_Sequence:
+>1812 bp
+ATGACTGCAGCGGTGACTGCGGGGAAGCTGCCACGGGCACCGGCCGACCCTGGGAAAGCC
+GGGGTCCCCGGAGTTGCAGCTCCCGGAGCTCCGGCGGCGGCTCCACCGGCGAAAGAGATC
+CCGGAGGTCCTAGTGGACCCACGCAGCCGGCGGCGCTATGTGCGGGGCCGCCTTTTGAGC
+AAGGGCGGCTTTGCCAAGTGCTTCGAGATCTCGGACGCGGACACCAAGGAGGTGTTCGCG
+GGCAAGATTGTGCCTAAGTCTCTGCTGCTCAAGCCGCACCAGAGGGAGAAGATGTCCATG
+GAAATATCCATTCACCGCAGCCTCGCCCACCAGCACGTCGTAGGATTCCACGGCTTTTTC
+GAGGACAACGACTTCGTGTTCGTGGTGTTGGAGCTCTGCCGCCGGAGGTCTCTCCTGGAG
+CTGCACAAGAGGAGGAAAGCCCTGACTGAGCCTGAGGCCCGATACTACCTACGGCAAATT
+GTGCTTGGCTGCCAGTACCTGCACCGAAACCGAGTTATTCATCGAGACCTCAAGCTGGGC
+AACCTTTTCCTGAATGAAGATCTGGAGGTGAAAATAGGGGATTTTGGACTGGCAACCAAA
+GTCGAATATGACGGGGAGAGGAAGAAGACCCTGTGTGGGACTCCTAATTACATAGCTCCC
+GAGGTGCTGAGCAAGAAAGGGCACAGTTTCGAGGTGGATGTGTGGTCCATTGGGTGTATC
+ATGTATACCTTGTTAGTGGGCAAACCACCTTTTGAGACTTCTTGCCTAAAAGAGACCTAC
+CTCCGGATCAAGAAGAATGAATACAGTATTCCCAAGCACATCAACCCCGTGGCCGCCTCC
+CTCATCCAGAAGATGCTTCAGACAGATCCCACTGCCCGCCCAACCATTAACGAGCTGCTT
+AATGACGAGTTCTTTACTTCTGGCTATATCCCTGCCCGTCTCCCCATCACCTGCCTGACC
+ATTCCACCAAGGTTTTCGATTGCTCCCAGCAGCCTGGACCCCAGCAACCGGAAGCCCCTC
+ACAGTCCTCAATAAAGGCTTGGAGAACCCCCTGCCTGAGCGTCCCCGGGAAAAAGAAGAA
+CCAGTGGTTCGAGAGACAGGTGAGGTGGTCGACTGCCACCTCAGTGACATGCTGCAGCAA
+CTGCACAGTGTCAATGCCTCCAAGCCCTCGGAGCGTGGGCTGGTCAGGCAAGAGGAGGCT
+GAGGATCCTGCCTGCATCCCCATCTTCTGGGTCAGCAAGTGGGTGGACTATTCGGACAAG
+TACGGCCTTGGGTATCAGCTCTGTGATAACAGCGTGGGGGTGCTCTTCAATGACTCAACA
+CGCCTCATCCTCTACAATGATGGTGACAGCCTGCAGTACATAGAGCGTGACGGCACTGAG
+TCCTACCTCACCGTGAGTTCCCATCCCAACTCCTTGATGAAGAAGATCACCCTCCTTAAA
+TATTTCCGCAATTACATGAGCGAGCACTTGCTGAAGGCAGGTGCCAACATCACGCCGCGC
+GAAGGTGATGAGCTCGCCCGGCTGCCCTACCTACGGACCTGGTTCCGCACCCGCAGCGCC
+ATCATCCTGCACCTCAGCAACGGCAGCGTGCAGATCAACTTCTTCCAGGATCACACCAAG
+CTCATCTTGTGCCCACTGATGGCAGCCGTGACCTACATCGACGAGAAGCGGGACTTCCGC
+ACATACCGCCTGAGTCTCCTGGAGGAGTACGGCTGCTGCAAGGAGCTGGCCAGCCGGCTC
+CGCTACGCCCGCACTATGGTGGACAAGCTGCTGAGCTCACGCTCGGCCAGCAACCGTCTC
+AAGGCCTCCTAA
+
+# Drug_Target_2_General_Function:
+Involved in ATP binding
+
+# Drug_Target_2_General_References:
+12207013	Jang YJ, Ma S, Terada Y, Erikson RL: Phosphorylation of threonine 210 and the role of serine 137 in the regulation of mammalian polo-like kinase. J Biol Chem. 2002 Nov 15;277(46):44115-20. Epub 2002 Aug 30.
+12442251	Wind M, Kelm O, Nigg EA, Lehmann WD: Identification of phosphorylation sites in the polo-like kinases Plx1 and Plk1 by a novel strategy based on element and electrospray high resolution mass spectrometry. Proteomics. 2002 Nov;2(11):1516-23.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+7478607	Brauninger A, Strebhardt K, Rubsamen-Waigmann H: Identification and functional characterization of the human and murine polo-like kinase (Plk) promoter. Oncogene. 1995 Nov 2;11(9):1793-800.
+7902533	Lake RJ, Jelinek WR: Cell cycle- and terminal differentiation-associated regulation of the mouse mRNA encoding a conserved mitotic protein kinase. Mol Cell Biol. 1993 Dec;13(12):7793-801.
+7962193	Golsteyn RM, Schultz SJ, Bartek J, Ziemiecki A, Ried T, Nigg EA: Cell cycle analysis and chromosomal localization of human Plk1, a putative homologue of the mitotic kinases Drosophila polo and Saccharomyces cerevisiae Cdc5. J Cell Sci. 1994 Jun;107 ( Pt 6):1509-17.
+8018557	Hamanaka R, Maloid S, Smith MR, O'Connell CD, Longo DL, Ferris DK: Cloning and characterization of human and murine homologues of the Drosophila polo serine-threonine kinase. Cell Growth Differ. 1994 Mar;5(3):249-57.
+8127874	Holtrich U, Wolf G, Brauninger A, Karn T, Bohme B, Rubsamen-Waigmann H, Strebhardt K: Induction and down-regulation of PLK, a human serine/threonine kinase expressed in proliferating cells and tumors. Proc Natl Acad Sci U S A. 1994 Mar 1;91(5):1736-40.
+9083047	Uchiumi T, Longo DL, Ferris DK: Cell cycle regulation of the human polo-like kinase (PLK) promoter. J Biol Chem. 1997 Apr 4;272(14):9166-74.
+9154840	Lee KS, Erikson RL: Plk is a functional homolog of Saccharomyces cerevisiae Cdc5, and elevated Plk activity induces multiple septation structures. Mol Cell Biol. 1997 Jun;17(6):3408-17.
+
+# Drug_Target_2_HGNC_ID:
+GNC:9077
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+6246
+
+# Drug_Target_2_Locus:
+16p12.2
+
+# Drug_Target_2_Molecular_Weight:
+68254.0
+
+# Drug_Target_2_Name:
+Serine/threonine-protein kinase PLK1
+
+# Drug_Target_2_Number_of_Residues:
+603
+
+# Drug_Target_2_PDB_ID:
+1Q4K
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00069	Pkinase
+PF00659	POLO_box
+
+# Drug_Target_2_Protein_Sequence:
+>Serine/threonine-protein kinase PLK1
+MSAAVTAGKLARAPADPGKAGVPGVAAPGAPAAAPPAKEIPEVLVDPRSRRRYVRGRFLG
+KGGFAKCFEISDADTKEVFAGKIVPKSLLLKPHQREKMSMEISIHRSLAHQHVVGFHGFF
+EDNDFVFVVLELCRRRSLLELHKRRKALTEPEARYYLRQIVLGCQYLHRNRVIHRDLKLG
+NLFLNEDLEVKIGDFGLATKVEYDGERKKTLCGTPNYIAPEVLSKKGHSFEVDVWSIGCI
+MYTLLVGKPPFETSCLKETYLRIKKNEYSIPKHINPVAASLIQKMLQTDPTARPTINELL
+NDEFFTSGYIPARLPITCLTIPPRFSIAPSSLDPSNRKPLTVLNKGLENPLPERPREKEE
+PVVRETGEVVDCHLSDMLQQLHSVNASKPSERGLVRQEEAEDPACIPIFWVSKWVDYSDK
+YGLGYQLCDNSVGVLFNDSTRLILYNDGDSLQYIERDGTESYLTVSSHPNSLMKKITLLK
+YFRNYMSEHLLKAGANITPREGDELARLPYLRTWFRTRSAIILHLSNGSVQINFFQDHTK
+LILCPLMAAVTYIDEKRDFRTYRLSLLEEYGCCKELASRLRYARTMVDKLLSSRSASNRL
+KAS
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+None
+
+# Drug_Target_2_Specific_Function:
+Serine/threonine-protein kinase that performs several important functions throughout M phase of the cell cycle, including the regulation of centrosome maturation and spindle assembly, the removal of cohesins from chromosome arms, the inactivation of APC/C inhibitors, and the regulation of mitotic exit and cytokinesis
+
+# Drug_Target_2_SwissProt_ID:
+P53350
+
+# Drug_Target_2_SwissProt_Name:
+PLK1_HUMAN
+
+# Drug_Target_2_Synonyms:
+PLK-1
+Polo-like kinase 1
+STPK13
+Serine/threonine-protein kinase 13
+
+# Drug_Target_2_Theoretical_pI:
+9.19
+
+# Drug_Target_2_Transmembrane_Regions:
+None
+
+# Drug_Target_3_Cellular_Location:
+Cytoplasmic
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+PIK3R1
+
+# Drug_Target_3_GenBank_ID_Gene:
+M61906
+
+# Drug_Target_3_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_3_GeneCard_ID:
+PIK3R1
+
+# Drug_Target_3_Gene_Name:
+PIK3R1
+
+# Drug_Target_3_Gene_Sequence:
+Not Available
+
+# Drug_Target_3_General_Function:
+Replication, recombination and repair
+
+# Drug_Target_3_General_References:
+10768093	Baynes KC, Beeton CA, Panayotou G, Stein R, Soos M, Hansen T, Simpson H, O'Rahilly S, Shepherd PR, Whitehead JP: Natural variants of human p85 alpha phosphoinositide 3-kinase in severe insulin resistance: a novel variant with impaired insulin-stimulated lipid kinase activity. Diabetologia. 2000 Mar;43(3):321-31.
+11567151	Pauptit RA, Dennis CA, Derbyshire DJ, Breeze AL, Weston SA, Rowsell S, Murshudov GN: NMR trial models: experiences with the colicin immunity protein Im7 and the p85alpha C-terminal SH2-peptide complex. Acta Crystallogr D Biol Crystallogr. 2001 Oct;57(Pt 10):1397-404. Epub 2001 Sep 21.
+12009866	Linnemann T, Zheng YH, Mandic R, Peterlin BM: Interaction between Nef and phosphatidylinositol-3-kinase leads to activation of p21-activated kinase and increased production of HIV. Virology. 2002 Mar 15;294(2):246-55.
+12359715	Zhu M, Janssen E, Leung K, Zhang W: Molecular cloning of a novel gene encoding a membrane-associated adaptor protein (LAX) in lymphocyte signaling. J Biol Chem. 2002 Nov 29;277(48):46151-8. Epub 2002 Sep 30.
+1849461	Skolnik EY, Margolis B, Mohammadi M, Lowenstein E, Fischer R, Drepps A, Ullrich A, Schlessinger J: Cloning of PI3 kinase-associated p85 utilizing a novel method for expression/cloning of target proteins for receptor tyrosine kinases. Cell. 1991 Apr 5;65(1):83-90.
+7541045	Craparo A, O'Neill TJ, Gustafson TA: Non-SH2 domains within insulin receptor substrate-1 and SHC mediate their phosphotyrosine-dependent interaction with the NPEY motif of the insulin-like growth factor I receptor. J Biol Chem. 1995 Jun 30;270(26):15639-43.
+7681364	Koyama S, Yu H, Dalgarno DC, Shin TB, Zydowsky LD, Schreiber SL: Structure of the PI3K SH3 domain and analysis of the SH3 family. Cell. 1993 Mar 26;72(6):945-52.
+8599763	Nolte RT, Eck MJ, Schlessinger J, Shoelson SE, Harrison SC: Crystal structure of the PI 3-kinase p85 amino-terminal SH2 domain and its phosphopeptide complexes. Nat Struct Biol. 1996 Apr;3(4):364-74.
+8628286	Antonetti DA, Algenstaedt P, Kahn CR: Insulin receptor substrate 1 binds two novel splice variants of the regulatory subunit of phosphatidylinositol 3-kinase in muscle and brain. Mol Cell Biol. 1996 May;16(5):2195-203.
+8648629	Liang J, Chen JK, Schreiber ST, Clardy J: Crystal structure of P13K SH3 domain at 20 angstroms resolution. J Mol Biol. 1996 Apr 5;257(3):632-43.
+8670861	Breeze AL, Kara BV, Barratt DG, Anderson M, Smith JC, Luke RW, Best JR, Cartlidge SA: Structure of a specific peptide complex of the carboxy-terminal SH2 domain from the p85 alpha subunit of phosphatidylinositol 3-kinase. EMBO J. 1996 Jul 15;15(14):3579-89.
+8961927	Renzoni DA, Pugh DJ, Siligardi G, Das P, Morton CJ, Rossi C, Waterfield MD, Campbell ID, Ladbury JE: Structural and thermodynamic characterization of the interaction of the SH3 domain from Fyn with the proline-rich binding site on the p85 subunit of PI3-kinase. Biochemistry. 1996 Dec 10;35(49):15646-53.
+8962058	Musacchio A, Cantley LC, Harrison SC: Crystal structure of the breakpoint cluster region-homology domain from phosphoinositide 3-kinase p85 alpha subunit. Proc Natl Acad Sci U S A. 1996 Dec 10;93(25):14373-8.
+9032108	Hansen T, Andersen CB, Echwald SM, Urhammer SA, Clausen JO, Vestergaard H, Owens D, Hansen L, Pedersen O: Identification of a common amino acid polymorphism in the p85alpha regulatory subunit of phosphatidylinositol 3-kinase: effects on glucose disappearance constant, glucose effectiveness, and the insulin sensitivity index. Diabetes. 1997 Mar;46(3):494-501.
+9489702	Zhang W, Sloan-Lancaster J, Kitchen J, Trible RP, Samelson LE: LAT: the ZAP-70 tyrosine kinase substrate that links T cell receptor to cellular activation. Cell. 1998 Jan 9;92(1):83-92.
+9687533	Bruyns E, Marie-Cardine A, Kirchgessner H, Sagolla K, Shevchenko A, Mann M, Autschbach F, Bensussan A, Meuer S, Schraven B: T cell receptor (TCR) interacting molecule (TRIM), a novel disulfide-linked dimer associated with the TCR-CD3-zeta complex, recruits intracellular signaling proteins to the plasma membrane. J Exp Med. 1998 Aug 3;188(3):561-75.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:8979
+
+# Drug_Target_3_HPRD_ID:
+01381
+
+# Drug_Target_3_ID:
+1281
+
+# Drug_Target_3_Locus:
+5q13.1
+
+# Drug_Target_3_Molecular_Weight:
+83599
+
+# Drug_Target_3_Name:
+Phosphatidylinositol 3-kinase regulatory subunit alpha
+
+# Drug_Target_3_Number_of_Residues:
+724
+
+# Drug_Target_3_PDB_ID:
+1PBW
+
+# Drug_Target_3_Pathway:
+Cetuximab Pathway	SMP00474
+Erlotinib Pathway	SMP00472
+Gefitinib Pathway	SMP00473
+Panitumumab Pathway	SMP00475
+Trastuzumab Pathway	SMP00476
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00017	SH2
+PF00018	SH3_1
+PF00620	RhoGAP
+
+# Drug_Target_3_Protein_Sequence:
+>Phosphatidylinositol 3-kinase regulatory subunit alpha
+MSAEGYQYRALYDYKKEREEDIDLHLGDILTVNKGSLVALGFSDGQEARPEEIGWLNGYN
+ETTGERGDFPGTYVEYIGRKKISPPTPKPRPPRPLPVAPGSSKTEADVEQQALTLPDLAE
+QFAPPDIAPPLLIKLVEAIEKKGLECSTLYRTQSSSNLAELRQLLDCDTPSVDLEMIDVH
+VLADAFKRYLLDLPNPVIPAAVYSEMISLAPEVQSSEEYIQLLKKLIRSPSIPHQYWLTL
+QYLLKHFFKLSQTSSKNLLNARVLSEIFSPMLFRFSAASSDNTENLIKVIEILISTEWNE
+RQPAPALPPKPPKPTTVANNGMNNNMSLQDAEWYWGDISREEVNEKLRDTADGTFLVRDA
+STKMHGDYTLTLRKGGNNKLIKIFHRDGKYGFSDPLTFSSVVELINHYRNESLAQYNPKL
+DVKLLYPVSKYQQDQVVKEDNIEAVGKKLHEYNTQFQEKSREYDRLYEEYTRTSQEIQMK
+RTAIEAFNETIKIFEEQCQTQERYSKEYIEKFKREGNEKEIQRIMHNYDKLKSRISEIID
+SRRRLEEDLKKQAAEYREIDKRMNSIKPDLIQLRKTRDQYLMWLTQKGVRQKKLNEWLGN
+ENTEDQYSLVEDDEDLPHHDEKTWNVGSSNRNKAENLLRGKRDGTFLVRESSKQGCYACS
+VVVDGEVKHCVINKTATGYGFAEPYNLYSSLKELVLHYQHTSLVQHNDSLNVTLAYPVYA
+QQRR
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+None
+
+# Drug_Target_3_Specific_Function:
+Binds to activated (phosphorylated) protein-Tyr kinases, through its SH2 domain, and acts as an adapter, mediating the association of the p110 catalytic unit to the plasma membrane. Necessary for the insulin-stimulated increase in glucose uptake and glycogen synthesis in insulin-sensitive tissues
+
+# Drug_Target_3_SwissProt_ID:
+P27986
+
+# Drug_Target_3_SwissProt_Name:
+P85A_HUMAN
+
+# Drug_Target_3_Synonyms:
+PI3-kinase p85-subunit alpha
+PI3K
+PtdIns-3-kinase p85-alpha
+
+# Drug_Target_3_Theoretical_pI:
+6.06
+
+# Drug_Target_3_Transmembrane_Regions:
+None
+
+# Drug_Target_4_Cellular_Location:
+Not Available
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+10592235	Berman HM, Westbrook J, Feng Z, Gilliland G, Bhat TN, Weissig H, Shindyalov IN, Bourne PE: The Protein Data Bank. Nucleic Acids Res. 2000 Jan 1;28(1):235-42.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+PIK3CA
+
+# Drug_Target_4_GenBank_ID_Gene:
+Z29090
+
+# Drug_Target_4_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_4_GeneCard_ID:
+PIK3CA
+
+# Drug_Target_4_Gene_Name:
+PIK3CA
+
+# Drug_Target_4_Gene_Sequence:
+>3207 bp
+ATGCCTCCAAGACCATCATCAGGTGAACTGTGGGGCATCCACTTGATGCCCCCAAGAATC
+CTAGTGGAATGTTTACTACCAAATGGAATGATAGTGACTTTAGAATGCCTCCGTGAGGCT
+ACATTAGTAACTATAAAGCATGAACTATTTAAAGAAGCAAGAAAATACCCTCTCCATCAA
+CTTCTTCAAGATGAATCTTCTTACATTTTCGTAAGTGTTACCCAAGAAGCAGAAAGGGAA
+GAATTTTTTGATGAAACAAGACGACTTTGTGATCTTCGGCTTTTTCAACCATTTTTAAAA
+GTAATTGAACCAGTAGGCAACCGTGAAGAAAAGATCCTCAATCGAGAAATTGGTTTTGCT
+ATCGGCATGCCAGTGTGCGAATTTGATATGGTTAAAGATCCTGAAGTACAGGACTTCCGA
+AGAAATATTCTTAATGTTTGTAAAGAAGCTGTGGATCTTAGGGATCTTAATTCACCTCAT
+AGTAGAGCAATGTATGTCTATCCGCCACATGTAGAATCTTCACCAGAGCTGCCAAAGCAC
+ATATATAATAAATTGGATAGAGGCCAAATAATAGTGGTGATTTGGGTAATAGTTTCTCCA
+AATAATGACAAGCAGAAGTATACTCTGAAAATCAACCATGACTGTGTGCCAGAACAAGTA
+ATTGCTGAAGCAATCAGGAAAAAAACTAGAAGTATGTTGCTATCATCTGAACAATTAAAA
+CTCTGTGTTTTAGAATATCAGGGCAAGTACATTTTAAAAGTGTGTGGATGTGATGAATAC
+TTCCTAGAAAAATATCCTCTGAGTCAGTATAAGTATATAAGAAGCTGTATAATGCTTGGG
+AGGATGCCCAATTTGAAGATGATGGCTAAAGAAAGCCTTTATTCTCAACTGCCAATGGAC
+TGTTTTACAATGCCATCTTATTCCAGACGCATTTCCACAGCTACACCATATATGAATGGA
+GAAACATCTACAAAATCCCTTTGGGTTATAAATAGAGCACTCAGAATAAAAATTCTTTGT
+GCAACCTACGTGAATCTAAATATTCGAGACATTGACAAGATTTATGTTCGAACAGGTATC
+TACCATGGAGGAGAACCCTTATGTGACAATGTGAACACTCAAAGAGTACCTTGTTCCAAT
+CCCAGGTGGAATGAATGGCTGAATTATGATATATACATTCCTGATCTTCCTCGTGCTGCT
+CGACTTTGCCTTTCCATTTGCTCTGTTAAAGGCCGAAAGGGTGCTAAAGAGGAACACTGT
+CCATTGGCATGGGGAAATATAAACTTGTTTGATTACACAGACACTCTAGTATCTGGAAAA
+ATGGCTTTGAATCTTTGGCCAGTACCTCATGGATTAGAAGATTTGCTGAACCCTATTGGT
+GTTACTGGATCAAATCCAAATAAAGAAACTCCATGCTTAGAGTTGGAGTTTGACTGGTTC
+AGCAGTGTGGTAAAGTTCCCAGATATGTCAGTGATTGAAGAGCATGCCAATTGGTCTGTA
+TCCCGAGAAGCAGGATTTAGCTATTCCCACGCAGGACTGAGTAACAGACTAGCTAGAGAC
+AATGAATTAAGGGAAAATGACAAAGAACAGCTCAAAGCAATTTCTACACGAGATCCTCTC
+TCTGAAATCACTGAGCAGGAGAAAGATTTTCTATGGAGTCACAGACACTATTGTGTAACT
+ATCCCCGAAATTCTACCCAAATTGCTTCTGTCTGTTAAATGGAATTCTAGAGATGAAGTA
+GCCCAGATGTATTGCTTGGTAAAAGATTGGCCTCCAATCAAACCTGAACAGGCTATGGAA
+CTTCTGGACTGTAATTACCCAGATCCTATGGTTCGAGGTTTTGCTGTTCGGTGCTTGGAA
+AAATATTTAACAGATGACAAACTTTCTCAGTATTTAATTCAGCTAGTACAGGTCCTAAAA
+TATGAACAATATTTGGATAACTTGCTTGTGAGATTTTTACTGAAGAAAGCATTGACTAAT
+CAAAGGATTGGGCACTTTTTCTTTTGGCATTTAAAATCTGAGATGCACAATAAAACAGTT
+AGCCAGAGGTTTGGCCTGCTTTTGGAGTCCTATTGTCGTGCATGTGGGATGTATTTGAAG
+CACCTGAATAGGCAAGTCGAGGCAATGGAAAAGCTCATTAACTTAACTGACATTCTCAAA
+CAGGAGAGGAAGGATGAAACACAAAAGGTACAGATGAAGTTTTTAGTTGAGCAAATGAGG
+CGACCAGATTTCATGGATGCCCTACAGGGCTTGCTGTCTCCTCTAAACCCTGCTCATCAA
+CTAGGAAACCTCAGGCTTAAAGAGTGTCGAATTATGTCTTCTGCAAAAAGGCCACTGTGG
+TTGAATTGGGAGAACCCAGACATCATGTCAGAGTTACTGTTTCAGAACAATGAGATCATC
+TTTAAAAATGGGGATGATTTACGGCAAGATATGCTAACACTTCAAATTATTCGTATTATG
+GAAAATATCTGGCAAAATCAAGGTCTTGATCTTCGAATGTTACCTTATGGTTGTCTGTCA
+ATCGGTGACTGTGTGGGACTTATTGAGGTGGTGCGAAATTCTCACACTATTATGCAAATT
+CAGTGCAAAGGCGGCTTGAAAGGTGCACTGCAGTTCAACAGCCACACACTACATCAGTGG
+CTCAAAGACAAGAACAAAGGAGAAATATATGATGCAGCCATTGACCTGTTTACACGTTCA
+TGTGCTGGATACTGTGTAGCTACCTTCATTTTGGGAATTGGAGATCGTCACAATAGTAAC
+ATCATGGTGAAAGACGATGGACAACTGTTTCATATAGATTTTGGACACTTTTTGGATCAC
+AAGAAGAAAAAATTTGGTTATAAACGAGAACGTGTGCCATTTGTTTTGACACAGGATTTC
+TTAATAGTGATTAGTAAAGGAGCCCAAGAATGCACAAAGACAAGAGAATTTGAGAGGTTT
+CAGGAGATGTGTTACAAGGCTTATCTAGCTATTCGACAGCATGCCAATCTCTTCATAAAT
+CTTTTCTCAATGATGCTTGGCTCTGGAATGCCAGAACTACAATCTTTTGATGACATTGCA
+TACATTCGAAAGACCCTAGCCTTAGATAAAACTGAGCAAGAGGCTTTGGAGTATTTCATG
+AAACAAATGAATGATGCACATCATGGTGGCTGGACAACAAAAATGGATTGGATCTTCCAC
+ACAATTAAACAGCATGCATTGAACTGA
+
+# Drug_Target_4_General_Function:
+Involved in phosphotransferase activity, alcohol group as acceptor
+
+# Drug_Target_4_General_References:
+7713498	Volinia S, Hiles I, Ormondroyd E, Nizetic D, Antonacci R, Rocchi M, Waterfield MD: Molecular cloning, cDNA sequence, and chromosomal localization of the human phosphatidylinositol 3-kinase p110 alpha (PIK3CA) gene. Genomics. 1994 Dec;24(3):472-7.
+9043658	Stirdivant SM, Ahern J, Conroy RR, Barnett SF, Ledder LM, Oliff A, Heimbrook DC: Cloning and mutagenesis of the p110 alpha subunit of human phosphoinositide 3'-hydroxykinase. Bioorg Med Chem. 1997 Jan;5(1):65-74.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:8975
+
+# Drug_Target_4_HPRD_ID:
+Not Available
+
+# Drug_Target_4_ID:
+4141
+
+# Drug_Target_4_Locus:
+3q26.3
+
+# Drug_Target_4_Molecular_Weight:
+124286
+
+# Drug_Target_4_Name:
+Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha isoform
+
+# Drug_Target_4_Number_of_Residues:
+1068
+
+# Drug_Target_4_PDB_ID:
+Not Available
+
+# Drug_Target_4_Pathway:
+Cetuximab Pathway	SMP00474
+Erlotinib Pathway	SMP00472
+Gefitinib Pathway	SMP00473
+Panitumumab Pathway	SMP00475
+Trastuzumab Pathway	SMP00476
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF00454	PI3_PI4_kinase
+PF00613	PI3Ka
+PF00792	PI3K_C2
+PF00794	PI3K_rbd
+PF02192	PI3K_p85B
+
+# Drug_Target_4_Protein_Sequence:
+>Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha isoform
+MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQ
+LLQDESSYIFVSVTQEAEREEFFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREIGFA
+IGMPVCEFDMVKDPEVQDFRRNILNVCKEAVDLRDLNSPHSRAMYVYPPNVESSPELPKH
+IYNKLDKGQIIVVIWVIVSPNNDKQKYTLKINHDCVPEQVIAEAIRKKTRSMLLSSEQLK
+LCVLEYQGKYILKVCGCDEYFLEKYPLSQYKYIRSCIMLGRMPNLMLMAKESLYSQLPMD
+CFTMPSYSRRISTATPYMNGETSTKSLWVINSALRIKILCATYVNVNIRDIDKIYVRTGI
+YHGGEPLCDNVNTQRVPCSNPRWNEWLNYDIYIPDLPRAARLCLSICSVKGRKGAKEEHC
+PLAWGNINLFDYTDTLVSGKMALNLWPVPHGLEDLLNPIGVTGSNPNKETPCLELEFDWF
+SSVVKFPDMSVIEEHANWSVSREAGFSYSHAGLSNRLARDNELRENDKEQLKAISTRDPL
+SEITEQEKDFLWSHRHYCVTIPEILPKLLLSVKWNSRDEVAQMYCLVKDWPPIKPEQAME
+LLDCNYPDPMVRGFAVRCLEKYLTDDKLSQYLIQLVQVLKYEQYLDNLLVRFLLKKALTN
+QRIGHFFFWHLKSEMHNKTVSQRFGLLLESYCRACGMYLKHLNRQVEAMEKLINLTDILK
+QEKKDETQKVQMKFLVEQMRRPDFMDALQGFLSPLNPAHQLGNLRLEECRIMSSAKRPLW
+LNWENPDIMSELLFQNNEIIFKNGDDLRQDMLTLQIIRIMENIWQNQGLDLRMLPYGCLS
+IGDCVGLIEVVRNSHTIMQIQCKGGLKGALQFNSHTLHQWLKDKNKGEIYDAAIDLFTRS
+CAGYCVATFILGIGDRHNSNIMVKDDGQLFHIDFGHFLDHKKKKFGYKRERVPFVLTQDF
+LIVISKGAQECTKTREFERFQEMCYKAYLAIRQHANLFINLFSMMLGSGMPELQSFDDIA
+YIRKTLALDKTEQEALEYFMKQMNDAHHGGWTTKMDWIFHTIKQHALN
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+None
+
+# Drug_Target_4_Specific_Function:
+Phosphorylates PtdIns, PtdIns4P and PtdIns(4,5)P2 with a preference for PtdIns(4,5)P2
+
+# Drug_Target_4_SwissProt_ID:
+P42336
+
+# Drug_Target_4_SwissProt_Name:
+PK3CA_HUMAN
+
+# Drug_Target_4_Synonyms:
+EC 2.7.1.153
+PI3-kinase p110 subunit alpha
+PI3K
+PtdIns-3- kinase p110
+
+# Drug_Target_4_Theoretical_pI:
+7.23
+
+# Drug_Target_4_Transmembrane_Regions:
+None
+
+#END_DRUGCARD DB08059

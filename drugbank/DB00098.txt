@@ -1,0 +1,1563 @@
+#BEGIN_DRUGCARD DB00098
+
+# AHFS_Codes:
+Not Available
+
+# ATC_Codes:
+Not Available
+
+# Absorption:
+Not Available
+
+# Biotransformation:
+Most likely removed by opsonization via the reticuloendothelial system when bound to T lymphocytes, or by human antimurine antibody production.
+
+# Brand_Mixtures:
+Not Available
+
+# Brand_Names:
+ATG-Fresenius
+ATG-Fresenius S
+Genzyme
+Thymoglobulin SangStat Medical
+
+# CAS_Registry_Number:
+Not Available
+
+# ChEBI_ID:
+Not Available
+
+# Chemical_Formula:
+Not Available
+
+# Chemical_IUPAC_Name:
+Not Available
+
+# Chemical_Structure:
+Not Available
+
+# Creation_Date:
+2005-06-13 07:24:05 -0600
+
+# DPD_Drug_ID_Number:
+2246805
+
+# Description:
+Rabbit anti-thymocyte globulin. Thymoglobulin is a polyclonal antibody that suppresses certain types of immune cells responsible for acute organ rejection in transplant patients. Thymoglobulin is a mixture of antibodies intended to bind to various cell surface antigens. The most common mode of action of Thymoglobulin is via selective depletion of T-cells.
+
+# Dosage_Forms:
+Not Available
+
+# Drug_Category:
+Immunomodulatory Agents
+
+# Drug_Interactions:
+Canakinumab	results in increased immunosuppressive effects; increases the risk of infection.
+Rilonacept	results in increased immunosuppressive effects; increases the risk of infection.
+
+# Drug_Reference:
+Not Available
+
+# Drug_Type:
+Approved
+Biotech
+
+# Experimental_Caco2_Permeability:
+Not Available
+
+# Experimental_LogP_Hydrophobicity:
+Not Available
+
+# Experimental_Logs:
+Not Available
+
+# Experimental_Water_Solubility:
+Not Available
+
+# Food_Interactions:
+Not Available
+
+# GenBank_ID:
+Not Available
+
+# Generic_Name:
+Antithymocyte globulin
+
+# HET_ID:
+Not Available
+
+# Half_Life:
+2-3 days
+
+# InChI_Identifier:
+Not Available
+
+# InChI_Key:
+Not Available
+
+# Indication:
+For prevention of renal transplant rejection
+
+# KEGG_Compound_ID:
+Not Available
+
+# KEGG_Drug_ID:
+Not Available
+
+# LIMS_Drug_ID:
+98
+
+# Mechanism_Of_Action:
+Binds to multiple, T-cell specific antigens leading to T-lymphocyte cell death via complement mediated cytotoxicity or apoptosis.
+
+# Melting_Point:
+61 °C (FAB fragment), 71 °C (whole mAb)
+
+# Molecular_Weight_Avg:
+Not Available
+
+# Molecular_Weight_Mono:
+Not Available
+
+# Organisms_Affected:
+Humans and other mammals
+
+# PDB_Experimental_ID:
+1IGT
+
+# PDB_Homology_ID:
+Not Available
+
+# PDRhealth_Link:
+Not Available
+
+# Pathways:
+Not Available
+
+# PharmGKB_ID:
+PA164743704
+
+# Pharmacology:
+Antithymocyte Globulin (ATG)is a concentrated anti-human T-lymphocyte immunoglobulin preparation derived from rabbits after immunization with a T-lympoblast cell line. ATG is an immunosuppressive product for the prevention and treatment of acute rejection following organ transplantation. ATG reduces the host immune response against tissue transplants or organ allografts.
+
+# Predicted_LogP_Hydrophobicity:
+Not Available
+
+# Predicted_LogS:
+Not Available
+
+# Predicted_Water_Solubility:
+Not Available
+
+# Primary_Accession_No:
+DB00098
+
+# Protein_Binding:
+Not Available
+
+# PubChem_Compound_ID:
+Not Available
+
+# PubChem_Substance_ID:
+Not Available
+
+# RxList_Link:
+Not Available
+
+# Salts:
+Not Available
+
+# Secondary_Accession_No:
+BIOD00040
+BTD00040
+
+# Smiles_String_canonical:
+Not Available
+
+# Smiles_String_isomeric:
+Not Available
+
+# State:
+liquid
+
+# Structure:
+0
+
+# SwissProt_ID:
+Not Available
+
+# SwissProt_Name:
+Not Available
+
+# Synonyms:
+Thymoglobulin
+rATG
+rabbit ATG
+
+# Synthesis_Reference:
+Not Available
+
+# Toxicity:
+Not Available
+
+# Update_Date:
+2010-09-29 14:34:48 -0600
+
+# Wikipedia_Link:
+Not Available
+
+# pKa_Isoelectric_Point:
+Not Available
+
+# Drug_Target_1_Cellular_Location:
+Membrane
+single-pass type I membrane protein
+
+# Drug_Target_1_Chromosome_Location:
+Not Available
+
+# Drug_Target_1_Drug_References:
+11752352	Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5.
+17016423	Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34.
+17139284	Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6.
+
+# Drug_Target_1_Essentiality:
+Non-Essential
+
+# Drug_Target_1_GenAtlas_ID:
+CD1A
+
+# Drug_Target_1_GenBank_ID_Gene:
+M28825
+
+# Drug_Target_1_GenBank_ID_Protein:
+180036
+
+# Drug_Target_1_GeneCard_ID:
+CD1A
+
+# Drug_Target_1_Gene_Name:
+CD1A
+
+# Drug_Target_1_Gene_Sequence:
+>984 bp
+ATGCTGTTTTTGCTACTTCCATTGTTAGCTGTTCTCCCAGGTGATGGCAATGCAGACGGG
+CTCAAGGAGCCTCTCTCCTTCCATGTCATCTGGATCGCATCCTTTTACAACCATTCCTGG
+AAACAAAATCTGGTCTCAGGTTGGCTGAGTGATTTGCAGACTCATACCTGGGACAGCAAT
+TCCAGCACCATCGTTTTCCTGTGGCCCTGGTCCAGGGGAAACTTCAGCAATGAGGAGTGG
+AAGGAACTGGAAACATTATTCCGTATACGCACCATTCGGTCATTTGAGGGAATTCGTAGA
+TACGCCCATGAATTGCAGTTTGAATATCCTTTTGAGATACAGGTGACAGGAGGCTGTGAG
+CTGCACTCTGGAAAGGTCTCAGGAAGCTTCTTGCAGTTAGCTTATCAAGGATCAGACTTT
+GTGAGCTTCCAGAACAATTCATGGTTGCCATATCCAGTGGCTGGGAATATGGCCAAGCAT
+TTCTGCAAAGTGCTCAATCAGAATCAGCATGAAAATGACATAACACACAATCTTCTCAGT
+GACACCTGCCCACGTTTCATCTTGGGTCTTCTTGATGCAGGAAAGGCACATCTCCAGCGG
+CAAGTGAAGCCCGAGGCCTGGCTGTCCCATGGCCCCAGTCCTGGCCCTGGCCATCTGCAG
+CTTGTGTGCCATGTCTCAGGATTCTACCCAAAGCCCGTGTGGGTGATGTGGATGCGGGGT
+GAGCAGGAGCAGCAGGGCACTCAGCGAGGGGACATCTTGCCCAGTGCTGATGGGACATGG
+TATCTCCGCGCAACCCTGGAGGTGGCCGCTGGGGAGGCAGCTGACCTGTCCTGTCGGGTG
+AAGCACAGCAGTCTAGAGGGCCAGGACATCGTCCTCTACTGGGAGCATCACAGTTCCGTG
+GGCTTCATCATCTTGGCGGTGATAGTGCCTTTACTTCTTCTGATAGGTCTTGCGCTTTGG
+TTCAGGAAACGCTGTTTCTGTTAA
+
+# Drug_Target_1_General_Function:
+Not Available
+
+# Drug_Target_1_General_References:
+10488738	Han M, Hannick LI, DiBrino M, Robinson MA: Polymorphism of human CD1 genes. Tissue Antigens. 1999 Aug;54(2):122-7.
+12833155	Zajonc DM, Elsliger MA, Teyton L, Wilson IA: Crystal structure of CD1a in complex with a sulfatide self antigen at a resolution of 2.15 A. Nat Immunol. 2003 Aug;4(8):808-15. Epub 2003 Jun 29.
+2447586	Martin LH, Calabi F, Lefebvre FA, Bilsland CA, Milstein C: Structure and expression of the human thymocyte antigens CD1a, CD1b, and CD1c. Proc Natl Acad Sci U S A. 1987 Dec;84(24):9189-93.
+2701945	Aruffo A, Seed B: Expression of cDNA clones encoding the thymocyte antigens CD1a, b, c demonstrates a hierarchy of exclusion in fibroblasts. J Immunol. 1989 Sep 1;143(5):1723-30.
+2784820	Longley J, Kraus J, Alonso M, Edelson R: Molecular cloning of CD1a (T6), a human epidermal dendritic cell marker related to class I MHC molecules. J Invest Dermatol. 1989 Apr;92(4):628-31.
+3093894	Calabi F, Milstein C: A novel family of human major histocompatibility complex-related genes not mapping to chromosome 6. Nature. 1986 Oct 9-15;323(6088):540-3.
+3097645	Martin LH, Calabi F, Milstein C: Isolation of CD1 genes: a family of major histocompatibility complex-related differentiation antigens. Proc Natl Acad Sci U S A. 1986 Dec;83(23):9154-8.
+
+# Drug_Target_1_HGNC_ID:
+HGNC:1634
+
+# Drug_Target_1_HPRD_ID:
+01776
+
+# Drug_Target_1_ID:
+660
+
+# Drug_Target_1_Locus:
+1q22-q23
+
+# Drug_Target_1_Molecular_Weight:
+37173
+
+# Drug_Target_1_Name:
+T-cell surface glycoprotein CD1a
+
+# Drug_Target_1_Number_of_Residues:
+327
+
+# Drug_Target_1_PDB_ID:
+1ONQ
+
+# Drug_Target_1_Pathway:
+Not Available
+
+# Drug_Target_1_Pfam_Domain_Function:
+PF00129	MHC_I
+PF07654	C1-set
+
+# Drug_Target_1_Protein_Sequence:
+>T-cell surface glycoprotein CD1a precursor
+MLFLLLPLLAVLPGDGNADGLKEPLSFHVIWIASFYNHSWKQNLVSGWLSDLQTHTWDSN
+SSTIVFLWPWSRGNFSNEEWKELETLFRIRTIRSFEGIRRYAHELQFEYPFEIQVTGGCE
+LHSGKVSGSFLQLAYQGSDFVSFQNNSWLPYPVAGNMAKHFCKVLNQNQHENDITHNLLS
+DTCPRFILGLLDAGKAHLQRQVKPEAWLSHGPSPGPGHLQLVCHVSGFYPKPVWVMWMRG
+EQEQQGTQRGDILPSADGTWYLRATLEVAAGEAADLSCRVKHSSLEGQDIVLYWEHHSSV
+GFIILAVIVPLLLLIGLALWFRKRCFC
+
+# Drug_Target_1_Reaction:
+Not Available
+
+# Drug_Target_1_Signals:
+1-16
+
+# Drug_Target_1_Specific_Function:
+Not known
+
+# Drug_Target_1_SwissProt_ID:
+P06126
+
+# Drug_Target_1_SwissProt_Name:
+CD1A_HUMAN
+
+# Drug_Target_1_Synonyms:
+CD1a antigen
+T-cell surface antigen T6/Leu-6
+T-cell surface glycoprotein CD1a precursor
+hTa1 thymocyte antigen
+
+# Drug_Target_1_Theoretical_pI:
+6.79
+
+# Drug_Target_1_Transmembrane_Regions:
+301-321
+
+# Drug_Target_2_Cellular_Location:
+Isoform 4:Secreted
+
+# Drug_Target_2_Chromosome_Location:
+1
+
+# Drug_Target_2_Drug_References:
+12586600	Monti P, Allavena P, Di Carlo V, Piemonti L: Effects of anti-lymphocytes and anti-thymocytes globulin on human dendritic cells. Int Immunopharmacol. 2003 Feb;3(2):189-96.
+
+# Drug_Target_2_Essentiality:
+Non-Essential
+
+# Drug_Target_2_GenAtlas_ID:
+Not Available
+
+# Drug_Target_2_GenBank_ID_Gene:
+U22963
+
+# Drug_Target_2_GenBank_ID_Protein:
+940354
+
+# Drug_Target_2_GeneCard_ID:
+MR1
+
+# Drug_Target_2_Gene_Name:
+MR1
+
+# Drug_Target_2_Gene_Sequence:
+>1026 bp
+ATGGGGGAACTGATGGCGTTCCTGTTACCTCTCATCATTGTGTTAATGGTGAAGCACAGC
+GATTCCCGGACGCACTCTCTGAGATATTTTCGCCTGGGCGTTTCGGATCCCATCCATGGG
+GTCCCTGAATTTATTTCGGTTGGGTACGTGGACTCGCACCCTATCACCACATATGACAGT
+GTCACTCGGCAGAAGGAGCCACGGGCCCCATGGATGGCAGAGAACCTCGCGCCTGATCAC
+TGGGAGAGGTACACTCAGCTGCTGAGGGGCTGGCAGCAGATGTTCAAGGTGGAACTGAAG
+CGCCTACAGAGGCACTACAATCACTCAGGGTCTCACACTTACCAGAGAATGATTGGCTGT
+GAGCTGCTGGAGGATGGAAGCACCACAGGATTTCTGCAGTATGCATATGACGGGCAGGAT
+TTCCTGATCTTCAATAAAGACACCCTCTCCTGGCTGGCTGTAGATAATGTGGCTCACACC
+ATCAAGCAGGCATGGGAGGCCAATCAGCATGAGTTGCTGTATCAAAAGAATTGGCTGGAA
+GAAGAATGTATTGCCTGGCTAAAGAGATTCCTGGAGTATGGGAAAGACACCCTACAAAGA
+ACAGAGCCCCCACTGGTCAGAGTAAATCGCAAAGAAACTTTTCCAGGGGTTACAGCTCTC
+TTCTGCAAAGCTCATGGCTTTTACCCCCCAGAAATTTACATGACATGGATGAAAAACGGG
+GAAGAAATTGTCCAAGAAATTGATTATGGAGACATTCTTCCCAGTGGGGATGGAACCTAT
+CAGGCGTGGGCATCAATTGAGCTTGATCCTCAGAGCAGCAACCTTTACTCCTGTCATGTG
+GAGCACTGCGGTGTCCACATGGTTCTTCAGGTCCCCCAGGAATCAGAAACTATCCCTCTT
+GTGATGAAAGCTGTCTCTGGGTCCATTGTCCTTGTCATTGTGCTGGCTGGAGTTGGTGTT
+CTAGTCTGGAGAAGAAGGCCCCGAGAGCAAAATGGAGCCATCTACCTTCCAACACCAGAT
+CGATGA
+
+# Drug_Target_2_General_Function:
+Involved in MHC class I receptor activity
+
+# Drug_Target_2_General_References:
+11019920	Parra-Cuadrado JF, Navarro P, Mirones I, Setien F, Oteo M, Martinez-Naves E: A study on the polymorphism of human MHC class I-related MR1 gene and identification of an MR1-like pseudogene. Tissue Antigens. 2000 Aug;56(2):170-2.
+12794138	Miley MJ, Truscott SM, Yu YY, Gilfillan S, Fremont DH, Hansen TH, Lybarger L: Biochemical features of the MHC-related protein 1 consistent with an immunological function. J Immunol. 2003 Jun 15;170(12):6090-8.
+14702039	Ota T, Suzuki Y, Nishikawa T, Otsuki T, Sugiyama T, Irie R, Wakamatsu A, Hayashi K, Sato H, Nagai K, Kimura K, Makita H, Sekine M, Obayashi M, Nishi T, Shibahara T, Tanaka T, Ishii S, Yamamoto J, Saito K, Kawai Y, Isono Y, Nakamura Y, Nagahari K, Murakami K, Yasuda T, Iwayanagi T, Wagatsuma M, Shiratori A, Sudo H, Hosoiri T, Kaku Y, Kodaira H, Kondo H, Sugawara M, Takahashi M, Kanda K, Yokoi T, Furuya T, Kikkawa E, Omura Y, Abe K, Kamihara K, Katsuta N, Sato K, Tanikawa M, Yamazaki M, Ninomiya K, Ishibashi T, Yamashita H, Murakawa K, Fujimori K, Tanai H, Kimata M, Watanabe M, Hiraoka S, Chiba Y, Ishida S, Ono Y, Takiguchi S, Watanabe S, Yosida M, Hotuta T, Kusano J, Kanehori K, Takahashi-Fujii A, Hara H, Tanase TO, Nomura Y, Togiya S, Komai F, Hara R, Takeuchi K, Arita M, Imose N, Musashino K, Yuuki H, Oshima A, Sasaki N, Aotsuka S, Yoshikawa Y, Matsunawa H, Ichihara T, Shiohata N, Sano S, Moriya S, Momiyama H, Satoh N, Takami S, Terashima Y, Suzuki O, Nakagawa S, Senoh A, Mizoguchi H, Goto Y, Shimizu F, Wakebe H, Hishigaki H, Watanabe T, Sugiyama A, Takemoto M, Kawakami B, Yamazaki M, Watanabe K, Kumagai A, Itakura S, Fukuzumi Y, Fujimori Y, Komiyama M, Tashiro H, Tanigami A, Fujiwara T, Ono T, Yamada K, Fujii Y, Ozaki K, Hirao M, Ohmori Y, Kawabata A, Hikiji T, Kobatake N, Inagaki H, Ikema Y, Okamoto S, Okitani R, Kawakami T, Noguchi S, Itoh T, Shigeta K, Senba T, Matsumura K, Nakajima Y, Mizuno T, Morinaga M, Sasaki M, Togashi T, Oyama M, Hata H, Watanabe M, Komatsu T, Mizushima-Sugano J, Satoh T, Shirai Y, Takahashi Y, Nakagawa K, Okumura K, Nagase T, Nomura N, Kikuchi H, Masuho Y, Yamashita R, Nakai K, Yada T, Nakamura Y, Ohara O, Isogai T, Sugano S: Complete sequencing and characterization of 21,243 full-length human cDNAs. Nat Genet. 2004 Jan;36(1):40-5. Epub 2003 Dec 21.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+16710414	Gregory SG, Barlow KF, McLay KE, Kaul R, Swarbreck D, Dunham A, Scott CE, Howe KL, Woodfine K, Spencer CC, Jones MC, Gillson C, Searle S, Zhou Y, Kokocinski F, McDonald L, Evans R, Phillips K, Atkinson A, Cooper R, Jones C, Hall RE, Andrews TD, Lloyd C, Ainscough R, Almeida JP, Ambrose KD, Anderson F, Andrew RW, Ashwell RI, Aubin K, Babbage AK, Bagguley CL, Bailey J, Beasley H, Bethel G, Bird CP, Bray-Allen S, Brown JY, Brown AJ, Buckley D, Burton J, Bye J, Carder C, Chapman JC, Clark SY, Clarke G, Clee C, Cobley V, Collier RE, Corby N, Coville GJ, Davies J, Deadman R, Dunn M, Earthrowl M, Ellington AG, Errington H, Frankish A, Frankland J, French L, Garner P, Garnett J, Gay L, Ghori MR, Gibson R, Gilby LM, Gillett W, Glithero RJ, Grafham DV, Griffiths C, Griffiths-Jones S, Grocock R, Hammond S, Harrison ES, Hart E, Haugen E, Heath PD, Holmes S, Holt K, Howden PJ, Hunt AR, Hunt SE, Hunter G, Isherwood J, James R, Johnson C, Johnson D, Joy A, Kay M, Kershaw JK, Kibukawa M, Kimberley AM, King A, Knights AJ, Lad H, Laird G, Lawlor S, Leongamornlert DA, Lloyd DM, Loveland J, Lovell J, Lush MJ, Lyne R, Martin S, Mashreghi-Mohammadi M, Matthews L, Matthews NS, McLaren S, Milne S, Mistry S, Moore MJ, Nickerson T, O'Dell CN, Oliver K, Palmeiri A, Palmer SA, Parker A, Patel D, Pearce AV, Peck AI, Pelan S, Phelps K, Phillimore BJ, Plumb R, Rajan J, Raymond C, Rouse G, Saenphimmachak C, Sehra HK, Sheridan E, Shownkeen R, Sims S, Skuce CD, Smith M, Steward C, Subramanian S, Sycamore N, Tracey A, Tromans A, Van Helmond Z, Wall M, Wallis JM, White S, Whitehead SL, Wilkinson JE, Willey DL, Williams H, Wilming L, Wray PW, Wu Z, Coulson A, Vaudin M, Sulston JE, Durbin R, Hubbard T, Wooster R, Dunham I, Carter NP, McVean G, Ross MT, Harrow J, Olson MV, Beck S, Rogers J, Bentley DR, Banerjee R, Bryant SP, Burford DC, Burrill WD, Clegg SM, Dhami P, Dovey O, Faulkner LM, Gribble SM, Langford CF, Pandian RD, Porter KM, Prigmore E: The DNA sequence and biological annotation of human chromosome 1. Nature. 2006 May 18;441(7091):315-21.
+7624800	Hashimoto K, Hirai M, Kurosawa Y: A gene outside the human MHC related to classical HLA class I genes. Science. 1995 Aug 4;269(5224):693-5.
+9780177	Riegert P, Wanner V, Bahram S: Genomics, isoforms, expression, and phylogeny of the MHC class I-related MR1 gene. J Immunol. 1998 Oct 15;161(8):4066-77.
+9784382	Yamaguchi H, Kurosawa Y, Hashimoto K: Expanded genomic organization of conserved mammalian MHC class I-related genes, human MR1 and its murine ortholog. Biochem Biophys Res Commun. 1998 Sep 29;250(3):558-64.
+
+# Drug_Target_2_HGNC_ID:
+GNC:4975
+
+# Drug_Target_2_HPRD_ID:
+Not Available
+
+# Drug_Target_2_ID:
+6063
+
+# Drug_Target_2_Locus:
+1q25.3
+
+# Drug_Target_2_Molecular_Weight:
+39365.8
+
+# Drug_Target_2_Name:
+Major histocompatibility complex class I-related gene protein
+
+# Drug_Target_2_Number_of_Residues:
+341
+
+# Drug_Target_2_PDB_ID:
+Not Available
+
+# Drug_Target_2_Pathway:
+Not Available
+
+# Drug_Target_2_Pfam_Domain_Function:
+PF00129	MHC_I
+PF07654	C1-set
+
+# Drug_Target_2_Protein_Sequence:
+>Major histocompatibility complex class I-related gene protein
+MGELMAFLLPLIIVLMVKHSDSRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDS
+VTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGC
+ELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLE
+EECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNG
+EEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHCGVHMVLQVPQESETIPL
+VMKAVSGSIVLVIVLAGVGVLVWRRRPREQNGAIYLPTPDR
+
+# Drug_Target_2_Reaction:
+Not Available
+
+# Drug_Target_2_Signals:
+1-22
+
+# Drug_Target_2_Specific_Function:
+Has antigen presentation function. Involved in the development and expansion of a small population of T cells expressing an invariant T cell receptor alpha chain called mucosal-associated invariant T cells (MAIT). MAIT cells are preferentially located in the gut lamina propria and therfore may be involed in monitoring commensal flora or serve as a distress signal. Expression and MAIT cell recognition seem to be ligand- dependent
+
+# Drug_Target_2_SwissProt_ID:
+Q95460
+
+# Drug_Target_2_SwissProt_Name:
+HMR1_HUMAN
+
+# Drug_Target_2_Synonyms:
+Class I histocompatibility antigen-like protein
+MHC class-I related-gene protein
+
+# Drug_Target_2_Theoretical_pI:
+6.27
+
+# Drug_Target_2_Transmembrane_Regions:
+303-323
+
+# Drug_Target_3_Cellular_Location:
+Membrane
+single-pass type I membrane protein
+
+# Drug_Target_3_Chromosome_Location:
+Not Available
+
+# Drug_Target_3_Drug_References:
+12586600	Monti P, Allavena P, Di Carlo V, Piemonti L: Effects of anti-lymphocytes and anti-thymocytes globulin on human dendritic cells. Int Immunopharmacol. 2003 Feb;3(2):189-96.
+
+# Drug_Target_3_Essentiality:
+Non-Essential
+
+# Drug_Target_3_GenAtlas_ID:
+ITGAL
+
+# Drug_Target_3_GenBank_ID_Gene:
+Y00796
+
+# Drug_Target_3_GenBank_ID_Protein:
+31422
+
+# Drug_Target_3_GeneCard_ID:
+ITGAL
+
+# Drug_Target_3_Gene_Name:
+ITGAL
+
+# Drug_Target_3_Gene_Sequence:
+>3513 bp
+ATGAAGGATTCCTGCATCACTGTGATGGCCATGGCGCTGCTGTCTGGGTTCTTTTTCTTC
+GCGCCGGCCTCGAGCTACAACCTGGACGTGCGGGGCGCGCGGAGCTTCTCCCCACCGCGC
+GCCGGGAGGCACTTTGGATACCGCGTCCTGCAGGTCGGAAACGGGGTCATCGTGGGAGCT
+CCAGGGGAGGGGAACAGCACAGGAAGCCTCTATCAGTGCCAGTCGGGCACAGGACACTGC
+CTGCCAGTCACCCTGAGAGGTTCCAACTATACCTCCAAGTACTTGGGAATGACCTTGGCA
+ACAGACCCCACAGATGGAAGCATTTTGGCCTGTGACCCTGGGCTGTCTCGAACGTGTGAC
+CAGAACACCTATCTGAGTGGCCTGTGTTACCTCTTCCGCCAGAATCTGCAGGGTCCCATG
+CTGCAGGGGCGCCCTGGTTTTCAGGAATGTATCAAGGGCAACGTAGACCTGGTATTTCTG
+TTTGATGGTTCGATGAGCTTGCAGCCAGATGAATTTCAGAAAATTCTGGACTTCATGAAG
+GATGTGATGAAGAAACTCAGCAACACTTCGTACCAGTTTGCTGCTGTTCAGTTTTCCACA
+AGCTACAAAACAGAATTTGATTTCTCAGATTATGTTAAATGGAAGGACCCTGATGCTCTG
+CTGAAGCATGTAAAGCACATGTTGCTGTTGACCAATACCTTTGGTGCCATCAATTATGTC
+GCGACAGAGGTGTTCCGGGAGGAGCTGGGGGCCCGGCCAGATGCCACCAAAGTGCTTATC
+ATCATCACGGATGGGGAGGCCACTGACAGTGGCAACATCGATGCGGCCAAAGACATCATC
+CGCTACATCATCGGGATTGGAAAGCATTTTCAGACCAAGGAGAGTCAGGAGACCCTCCAC
+AAATTTGCATCAAAACCCGCGAGCGAGTTTGTGAAAATTCTGGACACATTTGAGAAGCTG
+AAAGATCTATTCACTGAGCTGCAGAAGAAGATCTATGTCATTGAGGGCACAAGCAAACAG
+GACCTGACTTCCTTCAACATGGAGCTGTCCTCCAGCGGCATCAGTGCTGACCTCAGCAGG
+GGCCATGCAGTCGTGGGGGCAGTAGGAGCCAAGGACTGGGCTGGGGGCTTTCTTGACCTG
+AAGGCAGACCTGCAGGATGACACATTTATTGGGAATGAACCATTGACACCAGAAGTGAGA
+GCAGGCTATTTGGGTTACACCGTGACCTGGCTGCCCTCCCGGCAAAAGACTTCGTTGCTG
+GCCTCGGGAGCCCCTCGATACCAGCACATGGGCCGAGTGCTGCTGTTCCAAGAGCCACAG
+GGCGGAGGACACTGGAGCCAGGTCCAGACAATCCATGGGACCCAGATTGGCTCTTATTTC
+GGTGGGGAGCTGTGTGGCGTCGACGTGGACCAAGATGGGGAGACAGAGCTGCTGCTGATT
+GGTGCCCCACTGTTCTATGGGGAGCAGAGAGGAGGCCGGGTGTTTATCTACCAGAGAAGA
+CAGTTGGGGTTTGAAGAAGTCTCAGAGCTGCAGGGGGACCCCGGCTACCCACTCGGGCGG
+TTTGGAGAAGCCATCACTGCTCTGACAGACATCAACGGCGATGGGCTGGTAGACGTGGCT
+GTGGGGGCCCCTCTGGAGGAGCAGGGGGCTGTGTACATCTTCAATGGGAGGCACGGGGGG
+CTTAGTCCCCAGCCAAGTCAGCGGATAGAAGGGACCCAAGTGCTCTCAGGAATTCAGTGG
+TTTGGACGCTCCATCCATGGGGTGAAGGACCTTGAAGGGGATGGCTTGGCAGATGTGGCT
+GTGGGGGCTGAGAGCCAGATGATCGTGCTGAGCTCCCGGCCCGTGGTGGATATGGTCACC
+CTGATGTCCTTCTCTCCAGCTGAGATCCCAGTGCATGAAGTGGAGTGCTCCTATTCAACC
+AGTAACAAGATGAAAGAAGGAGTTAATATCACAATCTGTTTCCAGATCAAGTCTCTCTAC
+CCCCAGTTCCAAGGCCGCCTGGTTGCCAATCTCACTTACACTCTGCAGCTGGATGGCCAC
+CGGACCAGAAGACGGGGGTTGTTCCCAGGAGGGAGACATGAACTCAGAAGGAATATAGCT
+GTCACCACCAGCATGTCATGCACTGACTTCTCATTTCATTTCCCGGTATGTGTTCAAGAC
+CTCATCTCCCCCATCAATGTTTCCCTGAATTTCTCTCTTTGGGAGGAGGAAGGGACACCG
+AGGGACCAAAGGGCGCAGGGCAAGGACATACCGCCCATCCTGAGACCCTCCCTGCACTCG
+GAAACCTGGGAGATCCCTTTTGAGAAGAACTGTGGGGAGGACAAGAAGTGTGAGGCAAAC
+TTGAGAGTGTCCTTCTCTCCTGCAAGATCCAGAGCCCTGCGTCTAACTGCTTTTGCCAGC
+CTCTCTGTGGAGCTGAGCCTGAGTAACTTGGAAGAAGATGCTTACTGGGTCCAGCTGGAC
+CTGCACTTCCCCCCGGGACTCTCCTTCCGCAAGGTGGAGATGCTGAAGCCCCATAGCCAG
+ATACCTGTGAGCTGCGAGGAGCTTCCTGAAGAGTCCAGGCTTCTGTCCAGGGCATTATCT
+TGCAATGTGAGCTCTCCCATCTTCAAAGCAGGCCACTCGGTTGCTCTGCAGATGATGTTT
+AATACACTGGTAAACAGCTCCTGGGGGGACTCGGTTGAATTGCACGCCAATGTGACCTGT
+AACAATGAGGACTCAGACCTCCTGGAGGACAACTCAGCCACTACCATCATCCCCATCCTG
+TACCCCATCAACATCCTCATCCAGGACCAAGAAGACTCCACACTCTATGTCAGTTTCACC
+CCCAAAGGCCCCAAGATCCACCAAGTCAAGCACATGTACCAGGTGAGGATCCAGCCTTCC
+ATCCACGACCACAACATACCCACCCTGGAGGCTGTGGTTGGGGTGCCACAGCCTCCCAGC
+GAGGGGCCCATCACACACCAGTGGAGCGTGCAGATGGAGCCTCCCGTGCCCTGCCACTAT
+GAGGATCTGGAGAGGCTCCCGGATGCAGCTGAGCCTTGTCTCCCCGGAGCCCTGTTCCGC
+TGCCCTGTTGTCTTCAGGCAGGAGATCCTCGTCCAAGTGATCGGGACTCTGGAGCTGGTG
+GGAGAGATCGAGGCCTCTTCCATGTTCAGCCTCTGCAGCTCCCTCTCCATCTCCTTCAAC
+AGCAGCAAGCATTTCCACCTCTATGGCAGCAACGCCTCCCTGGCCCAGGTTGTCATGAAG
+GTTGACGTGGTGTATGAGAAGCAGATGCTCTACCTCTACGTGCTGAGCGGCATCGGGGGG
+CTGCTGCTGCTGCTGCTCATTTTCATAGTGCTGTACAAGGTTGGTTTCTTCAAACGGAAC
+CTGAAGGAGAAGATGGAGGCTGGCAGAGGTGTCCCGAATGGAATCCCTGCAGAAGACTCT
+GAGCAGCTGGCATCTGGGCAAGAGGCTGGGGATCCCGGCTGCCTGAAGCCCCTCCATGAG
+AAGGACTCTGAGAGTGGTGGTGGCAAGGACTGA
+
+# Drug_Target_3_General_Function:
+Involved in cell adhesion and protein binding
+
+# Drug_Target_3_General_References:
+10493829	Loftus BJ, Kim UJ, Sneddon VP, Kalush F, Brandon R, Fuhrmann J, Mason T, Crosby ML, Barnstead M, Cronin L, Deslattes Mays A, Cao Y, Xu RX, Kang HL, Mitchell S, Eichler EE, Harris PC, Venter JC, Adams MD: Genome duplications and other features in 12 Mb of DNA sequence from human chromosome 16p and 16q. Genomics. 1999 Sep 15;60(3):295-308.
+10493852	Kallen J, Welzenbach K, Ramage P, Geyl D, Kriwacki R, Legge G, Cottens S, Weitz-Schmidt G, Hommel U: Structural basis for LFA-1 inhibition upon lovastatin binding to the CD11a I-domain. J Mol Biol. 1999 Sep 10;292(1):1-9.
+2537322	Larson RS, Corbi AL, Berman L, Springer T: Primary structure of the leukocyte function-associated molecule-1 alpha subunit: an integrin with an embedded domain defining a protein superfamily. J Cell Biol. 1989 Feb;108(2):703-12.
+7479767	Qu A, Leahy DJ: Crystal structure of the I-domain from the CD11a/CD18 (LFA-1, alpha L beta 2) integrin. Proc Natl Acad Sci U S A. 1995 Oct 24;92(22):10277-81.
+8097887	Cornwell RD, Gollahon KA, Hickstein DD: Description of the leukocyte function-associated antigen 1 (LFA-1 or CD11a) promoter. Proc Natl Acad Sci U S A. 1993 May 1;90(9):4221-5.
+8099450	Shelley CS, Farokhzad OC, Arnaout MA: Identification of cell-specific and developmentally regulated nuclear factors that direct myeloid and lymphoid expression of the CD11a gene. Proc Natl Acad Sci U S A. 1993 Jun 1;90(11):5364-8.
+8103515	Nueda A, Lopez-Cabrera M, Vara A, Corbi AL: Characterization of the CD11a (alpha L, LFA-1 alpha) integrin gene promoter. J Biol Chem. 1993 Sep 15;268(26):19305-11.
+8805579	Qu A, Leahy DJ: The role of the divalent cation in the structure of the I domain from the CD11a/CD18 integrin. Structure. 1996 Aug 15;4(8):931-42.
+
+# Drug_Target_3_HGNC_ID:
+HGNC:6148
+
+# Drug_Target_3_HPRD_ID:
+01079
+
+# Drug_Target_3_ID:
+572
+
+# Drug_Target_3_Locus:
+16p11.2
+
+# Drug_Target_3_Molecular_Weight:
+128771
+
+# Drug_Target_3_Name:
+Integrin alpha-L
+
+# Drug_Target_3_Number_of_Residues:
+1170
+
+# Drug_Target_3_PDB_ID:
+1RD4
+
+# Drug_Target_3_Pathway:
+Not Available
+
+# Drug_Target_3_Pfam_Domain_Function:
+PF00092	VWA
+PF00357	Integrin_alpha
+PF01839	FG-GAP
+PF08441	Integrin_alpha2
+
+# Drug_Target_3_Protein_Sequence:
+>Integrin alpha-L precursor
+MKDSCITVMAMALLSGFFFFAPASSYNLDVRGARSFSPPRAGRHFGYRVLQVGNGVIVGA
+PGEGNSTGSLYQCQSGTGHCLPVTLRGSNYTSKYLGMTLATDPTDGSILACDPGLSRTCD
+QNTYLSGLCYLFRQNLQGPMLQGRPGFQECIKGNVDLVFLFDGSMSLQPDEFQKILDFMK
+DVMKKLSNTSYQFAAVQFSTSYKTEFDFSDYVKRKDPDALLKHVKHMLLLTNTFGAINYV
+ATEVFREELGARPDATKVLIIITDGEATDSGNIDAAKDIIRYIIGIGKHFQTKESQETLH
+KFASKPASEFVKILDTFEKLKDLFTELQKKIYVIEGTSKQDLTSFNMELSSSGISADLSR
+GHAVVGAVGAKDWAGGFLDLKADLQDDTFIGNEPLTPEVRAGYLGYTVTWLPSRQKTSLL
+ASGAPRYQHMGRVLLFQEPQGGGHWSQVQTIHGTQIGSYFGGELCGVDVDQDGETELLLI
+GAPLFYGEQRGGRVFIYQRRQLGFEEVSELQGDPGYPLGRFGEAITALTDINGDGLVDVA
+VGAPLEEQGAVYIFNGRHGGLSPQPSQRIEGTQVLSGIQWFGRSIHGVKDLEGDGLADVA
+VGAESQMIVLSSRPVVDMVTLMSFSPAEIPVHEVECSYSTSNKMKEGVNITICFQIKSLI
+PQFQGRLVANLTYTLQLDGHRTRRRGLFPGGRHELRRNIAVTTSMSCTDFSFHFPVCVQD
+LISPINVSLNFSLWEEEGTPRDQRAQGKDIPPILRPSLHSETWEIPFEKNCGEDKKCEAN
+LRVSFSPARSRALRLTAFASLSVELSLSNLEEDAYWVQLDLHFPPGLSFRKVEMLKPHSQ
+IPVSCEELPEESRLLSRALSCNVSSPIFKAGHSVALQMMFNTLVNSSWGDSVELHANVTC
+NNEDSDLLEDNSATTIIPILYPINILIQDQEDSTLYVSFTPKGPKIHQVKHMYQVRIQPS
+IHDHNIPTLEAVVGVPQPPSEGPITHQWSVQMEPPVPCHYEDLERLPDAAEPCLPGALFR
+CPVVFRQEILVQVIGTLELVGEIEASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMK
+VDVVYEKQMLYLYVLSGIGGLLLLLLIFIVLYKVGFFKRNLKEKMEAGRGVPNGIPAEDS
+EQLASGQEAGDPGCLKPLHEKDSESGGGKD
+
+# Drug_Target_3_Reaction:
+Not Available
+
+# Drug_Target_3_Signals:
+1-25
+
+# Drug_Target_3_Specific_Function:
+Integrin alpha-L/beta-2 is a receptor for ICAM1, ICAM2, ICAM3 and ICAM4. It is involved in a variety of immune phenomena including leukocyte-endothelial cell interaction, cytotoxic T-cell mediated killing, and antibody dependent killing by granulocytes and monocytes
+
+# Drug_Target_3_SwissProt_ID:
+P20701
+
+# Drug_Target_3_SwissProt_Name:
+ITAL_HUMAN
+
+# Drug_Target_3_Synonyms:
+CD11a antigen
+Integrin alpha-L precursor
+LFA-1A
+Leukocyte adhesion glycoprotein LFA-1 alpha chain
+Leukocyte function-associated molecule 1 alpha chain
+
+# Drug_Target_3_Theoretical_pI:
+5.35
+
+# Drug_Target_3_Transmembrane_Regions:
+1091-1111
+
+# Drug_Target_4_Cellular_Location:
+Membrane
+single-pass type I membrane protein
+
+# Drug_Target_4_Chromosome_Location:
+Not Available
+
+# Drug_Target_4_Drug_References:
+12586600	Monti P, Allavena P, Di Carlo V, Piemonti L: Effects of anti-lymphocytes and anti-thymocytes globulin on human dendritic cells. Int Immunopharmacol. 2003 Feb;3(2):189-96.
+
+# Drug_Target_4_Essentiality:
+Non-Essential
+
+# Drug_Target_4_GenAtlas_ID:
+CD86
+
+# Drug_Target_4_GenBank_ID_Gene:
+L25259
+
+# Drug_Target_4_GenBank_ID_Protein:
+439839
+
+# Drug_Target_4_GeneCard_ID:
+CD86
+
+# Drug_Target_4_Gene_Name:
+CD86
+
+# Drug_Target_4_Gene_Sequence:
+>972 bp
+ATGGGACTGAGTAACATTCTCTTTGTGATGGCCTTCCTGCTCTCTGGTGCTGCTCCTCTG
+AAGATTCAAGCTTATTTCAATGAGACTGCAGACCTGCCATGCCAATTTGCAAACTCTCAA
+AACCAAAGCCTGAGTGAGCTAGTAGTATTTTGGCAGGACCAGGAAAACTTGGTTCTGAAT
+GAGGTATACTTAGGCAAAGAGAAATTTGACAGTGTTCATTCCAAGTATATGGGCCGCACA
+AGTTTTGATTCGGACAGTTGGACCCTGAGACTTCACAATCTTCAGATCAAGGACAAGGGC
+TTGTATCAATGTATCATCCATCACAAAAAGCCCACAGGAATGATTCGCATCCACCAGATG
+AATTCTGAACTGTCAGTGCTTGCTAACTTCAGTCAACCTGAAATAGTACCAATTTCTAAT
+ATAACAGAAAATGTGTACATAAATTTGACCTGCTCATCTATACACGGTTACCCAGAACCT
+AAGAAGATGAGTGTTTTGCTAAGAACCAAGAATTCAACTATCGAGTATGATGGTATTATG
+CAGAAATCTCAAGATAATGTCACAGAACTGTACGACGTTTCCATCAGCTTGTCTGTTTCA
+TTCCCTGATGTTACGAGCAATATGACCATCTTCTGTATTCTGGAAACTGACAAGACGCGG
+CTTTTATCTTCACCTTTCTCTATAGAGCTTGAGGACCCTCAGCCTCCCCCAGACCACATT
+CCTTGGATTACAGCTGTACTTCCAACAGTTATTATATGTGTGATGGTTTTCTGTCTAATT
+CTATGGAAATGGAAGAAGAAGAAGCGGCCTCGCAACTCTTATAAATGTGGAACCAACACA
+ATGGAGAGGGAAGAGAGTGAACAGACCAAGAAAAGAGAAAAAATCCATATACCTGAAAGA
+TCTGATGAAGCCCAGCGTGTTTTTAAAAGTTCGAAGACATCTTCATGCGACAAAAGTGAT
+ACATGTTTTTAA
+
+# Drug_Target_4_General_Function:
+Involved in coreceptor activity
+
+# Drug_Target_4_General_References:
+11162656	Magistrelli G, Caron G, Gauchat JF, Jeannin P, Bonnefoy JY, Delneste Y: Identification of an alternatively spliced variant of human CD86 mRNA. Biochem Biophys Res Commun. 2001 Feb 9;280(5):1211-5.
+7520767	Engel P, Gribben JG, Freeman GJ, Zhou LJ, Nozawa Y, Abe M, Nadler LM, Wakasa H, Tedder TF: The B7-2 (B70) costimulatory molecule expressed by monocytes and activated B lymphocytes is the CD86 differentiation antigen. Blood. 1994 Sep 1;84(5):1402-7.
+7527824	Lanier LL, O'Fallon S, Somoza C, Phillips JH, Linsley PS, Okumura K, Ito D, Azuma M: CD80 (B7) and CD86 (B70) provide similar costimulatory signals for T cell proliferation, cytokine production, and generation of CTL. J Immunol. 1995 Jan 1;154(1):97-105.
+7541777	Jellis CL, Wang SS, Rennert P, Borriello F, Sharpe AH, Green NR, Gray GS: Genomic organization of the gene coding for the costimulatory human B-lymphocyte antigen B7-2 (CD86). Immunogenetics. 1995;42(2):85-9.
+7694153	Azuma M, Ito D, Yagita H, Okumura K, Phillips JH, Lanier LL, Somoza C: B70 antigen is a second ligand for CTLA-4 and CD28. Nature. 1993 Nov 4;366(6450):76-9.
+7694363	Freeman GJ, Gribben JG, Boussiotis VA, Ng JW, Restivo VA Jr, Lombard LA, Gray GS, Nadler LM: Cloning of B7-2: a CTLA-4 counter-receptor that costimulates human T cell proliferation. Science. 1993 Nov 5;262(5135):909-11.
+
+# Drug_Target_4_HGNC_ID:
+HGNC:1705
+
+# Drug_Target_4_HPRD_ID:
+03011
+
+# Drug_Target_4_ID:
+942
+
+# Drug_Target_4_Locus:
+3q21
+
+# Drug_Target_4_Molecular_Weight:
+37697
+
+# Drug_Target_4_Name:
+T-lymphocyte activation antigen CD86
+
+# Drug_Target_4_Number_of_Residues:
+329
+
+# Drug_Target_4_PDB_ID:
+1NCN
+
+# Drug_Target_4_Pathway:
+Not Available
+
+# Drug_Target_4_Pfam_Domain_Function:
+PF07686	V-set
+
+# Drug_Target_4_Protein_Sequence:
+>T-lymphocyte activation antigen CD86 precursor
+MDPQCTMGLSNILFVMAFLLSGAAPLKIQAYFNETADLPCQFANSQNQSLSELVVFWQDQ
+ENLVLNEVYLGKEKFDSVHSKYMGRTSFDSDSWTLRLHNLQIKDKGLYQCIIHHKKPTGM
+IRIHQMNSELSVLANFSQPEIVPISNITENVYINLTCSSIHGYPEPKKMSVLLRTKNSTI
+EYDGIMQKSQDNVTELYDVSISLSVSFPDVTSNMTIFCILETDKTRLLSSPFSIELEDPQ
+PPPDHIPWITAVLPTVIICVMVFCLILWKWKKKKRPRNSYKCGTNTMEREESEQTKKREK
+IHIPERSDEAQRVFKSSKTSSCDKSDTCF
+
+# Drug_Target_4_Reaction:
+Not Available
+
+# Drug_Target_4_Signals:
+1-23
+
+# Drug_Target_4_Specific_Function:
+Receptor involved in the costimulatory signal essential for T-lymphocyte proliferation and interleukin 2 production, by binding CD28 or CTLA-4. May play a critical role in the early events of T-cell activation and costimulation of naive T-cells, such as deciding between immunity and anergy that is made by T- cells within 24 hours after activation. Isoform 2 interferes with the formation of CD86 clusters, and thus acts as a negative regulator of T-cell activation
+
+# Drug_Target_4_SwissProt_ID:
+P42081
+
+# Drug_Target_4_SwissProt_Name:
+CD86_HUMAN
+
+# Drug_Target_4_Synonyms:
+Activation B7-2 antigen
+B70
+BU63
+CTLA-4 counter-receptor B7.2
+FUN-1
+T-lymphocyte activation antigen CD86 precursor
+
+# Drug_Target_4_Theoretical_pI:
+6.91
+
+# Drug_Target_4_Transmembrane_Regions:
+248-268
+
+# Drug_Target_5_Cellular_Location:
+Membrane
+
+# Drug_Target_5_Chromosome_Location:
+Not Available
+
+# Drug_Target_5_Drug_References:
+12586600	Monti P, Allavena P, Di Carlo V, Piemonti L: Effects of anti-lymphocytes and anti-thymocytes globulin on human dendritic cells. Int Immunopharmacol. 2003 Feb;3(2):189-96.
+
+# Drug_Target_5_Essentiality:
+Non-Essential
+
+# Drug_Target_5_GenAtlas_ID:
+FCGR2B
+
+# Drug_Target_5_GenBank_ID_Gene:
+U87560
+
+# Drug_Target_5_GenBank_ID_Protein:
+4099445
+
+# Drug_Target_5_GeneCard_ID:
+FCGR2B
+
+# Drug_Target_5_Gene_Name:
+FCGR2B
+
+# Drug_Target_5_Gene_Sequence:
+>930 bp
+ATGGGAATCCTGTCATTCTTACCTGTCCTTGCCACTGAGAGTGACTGGGCTGACTGCAAG
+TCCCCCCAGCCTTGGGGTCATATGCTTCTGTGGACAGCTGTGCTATTCCTGGCTCCTGTT
+GCTGGGACACCTGCAGCTCCCCCAAAGGCTGTGCTGAAACTCGAGCCCCAGTGGATCAAC
+GTGCTCCAGGAGGACTCTGTGACTCTGACATGCCGGGGGACTCACAGCCCTGAGAGCGAC
+TCCATTCAGTGGTTCCACAATGGGAATCTCATTCCCACCCACACGCAGCCCAGCTACAGG
+TTCAAGGCCAACAACAATGACAGCGGGGAGTACACGTGCCAGACTGGCCAGACCAGCCTC
+AGCGACCCTGTGCATCTGACTGTGCTTTCTGAGTGGCTGGTGCTCCAGACCCCTCACCTG
+GAGTTCCAGGAGGGAGAAACCATCGTGCTGAGGTGCCACAGCTGGAAGGACAAGCCTCTG
+GTCAAGGTCACATTCTTCCAGAATGGAAAATCCAAGAAATTTTCCCGTTCGGATCCCAAC
+TTCTCCATCCCACAAGCAAACCACAGTCACAGTGGTGATTACCACTGCACAGGAAACATA
+GGCTACACGCTGTACTCATCCAAGCCTGTGACCATCACTGTCCAAGCTCCCAGCTCTTCA
+CCGATGGGGATCATTGTGGCTGTGGTCACTGGGATTGCTGTAGCGGCCATTGTTGCTGCT
+GTAGTGGCCTTGATCTACTGCAGGAAAAAGCGGATTTCAGCTCTCCCAGGATACCCTGAG
+TGCAGGGAAATGGGAGAGACCCTCCCTGAGAAACCAGCCAATCCCACTAATCCTGATGAG
+GCTGACAAAGTTGGGGCTGAGAACACAATCACCTATTCACTTCTCATGCACCCGGATGCT
+CTGGAAGAGCCTGATGACCAGAACCGTATT
+
+# Drug_Target_5_General_Function:
+Not Available
+
+# Drug_Target_5_General_References:
+12115230	Kyogoku C, Dijstelbloem HM, Tsuchiya N, Hatta Y, Kato H, Yamaguchi A, Fukazawa T, Jansen MD, Hashimoto H, van de Winkel JG, Kallenberg CG, Tokunaga K: Fcgamma receptor gene polymorphisms in Japanese patients with systemic lupus erythematosus: contribution of FCGR2B to genetic susceptibility. Arthritis Rheum. 2002 May;46(5):1242-54.
+2142460	Engelhardt W, Geerds C, Frey J: Distribution, inducibility and biological function of the cloned and expressed human beta Fc receptor II. Eur J Immunol. 1990 Jun;20(6):1367-77.
+2529342	Brooks DG, Qiu WQ, Luster AD, Ravetch JV: Structure and expression of human IgG FcRII(CD32). Functional heterogeneity is encoded by the alternatively spliced products of multiple genes. J Exp Med. 1989 Oct 1;170(4):1369-85.
+2531080	Stuart SG, Simister NE, Clarkson SB, Kacinski BM, Shapiro M, Mellman I: Human IgG Fc receptor (hFcRII; CD32) exists as multiple isoforms in macrophages, lymphocytes and IgG-transporting placental epithelium. EMBO J. 1989 Dec 1;8(12):3657-66.
+
+# Drug_Target_5_HGNC_ID:
+HGNC:3618
+
+# Drug_Target_5_HPRD_ID:
+Not Available
+
+# Drug_Target_5_ID:
+3820
+
+# Drug_Target_5_Locus:
+1q23
+
+# Drug_Target_5_Molecular_Weight:
+34044
+
+# Drug_Target_5_Name:
+Low affinity immunoglobulin gamma Fc region receptor II-b
+
+# Drug_Target_5_Number_of_Residues:
+310
+
+# Drug_Target_5_PDB_ID:
+2FCB
+
+# Drug_Target_5_Pathway:
+Not Available
+
+# Drug_Target_5_Pfam_Domain_Function:
+PF00047	ig
+
+# Drug_Target_5_Protein_Sequence:
+>Low affinity immunoglobulin gamma Fc region receptor II-b
+MGILSFLPVLATESDWADCKSPQPWGHMLLWTAVLFLAPVAGTPAAPPKAVLKLEPQWIN
+VLQEDSVTLTCRGTHSPESDSIQWFHNGNLIPTHTQPSYRFKANNNDSGEYTCQTGQTSL
+SDPVHLTVLSEWLVLQTPHLEFQEGETIVLRCHSWKDKPLVKVTFFQNGKSKKFSRSDPN
+FSIPQANHSHSGDYHCTGNIGYTLYSSKPVTITVQAPSSSPMGIIVAVVTGIAVAAIVAA
+VVALIYCRKKRISALPGYPECREMGETLPEKPANPTNPDEADKVGAENTITYSLLMHPDA
+LEEPDDQNRI
+
+# Drug_Target_5_Reaction:
+Not Available
+
+# Drug_Target_5_Signals:
+1-42
+
+# Drug_Target_5_Specific_Function:
+Receptor for the Fc region of complexed or aggregated immunoglobulins gamma. Low affinity receptor. Involved in a variety of effector and regulatory functions such as phagocytosis of immune complexes and modulation of antibody production by B- cells. Binding to this receptor results in down-modulation of previous state of cell activation triggered via antigen receptors on B-cells (BCR), T-cells (TCR) or via another Fc receptor. Isoform IIB1 fails to mediate endocytosis or phagocytosis. Isoform IIB2 does not trigger phagocytosis
+
+# Drug_Target_5_SwissProt_ID:
+P31994
+
+# Drug_Target_5_SwissProt_Name:
+FCG2B_HUMAN
+
+# Drug_Target_5_Synonyms:
+CD32 antigen
+CDw32
+Fc-gamma RII-b
+Fc-gamma-RIIb
+FcRII-b
+IgG Fc receptor II-b
+Low affinity immunoglobulin gamma Fc region receptor II-b precursor
+
+# Drug_Target_5_Theoretical_pI:
+6.12
+
+# Drug_Target_5_Transmembrane_Regions:
+218-240
+
+# Drug_Target_6_Cellular_Location:
+Cell membrane
+
+# Drug_Target_6_Chromosome_Location:
+Not Available
+
+# Drug_Target_6_Drug_References:
+12586600	Monti P, Allavena P, Di Carlo V, Piemonti L: Effects of anti-lymphocytes and anti-thymocytes globulin on human dendritic cells. Int Immunopharmacol. 2003 Feb;3(2):189-96.
+
+# Drug_Target_6_Essentiality:
+Non-Essential
+
+# Drug_Target_6_GenAtlas_ID:
+CD4
+
+# Drug_Target_6_GenBank_ID_Gene:
+BC025782
+
+# Drug_Target_6_GenBank_ID_Protein:
+Not Available
+
+# Drug_Target_6_GeneCard_ID:
+Not Available
+
+# Drug_Target_6_Gene_Name:
+CD4
+
+# Drug_Target_6_Gene_Sequence:
+Not Available
+
+# Drug_Target_6_General_Function:
+Not Available
+
+# Drug_Target_6_General_References:
+1425921	Fomsgaard A, Hirsch VM, Johnson PR: Cloning and sequences of primate CD4 molecules: diversity of the cellular receptor for simian immunodeficiency virus/human immunodeficiency virus. Eur J Immunol. 1992 Nov;22(11):2973-81.
+1708753	Hodge TW, Sasso DR, McDougal JS: Humans with OKT4-epitope deficiency have a single nucleotide base change in the CD4 gene, resulting in substitution of TRP240 for ARG240. Hum Immunol. 1991 Feb;30(2):99-104.
+2592374	Carr SA, Hemling ME, Folena-Wasserman G, Sweet RW, Anumula K, Barr JR, Huddleston MJ, Taylor P: Protein and carbohydrate structural analysis of a recombinant soluble CD4 receptor by mass spectrometry. J Biol Chem. 1989 Dec 15;264(35):21286-95.
+2990730	Maddon PJ, Littman DR, Godfrey M, Maddon DE, Chess L, Axel R: The isolation and nucleotide sequence of a cDNA encoding the T cell surface protein T4: a new member of the immunoglobulin gene family. Cell. 1985 Aug;42(1):93-104.
+3263213	Littman DR, Maddon PJ, Axel R: Corrected CD4 sequence. Cell. 1988 Nov 18;55(4):541.
+8723724	Ansari-Lari MA, Muzny DM, Lu J, Lu F, Lilley CE, Spanos S, Malley T, Gibbs RA: A gene-rich cluster between the CD4 and triosephosphate isomerase genes at human chromosome 12p13. Genome Res. 1996 Apr;6(4):314-26.
+9074930	Ansari-Lari MA, Shen Y, Muzny DM, Lee W, Gibbs RA: Large-scale sequencing in human chromosome 12p13: experimental and computational gene structure determination. Genome Res. 1997 Mar;7(3):268-80.
+
+# Drug_Target_6_HGNC_ID:
+HGNC:1678
+
+# Drug_Target_6_HPRD_ID:
+Not Available
+
+# Drug_Target_6_ID:
+5955
+
+# Drug_Target_6_Locus:
+Not Available
+
+# Drug_Target_6_Molecular_Weight:
+51111
+
+# Drug_Target_6_Name:
+T-cell surface glycoprotein CD4
+
+# Drug_Target_6_Number_of_Residues:
+458
+
+# Drug_Target_6_PDB_ID:
+1WIQ
+
+# Drug_Target_6_Pathway:
+Not Available
+
+# Drug_Target_6_Pfam_Domain_Function:
+PF00047	ig
+PF05790	C2-set
+PF09191	CD4-extracel
+
+# Drug_Target_6_Protein_Sequence:
+>T-cell surface glycoprotein CD4
+MNRGVPFRHLLLVLQLALLPAATQGKKVVLGKKGDTVELTCTASQKKSIQFHWKNSNQIK
+ILGNQGSFLTKGPSKLNDRADSRRSLWDQGNFPLIIKNLKIEDSDTYICEVEDQKEEVQL
+LVFGLTANSDTHLLQGQSLTLTLESPPGSSPSVQCRSPRGKNIQGGKTLSVSQLELQDSG
+TWTCTVLQNQKKVEFKIDIVVLAFQKASSIVYKKEGEQVEFSFPLAFTVEKLTGSGELWW
+QAERASSSKSWITFDLKNKEVSVKRVTQDPKLQMGKKLPLHLTLPQALPQYAGSGNLTLA
+LEAKTGKLHQEVNLVVMRATQLQKNLTCEVWGPTSPKLMLSLKLENKEAKVSKREKAVWV
+LNPEAGMWQCLLSDSGQVLLESNIKVLPTWSTPVQPMALIVLGGVAGLLLFIGLGIFFCV
+RCRHRRRQAERMSQIKRLLSEKKTCQCPHRFQKTCSPI
+
+# Drug_Target_6_Reaction:
+Not Available
+
+# Drug_Target_6_Signals:
+1-25
+
+# Drug_Target_6_Specific_Function:
+Accessory protein for MHC class-II antigen/T-cell receptor interaction. May regulate T-cell activation. Induces the aggregation of lipid rafts
+
+# Drug_Target_6_SwissProt_ID:
+P01730
+
+# Drug_Target_6_SwissProt_Name:
+CD4_HUMAN
+
+# Drug_Target_6_Synonyms:
+T-cell surface antigen T4/Leu-3
+T-cell surface glycoprotein CD4 precursor
+
+# Drug_Target_6_Theoretical_pI:
+10.24
+
+# Drug_Target_6_Transmembrane_Regions:
+397-418
+
+# Drug_Target_7_Cellular_Location:
+Cell membrane
+
+# Drug_Target_7_Chromosome_Location:
+1
+
+# Drug_Target_7_Drug_References:
+12586600	Monti P, Allavena P, Di Carlo V, Piemonti L: Effects of anti-lymphocytes and anti-thymocytes globulin on human dendritic cells. Int Immunopharmacol. 2003 Feb;3(2):189-96.
+
+# Drug_Target_7_Essentiality:
+Non-Essential
+
+# Drug_Target_7_GenAtlas_ID:
+Not Available
+
+# Drug_Target_7_GenBank_ID_Gene:
+X07979
+
+# Drug_Target_7_GenBank_ID_Protein:
+31442
+
+# Drug_Target_7_GeneCard_ID:
+ITGB1
+
+# Drug_Target_7_Gene_Name:
+ITGB1
+
+# Drug_Target_7_Gene_Sequence:
+>2397 bp
+ATGAATTTACAACCAATTTTCTGGATTGGACTGATCAGTTCAGTTTGCTGTGTGTTTGCT
+CAAACAGATGAAAATAGATGTTTAAAAGCAAATGCCAAATCATGTGGAGAATGTATACAA
+GCAGGGCCAAATTGTGGGTGGTGCACAAATTCAACATTTTTACAGGAAGGAATGCCTACT
+TCTGCACGATGTGATGATTTAGAAGCCTTAAAAAAGAAGGGTTGCCCTCCAGATGACATA
+GAAAATCCCAGAGGCTCCAAAGATATAAAGAAAAATAAAAATGTAACCAACCGTAGCAAA
+GGAACAGCAGAGAAGCTCAAGCCAGAGGATATTCATCAGATCCAACCACAGCAGTTGGTT
+TTGCGATTAAGATCAGGGGAGCCACAGACATTTACATTAAAATTCAAGAGAGCTGAAGAC
+TATCCCATTGACCTCTACTACCTTATGGACCTGTCTTATTCAATGAAAGACGATTTGGAG
+AATGTAAAAAGTCTTGGAACAGATCTGATGAATGAAATGAGGAGGATTACTTCGGACTTC
+AGAATTGGATTTGGCTCATTTGTGGAAAAGACTGTGATGCCTTACATTAGCACAACACCA
+GCTAAGCTCAGGAACCCTTGCACAAGTGAACAGAACTGCACCACCCCATTTAGCTACAAA
+AATGTGCTCAGTCTTACTAATAAAGGAGAAGTATTTAATGAACTTGTTGGAAAACAGCGC
+ATATCTGGAAATTTGGATTCTCCAGAAGGTGGTTTCGATGCCATCATGCAAGTTGCAGTT
+TGTGGATCACTGATTGGCTGGAGGAATGTTACACGGCTGCTGGTGTTTTCCACAGATGCC
+GGGTTTCACTTTGCTGGAGATGGGAAACTTGGTGGCATTGTTTTACCAAATGATGGACAA
+TGTCACCTGGAAAATAATATGTACACAATGAGCCATTATTATGATTATCCTTCTATTGCT
+CACCTTGTCCAGAAACTGAGTGAAAATAATATTCAGACAATTTTTGCAGTTACTGAAGAA
+TTTCAGCCTGTTTACAAGGAGCTGAAAAACTTGATCCCTAAGTCAGCAGTAGGAACATTA
+TCTGCAAATTCTAGCAATGTAATTCAGTTGATCATTGATGCATACAATTCCCTTTCCTCA
+GAAGTCATTTTGGAAAACGGCAAATTGTCAGAAGGAGTAACAATAAGTTACAAATCTTAC
+TGCAAGAACGGGGTGAATGGAACAGGGGAAAATGGAAGAAAATGTTCCAATATTTCCATT
+GGAGATGAGGTTCAATTTGAAATTAGCATAACTTCAAATAAGTGTCCAAAAAAGGATTCT
+GACAGCTTTAAAATTAGGCCTCTGGGCTTTACGGAGGAAGTAGAGGTTATTCTTCAGTAC
+ATCTGTGAATGTGAATGCCAAAGCGAAGGCATCCCTGAAAGTCCCAAGTGTCATGAAGGA
+AATGGGACATTTGAGTGTGGCGCGTGCAGGTGCAATGAAGGGCGTGTTGGTAGACATTGT
+GAATGCAGCACAGATGAAGTTAACAGTGAAGACATGGATGCTTACTGCAGGAAAGAAAAC
+AGTTCAGAAATCTGCAGTAACAATGGAGAGTGCGTCTGCGGACAGTGTGTTTGTAGGAAG
+AGGGATAATACAAATGAAATTTATTCTGGCAAATTCTGCGAGTGTGATAATTTCAACTGT
+GATAGATCCAATGGCTTAATTTGTGGAGGAAATGGTGTTTGCAAGTGTCGTGTGTGTGAG
+TGCAACCCCAACTACACTGGCAGTGCATGTGACTGTTCTTTGGATACTAGTACTTGTGAA
+GCCAGCAACGGACAGATCTGCAATGGCCGGGGCATCTGCGAGTGTGGTGTCTGTAAGTGT
+ACAGATCCGAAGTTTCAAGGGCAAACGTGTGAGATGTGTCAGACCTGCCTTGGTGTCTGT
+GCTGAGCATAAAGAATGTGTTCAGTGCAGAGCCTTCAATAAAGGAGAAAAGAAAGACACA
+TGCACACAGGAATGTTCCTATTTTAACATTACCAAGGTAGAAAGTCGGGACAAATTACCC
+CAGCCGGTCCAACCTGATCCTGTGTCCCATTGTAAGGAGAAGGATGTTGACGACTGTTGG
+TTCTATTTTACGTATTCAGTGAATGGGAACAACGAGGTCATGGTTCATGTTGTGGAGAAT
+CCAGAGTGTCCCACTGGTCCAGACATCATTCCAATTGTAGCTGGTGTGGTTGCTGGAATT
+GTTCTTATTGGCCTTGCATTACTGCTGATATGGAAGCTTTTAATGATAATTCATGACAGA
+AGGGAGTTTGCTAAATTTGAAAAGGAGAAAATGAATGCCAAATGGGACACGGGTGAAAAT
+CCTATTTATAAGAGTGCCGTAACAACTGTGGTCAATCCGAAGTATGAGGGAAAATGA
+
+# Drug_Target_7_General_Function:
+Involved in identical protein binding
+
+# Drug_Target_7_General_References:
+14702039	Ota T, Suzuki Y, Nishikawa T, Otsuki T, Sugiyama T, Irie R, Wakamatsu A, Hayashi K, Sato H, Nagai K, Kimura K, Makita H, Sekine M, Obayashi M, Nishi T, Shibahara T, Tanaka T, Ishii S, Yamamoto J, Saito K, Kawai Y, Isono Y, Nakamura Y, Nagahari K, Murakami K, Yasuda T, Iwayanagi T, Wagatsuma M, Shiratori A, Sudo H, Hosoiri T, Kaku Y, Kodaira H, Kondo H, Sugawara M, Takahashi M, Kanda K, Yokoi T, Furuya T, Kikkawa E, Omura Y, Abe K, Kamihara K, Katsuta N, Sato K, Tanikawa M, Yamazaki M, Ninomiya K, Ishibashi T, Yamashita H, Murakawa K, Fujimori K, Tanai H, Kimata M, Watanabe M, Hiraoka S, Chiba Y, Ishida S, Ono Y, Takiguchi S, Watanabe S, Yosida M, Hotuta T, Kusano J, Kanehori K, Takahashi-Fujii A, Hara H, Tanase TO, Nomura Y, Togiya S, Komai F, Hara R, Takeuchi K, Arita M, Imose N, Musashino K, Yuuki H, Oshima A, Sasaki N, Aotsuka S, Yoshikawa Y, Matsunawa H, Ichihara T, Shiohata N, Sano S, Moriya S, Momiyama H, Satoh N, Takami S, Terashima Y, Suzuki O, Nakagawa S, Senoh A, Mizoguchi H, Goto Y, Shimizu F, Wakebe H, Hishigaki H, Watanabe T, Sugiyama A, Takemoto M, Kawakami B, Yamazaki M, Watanabe K, Kumagai A, Itakura S, Fukuzumi Y, Fujimori Y, Komiyama M, Tashiro H, Tanigami A, Fujiwara T, Ono T, Yamada K, Fujii Y, Ozaki K, Hirao M, Ohmori Y, Kawabata A, Hikiji T, Kobatake N, Inagaki H, Ikema Y, Okamoto S, Okitani R, Kawakami T, Noguchi S, Itoh T, Shigeta K, Senba T, Matsumura K, Nakajima Y, Mizuno T, Morinaga M, Sasaki M, Togashi T, Oyama M, Hata H, Watanabe M, Komatsu T, Mizushima-Sugano J, Satoh T, Shirai Y, Takahashi Y, Nakagawa K, Okumura K, Nagase T, Nomura N, Kikuchi H, Masuho Y, Yamashita R, Nakai K, Yada T, Nakamura Y, Ohara O, Isogai T, Sugano S: Complete sequencing and characterization of 21,243 full-length human cDNAs. Nat Genet. 2004 Jan;36(1):40-5. Epub 2003 Dec 21.
+15164054	Deloukas P, Earthrowl ME, Grafham DV, Rubenfield M, French L, Steward CA, Sims SK, Jones MC, Searle S, Scott C, Howe K, Hunt SE, Andrews TD, Gilbert JG, Swarbreck D, Ashurst JL, Taylor A, Battles J, Bird CP, Ainscough R, Almeida JP, Ashwell RI, Ambrose KD, Babbage AK, Bagguley CL, Bailey J, Banerjee R, Bates K, Beasley H, Bray-Allen S, Brown AJ, Brown JY, Burford DC, Burrill W, Burton J, Cahill P, Camire D, Carter NP, Chapman JC, Clark SY, Clarke G, Clee CM, Clegg S, Corby N, Coulson A, Dhami P, Dutta I, Dunn M, Faulkner L, Frankish A, Frankland JA, Garner P, Garnett J, Gribble S, Griffiths C, Grocock R, Gustafson E, Hammond S, Harley JL, Hart E, Heath PD, Ho TP, Hopkins B, Horne J, Howden PJ, Huckle E, Hynds C, Johnson C, Johnson D, Kana A, Kay M, Kimberley AM, Kershaw JK, Kokkinaki M, Laird GK, Lawlor S, Lee HM, Leongamornlert DA, Laird G, Lloyd C, Lloyd DM, Loveland J, Lovell J, McLaren S, McLay KE, McMurray A, Mashreghi-Mohammadi M, Matthews L, Milne S, Nickerson T, Nguyen M, Overton-Larty E, Palmer SA, Pearce AV, Peck AI, Pelan S, Phillimore B, Porter K, Rice CM, Rogosin A, Ross MT, Sarafidou T, Sehra HK, Shownkeen R, Skuce CD, Smith M, Standring L, Sycamore N, Tester J, Thorpe A, Torcasso W, Tracey A, Tromans A, Tsolas J, Wall M, Walsh J, Wang H, Weinstock K, West AP, Willey DL, Whitehead SL, Wilming L, Wray PW, Young L, Chen Y, Lovering RC, Moschonas NK, Siebert R, Fechtel K, Bentley D, Durbin R, Hubbard T, Doucette-Stamm L, Beck S, Smith DR, Rogers J: The DNA sequence and comparative analysis of human chromosome 10. Nature. 2004 May 27;429(6990):375-81.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+1551917	Languino LR, Ruoslahti E: An alternative form of the integrin beta 1 subunit with a variant cytoplasmic domain. J Biol Chem. 1992 Apr 5;267(10):7116-20.
+17974005	Bechtel S, Rosenfelder H, Duda A, Schmidt CP, Ernst U, Wellenreuther R, Mehrle A, Schuster C, Bahr A, Blocker H, Heubner D, Hoerlein A, Michel G, Wedler H, Kohrer K, Ottenwalder B, Poustka A, Wiemann S, Schupp I: The full-ORF clone resource of the German cDNA Consortium. BMC Genomics. 2007 Oct 31;8:399.
+2249781	Altruda F, Cervella P, Tarone G, Botta C, Balzac F, Stefanuto G, Silengo L: A human integrin beta 1 subunit with a unique cytoplasmic domain generated by alternative mRNA processing. Gene. 1990 Nov 15;95(2):261-6.
+2958481	Argraves WS, Suzuki S, Arai H, Thompson K, Pierschbacher MD, Ruoslahti E: Amino acid sequence of the human fibronectin receptor. J Cell Biol. 1987 Sep;105(3):1183-90.
+7523423	Balzac F, Retta SF, Albini A, Melchiorri A, Koteliansky VE, Geuna M, Silengo L, Tarone G: Expression of beta 1B integrin isoform in CHO cells results in a dominant negative effect on cell adhesion and motility. J Cell Biol. 1994 Oct;127(2):557-65.
+7681433	Balzac F, Belkin AM, Koteliansky VE, Balabanov YV, Altruda F, Silengo L, Tarone G: Expression and functional analysis of a cytoplasmic domain variant of the beta 1 integrin subunit. J Cell Biol. 1993 Apr;121(1):171-8.
+
+# Drug_Target_7_HGNC_ID:
+GNC:6153
+
+# Drug_Target_7_HPRD_ID:
+Not Available
+
+# Drug_Target_7_ID:
+6065
+
+# Drug_Target_7_Locus:
+10p11.2
+
+# Drug_Target_7_Molecular_Weight:
+88414.6
+
+# Drug_Target_7_Name:
+Integrin beta-1
+
+# Drug_Target_7_Number_of_Residues:
+798
+
+# Drug_Target_7_PDB_ID:
+Not Available
+
+# Drug_Target_7_Pathway:
+Abciximab Pathway	SMP00265
+Acetylsalicylic Acid Pathway	SMP00083
+Celecoxib Pathway	SMP00096
+Cilostazol Pathway	SMP00263
+Clopidogrel Pathway	SMP00260
+Dipyridamole (Antiplatelet) Pathway	SMP00264
+Eptifibatide Pathway	SMP00266
+Etodolac Pathway	SMP00084
+Meloxicam Pathway	SMP00106
+Rofecoxib Pathway	SMP00087
+Ticlopidine Pathway	SMP00261
+Tirofiban Pathway	SMP00267
+Valdecoxib Pathway	SMP00116
+
+# Drug_Target_7_Pfam_Domain_Function:
+PF00362	Integrin_beta
+PF07965	Integrin_B_tail
+PF07974	EGF_2
+PF08725	Integrin_b_cyt
+
+# Drug_Target_7_Protein_Sequence:
+>Integrin beta-1
+MNLQPIFWIGLISSVCCVFAQTDENRCLKANAKSCGECIQAGPNCGWCTNSTFLQEGMPT
+SARCDDLEALKKKGCPPDDIENPRGSKDIKKNKNVTNRSKGTAEKLKPEDITQIQPQQLV
+LRLRSGEPQTFTLKFKRAEDYPIDLYYLMDLSYSMKDDLENVKSLGTDLMNEMRRITSDF
+RIGFGSFVEKTVMPYISTTPAKLRNPCTSEQNCTSPFSYKNVLSLTNKGEVFNELVGKQR
+ISGNLDSPEGGFDAIMQVAVCGSLIGWRNVTRLLVFSTDAGFHFAGDGKLGGIVLPNDGQ
+CHLENNMYTMSHYYDYPSIAHLVQKLSENNIQTIFAVTEEFQPVYKELKNLIPKSAVGTL
+SANSSNVIQLIIDAYNSLSSEVILENGKLSEGVTISYKSYCKNGVNGTGENGRKCSNISI
+GDEVQFEISITSNKCPKKDSDSFKIRPLGFTEEVEVILQYICECECQSEGIPESPKCHEG
+NGTFECGACRCNEGRVGRHCECSTDEVNSEDMDAYCRKENSSEICSNNGECVCGQCVCRK
+RDNTNEIYSGKFCECDNFNCDRSNGLICGGNGVCKCRVCECNPNYTGSACDCSLDTSTCE
+ASNGQICNGRGICECGVCKCTDPKFQGQTCEMCQTCLGVCAEHKECVQCRAFNKGEKKDT
+CTQECSYFNITKVESRDKLPQPVQPDPVSHCKEKDVDDCWFYFTYSVNGNNEVMVHVVEN
+PECPTGPDIIPIVAGVVAGIVLIGLALLLIWKLLMIIHDRREFAKFEKEKMNAKWDTGEN
+PIYKSAVTTVVNPKYEGK
+
+# Drug_Target_7_Reaction:
+Not Available
+
+# Drug_Target_7_Signals:
+1-20
+
+# Drug_Target_7_Specific_Function:
+Integrins alpha-1/beta-1, alpha-2/beta-1, alpha-10/beta- 1 and alpha-11/beta-1 are receptors for collagen. Integrins alpha- 1/beta-1 and alpha-2/beta-2 recognize the proline-hydroxylated sequence G-F-P-G-E-R in collagen. Integrins alpha-2/beta-1, alpha- 3/beta-1, alpha-4/beta-1, alpha-5/beta-1, alpha-8/beta-1, alpha- 10/beta-1, alpha-11/beta-1 and alpha-V/beta-1 are receptors for fibronectin. Alpha-4/beta-1 recognizes one or more domains within the alternatively spliced CS-1 and CS-5 regions of fibronectin. Integrin alpha-5/beta-1 is a receptor for fibrinogen. Integrin alpha-1/beta-1, alpha-2/beta-1, alpha-6/beta-1 and alpha-7/beta-1 are receptors for lamimin. Integrin alpha-4/beta-1 is a receptor for VCAM1. It recognizes the sequence Q-I-D-S in VCAM1. Integrin alpha-9/beta-1 is a receptor for VCAM1, cytotactin and osteopontin. It recognizes the sequence A-E-I-D-G-I-E-L in cytotactin. Integrin alpha-3/beta-1 is a receptor for epiligrin, thrombospondin and CSPG4. Alpha-3/beta-1 may mediate with LGALS3 the stimulation by CSPG4 of endothelial cells migration. Integrin alpha-V/beta-1 is a receptor for vitronectin. Beta-1 integrins recognize the sequence R-G-D in a wide array of ligands. Isoform beta-1B interferes with isoform beta-1A resulting in a dominant negative effect on cell adhesion and migration (in vitro). In case of HIV-1 infection, the interaction with extracellular viral Tat protein seems to enhance angiogenesis in Kaposi's sarcoma lesions. When associated with alpha-7/beta-1 integrin, regulates cell adhesion and laminin matrix deposition. Involved in promoting endothelial cell motility and angiogenesis. May be involved in up- regulation of the activity of kinases such as PKC via binding to KRT1. Together with KRT1 and GNB2L1/RACK1, serves as a platform for SRC activation or inactivation. Plays a mechanistic adhesive role during telophase, required for the successful completion of cytokinesis
+
+# Drug_Target_7_SwissProt_ID:
+P05556
+
+# Drug_Target_7_SwissProt_Name:
+ITB1_HUMAN
+
+# Drug_Target_7_Synonyms:
+CD29 antigen
+Fibronectin receptor subunit beta
+Integrin VLA-4 subunit beta
+
+# Drug_Target_7_Theoretical_pI:
+5.04
+
+# Drug_Target_7_Transmembrane_Regions:
+729-751
+
+# Drug_Target_8_Cellular_Location:
+Membrane
+
+# Drug_Target_8_Chromosome_Location:
+2
+
+# Drug_Target_8_Drug_References:
+12586600	Monti P, Allavena P, Di Carlo V, Piemonti L: Effects of anti-lymphocytes and anti-thymocytes globulin on human dendritic cells. Int Immunopharmacol. 2003 Feb;3(2):189-96.
+
+# Drug_Target_8_Essentiality:
+Non-Essential
+
+# Drug_Target_8_GenAtlas_ID:
+Not Available
+
+# Drug_Target_8_GenBank_ID_Gene:
+M14648
+
+# Drug_Target_8_GenBank_ID_Protein:
+340307
+
+# Drug_Target_8_GeneCard_ID:
+ITGAV
+
+# Drug_Target_8_Gene_Name:
+ITGAV
+
+# Drug_Target_8_Gene_Sequence:
+>3147 bp
+GCACTTCGGCGATGGCTTTTCCGCCGCGGCGACGGCTGCGCCTCGGTCCCCGCGGCCTCC
+CGCTTCTTCTCTCGGGACTCCTGCTACCTCTGTGCCGCGCCTTCAACCTAGACGTGGACA
+GTCCTGCCGAGTACTCTGGCCCCGAGGGAAGTTACTTCGGCTTCGCCGTGGATTTCTTCG
+TGCCCAGCGCGTCTTCCCGGATGTTTCTTCTCGTGGGAGCTCCCAAAGCAAACACCACCC
+AGCCTGGGATTGTGGAAGGAGGGCAGGTCCTCAAATGTGACTGGTCTTCTACCCGCCGGT
+GCCAGCCAATTGAATTTGATGCAACAGGCAATAGAGATTATGCCAAGGATGATCCATTGG
+AATTTAAGTCCCATCAGTGGTTTGGAGCATCTGTGAGGTCGAAACAGGATAAAATTTTGG
+CCTGTGCCCCATTGTACCATTGGAGAACTGAGATGAAACAGGAGCGAGAGCCTGTTGGAA
+CATGCTTTCTTCAAGATGGAACAAAGACTGTTGAGTATGCTCCATGTAGATCACAAGATA
+TTGATGCTGATGGACAGGGATTTTGTCAAGGAGGATTCAGCATTGATTTTACTAAAGCTG
+ACAGAGTACTTCTTGGTGGTCCTGGTAGCTTTTATTGGCAAGGTCAGCTTATTTCGGATC
+AAGTGGCAGAAATCGTATCTAAATACGACCCCAATGTTTACAGCATCAAGTATAATAACC
+AATTAGCAACTCGGACTGCACAAGCTATTTTTGATGACAGCTATTTGGGTTATTCTGTGG
+CTGTCGGAGATTTCAATGGTGATGGCATAGATGACTTTGTTTCAGGAGTTCCAAGAGCAG
+CAAGGACTTTGGGAATGGTTTATATTTATGATGGGAAGAACATGTCCTCCTTATACAATT
+TTACTGGCGAGCAGATGGCTGCATATTTCGGATTTTCTGTAGCTGCCACTGACATTAATG
+GAGATGATTATGCAGATGTGTTTATTGGAGCACCTCTCTTCATGGATCGTGGCTCTGATG
+GCAAACTCCAAGAGGTGGGGCAGGTCTCAGTGTCTCTACAGAGAGCTTCAGGAGACTTCC
+AGACGACAAAGCTGAATGGATTTGAGGTCTTTGCACGGTTTGGCAGTGCCATAGCTCCTT
+TGGGAGATCTGGACCAGGATGGTTTCAATGATATTGCAATTGCTGCTCCATATGGGGGTG
+AAGATAAAAAAGGAATTGTTTATATCTTCAATGGAAGATCAACAGGCTTGAACGCAGTCC
+CATCTCAAATCCTTGAAGGGCAGTGGGCTGCTCGAAGCATGCCACCAAGCTTTGGCTATT
+CAATGAAAGGAGCCACAGATATAGACAAAAATGGATATCCAGACTTAATTGTAGGAGCTT
+TTGGTGTAGATCGAGCTATCTTATACAGGGCCAGACCAGTTATCACTGTAAATGCTGGTC
+TTGAAGTGTACCCTAGCATTTTAAATCAAGACAATAAAACCTGCTCACTGCCTGGAACAG
+CTCTCAAAGTTTCCTGTTTTAATGTTAGGTTCTGCTTAAAGGCAGATGGCAAAGGAGTAC
+TTCCCAGGAAACTTAATTTCCAGGTGGAACTTCTTTTGGATAAACTCAAGCAAAAGGGAG
+CAATTCGACGAGCACTGTTTCTCTACAGCAGGTCCCCAAGTCACTCCAAGAACATGACTA
+TTTCAAGGGGGGGACTGATGCAGTGTGAGGAATTGATAGCGTATCTGCGGGATGAATCTG
+AATTTAGAGACAAACTCACTCCAATTACTATTTTTATGGAATATCGGTTGGATTATAGAA
+CAGCTGCTGATACAACAGGCTTGCAACCCATTCTTAACCAGTTCACGCCTGCTAACATTA
+GTCGACAGGCTCACATTCTACTTGACTGTGGTGAAGACAATGTCTGTAAACCCAAGCTGG
+AAGTTTCTGTAGATAGTGATCAAAAGAAGATCTATATTGGGGATGACAACCCTCTGACAT
+TGATTGTTAAGGCTCAGAATCAAGGAGAAGGTGCCTACGAAGCTGAGCTCATCGTTTCCA
+TTCCACTGCAGGCTGATTTCATCGGGGTTGTCCGAAACAATGAAGCCTTAGCAAGACTTT
+CCTGTGCATTTAAGACAGAAAACCAAACTCGCCAGGTGGTATGTGACCTTGGAAACCCAA
+TGAAGGCTGGAACTCAACTCTTAGCTGGTCTTCGTTTCAGTGTGCACCAGCAGTCAGAGA
+TGGATACTTCTGTGAAATTTGACTTACAAATCCAAAGCTCAAATCTATTTGACAAAGTAA
+GCCCAGTTGTATCTCACAAAGTTGATCTTGCTGTTTTAGCTGCAGTTGAGATAAGAGGAG
+TCTCGAGTCCTGATCATATCTTTCTTCCGATTCCAAACTGGGAGCACAAGGAGAACCCTG
+AGACTGAAGAAGATGTTGGGCCAGTTGTTCAGCACATCTATGAGCTGAGAAACAATGGTC
+CAAGTTCATTCAGCAAGGCAATGCTCCATCTTCAGTGGCCTTACAAATATAATAATAACA
+CTCTGTTGTATATCCTTCATTATGATATTGATGGACCAATGAACTGCACTTCAGATATGG
+AGATCAACCCTTTGAGAATTAAGATCTCATCTTTGCAAACAACTGAAAAGAATGACACGG
+TTGCCGGGCAAGGTGAGCGGGACCATCTCATCACTAAGCGGGATCTTGCCCTCAGTGAAG
+GAGATATTCACACTTTGGGTTGTGGAGTTGCTCAGTGCTTGAAGATTGTCTGCCAAGTTG
+GGAGATTAGACAGAGGAAAGAGTGCAATCTTGTACGTAAAGTCATTACTGTGGACTGAGA
+CTTTTATGAATAAAGAAAATCAGAATCATTCCTATTCTCTGAAGTCGTCTGCTTCATTTA
+ATGTCATAGAGTTTCCTTATAAGAATCTTCCAATTGAGGATATCACCAACTCCACATTGG
+TTACCACTAATGTCACCTGGGGCATTCAGCCAGCGCCCATGCCTGTGCCTGTGTGGGTGA
+TCATTTTAGCAGTTCTAGCAGGATTGTTGCTACTGGCTGTTTTGGTATTTGTAATGTACA
+GGATGGGCTTTTTTAAACGGGTCCGGCCACCTCAAGAAGAACAAGAAAGGGAGCAGCTTC
+AACCTCATGAAAATGGTGAAGGAAACT
+
+# Drug_Target_8_General_Function:
+Involved in calcium ion binding
+
+# Drug_Target_8_General_References:
+10397733	Barillari G, Sgadari C, Fiorelli V, Samaniego F, Colombini S, Manzari V, Modesti A, Nair BC, Cafaro A, Sturzl M, Ensoli B: The Tat protein of human immunodeficiency virus type-1 promotes vascular cell growth and locomotion by engaging the alpha5beta1 and alphavbeta3 integrins and by mobilizing sequestered basic fibroblast growth factor. Blood. 1999 Jul 15;94(2):663-72.
+10965141	Sims MA, Field SD, Barnes MR, Shaikh N, Ellington K, Murphy KE, Spurr N, Campbell DA: Cloning and characterisation of ITGAV, the genomic sequence for human cell adhesion protein (vitronectin) receptor alpha subunit, CD51. Cytogenet Cell Genet. 2000;89(3-4):268-71.
+15489334	Gerhard DS, Wagner L, Feingold EA, Shenmen CM, Grouse LH, Schuler G, Klein SL, Old S, Rasooly R, Good P, Guyer M, Peck AM, Derge JG, Lipman D, Collins FS, Jang W, Sherry S, Feolo M, Misquitta L, Lee E, Rotmistrovsky K, Greenhut SF, Schaefer CF, Buetow K, Bonner TI, Haussler D, Kent J, Kiekhaus M, Furey T, Brent M, Prange C, Schreiber K, Shapiro N, Bhat NK, Hopkins RF, Hsie F, Driscoll T, Soares MB, Casavant TL, Scheetz TE, Brown-stein MJ, Usdin TB, Toshiyuki S, Carninci P, Piao Y, Dudekula DB, Ko MS, Kawakami K, Suzuki Y, Sugano S, Gruber CE, Smith MR, Simmons B, Moore T, Waterman R, Johnson SL, Ruan Y, Wei CL, Mathavan S, Gunaratne PH, Wu J, Garcia AM, Hulyk SW, Fuh E, Yuan Y, Sneed A, Kowis C, Hodgson A, Muzny DM, McPherson J, Gibbs RA, Fahey J, Helton E, Ketteman M, Madan A, Rodrigues S, Sanchez A, Whiting M, Madari A, Young AC, Wetherby KD, Granite SJ, Kwong PN, Brinkley CP, Pearson RL, Bouffard GG, Blakesly RW, Green ED, Dickson MC, Rodriguez AC, Grimwood J, Schmutz J, Myers RM, Butterfield YS, Griffith M, Griffith OL, Krzywinski MI, Liao N, Morin R, Palmquist D, Petrescu AS, Skalska U, Smailus DE, Stott JM, Schnerch A, Schein JE, Jones SJ, Holt RA, Baross A, Marra MA, Clifton S, Makowski KA, Bosak S, Malek J: The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC). Genome Res. 2004 Oct;14(10B):2121-7.
+15815621	Hillier LW, Graves TA, Fulton RS, Fulton LA, Pepin KH, Minx P, Wagner-McPherson C, Layman D, Wylie K, Sekhon M, Becker MC, Fewell GA, Delehaunty KD, Miner TL, Nash WE, Kremitzki C, Oddy L, Du H, Sun H, Bradshaw-Cordum H, Ali J, Carter J, Cordes M, Harris A, Isak A, van Brunt A, Nguyen C, Du F, Courtney L, Kalicki J, Ozersky P, Abbott S, Armstrong J, Belter EA, Caruso L, Cedroni M, Cotton M, Davidson T, Desai A, Elliott G, Erb T, Fronick C, Gaige T, Haakenson W, Haglund K, Holmes A, Harkins R, Kim K, Kruchowski SS, Strong CM, Grewal N, Goyea E, Hou S, Levy A, Martinka S, Mead K, McLellan MD, Meyer R, Randall-Maher J, Tomlinson C, Dauphin-Kohlberg S, Kozlowicz-Reilly A, Shah N, Swearengen-Shahid S, Snider J, Strong JT, Thompson J, Yoakum M, Leonard S, Pearman C, Trani L, Radionenko M, Waligorski JE, Wang C, Rock SM, Tin-Wollam AM, Maupin R, Latreille P, Wendl MC, Yang SP, Pohl C, Wallis JW, Spieth J, Bieri TA, Berkowicz N, Nelson JO, Osborne J, Ding L, Meyer R, Sabo A, Shotland Y, Sinha P, Wohldmann PE, Cook LL, Hickenbotham MT, Eldred J, Williams D, Jones TA, She X, Ciccarelli FD, Izaurralde E, Taylor J, Schmutz J, Myers RM, Cox DR, Huang X, McPherson JD, Mardis ER, Clifton SW, Warren WC, Chinwalla AT, Eddy SR, Marra MA, Ovcharenko I, Furey TS, Miller W, Eichler EE, Bork P, Suyama M, Torrents D, Waterston RH, Wilson RK: Generation and annotation of the DNA sequences of human chromosomes 2 and 4. Nature. 2005 Apr 7;434(7034):724-31.
+2430295	Suzuki S, Argraves WS, Pytela R, Arai H, Krusius T, Pierschbacher MD, Ruoslahti E: cDNA and amino acid sequences of the cell adhesion protein receptor recognizing vitronectin reveal a transmembrane domain and homologies with other adhesion protein receptors. Proc Natl Acad Sci U S A. 1986 Nov;83(22):8614-8.
+2443500	Suzuki S, Argraves WS, Arai H, Languino LR, Pierschbacher MD, Ruoslahti E: Amino acid sequence of the vitronectin receptor alpha subunit and comparative expression of adhesion receptor mRNAs. J Biol Chem. 1987 Oct 15;262(29):14080-5.
+2467745	Cheresh DA, Smith JW, Cooper HM, Quaranta V: A novel vitronectin receptor integrin (alpha v beta x) is responsible for distinct adhesive properties of carcinoma cells. Cell. 1989 Apr 7;57(1):59-69.
+7522056	Donahue JP, Sugg N, Hawiger J: The integrin alpha v gene: identification and characterization of the promoter region. Biochim Biophys Acta. 1994 Sep 13;1219(1):228-32.
+9426447	Agrez MV, Shafren DR, Gu X, Cox K, Sheppard D, Barry RD: Integrin alpha v beta 6 enhances coxsackievirus B1 lytic infection of human colon cancer cells. Virology. 1997 Dec 8;239(1):71-7.
+
+# Drug_Target_8_HGNC_ID:
+GNC:6150
+
+# Drug_Target_8_HPRD_ID:
+Not Available
+
+# Drug_Target_8_ID:
+6066
+
+# Drug_Target_8_Locus:
+2q31-q32
+
+# Drug_Target_8_Molecular_Weight:
+116036.9
+
+# Drug_Target_8_Name:
+Integrin alpha-V
+
+# Drug_Target_8_Number_of_Residues:
+1048
+
+# Drug_Target_8_PDB_ID:
+1M1X
+
+# Drug_Target_8_Pathway:
+Not Available
+
+# Drug_Target_8_Pfam_Domain_Function:
+PF00357	Integrin_alpha
+PF01839	FG-GAP
+PF08441	Integrin_alpha2
+
+# Drug_Target_8_Protein_Sequence:
+>Integrin alpha-V
+MAFPPRRRLRLGPRGLPLLLSGLLLPLCRAFNLDVDSPAEYSGPEGSYFGFAVDFFVPSA
+SSRMFLLVGAPKANTTQPGIVEGGQVLKCDWSSTRRCQPIEFDATGNRDYAKDDPLEFKS
+HQWFGASVRSKQDKILACAPLYHWRTEMKQEREPVGTCFLQDGTKTVEYAPCRSQDIDAD
+GQGFCQGGFSIDFTKADRVLLGGPGSFYWQGQLISDQVAEIVSKYDPNVYSIKYNNQLAT
+RTAQAIFDDSYLGYSVAVGDFNGDGIDDFVSGVPRAARTLGMVYIYDGKNMSSLYNFTGE
+QMAAYFGFSVAATDINGDDYADVFIGAPLFMDRGSDGKLQEVGQVSVSLQRASGDFQTTK
+LNGFEVFARFGSAIAPLGDLDQDGFNDIAIAAPYGGEDKKGIVYIFNGRSTGLNAVPSQI
+LEGQWAARSMPPSFGYSMKGATDIDKNGYPDLIVGAFGVDRAILYRARPVITVNAGLEVY
+PSILNQDNKTCSLPGTALKVSCFNVRFCLKADGKGVLPRKLNFQVELLLDKLKQKGAIRR
+ALFLYSRSPSHSKNMTISRGGLMQCEELIAYLRDESEFRDKLTPITIFMEYRLDYRTAAD
+TTGLQPILNQFTPANISRQAHILLDCGEDNVCKPKLEVSVDSDQKKIYIGDDNPLTLIVK
+AQNQGEGAYEAELIVSIPLQADFIGVVRNNEALARLSCAFKTENQTRQVVCDLGNPMKAG
+TQLLAGLRFSVHQQSEMDTSVKFDLQIQSSNLFDKVSPVVSHKVDLAVLAAVEIRGVSSP
+DHVFLPIPNWEHKENPETEEDVGPVVQHIYELRNNGPSSFSKAMLHLQWPYKYNNNTLLY
+ILHYDIDGPMNCTSDMEINPLRIKISSLQTTEKNDTVAGQGERDHLITKRDLALSEGDIH
+TLGCGVAQCLKIVCQVGRLDRGKSAILYVKSLLWTETFMNKENQNHSYSLKSSASFNVIE
+FPYKNLPIEDITNSTLVTTNVTWGIQPAPMPVPVWVIILAVLAGLLLLAVLVFVMYRMGF
+FKRVRPPQEEQEREQLQPHENGEGNSET
+
+# Drug_Target_8_Reaction:
+Not Available
+
+# Drug_Target_8_Signals:
+1-30
+
+# Drug_Target_8_Specific_Function:
+The alpha-V integrins are receptors for vitronectin, cytotactin, fibronectin, fibrinogen, laminin, matrix metalloproteinase-2, osteopontin, osteomodulin, prothrombin, thrombospondin and vWF. They recognize the sequence R-G-D in a wide array of ligands. In case of HIV-1 infection, the interaction with extracellular viral Tat protein seems to enhance angiogenesis in Kaposi's sarcoma lesions
+
+# Drug_Target_8_SwissProt_ID:
+P06756
+
+# Drug_Target_8_SwissProt_Name:
+ITAV_HUMAN
+
+# Drug_Target_8_Synonyms:
+CD51 antigen
+Integrin alpha-V heavy chain
+Integrin alpha-V light chain
+Vitronectin receptor subunit alpha
+
+# Drug_Target_8_Theoretical_pI:
+5.36
+
+# Drug_Target_8_Transmembrane_Regions:
+993-1016
+
+# Drug_Target_9_Cellular_Location:
+Membrane
+single-pass type I membrane protein
+
+# Drug_Target_9_Chromosome_Location:
+Not Available
+
+# Drug_Target_9_Drug_References:
+12586600	Monti P, Allavena P, Di Carlo V, Piemonti L: Effects of anti-lymphocytes and anti-thymocytes globulin on human dendritic cells. Int Immunopharmacol. 2003 Feb;3(2):189-96.
+
+# Drug_Target_9_Essentiality:
+Non-Essential
+
+# Drug_Target_9_GenAtlas_ID:
+ITGB3
+
+# Drug_Target_9_GenBank_ID_Gene:
+J02703
+
+# Drug_Target_9_GenBank_ID_Protein:
+306786
+
+# Drug_Target_9_GeneCard_ID:
+ITGB3
+
+# Drug_Target_9_Gene_Name:
+ITGB3
+
+# Drug_Target_9_Gene_Sequence:
+>2367 bp
+ATGCGAGCGCGGCCGCGGCCCCGGCCGCTCTGGGTGACTGTGCTGGCGCTGGGGGCGCTG
+GCGGGCGTTGGCGTAGGAGGGCCCAACATCTGTACCACGCGAGGTGTGAGCTCCTGCCAG
+CAGTGCCTGGCTGTGAGCCCCATGTGTGCCTGGTGCTCTGATGAGGCCCTGCCTCTGGGC
+TCACCTCGCTGTGACCTGAAGGAGAATCTGCTGAAGGATAACTGTGCCCCAGAATCCATC
+GAGTTCCCAGTGAGTGAGGCCCGAGTACTAGAGGACAGGCCCCTCAGCGACAAGGGCTCT
+GGAGACAGCTCCCAGGTCACTCAAGTCAGTCCCCAGAGGATTGCACTCCGGCTCCGGCCA
+GATGATTCGAAGAATTTCTCCATCCAAGTGCGGCAGGTGGAGGATTACCCTGTGGACATC
+TACTACTTGATGGACCTGTCTTACTCCATGAAGGATGATCTGTGGAGCATCCAGAACCTG
+GGTACCAAGCTGGCCACCCAGATGCGAAAGCTCACCAGTAACCTGCGGATTGGCTTCGGG
+GCATTTGTGGACAAGCCTGTGTCACCATACATGTATATCTCCCCACCAGAGGCCCTCGAA
+AACCCCTGCTATGATATGAAGACCACCTGCTTGCCCATGTTTGGCTACAAACACGTGCTG
+ACGCTAACTGACCAGGTGACCCGCTTCAATGAGGAAGTGAAGAAGCAGAGTGTGTCACGG
+AACCGAGATGCCCCAGAGGGTGGCTTTGATGCCATCATGCAGGCTACAGTCTGTGATGAA
+AAGATTGGCTGGAGGAATGATGCATCCCACTTGCTGGTGTTTACCACTGATGCCAAGACT
+CATATAGCATTGGACGGAAGGCTGGCAGGCATTGTCCAGCCTAATGACGGGCAGTGTCAT
+GTTGGTAGTGACAATCATTACTCTGCCTCCACTACCATGGATTATCCCTCTTTGGGGCTG
+ATGACTGAGAAGCTATCCCAGAAAAACATCAATTTGATCTTTGCAGTGACTGAAAATGTA
+GTCAATCTCTATCAGAACTATAGTGAGCTCATCCCAGGGACCACAGTTGGGGTTCTGTCC
+ATGGATTCCAGCAATGTCCTCCAGCTCATTGTTGATGCTTATGGGAAAATCCGTTCTAAA
+GTCGAGCTGGAAGTGCGTGACCTCCCTGAAGAGTTGTCTCTATCCTTCAATGCCACCTGC
+CTCAACAATGAGGTCATCCCTGGCCTCAAGTCTTGTATGGGACTCAAGATTGGAGACACG
+GTGAGCTTCAGCATTGAGGCCAAGGTGCGAGGCTGTCCCCAGGAGAAGGAGAAGTCCTTT
+ACCATAAAGCCCGTGGGCTTCAAGGACAGCCTGATCGTCCAGGTCACCTTTGATTGTGAC
+TGTGCCTGCCAGGCCCAAGCTGAACCTAATAGCCATCGCTGCAACAATGGCAATGGGACC
+TTTGAGTGTGGGGTATGCCGTTGTGGGCCTGGCTGGCTGGGATCCCAGTGTGAGTGCTCA
+GAGGAGGACTATCGCCCTTCCCAGCAGGACGAGTGCAGCCCCCGAGAGGGTCAGCCCGTC
+TGCAGCCAGCGGGGCGAGTGCCTCTGTGGTCAATGTGTCTGCCACAGCAGTGACTTTGGC
+AAGATCACGGGCAAGTACTGCGAGTGTGACGACTTCTCCTGTGTCCGCTACAAGGGGGAG
+ATGTGCTCAGGCCATGGCCAGTGCAGCTGTGGGGACTGCCTGTGTGACTCCGACTGGACC
+GGCTACTACTGCAACTGTACCACGCGTACTGACACCTGCATGTCCAGCAATGGGCTGCTG
+TGCAGCGGCCGCGGCAAGTGTGAATGTGGCAGCTGTGTCTGTATCCAGCCGGGCTCCTAT
+GGGGACACCTGTGAGAAGTGCCCCACCTGCCCAGATGCCTGCACCTTTAAGAAAGAATGT
+GTGGAGTGTAAGAAGTTTGACCGGGAGCCCTACATGACCGAAAATACCTGCAACCGTTAC
+TGCCGTGACGAGATTGAGTCAGTGAAAGAGCTTAAGGACACTGGCAAGGATGCAGTGAAT
+TGTACCTATAAGAATGAGGATGACTGTGTCGTCAGATTCCAGTACTATGAAGATTCTAGT
+GGAAAGTCCATCCTGTATGTGGTAGAAGAGCCAGAGTGTCCCAAGGGCCCTGACATCCTG
+GTGGTCCTGCTCTCAGTGATGGGGGCCATTCTGCTCATTGGCCTTGCCGCCCTGCTCATC
+TGGAAACTCCTCATCACCATCCACGACCGAAAAGAATTCGCTAAATTTGAGGAAGAACGC
+GCCAGAGCAAAATGGGACACAGCCAACAACCCACTGTATAAAGAGGCCACGTCTACCTTC
+ACCAATATCACGTACCGGGGCACTTAA
+
+# Drug_Target_9_General_Function:
+Involved in cell adhesion and blood clotting
+
+# Drug_Target_9_General_References:
+10233432	Ruan J, Schmugge M, Clemetson KJ, Cazes E, Combrie R, Bourre F, Nurden AT: Homozygous Cys542-->Arg substitution in GPIIIa in a Swiss patient with type I Glanzmann's thrombasthenia. Br J Haematol. 1999 May;105(2):523-31.
+10391209	Cargill M, Altshuler D, Ireland J, Sklar P, Ardlie K, Patil N, Shaw N, Lane CR, Lim EP, Kalyanaraman N, Nemesh J, Ziaugra L, Friedland L, Rolfe A, Warrington J, Lipshutz R, Daley GQ, Lander ES: Characterization of single-nucleotide polymorphisms in coding regions of human genes. Nat Genet. 1999 Jul;22(3):231-8.
+10896934	Kirk RI, Sanderson MR, Lerea KM: Threonine phosphorylation of the beta 3 integrin cytoplasmic tail, at a site recognized by PDK1 and Akt/PKB in vitro, regulates Shc binding. J Biol Chem. 2000 Oct 6;275(40):30901-6.
+11546839	Xiong JP, Stehle T, Diefenbach B, Zhang R, Dunker R, Scott DL, Joachimiak A, Goodman SL, Arnaout MA: Crystal structure of the extracellular segment of integrin alpha Vbeta3. Science. 2001 Oct 12;294(5541):339-45. Epub 2001 Sep 6.
+11807098	van der Flier A, Kuikman I, Kramer D, Geerts D, Kreft M, Takafuta T, Shapiro SS, Sonnenberg A: Different splice variants of filamin-B affect myogenesis, subcellular distribution, and determine binding to integrin [beta] subunits. J Cell Biol. 2002 Jan 21;156(2):361-76. Epub 2002 Jan 21.
+12665801	Gevaert K, Goethals M, Martens L, Van Damme J, Staes A, Thomas GR, Vandekerckhove J: Exploring proteomes and analyzing protein processing by mass spectrometric identification of sorted N-terminal peptides. Nat Biotechnol. 2003 May;21(5):566-9. Epub 2003 Mar 31.
+1371279	Bajt ML, Ginsberg MH, Frelinger AL 3rd, Berndt MC, Loftus JC: A spontaneous mutation of integrin alpha IIb beta 3 (platelet glycoprotein IIb-IIIa) helps define a ligand binding site. J Biol Chem. 1992 Feb 25;267(6):3789-94.
+1382574	Jiang WM, Jenkins D, Yuan Q, Leung E, Choo KH, Watson JD, Krissansen GW: The gene organization of the human beta 7 subunit, the common beta subunit of the leukocyte integrins HML-1 and LPAM-1. Int Immunol. 1992 Sep;4(9):1031-40.
+1430225	Wang R, Furihata K, McFarland JG, Friedman K, Aster RH, Newman PJ: An amino acid polymorphism within the RGD binding domain of platelet membrane glycoprotein IIIa is responsible for the formation of the Pena/Penb alloantigen system. J Clin Invest. 1992 Nov;90(5):2038-43.
+1438206	Chen YP, Djaffar I, Pidard D, Steiner B, Cieutat AM, Caen JP, Rosa JP: Ser-752-->Pro mutation in the cytoplasmic domain of integrin beta 3 subunit and defective activation of platelet integrin alpha IIb beta 3 (glycoprotein IIb-IIIa) in a variant of Glanzmann thrombasthenia. Proc Natl Acad Sci U S A. 1992 Nov 1;89(21):10169-73.
+1602006	Lanza F, Stierle A, Fournier D, Morales M, Andre G, Nurden AT, Cazenave JP: A new variant of Glanzmann's thrombasthenia (Strasbourg I). Platelets with functionally defective glycoprotein IIb-IIIa complexes and a glycoprotein IIIa 214Arg----214Trp mutation. J Clin Invest. 1992 Jun;89(6):1995-2004.
+1953640	Catimel B, Parmentier S, Leung LL, McGregor JL: Separation of important new platelet glycoproteins (GPIa, GPIc, GPIc*, GPIIa and GMP-140) by f.p.l.c. Characterization by monoclonal antibodies and gas-phase sequencing. Biochem J. 1991 Oct 15;279 ( Pt 2):419-25.
+2001252	Calvete JJ, Henschen A, Gonzalez-Rodriguez J: Assignment of disulphide bonds in human platelet GPIIIa. A disulphide pattern for the beta-subunits of the integrin family. Biochem J. 1991 Feb 15;274 ( Pt 1):63-71.
+2145280	Lanza F, Kieffer N, Phillips DR, Fitzgerald LA: Characterization of the human platelet glycoprotein IIIa gene. Comparison with the fibronectin receptor beta-subunit gene. J Biol Chem. 1990 Oct 25;265(30):18098-103.
+2341395	Zimrin AB, Gidwitz S, Lord S, Schwartz E, Bennett JS, White GC 2nd, Poncz M: The genomic organization of platelet glycoprotein IIIa. J Biol Chem. 1990 May 25;265(15):8590-5.
+2345548	Frachet P, Uzan G, Thevenon D, Denarier E, Prandini MH, Marguerie G: GPIIb and GPIIIa amino acid sequences deduced from human megakaryocyte cDNAs. Mol Biol Rep. 1990 Feb;14(1):27-33.
+2392682	Loftus JC, O'Toole TE, Plow EF, Glass A, Frelinger AL 3rd, Ginsberg MH: A beta 3 integrin mutation abolishes ligand binding and alters divalent cation-dependent conformation. Science. 1990 Aug 24;249(4971):915-8.
+2452834	Zimrin AB, Eisman R, Vilaire G, Schwartz E, Bennett JS, Poncz M: Structure of platelet glycoprotein IIIa. A common subunit for two different membrane receptors. J Clin Invest. 1988 May;81(5):1470-5.
+2565345	Newman PJ, Derbes RS, Aster RH: The human platelet alloantigens, PlA1 and PlA2, are associated with a leucine33/proline33 amino acid polymorphism in membrane glycoprotein IIIa, and are distinguishable by DNA typing. J Clin Invest. 1989 May;83(5):1778-81.
+2787511	van Kuppevelt TH, Languino LR, Gailit JO, Suzuki S, Ruoslahti E: An alternative cytoplasmic domain of the integrin beta 3 subunit. Proc Natl Acad Sci U S A. 1989 Jul;86(14):5415-8.
+3165296	Rosa JP, Bray PF, Gayet O, Johnston GI, Cook RG, Jackson KW, Shuman MA, McEver RP: Cloning of glycoprotein IIIa cDNA from human erythroleukemia cells and localization of the gene to chromosome 17. Blood. 1988 Aug;72(2):593-600.
+3494014	Fitzgerald LA, Steiner B, Rall SC Jr, Lo SS, Phillips DR: Protein sequence of endothelial glycoprotein IIIa derived from a cDNA clone. Identity with platelet glycoprotein IIIa and similarity to "integrin". J Biol Chem. 1987 Mar 25;262(9):3936-9.
+3801670	Hiraiwa A, Matsukage A, Shiku H, Takahashi T, Naito K, Yamada K: Purification and partial amino acid sequence of human platelet membrane glycoproteins IIb and IIIa. Blood. 1987 Feb;69(2):560-4.
+7694683	Wang R, McFarland JG, Kekomaki R, Newman PJ: Amino acid 489 is encoded by a mutational "hot spot" on the beta 3 integrin chain: the CA/TU human platelet alloantigen system. Blood. 1993 Dec 1;82(11):3386-91.
+7878622	Bray PF: Inherited diseases of platelet glycoproteins: considerations for rapid molecular characterization. Thromb Haemost. 1994 Oct;72(4):492-502.
+8093349	Kuijpers RW, Simsek S, Faber NM, Goldschmeding R, van Wermerkerken RK, von dem Borne AE: Single point mutation in human glycoprotein IIIa is associated with a new platelet-specific alloantigen (Mo) involved in neonatal alloimmune thrombocytopenia. Blood. 1993 Jan 1;81(1):70-6.
+8132570	Santoso S, Kalb R, Kroll H, Walka M, Kiefel V, Mueller-Eckhardt C, Newman PJ: A point mutation leads to an unpaired cysteine residue and a molecular weight polymorphism of a functional platelet beta 3 integrin subunit. The Sra alloantigen system of GPIIIa. J Biol Chem. 1994 Mar 18;269(11):8439-44.
+8298129	Villa-Garcia M, Li L, Riely G, Bray PF: Isolation and characterization of a TATA-less promoter for the human beta 3 integrin gene. Blood. 1994 Feb 1;83(3):668-76.
+8631894	Law DA, Nannizzi-Alaimo L, Phillips DR: Outside-in integrin signal transduction. Alpha IIb beta 3-(GP IIb IIIa) tyrosine phosphorylation induced by platelet aggregation. J Biol Chem. 1996 May 3;271(18):10811-5.
+8781422	Grimaldi CM, Chen F, Scudder LE, Coller BS, French DL: A Cys374Tyr homozygous mutation of platelet glycoprotein IIIa (beta 3) in a Chinese patient with Glanzmann's thrombasthenia. Blood. 1996 Sep 1;88(5):1666-75.
+9195946	Kumar CS, James IE, Wong A, Mwangi V, Feild JA, Nuthulaganti P, Connor JR, Eichman C, Ali F, Hwang SM, Rieman DJ, Drake FH, Gowen M: Cloning and characterization of a novel integrin beta3 subunit. J Biol Chem. 1997 Jun 27;272(26):16390-7.
+9376589	Basani RB, Brown DL, Vilaire G, Bennett JS, Poncz M: A Leu117-->Trp mutation within the RGD-peptide cross-linking region of beta3 results in Glanzmann thrombasthenia by preventing alphaIIb beta3 export to the platelet surface. Blood. 1997 Oct 15;90(8):3082-8.
+9684783	Jackson DE, White MM, Jennings LK, Newman PJ: A Ser162-->Leu mutation within glycoprotein (GP) IIIa (integrin beta3) results in an unstable alphaIIbbeta3 complex that retains partial function in a novel form of type II Glanzmann thrombasthenia. Thromb Haemost. 1998 Jul;80(1):42-8.
+9790984	Ambo H, Kamata T, Handa M, Taki M, Kuwajima M, Kawai Y, Oda A, Murata M, Takada Y, Watanabe K, Ikeda Y: Three novel integrin beta3 subunit missense mutations (H280P, C560F, and G579S) in thrombasthenia, including one (H280P) prevalent in Japanese patients. Biochem Biophys Res Commun. 1998 Oct 29;251(3):763-8.
+
+# Drug_Target_9_HGNC_ID:
+HGNC:6156
+
+# Drug_Target_9_HPRD_ID:
+01428
+
+# Drug_Target_9_ID:
+2039
+
+# Drug_Target_9_Locus:
+17q21.32
+
+# Drug_Target_9_Molecular_Weight:
+87058
+
+# Drug_Target_9_Name:
+Integrin beta-3
+
+# Drug_Target_9_Number_of_Residues:
+788
+
+# Drug_Target_9_PDB_ID:
+1M1X
+
+# Drug_Target_9_Pathway:
+Abciximab Pathway	SMP00265
+Acetylsalicylic Acid Pathway	SMP00083
+Celecoxib Pathway	SMP00096
+Cilostazol Pathway	SMP00263
+Clopidogrel Pathway	SMP00260
+Dipyridamole (Antiplatelet) Pathway	SMP00264
+Eptifibatide Pathway	SMP00266
+Etodolac Pathway	SMP00084
+Meloxicam Pathway	SMP00106
+Rofecoxib Pathway	SMP00087
+Ticlopidine Pathway	SMP00261
+Tirofiban Pathway	SMP00267
+Valdecoxib Pathway	SMP00116
+
+# Drug_Target_9_Pfam_Domain_Function:
+PF00362	Integrin_beta
+PF07965	Integrin_B_tail
+PF07974	EGF_2
+PF08725	Integrin_b_cyt
+
+# Drug_Target_9_Protein_Sequence:
+>Integrin beta-3 precursor
+MRARPRPRPLWATVLALGALAGVGVGGPNICTTRGVSSCQQCLAVSPMCAWCSDEALPLG
+SPRCDLKENLLKDNCAPESIEFPVSEARVLEDRPLSDKGSGDSSQVTQVSPQRIALRLRP
+DDSKNFSIQVRQVEDYPVDIYYLMDLSYSMKDDLWSIQNLGTKLATQMRKLTSNLRIGFG
+AFVDKPVSPYMYISPPEALENPCYDMKTTCLPMFGYKHVLTLTDQVTRFNEEVKKQSVSR
+NRDAPEGGFDAIMQATVCDEKIGWRNDASHLLVFTTDAKTHIALDGRLAGIVQPNDGQCH
+VGSDNHYSASTTMDYPSLGLMTEKLSQKNINLIFAVTENVVNLYQNYSELIPGTTVGVLS
+MDSSNVLQLIVDAYGKIRSKVELEVRDLPEELSLSFNATCLNNEVIPGLKSCMGLKIGDT
+VSFSIEAKVRGCPQEKEKSFTIKPVGFKDSLIVQVTFDCDCACQAQAEPNSHRCNNGNGT
+FECGVCRCGPGWLGSQCECSEEDYRPSQQDECSPREGQPVCSQRGECLCGQCVCHSSDFG
+KITGKYCECDDFSCVRYKGEMCSGHGQCSCGDCLCDSDWTGYYCNCTTRTDTCMSSNGLL
+CSGRGKCECGSCVCIQPGSYGDTCEKCPTCPDACTFKKECVECKKFDRGALHDENTCNRY
+CRDEIESVKELKDTGKDAVNCTYKNEDDCVVRFQYYEDSSGKSILYVVEEPECPKGPDIL
+VVLLSVMGAILLIGLAALLIWKLLITIHDRKEFAKFEEERARAKWDTANNPLYKEATSTF
+TNITYRGT
+
+# Drug_Target_9_Reaction:
+Not Available
+
+# Drug_Target_9_Signals:
+1-26
+
+# Drug_Target_9_Specific_Function:
+Integrin alpha-V/beta-3 is a receptor for cytotactin, fibronectin, laminin, matrix metalloproteinase-2, osteopontin, osteomodulin, prothrombin, thrombospondin, vitronectin and von Willebrand factor. Integrin alpha-IIb/beta-3 is a receptor for fibronectin, fibrinogen, plasminogen, prothrombin, thrombospondin and vitronectin. Integrins alpha-IIb/beta-3 and alpha-V/beta-3 recognize the sequence R-G-D in a wide array of ligands. Integrin alpha-IIb/beta-3 recognizes the sequence H-H-L-G-G-G-A-K-Q-A-G-D-V in fibrinogen gamma chain. Following activation integrin alpha- IIb/beta-3 brings about platelet/platelet interaction through binding of soluble fibrinogen. This step leads to rapid platelet aggregation which physically plugs ruptured endothelial surface. In case of HIV-1 infection, the interaction with extracellular viral Tat protein seems to enhance angiogenesis in Kaposi's sarcoma lesions
+
+# Drug_Target_9_SwissProt_ID:
+P05106
+
+# Drug_Target_9_SwissProt_Name:
+ITB3_HUMAN
+
+# Drug_Target_9_Synonyms:
+CD61 antigen
+GPIIIa
+Integrin beta-3 precursor
+Platelet membrane glycoprotein IIIa
+
+# Drug_Target_9_Theoretical_pI:
+4.85
+
+# Drug_Target_9_Transmembrane_Regions:
+719-741
+
+#END_DRUGCARD DB00098
