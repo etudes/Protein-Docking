@@ -12,6 +12,7 @@ import java.lang.reflect.*;
 
 interface Constants {
 	public static final int NUMCASES = 20;
+	public static final int DRUGNUMCASES = 2000;
 	public static final double FPPRECISION = Math.pow(10,-9);
 	public static final double ALPHAINC = Math.PI/180*15;
 	public static final double BETAINC = Math.PI/180*15;
@@ -34,7 +35,7 @@ interface Constants {
 	public static final double BSTRETCHSCALE = 1;
 	public static final double ABENDSCALE = 1;
 	public static final double TORSSCALE = 1;
-	public static final double INTERFACE = 2;
+	public static final double INTERFACE = 10;
 	public static final double C12_C_C = 17496035.82;
 	public static final double C12_C_N = 8329315.983;
 	public static final double C12_C_O = 5705834.105;

@@ -273,7 +273,7 @@ public class PsuedoProteinStruct {
 		translator2 = new HashMap<String,String>();
 		translator3 = new HashMap<String,Integer>();
 		translator4 = new HashMap<String,String>();
-		reversechaintrans = new HashMap();
+		reversechaintrans = new HashMap<Integer,Character>();
 		structure = new ImmutableArrayList<Atom>(clone.getStructure());
 		ArrayList<Atom> clonestructa = clone.getSurface();
 		for (int i = 0; i < clonestructa.size(); i++) {

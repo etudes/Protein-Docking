@@ -158,7 +158,7 @@ public class ProteinStruct {
 	}
 	public ProteinStruct(ArrayList<Atom> surface, ArrayList<Bond> bonds, ArrayList<Atom> backbone, ArrayList<Bond> backbonebonds, double size, double[][][] newsizes, double[][][][] potentials, double[][][][] solvpotentials, double solvEModel, int chaincount, double xcoordcent, double ycoordcent, double zcoordcent) throws Exception  {
 		this.structurea = surface;
-		this.structure = new ImmutableArrayList(this.structurea);
+		this.structure = new ImmutableArrayList<Atom>(this.structurea);
 		this.surface = surface;
 		this.bonds = bonds;
 		this.surfacebonds = bonds;

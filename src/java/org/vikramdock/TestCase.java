@@ -55,11 +55,11 @@ public class TestCase implements Comparable {
 		surfacebya.addAll(newps2.getSurface());
 		score = -1;
 		probability = -1;
+		score();
 	}
-	public double score() {
+	public void score() {
 		score = energyScore();
 		if (score == 0) score = Double.POSITIVE_INFINITY;
-		return score;
 	}
 	public double energyScore() {
 		double Etot = 0;
@@ -310,16 +310,18 @@ public class TestCase implements Comparable {
 		Etot = Constants.VDWSCALE * vanDerWaalsEtot + Constants.SOLVSCALE * (ps1.getSolvEModel() + ps2.getSolvEModel() - solvEtot) + Constants.BSTRETCHSCALE * bStretchEtot + Constants.ABENDSCALE * aBendEtot + Constants.TORSSCALE * torsEtot;
 		return Etot;
 	}
-	public ArrayList<Atom> detInterface() {
+	public void detInterface() {
 		interfacea = new ArrayList<Atom>();
 		for (int i = 0; i < ps1struct.size(); i++) {
 			Atom cur1 = (Atom)ps1struct.get(i);
 			for (int j = 0; j < ps2struct.size(); j++) {
 				Atom cur2 = (Atom)ps2struct.get(j);
-				if (cur1.distance(cur2) < Constants.INTERFACE) interfacea.add(cur1);
+				if (cur1.distance(cur2) < Constants.INTERFACE) {
+					interfacea.add(cur1);
+					break;
+				}
 			}
 		}
-		return interfacea;
 	}
 	public double getRmov() {
 		return rmov;
@@ -361,7 +363,7 @@ public class TestCase implements Comparable {
 		return surfacebyps;
 	}
 	public ArrayList<Atom> getInterfacea() {
-		if (interfacea == null) return detInterface();
+		if (interfacea == null) detInterface();
 		return interfacea;
 	}
 	public double getScore() {
@@ -370,7 +372,9 @@ public class TestCase implements Comparable {
 	}
 	public int compareTo(Object other) {
 		TestCase tother = (TestCase)other;
-		return (int)(score - tother.getScore());
+		if (score > tother.getScore()) return 1;
+		else if (score == tother.getScore()) return 0;
+		else return -1;
 	}
 	public double distance(double[] first, double[] second) {
 		return Math.sqrt(Math.pow(first[0] - second[0], 2) + Math.pow(first[1] - second[1], 2) + Math.pow(first[2] - second[2], 2));
@@ -389,7 +393,7 @@ public class TestCase implements Comparable {
 	}
 	public void printInterface(PrintWriter out) {
 		out.println("INTERFACE");
-		ArrayList<Atom> interfacea = detInterface();
+		if (interfacea == null) detInterface();
 		for (int i = 0; i < interfacea.size(); i++) {
 			Atom current = interfacea.get(i);
 			current.printAtomPDB(out);

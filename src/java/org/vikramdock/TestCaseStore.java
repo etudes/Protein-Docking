@@ -29,12 +29,19 @@ public class TestCaseStore<T> extends PriorityQueue<T> {
 	public void reduceSize(int cap) {
 		if (super.size() > cap) {
 			Object[] array = super.toArray();
-			Arrays.sort(array);
 			int size = super.size(); 
 			for (int i = cap; i < size; i++) {
 				super.remove(array[i]);
 			}
 		}
+	}
+	public TestCase[] toTCArray() {
+		TestCase[] array = new TestCase[super.size()];
+		Object[] arrayO = super.toArray();
+		for (int i = 0; i < super.size(); i++) {
+			array[i] = (TestCase)(arrayO[i]);
+		}
+		return array;
 	}
 }
 	

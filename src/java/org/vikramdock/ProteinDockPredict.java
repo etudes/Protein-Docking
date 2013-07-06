@@ -21,8 +21,9 @@ public class ProteinDockPredict {
 	private Thread[] ths;
 	private int counter = 0;
 	private String id;
-	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2, PrintWriter out) throws Exception {
-		cases = new TestCaseStore<TestCase>(Constants.NUMCASES, Constants.NUMCASES);
+	private int numcases;
+	public ProteinDockPredict(ProteinStruct ps1, ProteinStruct ps2, PrintWriter out, int numcases) throws Exception {
+		cases = new TestCaseStore<TestCase>(numcases, numcases);
 		this.origps1 = ps1;
 		this.origps2 = ps2;
 		this.out = out;
@@ -32,7 +33,7 @@ public class ProteinDockPredict {
 		out.println("TRANSLATED AND ROTATED SECOND PROTEIN");
 		out.flush();
 	}
-	public ProteinDockPredict(String sourcepath, String pdbpath, String id, String chain, String id1, String chain1, String id2, String chain2, int numthread) throws Exception {
+	public ProteinDockPredict(String sourcepath, String pdbpath, String id, String chain, String id1, String chain1, String id2, String chain2, int numthread, int numcases) throws Exception {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(sourcepath.concat("result").concat(id.toLowerCase()).concat(".pdb"))));
 		String filesep = System.getProperty("file.separator");
 		boolean chainreq1 = true;
@@ -123,7 +124,8 @@ public class ProteinDockPredict {
 		ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out, chaintranslator2, reversechaintrans2);
 		out.println("DONE WITH SECOND PROTEIN");
 		out.flush();
-		cases = new TestCaseStore<TestCase>(Constants.NUMCASES, Constants.NUMCASES);
+		this.numcases = numcases;
+		cases = new TestCaseStore<TestCase>(numcases, numcases);
 		this.origps1 = ps1;
 		this.origps2 = ps2;
 		this.out = out;
@@ -248,7 +250,7 @@ public class ProteinDockPredict {
 		ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out, chaintranslator2, reversechaintrans2);
 		out.println("DONE WITH SECOND PROTEIN");
 		out.flush();
-		ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
+		ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out, Constants.NUMCASES);
 		pdp.numthread = numthread;
 		pdp.id = id;
 		pdp.genTestCases();
@@ -339,7 +341,7 @@ public class ProteinDockPredict {
 		System.out.println("DONE WITH FIRST PROTEIN");
 		ProteinStruct ps2 = new ProteinStruct(sourcepath.concat("secondprot.txt"), out, chaintranslator2, reversechaintrans2);
 		System.out.println("DONE WITH SECOND PROTEIN");
-		ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out);
+		ProteinDockPredict pdp = new ProteinDockPredict(ps1, ps2, out, Constants.NUMCASES);
 		pdp.id = filename;
 		pdp.numthread = numthread;
 		pdp.genTestCases();
@@ -351,7 +353,7 @@ public class ProteinDockPredict {
 		System.out.println(end - start);
 	}
 	public void printCases() throws Exception {
-		TestCase[] casesA = (TestCase[])cases.toArray();
+		TestCase[] casesA = cases.toTCArray();
 		Arrays.sort(casesA);
 		for (int i = 0; i < Math.min(cases.size(), Constants.NUMCASES); i++) {
 			TestCase current = casesA[i];

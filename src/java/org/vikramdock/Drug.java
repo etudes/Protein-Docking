@@ -32,13 +32,13 @@ public class Drug implements Comparable {
 		this.casesBase = casesBase;
 		this.baseSum = baseSum;
 		String filesep = System.getProperty("file.separator");
-		pdp = new ProteinDockPredict(sourcepath.concat(filesep + code + filesep), pdbpath, "prot" + target + "to" + code, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", target, targetChain, id, "ALL", 4);
+		pdp = new ProteinDockPredict(sourcepath, pdbpath, "prot" + target + "to" + code, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", target, targetChain, id, "ALL", 4, Constants.DRUGNUMCASES);
 		TestCaseStore<TestCase> cases = pdp.getCases();
-		casesA = (TestCase[])cases.toArray();
+		casesA = cases.toTCArray();
 		Arrays.sort(casesA);
 		interfacesTest = new ArrayList<ArrayList<Atom>>();
 		testSum = 0;
-		for (int i = 0; i < Math.min(casesA.length, Constants.NUMCASES); i++) {
+		for (int i = 0; i < casesA.length; i++) {
 			if (casesA[i].getProbability() > 1) {
 				interfacesTest.add(casesA[i].getInterfacea());
 				testSum += casesA[i].getProbability();
