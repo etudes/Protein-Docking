@@ -52,7 +52,7 @@ public class Drug implements Comparable {
 			for (int j = 0; j < interfacesTest.size(); j++) {
 				if (casesA[j].getProbability() < 1) continue;
 				if (casesBase[i].getProbability() < 1) continue;
-				similarity += casesBase[i].getProbability()/baseSum * casesA[j].getProbability()/testSum * similarityOne(interfacesTest.get(i), interfacesBase.get(j));
+				similarity += casesBase[i].getProbability()/baseSum * casesA[j].getProbability()/testSum * similarityOne(interfacesTest.get(j), interfacesBase.get(i));
 			}
 		}
 		return similarity;

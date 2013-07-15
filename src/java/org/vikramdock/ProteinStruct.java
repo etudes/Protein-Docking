@@ -40,7 +40,7 @@ public class ProteinStruct {
 	private double[][][][] potentials;
 	private double[][][][] solvpotentials;
 	private double solvEModel;
-	public ProteinStruct(String filepath, PrintWriter out, HashMap<Character,Character> chaintranslator2, HashMap<Character,Character>  reversechaintrans2) throws Exception {
+	public ProteinStruct(String filepath, PrintWriter out, HashMap<Character,Character> chaintranslator2, HashMap<Character,Character> reversechaintrans2) throws Exception {
 		chaintranslator = new HashMap<Character,Character>();
 		structurea = new ArrayList<Atom>();
 		surface = new ArrayList<Atom>();
@@ -443,7 +443,9 @@ public class ProteinStruct {
 				}
 				int resnum = Integer.parseInt(removeSpace(catom.substring(22,26)));
 				int atomnum = Integer.parseInt(removeSpace(catom.substring(6,11)));
-				char chainnum = chaintranslator2.get(catom.charAt(21)).toString().charAt(0);
+				char chainnum;
+				if (chaintranslator2.get(catom.charAt(21)) != null) chainnum = chaintranslator2.get(catom.charAt(21));
+				else chainnum = catom.charAt(21);
 				String eType = removeSpace(catom.substring(12,16));
 				String AA = removeSpace(catom.substring(17,20));
 				if (element == ' ') {
@@ -571,7 +573,7 @@ public class ProteinStruct {
 				backbonebonds.add(newb1);
 				backbonebonds.add(newb2);
 				CatomLast = Catom;
-				restype = translator2.get(Catom.getAA()).toString().charAt(0);
+				restype = translator2.get(Catom.getAA()).charAt(0);
 				AminoAcid.remove(Catom);
 				AminoAcid.remove(CAatom);
 				AminoAcid.remove(Natom);
@@ -1257,7 +1259,7 @@ public class ProteinStruct {
 					backbonebonds.add(newb1);
 					backbonebonds.add(newb2);
 					CatomLast = Catom;
-					restype = translator2.get(Catom.getAA()).toString().charAt(0);
+					restype = translator2.get(Catom.getAA()).charAt(0);
 					AminoAcid.remove(Catom);
 					AminoAcid.remove(CAatom);
 					AminoAcid.remove(Natom);
