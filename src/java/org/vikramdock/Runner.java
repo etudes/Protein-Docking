@@ -13,19 +13,43 @@ import java.lang.reflect.*;
 public class Runner {
 	public static void main(String[] args) throws Exception {
 		String filesep = System.getProperty("file.separator");
-		ProteinDockPredict pdp = new ProteinDockPredict(args[0], args[1], "base", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", args[2], args[3], args[4], args[5], 4, Constants.DRUGNUMCASES);
-		TestCaseStore<TestCase> cases = pdp.getCases();
-		TestCase[] casesA = cases.toTCArray();
-		Arrays.sort(casesA);
+		ProteinDockPredict pdp = new ProteinDockPredict(args[0], args[1], "base", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", args[2], args[3], args[4], args[5], 4, Constants.DRUGNUMCASES, new PrintWriter(new BufferedWriter(new FileWriter("basesummary.txt"))));
+		pdp = null;
 		ArrayList<ArrayList<Atom>> interfacesBase = new ArrayList<ArrayList<Atom>>();
+		ArrayList<Double> probability = new ArrayList<Double>();
+		ArrayList<Atom> curInt = new ArrayList<Atom>();
+		interfacesBase.add(curInt);
+		BufferedReader br = new BufferedReader(new FileReader("basesummary.txt"));
 		double sum = 0;
-		for (int i = 0; i < casesA.length; i++) {
-			if (casesA[i].getProbability() > 1) {
-				interfacesBase.add(casesA[i].getInterfacea());
-				sum += casesA[i].getProbability();
+		while (true) {
+			String s = br.readLine();
+			if (s == null) break;
+			StringTokenizer st = new StringTokenizer(s);
+			String first = st.nextToken();
+			if (first.equals("SUM")) sum = Double.parseDouble(st.nextToken());
+			else if (first.equals("PROBABILITY")) probability.add(Double.parseDouble(st.nextToken()));
+			else if (first.equals("MODEL")) {
+				curInt = new ArrayList<Atom>();
+				interfacesBase.add(curInt);
+			}
+			else if (first.equals("INTERFACE")) continue;
+			else {
+				double xcoord = Double.parseDouble(removeSpace(s.substring(30,38)));
+				double ycoord = Double.parseDouble(removeSpace(s.substring(38,46)));
+				double zcoord = Double.parseDouble(removeSpace(s.substring(46,54)));
+				char element = ' ';
+				if (s.length() > 77) element = s.charAt(77);
+				int resnum = Integer.parseInt(removeSpace(s.substring(22,26)));
+				int atomnum = Integer.parseInt(removeSpace(s.substring(6,11)));
+				char chainnum = s.charAt(21);
+				String eType = removeSpace(s.substring(12,16));
+				String AA = removeSpace(s.substring(17,20));
+				if (element == ' ') element = eType.charAt(0);
+				Atom next = new Atom(xcoord, ycoord, zcoord, element, resnum, atomnum, chainnum, eType, AA);
+				curInt.add(next);
 			}
 		}
-		BufferedReader br = new BufferedReader(new FileReader("SAMPdrugtest.txt"));
+		br = new BufferedReader(new FileReader("SAMPdrugtest.txt"));
 		PriorityQueue<Drug> drugqueue = new PriorityQueue<Drug>();
 		while (true) {
 			String code = br.readLine();
@@ -50,7 +74,7 @@ public class Runner {
 					break;
 				}
 			}
-			Drug drugtest = new Drug(code, id2, args[2], args[3], args[0], args[1], interfacesBase, casesA, sum);
+			Drug drugtest = new Drug(code, id2, args[2], args[3], args[0], args[1], interfacesBase, probability, sum);
 			/*if (drugtest.getSimilarity() > 0)*/ drugqueue.add(drugtest);
 		}
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("drugresults.txt")));
@@ -61,5 +85,14 @@ public class Runner {
 		out.flush();
 		out.close();
 		System.exit(0);
+	}
+	public static String removeSpace(String test) {
+		String answer = "";
+		for (int i = 0; i < test.length(); i++) {
+			if (test.charAt(i) != ' ') {
+				answer = answer + test.charAt(i);
+			}
+		}
+		return answer;
 	}
 }

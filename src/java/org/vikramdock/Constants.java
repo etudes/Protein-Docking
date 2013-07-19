@@ -129,6 +129,6 @@ interface Constants {
 	public static final double Vdw_Rad_S = 1.80;
 	public static final double Vdw_Rad_H = 1.09;
 	public static final double Solv_Corr = 3.5;
-	public static final double Boltzmann = 1.3806488e-23;
+	public static final double Boltzmann = 1.3806488e-2;
 	public static final double Temp = 310.;
 }

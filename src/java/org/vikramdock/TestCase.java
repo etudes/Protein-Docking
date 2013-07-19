@@ -10,7 +10,7 @@ import java.util.zip.*;
 import java.lang.*;
 import java.lang.reflect.*;
 
-public class TestCase implements Comparable {
+public class TestCase implements Comparable<TestCase> {
 	private ProteinStruct ps1;
 	private ProteinStruct ps2;
 	private ProteinStruct newps1;
@@ -56,6 +56,8 @@ public class TestCase implements Comparable {
 		score = -1;
 		probability = -1;
 		score();
+		probability();
+		detInterface();
 	}
 	public void score() {
 		score = energyScore();
@@ -323,6 +325,10 @@ public class TestCase implements Comparable {
 			}
 		}
 	}
+	public void probability() {
+		if (Double.isNaN(score)) probability = 0;
+		else probability = Math.pow(Math.E, -score/(Constants.Boltzmann*Constants.Temp));
+	}
 	public double getRmov() {
 		return rmov;
 	}
@@ -363,17 +369,17 @@ public class TestCase implements Comparable {
 		return surfacebyps;
 	}
 	public ArrayList<Atom> getInterfacea() {
-		if (interfacea == null) detInterface();
 		return interfacea;
 	}
 	public double getScore() {
-		if (score == -1) score();
 		return score;
 	}
-	public int compareTo(Object other) {
-		TestCase tother = (TestCase)other;
-		if (score > tother.getScore()) return 1;
-		else if (score == tother.getScore()) return 0;
+	public double getProbability() {
+		return probability;
+	}
+	public int compareTo(TestCase other) {
+		if (score > other.getScore()) return 1;
+		else if (score == other.getScore()) return 0;
 		else return -1;
 	}
 	public double distance(double[] first, double[] second) {
@@ -405,11 +411,5 @@ public class TestCase implements Comparable {
 		answer[1] = cx*Math.cos(b)*Math.sin(c) + cz*(Math.cos(a)*Math.sin(b)*Math.sin(c) - Math.cos(c)*Math.sin(a)) + cy*(Math.cos(a)*Math.cos(c) + Math.sin(a)*Math.sin(b)*Math.sin(c));
 		answer[2] = cz*Math.cos(a)*Math.cos(b) + cy*Math.sin(a)*Math.cos(b) - cx*Math.sin(b);
 		return answer;
-	}
-	public double getProbability() {
-		if (probability != -1) return probability;
-		if (score == -1) score();
-		probability = Math.pow(Math.E, -score/(Constants.Boltzmann*Constants.Temp));
-		return probability;
 	}
 }
