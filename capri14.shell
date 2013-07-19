@@ -1,0 +1,58 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2014 Vikram Sundar.
+# * All Rights Reserved.
+# */
+mkdir /home/vikram/Protein-Docking/result14/
+java CapriCleaner 14
+mv /home/vikram/Protein-Docking/capri_14.brkFIXED /home/vikram/Protein-Docking/capri_14.brk
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/ 14 4
+cd /home/vikram/Protein-Docking/bin32/lsqman
+for i in $(seq 10)
+do
+	echo -e "re m1 /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/s7/pdb1s70.ent \n re m2 /home/vikram/Protein-Docking/result14model$i.pdb \n ex m1 \"a1-330 b1-291\" m2 \"a1 b1\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2" >> /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+done
+echo -e "\n qu" >> /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+/home/vikram/Protein-Docking/bin32/lsqman < /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermstmp14.txt
+rm /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+cd /home/vikram/Protein-Docking
+java RMSEScoreGen /home/vikram/Protein-Docking/scorermstmp14.txt /home/vikram/Protein-Docking/result14 /home/vikram/Protein-Docking/scorerms14.txt
+java MinRMS /home/vikram/Protein-Docking/scorermstmp14.txt /home/vikram/Protein-Docking/minrms.txt
+for i in $(seq 10) 
+do
+	mv /home/vikram/Protein-Docking/result14model$i.pdb /home/vikram/Protein-Docking/result14/result14model$i.pdb
+done
+mv /home/vikram/Protein-Docking/scorermstmp14.txt /home/vikram/Protein-Docking/result14/scorermstmp14.txt
+mv /home/vikram/Protein-Docking/scorerms14.txt /home/vikram/Protein-Docking/result14/scorerms14.txt
+PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
+for i in $(seq 10) 
+do
+	mkdir /home/vikram/Protein-Docking/tmp
+	mkdir /home/vikram/Protein-Docking/tmp/1
+	cp /home/vikram/Protein-Docking/result14/result14model$i.pdb /home/vikram/Protein-Docking/tmp/1/result14model$i.pdb
+	for j in $(seq 10)
+	do
+		let "k=${j}+1"
+		/home/vikram/Protein-Docking/kobamin/kobamin.sh /home/vikram/Protein-Docking/tmp/$j/
+		mv /home/vikram/Protein-Docking/tmp/$j/result14model${i}.kb /home/vikram/Protein-Docking/tmp/$j/result14model${i}kb.pdb
+		mkdir /home/vikram/Protein-Docking/tmp/$k
+		Scwrl4 -i /home/vikram/Protein-Docking/tmp/$j/result14model${i}kb.pdb -o /home/vikram/Protein-Docking/tmp/$k/result14model${i}.pdb > /home/vikram/Protein-Docking/tmp/$j/result14model${i}scwrl.txt
+	done
+	mv /home/vikram/Protein-Docking/tmp/11/result14model$i.pdb /home/vikram/Protein-Docking/result14model${i}iter.pdb
+	mv home/vikram/Protein-Docking/tmp/ /home/vikram/Protein-Docking/result14
+done
+for i in $(seq 10)
+do
+	echo -e "re m1 /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/s7/pdb1s70.ent \n re m2 /home/vikram/Protein-Docking/result14model${i}iter.pdb \n ex m1 \"a1-330 b1-291\" m2 \"a1 b1\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2 \n" >> /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+done
+echo -e "\n qu" >> /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+/home/vikram/Protein-Docking/bin32/lsqman < /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermsitertmp14.txt
+rm /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+java RMSEScoreGenIter /home/vikram/Protein-Docking/scorermsitertmp14.txt /home/vikram/Protein-Docking/result14 /home/vikram/Protein-Docking/scorermsiter14.txt
+java MinRMS /home/vikram/Protein-Docking/scorermsitertmp14.txt /home/vikram/Protein-Docking/minrmsiter.txt
+for i in $(seq 10) 
+do
+	mv /home/vikram/Protein-Docking/result14model${i}iter.pdb /home/vikram/Protein-Docking/result14/result14model${i}iter.pdb
+done
+mv /home/vikram/Protein-Docking/scorermsitertmp14.txt /home/vikram/Protein-Docking/result14/scorermsitertmp14.txt
+mv /home/vikram/Protein-Docking/scorermsiter14.txt /home/vikram/Protein-Docking/result14/scorermsiter14.txt

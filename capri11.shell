@@ -4,6 +4,8 @@
 # * All Rights Reserved.
 # */
 mkdir /home/vikram/Protein-Docking/result11/
+java CapriCleaner 11
+mv /home/vikram/Protein-Docking/capri_11.brkFIXED /home/vikram/Protein-Docking/capri_11.brk
 time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/ 11 4
 cd /home/vikram/Protein-Docking/bin32/lsqman
 for i in $(seq 10)

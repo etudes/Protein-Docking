@@ -1,0 +1,58 @@
+#!/bin/bash
+# /*
+# * Copyright (c) 2011-2042 Vikram Sundar.
+# * All Rights Reserved.
+# */
+mkdir /home/vikram/Protein-Docking/result42/
+java CapriCleaner 42
+mv /home/vikram/Protein-Docking/capri_42.brkFIXED /home/vikram/Protein-Docking/capri_42.brk
+time java -cp ProteinDock.jar -Xmx7000m org.vikramdock.ProteinDockPredict /home/vikram/Protein-Docking/ /home/vikram/Protein-Docking/ 42 4
+cd /home/vikram/Protein-Docking/bin32/lsqman
+for i in $(seq 10)
+do
+	echo -e "re m1 /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/wq/pdb2wqh.ent \n re m2 /home/vikram/Protein-Docking/result42model$i.pdb \n ex m1 \"a1-91 b1-91 c1-91\" m2 \"a1 b1 c1\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2" >> /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+done
+echo -e "\n qu" >> /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+/home/vikram/Protein-Docking/bin32/lsqman < /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermstmp42.txt
+rm /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+cd /home/vikram/Protein-Docking
+java RMSEScoreGen /home/vikram/Protein-Docking/scorermstmp42.txt /home/vikram/Protein-Docking/result42 /home/vikram/Protein-Docking/scorerms42.txt
+java MinRMS /home/vikram/Protein-Docking/scorermstmp42.txt /home/vikram/Protein-Docking/minrms.txt
+for i in $(seq 10) 
+do
+	mv /home/vikram/Protein-Docking/result42model$i.pdb /home/vikram/Protein-Docking/result42/result42model$i.pdb
+done
+mv /home/vikram/Protein-Docking/scorermstmp42.txt /home/vikram/Protein-Docking/result42/scorermstmp42.txt
+mv /home/vikram/Protein-Docking/scorerms42.txt /home/vikram/Protein-Docking/result42/scorerms42.txt
+PATH=$PATH:/home/vikram/Protein-Docking/scwrl4/
+for i in $(seq 10) 
+do
+	mkdir /home/vikram/Protein-Docking/tmp
+	mkdir /home/vikram/Protein-Docking/tmp/1
+	cp /home/vikram/Protein-Docking/result42/result42model$i.pdb /home/vikram/Protein-Docking/tmp/1/result42model$i.pdb
+	for j in $(seq 10)
+	do
+		let "k=${j}+1"
+		/home/vikram/Protein-Docking/kobamin/kobamin.sh /home/vikram/Protein-Docking/tmp/$j/
+		mv /home/vikram/Protein-Docking/tmp/$j/result42model${i}.kb /home/vikram/Protein-Docking/tmp/$j/result42model${i}kb.pdb
+		mkdir /home/vikram/Protein-Docking/tmp/$k
+		Scwrl4 -i /home/vikram/Protein-Docking/tmp/$j/result42model${i}kb.pdb -o /home/vikram/Protein-Docking/tmp/$k/result42model${i}.pdb > /home/vikram/Protein-Docking/tmp/$j/result42model${i}scwrl.txt
+	done
+	mv /home/vikram/Protein-Docking/tmp/11/result42model$i.pdb /home/vikram/Protein-Docking/result42model${i}iter.pdb
+	mv home/vikram/Protein-Docking/tmp/ /home/vikram/Protein-Docking/result42
+done
+for i in $(seq 10)
+do
+	echo -e "re m1 /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/wq/pdb2wqh.ent \n re m2 /home/vikram/Protein-Docking/result42model${i}iter.pdb \n ex m1 \"a1-91 b1-91 c1-91\" m2 \"a1 b1 c1\" 100 10 30 d 2 \n show m1 m2 \n apply m1 m2 \n de m1 \n de m2 \n" >> /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+done
+echo -e "\n qu" >> /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+/home/vikram/Protein-Docking/bin32/lsqman < /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp >> /home/vikram/Protein-Docking/scorermsitertmp42.txt
+rm /home/vikram/Protein-Docking/bin32/lsqmanrun.tmp
+java RMSEScoreGenIter /home/vikram/Protein-Docking/scorermsitertmp42.txt /home/vikram/Protein-Docking/result42 /home/vikram/Protein-Docking/scorermsiter42.txt
+java MinRMS /home/vikram/Protein-Docking/scorermsitertmp42.txt /home/vikram/Protein-Docking/minrmsiter.txt
+for i in $(seq 10) 
+do
+	mv /home/vikram/Protein-Docking/result42model${i}iter.pdb /home/vikram/Protein-Docking/result42/result42model${i}iter.pdb
+done
+mv /home/vikram/Protein-Docking/scorermsitertmp42.txt /home/vikram/Protein-Docking/result42/scorermsitertmp42.txt
+mv /home/vikram/Protein-Docking/scorermsiter42.txt /home/vikram/Protein-Docking/result42/scorermsiter42.txt
