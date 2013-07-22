@@ -146,6 +146,8 @@ public class ProteinDockPredict {
 		out.println(end - start);
 		out.flush();
 		printInterfaces(summary);
+		summary.flush();
+		summary.close();
 	}
 	public void genTestCases() throws Exception {
 		ths = new Thread[numthread];
@@ -359,7 +361,7 @@ public class ProteinDockPredict {
 		Arrays.sort(casesA);
 		for (int i = 0; i < Math.min(cases.size(), Constants.NUMCASES); i++) {
 			TestCase current = casesA[i];
-			printCase(current, true);
+			printCase(current, false);
 			double score = current.getScore();
 			if (i < 9) {
 				out.println("MODEL        " + (i+1) + " " + score);
@@ -409,6 +411,7 @@ public class ProteinDockPredict {
 		}
 		out1.println("SUM " + sum);
 		out1.flush();
+		out1.close();
 	}
 	public static String removeSpace(String test) {
 		String answer = "";

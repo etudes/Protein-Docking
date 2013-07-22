@@ -13,12 +13,11 @@ import java.lang.reflect.*;
 public class Runner {
 	public static void main(String[] args) throws Exception {
 		String filesep = System.getProperty("file.separator");
-		ProteinDockPredict pdp = new ProteinDockPredict(args[0], args[1], "base", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", args[2], args[3], args[4], args[5], 4, Constants.DRUGNUMCASES, new PrintWriter(new BufferedWriter(new FileWriter("basesummary.txt"))));
-		pdp = null;
+		//ProteinDockPredict pdp = new ProteinDockPredict(args[0], args[1], "base", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", args[2], args[3], args[4], args[5], Integer.parseInt(args[6]), Constants.DRUGNUMCASES, new PrintWriter(new BufferedWriter(new FileWriter("basesummary.txt"))));
+		//pdp = null;
 		ArrayList<ArrayList<Atom>> interfacesBase = new ArrayList<ArrayList<Atom>>();
 		ArrayList<Double> probability = new ArrayList<Double>();
-		ArrayList<Atom> curInt = new ArrayList<Atom>();
-		interfacesBase.add(curInt);
+		ArrayList<Atom> curInt = null;
 		BufferedReader br = new BufferedReader(new FileReader("basesummary.txt"));
 		double sum = 0;
 		while (true) {
@@ -49,18 +48,19 @@ public class Runner {
 				curInt.add(next);
 			}
 		}
-		br = new BufferedReader(new FileReader("SAMPdrugtest.txt"));
+		br = new BufferedReader(new FileReader("drugtest.txt"));
 		PriorityQueue<Drug> drugqueue = new PriorityQueue<Drug>();
 		while (true) {
 			String code = br.readLine();
 			if (code == null) break;
 			BufferedReader br2 = new BufferedReader(new FileReader(args[0].concat(filesep + "drugbank" + filesep + code + ".txt")));
 			String id2 = null;
+			boolean error = false;
 			while (id2 == null) {
 				String s = br2.readLine();
 				if (s == null) {
 					System.err.println("NO PDB ID FOR " + code);
-					System.exit(-1);
+					error = true;
 				}
 				StringTokenizer st = new StringTokenizer(s);
 				if (st.hasMoreTokens()) st.nextToken();
@@ -68,14 +68,18 @@ public class Runner {
 					s = br2.readLine();
 					if (s.equals("Not Available")) {
 						System.err.println("NO PDB ID FOR " + code);
-						System.exit(-1);
+						error = true;
 					}
 					id2 = s.toLowerCase();
 					break;
 				}
 			}
-			Drug drugtest = new Drug(code, id2, args[2], args[3], args[0], args[1], interfacesBase, probability, sum);
-			/*if (drugtest.getSimilarity() > 0)*/ drugqueue.add(drugtest);
+			String filepath2 = args[1].concat(id2.substring(1,3).concat(filesep).concat("pdb").concat(id2).concat(".ent.gz"));
+			File test = new File(filepath2);
+			if (!test.exists()) error = true;
+			if (error) continue;
+			Drug drugtest = new Drug(code, id2, args[2], args[3], args[0], args[1], interfacesBase, probability, sum, Integer.parseInt(args[6]));
+			if (drugtest.getSimilarity() > 0) drugqueue.add(drugtest);
 		}
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("drugresults.txt")));
 		out.println(drugqueue.size());

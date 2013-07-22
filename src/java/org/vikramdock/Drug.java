@@ -22,7 +22,7 @@ public class Drug implements Comparable<Drug> {
 	private ArrayList<Double> probability;
 	private double testSum;
 	private double similarity;
-	public Drug(String code, String id, String target, String targetChain, String sourcepath, String pdbpath, ArrayList<ArrayList<Atom>> interfacesBase, ArrayList<Double> probabilityBase, double baseSum) throws Exception {
+	public Drug(String code, String id, String target, String targetChain, String sourcepath, String pdbpath, ArrayList<ArrayList<Atom>> interfacesBase, ArrayList<Double> probabilityBase, double baseSum, int numthread) throws Exception {
 		this.code = code;
 		this.id = id;
 		this.target = target;
@@ -30,11 +30,10 @@ public class Drug implements Comparable<Drug> {
 		this.interfacesBase = interfacesBase;
 		this.probabilityBase = probabilityBase;
 		this.baseSum = baseSum;
-		ProteinDockPredict pdp = new ProteinDockPredict(sourcepath, pdbpath, "prot" + target + "to" + code, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", target, targetChain, id, "ALL", 4, Constants.DRUGNUMCASES, new PrintWriter(new BufferedWriter(new FileWriter(code + "summary.txt"))));
+		ProteinDockPredict pdp = new ProteinDockPredict(sourcepath, pdbpath, "prot" + target + "to" + code, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", target, targetChain, id, "ALL", numthread, Constants.DRUGNUMCASES, new PrintWriter(new BufferedWriter(new FileWriter(code + "summary.txt"))));
 		interfacesTest = new ArrayList<ArrayList<Atom>>();
 		probability = new ArrayList<Double>();
-		ArrayList<Atom> curInt = new ArrayList<Atom>();
-		interfacesTest.add(curInt);
+		ArrayList<Atom> curInt = null;
 		BufferedReader br = new BufferedReader(new FileReader(code + "summary.txt"));
 		while (true) {
 			String s = br.readLine();
@@ -65,6 +64,10 @@ public class Drug implements Comparable<Drug> {
 			}
 		}
 		similarity = similarity();
+		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(code + "summary.txt", true)));
+		out.println("SIMILARITY " + similarity);
+		out.flush();
+		out.close();
 	}
 	public double similarity() {
 		double similarity = 0;

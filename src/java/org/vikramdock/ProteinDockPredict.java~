@@ -359,7 +359,7 @@ public class ProteinDockPredict {
 		Arrays.sort(casesA);
 		for (int i = 0; i < Math.min(cases.size(), Constants.NUMCASES); i++) {
 			TestCase current = casesA[i];
-			printCase(current, true);
+			printCase(current, false);
 			double score = current.getScore();
 			if (i < 9) {
 				out.println("MODEL        " + (i+1) + " " + score);
