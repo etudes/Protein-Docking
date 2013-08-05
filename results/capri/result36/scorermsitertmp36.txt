@@ -7,11 +7,11 @@
  Others   - T.A. Jones, G. Bricogne, Rams, W.A. Hendrickson
  Others   - W. Kabsch, CCP4, PROTEIN, E. Dodson, etc. etc.
 
- Started  - Tue Jul 23 03:53:45 2013
+ Started  - Mon Aug 5 14:42:45 2013
  User     - A. Nonymous
  Mode     - interactive
  Host     - localhost (OSX/Apple)
- ProcID   - 17389
+ ProcID   - 14360
  Not using a tty as input device
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
@@ -108,7 +108,7 @@
 
  *** BLOSUM-45 substitution matrix loaded ***
 
- Symbol START_TIME : (Tue Jul 23 03:53:45 2013) 
+ Symbol START_TIME : (Mon Aug  5 14:42:45 2013) 
  Symbol USERNAME : ( ) 
 
  Initialising : (XVRML - 20051205/0.8) 
@@ -211,116 +211,996 @@
  Max nr of atoms per molecule    : (     200000) 
  Max nr of atom types            : (         15) 
 
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   23.681 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.470912 -0.832744  0.291170
+                -0.743521  0.197018 -0.639031
+                 0.474783 -0.517418 -0.711940
+ Translation :    115.258    56.599    19.115
+ Maiorov-Crippen RHO (0-2)            =      0.99096
+ Estimated RMSD for 2 random proteins =     28.736 A
+ Relative RMSD                        =      0.82410
+ Normalised RMSD (100)                =     13.905 A
+ RMSD / Nalign                        =    0.05804 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   23.681 A
+ SI = RMS * Nmin / Nmatch             =     23.68087
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04052
+ CR = Maiorov-Crippen RHO (0-2)       =      0.99096
+ RR = relative RMSD                   =      0.82410
+ NR = normalised RMSD (100)           =     13.905 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.804 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.423 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.349 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.085 A
+ RMSD / Nalign                        =    0.05804 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.47091153 -0.83274353  0.29117048
+                 -0.74352062  0.19701792 -0.63903117
+                  0.47478336 -0.51741844 -0.71194011
+ Translation  :     115.2581     56.5989     19.1150
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.4709115   -0.8327435    0.2911705                115.258
+               -0.7435206    0.1970179   -0.6390312                 56.599
+                0.4747834   -0.5174184   -0.7119401                 19.115
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma               114.496    -135.393      47.460
+ Spherical polars Omega Phi Chi           67.946     -56.482     173.176
+ Direction cosines of rotation axis     0.511790   -0.772708    0.375482
+ X-PLOR polars Phi Psi Kappa             143.734      39.402     173.176
+ Lattmann Theta+ Theta2 Theta-           198.043     135.393    -112.964
+ Rotation angle                             173.176
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   23.791 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.481140 -0.152055  0.863356
+                -0.743110 -0.451730 -0.493687
+                 0.465072 -0.879101  0.104351
+ Translation :    115.425    56.611    19.216
+ Maiorov-Crippen RHO (0-2)            =      0.99349
+ Estimated RMSD for 2 random proteins =     28.813 A
+ Relative RMSD                        =      0.82571
+ Normalised RMSD (100)                =     13.970 A
+ RMSD / Nalign                        =    0.05831 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   23.791 A
+ SI = RMS * Nmin / Nmatch             =     23.79113
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04034
+ CR = Maiorov-Crippen RHO (0-2)       =      0.99349
+ RR = relative RMSD                   =      0.82571
+ NR = normalised RMSD (100)           =     13.970 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.831 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.429 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.350 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.086 A
+ RMSD / Nalign                        =    0.05831 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.48113963 -0.15205523  0.86335623
+                 -0.74311042 -0.45172998 -0.49368706
+                  0.46507159 -0.87910140  0.10435136
+ Translation  :     115.4248     56.6112     19.2164
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.4811396   -0.1520552    0.8633562                115.425
+               -0.7431104   -0.4517300   -0.4936871                 56.611
+                0.4650716   -0.8791014    0.1043514                 19.216
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma               150.238     -84.010      62.120
+ Spherical polars Omega Phi Chi          136.841     134.059     156.101
+ Direction cosines of rotation axis    -0.475668    0.491552   -0.729464
+ X-PLOR polars Phi Psi Kappa             -56.892     -60.557     156.101
+ Lattmann Theta+ Theta2 Theta-           147.642      84.010     -91.882
+ Rotation angle                             156.101
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   23.761 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.477228  0.110276 -0.871833
+                -0.746468  0.472648  0.468390
+                 0.463723  0.874324 -0.143243
+ Translation :    115.352    56.659    19.169
+ Maiorov-Crippen RHO (0-2)            =      0.99349
+ Estimated RMSD for 2 random proteins =     28.775 A
+ Relative RMSD                        =      0.82575
+ Normalised RMSD (100)                =     13.952 A
+ RMSD / Nalign                        =    0.05824 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   23.761 A
+ SI = RMS * Nmin / Nmatch             =     23.76103
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04039
+ CR = Maiorov-Crippen RHO (0-2)       =      0.99349
+ RR = relative RMSD                   =      0.82575
+ NR = normalised RMSD (100)           =     13.952 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.824 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.427 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.350 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.086 A
+ RMSD / Nalign                        =    0.05824 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.47722796  0.11027637 -0.87183291
+                 -0.74646831  0.47264811  0.46838960
+                  0.46372253  0.87432420 -0.14324307
+ Translation  :     115.3523     56.6587     19.1686
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.4772280    0.1102764   -0.8718329                115.352
+               -0.7464683    0.4726481    0.4683896                 56.659
+                0.4637225    0.8743242   -0.1432431                 19.169
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma               151.753      98.236     117.941
+ Spherical polars Omega Phi Chi          121.540     -73.094     125.023
+ Direction cosines of rotation axis     0.247848   -0.815440   -0.523096
+ X-PLOR polars Phi Psi Kappa            -115.352      35.369     125.023
+ Lattmann Theta+ Theta2 Theta-            90.306      98.236     213.813
+ Rotation angle                             125.023
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   23.525 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.370604  0.918864 -0.135431
+                -0.853805 -0.279645  0.439108
+                 0.365608  0.278367  0.888168
+ Translation :    114.892    56.803    20.225
+ Maiorov-Crippen RHO (0-2)            =      0.98520
+ Estimated RMSD for 2 random proteins =     28.679 A
+ Relative RMSD                        =      0.82029
+ Normalised RMSD (100)                =     13.813 A
+ RMSD / Nalign                        =    0.05766 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   23.525 A
+ SI = RMS * Nmin / Nmatch             =     23.52490
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04077
+ CR = Maiorov-Crippen RHO (0-2)       =      0.98520
+ RR = relative RMSD                   =      0.82029
+ NR = normalised RMSD (100)           =     13.813 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.766 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.413 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.346 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.085 A
+ RMSD / Nalign                        =    0.05766 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.37060449  0.91886395 -0.13543068
+                 -0.85380524 -0.27964467  0.43910763
+                  0.36560768  0.27836666  0.88816839
+ Translation  :     114.8920     56.8034     20.2253
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.3706045    0.9188640   -0.1354307                114.892
+               -0.8538052   -0.2796447    0.4391076                 56.803
+                0.3656077    0.2783667    0.8881684                 20.225
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma               107.141      27.356     142.715
+ Spherical polars Omega Phi Chi          163.467    -107.787     112.398
+ Direction cosines of rotation axis    -0.086929   -0.270961   -0.958657
+ X-PLOR polars Phi Psi Kappa             -84.819    -105.721     112.398
+ Lattmann Theta+ Theta2 Theta-           110.144      27.356     144.426
+ Rotation angle                             112.398
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   23.667 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.701803  0.525139  0.481354
+                -0.617288 -0.785563 -0.042971
+                 0.355568 -0.327292  0.875472
+ Translation :    120.559    57.046    19.238
+ Maiorov-Crippen RHO (0-2)            =      0.92309
+ Estimated RMSD for 2 random proteins =     30.538 A
+ Relative RMSD                        =      0.77498
+ Normalised RMSD (100)                =     13.897 A
+ RMSD / Nalign                        =    0.05801 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   23.667 A
+ SI = RMS * Nmin / Nmatch             =     23.66670
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04054
+ CR = Maiorov-Crippen RHO (0-2)       =      0.92309
+ RR = relative RMSD                   =      0.77498
+ NR = normalised RMSD (100)           =     13.897 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.801 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.422 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.348 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.085 A
+ RMSD / Nalign                        =    0.05801 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.70180261  0.52513921  0.48135409
+                 -0.61728799 -0.78556281 -0.04297142
+                  0.35556790 -0.32729158  0.87547225
+ Translation  :     120.5585     57.0464     19.2380
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.7018026    0.5251392    0.4813541                120.559
+               -0.6172880   -0.7855628   -0.0429714                 57.046
+                0.3555679   -0.3272916    0.8754722                 19.238
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma               174.899     -28.899      42.629
+ Spherical polars Omega Phi Chi          164.776     156.135     143.702
+ Direction cosines of rotation axis    -0.240140    0.106240   -0.964907
+ X-PLOR polars Phi Psi Kappa             -76.025     -83.901     143.702
+ Lattmann Theta+ Theta2 Theta-           142.473      28.899     -47.730
+ Rotation angle                             143.702
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   25.064 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.671241 -0.310917  0.672879
+                -0.614806 -0.273562 -0.739714
+                 0.414063 -0.910217 -0.007528
+ Translation :    120.771    56.950    19.508
+ Maiorov-Crippen RHO (0-2)            =      0.99100
+ Estimated RMSD for 2 random proteins =     30.524 A
+ Relative RMSD                        =      0.82110
+ Normalised RMSD (100)                =     14.717 A
+ RMSD / Nalign                        =    0.06143 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   25.064 A
+ SI = RMS * Nmin / Nmatch             =     25.06360
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03837
+ CR = Maiorov-Crippen RHO (0-2)       =      0.99100
+ RR = relative RMSD                   =      0.82110
+ NR = normalised RMSD (100)           =     14.717 A
+ SAS(1) = cRMS * (100/Nmatch)         =      6.143 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.506 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.369 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.090 A
+ RMSD / Nalign                        =    0.06143 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.67124099 -0.31091678  0.67287904
+                 -0.61480647 -0.27356154 -0.73971421
+                  0.41406339 -0.91021693 -0.00752794
+ Translation  :     120.7709     56.9501     19.5084
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.6712410   -0.3109168    0.6728790                120.771
+               -0.6148065   -0.2735615   -0.7397142                 56.950
+                0.4140634   -0.9102169   -0.0075279                 19.508
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma               132.291     -90.431      65.539
+ Spherical polars Omega Phi Chi          134.436     123.376     167.465
+ Direction cosines of rotation axis    -0.392812    0.596271   -0.700114
+ X-PLOR polars Phi Psi Kappa             -60.705     -53.397     167.465
+ Lattmann Theta+ Theta2 Theta-           162.170      90.431    -113.248
+ Rotation angle                             167.465
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   23.919 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.643503  0.679257 -0.352866
+                -0.645245 -0.233377  0.727457
+                 0.411779  0.695806  0.588466
+ Translation :    120.492    57.228    18.540
+ Maiorov-Crippen RHO (0-2)            =      0.94513
+ Estimated RMSD for 2 random proteins =     30.248 A
+ Relative RMSD                        =      0.79076
+ Normalised RMSD (100)                =     14.045 A
+ RMSD / Nalign                        =    0.05863 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   23.919 A
+ SI = RMS * Nmin / Nmatch             =     23.91926
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04013
+ CR = Maiorov-Crippen RHO (0-2)       =      0.94513
+ RR = relative RMSD                   =      0.79076
+ NR = normalised RMSD (100)           =     14.045 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.863 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.437 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.352 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.086 A
+ RMSD / Nalign                        =    0.05863 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.64350301  0.67925674 -0.35286552
+                 -0.64524525 -0.23337682  0.72745699
+                  0.41177940  0.69580561  0.58846587
+ Translation  :     120.4917     57.2278     18.5400
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.6435030    0.6792567   -0.3528655                120.492
+               -0.6452453   -0.2333768    0.7274570                 57.228
+                0.4117794    0.6958056    0.5884659                 18.540
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma               115.876      53.952     120.617
+ Spherical polars Omega Phi Chi          149.981     -92.370     130.106
+ Direction cosines of rotation axis    -0.020691   -0.499865   -0.865856
+ X-PLOR polars Phi Psi Kappa             -88.631    -119.991     130.106
+ Lattmann Theta+ Theta2 Theta-           123.506      53.952     175.259
+ Rotation angle                             130.106
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   23.880 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.674718 -0.405471  0.616725
+                -0.640764 -0.092902 -0.762097
+                 0.366303 -0.909375 -0.197128
+ Translation :    120.906    57.482    18.711
+ Maiorov-Crippen RHO (0-2)            =      0.91791
+ Estimated RMSD for 2 random proteins =     30.999 A
+ Relative RMSD                        =      0.77035
+ Normalised RMSD (100)                =     14.022 A
+ RMSD / Nalign                        =    0.05853 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   23.880 A
+ SI = RMS * Nmin / Nmatch             =     23.88001
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04019
+ CR = Maiorov-Crippen RHO (0-2)       =      0.91791
+ RR = relative RMSD                   =      0.77035
+ NR = normalised RMSD (100)           =     14.022 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.853 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.435 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.352 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.086 A
+ RMSD / Nalign                        =    0.05853 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.67471796 -0.40547067  0.61672461
+                 -0.64076370 -0.09290171 -0.76209658
+                  0.36630261 -0.90937495 -0.19712846
+ Translation  :     120.9059     57.4818     18.7113
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.6747180   -0.4054707    0.6167246                120.906
+               -0.6407637   -0.0929017   -0.7620966                 57.482
+                0.3663026   -0.9093750   -0.1971285                 18.711
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma               128.981    -101.369      68.060
+ Spherical polars Omega Phi Chi          129.004     120.461     169.227
+ Direction cosines of rotation axis    -0.393949    0.669844   -0.629376
+ X-PLOR polars Phi Psi Kappa             -57.956     -47.945     169.227
+ Lattmann Theta+ Theta2 Theta-           162.958     101.369    -119.079
+ Rotation angle                             169.227
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   24.126 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.712081 -0.408703  0.570879
+                -0.587674 -0.097941 -0.803148
+                 0.384162 -0.907397 -0.170442
+ Translation :    120.900    57.074    19.656
+ Maiorov-Crippen RHO (0-2)            =      0.94807
+ Estimated RMSD for 2 random proteins =     30.449 A
+ Relative RMSD                        =      0.79234
+ Normalised RMSD (100)                =     14.167 A
+ RMSD / Nalign                        =    0.05913 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   24.126 A
+ SI = RMS * Nmin / Nmatch             =     24.12628
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03980
+ CR = Maiorov-Crippen RHO (0-2)       =      0.94807
+ RR = relative RMSD                   =      0.79234
+ NR = normalised RMSD (100)           =     14.167 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.913 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.449 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.355 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.087 A
+ RMSD / Nalign                        =    0.05913 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.71208078 -0.40870300  0.57087892
+                 -0.58767396 -0.09794143 -0.80314803
+                  0.38416171 -0.90739697 -0.17044190
+ Translation  :     120.9004     57.0741     19.6556
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.7120808   -0.4087030    0.5708789                120.900
+               -0.5876740   -0.0979414   -0.8031480                 57.074
+                0.3841617   -0.9073970   -0.1704419                 19.656
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma               125.405     -99.814      67.054
+ Spherical polars Omega Phi Chi          129.926     119.176     171.985
+ Direction cosines of rotation axis    -0.373842    0.669577   -0.641799
+ X-PLOR polars Phi Psi Kappa             -59.780     -47.965     171.985
+ Lattmann Theta+ Theta2 Theta-           167.541      99.814    -121.649
+ Rotation angle                             171.985
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/w5/pdb2w5f.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE                               10-DEC-08   2W5F
+ TITLE  :     HIGH RESOLUTION CRYSTALLOGRAPHIC STRUCTURE OF THE
+ TITLE  :    2 CLOSTRIDIUM THERMOCELLUM N-TERMINAL ENDO-1,4-BETA-D-
+ TITLE  :    3 XYLANASE 10B (XYN10B) CBM22-1-GH10 MODULES COMPLEXED WITH
+ TITLE  :    4 XYLOHEXAOSE
+ KEYWDS :     CELLULOSOME, GLYCOSIDASE, XYLAN DEGRADATION, HYDROLASE
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     S.NAJMUDIN,B.A.PINHEIRO,M.J.ROMAO,J.A.M.PRATES,C.M.G.A.FONTES
+ REVDAT :    4   18-JAN-12 2W5F    1       REMARK HET    HETNAM FORMUL
+ REVDAT :    4 2                           LINK   SITE   HETATM CONECT
+ REVDAT :    3   13-JUL-11 2W5F    1       VERSN
+ REVDAT :    2   25-AUG-10 2W5F    1       JRNL   REMARK DBREF  SEQADV
+ REVDAT :    2 2                           SHEET  HETATM
+ REVDAT :    1   19-JAN-10 2W5F    0
+ CRYST1 :   173.178  173.178  131.710  90.00  90.00 120.00 P 32 2 1     12
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Nr of lines read from file : (      11346) 
+ Nr of atoms in molecule    : (       9743) 
+ Nr of chains or models     : (          6) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       1703) 
+ Stripped alt. conf. atoms  : (         75) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4750) 
+ Nr of atoms in molecule    : (       3884) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        864) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-149
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        408) 
+ Nr skipped (B limits) : (          0) 
+
+ The    408 atoms have an RMS distance of   24.080 A
+ RMS delta B  =   25.006 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.659659  0.634772 -0.402385
+                -0.642066 -0.197693  0.740722
+                 0.390641  0.746982  0.537976
+ Translation :    120.493    56.855    18.563
+ Maiorov-Crippen RHO (0-2)            =      0.94520
+ Estimated RMSD for 2 random proteins =     30.467 A
+ Relative RMSD                        =      0.79034
+ Normalised RMSD (100)                =     14.139 A
+ RMSD / Nalign                        =    0.05902 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-149 M2 A1 B1) 
+ The    408 atoms have an RMS distance of   24.080 A
+ SI = RMS * Nmin / Nmatch             =     24.07960
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03987
+ CR = Maiorov-Crippen RHO (0-2)       =      0.94520
+ RR = relative RMSD                   =      0.79034
+ NR = normalised RMSD (100)           =     14.139 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.902 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.447 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.355 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.087 A
+ RMSD / Nalign                        =    0.05902 A
+ RMS delta B for matched atoms        =    25.006 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.65965939  0.63477224 -0.40238512
+                 -0.64206642 -0.19769268  0.74072152
+                  0.39064085  0.74698186  0.53797573
+ Translation  :     120.4926     56.8551     18.5630
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.6596594    0.6347722   -0.4023851                120.493
+               -0.6420664   -0.1976927    0.7407215                 56.855
+                0.3906409    0.7469819    0.5379757                 18.563
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma               118.512      57.454     117.608
+ Spherical polars Omega Phi Chi          148.155     -89.548     131.276
+ Direction cosines of rotation axis     0.004165   -0.527601   -0.849482
+ X-PLOR polars Phi Psi Kappa             -90.281      58.156     131.276
+ Lattmann Theta+ Theta2 Theta-           123.880      57.454     180.905
+ Rotation angle                             131.276
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3884) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
  LSQMAN >  LSQMAN >  LSQMAN > 
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 
  Version - 081126/9.7.9
- Started - Tue Jul 23 03:53:45 2013
- Stopped - Tue Jul 23 03:53:45 2013
+ Started - Mon Aug 5 14:42:45 2013
+ Stopped - Mon Aug 5 14:42:46 2013
 
  CPU-time taken :
- User    -      0.0 Sys    -      0.0 Total   -      0.0
+ User    -      1.3 Sys    -      0.0 Total   -      1.3
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 

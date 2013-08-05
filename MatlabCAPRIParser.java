@@ -52,7 +52,7 @@ public class MatlabCAPRIParser {
 		}
 		out.print("];");
 		out.println();
-		out.println("figure1 = figure; \naxes1 = axes('Parent',figure1,'LineWidth',5,'FontWeight','bold','FontSize',36,'FontName','TimesNewRoman','CLim',[0 1]); \nhold(axes1,'all'); \nscatter(x1,y1,100,'black','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','Without iteration'); \nscatter(x2,y2,100,'red','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','With iteration'); \nxlabel({'LRMS (A)'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman'); \nylabel({'Score'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman'); \ntitle({'Complex " + prot + " decoys'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman');");
+		out.println("figure1 = figure; \naxes1 = axes('Parent',figure1,'LineWidth',5,'FontWeight','bold','FontSize',36,'FontName','TimesNewRoman','CLim',[0 1]); \nhold(axes1,'all'); \nscatter(x1,y1,100,'black','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','Without iteration'); \nscatter(x2,y2,100,'red','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','With iteration'); \nxlabel({'LRMS (A)'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman'); \nylabel({'Score'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman'); \ntitle({'CAPRI Target " + prot + "'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman');");
 		out.flush();
 		out.close();
 	}

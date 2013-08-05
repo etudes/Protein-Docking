@@ -7,11 +7,11 @@
  Others   - T.A. Jones, G. Bricogne, Rams, W.A. Hendrickson
  Others   - W. Kabsch, CCP4, PROTEIN, E. Dodson, etc. etc.
 
- Started  - Sat Jul 20 09:59:50 2013
+ Started  - Mon Aug 5 14:42:25 2013
  User     - A. Nonymous
  Mode     - interactive
  Host     - localhost (OSX/Apple)
- ProcID   - 21790
+ ProcID   - 14309
  Not using a tty as input device
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
@@ -108,7 +108,7 @@
 
  *** BLOSUM-45 substitution matrix loaded ***
 
- Symbol START_TIME : (Sat Jul 20 09:59:50 2013) 
+ Symbol START_TIME : (Mon Aug  5 14:42:25 2013) 
  Symbol USERNAME : ( ) 
 
  Initialising : (XVRML - 20051205/0.8) 
@@ -211,116 +211,1126 @@
  Max nr of atoms per molecule    : (     200000) 
  Max nr of atom types            : (         15) 
 
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   19.930 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.652080  0.491747 -0.577041
+                -0.158175 -0.832609 -0.530794
+                -0.741466 -0.254847  0.620710
+ Translation :      7.937     0.156     5.390
+ Maiorov-Crippen RHO (0-2)            =      0.85278
+ Estimated RMSD for 2 random proteins =     27.372 A
+ Relative RMSD                        =      0.72813
+ Normalised RMSD (100)                =     11.636 A
+ RMSD / Nalign                        =    0.04791 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   19.930 A
+ SI = RMS * Nmin / Nmatch             =     19.93036
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04778
+ CR = Maiorov-Crippen RHO (0-2)       =      0.85278
+ RR = relative RMSD                   =      0.72813
+ NR = normalised RMSD (100)           =     11.636 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.791 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.152 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.277 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.067 A
+ RMSD / Nalign                        =    0.04791 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.65207994  0.49174654 -0.57704145
+                 -0.15817477 -0.83260924 -0.53079396
+                 -0.74146622 -0.25484675  0.62070978
+ Translation  :       7.9369      0.1558      5.3904
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.6520799    0.4917465   -0.5770414                  7.937
+               -0.1581748   -0.8326092   -0.5307940                  0.156
+               -0.7414662   -0.2548468    0.6207098                  5.390
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                42.610     -51.632     161.032
+ Spherical polars Omega Phi Chi          153.699      30.789     158.747
+ Direction cosines of rotation axis     0.380633    0.226802   -0.896481
+ X-PLOR polars Phi Psi Kappa            -113.005     103.109     158.747
+ Lattmann Theta+ Theta2 Theta-          -203.641      51.632      61.578
+ Rotation angle                             158.747
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   19.930 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.652080 -0.491747  0.577042
+                -0.158175  0.832609  0.530794
+                -0.741466  0.254847 -0.620710
+ Translation :      7.937     0.156     5.390
+ Maiorov-Crippen RHO (0-2)            =      0.85278
+ Estimated RMSD for 2 random proteins =     27.372 A
+ Relative RMSD                        =      0.72813
+ Normalised RMSD (100)                =     11.636 A
+ RMSD / Nalign                        =    0.04791 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   19.930 A
+ SI = RMS * Nmin / Nmatch             =     19.93036
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04778
+ CR = Maiorov-Crippen RHO (0-2)       =      0.85278
+ RR = relative RMSD                   =      0.72813
+ NR = normalised RMSD (100)           =     11.636 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.791 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.152 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.277 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.067 A
+ RMSD / Nalign                        =    0.04791 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.65208012 -0.49174660  0.57704151
+                 -0.15817483  0.83260947  0.53079402
+                 -0.74146628  0.25484681 -0.62070996
+ Translation  :       7.9369      0.1558      5.3904
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.6520801   -0.4917466    0.5770415                  7.937
+               -0.1581748    0.8326095    0.5307940                  0.156
+               -0.7414663    0.2548468   -0.6207100                  5.390
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                42.610     128.368      18.968
+ Spherical polars Omega Phi Chi           76.092     101.821     136.062
+ Direction cosines of rotation axis    -0.198844    0.950097    0.240367
+ X-PLOR polars Phi Psi Kappa              50.401     -18.177     136.062
+ Lattmann Theta+ Theta2 Theta-           -61.578     128.368    -156.359
+ Rotation angle                             136.062
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   22.957 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.788773  0.457646 -0.410363
+                 0.362071 -0.193576 -0.911830
+                -0.496732 -0.867807 -0.013013
+ Translation :      8.828    -2.187     5.225
+ Maiorov-Crippen RHO (0-2)            =      0.99750
+ Estimated RMSD for 2 random proteins =     27.700 A
+ Relative RMSD                        =      0.82876
+ Normalised RMSD (100)                =     13.403 A
+ RMSD / Nalign                        =    0.05518 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   22.957 A
+ SI = RMS * Nmin / Nmatch             =     22.95694
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04174
+ CR = Maiorov-Crippen RHO (0-2)       =      0.99750
+ RR = relative RMSD                   =      0.82876
+ NR = normalised RMSD (100)           =     13.403 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.518 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.327 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.319 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.077 A
+ RMSD / Nalign                        =    0.05518 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.78877276  0.45764613 -0.41036293
+                  0.36207080 -0.19357632 -0.91182959
+                 -0.49673179 -0.86780667 -0.01301256
+ Translation  :       8.8280     -2.1872      5.2246
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.7887728    0.4576461   -0.4103629                  8.828
+                0.3620708   -0.1935763   -0.9118296                 -2.187
+               -0.4967318   -0.8678067   -0.0130126                  5.225
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                65.770     -90.746     119.787
+ Spherical polars Omega Phi Chi          134.594      62.992     176.097
+ Direction cosines of rotation axis     0.323384    0.634449   -0.702078
+ X-PLOR polars Phi Psi Kappa            -114.731     129.379     176.097
+ Lattmann Theta+ Theta2 Theta-          -185.557      90.746     125.983
+ Rotation angle                             176.097
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   22.957 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.788773 -0.457646  0.410363
+                 0.362071  0.193576  0.911830
+                -0.496732  0.867807  0.013013
+ Translation :      8.828    -2.187     5.225
+ Maiorov-Crippen RHO (0-2)            =      0.99750
+ Estimated RMSD for 2 random proteins =     27.700 A
+ Relative RMSD                        =      0.82876
+ Normalised RMSD (100)                =     13.403 A
+ RMSD / Nalign                        =    0.05518 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   22.957 A
+ SI = RMS * Nmin / Nmatch             =     22.95694
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04174
+ CR = Maiorov-Crippen RHO (0-2)       =      0.99750
+ RR = relative RMSD                   =      0.82876
+ NR = normalised RMSD (100)           =     13.403 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.518 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.327 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.319 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.077 A
+ RMSD / Nalign                        =    0.05518 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.78877282 -0.45764613  0.41036284
+                  0.36207086  0.19357598  0.91182959
+                 -0.49673164  0.86780673  0.01301286
+ Translation  :       8.8280     -2.1872      5.2246
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.7887728   -0.4576461    0.4103628                  8.828
+                0.3620709    0.1935760    0.9118296                 -2.187
+               -0.4967316    0.8678067    0.0130129                  5.225
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                65.770      89.254      60.213
+ Spherical polars Omega Phi Chi           47.930      92.778     142.288
+ Direction cosines of rotation axis    -0.035984    0.741457    0.670035
+ X-PLOR polars Phi Psi Kappa              86.926     -42.144     142.288
+ Lattmann Theta+ Theta2 Theta-          -125.983      89.254    -174.443
+ Rotation angle                             142.288
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   28.330 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.076329  0.683277 -0.726158
+                 0.150237 -0.712087 -0.685829
+                -0.985699 -0.161444 -0.048301
+ Translation :      5.120    -1.567     6.912
+ Maiorov-Crippen RHO (0-2)            =      1.29672
+ Estimated RMSD for 2 random proteins =     28.043 A
+ Relative RMSD                        =      1.01021
+ Normalised RMSD (100)                =     16.540 A
+ RMSD / Nalign                        =    0.06810 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   28.330 A
+ SI = RMS * Nmin / Nmatch             =     28.32978
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03410
+ CR = Maiorov-Crippen RHO (0-2)       =      1.29672
+ RR = relative RMSD                   =      1.01021
+ NR = normalised RMSD (100)           =     16.540 A
+ SAS(1) = cRMS * (100/Nmatch)         =      6.810 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.637 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.394 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.095 A
+ RMSD / Nalign                        =    0.06810 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.07632874  0.68327749 -0.72615838
+                  0.15023705 -0.71208692 -0.68582880
+                 -0.98569918 -0.16144434 -0.04830090
+ Translation  :       5.1200     -1.5667      6.9122
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.0763287    0.6832775   -0.7261584                  5.120
+                0.1502371   -0.7120869   -0.6858288                 -1.567
+               -0.9856992   -0.1614443   -0.0483009                  6.912
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                43.364     -92.769     170.698
+ Spherical polars Omega Phi Chi          132.334      26.333     156.687
+ Direction cosines of rotation axis     0.662520    0.327910   -0.673456
+ X-PLOR polars Phi Psi Kappa            -134.531     109.142     156.687
+ Lattmann Theta+ Theta2 Theta-          -214.062      92.769      52.666
+ Rotation angle                             156.687
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   27.030 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.006873  0.792276  0.610124
+                 0.269318  0.586127 -0.764149
+                -0.963027  0.169569 -0.209345
+ Translation :      5.135    -1.831     6.657
+ Maiorov-Crippen RHO (0-2)            =      1.22649
+ Estimated RMSD for 2 random proteins =     27.844 A
+ Relative RMSD                        =      0.97077
+ Normalised RMSD (100)                =     15.782 A
+ RMSD / Nalign                        =    0.06498 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   27.030 A
+ SI = RMS * Nmin / Nmatch             =     27.03049
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03568
+ CR = Maiorov-Crippen RHO (0-2)       =      1.22649
+ RR = relative RMSD                   =      0.97077
+ NR = normalised RMSD (100)           =     15.782 A
+ SAS(1) = cRMS * (100/Nmatch)         =      6.498 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.562 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.375 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.090 A
+ RMSD / Nalign                        =    0.06498 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.00687309  0.79227638  0.61012369
+                  0.26931760  0.58612669 -0.76414895
+                 -0.96302694  0.16956912 -0.20934549
+ Translation  :       5.1354     -1.8310      6.6568
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.0068731    0.7922764    0.6101237                  5.135
+                0.2693176    0.5861267   -0.7641490                 -1.831
+               -0.9630269    0.1695691   -0.2093455                  6.657
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma               128.605    -102.084    -170.014
+ Spherical polars Omega Phi Chi          105.953      59.309     107.949
+ Direction cosines of rotation axis     0.490743    0.826816   -0.274857
+ X-PLOR polars Phi Psi Kappa            -150.748     145.773     107.949
+ Lattmann Theta+ Theta2 Theta-            41.409     102.084    -241.381
+ Rotation angle                             107.949
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   27.674 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.028338 -0.723752 -0.689478
+                 0.152449 -0.684815  0.712592
+                -0.987905 -0.084917  0.129742
+ Translation :      5.084    -1.557     6.599
+ Maiorov-Crippen RHO (0-2)            =      1.27463
+ Estimated RMSD for 2 random proteins =     27.730 A
+ Relative RMSD                        =      0.99799
+ Normalised RMSD (100)                =     16.158 A
+ RMSD / Nalign                        =    0.06652 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   27.674 A
+ SI = RMS * Nmin / Nmatch             =     27.67406
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03487
+ CR = Maiorov-Crippen RHO (0-2)       =      1.27463
+ RR = relative RMSD                   =      0.99799
+ NR = normalised RMSD (100)           =     16.158 A
+ SAS(1) = cRMS * (100/Nmatch)         =      6.652 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.599 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.384 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.092 A
+ RMSD / Nalign                        =    0.06652 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.02833790 -0.72375226 -0.68947756
+                  0.15244940 -0.68481493  0.71259201
+                 -0.98790479 -0.08491711  0.12974183
+ Translation  :       5.0836     -1.5569      6.5994
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.0283379   -0.7237523   -0.6894776                  5.084
+                0.1524494   -0.6848149    0.7125920                 -1.557
+               -0.9879048   -0.0849171    0.1297418                  6.599
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma               134.056      82.545      -4.913
+ Spherical polars Omega Phi Chi           44.181     159.484     142.345
+ Direction cosines of rotation axis    -0.652730    0.244251    0.717137
+ X-PLOR polars Phi Psi Kappa              47.692     -75.862     142.345
+ Lattmann Theta+ Theta2 Theta-          -129.143      82.545     -41.032
+ Rotation angle                             142.345
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   26.718 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.070004  0.766786  0.638074
+                 0.288820  0.596667 -0.748713
+                -0.954821  0.236702 -0.179694
+ Translation :      4.824    -1.787     6.024
+ Maiorov-Crippen RHO (0-2)            =      1.24081
+ Estimated RMSD for 2 random proteins =     27.302 A
+ Relative RMSD                        =      0.97859
+ Normalised RMSD (100)                =     15.599 A
+ RMSD / Nalign                        =    0.06423 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   26.718 A
+ SI = RMS * Nmin / Nmatch             =     26.71788
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03608
+ CR = Maiorov-Crippen RHO (0-2)       =      1.24081
+ RR = relative RMSD                   =      0.97859
+ NR = normalised RMSD (100)           =     15.599 A
+ SAS(1) = cRMS * (100/Nmatch)         =      6.423 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.544 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.371 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.089 A
+ RMSD / Nalign                        =    0.06423 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.07000388  0.76678610  0.63807446
+                  0.28882015  0.59666729 -0.74871320
+                 -0.95482081  0.23670153 -0.17969421
+ Translation  :       4.8237     -1.7874      6.0242
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.0700039    0.7667861    0.6380745                  4.824
+                0.2888201    0.5966673   -0.7487132                 -1.787
+               -0.9548208    0.2367015   -0.1796942                  6.024
+ Determinant of rotation matrix         1.000001
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma               130.439    -100.352    -166.077
+ Spherical polars Omega Phi Chi          104.315      58.258     104.863
+ Direction cosines of rotation axis     0.509763    0.824018   -0.247256
+ X-PLOR polars Phi Psi Kappa            -154.125     145.489     104.863
+ Lattmann Theta+ Theta2 Theta-            35.638     100.352    -243.484
+ Rotation angle                             104.863
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   27.123 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.005701 -0.792250 -0.610171
+                 0.260244 -0.590330  0.764057
+                -0.965526 -0.154437  0.209544
+ Translation :      5.186    -1.818     6.752
+ Maiorov-Crippen RHO (0-2)            =      1.22699
+ Estimated RMSD for 2 random proteins =     27.932 A
+ Relative RMSD                        =      0.97106
+ Normalised RMSD (100)                =     15.836 A
+ RMSD / Nalign                        =    0.06520 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   27.123 A
+ SI = RMS * Nmin / Nmatch             =     27.12347
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03556
+ CR = Maiorov-Crippen RHO (0-2)       =      1.22699
+ RR = relative RMSD                   =      0.97106
+ NR = normalised RMSD (100)           =     15.836 A
+ SAS(1) = cRMS * (100/Nmatch)         =      6.520 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.567 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.377 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.091 A
+ RMSD / Nalign                        =    0.06520 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.00570119 -0.79224980 -0.61017054
+                  0.26024404 -0.59033018  0.76405728
+                 -0.96552616 -0.15443717  0.20954381
+ Translation  :       5.1856     -1.8181      6.7517
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.0057012   -0.7922498   -0.6101705                  5.186
+                0.2602440   -0.5903302    0.7640573                 -1.818
+               -0.9655262   -0.1544372    0.2095438                  6.752
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma               128.611      77.904      -9.088
+ Spherical polars Omega Phi Chi           43.098     158.849     133.887
+ Direction cosines of rotation axis    -0.637221    0.246534    0.730185
+ X-PLOR polars Phi Psi Kappa              48.889     -75.727     133.887
+ Lattmann Theta+ Theta2 Theta-          -119.523      77.904     -42.302
+ Rotation angle                             133.887
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/hq/pdb2hqs.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     TRANSPORT PROTEIN/LIPOPROTEIN           19-JUL-06   2HQS
+ TITLE  :     CRYSTAL STRUCTURE OF TOLB/PAL COMPLEX
+ KEYWDS :     TOLB, PAL, TOL, TRANSPORT PROTEIN-LIPOPROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     I.GRISHKOVSKAYA,D.A.BONSOR,C.KLEANTHOUS,E.J.DODSON
+ REVDAT :    4   13-JUL-11 2HQS    1       VERSN
+ REVDAT :    3   24-FEB-09 2HQS    1       VERSN
+ REVDAT :    2   24-APR-07 2HQS    1       JRNL
+ REVDAT :    1   03-APR-07 2HQS    0
+ CRYST1 :    74.847   89.049   91.051  87.15  89.62  68.81 P 1           4
+ Old chain |A| becomes chain A
+ Old chain |H| becomes chain B
+ Old chain |B| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |D| becomes chain E
+ Old chain |E| becomes chain F
+ Old chain |F| becomes chain G
+ Old chain |G| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |H| becomes chain J
+ Old chain |B| becomes chain K
+ Old chain |C| becomes chain L
+ Old chain |D| becomes chain M
+ Old chain |E| becomes chain N
+ Old chain |F| becomes chain O
+ Old chain |G| becomes chain P
+ Old chain |A| becomes chain Q
+ Old chain |H| becomes chain R
+ Old chain |B| becomes chain S
+ Old chain |C| becomes chain T
+ Old chain |D| becomes chain U
+ Old chain |E| becomes chain V
+ Old chain |F| becomes chain W
+ Old chain |G| becomes chain X
+ Nr of lines read from file : (      20043) 
+ Nr of atoms in molecule    : (      18702) 
+ Nr of chains or models     : (         24) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (       2912) 
+ Stripped alt. conf. atoms  : (        137) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       3854) 
+ Nr of atoms in molecule    : (       3850) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-439 B1-109
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        416) 
+ Nr skipped (B limits) : (          0) 
+
+ The    416 atoms have an RMS distance of   27.421 A
+ RMS delta B  =   14.657 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.065080 -0.613283  0.787178
+                 0.168054  0.770847  0.614453
+                -0.983627  0.172277  0.052898
+ Translation :      5.444    -1.500     6.980
+ Maiorov-Crippen RHO (0-2)            =      1.23481
+ Estimated RMSD for 2 random proteins =     28.109 A
+ Relative RMSD                        =      0.97551
+ Normalised RMSD (100)                =     16.010 A
+ RMSD / Nalign                        =    0.06592 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-439 B1-109 M2 A1 B1) 
+ The    416 atoms have an RMS distance of   27.421 A
+ SI = RMS * Nmin / Nmatch             =     27.42075
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03519
+ CR = Maiorov-Crippen RHO (0-2)       =      1.23481
+ RR = relative RMSD                   =      0.97551
+ NR = normalised RMSD (100)           =     16.010 A
+ SAS(1) = cRMS * (100/Nmatch)         =      6.592 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.585 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.381 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.092 A
+ RMSD / Nalign                        =    0.06592 A
+ RMS delta B for matched atoms        =    14.657 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.06508037 -0.61328274  0.78717768
+                  0.16805382  0.77084678  0.61445343
+                 -0.98362708  0.17227708  0.05289752
+ Translation  :       5.4441     -1.5003      6.9797
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.0650804   -0.6132827    0.7871777                  5.444
+                0.1680538    0.7708468    0.6144534                 -1.500
+               -0.9836271    0.1722771    0.0528975                  6.980
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                37.975      86.968       9.934
+ Spherical polars Omega Phi Chi           66.825     104.020      96.931
+ Direction cosines of rotation axis    -0.222716    0.891920    0.393544
+ X-PLOR polars Phi Psi Kappa              60.493     -26.885      96.931
+ Lattmann Theta+ Theta2 Theta-           -47.909      86.968    -151.959
+ Rotation angle                              96.931
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3850) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
  LSQMAN >  LSQMAN > 
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 
  Version - 081126/9.7.9
- Started - Sat Jul 20 09:59:50 2013
- Stopped - Sat Jul 20 09:59:50 2013
+ Started - Mon Aug 5 14:42:25 2013
+ Stopped - Mon Aug 5 14:42:27 2013
 
  CPU-time taken :
- User    -      0.0 Sys    -      0.0 Total   -      0.0
+ User    -      1.9 Sys    -      0.0 Total   -      2.0
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 

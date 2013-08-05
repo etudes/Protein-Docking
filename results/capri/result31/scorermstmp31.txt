@@ -7,11 +7,11 @@
  Others   - T.A. Jones, G. Bricogne, Rams, W.A. Hendrickson
  Others   - W. Kabsch, CCP4, PROTEIN, E. Dodson, etc. etc.
 
- Started  - Sun Jul 21 09:47:16 2013
+ Started  - Mon Aug 5 14:42:33 2013
  User     - A. Nonymous
  Mode     - interactive
  Host     - localhost (OSX/Apple)
- ProcID   - 25796
+ ProcID   - 14333
  Not using a tty as input device
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
@@ -108,7 +108,7 @@
 
  *** BLOSUM-45 substitution matrix loaded ***
 
- Symbol START_TIME : (Sun Jul 21 09:47:16 2013) 
+ Symbol START_TIME : (Mon Aug  5 14:42:33 2013) 
  Symbol USERNAME : ( ) 
 
  Initialising : (XVRML - 20051205/0.8) 
@@ -211,116 +211,1117 @@
  Max nr of atoms per molecule    : (     200000) 
  Max nr of atom types            : (         15) 
 
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   19.254 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.136254 -0.960452 -0.242830
+                -0.270299 -0.271858  0.923597
+                -0.953086 -0.060207 -0.296652
+ Translation :    -24.567     2.115     1.399
+ Maiorov-Crippen RHO (0-2)            =      1.30071
+ Estimated RMSD for 2 random proteins =     19.421 A
+ Relative RMSD                        =      0.99141
+ Normalised RMSD (100)                =     13.316 A
+ RMSD / Nalign                        =    0.07891 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   19.254 A
+ SI = RMS * Nmin / Nmatch             =     19.25441
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04937
+ CR = Maiorov-Crippen RHO (0-2)       =      1.30071
+ RR = relative RMSD                   =      0.99141
+ NR = normalised RMSD (100)           =     13.316 A
+ SAS(1) = cRMS * (100/Nmatch)         =      7.891 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.234 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.325 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.543 A
+ RMSD / Nalign                        =    0.07891 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.13625443 -0.96045220 -0.24282998
+                 -0.27029940 -0.27185795  0.92359710
+                 -0.95308608 -0.06020741 -0.29665151
+ Translation  :     -24.5670      2.1147      1.3987
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.1362544   -0.9604522   -0.2428300                -24.567
+               -0.2702994   -0.2718579    0.9235971                  2.115
+               -0.9530861   -0.0602074   -0.2966515                  1.399
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma               104.731     107.257      -3.615
+ Spherical polars Omega Phi Chi           60.370     144.173     135.736
+ Direction cosines of rotation axis    -0.704762    0.508802    0.494400
+ X-PLOR polars Phi Psi Kappa              35.050     -59.416     135.736
+ Lattmann Theta+ Theta2 Theta-          -101.116     107.257     -71.655
+ Rotation angle                             135.736
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   19.254 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.136254  0.960452  0.242830
+                -0.270299  0.271858 -0.923597
+                -0.953086  0.060207  0.296651
+ Translation :    -24.567     2.115     1.399
+ Maiorov-Crippen RHO (0-2)            =      1.30071
+ Estimated RMSD for 2 random proteins =     19.421 A
+ Relative RMSD                        =      0.99141
+ Normalised RMSD (100)                =     13.316 A
+ RMSD / Nalign                        =    0.07891 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   19.254 A
+ SI = RMS * Nmin / Nmatch             =     19.25441
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04937
+ CR = Maiorov-Crippen RHO (0-2)       =      1.30071
+ RR = relative RMSD                   =      0.99141
+ NR = normalised RMSD (100)           =     13.316 A
+ SAS(1) = cRMS * (100/Nmatch)         =      7.891 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.234 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.325 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.543 A
+ RMSD / Nalign                        =    0.07891 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.13625418  0.96045220  0.24282998
+                 -0.27029935  0.27185783 -0.92359704
+                 -0.95308608  0.06020720  0.29665133
+ Translation  :     -24.5670      2.1147      1.3987
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.1362542    0.9604522    0.2428300                -24.567
+               -0.2702993    0.2718578   -0.9235970                  2.115
+               -0.9530861    0.0602072    0.2966513                  1.399
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma               104.731     -72.743    -176.385
+ Spherical polars Omega Phi Chi          128.476      50.558      98.489
+ Direction cosines of rotation axis     0.497351    0.604582   -0.622192
+ X-PLOR polars Phi Psi Kappa            -128.637     127.199      98.489
+ Lattmann Theta+ Theta2 Theta-            71.655      72.743    -258.884
+ Rotation angle                              98.489
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   19.254 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.136255 -0.690522  0.710362
+                -0.270296  0.663931  0.697234
+                -0.953087 -0.287009 -0.096182
+ Translation :    -24.567     2.115     1.399
+ Maiorov-Crippen RHO (0-2)            =      1.30071
+ Estimated RMSD for 2 random proteins =     19.421 A
+ Relative RMSD                        =      0.99141
+ Normalised RMSD (100)                =     13.316 A
+ RMSD / Nalign                        =    0.07891 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   19.254 A
+ SI = RMS * Nmin / Nmatch             =     19.25445
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04937
+ CR = Maiorov-Crippen RHO (0-2)       =      1.30071
+ RR = relative RMSD                   =      0.99141
+ NR = normalised RMSD (100)           =     13.316 A
+ SAS(1) = cRMS * (100/Nmatch)         =      7.891 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.234 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.325 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.543 A
+ RMSD / Nalign                        =    0.07891 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.13625467 -0.69052190  0.71036196
+                 -0.27029610  0.66393143  0.69723380
+                 -0.95308685 -0.28700942 -0.09618161
+ Translation  :     -24.5670      2.1147      1.3987
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.1362547   -0.6905219    0.7103620                -24.567
+               -0.2702961    0.6639314    0.6972338                  2.115
+               -0.9530869   -0.2870094   -0.0961816                  1.399
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                44.466      95.519     -16.759
+ Spherical polars Omega Phi Chi           77.734     120.612      98.511
+ Direction cosines of rotation axis    -0.497601    0.840986    0.212452
+ X-PLOR polars Phi Psi Kappa              23.120     -32.756      98.511
+ Lattmann Theta+ Theta2 Theta-           -27.707      95.519    -118.775
+ Rotation angle                              98.511
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   19.254 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.136254  0.690522 -0.710362
+                -0.270296 -0.663932 -0.697234
+                -0.953087  0.287009  0.096182
+ Translation :    -24.567     2.115     1.399
+ Maiorov-Crippen RHO (0-2)            =      1.30071
+ Estimated RMSD for 2 random proteins =     19.421 A
+ Relative RMSD                        =      0.99141
+ Normalised RMSD (100)                =     13.316 A
+ RMSD / Nalign                        =    0.07891 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   19.254 A
+ SI = RMS * Nmin / Nmatch             =     19.25445
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04937
+ CR = Maiorov-Crippen RHO (0-2)       =      1.30071
+ RR = relative RMSD                   =      0.99141
+ NR = normalised RMSD (100)           =     13.316 A
+ SAS(1) = cRMS * (100/Nmatch)         =      7.891 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.234 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.325 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.543 A
+ RMSD / Nalign                        =    0.07891 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.13625443  0.69052190 -0.71036202
+                 -0.27029622 -0.66393155 -0.69723368
+                 -0.95308691  0.28700933  0.09618183
+ Translation  :     -24.5670      2.1147      1.3987
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.1362544    0.6905219   -0.7103620                -24.567
+               -0.2702962   -0.6639315   -0.6972337                  2.115
+               -0.9530869    0.2870093    0.0961818                  1.399
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                44.466     -84.481    -163.241
+ Spherical polars Omega Phi Chi          133.465      13.853     135.705
+ Direction cosines of rotation axis     0.704683    0.173782   -0.687911
+ X-PLOR polars Phi Psi Kappa            -135.690     100.008     135.705
+ Lattmann Theta+ Theta2 Theta-          -241.225      84.481      27.707
+ Rotation angle                             135.704
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   22.161 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.117777  0.950625 -0.287124
+                -0.622692 -0.154531 -0.767056
+                -0.773552  0.269131  0.573747
+ Translation :    -25.604    12.375     5.974
+ Maiorov-Crippen RHO (0-2)            =      1.52069
+ Estimated RMSD for 2 random proteins =     20.260 A
+ Relative RMSD                        =      1.09379
+ Normalised RMSD (100)                =     15.326 A
+ RMSD / Nalign                        =    0.09082 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   22.161 A
+ SI = RMS * Nmin / Nmatch             =     22.16075
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04318
+ CR = Maiorov-Crippen RHO (0-2)       =      1.52069
+ RR = relative RMSD                   =      1.09379
+ NR = normalised RMSD (100)           =     15.326 A
+ SAS(1) = cRMS * (100/Nmatch)         =      9.082 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.722 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.526 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.625 A
+ RMSD / Nalign                        =    0.09082 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.11777701  0.95062536 -0.28712368
+                 -0.62269241 -0.15453090 -0.76705569
+                 -0.77355206  0.26913124  0.57374698
+ Translation  :     -25.6038     12.3750      5.9743
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.1177770    0.9506254   -0.2871237                -25.604
+               -0.6226924   -0.1545309   -0.7670557                 12.375
+               -0.7735521    0.2691312    0.5737470                  5.974
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                69.478     -54.988    -160.816
+ Spherical polars Omega Phi Chi          143.962      25.147     103.386
+ Direction cosines of rotation axis     0.532561    0.250006   -0.808626
+ X-PLOR polars Phi Psi Kappa            -123.369     104.478     103.386
+ Lattmann Theta+ Theta2 Theta-          -268.662      54.988      50.295
+ Rotation angle                             103.386
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.0       1.0       0.0
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   18.625 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.817946 -0.051937  0.572945
+                -0.101496  0.967267  0.232580
+                -0.566271 -0.248390  0.785901
+ Translation :    -36.228     1.322    -0.547
+ Maiorov-Crippen RHO (0-2)            =      1.34255
+ Estimated RMSD for 2 random proteins =     18.218 A
+ Relative RMSD                        =      1.02232
+ Normalised RMSD (100)                =     12.880 A
+ RMSD / Nalign                        =    0.07633 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   18.625 A
+ SI = RMS * Nmin / Nmatch             =     18.62454
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.05096
+ CR = Maiorov-Crippen RHO (0-2)       =      1.34255
+ RR = relative RMSD                   =      1.02232
+ NR = normalised RMSD (100)           =     12.880 A
+ SAS(1) = cRMS * (100/Nmatch)         =      7.633 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.128 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.282 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.525 A
+ RMSD / Nalign                        =    0.07633 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.81794626 -0.05193717  0.57294530
+                 -0.10149629  0.96726668  0.23257998
+                 -0.56627053 -0.24838975  0.78590077
+ Translation  :     -36.2284      1.3219     -0.5470
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.8179463   -0.0519372    0.5729453                -36.228
+               -0.1014963    0.9672667    0.2325800                  1.322
+               -0.5662705   -0.2483898    0.7859008                 -0.547
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma                22.094      38.196     -23.684
+ Spherical polars Omega Phi Chi           92.295     112.889      38.228
+ Direction cosines of rotation axis    -0.388638    0.920520   -0.040045
+ X-PLOR polars Phi Psi Kappa              -5.883     -22.998      38.228
+ Lattmann Theta+ Theta2 Theta-             1.590      38.196    -134.222
+ Rotation angle                              38.228
+ CPU total/user/sys :       1.0       1.0       0.0
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ CPU total/user/sys :       1.0       1.0       0.0
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.0       1.0       0.0
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   22.122 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.036642  0.821890 -0.568466
+                -0.800939 -0.316032 -0.508547
+                -0.597624  0.473941  0.646704
+ Translation :    -22.471    15.826     2.420
+ Maiorov-Crippen RHO (0-2)            =      1.51712
+ Estimated RMSD for 2 random proteins =     20.254 A
+ Relative RMSD                        =      1.09221
+ Normalised RMSD (100)                =     15.299 A
+ RMSD / Nalign                        =    0.09066 A
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   22.122 A
+ SI = RMS * Nmin / Nmatch             =     22.12219
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04325
+ CR = Maiorov-Crippen RHO (0-2)       =      1.51712
+ RR = relative RMSD                   =      1.09221
+ NR = normalised RMSD (100)           =     15.299 A
+ SAS(1) = cRMS * (100/Nmatch)         =      9.066 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.716 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.523 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.624 A
+ RMSD / Nalign                        =    0.09066 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.03664199  0.82189006 -0.56846648
+                 -0.80093914 -0.31603244 -0.50854695
+                 -0.59762353  0.47394124  0.64670384
+ Translation  :     -22.4712     15.8256      2.4200
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.0366420    0.8218901   -0.5684665                -22.471
+               -0.8009391   -0.3160324   -0.5085469                 15.826
+               -0.5976235    0.4739412    0.6467038                  2.420
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                41.816     -49.706    -141.584
+ Spherical polars Omega Phi Chi          148.797       1.700     108.442
+ Direction cosines of rotation axis     0.517838    0.015368   -0.855341
+ X-PLOR polars Phi Psi Kappa            -121.191      90.881     108.442
+ Lattmann Theta+ Theta2 Theta-          -260.232      49.706       3.400
+ Rotation angle                             108.442
+ CPU total/user/sys :       1.0       1.0       0.0
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Deleted : (M1) 
+ CPU total/user/sys :       1.0       1.0       0.0
+ LSQMAN >  Deleted : (M2) 
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   19.829 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.041953 -0.821317  0.568928
+                -0.801925  0.311970  0.509501
+                -0.595950 -0.477612 -0.645547
+ Translation :    -22.438    13.201     0.422
+ Maiorov-Crippen RHO (0-2)            =      1.44370
+ Estimated RMSD for 2 random proteins =     18.507 A
+ Relative RMSD                        =      1.07140
+ Normalised RMSD (100)                =     13.713 A
+ RMSD / Nalign                        =    0.08127 A
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   19.829 A
+ SI = RMS * Nmin / Nmatch             =     19.82878
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04801
+ CR = Maiorov-Crippen RHO (0-2)       =      1.44370
+ RR = relative RMSD                   =      1.07140
+ NR = normalised RMSD (100)           =     13.713 A
+ SAS(1) = cRMS * (100/Nmatch)         =      8.127 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.331 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.365 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.559 A
+ RMSD / Nalign                        =    0.08127 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.04195251 -0.82131702  0.56892765
+                 -0.80192500  0.31197017  0.50950092
+                 -0.59595013 -0.47761208 -0.64554662
+ Translation  :     -22.4385     13.2012      0.4223
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.0419525   -0.8213170    0.5689276                -22.438
+               -0.8019250    0.3119702    0.5095009                 13.201
+               -0.5959501   -0.4776121   -0.6455466                  0.422
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                41.846     130.207     -38.710
+ Spherical polars Omega Phi Chi           89.272     130.278     130.227
+ Direction cosines of rotation axis    -0.646442    0.762857    0.012699
+ X-PLOR polars Phi Psi Kappa               1.125     -40.283     130.227
+ Lattmann Theta+ Theta2 Theta-            -3.136     130.207     -99.444
+ Rotation angle                             130.227
+ CPU total/user/sys :       1.3       1.3       0.0
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Deleted : (M1) 
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Deleted : (M2) 
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.6       1.6       0.0
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   17.892 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.325162 -0.925236 -0.195471
+                -0.774243 -0.379156  0.506743
+                -0.542971 -0.013431 -0.839644
+ Translation :    -26.400    11.116    -0.809
+ Maiorov-Crippen RHO (0-2)            =      1.31890
+ Estimated RMSD for 2 random proteins =     17.651 A
+ Relative RMSD                        =      1.01363
+ Normalised RMSD (100)                =     12.373 A
+ RMSD / Nalign                        =    0.07333 A
+ CPU total/user/sys :       1.6       1.6       0.0
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   17.892 A
+ SI = RMS * Nmin / Nmatch             =     17.89164
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.05293
+ CR = Maiorov-Crippen RHO (0-2)       =      1.31890
+ RR = relative RMSD                   =      1.01363
+ NR = normalised RMSD (100)           =     12.373 A
+ SAS(1) = cRMS * (100/Nmatch)         =      7.333 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.005 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.232 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.505 A
+ RMSD / Nalign                        =    0.07333 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.32516205 -0.92523551 -0.19547126
+                 -0.77424312 -0.37915561  0.50674319
+                 -0.54297078 -0.01343140 -0.83964425
+ Translation  :     -26.4001     11.1160     -0.8087
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.3251621   -0.9252355   -0.1954713                -26.400
+               -0.7742431   -0.3791556    0.5067432                 11.116
+               -0.5429708   -0.0134314   -0.8396443                 -0.809
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma               111.094     147.103      -1.417
+ Spherical polars Omega Phi Chi           76.430     146.255     161.230
+ Direction cosines of rotation axis    -0.808310    0.539986    0.234630
+ X-PLOR polars Phi Psi Kappa              16.187     -57.317     161.230
+ Lattmann Theta+ Theta2 Theta-          -109.677     147.103     -67.489
+ Rotation angle                             161.230
+ CPU total/user/sys :       1.3       1.3       0.0
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/jp/pdb2jph.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ CPU total/user/sys :       1.6       1.6       0.0
+ LSQMAN >  Deleted : (M1) 
+ CPU total/user/sys :       1.3       1.3       0.0
+ LSQMAN >  Deleted : (M2) 
+ CPU total/user/sys :       1.6       1.6       0.0
+ LSQMAN >  HEADER :     SIGNALING PROTEIN, PROTEIN BINDING      11-MAY-07   2JPH
+ TITLE  :     NMR SOLUTION STRUCTURE OF THE RHO GTPASE BINDING DOMAIN OF
+ TITLE  :    2 HUMAN PLEXIN-B1
+ KEYWDS :     PROTEIN, UBIQUITIN FOLD, SIGNALING PROTEIN, PROTEIN BINDING
+ EXPDTA :     SOLUTION NMR
+ AUTHOR :     Y.TONG,M.BUCK
+ REVDAT :    2   24-FEB-09 2JPH    1       VERSN
+ REVDAT :    1   18-MAR-08 2JPH    0
+ CRYST1 :     1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+ Multiple NMR models
+ NMR model   1 becomes chain A
+ NMR model   2 becomes chain B
+ NMR model   3 becomes chain C
+ NMR model   4 becomes chain D
+ NMR model   5 becomes chain E
+ NMR model   6 becomes chain F
+ NMR model   7 becomes chain G
+ NMR model   8 becomes chain H
+ NMR model   9 becomes chain I
+ NMR model  10 becomes chain J
+ NMR model  11 becomes chain K
+ NMR model  12 becomes chain L
+ NMR model  13 becomes chain M
+ NMR model  14 becomes chain N
+ NMR model  15 becomes chain O
+ NMR model  16 becomes chain P
+ NMR model  17 becomes chain Q
+ NMR model  18 becomes chain R
+ NMR model  19 becomes chain S
+ NMR model  20 becomes chain T
+ Nr of lines read from file : (      38709) 
+ Nr of atoms in molecule    : (      21260) 
+ Nr of chains or models     : (         20) 
+ Stripped hydrogen atoms    : (      17020) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.7       1.7       0.0
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       2344) 
+ Nr of atoms in molecule    : (       2340) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ CPU total/user/sys :       1.7       1.7       0.0
+ LSQMAN >  Explicit fit of M1 A1-186 B1-123
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        244) 
+ Nr skipped (B limits) : (          0) 
+
+ The    244 atoms have an RMS distance of   19.405 A
+ RMS delta B  =    1.000 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.748660  0.211313  0.628375
+                -0.391050  0.906146  0.161183
+                -0.535339 -0.366398  0.761029
+ Translation :    -34.191     6.651    -0.442
+ Maiorov-Crippen RHO (0-2)            =      1.42738
+ Estimated RMSD for 2 random proteins =     18.210 A
+ Relative RMSD                        =      1.06561
+ Normalised RMSD (100)                =     13.419 A
+ RMSD / Nalign                        =    0.07953 A
+ CPU total/user/sys :       1.7       1.7       0.0
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-186 B1-123 M2 A1 B1) 
+ The    244 atoms have an RMS distance of   19.405 A
+ SI = RMS * Nmin / Nmatch             =     19.40453
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04901
+ CR = Maiorov-Crippen RHO (0-2)       =      1.42738
+ RR = relative RMSD                   =      1.06561
+ NR = normalised RMSD (100)           =     13.419 A
+ SAS(1) = cRMS * (100/Nmatch)         =      7.953 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      3.259 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      1.336 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.547 A
+ RMSD / Nalign                        =    0.07953 A
+ RMS delta B for matched atoms        =     1.000 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.74865967  0.21131308  0.62837529
+                 -0.39105046  0.90614551  0.16118282
+                 -0.53533936 -0.36639750  0.76102865
+ Translation  :     -34.1914      6.6513     -0.4419
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.7486597    0.2113131    0.6283753                -34.191
+               -0.3910505    0.9061455    0.1611828                  6.651
+               -0.5353394   -0.3663975    0.7610286                 -0.442
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma                14.387      40.445     -34.389
+ Spherical polars Omega Phi Chi          115.241     114.388      44.934
+ Direction cosines of rotation axis    -0.373484    0.823815   -0.426424
+ X-PLOR polars Phi Psi Kappa             -48.786     -34.531      44.934
+ Lattmann Theta+ Theta2 Theta-            20.002      40.445    -131.225
+ Rotation angle                              44.934
+ CPU total/user/sys :       1.7       1.7       0.0
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       2340) 
+ Resetting ALL operators of mol 2 ...
+ CPU total/user/sys :       1.7       1.7       0.0
+ LSQMAN >  Deleted : (M1) 
+ CPU total/user/sys :       1.7       1.7       0.0
+ LSQMAN >  Deleted : (M2) 
+ CPU total/user/sys :       1.7       1.7       0.0
  LSQMAN >  LSQMAN > 
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 
  Version - 081126/9.7.9
- Started - Sun Jul 21 09:47:16 2013
- Stopped - Sun Jul 21 09:47:16 2013
+ Started - Mon Aug 5 14:42:33 2013
+ Stopped - Mon Aug 5 14:42:36 2013
 
  CPU-time taken :
- User    -      0.0 Sys    -      0.0 Total   -      0.0
+ User    -      3.3 Sys    -      0.0 Total   -      3.3
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 

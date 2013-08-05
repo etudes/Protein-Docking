@@ -1,0 +1,1143 @@
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ Version  - 081126/9.7.9
+ (c) 1992-2009 Gerard J. Kleywegt, Dept. Cell Mol. Biol., Uppsala (SE)
+ User I/O - routines courtesy of Rolf Boelens, Univ. of Utrecht (NL)
+ Others   - T.A. Jones, G. Bricogne, Rams, W.A. Hendrickson
+ Others   - W. Kabsch, CCP4, PROTEIN, E. Dodson, etc. etc.
+
+ Started  - Mon Aug 5 14:42:57 2013
+ User     - A. Nonymous
+ Mode     - interactive
+ Host     - localhost (OSX/Apple)
+ ProcID   - 14416
+ Not using a tty as input device
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ Reference(s) for this program:
+
+ *  1 * G.J. Kleywegt & T.A. Jones (1994).  Halloween ... Masks and
+        Bones. In "From First Map to Final Model", edited by
+        S. Bailey, R. Hubbard and D. Waller.  SERC Daresbury
+        Laboratory, Warrington, pp. 59-66.
+        [http://xray.bmc.uu.se/gerard/papers/halloween.html]
+
+ *  2 * G.J. Kleywegt & T.A. Jones (1994). A super position.
+        CCP4/ESF-EACBM Newsletter on Protein Crystallography 31,
+        November 1994, pp. 9-14.
+        [http://xray.bmc.uu.se/usf/factory_4.html]
+
+ *  3 * G.J. Kleywegt & T.A. Jones (1995). Where freedom is given,
+        liberties are taken. Structure 3, 535-540.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=8590014&dopt=Citation]
+
+ *  4 * G.J. Kleywegt (1996). Use of non-crystallographic symmetry
+        in protein structure refinement. Acta Cryst D52, 842-857.
+        [http://scripts.iucr.org/cgi-bin/paper?gr0471]
+
+ *  5 * G.J. Kleywegt (1996). Making the most of your search model.
+        CCP4/ESF-EACBM Newsletter on Protein Crystallography 32,
+        June 1996, pp. 32-36.
+        [http://xray.bmc.uu.se/usf/factory_6.html]
+
+ *  6 * G.J. Kleywegt & T.A. Jones (1996). Phi/Psi-chology:
+        Ramachandran revisited. Structure 4, 1395-1400.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=8994966&dopt=Citation]
+
+ *  7 * G.J. Kleywegt & T.A. Jones (1997). Detecting folding motifs
+        and similarities in protein structures. Methods in
+        Enzymology 277, 525-545.
+
+ *  8 * T.A. Jones & G.J. Kleywegt (1999). CASP3 comparative
+        modelling evaluation.
+        Proteins: Struct. Funct. Genet. Suppl. 3, 30-46.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=10526350&dopt=Citation]
+        [http://xray.bmc.uu.se/casp3]
+
+ *  9 * G.J. Kleywegt (1999). Experimental assessment of
+        differences between related protein crystal structures.
+        Acta Cryst. D55, 1878-1857.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=10531486&dopt=Citation]
+        [http://scripts.iucr.org/cgi-bin/paper?se0283]
+
+ * 10 * Y.W. Chen, E.J. Dodson & G.J. Kleywegt (2000). Does NMR
+        mean "Not for Molecular Replacement" ? Using NMR-based
+        search models to solve protein crystal structures.
+        Structure 8, R213-R220.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=11080645&dopt=Citation]
+
+ * 11 * D. Madsen & G.J. Kleywegt (2002). Interactive motif and
+        fold recognition in protein structures. J. Appl. Cryst.
+        35, 137-139.
+        [http://scripts.iucr.org/cgi-bin/paper?wt0007]
+
+ * 12 * M. Novotny, D. Madsen & G.J. Kleywegt (2004). An evaluation
+        of protein-fold-comparison servers. Proteins, 54, 260-270
+        (2004).
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=14696188&dopt=Citation]
+
+ * 13 * M.L. Sierk & G.J. Kleywegt (2004). Deja vu all over again:
+        finding and analyzing protein structure similarities.
+        Structure 12, 2103-2111.
+        [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=15576025&dopt=Citation]
+
+ * 14 * Kleywegt, G.J., Zou, J.Y., Kjeldgaard, M. & Jones, T.A. (2001).
+        Around O. In: "International Tables for Crystallography, Vol. F.
+        Crystallography of Biological Macromolecules" (Rossmann, M.G.
+        & Arnold, E., Editors). Chapter 17.1, pp. 353-356, 366-367.
+        Dordrecht: Kluwer Academic Publishers, The Netherlands.
+
+ ==> For manuals and up-to-date references, visit:
+ ==>     http://xray.bmc.uu.se/usf
+ ==> For reprints, visit:
+ ==>     http://xray.bmc.uu.se/gerard
+ ==> For downloading up-to-date versions, visit:
+ ==>     ftp://xray.bmc.uu.se/pub/gerard
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ Allocate buffer arrays of size  : (    1000000) 
+
+ Max nr of molecules             : (          8) 
+ Max nr of residues per molecule : (      30000) 
+ Max nr of atoms per molecule    : (     200000) 
+ Max nr of atom types            : (         15) 
+ Max nr of chains/models per mol : (         26) 
+
+ *** BLOSUM-45 substitution matrix loaded ***
+
+ Symbol START_TIME : (Mon Aug  5 14:42:57 2013) 
+ Symbol USERNAME : ( ) 
+
+ Initialising : (XVRML - 20051205/0.8) 
+ Nr of predefined colours : (        411) 
+
+
+ LSQMAN options :
+
+ ? (list options)                     ! (comment)
+ QUit                                 $ shell_command
+ & symbol value                       & ? (list symbols)
+ @ macro_file                         ECho on_off
+ # parameter(s) (command history)     
+
+ REad mol pdb_file [chain] [atom]     WRite mol pdb_file [chain] [first] [last]
+ DElete mol                           ANnotate mol comment_string
+ LIst [mol]                           CHain_mode mode
+ TYpe_residues mol                    BFactor_range b_lo b_hi
+ FRactionalise mol                    ORthogonalise mol
+ CEll mol a b c al be ga              SUbtract_ave_b mol
+ HYdrogens keep_or_strip              HEtatm keep_or_strip
+ NMr_model_mode all_or_first          AA_substitution_matrix filename
+
+ ALter CHain_id mol chain new_chain   ALter SEgid mol segid new_segid
+ ALter FOrce mol chain new_segid      ALter SAme mol chain
+ ALter REnumber mol chain [first]     
+
+ EXplicit mol1 range1 mol2 range2     NWunsch mol1 chain1 mol2 chain2 gap
+ BRute_force mol1 chain1 mol2 chain2 frag_length frag_step min_match [S|D] [slide_step]
+ FAst_force  mol1 chain1 mol2 chain2 frag_length frag_step min_match [S|D] [slide_step]
+ XAlignment mol1 chain1 mol2 chain2 pir_alignment_file
+
+ IMprove mol1 range1 mol2 range2      
+ DP_improve mol1 chain1 mol2 chain2 mode cut_off max_cycles [verbose]
+
+ GLobal_nw mol1 chain1 mol2 chain2 cut_off [log_file]
+
+ EDit_operator mol1 mol2 val1 ...     SHow_operator mol1 mol2
+ SAve_operator mol1 mol2 file [name]  PErturb_operator mol1 mol2 [amplitude]
+ APply_operator mol1 mol2_to_move [chain] [first] [last]
+ OLd_o_operator mol1 mol2 file        RMsd_calc mol1 range1 mol2 range2 [Ltarget]
+ WAters mol1 mol2 cut_off plot_file   HIsto_dist mol1 mol2 cut_off bin
+
+ MOrph mol1 range1 mol2 range2 nsteps basename type oid range3 cutoff
+ SImilarity_plot mol1 chain1 mol2 chain2 plot_file [start] [end] [step]
+ LEsk_plot mol1 chain1 mol2 chain2 plot_file
+ PHipsi_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ ETa_theta_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ DIstance_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ DDihe_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ D1_D2_plot mol1 range1 mol2 range2 plot_file [cut-off] [hist_bin] [hist_max]
+ QDiff_dist_plot mol1 range1 mol2 range2 2d_plot_file
+ DChi mol1 range1 mol2 range2 [cut-off] 
+ SOap_film mol1 chain1 mol2 chain2 odl_file [verbose]
+
+ MCentral mol residue_range exp_imp [rt_file]  
+ MAlign mol residue_range exp_imp chain
+ MDihedral mol chain plot_file [cut]  MRamachandran mol chain ps_file [cut] [how]
+ MSide_ch mol chain plot_file [cut]   MTorsion mol chain ps_file [cut] [how]
+ VMain_ch mol chain plot_file [cut]   VSide_ch mol chain plot_file [cut]
+ MPlot mol chain plot_file ps_file [dmax_black] [cut_dist_print]
+ MBfactors mol chain plot_file [cut]  
+
+ JUdge target tchn parent pchn model mchn dist phi chi 
+ CAsp target tchn model mchn [start] [end] [step]
+
+ GEt XYz mol chain x y z radius symbol_name [O_macro]
+
+ FIx_atom_names mol1 range1 mol2 range2 mode how what [min_gain] [cut_off]
+ NOmenclature mol                     INvert_ncs infile outfile
+ NUcleic_acid_pdb_nomenclature mol    
+
+ ATom_types ?                         ATom_types CA
+ ATom_types MAin_chain                ATom_types SIde_chain
+ ATom_types EXtended_main_chain       ATom_types ALl
+ ATom_types NOn_hydrogen              ATom_types DEfine type1 [type2 ...]
+ ATom_types PHosphorous               ATom_types TRace_and_side_chain
+ ATom_types C4*                       ATom_types NUcleic_acid_backbone
+
+ SEt ?                                SEt REset_defaults
+ SEt COarse_6A_fit_defaults           SEt INtermediate_4A_fit_defaults
+ SEt FIne_tune_3A_fit_defaults        SEt SImilar_mols_2A_fit_defaults
+
+ SEt MAx_nr_improve_cycles value      SEt DIst_max value
+ SEt MIn_fragment_length value        SEt DEcay value
+ SEt OPtimisation_criterion value     SEt SEquential_hits on_off
+ SEt RMs_weight value                 SEt FRagment_length_decay value
+ SEt SHift_correction on_off          SEt NUcleic_acid_defaults
+
+ OMacro INit mol1 file                OMacro APpend mol2
+ OMacro WRite o_command_string        OMacro CLose_file
+ OMacro DEfine central_atom max_dist connect_file
+
+ VRml SEtup central_atom max_dist backgr_col default_col
+ VRml INit [vrml_file]                VRml COlour_list
+ VRml ADd mol [chain] [colour]        VRml ALl_chains mol
+
+ Max nr of molecules             : (          8) 
+ Max nr of residues per molecule : (      30000) 
+ Max nr of atoms per molecule    : (     200000) 
+ Max nr of atom types            : (         15) 
+
+ LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5573) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   38.285 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.499903 -0.007613  0.866048
+                -0.616269  0.699471  0.361874
+                -0.608531 -0.714621  0.344976
+ Translation :    -56.373    59.522    34.567
+ Maiorov-Crippen RHO (0-2)            =      1.52382
+ Estimated RMSD for 2 random proteins =     34.026 A
+ Relative RMSD                        =      1.12514
+ Normalised RMSD (100)                =     22.852 A
+ RMSD / Nalign                        =    0.09918 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   38.285 A
+ SI = RMS * Nmin / Nmatch             =     38.28460
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.02546
+ CR = Maiorov-Crippen RHO (0-2)       =      1.52382
+ RR = relative RMSD                   =      1.12514
+ NR = normalised RMSD (100)           =     22.852 A
+ SAS(1) = cRMS * (100/Nmatch)         =      9.918 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      2.570 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.666 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.172 A
+ RMSD / Nalign                        =    0.09918 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.49990314 -0.00761333  0.86604798
+                 -0.61626911  0.69947106  0.36187395
+                 -0.60853052 -0.71462053  0.34497589
+ Translation  :     -56.3734     59.5218     34.5675
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.4999031   -0.0076133    0.8660480                -56.373
+               -0.6162691    0.6994711    0.3618740                 59.522
+               -0.6085305   -0.7146205    0.3449759                 34.567
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                22.677      69.820     -49.584
+ Spherical polars Omega Phi Chi          108.437     126.131      74.206
+ Direction cosines of rotation axis    -0.559365    0.766216   -0.316268
+ X-PLOR polars Phi Psi Kappa             -29.484     -39.985      74.206
+ Lattmann Theta+ Theta2 Theta-            26.907      69.820    -107.738
+ Rotation angle                              74.206
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5572) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   28.576 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.639666 -0.444711 -0.626944
+                -0.718892 -0.634827 -0.283177
+                -0.272069  0.631843 -0.725777
+ Translation :    -54.166    58.049    30.294
+ Maiorov-Crippen RHO (0-2)            =      1.05027
+ Estimated RMSD for 2 random proteins =     33.101 A
+ Relative RMSD                        =      0.86331
+ Normalised RMSD (100)                =     17.057 A
+ RMSD / Nalign                        =    0.07403 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   28.576 A
+ SI = RMS * Nmin / Nmatch             =     28.57648
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03381
+ CR = Maiorov-Crippen RHO (0-2)       =      1.05027
+ RR = relative RMSD                   =      0.86331
+ NR = normalised RMSD (100)           =     17.057 A
+ SAS(1) = cRMS * (100/Nmatch)         =      7.403 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.918 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.497 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.129 A
+ RMSD / Nalign                        =    0.07403 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.63966650 -0.44471145 -0.62694365
+                 -0.71889150 -0.63482726 -0.28317678
+                 -0.27206898  0.63184321 -0.72577709
+ Translation  :     -54.1658     58.0493     30.2944
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.6396665   -0.4447114   -0.6269436                -54.166
+               -0.7188915   -0.6348273   -0.2831768                 58.049
+               -0.2720690    0.6318432   -0.7257771                 30.294
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                24.308    -136.534    -113.297
+ Spherical polars Omega Phi Chi          105.609     -21.198     149.369
+ Direction cosines of rotation axis     0.897954   -0.348256   -0.269066
+ X-PLOR polars Phi Psi Kappa            -163.319      69.619     149.369
+ Lattmann Theta+ Theta2 Theta-          -271.011     136.534     -42.396
+ Rotation angle                             149.369
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5572) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   29.380 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.529456  0.841794  0.105162
+                -0.768265  0.528357 -0.361397
+                -0.359785  0.110551  0.926463
+ Translation :    -51.248    59.294    30.679
+ Maiorov-Crippen RHO (0-2)            =      1.11294
+ Estimated RMSD for 2 random proteins =     32.554 A
+ Relative RMSD                        =      0.90251
+ Normalised RMSD (100)                =     17.537 A
+ RMSD / Nalign                        =    0.07612 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   29.380 A
+ SI = RMS * Nmin / Nmatch             =     29.38040
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.03292
+ CR = Maiorov-Crippen RHO (0-2)       =      1.11294
+ RR = relative RMSD                   =      0.90251
+ NR = normalised RMSD (100)           =     17.537 A
+ SAS(1) = cRMS * (100/Nmatch)         =      7.612 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.972 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.511 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.132 A
+ RMSD / Nalign                        =    0.07612 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.52945620  0.84179384  0.10516210
+                 -0.76826483  0.52835721 -0.36139664
+                 -0.35978466  0.11055134  0.92646271
+ Translation  :     -51.2477     59.2945     30.6789
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.5294562    0.8417938    0.1051621                -51.248
+               -0.7682648    0.5283572   -0.3613966                 59.294
+               -0.3597847    0.1105513    0.9264627                 30.679
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma               106.224     -22.110    -162.919
+ Spherical polars Omega Phi Chi          157.634      44.572      60.519
+ Direction cosines of rotation axis     0.271073    0.267052   -0.924771
+ X-PLOR polars Phi Psi Kappa            -106.337     105.489      60.519
+ Lattmann Theta+ Theta2 Theta-            56.695      22.110    -270.856
+ Rotation angle                              60.519
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5573) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   36.285 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.669000 -0.289554  0.684541
+                -0.427579  0.603408  0.673108
+                -0.607959 -0.743005  0.279873
+ Translation :    -61.505    52.936    34.453
+ Maiorov-Crippen RHO (0-2)            =      1.41608
+ Estimated RMSD for 2 random proteins =     33.818 A
+ Relative RMSD                        =      1.07295
+ Normalised RMSD (100)                =     21.659 A
+ RMSD / Nalign                        =    0.09400 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   36.285 A
+ SI = RMS * Nmin / Nmatch             =     36.28546
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.02682
+ CR = Maiorov-Crippen RHO (0-2)       =      1.41608
+ RR = relative RMSD                   =      1.07295
+ NR = normalised RMSD (100)           =     21.659 A
+ SAS(1) = cRMS * (100/Nmatch)         =      9.400 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      2.435 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.631 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.163 A
+ RMSD / Nalign                        =    0.09400 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.66900039 -0.28955439  0.68454111
+                 -0.42757943  0.60340786  0.67310816
+                 -0.60795891 -0.74300539  0.27987260
+ Translation  :     -61.5050     52.9365     34.4527
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.6690004   -0.2895544    0.6845411                -61.505
+               -0.4275794    0.6034079    0.6731082                 52.936
+               -0.6079589   -0.7430054    0.2798726                 34.453
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma                44.518      73.747     -50.708
+ Spherical polars Omega Phi Chi           94.118     137.613      73.970
+ Direction cosines of rotation axis    -0.736702    0.672395   -0.071804
+ X-PLOR polars Phi Psi Kappa              -5.567     -47.748      73.970
+ Lattmann Theta+ Theta2 Theta-             6.191      73.747     -84.774
+ Rotation angle                              73.970
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5572) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   22.151 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.956559 -0.039179  0.288896
+                -0.153335  0.775194  0.612831
+                -0.247960 -0.630507  0.735511
+ Translation :    -58.057    44.477    29.132
+ Maiorov-Crippen RHO (0-2)            =      0.81010
+ Estimated RMSD for 2 random proteins =     31.835 A
+ Relative RMSD                        =      0.69579
+ Normalised RMSD (100)                =     13.222 A
+ RMSD / Nalign                        =    0.05738 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   22.151 A
+ SI = RMS * Nmin / Nmatch             =     22.15051
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04320
+ CR = Maiorov-Crippen RHO (0-2)       =      0.81010
+ RR = relative RMSD                   =      0.69579
+ NR = normalised RMSD (100)           =     13.222 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.738 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.487 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.385 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.100 A
+ RMSD / Nalign                        =    0.05738 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.95655853 -0.03917852  0.28889582
+                 -0.15333453  0.77519435  0.61283129
+                 -0.24796024 -0.63050675  0.73551136
+ Translation  :     -58.0575     44.4768     29.1315
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.9565585   -0.0391785    0.2888958                -58.057
+               -0.1533345    0.7751943    0.6128313                 44.477
+               -0.2479602   -0.6305068    0.7355114                 29.132
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                64.760      42.650     -68.532
+ Spherical polars Omega Phi Chi           94.818     156.646      42.808
+ Direction cosines of rotation axis    -0.914829    0.395010   -0.083994
+ X-PLOR polars Phi Psi Kappa              -5.246     -66.733      42.808
+ Lattmann Theta+ Theta2 Theta-             3.771      42.650     -46.708
+ Rotation angle                              42.808
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5573) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   20.689 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.941946  0.158382 -0.296064
+                -0.066604 -0.776098 -0.627086
+                -0.329093  0.610400 -0.720493
+ Translation :    -55.475    42.889    29.995
+ Maiorov-Crippen RHO (0-2)            =      0.75905
+ Estimated RMSD for 2 random proteins =     31.496 A
+ Relative RMSD                        =      0.65688
+ Normalised RMSD (100)                =     12.349 A
+ RMSD / Nalign                        =    0.05360 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   20.689 A
+ SI = RMS * Nmin / Nmatch             =     20.68877
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04611
+ CR = Maiorov-Crippen RHO (0-2)       =      0.75905
+ RR = relative RMSD                   =      0.65688
+ NR = normalised RMSD (100)           =     12.349 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.360 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.389 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.360 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.093 A
+ RMSD / Nalign                        =    0.05360 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.94194561  0.15838178 -0.29606393
+                 -0.06660444 -0.77609760 -0.62708575
+                 -0.32909343  0.61039978 -0.72049272
+ Translation  :     -55.4755     42.8891     29.9949
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.9419456    0.1583818   -0.2960639                -55.475
+               -0.0666044   -0.7760976   -0.6270857                 42.889
+               -0.3290934    0.6103998   -0.7204927                 29.995
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                64.727    -136.095    -118.331
+ Spherical polars Omega Phi Chi          100.301       1.529     141.016
+ Direction cosines of rotation axis     0.983533    0.026251   -0.178815
+ X-PLOR polars Phi Psi Kappa            -169.696      91.504     141.016
+ Lattmann Theta+ Theta2 Theta-          -306.396     136.095       3.058
+ Rotation angle                             141.016
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5572) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   21.037 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.952928 -0.258939 -0.157730
+                -0.049597 -0.646345  0.761432
+                -0.299112 -0.717767 -0.628763
+ Translation :    -56.444    43.072    29.780
+ Maiorov-Crippen RHO (0-2)            =      0.77033
+ Estimated RMSD for 2 random proteins =     31.604 A
+ Relative RMSD                        =      0.66565
+ Normalised RMSD (100)                =     12.557 A
+ RMSD / Nalign                        =    0.05450 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   21.037 A
+ SI = RMS * Nmin / Nmatch             =     21.03748
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04538
+ CR = Maiorov-Crippen RHO (0-2)       =      0.77033
+ RR = relative RMSD                   =      0.66565
+ NR = normalised RMSD (100)           =     12.557 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.450 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.412 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.366 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.095 A
+ RMSD / Nalign                        =    0.05450 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.95292819 -0.25893867 -0.15773019
+                 -0.04959740 -0.64634454  0.76143217
+                 -0.29911229 -0.71776712 -0.62876254
+ Translation  :     -56.4437     43.0720     29.7798
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.9529282   -0.2589387   -0.1577302                -56.444
+               -0.0495974   -0.6463445    0.7614322                 43.072
+               -0.2991123   -0.7177671   -0.6287625                 29.780
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma               101.703     128.959     -67.377
+ Spherical polars Omega Phi Chi           81.981     174.540     131.383
+ Direction cosines of rotation axis    -0.985729    0.094216    0.139504
+ X-PLOR polars Phi Psi Kappa               8.055     -84.594     131.383
+ Lattmann Theta+ Theta2 Theta-           -34.326     128.959     -10.920
+ Rotation angle                             131.383
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5573) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   21.381 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.953256 -0.161036  0.255675
+                -0.044257  0.762614  0.645337
+                -0.298904 -0.626487  0.719840
+ Translation :    -56.773    42.864    30.038
+ Maiorov-Crippen RHO (0-2)            =      0.78739
+ Estimated RMSD for 2 random proteins =     31.524 A
+ Relative RMSD                        =      0.67824
+ Normalised RMSD (100)                =     12.762 A
+ RMSD / Nalign                        =    0.05539 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   21.381 A
+ SI = RMS * Nmin / Nmatch             =     21.38098
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04468
+ CR = Maiorov-Crippen RHO (0-2)       =      0.78739
+ RR = relative RMSD                   =      0.67824
+ NR = normalised RMSD (100)           =     12.762 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.539 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.435 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.372 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.096 A
+ RMSD / Nalign                        =    0.05539 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.95325637 -0.16103593  0.25567499
+                 -0.04425703  0.76261449  0.64533746
+                 -0.29890397 -0.62648743  0.71984017
+ Translation  :     -56.7733     42.8645     30.0380
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.9532564   -0.1610359    0.2556750                -56.773
+               -0.0442570    0.7626145    0.6453375                 42.864
+               -0.2989040   -0.6264874    0.7198402                 30.038
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma                68.387      43.959     -64.494
+ Spherical polars Omega Phi Chi           85.189     156.440      44.122
+ Direction cosines of rotation axis    -0.913415    0.398294    0.083870
+ X-PLOR polars Phi Psi Kappa               5.246     -66.528      44.122
+ Lattmann Theta+ Theta2 Theta-            -3.893      43.959     -47.119
+ Rotation angle                              44.122
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5572) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   22.380 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.971631 -0.212391 -0.104035
+                -0.056708 -0.636280  0.769371
+                -0.229603 -0.741645 -0.630274
+ Translation :    -59.091    42.837    29.272
+ Maiorov-Crippen RHO (0-2)            =      0.81695
+ Estimated RMSD for 2 random proteins =     31.925 A
+ Relative RMSD                        =      0.70101
+ Normalised RMSD (100)                =     13.358 A
+ RMSD / Nalign                        =    0.05798 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   22.380 A
+ SI = RMS * Nmin / Nmatch             =     22.37963
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04277
+ CR = Maiorov-Crippen RHO (0-2)       =      0.81695
+ RR = relative RMSD                   =      0.70101
+ NR = normalised RMSD (100)           =     13.358 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.798 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.502 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.389 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.101 A
+ RMSD / Nalign                        =    0.05798 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.97163105 -0.21239087 -0.10403463
+                 -0.05670757 -0.63628012  0.76937109
+                 -0.22960255 -0.74164528 -0.63027364
+ Translation  :     -59.0909     42.8370     29.2724
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.9716311   -0.2123909   -0.1040346                -59.091
+               -0.0567076   -0.6362801    0.7693711                 42.837
+               -0.2296025   -0.7416453   -0.6302736                 29.272
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                97.701     129.070     -72.798
+ Spherical polars Omega Phi Chi           84.138     175.250     130.350
+ Direction cosines of rotation axis    -0.991353    0.082383    0.102141
+ X-PLOR polars Phi Psi Kappa               5.883     -85.274     130.350
+ Lattmann Theta+ Theta2 Theta-           -24.903     129.070      -9.501
+ Rotation angle                             130.350
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     VIRAL PROTEIN/DE NOVO PROTEIN           14-MAR-11   3R2X
+ TITLE  :     CRYSTAL STRUCTURE OF THE DE NOVO DESIGNED BINDING PROTEIN HB36.3 IN
+ TITLE  :    2 COMPLEX THE THE 1918 INFLUENZA VIRUS HEMAGGLUTININ
+ KEYWDS :     HEMAGGLUTININ, GLYCOPROTEIN, VIRAL PROTEIN-DE NOVO PROTEIN COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     D.C.EKIERT,I.A.WILSON
+ REVDAT :    2   25-MAY-11 3R2X    1       JRNL
+ REVDAT :    1   11-MAY-11 3R2X    0
+ CRYST1 :   130.054  130.054  313.735  90.00  90.00 120.00 H 3 2        18
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Old chain |A| becomes chain D
+ Nr of lines read from file : (       9887) 
+ Nr of atoms in molecule    : (       4608) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (         64) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |C| becomes chain C
+ Nr of lines read from file : (       5573) 
+ Nr of atoms in molecule    : (       4528) 
+ Nr of chains or models     : (          3) 
+ Stripped hydrogen atoms    : (       1036) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-331 B1-179 C1-90
+ And             M2 A1 B1 C1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        386) 
+ Nr skipped (B limits) : (          0) 
+
+ The    386 atoms have an RMS distance of   21.314 A
+ RMS delta B  =  163.603 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.939610 -0.266060 -0.215276
+                -0.012883 -0.656061  0.754597
+                -0.342003 -0.706254 -0.619870
+ Translation :    -55.184    42.323    30.492
+ Maiorov-Crippen RHO (0-2)            =      0.78575
+ Estimated RMSD for 2 random proteins =     31.487 A
+ Relative RMSD                        =      0.67692
+ Normalised RMSD (100)                =     12.722 A
+ RMSD / Nalign                        =    0.05522 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-331 B1-179 C1-90 M2 A1 B1 C1) 
+ The    386 atoms have an RMS distance of   21.314 A
+ SI = RMS * Nmin / Nmatch             =     21.31408
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04481
+ CR = Maiorov-Crippen RHO (0-2)       =      0.78575
+ RR = relative RMSD                   =      0.67692
+ NR = normalised RMSD (100)           =     12.722 A
+ SAS(1) = cRMS * (100/Nmatch)         =      5.522 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.431 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.371 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.096 A
+ RMSD / Nalign                        =    0.05522 A
+ RMS delta B for matched atoms        =   163.603 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.93961036 -0.26606029 -0.21527606
+                 -0.01288301 -0.65606105  0.75459749
+                 -0.34200275 -0.70625442 -0.61986953
+ Translation  :     -55.1839     42.3231     30.4919
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.9396104   -0.2660603   -0.2152761                -55.184
+               -0.0128830   -0.6560611    0.7545975                 42.323
+               -0.3420027   -0.7062544   -0.6198695                 30.492
+ Determinant of rotation matrix         0.999999
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma               105.923     128.307     -64.161
+ Spherical polars Omega Phi Chi           80.204     175.042     131.925
+ Direction cosines of rotation axis    -0.981732    0.085164    0.170142
+ X-PLOR polars Phi Psi Kappa               9.832     -85.115     131.925
+ Lattmann Theta+ Theta2 Theta-           -41.761     128.307      -9.916
+ Rotation angle                             131.925
+ LSQMAN >  Bring Mol 2 on top of Mol 1 ...
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       4528) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  LSQMAN > 
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ Version - 081126/9.7.9
+ Started - Mon Aug 5 14:42:57 2013
+ Stopped - Mon Aug 5 14:42:58 2013
+
+ CPU-time taken :
+ User    -      1.0 Sys    -      0.0 Total   -      1.0
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+
+ >>>>>>>>>>>>>> USF .... Uppsala Software Factory <<<<<<<<<<<<<<
+ >>>>>>>>>> This program: (c) 1992-2009, G J Kleywegt <<<<<<<<<<
+ >>>>>>>>>>>>>>>> E-mail: gerard@xray.bmc.uu.se <<<<<<<<<<<<<<<<
+ >>>>>>>>>>>>>>>>>> http://xray.bmc.uu.se/usf <<<<<<<<<<<<<<<<<<
+
+ *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
+

@@ -1,0 +1,12 @@
+x1=[0.998,1.0,0.998,1.0,1.0,0.999,0.999,1.0,0.999,0.997];
+y1=[-137.4067324960868,-137.4067324960868,-137.4067324960868,-137.4067324960868,-7.175111045187817,-6.321226098440852,-6.149392970170062,-5.675085618346801,-2.596921025464419,222.70468683187755];
+x2=[0.06499999999999995,0.08000000000000007,0.06499999999999995,0.08000000000000007,0.07599999999999996,0.281,0.0030000000000000027,0.133,0.256,0.138];
+y2=[-137.4067324960868,-137.4067324960868,-137.4067324960868,-137.4067324960868,-7.175111045187817,-6.321226098440852,-6.149392970170062,-5.675085618346801,-2.596921025464419,222.70468683187755];
+figure1 = figure; 
+axes1 = axes('Parent',figure1,'LineWidth',5,'FontWeight','bold','FontSize',36,'FontName','TimesNewRoman','CLim',[0 1]); 
+hold(axes1,'all'); 
+scatter(x1,y1,100,'black','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','Without iteration'); 
+scatter(x2,y2,100,'red','MarkerFaceColor','flat','MarkerEdgeColor','none','Parent',axes1,'DisplayName','With iteration'); 
+xlabel({'LRMS (A)'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman'); 
+ylabel({'Score'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman'); 
+title({'CAPRI Target 15'},'FontWeight','bold','FontSize',72,'FontName','Times New Roman');

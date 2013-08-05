@@ -7,11 +7,11 @@
  Others   - T.A. Jones, G. Bricogne, Rams, W.A. Hendrickson
  Others   - W. Kabsch, CCP4, PROTEIN, E. Dodson, etc. etc.
 
- Started  - Tue Jul 23 06:59:58 2013
+ Started  - Mon Aug 5 14:42:08 2013
  User     - A. Nonymous
  Mode     - interactive
  Host     - localhost (OSX/Apple)
- ProcID   - 4861
+ ProcID   - 14249
  Not using a tty as input device
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
@@ -108,7 +108,7 @@
 
  *** BLOSUM-45 substitution matrix loaded ***
 
- Symbol START_TIME : (Tue Jul 23 06:59:58 2013) 
+ Symbol START_TIME : (Mon Aug  5 14:42:08 2013) 
  Symbol USERNAME : ( ) 
 
  Initialising : (XVRML - 20051205/0.8) 
@@ -211,116 +211,938 @@
  Max nr of atoms per molecule    : (     200000) 
  Max nr of atom types            : (         15) 
 
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+
+ The     87 atoms have an RMS distance of    0.002 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.431615 -0.094394 -0.897105
+                 0.037701  0.995528 -0.086612
+                 0.901269  0.003561  0.433244
+ Translation :    -10.083    39.702    -1.522
+ Maiorov-Crippen RHO (0-2)            =      0.00015
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00014
+ Normalised RMSD (100)                =      0.002 A
+ RMSD / Nalign                        =    0.00002 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.002 A
+ SI = RMS * Nmin / Nmatch             =      0.00183
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.99818
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00015
+ RR = relative RMSD                   =      0.00014
+ NR = normalised RMSD (100)           =      0.002 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.002 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.002 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.003 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.003 A
+ RMSD / Nalign                        =    0.00002 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.43161547 -0.09439424 -0.89710522
+                  0.03770073  0.99552846 -0.08661184
+                  0.90126944  0.00356149  0.43324423
+ Translation  :     -10.0827     39.7021     -1.5216
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.4316155   -0.0943942   -0.8971052                -10.083
+                0.0377007    0.9955285   -0.0866118                 39.702
+                0.9012694    0.0035615    0.4332442                 -1.522
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                 5.515     -64.326      -0.226
+ Spherical polars Omega Phi Chi           85.804     -87.130      64.520
+ Direction cosines of rotation axis     0.049944   -0.996069    0.073164
+ X-PLOR polars Phi Psi Kappa             124.319       5.082      64.520
+ Lattmann Theta+ Theta2 Theta-            -5.288      64.326     185.741
+ Rotation angle                              64.520
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+ WARNING - Reset negative RMSD in LSQGJK : ( -1.689E-03) 
+
+ The     87 atoms have an RMS distance of    0.000 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.431616  0.094394  0.897105
+                 0.037701 -0.995528  0.086612
+                 0.901269 -0.003561 -0.433244
+ Translation :    -10.083    39.702    -1.522
+ Maiorov-Crippen RHO (0-2)            =      0.00000
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00000
+ Normalised RMSD (100)                =      0.000 A
+ RMSD / Nalign                        =    0.00000 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.000 A
+ SI = RMS * Nmin / Nmatch             =      0.00000
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      1.00000
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00000
+ RR = relative RMSD                   =      0.00000
+ NR = normalised RMSD (100)           =      0.000 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.000 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.000 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.000 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.000 A
+ RMSD / Nalign                        =    0.00000 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.43161553  0.09439421  0.89710516
+                  0.03770073 -0.99552846  0.08661181
+                  0.90126938 -0.00356149 -0.43324429
+ Translation  :     -10.0828     39.7021     -1.5216
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.4316155    0.0943942    0.8971052                -10.083
+                0.0377007   -0.9955285    0.0866118                 39.702
+                0.9012694   -0.0035615   -0.4332443                 -1.522
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                 5.515     115.674    -179.774
+ Spherical polars Omega Phi Chi          122.130    -177.356     176.945
+ Direction cosines of rotation axis    -0.845922   -0.039065   -0.531846
+ X-PLOR polars Phi Psi Kappa             -32.158     -92.239     176.945
+ Lattmann Theta+ Theta2 Theta-           174.259     115.674       5.288
+ Rotation angle                             176.945
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+
+ The     87 atoms have an RMS distance of    0.002 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.431615 -0.094394 -0.897105
+                 0.037701  0.995528 -0.086612
+                 0.901269  0.003561  0.433244
+ Translation :    -10.083    39.702    -1.522
+ Maiorov-Crippen RHO (0-2)            =      0.00015
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00014
+ Normalised RMSD (100)                =      0.002 A
+ RMSD / Nalign                        =    0.00002 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.002 A
+ SI = RMS * Nmin / Nmatch             =      0.00183
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.99818
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00015
+ RR = relative RMSD                   =      0.00014
+ NR = normalised RMSD (100)           =      0.002 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.002 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.002 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.003 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.003 A
+ RMSD / Nalign                        =    0.00002 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.43161547 -0.09439424 -0.89710522
+                  0.03770073  0.99552846 -0.08661184
+                  0.90126944  0.00356149  0.43324423
+ Translation  :     -10.0827     39.7021     -1.5216
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.4316155   -0.0943942   -0.8971052                -10.083
+                0.0377007    0.9955285   -0.0866118                 39.702
+                0.9012694    0.0035615    0.4332442                 -1.522
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                 5.515     -64.326      -0.226
+ Spherical polars Omega Phi Chi           85.804     -87.130      64.520
+ Direction cosines of rotation axis     0.049944   -0.996069    0.073164
+ X-PLOR polars Phi Psi Kappa             124.319       5.082      64.520
+ Lattmann Theta+ Theta2 Theta-            -5.288      64.326     185.741
+ Rotation angle                              64.520
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+ WARNING - Reset negative RMSD in LSQGJK : ( -1.689E-03) 
+
+ The     87 atoms have an RMS distance of    0.000 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.431616  0.094394  0.897105
+                 0.037701 -0.995528  0.086612
+                 0.901269 -0.003561 -0.433244
+ Translation :    -10.083    39.702    -1.522
+ Maiorov-Crippen RHO (0-2)            =      0.00000
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00000
+ Normalised RMSD (100)                =      0.000 A
+ RMSD / Nalign                        =    0.00000 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.000 A
+ SI = RMS * Nmin / Nmatch             =      0.00000
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      1.00000
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00000
+ RR = relative RMSD                   =      0.00000
+ NR = normalised RMSD (100)           =      0.000 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.000 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.000 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.000 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.000 A
+ RMSD / Nalign                        =    0.00000 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.43161553  0.09439421  0.89710516
+                  0.03770073 -0.99552846  0.08661181
+                  0.90126938 -0.00356149 -0.43324429
+ Translation  :     -10.0828     39.7021     -1.5216
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.4316155    0.0943942    0.8971052                -10.083
+                0.0377007   -0.9955285    0.0866118                 39.702
+                0.9012694   -0.0035615   -0.4332443                 -1.522
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                 5.515     115.674    -179.774
+ Spherical polars Omega Phi Chi          122.130    -177.356     176.945
+ Direction cosines of rotation axis    -0.845922   -0.039065   -0.531846
+ X-PLOR polars Phi Psi Kappa             -32.158     -92.239     176.945
+ Lattmann Theta+ Theta2 Theta-           174.259     115.674       5.288
+ Rotation angle                             176.945
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+
+ The     87 atoms have an RMS distance of    0.000 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.101847 -0.824114  0.557192
+                 0.765303  0.422749  0.485381
+                -0.635561  0.376986  0.673753
+ Translation :     -1.759    19.868    38.917
+ Maiorov-Crippen RHO (0-2)            =      0.00004
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00004
+ Normalised RMSD (100)                =      0.001 A
+ RMSD / Nalign                        =    0.00001 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.000 A
+ SI = RMS * Nmin / Nmatch             =      0.00049
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.99951
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00004
+ RR = relative RMSD                   =      0.00004
+ NR = normalised RMSD (100)           =      0.001 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.001 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.001 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.001 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.001 A
+ RMSD / Nalign                        =    0.00001 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.10184681 -0.82411444  0.55719185
+                  0.76530313  0.42274922  0.48538050
+                 -0.63556147  0.37698618  0.67375296
+ Translation  :      -1.7591     19.8678     38.9172
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.1018468   -0.8241144    0.5571918                 -1.759
+                0.7653031    0.4227492    0.4853805                 19.868
+               -0.6355615    0.3769862    0.6737530                 38.917
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                41.060      47.643      30.674
+ Spherical polars Omega Phi Chi           36.999      95.193      84.308
+ Direction cosines of rotation axis    -0.054466    0.599331    0.798646
+ X-PLOR polars Phi Psi Kappa              86.099     -53.178      84.308
+ Lattmann Theta+ Theta2 Theta-           -71.734      47.643    -169.615
+ Rotation angle                              84.308
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+
+ The     87 atoms have an RMS distance of    0.001 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.566609 -0.785850 -0.247779
+                 0.591667  0.178736  0.786119
+                -0.573484 -0.592025  0.566235
+ Translation :    -14.174    24.816    37.008
+ Maiorov-Crippen RHO (0-2)            =      0.00005
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00005
+ Normalised RMSD (100)                =      0.001 A
+ RMSD / Nalign                        =    0.00001 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.001 A
+ SI = RMS * Nmin / Nmatch             =      0.00065
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.99935
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00005
+ RR = relative RMSD                   =      0.00005
+ NR = normalised RMSD (100)           =      0.001 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.001 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.001 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.001 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.001 A
+ RMSD / Nalign                        =    0.00001 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.56660879 -0.78584975 -0.24777941
+                  0.59166747  0.17873636  0.78611887
+                 -0.57348412 -0.59202486  0.56623530
+ Translation  :     -14.1735     24.8164     37.0079
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.5666088   -0.7858498   -0.2477794                -14.174
+                0.5916675    0.1787364    0.7861189                 24.816
+               -0.5734841   -0.5920249    0.5662353                 37.008
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma               107.495      55.512     -45.911
+ Spherical polars Omega Phi Chi           45.791     166.703      81.037
+ Direction cosines of rotation axis    -0.697589    0.164865    0.697272
+ X-PLOR polars Phi Psi Kappa              44.987     -80.511      81.037
+ Lattmann Theta+ Theta2 Theta-           -61.583      55.512     -26.594
+ Rotation angle                              81.037
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+
+ The     87 atoms have an RMS distance of    0.001 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.101850 -0.824115  0.557190
+                 0.765308  0.422748  0.485374
+                -0.635555  0.376987  0.673759
+ Translation :     -1.740    20.013    38.796
+ Maiorov-Crippen RHO (0-2)            =      0.00007
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00007
+ Normalised RMSD (100)                =      0.001 A
+ RMSD / Nalign                        =    0.00001 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.001 A
+ SI = RMS * Nmin / Nmatch             =      0.00089
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.99911
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00007
+ RR = relative RMSD                   =      0.00007
+ NR = normalised RMSD (100)           =      0.001 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.001 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.001 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.001 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.002 A
+ RMSD / Nalign                        =    0.00001 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.10185028 -0.82411492  0.55719030
+                  0.76530778  0.42274770  0.48537433
+                 -0.63555515  0.37698662  0.67375857
+ Translation  :      -1.7398     20.0133     38.7961
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.1018503   -0.8241149    0.5571903                 -1.740
+                0.7653078    0.4227477    0.4853743                 20.013
+               -0.6355551    0.3769866    0.6737586                 38.796
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma                41.059      47.642      30.675
+ Spherical polars Omega Phi Chi           36.999      95.192      84.308
+ Direction cosines of rotation axis    -0.054462    0.599328    0.798649
+ X-PLOR polars Phi Psi Kappa              86.099     -53.178      84.308
+ Lattmann Theta+ Theta2 Theta-           -71.734      47.642    -169.615
+ Rotation angle                              84.308
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+
+ The     87 atoms have an RMS distance of    0.000 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.101847 -0.824114  0.557192
+                 0.765303  0.422749  0.485381
+                -0.635561  0.376986  0.673753
+ Translation :     -1.759    19.868    38.917
+ Maiorov-Crippen RHO (0-2)            =      0.00004
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00004
+ Normalised RMSD (100)                =      0.001 A
+ RMSD / Nalign                        =    0.00001 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.000 A
+ SI = RMS * Nmin / Nmatch             =      0.00049
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.99951
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00004
+ RR = relative RMSD                   =      0.00004
+ NR = normalised RMSD (100)           =      0.001 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.001 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.001 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.001 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.001 A
+ RMSD / Nalign                        =    0.00001 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.10184681 -0.82411444  0.55719185
+                  0.76530313  0.42274922  0.48538050
+                 -0.63556147  0.37698618  0.67375296
+ Translation  :      -1.7591     19.8678     38.9172
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.1018468   -0.8241144    0.5571918                 -1.759
+                0.7653031    0.4227492    0.4853805                 19.868
+               -0.6355615    0.3769862    0.6737530                 38.917
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                41.060      47.643      30.674
+ Spherical polars Omega Phi Chi           36.999      95.193      84.308
+ Direction cosines of rotation axis    -0.054466    0.599331    0.798646
+ X-PLOR polars Phi Psi Kappa              86.099     -53.178      84.308
+ Lattmann Theta+ Theta2 Theta-           -71.734      47.643    -169.615
+ Rotation angle                              84.308
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+
+ The     87 atoms have an RMS distance of    0.001 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :   0.566609 -0.785850 -0.247779
+                 0.591667  0.178736  0.786119
+                -0.573484 -0.592025  0.566235
+ Translation :    -14.174    24.816    37.008
+ Maiorov-Crippen RHO (0-2)            =      0.00005
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00005
+ Normalised RMSD (100)                =      0.001 A
+ RMSD / Nalign                        =    0.00001 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.001 A
+ SI = RMS * Nmin / Nmatch             =      0.00065
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.99935
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00005
+ RR = relative RMSD                   =      0.00005
+ NR = normalised RMSD (100)           =      0.001 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.001 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.001 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.001 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.001 A
+ RMSD / Nalign                        =    0.00001 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :   0.56660879 -0.78584975 -0.24777941
+                  0.59166747  0.17873636  0.78611887
+                 -0.57348412 -0.59202486  0.56623530
+ Translation  :     -14.1735     24.8164     37.0079
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =     0.5666088   -0.7858498   -0.2477794                -14.174
+                0.5916675    0.1787364    0.7861189                 24.816
+               -0.5734841   -0.5920249    0.5662353                 37.008
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma               107.495      55.512     -45.911
+ Spherical polars Omega Phi Chi           45.791     166.703      81.037
+ Direction cosines of rotation axis    -0.697589    0.164865    0.697272
+ X-PLOR polars Phi Psi Kappa              44.987     -80.511      81.037
+ Lattmann Theta+ Theta2 Theta-           -61.583      55.512     -26.594
+ Rotation angle                              81.037
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/v7/pdb1v74.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  HEADER :     ANTIBIOTIC/IMMUNE SYSTEM                10-DEC-03   1V74
+ TITLE  :     RIBONUCLEASE-INHIBITOR COMPLEX
+ KEYWDS :     COLICIN D - IMMD COMPLEX, CYTOTOXICITY, TRANSFER RNASE,
+ KEYWDS :    2 PROTEIN-PROTEIN INHIBITION, ANTIBIOTIC/IMMUNE SYSTEM COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     M.GRAILLE,L.MORA,R.H.BUCKINGHAM,H.VAN TILBEURGH,M.DE
+ AUTHOR :    2 ZAMAROCZY
+ REVDAT :    3   24-FEB-09 1V74    1       VERSN
+ REVDAT :    2   26-APR-05 1V74    1       JRNL
+ REVDAT :    1   30-MAR-04 1V74    0
+ CRYST1 :    62.057   62.057  147.934  90.00  90.00  90.00 P 41 21 2     8
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |A| becomes chain C
+ Old chain |B| becomes chain D
+ Nr of lines read from file : (       2156) 
+ Nr of atoms in molecule    : (       1780) 
+ Nr of chains or models     : (          4) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        211) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       1142) 
+ Nr of atoms in molecule    : (       1138) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-107 B1-87
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (         87) 
+ Nr skipped (B limits) : (          0) 
+
+ The     87 atoms have an RMS distance of    0.003 A
+ RMS delta B  =   29.168 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.929511 -0.038263  0.366804
+                 0.347267  0.244028  0.905459
+                -0.124156  0.969013 -0.213539
+ Translation :     37.177    27.159    26.472
+ Maiorov-Crippen RHO (0-2)            =      0.00022
+ Estimated RMSD for 2 random proteins =     12.769 A
+ Relative RMSD                        =      0.00022
+ Normalised RMSD (100)                =      0.003 A
+ RMSD / Nalign                        =    0.00003 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-107 B1-87 M2 A1 B1) 
+ The     87 atoms have an RMS distance of    0.003 A
+ SI = RMS * Nmin / Nmatch             =      0.00281
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.99719
+ CR = Maiorov-Crippen RHO (0-2)       =      0.00022
+ RR = relative RMSD                   =      0.00022
+ NR = normalised RMSD (100)           =      0.003 A
+ SAS(1) = cRMS * (100/Nmatch)         =      0.003 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.004 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.004 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.005 A
+ RMSD / Nalign                        =    0.00003 A
+ RMS delta B for matched atoms        =    29.168 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.92951131 -0.03826316  0.36680362
+                  0.34726679  0.24402818  0.90545917
+                 -0.12415614  0.96901309 -0.21353941
+ Translation  :      37.1769     27.1586     26.4716
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.9295113   -0.0382632    0.3668036                 37.177
+                0.3472668    0.2440282    0.9054592                 27.159
+               -0.1241561    0.9690131   -0.2135394                 26.472
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma                67.947     102.330      82.699
+ Spherical polars Omega Phi Chi           52.090      82.624     161.716
+ Direction cosines of rotation axis     0.101287    0.782449    0.614424
+ X-PLOR polars Phi Psi Kappa              99.361     141.485     161.716
+ Lattmann Theta+ Theta2 Theta-          -150.646     102.330    -194.752
+ Rotation angle                             161.716
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       1138) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
  LSQMAN >  LSQMAN > 
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 
  Version - 081126/9.7.9
- Started - Tue Jul 23 06:59:58 2013
- Stopped - Tue Jul 23 06:59:58 2013
+ Started - Mon Aug 5 14:42:08 2013
+ Stopped - Mon Aug 5 14:42:08 2013
 
  CPU-time taken :
- User    -      0.0 Sys    -      0.0 Total   -      0.0
+ User    -      0.3 Sys    -      0.0 Total   -      0.3
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 

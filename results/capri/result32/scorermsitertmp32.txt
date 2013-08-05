@@ -7,11 +7,11 @@
  Others   - T.A. Jones, G. Bricogne, Rams, W.A. Hendrickson
  Others   - W. Kabsch, CCP4, PROTEIN, E. Dodson, etc. etc.
 
- Started  - Mon Jul 22 02:37:07 2013
+ Started  - Mon Aug 5 14:42:40 2013
  User     - A. Nonymous
  Mode     - interactive
  Host     - localhost (OSX/Apple)
- ProcID   - 20522
+ ProcID   - 14348
  Not using a tty as input device
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
@@ -108,7 +108,7 @@
 
  *** BLOSUM-45 substitution matrix loaded ***
 
- Symbol START_TIME : (Mon Jul 22 02:37:08 2013) 
+ Symbol START_TIME : (Mon Aug  5 14:42:40 2013) 
  Symbol USERNAME : ( ) 
 
  Initialising : (XVRML - 20051205/0.8) 
@@ -211,116 +211,1046 @@
  Max nr of atoms per molecule    : (     200000) 
  Max nr of atom types            : (         15) 
 
- LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   19.867 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.478259  0.847978  0.228477
+                 0.850406  0.382210  0.361561
+                 0.219270  0.367218 -0.903920
+ Translation :     40.923   -25.891   -36.840
+ Maiorov-Crippen RHO (0-2)            =      0.77165
+ Estimated RMSD for 2 random proteins =     29.959 A
+ Relative RMSD                        =      0.66313
+ Normalised RMSD (100)                =     11.427 A
+ RMSD / Nalign                        =    0.04536 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   19.867 A
+ SI = RMS * Nmin / Nmatch             =     19.86671
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04792
+ CR = Maiorov-Crippen RHO (0-2)       =      0.77165
+ RR = relative RMSD                   =      0.66313
+ NR = normalised RMSD (100)           =     11.427 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.536 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.036 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.236 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.054 A
+ RMSD / Nalign                        =    0.04536 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.47825861  0.84797823  0.22847693
+                  0.85040557  0.38220969  0.36156076
+                  0.21926956  0.36721757 -0.90392047
+ Translation  :      40.9229    -25.8911    -36.8399
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.4782586    0.8479782    0.2284769                 40.923
+                0.8504056    0.3822097    0.3615608                -25.891
+                0.2192696    0.3672176   -0.9039205                -36.840
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                57.710     154.678     120.842
+ Spherical polars Omega Phi Chi           77.339      58.434     179.683
+ Direction cosines of rotation axis     0.510755    0.831327    0.219180
+ X-PLOR polars Phi Psi Kappa             156.776     146.235     179.683
+ Lattmann Theta+ Theta2 Theta-           181.448     154.678     116.869
+ Rotation angle                             179.683
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   19.795 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.474762 -0.849647 -0.229570
+                 0.850121 -0.375191 -0.369494
+                 0.227807 -0.370584  0.900429
+ Translation :     40.887   -25.890   -36.950
+ Maiorov-Crippen RHO (0-2)            =      0.76772
+ Estimated RMSD for 2 random proteins =     29.979 A
+ Relative RMSD                        =      0.66028
+ Normalised RMSD (100)                =     11.386 A
+ RMSD / Nalign                        =    0.04519 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   19.795 A
+ SI = RMS * Nmin / Nmatch             =     19.79471
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04809
+ CR = Maiorov-Crippen RHO (0-2)       =      0.76772
+ RR = relative RMSD                   =      0.66028
+ NR = normalised RMSD (100)           =     11.386 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.519 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.032 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.236 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.054 A
+ RMSD / Nalign                        =    0.04519 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.47476164 -0.84964651 -0.22956976
+                  0.85012084 -0.37519139 -0.36949429
+                  0.22780693 -0.37058374  0.90042865
+ Translation  :      40.8871    -25.8896    -36.9499
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.4747616   -0.8496465   -0.2295698                 40.887
+                0.8501208   -0.3751914   -0.3694943                -25.890
+                0.2278069   -0.3705837    0.9004287                -36.950
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma                58.147     -25.786      58.420
+ Spherical polars Omega Phi Chi           15.061     -90.136     118.344
+ Direction cosines of rotation axis    -0.000619   -0.259839    0.965652
+ X-PLOR polars Phi Psi Kappa              89.963    -105.061     118.344
+ Lattmann Theta+ Theta2 Theta-          -116.567      25.786     179.727
+ Rotation angle                             118.344
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   19.697 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.340912 -0.280096 -0.897399
+                 0.939603 -0.132394 -0.315622
+                -0.030405 -0.950799  0.308314
+ Translation :     39.298   -28.650   -33.205
+ Maiorov-Crippen RHO (0-2)            =      0.74431
+ Estimated RMSD for 2 random proteins =     30.545 A
+ Relative RMSD                        =      0.64485
+ Normalised RMSD (100)                =     11.330 A
+ RMSD / Nalign                        =    0.04497 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   19.697 A
+ SI = RMS * Nmin / Nmatch             =     19.69684
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04832
+ CR = Maiorov-Crippen RHO (0-2)       =      0.74431
+ RR = relative RMSD                   =      0.64485
+ NR = normalised RMSD (100)           =     11.330 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.497 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.027 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.234 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.054 A
+ RMSD / Nalign                        =    0.04497 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.34091204 -0.28009602 -0.89739895
+                  0.93960321 -0.13239372 -0.31562227
+                 -0.03040543 -0.95079857  0.30831379
+ Translation  :      39.2980    -28.6503    -33.2047
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.3409120   -0.2800960   -0.8973989                 39.298
+                0.9396032   -0.1323937   -0.3156223                -28.650
+               -0.0304054   -0.9507986    0.3083138                -33.205
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                19.377     -72.042      91.832
+ Spherical polars Omega Phi Chi           41.386    -126.227     125.626
+ Direction cosines of rotation axis    -0.390717   -0.533316    0.750276
+ X-PLOR polars Phi Psi Kappa              62.491    -122.230     125.626
+ Lattmann Theta+ Theta2 Theta-          -111.209      72.042     107.546
+ Rotation angle                             125.626
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   19.763 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.348328  0.266669  0.898641
+                 0.936867  0.130516  0.324416
+                -0.030775  0.954910 -0.295296
+ Translation :     39.422   -28.626   -33.192
+ Maiorov-Crippen RHO (0-2)            =      0.74810
+ Estimated RMSD for 2 random proteins =     30.516 A
+ Relative RMSD                        =      0.64764
+ Normalised RMSD (100)                =     11.368 A
+ RMSD / Nalign                        =    0.04512 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   19.763 A
+ SI = RMS * Nmin / Nmatch             =     19.76333
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04816
+ CR = Maiorov-Crippen RHO (0-2)       =      0.74810
+ RR = relative RMSD                   =      0.64764
+ NR = normalised RMSD (100)           =     11.368 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.512 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.030 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.235 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.054 A
+ RMSD / Nalign                        =    0.04512 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.34832835  0.26666927  0.89864063
+                  0.93686736  0.13051550  0.32441553
+                 -0.03077486  0.95491016 -0.29529595
+ Translation  :      39.4218    -28.6256    -33.1924
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.3483284    0.2666693    0.8986406                 39.422
+                0.9368674    0.1305155    0.3244155                -28.626
+               -0.0307749    0.9549102   -0.2952960                -33.192
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)      0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                19.850     107.175      88.154
+ Spherical polars Omega Phi Chi           59.174      55.848     139.161
+ Direction cosines of rotation axis     0.482081    0.710638    0.512438
+ X-PLOR polars Phi Psi Kappa             133.252     135.287     139.161
+ Lattmann Theta+ Theta2 Theta-          -108.004     107.175    -248.304
+ Rotation angle                             139.161
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   19.670 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.490798  0.870651 -0.032939
+                 0.864609  0.491363  0.104950
+                 0.107560  0.023030 -0.993932
+ Translation :     42.158   -28.428   -35.615
+ Maiorov-Crippen RHO (0-2)            =      0.72812
+ Estimated RMSD for 2 random proteins =     31.037 A
+ Relative RMSD                        =      0.63375
+ Normalised RMSD (100)                =     11.314 A
+ RMSD / Nalign                        =    0.04491 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   19.670 A
+ SI = RMS * Nmin / Nmatch             =     19.66965
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04838
+ CR = Maiorov-Crippen RHO (0-2)       =      0.72812
+ RR = relative RMSD                   =      0.63375
+ NR = normalised RMSD (100)           =     11.314 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.491 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.025 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.234 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.053 A
+ RMSD / Nalign                        =    0.04491 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.49079794  0.87065059 -0.03293879
+                  0.86460871  0.49136257  0.10495049
+                  0.10756008  0.02303032 -0.99393183
+ Translation  :      42.1579    -28.4278    -35.6151
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.4907979    0.8706506   -0.0329388                 42.158
+                0.8646087    0.4913626    0.1049505                -28.428
+                0.1075601    0.0230303   -0.9939318                -35.615
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma               107.425     173.685     167.915
+ Spherical polars Omega Phi Chi           92.128    -120.245     175.332
+ Direction cosines of rotation axis    -0.503353   -0.863286   -0.037124
+ X-PLOR polars Phi Psi Kappa              -4.218    -149.687     175.332
+ Lattmann Theta+ Theta2 Theta-            84.661     173.685     119.510
+ Rotation angle                             175.332
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   17.889 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.491457  0.300466 -0.817429
+                 0.863000  0.294165 -0.410728
+                 0.117049 -0.907297 -0.403871
+ Translation :     42.200   -28.405   -35.690
+ Maiorov-Crippen RHO (0-2)            =      0.65825
+ Estimated RMSD for 2 random proteins =     30.903 A
+ Relative RMSD                        =      0.57889
+ Normalised RMSD (100)                =     10.290 A
+ RMSD / Nalign                        =    0.04084 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   17.889 A
+ SI = RMS * Nmin / Nmatch             =     17.88939
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.05294
+ CR = Maiorov-Crippen RHO (0-2)       =      0.65825
+ RR = relative RMSD                   =      0.57889
+ NR = normalised RMSD (100)           =     10.290 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.084 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.932 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.213 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.049 A
+ RMSD / Nalign                        =    0.04084 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.49145657  0.30046570 -0.81742918
+                  0.86300027  0.29416493 -0.41072756
+                  0.11704946 -0.90729654 -0.40387136
+ Translation  :      42.2000    -28.4049    -35.6900
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.4914566    0.3004657   -0.8174292                 42.200
+                0.8630003    0.2941649   -0.4107276                -28.405
+                0.1170495   -0.9072965   -0.4038714                -35.690
+ Determinant of rotation matrix         0.999999
+ Column-vector products (12,13,23)      0.000000    0.000000    0.000000
+ Crowther Alpha Beta Gamma                26.678    -113.820      82.649
+ Spherical polars Omega Phi Chi           62.006    -117.986     143.186
+ Direction cosines of rotation axis    -0.414343   -0.779741    0.469386
+ X-PLOR polars Phi Psi Kappa              48.564    -141.237     143.186
+ Lattmann Theta+ Theta2 Theta-          -109.327     113.820     124.029
+ Rotation angle                             143.186
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   17.439 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.509491 -0.286442  0.811400
+                 0.852475 -0.296318  0.430676
+                 0.117069  0.911124  0.395155
+ Translation :     42.230   -27.612   -35.556
+ Maiorov-Crippen RHO (0-2)            =      0.64771
+ Estimated RMSD for 2 random proteins =     30.606 A
+ Relative RMSD                        =      0.56980
+ Normalised RMSD (100)                =     10.031 A
+ RMSD / Nalign                        =    0.03982 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   17.439 A
+ SI = RMS * Nmin / Nmatch             =     17.43905
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.05423
+ CR = Maiorov-Crippen RHO (0-2)       =      0.64771
+ RR = relative RMSD                   =      0.56980
+ NR = normalised RMSD (100)           =     10.031 A
+ SAS(1) = cRMS * (100/Nmatch)         =      3.982 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.909 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.208 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.047 A
+ RMSD / Nalign                        =    0.03982 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.50949061 -0.28644150  0.81140041
+                  0.85247535 -0.29631764  0.43067583
+                  0.11706880  0.91112411  0.39515537
+ Translation  :      42.2300    -27.6124    -35.5559
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.5094906   -0.2864415    0.8114004                 42.230
+                0.8524753   -0.2963176    0.4306758                -27.612
+                0.1170688    0.9111241    0.3951554                -35.556
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000    0.000000   -0.000000
+ Crowther Alpha Beta Gamma                27.959      66.724      97.322
+ Spherical polars Omega Phi Chi           36.552      55.318     134.856
+ Direction cosines of rotation axis     0.338877    0.489737    0.803318
+ X-PLOR polars Phi Psi Kappa             112.872     119.323     134.856
+ Lattmann Theta+ Theta2 Theta-           234.720      66.724     110.637
+ Rotation angle                             134.856
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   18.494 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.500704 -0.741101 -0.447286
+                 0.855806 -0.346233 -0.384343
+                 0.129971 -0.575232  0.807598
+ Translation :     42.292   -27.751   -35.862
+ Maiorov-Crippen RHO (0-2)            =      0.68208
+ Estimated RMSD for 2 random proteins =     30.938 A
+ Relative RMSD                        =      0.59778
+ Normalised RMSD (100)                =     10.638 A
+ RMSD / Nalign                        =    0.04222 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   18.494 A
+ SI = RMS * Nmin / Nmatch             =     18.49411
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.05130
+ CR = Maiorov-Crippen RHO (0-2)       =      0.68208
+ RR = relative RMSD                   =      0.59778
+ NR = normalised RMSD (100)           =     10.638 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.222 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      0.964 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.220 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.050 A
+ RMSD / Nalign                        =    0.04222 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.50070375 -0.74110085 -0.44728649
+                  0.85580558 -0.34623316 -0.38434282
+                  0.12997139 -0.57523215  0.80759847
+ Translation  :      42.2917    -27.7508    -35.8619
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.5007038   -0.7411008   -0.4472865                 42.292
+                0.8558056   -0.3462332   -0.3843428                -27.751
+                0.1299714   -0.5752321    0.8075985                -35.862
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                40.672     -36.138      77.268
+ Spherical polars Omega Phi Chi           20.844    -108.298     121.310
+ Direction cosines of rotation axis    -0.111714   -0.337828    0.934555
+ X-PLOR polars Phi Psi Kappa              83.183    -109.745     121.310
+ Lattmann Theta+ Theta2 Theta-          -117.940      36.138     143.404
+ Rotation angle                             121.310
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   19.917 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.507237  0.651840 -0.563751
+                 0.856591  0.453196 -0.246710
+                 0.094675 -0.608044 -0.788238
+ Translation :     41.826   -26.955   -35.322
+ Maiorov-Crippen RHO (0-2)            =      0.75513
+ Estimated RMSD for 2 random proteins =     30.504 A
+ Relative RMSD                        =      0.65293
+ Normalised RMSD (100)                =     11.456 A
+ RMSD / Nalign                        =    0.04547 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   19.917 A
+ SI = RMS * Nmin / Nmatch             =     19.91711
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04781
+ CR = Maiorov-Crippen RHO (0-2)       =      0.75513
+ RR = relative RMSD                   =      0.65293
+ NR = normalised RMSD (100)           =     11.456 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.547 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.038 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.237 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.054 A
+ RMSD / Nalign                        =    0.04547 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.50723696  0.65183991 -0.56375122
+                  0.85659057  0.45319629 -0.24670984
+                  0.09467465 -0.60804433 -0.78823781
+ Translation  :      41.8264    -26.9548    -35.3224
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.5072370    0.6518399   -0.5637512                 41.826
+                0.8565906    0.4531963   -0.2467098                -26.955
+                0.0946746   -0.6080443   -0.7882378                -35.322
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000   -0.000000
+ Crowther Alpha Beta Gamma                23.635    -142.021      81.150
+ Spherical polars Omega Phi Chi           74.751    -118.757     157.093
+ Direction cosines of rotation axis    -0.464162   -0.845799    0.263018
+ X-PLOR polars Phi Psi Kappa              29.538    -147.758     157.093
+ Lattmann Theta+ Theta2 Theta-          -104.785     142.021     122.485
+ Rotation angle                             157.093
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  LSQMAN >  ERROR --- XOLASC - error #   2 while opening OLD file : /home/vikram/Protein-Docking/pdb.unzipped/wwpdb/pdb/bx/pdb3bx1.ent
- OPEN : (UNIT= 11 STATUS=OLD CAR_CONTROL= FORM=FORMATTED ACCESS=SEQUENTIAL)
-   
- Error : (No such file or directory) 
- Open with other name (Y/N) ? (N)  LSQMAN >  ERROR --- Mol not in memory
- LSQMAN >  ERROR --- Mol not in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
+ LSQMAN >  LSQMAN >  HEADER :     HYDROLASE/HYDROLASE INHIBITOR           11-JAN-08   3BX1
+ TITLE  :     COMPLEX BETWEEN THE BARLEY ALPHA-AMYLASE/SUBTILISIN
+ TITLE  :    2 INHIBITOR AND THE SUBTILISIN SAVINASE
+ KEYWDS :     COMPLEX (PROTEINASE/INHIBITOR) ENZYME INHIBITION, SAVINASE,
+ KEYWDS :    2 BARLEY ALPHA-AMYLASE/SUBTILISIN INHIBITOR, CALCIUM,
+ KEYWDS :    3 HYDROLASE, METAL-BINDING, PROTEASE, SECRETED, SERINE
+ KEYWDS :    4 PROTEASE, SPORULATION, ALPHA-AMYLASE INHIBITOR, PROTEASE
+ KEYWDS :    5 INHIBITOR, SERINE PROTEASE INHIBITOR, HYDROLASE/HYDROLASE
+ KEYWDS :    6 INHIBITOR COMPLEX
+ EXPDTA :     X-RAY DIFFRACTION
+ AUTHOR :     P.O.MICHEELSEN,J.VEVODOVA,K.WILSON,M.SKJOT
+ REVDAT :    2   24-FEB-09 3BX1    1       VERSN
+ REVDAT :    1   08-JUL-08 3BX1    0
+ CRYST1 :   100.637  100.637  216.242  90.00  90.00  90.00 P 41 21 2    16
+ Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Old chain |D| becomes chain C
+ Old chain |C| becomes chain D
+ Old chain |A| becomes chain E
+ Old chain |B| becomes chain F
+ Old chain |D| becomes chain G
+ Old chain |C| becomes chain H
+ Old chain |A| becomes chain I
+ Old chain |B| becomes chain J
+ Old chain |D| becomes chain K
+ Old chain |C| becomes chain L
+ Nr of lines read from file : (       8326) 
+ Nr of atoms in molecule    : (       7174) 
+ Nr of chains or models     : (         12) 
+ Stripped hydrogen atoms    : (          0) 
+ Nr of HETATMs              : (        608) 
+ Stripped alt. conf. atoms  : (         54) 
+ LSQMAN >  Old chain |A| becomes chain A
+ Old chain |B| becomes chain B
+ Nr of lines read from file : (       4050) 
+ Nr of atoms in molecule    : (       3284) 
+ Nr of chains or models     : (          2) 
+ Stripped hydrogen atoms    : (        762) 
+ Nr of HETATMs              : (          0) 
+ Stripped alt. conf. atoms  : (          0) 
+ LSQMAN >  Explicit fit of M1 A1-269 B1-181
+ And             M2 A1 B1
+ Atom types     | CA |
+ B-factor range used: -1000.00 - 10000.00 A2
+ Nr of atoms to match  : (        438) 
+ Nr skipped (B limits) : (          0) 
+
+ The    438 atoms have an RMS distance of   20.024 A
+ RMS delta B  =   31.492 A2
+ Corr. coeff. =      0.0000
+ Rotation    :  -0.475298 -0.668615  0.571880
+                 0.875069 -0.426740  0.228359
+                 0.091359  0.608973  0.787912
+ Translation :     42.086   -28.489   -35.236
+ Maiorov-Crippen RHO (0-2)            =      0.74488
+ Estimated RMSD for 2 random proteins =     30.976 A
+ Relative RMSD                        =      0.64644
+ Normalised RMSD (100)                =     11.518 A
+ RMSD / Nalign                        =    0.04572 A
+ LSQMAN >  Operator bringing : (M2) 
+ on top of         : (M1) 
+ Last command was  : (EX M1 A1-269 B1-181 M2 A1 B1) 
+ The    438 atoms have an RMS distance of   20.024 A
+ SI = RMS * Nmin / Nmatch             =     20.02411
+ MI = (1+Nmatch)/{(1+W*RMS)*(1+Nmin)} =      0.04756
+ CR = Maiorov-Crippen RHO (0-2)       =      0.74488
+ RR = relative RMSD                   =      0.64644
+ NR = normalised RMSD (100)           =     11.518 A
+ SAS(1) = cRMS * (100/Nmatch)         =      4.572 A
+ SAS(2) = cRMS * (100/Nmatch)^2       =      1.044 A
+ SAS(3) = cRMS * (100/Nmatch)^3       =      0.238 A
+ SAS(4) = cRMS * (100/Nmatch)^4       =      0.054 A
+ RMSD / Nalign                        =    0.04572 A
+ RMS delta B for matched atoms        =    31.492 A2
+ Corr. coefficient matched atom Bs    =        0.000
+ Rotation     :  -0.47529790 -0.66861486  0.57187957
+                  0.87506890 -0.42673951  0.22835931
+                  0.09135915  0.60897267  0.78791243
+ Translation  :      42.0861    -28.4890    -35.2360
+
+ Nr of RT operators :   1
+
+ RT-OP  1 =    -0.4752979   -0.6686149    0.5718796                 42.086
+                0.8750689   -0.4267395    0.2283593                -28.489
+                0.0913592    0.6089727    0.7879124                -35.236
+ Determinant of rotation matrix         1.000000
+ Column-vector products (12,13,23)     -0.000000   -0.000000    0.000000
+ Crowther Alpha Beta Gamma                21.767      38.009      98.532
+ Spherical polars Omega Phi Chi           21.658      51.618     123.853
+ Direction cosines of rotation axis     0.229155    0.289306    0.929403
+ X-PLOR polars Phi Psi Kappa             103.851     106.816     123.853
+ Lattmann Theta+ Theta2 Theta-           239.701      38.009     103.236
+ Rotation angle                             123.853
  LSQMAN >  Bring Mol 2 on top of Mol 1 ...
- ERROR --- Mol not in memory
- LSQMAN >  ERROR --- No mols in memory
- LSQMAN >  ERROR --- No mols in memory
+ Molecule 1 : (M1) 
+ Molecule 2 : (M2) 
+ Apply to mol 2 chain : (*) 
+ Applying operator to mol 2 ...
+ Updating selected chain(s)/zone ...
+ Nr of atoms moved : (       3284) 
+ Resetting ALL operators of mol 2 ...
+ LSQMAN >  Deleted : (M1) 
+ LSQMAN >  Deleted : (M2) 
  LSQMAN >  LSQMAN >  LSQMAN > 
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 
  Version - 081126/9.7.9
- Started - Mon Jul 22 02:37:07 2013
- Stopped - Mon Jul 22 02:37:08 2013
+ Started - Mon Aug 5 14:42:40 2013
+ Stopped - Mon Aug 5 14:42:41 2013
 
  CPU-time taken :
- User    -      0.0 Sys    -      0.0 Total   -      0.0
+ User    -      1.0 Sys    -      0.0 Total   -      1.0
 
  *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** LSQMAN *** 
 
