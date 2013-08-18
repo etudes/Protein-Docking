@@ -55,11 +55,12 @@ public class Runner {
 			if (code == null) break;
 			BufferedReader br2 = new BufferedReader(new FileReader(args[0].concat(filesep + "drugbank" + filesep + code + ".txt")));
 			String id2 = null;
+			boolean error = false;
 			while (id2 == null) {
 				String s = br2.readLine();
 				if (s == null) {
 					System.err.println("NO PDB ID FOR " + code);
-					System.exit(-1);
+					error = true;
 				}
 				StringTokenizer st = new StringTokenizer(s);
 				if (st.hasMoreTokens()) st.nextToken();
@@ -67,12 +68,16 @@ public class Runner {
 					s = br2.readLine();
 					if (s.equals("Not Available")) {
 						System.err.println("NO PDB ID FOR " + code);
-						System.exit(-1);
+						error = true;
 					}
 					id2 = s.toLowerCase();
 					break;
 				}
 			}
+			String filepath2 = args[1].concat(id2.substring(1,3).concat(filesep).concat("pdb").concat(id2).concat(".ent.gz"));
+			File test = new File(filepath2);
+			if (!test.exists()) error = true;
+			if (error) continue;
 			Drug drugtest = new Drug(code, id2, args[2], args[3], args[0], args[1], interfacesBase, probability, sum, Integer.parseInt(args[6]));
 			if (drugtest.getSimilarity() > 0) drugqueue.add(drugtest);
 		}
